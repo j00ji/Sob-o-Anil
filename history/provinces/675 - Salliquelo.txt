@@ -1,0 +1,21 @@
+# c_salliquelo
+
+# County Title
+title = c_salliquelo
+
+# Settlements
+max_settlements = 1
+
+b_salliqueo = tribal
+#b_pellegrini = city
+#b_tres_lomas = temple
+#b_catrilo = castle
+#b_quemu_quemu = city
+#b_casbas = temple
+#b_thompson = castle
+
+# Misc
+culture = contadino
+religion = platinean
+
+#History

@@ -1,0 +1,259 @@
+###ÄNSI
+
+cisplatinean = {
+	graphical_cultures = { byzantinegfx westerngfx }
+	
+	paranaense = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.0 0.7 0.52 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	greenbelly = {
+		graphical_cultures = { germangfx }
+		
+		color = { 0.0 0.8 0.6 } 
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	gaucho = {
+		graphical_cultures = { germangfx }
+		
+		color = { 0.2 0.4 1.0 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	hunsruckisch = {
+		graphical_cultures = { germangfx }
+		
+		color = { 0.45 0.45 0.45 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "fun "
+		male_patronym = "sohn"
+		female_patronym = "dochter"
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	talian = {
+		graphical_cultures = { italiangfx }
+		
+		color = { 0.75 0.7 0.2 }
+		
+		male_names = {
+			Abramo_Abraham Achilles_Achiles Adão_Adam Ado André_Andrew Aldo Alfredo_Alfred Antonio_Anthony Antón_Anthony Angelo_Angel Augusto_Augustus
+			Batista Benjamim_Benjamin Bendito_Benedict Beto_Robert Bieito Biel_Gabriel Bonifácio_Boniface Brais Breixo Breno
+			Caetano_Cajetan Carlos_Charles Carlo_Charles Cecilio Claudio_Claudius Cândido César_Caesar
+			Damião_Damian Dario Davi Demetrio_Demetrius Dinis_Dionysus Deogo_James Domingos_Dominic Domenico_Dominic Donato_Donatus Duarte
+			Edmundo_Edmund Eduardo_Edward Emilio_Aemilius Ennio Érico_Eric Estêvão_Stephen Enzo Ernesto_Ernest Eugênio_Eugene 
+			Fabian_Fabian Fausto_Faustin Felipe_Philip Fernando_Ferdinand Flávio_Flavius Francesco_Francis Francisco_Francis
+			Gabriel_Gabriel Gastão_Gaston Giovanni_John Giuseppe_Joseph Gonçalo_Gonzalo Graciano_Gratian Guga
+			Hélder Henrique_Henry Hugo Humberto
+			Inácio_Ignatius Isabel_Elizabeth Italo Itamar Ivo
+			Jerônimo João_John Joaquim_Joachim José_Joseph Jorge_George Júlio_Julius "Júlio César"
+			Leandro_Leander Léo_Leon Lipe_Philip Lúcio_Lucius Luigi_Louis Luiz_Louis
+			Marcelo_Marcellus Márcio Marcos_Mark Mário_Marius Mateus_Matthew Mauricio_Maurice
+			Narciso Natanael_Nathaniel Nicolau_Nicholas Nilton
+			Olavo Ovídio_Ovid Oscar_Oscar
+			Pascoal_Pascal Paolo_Paulus Paulo_Paul Pedro_Peter Pietro_Peter Pio
+			Quim
+			Rafael_Raphael Raimundo_Raymond Raul_Ralph Reinaldo_Ronald Remigio Renato Rodolfo_Rudolph Rodrigo_Roderick
+			Sergio_Sergius Severino_Severin Silvio_Silvius Simão_Simon
+			Tadeu_Thaddeus Tiago_James Timoteo_Timothy Tomas_Thomas Tonho_Anthony
+			Ulisses_Ulysses
+			Valentim_Valentine Valeriano_Valerian Valerio_Valerius Veríssimo Victorino_Victor Vinícius Virgilio_Virgil Vitor_Victor
+			Xavier_Xavier
+			Zé_Joseph
+		}
+		
+		female_names = {
+			Ada Amélia_Amelia Angélica Ana_Anne Andréa_Andrea 
+			Bárbara_Barbara Benigna Bianca Brenda Bruna
+			Carmo Catarina_Catherine Catina Cecília_Cecilia Cláudia Cristiane 
+			Danielle Denise
+			Elisabete_Elizabeth Eloísa_Heloise Eugênia_Eugenia Eulália Eva_Eve
+			Fatimá_Fatima Feliciana Felicidade Flávia_Flavia 
+			Gabrielle_Gabriele Giovanna 
+			Hermínia Helena_Helen
+			Ingrid Isabela_Elizabeth Isabel_Elizabeth Iris
+			Jacinta Joana_Joan Joaquima Josefa_Josephine Jovita
+			Leocádia Leonor_Eleanor Leticia Lía Lídia Lígia Lílian_Lillian Lúcia_Lucy Luisa_Louise Lurdes Luzia Lygia 
+			Madalena_magdalene Márcia Margarida_margaret Maria_Mary Marina Micaela_Michelle Môca_Monica
+			Nathália_Natalie Noela 
+			Ofélia_Ophelia Olalla Olívia_Olivia
+			Paolla Priscila Pia
+			Rafaela Raquel_Rachel Rebeca_Rebecca Rê Rosa_Rose
+			Sabrina Sara_Sarah Sofia_Sophia 
+			Teresa_Theresa
+			Úrsula_Ursula
+			Verônica_Veronica Vi
+		}
+		
+		from_dynasty_prefix = "di "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	rutenio = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.2 0.4 0.1 }
+		
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew
+			Bartosz_Bartolomeus Bezprym Boguchwal Bogumil Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj 
+			Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry 
+			Eustachy_Eustace 
+			Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon 
+			Henryk_Henry 
+			Imram Izbor 
+			Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George 
+			Karol_Charles Kazimierz_Casimir Konrad_Konrad Krystyn_Christian Krzeslaw 
+			Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj 
+			Nadbor Niezamysl 
+			Odon_Otto 
+			Pawel_Paul Pelka Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor 
+			Sambor Sedziej Sedzimir Sieciech Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav Szczesny_Felix 
+			Tomasz_Thomas Trojden Twardomir 
+			Usciech 
+			Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Vojtech Wojuta Wszebor_Vsebor 
+			Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat Zygmunt_Sigmund
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna 
+			Beata Bozena 
+			Danuta Dobrawa Dobronega 
+			Elzbieta_Elizabeth Eufemia_Euphemia Eufrozyna_Euphrosyne Ewa_Eva 
+			Gertruda_Gertrude Grzymislawa
+			Helena_Helen 
+			Jadwiga_Hedwig Jolanta_Yolanda Judyta_Judith 
+			Katarzyna_Catherine Kazimiera Kenna Kinga_Kunigunde Konstancja_Constance Krystyna_Christina Kunegunda_Kunigunde 
+			Lucja_Lucia Ludmila_Liudmila 
+			Magdalena_Magdalena Malgorzata Maria_Maria Matylda_Matilda Milena 
+			Nadzieja Nawoja 
+			Pechna 
+			Rycheza_Richeza Ryksa 
+			Salomea Samboja Scholastyka_Scholastica Smiechna Stanislawa Swietoslawa 
+			Wislawa Wojslawa_Vojslava Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "oski"
+		female_patronym = "oska"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier		
+	}
+	guacho = {
+			graphical_cultures = { southerngfx }
+		
+		color = { 0.7 0.2 0.2 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier		
+	}
+}

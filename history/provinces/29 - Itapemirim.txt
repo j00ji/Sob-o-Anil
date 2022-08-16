@@ -1,0 +1,21 @@
+# c_itapemirim
+
+# County Title
+title = c_itapemirim
+
+# Settlements
+max_settlements = 3
+
+b_castelo = castle
+b_itapemirim = city
+b_alegre = temple
+#b_aracui = castle
+#b_conduru = city
+#b_grandall = temple
+#b_igraex = castle
+
+# Misc
+culture = pomerisch
+religion = evangelical
+
+#History

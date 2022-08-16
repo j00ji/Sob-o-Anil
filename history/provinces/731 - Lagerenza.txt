@@ -1,0 +1,21 @@
+# c_lagerenza
+
+# County Title
+title = c_lagerenza
+
+# Settlements
+max_settlements = 2
+
+b_lagerenza = tribal
+#b_la_perdicion = city
+#b_mbarigui = temple
+#b_mayor = castle
+#b_pablito = city
+#b_defensores = temple
+#b_el_puente_2 = castle
+
+# Misc
+culture = nivacle
+religion = manredebu
+
+#History

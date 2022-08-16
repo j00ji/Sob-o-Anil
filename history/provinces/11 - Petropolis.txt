@@ -1,0 +1,21 @@
+# c_petropolis
+
+# County Title
+title = c_petropolis
+
+# Settlements
+max_settlements = 4
+
+b_petropolis = castle
+b_xerem = temple
+b_pau_grande = city
+#b_cavaru = castle
+#b_andrade_pinto = city
+#b_quarto_ingelheim = temple
+#b_castrioto = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History

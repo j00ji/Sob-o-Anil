@@ -1,0 +1,21 @@
+# c_inhapim
+
+# County Title
+title = c_inhapim
+
+# Settlements
+max_settlements = 4
+
+b_itajutiba = tribal
+#b_macadame = city
+#b_taruacu = temple
+#b_tarumirim = castle
+#b_bugre = city
+#b_sobralia = temple
+#b_sao_domingos_das_dores = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

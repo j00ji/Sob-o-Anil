@@ -1,0 +1,21 @@
+# c_medio_jaguaribe
+
+# County Title
+title = c_medio_jaguaribe
+
+# Settlements
+max_settlements = 2
+
+b_jaguaribara = tribal
+#b_poco_comprido = city
+#b_castanhao = temple
+#b_alto_santo = castle
+#b_iracema = city
+#b_jaguaribe = temple
+#b_pereiro = castle
+
+# Misc
+culture = sertanista
+religion = seladite
+
+#History

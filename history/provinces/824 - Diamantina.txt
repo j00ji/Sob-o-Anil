@@ -1,0 +1,21 @@
+# c_diamantina
+
+# County Title
+title = c_diamantina
+
+# Settlements
+max_settlements = 3
+
+b_tejuco = tribal
+#b_datas = city
+#b_gouveia = temple
+#b_guinda = castle
+#b_barao_de_guaicui = city
+#b_extracao = temple
+#b_sao_roberto = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

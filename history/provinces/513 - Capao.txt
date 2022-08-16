@@ -1,0 +1,21 @@
+# c_capao
+
+# County Title
+title = c_capao
+
+# Settlements
+max_settlements = 2
+
+b_lagamar = castle
+#b_ibotirama = city
+#b_boa_vista_do_lagamar = temple
+#b_javi = castle
+#b_muquem_do_sao_francisco = city
+#b_igarite = temple
+#b_ipucaba = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

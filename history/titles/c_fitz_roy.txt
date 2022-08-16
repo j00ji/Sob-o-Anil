@@ -1,0 +1,11 @@
+# e_patagonia
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_santa_cruz_de_patagonia
+}
+2368.1.10={
+	holder = 540007
+}

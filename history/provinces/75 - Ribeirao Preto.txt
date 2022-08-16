@@ -1,0 +1,21 @@
+# c_ribeirao_preto
+
+# County Title
+title = c_ribeirao_preto
+
+# Settlements
+max_settlements = 6
+
+b_palmeiras = castle
+b_vila_tiberio = city
+b_sao_simao = temple
+b_campos_eliseos = castle
+#b_dumont = city
+#b_bonfim_paulista = temple
+#b_vila_virginia = castle
+
+# Misc
+culture = camponeto
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_tandil
+
+# County Title
+title = c_tandil
+
+# Settlements
+max_settlements = 3
+
+b_tandil = castle
+b_la_piedra = temple
+#b_rauch = temple
+#b_gardey = castle
+#b_de_la_canal = city
+#b_el_centinela = temple
+#b_vanguardia = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

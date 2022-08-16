@@ -1,0 +1,21 @@
+# c_cisnes
+
+# County Title
+title = c_cisnes
+
+# Settlements
+max_settlements = 2
+
+b_puerto_cisnes = tribal
+#b_la_junta = city
+#b_la_tapera = temple
+#b_magdalena = castle
+#b_lago_verde = city
+#b_villa_amengual = temple
+#b_los_tires = castle
+
+# Misc
+culture = australino
+religion = calafatist
+
+#History

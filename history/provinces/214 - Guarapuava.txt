@@ -1,0 +1,21 @@
+# c_guarapuava
+
+# County Title
+title = c_guarapuava
+
+# Settlements
+max_settlements = 4
+
+b_guarapuava = castle
+b_entre_rios = temple
+b_pinhao = castle
+#b_turvo_2 = castle
+#b_leonopolis = city
+#b_guairaca = temple
+#b_serro_verde = castle
+
+# Misc
+culture = rutenio
+religion = orthodoxist
+
+#History

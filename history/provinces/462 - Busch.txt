@@ -1,0 +1,21 @@
+# c_busch
+
+# County Title
+title = c_busch
+
+# Settlements
+max_settlements = 2
+
+b_puerto_suarez = castle
+#b_puerto_quijarro = city
+#b_carmen_rivero = temple
+#b_yacuces = castle
+#b_santa_ana_de_chiquitos = city
+#b_yare = temple
+#b_paquio = castle
+
+# Misc
+culture = camba
+religion = catholic
+
+#History

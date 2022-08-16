@@ -1,0 +1,21 @@
+# c_alagoinhas
+
+# County Title
+title = c_alagoinhas
+
+# Settlements
+max_settlements = 3
+
+b_entre_rios_3 = castle
+#b_itanagra = city
+#b_mangue_seco = temple
+#b_cristinapolis = castle
+#b_tobias_barreto = city
+#b_umbauba = temple
+#b_itabaianinha = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

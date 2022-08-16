@@ -1,0 +1,39 @@
+#LA PLATA
+technology = {
+	titles = {
+		d_atlantico
+		d_azul
+		d_baires
+		d_blanca
+		d_corrientes
+		d_dolores
+		d_enterrios
+		d_interior
+		d_junin
+		d_la_pampa
+		d_lagunas
+		d_litoral
+		d_lower_parana
+		d_lujan
+		d_mardel
+		d_misiones
+		d_montevideo
+		d_paraguay
+		d_patagones
+		d_plata
+		d_tandil
+		d_trenque_lauquen
+		d_upper_paraguay
+		d_upper_parana
+	}
+	800 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2500 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

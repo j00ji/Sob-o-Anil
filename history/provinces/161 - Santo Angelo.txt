@@ -1,0 +1,21 @@
+# c_santo_angelo
+
+# County Title
+title = c_santo_angelo
+
+# Settlements
+max_settlements = 3
+
+b_santo_angelo = tribal
+#b_girua = city
+#b_passo_burmann = temple
+#b_mato_queimado = castle
+#b_eugenio_de_castro = city
+#b_catuipe = temple
+#b_eugenio_de_castro_2 = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

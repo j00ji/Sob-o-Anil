@@ -1,0 +1,21 @@
+# c_imbabura
+
+# County Title
+title = c_imbabura
+
+# Settlements
+max_settlements = 5
+
+b_ibarra = castle
+b_otavalo = city
+b_tulcan = temple
+b_atuntaqui = castle
+#b_cotacachi = city
+#b_urcuqui = temple
+#b_pimampiro = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

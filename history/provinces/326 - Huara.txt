@@ -1,0 +1,21 @@
+# c_huara
+
+# County Title
+title = c_huara
+
+# Settlements
+max_settlements = 2
+
+b_huara = castle
+#b_pisagua = city
+#b_colchane = temple
+#b_camina = castle
+#b_tarapaca = city
+#b_huarasina = temple
+#b_pachica = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

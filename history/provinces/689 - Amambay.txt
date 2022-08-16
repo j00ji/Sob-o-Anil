@@ -1,0 +1,21 @@
+# c_amambay
+
+# County Title
+title = c_amambay
+
+# Settlements
+max_settlements = 2
+
+b_caballero_2 = castle
+#b_sarambi = city
+#b_bado = temple
+#b_cerro_cora_2 = castle
+#b_zanja_pyta = city
+#b_la_irene = temple
+#b_punta_pora = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

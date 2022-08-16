@@ -1,0 +1,21 @@
+# c_luziania
+
+# County Title
+title = c_luziania
+
+# Settlements
+max_settlements = 2
+
+b_luziania = tribal
+#b_cristalina = city
+#b_domiciano = temple
+#b_ribeiro = castle
+#b_posto_corujao = city
+#b_maniatuba = temple
+#b_adelanapolis = castle
+
+# Misc
+culture = goyanense
+religion = modernists
+
+#History

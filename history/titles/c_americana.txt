@@ -1,0 +1,56 @@
+# e_vera_cruz
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2123.1.1 = { #Oliver Norton
+	holder = 120001
+}
+2165.6.29 = { #Albert Norton
+	holder = 120002
+}
+2173.2.20 = { #Albert Norton, grandson of Oliver
+	holder = 120003
+}
+2198.3.10 = { #Leonard Norton
+	holder = 120004
+}
+2213.5.9 = { #Ulysses Norton
+	holder = 120007
+}
+2223.9.3 = { #Thadeus Norton
+	holder = 120009
+}
+2230.10.16 = { #Sylvester I Norton
+	holder = 120015
+}
+2253.3.12 = { #Robert I Norton
+	holder = 120018
+}
+2278.12.31 = { #Laurence I Norton
+	holder = 120019
+}
+2279.5.8 = { #Laurence gives Americana to Miguel West
+	holder = 120035
+}
+2283.10.20 = { #Matthias West
+	holder = 120038
+}
+2300.2.5 = { #Victor I West
+	holder = 120040
+}
+2322.4.27 = { #Jackson I West
+	holder = 120043
+}
+2338.10.28 = { #Damien I West
+	holder = 120047
+}
+2350.10.31 = { #William I West
+	holder = 120049 
+}	
+2367.12.31 = { #Jaime I West
+	holder = 120051
+}

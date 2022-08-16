@@ -1,0 +1,21 @@
+# c_manabi
+
+# County Title
+title = c_manabi
+
+# Settlements
+max_settlements = 6
+
+b_portoviejo = castle
+b_manta = city
+b_chone = temple
+b_el_carmen = castle
+b_jipijapa = city
+#b_montecristi = temple
+#b_pedernales = castle
+
+# Misc
+culture = guayasense
+religion = tridentine
+
+#History

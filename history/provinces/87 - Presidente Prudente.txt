@@ -1,0 +1,21 @@
+# c_presidente_prudente
+
+# County Title
+title = c_presidente_prudente
+
+# Settlements
+max_settlements = 6
+
+b_forte_goulart = tribal
+b_montalvao = city
+b_floresta_do_sul = temple
+#b_ameliopolis = castle
+#b_estrela_do_norte = city
+#b_paranapanema_2 = temple
+#b_alvares_machado = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

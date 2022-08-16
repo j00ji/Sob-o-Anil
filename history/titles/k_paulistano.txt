@@ -1,0 +1,12 @@
+2364.1.25 = { 
+	holder = 110001 #Alexandre I Cantarini
+	law = crown_authority_1
+	law = centralization_1
+	law = succession_voting_power_1
+	law = law_voting_power_1
+	law = succ_feudal_elective
+}
+2365.3.15 = { #Alexandrite King's Peace
+	#law = vassal_wars_law_1 
+	#law = crown_authority_2
+}

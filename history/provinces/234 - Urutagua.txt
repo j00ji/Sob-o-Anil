@@ -1,0 +1,21 @@
+# c_urutagua
+
+# County Title
+title = c_urutagua
+
+# Settlements
+max_settlements = 2
+
+b_urutagua_2 = tribal
+#b_iassiara = city
+#b_mambai = temple
+#b_damianopolis = castle
+#b_nova_roma = city
+#b_veadeiros = temple
+#b_sitio_abadio = castle
+
+# Misc
+culture = goyanense
+religion = modernists
+
+#History

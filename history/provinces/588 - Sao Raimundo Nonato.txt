@@ -1,0 +1,21 @@
+# c_sao_raimundo_nonato
+
+# County Title
+title = c_sao_raimundo_nonato
+
+# Settlements
+max_settlements = 2
+
+b_guaribas = tribal
+#b_caracol_4 = city
+#b_bom_jesus_2 = temple
+#b_curimata_2 = castle
+#b_redencao_do_gurgueia = city
+#b_santa_luz = temple
+#b_cristino_castro = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

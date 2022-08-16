@@ -1,0 +1,21 @@
+# c_lago_argentino
+
+# County Title
+title = c_lago_argentino
+
+# Settlements
+max_settlements = 2
+
+b_lago_argentino = tribal
+#b_la_leona = city
+#b_helsingfors = temple
+#b_maria_elena_2 = castle
+#b_la_herradura = city
+#b_la_julia = temple
+#b_viedma_2 = castle
+
+# Misc
+culture = aonikenk
+religion = xoon
+
+#History

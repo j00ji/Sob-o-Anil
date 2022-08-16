@@ -1,0 +1,21 @@
+# c_suape
+
+# County Title
+title = c_suape
+
+# Settlements
+max_settlements = 4
+
+b_ipojuca = castle
+b_cabo_de_agostinho = temple
+#b_muro_alto = temple
+#b_coroa_grande = castle
+#b_escada = city
+#b_ruropolis = temple
+#b_camela = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

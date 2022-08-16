@@ -1,0 +1,21 @@
+# c_sao_jose_do_rio_preto
+
+# County Title
+title = c_sao_jose_do_rio_preto
+
+# Settlements
+max_settlements = 5
+
+b_forte_schmitt = tribal
+b_rio_turvo = city
+b_avanhandava = temple
+#b_talhado = castle
+#b_ibira = city
+#b_cedral = temple
+#b_benedito_lisboa = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

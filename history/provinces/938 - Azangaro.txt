@@ -1,0 +1,21 @@
+# c_azangaro
+
+# County Title
+title = c_azangaro
+
+# Settlements
+max_settlements = 4
+
+b_azangaro = castle
+b_huancane = city
+#b_putina = temple
+#b_moho = castle
+#b_chupa = city
+#b_vilquechico = temple
+#b_san_antonio_de_putina = castle
+
+# Misc
+culture = aymara
+religion = inti
+
+#History

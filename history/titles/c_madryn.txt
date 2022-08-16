@@ -1,0 +1,23 @@
+# e_patagonia
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_chubut
+}
+2305.6.16= {
+	holder=560001
+}
+2340.5.12= {
+	holder=560003
+	liege=d_biedma
+}
+2365.11.4= {
+	holder=560004
+	liege=d_biedma
+}
+2369.9.21= {
+	holder=560009
+	liege=d_biedma
+}

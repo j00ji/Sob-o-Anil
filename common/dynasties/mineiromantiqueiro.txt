@@ -1,0 +1,970 @@
+###ÄNSI
+
+280001 = {
+	name = "Xavier"
+	culture = mantiqueiro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+}
+
+
+####################
+##Random dynasties
+##Based on MG's senators and representatives
+##source: wikipedia
+##range: 280500+
+####################
+
+280500 = {
+	name = "Abi-Ackel"
+	culture = mantiqueiro
+	}
+280501 = {
+	name = "Abreu"
+	culture = mantiqueiro
+	}
+280502 = {
+	name = "Adauto"
+	culture = mantiqueiro
+	}
+280503 = {
+	name = "Aguiar"
+	culture = mantiqueiro
+	}
+280504 = {
+	name = "Albergaria"
+	culture = mantiqueiro
+	}
+280505 = {
+	name = "Aldo"
+	culture = mantiqueiro
+	}
+280506 = {
+	name = "Aleixo"
+	culture = mantiqueiro
+	}
+280507 = {
+	name = "Alkmin"
+	culture = mantiqueiro
+	}
+280508 = {
+	name = "Almeida"
+	culture = mantiqueiro
+	}
+280509 = {
+	name = "Alvim"
+	culture = mantiqueiro
+	}
+280510 = {
+	name = "Amorim"
+	culture = mantiqueiro
+	}
+280511 = {
+	name = "Ananias"
+	culture = mantiqueiro
+	}
+280512 = {
+	name = "Anghinetti"
+	culture = mantiqueiro
+	}
+280513 = {
+	name = "Anísio"
+	culture = mantiqueiro
+	}
+280514 = {
+	name = "Antônio"
+	culture = mantiqueiro
+	}
+280515 = {
+	name = "Arinos"
+	culture = mantiqueiro
+	}
+280516 = {
+	name = "Assad"
+	culture = mantiqueiro
+	}
+280517 = {
+	name = "Athayde"
+	culture = mantiqueiro
+	}
+280518 = {
+	name = "Avelino"
+	culture = mantiqueiro
+	}
+280519 = {
+	name = "Azeredo"
+	culture = mantiqueiro
+	}
+280520 = {
+	name = "Baccarini"
+	culture = mantiqueiro
+	}
+280521 = {
+	name = "Badaró"
+	culture = mantiqueiro
+	}
+280522 = {
+	name = "Balbi"
+	culture = mantiqueiro
+	}
+280523 = {
+	name = "Barbosa"
+	culture = mantiqueiro
+	}
+280524 = {
+	name = "Batista"
+	culture = mantiqueiro
+	}
+280525 = {
+	name = "Belato"
+	culture = mantiqueiro
+	}
+280526 = {
+	name = "Belém"
+	culture = mantiqueiro
+	}
+280527 = {
+	name = "Bernardes"
+	culture = mantiqueiro
+	}
+280528 = {
+	name = "Bernardino"
+	culture = mantiqueiro
+	}
+280529 = {
+	name = "Bernardo"
+	culture = mantiqueiro
+	}
+280530 = {
+	name = "Bessone"
+	culture = mantiqueiro
+	}
+280531 = {
+	name = "Bilac"
+	culture = mantiqueiro
+	}
+280532 = {
+	name = "Bisaglia"
+	culture = mantiqueiro
+	}
+280533 = {
+	name = "Bittencourt"
+	culture = mantiqueiro
+	}
+280534 = {
+	name = "Boaventura"
+	culture = mantiqueiro
+	}
+280535 = {
+	name = "Bonifácio"
+	culture = mantiqueiro
+	}
+280536 = {
+	name = "Botelho"
+	culture = mantiqueiro
+	}
+280537 = {
+	name = "Bouchardet"
+	culture = mantiqueiro
+	}
+280538 = {
+	name = "Branco"
+	culture = mantiqueiro
+	}
+280539 = {
+	name = "Brandão"
+	culture = mantiqueiro
+	}
+280540 = {
+	name = "Brant"
+	culture = mantiqueiro
+	}
+280541 = {
+	name = "Brasileiro"
+	culture = mantiqueiro
+	}
+280542 = {
+	name = "Campos"
+	culture = mantiqueiro
+	}
+280543 = {
+	name = "Canabrava"
+	culture = mantiqueiro
+	}
+280544 = {
+	name = "Cançado"
+	culture = mantiqueiro
+	}
+280545 = {
+	name = "Canedo"
+	culture = mantiqueiro
+	}
+280546 = {
+	name = "Capanema"
+	culture = mantiqueiro
+	}
+280547 = {
+	name = "Cardoso"
+	culture = mantiqueiro
+	}
+280548 = {
+	name = "Carmo"
+	culture = mantiqueiro
+	}
+280549 = {
+	name = "Carneiro"
+	culture = mantiqueiro
+	}
+280550 = {
+	name = "Carone"
+	culture = mantiqueiro
+	}
+280551 = {
+	name = "Carvalho"
+	culture = mantiqueiro
+	}
+280552 = {
+	name = "César"
+	culture = mantiqueiro
+	}
+280553 = {
+	name = "Chagas"
+	culture = mantiqueiro
+	}
+280554 = {
+	name = "Chaves"
+	culture = mantiqueiro
+	}
+280555 = {
+	name = "Chiaradia"
+	culture = mantiqueiro
+	}
+280556 = {
+	name = "Cícero"
+	culture = mantiqueiro
+	}
+280557 = {
+	name = "Coelho"
+	culture = mantiqueiro
+	}
+280558 = {
+	name = "Corrêa"
+	culture = mantiqueiro
+	}
+280559 = {
+	name = "Correia"
+	culture = mantiqueiro
+	}
+280560 = {
+	name = "Costa"
+	culture = mantiqueiro
+	}
+280561 = {
+	name = "Cotta"
+	culture = mantiqueiro
+	}
+280562 = {
+	name = "Cruz"
+	culture = mantiqueiro
+	}
+280563 = {
+	name = "Cunha"
+	culture = mantiqueiro
+	}
+280564 = {
+	name = "da Conceição"
+	culture = mantiqueiro
+	}
+280565 = {
+	name = "da Cunha"
+	culture = mantiqueiro
+	}
+280566 = {
+	name = "da Gama"
+	culture = mantiqueiro
+	}
+280567 = {
+	name = "da Mata"
+	culture = mantiqueiro
+	}
+280568 = {
+	name = "da Silva"
+	culture = mantiqueiro
+	}
+280569 = {
+	name = "da Veiga"
+	culture = mantiqueiro
+	}
+280570 = {
+	name = "Dantas"
+	culture = mantiqueiro
+	}
+280571 = {
+	name = "de Abreu"
+	culture = mantiqueiro
+	}
+280572 = {
+	name = "de Almeida"
+	culture = mantiqueiro
+	}
+280573 = {
+	name = "de Andrada"
+	culture = mantiqueiro
+	}
+280574 = {
+	name = "de Andrade"
+	culture = mantiqueiro
+	}
+280575 = {
+	name = "de Barros"
+	culture = mantiqueiro
+	}
+280576 = {
+	name = "de Carvalho"
+	culture = mantiqueiro
+	}
+280577 = {
+	name = "de Castro"
+	culture = mantiqueiro
+	}
+280578 = {
+	name = "de Lima"
+	culture = mantiqueiro
+	}
+280579 = {
+	name = "de Melo"
+	culture = mantiqueiro
+	}
+280580 = {
+	name = "de Mendonça"
+	culture = mantiqueiro
+	}
+280581 = {
+	name = "de Mesquita"
+	culture = mantiqueiro
+	}
+280582 = {
+	name = "de Morais"
+	culture = mantiqueiro
+	}
+280583 = {
+	name = "de Oliveira"
+	culture = mantiqueiro
+	}
+280584 = {
+	name = "de Paula"
+	culture = mantiqueiro
+	}
+280585 = {
+	name = "de Rezende"
+	culture = mantiqueiro
+	}
+280586 = {
+	name = "de Sousa"
+	culture = mantiqueiro
+	}
+280587 = {
+	name = "de Vasconcelos"
+	culture = mantiqueiro
+	}
+280588 = {
+	name = "Delgado"
+	culture = mantiqueiro
+	}
+280589 = {
+	name = "Deodato"
+	culture = mantiqueiro
+	}
+280590 = {
+	name = "Dias"
+	culture = mantiqueiro
+	}
+280591 = {
+	name = "Dib"
+	culture = mantiqueiro
+	}
+280592 = {
+	name = "Diniz"
+	culture = mantiqueiro
+	}
+280593 = {
+	name = "do Lago"
+	culture = mantiqueiro
+	}
+280594 = {
+	name = "do Nascimento"
+	culture = mantiqueiro
+	}
+280595 = {
+	name = "do Vale"
+	culture = mantiqueiro
+	}
+280596 = {
+	name = "dos Mares"
+	culture = mantiqueiro
+	}
+280597 = {
+	name = "dos Santos"
+	culture = mantiqueiro
+	}
+280598 = {
+	name = "Dulci"
+	culture = mantiqueiro
+	}
+280599 = {
+	name = "Dutra"
+	culture = mantiqueiro
+	}
+280600 = {
+	name = "Elísio"
+	culture = mantiqueiro
+	}
+280601 = {
+	name = "Eloy"
+	culture = mantiqueiro
+	}
+280602 = {
+	name = "Fagundes"
+	culture = mantiqueiro
+	}
+280603 = {
+	name = "Faria"
+	culture = mantiqueiro
+	}
+280604 = {
+	name = "Fassarella"
+	culture = mantiqueiro
+	}
+280605 = {
+	name = "Felipe"
+	culture = mantiqueiro
+	}
+280606 = {
+	name = "Ferramenta"
+	culture = mantiqueiro
+	}
+280607 = {
+	name = "Ferrara"
+	culture = mantiqueiro
+	}
+280608 = {
+	name = "Ferraz"
+	culture = mantiqueiro
+	}
+280609 = {
+	name = "Ferreira"
+	culture = mantiqueiro
+	}
+280610 = {
+	name = "Figueiredo"
+	culture = mantiqueiro
+	}
+280611 = {
+	name = "Fonseca"
+	culture = mantiqueiro
+	}
+280612 = {
+	name = "Fortes"
+	culture = mantiqueiro
+	}
+280613 = {
+	name = "Franco"
+	culture = mantiqueiro
+	}
+280614 = {
+	name = "Freire"
+	culture = mantiqueiro
+	}
+280615 = {
+	name = "Galassi"
+	culture = mantiqueiro
+	}
+280616 = {
+	name = "Gallo"
+	culture = mantiqueiro
+	}
+280617 = {
+	name = "Garcia"
+	culture = mantiqueiro
+	}
+280618 = {
+	name = "Gomes"
+	culture = mantiqueiro
+	}
+280619 = {
+	name = "Gonçalves"
+	culture = mantiqueiro
+	}
+280620 = {
+	name = "Guabiroba"
+	culture = mantiqueiro
+	}
+280621 = {
+	name = "Guerra"
+	culture = mantiqueiro
+	}
+280622 = {
+	name = "Guia"
+	culture = mantiqueiro
+	}
+280623 = {
+	name = "Guido"
+	culture = mantiqueiro
+	}
+280624 = {
+	name = "Guimarães"
+	culture = mantiqueiro
+	}
+280625 = {
+	name = "Henrique"
+	culture = mantiqueiro
+	}
+280626 = {
+	name = "Herculino"
+	culture = mantiqueiro
+	}
+280627 = {
+	name = "Heslander"
+	culture = mantiqueiro
+	}
+280628 = {
+	name = "Humberto"
+	culture = mantiqueiro
+	}
+280629 = {
+	name = "Jabur"
+	culture = mantiqueiro
+	}
+280630 = {
+	name = "Júlio"
+	culture = mantiqueiro
+	}
+280631 = {
+	name = "Júnior"
+	culture = mantiqueiro
+	}
+280632 = {
+	name = "Junqueira"
+	culture = mantiqueiro
+	}
+280633 = {
+	name = "Kubitschek"
+	culture = mantiqueiro
+	}
+280634 = {
+	name = "Lara"
+	culture = mantiqueiro
+	}
+280635 = {
+	name = "Leal"
+	culture = mantiqueiro
+	}
+280636 = {
+	name = "Leão"
+	culture = mantiqueiro
+	}
+280637 = {
+	name = "Leite"
+	culture = mantiqueiro
+	}
+280638 = {
+	name = "Libânio"
+	culture = mantiqueiro
+	}
+280639 = {
+	name = "Lima"
+	culture = mantiqueiro
+	}
+280640 = {
+	name = "Lobato"
+	culture = mantiqueiro
+	}
+280641 = {
+	name = "Lodi"
+	culture = mantiqueiro
+	}
+280642 = {
+	name = "Lopes"
+	culture = mantiqueiro
+	}
+280643 = {
+	name = "Lucas"
+	culture = mantiqueiro
+	}
+280644 = {
+	name = "Luciano"
+	culture = mantiqueiro
+	}
+280645 = {
+	name = "Luz"
+	culture = mantiqueiro
+	}
+280646 = {
+	name = "Machado"
+	culture = mantiqueiro
+	}
+280647 = {
+	name = "Maciel"
+	culture = mantiqueiro
+	}
+280648 = {
+	name = "Magalhães"
+	culture = mantiqueiro
+	}
+280649 = {
+	name = "Magno"
+	culture = mantiqueiro
+	}
+280650 = {
+	name = "Marise"
+	culture = mantiqueiro
+	}
+280651 = {
+	name = "Martins"
+	culture = mantiqueiro
+	}
+280652 = {
+	name = "Matos"
+	culture = mantiqueiro
+	}
+280653 = {
+	name = "Mattos"
+	culture = mantiqueiro
+	}
+280654 = {
+	name = "Medeiros"
+	culture = mantiqueiro
+	}
+280655 = {
+	name = "Medioli"
+	culture = mantiqueiro
+	}
+280656 = {
+	name = "Medrado"
+	culture = mantiqueiro
+	}
+280657 = {
+	name = "Melles"
+	culture = mantiqueiro
+	}
+280658 = {
+	name = "Mendes"
+	culture = mantiqueiro
+	}
+280659 = {
+	name = "Mendonça"
+	culture = mantiqueiro
+	}
+280660 = {
+	name = "Miranda"
+	culture = mantiqueiro
+	}
+280661 = {
+	name = "Monteiro"
+	culture = mantiqueiro
+	}
+280662 = {
+	name = "Moreira"
+	culture = mantiqueiro
+	}
+280663 = {
+	name = "Mosconi"
+	culture = mantiqueiro
+	}
+280664 = {
+	name = "Murad"
+	culture = mantiqueiro
+	}
+280665 = {
+	name = "Murilo"
+	culture = mantiqueiro
+	}
+280666 = {
+	name = "Murta"
+	culture = mantiqueiro
+	}
+280667 = {
+	name = "Naya"
+	culture = mantiqueiro
+	}
+280668 = {
+	name = "Negrão"
+	culture = mantiqueiro
+	}
+280669 = {
+	name = "Neiva"
+	culture = mantiqueiro
+	}
+280670 = {
+	name = "Neri"
+	culture = mantiqueiro
+	}
+280671 = {
+	name = "Neto"
+	culture = mantiqueiro
+	}
+280672 = {
+	name = "Neves"
+	culture = mantiqueiro
+	}
+280673 = {
+	name = "Nobre"
+	culture = mantiqueiro
+	}
+280674 = {
+	name = "Pacheco"
+	culture = mantiqueiro
+	}
+280675 = {
+	name = "Pádua"
+	culture = mantiqueiro
+	}
+280676 = {
+	name = "Paes"
+	culture = mantiqueiro
+	}
+280677 = {
+	name = "Palmério"
+	culture = mantiqueiro
+	}
+280678 = {
+	name = "Passos"
+	culture = mantiqueiro
+	}
+280679 = {
+	name = "Paulinelli"
+	culture = mantiqueiro
+	}
+280680 = {
+	name = "Paulo"
+	culture = mantiqueiro
+	}
+280681 = {
+	name = "Peixoto"
+	culture = mantiqueiro
+	}
+280682 = {
+	name = "Pena"
+	culture = mantiqueiro
+	}
+280683 = {
+	name = "Pereira"
+	culture = mantiqueiro
+	}
+280684 = {
+	name = "Perim"
+	culture = mantiqueiro
+	}
+280685 = {
+	name = "Perrella"
+	culture = mantiqueiro
+	}
+280686 = {
+	name = "Pimenta"
+	culture = mantiqueiro
+	}
+280687 = {
+	name = "Pinheiro"
+	culture = mantiqueiro
+	}
+280688 = {
+	name = "Pinto"
+	culture = mantiqueiro
+	}
+280689 = {
+	name = "Pires"
+	culture = mantiqueiro
+	}
+280690 = {
+	name = "Pompei"
+	culture = mantiqueiro
+	}
+280691 = {
+	name = "Portela"
+	culture = mantiqueiro
+	}
+280692 = {
+	name = "Porto"
+	culture = mantiqueiro
+	}
+280693 = {
+	name = "Prata"
+	culture = mantiqueiro
+	}
+280694 = {
+	name = "Queiroz"
+	culture = mantiqueiro
+	}
+280695 = {
+	name = "Raimundo"
+	culture = mantiqueiro
+	}
+280696 = {
+	name = "Reis"
+	culture = mantiqueiro
+	}
+280697 = {
+	name = "Renault"
+	culture = mantiqueiro
+	}
+280698 = {
+	name = "Resende"
+	culture = mantiqueiro
+	}
+280699 = {
+	name = "Rezende"
+	culture = mantiqueiro
+	}
+280700 = {
+	name = "Ribeiro"
+	culture = mantiqueiro
+	}
+280701 = {
+	name = "Rodrigues"
+	culture = mantiqueiro
+	}
+280702 = {
+	name = "Romano"
+	culture = mantiqueiro
+	}
+280703 = {
+	name = "Rosa"
+	culture = mantiqueiro
+	}
+280704 = {
+	name = "Santana"
+	culture = mantiqueiro
+	}
+280705 = {
+	name = "Santiago"
+	culture = mantiqueiro
+	}
+280706 = {
+	name = "Santos"
+	culture = mantiqueiro
+	}
+280707 = {
+	name = "Scarano"
+	culture = mantiqueiro
+	}
+280708 = {
+	name = "Seabra"
+	culture = mantiqueiro
+	}
+280709 = {
+	name = "Silvestre"
+	culture = mantiqueiro
+	}
+280710 = {
+	name = "Siqueira"
+	culture = mantiqueiro
+	}
+280711 = {
+	name = "Soares"
+	culture = mantiqueiro
+	}
+280712 = {
+	name = "Sobrinho"
+	culture = mantiqueiro
+	}
+280713 = {
+	name = "Souto"
+	culture = mantiqueiro
+	}
+280714 = {
+	name = "Starling"
+	culture = mantiqueiro
+	}
+280715 = {
+	name = "Tadeu"
+	culture = mantiqueiro
+	}
+280716 = {
+	name = "Tannus"
+	culture = mantiqueiro
+	}
+280717 = {
+	name = "Tavares"
+	culture = mantiqueiro
+	}
+280718 = {
+	name = "Taveira"
+	culture = mantiqueiro
+	}
+280719 = {
+	name = "Teixeira"
+	culture = mantiqueiro
+	}
+280720 = {
+	name = "Terra"
+	culture = mantiqueiro
+	}
+280721 = {
+	name = "Thibau"
+	culture = mantiqueiro
+	}
+280722 = {
+	name = "Tito"
+	culture = mantiqueiro
+	}
+280723 = {
+	name = "Tourinho"
+	culture = mantiqueiro
+	}
+280724 = {
+	name = "Ulisses"
+	culture = mantiqueiro
+	}
+280725 = {
+	name = "Valadares"
+	culture = mantiqueiro
+	}
+280726 = {
+	name = "Valente"
+	culture = mantiqueiro
+	}
+280727 = {
+	name = "Varella"
+	culture = mantiqueiro
+	}
+280728 = {
+	name = "Vargas"
+	culture = mantiqueiro
+	}
+280729 = {
+	name = "Vasconcelos"
+	culture = mantiqueiro
+	}
+280730 = {
+	name = "Vaz"
+	culture = mantiqueiro
+	}
+280731 = {
+	name = "Veloso"
+	culture = mantiqueiro
+	}
+280732 = {
+	name = "Viana"
+	culture = mantiqueiro
+	}
+280733 = {
+	name = "Vidigal"
+	culture = mantiqueiro
+	}
+280734 = {
+	name = "Viegas"
+	culture = mantiqueiro
+	}
+280735 = {
+	name = "Vieira"
+	culture = mantiqueiro
+	}
+280736 = {
+	name = "Vital"
+	culture = mantiqueiro
+	}
+280737 = {
+	name = "Werneck"
+	culture = mantiqueiro
+	}

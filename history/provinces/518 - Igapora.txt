@@ -1,0 +1,21 @@
+# c_igapora
+
+# County Title
+title = c_igapora
+
+# Settlements
+max_settlements = 2
+
+b_igapora_2 = tribal
+#b_tapiramuta = city
+#b_tanque_novo = temple
+#b_pajeu_do_vento = castle
+#b_riacho_de_santana = city
+#b_pinxico = temple
+#b_caldeiras = castle
+
+# Misc
+culture = chiconho
+religion = angel_cult
+
+#History

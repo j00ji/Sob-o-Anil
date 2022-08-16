@@ -1,0 +1,23 @@
+# c_ourinhos
+
+# County Title
+title = c_ourinhos
+
+# Settlements
+max_settlements = 5
+
+
+###everything WIP
+b_salto_grande = castle
+b_chavantes = city
+b_ribeirao_do_sul = temple
+#b_ibirarema = city
+#b_santa_cruz_rio_pardo = temple
+#b_sao_pedro_do_turvo = castle
+#b_timburi = castle
+
+# Misc
+culture = kyusei
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_ibirajuba
+
+# County Title
+title = c_ibirajuba
+
+# Settlements
+max_settlements = 2
+
+b_amaraji = castle
+b_vitoria_de_santo_antao = city
+#b_gravata = temple
+#b_ribeirao = castle
+#b_cha_grande = city
+#b_primavera_2 = temple
+#b_cortes = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

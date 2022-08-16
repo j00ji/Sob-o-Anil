@@ -1,0 +1,21 @@
+# c_gan_gan
+
+# County Title
+title = c_gan_gan
+
+# Settlements
+max_settlements = 2
+
+b_gan_gan = castle
+#b_gastre = city
+#b_talagapa = temple
+#b_el_cain = castle
+#b_trapalanda = city
+#b_linlin = temple
+#b_elelin = castle
+
+# Misc
+culture = desertico
+religion = evangelical
+
+#History

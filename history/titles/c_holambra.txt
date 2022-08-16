@@ -1,0 +1,33 @@
+# e_vera_cruz
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2252.10.3 = { #Robert I's inherits it from his mother.
+	holder = 120018
+}
+2278.12.31 = { #Laurence I Norton
+	holder = 120019
+}
+2288.1.13 = { #Harris I Norton
+	holder = 120023
+}
+2291.5.13 = { #Charles I Norton
+	holder = 120024
+}
+2294.9.12 = { #Reginald I Norton
+	holder = 120030
+}
+2298.11.11 = { #Anna I Norton 
+	holder = 120025
+}
+2303.10.5 = { #Victor I West
+	holder = 120040
+}
+2310.7.26 = { #Victor I West gives it to someone else.
+	liege = k_americano
+	holder = 0
+}

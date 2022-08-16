@@ -1,0 +1,21 @@
+# c_seabra
+
+# County Title
+title = c_seabra
+
+# Settlements
+max_settlements = 3
+
+b_itaquara = tribal
+#b_iguatemi_2 = city
+#b_ubiracaba = temple
+#b_castelo_branco = castle
+#b_cravolandia = city
+#b_irajuba = temple
+#b_stela_dubois = castle
+
+# Misc
+culture = ilhense
+religion = angel_cult
+
+#History

@@ -1,0 +1,21 @@
+# c_jaen
+
+# County Title
+title = c_jaen
+
+# Settlements
+max_settlements = 5
+
+b_jaen = castle
+b_cutervo = city
+b_san_ignacio_de_la_frontera = temple
+#b_santa_cruz_de_succhabamba = castle
+#b_bambamarca = city
+#b_pimpingos = temple
+#b_huarango = castle
+
+# Misc
+culture = huascareno
+religion = inkarri
+
+#History

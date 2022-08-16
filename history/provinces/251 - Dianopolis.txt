@@ -1,0 +1,21 @@
+# c_dianopolis
+
+# County Title
+title = c_dianopolis
+
+# Settlements
+max_settlements = 2
+
+b_dianopolis = tribal
+#b_arraias = city
+#b_taquatinga = temple
+#b_ponte_alta_do_bom_jesus = castle
+#b_aurora_do_tocantins = city
+#b_combinado = temple
+#b_almas = castle
+
+# Misc
+culture = araguaio
+religion = manredebu
+
+#History

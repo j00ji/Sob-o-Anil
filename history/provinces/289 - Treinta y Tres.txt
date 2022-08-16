@@ -1,0 +1,21 @@
+# c_treinta_y_tres
+
+# County Title
+title = c_treinta_y_tres
+
+# Settlements
+max_settlements = 1
+
+b_treinta_y_tres = tribal
+#b_jose_pedro_varela = city
+#b_vergara = temple
+#b_la_charqueada = castle
+#b_villa_sara = city
+#b_mendizabal = temple
+#b_valentines = castle
+
+# Misc
+culture = guacho
+religion = bandean
+
+#History

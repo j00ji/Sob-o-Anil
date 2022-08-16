@@ -1,0 +1,21 @@
+# c_ibiraba
+
+# County Title
+title = c_ibiraba
+
+# Settlements
+max_settlements = 2
+
+b_ibiraba_2 = castle
+#b_saldanha = city
+#b_morrinhos = temple
+#b_tamboril = castle
+#b_mocambo_do_vento = city
+#b_campo_alegre_2 = temple
+#b_paulista = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

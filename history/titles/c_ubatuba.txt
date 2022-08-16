@@ -1,0 +1,48 @@
+# e_vera_cruz
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2140.1.1 = {
+	holder = 110210 #Paulo de Camargo
+}
+2180.7.5 = {
+	holder = 110211 #Eduardo de Camargo
+}
+2186.11.3 = {
+	holder = 110212 #João de Camargo
+}
+2192.12.5 = { #Conquest of Ubatuba, Clemente
+	holder = 110214 #Enzo de Camargo
+	liege = d_santos
+}
+2193.11.2 = { #Clemente proclaims the Kingdom of Santos
+	liege = k_santos
+}
+2213.12.2 = {
+	holder = 110216 #Renato de Camargo
+}
+2245.11.2 = {
+	holder = 110218 #Sinésio de Camargo
+}
+2272.11.28 = {
+	holder = 110219 #Afrânio de Camargo
+}
+2295.12.10 = {
+	holder = 110111 #Fernando Schertz
+}
+2307.10.3 = {
+	holder = 110222 #Ágata de Camargo
+}
+2326.9.30 = {
+	holder = 110271 #Marcos Schimidt
+}
+2354.7.3 = {
+	holder = 110272 #Marcela Schimidt
+}
+2360.2.3 = {
+	holder = 110274 #Bernardo Schimidt
+}

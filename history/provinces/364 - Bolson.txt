@@ -1,0 +1,21 @@
+# c_bolson
+
+# County Title
+title = c_bolson
+
+# Settlements
+max_settlements = 2
+
+b_el_bolson = castle
+#b_el_foyel = city
+#b_villa_mascardi = temple
+#b_rio_villegas = castle
+#b_los_repollos = city
+#b_lago_puelo = temple
+#b_el_hoyo = castle
+
+# Misc
+culture = mapuche
+religion = catholic
+
+#History

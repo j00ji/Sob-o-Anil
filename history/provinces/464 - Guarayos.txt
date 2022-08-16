@@ -1,0 +1,21 @@
+# c_guarayos
+
+# County Title
+title = c_guarayos
+
+# Settlements
+max_settlements = 3
+
+b_ascencion_2 = castle
+#b_urubicha = city
+#b_el_puente = temple
+#b_yotau = castle
+#b_desconsierto = city
+#b_yaguaru = temple
+#b_la_anta = castle
+
+# Misc
+culture = camba
+religion = catholic
+
+#History

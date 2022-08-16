@@ -1,0 +1,21 @@
+# c_vale_do_ipojuca
+
+# County Title
+title = c_vale_do_ipojuca
+
+# Settlements
+max_settlements = 2
+
+b_caruaru = castle
+b_sanharo = temple
+#b_santa_cruz_do_capibaribe = temple
+#b_agrestina = castle
+#b_toritama = city
+#b_jatauba = temple
+#b_belo_jardim = castle
+
+# Misc
+culture = xukuru
+religion = cicerite
+
+#History

@@ -1,0 +1,21 @@
+# c_chiquitos
+
+# County Title
+title = c_chiquitos
+
+# Settlements
+max_settlements = 3
+
+b_chiquitos = castle
+b_pailon = city
+b_robore = temple
+#b_chochis = castle
+#b_las_taperas = city
+#b_equitos = temple
+#b_crecencia = castle
+
+# Misc
+culture = chiquitano
+religion = catholic
+
+#History

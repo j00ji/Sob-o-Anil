@@ -1,0 +1,21 @@
+# c_rio_pardo
+
+# County Title
+title = c_rio_pardo
+
+# Settlements
+max_settlements = 2
+
+b_rio_pardo = tribal
+#b_pantano_grande = city
+#b_rincao_del_rei = temple
+#b_minas_do_leao = castle
+#b_albardao = city
+#b_passo_do_adao = temple
+#b_capivarita = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

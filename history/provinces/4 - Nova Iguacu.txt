@@ -1,0 +1,21 @@
+# c_nova_iguacu
+
+# County Title
+title = c_nova_iguacu
+
+# Settlements
+max_settlements = 4
+
+b_duque_de_caxias = castle
+b_saracuruna = temple
+b_nova_iguacu = city
+#b_jardim_gramacho = castle
+#b_saracuruna_2 = city
+#b_chique = temple
+#b_mesquita = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History

@@ -1,0 +1,21 @@
+# c_mar_del_plata
+
+# County Title
+title = c_mar_del_plata
+
+# Settlements
+max_settlements = 4
+
+b_mar_del_plata = city
+b_miramar = castle
+b_otamendi = city
+#b_santos_pedros = castle
+#b_felix_camet = city
+#b_batan = temple
+#b_dorada = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

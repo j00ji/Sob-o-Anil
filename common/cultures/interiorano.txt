@@ -1,0 +1,228 @@
+###ÄNSI
+
+interiorano = {
+	graphical_cultures = { italiangfx westerngfx }
+
+	cordobes = {
+		
+		graphical_cultures = { southerngfx }
+		
+
+		color = {0.85 0.53 0.22}
+
+		male_names = {
+		}
+
+		female_names = {
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "pibe de "
+		female_patronym = "piba de "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	cuyano = {
+		
+		graphical_cultures = { southerngfx }
+		
+
+		color = {0.56 0.31 0.2}
+
+		male_names = {
+			Adolfo Ainelen Alan Alberto_Adalberto Alejandro_Alessandro Alejo Alfredo "Andrés" "Ángel" Antonio Arturo Augusto_"Agustín" Awka
+			"Bartolomé" Bastian Benicio Benjamin Blas Brian
+			Camilo Carlos Ciro Cruz
+			Diego Damian Daniel
+			Eduardo "Elías" Enrique Emmanuel Emilio Ernesto Esteban Ezio
+			Facundo Faustino Federico Felipe_Fillippo Fernando Fran Francisco Franco
+			Gabriel "Gastón" Gianni Guillermo Gustavo
+			"Héctor" "Hernán" Horacio Humberto_Umberto
+			Ian Ignacio "Iñaki" Isidoro
+			Javier_Xabier "Jerónimo" "Joaquín" Johnny "José" "José Clemente" "José Francisco" "Juan Ignacio" "José María" Jorge Juan_Giovanni "Juan Agustín" "Juan Bautista" "Juan Cruz" "Juan Felipe" "Juan José" "Juan Pablo" "Juan Manuel" Julio 
+			Kevin Kun Kuruf 
+			Lautaro Laucha Lio Lionel Lorenzo Lolo Luis_Luigi
+			Manu Manuel Mariano Marco "Martín" "Matías" Mateo
+			Nacho Nahuel "Nicolás" Noah
+			Omar Osvaldo
+			Pablo Pancho Patricio Pedro_Pietro "Pedro José"
+			"Ramón" Rafael "Raúl" Ricardo Roberto Rodolfo 
+			Santiago Santino Santos Sergio
+			Theo Thiago Tincho Tobías Tomás
+			Ulises
+			Valen Valentin Valentino Victor Victorino
+			Washington
+			"Yepün"
+		}
+
+		female_names ={ 
+			Agostina Agustina Aitiana Alma Ana_Anna Antonella Antonia Ambar Amparo Agustina Azul
+			"Belén" Bella 
+			Camila Catalina Costanza
+			Delfina Dulcinea
+			Elena Emilia Emma "Estefanía" Eugenia Eva
+			Federica Flor Florencia Floricienta Franchesca
+			Graciela Guadalupe
+			Helena
+			Irene Isabel Isabella
+			Josefina Julieta Juana 
+			Laura Leonora Linda Lola Lourdes Luz
+			Macarena "Magalí" Maia Mara Maria "María Paula" "María Ana" "María Luz" Mariana Mariela Martina Mia Mila Milagros Mili
+			Natalia "Noemí"
+			Oriana 
+			Paula Paz Pilar Pili
+			Rocío
+			Sara Selena Serena  Sofia
+			Tatiana
+			Umma
+			Valentina Vicky Victoria Vida
+			Yamila
+			Zoe
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "pibe de "
+		female_patronym = "pibe de "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	chaqueno = {
+		
+		graphical_cultures = { mesoamericangfx }
+		
+
+		color = {0.79 0.33 0.13}
+
+		male_names = {
+		}
+
+		female_names = {
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "pibe de "
+		female_patronym = "pibe de "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	norteno = {
+		
+		graphical_cultures = { muslimgfx }
+		
+
+		color = {0.65 0.39 0.06}
+
+		male_names = {
+		}
+
+		female_names = {
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "pibe de "
+		female_patronym = "pibe de "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+
+	turco = {
+		
+		graphical_cultures = { arabicgfx }
+		
+
+		color = { 0.7 0.49 0.06 }
+
+		male_names = {
+			Abraham Ahmed Alan Alberto Alfredo Alejandro Amado Antonio
+			Carlos Cayetano
+			Daniel "Darío"
+			Eduardo "Elías" "Emín" Emir Envar Ezequiel
+			Ismael
+			Jorge "José" Juan Julio
+
+			Leonardo Luis
+			Mario "Matías" "Moisés" Mohamed Mohsen
+			Nagib "Naím" "Némer"
+			Omar
+
+
+
+			Pablo
+			Ricardo Roberto
+			Selem
+			Tamer
+			Yamil Yapur
+			"Zaín" Zaki
+		}
+
+		female_names = {
+			Adela Agustina Alejandra Amira "Anahí"
+			Beatriz Betina
+			Claudia
+			Isabel
+			Juana Juliana
+			"María"
+			Naiara "Nínawa" Norma
+			Sabrina
+			Silvia
+			Virginia
+			Yamila
+
+			Zulma
+		}
+
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+
+		dynasty_title_names = yes
+		founder_named_dynasties = yes	
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+
+}

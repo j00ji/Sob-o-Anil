@@ -1,0 +1,21 @@
+# c_artigas
+
+# County Title
+title = c_artigas
+
+# Settlements
+max_settlements = 2
+
+b_artigas = tribal
+#b_taruma = city
+#b_bernabe_rivera = temple
+#b_topador = castle
+#b_xavier_de_viana = city
+#b_camanho = temple
+#b_cuaro = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

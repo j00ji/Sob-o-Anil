@@ -1,0 +1,21 @@
+# c_araxa
+
+# County Title
+title = c_araxa
+
+# Settlements
+max_settlements = 4
+
+b_morro_da_mesa = castle
+b_ambrosio = temple
+b_argenita = city
+#b_serra_morena = castle
+#b_tapira = city
+#b_campos_altos = temple
+#b_ibia = castle
+
+# Misc
+culture = triangler
+religion = anchietican
+
+#History

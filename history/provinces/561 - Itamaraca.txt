@@ -1,0 +1,21 @@
+# c_itamaraca
+
+# County Title
+title = c_itamaraca
+
+# Settlements
+max_settlements = 3
+
+b_itapissuma = castle
+b_igarassu = city
+#b_vicencia = temple
+#b_ilha_de_itamaraca = castle
+#b_aracoiaba = city
+#b_tejucopapo = temple
+#b_tres_ladeiras = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

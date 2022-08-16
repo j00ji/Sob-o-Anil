@@ -1,0 +1,21 @@
+# c_requena
+
+# County Title
+title = c_requena
+
+# Settlements
+max_settlements = 3
+
+b_requena = castle
+b_contamana = city
+#b_saquena = temple
+#b_bagazan = castle
+#b_huatupe = city
+#b_tamanco = temple
+#b_tiruntan = castle
+
+# Misc
+culture = charapa
+religion = santo_daime
+
+#History

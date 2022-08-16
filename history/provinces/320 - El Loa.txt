@@ -1,0 +1,21 @@
+# c_el_loa
+
+# County Title
+title = c_el_loa
+
+# Settlements
+max_settlements = 3
+
+b_calama = castle
+b_chiu_chiu = temple
+#b_ollaguee = temple
+#b_lasana = castle
+#b_cerritos_bayos = city
+#b_ojo_opache = temple
+#b_conchi = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

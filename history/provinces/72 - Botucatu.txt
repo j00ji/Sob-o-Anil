@@ -1,0 +1,21 @@
+# c_botucatu
+
+# County Title
+title = c_botucatu
+
+# Settlements
+max_settlements = 4
+
+b_vitoriana = castle
+b_bons_ares = city
+b_avare = temple
+#b_barra_bonita = castle
+#b_pratania = city
+#b_padovan = temple
+#b_recanto_azul = castle
+
+# Misc
+culture = camponeto
+religion = anchietican
+
+#History

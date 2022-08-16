@@ -1,0 +1,21 @@
+# c_iguatu
+
+# County Title
+title = c_iguatu
+
+# Settlements
+max_settlements = 3
+
+b_oros = tribal
+b_cedro_2 = city
+#b_iguatu = temple
+#b_ico_2 = castle
+#b_lavras_da_mangabeira = city
+#b_arrojado = temple
+#b_varzea_alegre = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

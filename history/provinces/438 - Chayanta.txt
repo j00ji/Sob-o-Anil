@@ -1,0 +1,21 @@
+# c_chayanta
+
+# County Title
+title = c_chayanta
+
+# Settlements
+max_settlements = 4
+
+b_colquechaca = castle
+b_uncia = city
+b_charcas = temple
+#b_challapata = castle
+#b_sacaca = city
+#b_santiago_de_huari = temple
+#b_chuqihuta = castle
+
+# Misc
+culture = quechua
+religion = pachamama
+
+#History

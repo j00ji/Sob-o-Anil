@@ -1,0 +1,21 @@
+# c_franca
+
+# County Title
+title = c_franca
+
+# Settlements
+max_settlements = 5
+
+b_raycos = castle
+b_leporace = city
+b_belo_sertao = temple
+#b_batatais = castle
+#b_petropolis_2 = city
+#b_eliza_verzola = temple
+#b_colina_noemia = castle
+
+# Misc
+culture = canastro
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_peruibe
+
+# County Title
+title = c_peruibe
+
+# Settlements
+max_settlements = 3
+
+b_piacaguera = castle
+b_abarebebe_2 = temple
+#b_pedro_de_toledo = temple
+#b_ana_dias = castle
+#b_vila_romar = city
+#b_bal_barra = temple
+#b_balneario_continental = castle
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

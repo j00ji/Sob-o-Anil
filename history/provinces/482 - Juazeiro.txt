@@ -1,0 +1,21 @@
+# c_juazeiro
+
+# County Title
+title = c_juazeiro
+
+# Settlements
+max_settlements = 3
+
+b_juazeiro = castle
+b_sobradinho = city
+#b_uaua = temple
+#b_carnaiba_do_sertao = castle
+#b_mandacaru = city
+#b_quipa = temple
+#b_juremal = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

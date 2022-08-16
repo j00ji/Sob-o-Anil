@@ -1,0 +1,53 @@
+(Validator OnActions) = {
+	Type = Default
+	FriendlyName = "On Actions"
+	(FileGroup "common\on_actions" "*.txt")
+	ValidatorName = OnActionsFile
+}
+
+(Type OnActionsFile) = {
+{% for action in ctx.on_actions.OnActions %}
+	Optional = { Left = "{{ action.name }}" Right = {
+		Optional = { Left = "effect" Right = {{ action.effect_scope_target_name }} }
+		Inherits = {{ action.root_scope }}Pulse
+	} }
+{% endfor %}
+}
+
+{% for full_name, target_events in [
+	('Char', 'CharEventId LetterEventId DiploRespEventId NarrativeEventId LongCharEventId'),
+	('Prov', 'ProvEventId'),
+	('Unit', 'UnitEventId'),
+] %}
+
+(Type {{ full_name }}Pulse) = {
+	Optional = { Left = "random_events" Right = {{ full_name }}RandomEventGroup }
+	Optional = { Left = "events" Right = {{ full_name }}EventGroup }
+}
+
+(Type {{ full_name }}RandomEventGroupList) = {
+	(Ch N Y) = { Left = { Type = PInt } Right = { {{ target_events }} 0 } }
+}
+
+(Type {{ full_name }}NamedRandomEventGroupList) = {
+	Inherits = {{ full_name }}RandomEventGroupList
+	Optional = { Left = "delay" Right = NnInt }
+}
+
+(Type {{ full_name }}RandomEventGroup) = {
+	Inherits = {{ full_name }}RandomEventGroupList
+	(Ch Y N) = { Left = { Type = String } Right = {{ full_name }}NamedRandomEventGroupList }
+}
+
+(Type {{ full_name }}EventGroup) = {
+	(PdoList Y) = { Type = { {{ target_events }} } }
+}
+
+{% endfor %}
+
+
+
+
+
+
+

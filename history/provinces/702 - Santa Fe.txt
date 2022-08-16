@@ -1,0 +1,21 @@
+# c_santa_fe
+
+# County Title
+title = c_santa_fe
+
+# Settlements
+max_settlements = 5
+
+b_santa_fe = city
+b_recreo = castle
+b_rincon = castle
+b_sauce_viejo = castle
+b_chaco_chico = tribal
+#b_monte_vera = temple
+#b_leyes = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

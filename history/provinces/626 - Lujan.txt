@@ -1,0 +1,21 @@
+# c_lujan
+
+# County Title
+title = c_lujan
+
+# Settlements
+max_settlements = 3
+
+b_lujan = temple
+b_areco = castle
+#b_capilla = temple
+#b_cortines = castle
+#b_jauregui = city
+#b_pueblo_nuevo = temple
+#b_praderas = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

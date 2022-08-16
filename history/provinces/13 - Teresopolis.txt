@@ -1,0 +1,21 @@
+# c_teresopolis
+
+# County Title
+title = c_teresopolis
+
+# Settlements
+max_settlements = 3
+
+b_teresopolis = castle
+b_nhungacu = temple
+b_guapimirim = city
+#b_varzea = castle
+#b_ermitagem = city
+#b_quebra_frascos = temple
+#b_taumaturgo = castle
+
+# Misc
+culture = pomerisch
+religion = evangelical
+
+#History

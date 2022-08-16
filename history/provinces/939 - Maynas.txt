@@ -1,0 +1,21 @@
+# c_maynas
+
+# County Title
+title = c_maynas
+
+# Settlements
+max_settlements = 5
+
+b_iquitos = castle
+b_caballococha = city
+b_san_antonio_del_estrecho = temple
+b_mazan = castle
+#b_tamshiyacu = city
+#b_pebas = temple
+#b_chichita = castle
+
+# Misc
+culture = charapa
+religion = santo_daime
+
+#History

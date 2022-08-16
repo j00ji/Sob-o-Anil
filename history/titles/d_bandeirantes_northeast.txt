@@ -1,0 +1,4 @@
+2369.1.1 = {
+	holder = 110224 #Domingos Jorge Velho
+	set_title_flag = bandeirante_mercenaries
+}

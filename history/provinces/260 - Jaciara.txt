@@ -1,0 +1,21 @@
+# c_jaciara
+
+# County Title
+title = c_jaciara
+
+# Settlements
+max_settlements = 2
+
+b_jaciara = tribal
+#b_dom_aquino = city
+#b_jucimeira = temple
+#b_araguainha = castle
+#b_tesouro = city
+#b_sao_jose_do_povo = temple
+#b_itiquira = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

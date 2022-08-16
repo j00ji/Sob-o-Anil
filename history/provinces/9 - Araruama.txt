@@ -1,0 +1,21 @@
+# c_araruama
+
+# County Title
+title = c_araruama
+
+# Settlements
+max_settlements = 4
+
+b_araruama = castle
+b_marica = temple
+b_saquarema = city
+#b_ipitanga = castle
+#b_jacarepia = city
+#b_porto_da_rosa = temple
+#b_regame = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History

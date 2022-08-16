@@ -1,0 +1,21 @@
+# c_azul
+
+# County Title
+title = c_azul
+
+# Settlements
+max_settlements = 3
+
+b_azul = castle
+b_olavarria = city
+#b_fortabat = temple
+#b_nieves = castle
+#b_bayas = city
+#b_hinojo = temple
+#b_querandies = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

@@ -1,0 +1,21 @@
+# c_federacion
+
+# County Title
+title = c_federacion
+
+# Settlements
+max_settlements = 3
+
+b_federacion = tribal
+b_federal = temple
+#b_la_paz_2 = temple
+#b_la_frontera = castle
+#b_conquistadores = city
+#b_feliciano = temple
+#b_chajari = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

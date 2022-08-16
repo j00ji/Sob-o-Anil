@@ -1,0 +1,21 @@
+# c_patquia
+
+# County Title
+title = c_patquia
+
+# Settlements
+max_settlements = 2
+
+b_patquia = castle
+#b_llanos = city
+#b_vilgo = temple
+#b_amana = castle
+#b_paganzo = city
+#b_gauchal = temple
+#b_huarpes = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

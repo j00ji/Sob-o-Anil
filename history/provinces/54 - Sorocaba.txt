@@ -1,0 +1,21 @@
+# c_sorocaba
+
+# County Title
+title = c_sorocaba
+
+# Settlements
+max_settlements = 6
+
+b_nova_manchester = castle
+b_eden = city
+b_sao_bento_2 = temple
+b_votorantim = castle
+#b_nova_esperanca = city
+#b_cajuru = temple
+#b_brigada_tobias = castle
+
+# Misc
+culture = camponeto
+religion = anchietican
+
+#History

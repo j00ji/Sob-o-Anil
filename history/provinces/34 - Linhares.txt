@@ -1,0 +1,21 @@
+# c_linhares
+
+# County Title
+title = c_linhares
+
+# Settlements
+max_settlements = 3
+
+b_linhares = castle
+b_jacupemba = city
+#b_arezzu = temple
+#b_interlagante = castle
+#b_lagoa_do_meio = city
+#b_pontal_do_itapetin = temple
+#b_movelar_gaivotas = castle
+
+# Misc
+culture = capixaba
+religion = evangelical
+
+#History

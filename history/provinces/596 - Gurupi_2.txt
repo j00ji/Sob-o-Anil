@@ -1,0 +1,21 @@
+# c_gurupi_2
+
+# County Title
+title = c_gurupi_2
+
+# Settlements
+max_settlements = 3
+
+b_turilandia = castle
+b_carutapera = city
+#b_turiaca = temple
+#b_santa_helena_3 = castle
+#b_bacabeira_2 = city
+#b_limoeiro_2 = temple
+#b_dalban = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

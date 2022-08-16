@@ -1,0 +1,21 @@
+# c_carangola
+
+# County Title
+title = c_carangola
+
+# Settlements
+max_settlements = 4
+
+b_alvorada_3 = tribal
+#b_fervedouro = city
+#b_divino = temple
+#b_espera_feliz = castle
+#b_ponte_alta_2 = city
+#b_lacerdinha = temple
+#b_faria_lemos = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

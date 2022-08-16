@@ -1,0 +1,21 @@
+# c_canoas
+
+# County Title
+title = c_canoas
+
+# Settlements
+max_settlements = 4
+
+b_canoas = castle
+b_sao_leopoldo = castle
+b_triunfo = temple
+#b_montenegro = castle
+#b_scharlau = city
+#b_feitoria = temple
+#b_sao_sebastiao_do_cai = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

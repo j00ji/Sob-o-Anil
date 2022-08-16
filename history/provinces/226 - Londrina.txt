@@ -1,0 +1,21 @@
+# c_londrina
+
+# County Title
+title = c_londrina
+
+# Settlements
+max_settlements = 5
+
+b_castelo_candeeiro = castle
+b_sagrado_coracao_de_jesus = temple
+b_nova_dantzig = city
+b_bela_vista_do_paraiso = temple
+#b_florestopolis = city
+#b_jataizinho = temple
+#b_porecatu = castle
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

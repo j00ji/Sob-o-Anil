@@ -1,0 +1,21 @@
+# c_corpen_aike
+
+# County Title
+title = c_corpen_aike
+
+# Settlements
+max_settlements = 2
+
+b_puerto_santa_cruz = tribal
+#b_piedrabuena = city
+#b_rio_chico_2 = temple
+#b_punta_quilla = castle
+#b_estancia_la_negra = city
+#b_la_marchand = temple
+#b_monte_leon = castle
+
+# Misc
+culture = aonikenk
+religion = xoon
+
+#History

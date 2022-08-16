@@ -1,0 +1,21 @@
+# c_monte
+
+# County Title
+title = c_monte
+
+# Settlements
+max_settlements = 3
+
+b_monte = castle
+b_lobos = city
+#b_ranchos = temple
+#b_abbott = castle
+#b_quinta_2 = city
+#b_berra = temple
+#b_canuelas_2 = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

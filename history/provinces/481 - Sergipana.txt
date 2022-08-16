@@ -1,0 +1,21 @@
+# c_sergipana
+
+# County Title
+title = c_sergipana
+
+# Settlements
+max_settlements = 3
+
+b_gararu = castle
+b_itabi = city
+#b_carira_2 = temple
+#b_poco_redondo_2 = castle
+#b_porto_da_folha_2 = city
+#b_monte_alegre_3 = temple
+#b_caninde_2 = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

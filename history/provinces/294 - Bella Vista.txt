@@ -1,0 +1,21 @@
+# c_bella_vista
+
+# County Title
+title = c_bella_vista
+
+# Settlements
+max_settlements = 1
+
+b_diecinueve_de_junio = castle
+#b_achiras = city
+#b_lascano = temple
+#b_velazquez = castle
+#b_el_oratorio = city
+#b_el_maturrango = temple
+#b_cebollati = castle
+
+# Misc
+culture = guacho
+religion = bandean
+
+#History

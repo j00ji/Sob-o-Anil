@@ -1,0 +1,21 @@
+# c_rosario
+
+# County Title
+title = c_rosario
+
+# Settlements
+max_settlements = 5
+
+b_rosario_5 = city
+b_san_lorenzo_4 = city
+b_timbues = castle
+b_baigorria_2 = temple
+#b_arroyo_seco = city
+#b_galvez_2 = temple
+#b_zaballa = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

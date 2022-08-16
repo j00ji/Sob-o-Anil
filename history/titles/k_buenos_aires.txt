@@ -1,0 +1,4 @@
+# k_buenos_aires
+500.1.1={
+	law = agnatic_succession
+}

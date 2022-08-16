@@ -1,0 +1,21 @@
+# c_sao_jose_da_terra_firme
+
+# County Title
+title = c_sao_jose_da_terra_firme
+
+# Settlements
+max_settlements = 3
+
+b_sao_jose_2 = castle
+b_palhoca = city
+#b_estreito_2 = temple
+#b_santo_amaro_da_imperatriz = castle
+#b_capoeiras = city
+#b_biguacu = temple
+#b_sao_pedro_de_alcantara = castle
+
+# Misc
+culture = greenbelly
+religion = celeste
+
+#History

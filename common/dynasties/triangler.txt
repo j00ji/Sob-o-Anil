@@ -1,0 +1,993 @@
+###ÄNSI
+
+255001 = { #Gusmão
+	name = "Gusmão"
+	culture = triangler
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+}
+
+255002 = { #Marquinho
+	name = "Marquinho"
+	culture = triangler
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+}
+
+255003 = { #de Almeida Franco
+	name = "de Almeida Franco"
+	culture = triangler
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+}
+
+255004 = { #Borges
+	name = "Borges"
+	culture = triangler
+	religion = umbanda
+	can_appear = no
+	used_for_random = no
+}
+
+####################
+##Random dynasties
+##Based on MG's senators and representatives
+##source: wikipedia
+##range: 255500+
+####################
+
+255500 = {
+	name = "Abi-Ackel"
+	culture = triangler
+	}
+255501 = {
+	name = "Abreu"
+	culture = triangler
+	}
+255502 = {
+	name = "Adauto"
+	culture = triangler
+	}
+255503 = {
+	name = "Aguiar"
+	culture = triangler
+	}
+255504 = {
+	name = "Albergaria"
+	culture = triangler
+	}
+255505 = {
+	name = "Aldo"
+	culture = triangler
+	}
+255506 = {
+	name = "Aleixo"
+	culture = triangler
+	}
+255507 = {
+	name = "Alkmin"
+	culture = triangler
+	}
+255508 = {
+	name = "Almeida"
+	culture = triangler
+	}
+255509 = {
+	name = "Alvim"
+	culture = triangler
+	}
+255510 = {
+	name = "Amorim"
+	culture = triangler
+	}
+255511 = {
+	name = "Ananias"
+	culture = triangler
+	}
+255512 = {
+	name = "Anghinetti"
+	culture = triangler
+	}
+255513 = {
+	name = "Anísio"
+	culture = triangler
+	}
+255514 = {
+	name = "Antônio"
+	culture = triangler
+	}
+255515 = {
+	name = "Arinos"
+	culture = triangler
+	}
+255516 = {
+	name = "Assad"
+	culture = triangler
+	}
+255517 = {
+	name = "Athayde"
+	culture = triangler
+	}
+255518 = {
+	name = "Avelino"
+	culture = triangler
+	}
+255519 = {
+	name = "Azeredo"
+	culture = triangler
+	}
+255520 = {
+	name = "Baccarini"
+	culture = triangler
+	}
+255521 = {
+	name = "Badaró"
+	culture = triangler
+	}
+255522 = {
+	name = "Balbi"
+	culture = triangler
+	}
+255523 = {
+	name = "Barbosa"
+	culture = triangler
+	}
+255524 = {
+	name = "Batista"
+	culture = triangler
+	}
+255525 = {
+	name = "Belato"
+	culture = triangler
+	}
+255526 = {
+	name = "Belém"
+	culture = triangler
+	}
+255527 = {
+	name = "Bernardes"
+	culture = triangler
+	}
+255528 = {
+	name = "Bernardino"
+	culture = triangler
+	}
+255529 = {
+	name = "Bernardo"
+	culture = triangler
+	}
+255530 = {
+	name = "Bessone"
+	culture = triangler
+	}
+255531 = {
+	name = "Bilac"
+	culture = triangler
+	}
+255532 = {
+	name = "Bisaglia"
+	culture = triangler
+	}
+255533 = {
+	name = "Bittencourt"
+	culture = triangler
+	}
+255534 = {
+	name = "Boaventura"
+	culture = triangler
+	}
+255535 = {
+	name = "Bonifácio"
+	culture = triangler
+	}
+255536 = {
+	name = "Botelho"
+	culture = triangler
+	}
+255537 = {
+	name = "Bouchardet"
+	culture = triangler
+	}
+255538 = {
+	name = "Branco"
+	culture = triangler
+	}
+255539 = {
+	name = "Brandão"
+	culture = triangler
+	}
+255540 = {
+	name = "Brant"
+	culture = triangler
+	}
+255541 = {
+	name = "Brasileiro"
+	culture = triangler
+	}
+255542 = {
+	name = "Campos"
+	culture = triangler
+	}
+255543 = {
+	name = "Canabrava"
+	culture = triangler
+	}
+255544 = {
+	name = "Cançado"
+	culture = triangler
+	}
+255545 = {
+	name = "Canedo"
+	culture = triangler
+	}
+255546 = {
+	name = "Capanema"
+	culture = triangler
+	}
+255547 = {
+	name = "Cardoso"
+	culture = triangler
+	}
+255548 = {
+	name = "Carmo"
+	culture = triangler
+	}
+255549 = {
+	name = "Carneiro"
+	culture = triangler
+	}
+255550 = {
+	name = "Carone"
+	culture = triangler
+	}
+255551 = {
+	name = "Carvalho"
+	culture = triangler
+	}
+255552 = {
+	name = "César"
+	culture = triangler
+	}
+255553 = {
+	name = "Chagas"
+	culture = triangler
+	}
+255554 = {
+	name = "Chaves"
+	culture = triangler
+	}
+255555 = {
+	name = "Chiaradia"
+	culture = triangler
+	}
+255556 = {
+	name = "Cícero"
+	culture = triangler
+	}
+255557 = {
+	name = "Coelho"
+	culture = triangler
+	}
+255558 = {
+	name = "Corrêa"
+	culture = triangler
+	}
+255559 = {
+	name = "Correia"
+	culture = triangler
+	}
+255560 = {
+	name = "Costa"
+	culture = triangler
+	}
+255561 = {
+	name = "Cotta"
+	culture = triangler
+	}
+255562 = {
+	name = "Cruz"
+	culture = triangler
+	}
+255563 = {
+	name = "Cunha"
+	culture = triangler
+	}
+255564 = {
+	name = "da Conceição"
+	culture = triangler
+	}
+255565 = {
+	name = "da Cunha"
+	culture = triangler
+	}
+255566 = {
+	name = "da Gama"
+	culture = triangler
+	}
+255567 = {
+	name = "da Mata"
+	culture = triangler
+	}
+255568 = {
+	name = "da Silva"
+	culture = triangler
+	}
+255569 = {
+	name = "da Veiga"
+	culture = triangler
+	}
+255570 = {
+	name = "Dantas"
+	culture = triangler
+	}
+255571 = {
+	name = "de Abreu"
+	culture = triangler
+	}
+255572 = {
+	name = "de Almeida"
+	culture = triangler
+	}
+255573 = {
+	name = "de Andrada"
+	culture = triangler
+	}
+255574 = {
+	name = "de Andrade"
+	culture = triangler
+	}
+255575 = {
+	name = "de Barros"
+	culture = triangler
+	}
+255576 = {
+	name = "de Carvalho"
+	culture = triangler
+	}
+255577 = {
+	name = "de Castro"
+	culture = triangler
+	}
+255578 = {
+	name = "de Lima"
+	culture = triangler
+	}
+255579 = {
+	name = "de Melo"
+	culture = triangler
+	}
+255580 = {
+	name = "de Mendonça"
+	culture = triangler
+	}
+255581 = {
+	name = "de Mesquita"
+	culture = triangler
+	}
+255582 = {
+	name = "de Morais"
+	culture = triangler
+	}
+255583 = {
+	name = "de Oliveira"
+	culture = triangler
+	}
+255584 = {
+	name = "de Paula"
+	culture = triangler
+	}
+255585 = {
+	name = "de Rezende"
+	culture = triangler
+	}
+255586 = {
+	name = "de Sousa"
+	culture = triangler
+	}
+255587 = {
+	name = "de Vasconcelos"
+	culture = triangler
+	}
+255588 = {
+	name = "Delgado"
+	culture = triangler
+	}
+255589 = {
+	name = "Deodato"
+	culture = triangler
+	}
+255590 = {
+	name = "Dias"
+	culture = triangler
+	}
+255591 = {
+	name = "Dib"
+	culture = triangler
+	}
+255592 = {
+	name = "Diniz"
+	culture = triangler
+	}
+255593 = {
+	name = "do Lago"
+	culture = triangler
+	}
+255594 = {
+	name = "do Nascimento"
+	culture = triangler
+	}
+255595 = {
+	name = "do Vale"
+	culture = triangler
+	}
+255596 = {
+	name = "dos Mares"
+	culture = triangler
+	}
+255597 = {
+	name = "dos Santos"
+	culture = triangler
+	}
+255598 = {
+	name = "Dulci"
+	culture = triangler
+	}
+255599 = {
+	name = "Dutra"
+	culture = triangler
+	}
+255600 = {
+	name = "Elísio"
+	culture = triangler
+	}
+255601 = {
+	name = "Eloy"
+	culture = triangler
+	}
+255602 = {
+	name = "Fagundes"
+	culture = triangler
+	}
+255603 = {
+	name = "Faria"
+	culture = triangler
+	}
+255604 = {
+	name = "Fassarella"
+	culture = triangler
+	}
+255605 = {
+	name = "Felipe"
+	culture = triangler
+	}
+255606 = {
+	name = "Ferramenta"
+	culture = triangler
+	}
+255607 = {
+	name = "Ferrara"
+	culture = triangler
+	}
+255608 = {
+	name = "Ferraz"
+	culture = triangler
+	}
+255609 = {
+	name = "Ferreira"
+	culture = triangler
+	}
+255610 = {
+	name = "Figueiredo"
+	culture = triangler
+	}
+255611 = {
+	name = "Fonseca"
+	culture = triangler
+	}
+255612 = {
+	name = "Fortes"
+	culture = triangler
+	}
+255613 = {
+	name = "Franco"
+	culture = triangler
+	}
+255614 = {
+	name = "Freire"
+	culture = triangler
+	}
+255615 = {
+	name = "Galassi"
+	culture = triangler
+	}
+255616 = {
+	name = "Gallo"
+	culture = triangler
+	}
+255617 = {
+	name = "Garcia"
+	culture = triangler
+	}
+255618 = {
+	name = "Gomes"
+	culture = triangler
+	}
+255619 = {
+	name = "Gonçalves"
+	culture = triangler
+	}
+255620 = {
+	name = "Guabiroba"
+	culture = triangler
+	}
+255621 = {
+	name = "Guerra"
+	culture = triangler
+	}
+255622 = {
+	name = "Guia"
+	culture = triangler
+	}
+255623 = {
+	name = "Guido"
+	culture = triangler
+	}
+255624 = {
+	name = "Guimarães"
+	culture = triangler
+	}
+255625 = {
+	name = "Henrique"
+	culture = triangler
+	}
+255626 = {
+	name = "Herculino"
+	culture = triangler
+	}
+255627 = {
+	name = "Heslander"
+	culture = triangler
+	}
+255628 = {
+	name = "Humberto"
+	culture = triangler
+	}
+255629 = {
+	name = "Jabur"
+	culture = triangler
+	}
+255630 = {
+	name = "Júlio"
+	culture = triangler
+	}
+255631 = {
+	name = "Júnior"
+	culture = triangler
+	}
+255632 = {
+	name = "Junqueira"
+	culture = triangler
+	}
+255633 = {
+	name = "Kubitschek"
+	culture = triangler
+	}
+255634 = {
+	name = "Lara"
+	culture = triangler
+	}
+255635 = {
+	name = "Leal"
+	culture = triangler
+	}
+255636 = {
+	name = "Leão"
+	culture = triangler
+	}
+255637 = {
+	name = "Leite"
+	culture = triangler
+	}
+255638 = {
+	name = "Libânio"
+	culture = triangler
+	}
+255639 = {
+	name = "Lima"
+	culture = triangler
+	}
+255640 = {
+	name = "Lobato"
+	culture = triangler
+	}
+255641 = {
+	name = "Lodi"
+	culture = triangler
+	}
+255642 = {
+	name = "Lopes"
+	culture = triangler
+	}
+255643 = {
+	name = "Lucas"
+	culture = triangler
+	}
+255644 = {
+	name = "Luciano"
+	culture = triangler
+	}
+255645 = {
+	name = "Luz"
+	culture = triangler
+	}
+255646 = {
+	name = "Machado"
+	culture = triangler
+	}
+255647 = {
+	name = "Maciel"
+	culture = triangler
+	}
+255648 = {
+	name = "Magalhães"
+	culture = triangler
+	}
+255649 = {
+	name = "Magno"
+	culture = triangler
+	}
+255650 = {
+	name = "Marise"
+	culture = triangler
+	}
+255651 = {
+	name = "Martins"
+	culture = triangler
+	}
+255652 = {
+	name = "Matos"
+	culture = triangler
+	}
+255653 = {
+	name = "Mattos"
+	culture = triangler
+	}
+255654 = {
+	name = "Medeiros"
+	culture = triangler
+	}
+255655 = {
+	name = "Medioli"
+	culture = triangler
+	}
+255656 = {
+	name = "Medrado"
+	culture = triangler
+	}
+255657 = {
+	name = "Melles"
+	culture = triangler
+	}
+255658 = {
+	name = "Mendes"
+	culture = triangler
+	}
+255659 = {
+	name = "Mendonça"
+	culture = triangler
+	}
+255660 = {
+	name = "Miranda"
+	culture = triangler
+	}
+255661 = {
+	name = "Monteiro"
+	culture = triangler
+	}
+255662 = {
+	name = "Moreira"
+	culture = triangler
+	}
+255663 = {
+	name = "Mosconi"
+	culture = triangler
+	}
+255664 = {
+	name = "Murad"
+	culture = triangler
+	}
+255665 = {
+	name = "Murilo"
+	culture = triangler
+	}
+255666 = {
+	name = "Murta"
+	culture = triangler
+	}
+255667 = {
+	name = "Naya"
+	culture = triangler
+	}
+255668 = {
+	name = "Negrão"
+	culture = triangler
+	}
+255669 = {
+	name = "Neiva"
+	culture = triangler
+	}
+255670 = {
+	name = "Neri"
+	culture = triangler
+	}
+255671 = {
+	name = "Neto"
+	culture = triangler
+	}
+255672 = {
+	name = "Neves"
+	culture = triangler
+	}
+255673 = {
+	name = "Nobre"
+	culture = triangler
+	}
+255674 = {
+	name = "Pacheco"
+	culture = triangler
+	}
+255675 = {
+	name = "Pádua"
+	culture = triangler
+	}
+255676 = {
+	name = "Paes"
+	culture = triangler
+	}
+255677 = {
+	name = "Palmério"
+	culture = triangler
+	}
+255678 = {
+	name = "Passos"
+	culture = triangler
+	}
+255679 = {
+	name = "Paulinelli"
+	culture = triangler
+	}
+255680 = {
+	name = "Paulo"
+	culture = triangler
+	}
+255681 = {
+	name = "Peixoto"
+	culture = triangler
+	}
+255682 = {
+	name = "Pena"
+	culture = triangler
+	}
+255683 = {
+	name = "Pereira"
+	culture = triangler
+	}
+255684 = {
+	name = "Perim"
+	culture = triangler
+	}
+255685 = {
+	name = "Perrella"
+	culture = triangler
+	}
+255686 = {
+	name = "Pimenta"
+	culture = triangler
+	}
+255687 = {
+	name = "Pinheiro"
+	culture = triangler
+	}
+255688 = {
+	name = "Pinto"
+	culture = triangler
+	}
+255689 = {
+	name = "Pires"
+	culture = triangler
+	}
+255690 = {
+	name = "Pompei"
+	culture = triangler
+	}
+255691 = {
+	name = "Portela"
+	culture = triangler
+	}
+255692 = {
+	name = "Porto"
+	culture = triangler
+	}
+255693 = {
+	name = "Prata"
+	culture = triangler
+	}
+255694 = {
+	name = "Queiroz"
+	culture = triangler
+	}
+255695 = {
+	name = "Raimundo"
+	culture = triangler
+	}
+255696 = {
+	name = "Reis"
+	culture = triangler
+	}
+255697 = {
+	name = "Renault"
+	culture = triangler
+	}
+255698 = {
+	name = "Resende"
+	culture = triangler
+	}
+255699 = {
+	name = "Rezende"
+	culture = triangler
+	}
+255700 = {
+	name = "Ribeiro"
+	culture = triangler
+	}
+255701 = {
+	name = "Rodrigues"
+	culture = triangler
+	}
+255702 = {
+	name = "Romano"
+	culture = triangler
+	}
+255703 = {
+	name = "Rosa"
+	culture = triangler
+	}
+255704 = {
+	name = "Santana"
+	culture = triangler
+	}
+255705 = {
+	name = "Santiago"
+	culture = triangler
+	}
+255706 = {
+	name = "Santos"
+	culture = triangler
+	}
+255707 = {
+	name = "Scarano"
+	culture = triangler
+	}
+255708 = {
+	name = "Seabra"
+	culture = triangler
+	}
+255709 = {
+	name = "Silvestre"
+	culture = triangler
+	}
+255710 = {
+	name = "Siqueira"
+	culture = triangler
+	}
+255711 = {
+	name = "Soares"
+	culture = triangler
+	}
+255712 = {
+	name = "Sobrinho"
+	culture = triangler
+	}
+255713 = {
+	name = "Souto"
+	culture = triangler
+	}
+255714 = {
+	name = "Starling"
+	culture = triangler
+	}
+255715 = {
+	name = "Tadeu"
+	culture = triangler
+	}
+255716 = {
+	name = "Tannus"
+	culture = triangler
+	}
+255717 = {
+	name = "Tavares"
+	culture = triangler
+	}
+255718 = {
+	name = "Taveira"
+	culture = triangler
+	}
+255719 = {
+	name = "Teixeira"
+	culture = triangler
+	}
+255720 = {
+	name = "Terra"
+	culture = triangler
+	}
+255721 = {
+	name = "Thibau"
+	culture = triangler
+	}
+255722 = {
+	name = "Tito"
+	culture = triangler
+	}
+255723 = {
+	name = "Tourinho"
+	culture = triangler
+	}
+255724 = {
+	name = "Ulisses"
+	culture = triangler
+	}
+255725 = {
+	name = "Valadares"
+	culture = triangler
+	}
+255726 = {
+	name = "Valente"
+	culture = triangler
+	}
+255727 = {
+	name = "Varella"
+	culture = triangler
+	}
+255728 = {
+	name = "Vargas"
+	culture = triangler
+	}
+255729 = {
+	name = "Vasconcelos"
+	culture = triangler
+	}
+255730 = {
+	name = "Vaz"
+	culture = triangler
+	}
+255731 = {
+	name = "Veloso"
+	culture = triangler
+	}
+255732 = {
+	name = "Viana"
+	culture = triangler
+	}
+255733 = {
+	name = "Vidigal"
+	culture = triangler
+	}
+255734 = {
+	name = "Viegas"
+	culture = triangler
+	}
+255735 = {
+	name = "Vieira"
+	culture = triangler
+	}
+255736 = {
+	name = "Vital"
+	culture = triangler
+	}
+255737 = {
+	name = "Werneck"
+	culture = triangler
+	}

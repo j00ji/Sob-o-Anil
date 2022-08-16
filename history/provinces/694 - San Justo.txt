@@ -1,0 +1,21 @@
+# c_san_justo
+
+# County Title
+title = c_san_justo
+
+# Settlements
+max_settlements = 2
+
+b_san_fracisco = castle
+b_miramar_2 = city
+#b_la_para = temple
+#b_balnearia = castle
+#b_altos_de_chipon = city
+#b_marull = temple
+#b_la_paquita = castle
+
+# Misc
+culture = cordobes
+religion = theosophist
+
+#History

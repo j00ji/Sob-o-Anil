@@ -1,0 +1,21 @@
+# c_larecaja
+
+# County Title
+title = c_larecaja
+
+# Settlements
+max_settlements = 4
+
+b_sorata = castle
+b_guanay = city
+b_caranavi = temple
+#b_munecas = castle
+#b_guanay_2 = city
+#b_teoponte = temple
+#b_mapiri = castle
+
+# Misc
+culture = colla
+religion = pachamama
+
+#History

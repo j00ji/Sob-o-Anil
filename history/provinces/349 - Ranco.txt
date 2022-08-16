@@ -1,0 +1,21 @@
+# c_ranco
+
+# County Title
+title = c_ranco
+
+# Settlements
+max_settlements = 2
+
+b_la_union_2 = castle
+#b_rio_bueno = city
+#b_futrono = temple
+#b_lago_ranco = castle
+#b_paillaco = city
+#b_huitrapulli = temple
+#b_cotrilla = castle
+
+# Misc
+culture = sureno
+religion = catholic
+
+#History

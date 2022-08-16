@@ -1,0 +1,10585 @@
+###ÃNSI
+
+##AMERICANOS
+
+	## Norton Dynasty ##
+
+120001 = {
+	name = "Oliver"
+	#Founder of the Nortons, Count of Americana
+	dynasty = 60001 #Norton
+	dna = biaf00ic0f0
+	religion = anchietican
+	culture = americano
+	
+	2103.4.8 = {birth = yes}
+	2165.6.29 = {death = yes}
+}
+
+120002 = {
+	name = "Albert"
+	#Count of Americana and Count of Mogi-Guaçu
+	dynasty = 60001
+	dna = acbhg0a00f0
+	religion = anchietican
+	culture = americano
+	father = 120001
+	
+	2125.7.9 = {birth = yes}
+
+	2173.2.20 = {
+		death = {death_reason = death_accident}
+	}
+}
+
+	### Albertian Line, Counts of Americana ###
+	
+120003 = {
+	name = "Albert" 
+	#Albert, Count of Americana. Grandson of Oliver
+	dynasty = 60001
+	dna = cgbcb0d00d0
+	religion = anchietican
+	culture = americano
+	father = 120002
+	
+	
+	2148.1.16 = {birth = yes}
+#	2168.4.23 = {
+#		add_spouse = x
+#	}
+	2196.10.30 = {
+		add_trait = ill
+	}
+	2198.3.10 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+120004 = {
+	name = "Leonard"
+	#Leonard, Count of Americana
+	dynasty = 60001
+	dna = aefed0d00c0
+	religion = anchietican
+	culture = americano
+	father = 120003
+	
+	
+	2170.10.8 = {birth = yes}
+#	2188.8.27 = {
+#		add_spouse = x
+#	}
+	2213.5.9 = {
+		death = {
+			death_reason = death_battle
+			#killer = x #Ruler of a county of Piracicaba.
+		}
+	}
+}
+
+120005 = {
+	name = "David"
+	dynasty = 60001
+	dna = cdee00cb0b0
+	religion = anchietican
+	culture = americano
+	father = 120003
+	
+	
+	2173.5.20 = {birth = yes}
+#	2194.9.12 = {
+#		add_spouse = x
+#	}
+	2205.3.9 = {
+		death = {death_reason = death_murder}
+	}
+}
+
+120006 = {
+	name = "Raphaela"
+	female = yes
+	dynasty = 60001
+	dna = cfcfb0ca0c0
+	religion = anchietican
+	culture = americano
+	father = 120003
+
+	
+	2177.10.11 = {birth = yes}
+	#2199.7.21 = {
+	#	add_spouse = x
+	#}
+	2240.4.28 = {death = yes}
+}
+
+120007 = {
+	name = "Ulysses"
+	#Count of Americana, son of Leonard
+	dynasty = 60001
+	dna = bd0bf0bc0e0
+	religion = anchietican
+	culture = americano
+	father = 120004
+	
+	
+	2191.10.8 = {birth = yes}
+	2223.9.3 = {
+		death = {
+			death_reason = death_battle
+			killer = 120009 #Thadeus Norton
+		}
+	}
+}
+
+120008 = {
+	name = "Fernanda"
+	female = yes
+	dynasty = 60001
+	dna = bhbch0ga0c0
+	religion = anchietican
+	culture = americano
+	father = 120004
+	
+	2195.1.18 = {birth = yes}
+	#2218.7.19 = {
+	#	add_spouse = x
+	#}
+	2264.12.3 = {death = yes}
+}
+
+120009 = {
+	name = "Thadeus"
+	#Count of Americana, conquered via claim
+	dynasty = 60001
+	dna = cbaci0ccac0
+	religion = anchietican
+	culture = americano
+	father = 120005
+	
+	
+	2196.2.4 = {birth = yes}
+	2230.10.16 = { #End of the Albertian Line with his death
+		death = {
+			death_reason = death_execution
+			killer = 120015 #Sylvester Norton
+		}
+	}
+}
+
+120010 = {
+	name = "Elisa"
+	female = yes
+	dynasty = 60001
+	dna = cbhf00ab0e0
+	religion = anchietican
+	culture = americano
+	father = 120005
+	
+	
+	2199.4.18 = {birth = yes}
+	#2221.3.8 = {
+	#	add_spouse = x
+	#}
+	2261.8.22 = {death = yes}
+}
+
+	### Jacobine Line ###
+
+120011 = {
+	name = "Jacob"
+	#Count of Mogi-Guaçu
+	dynasty = 60001
+	dna = 0ffia0ea0d0
+	religion = anchietican
+	culture = americano
+	father = 120002
+	
+	
+	2150.3.23 = {birth = yes}
+#	2167.5.11 = {
+#		add_spouse = x
+#	}
+	2208.9.22 = {death = yes}
+}
+
+120012 = {
+	name = "Nathan"
+	#Count of Mogi-Guaçu
+	dynasty = 60001
+	dna = be0ae0a0ef0
+	religion = anchietican
+	culture = americano
+	father = 120011
+	
+	
+	2170.11.22 = {birth = yes}
+#	2188.2.7 = {
+#		add_spouse = x
+#	}
+	2221.10.3 = {death = yes}
+}
+
+120013 = {
+	name = "Daniela"
+	female = yes
+	dynasty = 60001
+	dna = bf0cg00cgf0
+	religion = anchietican
+	culture = americano
+	father = 120011
+	
+	
+	2174.1.6 = {birth = yes}
+	#2193.8.26 = {
+	#	add_spouse = x
+	#}
+	2226.12.4 = {death = yes}
+}
+
+120014 = {
+	name = "Everton"
+	dynasty = 60001
+	dna = bdiff0bbef0
+	religion = anchietican
+	culture = americano
+	father = 120011
+	
+	
+	2176.12.3 = {birth = yes}
+	2182.2.11 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+
+120015 = {
+	name = "Silvester"
+	#1st Duke of Americana, Count of Americana and Mogi-Guaçu
+	dynasty = 60001
+	dna = cea0b0hcjd0
+	properties = bc0jah00000
+	religion = anchietican
+	culture = americano
+	father = 120012 
+	
+	disallow_random_traits = yes
+	trait = skilled_tactician
+	trait = robust
+	trait = ambitious
+	trait = wroth
+	trait = envious
+	trait = brave
+	trait = cruel
+	
+	martial = 5
+	diplomacy = 3
+	intrigue = 3
+	stewardship = 3
+	learning = 3
+	
+	2195.11.4 = {birth = yes}
+#	2216.1.2 = {
+#		add_spouse = x #Countess of Holambra
+#	}
+	2252.10.3 = {death = yes}
+}
+
+120016 = {
+	name = "Agatha"
+	female = yes
+	dynasty = 60001 
+	dna = 0ebgf0ebjd0
+	religion = anchietican
+	culture = americano
+	father = 120012
+	
+	
+	2198.2.6 = {birth = yes}
+	#2219.10.15 = {
+	#	add_spouse = x
+	#}
+	2260.3.19 = {death = yes}
+}
+
+120017 = {
+	name = "Beatrice"
+	female = yes
+	dynasty = 60001
+	dna = ag0gf0icjd0
+	religion = anchietican
+	culture = americano
+	father = 120012
+	
+	
+	2202.7.12 = {birth = yes}
+	#2220.3.10 = {
+	#	add_spouse = x
+	#}
+	2268.8.10 = {death = yes}
+}
+
+	### Robertian Line ###
+
+120018 = {
+	name = "Robert"
+	#Robert I Norton, American King, Duke of Americana, Count of Americana, Count of Holambra
+	dynasty = 60001
+	dna = chd0e0hcjd0
+	properties = vd0enb00000
+	religion = anchietican
+	culture = americano
+	father = 120015 
+	
+	disallow_random_traits = yes
+	add_trait = grey_eminence
+	add_trait = shrewd
+	add_trait = ambitious
+	add_trait = diligent
+	add_trait = kind
+	add_trait = brave
+	add_trait = gregarious
+	add_trait = administrator
+	
+	martial = 4
+	diplomacy = 7
+	intrigue = 3
+	stewardship = 6
+	learning = 3
+	
+	2218.1.1 = {birth = yes}
+#	2236.3.10 = {
+#		add_spouse = x
+#	}
+	2278.12.31 = {death = yes}
+}
+
+120019 = {
+	name = "Laurence"
+	#Laurence I Norton, American King, Duke of Americana, Count of Americana, Count of Holambra
+	dynasty = 60001
+	dna = 0hd0g0dbjd0
+	properties = vd0edb00000
+	religion = anchietican
+	culture = americano
+	father = 120018
+	
+	disallow_random_traits = yes
+	add_trait = midas_touched
+	add_trait = fair
+	add_trait = shrewd
+	add_trait = content
+	add_trait = charitable
+	trait = temperate
+	add_trait = diligent
+	add_trait = patient
+	add_trait = administrator
+	add_trait = architect
+	add_trait = just
+	add_trait = gregarious
+	
+	martial = 2
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 8
+	learning = 4
+	
+	2237.4.15 = {birth = yes}
+#	2255.9.10 = {
+#		add_spouse = x
+#	}
+	2288.1.13 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+
+120020 = {
+	name = "Edmund"
+	dynasty = 60001
+	dna = aiiea0bajd0
+	religion = anchietican
+	culture = americano
+	father = 120018
+	
+	
+	2240.11.3 = {birth = yes}
+#	2260.1.3 = {
+#		add_spouse = x
+#	}
+	2293.2.8 = {death = yes}
+}
+
+120021 = {
+	name = "Rebecca"
+	female = yes
+	dynasty = 60001
+	dna = aheii0hcje0
+	religion = anchietican
+	culture = americano
+	father = 120018
+	
+	
+	2243.5.7 = {birth = yes}
+	#2265.9.8 = {
+	#	add_spouse = x
+	#}
+	2297.4.7 = {death = yes}
+}
+
+120022 = {
+	name = "Eleonor"
+	female = yes
+	dynasty = 60001
+	dna = 0cgbb0hbje0
+	religion = anchietican
+	culture = americano
+	father = 120018
+	
+	
+	2248.12.3 = {birth = yes}
+	2269.5.12 = {
+		add_spouse = 120029
+	}
+	2281.3.8 = {
+		death = {
+			death_reason = death_poor_health
+		}
+	}
+}
+
+120023 = {
+	name = "Harris"
+	#Harris I Norton, American King, Duke of Americana, Count of Holambra
+	dynasty = 60001
+	dna = 0cd0b0cbjd0
+	properties = ab0efa00000
+	religion = anchietican
+	culture = americano
+	father = 120019
+	
+	disallow_random_traits = yes
+	add_trait = amateurish_plotter
+	add_trait = proud
+	add_trait = deceitful
+	add_trait = arbitrary
+	add_trait = trusting
+	
+	martial = 1
+	diplomacy = 2
+	intrigue = 3
+	stewardship = 1
+	learning = 1
+	
+	2256.4.28 = {birth = yes}
+	2277.10.1 = {
+		add_spouse = 120036
+	}
+	2291.5.13 = { #Start of the civil wars for the American throne
+		death = {
+			death_reason = death_murder 
+			killer = 120030 #Reginald I Norton
+		}
+	}
+}
+
+120024 = {
+	name = "Charles"
+	#Charles I Norton, American King, Duke of Americana, Count of Holambra
+	dynasty = 60001
+	dna = 0cfab0abjd0
+	properties = aa0ica00000
+	religion = anchietican
+	culture = americano
+	father = 120019
+	
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = patient
+	add_trait = brave
+	add_trait = just
+	add_trait = trusting
+	
+	martial = 4
+	diplomacy = 2
+	intrigue = 1
+	stewardship = 1
+	learning = 2
+	
+	2257.3.12 = {birth = yes}
+#	2277.4.10 = {
+#		add_spouse = x
+#	}
+	2294.9.12 = {
+		death = {
+			death_reason = death_battle 
+			killer = 120030 #Reginald I Norton
+		}
+	}
+}
+
+120025 = {
+	name = "Anna"
+	#Anna I Norton, American Queen, Duchess of Americana, Countess of Mogi-Guaçu. Last Norton monarch.
+	female = yes
+	dynasty = 60001
+	dna = 0gfa00dbjd0
+	properties = og0d0b00000
+	religion = anchietican
+	culture = americano
+	father = 120019
+	
+	disallow_random_traits = yes
+	add_trait = charismatic_negotiator
+	add_trait = diligent
+	add_trait = kind
+	add_trait = humble
+	add_trait = honest
+	add_trait = gregarious
+	add_trait = just
+	
+	martial = 2
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 3
+	learning = 2
+	
+	2260.6.10 = {birth = yes}
+	2279.1.8 = {
+		add_spouse = 120037
+	}
+	2301.11.3 = {
+		add_trait = ill
+	}
+	2303.10.5 = {
+		death = {
+			death_reason = death_ill 
+		}
+	}
+}
+
+120026 = {
+	name = "Daphne"
+	female = yes
+	dynasty = 60001
+	dna = aiaec0caje0
+	religion = anchietican
+	culture = americano
+	father = 120020
+	
+	
+	2267.10.5 = {birth = yes}
+	#2289.5.22 = {
+	#	add_spouse = x
+	#}
+	2331.3.19 = {death = yes}
+}
+
+	### Damianic Line ###
+	
+120027 = { 
+	name = "Damian"
+	#Damian, Count of Mogi-Guaçu
+	dynasty = 60001
+	dna = acacf0fbjf0
+	religion = anchietican
+	culture = americano
+	father = 120015
+	
+	
+	2223.9.5 = {birth = yes}
+#	2245.1.30 = {
+#		add_spouse = x
+#	}
+	2278.11.20 = {death = yes}
+}
+
+120028 = {
+	name = "Larissa"
+	female = yes
+	dynasty = 60001
+	dna = cabbh0hajf0
+	religion = anchietican
+	culture = americano
+	father = 120027
+	
+	
+	2250.8.16 = {birth = yes}
+	2298.10.2 = {death = yes}
+}
+
+120029 = {
+	name = "Oliver"
+	#Count of Mogi-Guaçu
+	dynasty = 60001
+	dna = 0ieai0hbjf0
+	religion = anchietican
+	culture = americano
+	father = 120027
+	
+	
+	2253.1.10 = {birth = yes}
+	2269.5.12 = {
+		add_spouse = 120022
+	}
+	2286.8.24 = {death = yes}
+}
+
+120030 = {
+	name = "Reginald"
+	#Reginald I Norton, American King, Duke of Americana, Count of Americana and Mogi-Guaçu
+	dynasty = 60001
+	dna = agg0h0c0jf0
+	properties = nc0ehb00000
+	religion = anchietican
+	culture = americano
+	father = 120029
+	mother = 120022
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = robust
+	add_trait = brave
+	add_trait = ambitious
+	add_trait = diligent
+	add_trait = wroth
+	add_trait = deceitful
+	
+	martial = 5
+	diplomacy = 3
+	intrigue = 2
+	stewardship = 2
+	learning = 2
+	
+	2270.8.1 = {birth = yes}
+#	2288.3.10 = {
+#		add_spouse = x
+#	}
+	2298.11.11 = { #His death would cause the elevation of Anna, and consequently the West Dynasty to the throne.
+		death = {
+			death_reason = death_battle
+			killer = 120037 #West Consort-King of Anna
+		}
+	}
+}
+
+120031 = {
+	name = "Helena"
+	female = yes
+	dynasty = 60001
+	dna = bcibh0ebjf0
+	religion = anchietican
+	culture = americano
+	father = 120030
+	
+	
+	2291.7.22 = {birth = yes}
+	2335.10.8 = {death = yes}
+}
+
+120032 = {
+	name = "Phillip"
+	dynasty = 60001
+	dna = baah00bcjf0
+	religion = anchietican
+	culture = americano
+	father = 120030
+	
+	
+	2294.8.22 = {birth = yes}
+#	2315.7.2 = {
+#		add_spouse = x
+#	}
+	2342.3.5 = {death = yes}
+}
+
+120033 = { #Last Norton
+	name = "Bruna"
+	female = yes
+	dynasty = 60001
+	dna = cced00eajf0
+	religion = anchietican
+	culture = americano
+	father = 120032 
+	
+	
+	2320.4.13 = {birth = yes}
+}
+
+	### End of the Norton Dynasty ### 
+	
+	
+	## West Dynasty ##
+	
+120034 = {
+	name = "Theodore"
+	#Founder of the West Dynasty
+	dynasty = 60002
+	dna = cchdb00bid0
+	religion = anchietican
+	culture = americano
+	
+	2234.4.14 = {birth = yes}
+#	2254.10.12 = {
+#		add_spouse = x
+#	}
+	2263.2.3 = {death = yes}
+}
+
+120035 = {
+	name = "Miguel"
+	#Count of Americana
+	dynasty = 60002
+	dna = 0ddid0i0id0
+	religion = anchietican
+	culture = americano
+	father = 120034
+	
+	
+	2256.6.3 = {birth = yes}
+#	2278.1.6 = {
+#		add_spouse = x
+#	}
+	2283.10.20 = {death = yes}
+}
+
+120036 = {
+	name = "Louise"
+	female = yes
+	dynasty = 60002
+	dna = bbhbe0daid0
+	religion = anchietican
+	culture = americano
+	father = 120034
+	
+	
+	2257.10.23 = {birth = yes}
+	2277.10.1 = {
+		add_spouse = 120023
+	}
+	2301.3.30 = {death = yes}
+}
+
+120037 = {
+	name = "Edward"
+	#King-Consort of Americana, lore-wise manipulated the civil war to place his dynasty in the throne.
+	dynasty = 60002
+	dna = abae00gbid0
+	properties = eh0dfk00000
+	religion = anchietican
+	culture = americano
+	father = 120034
+	
+	disallow_random_traits = yes
+	add_trait = elusive_shadow
+	add_trait = genius
+	add_trait = robust
+	add_trait = temperate
+	add_trait = diligent
+	add_trait = envious
+	add_trait = proud
+	add_trait = cynical
+	add_trait = deceitful
+	add_trait = cruel
+	add_trait = brave
+	add_trait = strategist
+	
+	martial = 5
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 4
+	learning = 4
+	
+	2260.3.2 = {birth = yes}
+	2279.1.8 = {
+		add_spouse = 120025
+	}
+	2320.10.15 = {death = yes}
+}
+
+120038 = {
+	name = "Matthias"
+	#Count of Americana
+	dynasty = 60002
+	dna = ahfec0gcid0
+	religion = anchietican
+	culture = americano
+	father = 120035
+	
+	
+	2281.9.22 = {birth = yes}
+#	2298.4.19 = {
+#		add_spouse = x
+#	}
+	2300.2.5 = {
+		death = {death_reason = death_murder}
+	}
+}
+
+120039 = {
+	name = "Helga"
+	female = yes
+	dynasty = 60002
+	dna = 0cfgd00aid0
+	religion = anchietican
+	culture = americano
+	father = 120038
+	
+	
+	2299.8.10 = {birth = yes}
+	2342.10.5 = {death = yes}
+}
+
+120040 = {
+	name = "Victor"
+	#Victor I West, American King, Duke of Americana, Americana and Mogi-Guaçu
+	dynasty = 60002
+	dna = abhgb0icid0
+	properties = nb000b00000
+	religion = anchietican
+	culture = americano
+	father = 120037
+	mother = 120025 
+	disallow_random_traits = yes
+	add_trait = intricate_webweaver 
+	add_trait = quick
+	add_trait = temperate
+	add_trait = diligent
+	add_trait = deceitful
+	add_trait = zealous
+	add_trait = content
+	
+	2283.5.8 = {birth = yes}
+#	2300.12.25 = {
+#		add_spouse = x
+#	}
+	2322.4.27 = {death = yes}
+}
+
+120041 = {
+	name = "Luna"
+	female = yes
+	dynasty = 60002
+	dna = 00dbg0gbid0
+	religion = anchietican
+	culture = americano
+	father = 120037
+	mother = 120025
+	
+	2286.2.7 = {birth = yes}
+	2331.9.11 = {death = yes}
+}
+
+120042 = {
+	name = "Elaine"
+	female = yes
+	dynasty = 60002
+	dna = 00bgd0b0id0
+	religion = anchietican
+	culture = americano
+	father = 120037
+	mother = 120025
+	
+	2290.9.12 = {birth = yes}
+	2338.7.8 = {death = yes}
+}
+
+120043 = {
+	name = "Jackson"
+	#Jackson I "the Missionary" West, American King, Duke of Americana, Count of Americana. Converted the northernmost territories of SÃ£o Paulo.
+	dynasty = 60002
+	dna = cdihg0gaid0
+	properties = mm0mcb00000
+	religion = anchietican
+	culture = americano
+	father = 120040
+	
+	disallow_random_traits = yes
+	add_trait = mastermind_theologian
+	add_trait = quick
+	add_trait = mystic
+	add_trait = chaste
+	add_trait = patient
+	add_trait = humble
+	add_trait = erudite
+	add_trait = theologian
+	add_trait = brave
+	
+	2302.5.7 = {birth = yes}
+#	2319.12.1 = {
+#		add_spouse = x
+#	}
+	2338.10.28 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+
+120044 = {
+	name = "Emily"
+	female = yes
+	dynasty = 60002
+	dna = abga00a0id0
+	religion = anchietican
+	culture = americano
+	father = 120040
+	 
+	
+	2305.3.9 = {birth = yes}
+	2357.10.2 = {death = yes}
+}
+
+120045 = {
+	name = "Lars"
+	#Count of Mogi-Guaçu
+	dynasty = 60002
+	dna = bhegb0caid0
+	religion = anchietican
+	culture = americano
+	father = 120040
+	
+	
+	2308.7.2 = {birth = yes}
+#	2329.5.5 = {
+#		add_spouse = x
+#	}
+	2350.1.3 = {death = yes}
+}
+
+120046 = {
+	name = "Adam"
+	#Count of Santa Barbara d'Oeste
+	dynasty = 60002
+	dna = cdcad0g0id0
+	religion = anchietican
+	culture = americano
+	father = 120040
+	
+	
+	2311.3.4 = {birth = yes}
+#	2332.10.2 = {
+#		add_spouse = x
+#	} anime bodypillow is NOT a legal partner
+	2344.7.4 = {death = yes}
+}
+
+120047 = {
+	name = "Damien"
+	#Damien I West, American King, Duke of Americana, Duke of Piracicaba, Count of Americana, Piracicaba and Mogi-Guaçu
+	dynasty = 60002
+	dna = cdc0d0b0id0
+	properties = sh0cfb00000
+	religion = anchietican
+	culture = americano
+	father = 120043
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = quick
+	add_trait = wroth
+	add_trait = brave
+	add_trait = arbitrary
+	add_trait = zealous
+	
+	martial = 5
+	diplomacy = 3
+	intrigue = 2
+	stewardship = 3
+	learning = 3
+	
+	2323.8.10 = {birth = yes}
+#	2340.1.2 = {
+#		add_spouse = x #Someone from Limeira
+#	}	come on dude
+	2350.10.31 = {
+		death = death_accident
+	}
+}
+
+120048 = {
+	name = "Danielle"
+	female = yes
+	dynasty = 60002
+	dna = becic0abid0
+	religion = anchietican
+	culture = americano
+	father = 120043
+	
+	2325.3.27 = {birth = yes}
+	2360.9.10 = {death = yes}
+}
+
+120049 = {
+	name = "William"
+	#William I West, American King, Duke of Americana and Piracicaba, Count of Americana, Santa Barbara d'Oeste, Mogi-Guaçu, Piracicaba and Mogi-Guaçu
+	dynasty = 60002
+	dna = ahfh00gcid0
+	properties = ad0bdb00000
+	religion = anchietican
+	culture = americano
+	father = 120043
+	disallow_random_traits = yes
+	add_trait = grey_eminence
+	add_trait = shrewd
+	add_trait = temperate
+	add_trait = diligent
+	add_trait = brave
+	add_trait = just
+	add_trait = gregarious
+	
+	martial = 2
+	diplomacy = 5
+	intrigue = 1
+	stewardship = 3
+	learning = 1
+	
+	2327.12.25 = {birth = yes}
+#	2346.5.1 = {
+#		add_spouse = x
+#	} good grief
+	2367.12.31 = {death = yes}
+}
+
+120050 = {
+	name = "Margaret"
+	female = yes
+	dynasty = 60002
+	dna = 0cbih0d0id0
+	religion = anchietican
+	culture = americano
+	father = 120043
+	
+	2330.1.2 = {birth = yes}
+}
+
+120051 = {
+	name = "Jaime"
+	#Jaime I West, American King, Duke of Americana, Count of Americana, Santa Barbara d'Oeste and Mogi-Guaçu
+	dynasty = 60002
+	dna = addg00hbid0
+	properties = ie0bmb00000
+	religion = anchietican
+	culture = americano
+	father = 120049
+	disallow_random_traits = yes
+	add_trait = fortune_builder
+	add_trait = twin
+	add_trait = temperate
+	add_trait = kind
+	add_trait = humble
+	add_trait = just
+	add_trait = craven
+	
+	martial = 2
+	diplomacy = 3
+	intrigue = 2
+	stewardship = 4
+	learning = 2
+	
+	2347.3.3 = {birth = yes}
+#	2366.8.3 = {
+#		add_spouse = x
+#	} ehhhhhhhhhhhhhhhhhhhhh
+}
+
+120052 = {
+	name = "Albert"
+	#Duke of Piracicaba, Count of Piracicaba and Mogi-Guaçu
+	dynasty = 60002
+	dna = 0dhe00g0id0
+	religion = anchietican
+	culture = americano
+	father = 120049
+	trait = twin
+	
+	martial = 4
+	diplomacy = 2
+	intrigue = 1
+	stewardship = 3
+	learning = 1 
+	
+	2347.3.3 = {birth = yes}
+	2362.1.19 = { #Mineiro Conquest of Piracicaba
+		death = {
+			death_reason = death_execution 
+			#killer = x #Rodrigo II Desterro
+		}
+	}
+}
+
+120053 = {
+	name = "Julia"
+	female = yes
+	dynasty = 60002
+	dna = 0dh0i000id0
+	properties = sf0a0k00000
+	religion = anchietican
+	culture = americano
+	father = 120049
+	disallow_random_traits = yes
+	add_trait = charismatic_negotiator
+	add_trait = fair
+	add_trait = quick
+	add_trait = chaste
+	add_trait = temperate
+	add_trait = kind
+	add_trait = just
+	
+	martial = 1
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 3
+	learning = 2
+	
+	2348.5.5 = {birth = yes}
+	2364.12.25 = {
+		add_spouse = 110001 
+	}
+}
+
+120062 = {
+	name = "Roger"
+	#Count of Mogi-Guaçu, son of Lars
+	dynasty = 60002
+	dna = caiif0dbid0
+	religion = anchietican
+	culture = americano
+	father = 120045
+	
+	2346.8.10 = {birth = yes}
+	2352.12.1 = {
+		add_trait = ill
+	}
+	2353.7.3 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+120054 = {
+	name = "Charles"
+	#Count of Santa Barbara d'Oeste, son of Adam
+	dynasty = 60002
+	dna = bfhee0d0id0
+	religion = anchietican
+	culture = americano
+	father = 120046
+	
+	2338.3.10 = {birth = yes}
+	2351.1.20 = {
+		add_trait = ill
+	}
+	2351.2.3 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+	
+	### End of the West Dynasty ###
+
+	## Holzmann Dynasty ##
+
+120055 = {
+	name = "Pedro"
+	#Pedro Holzmann, current Duke of Piracicaba
+	dynasty = 60003
+	dna = cgbgc0g00f0
+	properties = bc0ggh00000
+	religion = anchietican
+	culture = teuto_paulista
+	father = 120056
+	mother = 120057
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = shrewd
+	add_trait = temperate
+	add_trait = diligent
+	add_trait = gregarious
+	add_trait = brave
+	add_trait = inspiring_leader
+	
+	martial = 5
+	diplomacy = 3
+	intrigue = 2
+	stewardship = 3 
+	learning = 2
+	
+	2337.9.2 = {
+		birth = yes
+		culture = americano
+	}
+}
+
+120056 = { 
+	name = "Jaime"
+	#Pedro's father
+	dynasty = 60003
+	religion = anchietican
+	culture = teuto_paulista
+	father = 120058
+	mother = 120059
+	
+	2315.4.10 = {
+		birth = yes
+		culture = americano
+	}
+	2335.8.1 = {
+		add_spouse = 120057 
+	}
+}
+
+120057 = { #Pedro's mother
+	name = "Anastasia"
+	female = yes
+	dynasty = 0 #random
+	religion = anchietican
+	culture = teuto_paulista
+
+	2313.10.22 = {
+		birth = yes
+		culture = americano
+	}
+	2335.8.1 = {
+		add_spouse = 120056
+	}
+	2365.5.22 = {death = yes}
+}
+
+120058 = { #Jaime's father
+	name = "Daniel"
+	dynasty = 60003
+	religion = anchietican
+	culture = teuto_paulista
+	father = 120060
+	mother = 120061
+	
+	2295.6.17 = {
+		birth = yes
+		culture = americano
+	}
+	2314.2.10 = {
+		add_spouse = 120059
+	}
+	2352.3.10 = {death = yes}
+}
+
+120059 = { #Jaime's mother
+	name = "Helena"
+	female = yes
+	religion = anchietican
+	culture = teuto_paulista
+	
+	2296.1.19 = {
+		birth = yes
+		culture = americano
+	}
+	2314.2.10 = {
+		add_spouse = 120058
+	}
+	2354.10.4 = {death = yes}
+}
+
+120060 = {
+	name = "Edward"
+	#Founder of the Holzmann Dynasty
+	dynasty = 60003
+	religion = anchietican
+	culture = teuto_paulista
+	
+	2262.3.4 = {
+		birth = yes 
+		culture = americano
+	}
+	2283.1.5 = {
+		add_spouse = 120061
+	}
+	2325.2.10 = {death = yes}
+}
+
+120061 = {
+	name = "Louise"
+	female = yes
+	dynasty = 0
+	religion = anchietican
+	culture = teuto_paulista
+	
+	2262.6.10 = {
+		birth = yes
+		culture = americano
+	}
+	2283.1.5 = {
+		add_spouse = 120060
+	}
+	2328.10.3 = {death = yes}
+}
+
+#PAULISTANOS
+
+##Cantarini Dynasty##
+110001 = {
+	name = "Alexandre"
+	#Alexandre Cantarini, King of the Paulistan Kingdom
+	dynasty = 55001 #Cantarini
+	dna = cib000fcgb0
+	properties = we0b0c00000 
+	religion = anchietican
+	culture = paulistano
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	add_trait = genius
+	add_trait = adventurer
+	add_trait = ambitious
+	add_trait = temperate
+	add_trait = diligent
+	add_trait = proud
+	add_trait = brave
+	add_trait = gregarious
+	add_trait = just
+	add_trait = strategist
+	add_trait = master_of_flame
+	add_trait = inspiring_leader
+	add_trait = deceitful
+	add_trait = cynical
+	
+	martial = 8
+	diplomacy = 10
+	intrigue = 5
+	stewardship = 10
+	learning = 5
+	
+	2344.3.5 = {
+		birth = yes
+		effect = {
+			set_character_flag = is_alexandre
+			set_character_flag = is_special_character
+		}
+	}
+	2364.1.25 = {
+		create_bloodline = {
+			type = alexandre
+			has_dlc = "Holy Fury"
+		}
+		#give_nickname = nick_the_great
+	}
+	2364.12.25 = {
+		add_spouse = 120053
+	}
+}
+
+110002 = {
+	name = "Augusto"
+	#Augusto Cantarini, son of Alexandre
+	dynasty = 55001 #Cantarini
+	dna = 0cd0d0dci00
+	religion = anchietican
+	culture = paulistano
+	father = 110001
+	mother = 120053
+	add_trait = genius
+	
+	2367.10.10 = {
+		birth = yes
+		effect = { #Just in case he's granted a event chain of his own or the ability to continue the one of Alexandre
+			set_character_flag = is_augusto
+			set_character_flag = is_special_character
+		}
+	}
+}
+	
+##Lombardi Dynasty##
+
+110003 = { #Founder of the Lombardi
+	name = "Juliano" 
+	dynasty = 55006 #Lombardi
+	religion = anchietican
+	culture = paulistano
+	
+	2092.8.11 = {birth = yes}
+	2142.3.2 = {death = yes}
+}
+
+110004 = { #First Magnate
+	name = "Gilberto"
+	dynasty = 55006 #Lombardi
+	religion = anchietican
+	culture = paulistano
+	father = 110003
+	
+	2115.2.25 = {birth = yes}
+	2173.9.10 = {death = yes}
+}
+
+110005 = { #1st Magnate of the Branch of São Vicente
+	name = "Luciano"
+	dynasty = 55006 #Lombardi
+	religion = anchietican
+	culture = paulistano
+	father = 110003
+	
+	2118.5.8 = {birth = yes}
+	2180.2.3 = {death = yes}
+}
+
+	#Gilbertian Branch# 
+	
+110006 = { #2nd Magnate, 1st Lombardi Magister 
+	name = "Giuseppe"
+	dynasty = 55006 
+	dna = aefgf0ba000
+	religion = anchietican
+	culture = paulistano
+	father = 110004 
+	add_trait = fortune_builder
+	add_trait = shrewd
+	
+	2136.2.3 = {birth = yes}
+	2189.2.24 = {death = yes}
+}
+
+110007 = {
+	name = "Daniela"
+	female = yes
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110004
+	
+	2140.3.10 = {birth = yes}
+	2202.4.17 = {death = yes}
+}
+
+110008 = { #3rd Magnate
+	name = "Rafaelo"
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110006 #Giuseppe
+	
+	2159.9.12 = {birth = yes}
+	2218.3.5 = {death = yes}
+}
+
+110009 = {
+	name = "Rafaela"
+	female = yes
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110006 #Giuseppe
+	
+	2163.12.1 = {birth = yes}
+	2222.2.2 = {death = yes}
+}
+
+110010 = {
+	name = "Ambrósia"
+	dynasty = 55006
+	female = yes
+	religion = anchietican
+	culture = paulistano
+	father = 110006 #Giuseppe
+	
+	2166.8.13 = {birth = yes}
+	2219.3.1 = {death = yes}
+}
+
+110011 = { #4th Magnate
+	name = "Miguel"
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110008 #Rafaelo
+	
+	2183.7.24 = {birth = yes}
+	2235.10.12 = {death = yes}
+}
+
+110012 = { #5th Magnate, 1st Lombardi Consul, 2nd Lombardi Magister
+	name = "Fabrício"
+	dynasty = 55006
+	dna = agfh00j0dc0
+	religion = anchietican
+	culture = paulistano
+	father = 110011 #Miguel
+	add_trait = grey_eminence
+	add_trait = shrewd
+	
+	2203.5.10 = {birth = yes}
+	2263.12.1 = {death = yes}
+}
+
+110013 = {
+	name = "Larissa"
+	female = yes
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110011 #Miguel
+	
+	2208.1.3 = {birth = yes}
+	2270.3.12 = {death = yes}
+}
+
+110014 = { #6th Magnate
+	name = "Eduardo"
+	dynasty = 55006
+	dna = ae0dd0hbgc0
+	religion = anchietican
+	culture = paulistano
+	father = 110012 #Fabrício
+	add_trait = quick
+	
+	2226.1.10 = {birth = yes}
+	2250.1.1 = {
+		effect_even_if_dead = {
+			add_friend = 110040 #Lívio Lombardi
+		}
+	}
+	2281.4.15 = {death = yes}
+}
+
+110015 = {
+	name = "Isabela"
+	female = yes
+	dna = aafb00gbgc0
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110012 #Fabrício
+	
+	2228.3.12 = {birth = yes}
+	2293.10.4 = {death = yes}
+}
+
+110016 = { #7th Magnate, union with Stucchi, 1st Lombardi-Stucchi branch
+	name = "Vicente"
+	dynasty = 55006
+	dna = abddh0bcga0
+	religion = anchietican
+	culture = paulistano
+	father = 110014 #Eduardo
+	
+	2250.12.3 = {birth = yes}
+	2270.12.1 = { #Lombardi-Stucchi Pact
+		add_spouse = 110042 #Bárbara Stucchi
+	}
+	2307.2.22 = {death = yes}
+}
+
+110017 = { #Union with Stucchi, 2nd Lombardi-Stucchi branch
+	name = "Laura"
+	female = yes
+	dna = cahhi0j0gc0
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110014 #Eduardo
+	
+	2253.8.30 = {birth = yes}
+	2270.12.1 = { #Lombardi-Stucchi Pact
+		add_spouse = 110041 #Roberto Stucchi
+	}
+	2314.6.23 = {death = yes}
+}
+
+	#Lucianite Branch#
+
+110018 = { #2nd Magnate
+	name = "José"
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110005 #Luciano
+	
+	2140.5.5 = {birth = yes}
+	2200.2.2 = {death = yes}
+}
+
+110019 = {
+	name = "Maria"
+	female = yes
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110005 #Luciano
+	
+	2143.7.2 = {birth = yes}
+	2209.8.10 = {death = yes}
+}
+
+110020 = { #3rd Magnate
+	name = "Alberto"
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110018 #José
+	
+	2162.9.20 = {birth = yes}
+	2231.3.10 = {death = yes}
+}
+
+110021 = { #4th Magnate, 2nd Oligarch of São Vicente
+	name = "Ernesto"
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110020 #Alberto
+
+	2185.4.18 = {birth = yes}
+	2255.9.11 = {death = yes}
+}
+
+110022 = {
+	name = "Elaine"
+	female = yes
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110020 #Alberto
+	
+	2190.8.23 = {birth = yes}
+	2264.7.15 = {death = yes}
+}
+
+110023 = {
+	name = "Ana Julia"
+	female = yes
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110020 #Alberto
+	
+	2193.2.27 = {birth = yes}
+	2271.8.10 = {death = yes}
+}
+
+110024 = { #5th Magnate, 3rd Oligarch of São Vicente
+	name = "Gabriel"
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110021 #Ernesto
+	
+	2206.12.23 = {birth = yes}
+	2268.3.5 = {death = yes}
+}
+
+110026 = { 
+	name = "Felícia"
+	female = yes
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110021 #Ernesto
+	
+	2209.8.16 = {birth = yes}
+	2272.3.1 = {death = yes}
+}
+
+110028 = { #6th Magnate, 4rd Oligarch of São Vicente
+	name = "Paulo"
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110024 #Gabriel
+	
+	2231.6.12 = {birth = yes}
+	2288.10.23 = {
+		add_trait = ill
+	}
+	2289.3.25 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110029 = { #7th Magnate, 5th Oligarch
+	name = "Lázaro"
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110024 #Gabriel
+	
+	2235.1.24 = {birth = yes}
+	2295.11.3 = {
+		death = { 
+			death_reason = death_murder
+			killer = 110108 #Demétrio Schertz
+		}
+	}
+}
+
+110030 = { 
+	name = "Eleanor"
+	female = yes
+	dynasty = 55006
+	religion = anchietican
+	culture = paulistano
+	father = 110029 #Lázaro
+	
+	2258.1.6 = {birth = yes}
+	2304.2.12 = {death = yes}
+}
+
+##Stucchi Dynasty##
+
+110031 = { #Founder of the Stucchi, 1st Magnate
+	name = "Gustavo"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	#add_trait = legendary
+	
+	2115.4.5 = {birth = yes}
+	2173.9.12 = {death = yes}
+}
+
+110032 = { #2nd Magnate
+	name = "Rodrigo"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110031 #Gustavo
+	
+	2134.6.12 = {birth = yes}
+	2195.10.2 = {death = yes}
+}
+
+110033 = {
+	name = "Juliana"
+	female = yes
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110031 #Gustavo
+	
+	2138.3.22 = {birth = yes}
+	2159.11.12 = {
+		add_spouse = 110054 #Antônio de Andrade
+	}
+	2203.7.13 = {death = yes}
+}
+
+110034 = { #3rd Magnate
+	name = "Ricardo"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110032 #Rodrigo
+	
+	2160.5.9 = {birth = yes}
+	2232.11.13 = {death = yes}
+}
+
+110035 = { #1st Magnate of São Vicente Branch, Oligarch of São Vicente
+	name = "Hélio"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110032 #Rodrigo
+	
+	2164.12.1 = {birth = yes}
+	2232.5.10 = {death = yes}
+}
+
+	##Ricardian Branch##
+
+110036 = {
+	name = "Débora"
+	female = yes
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110034 #Ricardo
+	
+	2181.3.10 = {birth = yes}
+	2240.2.6 = {death = yes}
+}
+
+110037 = { #4th Magnate, 1st Stucchi Consul
+	name = "Filipe"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110034 #Ricardo
+	
+	2195.12.1 = {birth = yes}
+	2256.7.5 = {death = yes}
+}
+
+110038 = {
+	name = "Heloísa"
+	female = yes
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110037 #Filipe
+	
+	2221.4.12 = {birth = yes}
+	2265.8.20 = {death = yes}
+}
+
+110039 = { #5th Magnate
+	name = "Sérgio"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110037 #Filipe
+	
+	2223.4.13 = {birth = yes}
+	2267.8.29 = {death = yes}
+}
+
+110040 = { #6th Magnate, 2nd Stucchi Consul
+	name = "Lívio"
+	dynasty = 55009
+	dna = 0agbd0ba0b0
+	religion = anchietican
+	culture = paulistano
+	father = 110037 #Filipe
+	disallow_random_traits = yes
+	add_trait = grey_eminence
+	add_trait = shrewd
+	add_trait = diligent
+	add_trait = gregarious
+	add_trait = content
+	
+	2226.9.1 = {birth = yes}
+	2250.1.1 = {
+		effect_even_if_dead = {
+			add_friend = 110014 #Eduardo Lombardi
+		}
+	}
+	2285.8.12 = {death = yes}
+}
+
+110041 = { #7th Magnate
+	name = "Roberto"
+	dynasty = 55009
+	dna = afgeb0ba0b0
+	religion = anchietican
+	culture = paulistano
+	father = 110040 #Lívio
+	
+	2245.7.12 = {birth = yes}
+	2270.12.1 = { #Lombardi-Stucchi Pact
+		add_spouse = 110017 #Laura Lombardi
+	}
+	2293.5.8 = {
+		death = {
+			death_reason = death_murder
+			killer = 110108 #Demétrio Schertz
+		}
+	}
+}
+
+110042 = {
+	name = "Bárbara"
+	female = yes
+	dynasty = 55009
+	dna = adgcg0gc000
+	religion = anchietican
+	culture = paulistano
+	father = 110040 #Lívio
+	
+	2251.2.13 = {birth = yes}
+	2270.12.1 = { #Lombardi-Stucchi Pact
+		add_spouse = 110016 #Vicente Lombardi
+	}
+	2329.1.3 = {death = yes}
+}
+	
+	#Helian Line#
+
+110043 = { #2nd Magnate, Oligarch of São Vicente
+	name = "Carlos"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110035 #Hélio
+	
+	2189.4.10 = {birth = yes}
+	2245.12.2 = {death = yes}
+}
+
+110044 = {
+	name = "Gabriela"
+	female = yes
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110035 #Hélio
+	
+	2193.7.11 = {birth = yes}
+	2229.1.6 = {death = yes}
+}
+
+110045 = { #3rd Magnate
+	name = "Marcelo"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110043 #Carlos
+	
+	2213.6.4 = {birth = yes}
+	2253.7.10 = {death = yes}
+}
+
+110046 = { #4th Magnate
+	name = "Fernando"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110045 #Marcelo
+	
+	2234.5.12 = {birth = yes}
+	2287.10.12 = {death = yes}
+}
+
+110047 = {
+	name = "Eliana"
+	female = yes
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110045 #Marcelo
+	
+	2240.8.10 = {birth = yes}
+	2300.1.13 = {death = yes}
+}
+
+110048 = { #5th Magnate
+	name = "Rodrigo"
+	dynasty = 55009
+	religion = anchietican
+	culture = paulistano
+	father = 110046 #Fernando
+	
+	2258.4.12 = {birth = yes}
+	2293.5.8 = {
+		death = {
+			death_reason = death_murder
+			killer = 110108 #Demétrio Schertz
+		}
+	}
+}
+
+##de Andrade Dynasty##
+
+110049 = { #Semi-Legendary founder of the de Andrade, 1st Magnate
+	name = "Lourenço"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	
+	2055.5.17 = {
+		birth  = yes
+	}
+	2097.11.1 = {death = yes}
+}
+
+110050 = { #2nd Magnate
+	name = "Manuel"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110049 #Lourenço
+	
+	2077.5.12 = {birth = yes}
+	2100.1.1 = {
+		effect_even_if_dead = {
+			add_friend = 110078 #Bruno Cubas
+		}
+	}
+	2131.2.24 = {death = yes}
+}
+
+110051 = { #3rd Magnate, 1st de Andrade Magister
+	name = "Damião"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110050 #Manuel
+	
+	2098.12.15 = {birth = yes}
+	2123.11.5 = {
+		add_spouse = 110079 #Elisabete Cubas
+	}
+	2163.5.30 = {death = yes}
+}
+
+110052 = { #4th Magnate
+	name = "Sebastião"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110051 #Damião
+	mother = 110079 #Elisabete
+	
+	2124.4.12 = {birth = yes}
+	2188.7.5 = {death = yes}
+}
+
+110053 = {
+	name = "Vanessa"
+	female = yes
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110051 #Damião
+	mother = 110079 #Elisabete
+	
+	2125.9.12 = {birth = yes}
+	2192.4.11 = {death = yes}
+}
+
+110054 = { #5th Magnate
+	name = "Antônio"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110052 #Sebastião
+	
+	2139.4.1 = {birth = yes}
+	2159.11.22 = {
+		add_spouse = 110033 #Juliana Stucchi
+	}
+	2190.12.4 = {death = yes}
+}
+
+110055 = { #6th Magnate, 2nd de Andrade Magister, 1st de Andrade Consul
+	name = "Clemente"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110054 #Antônio
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	add_trait = quick
+	add_trait = brave
+	add_trait = ambitious
+	add_trait = diligent
+	add_trait = wroth
+	
+	2161.3.10 = {birth = yes}
+	2212.10.1 = {death = yes}
+}
+
+110056 = {
+	name = "Beatriz"
+	female = yes
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110054 #Antônio
+	
+	2164.1.5 = {birth = yes}
+	2225.9.4 = {death = yes}
+}
+
+110057 = { #7th Magnate
+	name = "Mateus"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110055 #Clemente
+	
+	2182.2.11 = {birth = yes}
+	2245.3.23 = {death = yes}
+}
+
+110058 = { 
+	name = "Adele"
+	female = yes
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110055 #Clemente
+	
+	2185.7.12 = {birth = yes}
+	2248.8.3 = {death = yes}
+}
+
+110059 = { #8th Magnate
+	name = "Benedito"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110057 #Mateus
+	
+	2203.4.3 = {birth = yes}
+	2256.10.20 = {death = yes}
+}
+
+110060 = {
+	name = "Helena"
+	female = yes
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110059 #Benedito
+	
+	2225.6.6 = {birth = yes}
+	2275.1.19 = {death = yes}
+}
+
+110061 = { #9th Magnate, 2nd de Andrade Consul
+	name = "Caetano"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110059 #Benedito
+	add_trait = midas_touched
+	
+	2230.9.12 = {birth = yes}
+	2269.8.11 = {
+		add_trait = ill
+	}
+	2270.1.17 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110062 = {
+	name = "Érica"
+	female = yes
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110059 #Benedito
+	
+	2233.10.11 = {birth = yes}
+	2293.5.2 = {death = yes}
+}
+
+110063 = { #10th Magnate
+	name = "Daniel"
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110061 #Caetano
+	
+	2251.3.19 = {birth = yes}
+	2298.4.27 = {death = yes}
+}
+
+110064 = {
+	name = "Luíza"
+	female = yes
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110061 #Caetano
+	
+	2253.9.7 = {birth = yes}
+	2303.12.1 = {death = yes}
+}
+
+110065 = {
+	name = "Marcela"
+	female = yes
+	dna = 0cfhb000ba0
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110063 #Daniel
+	
+	2278.5.8 = {birth = yes}
+	2324.3.18 = {death = yes}
+}
+
+110066 = { #11th Magnate, 3rd de Andrade Consul
+	name = "Eduardo"
+	dna = 0cfhb000ba0
+	properties = wm0gah00000
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110063 #Daniel
+	disallow_random_traits = yes
+	add_trait = grey_eminence
+	add_trait = quick
+	add_trait = diligent
+	add_trait = envious
+	add_trait = deceitful
+	add_trait = gregarious
+	add_trait = just
+	
+	martial = 2
+	diplomacy = 7
+	stewardship = 5
+	intrigue = 6
+	learning = 3
+	
+	2281.4.10 = {birth = yes}
+	2338.5.1 = {death = yes}
+}
+
+110067 = { #12th Magnate, 1st Oligarch of São Vicente, 1st Oligarch of Bertioga
+	name = "Henrique"
+	dna = befdi0kbba0
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110066 #Eduardo
+	disallow_random_traits = yes
+	add_trait = elusive_shadow
+	add_trait = quick
+	add_trait = ambitious
+	add_trait = greedy
+	add_trait = envious
+	add_trait = gregarious
+	add_trait = deceitful
+	
+	martial = 2
+	diplomacy = 5
+	intrigue = 7
+	stewardship = 5
+	learning = 2
+	
+	2303.5.13 = {birth = yes}
+	2357.11.3 = {death = yes}
+}
+
+110068 = {
+	name = "Amanda"
+	dna = bb0eh0ebba0
+	female = yes
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110066 #Eduardo
+	
+	2305.8.12 = {birth = yes}
+	2361.12.1 = {death = yes}
+}
+
+110069 = {
+	name = "Sílvia"
+	dna = ccedh0cbba0
+	female = yes
+	dynasty = 55015 
+	religion = anchietican
+	culture = paulistano
+	father = 110066 #Eduardo
+	
+	2307.10.1 = {birth = yes}
+	2363.2.5 = {death = yes}
+}
+
+110070 = { #13th Magnate, 4th de Andrade Consul, 2nd Oligarch of São Vicente
+	name = "João"
+	dna = cicbe0d0ic0
+	properties = fb0elh00000
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110067 #Henrique
+	disallow_random_traits = yes
+	add_trait = fortune_builder
+	add_trait = feeble
+	add_trait = shrewd
+	add_trait = temperate
+	add_trait = greedy
+	add_trait = diligent
+	add_trait = craven
+	add_trait = gregarious
+	
+	martial = 2
+	diplomacy = 4
+	intrigue = 2
+	stewardship = 4
+	learning = 2
+	
+	
+	2323.3.10 = {birth = yes}
+	2343.9.10 = {
+		add_spouse = 110137 #Helena Graeff
+	}
+	2364.12.3 = {
+		death = {
+			death_reason = death_battle #Guilherme Ramalho's Invasion
+		}
+	}
+}
+
+110071 = {
+	name = "Elisa"
+	dna = acee000aic0
+	female = yes
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110067 #Henrique
+	
+	2326.8.10 = {birth = yes}
+	2345.2.3 = {
+		add_spouse = 110135 #Filipe Graeff
+	}
+}
+
+110072 = {
+	name = "Basilissa"
+	dna = afeaa0kaic0
+	female = yes
+	religion = anchietican
+	culture = paulistano
+	dynasty = 55015
+	father = 110067 #Henrique
+	
+	2330.9.12 = {birth = yes}
+}
+
+110073 = { #14th Magnate, 3rd Oligarch of São Vicente
+	name = "Delfim"
+	dna = adacd0d0ib0
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110070 #João
+	mother = 110137 #Helena
+	disallow_random_traits = yes
+	add_trait = indulgent_wastrel
+	add_trait = weak
+	add_trait = temperate
+	add_trait = charitable
+	add_trait = incapable
+	
+	martial = 2
+	diplomacy = 2
+	intrigue = 2
+	stewardship = 3
+	learning = 2
+	
+	2344.4.4 = {birth = yes}
+	2362.12.1 = {
+		add_spouse = 110142 #Lavínia Graeff
+	}
+}
+
+110074 = {
+	name = "Gianluca"
+	dna = 000gd0h0bc0
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110070 #João
+	mother = 110137 #Helena
+	disallow_random_traits = yes
+	add_trait = fortune_builder
+	add_trait = shrewd
+	add_trait = diligent
+	add_trait = envious
+	add_trait = ambitious
+	add_trait = brave
+	
+	martial = 5
+	diplomacy = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	
+	add_claim = k_santos
+	add_claim = d_santos
+	add_claim = c_santos
+	add_claim = c_sao_vicente
+	add_claim = b_de_andrade
+	
+	2345.8.24 = {birth = yes}
+}
+
+110075 = {
+	name = "Jéssica"
+	dna = cdic00c0cb0
+	female = yes
+	dynasty = 55015
+	religion = anchietican
+	culture = paulistano
+	father = 110070 #João
+	mother = 110137 #Helena
+	
+	2350.12.1 = {birth = yes}
+}
+
+	
+##Cubas Dynasty##
+
+110076 = { #Semi-Legendary Founder, 1st Magnate, 1st Oligarch of Santos and São Vicente
+	name = "Brás"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	disallow_random_traits = yes
+	add_trait = midas_touched
+	add_trait = architect 
+	add_trait = brave
+	add_trait = diligent
+	#add_trait = legendary
+	
+	2055.12.1 = {birth = yes}
+	2100.3.10 = {death = yes}
+}
+
+110077 = { #2nd Magnate, 2nd Oligarch of Santos. Semi-Legendary
+	name = "Pedro"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110076 #Brás
+	disallow_random_traits = yes
+	add_trait = flamboyant_schemer
+	add_trait = craven
+	add_trait = cruel
+	add_trait = arbitrary
+	add_trait = ambitious
+	#add_trait = legendary
+	
+	2077.1.3 = {birth = yes}
+	2101.10.7 = {
+		death = { #Semi-Legendary Brother's War
+			death_reason = death_battle
+			killer = 110078 #Bruno Cubas
+		}
+	}
+}
+
+110078 = { #3rd Magnate, 2nd Oligarch of São Vicente, 3rd Oligarch of Santos, 1st Cubas Magister. Semi-Legendary
+	name = "Bruno"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110076 #Brás
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = brave
+	add_trait = kind
+	add_trait = just
+	add_trait = ambitious
+	#add_trait = legendary
+	
+	2080.3.1 = {birth = yes}
+	2100.1.1 = {
+		effect_even_if_dead = {
+			add_friend = 110050 #Manuel de Andrade
+		}
+	}
+	2133.1.20 = {death = yes}
+}
+
+110079 = {
+	name = "Elisabete"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110078 #Bruno
+	
+	2103.5.10 = {birth = yes}
+	2123.11.5 = {
+		effect_even_if_dead = {
+			add_spouse = 110051 #Damião de Andrade
+		}
+	}
+	2167.9.2 = {death = yes}
+}
+
+110080 = { #4th Magnate, 3rd Oligarch of São Vicente
+	name = "André"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110078 #Bruno
+	add_trait = slow
+	
+	2106.8.10 = {birth = yes}
+	2157.5.12 = {death = yes}
+}
+
+110081 = { #5th Magnate
+	name = "Davi"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110080 #André
+	
+	2130.2.12 = {birth = yes}
+	2190.11.30 = {death = yes}
+}
+
+110082 = {
+	name = "Mariana"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110080 #André
+	
+	2133.4.10 = {birth = yes}
+	2201.9.20 = {death = yes}
+}
+
+110083 = { #6h Magnate
+	name = "Vinícius"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110081 #Davi
+	
+	2154.6.13 = {birth = yes}
+	2226.1.20 = {death = yes}
+}
+
+110084 = {
+	name = "Vitória"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110081 #Davi
+	
+	2157.3.10 = {birth = yes}
+	2231.9.10 = {death = yes}
+}
+
+110085 = { #7th Magnate, 1st Consul
+	name = "Emanuel"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110083 #Vinícius
+	add_trait = elusive_shadow
+	add_trait = shrewd
+	add_trait = ambitious
+	
+	2180.3.10 = {birth = yes}
+	2248.12.10 = {death = yes}
+}
+
+110086 = {
+	name = "Carolina"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110083 #Vinícius
+	
+	2183.8.26 = {birth = yes}
+	2255.8.12 = {death = yes}
+}
+
+110087 = {
+	name = "Fátima"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110083 #Vinícius
+	
+	2185.1.10 = {birth = yes}
+	2260.8.22 = {death = yes}
+}
+
+110088 = { #8th Magnate, 1st Oligarch of Itanhaém
+	name = "Jefferson"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110085 #Emanuel
+	
+	2200.2.3 = {birth = yes}
+	2275.11.22 = {death = yes}
+}
+
+110089 = {
+	name = "Denise"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110085 #Emanuel
+	
+	2203.11.7 = {birth = yes}
+	2267.8.1 = {death = yes}
+}
+
+110090 = { #9th Magnate, 2nd Oligarch of Itanhaém
+	name = "Fausto"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110088 #Jefferson
+	
+	2225.12.3 = {birth = yes}
+	2290.1.3 = {death = yes}
+}
+
+110091 = {
+	name = "Isadora"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110088 #Jefferson
+	
+	2230.4.8 = {birth = yes}
+	2300.8.10 = {death = yes}
+}
+
+110092 = {
+	name = "Emilia"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110090 #Fausto
+	
+	2248.3.11 = {birth = yes}
+	2305.8.12 = {death = yes}
+}
+
+110093 = { #10th Magnate, 3rd Oligarch of Itanhaém
+	name = "Ítalo"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110090 #Fausto
+	
+	2250.8.23 = {birth = yes}
+	2297.1.12 = {
+		death = {
+			death_reason = death_murder
+			killer = 110108 #Demétrio Schertz
+		}
+	}
+}
+
+110094 = { #11th Magnate, 4th Oligarch of Itanháem
+	name = "Lisandro"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110093 #Ítalo
+	
+	2272.3.10 = {birth = yes}
+	2321.9.10 = {death = yes}
+}
+
+110095 = { #12 Magnate, 4th Oligarch of São Vicente
+	name = "Filipe"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110093 #Ítalo
+	
+	2275.11.1 = {birth = yes}
+	2328.8.13 = {death = yes}
+}
+
+110096 = {
+	name = "Alice"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110093 #Ítalo
+	
+	2278.3.15 = {birth = yes}
+}
+
+110097 = {
+	name = "Desidério"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110094 #Lisandro
+	
+	2303.12.5 = {birth = yes}
+	2318.2.10 = {
+		add_trait = ill
+	}
+	2319.1.7 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110098 = { #13th Magnate, 2nd Consul, 5th Oligarch of São Vicente, 6th Oligarch of Itanhaém
+	name = "Ícaro"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110095 #Filipe
+	
+	2307.2.23 = {birth = yes}
+	2345.7.11 = {death = yes}
+}
+
+110099 = {
+	name = "Valesca"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110095 #Filipe
+	
+	2310.1.8 = {birth = yes}
+	2360.4.18 = {death = yes}
+}
+
+110100 = {#14th Magnate, 7th Oligarch of Itanhaém
+	name = "Rafael"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110098 #Ícaro
+	
+	2326.8.12 = {birth = yes}
+	2344.5.17 = {
+		add_spouse = 110191 #Carolina de Abreu
+	}
+}
+
+110101 = {
+	name = "Gisele"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110098 #Ícaro
+	
+	2328.2.9 = {birth = yes}
+	2344.1.1 = {
+		add_spouse = 110160 #Murilo Lombardi-Stucchi
+	}
+}
+
+110102 = {
+	name = "Bernardo"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110098 #Ícaro
+	
+	2333.3.3 = {birth = yes}
+	2364.12.3 = {
+		death = {
+			death_reason = death_battle #Killed when Guilherme Ramalho took Santos
+		}
+	}
+}
+
+110103 = {
+	name = "Filipe"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110100 #Rafael
+	mother = 110191 #Carolina
+	
+	2350.8.10 = {birth = yes}
+}
+
+110104 = {
+	name = "Anselmo"
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110100 #Rafael
+	mother = 110191 #Carolina
+	
+	2354.1.13 = {birth = yes}
+}
+
+110105 = {
+	name = "Maria"
+	female = yes
+	dynasty = 55013
+	religion = anchietican
+	culture = paulistano
+	father = 110100 #Rafael
+	mother = 110191 #Carolina
+	
+	2359.2.15 = {birth = yes}
+}
+	
+	##Schertz Dynasty ##
+
+110106 = { #1st Magnate, founder of the Schertz
+	name = "Fábio"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	
+	2213.7.20 = {
+		birth = yes
+		culture = paulistano
+	}
+	2270.1.3 = {death = yes}
+}
+
+110107 = { #2nd Magnate
+	name = "Joaquim"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110106 #Fábio
+	
+	2233.7.15 = {
+		birth = yes
+		culture = paulistano
+	}
+	2283.3.9 = {death = yes}
+}
+
+110108 = { #3rd Magnate, 1st Schertz Consul
+	name = "Demétrio"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110107 #Joaquim
+	
+	2257.12.21 = {
+		birth = yes
+		culture = paulistano
+	}
+	2300.11.7 = {death = yes}
+}
+
+110109 = { #Oligarch of São Vicente and Itanhaém
+	name = "Germano"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110107 #Joaquim
+	
+	2260.1.13 = {
+		birth = yes
+		culture = paulistano
+	}
+	2304.12.3 = {death = yes}
+}
+
+110110 = { #Oligarch of Bertioga
+	name = "José"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110107 #Joaquim
+	
+	2264.2.7 = {
+		birth = yes
+		culture = paulistano
+	}
+	2301.1.1 = {
+		add_trait = ill
+	}
+	2302.5.10 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110111 = { #Oligarch of Ubatuba
+	name = "Fernando"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110107 #Joaquim
+	
+	2267.3.12 = {
+		birth = yes
+		culture = paulistano
+	}
+	2307.10.3 = {
+		death = {
+			death_reason = death_battle
+			killer = 110131 #Filipe Graeff
+		}
+	}
+}
+
+110112 = { #4th Magnate, 2nd Consul
+	name = "Gustavo"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110108 #Demétrio
+	
+	2278.1.3 = {
+		birth = yes
+		culture = paulistano
+	}
+	2307.12.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 110131 #Filipe Graeff
+		}
+	}
+}
+
+110113 = { #Oligarch of São Vicente and Itanhaém
+	name = "Diego"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110109 #Germano
+	
+	2280.2.11 = {
+		birth = yes
+		culture = paulistano
+	}
+	2306.3.11 = {
+		death = {
+			death_reason = death_battle
+			killer = 110095 #Filipe Cubas
+		}
+	}
+}
+
+110114 = { #Oligarch of Bertioga
+	name = "Lucas"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110110 #José
+	
+	2283.12.8 = {
+		birth = yes
+		culture = paulistano
+	}
+	2307.8.30 = {
+		death = {
+			death_reason = death_battle
+			killer = 110131 #Filipe Graeff
+		}
+	}
+}
+
+110115 = {
+	name = "Flora"
+	female = yes
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110110 #José
+	
+	2285.10.3 = {
+		birth = yes
+		culture = paulistano
+	}
+	2329.1.7 = {death = yes}
+}
+
+110116 = {
+	name = "Tiago"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110111 #Fernando
+	
+	2287.3.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2307.12.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 110131 #Filipe Graeff
+		}
+	}
+}
+	
+	
+110117 = {
+	name = "Brás"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110112 #Gustavo 
+	
+	2300.12.3 = {
+		birth = yes
+		culture = paulistano
+	}
+	2357.8.5 = {death = yes}
+}
+
+110118 = {
+	name = "Orlandino"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110117 #Brás
+	
+	2323.7.3 = {
+		birth = yes
+		culture = paulistano
+	}
+	2364.1.25 = {
+		employer = 110001 #Alexandre I Cantarini
+	}
+}
+
+110119 = {
+	name = "Catarina"
+	female = yes
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110117 #Brás
+	
+	2325.10.8 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110120 = {
+	name = "Sérgio"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110117 #Brás
+	
+	2330.7.12 = {
+		birth = yes
+		culture = paulistano
+	}
+	2364.1.25 = {
+		employer = 110001 #Alexandre I Cantarini
+	}
+}
+
+110121 = {
+	name = "Maria"
+	female = yes
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110117 #Brás
+
+	2332.9.12 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110122 = {
+	name = "Luís"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110118 #Orlandino
+	
+	2347.3.13 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110123 = {
+	name = "Nicolas"
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110118 #Orlandino
+	
+	2347.3.12 = {
+		birth = yes
+		culture = paulistano
+	}
+	2347.3.13 = {death = yes}
+}
+
+110124 = {
+	name = "Eduarda"
+	female = yes
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110118 #Orlandino
+	add_trait = twin
+	
+	2350.9.10 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110125 = {
+	name = "Ágata"
+	female = yes
+	dynasty = 55023
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110118 #Orlandino
+	add_trait = twin
+	
+	2350.9.10 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+	
+##Graeff Dynasty##
+
+110126 = { #Founder of the Graeff, 1st Magnate
+	name = "Leonardo"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	
+	2207.6.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2273.11.3 = {death = yes}
+}
+
+110127 = { #2nd Magnate
+	name = "Calebe"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110126 #Leonardo
+	
+	2230.8.11 = {
+		birth = yes
+		culture = paulistano
+	}
+	2292.5.12 = {death = yes}
+}
+
+110128 = { 
+	name = "Ingrid"
+	female = yes
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110126 #Leonardo
+	
+	2233.12.30 = {
+		birth = yes
+		culture = paulistano
+	}
+	2298.8.12 = {death = yes}
+}
+
+110129 = { #3rd Magnate
+	name = "Leopoldo"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110127 #Calebe
+	
+	2251.2.18 = {
+		birth = yes
+		culture = paulistano
+	}
+	2296.1.8 = {
+		death = {
+			death_reason = death_murder
+			killer = 110108 #Demétrio Schertz
+		}
+	}
+}
+
+110130 = {
+	name = "Candace"
+	female = yes
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110127 #Calebe
+	
+	2256.8.23 = {
+		birth = yes
+		culture = paulistano
+	}
+	2311.10.3 = {death = yes}
+}
+
+110131 = { #4th Magnate, 1st Consul, Magister of Santos, Oligarch of Bertioga
+	name = "Filipe"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110129 #Leopoldo
+	
+	2277.5.17 = {
+		birth = yes
+		culture = paulistano
+	}
+	2297.1.1 = {
+		add_spouse = 110185 #Brenda de Abreu
+	}
+	2320.10.24 = {death = yes}
+}
+
+110132 = { #5th Magnate, Oligarch of Bertioga
+	name = "Desidério"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110131 #Filipe
+	mother = 110185 #Brenda
+	
+	2300.8.22 = {
+		birth = yes
+		culture = paulistano
+	}
+	2323.1.1 = {
+		add_spouse = 110068 #Amanda de Andrade
+	}
+	2358.2.23 = {death = yes}
+}
+
+110133 = { 
+	name = "Joana"
+	female = yes
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110131 #Filipe
+	mother = 110185 #Brenda
+	
+	2303.4.5 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110134 = {
+	name = "Severino"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110131 #Filipe
+	mother = 110185 #Brenda
+	
+	2307.10.20 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110135 = { #6th Magnate, Oligarch of Bertioga
+	name = "Filipe"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110132 #Desidério
+	
+	2321.9.23 = {
+		birth = yes
+		culture = paulistano
+	}
+	2345.2.3 = {
+		add_spouse = 110071 #Elisa Graeff
+	}
+}
+
+110136 = {
+	name = "Gael"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110132 #Desidério
+	mother = 110068 #Amanda
+	
+	2324.2.8 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110137 = {
+	name = "Helena"
+	female = yes
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110132 #Desidério
+	mother = 110068 #Amanda
+	
+	2326.2.15 = {
+		birth = yes
+		culture = paulistano
+	}
+	2343.9.10 = {
+		add_spouse = 110070 #João de Andrade
+	}
+}
+
+110138 = {
+	name = "Ingrid"
+	female = yes
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110132 #Desidério
+	mother = 110068 #Amanda
+	
+	2328.12.3 = {
+		birth = yes
+		culture = paulistano
+	}
+	2345.6.13 = {
+		add_spouse = 110189 #Vinícius de Abreu
+	}
+}
+
+110139 = {
+	name = "Leonardo"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110135 #Filipe
+	mother = 110071 #Elisa
+	
+	2345.3.20 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110140 = {
+	name = "Gabriela"
+	female = yes
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110135 #Filipe
+	mother = 110071 #Elisa
+	
+	2347.3.27 = {
+		birth = yes
+		culture = paulistano
+	}
+	2364.12.1 = {
+		add_spouse = 110161 #Henrique Lombardi-Stucchi
+	}
+}
+
+110141 = {
+	name = "Calebe"
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110135 #Filipe
+	mother = 110071 #Elisa
+	
+	2350.9.4 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110142 = {
+	name = "Lavínia"
+	female = yes
+	dynasty = 55024
+	religion = anchietican
+	culture = teuto_paulista
+	father = 110136 #Gael
+	
+	2346.11.20 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+	
+##Silva Prado Dynasty##
+
+110143 = { #Founder of the Silva Prados, 1st Magnate, 1st Oligarch of Itanhaém
+	name = "Adélio"
+	dynasty = 55020 
+	religion = anchietican
+	culture = paulistano
+	
+	2100.1.10 = {birth = yes}
+	2145.3.22 = {death = yes}
+}
+
+110144 = { #2nd Magnate, 2nd Oligarch of Itanhaém
+	name = "Rafael"
+	dynasty = 55020
+	religion = anchietican
+	culture = paulistano
+	father = 110143 #Adélio
+	
+	2123.9.8 = {birth = yes}
+	2190.11.2 = {
+		death = {
+			death_reason = death_battle #Conquest of Itanhaém
+			killer = 110055 #Clemente de Andrade
+		}
+	}
+}
+
+110145 = {
+	name = "Fátima"
+	female = yes
+	dynasty = 55020
+	religion = anchietican
+	culture = paulistano
+	father = 110143 #Adélio
+	
+	2126.3.20 = {birth = yes}
+	2192.4.17 = {death = yes}
+}
+
+110146 = { #3rd Magnate, 3rd Oligarch of Itanhém
+	name = "Bernardo"
+	dynasty = 55020
+	religion = anchietican
+	culture = paulistano
+	father = 110144 #Rafael
+	
+	2144.2.17 = {birth = yes}
+	2190.11.2 = { #Conquest of Itanhaém
+		add_trait = depressed
+		add_trait = scarred
+		add_trait = maimed
+	}
+	2203.8.3 = {death = yes}
+}
+
+110147 = {
+	name = "Giovana"
+	female = yes
+	dynasty = 55020
+	religion = anchietican
+	culture = paulistano
+	father = 110144 #Rafael
+	
+	2146.4.5 = {birth = yes}
+	2209.12.1 = {death = yes}
+}
+
+110148 = { #4th Magnate, 4th Oligarch of Itanhaém, 1st Silva Prado Magister, 1st Consul
+	name = "Adriano"
+	dynasty = 55020
+	religion = anchietican
+	culture = paulistano
+	father = 110146 #Rafael
+	
+	2170.10.22 = {birth = yes}
+	2233.7.21 = { 
+		death = yes
+	}
+}
+	
+110149 = { 
+	name = "Rafael"
+	dynasty = 55020
+	religion = anchietican
+	culture = paulistano
+	father = 110148 #Adriano
+	
+	2193.8.27 = {birth = yes}
+	2222.2.2 = { #Death during his Expedition to Paraná
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+110150 = { #5th Magnate, 5th Oligarch of Itanhaém
+	name = "Daniel"
+	dynasty = 55020
+	religion = anchietican
+	culture = paulistano
+	father = 110148
+	
+	2195.8.10 = {birth = yes}
+	2249.10.13 = { #Killed by the Cubas to solidify their domain of Itanhaém
+		death = {
+			death_reason = death_murder
+			killer = 110088 #Jefferson Cubas
+		}
+	}
+}
+	
+	##Lombardi-Stucchi Dynasty##
+
+	#1st Branch#
+	
+110151 = { #1st Magnate
+	name = "Lucas"
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110016 #Vicente Lombardi
+	mother = 110042 #Bárbara Stucchi
+	
+	2271.4.8 = {birth = yes}
+	2330.10.1 = {death = yes}
+}
+
+110152 = {
+	name = "Fernanda"
+	female = yes
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110151 #Lucas Lombardi-Stucchi
+	
+	2293.8.23 = {birth = yes}
+	2354.3.21 = {death = yes}
+}
+
+110153 = {
+	name = "Daniela"
+	female = yes
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110151 #Lucas Lombardi-Stucchi
+	
+	2295.2.19 = {birth = yes}
+	2363.9.10 = {death = yes}
+}
+
+110154 = {
+	name = "Tales"
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110151 #Lucas Lombardi-Stucchi
+	
+	2298.10.5 = {birth = yes}
+	2298.10.6 = {death = yes}
+}
+
+110155 = { #2nd Magnate, 1st Magister, 1st Consul, 1st Oligarch of Santos
+	name = "Hélio"
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110151 #Lucas Lombardi-Stucchi
+	
+	2300.12.25 = {birth = yes}
+	2322.1.1 = {
+		add_spouse = 110158 #Ana Clara Lombardi-Stucchi
+	}
+	2355.7.10 = {death = yes}
+}
+
+	#2nd Branch#
+
+110156 = {
+	name = "Gabriel"
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110151 ##Lucas Lombardi-Stucchi
+	
+	2290.9.12 = {birth = yes}
+	2325.10.9 = {death = yes}
+}
+
+110157 = {
+	name = "Laís"
+	female = yes
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110151 #Lucas Lombardi-Stucchi
+	
+	2292.7.6 = {birth = yes}
+	2330.9.11 = {death = yes}
+}
+
+110158 = {
+	name = "Ana Clara"
+	female = yes
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110156 #Gabriel Lombardi-Stucchi
+	
+	2306.10.2 = {birth = yes}
+	2322.1.1 = {
+		add_spouse = 110155 #Hélio Lombardi-Stucchi
+	}
+	2358.3.7 = {death = yes}
+}
+
+110159 = {
+	name = "Miguel"
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110156 #Gabriel Lombardi-Stucchi
+	
+	2307.4.12 = {birth = yes}
+	2361.9.10 = {death = yes}
+}
+
+	#Unified Branch#
+	
+110160 = { #3rd Magnate, 2nd Magister, 2nd Consul and Oligarch of Santos.
+	name = "Murilo"
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110155 #Hélio Lombardi-Stucchi
+	mother = 110158 #Ana Clara Lombardi-Stucchi
+	
+	2323.4.5 = {birth = yes}
+	2344.1.1 = {
+		add_spouse = 110101 #Gisele Cubas
+	}
+	2362.3.11 = {death = yes}
+}
+
+110161 = { #4th Magnate, 3rd Magister, 3rd Consul and Oligarch of Santos
+	name = "Henrique"
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110160 #Murilo Lombardi-Stucchi
+	mother = 110101 #Gisele Cubas
+	disallow_random_traits = yes
+	add_trait = fortune_builder
+	add_trait = charitable
+	add_trait = proud
+	add_trait = stubborn
+	
+	martial = 2
+	diplomacy = 1
+	intrigue = 3
+	stewardship = 4
+	learning = 2
+	
+	2345.8.11 = { 
+		birth = yes
+	}
+	2364.12.1 = {
+		add_spouse = 110140 #Gabriela Graeff
+	}
+}
+
+110162 = {
+	name = "Ricardo"
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110160 #Murilo Lombardi-Stucchi
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = robust
+	add_trait = brave
+	add_trait = wroth
+	add_trait = envious
+	add_trait = trickster 
+	
+	martial = 4
+	diplomacy = 2
+	intrigue = 2
+	stewardship = 1
+	learning = 1
+	
+	2347.2.5 = {birth = yes}
+}
+
+110163 = {
+	name = "Andressa"
+	female = yes
+	dynasty = 55002
+	religion = anchietican
+	culture = paulistano
+	father = 110160 #Murilo-Lombardi-Stucchi
+	disallow_random_traits = yes
+	add_trait = underhanded_rogue
+	add_trait = chaste
+	add_trait = trusting
+	add_trait = slothful 
+	
+	2349.11.29 = {birth = yes}
+}
+
+	## de Abreu Dynasty ##
+
+110164 = { #1st Magnate and Oligarch of Ilha Bela, Legendary Founder
+	name = "Álvaro"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	
+	2080.1.1 = {birth = yes}
+	2140.2.5 = {death = yes}
+}
+
+110165 = { #2nd Magnate, Oligarch of Ilha Bela and Bertioga
+	name = "Caio"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110164 #Álvaro de Abreu
+	
+	2101.11.22 = {birth = yes}
+	2160.9.9 = {death = yes}
+}
+
+110166 = {
+	name = "Cândida"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110164 #Álvaro de Abreu
+	
+	2103.8.13 = {birth = yes}
+	2165.10.23 = {death = yes}
+}
+
+110167 = {
+	name = "Teresa"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110164 #Álvaro de Abreu
+	
+	2105.3.30 = {birth = yes}
+	2172.9.11 = {death = yes}
+}
+
+110168 = { #3rd Magnate, Oligarch of Ilha Bela
+	name = "Gastão"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110165 #Caio de Abreu
+	
+	2128.3.28 = {birth = yes}
+	2195.12.9 = {death = yes}
+}
+
+110169 = { #1st Magnate of the Bertiogan Branch, Oligarch of Bertioga
+	name = "Geraldo"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110165 #Caio de Abreu
+	
+	2130.11.1 = {birth = yes}
+	2192.2.13 = { #Conquest of Bertioga
+		death = {
+			death_reason = death_battle
+			killer = 110055 #Clemente de Andrade
+		}
+	}
+}
+
+110170 = {
+	name = "Raissa"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110165 #Caio de Abreu
+	
+	2133.8.27 = {birth = yes}
+	2200.8.4 = {death = yes}
+}
+
+110171 = {
+	name = "Hedviges"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110168 #Gastão de Abreu
+	2150.3.27 = {birth = yes}
+	2220.7.6 = {death = yes}
+}
+
+110172 = { #4th Magnate, 4th Oligarch of Ilha Bela
+	name = "Feliciano"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110168 #Gastão de Abreu
+	
+	2153.8.18 = {birth = yes}
+	2235.5.20 = {death = yes}
+}
+
+110173 = { #5th Magnate, 5th Oligarch of Ilha Bela"
+	name = "Orlando"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110172 #Feliciano de Abreu
+	
+	2174.6.29 = {birth = yes}
+	2256.2.7 = {death = yes}
+}
+
+110174 = {
+	name = "Fabiana"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110172 #Feliciano de Abreu
+	
+	2177.4.29 = {birth = yes}
+	2260.12.16 = {death = yes}
+}
+
+110175 = { #6th Magnate, 6th Oligarch of Ilha Bela
+	name = "Samuel"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110173 #Orlando de Abreu
+	
+	2201.4.12 = {birth = yes}
+	2254.10.28 = {
+		add_trait = ill
+	}
+	2256.4.4 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110176 = { #7th Magnate, 7th Oligarch of Ilha Bela
+	name = "Maximiliano"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110173 #Orlando de Abreu
+	
+	2204.2.26 = {birth = yes}
+	2260.6.17 = {death = yes}
+}
+	
+110177 = {
+	name = "Elena"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110173 #Orlando de Abreu
+	
+	2206.6.9 = {birth = yes}
+	2257.3.12 = {death = yes}
+}
+
+110178 = { #8th Magnate, 8th Oligarch of Ilha Bela
+	name = "César"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110176 #Maximiliano de Abreu
+	
+	2226.2.24 = {
+		birth = yes
+	}
+	2288.5.27 = {
+		death = yes
+	}
+}
+
+110179 = {
+	name = "Luciana"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110176 #Maximiliano de Abreu
+	
+	2228.11.30 = {birth = yes}
+	2294.3.5 = {death = yes}
+}
+
+110180 = { #9th Magnate, 9th Oligarch of Ilha Bela
+	name = "Giuseppe"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110178 #César de Abreu
+	
+	2247.7.1 = {birth = yes}
+	2307.6.22 = {death = yes}
+}
+
+110181 = {
+	name = "Nazário"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110178 #César de Abreu
+	
+	2250.11.5 = {birth = yes}
+	2301.10.21 = { 
+		death = { #Died trying to reclaim Bertioga for the de Abreu
+			death_reason = death_battle
+			killer = 110110 #José Schertz
+		}
+	}
+}
+
+110182 = {
+	name = "Cármen"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110178 #César de Abreu
+	
+	2252.5.17 = {birth = yes}
+	2310.6.7 = {death = yes}
+}
+
+110183 = { #10th Magnate, 10th Oligarch of Ilha Bela
+	name = "Joaquim"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110180 #Giuseppe de Abreu
+	
+	2270.4.19 = {birth = yes}
+	2325.1.10 = {death = yes}
+}
+
+110184 = {
+	name = "Geórgia"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110180 #Giuseppe de Abreu
+	
+	2273.4.11 = {birth = yes}
+	2328.9.17 = {death = yes}
+}
+
+110185 = {
+	name = "Brenda"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110180 #Giuseppe de Abreu
+	
+	2277.11.7 = {birth = yes}
+	2297.1.1 = {
+		add_spouse = 110131 #Filipe Graeff
+	}
+	2335.5.19 = {death = yes}
+}
+
+110186 = { #11th Magnate, 11th Oligarch of Ilha Bela
+	name = "Leandro"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110183 #Joaquim de Abreu
+	
+	2300.12.10 = {birth = yes}
+	2350.9.14 = {death = yes}
+}
+
+110187 = { 
+	name = "Hannah"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110183 #Joaquim de Abreu
+	
+	2302.4.1 = {birth = yes}
+	2354.2.6 = {death = yes}
+}
+
+110188 = {
+	name = "Gilberto"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110183 #Joaquim de Abreu
+	
+	2306.4.21 = {birth = yes}
+	2360.8.4 = {death = yes}
+}
+
+110189 = { #12th Magnate, 12th Oligarch of Ilha Bela
+	name = "Vinícius"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110186 #Leandro de Abreu
+	
+	2322.12.26 = {birth = yes}
+	2345.6.13 = {
+		add_spouse = 110138 #Ingrid Graeff
+	}
+}
+
+110190 = {
+	name = "Teodósio"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110186 #Leonardo de Abreu
+	
+	2325.11.27 = {birth = yes}
+}
+
+110191 = {
+	name = "Caroline"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110186 #Leonardo de Abreu
+	
+	2328.7.18 = {birth = yes}
+}
+
+110192 = {
+	name = "Ulisses"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110189 #Vinícius de Abreu
+	mother = 110138 #Ingrid Graeff
+	
+	2346.5.19 = {birth = yes}
+}
+
+110193 = {
+	name = "Ambrósio"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110189 #Vinícius de Abreu
+	mother = 110138 #Ingrid Graeff
+	
+	2349.7.11 = {birth = yes}
+	2349.7.12 = {death = yes}
+}
+
+110194 = {
+	name = "Bianca"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110189 #Vinícius de Abreu
+	mother = 110138 #Ingrid Graeff
+	
+	2351.7.8 = {birth = yes}
+}
+
+110195 = {
+	name = "Lúcio"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110189 #Vinícius de Abreu
+	mother = 110138 #Ingrid Graeff
+	
+	2353.6.9 = {birth = yes}
+}
+
+110196 = {
+	name = "Otávia"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110189 #Vinícius de Abreu
+	mother = 110138 #Ingrid Graeff
+	
+	2355.2.28 = {birth = yes}
+}
+
+110228 = {
+	name = "Alberto"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110190 #Teodósio de Abreu
+	
+	2346.9.29 = {birth = yes}
+}
+
+110197 = {
+	name = "Lara"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110190 #Teodósio de Abreu
+	
+	2349.1.11 = {birth = yes}
+}
+
+	##Line of Geraldo, Oligarchs of Bertioga##
+	
+110198 = {
+	name = "Débora"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110169 #Geraldo de Abreu
+	
+	2152.7.18 = {birth = yes}
+	2203.5.19 = {death = yes}
+}
+
+110199 = {
+	name = "André"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110169 #Geraldo de Abreu
+	
+	2154.10.2 = {birth = yes}
+	2154.10.3 = {death = yes}
+}
+
+110200 = { #2nd Magnate, 3rd Oligarch of Bertioga
+	name = "Caio"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110169 #Geraldo de Abreu
+	
+	2156.8.16 = {birth = yes}
+	2206.7.4 = {death = yes}
+}
+
+110201 = { #3rd Magnate, 4th Oligarch of Bertioga
+	name = "Caique"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110200 #Caio de Abreu
+	
+	2178.8.8 = {birth = yes}
+	2230.4.3 = {	
+		death = yes
+	}
+}
+
+110202 = {
+	name = "Adelaide"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110200 #Caio de Abreu
+	
+	2180.6.6 = {birth = yes}
+	2241.11.2 = {death = yes}
+}
+
+110203 = {
+	name = "Florisbela"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110201 #Caique de Abreu
+	
+	2202.11.21 = {birth = yes}
+	2270.9.23 = {death = yes}
+}
+
+110204 = { #4th Magnate, 5th Oligarch of Bertioga
+	name = "Sávio"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110201 #Caique de Abreu
+	
+	2205.10.15 = {birth = yes}
+	2260.3.11 = {death = yes}
+}
+
+110205 = { #5th Magnate, 6th Oligarch of Bertioga
+	name = "Saulo"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110204 #Sávio de Abreu
+	
+	2227.7.16 = {birth = yes}
+	2291.9.4 = {death = yes}
+}
+
+110206 = { #6th Magnate, 7th Oligarch of Bertioga
+	name = "Régis"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110205 #Saulo de Abreu
+	
+	2250.6.15 = {birth = yes}
+	2297.5.12 = {
+		death = {
+			death_reason = death_murder
+			killer = 110108 #Demétrio Schertz
+		}
+	}
+}
+
+110207 = {
+	name = "Inês"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110205 #Saulo de Abreu
+	
+	2252.12.1 = {birth = yes}
+	2302.10.12 = {death = yes}
+}
+
+110208 = {
+	name = "Pierre"
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110206 #Régis de Abreu
+	
+	2272.7.9 = {birth = yes}
+	2300.5.3 = {
+		death = {
+			death_reason = death_duel 
+			killer = 110110 #José Schertz
+		}
+	}
+}
+
+110209 = {
+	name = "Jéssica"
+	female = yes
+	dynasty = 55021
+	religion = anchietican
+	culture = paulistano
+	father = 110206 #Régis de Abreu
+	add_trait = depressed
+	
+	2274.5.28 = {birth = yes}
+	2322.12.4 = {death = yes}
+}
+
+	## de Camargo Dynasty ##
+
+110210 = { #1st Magnate, 1st Oligarch of Ubatuba
+	name = "Paulo"
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	
+	2120.1.1 = {birth = yes}
+	2180.7.5 = {death = yes}
+}
+
+110211 = { #2nd Magnate, 2nd Oligarch of Ubatuba
+	name = "Eduardo"
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110210 #Paulo de Camargo
+	
+	2140.3.14 = {birth = yes}
+	2186.10.1 = {
+		add_trait = ill
+	}
+	2186.11.3 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110212 = { #3rd Magnate, 3rd Oligarch of Ubatuba
+	name = "João"
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110210 #Paulo de Camargo
+	
+	2146.9.27 = {birth = yes}
+	2192.12.5 = { #Conquest of Ubatuba, Clemente
+		death = {
+			death_reason = death_battle 
+			killer = 110055 #Clemente de Andrade
+		}
+	}
+}
+
+110213 = {
+	name = "Lúcia"
+	female = yes
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110210 #Paulo de Camargo
+	
+	2148.1.10 = {birth = yes}
+	2202.5.8 = {death = yes}
+}
+
+110214 = { #4th Magnate, 4th Oligarch of Ubatuba
+	name = "Enzo"
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110212 #João de Camargo
+	
+	2168.4.4 = {birth = yes}
+	2213.12.2 = {death = yes}
+}
+
+110215 = {
+	name = "Cecília"
+	female = yes
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110212 #João de Camargo
+	
+	2170.9.16 = {birth = yes}
+	2233.7.23 = {death = yes}
+}
+
+110216 = { #5th Magnate, 5th Oligarch of Ubatuba
+	name = "Renato"
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110214 #Enzo de Camargo
+	
+	2188.8.3 = {birth = yes}
+	2245.11.2 = {death = yes}
+}
+
+110217 = {
+	name = "Daniela"
+	female = yes
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110214 #Enzo de Camargo
+	
+	2190.10.25 = {birth = yes}
+	2243.7.1 = {death = yes}
+}
+
+110218 = { #6th Magnate, 6th Oligarch of Ubatuba
+	name = "Sinésio"
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110216 #Renato de Camargo
+	
+	2205.4.23 = {birth = yes}
+	2272.11.28 = {death = yes}
+}
+
+110219 = { #7th Magnate, 7th Oligarch of Ubatuba
+	name = "Afrânio"
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110218 #Sinésio de Camargo
+	
+	2230.12.22 = {birth = yes}
+	2295.12.10 = {
+		death = {
+			death_reason = death_murder
+			killer = 110108 #Demétrio Schertz
+		}
+	}
+}
+
+110220 = { #8th Magnate
+	name = "Artur"
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110219 #Afrânio de Camargo
+	
+	2251.7.12 = {birth = yes}
+	2303.1.18 = {
+		death = {
+			death_reason = death_duel #Killed when trying to retake Ubatuba
+			killer = 110111 #Fernando Schertz
+		}
+	}
+}
+
+110221 = {
+	name = "Fernanda"
+	female = yes
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110219 #Afrânio de Camargo
+	
+	2253.2.10 = {birth = yes}
+	2301.10.1 = {death = yes}
+}
+
+110222 = { #10th Magnate, 8th Oligarch of Ubatuba. Restored by Filipe Graeff, son will be from the Schimidt Dynasty.
+	name = "Ágata"
+	female = yes
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110220 #Afrânio de Camargo
+	
+	2272.3.22 = {birth = yes}
+	2300.1.1 = {add_spouse = 110270} #Rogério Schimidt
+	2326.9.30 = {death = yes}
+}
+
+110223 = { #9th Magnate
+	name = "Diego"
+	dynasty = 55018
+	religion = anchietican
+	culture = paulistano
+	father = 110220 #Afrânio de Camargo
+	
+	2275.6.28 = {birth = yes}
+	2307.2.3 = {
+		death = {
+			death_reason = death_battle #Died when supporting Filipe Graeff. Failed to reconquer Ubatuba
+			killer = 110111 #Fernando Schertz
+		}
+	}
+}
+
+###End of the Patrician Families of Santos###
+
+
+###Start of Mercenary 2369 Bandeirantes###
+
+110224 = { #Mercenary leader of the Bandeira Nordestina
+	name = "Domingos"
+	dynasty = 55017
+	religion = anchietican
+	culture = paulistano
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	add_trait = aggressive_leader
+	add_trait = shrewd
+	add_trait = greedy
+	add_trait = diligent
+	add_trait = wroth
+	add_trait = arbitrary
+	add_trait = brave
+	
+	martial = 5
+	
+	2326.10.5 = {birth = yes}
+}
+
+110225 = {
+	name = "Júnior"
+	dynasty = 55017
+	religion = anchietican
+	culture = paulistano
+	father = 110224
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = robust
+	add_trait = patient
+	add_trait = proud
+	add_trait = brave
+	
+	martial = 4
+
+	2340.4.1 = {birth = yes}
+}
+
+110226 = { #Mercenary leader of the Bandeira Sulista
+	name = "Manuel"
+	dynasty = 55014
+	religion = anchietican
+	culture = paulistano
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	add_trait = organizer
+	add_trait = ambitious
+	add_trait = diligent
+	add_trait = wroth
+	add_trait = brave
+	add_trait = cruel
+	
+	martial = 6
+
+	2335.9.14 = {birth = yes}
+}
+
+110227 = {
+	name = "Fernando"
+	dynasty = 55014
+	religion = anchietican
+	culture = paulistano
+	father = 110226
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = inspiring_leader
+	add_trait = just
+	add_trait = ambitious 
+	add_trait = diligent
+	add_trait = gregarious
+	
+	martial = 4
+	
+	2353.1.13 = {birth = yes}
+}
+
+###Start of Paulistano Patrician Families###
+
+#110229 onwards
+
+##Matarazzo Dynasty##
+
+110229 = {
+	name = "Gabriel"
+	#1st Count of São Paulo
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	2182.7.1 = {
+		birth = yes
+	}
+	2235.12.3 = {
+		death = yes
+	}
+}
+
+110230 = {
+	name = "Francisco"
+	#2nd Count of São Paulo
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110229 #Gabriel Matarazzo
+	
+	2202.9.10 = {
+		birth = yes
+	}
+	2257.6.2 = {
+		death = yes
+	}
+}
+
+110231 = { #Unmarried
+	name = "Valentina"
+	female = yes
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110229 #Gabriel Matarazzo
+	
+	2205.3.22 = {
+		birth = yes
+	}
+	2264.1.13 = {
+		death = yes
+	}
+}
+
+110232 = {
+	name = "Gonçalo"
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110230 #Francisco Matarazzo
+	
+	2224.8.8 = {
+		birth = yes
+	}
+	2305.2.13 = {
+		death = yes
+	}
+}
+
+110233 = { #Unmarried
+	name = "Dafne"
+	female = yes
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110230 #Francisco Matarazzo
+	
+	2227.3.11 = {
+		birth = yes
+	}
+	2308.10.2 = {
+		death = yes
+	}
+}
+
+110234 = {
+	name = "Renan"
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110232 #Gonçalo Matarazzo
+	
+	2250.12.23 = {
+		birth = yes
+	}
+	2321.3.4 = {
+		death = yes
+	}
+}
+
+110235 = { #Unmarried
+	name = "Fernanda"
+	female = yes
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110232 #Gonçalo Matarazzo
+	
+	2253.1.4 = {
+		birth = yes
+	}
+	2327.9.10 = {
+		death = yes
+	}
+}
+
+110236 = { #Unmarried
+	name = "Kayla"
+	female = yes
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110232 #Gonçalo Matarazzo
+	
+	2257.7.20 = {
+		birth = yes
+	}
+	2329.4.2 = {
+		death = yes
+	}
+}
+
+110237 = {
+	name = "Daniel"
+	#5th Count of São Paulo
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110234 #Renan Matarazzo
+	
+	2273.12.1 = {
+		birth = yes
+	}
+	2336.8.3 = {
+		death = yes
+	}
+}
+
+110238 = { #Unmarried
+	name = "India"
+	female = yes
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110234 #Renan Matarazzo
+	
+	2275.2.3 = {
+		birth = yes
+	}
+	2340.9.19 = {
+		death = yes
+	}
+}
+
+110239 = {
+	name = "Eugênio"
+	#1st Matarazzo Consul of Santos, Magister of Santos and Oligarch of Santos
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110234 #Renan Matarazzo
+	
+	2278.3.6 = {
+		birth = yes
+	}
+	2325.7.6 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+110240 = {
+	name = "Pedro"
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110237 #Daniel Matarazzo
+	
+	2302.12.23 = {
+		birth = yes
+	}
+	2356.3.6 = {
+		death = yes
+	}
+}
+
+110241 = { #Unmarried
+	name = "Elisa"
+	female = yes
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110237 #Daniel Matarazzo
+	
+	2305.3.10 = {
+		birth = yes
+	}
+	2360.1.9 = {
+		death = yes
+	}
+}
+
+110242 = {
+	name = "Yago"
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110240 #Pedro Matarazzo
+	
+	2325.10.12 = {
+		birth = yes
+	}
+	2367.1.3 = {
+		death = yes
+	}
+}
+
+110243 = { #Unmarried
+	name = "Carlinda"
+	female = yes
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110242 #Yago Matarazzo
+	
+	2347.3.12 = {
+		birth = yes
+	}
+}
+
+110244 = {
+	name = "Roberto"
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110242 #Yago Matarazzo
+	
+	2349.10.21 = {
+		birth = yes
+	}
+}
+
+110245 = {
+	name = "Óscar"
+	dynasty = 55003
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110242 #Yago Matarazzo
+	
+	2351.5.20 = {
+		birth = yes
+	}
+}
+
+##End of the Matarazzo Dynasty##
+
+
+##Schimidt Dynasty##
+
+110246 = {
+	name = "Francisco"
+	dynasty = 55005 
+	religion = anchietican
+	culture = teuto_paulista
+	
+	2201.3.24 = {
+		birth = yes
+		culture = paulistano
+	}
+	2255.11.30 = {
+		death = yes
+	}
+}
+
+110247 = {
+	name = "Baltazar"
+	#3rd Count of São Paulo
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110246 #Francisco Schimidt
+	
+	2226.5.13 = {
+		birth = yes
+		culture = paulistano
+	}
+	2298.2.13 = {
+		death = yes
+	}
+}
+
+110248 = { #Unmarried
+	name = "Sofia"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110246 #Francisco Schimidt
+	
+	2250.4.19 = {
+		birth = yes
+		culture = paulistano
+	}
+	2302.6.10 = {
+		death = yes
+	}
+}
+
+110249 = {
+	name = "Galileu"
+	#4th Count of São Paulo
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110247 #Baltazar Schimidt
+	
+	2253.5.29 = {
+		birth = yes
+		culture = paulistano
+	}
+	2312.7.5 = {
+		death = yes
+	}
+}
+
+110250 = { #Unmarried
+	name = "Jéssica"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110247 #Baltazar Schimidt
+	
+	2256.8.10 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110251 = {
+	name = "Diogo"
+	#1st Magnate
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110247 #Baltazar Schimidt
+	
+	2260.3.11 = {
+		birth = yes
+		culture = paulistano
+	}
+	2317.4.22 = {
+		death = yes
+	}
+}
+
+110252 = { #Unmarried
+	name = "Kristen"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110249 #Galileu Schimidt
+	
+	2275.8.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2334.4.2 = {
+		death = yes
+	}
+}
+
+110253 = {
+	name = "Mário"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110249 #Galileu Schimidt
+	
+	2279.2.9 = {
+		birth = yes
+		culture = paulistano
+	}
+	2332.12.30 = {
+		death = yes
+	}
+}
+
+110254 = {
+	name = "Bianca"
+	#6th Countess of São Paulo
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110253 #Mário Schimidt
+	
+	2301.1.18 = {
+		birth = yes
+		culture = paulistano
+	}
+	2352.9.21 = {
+		death = yes
+	}
+}
+
+110255 = {
+	name = "Eduardo"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110253 #Mário Schimidt
+	
+	2304.7.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2359.2.14 = {
+		death = yes
+	}
+}
+
+110256 = { #Unmarried
+	name = "Amanda"
+	female = yes
+	dynasty = 55005
+	religion = anchietican 
+	culture = teuto_paulista
+	
+	father = 110253 #Mário Schimidt
+	
+	2307.10.20 = {
+		birth = yes
+		culture = paulistano
+	}
+	2362.6.30 = {
+		death = yes
+	}
+}
+
+	#Line of Bianca#
+	
+110257 = {
+	name = "Mateus"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	mother = 110254 #Bianca Schimidt
+	
+	2325.2.13 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110258 = { #Unmarried
+	name = "Paula"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	mother = 110254 #Bianca Schimidt
+	
+	2328.2.22 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110259 = {
+	name = "Flávio"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	mother = 110254 #Bianca Schimidt
+	
+	2331.6.13 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+	
+110260 = {
+	name = "Vicente"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110257 #Mateus Schimidt
+	
+	2348.3.13 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110261 = {
+	name = "André"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110257 #Mateus Schimidt
+	
+	2351.2.5 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110262 = { #Unmarried
+	name = "Anabela"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110259 #Flávio Schimidt
+	
+	2353.8.14 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110263 = {
+	name = "Giulia"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110259 #Flávio Schimidt
+	
+	2356.6.24 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110264 = {
+	name = "Maria Clara"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110259 #Flávio Schimidt
+	
+	2360.2.5 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+	##Line of Eduardo##
+	
+110265 = {
+	name = "Ricardo"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110255 #Eduardo Schimidt
+	
+	2326.9.23 = {
+		birth = yes
+		culture = paulistano
+	}
+	2360.10.6 = {
+		death = yes
+	}
+}
+
+110266 = { 
+	name = "Pedro"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	disallow_random_traits = yes
+	add_trait = scholarly_theologian
+	add_trait = chaste
+	add_trait = humble
+	add_trait = zealous
+	add_trait = erudite
+	
+	learning = 8
+	
+	father = 110265 #Ricardo Schimidt
+	
+	2330.11.3 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110267 = {
+	name = "Nilson"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110265 #Ricardo Schimidt
+	
+	2332.4.12 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110268 = {
+	name = "Ovídio"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110267 #Nilson Schimidt
+	
+	2351.1.10 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110269 = { #Unmarried
+	name = "Iris"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110267 #Nilson Schimidt
+	
+	2354.9.23 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+	#Line of Diogo Schimidt#
+
+110270 = {
+	name = "Rogério"
+	#2nd Magnate
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	add_trait = legit_bastard
+	
+	father = 110251 #Diogo Schimidt
+	
+	2277.1.5 = {
+		birth = yes
+		culture = paulistano
+	}
+	2300.1.1 = {
+		add_spouse = 110222 #Ágata de Camargo
+	}
+	2328.9.11 = {
+		death = yes
+	}
+}
+
+110271 = {
+	name = "Marcos"
+	#3rd Magnate, 1st Oligarch of Ubatuba
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110270 #Rogério Schimidt
+	mother = 110222 #Ágata de Camargo
+	
+	2303.5.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2354.7.3 = {
+		death = yes
+	}
+}
+
+110272 = {
+	name = "Marcela"
+	#4th Magnate, 2nd Oligarchess of Ubatuba
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110271 #Marcos Schimidt
+	
+	2327.11.22 = {
+		birth = yes
+		culture = paulistano
+	}
+	2360.2.3 = {
+		death = yes
+	}
+}
+
+110273 = { #Unmarried
+	name = "Chloe"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	father = 110271 #Marcos Schimidt
+	
+	2330.9.10 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110274 = {
+	name = "Bernardo"
+	#5th Magnate, 3rd Oligarch of Ubatuba
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	mother = 110272 #Marcela Schimidt
+	
+	2348.2.7 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110275 = {
+	name = "Wesley"
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	mother = 110272 #Marcela Schimidt
+	
+	2350.4.10 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110276 = { #Unmarried 
+	name = "Verônica"
+	female = yes
+	dynasty = 55005
+	religion = anchietican
+	culture = teuto_paulista
+	
+	mother = 110272 #Marcela Schimidt 
+	
+	2352.8.24 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+## End of the Schimidt Dynasty ##
+
+
+##Jafet Dynasty##
+
+110277 = {
+	name = "Bernardo"
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	2230.5.13 = {
+		birth = yes
+		culture = paulistano
+	}
+	2302.8.27 = {
+		death = yes
+	}
+}
+
+110278 = {
+	name = "Ricardo"
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110277 #Bernardo Jafet
+	
+	2253.9.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2302.2.9 = {
+		death = yes
+	}
+}
+
+110279 = { #Unmarried
+	name = "Cassandra"
+	female = yes
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110277 #Bernardo Jafet
+	
+	2256.2.19 = {
+		birth = yes
+		culture = paulistano
+	}
+	2318.6.30 = {
+		death = yes
+	}
+}
+
+110280 = {
+	name = "André"
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110278 #Ricardo Jafet
+	
+	2278.3.11 = {	
+		birth = yes
+		culture = paulistano
+	}
+	2328.10.3 = {
+		death = yes
+	}
+}
+
+110281 = { #Unmarried
+	name = "Henriqueta"
+	female = yes
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110278 #Ricardo Jafet
+	
+	2280.1.12 = {
+		birth = yes
+		culture = paulistano
+	}
+	2332.12.23 = {
+		death = yes
+	}
+}
+
+110282 = { #Unmarried
+	name = "Sheila"
+	female = yes
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110280 #André Jafet
+	
+	2303.11.7 = {
+		birth = yes
+		culture = paulistano
+	}
+	2360.3.11 = {
+		death = yes
+	}
+}
+
+110283 = { 
+	name = "Domingos"
+	#7th Count of São Paulo
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110280 #André Jafet
+	
+	2306.2.18 = {
+		birth = yes
+		culture = paulistano
+	}
+	2359.6.16 = {
+		death = yes
+	}
+}
+
+110284 = { #Unmarried
+	name = "Nélia"
+	female = yes
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110280 #André Jafet
+	
+	2310.4.15 = {
+		birth = yes
+		culture = paulistano
+	}
+	2364.10.27 = {
+		death = yes
+	}
+}
+
+110285 = {
+	name = "Guilherme"
+	#8th Count of São Paulo
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110283 #Domingos Jafet
+	
+	2329.3.14 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110286 = { #Unmarried
+	name = "Joelma"
+	female = yes
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110283 #Domingos Jafet
+	
+	2332.4.17 = {
+		birth  = yes
+		culture = paulistano
+	}
+}
+
+110287 = {
+	name = "Lucas"
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110283 #Domingos Jafet
+	
+	2335.10.3 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110288 = {
+	name = "Lídia"
+	female = yes
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110285 #Guilherme Jafet
+	
+	2355.1.3 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110289 = {
+	name = "Pietro"
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110285 #Guilherme Jafet
+	
+	2358.12.6 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+11290 = {
+	name = "Samuel"
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110287 #Lucas Jafet
+	
+	2357.2.14 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110291 = {
+	name = "Larissa"
+	female = yes
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110287 #Lucas Jafet
+	
+	2360.4.10 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110292 = {
+	name = "Lívio"
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110287 #Lucas Jafet
+	
+	2362.5.29 = {
+		birth = yes
+		culture = paulistano
+	}
+	2362.5.30 = {
+		death = yes
+	}
+}
+
+110293 = {
+	name = "Camila"
+	female = yes
+	dynasty = 55007
+	religion = anchietican
+	culture = arabic
+	
+	father = 110287 #Lucas Jafet
+	
+	2364.9.23 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+## End of the Jafet Dynasty ##
+
+##Anhanguera Dynasty##
+
+110294 = {
+	name = "Bartolomeu"
+	#1st Count of Campinas
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	2180.10.16 = {
+		birth = yes
+	}
+	2245.7.6 = {
+		death = yes
+	}
+}
+
+110295 = {
+	name = "Rafael"
+	#2nd Count of Campinas
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110294 #Bartolomeu Anhanguera
+	
+	2201.3.21 = {
+		birth = yes
+	}
+	2263.8.10 = {
+		death = yes
+	}
+}
+
+110296 = { #Unmarried
+	name = "Adele"
+	female = yes
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110294 #Bartolomeu Anhanguera
+	
+	2204.10.5 = {
+		birth = yes
+	}
+	2267.1.12 = {
+		death = yes
+	}
+}
+
+110297 = { #Unmarried
+	name = "Maísa"
+	female = yes
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110294 #Bartolomeu Anhanguera
+	
+	2207.9.20 = {
+		birth = yes
+	}
+	2271.4.15 = {
+		death = yes
+	}
+}
+
+110298 = {
+	name = "João Vitor"
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110295 #Rafael Anhanguera
+	
+	2230.3.30 = {
+		birth = yes
+	}
+	2298.4.10 = {
+		death = yes
+	}
+}
+
+110299 = {
+	name = "Cármen"
+	female = yes
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110295 #Rafael Anhanguera
+	
+	2232.5.12 = {
+		birth = yes
+	}
+	2301.10.26 = {
+		death = yes
+	}
+}
+
+110300 = {
+	name = "Tadeu"
+	#Archbishop
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	add_trait = scholarly_theologian
+	
+	learning = 8
+	
+	father = 110295 #Rafael Anhanguera
+	
+	2235.1.10 = {
+		birth = yes
+	}
+	2309.9.13 = {
+		death = yes
+	}
+}
+
+110301 = {
+	name = "Gilmar"
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110298 #João Vitor Anhanguera
+	
+	2257.2.23 = {
+		birth = yes
+	}
+	2319.4.5 = {
+		death = yes
+	}
+}
+
+110302 = {
+	name = "Isidora"
+	female = yes
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110301 #Gilmar Anhanguera
+	
+	2281.3.23 = {
+		birth = yes
+	}
+	2328.5.20 = {
+		death = yes
+	}
+}
+
+110303 = {
+	name = "Lorenzo"
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110301 #Gilmar Anhanguera
+	
+	2285.12.4 = {
+		birth = yes
+	}
+	2331.7.21 = {
+		death = yes
+	}
+}
+
+110304 = {
+	name = "Graciano"
+	#6th Count of Campinas
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110303 #Lorenzo Anhanguera
+	
+	2306.5.20 = {
+		birth = yes
+	}
+	2351.2.10 = {
+		death = yes
+	}
+}
+
+110305 = {
+	name = "Alba"
+	female = yes
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110303 #Lorenzo Anhanguera
+	
+	2306.9.2 = {
+		birth = yes
+	}
+	2358.12.6 = {
+		death = yes
+	}
+}
+
+110306 = {
+	name = "Élia"
+	female = yes
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110304 #Graciano Anhanguera
+	
+	2330.4.9 = {
+		birth = yes
+	}
+}
+
+110307 = {
+	name = "Vital"
+	#7th Count of Campinas
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110304 #Graciano Anhanguera
+	
+	2333.5.23 = {
+		birth = yes
+	}
+	2363.5.30 = {
+		death = {
+			death_reason = death_battle
+			#killer = Rodrigo II Desterro
+		}
+	}
+}
+
+110308 = {
+	name = "Wendel"
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110307 #Vital Anhanguera
+	
+	2356.8.16 = {
+		birth = yes
+	}
+	2356.8.17 = {
+		death = yes
+	}
+}
+
+110309 = {
+	name = "Flávia"
+	female = yes
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110307 #Vital Anhanguera
+	
+	2357.10.22 = {
+		birth = yes
+	}
+}
+
+110310 = {
+	name = "Daniel"
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110307 #Vital Anhanguera
+	
+	2359.4.10 = {
+		birth = yes
+	}
+}
+
+110311 = {
+	name = "Judite"
+	female = yes
+	dynasty = 55012
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110307 #Vital Anhanguera
+	
+	2361.9.29 = {
+		birth = yes
+	}
+}
+
+## End of the Anhanguera Dynasty ##
+
+##Leme Dynasty##
+
+110312 = {
+	name = "Franco"
+	dynasty = 55025 
+	religion = anchietican
+	culture = paulistano
+	
+	2175.9.25 = {
+		birth = yes
+	}
+	2230.3.19 = {
+		death = yes
+	}
+}
+
+110313 = { #Unmarried
+	name = "Jennifer"
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110312 #Franco Leme
+	
+	2205.4.3 = {
+		birth = yes
+	}
+	2262.7.13 = {
+		death = yes
+	}
+}
+
+110314 = {
+	name = "Jonas"
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110312 #Franco #Leme
+	
+	2208.1.23 = {
+		birth = yes
+	}
+	2259.8.19 = {
+		death = yes
+	}
+}
+
+110315 = {
+	name = "Simão"
+	#3rd Count of Campinas
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110314 #Jonas Leme
+	
+	2231.5.12 = {
+		birth = yes
+	}
+	2290.4.6 = {
+		death = yes
+	}
+}
+
+110316 = { #Unmarried
+	name = "Julia"
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110314 #Jonas Leme
+	
+	2234.8.29 = {
+		birth = yes
+	}
+	2301.7.23 = {
+		death = yes
+	}
+}
+
+110317 = {
+	name = "Paulo"
+	#4th Count of Campinas
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110315 #Simão Leme
+	
+	2268.2.10 = {
+		birth = yes
+	}
+	2323.11.30 = {
+		death = yes
+	}
+}
+
+110318 = {
+	name = "Marcela"
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110315 #Simão Leme
+	
+	2270.10.4 = {
+		birth = yes
+	}
+	2340.1.23 = {
+		death = yes
+	}
+}
+
+110319 = {
+	name = "Lívio"
+	#5th Count of Campinas
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110317 #Paulo Leme
+	
+	2297.3.15 = {
+		birth = yes
+	}
+	2330.11.1 = {
+		add_trait = ill
+	}
+	2330.12.20 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110320 = {
+	name = "Olívia"
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110317 #Paulo Leme
+	
+	2300.6.20 = {
+		birth = yes
+	}
+	2362.12.18 = {
+		death = yes
+	}
+}
+
+110321 = {
+	name = "Caetana"
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110317 #Paulo Leme
+	
+	2302.3.15 = {
+		birth = yes
+	}
+	2350.7.15 = {
+		death = yes
+	}
+}
+
+110322 = {
+	name = "Macedo"
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110319 #Lívio Leme
+	
+	2321.3.17 = {
+		birth = yes
+	}
+	2363.5.20 = {
+		death = {
+			death_reason = death_battle 
+		}
+	}
+}
+
+110323 = {
+	name = "Sarah"
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110319 #Livio Leme
+	
+	2324.8.13 = {
+		birth = yes
+	}
+}
+
+110324 = {
+	name = "Tiago"
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110319 #Livio Leme
+	
+	2327.3.12 = {
+		birth = yes
+	}
+}
+
+110325 = {
+	name = "Oceana"
+	#8th Countess of Campinas
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110322 #Macedo Leme
+	
+	2343.4.13 = {
+		birth = yes
+	}
+}
+
+110326 = {
+	name = "Gastão"
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110324 #Tiago Leme
+	
+	2348.2.1 = {
+		birth = yes
+	}
+}
+
+110327 = {
+	name = "William"
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110324 #Tiago Leme
+	
+	2350.6.13 = {
+		birth = yes
+	}
+}
+
+110328 = {
+	name = "Maria Clara"
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110324 #Tiago Leme
+	
+	2352.7.25 = {
+		birth = yes
+	}
+}
+
+110329 = {
+	name = "Kênia"
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110324 #Tiago Leme
+	
+	2354.9.12 = {
+		birth = yes
+	}
+}
+
+110330 = {
+	name = "Bruno"
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	mother = 110325 #Oceana Leme
+	
+	2364.12.30 = {
+		birth = yes
+	}
+}
+
+110331 = {
+	name = "Pedro"
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+	
+	mother = 110325 #Oceana Leme
+	
+	2365.2.14 = {
+		birth = yes
+	}
+}
+
+110332 = {
+	name = "Ângela"
+	female = yes
+	dynasty = 55025
+	religion = anchietican
+	culture = paulistano
+
+	mother = 110325 #Oceana Leme
+	
+	2366.10.17 = {
+		birth = yes
+	}
+}
+
+## End of the Leme Dynasty ##
+
+##Watanabe Dynasty##
+
+110333 = { #1st Count of Mogi das Cruzes
+	name = "Hélio"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	2205.3.16 = {
+		birth = yes
+		culture = paulistano
+	}
+	2267.9.12 = {
+		death = yes
+	}
+}
+
+110334 = {
+	name = "Caio"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110333 #Hélio Watanabe
+	
+	2228.8.3 = {
+		birth = yes
+		culture = paulistano
+	}
+	2290.1.13 = {
+		death = yes
+	}
+}
+
+110335 = {
+	name = "Filipa"
+	female = yes
+	dynasty = 55026 #Hélio Watanabe
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110333
+	
+	2232.4.12 = {
+		birth = yes
+		culture = paulistano
+	}
+	2301.7.14 = {
+		death = yes
+	}
+}
+
+110336 = {
+	name = "Malvino"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110334 #Caio Watanabe
+	
+	2251.8.15 = {
+		birth = yes
+		culture = paulistano
+	}
+	2280.1.20 = {
+		death = yes
+	}
+}
+
+110337 = { #4th Countess of Mogi das Cruzes
+	name = "Paula"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110334 #Caio Watanabe
+	
+	2256.11.30 = {
+		birth = yes
+		culture = paulistano
+	}
+	2314.9.2 = {
+		death = yes
+	}
+}
+
+110338 = {
+	name = "Douglas"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110334 #Caio Watanabe
+	
+	2260.5.7 = {
+		birth = yes
+		culture = paulistano
+	}
+	2320.2.10 = {
+		death = yes
+	}
+}
+
+110339 = { #5th Count of Mogi das Cruzes
+	name = "Donato"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	mother = 110337 #Paula Watanabe
+	
+	2279.6.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2329.4.15 = {
+		death = yes
+	}
+}
+
+110340 = {
+	name = "Samanta"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	mother = 110337 #Paula Watanabe
+	
+	2282.5.13 = {
+		birth = yes
+		culture = paulistano
+	}
+	2331.10.22 = {
+		death = yes
+	}
+}
+
+110341 = {
+	name = "Ravena"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	mother = 110337 #Paula Watanabe
+	
+	2284.7.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2334.2.5 = {
+		death = yes
+	}
+}
+
+110342 = {
+	name = "Mateus"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110338 #Douglas Watanabe
+	
+	2284.6.23 = {
+		birth = yes
+		culture = paulistano
+	}
+	2340.4.1 = {
+		death = yes
+	}
+}
+
+110343 = {
+	name = "Rafael"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110338 #Douglas Watanabe
+	
+	2286.1.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2343.5.10 = {
+		death = yes
+	}
+}
+
+110344 = {
+	name = "Marcos"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110339 #Donato Watanabe
+	
+	2302.4.19 = {
+		birth = yes
+		culture = paulistano
+	}
+	2363.10.5 = {
+		death = yes
+	}
+}
+
+110345 = {
+	name = "Kristal"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110339 #Donato Watanabe
+	
+	2305.8.21 = {
+		birth = yes
+		culture = paulistano
+	}
+	2359.1.3 = {
+		death = yes
+	}
+}
+
+110346 = {
+	name = "João"
+	#8th Count of Mogi das Cruzes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110344 #Marcos Watanabe
+	
+	2325.9.22 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110347 = {
+	name = "Sílvio"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110346 #João Watanabe
+	
+	2348.1.11 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110348 = {
+	name = "Leonardo"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110346 #João Watanabe
+	
+	2350.3.9 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110349 = {
+	name = "Marcela"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110346 #João Watanabe
+	
+	2352.11.4 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110390 = {
+	name = "Benedita"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110346 #João Watanabe
+	
+	2353.8.23 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110350 = {
+	name = "Graciano"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110342 #Mateus Watanabe
+	
+	2305.5.19 = {
+		birth = yes
+		culture = paulistano
+	}
+	2361.8.13 = {
+		death = yes
+	}
+}
+
+110351 = {
+	name = "Carlos"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110342 #Mateus Watanabe
+	
+	2308.4.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2358.11.2 = {
+		death = {
+			death_reason = death_poor_health
+		}
+	}
+}
+
+110352 = {
+	name = "Léa"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110350 #Graciano Watanabe
+	
+	2330.1.12 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110353 = {
+	name = "Manuela"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110350 #Graciano Watanabe
+	
+	2332.7.6 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110388 = {
+	name = "Fausto"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110350 #Graciano Watanabe
+	
+	
+	2335.12.5 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110354 = {
+	name = "André"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110343 #Rafael Watanabe
+	
+	2309.12.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2355.7.24 = {
+		death = yes
+	}
+}
+
+110387 = {
+	name = "Agenor"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110343 #Rafael Watanabe
+	
+	2312.7.20 = {
+		birth = yes
+		culture = paulistano
+	}
+	2312.7.21 = {
+		death = yes
+	}
+}
+
+110355 = {
+	name = "Gabriela"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110354 #André Watanabe
+	
+	2332.1.4 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110386 = {
+	name = "Tamires"
+	female = yes
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110354 #André Watanabe
+	
+	2335.10.23 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110389 = {
+	name = "Noah"
+	dynasty = 55026
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110351 #Carlos Watanabe
+	
+	2330.2.27 = {
+		birth = yes
+		culture = paulistano
+	}
+	2330.2.28 = {
+		death = yes
+	}
+}
+
+## End of the Watanabe Dynasty ##
+
+##Yamashita Dynasty##
+
+110356 = {
+	name = "Fabiano"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	2203.5.27 = {
+		birth = yes
+		culture = paulistano
+	}
+	2262.8.1 = {
+		death = yes
+	}
+}
+
+110357 = {
+	name = "Antônio"
+	#2nd Count of Mogi das Cruzes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110356 #Fabiano Yamashita
+	
+	2225.9.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2282.12.14 = {
+		death = yes
+	}
+}
+
+110358 = {
+	name = "Rafaela"
+	#3rd Countess of Mogi das Cruzes
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110356 #Fabiano Yamashita
+	
+	2228.11.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2298.3.8 = {
+		death = yes
+	}
+}
+
+110359 = {
+	name = "Rodrigo"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110356 #Fabiano Yamashita
+	
+	2230.4.30 = {
+		birth = yes
+		culture = paulistano
+	}
+	2303.6.28 = {
+		death = yes
+	}
+}
+
+110360 = {
+	name = "Leonardo"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110357 #Antônio Yamashita
+	
+	2246.2.25 = {
+		birth = yes
+		culture = paulistano
+	}
+	2246.2.26 = {
+		death = yes
+	}
+}
+
+110361 = { #Unmarried
+	name = "Joana"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110357 #Antônio Yamashita
+	
+	2248.4.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2306.8.10 = {
+		death = yes
+	}
+}
+
+110362 = {
+	name = "Leandro"
+	#3rd Count of Salesópolis
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110357 #Antônio Yamashita
+	
+	2251.1.13 = {
+		birth = yes
+		culture = paulistano
+	}
+	2299.7.10 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+110363 = {
+	name = "Caique"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	mother = 110358 #Rafaela Yamashita
+	
+	2252.3.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2308.12.23 = {
+		death = yes
+	}
+}
+
+110364 = { #Unmarried
+	name = "Fernanda"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	mother = 110358 #Rafaela Yamashita
+	
+	2254.10.21 = {
+		birth = yes
+		culture = paulistano
+	}
+	2311.4.4 = {
+		death = yes
+	}
+}
+
+110365 = {
+	name = "Elias"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110359 #Rodrigo Yamashita
+	
+	2254.3.24 = {
+		birth = yes
+		culture = paulistano
+	}
+	2318.12.4 = {
+		death = yes
+	}
+}
+
+110366 = {
+	name = "Roberta"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110359 #Rodrigo Yamashita
+	
+	2258.2.19 = {
+		birth = yes
+		culture = paulistano
+	}
+	2317.5.10 = {
+		death = yes
+	}
+}
+
+110367 = {
+	name = "Diego"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110359 #Rodrigo Yamashita
+	
+	2260.12.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2260.12.2 = {
+		death = yes
+	}
+}
+
+110368 = {
+	name = "Letícia"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110362 #Leandro Yamashita
+	
+	2273.1.9 = {
+		birth = yes
+		culture = paulistano
+	}
+	2273.1.10 = {
+		death = yes
+	}
+}
+
+110369 = {
+	name = "Thiago"
+	#Archbishop
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	add_trait = mastermind_theologian
+	add_trait = zealous
+	
+	learning = 6
+	
+	father = 110362 #Leandro Yamashita
+	
+	2275.2.22 = {
+		birth = yes
+		culture = paulistano
+	}
+	2331.12.8 = {
+		death = yes
+	}
+}
+
+110370 = {
+	name = "Murilo"
+	#6th Count of Mogi das Cruzes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110363 #Caique Yamashita
+	
+	2278.12.19 = {
+		birth = yes
+		culture = paulistano
+	}
+	2334.5.10 = {
+		death = yes
+	}
+}
+
+110371 = {
+	name = "Oliveira"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110363 #Caique Yamashita
+	
+	2280.10.5 = {
+		birth = yes
+		culture = paulistano
+	}
+	2348.1.28 = {
+		death = yes
+	}
+}
+
+110372 = { #Unmarried
+	name = "Elaine"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110363 #Caique Yamashita
+	
+	2282.9.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2342.4.10 = {
+		death = yes
+	}
+}
+
+110373 = {
+	name = "Gabriel"
+	#3rd Count of São José dos Campos
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110365 #Elias Yamashita
+	
+	2277.6.3 = {
+		birth = yes
+		culture = paulistano
+	}
+	2322.5.11 = {
+		death = yes
+	}
+}
+
+110374 = {
+	name = "Mariana"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110365 #Elias Yamashita
+	
+	2278.9.22 = {
+		birth = yes
+		culture = paulistano
+	}
+	2231.5.1 = {
+		death = yes
+	}
+}
+
+110375 = {
+	name = "Abelita"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110365 #Elias Yamashita
+	
+	2282.4.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2342.10.22 = {
+		death = yes
+	}
+}
+
+110376 = {
+	name = "Felipe"
+	#7th Count of Mogi das Cruzes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110370 #Murilo Yamashita
+	
+	2302.5.10 = {
+		birth = yes
+		culture = paulistano
+	}
+	2358.9.15 = {
+		death = yes
+	}
+}
+
+110377 = {
+	name = "Júlio"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110370 #Murilo Yamashita
+	
+	2304.8.29 = {
+		birth = yes
+		culture = paulistano
+	}
+	2365.11.3 = {
+		death = yes
+	}
+}
+
+110378 = {
+	name = "Hugo"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110373 #Gabriel Yamashita
+	
+	2301.10.8 = {
+		birth = yes
+		culture = paulistano
+	}
+	2323.3.10 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+
+110379 = {
+	name = "Filipa"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110373 #Gabriel Yamashita
+	
+	2303.2.14 = {
+		birth = yes
+		culture = paulistano
+	}
+	2323.3.10 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+
+110380 = {
+	name = "Adriano"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110376 #Felipe Yamashita
+	
+	2325.8.15 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110381 = {
+	name = "Delfina"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110376 #Felipe Yamashita
+	
+	2328.1.2 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110382 = {
+	name = "Silvestre"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110376 #Felipe Yamashita
+	
+	2330.7.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2330.7.2 = {
+		death = yes
+	}
+}
+
+110383 = {
+	name = "Airton"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110380 #Adriano Yamashita
+	
+	2347.2.10 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110384 = {
+	name = "Gaspar"
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110380 #Adriano Yamashita
+	
+	2349.5.3 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110385 = {
+	name = "Joice"
+	female = yes
+	dynasty = 55027
+	religion = anchietican
+	culture = nippon_paulista
+	
+	father = 110380 #Adriano Yamashita
+	
+	2351.5.23 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+## End of the Yamashita Dynasty ##
+
+##de Barros Dynasty##
+
+110391 = {
+	name = "Ademar"
+	#1st Count of Osasco
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	2200.10.9 = {
+		birth = yes
+	}
+	2256.4.7 = {
+		death = yes
+	}
+}
+
+110392 = {
+	name = "Nazário"
+	#2nd Count of Osasco
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110391 #Ademar de Barros
+	
+	2223.5.1 = {
+		birth = yes
+	}
+	2278.1.26 = {
+		death = yes
+	}
+}
+
+110393 = {
+	name = "Andrade"
+	#3rd Count of Osasco
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110392 #Nazário de Barros
+	
+	2245.3.21 = {
+		birth = yes
+	}
+	2302.12.3 = {
+		death = yes
+	}
+}
+
+110394 = { #Unmarried
+	name = "Clara"
+	female = yes
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110392 #Nazário de Barros
+	
+	2248.10.29 = {
+		birth = yes
+	}
+	2307.1.7 = {
+		death = yes
+	}
+}
+
+110395 = { #Unmarried
+	name = "Maria"
+	female = yes
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110393 #Andrade de Barros
+	
+	2267.8.2 = {
+		birth = yes
+	}
+	2327.7.14 = {
+		death = yes
+	}
+}
+
+110396 = {
+	name = "Roberto"
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110393 #Andrade de Barros
+	
+	2269.4.20 = {
+		birth = yes
+	}
+	2315.1.30 = {
+		death = {
+			death_reason = death_battle
+			#killer = 
+		}
+	}
+}
+
+110397 = {
+	name = "Celso"
+	dynasty = 55016 
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110393 #Andrade de Barros
+	
+	2271.5.31 = {
+		birth = yes
+	}
+	2317.4.12 = {
+		death = {
+			death_reason = death_battle
+			#killer =
+		}
+	}
+}
+
+
+110398 = {
+	name = "Guilherme"
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	add_trait = twin
+	
+	father = 110393 #Andrade de Barros
+	
+	2273.12.8 = {
+		birth = yes
+	}
+	2307.1.3 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+110399 = {
+	name = "Cecília"
+	female = yes
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	add_trait = twin
+	
+	father = 110393 #Andrade de Barros
+	
+	2273.12.8 = {
+		birth = yes
+	}
+	2307.1.3 = {
+		add_trait = depressed
+	}
+	2331.10.2 = {
+		death = yes
+	}
+}
+
+110400 = {
+	name = "Mauro"
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110398 #Guilherme de Barros
+	
+	2294.1.5 = {
+		birth = yes
+	}
+	2342.8.13 = {
+		death = yes
+	}
+}
+
+110401 = {
+	name = "Orlandino"
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110398 #Guilherme de Barros
+	
+	2296.11.3 = {
+		birth = yes
+	}
+	2296.11.4 = {
+		death = yes
+	}
+}
+
+110402 = {
+	name = "Manuela"
+	female = yes
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110400 #Mauro de Barros
+	
+	2321.8.9 = {
+		birth = yes
+	}
+}
+
+110403 = {
+	name = "Tacito"
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110400 #Mauro de Barros
+	
+	2324.10.23 = {
+		birth = yes
+	}
+	2365.1.30 = {
+		death = yes
+	}
+}
+
+110404 = {
+	name = "Iasmin"
+	female = yes
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110400 #Mauro de Barros
+	
+	2327.3.15 = {
+		birth = yes
+	}
+}
+
+110405 = {
+	name = "Gastão"
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110403 #Tacito de Barros
+	
+	2345.1.10 = {
+		birth = yes
+	}
+}
+
+110406 = {
+	name = "Valerio"
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110403 #Tacito de Barros
+	
+	2347.12.2 = {
+		birth = yes
+	}
+}
+
+110407 = {
+	name = "Sara"
+	female = yes
+	dynasty = 55016
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110403 #Tacito de Barros
+	
+	2349.10.3 = {
+		birth = yes
+	}
+}
+
+## End of the de Barros Dynasty ##
+
+##Raposo Tavares Dynasty##
+
+110408 = {
+	name = "Kauan"
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano 
+	
+	2200.1.29 = {
+		birth = yes
+	}
+	2256.9.2 = {
+		death = yes
+	}
+}
+
+110409 = {
+	name = "Nathan"
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110408 #Kauan Raposo Tavares
+	
+	2222.1.4 = {
+		birth = yes
+	}
+	2274.12.3 = {
+		death = yes
+	}
+}
+
+110410 = { #Unmarried
+	name = "Sílvia"
+	female = yes
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110408 #Kauan Raposo Tavares
+	
+	2225.3.14 = {
+		birth = yes
+	}
+	2278.10.5 = {
+		death = yes
+	}
+}
+
+110411 = {
+	name = "Carlos"
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110409 #Nathan Raposo Tavares
+	
+	2244.10.3 = {
+		birth = yes
+	}
+	2294.12.10 = {
+		add_trait = ill
+	}
+	2295.3.15 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110412 = {
+	name = "Cíntia"
+	female = yes
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110409 #Nathan Raposo Tavares
+	
+	2246.4.9 = {
+		birth = yes
+	}
+	2304.8.30 = {
+		death = yes
+	}
+}
+
+110413 = {
+	name = "Antônio"
+	#4th Count of Osasco
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110411 #Carlos Raposo Tavares
+	
+	2268.5.13 = {
+		birth = yes
+	}
+	2329.11.3 = {
+		death = yes
+	}
+}
+
+110414 = { #Unmarried
+	name = "Ester"
+	female = yes
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110411 #Carlos Raposo Tavares
+	
+	2270.2.20 = {
+		birth = yes
+	}
+	2320.5.11 = {
+		death = yes
+	}
+}
+
+110415 = { #Unmarried
+	name = "Bárbara"
+	female = yes
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110411 #Carlos Raposo Tavares
+	
+	2272.3.31 = {
+		birth = yes
+	}
+	2324.9.3 = {
+		death = yes
+	}
+}
+
+110416 = {
+	name = "Diego"
+	#5th Count of Osasco
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110413 #Antônio Raposo Tavares
+	
+	2295.2.24 = {
+		birth = yes
+	}
+	2348.11.5 = {
+		death = yes
+	}
+}
+
+110417 = {
+	name = "Elaine"
+	female = yes
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110413 #Antônio Raposo Tavares
+	
+	2297.5.1 = {
+		birth = yes
+	}
+	2350.2.30 = {
+		death = yes
+	}
+}
+
+110418 = {
+	name = "Pedro"
+	#Archbishop
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110413 #Antônio Raposo Tavares
+	
+	add_trait = scholarly_theologian
+	add_trait = charitable
+	add_trait = erudite
+	
+	2300.4.10 = {
+		birth = yes
+	}
+	2361.2.13 = {
+		death = yes
+	}
+}
+
+110419 = {
+	name = "Jaqueline"
+	female = yes
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110413 #Antônio Raposo Tavares
+	
+	2302.1.8 = {
+		birth = yes
+	}
+	2302.1.9 = {
+		death = yes
+	}
+}
+
+110420 = {
+	name = "Bruno"
+	#6th Count of Osasco
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110416 #Diego Raposo Tavares
+	
+	2319.5.24 = {
+		birth = yes
+	}
+	2364.11.13 = {
+		death = {
+			death_reason = death_battle
+			killer = 110001 #Alexandre I Cantarini
+		}
+	}
+}
+
+110421 = {
+	name = "Ângelo"
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110416 #Diego Raposo Tavares
+	
+	2321.4.22 = {
+		birth = yes
+	}
+	2321.4.23 = {
+		death = yes
+	}
+}
+
+110422 = {
+	name = "Otávio"
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110416 #Diego Raposo Tavares
+	
+	2323.10.2 = {
+		birth = yes
+	}
+}
+
+110423 = {
+	name = "Beatriz"
+	female = yes
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110420 #Bruno Raposo Tavares
+	
+	2342.7.25 = {
+		birth = yes
+	}
+}
+
+110424 = {
+	name = "Manuel"
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110420 #Bruno Raposo Tavares
+	
+	2346.10.4 = {
+		birth = yes
+	}
+	2364.11.13 = {
+		death = {
+			death_reason = death_battle
+			killer = 110001 #Alexandre Cantarini
+		}
+	}
+}
+
+110425 = {
+	name = "Henrique"
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110420 #Bruno Raposo Tavares
+	
+	2348.2.16 = {
+		birth = yes
+	}
+}
+
+110426 = {
+	name = "Elsa"
+	female = yes
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110422 #Otávio Raposo Tavares
+	
+	2345.1.11 = {
+		birth = yes
+	}
+}
+
+110427 = {
+	name = "Inácio"
+	dynasty = 55011
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110422 #Otávio Raposo Tavares
+	
+	2348.10.3 = {
+		birth = yes
+	}
+}
+
+## End of the Raposo Tavares Dynasty ##
+
+##Ramalho Dynasty##
+
+110428 = {
+	name = "Gustavo"
+	#1st Count of Salesópolis
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	2200.8.25 = {
+		birth = yes
+	}
+	2273.1.15 = {
+		death = yes
+	}
+}
+
+110429 = {
+	name = "Sandro"
+	#2nd Count of Salesópolis
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110428 #Gustavo Ramalho
+	
+	2226.3.11 = {
+		birth = yes
+	}
+	2292.4.6 = {
+		death = yes
+	}
+}
+
+110430 = { #Unmarried
+	name = "Hebe"
+	female = yes
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110428 #Gustavo Ramalho
+	
+	2229.12.3 = {
+		birth = yes
+	}
+	2297.4.17 = {
+		death = yes
+	}
+}
+
+110431 = {
+	name = "Nataniel"
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110429 #Sandro Ramalho
+	
+	2250.5.7 = {
+		birth = yes
+	}
+	2311.9.2 = {
+		death = yes
+	}
+}
+
+110432 = { #Unmarried
+	name = "Lisandra"
+	female = yes
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110429 #Sandro Ramalho
+	
+	2252.11.23 = {
+		birth = yes
+	}
+	2323.1.15 = {
+		death = yes
+	}
+}
+
+110433 = {
+	name = "Marcelo"
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110429 #Sandro Ramalho
+	
+	2254.5.10 = {
+		birth = yes
+	}
+	2254.5.11 = {
+		death = yes
+	}
+}
+
+110434 = { #Unmarried
+	name = "Sandra"
+	female = yes
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+
+	father = 110429 #Sandro Ramalho
+	
+	2257.10.31 = {
+		birth = yes
+	}
+	2321.3.12 = {
+		death = yes
+	}
+}
+
+110435 = {
+	name = "Tobias"
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110431 #Nataniel Ramalho
+	
+	2275.3.30 = {
+		birth = yes
+	}
+	2338.5.12 = {
+		death = yes
+	}
+}
+
+110436 = {
+	name = "Fábio"
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110431 #Nataniel Ramalho
+	
+	2278.1.1 = {
+		birth = yes
+	}
+	2335.2.10 = {
+		add_trait = ill
+	}
+	2335.8.22 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110437 = { #Unmarried
+	name = "Thaís"
+	female = yes
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110431 #Nataniel Ramalho
+	
+	2280.10.20 = {
+		birth = yes
+	}
+	2344.3.15 = {
+		death = yes
+	}
+}
+
+110438 = {
+	name = "Pedro"
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110435 #Tobias Ramalho
+	
+	2302.6.15 = {
+		birth = yes
+	}
+	2350.11.4 = {
+		death = yes
+	}
+}
+
+110439 = {
+	name = "Alberto"
+	#Archbishop
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	disallow_random_traits = yes
+	add_trait = scholarly_theologian
+	add_trait = shrewd
+	add_trait = celibate
+	add_trait = diligent
+	add_trait = erudite
+	
+	intrigue = 5
+	learning = 5
+	
+	father = 110435 #Tobias Ramalho
+	
+	2305.5.19 = {
+		birth = yes
+	}
+}
+
+110440 = { #Unmarried
+	name = "Valentina"
+	female = yes
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110435 #Tobias Ramalho
+	
+	2308.1.10 = {
+		birth = yes
+	}
+	2357.6.2 = {
+		death = yes
+	}
+}
+
+110441 = { #Unmarried
+	name = "Renata"
+	female = yes
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110436 #Fábio Ramalho
+	
+	2300.2.11 = {
+		birth = yes
+	}
+	2363.12.5 = {
+		death = yes
+	}
+}
+
+110442 = {
+	name = "Mateus"
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110436 #Fábio Ramalho
+
+	2303.7.3 = {
+		birth = yes
+	}
+	2356.4.12 = {
+		death = yes
+	}
+}
+
+110443 = {
+	name = "Guilherme"
+	#6th Count of Salesópolis, 1st Magnate, 1st Consul of Santos, 1st Magister of Santos, 1st Oligarch of Santos
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	father = 110442 #Mateus Ramalho
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = diligent
+	add_trait = wroth
+	add_trait = craven
+	add_trait = ambitious
+	
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 2
+	learning = 2
+	
+	2325.12.1 = {
+		birth = yes
+	}
+	2368.3.1 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+
+110444 = { #Unmarried
+	name = "Naiara"
+	female = yes
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110442 #Mateus Ramalho
+	
+	2327.11.13 = {
+		birth = yes
+	}
+}
+
+110445 = {
+	name = "Luan"
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110442 #Mateus Ramalho
+	
+	2329.8.20 = {
+		birth = yes
+	}
+}
+
+110446 = {
+	name = "Olga"
+	female = yes
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110442 #Mateus Ramalho
+	
+	2332.6.31 = {
+		birth = yes
+	}
+	2358.3.3 = {
+		add_trait = ill
+	}
+	2358.12.23 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110447 = {
+	name = "João Pedro"
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110443 #Guilherme Ramalho
+	
+	2346.12.5 = {
+		birth = yes
+	}
+}
+
+110448 = { #Unmarried
+	name = "Ivana"
+	female = yes
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110443 #Guilherme Ramalho
+	
+	2349.9.10 = {
+		birth = yes
+	}
+}
+
+110449 = {
+	name = "Vinícius"
+	dynasty = 55010
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110443 #Guilherme Ramalho
+	
+	2351.4.25 = {
+		birth = yes
+	}
+}
+
+## End of the Ramalho Dynasty ##
+
+##de Campos Sales Dynasty##
+
+110450 = {
+	name = "Fernando"
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	2200.12.3 = {
+		birth = yes
+	}
+	2278.4.9 = {
+		death = yes
+	}
+}
+
+110451 = {
+	name = "Ricardo"
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110450 #Fernando de Campos Sales
+	
+	2219.8.7 = {
+		birth = yes
+	}
+	2219.8.8 = {
+		death = yes
+	}
+}
+
+110452 = { #Unmarried
+	name = "Sofia"
+	female = yes
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110450 #Fernando de Campos Sales
+	
+	2221.3.20 = {
+		birth = yes
+	}
+	2285.7.10 = {
+		death = yes
+	}
+}
+
+110453 = {
+	name = "Gilberto"
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110450 #Fernando de Campos Sales
+	
+	2223.10.5 = {
+		birth = yes
+	}
+	2277.10.10 = {
+		add_trait = ill
+	}
+	2277.12.29 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+110454 = {
+	name = "Ernesto"
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110453 #Gilberto de Campos Sales
+	
+	2245.2.10 = {
+		birth = yes
+	}
+	2297.9.2 = {
+		death = {
+			death_reason = death_murder
+			killer = 110362 #Leandro Yamashita
+		}
+	}
+}
+
+110455 = { #Unmarried
+	name = "Dafne"
+	female = yes
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110453 #Gilberto de Campos Sales
+	
+	
+	2247.12.3 = {
+		birth = yes
+	}
+	2309.1.21 = {
+		death = yes
+	}
+}
+
+110456 = {
+	name = "Júlia"
+	female = yes
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110454 #Ernesto de Campos Sales
+	
+	2266.4.13 = {
+		birth = yes
+	}
+	2325.2.20 = {
+		death = yes
+	}
+}
+
+110457 = {
+	name = "Manuel"
+	#4th Count of Salesópolis
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110454 #Ernesto de Campos Sales
+	
+	2268.2.5 = {
+		birth = yes
+	}
+	2326.2.6 = {
+		death = yes
+	}
+}
+
+110458 = {
+	name = "Samuel"
+	#5th Count of Salesópolis
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110457 #Manuel de Campos Sales
+	
+	2301.11.5 = {
+		birth = yes
+	}
+	2361.5.30 = {
+		death = yes
+	}
+}
+
+110459 = {
+	name = "Priscila"
+	female = yes
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110457 #Manuel de Campos Sales
+	
+	2303.4.12 = {
+		birth = yes
+	}
+	2358.1.30 = {
+		death = yes
+	}
+}
+
+110460 = {
+	name = "Ronaldo"
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110457 #Manuel de Campos Sales
+	
+	2306.1.23 = {
+		birth = yes
+	}
+}
+
+110461 = {
+	name = "Jonathan"
+	#7th Count of Salesópolis
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110458 #Samuel de Campos Sales
+	
+	2330.4.13 = {
+		birth = yes
+	}
+}
+
+110462 = { #Unmarried
+	name = "Diane"
+	female = yes
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110458 #Samuel de Campos Sales
+	
+	2332.9.25 = {
+		birth = yes
+	}
+}
+
+110463 = {
+	name = "Ulisses"
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110461 #Jonathan de Campos Sales
+	
+	2353.10.3 = {
+		birth = yes
+	}
+}
+
+110464 = {
+	name = "Paula"
+	female = yes
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110461 #Jonathan de Campos Sales
+	
+	2355.5.14 = {
+		birth = yes
+	}
+}
+
+110465 = { #Unmarried
+	name = "Dalma"
+	female = yes
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110460 #Ronaldo de Campos Sales
+	
+	2328.12.1 = {
+		birth = yes
+	}
+}
+
+110466 = { #Unmarried
+	name = "Laísa"
+	female = yes
+	dynasty = 55028
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110460 #Ronaldo de Campos Sales
+	
+	2330.5.3 = {
+		birth = yes
+	}
+}
+
+## End of the de Campos Sales Dynasty ##
+
+##Dumont Dynasty##
+
+110467 = {
+	name = "Adriano"
+	#1st Count of São José dos Campos
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	2210.5.12 = {
+		birth = yes
+		culture = paulistano
+	}
+	2280.3.20 = {
+		death = yes
+	}
+}
+
+110468 = {
+	name = "Felipe"
+	#2nd Count of São José dos Campos
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110467 #Adriano Dumont
+	
+	2235.9.13 = {
+		birth = yes
+		culture = paulistano
+	}
+	2308.3.31 = {
+		death = yes
+	}
+}
+
+110469 = {
+	name = "Maria"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110467 #Adriano Dumont
+	
+	2238.1.23 = {
+		birth = yes
+		culture = paulistano
+	}
+	2314.11.3 = {
+		death = yes
+	}
+}
+
+110470 = {
+	name = "Mariana"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110467 #Adriano Dumont
+	
+	2240.2.19 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110471 = {
+	name = "Paula"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110468 #Felipe Dumont
+	
+	2272.10.3 = {
+		birth = yes
+		culture = paulistano
+	}
+	2331.8.2 = {
+		death = yes
+	}
+}
+
+110472 = {
+	name = "Germano"
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110468 #Felipe Dumont
+	
+	2275.3.2 = {
+		birth = yes
+		culture = paulistano
+	}
+	2325.7.6 = {
+		death = {
+			death_reason = death_murder
+			killer = 110066 #Eduardo de Andrade
+		}
+	}
+}
+
+110473 = {
+	name = "Diego"
+	#4th Count of São José dos Campos
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110468 #Felipe Dumont
+	
+	2278.9.23 = {
+		birth = yes
+		culture = paulistano
+	}
+	2340.3.12 = {
+		death = yes
+	}
+}
+
+110474 = {
+	name = "Henrique"
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110473 #Diego Dunet
+	
+	2298.10.3 = {
+		birth = yes
+		culture = paulistano
+	}
+	2355.1.31 = {
+		death = yes
+	}
+}
+
+110475 = {
+	name = "Renan"
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110473 #Diego Dumont
+	
+	2301.7.5 = {
+		birth = yes
+		culture = paulistano
+	}
+	2362.10.2 = {
+		death = yes
+	}
+}
+
+110476 = {
+	name = "Eliana"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110473 #Diego Dumont
+	
+	2303.4.22 = {
+		birth = yes
+		culture = paulistano
+	}
+	2365.11.1 = {
+		death = yes
+	}
+}
+
+110477 = {
+	name = "Tadeu"
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110474 #Henrique Dumont
+	
+	2320.5.15 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110478 = {
+	name = "Kiara"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110474 #Henrique Dumont
+	
+	2324.10.2 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110479 = {
+	name = "Luís"
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110477 #Tadeu Dumont
+	
+	2342.10.3 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110480 = {
+	name = "Bernardo"
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110477 #Tadeu Dumont
+	
+	2345.6.3 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110481 = {
+	name = "Agnes"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110477 #Tadeu Dumont
+	
+	2347.2.1 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110482 = {
+	name = "Carla"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110477 #Tadeu Dumont
+	
+	2349.5.2 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110483 = {
+	name = "Marcos"
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110475 #Renan Dumont
+	
+	2325.7.17 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110484 = {
+	name = "Bianca"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110475 #Renan Dumont
+	
+	2328.2.12 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110485 = {
+	name = "Joana"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110475 #Renan Dumont
+
+	2330.1.9 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110486 = {
+	name = "Batista"
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110483 #Marcos Dumont
+	
+	2350.10.3 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110487 = {
+	name = "Antônio"
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110483 #Marcos Dumont
+	
+	2353.4.23 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+110488 = {
+	name = "Maria Clara"
+	female = yes
+	dynasty = 55008
+	religion = anchietican
+	culture = french
+	
+	father = 110483 #Marcos Dumont
+	
+	2355.10.2 = {
+		birth = yes
+		culture = paulistano
+	}
+}
+
+## End of the Dumont Dynasty ##
+
+##Alvarenga Dynasty##
+
+110489 = {
+	name = "Lucas"
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	2228.3.15 = {
+		birth = yes
+	}
+	2289.1.13 = {
+		death = yes
+	}
+}
+
+110490 = {
+	name = "João"
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110489 #Lucas Alvarenga
+	
+	2250.4.3 = {
+		birth = yes
+	}
+	2300.2.2 = {
+		death = yes
+	}
+}
+
+110491 = {
+	name = "Amanda"
+	female = yes
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110489 #Lucas Alvarenga
+	
+	2252.3.30 = {
+		birth = yes
+	}
+	2314.2.15 = {
+		death = yes
+	}
+}
+
+110492 = {
+	name = "Alfredo"
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110490 #João Alvarenga
+	
+	2274.9.12 = {
+		birth = yes
+	}
+	2329.11.2 = {
+		death = yes
+	}
+}
+
+110493 = {
+	name = "Bruna"
+	female = yes
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110490 #João Alvarenga
+	
+	2276.1.10 = {
+		birth = yes
+	}
+	2331.3.12 = {
+		death = yes
+	}
+}
+
+110494 = {
+	name = "Letícia"
+	female = yes
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110490 #João Alvarenga
+	
+	2278.12.11 = {
+		birth = yes
+	}
+	2335.1.6 = {
+		death = yes
+	}
+}
+
+110495 = {
+	name = "César"
+	#5th Count of São José dos Campos
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110492 #Alfredo Alvarenga
+	
+	2300.12.3 = {
+		birth = yes
+	}
+	2353.9.8 = {
+		death = yes
+	}
+}
+
+110496 = {
+	name = "Éder"
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110492 #Alfredo Alvarenga
+	
+	2302.6.29 = {
+		birth = yes
+	}
+	2356.4.3 = {
+		death = yes
+	}
+}
+
+110497 = {
+	name = "Lucas"
+	#6th Count of São José dos Campos
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110495 #César Alvarenga
+	
+	2325.10.23 = {
+		birth = yes
+	}
+}
+
+110498 = {
+	name = "Horácio"
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110495 #César Alvarenga
+	
+	2327.11.22 = {
+		birth = yes
+	}
+}
+
+110499 = {
+	name = "Bárbara"
+	female = yes
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110495 #César Alvarenga
+	
+	2328.3.24 = {
+		birth = yes
+	}
+}
+
+110500 = {
+	name = "Olavo"
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110495 #César Alvarenga
+	
+	2330.9.14 = {
+		birth = yes
+	}
+	2330.9.15 = {
+		death = yes
+	}
+}
+
+110501 = {
+	name = "Angélica"
+	female = yes
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110496 #Éder Alvarenga
+	
+	2328.12.10 = {
+		birth = yes
+	}
+}
+
+110502 = {
+	name = "Sebastião"
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110496 #Éder Alvarenga
+	
+	2330.2.4 = {
+		birth = yes
+	}
+}
+
+110503 = {
+	name = "Maísa"
+	female = yes
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110496 #Éder Alvarenga
+	
+	2334.5.10 = {
+		birth = yes
+	}
+}
+
+110504 = {
+	name = "Laura"
+	female = yes
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110497 #Lucas Alvarenga
+	
+	2348.10.8 = {
+		birth = yes
+	}
+}
+
+110505 = {
+	name = "Natasha"
+	female = yes
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110497 #Lucas Alvarenga
+	
+	2350.2.20 = {
+		birth = yes
+	}
+}
+
+110506 = {
+	name = "Roberto"
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110502 #Sebastião Alvarenga
+	
+	2352.3.10 = {
+		birth = yes
+	}
+}
+
+110507 = {
+	name = "Caio"
+	dynasty = 55029
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110502 #Sebastião Alvarenga
+	
+	2354.12.1 = {
+		birth = yes
+	}
+}
+
+## End of the Alvarenga Dynasty ##
+
+##Siqueira Bruno Dynasty##
+
+110508 = {
+	name = "Odete"
+	#1st Countess of Guarulhos
+	female = yes
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	2203.4.10 = {
+		birth = yes
+	}
+	2263.11.3 = {
+		death = yes
+	}
+}
+
+110509 = {
+	name = "Jonas"
+	#2nd Count of Guarulhos
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	mother = 110508 #Odete Siqueira Bruno
+	
+	2227.2.24 = {
+		birth = yes
+	}
+	2281.6.30 = {
+		death = yes
+	}
+}
+
+110510 = {
+	name = "Daniela"
+	female = yes
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	mother = 110508 #Odete Siqueira Bruno
+	
+	2230.9.7 = {
+		birth = yes
+	}
+	2292.5.21 = {
+		death = yes
+	}
+}
+
+110511 = {
+	name = "Eduardo"
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110509 #Jonas Siqueira Bruno
+	
+	2251.5.23 = {
+		birth = yes
+	}
+	2310.12.1 = {
+		death = yes
+	}
+}
+
+110512 = {
+	name = "Joana"
+	female = yes
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110509 #Jonas Siqueira Bruno
+	
+	2254.10.11 = {
+		birth = yes
+	}
+	2318.6.2 = {
+		death = yes
+	}
+}
+
+110513 = {
+	name = "Reinaldo"
+	#4th Count of Guarulhos
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110511 #Eduardo Siqueira Bruno
+	
+	2278.10.6 = {
+		birth = yes
+	}
+	2330.2.10 = {
+		death = yes
+	}
+}
+
+110514 = {
+	name = "Diego"
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110513 #Reinaldo Siqueira Bruno
+	
+	2300.12.1 = {
+		birth = yes
+	}
+	2357.2.4 = {
+		death = yes
+	}
+}
+
+110515 = {
+	name = "Iara"
+	female = yes
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110514 #Diego Siqueira Bruno
+	
+	2325.12.4 = {
+		birth = yes
+	}
+}
+
+110516 = {
+	name = "Pedro"
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110514 #Diego Siqueira Bruno
+	
+	2328.5.20 = {
+		birth = yes
+	}
+}
+
+110517 = {
+	name = "Marcelo"
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110514 #Diego Siqueira Bruno
+	
+	
+	2331.7.16 = {
+		birth = yes
+	}
+}
+
+110518 = {
+	name = "Joice"
+	female = yes
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110514 #Diego Siqueira Bruno
+	
+	2334.9.16 = {
+		birth = yes
+	}
+}
+
+110519 = {
+	name = "Paulo"
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110516 #Pedro Siqueira Bruno
+	
+	2350.8.1 = {
+		birth = yes
+	}
+}
+
+110520 = {
+	name = "Inara"
+	female = yes
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110516 #Pedro Siqueira Bruno
+	
+	2353.4.31 = {
+		birth = yes
+	}
+}
+
+110521 = {
+	name = "Murilo"
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110517 #Marcelo Siqueira Bruno
+	
+	2355.10.2 = {
+		birth = yes
+	}
+}
+
+110522 = {
+	name = "Karina"
+	female = yes
+	dynasty = 55030
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110517 #Marcelo Siqueira Bruno
+	
+	2358.2.23 = {
+		birth = yes
+	}
+}
+
+## End of the Siqueira Bruno Dynasty ##
+
+##Crespi Dynasty##
+
+110523 = {
+	name = "Tales"
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	2210.4.15 = {
+		birth = yes
+	}
+	2265.2.19 = {
+		death = yes
+	}
+}
+
+110524 = {
+	name = "João"
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110523 #Tales Crespi
+	
+	2232.6.13 = {
+		birth = yes
+	}
+	2284.3.23 = {
+		death = yes
+	}
+}
+
+110525 = {
+	name = "Caetana"
+	female = yes
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110523 #Tales Crespi
+	
+	2235.8.4 = {
+		birth = yes
+	}
+	2302.11.8 = {
+		death = yes
+	}
+}
+
+110526 = {
+	name = "Anderson"
+	#3rd Count of Guarulhos
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110524 #João Crespi
+	
+	2254.12.2 = {
+		birth = yes
+	}
+	2312.1.21 = {
+		death = yes
+	}
+}
+
+110527 = {
+	name = "Bruna"
+	female = yes
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110524 #João Crespi
+	
+	2257.3.10 = {
+		birth = yes
+	}
+	2315.8.22 = {
+		death = yes
+	}
+}
+
+110528 = {
+	name = "Carlos"
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110526 #Anderson Crespi
+	
+	2280.7.11 = {
+		birth = yes
+	}
+	2328.5.24 = {
+		death = yes
+	}
+}
+
+110529 = {
+	name = "Hilda"
+	female = yes
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110526 #Anderson Crespi
+	
+	2284.9.13 = {
+		birth = yes
+	}
+	2332.4.7 = {
+		death = yes
+	}
+}
+
+110530 = {
+	name = "José"
+	#5th Count of Guarulhos
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110528 #Carlos Crespi
+	
+	2304.5.6 = {
+		birth = yes
+	}
+	2354.10.3 = {
+		death = yes
+	}
+}
+
+110531 = {
+	name = "Maria"
+	female = yes
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110528 #Carlos Crespi
+	
+	2306.10.22 = {
+		birth = yes
+	}
+	2361.4.11 = {
+		death = yes
+	}
+}
+
+110532 = {
+	name = "Daniel"
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110528 #Carlos Crespi
+	
+	2309.5.1 = {
+		birth = yes
+	}
+}
+
+110533 = {
+	name = "Micaela"
+	female = yes
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110528 #Carlos Crespi
+	
+	2313.3.20 = {
+		birth = yes
+	}
+}
+
+110534 = {
+	name = "Fabrícia"
+	#6th Countess of Guarulhos
+	female = yes
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110530 #José Crespi
+	
+	2329.10.2 = {
+		birth = yes
+	}
+}
+
+110535 = {
+	name = "Edna"
+	female = yes
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110530 #José Crespi
+	
+	2332.4.10 = {
+		birth = yes
+	}
+}
+
+110536 = {
+	name = "Quinto"
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110532 #Daniel Crespi
+	
+	2333.1.2 = {
+		birth = yes
+	}
+}
+
+110537 = {
+	name = "Ricardo"
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110532 #Daniel Crespi
+	
+	2335.9.13 = {
+		birth = yes
+	}
+}
+
+110538 = {
+	name = "Gilda"
+	female = yes
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110532 #Daniel Crespi
+	
+	2338.3.14 = {
+		birth = yes
+	}
+}
+
+110539 = {
+	name = "Teodósio"
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	mother = 110534 #Fabrícia Crespi
+	
+	2353.6.1 = {
+		birth = yes
+	}
+}
+
+110540 = {
+	name = "Isaac"
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110536 #Quinto Crespi
+	
+	2355.10.19 = {
+		birth = yes
+	}
+}
+
+110541 = {
+	name = "Fátima"
+	female = yes
+	dynasty = 55031
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110536 #Quinto Crespi
+	
+	2358.4.12 = {
+		birth = yes
+	}
+}
+
+## End of the Crespi Dynasty ##
+
+##Teles Dynasty##
+
+110542 = {
+	name = "Breno"
+	#1st Count of Jundiaí
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	2210.3.14 = {
+		birth = yes
+	}
+	2272.10.5 = {
+		death = yes
+	}
+}
+
+110543 = {
+	name = "Gabriel"
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110542 #Breno Teles
+	
+	2232.8.1 = {
+		birth = yes
+	}
+	2296.11.20 = {
+		death = yes
+	}
+}
+
+110544 = {
+	name = "Alice"
+	female = yes
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110542 #Breno Teles
+	
+	2234.1.31 = {
+		birth = yes
+	}
+	2288.6.23 = {
+		death = yes
+	}
+}
+
+110545 = {
+	name = "Marcos"
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110543 #Gabriel Teles
+	
+	2255.10.14 = {
+		birth = yes
+	}
+	2315.2.3 = {
+		death = yes
+	}
+}
+
+110546 = {
+	name = "Renata"
+	female = yes
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110543 #Gabriel Teles
+	
+	2258.4.16 = {
+		birth = yes
+	}
+	2322.9.18 = {
+		death = yes
+	}
+}
+
+110547 = {
+	name = "Elaine"
+	female = yes
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110545 #Marcos Teles
+	
+	2280.12.1 = {
+		birth = yes
+	}
+	2331.2.12 = {
+		death = yes
+	}
+}
+
+110548 = {
+	name = "Sérgio"
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110545 #Marcos Teles
+	
+	2283.4.7 = {
+		birth = yes
+	}
+	2333.9.6 = {
+		death = yes
+	}
+}
+
+110549 = {
+	name = "Júnior"
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110548 #Sérgio Teles
+	
+	2305.9.2 = {
+		birth = yes
+	}
+	2355.11.9 = {
+		death = yes
+	}
+}
+
+110550 = {
+	name = "Caio"
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110548 #Sérgio Teles
+	
+	2304.8.17 = {
+		birth = yes
+	}
+	2362.3.28 = {
+		death = yes
+	}
+}
+
+110551 = {
+	name = "Elisabete"
+	female = yes
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110548 #Sérgio Teles
+	
+	2307.1.19 = {
+		birth = yes
+	}
+	2364.2.11 = {
+		death = yes
+	}
+}
+
+110552 = {
+	name = "Yan"
+	#6th Count of Jundiaí
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110549 #Júnior Teles
+	
+	2328.12.23 = {
+		birth = yes
+	}
+}
+
+110553 = {
+	name = "Vitória"
+	female = yes
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110549 #Júnior Teles
+	
+	2331.2.26 = {
+		birth = yes
+	}
+}
+
+110554 = {
+	name = "Luana"
+	female = yes
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110549 #Júnior Teles
+	
+	2333.11.21 = {
+		birth = yes
+	}
+}
+
+110555 = {
+	name = "Amanda"
+	female = yes
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110552 #Yan Teles
+	
+	2350.1.3 = {
+		birth = yes
+	}
+}
+
+110556 = {
+	name = "Frederico"
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110552 #Yan Teles
+	
+	2353.2.12 = {
+		birth = yes
+	}
+}
+
+110557 = {
+	name = "Samuel"
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110550 #Caio Teles
+	
+	2326.10.22 = {
+		birth = yes
+	}
+}
+
+110558 = {
+	name = "Xavier"
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110557 #Samuel Teles
+	
+	2350.7.1 = {
+		birth = yes
+	}
+}
+
+110559 = {
+	name = "Jennifer"
+	female = yes
+	dynasty = 55032
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110557 #Samuel Teles
+	
+	2354.12.7 = {
+		birth = yes
+	}
+}
+
+## End of the Teles Dynasty ##
+
+##de Oliveira Dynasty##
+
+110560 = {
+	name = "Alison"
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	2203.4.6 = {
+		birth = yes
+	}
+	2264.9.3 = {
+		death = yes
+	}
+}
+
+110561 = {
+	name = "Fernando"
+	#2nd Count of Jundiaí
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110560 #Alison de Oliveira
+	
+	2227.1.4 = {
+		birth = yes
+	}
+	2291.3.5 = {
+		death = yes
+	}
+}
+
+110562 = {
+	name = "Ágata"
+	female = yes
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110560 #Alison de Oliveira
+	
+	2229.5.2 = {
+		birth = yes
+	}
+	2289.6.13 = {
+		death = yes
+	}
+}
+
+110563 = {
+	name = "Guilherme"
+	#3rd Count of Jundiaí
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110561 #Fernando de Oliveira
+	
+	2250.11.17 = {
+		birth = yes
+	}
+	2305.3.22 = {
+		death = yes
+	}
+}
+
+110564 = {
+	name = "Joana"
+	female = yes
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110561 #Fernando de Oliveira
+	
+	2252.4.15 = {
+		birth = yes
+	}
+	2308.10.21 = {
+		death = yes
+	}
+}
+
+110565 = {
+	name = "Gaspar"
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110563 #Guilherme de Oliveira
+	
+	2275.12.3 = {
+		birth = yes
+	}
+	2330.4.2 = {
+		death = yes
+	}
+}
+
+110566 = {
+	name = "Adelaide"
+	female = yes
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110563 #Guilherme de Oliveira
+	
+	2277.3.11 = {
+		birth = yes
+	}
+	2328.1.4 = {
+		death = yes
+	}
+}
+
+110567 = {
+	name = "André"
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110565 #Gaspar de Oliveira
+	
+	2303.1.9 = {
+		birth = yes
+	}
+}
+
+110568 = {
+	name = "Carolina"
+	female = yes
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110565 #Gaspar de Oliveira
+	
+	2306.12.4 = {
+		birth = yes
+	}
+	2358.7.5 = {
+		death = yes
+	}
+}
+
+110569 = {
+	name = "Isidoro"
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110565 #Gaspar de Oliveira
+	
+	2308.2.23 = {
+		birth = yes
+	}
+	2360.10.8 = {
+		death = yes
+	}
+}
+
+110570 = {
+	name = "Diego"
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110567 #André de Oliveira
+	
+	2325.4.6 = {
+		birth = yes
+	}
+}
+
+110571 = {
+	name = "Camila"
+	female = yes
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110567 #André de Oliveira
+	
+	2328.3.11 = {
+		birth = yes
+	}
+}
+
+110572 = {
+	name = "Nunes"
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110567 #André de Oliveira
+	
+	2330.9.13 = {
+		birth = yes
+	}
+}
+
+110573 = {
+	name = "Hipolito"
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110570 #Diego de Oliveira
+	
+	2352.5.11 = {
+		birth = yes
+	}
+}
+
+110574 = {
+	name = "Álvaro"
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110570 #Diego de Oliveira
+	
+	2355.9.14 = {
+		birth = yes
+	}
+}
+
+110575 = {
+	name = "Samanta"
+	female = yes
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110569 #Isidoro de Oliveira
+	
+	2334.10.22 = {
+		birth = yes
+	}
+}
+
+110576 = {
+	name = "Berengária"
+	female = yes
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110569 #Isidoro de Oliveira
+	
+	2336.11.4 = {
+		birth = yes
+	}
+}
+
+110577 = {
+	name = "Danilo"
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110572 #Nunes de Oliveira
+	
+	2354.7.3 = {
+		birth = yes
+	}
+}
+
+110578 = {
+	name = "Teresa"
+	female = yes
+	dynasty = 55033
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110572 #Nunes de Oliveira
+	
+	2357.1.23 = {
+		birth = yes
+	}
+}
+
+## End of the de Oliveira dynasty ##
+
+##Brunholi Dynasty##
+
+110579 = {
+	name = "Lívio"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	2211.3.13 = {
+		birth = yes
+	}
+	2273.11.7 = {
+		death = yes
+	}
+}
+
+110580 = {
+	name = "Ronaldo"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110579 #Lívio Brunholi
+	
+	2234.5.12 = {
+		birth = yes
+	}
+	2285.9.26 = {
+		death = yes
+	}
+}
+
+110581 = {
+	name = "Raissa"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110579 #Lívio Brunholi
+	
+	2237.10.30 = {
+		birth = yes
+	}
+	2291.4.2 = {
+		death = yes
+	}
+}
+
+110582 = {
+	name = "João"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110580 #Ronaldo Brunholi
+	
+	2255.8.23 = {
+		birth = yes
+	}
+	2312.1.11 = {
+		death = yes
+	}
+}
+
+110583 = {
+	name = "Agenor"
+	#4th Count of Jundiaí
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110582 #João Brunholi
+	
+	2279.5.1 = {
+		birth = yes
+	}
+	2335.7.20 = {
+		death = yes
+	}
+}
+
+110584 = {
+	name = "Marcos"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110582 #João Brunholi
+	
+	2282.6.29 = {
+		birth = yes
+	}
+	2337.3.12 = {
+		death = yes
+	}
+}
+
+110585 = {
+	name = "Gianluca"
+	#5th Count of Jundiaí
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110583 #Agenor Brunholi
+	
+	2302.8.15 = {
+		birth = yes
+	}
+	2359.3.22 = {
+		death = yes
+	}
+}
+
+110586 = {
+	name = "Juliana"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110583 #Agenor Brunholi
+	
+	2305.1.5 = {
+		birth = yes
+	}
+	2362.10.9 = {
+		death = yes
+	}
+}
+
+110587 = {
+	name = "Paulo"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110584 #Marcos Brunholi
+	
+	2308.9.23 = {
+		birth = yes
+	}
+	2365.4.14 = {
+		death = yes
+	}
+}
+
+110588 = {
+	name = "Vitória"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110584 #Marcos Brunholi
+	
+	2312.3.28 = {
+		birth = yes
+	}
+}
+
+110589 = {
+	name = "Daniela"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110584 #Marcos Brunholi
+	
+	2314.4.14 = {
+		birth = yes
+	}
+	2314.4.15 = {
+		death = yes
+	}
+}
+
+110590 = {
+	name = "Oriana"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110585 #Gianluca Brunholi
+	
+	2324.12.1 = {
+		birth = yes
+	}
+}
+
+110591 = {
+	name = "Ricardo"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110585 #Gianluca Brunholi
+	
+	2327.1.13 = {
+		birth = yes
+	}
+	2327.1.14 = {
+		death = yes
+	}
+}
+
+110592 = {
+	name = "Adriano"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110585 #Gianluca Brunholi
+	
+	2330.3.12 = {
+		birth = yes
+	}
+}
+
+110593 = {
+	name = "Alba"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110585 #Gianluca Brunholi
+	
+	2332.5.16 = {
+		birth = yes
+	}
+}
+
+110594 = {
+	name = "Bento"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110585 #Gianluca Brunholi
+	
+	2336.5.13 = {
+		birth = yes
+	}
+}
+
+110595 = {
+	name = "Luís"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110587 #Paulo Brunholi
+	
+	2330.11.3 = {
+		birth = yes
+	}
+}
+
+110596 = {
+	name = "Cármen"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110587 #Paulo Brunholi
+	
+	2334.7.7 = {
+		birth = yes
+	}
+}
+
+110597 = {
+	name = "Antônia"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110592 #Adriano Brunholi
+	
+	2357.5.24 = {
+		birth = yes
+	}
+}
+
+110598 = {
+	name = "Vinícius"
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110592 #Adriano Brunholi
+	
+	2361.10.6 = {
+		birth = yes
+	}
+}
+
+110599 = {
+	name = "Júlia"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110594 #Bento Brunholi
+	
+	2358.2.20 = {
+		birth = yes
+	}
+}
+
+110600 = {
+	name = "Maria"
+	female = yes
+	dynasty = 55034
+	religion = anchietican
+	culture = paulistano
+	
+	father = 110595 #Luís Brunholi
+	
+	2360.3.15 = {
+		birth = yes
+	}
+}
+
+## End of the Brunholi Dynasty ##
+
+## Bragança Dynasty ##
+
+110601 = {
+	name = "Gabriel"
+	dynasty = 56072
+	religion = anchietican
+	culture = paulistano
+	
+	
+	2351.4.18 = {
+		birth = yes
+	}
+}
+
+## End of the Bragança Dynasty ##

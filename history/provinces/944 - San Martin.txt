@@ -1,0 +1,21 @@
+# c_san_martin
+
+# County Title
+title = c_san_martin
+
+# Settlements
+max_settlements = 5
+
+b_tarapoto = castle
+b_moyobamba = city
+b_rioja = temple
+b_lamas = castle
+#b_picota = city
+#b_san_jose_de_sisa = temple
+#b_caynarachi = castle
+
+# Misc
+culture = charapa
+religion = santo_daime
+
+#History

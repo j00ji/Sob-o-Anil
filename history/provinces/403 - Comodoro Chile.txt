@@ -1,0 +1,21 @@
+# c_comodoro_2
+
+# County Title
+title = c_comodoro_chile
+
+# Settlements
+max_settlements = 5
+
+b_comodoro_chile = tribal
+b_diadema_argentina = temple
+#b_caleta_cordova = temple
+#b_astra = castle
+#b_cerro_dragon = city
+#b_rada_tilly = temple
+#b_pampa_del_castillo = castle
+
+# Misc
+culture = desertico
+religion = calafatist
+
+#History

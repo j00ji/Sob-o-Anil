@@ -1,0 +1,21 @@
+# c_sinop
+
+# County Title
+title = c_sinop
+
+# Settlements
+max_settlements = 3
+
+b_sinop = tribal
+#b_itauba = city
+#b_colider = temple
+#b_guaranta_do_norte = castle
+#b_matupa = city
+#b_marcelandia = temple
+#b_claudia = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

@@ -1,0 +1,21 @@
+# c_chaco
+
+# County Title
+title = c_chaco
+
+# Settlements
+max_settlements = 2
+
+b_resistencia = tribal
+#b_fontana = city
+#b_tirol = temple
+#b_benitez = castle
+#b_belen_3 = city
+#b_makalle = temple
+#b_barranqueras = castle
+
+# Misc
+culture = chaqueno
+religion = catholic
+
+#History

@@ -1,0 +1,1659 @@
+
+e_the_north = {
+	color={ 90 11 52 }
+	color2={ 255 255 20 }
+	
+	capital = 740 # c_manaus
+	culture = amazonense
+	
+	k_amazonas = {
+		color={ 80 21 47 }
+		color2={ 255 255 255 }
+		
+		capital = 740 # c_manaus
+		culture = amazonense
+		
+		d_manaus = {
+			color={ 60 41 37 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 740 province_id = 741 province_id = 742 province_id = 743 } }
+				}
+			}
+			capital = 740 # c_manaus
+			
+			c_manaus = { # 740
+				color={ 50 51 32 }
+				color2={ 255 255 255 }
+								
+				b_manaus = {
+				}
+				b_coroado = {
+				}
+				b_compensa = {
+				}
+				b_lirio_do_vale = {
+				}
+				b_sumauma = {
+				}
+				b_adrianopolis = {
+				}
+				b_educandos = {
+				}
+			}
+			c_iranduba = { # 741
+				color={ 51 35 23 }
+				color2={ 255 255 255 }
+				
+				b_iranduba = {
+				}
+				b_balneario = {
+				}
+				b_recanto = {
+				}
+				b_mendonca = {
+				}
+				b_saguein = {
+				}
+				b_mirin = {
+				}
+				b_janauari = {
+				}
+			}
+			c_lago_do_rei = { # 743
+				color={ 51 10 12 }
+				color2={ 255 255 255 }
+				
+				b_lago_do_rei = {
+				}
+				b_lago_marimba = {
+				}
+				b_jose_vasconcelo = {
+				}
+				b_cambixe = {
+				}
+				b_careiro_da_varzea = {
+				}
+				b_morada_nova_2 = {
+				}
+				b_ieadem = {
+				}
+			}
+			c_mancapuru = { # 742
+				color={ 51 12 25 }
+				color2={ 255 255 255 }
+				
+				b_mancapuru = {
+				}
+				b_biribiri = {
+				}
+				b_sacambu = {
+				}
+				b_correnteza = {
+				}
+				b_morada_do_sol = {
+				}
+				b_nova_manaca = {
+				}
+				b_miriti = {
+				}
+			}
+		}
+		d_aironia = {
+			color={ 104 171 77 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 746 province_id = 747 province_id = 748 } }
+				}
+			}
+			capital = 746 # c_novo_airao
+			
+			c_novo_airao = { # 746
+				color={ 94 181 72 }
+				color2={ 255 255 255 }
+				
+				b_novo_airao = {
+				}
+				b_bairro_do_chico = {
+				}
+				b_igarape_acu = {
+				}
+				b_jardim_wilton = {
+				}
+				b_anavilhanas = {
+				}
+				b_unini = {
+				}
+				b_bacaba = {
+				}
+			}
+			c_caapiranga = { # 748
+				color={ 49 150 79 }
+				color2={ 255 255 255 }
+				
+				b_caapiranga = {
+				}
+				b_vila_jaburu = {
+				}
+				b_agroindustrial = {
+				}
+				b_uniao_2 = {
+				}
+				b_floresta_2 = {
+				}
+				b_pousada_do_jack = {
+				}
+				b_lago_do_padre = {
+				}
+			}
+			c_presidente_figueiredo = { # 747
+				color={ 18 150 6 }
+				color2={ 255 255 255 }
+				
+				b_figueiredo = {
+				}
+				b_balbina = {
+				}
+				b_monte_sagrado = {
+				}
+				b_waimir = {
+				}
+				b_atorairi = {
+				}
+				b_rivas = {
+				}
+				b_maravilha_3 = {
+				}
+			}
+		}
+		d_copea = {
+			color={ 224 10 198 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 750 province_id = 751 province_id = 752 } }
+				}
+			}
+			capital = 749 # c_anama
+			
+			c_anama = { #749
+				color={ 198 0 172 }
+				color2={ 255 255 255 }
+				
+				b_anama = {}
+				b_anori = {}
+				b_primavera_anama = {}
+				b_chama_viva = {}
+				b_parana_arara = {}
+				b_bom_preco_anama = {}
+				b_joaria_anama = {}
+			}
+			
+			c_beruri = { # 750
+				color={ 234 0 203 }
+				color2={ 255 255 255 }
+				
+				b_beruri = {}
+				b_tuiue = {}
+				b_tupari = {}
+				b_tupana = {}
+				b_rio_purus = {}
+				b_caviano = {}
+				b_sao_tome = {}
+			}
+			c_coari = { # 752
+				color={ 160 0 139 }
+				color2={ 255 255 255 }
+				
+				b_coari = {}
+				b_aiapua = {}
+				b_arrependido = {}
+				b_mamia = {}
+				b_urucu = {}
+				b_arua = {}
+				b_taua_mirim = {}
+			}
+			c_codajas = { # 751
+				color={ 234 0 194 }
+				color2={ 255 255 255 }
+				
+				b_codajas = {}
+				b_mara_bar = {}
+				b_arauju = {}
+				b_naturebas = {}
+				b_batista_codajas = {}
+				b_projetadas = {}
+				b_efarias = {}
+			}
+		}
+		d_igarape_mamoria = {
+			color={ 152 47 5 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 767 province_id = 768 province_id = 769 province_id = 770 province_id = 771 } }
+				}
+			}
+			capital = 767 # c_pauini
+			
+			c_pauini = { # 767
+				color={ 142 57 0 }
+				color2={ 255 255 255 }
+				
+				b_pauini = {
+				}
+				b_seringal_raposo = {
+				}
+				b_febrasa = {
+				}
+				b_tomia = {
+				}
+				b_pupunheira = {
+				}
+				b_monte_aracati = {
+				}
+				b_monjuba = {
+				}
+			}
+			c_abufari = { # 771
+				color={ 196 78 0 }
+				color2={ 255 255 255 }
+				
+				b_abufari = {
+				}
+				b_lago_do_afu = {
+				}
+				b_vargem_alta = {
+				}
+				b_porto_melo = {
+				}
+				b_carambe = {
+				}
+				b_macuripari = {
+				}
+				b_cachimbo = {
+				}
+			}
+			c_boca_do_acre = { # 768
+				color={ 204 81 0 }
+				color2={ 255 255 255 }
+				
+				b_boca_do_acre = {
+				}
+				b_capana = {
+				}
+				b_camicua = {
+				}
+				b_mapangaba = {
+				}
+				b_tocandira = {
+				}
+				b_lua_nova = {
+				}
+				b_purgatorio = {
+				}
+			}
+			c_canutama = { # 769
+				color={ 204 116 79 }
+				color2={ 255 255 255 }
+				
+				b_canutama = {
+				}
+				b_alanca = {
+				}
+				b_jadibiru = {
+				}
+				b_salvacao = {
+				}
+				b_urucun = {
+				}
+				b_labrea = {
+				}
+				b_garancia = {
+				}
+			}
+			c_tapaua = { # 770
+				color={ 206 82 0 }
+				color2={ 255 255 255 }
+				
+				b_tapaua = {
+				}
+				b_terra_da_morte = {
+				}
+				b_apurina = {
+				}
+				b_pauapixuna = {
+				}
+				b_baturite = {
+				}
+				b_curupita = {
+				}
+				b_membeca = {
+				}
+			}
+		}
+		d_itacotiara = {
+			color={ 25 41 37 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 744 province_id = 745 } }
+				}
+			}
+			capital = 744 # c_itacotiara
+			
+			c_itacotiara = { # 744
+				color={ 15 51 32 }
+				color2={ 255 255 255 }
+				
+				b_itacotiara = {
+				}
+				b_pedra_pintada = {
+				}
+				b_itapirange = {
+				}
+				b_silves = {
+				}
+				b_nhamunda = {
+				}
+				b_sao_sebastiao_3 = {
+				}
+				b_pequia = {
+				}
+			}
+			c_autazes = { # 745
+				color={ 30 51 48 }
+				color2={ 255 255 255 }
+				
+				b_urucuritiba = {
+				}
+				b_canarana_2 = {
+				}
+				b_autazes = {
+				}
+				b_cacoal = {
+				}
+				b_olinda_do_norte = {
+				}
+				b_maues = {
+				}
+				b_barreirinha = {
+				}
+			}
+		}
+		d_roraima = {
+			color={ 160 115 5 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 756 province_id = 757 province_id = 758 province_id = 759 province_id = 760 } }
+				}
+			}
+			capital = 756 # c_boa_vista
+			
+			c_boa_vista = { # 756
+				color={ 150 125 0 }
+				color2={ 255 255 255 }
+				
+				b_boa_vista_2 = {
+				}
+				b_murupu = {
+				}
+				b_passarao = {
+				}
+				b_pau_rainha = {
+				}
+				b_canta = {
+				}
+				b_todos_querem = {
+				}
+				b_dadanawa = {
+				}
+			}
+			c_amajari = { # 757
+				color={ 226 189 0 }
+				color2={ 255 255 255 }
+				
+				b_amajari = {
+				}
+				b_pedra_pintada_2 = {
+				}
+				b_simiao = {
+				}
+				b_tepequem = {
+				}
+				b_ponto_da_serra = {
+				}
+				b_aningal = {
+				}
+				b_araca = {
+				}
+			}
+			c_caracarai = { # 759
+				color={ 160 133 0 }
+				color2={ 255 255 255 }
+				
+				b_caracarai = {
+				}
+				b_mucajai = {
+				}
+				b_iracema_2 = {
+				}
+				b_adolfo_cutrim = {
+				}
+				b_maiami = {
+				}
+				b_kajy = {
+				}
+				b_helena_porto = {
+				}
+			}
+			c_rorainopolis = { # 760
+				color={ 158 150 39 }
+				color2={ 255 255 255 }
+				
+				b_rorainopolis = {
+				}
+				b_caroebe = {
+				}
+				b_baliza_2 = {
+				}
+				b_waiwa = {
+				}
+				b_vila_do_incra = {
+				}
+				b_anaua = {
+				}
+				b_mocidade = {
+				}
+			}
+			c_yanomami = { # 758
+				color={ 112 93 0 }
+				color2={ 255 255 255 }
+				
+				b_yanomami = {
+				}
+				b_hawarihewa = {
+				}
+				b_kasi_hami_hiima = {
+				}
+				b_orahitehiima = {
+				}
+				b_xeiwexinakorinhoma = {
+				}
+				b_bruka_ruwe = {
+				}
+				b_yoasiwekutau = {
+				}
+			}
+		}
+		d_the_dogs_head = {
+			color={ 37 150 47 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 753 province_id = 754 province_id = 755 } }
+				}
+			}
+			capital = 753 # c_sao_gabriel_cachoeira
+			
+			c_sao_gabriel_cachoeira = { # 753
+				color={ 27 160 42 }
+				color2={ 255 255 255 }
+				
+				b_sao_gabriel_cachoeira = {
+				}
+				b_punyia = {
+				}
+				b_trovao = {
+				}
+				b_miraracetuma = {
+				}
+				b_carara_pucu = {
+				}
+				b_xaraco = {
+				}
+				b_aru = {
+				}
+			}
+			c_barcelos = { # 754
+				color={ 57 255 43 }
+				color2={ 255 255 255 }
+				
+				b_barcelos = {
+				}
+				b_acariquara = {
+				}
+				b_aracu_2 = {
+				}
+				b_santana_4 = {
+				}
+				b_cumaru_ou_esmeralda = {
+				}
+				b_coqui = {
+				}
+				b_puxuri = {
+				}
+			}
+			c_santa_isabel = { # 755
+				color={ 43 255 68 }
+				color2={ 255 255 255 }
+				
+				b_santa_isabel_3 = {
+				}
+				b_urutauiu = {
+				}
+				b_tapera_2 = {
+				}
+				b_limagro = {
+				}
+				b_caianaque = {
+				}
+				b_gurupira = {
+				}
+				b_jaqueira = {
+				}
+			}
+		}
+		d_vale_do_bia = {
+			color={ 117 70 48 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 761 province_id = 762 province_id = 763 } }
+				}
+			}
+			capital = 761 # c_amatura
+			
+			c_amatura = { # 761
+				color={ 107 80 43 }
+				color2={ 255 255 255 }
+				
+				b_amatura = {
+				}
+				b_vuhuata = {
+				}
+				b_acarai_2 = {
+				}
+				b_cajuru_2 = {
+				}
+				b_sao_paulo_olivenca = {
+				}
+				b_purete = {
+				}
+				b_rita_do_well = {
+				}
+			}
+			c_jurua = { # 763
+				color={ 196 148 80 }
+				color2={ 255 255 255 }
+				
+				b_jurua = {
+				}
+				b_sao_romao = {
+				}
+				b_bacururu = {
+				}
+				b_jaci = {
+				}
+				b_bacaba_2 = {
+				}
+				b_martirio = {
+				}
+				b_carauri = {
+				}
+			}
+			c_tonantins = { # 762
+				color={ 216 163 88 }
+				color2={ 255 255 255 }
+				
+				b_tonantins = {
+				}
+				b_jutai = {
+				}
+				b_fonte_boa = {
+				}
+				b_uati_parana = {
+				}
+				b_boca_da_campina = {
+				}
+				b_siria = {
+				}
+				b_inaja = {
+				}
+			}
+		}
+		d_vale_do_javari = {
+			color={ 247 65 69 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 764 province_id = 765 province_id = 766 } }
+				}
+			}
+			capital = 764 # c_benjamin_constant
+			
+			c_benjamin_constant = { # 764
+				color={ 237 75 64 }
+				color2={ 255 255 255 }
+				
+				b_benjamin_constant = {
+				}
+				b_tabatinga = {
+				}
+				b_atalaia_do_norte = {
+				}
+				b_bahanal = {
+				}
+				b_tukuna_feijoal = {
+				}
+				b_tausu = {
+				}
+				b_assacaios = {
+				}
+			}
+			c_canama = { # 766
+				color={ 237 131 33 }
+				color2={ 255 255 255 }
+				
+				b_canama = {
+				}
+				b_cajueiro_2 = {
+				}
+				b_miraflor = {
+				}
+				b_engano = {
+				}
+				b_elvira_palmeiras = {
+				}
+				b_argemiro = {
+				}
+				b_jarina = {
+				}
+			}
+			c_javari = { # 765
+				color={ 237 72 64 }
+				color2={ 255 255 255 }
+				
+				b_javari = {
+				}
+				b_lar_feio = {
+				}
+				b_aviao_salvador = {
+				}
+				b_trinta_e_um = {
+				}
+				b_mushabo = {
+				}
+				b_kanamari = {
+				}
+				b_kulina_pano = {
+				}
+			}
+		}
+	}
+	k_acre = {
+		color={ 191 255 12 }
+		color2={ 255 255 255 }
+		
+		capital = 778 # c_rio_branco
+		culture = acreano
+		
+		d_lesser_acre = {
+			color={ 211 235 22 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 778 province_id = 779 province_id = 780 province_id = 781 } }
+				}
+			}
+			capital = 778 # c_rio_branco
+			
+			c_rio_branco = { # 778
+				color={ 221 225 27 }
+				color2={ 255 255 255 }
+				
+				b_rio_branco_4 = {
+				}
+				b_senador_guiomard = {
+				}
+				b_bagaco = {
+				}
+				b_carao = {
+				}
+				b_bujari = {
+				}
+				b_quixada = {
+				}
+				b_fazenda_bumbai = {
+				}
+			}
+			c_boca_do_acre_2 = { # 779
+				color={ 255 240 38 }
+				color2={ 255 255 255 }
+				
+				b_boca_do_acre_2 = {
+				}
+				b_porto_acre = {
+				}
+				b_acrelandia = {
+				}
+				b_granada = {
+				}
+				b_esperanca_2 = {
+				}
+				b_riozinho = {
+				}
+				b_floriano_peixoto = {
+				}
+			}
+			c_manoel_urbano = { # 780
+				color={ 234 221 35 }
+				color2={ 255 255 255 }
+				
+				b_manoel_urbano = {
+				}
+				b_sena_madureira = {
+				}
+				b_seringal_granja = {
+				}
+				b_reforma = {
+				}
+				b_solidao = {
+				}
+				b_aracua = {
+				}
+				b_terra_alta = {
+				}
+			}
+			c_xapuri = { # 781
+				color={ 181 170 27 }
+				color2={ 255 255 255 }
+				
+				b_xapuri = {
+				}
+				b_epitaciolandia = {
+				}
+				b_assis_brasil = {
+				}
+				b_lua_cheia = {
+				}
+				b_chico_mendes = {
+				}
+				b_icuria = {
+				}
+				b_germania = {
+				}
+			}
+		}
+		d_taumaturgia = {
+			color={ 245 255 63 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 782 province_id = 783 province_id = 784 } }
+				}
+			}
+			capital = 782 # c_tarauaca
+			
+			c_tarauaca = { # 782
+				color={ 255 245 68 }
+				color2={ 255 255 255 }
+				
+				b_tarauaca = {
+				}
+				b_feijo = {
+				}
+				b_seringal_buriti = {
+				}
+				b_vinte_e_sete = {
+				}
+				b_caucho = {
+				}
+				b_sacado = {
+				}
+				b_diabinho = {
+				}
+			}
+			c_mancio_lima = { # 784
+				color={ 135 127 20 }
+				color2={ 255 255 255 }
+				
+				b_mancio_lima = {
+				}
+				b_porto_walter = {
+				}
+				b_cruzeiro_do_sul = {
+				}
+				b_gibraltar = {
+				}
+				b_serra_do_moa = {
+				}
+				b_avai = {
+				}
+				b_tres_bocas = {
+				}
+			}
+			c_marechal_thaumaturgo = { # 783
+				color={ 160 153 54 }
+				color2={ 255 255 255 }
+				
+				b_marechal_thaumaturgo = {
+				}
+				b_boca_do_tejo = {
+				}
+				b_jardim_palma = {
+				}
+				b_restauracao = {
+				}
+				b_transvaal = {
+				}
+				b_moema = {
+				}
+				b_chanchavocaia = {
+				}
+			}
+		}
+	}
+	k_para = {
+		color={ 104 194 189 }
+		color2={ 255 255 255 }
+		
+		capital = 785 # c_belem
+		culture = paraense
+		
+		d_belem = {
+			color={ 124 174 199 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 785 province_id = 786 province_id = 787 } }
+				}
+			}
+			capital = 785 # c_belem
+			
+			c_belem = { # 785
+				color={ 134 164 204 }
+				color2={ 255 255 255 }
+				
+				b_belem_2 = {
+				}
+				b_barcarena = {
+				}
+				b_benevides = {
+				}
+				b_bujaru = {
+				}
+				b_barajuba = {
+				}
+				b_beja = {
+				}
+				b_barbara_do_para = {
+				}
+			}
+			c_salinopolis = { # 786
+				color={ 42 112 204 }
+				color2={ 255 255 255 }
+				
+				b_salinopolis = {
+				}
+				b_curuca = {
+				}
+				b_colares = {
+				}
+				b_vigia = {
+				}
+				b_odvelas = {
+				}
+				b_marapanin = {
+				}
+				b_magalhaes_barata = {
+				}
+			}
+			c_viseu = { # 787
+				color={ 77 92 204 }
+				color2={ 255 255 255 }
+				
+				b_viseu = {
+				}
+				b_augusto_correa = {
+				}
+				b_ourem = {
+				}
+				b_quatipiru = {
+				}
+				b_tracuteua = {
+				}
+				b_santa_luzia_do_para = {
+				}
+				b_capanema = {
+				}
+			}
+		}
+		d_altamira = {
+			color={ 76 191 61 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 806 province_id = 807 province_id = 808 province_id = 809 } }
+				}
+			}
+			capital = 806 # c_altamira
+			
+			c_altamira = { # 806
+				color={ 66 201 56 }
+				color2={ 255 255 255 }
+				
+				b_altamira_3 = {
+				}
+				b_vitoria_do_xingu = {
+				}
+				b_favania = {
+				}
+				b_brasil_novo = {
+				}
+				b_ambe_2 = {
+				}
+				b_paquicama = {
+				}
+				b_aricaria = {
+				}
+			}
+			c_caxiuna = { # 809
+				color={ 199 255 150 }
+				color2={ 255 255 255 }
+				
+				b_porto_de_moz = {
+				}
+				b_melgaco = {
+				}
+				b_portel = {
+				}
+				b_lagoa_da_biriba = {
+				}
+				b_carrazedo = {
+				}
+				b_raimundo_goncalves = {
+				}
+				b_jose_porfirio = {
+				}
+			}
+			c_iriri = { # 807
+				color={ 44 130 36 }
+				color2={ 255 255 255 }
+				
+				b_medicilandia = {
+				}
+				b_uruara = {
+				}
+				b_linha_dura = {
+				}
+				b_verde_floresta = {
+				}
+				b_arara = {
+				}
+				b_filho_unico = {
+				}
+				b_bambui = {
+				}
+			}
+			c_jabaucu = { # 808
+				color={ 66 255 56 }
+				color2={ 255 255 255 }
+				
+				b_jucara = {
+				}
+				b_caraburi = {
+				}
+				b_campinho = {
+				}
+				b_arimum = {
+				}
+				b_santarem_denovo = {
+				}
+				b_furo_do_brito = {
+				}
+				b_mocambo = {
+				}
+			}
+		}
+		d_amapa = {
+			color={ 117 9 99 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 797 province_id = 798 province_id = 799 province_id = 800 } }
+				}
+			}
+			capital = 797 # c_macapa
+			
+			c_macapa = { # 797
+				color={ 127 255 104 }
+				color2={ 255 255 255 }
+				
+				b_macapa = {
+				}
+				b_porto_grande = {
+				}
+				b_ferreira_gomes = {
+				}
+				b_serra_do_navio = {
+				}
+				b_tassalonica = {
+				}
+				b_pedra_branca_do_amapari = {
+				}
+				b_ambe = {
+				}
+			}
+			c_araguari = { # 799
+				color={ 30 255 34 }
+				color2={ 255 255 255 }
+				
+				b_tartarugalzinho = {
+				}
+				b_pracuuba = {
+				}
+				b_itaubai = {
+				}
+				b_lago_novo = {
+				}
+				b_sucuruju = {
+				}
+				b_angelim_las_palmas = {
+				}
+				b_camaleoes = {
+				}
+			}
+			c_mazagao = { # 798
+				color={ 209 255 84 }
+				color2={ 255 255 255 }
+				
+				b_mazagao = {
+				}
+				b_laranjal_do_jari = {
+				}
+				b_maranata_do_ajuruxi = {
+				}
+				b_vitoria_do_jari = {
+				}
+				b_carvao = {
+				}
+				b_pancudo = {
+				}
+				b_acitine = {
+				}
+			}
+			c_oiapoque = { # 800
+				color={ 137 255 104 }
+				color2={ 255 255 255 }
+				
+				b_oiapoque = {
+				}
+				b_calcoene = {
+				}
+				b_ponte_pelada = {
+				}
+				b_cacipore = {
+				}
+				b_cunami = {
+				}
+				b_vaca = {
+				}
+				b_carbets_pekeia = {
+				}
+			}
+		}
+		d_carajas = {
+			color={ 67 214 180 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 792 province_id = 793 province_id = 794 province_id = 795 province_id = 796 } }
+				}
+			}
+			capital = 792 # c_xinguara
+			
+			c_xinguara = { # 792
+				color={ 77 204 185 }
+				color2={ 255 255 255 }
+				
+				b_xinguara = {
+				}
+				b_votuporanga = {
+				}
+				b_sapucaia_do_para = {
+				}
+				b_rio_maria = {
+				}
+				b_banach = {
+				}
+				b_floresta_do_araguaia = {
+				}
+				b_travessao = {
+				}
+			}
+			c_cumaru_do_norte = { # 796
+				color={ 132 204 198 }
+				color2={ 255 255 255 }
+				
+				b_cumaru_do_norte = {
+				}
+				b_santana_do_araguaia = {
+				}
+				b_conceicao_do_araguaia = {
+				}
+				b_pau_darco = {
+				}
+				b_aracatuba = {
+				}
+				b_inaja_2 = {
+				}
+				b_redencao_2 = {
+				}
+			}
+			c_eldorado_dos_carajas = { # 794
+				color={ 153 196 204 }
+				color2={ 255 255 255 }
+				
+				b_eldorado_dos_carajas = {
+				}
+				b_palestina_do_para = {
+				}
+				b_canna_dos_carajas = {
+				}
+				b_curionopolis = {
+				}
+				b_parauapebas = {
+				}
+				b_picarra_2 = {
+				}
+				b_sao_geraldo_do_araguaia = {
+				}
+			}
+			c_novo_repartimento = { # 793
+				color={ 95 160 204 }
+				color2={ 255 255 255 }
+				
+				b_novo_repartimento = {
+				}
+				b_goianes = {
+				}
+				b_gaiazeiras = {
+				}
+				b_marara = {
+				}
+				b_paracana = {
+				}
+				b_vila_bigode = {
+				}
+				b_vila_furacao = {
+				}
+			}
+			c_sao_felix_do_xingu = { # 795
+				color={ 148 169 204 }
+				color2={ 255 255 255 }
+				
+				b_sao_felix_do_xingu = {
+				}
+				b_tucuma = {
+				}
+				b_ourilandia_do_norte = {
+				}
+				b_catete_do_para = {
+				}
+				b_xororo = {
+				}
+				b_agrovila_do_cuca = {
+				}
+				b_agua_azul_do_norte = {
+				}
+			}
+		}
+		d_marajo = {
+			color={ 180 214 109 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 801 province_id = 802 province_id = 803 province_id = 804 province_id = 805 } }
+				}
+			}
+			capital = 801 # c_soure
+			
+			c_soure = { # 801
+				color={ 190 204 114 }
+				color2={ 255 255 255 }
+				
+				b_soure = {
+				}
+				b_salvaterra = {
+				}
+				b_cajuuna = {
+				}
+				b_diamantina_do_para = {
+				}
+				b_santa_cruz_do_ariri = {
+				}
+				b_urubu = {
+				}
+				b_caju = {
+				}
+			}
+			c_anajas = { # 804
+				color={ 204 176 75 }
+				color2={ 255 255 255 }
+				
+				b_anajas_2 = {
+				}
+				b_afua = {
+				}
+				b_sao_cosme = {
+				}
+				b_chaves_2 = {
+				}
+				b_breves = {
+				}
+				b_curralinho_3 = {
+				}
+				b_piria = {
+				}
+			}
+			c_cachoeira_do_ariri = { # 802
+				color={ 178 204 34 }
+				color2={ 255 255 255 }
+				
+				b_cachoeira_do_ariri = {
+				}
+				b_camara_do_marajo = {
+				}
+				b_campina = {
+				}
+				b_joanes = {
+				}
+				b_sao_joao_de_marajo = {
+				}
+				b_felicidade_em_marajo = {
+				}
+				b_jenipapo_3 = {
+				}
+			}
+			c_ilhas_do_delta = { # 805
+				color={ 204 119 63 }
+				color2={ 255 255 255 }
+				
+				b_conceicao_2 = {
+				}
+				b_nazare_2 = {
+				}
+				b_tucuma_2 = {
+				}
+				b_bucuiutuba = {
+				}
+				b_tauauri = {
+				}
+				b_jerico = {
+				}
+				b_caicara = {
+				}
+			}
+			c_muana = { # 803
+				color={ 204 159 36 }
+				color2={ 255 255 255 }
+				
+				b_muana = {
+				}
+				b_ponta_das_pedras = {
+				}
+				b_mariai = {
+				}
+				b_sao_sebastiao_da_boa_vista = {
+				}
+				b_caimbe = {
+				}
+				b_cambu = {
+				}
+				b_arrozal_2 = {
+				}
+			}
+		}
+		d_pamboapy = {
+			color={ 9 28 64 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 810 province_id = 811 province_id = 812 } }
+				}
+			}
+			capital = 810 # c_alenquer
+			
+			c_alenquer = { # 810
+				color={ 255 38 59 }
+				color2={ 255 255 255 }
+				
+				b_alenquer = {
+				}
+				b_curua = {
+				}
+				b_monte_alegre_4 = {
+				}
+				b_jaguara = {
+				}
+				b_vai_quem_quer = {
+				}
+				b_boca_nova = {
+				}
+				b_acucena = {
+				}
+			}
+			c_almerim = { # 811
+				color={ 255 120 86 }
+				color2={ 255 255 255 }
+				
+				b_almeirim = {
+				}
+				b_prainha = {
+				}
+				b_bom_futuro = {
+				}
+				b_menino_deus = {
+				}
+				b_mazagao_2 = {
+				}
+				b_jutuarana = {
+				}
+				b_porto_mulungu = {
+				}
+			}
+			c_oriximana = { # 812
+				color={ 255 56 38 }
+				color2={ 255 255 255 }
+				
+				b_oriximana = {
+				}
+				b_obidos = {
+				}
+				b_avelinopolis = {
+				}
+				b_faro_2 = {
+				}
+				b_terra_santa = {
+				}
+				b_papa_pau = {
+				}
+				b_caipuru = {
+				}
+			}
+		}
+		d_tapajos = {
+			color={ 245 223 23 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 813 province_id = 814 province_id = 815 province_id = 816 province_id = 817 province_id = 818 province_id = 819 } }
+				}
+			}
+			capital = 813 # c_santarem
+			
+			c_santarem = { # 813
+				color={ 255 213 28 }
+				color2={ 255 255 255 }
+				
+				b_santarem = {
+				}
+				b_belterra = {
+				}
+				b_pascoval = {
+				}
+				b_bom_gosto = {
+				}
+				b_jabuti = {
+				}
+				b_jaguarari_2 = {
+				}
+				b_tiningu = {
+				}
+			}
+			c_apace = { # 815
+				color={ 255 233 40 }
+				color2={ 255 255 255 }
+				
+				b_apace = {
+				}
+				b_camara = {
+				}
+				b_boim = {
+				}
+				b_cameta_2 = {
+				}
+				b_samauma = {
+				}
+				b_pinhel = {
+				}
+				b_urucurituba = {
+				}
+			}
+			c_ataituba = { # 816
+				color={ 255 230 130 }
+				color2={ 255 255 255 }
+				
+				b_ataituba = {
+				}
+				b_limao = {
+				}
+				b_urua = {
+				}
+				b_andira_marau = {
+				}
+				b_quem_dizia = {
+				}
+				b_catavara = {
+				}
+				b_bubure = {
+				}
+			}
+			c_aveiro = { # 817
+				color={ 255 162 56 }
+				color2={ 255 255 255 }
+				
+				b_aveiro = {
+				}
+				b_ruropolis_2 = {
+				}
+				b_uruara_2 = {
+				}
+				b_tinga = {
+				}
+				b_planalto_medio = {
+				}
+				b_placas = {
+				}
+				b_itapauna = {
+				}
+			}
+			c_jacareacanga = { # 819
+				color={ 255 170 35 }
+				color2={ 255 255 255 }
+				
+				b_jacareacanga = {
+				}
+				b_mamao_ana = {
+				}
+				b_cuiu_cuiu = {
+				}
+				b_canima = {
+				}
+				b_jabota = {
+				}
+				b_frances = {
+				}
+				b_sai_cinza = {
+				}
+			}
+			c_juruti = { # 814
+				color={ 255 202 79 }
+				color2={ 255 255 255 }
+				
+				b_juruti = {
+				}
+				b_batatas = {
+				}
+				b_castanhete = {
+				}
+				b_suruca = {
+				}
+				b_capichaua = {
+				}
+				b_vila_gorete = {
+				}
+				b_paicandu_2 = {
+				}
+			}
+			c_trairao = { # 818
+				color={ 255 223 68 }
+				color2={ 255 255 255 }
+				
+				b_trairao = {
+				}
+				b_minituba = {
+				}
+				b_apui = {
+				}
+				b_itapacura = {
+				}
+				b_vila_caracol = {
+				}
+				b_pouso_grande = {
+				}
+				b_aqui_perto = {
+				}
+			}
+		}
+		d_tucuria = {
+			color={ 214 51 104 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 788 province_id = 789 province_id = 790 province_id = 791 } }
+				}
+			}
+			capital = 788 # c_bagre
+			
+			c_bagre = { # 788
+				color={ 204 61 99 }
+				color2={ 255 255 255 }
+				
+				b_bagre = {
+				}
+				b_cameta = {
+				}
+				b_limoeiro_do_ajuru = {
+				}
+				b_oeiras_do_para = {
+				}
+				b_joana_coeli = {
+				}
+				b_melancial = {
+				}
+				b_curucamba = {
+				}
+			}
+			c_mocajuba = { # 789
+				color={ 204 138 165 }
+				color2={ 255 255 255 }
+				
+				b_mocajuba = {
+				}
+				b_baiao = {
+				}
+				b_tailandia = {
+				}
+				b_catanzal = {
+				}
+				b_moiraba = {
+				}
+				b_lago_grande = {
+				}
+				b_pederneira = {
+				}
+			}
+			c_paragominas = { # 790
+				color={ 204 125 112 }
+				color2={ 255 255 255 }
+				
+				b_paragominas = {
+				}
+				b_ipixuna_do_para = {
+				}
+				b_esperanca_do_piria = {
+				}
+				b_tome_acu = {
+				}
+				b_irituia = {
+				}
+				b_acara = {
+				}
+				b_mae_do_rio = {
+				}
+			}
+			c_tucurui = { # 791
+				color={ 204 102 120 }
+				color2={ 255 255 255 }
+				
+				b_tucurui = {
+				}
+				b_breu_branco = {
+				}
+				b_jacunda = {
+				}
+				b_nova_ipixuna = {
+				}
+				b_goianesia_do_para = {
+				}
+				b_mulato = {
+				}
+				b_dom_eliseu = {
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+# c_angra_dos_reis
+
+# County Title
+title = c_angra_dos_reis
+
+# Settlements
+max_settlements = 3
+
+b_angra = castle
+b_ilha_grande = city
+b_pontal = temple
+#b_ilha_comprida = castle
+#b_praia_do_jardim = city
+#b_encruzo_enseada = temple
+#b_caieira = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History

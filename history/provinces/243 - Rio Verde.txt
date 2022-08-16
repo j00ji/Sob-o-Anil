@@ -1,0 +1,21 @@
+# c_rio_verde
+
+# County Title
+title = c_rio_verde
+
+# Settlements
+max_settlements = 3
+
+b_rio_verde_2 = tribal
+#b_naveslandia = city
+#b_ourana = temple
+#b_santa_helena_de_goias = castle
+#b_cedro = city
+#b_cacu = temple
+#b_verdinho = castle
+
+# Misc
+culture = goyanense
+religion = manredebu
+
+#History

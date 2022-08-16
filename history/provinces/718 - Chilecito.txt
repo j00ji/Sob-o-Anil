@@ -1,0 +1,21 @@
+# c_chilecito
+
+# County Title
+title = c_chilecito
+
+# Settlements
+max_settlements = 2
+
+b_chilecito = castle
+#b_fatima_4 = city
+#b_sarmiento_2 = temple
+#b_tilimiqui = castle
+#b_maligasta = city
+#b_anquinan = temple
+#b_santa_florentina = castle
+
+# Misc
+culture = turco
+religion = herderos
+
+#History

@@ -1,0 +1,21 @@
+# c_arauco
+
+# County Title
+title = c_arauco
+
+# Settlements
+max_settlements = 3
+
+b_arauco = castle
+b_canete = city
+#b_curanilahue = temple
+#b_lebu = castle
+#b_tirua = city
+#b_contulmo = temple
+#b_quidico = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

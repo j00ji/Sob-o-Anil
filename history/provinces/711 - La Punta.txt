@@ -1,0 +1,21 @@
+# c_la_punta
+
+# County Title
+title = c_la_punta
+
+# Settlements
+max_settlements = 3
+
+b_portezuelo_2 = castle
+b_desaguadero = city
+#b_san_luis_2 = temple
+#b_yachal = castle
+#b_refugio = city
+#b_la_paz_3 = temple
+#b_montardos = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

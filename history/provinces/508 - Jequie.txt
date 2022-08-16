@@ -1,0 +1,21 @@
+# c_jequie
+
+# County Title
+title = c_jequie
+
+# Settlements
+max_settlements = 3
+
+b_andarai = castle
+b_vera_cruz = temple
+#b_iraquara = temple
+#b_seabra = castle
+#b_boninal = city
+#b_piata = temple
+#b_bucaina = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

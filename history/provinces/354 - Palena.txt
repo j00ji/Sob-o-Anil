@@ -1,0 +1,21 @@
+# c_palena
+
+# County Title
+title = c_palena
+
+# Settlements
+max_settlements = 2
+
+b_hualaihue = castle
+#b_chaiten = city
+#b_futaleufu = temple
+#b_contao = castle
+#b_ayacara = city
+#b_puerto_cardenas = temple
+#b_buill = castle
+
+# Misc
+culture = sureno
+religion = catholic
+
+#History

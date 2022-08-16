@@ -1,0 +1,21 @@
+# c_frutal
+
+# County Title
+title = c_frutal
+
+# Settlements
+max_settlements = 4
+
+b_fronteira = castle
+b_aparecida_de_minas = temple
+b_lajeado_2 = city
+#b_comendador_gomes = castle
+#b_itapagipe = city
+#b_monte_jao = temple
+#b_forte_marajo = castle
+
+# Misc
+culture = triangler
+religion = umbanda
+
+#History

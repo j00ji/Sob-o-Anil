@@ -1,0 +1,21 @@
+# c_curitiba
+
+# County Title
+title = c_curitiba
+
+# Settlements
+max_settlements = 6
+
+b_curitiba = castle
+b_sao_jose_dos_pinhais = city
+b_nossa_senhora_dos_pinhais = temple
+b_araucaria = castle
+b_piraquara = castle
+#b_campo_largo = temple
+#b_rio_branco_do_sul = castle
+
+# Misc
+culture = paranaense
+religion = celeste
+
+#History

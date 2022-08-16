@@ -1,0 +1,21 @@
+# c_ipira
+
+# County Title
+title = c_ipira
+
+# Settlements
+max_settlements = 3
+
+b_ipira = castle
+b_argoim = temple
+#b_itaberaba = temple
+#b_paraguassu = castle
+#b_itatim = city
+#b_santa_teresina = temple
+#b_povoacoes = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

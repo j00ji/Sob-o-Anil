@@ -1,0 +1,21 @@
+# c_itaparica_2
+
+# County Title
+title = c_itaparica_2
+
+# Settlements
+max_settlements = 3
+
+b_itacuruba = castle
+b_sao_francisco_2 = temple
+#b_petrolandia = temple
+#b_floresta = castle
+#b_cargueja = city
+#b_petrolandia_2 = temple
+#b_caarnubeira_da_penha = castle
+
+# Misc
+culture = pankararu
+religion = camdomble
+
+#History

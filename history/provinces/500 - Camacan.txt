@@ -1,0 +1,21 @@
+# c_camacan
+
+# County Title
+title = c_camacan
+
+# Settlements
+max_settlements = 3
+
+b_una = castle
+#b_itapetinga = city
+#b_comandatuba = temple
+#b_poxim_do_sul = castle
+#b_arataca = city
+#b_itatingui = temple
+#b_sao_jose_da_vitoria = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

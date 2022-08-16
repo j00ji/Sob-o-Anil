@@ -1,0 +1,21 @@
+# c_sao_goncalo
+
+# County Title
+title = c_sao_goncalo
+
+# Settlements
+max_settlements = 4
+
+b_sao_goncalo = castle
+b_jardim_catarina = city
+b_mage = temple
+b_itaborai = castle
+#b_raul_veiga = city
+#b_almeirinha = temple
+#b_flexeiras = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History

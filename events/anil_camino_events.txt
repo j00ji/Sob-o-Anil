@@ -1,0 +1,2475 @@
+namespace=camino
+
+#character_event = { ##scrapping castes, replacement tbd
+#	id=camino.1
+#	hide_window = yes
+#	trigger={
+#		OR={
+#			religion=camino_estelar
+#			religion=obscurantist
+#		}
+#		NOT={
+#			OR={
+#				trait=caste_fixed
+#				trait=caste_mutable
+#				trait=caste_cardinal
+#			}
+#		}
+#		OR={
+#			trait=zodiac_gemini
+#			trait=zodiac_libra
+#			trait=zodiac_aquarius
+#			trait=zodiac_cancer
+#			trait=zodiac_virgo
+#			trait=zodiac_taurus
+#			trait=zodiac_aries
+#			trait=zodiac_capricorn
+#			trait=zodiac_leo
+#			trait=zodiac_pisces
+#			trait=zodiac_sagittarius
+#			trait=zodiac_scorpio
+#		}
+#	}
+#	mean_time_to_happen={
+#		days=1
+#	}
+#	option={
+#		name=camino.1.a
+#		if ={
+#			limit={
+#				OR={
+#					trait=zodiac_gemini
+#					trait=zodiac_virgo
+#					trait=zodiac_sagittarius
+#					trait=zodiac_pisces
+#				}				
+#			}
+#			add_trait=vaishya
+#		}
+#		if ={
+#			limit={
+#				OR={
+#					trait=zodiac_aries
+#					trait=zodiac_cancer
+#					trait=zodiac_libra
+#					trait=zodiac_capricorn
+#				}				
+#			}
+#			add_trait=kshatriya
+#		}
+#		if ={
+#			limit={
+#				OR={
+#					trait=zodiac_taurus
+#					trait=zodiac_leo
+#					trait=zodiac_scorpio
+#					trait=zodiac_aquarius
+#				}				
+#			}
+#			add_trait=brahmin
+#		}
+#	}
+#}
+character_event = {
+	id = camino.5
+	hide_window = yes
+	
+	trigger = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_feature_occultist 
+			has_religion_feature = religion_astrology
+		}
+		NOT={
+			OR={
+				trait=zodiac_gemini
+				trait=zodiac_libra
+				trait=zodiac_aquarius
+				trait=zodiac_cancer
+				trait=zodiac_virgo
+				trait=zodiac_taurus
+				trait=zodiac_aries
+				trait=zodiac_capricorn
+				trait=zodiac_leo
+				trait=zodiac_pisces
+				trait=zodiac_sagittarius
+				trait=zodiac_scorpio
+			}		
+		}
+	}
+	mean_time_to_happen = {
+		days = 3
+	}	
+	immediate = {
+		add_western_zodiac_trait_effect = yes #Updated effect.
+	}
+}
+narrative_event = {
+	id = camino.6
+	title=camino.6.t
+	desc=camino.6.d
+	is_triggered_only=yes
+	picture=GFX_restored_camino
+	option = {
+		name = camino.6.a
+		piety = 50
+		prestige = 50
+	}
+}
+character_event = {
+	id = camino.7
+	title=camino.7.t
+	desc=camino.7.d
+	is_triggered_only=yes
+	picture=GFX_restored_camino
+	option = {
+		name = camino.7.a
+		hidden_effect = {
+			narrative_event = { id = camino.8 }
+		}
+	}
+	option = {
+		name = camino.7.b
+		hidden_effect = {
+			narrative_event = { id = camino.9 }
+		}
+	}
+}
+narrative_event = {###gateway for minor star-readings to be implemented
+	id = camino.8
+	title=camino.8.t
+	desc=camino.8.d
+	is_triggered_only=yes
+	picture=GFX_restored_camino
+	option = {
+		name = camino.8.a
+	}
+}
+narrative_event = {
+	id = camino.9
+	title=camino.9.t
+	desc=camino.9.d
+	is_triggered_only=yes
+	picture=GFX_observe_camino
+	immediate = {
+		set_character_flag = camino_prophecy_current
+	}
+	option = {
+		name = camino.6.a
+		custom_tooltip = {
+ 		   text = CAMINO_STAR_READING
+		}
+		hidden_effect = {
+			random_list = {
+				10 = { #conquest prophecy
+					mult_modifier = {
+						factor = 2
+						OR = {
+							trait = brave
+							trait = wroth
+							trait = proud
+						}
+					}
+					mult_modifier = {
+						factor = 2
+						trait = ambitious
+					}
+					narrative_event = { id = camino.10 }
+				}
+				10 = { #peace prophecy
+					mult_modifier = {
+						factor = 2
+						OR = {
+							trait = craven
+							trait = patient
+							trait = humble
+						}
+					}
+					mult_modifier = {
+						factor = 2
+						trait = content
+					}
+					mult_modifier = {
+						factor = 0
+						war = yes
+					}
+					narrative_event = { id = camino.13 }
+				}
+				10 = { #marriage and child prophecy
+					mult_modifier = {
+						factor = 0
+						OR = { 
+							OR = {
+								is_married = yes
+								is_married_matrilineally = yes
+							}
+							has_children = yes
+						}
+					}
+					mult_modifier = {
+						factor = 2
+						OR = {
+							trait = chaste
+							trait = kind
+							trait = envious
+							trait = shy
+						}
+					}
+					narrative_event = { id = camino.16 }
+				}
+				10 = { #someone will die prophecy
+					mult_modifier = {
+						factor = 2
+						OR = {
+							trait = cruel
+							trait = wroth
+							trait = envious
+							trait = arbitrary
+							trait = lunatic
+							trait = possessed
+						}
+					}
+					narrative_event = { id = camino.19 }
+				}
+				10 = { #friendship prophecy
+					mult_modifier = {
+						factor = 0
+						num_of_friends>=1
+					}
+					mult_modifier = {
+						factor = 2
+						OR = {
+							trait = shy
+							trait = gregarious
+							trait = stressed
+							trait = depressed
+						}
+					}
+					narrative_event = { id = camino.22 }
+				}
+				10 = { #duchy prophecy
+					mult_modifier = {
+						factor = 0
+						OR = {
+							num_of_count_titles <= 1
+							num_of_duke_titles >= 1
+							num_of_king_titles >=1
+							num_of_emperor_titles >=1
+						}
+					}
+					mult_modifier = {
+						factor = 4
+						OR = {
+							trait = ambitious
+						}
+					}
+					narrative_event = { id = camino.25 }
+				}
+				8 = { #king prophecy
+					mult_modifier = {
+						factor = 0
+						OR = {
+							num_of_duke_titles <= 1
+							num_of_king_titles >=1
+							num_of_emperor_titles >=1
+							any_demesne_title = {
+								limit = {
+									tier = DUKE
+								}
+								num_of_realm_counties = {
+  							  		value = 0
+    								title = THIS
+								}
+							}
+						}
+					}
+					mult_modifier = {
+						factor = 4
+						OR = {
+							trait = ambitious
+						}
+					}
+					narrative_event = { id = camino.28 }
+				}
+				6 = { #emperor prophecy
+					mult_modifier = {
+						factor = 0
+						OR = {
+							num_of_king_titles <=1
+							num_of_emperor_titles >=1
+							any_demesne_title = {
+								limit = {
+									tier = KING
+								}
+								num_of_realm_counties = {
+  							  		value = 0
+    								title = THIS
+								}
+							}
+						}
+					}
+					mult_modifier = {
+						factor = 4
+						OR = {
+							trait = ambitious
+						}
+					}
+					narrative_event = { id = camino.31 }
+				}
+				40 = { #children while old prophecy
+					mult_modifier = {
+						factor = 0
+						OR = {
+							age <= 40
+							num_of_children >= 1
+						}
+					}
+					narrative_event = { id = camino.34 }
+				}
+				10 = { #lover prophecy
+					mult_modifier = {
+						factor = 0
+						has_lover = yes
+					}
+					mult_modifier = {
+						factor = 2
+						trait = gregarious
+					}
+					mult_modifier = {
+						factor = 2
+						trait = lustful
+					}
+					narrative_event = { id = camino.37 }
+				}
+				10 = { #become_wealthy prophecy
+					mult_modifier = {
+						factor = 0
+						wealth >= 350
+					}
+					mult_modifier = {
+						factor = 2
+						trait = greedy
+					}
+					narrative_event = { id = camino.40 }
+				}
+				10 = { #failed reading
+					mult_modifier = {
+						factor = 0
+						trait = zealous
+					}
+					mult_modifier = {
+						factor = 3
+						trait = cynical
+					}
+					narrative_event = { id = camino.43 }
+				}
+			}
+		}
+	}
+}
+narrative_event = {
+	id = camino.10
+	title=camino.10.t
+	desc=camino.10.d
+	picture=GFX_observe_camino
+	is_triggered_only=yes
+  	immediate = {
+		random_demesne_province = {
+    		limit = { 
+    			any_neighbor_province = {
+    				NOT = {
+    					owner = { character = ROOT } 
+    				} 
+    			} 
+    		}
+    		random_neighbor_province = {
+    			limit = { 
+    				NOT = {
+    					owner = { 
+    						character = ROOT 
+    					} 
+    				} 
+    			}
+    			county ={
+    				ROOT ={
+						save_persistent_event_target = { 
+							name = prophesied_province
+							scope = PREV
+						}
+					}
+				}
+    		}
+    	}   
+  	}
+	option = {
+		name = camino.10.a
+		set_character_flag = camino_prophecy_current
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_conquest_prophecy
+    			years = 2
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_conquest_prophecy
+    			years = 3			
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_conquest_prophecy
+    			years = 4			
+			}
+		}
+		persistent_event_target:prophesied_province={
+			add_claim = ROOT
+		}
+	}
+}
+character_event = {
+	id = camino.11
+	title=camino.11.t
+	desc=camino.11.d
+	religion = camino_estelar
+	trigger = {
+		ROOT = {
+			has_character_modifier = camino_conquest_prophecy
+		}
+		persistent_event_target:prophesied_province={
+			holder = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.11.a
+		piety = 50
+		prestige = 50
+		clr_character_flag = camino_prophecy_current
+		remove_character_modifier = camino_conquest_prophecy
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 33
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 33
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = zealous
+			}
+		}
+		clear_persistent_event_target = prophesied_province
+	}
+}
+character_event = {
+	id = camino.12
+	title=camino.12.t
+	desc=camino.12.d
+	religion = camino_estelar
+	trigger = {
+		ROOT = {
+			NOT = {
+				has_character_modifier = camino_conquest_prophecy
+			}
+		}
+		persistent_event_target:prophesied_province={
+			claimed_by = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.12.a
+		clr_character_flag = camino_prophecy_current
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}		
+		remove_claim = persistent_event_target:prophesied_province
+		clear_persistent_event_target = prophesied_province
+	}
+}
+narrative_event = {
+	id = camino.13
+	title=camino.13.t
+	desc=camino.13.d
+	is_triggered_only=yes
+	picture=GFX_observe_camino
+	option = {
+		name = camino.13.a
+		set_character_flag = camino_prophecy_current
+		set_character_flag = camino_prophecy_peace_flag
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_peace_prophecy_1
+    			years = 4
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_peace_prophecy_2
+    			years = 4			
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_peace_prophecy_3
+    			years = 4			
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.14
+	title=camino.14.t
+	desc=camino.14.d
+	religion = camino_estelar
+	trigger = {
+		NOT = {
+			OR = {
+				has_character_modifier = camino_peace_prophecy_1
+				has_character_modifier = camino_peace_prophecy_2
+				has_character_modifier = camino_peace_prophecy_3
+			}
+		}
+		has_character_flag = camino_prophecy_peace_flag
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.11.a
+		piety = 50
+		prestige = 50
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_peace_flag
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 33
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 33
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = zealous
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.15
+	title=camino.15.t
+	desc=camino.15.d
+	religion = camino_estelar
+	trigger = {
+		OR = {
+			has_character_modifier = camino_peace_prophecy_1
+			has_character_modifier = camino_peace_prophecy_2
+			has_character_modifier = camino_peace_prophecy_3
+		}
+		war = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.15.a
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_peace_flag
+		if = {
+			limit = {
+				has_character_modifier = camino_peace_prophecy_1
+			}
+			remove_character_modifier = camino_peace_prophecy_1
+		}
+		else_if = {
+			limit = {
+				has_character_modifier = camino_peace_prophecy_2
+			}
+			remove_character_modifier = camino_peace_prophecy_2		
+		}
+		else = {
+			remove_character_modifier = camino_peace_prophecy_3
+		}
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}		
+	}
+}
+narrative_event = {
+	id = camino.16
+	title=camino.16.t
+	desc=camino.16.d
+	is_triggered_only=yes
+	picture=GFX_observe_camino
+	option = {
+		name = camino.16.a
+		set_character_flag = camino_prophecy_current
+		set_character_flag = camino_prophecy_family_flag
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_family_prophecy
+    			years = 2
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_family_prophecy
+    			years = 3	
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_family_prophecy
+    			years = 4			
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.17
+	title=camino.17.t
+	desc=camino.17.d
+	religion = camino_estelar
+	trigger = {
+		has_character_modifier = camino_family_prophecy
+		has_children = yes
+		OR = {
+			is_married = yes
+			is_married_matrilineally = yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.17.a
+		piety = 50
+		prestige = 50
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_family_flag
+		remove_character_modifier = camino_family_prophecy
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 33
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 33
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = zealous
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.18
+	title=camino.18.t
+	desc=camino.18.d
+	religion = camino_estelar
+	trigger = {
+		NOT = {
+			has_character_modifier = camino_family_prophecy
+		}
+		has_character_flag = camino_prophecy_family_flag
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.15.a
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_family_flag
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = celibate
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = celibate
+			}
+		}		
+	}
+}
+narrative_event = {
+	id = camino.19
+	title=camino.19.t
+	desc=camino.19.d
+	picture=GFX_observe_camino
+	is_triggered_only=yes
+  	immediate = {
+		random_list = {
+			10 = {
+				mult_modifier = {
+					factor = 3
+					OR = {
+						trait = lunatic
+						trait = possessed
+						trait = cruel
+						trait = kinslayer
+						trait = familial_kinslayer
+						trait = dynastic_kinslayer
+						trait = tribal_kinslayer 
+					}
+				}
+				random_dynasty_member = {
+					limit = {
+						NOT = {
+							character = ROOT
+						}
+					}
+    				ROOT ={
+						save_persistent_event_target = { 
+							name = prophesied_to_die
+							scope = PREV
+						}
+					}
+				}
+			}
+			10 = {
+				mult_modifier = {
+					factor = 3
+					OR = {
+						trait = lunatic
+						trait = possessed
+						trait = cruel 
+					}
+				}
+				random_courtier_or_vassal = {
+					limit = {
+						NOT = {
+							character = ROOT
+						}
+					}
+    				ROOT ={
+						save_persistent_event_target = { 
+							name = prophesied_to_die
+							scope = PREV
+						}
+					}
+				}
+			}
+			10 = {
+				mult_modifier = {
+					factor = 3
+					OR = {
+						trait = lunatic
+						trait = possessed
+						trait = cruel 
+					}
+				}
+				random_host_courtier = {
+					limit = {
+						NOT = {
+							character = ROOT
+						}
+					}
+    				ROOT ={
+						save_persistent_event_target = { 
+							name = prophesied_to_die
+							scope = PREV
+						}
+					}
+				}
+			}
+			10 = {
+				mult_modifier = {
+					factor = 3
+					OR = {
+						trait = lunatic
+						trait = possessed
+						trait = cruel 
+					}
+				}
+				random_neighbor_independent_ruler = {
+    				ROOT ={
+						save_persistent_event_target = { 
+							name = prophesied_to_die
+							scope = PREV
+						}
+					}
+				}
+			}
+
+		} 
+  	}
+	option = {
+		name = camino.19.a
+		set_character_flag = camino_prophecy_current
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_death_prophecy_1
+    			years = 1
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_death_prophecy_2
+    			years = 1			
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_death_prophecy_3
+    			years = 1			
+			}
+		}
+		persistent_event_target:prophesied_to_die={
+			opinion = {
+				modifier = prophesied_my_death
+				years = 1
+				who = ROOT
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.20
+	title=camino.20.t
+	desc=camino.20.d
+	religion = camino_estelar
+	trigger = {
+		persistent_event_target:prophesied_to_die = {
+			is_alive = no
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.20.a
+		piety = 50
+		prestige = 50
+		clr_character_flag = camino_prophecy_current
+		clear_persistent_event_target = prophesied_to_die
+		if = {
+			limit = {
+				has_character_modifier = camino_death_prophecy_1
+			}
+			remove_character_modifier = camino_death_prophecy_1
+		}
+		else_if = {
+			limit = {
+				has_character_modifier = camino_death_prophecy_2
+			}
+			remove_character_modifier = camino_death_prophecy_2	
+		}
+		else_if = {
+			limit = {
+				has_character_modifier = camino_death_prophecy_3
+			}
+			remove_character_modifier = camino_death_prophecy_3
+		}
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 33
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 33
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = zealous
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.21
+	title=camino.21.t
+	desc=camino.21.d
+	religion = camino_estelar
+	trigger = {
+		NOT = {
+			OR = {
+				has_character_modifier = camino_death_prophecy_1
+				has_character_modifier = camino_death_prophecy_2
+				has_character_modifier = camino_death_prophecy_3
+			}
+		}
+		persistent_event_target:prophesied_to_die = {
+			is_alive = yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.21.a
+		clr_character_flag = camino_prophecy_current
+		clear_persistent_event_target = prophesied_to_die
+		piety = -100
+		prestige = -100
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}		
+	}
+}
+narrative_event = {
+	id = camino.22
+	title=camino.22.t
+	desc=camino.22.d
+	is_triggered_only=yes
+	picture=GFX_observe_camino
+	option = {
+		name = camino.22.a
+		set_character_flag = camino_prophecy_current
+		set_character_flag = camino_prophecy_friend_flag
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_friend_prophecy
+    			years = 1
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_friend_prophecy
+    			years = 2	
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_friend_prophecy
+    			years = 3			
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.23
+	title=camino.23.t
+	desc=camino.23.d
+	religion = camino_estelar
+	trigger = {
+		has_character_modifier = camino_friend_prophecy
+		num_of_friends >=1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.23.a
+		piety = 50
+		prestige = 50
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_friend_flag
+		remove_character_modifier = camino_friend_prophecy
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 30
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 20
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = zealous
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.24
+	title=camino.24.t
+	desc=camino.24.d
+	religion = camino_estelar
+	trigger = {
+		NOT = {
+			has_character_modifier = camino_friend_prophecy
+		}
+		has_character_flag = camino_prophecy_friend_flag
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.24.a
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_friend_flag
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}		
+	}
+}
+narrative_event = {
+	id = camino.25
+	title=camino.25.t
+	desc=camino.25.d
+	picture=GFX_observe_camino
+	is_triggered_only=yes
+  	immediate = {
+		random_demesne_province = {
+    		limit = { 
+    			any_neighbor_province = {
+    				owner = { character = ROOT } 
+    			} 
+    		}
+    		duchy ={
+    			ROOT ={
+					save_persistent_event_target = { 
+							name = prophesied_duchy
+							scope = PREV
+					}
+				}
+    		}
+    	}   
+  	}
+	option = {
+		name = camino.25.a
+		set_character_flag = camino_prophecy_current
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_duchy_prophecy
+    			years = 3
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_duchy_prophecy
+    			years = 4			
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_duchy_prophecy
+    			years = 5		
+			}
+		}
+		persistent_event_target:prophesied_duchy={
+			add_claim = ROOT
+		}
+	}
+}
+character_event = {
+	id = camino.26
+	title=camino.26.t
+	desc=camino.26.d
+	religion = camino_estelar
+	trigger = {
+		ROOT = {
+			has_character_modifier = camino_duchy_prophecy
+		}
+		persistent_event_target:prophesied_duchy={
+			holder = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.26.a
+		piety = 50
+		prestige = 75
+		clr_character_flag = camino_prophecy_current
+		remove_character_modifier = camino_duchy_prophecy
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 50
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 50
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = zealous
+			}
+		}
+		clear_persistent_event_target = prophesied_duchy
+	}
+}
+character_event = {
+	id = camino.27
+	title=camino.27.t
+	desc=camino.27.d
+	religion = camino_estelar
+	trigger = {
+		ROOT = {
+			NOT = {
+				has_character_modifier = camino_duchy_prophecy
+			}
+		}
+		persistent_event_target:prophesied_duchy={
+			claimed_by = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.27.a
+		clr_character_flag = camino_prophecy_current
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}		
+		remove_claim = persistent_event_target:prophesied_duchy
+		clear_persistent_event_target = prophesied_duchy
+	}
+}
+narrative_event = {
+	id = camino.28
+	title=camino.28.t
+	desc=camino.28.d
+	picture=GFX_observe_camino
+	is_triggered_only=yes
+  	immediate = {
+		random_demesne_province = {
+    		limit = { 
+    			duchy = {
+    				owner = { character = ROOT } 
+    				NOT = {
+    					num_of_realm_counties = {
+  						  	value = 0
+   							title = THIS
+						}
+    				}
+    			}
+    		}
+    		kingdom ={
+    			ROOT ={
+					save_persistent_event_target = { 
+							name = prophesied_kingdom
+							scope = PREV
+					}
+				}
+    		}
+    	}   
+  	}
+	option = {
+		name = camino.28.a
+		set_character_flag = camino_prophecy_current
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_kingdom_prophecy
+    			years = 4
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_kingdom_prophecy
+    			years = 5			
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_kingdom_prophecy
+    			years = 6		
+			}
+		}
+		persistent_event_target:prophesied_kingdom={
+			add_claim = ROOT
+		}
+	}
+}
+character_event = {
+	id = camino.29
+	title=camino.29.t
+	desc=camino.29.d
+	religion = camino_estelar
+	trigger = {
+		ROOT = {
+			has_character_modifier = camino_kingdom_prophecy
+		}
+		persistent_event_target:prophesied_kingdom={
+			holder = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.29.a
+		piety = 50
+		prestige = 100
+		clr_character_flag = camino_prophecy_current
+		remove_character_modifier = camino_kingdom_prophecy
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 66
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 66
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 40
+				add_trait = zealous
+			}
+		}
+		clear_persistent_event_target = prophesied_kingdom
+	}
+}
+character_event = {
+	id = camino.30
+	title=camino.30.t
+	desc=camino.30.d
+	religion = camino_estelar
+	trigger = {
+		ROOT = {
+			NOT = {
+				has_character_modifier = camino_kingdom_prophecy
+			}
+		}
+		persistent_event_target:prophesied_kingdom={
+			claimed_by = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.30.a
+		clr_character_flag = camino_prophecy_current
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}		
+		remove_claim = persistent_event_target:prophesied_kingdom
+		clear_persistent_event_target = prophesied_kingdom
+	}
+}
+narrative_event = {
+	id = camino.31
+	title=camino.31.t
+	desc=camino.31.d
+	picture=GFX_observe_camino
+	is_triggered_only=yes
+  	immediate = {
+		random_demesne_province = {
+    		limit = { 
+    			kingdom = {
+    				owner = { character = ROOT } 
+    				NOT = {
+    					num_of_realm_counties = {
+  						  	value = 0
+   							title = THIS
+						}
+    				}
+    			}
+    		}
+    		empire ={
+    			ROOT ={
+					save_persistent_event_target = { 
+							name = prophesied_empire
+							scope = PREV
+					}
+				}
+    		}
+    	}   
+  	}
+	option = {
+		name = camino.31.a
+		set_character_flag = camino_prophecy_current
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_empire_prophecy
+    			years = 4
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_empire_prophecy
+    			years = 5			
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_empire_prophecy
+    			years = 6		
+			}
+		}
+		persistent_event_target:prophesied_empire={
+			add_claim = ROOT
+		}
+	}
+}
+character_event = {
+	id = camino.32
+	title=camino.32.t
+	desc=camino.32.d
+	religion = camino_estelar
+	trigger = {
+		ROOT = {
+			has_character_modifier = camino_empire_prophecy
+		}
+		persistent_event_target:prophesied_empire={
+			holder = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.32.a
+		piety = 50
+		prestige = 150
+		clr_character_flag = camino_prophecy_current
+		remove_character_modifier = camino_empire_prophecy
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 99
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 99
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 50
+				add_trait = zealous
+			}
+		}
+		clear_persistent_event_target = prophesied_empire
+	}
+}
+character_event = {
+	id = camino.33
+	title=camino.33.t
+	desc=camino.33.d
+	religion = camino_estelar
+	trigger = {
+		ROOT = {
+			NOT = {
+				has_character_modifier = camino_empire_prophecy
+			}
+		}
+		persistent_event_target:prophesied_empire={
+			claimed_by = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.33.a
+		clr_character_flag = camino_prophecy_current
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}		
+		remove_claim = persistent_event_target:prophesied_empire
+		clear_persistent_event_target = prophesied_empire
+	}
+}
+narrative_event = {
+	id = camino.34
+	title=camino.34.t
+	desc=camino.34.d
+	is_triggered_only=yes
+	picture=GFX_observe_camino
+	option = {
+		name = camino.34.a
+		set_character_flag = camino_prophecy_current
+		set_character_flag = camino_prophecy_old_children_flag
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_old_children_prophecy
+    			years = 2
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_old_children_prophecy
+    			years = 3	
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_old_children_prophecy
+    			years = 4			
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.35
+	title=camino.35.t
+	desc=camino.35.d
+	religion = camino_estelar
+	trigger = {
+		has_character_modifier = camino_old_children_prophecy
+		num_of_children >=1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_child = {
+			save_event_target_as = your_new_child
+		}
+	}
+	option = {
+		name = camino.35.a
+		piety = 50
+		prestige = 50
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_old_children_flag
+		your_new_child = {
+			save_event_target_as = your_new_child
+		}
+		remove_character_modifier = camino_old_children_prophecy
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 30
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 20
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = zealous
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.36
+	title=camino.36.t
+	desc=camino.36.d
+	religion = camino_estelar
+	trigger = {
+		NOT = {
+			has_character_modifier = camino_old_children_prophecy
+		}
+		has_character_flag = camino_prophecy_old_children_flag
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.36.a
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_old_children_flag
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = stressed
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = stressed
+			}
+		}
+		if = {
+			limit = {
+				trait = stressed
+			}
+			random = {
+				chance = 33
+				remove_trait = stressed
+				add_trait = depressed
+			}
+		}	
+	}
+}
+narrative_event = {
+	id = camino.37
+	title=camino.37.t
+	desc=camino.37.d
+	is_triggered_only=yes
+	picture=GFX_observe_camino
+	option = {
+		name = camino.37.a
+		set_character_flag = camino_prophecy_current
+		set_character_flag = camino_prophecy_lover_flag
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_lover_prophecy
+    			years = 2
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_lover_prophecy
+    			years = 3	
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_lover_prophecy
+    			years = 4			
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.38
+	title=camino.38.t
+	desc=camino.38.d
+	religion = camino_estelar
+	trigger = {
+		has_character_modifier = camino_lover_prophecy
+		num_of_lovers >= 1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		random_lover = {
+			save_event_target_as = your_new_lover
+		}
+	}
+	option = {
+		name = camino.38.a
+		piety = 50
+		prestige = 50
+		your_new_lover = {
+			save_event_target_as = your_new_lover
+		}
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_lover_flag
+		remove_character_modifier = camino_lover_prophecy
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 30
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 20
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = zealous
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.39
+	title=camino.39.t
+	desc=camino.39.d
+	religion = camino_estelar
+	trigger = {
+		NOT = {
+			has_character_modifier = camino_lover_prophecy
+		}
+		has_character_flag = camino_prophecy_lover_flag
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.39.a
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_lover_flag
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = stressed
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = stressed
+			}
+		}	
+	}
+}
+narrative_event = {
+	id = camino.40
+	title=camino.40.t
+	desc=camino.40.d
+	is_triggered_only=yes
+	picture=GFX_observe_camino
+	option = {
+		name = camino.40.a
+		set_character_flag = camino_prophecy_current
+		set_character_flag = camino_prophecy_wealth_flag
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}
+			}
+			add_character_modifier = {
+	    		name = camino_wealth_prophecy
+    			years = 3
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer
+			}
+			add_character_modifier = {
+	    		name = camino_wealth_prophecy
+    			years = 4	
+			}
+		}
+		else = {
+			add_character_modifier = {
+	    		name = camino_wealth_prophecy
+    			years = 5			
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.41
+	title=camino.41.t
+	desc=camino.41.d
+	religion = camino_estelar
+	trigger = {
+		has_character_modifier = camino_wealth_prophecy
+		wealth >= 500
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.41.a
+		piety = 50
+		prestige = 50
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_wealth_flag
+		remove_character_modifier = camino_wealth_prophecy
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = initiate_astronomer
+						trait = adept_astronomer
+						trait = master_astronomer
+					}
+				}				
+			}
+			add_trait = initiate_astronomer
+		}
+		else_if = {
+			limit = {
+				trait = initiate_astronomer				
+			}
+			random = {
+				chance = 30
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = initate_astronomer
+				add_trait = adept_astronomer
+			}
+		}
+		else_if = {
+			limit = {
+				trait = adept_astronomer				
+			}
+			random = {
+				chance = 20
+	    		mult_modifier = {
+					factor = 1.2
+					trait = zealous
+    			}
+				remove_trait = adept_astronomer
+				add_trait = master_astronomer
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 20
+				add_trait = zealous
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.42
+	title=camino.42.t
+	desc=camino.42.d
+	religion = camino_estelar
+	trigger = {
+		NOT = {
+			has_character_modifier = camino_wealth_prophecy
+		}
+		has_character_flag = camino_prophecy_wealth_flag
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = camino.42.a
+		clr_character_flag = camino_prophecy_current
+		clr_character_flag = camino_prophecy_wealth_flag
+		piety = -50
+		prestige = -50
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 20
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 33
+				add_trait = cynical
+			}
+		}	
+	}
+}
+narrative_event = {
+	id = camino.43
+	title=camino.43.t
+	desc=camino.43.d
+	is_triggered_only=yes
+	picture=GFX_observe_camino
+	option = {
+		name = camino.43.a
+		piety = -25
+		prestige = -25
+		set_character_flag = camino_prophecy_current
+		add_character_modifier = {
+	    		name = camino_failed_reading
+    			years = 2
+		}
+		if = {
+			limit = {
+				trait = zealous
+			}
+			random = {
+				chance = 40
+				remove_trait = zealous
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = zealous
+				}
+			}
+			random = {
+				chance = 40
+				add_trait = cynical
+			}
+		}
+	}
+}
+character_event = {
+	id = camino.44
+	hide_window = yes
+	
+	trigger = {
+		NOT = {
+			has_character_modifier = camino_failed_reading
+		}
+		has_character_flag = camino_prophecy_current
+	}
+	mean_time_to_happen = {
+		days = 1
+	}	
+	immediate = {
+		clr_character_flag = camino_prophecy_current
+	}
+}

@@ -1,0 +1,21 @@
+# c_rivadavia
+
+# County Title
+title = c_rivadavia
+
+# Settlements
+max_settlements = 2
+
+b_villa_nueva = castle
+b_villa_maria = city
+#b_sanabria = temple
+#b_carcano = castle
+#b_zumaran = city
+#b_ballesteros = temple
+#b_cintra = castle
+
+# Misc
+culture = cordobes
+religion = theosophist
+
+#History

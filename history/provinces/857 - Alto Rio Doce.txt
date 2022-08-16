@@ -1,0 +1,21 @@
+# c_alto_rio_doce
+
+# County Title
+title = c_alto_rio_doce
+
+# Settlements
+max_settlements = 3
+
+b_abreus = tribal
+#b_bras_pires = city
+#b_vitorinos = temple
+#b_cipotanea = castle
+#b_brejauba = city
+#b_xopoto = temple
+#b_rio_espera = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

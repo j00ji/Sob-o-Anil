@@ -1,0 +1,21 @@
+# c_ipatinga
+
+# County Title
+title = c_ipatinga
+
+# Settlements
+max_settlements = 3
+
+b_barra_alegre = castle
+b_timoteo = temple
+#b_taubas = temple
+#b_coronel_fabriciano = castle
+#b_santana_do_paraiso = city
+#b_ipaneminha = temple
+#b_veneza = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

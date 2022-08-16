@@ -1,0 +1,21 @@
+# c_erechim
+
+# County Title
+title = c_erechim
+
+# Settlements
+max_settlements = 3
+
+b_erechim = castle
+b_getulio_vargas = castle
+#b_marcelino_ramos = temple
+#b_rio_toldo = castle
+#b_sao_valentim = city
+#b_sao_joao_da_urtiga = temple
+#b_aurea = castle
+
+# Misc
+culture = talian
+religion = celeste
+
+#History

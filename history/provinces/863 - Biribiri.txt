@@ -1,0 +1,21 @@
+# c_biribiri
+
+# County Title
+title = c_biribiri
+
+# Settlements
+max_settlements = 3
+
+b_mendanha = castle
+#b_couto_de_magalhaes = city
+#b_inhai = temple
+#b_rio_preto_3 = castle
+#b_senador_mourao = city
+#b_penha_de_franca = temple
+#b_modestino_goncalves = castle
+
+# Misc
+culture = espinhaco
+religion = angel_cult
+
+#History

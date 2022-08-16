@@ -1,0 +1,21 @@
+# c_conceicao_do_mato_dentro
+
+# County Title
+title = c_conceicao_do_mato_dentro
+
+# Settlements
+max_settlements = 3
+
+b_cachoeira_do_tabuleiro = castle
+#b_dom_joaquim = city
+#b_italacomi = temple
+#b_ouro_fino = castle
+#b_corregos = city
+#b_morro_do_pilar = temple
+#b_serra_do_intendente = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

@@ -1,0 +1,602 @@
+##ÄNSI
+
+##ILHENSE
+
+##Laurentino Dynasty##
+
+50001 ={
+	name="Tomás"
+	dynasty=25001
+	religion=camdomble
+	culture=ilhense
+	disallow_random_traits=yes
+	add_trait=martial_cleric
+	add_trait=dull
+	add_trait=wroth
+	add_trait=ambitious
+	add_trait=arbitrary
+	add_trait=deceitful
+	add_trait=envious
+	
+	father = 50002 #Breno Laurentino
+	
+	martial=3
+	diplomacy=6
+	intrigue=4
+	stewardship=4
+	learning=7
+	
+	2334.4.2={birth=yes}
+}
+
+50002 = {
+	name = "Breno"
+	dynasty = 25001
+	religion = camdomble
+	culture = ilhense
+	disallow_random_traits = yes
+	add_trait = thrifty_clerk
+	add_trait = administrator
+	add_trait = temperate
+	add_trait = just
+	add_trait = brave
+	
+	martial = 2
+	diplomacy = 3
+	intrigue = 3
+	stewardship = 6
+	learning = 4
+	
+	2304.2.13 = {
+		birth = yes
+	}
+	2355.7.25 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+50003 = {
+	name = "Caike"
+	dynasty = 25001
+	religion = camdomble
+	culture = ilhense
+	father = 50002 #Breno Laurentino
+	disallow_random_traits = yes
+	add_trait = charismatic_negotiator
+	add_trait = trusting
+	add_trait = charitable
+	add_trait = honest
+	add_trait = patient
+	
+	martial = 2
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 3
+	learning = 3
+	
+	2328.8.9 = {
+		birth = yes
+	}
+}
+
+50004 = {
+	name = "Verônica"
+	female = yes
+	dynasty = 25001
+	religion = camdomble
+	culture = ilhense
+	father = 50002 #Breno Laurentino
+	disallow_random_traits = yes
+	add_trait = flamboyant_schemer
+	add_trait = deceitful
+	add_trait = lustful
+	add_trait = envious
+	add_trait = arbitrary
+
+	martial = 1
+	diplomacy = 3
+	intrigue = 6
+	stewardship = 3
+	learning = 2
+	
+	2332.12.1 = {
+		birth = yes
+	}
+}
+
+## End of the Laurentino Dynasty ##
+
+##de Azevedo Dynasty##
+
+40013 = {
+	name = "Guilherme"
+	dynasty = 25002
+	religion = camdomble
+	culture = ilhense
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	add_trait = shrewd
+	add_trait = brave
+	add_trait = diligent
+	add_trait = zealous
+	
+	martial = 7
+	diplomacy = 4
+	intrigue = 3
+	stewardship = 5
+	learning = 4
+	
+	2152.3.22 = {
+		birth = yes
+	}
+	2225.12.1 = {
+		death = yes
+	}
+}
+
+40014 = {
+	name = "Lídia"
+	female = yes
+	dynasty = 25002
+	religion = camdomble
+	culture = ilhense
+	father = 40013
+	disallow_random_traits = yes
+	add_trait = thrifty_clerk
+	add_trait = temperate
+	add_trait = patient
+	add_trait = honest
+	add_trait = craven
+	
+	martial = 2
+	diplomacy = 4
+	intrigue = 2
+	stewardship = 6
+	learning = 3
+	
+	2180.8.31 = {
+		birth = yes
+	}
+	2249.11.3 = {
+		death = yes
+	}
+}
+
+40015 = {
+	name = "Samuel"
+	dynasty = 25002
+	religion = camdomble
+	culture = ilhense
+	mother = 40014
+	disallow_random_traits = yes
+	add_trait = martial_cleric
+	add_trait = diligent
+	add_trait = wroth
+	add_trait = zealous
+	add_trait = ambitious
+	add_trait = cruel
+	
+	martial = 4
+	diplomacy = 2
+	intrigue = 1
+	stewardship = 3
+	learning = 7
+	
+	2205.4.19 = {
+		birth = yes
+	}
+	2259.12.3 = {
+		death = {
+			death_reason = death_battle
+			#killer = #Chiconho King of São Francisco
+		}
+	}
+}
+
+40016 = {
+	name = "Manuel"
+	dynasty = 25002
+	religion = camdomble
+	culture = ilhense
+	father = 40015
+	disallow_random_traits = yes
+	add_trait = intricate_webweaver
+	add_trait = ill
+	add_trait = envious
+	add_trait = deceitful
+	add_trait = content
+	add_trait = hedonist
+	
+	2231.8.12 = {
+		birth = yes
+	}
+	2280.10.5 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+40017 = {
+	name = "Candelária"
+	female = yes
+	dynasty = 25002
+	religion = camdomble
+	culture = ilhense
+	father = 40016
+	disallow_random_traits = yes
+	add_trait = charismatic_negotiator
+	add_trait = trusting
+	add_trait = chaste
+	add_trait = diligent
+	add_trait = content
+	
+	2258.10.23 = {
+		birth = yes
+	}
+	2289.5.25 = {
+		add_spouse = 40005
+	}
+	2320.11.3 = {
+		death = yes
+	}
+}
+
+40018 = {
+	name = "Felipe"
+	dynasty = 25002
+	religion = camdomble
+	culture = ilhense
+	father = 40016
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = diligent
+	add_trait = stubborn
+	add_trait = brave
+	add_trait = cynical
+	add_trait = ambitious
+	
+	martial = 6
+	diplomacy = 3
+	intrigue = 2
+	stewardship = 4
+	learning = 3
+	
+	2261.10.23 = {
+		birth = yes
+	}
+	2300.12.30 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}	
+
+##SALVADORENSE
+
+##de Pelourinho Dynasty##
+
+40001 = {
+	name = "João"
+	#1st King of Salvador
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	disallow_random_traits = yes
+	add_trait = midas_touched
+	add_trait = quick
+	add_trait = temperate
+	add_trait = diligent
+	add_trait = just
+	
+	martial = 4
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 7
+	learning = 4
+	
+	2149.12.4 = {
+		birth = yes
+	}
+	2219.8.28 = {
+		death = yes
+	}
+}
+
+40002 = {
+	name = "Sabrina"
+	female = yes
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	father = 40001
+	disallow_random_traits = yes
+	add_trait = charismatic_negotiator
+	add_trait = charitable
+	add_trait = diligent
+	add_trait = deceitful
+	
+	martial = 3
+	diplomacy = 8
+	intrigue = 3
+	stewardship = 5
+	learning = 3
+	
+	2174.2.21 = {
+		birth = yes
+	}
+	2241.4.30 = {
+		death = yes
+	}
+}
+
+40003 = {
+	name = "Leonardo"
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	mother = 40002
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = robust
+	add_trait = brave
+	add_trait = patient
+	add_trait = ambitious
+	add_trait = scholar
+	
+	martial = 6
+	diplomacy = 3
+	intrigue = 2
+	stewardship = 4
+	learning = 5
+	
+	2196.1.19 = {
+		birth = yes
+	}
+	2277.10.5 = {
+		death = yes
+	}
+}
+
+40004 = {
+	name = "Larissa"
+	female = yes
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	father = 40003
+	disallow_random_traits = yes
+	add_trait = intricate_webweaver
+	add_trait = deceitful
+	add_trait = envious
+	add_trait = arbitrary
+	add_trait = ambitious
+	
+	martial = 2
+	diplomacy = 2
+	intrigue = 5
+	stewardship = 3
+	learning = 2
+	
+	2232.3.6 = {
+		birth = yes
+	}
+	2285.12.3 = {
+		death = yes
+	}
+}
+
+40005 = {
+	name = "Miguel"
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	mother = 40004
+	disallow_random_traits = yes
+	add_trait = grey_eminence
+	add_trait = genius
+	add_trait = honest
+	add_trait = diligent
+	add_trait = patient
+	add_trait = just
+	
+	martial = 4
+	diplomacy = 8
+	intrigue = 3
+	stewardship = 6
+	learning = 4
+	
+	2268.10.23 = {
+		birth = yes
+	}
+	2289.5.25 = {
+		add_spouse = 40017
+	}
+	2319.3.22 = {
+		death = yes
+	}
+}
+
+40006 = {
+	name = "Fátima"
+	female = yes
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	father = 40005
+	mother = 40017
+	disallow_random_traits = yes
+	add_trait = grey_eminence
+	add_trait = genius
+	add_trait = diligent
+	add_trait = just
+	add_trait = ambitious
+	add_trait = brave
+	
+	martial = 5
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 6
+	learning = 4
+	
+	2298.7.2 = {
+		birth = yes 
+	}
+	2323.7.2 = {
+		give_nickname = nick_the_great
+	}
+	2353.5.12 = { 
+		death = yes 
+	}
+}
+
+40007 = {
+	name = "Flávio"
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	mother = 40006
+	disallow_random_traits = yes
+	add_trait = skilled_tactician
+	add_trait = dull
+	add_trait = lustful
+	add_trait = wroth
+	add_trait = stubborn
+	add_trait = arbitrary
+	
+	martial = 5
+	diplomacy = 3
+	intrigue = 1
+	stewardship = 2
+	learning = 2
+	
+	2324.8.4 = {
+		birth = yes
+	}
+	2354.12.29 = {
+		death = {
+			death_reason = death_battle
+			killer = 1 #Belchior
+		}
+	}
+}
+
+40008 = {
+	name = "Gabriela"
+	female = yes
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	mother = 40006
+	disallow_random_traits = yes
+	add_trait = underhanded_rogue
+	add_trait = diligent
+	add_trait = kind
+	add_trait = trusting
+	add_trait = content
+	add_trait = zealous
+	
+	martial = 2
+	diplomacy = 5
+	intrigue = 1
+	stewardship = 4
+	learning = 3
+	
+	2326.1.10 = {
+		birth = yes
+	}
+	2356.9.23 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+40009 = {
+	name = "Vitória"
+	female = yes
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	mother = 40006
+	disallow_random_traits = yes
+	add_trait = intricate_webweaver
+	add_trait = temperate
+	add_trait = envious
+	add_trait = deceitful
+	add_trait = ambitious
+	
+	martial = 2
+	diplomacy = 2
+	intrigue = 5
+	stewardship = 3
+	learning = 2
+	
+	2327.12.13 = {
+		birth = yes
+	}
+	2356.9.23 = {
+		effect_even_if_dead = { add_rival = 40010 } #Tristão
+	}
+	2367.9.10 = {
+		death = {
+			death_reason = death_execution
+			#killer = Regent Eugênio Giordino
+		}
+	}
+}
+
+40010 = {
+	name = "Tristão"
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	mother = 40006
+	disallow_random_traits = yes
+	add_trait = mastermind_theologian
+	add_trait = genius
+	add_trait = diligent
+	add_trait = erudite
+	add_trait = zealous
+	add_trait = shy
+	
+	martial = 7
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 7
+	learning = 8
+	
+	2328.6.14 = {
+		birth = yes
+	}
+}
+	
+40011 = {
+	name = "Damiãno"
+	dynasty = 20001
+	culture = salvadorense
+	religion = camdomble
+	father = 40010
+	add_trait = quick
+
+	2365.6.14 = {
+		birth = yes
+	}
+}
+
+40012 = {
+	name = "Fátima"
+	female = yes
+	dynasty = 20001
+	religion = camdomble
+	culture = salvadorense
+	father = 40010
+	
+	2367.12.1 = {
+		birth = yes
+	}
+}
+
+## End of the de Pelourinho Dynasty ##

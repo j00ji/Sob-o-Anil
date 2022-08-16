@@ -1,0 +1,21 @@
+# c_divinopolis
+
+# County Title
+title = c_divinopolis
+
+# Settlements
+max_settlements = 6
+
+b_itapecerica_2 = tribal
+b_sao_sebastiao_do_oeste = temple
+#b_araujos = temple
+#b_pedra_do_indaia = castle
+#b_calambau = city
+#b_claudio = temple
+#b_oliveira_2 = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

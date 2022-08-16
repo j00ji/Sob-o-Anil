@@ -1,0 +1,21 @@
+# c_rio_branco
+
+# County Title
+title = c_rio_branco
+
+# Settlements
+max_settlements = 4
+
+b_rio_branco_4 = castle
+b_senador_guiomard = city
+#b_bagaco = temple
+#b_carao = castle
+#b_bujari = city
+#b_quixada = temple
+#b_fazenda_bumbai = castle
+
+# Misc
+culture = acreano
+religion = santo_daime
+
+#History

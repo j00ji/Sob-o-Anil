@@ -1,0 +1,21 @@
+# c_boa_vista
+
+# County Title
+title = c_boa_vista
+
+# Settlements
+max_settlements = 3
+
+b_boa_vista_2 = castle
+b_murupu = temple
+#b_passarao = temple
+#b_pau_rainha = castle
+#b_canta = city
+#b_todos_querem = temple
+#b_dadanawa = castle
+
+# Misc
+culture = roraimo
+religion = hekura
+
+#History

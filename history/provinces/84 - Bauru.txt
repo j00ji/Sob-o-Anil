@@ -1,0 +1,21 @@
+# c_bauru
+
+# County Title
+title = c_bauru
+
+# Settlements
+max_settlements = 5
+
+b_forte_falcao = castle
+b_agudos = city
+b_sao_geraldo = temple
+#b_lencois = castle
+#b_colina_verde = city
+#b_jardim_estoril = temple
+#b_gerson_franca = castle
+
+# Misc
+culture = kyusei
+religion = anchietican
+
+#History

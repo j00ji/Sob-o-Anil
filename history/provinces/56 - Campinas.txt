@@ -1,0 +1,21 @@
+# c_campinas
+
+# County Title
+title = c_campinas
+
+# Settlements
+max_settlements = 7
+
+b_geraldo = castle
+b_viracopos = city
+b_valinhos = city
+b_cambui = temple
+#b_vinhedo = city
+#b_hortolandia = castle
+#b_sousas = temple
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

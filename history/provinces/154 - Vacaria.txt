@@ -1,0 +1,21 @@
+# c_vacaria
+
+# County Title
+title = c_vacaria
+
+# Settlements
+max_settlements = 2
+
+b_vacaria = castle
+b_sao_jose_dos_ausentes = castle
+#b_bom_jesus = temple
+#b_cambara_do_sul = castle
+#b_campestre_da_serra = city
+#b_lagoa_vermelha = temple
+#b_muitos_capoes = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

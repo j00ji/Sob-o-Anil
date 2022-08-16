@@ -1,0 +1,21 @@
+# c_cachapoal
+
+# County Title
+title = c_cachapoal
+
+# Settlements
+max_settlements = 4
+
+b_rancagua = castle
+b_san_vicente = temple
+b_graneros = city
+#b_mostazal = castle
+#b_las_cabras = city
+#b_donihue = temple
+#b_coltauco = castle
+
+# Misc
+culture = huaso
+religion = catholic
+
+#History

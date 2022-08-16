@@ -1,0 +1,21 @@
+# c_campina_verde
+
+# County Title
+title = c_campina_verde
+
+# Settlements
+max_settlements = 3
+
+b_rio_verde_4 = castle
+b_sao_francisco_de_sales = temple
+#b_honoropolis = temple
+#b_urupe = castle
+#b_sao_vicente_de_paulo = city
+#b_forte_decio = temple
+#b_casa_manna = castle
+
+# Misc
+culture = triangler
+religion = umbanda
+
+#History

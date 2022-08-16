@@ -1,0 +1,21 @@
+# c_juruti
+
+# County Title
+title = c_juruti
+
+# Settlements
+max_settlements = 3
+
+b_juruti = castle
+#b_batatas = city
+#b_castanhete = temple
+#b_suruca = castle
+#b_capichaua = city
+#b_vila_gorete = temple
+#b_paicandu_2 = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

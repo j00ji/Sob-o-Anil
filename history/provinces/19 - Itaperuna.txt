@@ -1,0 +1,21 @@
+# c_itaperuna
+
+# County Title
+title = c_itaperuna
+
+# Settlements
+max_settlements = 3
+
+b_itaperuna = castle
+b_cambuci = city
+b_natividade = temple
+#b_ourania = castle
+#b_italva_2 = city
+#b_apiaca = temple
+#b_laje_do_muriae = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

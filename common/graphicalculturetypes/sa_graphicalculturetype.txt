@@ -1,0 +1,23 @@
+# Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
+
+dixiegfx = {
+	skin_tone = 0
+}
+mexicangfx = {
+	skin_tone = 2
+}
+pardogfx = {
+	skin_tone = 2
+}
+anglopaulistagfx = {
+	skin_tone = 0
+}
+teutopaulistagfx = {
+	skin_tone = 0
+}
+paulistagfx = {
+	skin_tone = 0
+}
+nipponpaulistagfx = {
+	skin_tone = 1
+}

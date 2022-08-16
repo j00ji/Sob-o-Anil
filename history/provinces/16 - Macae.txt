@@ -1,0 +1,21 @@
+# c_macae
+
+# County Title
+title = c_macae
+
+# Settlements
+max_settlements = 3
+
+b_macae = castle
+b_carapebus = temple
+#b_imbura = temple
+#b_cavaleiros = castle
+#b_imbetiba = city
+#b_sol_e_mar = temple
+#b_novaroeiras = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

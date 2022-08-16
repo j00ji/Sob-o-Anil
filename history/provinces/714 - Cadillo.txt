@@ -1,0 +1,21 @@
+# c_cadillo
+
+# County Title
+title = c_cadillo
+
+# Settlements
+max_settlements = 2
+
+b_dolores_4 = castle
+#b_monte_de_oro = city
+#b_chacras = temple
+#b_majada = castle
+#b_bandera = city
+#b_roca_2 = temple
+#b_alem_2 = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_abufari
+
+# County Title
+title = c_abufari
+
+# Settlements
+max_settlements = 2
+
+b_abufari = tribal
+#b_lago_do_afu = city
+#b_vargem_alta = temple
+#b_porto_melo = castle
+#b_carambe = city
+#b_macuripari = temple
+#b_cachimbo = castle
+
+# Misc
+culture = mura
+religion = xabaxai_xagi
+
+#History

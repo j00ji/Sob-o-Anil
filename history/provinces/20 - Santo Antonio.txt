@@ -1,0 +1,21 @@
+# c_santo_antonio
+
+# County Title
+title = c_santo_antonio
+
+# Settlements
+max_settlements = 2
+
+b_santo_antonio = castle
+b_aperibe = temple
+#b_funil = temple
+#b_tres_irmaos = castle
+#b_paraoquena = city
+#b_pirapetinga = temple
+#b_itaocara = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

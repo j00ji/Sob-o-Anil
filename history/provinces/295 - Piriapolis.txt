@@ -1,0 +1,21 @@
+# c_piriapolis
+
+# County Title
+title = c_piriapolis
+
+# Settlements
+max_settlements = 3
+
+b_piriapolis = castle
+#b_pan_de_azucar = city
+#b_ocean_park = temple
+#b_solis = castle
+#b_gregorio_aznarez = city
+#b_solis_de_mataojo = temple
+#b_nueva_carrara = castle
+
+# Misc
+culture = urbuguayo
+religion = piriamano
+
+#History

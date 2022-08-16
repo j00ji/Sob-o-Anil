@@ -1,0 +1,21 @@
+# c_piura
+
+# County Title
+title = c_piura
+
+# Settlements
+max_settlements = 4
+
+b_san_miguel_de_piura = castle
+b_chulucanas = city
+b_ayabaca = temple
+#b_huancabamba_2 = castle
+#b_piura = city
+#b_tambogrande = temple
+#b_pacaipampa = castle
+
+# Misc
+culture = nortegrandeno
+religion = tridentine
+
+#History

@@ -1,0 +1,25 @@
+# c_rio_de_janeiro
+
+# County Title
+title = c_rio_de_janeiro
+
+# Settlements
+max_settlements = 6
+
+b_catete = castle
+b_penha = castle
+b_copacabana = temple
+b_tanque = city
+b_barra_da_tijuca = temple
+#b_meier = city
+#b_laranjeiras = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History
+1922.4.4 = {
+	build_wonder = wonder_christ_the_redeemer
+	set_wonder_stage = 1
+}

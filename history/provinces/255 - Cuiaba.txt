@@ -1,0 +1,21 @@
+# c_cuiaba
+
+# County Title
+title = c_cuiaba
+
+# Settlements
+max_settlements = 3
+
+b_cuiaba = tribal
+#b_acorizal = city
+#b_nobres = temple
+#b_chapada_dos_guimaraes = castle
+#b_pocone = city
+#b_campo_verde = temple
+#b_jangada = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

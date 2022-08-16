@@ -1,0 +1,21 @@
+# c_piranga
+
+# County Title
+title = c_piranga
+
+# Settlements
+max_settlements = 4
+
+b_guarapiranga = tribal
+#b_porto_firme = city
+#b_calambau_2 = temple
+#b_pinheiros_altos = castle
+#b_lamim = city
+#b_oliveira_3 = temple
+#b_bacalhau = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

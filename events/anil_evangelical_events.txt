@@ -1,0 +1,790 @@
+# 1 - on action event for game start
+# 2 - pick your branch
+# 3 - on conversion event
+# 5 - holy spirit selection event
+# 10 - Bible Study
+# 50 - Nação dos 318
+
+namespace = evangelical
+
+character_event = {
+	id = evangelical.1 #On startup
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = {
+				religion = evangelical
+				NOR = { 
+				trait = branch_baptist 
+				trait = branch_methodist
+				trait = branch_pentecostal
+				trait = branch_presbyterian
+				trait = branch_non_sectarian
+				}
+			}
+			character_event = { id = evangelical.2}
+		}
+	}
+}
+
+character_event = {
+	id = evangelical.2
+	desc = EVTDESC_evangelical_choose_branch
+	picture = GFX_evt_open_book_hf
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_choose_same
+		piety = 20
+		trigger = { 
+			OR = { 
+				trait = branch_presbyterian
+				trait = branch_pentecostal
+				trait = branch_methodist
+				trait = branch_baptist
+				remove_trait = branch_non_sectarian
+			}
+		}
+		ai_chance = {
+			factor = 100
+			modifier = { factor = 2	trait = zealous }
+			modifier = { factor = 0.3 trait = arbitrary }
+			modifier = { factor = 0.5 trait = cynical }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_presbyterian
+		trigger = { NOR = { trait = branch_presbyterian trait = baptized_by_bishop } }
+		hidden_tooltip = {
+			remove_trait = branch_pentecostal
+			remove_trait = branch_baptist
+			remove_trait = branch_methodist
+			remove_trait = branch_non_sectarian
+		}
+		add_trait = branch_presbyterian
+		ai_chance = {
+			factor = 5
+			modifier = { factor = 5	trait = mastermind_theologian }
+			modifier = { factor = 4	trait = scholarly_theologian }
+			modifier = { factor = 3	trait = martial_cleric }
+			modifier = { factor = 2	trait = detached_priest }
+			modifier = { factor = 4	trait = theologian }
+			modifier = { factor = 3	trait = scholar }
+			modifier = { factor = 2	trait = mystic }
+			modifier = { factor = 2	trait = zealous }
+			modifier = { factor = 1.5 trait = diligent }
+			modifier = { factor = 1.5 trait = humble }
+			modifier = { factor = 0.2 trait = cynical }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_pentecostal
+		trigger = { NOR = { trait = branch_pentecostal trait = baptized_by_bishop } }
+		hidden_tooltip = {
+			remove_trait = branch_presbyterian
+			remove_trait = branch_baptist
+			remove_trait = branch_methodist
+			remove_trait = branch_non_sectarian
+		}
+		add_trait = branch_pentecostal
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5 trait = brilliant_strategist }
+			modifier = { factor = 4 trait = skilled_tactician }
+			modifier = { factor = 3 trait = tough_soldier }
+			modifier = { factor = 2 trait = misguided_warrior }
+			modifier = { factor = 4	trait = strategist }
+			modifier = { factor = 3	trait = duelist }
+			modifier = { factor = 2	trait = hunter }
+			modifier = { factor = 2	trait = brave }
+			modifier = { factor = 1.5 trait = wroth }
+			modifier = { factor = 1.5 trait = strong }
+			modifier = { factor = 0.2 trait = craven }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_baptist
+		trigger = { NOR = { trait = branch_baptist } }
+		hidden_tooltip = {
+			remove_trait = branch_pentecostal
+			remove_trait = branch_presbyterian
+			remove_trait = branch_methodist
+			remove_trait = branch_non_sectarian
+		}
+		add_trait = branch_baptist
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5	trait = grey_eminence }
+			modifier = { factor = 4	trait = charismatic_negotiator }
+			modifier = { factor = 3	trait = underhanded_rogue }
+			modifier = { factor = 2	trait = naive_appeaser }
+			modifier = { factor = 2	trait = socializer }
+			modifier = { factor = 3	trait = kind }
+			modifier = { factor = 1.9 trait = charitable }
+			modifier = { factor = 1.8 trait = just }
+			modifier = { factor = 0.4 trait = cruel }
+			modifier = { factor = 0.4 trait = arbitrary }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_methodist
+		trigger = { NOR = { trait = branch_methodist trait = baptized_by_bishop } }
+		hidden_tooltip = {
+			remove_trait = branch_pentecostal
+			remove_trait = branch_baptist
+			remove_trait = branch_presbyterian
+			remove_trait = branch_non_sectarian
+		}
+		add_trait = branch_methodist
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5	trait = grey_eminence }
+			modifier = { factor = 4	trait = charismatic_negotiator }
+			modifier = { factor = 3	trait = underhanded_rogue }
+			modifier = { factor = 2	trait = naive_appeaser }
+			modifier = { factor = 4	trait = socializer }
+			modifier = { factor = 3	trait = hedonist }
+			modifier = { factor = 2	trait = kind }
+			modifier = { factor = 1.5 trait = charitable }
+			modifier = { factor = 1.5 trait = just }
+			modifier = { factor = 0.3 trait = cruel }
+			modifier = { factor = 0.3 trait = arbitrary }
+			modifier = { factor = 2	trait = zealous }
+			modifier = { factor = 4	trait = theologian }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_non_sectarian
+		trigger = { NOR = { trait = branch_non_sectarian } }
+		hidden_tooltip = {
+			remove_trait = branch_pentecostal
+			remove_trait = branch_presbyterian
+			remove_trait = branch_methodist
+		}
+		add_trait = branch_non_sectarian
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5	trait = grey_eminence }
+			modifier = { factor = 4	trait = charismatic_negotiator }
+			modifier = { factor = 3	trait = underhanded_rogue }
+			modifier = { factor = 2	trait = naive_appeaser }
+			modifier = { factor = 2	trait = socializer }
+			modifier = { factor = 3	trait = kind }
+			modifier = { factor = 1.9 trait = charitable }
+			modifier = { factor = 1.8 trait = just }
+			modifier = { factor = 0.4 trait = cruel }
+			modifier = { factor = 0.4 trait = arbitrary }
+		}
+	}
+}
+	
+character_event = {
+	id = evangelical.3 #On conversion it does this
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = branch_baptist }
+			}
+			add_trait = branch_baptist
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = branch_methodist }
+			}
+			add_trait = branch_methodist
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = branch_pentecostal }
+			}
+			add_trait = branch_pentecostal
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { trait = branch_presbyterian }
+			}
+			add_trait = branch_presbyterian
+		}
+	}
+}
+
+character_event = {
+	id = evangelical.5
+	desc = EVTDESC_holy_spirit_encarnation_eva
+	picture = GFX_evt_secluded_in_prayer
+	is_triggered_only = yes
+	
+	option = {
+		trigger = {
+			martial = 8
+			religion = universal
+			has_character_flag = forming_nation_threehundredandeighteen
+			NOT = {
+				religion = evangelical
+				religion = holy_spirit
+			}
+		}
+		name = EVTOPTHO_holy_spirit
+		custom_tooltip = { text = nation_cccxviii_inspired }
+		hidden_tooltip = {
+			narrative_event = { id = evangelical.50 days = 10 }
+		}
+	}
+	option = {
+		tooltip_info = stewardship	
+		trigger = {
+			stewardship = 8
+			OR = {
+				religion = evangelical
+				religion = universal
+				AND = {
+					religion = holy_spirit
+					stewardship = 12
+					NOT = {
+						calc_true_if = {
+							amount >= 3
+							stewardship >= 12
+							diplomacy >= 12
+							martial >= 12
+							learning >= 12
+							trait = theologian
+						}
+					}
+				}
+			}
+		}	
+		name = EVTOPTA_holy_spirit
+		add_character_modifier = {
+			name = holy_spirit_stewardship
+			duration = 730
+		}
+	}
+	
+	option = {
+		tooltip_info = martial
+		trigger = {
+			martial = 8
+			OR = {
+				religion = evangelical
+				religion = universal
+				AND = {
+					religion = holy_spirit
+					martial = 12
+					NOT = {
+						calc_true_if = {
+							amount >= 3
+							stewardship >= 12
+							diplomacy >= 12
+							martial >= 12
+							learning >= 12
+							trait = theologian
+						}
+					}
+				}
+			}
+			NOT = {
+				has_character_flag = forming_nation_threehundredandeighteen
+				religion = holy_spirit
+			}
+		}
+			
+		name = EVTOPTB_holy_spirit
+		add_character_modifier = {
+			name = holy_spirit_martial
+			duration = 730
+		}
+	}
+	
+	option = {
+		tooltip_info = diplomacy
+		trigger = {
+			diplomacy = 8
+			OR = {
+				religion = evangelical
+				religion = universal
+				AND = {
+					religion = holy_spirit
+					diplomacy >= 12
+					NOT = {
+						calc_true_if = {
+							amount >= 3
+							stewardship >= 12
+							diplomacy >= 12
+							martial >= 12
+							learning >= 12
+							trait = theologian
+							religion = evangelical
+							religion = universal
+						}
+					}
+				}
+			}
+		}
+		
+		name = EVTOPTC_holy_spirit
+		add_character_modifier = {
+			name = holy_spirit_diplo
+			duration = 730
+		}
+	}
+	
+	option = {
+		tooltip_info = learning
+		trigger = {
+			learning = 8
+			NOT = {
+				trait = cynical
+			}
+			OR ={
+				religion = evangelical
+				religion = universal
+				AND = {
+					religion = holy_spirit
+					learning >= 12
+					NOT = {
+						calc_true_if = {
+							amount >= 3
+							stewardship >= 12
+							diplomacy >= 12
+							martial >= 12
+							learning >= 12
+							trait = theologian
+							religion = evangelical
+							religion = universal
+						}
+					}
+				}
+			}
+		}
+		name = EVTOPTD_holy_spirit
+		add_character_modifier = {
+			name = holy_spirit_learning
+			duration = 730
+		}
+	}
+	
+	option = {
+		trigger = {
+			trait = cynical
+		}
+		name = EVTOPTE_holy_spirit
+		add_character_modifier = {
+			name = holy_spirit_cynical
+			duration = 730
+		}
+	}
+	
+	option = {
+		trigger = {
+			AND = {
+				stewardship < 8
+				martial < 8
+				learning < 8
+				diplomacy < 8
+			}
+		}
+		
+		name = EVTOPTF_holy_spirit
+		add_character_modifier = {
+			name = failed_holy_spirit
+			duration = 730
+		}
+		piety = -200
+		
+		random_list = {
+			90 = {}
+			10 = { add_trait = depressed }
+		}
+	}
+	
+	option = {
+		tooltip_info = learning
+		trigger = {
+			religion = holy_spirit
+			learning = 12 
+			NOT = {
+				trait = cynical
+				calc_true_if = {
+					amount >= 3
+					stewardship >= 12
+					diplomacy >= 12
+					martial >= 12
+					learning >= 12
+					trait = theologian
+				}
+			}
+		}
+		
+		name = EVTOPTG_holy_spirit
+		add_character_modifier = {
+			name = holy_spirit_learning2
+			duration = 365
+		}
+	}
+	option = {
+		tooltip_info = diplomacy
+		trigger = {
+			religion = holy_spirit
+			diplomacy = 12 
+		}
+		name = EVTOPTH_holy_spirit
+		add_character_modifier = {
+			name = holy_spirit_diplomacy2
+			duration = 365
+		}
+	}
+	option = {
+		tooltip_info = martial
+		trigger = {
+			religion = holy_spirit
+			martial = 12 
+			NOT = {
+				religion = evangelical
+				religion = universal
+			}
+		}
+		
+		name = EVTOPTI_holy_spirit
+		add_character_modifier = {
+			name = holy_spirit_martial2
+			duration = 365
+		}
+	}
+	option = {
+		tooltip_info = stewardship
+		trigger = {
+			religion = holy_spirit
+			stewardship = 12 
+			NOT = {
+				religion = evangelical
+				religion = universal
+			}
+		}
+		name = EVTOPTJ_holy_spirit
+		add_character_modifier = {
+			name = holy_spirit_stewardship2
+			duration = 365
+		}
+	}
+	option = {
+		trigger = {
+			religion = holy_spirit
+			calc_true_if = {
+					amount >= 3
+					stewardship >= 12
+					diplomacy >= 12
+					martial >= 12
+					learning >= 12
+					trait = theologian
+			}
+		}
+		name = EVTOPTK_holy_spirit
+		hidden_tooltip = {
+			random_list = {
+				60 {narrative_event = { id = cultholyspirit.1 days = 10 }}
+				40 {narrative_event = { id = cultholyspirit.2 days = 10 }}
+				}
+			}
+		add_character_modifier = {
+			name = holy_spirit_blinding_light
+			duration = 730
+		}
+	}
+}
+
+character_event = {
+	id = evangelical.10 # Bible Study
+	title = EVTITLE_biblestudytime1
+	desc = EVTDESC_evangelical_bible_study1
+	picture = GFX_evt_open_book_hf
+	is_triggered_only = yes
+	immediate = {
+		set_variable = { which = biblestudy value = 1 }
+		set_character_flag = bible_studying
+	}
+	
+	option = {
+		name = "EVTOPT_old_testament"
+		set_character_flag = bs_old_book
+	}
+	option = {
+		name = "EVTOPT_new_testament"
+		set_character_flag = bs_new_book
+	}
+	option = {
+		name = "EVTOPT_wide_net"
+		trigger = {
+			learning = 10
+		}
+		tooltip_info = learning
+		set_character_flag = bs_wide_net
+		
+	}
+}
+
+character_event = {
+	id = evangelical.11 # Bible Study
+	title = EVTITLE_biblestudytime1
+	desc = EVTDESC_evangelical_bsmid1
+	picture = GFX_evt_monk
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	religion = evangelical
+	trigger = {
+		has_character_flag = bible_studying
+		OR = {
+			trait = branch_presbyterian
+			trait = branch_non_sectarian
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "EVTOPTA_bsmid1"
+		change_variable = { which = "biblestudy" value = 2 }
+		prestige = -100
+	}
+	option = {
+		name = "EVTOPTB_bsmid1"
+		subtract_variable = { which = "biblestudy" value = 1 }
+		prestige = 100
+	}
+	option = {
+		name = "EVTOPTC_bsmid1"
+		trigger = {
+			OR = {
+				trait = genius 
+				trait = quick
+				trait = shrewd
+			}
+		}
+		change_variable = { which = "biblestudy" value = 3 }
+		prestige = -100
+	}
+}
+
+character_event = {
+	id = evangelical.12 # Bible Study
+	title = EVTITLE_biblestudytime2
+	desc = EVTDESC_evangelical_bsmid2
+	picture = GFX_evt_monk
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	religion = evangelical
+	trigger = {
+		has_character_flag = bible_studying
+		OR = {
+			trait = branch_presbyterian
+			trait = branch_non_sectarian
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "EVTOPTA_bsmid2"
+		subtract_variable = { which = "biblestudy" value = 1 }
+		add_trait = slothful
+	}
+	option = {
+		name = "EVTOPTB_bsmid2"
+		change_variable = { which = "biblestudy" value = 2 }
+		random_list = {
+			30 = {}
+			70 = { add_trait = stressed }
+		}
+	}
+	option = {
+		name = "EVTOPTC_bsmid2"
+		trigger = {
+				trait = diligent
+			}
+		change_variable = { which = "biblestudy" value = 3 }
+		add_trait = stressed
+	}
+}
+
+character_event = {
+	id = evangelical.13 # Bible Study
+	title = EVTITLE_biblestudytime3
+	desc = EVTDESC_evangelical_bsmid3
+	picture = GFX_evt_monk
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	religion = evangelical
+	trigger = {
+		has_character_flag = bible_studying
+		OR = {
+			trait = branch_presbyterian
+			trait = branch_non_sectarian
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "EVTOPTA_bsmid3"
+		subtract_variable = { which = "biblestudy" value = 1 }
+		add_trait = slothful
+	}
+	option = {
+		name = "EVTOPTB_bsmid3"
+		change_variable = { which = "biblestudy" value = 2 }
+		random_list = {
+			40 = {}
+			60 = { add_trait = stressed }
+		}
+	}
+}
+
+character_event = {
+	id = evangelical.14 # Bible Study
+	title = EVTITLE_biblestudytime4
+	desc = EVTDESC_evangelical_bsmid4
+	picture = GFX_evt_monk
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	religion = evangelical
+	trigger = {
+		has_character_flag = bible_studying
+		OR = {
+			trait = branch_presbyterian
+			trait = branch_non_sectarian
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "EVTOPTA_bsmid4"
+		subtract_variable = { which = "biblestudy" value = 1 }
+		remove_trait = stressed
+	}
+	option = {
+		name = "EVTOPTB_bsmid4"
+		
+		random_list = {
+			change_variable = { which = "biblestudy" value = 1 }
+			change_variable = { which = "biblestudy" value = 2 }
+		}
+	}
+}
+
+character_event = {
+	id = evangelical.15 # Bible Study
+	title = EVTITLE_biblestudytime5
+	desc = EVTDESC_evangelical_bsmid5
+	picture = GFX_evt_monk
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	religion = evangelical
+	trigger = {
+		has_character_flag = bible_studying
+		OR = {
+			trait = branch_presbyterian
+			trait = branch_non_sectarian
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+		name = "EVTOPTA_bsmid5"
+		subtract_variable = { which = "biblestudy" value = 1 }
+		remove_trait = stressed
+	}
+	option = {
+		name = "EVTOPTB_bsmid5"
+		
+		random_list = {
+			change_variable = { which = "biblestudy" value = 1 }
+			change_variable = { which = "biblestudy" value = 2 }
+		}
+	}
+}
+
+character_event = {
+	id = evangelical.16 # Bible Study
+	title = EVTITLE_biblestudytime6
+	desc = EVTDESC_evangelical_bsmid6
+	picture = GFX_evt_monk
+	only_playable = yes
+	only_capable = yes
+	prisoner = no
+	min_age = 16
+	religion = evangelical
+	trigger = {
+		has_character_flag = bible_studying
+		OR = {
+			trait = branch_presbyterian
+			trait = branch_non_sectarian
+		}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	immediate = {
+    	job_spiritual = {
+    	save_event_target_as = friendly_advice_target_evg
+		}
+	}
+	option = {
+		name = "EVTOPTA_bsmid6"
+		
+		trigger_switch = {
+			event_target:friendly_advice_target_evg = {
+        			show_scope_change = no
+        			if = {
+        				limit = {
+        					attribute_diff = { character = ROOT attribute = learning value = 3 }
+        				}
+        				ROOT = {
+        					show_scope_change = no
+	        				custom_tooltip = { text = higher_quality_of_book_TT }
+	        				set_higher_quality_of_book_flags_effect = yes
+	        			}
+        			}
+        			else = {
+        				ROOT = {
+        					show_scope_change = no
+        					custom_tooltip = { text = lower_quality_of_book_TT }
+        					set_lower_quality_of_book_flags_effect = yes
+        				}
+        			}
+        		}
+        }
+	}
+	option = {
+		name = "EVTOPTB_bsmid6"
+		
+		random_list = {
+			change_variable = { which = "biblestudy" value = 1 }
+			change_variable = { which = "biblestudy" value = 2 }
+		}
+	}
+}
+

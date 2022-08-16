@@ -1,0 +1,21 @@
+# c_goya
+
+# County Title
+title = c_goya
+
+# Settlements
+max_settlements = 2
+
+b_goya = tribal
+b_esquina = castle
+#b_porvenir_2 = temple
+#b_marucha = castle
+#b_puerto_lavalle = city
+#b_san_isidro_2 = temple
+#b_perugorria = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

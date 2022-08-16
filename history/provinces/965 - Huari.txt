@@ -1,0 +1,21 @@
+# c_huari
+
+# County Title
+title = c_huari
+
+# Settlements
+max_settlements = 3
+
+b_huari = castle
+b_sihuas = city
+#b_fitzcarrald = temple
+#b_pomabamba = castle
+#b_luzuriaga = city
+#b_raymondi = temple
+#b_asuncion_de_huari = castle
+
+# Misc
+culture = huascareno
+religion = inti
+
+#History

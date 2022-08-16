@@ -1,0 +1,21 @@
+# c_canchis
+
+# County Title
+title = c_canchis
+
+# Settlements
+max_settlements = 4
+
+b_sicuani = castle
+b_santo_tomas_de_chumbivalcas = city
+b_yauri = temple
+#b_yanaoca = castle
+#b_checacupe = city
+#b_pitumarca = temple
+#b_ocoruro = castle
+
+# Misc
+culture = quechua
+religion = inti
+
+#History

@@ -1,0 +1,21 @@
+# c_itata
+
+# County Title
+title = c_itata
+
+# Settlements
+max_settlements = 3
+
+b_coelemu = castle
+#b_quirihue = city
+#b_quillon = temple
+#b_nipas = castle
+#b_nueva_aldea = city
+#b_portezuelo = temple
+#b_treguaco = castle
+
+# Misc
+culture = huaso
+religion = evangelical
+
+#History

@@ -1,0 +1,21 @@
+# c_americana
+
+# County Title
+title = c_americana
+
+# Settlements
+max_settlements = 6
+
+b_vila_mcknight = castle
+b_villa_americana = city
+b_santa_barbara_doeste = temple
+#b_nova_odessa = castle
+#b_sumare = city
+#b_cosmopolis = temple
+#b_paulinia = castle
+
+# Misc
+culture = americano
+religion = anchietican
+
+#History

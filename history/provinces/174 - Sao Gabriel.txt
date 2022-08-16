@@ -1,0 +1,21 @@
+# c_sao_gabriel
+
+# County Title
+title = c_sao_gabriel
+
+# Settlements
+max_settlements = 3
+
+b_sao_gabriel = tribal
+#b_santa_margarida_do_sul = city
+#b_caiboate = temple
+#b_vacacai = castle
+#b_tiaraju = city
+#b_lavras_do_sul = temple
+#b_caraimbazinho = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

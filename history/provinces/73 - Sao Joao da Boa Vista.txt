@@ -1,0 +1,21 @@
+# c_sao_joao_da_boa_vista
+
+# County Title
+title = c_sao_joao_da_boa_vista
+
+# Settlements
+max_settlements = 3
+
+b_aguai = castle
+b_pinheiros_2 = temple
+#b_vargem_grande = temple
+#b_fleming = castle
+#b_zanetti = city
+#b_jardim_michelazzo = temple
+#b_yolanda = castle
+
+# Misc
+culture = camponeto
+religion = anchietican
+
+#History

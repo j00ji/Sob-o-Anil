@@ -1,0 +1,21 @@
+# c_canama
+
+# County Title
+title = c_canama
+
+# Settlements
+max_settlements = 2
+
+b_canama = tribal
+#b_cajueiro_2 = city
+#b_miraflor = temple
+#b_engano = castle
+#b_elvira_palmeiras = city
+#b_argemiro = temple
+#b_jarina = castle
+
+# Misc
+culture = matis
+religion = xabaxai_xagi
+
+#History

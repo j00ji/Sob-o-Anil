@@ -1,0 +1,21 @@
+# c_autazes
+
+# County Title
+title = c_autazes
+
+# Settlements
+max_settlements = 2
+
+b_urucuritiba = castle
+#b_canarana_2 = city
+#b_autazes = temple
+#b_cacoal = castle
+#b_olinda_do_norte = city
+#b_maues = temple
+#b_barreirinha = castle
+
+# Misc
+culture = amazonense
+religion = amazonian_jews
+
+#History

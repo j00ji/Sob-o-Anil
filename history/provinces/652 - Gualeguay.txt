@@ -1,0 +1,21 @@
+# c_gualeguay
+
+# County Title
+title = c_gualeguay
+
+# Settlements
+max_settlements = 3
+
+b_gualeguay = castle
+b_ceibas = city
+#b_paranacito = temple
+#b_medanos = castle
+#b_ibicuy = city
+#b_constanza = temple
+#b_mazaruca = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

@@ -1,0 +1,21 @@
+# c_general_roca
+
+# County Title
+title = c_general_roca
+
+# Settlements
+max_settlements = 5
+
+b_general_roca = tribal
+b_cipolletti = temple
+#b_villa_regina = temple
+#b_allen = castle
+#b_cinco_saltos = city
+#b_cervantes = temple
+#b_fernandez_oro = castle
+
+# Misc
+culture = desertico
+religion = gaucheria
+
+#History

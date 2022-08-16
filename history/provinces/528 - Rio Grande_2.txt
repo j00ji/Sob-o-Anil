@@ -1,0 +1,21 @@
+# c_rio_grande_2
+
+# County Title
+title = c_rio_grande_2
+
+# Settlements
+max_settlements = 3
+
+b_buriti = tribal
+b_santo_antonio_7 = temple
+#b_camboleiro = temple
+#b_nova_santana = castle
+#b_bela_sombra = city
+#b_pega_do_custodio = temple
+#b_pintada = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

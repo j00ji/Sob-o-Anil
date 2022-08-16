@@ -1,0 +1,1224 @@
+
+###ÄNSI
+
+70001={
+	name="Augusto"
+	dynasty=35022
+	religion=evangelical
+	culture=carioca
+	disallow_random_traits=yes
+	add_trait=charismatic_negotiator
+	add_trait=branch_baptist
+	add_trait=stutter 
+	add_trait=gregarious
+	add_trait=shrewd
+	add_trait=hedonist 
+	add_trait=slothful
+	add_trait=greedy
+	add_trait=ambitious
+	add_trait=craven
+	add_trait=deceitful
+	
+	martial=4
+	diplomacy=8
+	intrigue=8
+	stewardship=5
+	learning=5
+	
+	2328.4.22={birth=yes}
+	2357.2.11={
+		add_spouse=70002
+	}
+}
+70002={
+	name="Maria Isabel"
+	female=yes
+	dynasty=35023
+	religion=evangelical
+	culture=carioca
+	father=70004
+	mother=70005
+	disallow_random_traits=yes
+	add_trait=thrifty_clerk
+	add_trait=branch_methodist
+	add_trait=diligent 
+	add_trait=kind
+	add_trait=arbitrary
+	add_trait=stubborn 
+	add_trait=sturdy
+	
+	martial=6
+	diplomacy=4
+	intrigue=7
+	stewardship=7
+	learning=6
+	
+	2333.9.9={birth=yes}
+}
+70003={
+	name="Artur"
+	dynasty=35023
+	religion=evangelical
+	culture=carioca
+	father=70004
+	mother=70005
+	disallow_random_traits=yes
+	add_trait=misguided_warrior 
+	add_trait=branch_pentecostal
+	add_trait=slothful
+	add_trait=dull
+	add_trait=poet
+	add_trait=hedonist
+	add_trait=sturdy
+	
+	martial=9
+	diplomacy=3
+	intrigue=8
+	stewardship=4
+	learning=4
+	
+	2337.2.17={birth=yes}
+}
+70004={
+	name="Lineu"
+	dynasty=35023
+	religion=evangelical
+	culture=carioca
+	father=70004
+	mother=70005
+	disallow_random_traits=yes
+	add_trait=midas_touched
+	add_trait=branch_methodist
+	add_trait=diligent
+	add_trait=cynical
+	add_trait=just
+	add_trait=groomed
+	add_trait=administrator
+	
+	martial=4
+	diplomacy=3
+	intrigue=4
+	stewardship=8
+	learning=7
+	
+	2312.1.11={birth=yes}
+	2333.1.6={
+		add_spouse=70005
+	}
+}
+70005={
+	name="Irene"
+	dynasty=35001
+	female=yes
+	religion=evangelical
+	culture=carioca
+	disallow_random_traits=yes
+	add_trait=flamboyant_schemer
+	add_trait=branch_baptist
+	add_trait=mystic
+	add_trait=kind
+	add_trait=charitable
+	add_trait=gluttonous
+	
+	martial=5
+	diplomacy=6
+	intrigue=4
+	stewardship=6
+	learning=8
+	
+	2315.3.7={birth=yes}
+}
+
+70006={
+	name="Jamilson"
+	dynasty=35023
+	religion=evangelical
+	culture=carioca
+	disallow_random_traits=yes
+	add_trait=mastermind_theologian
+	add_trait=branch_pentecostal
+	add_trait=one_handed
+	add_trait=one_legged
+	add_trait=kind
+	add_trait=humble
+	add_trait=cynical
+	add_trait=socializer
+	add_trait=just
+	
+	employer=70010
+	
+	2349.8.18={birth=yes}
+}
+70007={
+	name="Gabriel"
+	dynasty=35008
+	religion=evangelical
+	culture=carioca
+	disallow_random_traits=yes
+	add_trait=branch_presbyterian
+	add_trait=underhanded_rogue
+	add_trait=quick
+	add_trait=stutter
+	add_trait=robust
+	add_trait=patient
+	add_trait=temperate
+	add_trait=proud
+	add_trait=honest
+	add_trait=shy
+		
+	2347.6.19={birth=yes}
+}
+70008={
+	name="Beatriz"
+	dynasty=35015
+	female=yes
+	religion=evangelical
+	culture=carioca
+	disallow_random_traits=yes
+	add_trait=intricate_webweaver
+	add_trait=branch_pentecostal
+	add_trait=robust
+	add_trait=diligent
+	add_trait=envious
+	add_trait=mystic
+	add_trait=proud
+	add_trait=trusting
+	add_trait=homosexual
+	
+	2349.12.14={birth=yes}
+	
+	2368.7.10={
+		effect={
+			add_lover=70009
+		}
+	}
+}
+70009={
+	name="Tayana"
+	dynasty=35002
+	female=yes
+	religion=liberationist
+	culture=salvadorense
+	disallow_random_traits=yes
+	add_trait=scholarly_theologian
+	add_trait=zealous
+	add_trait=kind
+	add_trait=trusting
+	add_trait=shy
+	add_trait=proud
+	add_trait=homosexual
+	
+	2344.6.27={
+		birth=yes
+		culture=carioca
+	}
+	
+	2368.7.10={
+		effect={
+			add_lover=70008
+		}
+	}
+}
+70010={
+	name="Igor"
+	dynasty=35039
+	religion=evangelical
+	secret_religion=herderos
+	culture=carioca
+	disallow_random_traits=yes
+	add_trait=branch_presbyterian
+	add_trait=fortune_builder
+	add_trait=patient
+	add_trait=gamer
+	add_trait=ambitious
+	add_trait=cynical
+	add_trait=just
+	add_trait=stubborn
+	
+	2349.12.22={birth=yes}
+}
+70011={
+	name="Fabricio"
+	dynasty=35015
+	religion=evangelical
+	culture=salvadorense
+	disallow_random_traits=yes
+	add_trait=intricate_webweaver
+	add_trait=branch_pentecostal
+	add_trait=diligent
+	add_trait=envious
+	add_trait=arbitrary
+	add_trait=elusive_shadow
+	add_trait=wroth
+	
+	employer=70010
+
+	2349.8.2={
+		birth=yes
+		culture=carioca
+	}
+}
+70012={
+	name="Daniel"
+	dynasty=35040
+	religion=evangelical
+	culture=salvadorense
+	disallow_random_traits=yes
+	add_trait=charismatic_negotiator
+	add_trait=branch_presbyterian
+	add_trait=lefthanded
+	add_trait=proud
+	add_trait=temperate
+	add_trait=gamer
+	add_trait=slothful
+	
+	2349.5.10={
+		birth=yes
+		culture=carioca
+	}
+	2366.6.12={
+		effect={
+			add_friend=80002
+		}
+	}
+}
+70013={
+	name="Breno"
+	dynasty=35041
+	religion=evangelical
+	culture=carioca
+	disallow_random_traits=yes
+	add_trait=scholarly_theologian
+	add_trait=branch_baptist
+	add_trait=poet
+	add_trait=patient
+	add_trait=kind
+	add_trait=humble
+	add_trait=erudite
+	add_trait=trusting
+	add_trait=sympathy_judaism
+	
+	2347.5.17={birth=yes}
+}
+70014={
+	name="Pedro"
+	dynasty=35005
+	religion=evangelical
+	add_trait=branch_pentecostal
+	culture=sertanista
+	add_trait=misguided_warrior
+	add_trait=gregarious
+	add_trait=groomed
+	add_trait=twin
+	add_trait=humble
+	
+	father=70016
+	
+	2349.8.10={
+		birth=yes
+		culture=carioca
+	}
+}
+70015={
+	name="Matheus"
+	dynasty=35005
+	religion=evangelical
+	culture=sertanista
+	add_trait=branch_presbyterian
+	add_trait=thrifty_clerk
+	add_trait=kind
+	add_trait=diligent
+	add_trait=twin
+	add_trait=craven
+	
+	father=70016
+	
+	employer=70015
+	
+	2349.8.10={
+		birth=yes
+		culture=carioca
+	}
+}
+70016 ={
+	name="Fernando"
+	dynasty=35005
+	religion=evangelical
+	culture=sertanista
+	add_trait=branch_pentecostal
+	2314.9.1={
+		birth=yes
+		culture=carioca
+	}
+}
+70017={
+	name="Renato"
+	dynasty=35013
+	religion=evangelical
+	culture=carioca
+	add_trait=tough_soldier
+	add_trait=branch_pentecostal
+	add_trait=arbitrary
+	add_trait=narrow_flank_leader
+	add_trait=chaste
+	add_trait=greedy
+	add_trait=paranoid
+	
+	2332.7.18={birth=yes}
+	
+	2352.10.2={
+		add_spouse=70018
+	}
+}
+70018={
+	name="Ana Clara"
+	female=yes
+	religion=evangelical
+	culture=carioca
+	add_trait=branch_pentecostal
+	2333.4.10={
+		birth=yes
+		effect={ dynasty=none }
+	}
+}	
+70019={
+	name="Bernardo"
+	dynasty=35018
+	religion=evangelical
+	culture=carioca
+	add_trait=skilled_tactician
+	add_trait=branch_methodist
+	add_trait=brave
+	add_trait=stubborn
+	add_trait=deceitful
+	add_trait=lustful
+	
+	2342.10.5={birth=yes}
+}
+70020={
+	name="Thaís"
+	religion=evangelical
+	culture=carioca
+	
+	disallow_random_traits=yes
+	female=yes
+	add_trait=branch_presbyterian
+	add_trait=mastermind_theologian
+	add_trait=quick
+	add_trait=homosexual
+	add_trait=zealous
+	add_trait=scholar
+	add_trait=kind
+	add_trait=proud
+	add_trait=erudite
+	add_trait=shy
+	
+	2351.3.10={
+		birth=yes
+		effect={ dynasty=none }
+	}
+}
+70021={
+	name="Giovanna"
+	religion=evangelical
+	culture=carioca
+	dynasty = 35041
+	disallow_random_traits=yes
+	female=yes
+	add_trait=branch_presbyterian
+	add_trait=tough_soldier
+	add_trait=brave
+	add_trait=sturdy
+	martial = 8
+	
+	2350.1.20={
+		birth=yes
+		effect={ dynasty=none }
+	}
+}
+70022={
+	name="Saulo"
+	religion=evangelical
+	culture=carioca
+	dynasty = 35020
+	disallow_random_traits=yes
+	add_trait=branch_pentecostal
+	add_trait=misguided_warrior
+	add_trait=shy
+	add_trait=sturdy
+	martial = 9
+	
+	2330.9.12={
+		birth=yes
+		effect={ dynasty=none }
+	}
+}
+70023={
+	name="Roberto"
+	religion=evangelical
+	culture=carioca
+	dynasty = 35028
+	disallow_random_traits=yes
+	add_trait=branch_baptist
+	add_trait=brilliant_strategist
+	add_trait=temperate
+	add_trait=scarred
+	martial = 4
+	
+	2340.4.4={
+		birth=yes
+		effect={ dynasty=none }
+	}
+}
+70024={
+	name="Pedro"
+	religion=evangelical
+	culture=carioca
+	dynasty = 35018
+	disallow_random_traits=yes
+	add_trait=branch_baptist
+	add_trait=tough_soldier
+	add_trait=slothful
+	add_trait=honest
+	martial = 6
+	
+	2336.2.4={
+		birth=yes
+		effect={ dynasty=none }
+	}
+}
+	# The Da Paixão Adventurers #
+
+80001={
+	name="Edmundo"
+	dynasty=40001 #Da Paixão
+	religion=evangelical
+	culture=mantiqueiro
+	martial=10
+	diplomacy=2
+	intrigue=4
+	disallow_random_traits=yes
+	add_trait=branch_pentecostal
+	add_trait=skilled_tactician
+	add_trait=diligent
+	add_trait=wroth
+	add_trait=stubborn 
+	add_trait=aggressive_leader 
+	add_trait=dull
+	add_trait=brave
+	
+	2310.2.8={birth=yes}
+	2330.8.12={
+		add_spouse=80004
+	}
+	2352.4.9={
+		death={
+			death_reason=death_duel
+			killer=80008
+		}
+	}
+}
+80002={
+	name="Camila"
+	dynasty=40001
+	female=yes
+	religion=evangelical
+	culture=mantiqueiro
+	dna=dgjdeteicbj
+	father=80001
+	mother=80004
+	martial=6
+    diplomacy=7
+    intrigue=7
+    stewardship=6
+	disallow_random_traits=yes
+	add_trait=fortune_builder
+	add_trait=branch_pentecostal
+	add_trait=diligent
+	add_trait=honest
+	add_trait=erudite
+	add_trait=arbitrary
+	add_trait=proud
+	add_trait=kind
+	add_trait=homosexual
+	
+	2350.4.21={
+		birth=yes
+		effect={
+			set_character_flag=dapaixao
+		}
+	}
+	
+	2366.6.12={
+		effect={
+			add_friend=70012
+		}
+	}
+}
+80003={
+	name="Lais"
+	dynasty=40001
+	female=yes
+	religion=evangelical
+	culture=mantiqueiro
+	father=80001
+	mother=80004
+	add_trait=branch_presbyterian
+	2352.2.16={birth=yes}
+	2369.1.1={
+		employer=80002
+		add_trait=charismatic_negotiator
+		add_trait=shrewd
+		effect={add_weak_claim=d_goytacazia}
+	}
+}
+80004={
+	name="Jennifer"
+	dynasty=0
+	religion=evangelical
+	female=yes
+	culture=mantiqueiro
+	add_trait=zealous
+	add_trait=branch_pentecostal
+	2314.8.10={birth=yes}
+}
+
+	# THE LORDS OF THE VALLEY #
+80008={
+	name="Elvira"
+	dynasty=40039
+	religion=evangelical
+	female=yes
+	culture=kyusei
+	disallow_random_traits=yes
+	add_trait=brilliant_strategist
+	add_trait=branch_methodist
+	add_trait=scarred_mid
+	add_trait=one_handed
+	add_trait=quick
+	add_trait=ambitious
+	add_trait=groomed
+	add_trait=chaste
+	add_trait=patient
+	add_trait=honest
+	2337.4.20={
+		birth=yes
+		culture=mantiqueiro
+	}
+}
+	
+80009={
+	name="Ruan Vitor"
+	dynasty=40032
+	culture=inca
+	religion=evangelical
+	disallow_random_traits=yes
+	add_trait=branch_presbyterian
+	add_trait=indulgent_wastrel
+	add_trait=dwarf
+	add_trait=ambitious
+	add_trait=gregarious
+	add_trait=deceitful
+	add_trait=cynical
+	
+	2350.8.2={
+		birth=yes
+		culture=mantiqueiro
+	}
+}
+	
+80010={
+	name="Paulo Arthur"
+	dynasty=40041
+	culture=salvadorense
+	religion=evangelical
+	disallow_random_traits=yes
+	add_trait=midas_touched
+	add_trait=branch_pentecostal
+	add_trait=sturdy
+	add_trait=greedy
+	add_trait=wroth
+	add_trait=brave
+	add_trait=ambitious
+	2350.3.29={
+		birth=yes
+		culture=mantiqueiro
+	}
+}
+80011={
+	name="Emanuel"
+	dynasty=40014
+	culture=rutenio
+	religion=evangelical
+	disallow_random_traits=yes
+	add_trait=branch_baptist
+	add_trait=scholarly_theologian
+	add_trait =	zealous
+	add_trait=charitable
+	add_trait=proud
+	add_trait=chaste
+	add_trait=honest
+	add_trait=stubborn
+	2350.1.16={
+		birth=yes
+		culture=mantiqueiro
+	}
+}
+80012={ 
+	name="Alonso"
+	dynasty=40026
+	culture=mantiqueiro
+	religion=apostolic
+	disallow_random_traits=yes
+	add_trait=grey_eminence
+	add_trait=branch_methodist
+	add_trait =	maimed
+	add_trait=kind
+	add_trait=just
+	add_trait=shrewd
+	add_trait=quick
+	add_trait=cancer 
+	add_trait=flowered
+	add_trait=depressed
+	2308.7.15={
+		birth=yes
+		effect={
+			set_character_flag=dukeofthevalley
+		}
+	}
+	2331.10.9={
+		add_spouse=80014
+	}
+}
+80013={
+	name="Penélope"
+	dynasty=40026
+	culture=mantiqueiro
+	religion=apostolic
+	female=yes
+	disallow_random_traits=yes
+	father=80012
+	mother=80014
+	add_trait=skilled_tactician
+	add_trait=branch_methodist
+	add_trait=fair
+	add_trait=quick
+	add_trait=just
+	add_trait=kind
+	add_trait=humble
+	add_trait=gardener
+	
+	2352.4.12={birth=yes}
+}
+80014={
+	name="Arlete"
+	dynasty=40037
+	culture=mantiqueiro
+	religion=apostolic
+	female=yes
+	add_trait=branch_methodist
+	2308.7.15={birth=yes}
+	2331.10.9={
+		add_spouse=80012
+	}
+	2352.4.12={death={death_reason=death_childbirth}}
+}
+80015={
+	name="Lucas"
+	dynasty=35009
+	culture=mantiqueiro
+	add_trait=branch_presbyterian
+	religion=evangelical
+	
+	2348.10.5={birth=yes}
+}
+80016={
+	name="Ernesto"
+	dynasty=40007
+	culture=mantiqueiro
+	religion=umbanda
+	
+	2336.10.5={birth=yes}
+}
+80017={
+	name="Sérgio"
+	dynasty=40017
+	culture=mantiqueiro
+	religion=evangelical
+	add_trait=branch_baptist
+	
+	2337.10.28={birth=yes}
+}
+
+#POMERANOS
+
+90001={
+	name="Miguel"
+	dynasty=35038
+	culture=pomerisch
+	religion=evangelical
+	add_trait=branch_pentecostal
+	add_trait=tough_soldier
+	add_trait=adventurer
+	add_trait=just
+	add_trait=greedy
+	add_trait=stubborn
+	2342.6.9={birth=yes}
+}
+90002={ 
+	name="Valdislei"
+	dynasty=45026
+	culture=pomerisch
+	religion=evangelical
+	#add_trait=legendary ###NEEDS TO BE ADDED
+	add_trait=branch_pentecostal
+	2196.7.4={birth=yes}
+	2242.11.25={death=yes}
+}
+90003={ 
+	name="Valdislei"
+	dynasty=45026
+	culture=pomerisch
+	religion=evangelical
+	add_trait=zealous
+	add_trait=charismatic_negotiator
+	add_trait=branch_methodist
+	add_trait=dysentery
+	father=90002
+	2217.3.13={birth=yes}
+	2240.4.19={add_spouse=90018}
+	2271.7.3={death = {death_reason=death_trait}}
+}
+90004={
+	name="Bolgislei"
+	culture=pomerisch
+	dynasty=45026
+	religion=evangelical
+	add_trait=tough_soldier
+	add_trait=branch_pentecostal
+	father=90003
+	mother=90018
+	2244.4.27={birth=yes}
+	2262.8.10={add_spouse=90019}
+	2294.12.5={death = {death_reason=death_accident}}
+}
+90005={
+	name="Casimiro"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	add_trait=imbecile
+	add_trait=branch_baptist
+	father=90004
+	mother=90019
+	2274.2.11={birth=yes}
+	2290.2.11={add_spouse=90020}
+	2302.8.30={death = {death_reason=murder_unknown killer = 90007}}
+}
+90006={
+	name="Katia"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	female=yes
+	father=90003
+	mother=90019
+	add_trait=quick
+	add_trait=scholar
+	add_trait=branch_baptist
+	2277.2.10={birth=yes}
+	2295.8.3={add_matrilineal_spouse=90021}
+	2324.10.9={death = yes}
+}
+90007={
+	name="Valdislei"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	father=90003
+	mother=90019
+	add_trait=branch_methodist
+	add_trait=misguided_warrior
+	add_trait=deceitful
+	add_trait=ambitious
+	2280.4.22={birth=yes}
+	2310.5.6={add_spouse=90023}
+	2329.10.2={effect_even_if_dead={add_lover=90024}}
+	2344.7.12={add_spouse=90024}
+	2361.3.22={death = {death_reason=death_suicide}}
+}
+90008={
+	name="Hank"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	add_trait=tough_soldier
+	add_trait=branch_pentecostal
+	add_trait=brave
+	father=90007
+	mother=90023
+	2314.9.8={birth=yes}
+	2339.7.7={death = {death_reason=death_battle}}
+}
+90009={
+	name="Patrick"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	add_trait=brilliant_strategist
+	add_trait=branch_presbyterian
+	add_trait=shy
+	father=90007
+	mother=90023
+	2318.4.19={birth=yes}
+	2339.7.7={death = {death_reason=death_battle}}
+}
+90010={
+	name="Augusto"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45028
+	disallow_random_traits=yes
+	add_trait=branch_methodist
+	add_trait=flamboyant_schemer
+	add_trait=bastard
+	add_trait=wroth
+	add_trait=honest
+	add_trait=uncouth
+	add_trait=proud
+	add_trait=rough_terrain_leader
+	add_trait=stubborn
+	father=90007
+	mother=90024
+	2332.9.3={birth=yes}
+}
+90011={
+	name="Estevão"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	disallow_random_traits=yes
+	add_trait=tough_soldier
+	add_trait=branch_pentecostal
+	add_trait=craven
+	add_trait=arbitrary
+	add_trait=paranoid
+	add_trait=temperate
+	add_trait=trusting
+	father=90007
+	mother=90024
+	2346.3.13={birth=yes}
+}
+90012={
+	name="Jonhattan"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	add_trait=quick
+	add_trait=branch_baptist
+	father=90004
+	mother=90020
+	2298.2.11={birth=yes}
+	2308.4.17={death = {death_reason=murder_unknown killer = 90007}}
+}
+90013={
+	name="Hilda"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	female=yes
+	father=90021
+	mother=90006
+	add_trait=celibate
+	add_trait=branch_methodist
+	2298.6.1={birth=yes}
+	2352.9.10={death=yes}
+}
+90014={
+	name="Lucas"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	father=90021
+	mother=90006
+	add_trait=gardener
+	add_trait=hunchback
+	add_trait=branch_baptist
+	2301.4.27={birth=yes}
+	2339.7.7={death = {death_reason=death_battle}}
+}
+90015={
+	name="Tomás"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	father=90021
+	mother=90006
+	add_trait=gardener
+	add_trait=hunchback
+	add_trait=branch_presbyterian
+	2301.4.27={birth=yes}
+	2332.10.9={add_spouse=90022}
+	2339.7.7={death = {death_reason=death_battle}}
+}
+90016={
+	name="Tomás"
+	culture=pomerisch
+	religion=evangelical
+	dynasty=45026
+	father=90015
+	mother=90022
+	add_trait=branch_pentecostal
+	2334.5.17={birth=yes}
+}
+90017={
+	name="Elisa"
+	culture=pomerisch
+	religion=evangelical
+	female=yes
+	dynasty=45026
+	father=90015
+	mother=90022
+	add_trait=branch_methodist
+	2334.5.17={birth=yes}
+}
+90018={
+	name="Carla"
+	culture=pomerisch
+	religion=evangelical
+	female=yes
+	dynasty=45004
+	add_trait=branch_baptist
+	2223.8.13={birth=yes}
+	2283.6.6={death=yes}
+}
+90019={
+	name="Helda"
+	culture=pomerisch
+	religion=evangelical
+	female=yes
+	add_trait=genius
+	dynasty=45011
+	add_trait=branch_presbyterian
+	2246.8.7={birth=yes}
+	2280.4.22={death = {death_reason=death_childbirth}}
+}
+90020={
+	name="Samanta"
+	culture=pomerisch
+	religion=evangelical
+	female=yes
+	dynasty=45012
+	add_trait=branch_methodist
+	2272.2.22={birth=yes}
+	2308.4.17={death = {death_reason=murder_unknown killer = 90007}}
+}
+90021={
+	name="Carlos"
+	culture=capixaba
+	religion=evangelical
+	dynasty=50030
+	mother=100001
+	add_trait=branch_pentecostal
+	2267.9.10={birth=yes}
+	2314.12.9={death=yes}
+}
+90022={
+	name="Fernanda"
+	culture=pomerisch
+	religion=evangelical
+	disallow_random_traits=yes
+	add_trait=underhanded_rogue
+	add_trait=branch_methodist
+	add_trait=feeble
+	add_trait=patient
+	add_trait=paranoid
+	add_trait=honest
+	female=yes
+	dynasty=45013
+	2315.1.4={birth=yes}
+}
+90023={
+	name="Laura"
+	culture=pomerisch
+	religion=evangelical
+	disallow_random_traits=yes
+	add_trait=flamboyant_schemer
+	add_trait=branch_pentecostal
+	add_trait=lustful
+	add_trait=humble
+	add_trait=paranoid
+	add_trait=cynical
+	female=yes
+	dynasty=45014
+	2394.7.14={birth=yes}
+	2344.12.25={death = {death_reason=death_suicide}}
+}
+90024={
+	name="Zilda"
+	culture=pomerisch
+	religion=evangelical
+	disallow_random_traits=yes
+	add_trait=naive_appeaser
+	add_trait=branch_baptist
+	add_trait=lustful
+	add_trait=trusting
+	add_trait=kind
+	add_trait=slow
+	add_trait=mystic
+	female=yes
+	dynasty=45015
+	2394.7.14={birth=yes}
+	2364.8.9={death = {death_reason=murder_unknown killer=90022}}
+}
+#CAPIXABAS
+100001={
+	name="Bárbara"
+	culture=capixaba
+	female=yes
+	religion=evangelical
+	add_trait=branch_methodist
+	dynasty=50030
+	2237.9.10={birth=yes}
+	2304.1.28={death=yes}
+}
+100002={
+	name="Laura"
+	culture=capixaba
+	female=yes
+	mother=100001
+	religion=evangelical
+	add_trait=branch_pentecostal
+	dynasty=50030
+	2257.9.10={birth=yes}
+	2275.10.9={add_matrilineal_spouse=100003}
+	2316.12.5={death=yes}
+}
+100003={
+	name="Paulo"
+	culture=capixaba
+	religion=evangelical
+	add_trait=branch_pentecostal
+	dynasty=0
+	add_trait=flu
+	2258.7.9={birth=yes}
+	2305.3.30={death = {death_reason=death_trait}}
+}
+100004={
+	name="Sarah"
+	culture=capixaba
+	female=yes
+	mother=100002
+	father=100003
+	religion=evangelical
+	add_trait=branch_pentecostal
+	dynasty=50030
+	2279.1.4={birth=yes}
+	2295.1.6={add_matrilineal_spouse=100005}
+	2345.10.8={death=yes}
+}
+100005={
+	name="Pablo"
+	culture=capixaba
+	religion=evangelical
+	add_trait=branch_presbyterian
+	dynasty=0
+	2276.11.18={birth=yes}
+	2338.5.3={death=yes}
+}
+100006={
+	name="Eduardo"
+	culture=capixaba
+	mother=100004
+	father=100005
+	religion=evangelical
+	add_trait=branch_methodist
+	dynasty=50030
+	2312.9.19={birth=yes}
+	2336.9.19={add_spouse=100007}
+	2354.8.26={death = {death_reason=death_duel}}
+}
+100007={
+	name="Mônica"
+	culture=capixaba
+	female=yes
+	religion=evangelical
+	dynasty=0
+	add_trait=branch_methodist
+	trait=has_typhoid_fever
+	2219.6.27={birth=yes}
+	2363.10.3={death = {death_reason=death_trait}}
+}
+100008={
+	name="Sasha"
+	culture=capixaba
+	female=yes
+	mother=100006
+	father=100007
+	religion=evangelical
+	dynasty=50030
+	disallow_random_traits=yes
+	add_trait=charismatic_negotiator
+	add_trait=branch_baptist
+	add_trait=duelist
+	add_trait=wroth
+	add_trait=drunkard
+	add_trait=stubborn
+	add_trait=strong
+	add_trait=slow
+	2338.1.16={birth=yes}
+}
+100009={
+	name="Sarah"
+	culture=capixaba
+	female=yes
+	mother=100006
+	father=100007
+	religion=evangelical
+	dynasty=50030
+	disallow_random_traits=yes
+	add_trait=fortune_builder
+	add_trait=branch_baptist
+	add_trait=strong
+	add_trait=trusting
+	add_trait=dwarf
+	add_trait=fair
+	2340.4.12={birth=yes}
+}
+100010={
+	name="Nina"
+	culture=capixaba
+	female=yes
+	mother=100006
+	father=100007
+	religion=evangelical
+	dynasty=50030
+	disallow_random_traits=yes
+	add_trait=elusive_shadow
+	add_trait=branch_methodist
+	add_trait=scarred
+	add_trait=administrator
+	add_trait=mystic
+	add_trait=lisp
+	add_trait=deceitful
+	2345.8.22={birth=yes}
+}
+100011={
+	name="Catarina"
+	culture=capixaba
+	female=yes
+	mother=100006
+	father=100007
+	religion=evangelical
+	dynasty=50030
+	disallow_random_traits=yes
+	add_trait=underhanded_rogue
+	add_trait=branch_presbyterian
+	add_trait=greedy
+	add_trait=lustful
+	add_trait=craven
+	add_trait=diligent
+	add_trait=seductress
+	add_trait=gregarious
+	2349.10.1={birth=yes}
+}

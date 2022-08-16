@@ -1,0 +1,21 @@
+# c_boquira
+
+# County Title
+title = c_boquira
+
+# Settlements
+max_settlements = 2
+
+b_canarana = castle
+#b_salobro = city
+#b_lagoa_funda = temple
+#b_barro_alto_2 = castle
+#b_ibipeba = city
+#b_lajedao = temple
+#b_aguada_nova = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

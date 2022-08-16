@@ -1,0 +1,21 @@
+# c_ataituba
+
+# County Title
+title = c_ataituba
+
+# Settlements
+max_settlements = 3
+
+b_ataituba = tribal
+#b_limao = city
+#b_urua = temple
+#b_andira_marau = castle
+#b_quem_dizia = city
+#b_catavara = temple
+#b_bubure = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

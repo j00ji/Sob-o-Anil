@@ -1,0 +1,21 @@
+# c_azuay
+
+# County Title
+title = c_azuay
+
+# Settlements
+max_settlements = 6
+
+b_cuenca = castle
+b_azogues = city
+b_canar = temple
+b_la_troncal = castle
+b_gualaceo = city
+#b_sigsig = temple
+#b_ponce_enriquez = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

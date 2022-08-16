@@ -1,0 +1,21 @@
+# c_catu
+
+# County Title
+title = c_catu
+
+# Settlements
+max_settlements = 4
+
+b_catu = castle
+b_pojuca = temple
+#b_dias_davila = temple
+#b_miranga = castle
+#b_acu_de_chao = city
+#b_acu_da_torre = temple
+#b_amado_bahia = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

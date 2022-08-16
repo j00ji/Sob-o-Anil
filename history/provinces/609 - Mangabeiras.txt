@@ -1,0 +1,21 @@
+# c_mangabeiras
+
+# County Title
+title = c_mangabeiras
+
+# Settlements
+max_settlements = 2
+
+b_nova_colinas = tribal
+#b_nogueiras = city
+#b_canto_grande = temple
+#b_balsas = castle
+#b_riachao_2 = city
+#b_angelim = temple
+#b_formosa_2 = castle
+
+# Misc
+culture = kraho
+religion = manredebu
+
+#History

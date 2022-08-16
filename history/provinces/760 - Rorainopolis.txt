@@ -1,0 +1,21 @@
+# c_rorainopolis
+
+# County Title
+title = c_rorainopolis
+
+# Settlements
+max_settlements = 3
+
+b_rorainopolis = tribal
+b_caroebe = temple
+#b_baliza_2 = temple
+#b_waiwa = castle
+#b_vila_do_incra = city
+#b_anaua = temple
+#b_mocidade = castle
+
+# Misc
+culture = roraimo
+religion = hekura
+
+#History

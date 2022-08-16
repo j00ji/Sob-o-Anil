@@ -1,0 +1,21 @@
+# c_huancayo
+
+# County Title
+title = c_huancayo
+
+# Settlements
+max_settlements = 5
+
+b_huancayo = castle
+b_jauja = city
+b_concepcion_de_junin = temple
+b_chupaca = castle
+#b_chilca_2 = city
+#b_pilcomayo = temple
+#b_usibamba = castle
+
+# Misc
+culture = huanca
+religion = liberationist
+
+#History

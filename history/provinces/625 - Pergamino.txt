@@ -1,0 +1,21 @@
+# c_pergamino
+
+# County Title
+title = c_pergamino
+
+# Settlements
+max_settlements = 4
+
+b_pergamino = castle
+b_salto_3 = city
+#b_arrecifes = temple
+#b_rojas = castle
+#b_rancagua_2 = city
+#b_fontezuela = temple
+#b_pizon = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

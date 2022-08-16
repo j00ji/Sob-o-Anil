@@ -1,0 +1,21 @@
+# c_japaratinga
+
+# County Title
+title = c_japaratinga
+
+# Settlements
+max_settlements = 2
+
+b_japaratinga = castle
+#b_maragogi = city
+#b_porto_calvo = temple
+#b_porto_de_pedras = castle
+#b_tatuamunha = city
+#b_jundia = temple
+#b_jacuipe = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

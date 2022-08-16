@@ -1,0 +1,21 @@
+# c_brown
+
+# County Title
+title = c_brown
+
+# Settlements
+max_settlements = 1
+
+b_rio_muerto = tribal
+#b_pampa_de_los_guanacos = city
+#b_pirpintos = temple
+#b_yermo = castle
+#b_caserio = city
+#b_rio_de_dios = temple
+#b_pampa_del_infierno = castle
+
+# Misc
+culture = chaqueno
+religion = catholic
+
+#History

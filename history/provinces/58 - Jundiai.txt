@@ -1,0 +1,21 @@
+# c_jundiai
+
+# County Title
+title = c_jundiai
+
+# Settlements
+max_settlements = 6
+
+b_jundiai = castle
+b_varzea = city
+b_itatiba = temple
+#b_campo_limpo = castle
+#b_itupeva = castle
+#b_louveira = temple
+#b_jardim_america = city
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

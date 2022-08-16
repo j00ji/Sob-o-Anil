@@ -1,0 +1,21 @@
+# c_barranca
+
+# County Title
+title = c_barranca
+
+# Settlements
+max_settlements = 3
+
+b_barranca = castle
+b_paramonga = city
+#b_supe = temple
+#b_supe_puerto = castle
+#b_pativilca = city
+#b_tunan = temple
+#b_huaricanga = castle
+
+# Misc
+culture = nortechicano
+religion = tridentine
+
+#History

@@ -1,0 +1,21 @@
+# c_ramalho
+
+# County Title
+title = c_ramalho
+
+# Settlements
+max_settlements = 2
+
+b_barreiro = tribal
+b_ramalho = temple
+#b_barrinha = temple
+#b_feira_da_mata = castle
+#b_descoberto = city
+#b_coribe = temple
+#b_malhada_2 = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

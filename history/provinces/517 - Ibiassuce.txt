@@ -1,0 +1,21 @@
+# c_ibiassuce
+
+# County Title
+title = c_ibiassuce
+
+# Settlements
+max_settlements = 2
+
+b_ibiassuce_2 = tribal
+#b_lagoa_real_2 = city
+#b_santo_antonio_6 = temple
+#b_ibitira = castle
+#b_lagoa_dos_meninos = city
+#b_rio_do_antonio = temple
+#b_rio_baixo = castle
+
+# Misc
+culture = chiconho
+religion = angel_cult
+
+#History

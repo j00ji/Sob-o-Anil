@@ -1,0 +1,22 @@
+
+# c_chiclayo
+
+# County Title
+title = c_chiclayo
+
+# Settlements
+max_settlements = 5
+
+b_chiclayo = castle
+b_la_victoria_2 = city
+b_monsefu = temple
+b_chongoyape = castle
+#b_pimentel = city
+#b_pomalca = temple
+#b_patapo = castle
+
+# Misc
+culture = nortegrandeno
+religion = tridentine
+
+#History

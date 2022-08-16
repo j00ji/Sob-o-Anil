@@ -1,0 +1,21 @@
+# c_iguai
+
+# County Title
+title = c_iguai
+
+# Settlements
+max_settlements = 4
+
+b_planalto = castle
+b_vitoria_da_conquista = city
+b_senhora_das_vitorias = temple
+#b_pocoes = castle
+#b_barra_do_choca = city
+#b_anage = temple
+#b_itambe = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

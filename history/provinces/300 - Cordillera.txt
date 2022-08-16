@@ -1,0 +1,21 @@
+# c_cordillera
+
+# County Title
+title = c_cordillera
+
+# Settlements
+max_settlements = 6
+
+b_puente_alto = castle
+b_san_bernardo = city
+b_buin = city
+b_paine = temple
+b_pirque = castle
+#b_maipo = temple
+#b_las_vizcachas = castle
+
+# Misc
+culture = centrino
+religion = catholic
+
+#History

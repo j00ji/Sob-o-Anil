@@ -1,0 +1,21 @@
+# c_marga_marga
+
+# County Title
+title = c_marga_marga
+
+# Settlements
+max_settlements = 5
+
+b_quilpue = castle
+b_villa_alemana = city
+b_quillota = castle
+b_la_calera = temple
+#b_limache = city
+#b_nogales = temple
+#b_hijuelas = castle
+
+# Misc
+culture = centrino
+religion = catholic
+
+#History

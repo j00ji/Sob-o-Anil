@@ -1,0 +1,21 @@
+# c_cuzco
+
+# County Title
+title = c_cuzco
+
+# Settlements
+max_settlements = 5
+
+b_cuzco = castle
+b_urcos = city
+b_anta_2 = temple
+b_paruro = castle
+#b_acomayo = city
+#b_poroy = temple
+#b_corca = castle
+
+# Misc
+culture = quechua
+religion = inti
+
+#History

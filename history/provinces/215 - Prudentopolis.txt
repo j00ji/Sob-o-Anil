@@ -1,0 +1,21 @@
+# c_prudentopolis
+
+# County Title
+title = c_prudentopolis
+
+# Settlements
+max_settlements = 3
+
+b_prudentopolis = castle
+b_irati = temple
+#b_imbituva = temple
+#b_ivai = castle
+#b_guamiranga = city
+#b_patos_velhos = temple
+#b_guairaca_2 = castle
+
+# Misc
+culture = rutenio
+religion = orthodoxist
+
+#History

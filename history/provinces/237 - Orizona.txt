@@ -1,0 +1,21 @@
+# c_orizona
+
+# County Title
+title = c_orizona
+
+# Settlements
+max_settlements = 3
+
+b_orizona = tribal
+#b_silvania = city
+#b_vianopolispia = temple
+#b_brasilinha = castle
+#b_cristianopolis = city
+#b_tres_ranchos = temple
+#b_palmelo = castle
+
+# Misc
+culture = goyanense
+religion = modernists
+
+#History

@@ -1,0 +1,21 @@
+# c_cochabamba
+
+# County Title
+title = c_cochabamba
+
+# Settlements
+max_settlements = 6
+
+b_cochabamba = castle
+b_quillacollo = city
+b_punata = temple
+b_tapacari = castle
+b_capinota = city
+#b_tarata = temple
+#b_sipe_sipe = castle
+
+# Misc
+culture = colla
+religion = santa_diablada
+
+#History

@@ -1,0 +1,21 @@
+# c_ilhas_do_delta
+
+# County Title
+title = c_ilhas_do_delta
+
+# Settlements
+max_settlements = 2
+
+b_conceicao_2 = castle
+#b_nazare_2 = city
+#b_tucuma_2 = temple
+#b_bucuiutuba = castle
+#b_tauauri = city
+#b_jerico = temple
+#b_caicara = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

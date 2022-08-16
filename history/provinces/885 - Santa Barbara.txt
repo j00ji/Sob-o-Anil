@@ -1,0 +1,21 @@
+# c_santa_barbara
+
+# County Title
+title = c_santa_barbara
+
+# Settlements
+max_settlements = 3
+
+b_barra_feliz = tribal
+#b_joao_monvalde = city
+#b_barao_de_cocais = temple
+#b_catas_altas = castle
+#b_alvinopolis = city
+#b_brumal = temple
+#b_sao_domingos_do_prata = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

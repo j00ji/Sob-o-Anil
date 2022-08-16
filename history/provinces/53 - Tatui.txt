@@ -1,0 +1,21 @@
+# c_tatui
+
+# County Title
+title = c_tatui
+
+# Settlements
+max_settlements = 4
+
+b_ipero = castle
+b_boituva = temple
+#b_tiete = temple
+#b_laranjal_sp = castle
+#b_cesario_lange = city
+#b_enxovia = temple
+#b_morro_alto = castle
+
+# Misc
+culture = camponeto
+religion = anchietican
+
+#History

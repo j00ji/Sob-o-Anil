@@ -1,0 +1,21 @@
+# c_patos
+
+# County Title
+title = c_patos
+
+# Settlements
+max_settlements = 2
+
+b_patos = tribal
+b_senhora_da_guia = temple
+#b_santa_gertrudes_2 = temple
+#b_malta = castle
+#b_sao_jose_de_espinharas = city
+#b_condado = temple
+#b_teixeira = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

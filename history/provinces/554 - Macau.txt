@@ -1,0 +1,21 @@
+# c_macau
+
+# County Title
+title = c_macau
+
+# Settlements
+max_settlements = 3
+
+b_macau = castle
+b_guamare = city
+#b_fernandes = temple
+#b_pendencias = castle
+#b_carnubais = city
+#b_pedro_avelino = temple
+#b_afonso_bezerra = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

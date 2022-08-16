@@ -1,0 +1,21 @@
+# c_itabapoana
+
+# County Title
+title = c_itabapoana
+
+# Settlements
+max_settlements = 2
+
+b_itabopoana = castle
+b_italva = city
+#b_amontoada = temple
+#b_praia_das_neves = castle
+#b_farol_da_barra = city
+#b_padaria_do_retiro = temple
+#b_batelao = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

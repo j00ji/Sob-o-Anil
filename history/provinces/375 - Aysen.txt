@@ -1,0 +1,21 @@
+# c_aysen
+
+# County Title
+title = c_aysen
+
+# Settlements
+max_settlements = 2
+
+b_puerto_aysen = tribal
+#b_puerto_aguirre = city
+#b_puerto_chacabuco = temple
+#b_las_turbinas = castle
+#b_quitralco = city
+#b_riesco = temple
+#b_maca = castle
+
+# Misc
+culture = australino
+religion = calafatist
+
+#History

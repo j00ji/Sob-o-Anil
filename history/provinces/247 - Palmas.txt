@@ -1,0 +1,21 @@
+# c_palmas
+
+# County Title
+title = c_palmas
+
+# Settlements
+max_settlements = 3
+
+b_palmas = tribal
+b_lajeado = temple
+#b_lagoa_do_tocantins = temple
+#b_santa_teresa_do_tocnatins = castle
+#b_sao_felix = city
+#b_rio_sono = temple
+#b_lizarda = castle
+
+# Misc
+culture = araguaio
+religion = manredebu
+
+#History

@@ -1,0 +1,21 @@
+# c_bage
+
+# County Title
+title = c_bage
+
+# Settlements
+max_settlements = 3
+
+b_pedras_altas = tribal
+#b_dom_pedrito = city
+#b_lavras_do_sul_2 = temple
+#b_acegua = castle
+#b_hulha_negra = city
+#b_candiota = temple
+#b_torquato_severo = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

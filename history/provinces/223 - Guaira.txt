@@ -1,0 +1,21 @@
+# c_guaira
+
+# County Title
+title = c_guaira
+
+# Settlements
+max_settlements = 2
+
+b_guaira = castle
+#b_terra_roxa = city
+#b_altonia = temple
+#b_ipora = castle
+#b_perola = city
+#b_guaipora = temple
+#b_nilza = castle
+
+# Misc
+culture = gaucho
+religion = celeste
+
+#History

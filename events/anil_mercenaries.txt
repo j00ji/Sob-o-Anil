@@ -1,0 +1,36 @@
+#Sob o Anil events related to Mercenaries
+
+character_event = {
+	id = mercenarysoa.1
+	desc = "You are not supposed to be seeing it..."
+	
+	hide_window = yes
+	
+	is_triggered_only = yes #on_actions: on_new_holder and on_startup
+	
+	trigger = {
+        ROOT = {
+            OR = {
+				has_landed_title = d_bandeirantes_northeast
+				has_landed_title = d_bandeirantes_south
+			}
+            AND = {
+                PREV = {
+                    is_primary_holder_title = yes
+                }
+            }
+        }
+    }
+	
+	option = {
+		name = "OK"
+		
+		ROOT = {
+			primary_title = {
+				set_name = "Bandeira of [Root.GetDynName]"
+			}
+		}
+	}
+}
+
+		

@@ -1,0 +1,21 @@
+# c_putumayo_2
+
+# County Title
+title = c_putumayo_2
+
+# Settlements
+max_settlements = 2
+
+b_san_antonio_del_estrecho_2 = castle
+#b_putumayo_2 = city
+#b_rosa = temple
+#b_panduro = castle
+#b_yaguas = city
+#b_teniente = temple
+#b_manuel_clavero = castle
+
+# Misc
+culture = charapa
+religion = amazonian_jews
+
+#History

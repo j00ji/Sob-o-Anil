@@ -1,0 +1,21 @@
+# c_chanaral
+
+# County Title
+title = c_chanaral
+
+# Settlements
+max_settlements = 2
+
+b_chanaral = castle
+#b_diego_de_almagro = city
+#b_el_salado = temple
+#b_puerto_flamenco = castle
+#b_cifuncho = city
+#b_inca_de_oro = temple
+#b_las_tazas = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

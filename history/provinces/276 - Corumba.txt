@@ -1,0 +1,21 @@
+# c_corumba
+
+# County Title
+title = c_corumba
+
+# Settlements
+max_settlements = 2
+
+b_corumba = tribal
+#b_ladario = city
+#b_albuquerque = temple
+#b_porto_esperanca = castle
+#b_porto_da_manga = city
+#b_paratudal = temple
+#b_porto_jofre = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

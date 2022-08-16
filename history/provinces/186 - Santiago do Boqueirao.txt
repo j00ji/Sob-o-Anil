@@ -1,0 +1,21 @@
+# c_santiago_do_boqueirao
+
+# County Title
+title = c_santiago_do_boqueirao
+
+# Settlements
+max_settlements = 2
+
+b_santiago_do_boqueirao = tribal
+#b_sao_vicente_do_sul = city
+#b_sao_francisco_de_assis = temple
+#b_nova_esperanca_do_sul = castle
+#b_jaguari = city
+#b_capao_do_cipo = temple
+#b_santo_izidro = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

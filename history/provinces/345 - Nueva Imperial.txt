@@ -1,0 +1,21 @@
+# c_nueva_imperial
+
+# County Title
+title = c_nueva_imperial
+
+# Settlements
+max_settlements = 4
+
+b_nueva_imperial = castle
+b_carahue = city
+#b_huilio = temple
+#b_tolten = castle
+#b_saavedra = city
+#b_teodoro_schmidt = temple
+#b_puerto_dominguez = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

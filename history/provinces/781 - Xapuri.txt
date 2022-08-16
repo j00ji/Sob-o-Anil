@@ -1,0 +1,21 @@
+# c_xapuri
+
+# County Title
+title = c_xapuri
+
+# Settlements
+max_settlements = 3
+
+b_xapuri = castle
+b_epitaciolandia = city
+#b_assis_brasil = temple
+#b_lua_cheia = castle
+#b_chico_mendes = city
+#b_icuria = temple
+#b_germania = castle
+
+# Misc
+culture = aruaque
+religion = santo_daime
+
+#History

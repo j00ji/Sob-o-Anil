@@ -1,0 +1,21 @@
+# c_tres_cerros
+
+# County Title
+title = c_tres_cerros
+
+# Settlements
+max_settlements = 3
+
+b_tres_cerros = tribal
+#b_bahia_laura = city
+#b_punta_buque = temple
+#b_la_herradura_2 = castle
+#b_laguna_dulce = city
+#b_puerto_maldad = temple
+#b_puerto_laura = castle
+
+# Misc
+culture = aonikenk
+religion = calafatist
+
+#History

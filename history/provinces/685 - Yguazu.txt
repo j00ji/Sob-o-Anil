@@ -1,0 +1,21 @@
+# c_yguazu
+
+# County Title
+title = c_yguazu
+
+# Settlements
+max_settlements = 2
+
+b_ocampo = temple
+#b_yvyrarovana = city
+#b_ita_2 = temple
+#b_katuete = castle
+#b_lopez_2 = city
+#b_curuguaty = temple
+#b_limoy = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

@@ -1,0 +1,21 @@
+# c_nueva_oran
+
+# County Title
+title = c_nueva_oran
+
+# Settlements
+max_settlements = 2
+
+b_nueva_oran = castle
+b_tartagal = temple
+#b_mosconi = temple
+#b_aguaray_2 = castle
+#b_embarcacion = city
+#b_pichanal = temple
+#b_nazareno = castle
+
+# Misc
+culture = quechua
+religion = catholic
+
+#History

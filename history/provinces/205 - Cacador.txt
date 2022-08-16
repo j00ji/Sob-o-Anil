@@ -1,0 +1,21 @@
+# c_cacador
+
+# County Title
+title = c_cacador
+
+# Settlements
+max_settlements = 3
+
+b_cacador = castle
+b_videira = temple
+#b_fraiburgo = temple
+#b_santa_cecilia = castle
+#b_calmon = city
+#b_timbo_grande = temple
+#b_salto_veloso = castle
+
+# Misc
+culture = talian
+religion = celeste
+
+#History

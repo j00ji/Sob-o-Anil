@@ -1,0 +1,21 @@
+# c_pirapora
+
+# County Title
+title = c_pirapora
+
+# Settlements
+max_settlements = 4
+
+b_buritizeiro = castle
+#b_guaicui = city
+#b_campo_azul = temple
+#b_bentopolis = castle
+#b_icarai_2 = city
+#b_ubai = temple
+#b_lagoa_dos_patos = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

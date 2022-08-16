@@ -1,0 +1,1441 @@
+e_peru = {
+	color={ 59 1 120 }
+	color2={ 255 255 20 }
+	
+	capital = 410 # c_pichincha
+	culture = serrano
+	
+	k_ecuador = {
+		color={ 69 247 125 }
+		color2={ 255 255 255 }
+		
+		capital = 410 # c_pichincha
+		culture = serrano
+		
+		d_quito = {
+			color={ 89 227 135 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 410 province_id = 411 province_id = 412 province_id = 413 } }
+				}
+			}
+			capital = 410 # c_pichincha
+			
+			c_pichincha = { # 410
+				color={ 99 217 140 }
+				color2={ 255 255 255 }
+				
+				b_quito = {}
+				b_ruminahui = {}
+				b_cayambe = {}
+				b_mejia = {}
+				b_tabacundo = {}
+				b_san_miguel_de_los_bancos = {}
+			}
+			c_babahoyo = { # 413
+				color={ 129 204 155 }
+				color2={ 255 255 255 }
+				
+				b_babahoyo = {}
+				b_quevedo = {}
+				b_vinces = {}
+				b_buena_fe = {}
+				b_ventanas = {}
+				b_valencia_de_los_rios = {}
+				b_baba = {}
+			}
+			c_imbabura = { # 412
+				color={ 75 147 100 }
+				color2={ 255 255 255 }
+				
+				b_ibarra = {}
+				b_otavalo = {}
+				b_tulcan = {}
+				b_atuntaqui = {}
+				b_cotacachi = {}
+				b_urcuqui = {}
+				b_pimampiro = {}
+			}
+			c_tsachilas = { # 411
+				color={ 35 158 78 }
+				color2={ 255 255 255 }
+				
+				b_santo_domingo_de_los_tsachilas = {}
+				b_chiguilpe = {}
+				b_bomboli = {}
+				b_zaracay = {}
+				b_concordia_2 = {}
+				b_calazacon = {}
+				b_san_jacinto_del_bua = {}
+			}
+		}
+		d_cuenca = {
+			color={ 77 166 111 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 421 province_id = 422 province_id = 423 province_id = 424 } }
+				}
+			}
+			capital = 421 # c_azuay
+			
+			c_azuay = { # 421
+				color={ 67 176 106 }
+				color2={ 255 255 255 }
+				
+				b_cuenca = {}
+				b_azogues = {}
+				b_canar = {}
+				b_la_troncal = {}
+				b_gualaceo = {}
+				b_sigsig = {}
+				b_ponce_enriquez = {}
+			}
+			c_el_oro = { # 422
+				color={ 198 113 120 }
+				color2={ 255 255 255 }
+				
+				b_machala = {}
+				b_pasaje = {}
+				b_santa_rosa_del_oro = {}
+				b_el_guabo = {}
+				b_huaqillas = {}
+				b_arenillas = {}
+				b_pinas = {}
+			}
+			c_loja = { # 423
+				color={ 138 180 153 }
+				color2={ 255 255 255 }
+				
+				b_loja = {}
+				b_catamayo = {}
+				b_calvas = {}
+				b_saraguro = {}
+				b_paltas = {}
+				b_macara = {}
+				b_puyango = {}
+			}
+			c_zamora_chinchipe = { # 424
+				color={ 137 165 147 }
+				color2={ 255 255 255 }
+				
+				b_zamora = {}
+				b_yantzaza = {}
+				b_palanda = {}
+				b_paquisha = {}
+				b_chinchipe = {}
+				b_el_pangui = {}
+				b_yacuambi = {}
+			}
+		}
+		d_galapagos = {
+			color={ 155 215 174 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 435 province_id = 436 } }
+				}
+			}
+			capital = 435 # c_santa_cruz_de_galapagos
+			
+			c_santa_cruz_de_galapagos = { # 435
+				color={ 165 205 179 }
+				color2={ 255 255 255 }
+				
+				b_puerto_ayora = {}
+				b_puerto_baquerizo_moreno = {}
+				b_bellavista_de_santa_cruz = {}
+				b_el_progreso = {}
+				b_el_chato = {}
+				b_santa_cruz_de_galapagos = {}
+				b_san_cristobal_de_galapagos = {}
+			}
+			c_isabela_de_galapagos = { # 436
+				color={ 154 160 156 }
+				color2={ 255 255 255 }
+				
+				b_puerto_villamil = {}
+				b_la_playita = {}
+				b_muro_de_las_lagrimas = {}
+				b_campo_duro = {}
+				b_valle_negro = {}
+				b_isabela_de_galapagos = {}
+				b_fernandina = {}
+			}
+		}
+		d_guayas = {
+			color={ 84 211 126 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 414 province_id = 415 province_id = 416 province_id = 417 } }
+				}
+			}
+			capital = 414 # c_guayas
+			
+			c_guayas = { # 414
+				color={ 94 201 131 }
+				color2={ 255 255 255 }
+				
+				b_guayaquil = {}
+				b_duran = {}
+				b_milagro = {}
+				b_daule = {}
+				b_naranjal = {}
+				b_empalme = {}
+				b_samborondon = {}
+			}
+			c_esmeraldas = { # 417
+				color={ 93 126 91 }
+				color2={ 255 255 255 }
+				
+				b_esmeraldas = {}
+				b_quininde = {}
+				b_san_lorenzo = {}
+				b_atacames = {}
+				b_eloy_alfaro = {}
+				b_muisne = {}
+				b_rioverde = {}
+			}
+			c_manabi = { # 416
+				color={ 51 116 73 }
+				color2={ 255 255 255 }
+				
+				b_portoviejo = {}
+				b_manta = {}
+				b_chone = {}
+				b_el_carmen = {}
+				b_jipijapa = {}
+				b_montecristi = {}
+				b_pedernales = {}
+			}
+			c_santa_elena = { # 415
+				color={ 70 171 105 }
+				color2={ 255 255 255 }
+				
+				b_la_libertad = {}
+				b_santa_elena = {}
+				b_salinas = {}
+				b_ballenita = {}
+				b_manglaralto = {}
+				b_recinto = {}
+				b_chanduy = {}
+			}
+		}
+		d_morona = {
+			color={ 74 104 87 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 425 province_id = 426 province_id = 427 province_id = 428 province_id = 429 } }
+				}
+			}
+			capital = 425 # c_morona_santiago
+			
+			c_morona_santiago = { # 425
+				color={ 64 114 82 }
+				color2={ 255 255 255 }
+				
+				b_morona = {}
+				b_taisha = {}
+				b_sucua = {}
+				b_gualaquiza = {}
+				b_indanza = {}
+				b_palora = {}
+				b_huamboya = {}
+			}
+			c_napo = { # 427
+				color={ 106 150 121 }
+				color2={ 255 255 255 }
+				
+				b_tena = {}
+				b_archidona = {}
+				b_quijos = {}
+				b_arosemena = {}
+				b_el_chaco = {}
+				b_muyuna = {}
+				b_pano = {}
+			}
+			c_orellana = { # 428
+				color={ 100 117 103 }
+				color2={ 255 255 255 }
+				
+				b_orellana = {}
+				b_sachas = {}
+				b_aguarico = {}
+				b_tiputini = {}
+				b_taracoa = {}
+				b_guayusa = {}
+				b_dayuma = {}
+			}
+			c_pastaza = { # 426
+				color={ 61 98 74 }
+				color2={ 255 255 255 }
+				
+				b_puyo = {}
+				b_mera = {}
+				b_arajuno = {}
+				b_pomona_2 = {}
+				b_montalvo = {}
+				b_fatima_2 = {}
+				b_canelos = {}
+			}
+			c_putumayo = { # 429
+				color={ 81 118 94 }
+				color2={ 255 255 255 }
+				
+				b_lago_agrio = {}
+				b_puerto_asis = {}
+				b_mocoa = {}
+				b_shushufindi = {}
+				b_putumayo = {}
+				b_orito = {}
+				b_sibundoy = {}
+			}
+		}
+		d_narino = {
+			color={ 54 104 74 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 430 province_id = 431 province_id = 432 province_id = 433 province_id = 434 } }
+				}
+			}
+			capital = 430 # c_pasto
+			
+			c_pasto = { # 430
+				color={ 44 114 69 }
+				color2={ 255 255 255 }
+				
+				b_pasto = {}
+				b_obando = {}
+				b_rio_mayo = {}
+				b_los_abades = {}
+				b_juanambu = {}
+				b_la_sabana = {}
+				b_narino = {}
+			}
+			c_pitalito = { # 434
+				color={ 51 117 54 }
+				color2={ 255 255 255 }
+				
+				b_pitalito = {}
+				b_acevedo = {}
+				b_san_agustin_de_huila = {}
+				b_isnos = {}
+				b_timana = {}
+				b_oparopa = {}
+				b_palestina = {}
+			}
+			c_popayan = { # 433
+				color={ 79 114 36 }
+				color2={ 255 255 255 }
+				
+				b_popayan = {}
+				b_el_tambo = {}
+				b_piendamo = {}
+				b_la_vega = {}
+				b_bolivar_de_cauca = {}
+				b_cajibio = {}
+				b_puelenje = {}
+			}
+			c_sanquianga = { # 432
+				color={ 79 117 87 }
+				color2={ 255 255 255 }
+				
+				b_el_charco = {}
+				b_olaya_herrera = {}
+				b_la_tola = {}
+				b_mosquera = {}
+				b_pizarro = {}
+				b_sta_barbara = {}
+				b_bocas_de_satinga = {}
+			}
+			c_tumaco = { # 431
+				color={ 72 117 50 }
+				color2={ 255 255 255 }
+				
+				b_tumaco = {}
+				b_barbacoas = {}
+				b_roberto_payan = {}
+				b_maguei_payan = {}
+				b_chilvi = {}
+				b_san_isidro_de_tumaco = {}
+				b_quendan = {}
+			}
+		}
+		d_tungurahua = {
+			color={ 88 147 112 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 418 province_id = 419 province_id = 420 } }
+				}
+			}
+			capital = 418 # c_tungurahua
+			
+			c_tungurahua = { # 418
+				color={ 78 157 107 }
+				color2={ 255 255 255 }
+				
+				b_ambato = {}
+				b_riobamba = {}
+				b_alausi = {}
+				b_pelileo = {}
+				b_guano = {}
+				b_colta = {}
+				b_pillaro = {}
+			}
+			c_bolivar = { # 420
+				color={ 64 159 98 }
+				color2={ 255 255 255 }
+				
+				b_guaranda = {}
+				b_san_miguel_de_bolivar = {}
+				b_chimbo = {}
+				b_caluma = {}
+				b_echeandia = {}
+				b_chillanes = {}
+				b_las_naves = {}
+			}
+			c_cotopaxi = { # 419
+				color={ 56 176 98 }
+				color2={ 255 255 255 }
+				
+				b_latacunga = {}
+				b_pujii = {}
+				b_salcedo = {}
+				b_la_mana = {}
+				b_saquisili = {}
+				b_sigchos = {}
+				b_pangua = {}
+			}
+		}
+	}
+	k_omagua = {
+		color={ 219 226 240 }
+		color2={ 255 255 255 }
+		
+		capital = 939 # c_maynas
+		culture = carioca
+		
+		d_loreto = {
+			color={ 239 206 250 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 939 province_id = 940 province_id = 941 province_id = 942 province_id = 943 } }
+				}
+			}
+			capital = 939 # c_maynas
+			
+			c_maynas = { # 939
+				color={ 249 196 255 }
+				color2={ 255 255 255 }
+				
+				b_iquitos = {}
+				b_caballococha = {}
+				b_san_antonio_del_estrecho = {}
+				b_mazan = {}
+				b_tamshiyacu = {}
+				b_pebas = {}
+				b_chichita = {}
+			}
+			c_alto_amazonas = { # 940
+				color={ 175 82 137 }
+				color2={ 255 255 255 }
+				
+				b_yurimaguas = {}
+				b_nauta = {}
+				b_san_lorenzo_de_amazonas = {}
+				b_papayacu = {}
+				b_borja = {}
+				b_pumayacu = {}
+				b_saramuro = {}
+			}
+			c_putumayo_2 = { # 943
+				color={ 255 102 168 }
+				color2={ 255 255 255 }
+				
+				b_san_antonio_del_estrecho_2 = {}
+				b_putumayo_2 = {}
+				b_rosa = {}
+				b_panduro = {}
+				b_yaguas = {}
+				b_teniente = {}
+				b_manuel_clavero = {}
+			}
+			c_ramon_castilla = { # 942
+				color={ 255 170 204 }
+				color2={ 255 255 255 }
+				
+				b_caballococha_2 = {}
+				b_ramon_castilla = {}
+				b_pebas_2 = {}
+				b_san_pablo_3 = {}
+				b_yavari = {}
+				b_alto_yavari = {}
+				b_bajo_cocha = {}
+			}
+			c_requena = { # 941
+				color={ 224 53 190 }
+				color2={ 255 255 255 }
+				
+				b_requena = {}
+				b_contamana = {}
+				b_saquena = {}
+				b_bagazan = {}
+				b_huatupe = {}
+				b_tamanco = {}
+				b_tiruntan = {}
+			}
+		}
+		d_amazonas = {
+			color={ 76 132 71 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 944 province_id = 945 province_id = 946 province_id = 947 } }
+				}
+			}
+			capital = 944 # c_san_martin
+			
+			c_san_martin = { # 944
+				color={ 66 142 66 }
+				color2={ 255 255 255 }
+				
+				b_tarapoto = {}
+				b_moyobamba = {}
+				b_rioja = {}
+				b_lamas = {}
+				b_picota = {}
+				b_san_jose_de_sisa = {}
+				b_caynarachi = {}
+			}
+			c_bagua = { # 946
+				color={ 232 140 136 }
+				color2={ 255 255 255 }
+				
+				b_bagua = {}
+				b_santa_maria_de_nieva = {}
+				b_la_peca = {}
+				b_copallin = {}
+				b_imaza = {}
+				b_el_cenepa = {}
+				b_rio_santiago = {}
+			}
+			c_chachapoyas = { # 945
+				color={ 232 181 116 }
+				color2={ 255 255 255 }
+				
+				b_bagua_grande = {}
+				b_chachapoyas = {}
+				b_lamud = {}
+				b_jumbilla = {}
+				b_rodriguez_de_mendoza = {}
+				b_cajaruro = {}
+				b_lonya_grande = {}
+			}
+			c_tocache = { # 947
+				color={ 0 226 109 }
+				color2={ 255 255 255 }
+				
+				b_tocache = {}
+				b_juanjui = {}
+				b_bellavista_de_san_martin = {}
+				b_saposoa = {}
+				b_huallaga = {}
+				b_uchiza = {}
+				b_pizana = {}
+			}
+		}
+		d_tambopata = {
+			color={ 245 124 156 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 950 province_id = 951 } }
+				}
+			}
+			capital = 950 # c_madre_de_dios
+			
+			c_madre_de_dios = { # 950
+				color={ 255 114 161 }
+				color2={ 255 255 255 }
+				
+				b_puerto_maldonado = {}
+				b_salvacion = {}
+				b_inapari = {}
+				b_inambari = {}
+				b_laberinto = {}
+				b_manu = {}
+				b_huepetuhe = {}
+			}
+			c_carabaya = { # 951
+				color={ 48 217 255 }
+				color2={ 255 255 255 }
+				
+				b_macusani = {}
+				b_ayaviri = {}
+				b_sandia = {}
+				b_santa_rosa_de_puno = {}
+				b_crucero = {}
+				b_ayapata = {}
+				b_cuyocuyo = {}
+			}
+		}
+		d_ucayali = {
+			color={ 101 67 224 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 948 province_id = 949 } }
+				}
+			}
+			capital = 948 # c_coronel_portillo
+			
+			c_coronel_portillo = { # 948
+				color={ 111 57 229 }
+				color2={ 255 255 255 }
+				
+				b_pucallpa = {}
+				b_aguaytia = {}
+				b_yarinachocha = {}
+				b_manantay = {}
+				b_campoverde = {}
+				b_irazola = {}
+				b_curimana = {}
+			}
+			c_atalaya = { # 949
+				color={ 63 120 226 }
+				color2={ 255 255 255 }
+				
+				b_atalaya = {}
+				b_sepahua = {}
+				b_bolognesi = {}
+				b_breu = {}
+				b_puerto_esperanza = {}
+				b_murunahua = {}
+				b_mashco_piro = {}
+			}
+		}
+	}
+	k_pachacamac = {
+		color={ 126 29 138 }
+		color2={ 255 255 255 }
+		
+		capital = 906 # c_lima
+		culture = carioca
+		
+		d_lima = {
+			color={ 146 9 148 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 906 province_id = 907 province_id = 908 province_id = 909 province_id = 910 } }
+				}
+			}
+			capital = 906 # c_lima
+			
+			c_lima = { # 906
+				color={ 156 255 153 }
+				color2={ 255 255 255 }
+				
+				b_lima_3 = {}
+				b_callao = {}
+				b_san_juan_de_lurigancho = {}
+				b_san_martin_de_porres = {}
+				b_ate = {}
+				b_comas = {}
+				b_villa_el_salvador = {}
+			}
+			c_canete = { # 907
+				color={ 255 124 187 }
+				color2={ 255 255 255 }
+				
+				b_san_vicente_de_canete = {}
+				b_imperial_de_canete = {}
+				b_mala = {}
+				b_nuevo_imperial = {}
+				b_chilca = {}
+				b_quilmana = {}
+				b_yauyos = {}
+			}
+			c_huaral = { # 909
+				color={ 74 211 97 }
+				color2={ 255 255 255 }
+				
+				b_huaral = {}
+				b_aucallama = {}
+				b_chancay = {}
+				b_ihuari = {}
+				b_lampian = {}
+				b_sumbilca = {}
+				b_canta_2 = {}
+			}
+			c_huarochiri = { # 908
+				color={ 103 158 98 }
+				color2={ 255 255 255 }
+				
+				b_matucana = {}
+				b_san_jeronimo_de_surco = {}
+				b_callahuanca = {}
+				b_huanza = {}
+				b_san_pedro_de_casta = {}
+				b_san_bartolome = {}
+				b_san_miguel_de_viso = {}
+			}
+			c_huaura = { # 910
+				color={ 190 255 137 }
+				color2={ 255 255 255 }
+				
+				b_huacho = {}
+				b_huaura = {}
+				b_hualmay = {}
+				b_sayan = {}
+				b_vegueta = {}
+				b_oyon = {}
+				b_catajambo = {}
+			}
+		}
+		d_chanchamayo = {
+			color={ 120 0 250 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 915 province_id = 916 } }
+				}
+			}
+			capital = 915 # c_satipo
+			
+			c_satipo = { # 915
+				color={ 130 246 255 }
+				color2={ 255 255 255 }
+				
+				b_satipo = {}
+				b_la_merced = {}
+				b_san_ramon_de_junin = {}
+				b_perene = {}
+				b_chanchamayo = {}
+				b_pichanaqui = {}
+				b_pangoa = {}
+			}
+			c_oxapampa = { # 916
+				color={ 89 133 255 }
+				color2={ 255 255 255 }
+				
+				b_oxapampa = {}
+				b_chontabamba = {}
+				b_pozuzo = {}
+				b_villa_rica = {}
+				b_huancabamba = {}
+				b_puerto_bermudez = {}
+				b_palcazu = {}
+			}
+		}
+		d_ica = {
+			color={ 238 9 168 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 911 province_id = 912 province_id = 913 province_id = 914 } }
+				}
+			}
+			capital = 911 # c_ica
+			
+			c_ica = { # 911
+				color={ 248 255 173 }
+				color2={ 255 255 255 }
+				
+				b_ica = {}
+				b_parcona = {}
+				b_santiago_de_ica = {}
+				b_subtanjalla = {}
+				b_salas_de_ica = {}
+				b_pachacutec = {}
+				b_ocucaje = {}
+			}
+			c_chincha = { # 914
+				color={ 255 56 132 }
+				color2={ 255 255 255 }
+				
+				b_chincha_alta = {}
+				b_chincha_baja = {}
+				b_pueblo_nuevo_2 = {}
+				b_sunampe = {}
+				b_grocio_prado = {}
+				b_el_carmen_de_chincha = {}
+				b_san_pedro_de_huacarpana = {}
+			}
+			c_nazca = { # 912
+				color={ 255 239 99 }
+				color2={ 255 255 255 }
+				holy_site = camino_estelar
+				
+				b_nazca = {}
+				b_palpa = {}
+				b_changuillo = {}
+				b_marcona = {}
+				b_vista_alegre = {}
+				b_orcona = {}
+				b_copara = {}
+			}
+			c_pisco = { # 913
+				color={ 255 121 91 }
+				color2={ 255 255 255 }
+				
+				b_pisco = {}
+				b_san_clemente_de_ica = {}
+				b_san_andres_de_ica = {}
+				b_independenca_de_ica = {}
+				b_paracas = {}
+				b_humay = {}
+				b_huancano = {}
+			}
+		}
+		d_mantaro = {
+			color={ 89 158 125 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 917 province_id = 918 province_id = 919 province_id = 920 province_id = 921 } }
+				}
+			}
+			capital = 917 # c_huancayo
+			
+			c_huancayo = { # 917
+				color={ 79 168 120 }
+				color2={ 255 255 255 }
+				
+				b_huancayo = {}
+				b_jauja = {}
+				b_concepcion_de_junin = {}
+				b_chupaca = {}
+				b_chilca_2 = {}
+				b_pilcomayo = {}
+				b_usibamba = {}
+			}
+			c_huancavelica = { # 918
+				color={ 79 169 255 }
+				color2={ 255 255 255 }
+				
+				b_huancavelica = {}
+				b_pampas_de_huancavelica = {}
+				b_acobamba = {}
+				b_lircay = {}
+				b_churcampa = {}
+				b_huaytara = {}
+				b_castrovirreyna = {}
+			}
+			c_huanta = { # 919
+				color={ 130 132 255 }
+				color2={ 255 255 255 }
+				
+				b_huanta = {}
+				b_san_miguel_de_ayacucho = {}
+				b_tambo = {}
+				b_luricocha = {}
+				b_santa_rosa_de_la_mar = {}
+				b_samugari = {}
+				b_ucharaccay = {}
+			}
+			c_pasco = { # 921
+				color={ 52 122 78 }
+				color2={ 255 255 255 }
+				
+				b_cerro_de_pasco = {}
+				b_yanahuanca = {}
+				b_huayllay = {}
+				b_vicco = {}
+				b_pacoyan = {}
+				b_ticlacayan = {}
+				b_oyon_2 = {}
+			}
+			c_tarma = { # 920
+				color={ 53 165 68 }
+				color2={ 255 255 255 }
+				
+				b_tarma = {}
+				b_la_oroya = {}
+				b_junin_2 = {}
+				b_yauli = {}
+				b_acobamba_2 = {}
+				b_huasihuasi = {}
+				b_morococha = {}
+			}
+		}
+	}
+	k_sipan = {
+		color={ 225 174 115 }
+		color2={ 255 255 255 }
+		
+		capital = 952 # c_trujillo
+		culture = carioca
+		
+		d_moche = {
+			color={ 245 154 125 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 952 province_id = 953 province_id = 954 province_id = 955 } }
+				}
+			}
+			capital = 952 # c_trujillo
+			
+			c_trujillo = { # 952
+				color={ 255 144 130 }
+				color2={ 255 255 255 }
+				
+				b_trujillo = {}
+				b_la_esperanza = {}
+				b_el_porvenir = {}
+				b_viru = {}
+				b_otuzco = {}
+				b_julcan = {}
+				b_huanchaco = {}
+			}
+			c_ascope = { # 955
+				color={ 255 81 96 }
+				color2={ 255 255 255 }
+				
+				b_ascope = {}
+				b_casa_grande = {}
+				b_guadalupe_2 = {}
+				b_san_pedro_de_lloc = {}
+				b_cascas = {}
+				b_chepen = {}
+				b_pacasmayo = {}
+			}
+			c_cajamarca = { # 954
+				color={ 255 48 151 }
+				color2={ 255 255 255 }
+				
+				b_cajamarca = {}
+				b_chota = {}
+				b_cajabamba = {}
+				b_celendin = {}
+				b_san_marcos_de_cajamarca = {}
+				b_contumaza = {}
+				b_san_miguel_de_pallaques = {}
+			}
+			c_huamachuco = { # 953
+				color={ 255 159 114 }
+				color2={ 255 255 255 }
+				
+				b_huamachuco = {}
+				b_santiago_de_chuco = {}
+				b_retamas = {}
+				b_bolivar_de_chuco = {}
+				b_sartimbamba = {}
+				b_cochorco = {}
+				b_angasmarca = {}
+			}
+		}
+		d_amotape = {
+			color={ 208 47 81 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 959 province_id = 960 province_id = 961 } }
+				}
+			}
+			capital = 959 # c_piura
+			
+			c_piura = { # 959
+				color={ 198 57 76 }
+				color2={ 255 255 255 }
+				
+				b_san_miguel_de_piura = {}
+				b_chulucanas = {}
+				b_ayabaca = {}
+				b_huancabamba_2 = {}
+				b_piura = {}
+				b_tambogrande = {}
+				b_pacaipampa = {}
+			}
+			c_sullana = { # 960
+				color={ 198 57 109 }
+				color2={ 255 255 255 }
+				
+				b_sullana = {}
+				b_paita = {}
+				b_talara = {}
+				b_bellavista_de_sullana = {}
+				b_lancones = {}
+				b_amotape = {}
+				b_querecotillo = {}
+			}
+			c_tumbes = { # 961
+				color={ 198 101 155 }
+				color2={ 255 255 255 }
+				
+				b_tumbes = {}
+				b_zorritos = {}
+				b_san_juan_de_la_virgen = {}
+				b_zarumilla = {}
+				b_pampas_de_hospital = {}
+				b_matapalo = {}
+				b_papayal = {}
+			}
+		}
+		d_ancash = {
+			color={ 113 157 33 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 962 province_id = 963 province_id = 964 province_id = 965 } }
+				}
+			}
+			capital = 962 # c_huaraz
+			
+			c_huaraz = { # 962
+				color={ 103 167 28 }
+				color2={ 255 255 255 }
+				
+				b_huaraz = {}
+				b_huaylas = {}
+				b_carhuaz = {}
+				b_chiquian = {}
+				b_yungay_2 = {}
+				b_cabana = {}
+				b_corongo = {}
+			}
+			c_barranca = { # 963
+				color={ 61 198 161 }
+				color2={ 255 255 255 }
+				
+				b_barranca = {}
+				b_paramonga = {}
+				b_supe = {}
+				b_supe_puerto = {}
+				b_pativilca = {}
+				b_tunan = {}
+				b_huaricanga = {}
+			}
+			c_chimbote = { # 964
+				color={ 178 255 219 }
+				color2={ 255 255 255 }
+				
+				b_chimbote = {}
+				b_huarmey = {}
+				b_casma = {}
+				b_recuay = {}
+				b_ocros = {}
+				b_gramadal = {}
+				b_samanco = {}
+			}
+			c_huari = { # 965
+				color={ 201 150 109 }
+				color2={ 255 255 255 }
+				
+				b_huari = {}
+				b_sihuas = {}
+				b_fitzcarrald = {}
+				b_pomabamba = {}
+				b_luzuriaga = {}
+				b_raymondi = {}
+				b_asuncion_de_huari = {}
+			}
+		}
+		d_chaparri = {
+			color={ 126 68 150 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 956 province_id = 957 province_id = 958 } }
+				}
+			}
+			capital = 956 # c_chiclayo
+			
+			c_chiclayo = { # 956
+				color={ 116 78 145 }
+				color2={ 255 255 255 }
+				
+				b_chiclayo = {}
+				b_la_victoria_2 = {}
+				b_monsefu = {}
+				b_chongoyape = {}
+				b_pimentel = {}
+				b_pomalca = {}
+				b_patapo = {}
+			}
+			c_jaen = { # 958
+				color={ 255 246 158 }
+				color2={ 255 255 255 }
+				
+				b_jaen = {}
+				b_cutervo = {}
+				b_san_ignacio_de_la_frontera = {}
+				b_santa_cruz_de_succhabamba = {}
+				b_bambamarca = {}
+				b_pimpingos = {}
+				b_huarango = {}
+			}
+			c_lambayeque = { # 957
+				color={ 205 137 255 }
+				color2={ 255 255 255 }
+				
+				b_lambayeque = {}
+				b_ferrenafe = {}
+				b_jayanca = {}
+				b_motupe = {}
+				b_mochumi = {}
+				b_morrope = {}
+				b_olmos_2 = {}
+			}
+		}
+		d_huanaco = {
+			color={ 139 9 135 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 966 province_id = 967 } }
+				}
+			}
+			capital = 966 # c_huanuco
+			
+			c_huanuco = { # 966
+				color={ 149 255 140 }
+				color2={ 255 255 255 }
+				
+				b_huanuco = {}
+				b_panao = {}
+				b_llata = {}
+				b_ambo = {}
+				b_la_union_de_huanuco = {}
+				b_jesus_de_huanuco = {}
+				b_chavinillo = {}
+			}
+			c_leoncio_prado = { # 967
+				color={ 187 255 109 }
+				color2={ 255 255 255 }
+				
+				b_tingo_maria = {}
+				b_puerto_inca = {}
+				b_pumahuasi = {}
+				b_aucayacu = {}
+				b_honoria = {}
+				b_tournavista = {}
+				b_yuyapichis = {}
+			}
+		}
+	}
+	k_vilcabamba = {
+		color={ 173 29 120 }
+		color2={ 255 255 255 }
+		
+		capital = 922 # c_cuzco
+		culture = carioca
+		
+		d_choquequirao = {
+			color={ 193 9 130 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 922 province_id = 923 province_id = 924 province_id = 925 } }
+				}
+			}
+			capital = 922 # c_cuzco
+			
+			c_cuzco = { # 922
+				color={ 203 255 135 }
+				color2={ 255 255 255 }
+				
+				b_cuzco = {}
+				b_urcos = {}
+				b_anta_2 = {}
+				b_paruro = {}
+				b_acomayo = {}
+				b_poroy = {}
+				b_corca = {}
+			}
+			c_apurimac = { # 925
+				color={ 107 255 134 }
+				color2={ 255 255 255 }
+				
+				b_andahuaylas = {}
+				b_abancay = {}
+				b_chincheros = {}
+				b_cotabambas = {}
+				b_chalhuanca = {}
+				b_chuquibambilla = {}
+				b_antabamba = {}
+			}
+			c_canchis = { # 923
+				color={ 97 91 255 }
+				color2={ 255 255 255 }
+				
+				b_sicuani = {}
+				b_santo_tomas_de_chumbivalcas = {}
+				b_yauri = {}
+				b_yanaoca = {}
+				b_checacupe = {}
+				b_pitumarca = {}
+				b_ocoruro = {}
+			}
+			c_convencion = { # 924
+				color={ 60 137 60 }
+				color2={ 255 255 255 }
+				
+				b_quillabamba = {}
+				b_calca = {}
+				b_paucartambo = {}
+				b_urubamba = {}
+				b_echarati = {}
+				b_pisac = {}
+				b_chinchero = {}
+			}
+		}
+		d_arequipa = {
+			color={ 245 103 48 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 928 province_id = 929 province_id = 930 province_id = 931 province_id = 932 province_id = 933 } }
+				}
+			}
+			capital = 928 # c_arequipa
+			
+			c_arequipa = { # 928
+				color={ 255 93 53 }
+				color2={ 255 255 255 }
+				
+				b_arequipa = {}
+				b_cerro_colorado = {}
+				b_cayma = {}
+				b_alto_selva_alegre = {}
+				b_bustamante_y_rivero = {}
+				b_socabaya = {}
+				b_melgar = {}
+			}
+			c_camana = { # 929
+				color={ 255 97 76 }
+				color2={ 255 255 255 }
+				
+				b_camana = {}
+				b_ocona = {}
+				b_quilca = {}
+				b_quimper = {}
+				b_valcarcel = {}
+				b_pierola = {}
+				b_samuel_pastor = {}
+			}
+			c_caraveli = { # 932
+				color={ 255 206 84 }
+				color2={ 255 255 255 }
+				
+				b_caraveli = {}
+				b_chala = {}
+				b_atico = {}
+				b_acari = {}
+				b_chaparra = {}
+				b_huanuhuanu = {}
+				b_bella_union = {}
+			}
+			c_caylloma = { # 930
+				color={ 204 65 55 }
+				color2={ 255 255 255 }
+				
+				b_chivay = {}
+				b_aplao = {}
+				b_majes = {}
+				b_cayllama = {}
+				b_yanque = {}
+				b_huanca = {}
+				b_andagua = {}
+			}
+			c_condesuyos = { # 931
+				color={ 216 217 82 }
+				color2={ 255 255 255 }
+				
+				b_chuquibamba = {}
+				b_cotahuasi = {}
+				b_cayarani = {}
+				b_yanaquihua = {}
+				b_rio_grande_del_peru = {}
+				b_huaynacotas = {}
+				b_pampamarca = {}
+			}
+			c_islay = { # 933
+				color={ 255 28 20 }
+				color2={ 255 255 255 }
+				
+				b_mollendo = {}
+				b_islay = {}
+				b_cochacara = {}
+				b_dean_valdivia = {}
+				b_mejia_2 = {}
+				b_punta_de_bombon = {}
+				b_cuchacarapi = {}
+			}
+		}
+		d_ayacucho = {
+			color={ 159 173 64 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 926 province_id = 927 } }
+				}
+			}
+			capital = 926 # c_lucanas
+			
+			c_lucanas = { # 926
+				color={ 169 163 69 }
+				color2={ 255 255 255 }
+				
+				b_puquio = {}
+				b_coracora = {}
+				b_pauza = {}
+				b_sancos = {}
+				b_alpabamba = {}
+				b_cochapata = {}
+				b_chununa = {}
+			}
+			c_ayacucho_2 = { # 927
+				color={ 15 51 255 }
+				color2={ 255 255 255 }
+				
+				b_ayacucho_3 = {}
+				b_huanta_2 = {}
+				b_la_mar = {}
+				b_cangallo_2 = {}
+				b_huancapi = {}
+				b_vilcashuaman = {}
+				b_querobamba = {}
+			}
+		}
+		d_puno = {
+			color={ 245 160 211 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 936 province_id = 937 province_id = 938 } }
+				}
+			}
+			capital = 936 # c_puno
+			
+			c_puno = { # 936
+				color={ 255 150 216 }
+				color2={ 255 255 255 }
+				
+				b_puno = {}
+				b_juliaca = {}
+				b_lampa_2 = {}
+				b_llave_2 = {}
+				b_chucuito = {}
+				b_santa_lucia_de_puno = {}
+				b_tincopalca = {}
+			}
+			c_azangaro = { # 938
+				color={ 255 91 99 }
+				color2={ 255 255 255 }
+				
+				b_azangaro = {}
+				b_huancane = {}
+				b_putina = {}
+				b_moho = {}
+				b_chupa = {}
+				b_vilquechico = {}
+				b_san_antonio_de_putina = {}
+			}
+			c_chucuito = { # 937
+				color={ 224 86 255 }
+				color2={ 255 255 255 }
+				
+				b_juli = {}
+				b_yunguyo = {}
+				b_pilcuyo = {}
+				b_pomata = {}
+				b_cuturapi = {}
+				b_zepita = {}
+				b_mazocruz = {}
+			}
+		}
+		d_vilcanota = {
+			color={ 245 132 152 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 934 province_id = 935 } }
+				}
+			}
+			capital = 934 # c_tacna
+			
+			c_tacna = { # 934
+				color={ 255 122 157 }
+				color2={ 255 255 255 }
+				
+				b_tacna = {}
+				b_lanchipa = {}
+				b_alto_de_la_alianza = {}
+				b_ciudad_nueva = {}
+				b_pocollay = {}
+				b_locumba = {}
+				b_yarada_los_palos = {}
+			}
+			c_moquegua = { # 935
+				color={ 255 61 80 }
+				color2={ 255 255 255 }
+				
+				b_moquegua = {}
+				b_llo = {}
+				b_omate = {}
+				b_samegua = {}
+				b_torata = {}
+				b_pacocha = {}
+				b_el_algarrobal = {}
+			}
+		}
+	}
+}

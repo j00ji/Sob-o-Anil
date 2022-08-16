@@ -1,0 +1,21 @@
+# c_aracatuba
+
+# County Title
+title = c_aracatuba
+
+# Settlements
+max_settlements = 4
+
+b_penapolis = tribal
+b_baguacu = castle
+#b_birigui = temple
+#b_rui_barbosa = castle
+#b_jardim_aclimacao = city
+#b_ezequiel_barbosa = temple
+#b_mao_divina = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

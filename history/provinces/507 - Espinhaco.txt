@@ -1,0 +1,21 @@
+# c_espinhaco
+
+# County Title
+title = c_espinhaco
+
+# Settlements
+max_settlements = 2
+
+b_caetite = tribal
+#b_ametistas = city
+#b_igapora = temple
+#b_lagoa_real = castle
+#b_ibiassuce = city
+#b_guanambi = temple
+#b_cacule = castle
+
+# Misc
+culture = ilhense
+religion = angel_cult
+
+#History

@@ -1,0 +1,189 @@
+###ÄNSI
+
+patagon = {
+	graphical_cultures = { italiangfx westerngfx }
+	desertico = {
+		
+		graphical_cultures = { italiangfx }
+		
+
+		color = {0.96 0.82 0.55}
+
+		male_names = {
+		Alfredo Ariel Arturo Asencio
+		Bruno
+		Carlos Ceferino
+
+		Edmundo Edgardo Enrique Ezequiel
+		Facundo Fausto "Fermín" Francisco Franco
+		Gabriel
+		"Héctor"
+		Isidoro
+		Juan "Juan Carlos"
+		Leonel Lisandro Luis
+		Marcelo Manuel Mariano Mario "Martín" "Matías" Mauricio
+		"Nicolás" Norberto
+		Omar
+		Pedro
+		Ramiro "Raúl" Remo Renato Roque
+		"Sebastián"
+		}
+
+		female_names = {
+		Alejandra Ana
+		"Belén" Brenda
+		Carla Cecilia
+		Emilia
+		Francisca
+		Gabriela
+		Juana
+		Leonor Liliana
+		Manuela Marcela Mariana Margarita Miriam
+
+		Paola Paula
+		Renata Rosario Ruth
+		Silvina
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "pibe de "
+		female_patronym = "pibe de "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	
+	santacruceno = {
+		graphical_cultures = { italiangfx }
+
+		color = {0.78 0.39 0.24}
+
+		male_names = {
+		Alfredo "Anahí" Antonio Arturo
+
+		Carlos
+		Daniel
+		Eduardo Esteban Eugenio
+		Francisco
+		"Héctor"
+		"Iñaki"
+		Jorge "José" Julio
+		Lucas Ludovico Luis
+		Marcelino Mariano "Matías" Miguel
+		"Néstor"
+		Orlando
+		Pablo
+		"Raúl" Ricardo Rodrigo
+		Santiago Sergio
+
+		}
+
+		female_names = {
+		Alicia Ana "Ángela" Antonia Antonieta
+		Benigna
+		Carla
+		Daniela
+		Esther Eugenia
+		Gabriela
+		Julia Julieta
+		Lidia Liliana Luisa
+		Marcela "María" Mariana "Mónica"
+		Norma
+		Paula
+		Sara Silvina
+
+		Virginia
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "pibe de "
+		female_patronym = "pibe de "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	australino = {
+		graphical_cultures = { southerngfx }
+		
+
+		color = {0.66 0.7 0.36}
+
+		male_names = {
+			Agustin Alberto Alfredo Alonso Andres "Antolín"
+			Benjamin
+			Camilo Carlos Cristian Cristobal Cristofer
+			Daniel Danilo David Diego Domingo
+			Eduardo Elias Emilio Ernesto Esteban
+			Fabian Federico Felipe Fernando Francisco
+			Gabriel German Gonzalo Gustavo
+			Hector Hernan Humberto Hugo
+			Ignacio Ivan
+			Jaime Javier Joaquin Jorge Jose Juan Julio
+			Lautaro Larry Lucas Luis
+			Manuel Marcelo Mario Martin Mateo Matias Mauricio
+			Nahuel Nicolas
+			Oscar
+			Pablo Patricio Paul Pedro
+			Rafael Ramon Raul Ricardo Roberto Rodrigo
+			Salvador Sebastian Sergio Simon
+		    Teudolio Tomas
+			Vicente Victor
+			Zacarias		
+		}
+
+		female_names = {
+			Ana Andrea Antonia
+			Barbara Beatriz Belen Blanca
+			Camila Carolina Catalina Claudia Cristina Constanza
+			Dalia Daniela
+			Elena Elizabeth Emilia Erica Eugenia
+			Fernanda Francisca Florencia
+			Gabriela Gladys Gloria
+			Helen 
+			Ilda Ingrid Isabel
+			Javiera Jeanette Josefa Julieta
+			Karina Karla
+			Lorena Loreto Lucila Luisa
+			Magdalena Marcela Maria Maria_Constanza Maria_Jose Maria_Luisa Mariana Martina Miriam
+			Natalia Nilda
+			Olivia 
+			Pamela Patricia Paula Paulina Pilar
+			Renata Rocio Romina Rosalba
+			Sandra Silvia Sofia Susana
+			Tamara Teresa
+			Valentina Valeria Veronica Violeta Vivian
+			Ximena
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "hijo de "
+		female_patronym = "hija de "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+}		

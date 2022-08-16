@@ -1,0 +1,21 @@
+# c_morona_santiago
+
+# County Title
+title = c_morona_santiago
+
+# Settlements
+max_settlements = 4
+
+b_morona = castle
+b_taisha = city
+#b_sucua = temple
+#b_gualaquiza = castle
+#b_indanza = city
+#b_palora = temple
+#b_huamboya = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

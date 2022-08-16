@@ -1,0 +1,21 @@
+# c_araripina
+
+# County Title
+title = c_araripina
+
+# Settlements
+max_settlements = 2
+
+b_trindade_2 = tribal
+b_araripina = city
+#b_simoes = temple
+#b_salitre = castle
+#b_ibupi = city
+#b_gergelim = temple
+#b_morais = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

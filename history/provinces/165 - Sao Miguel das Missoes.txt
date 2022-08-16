@@ -1,0 +1,21 @@
+# c_sao_miguel_das_missoes
+
+# County Title
+title = c_sao_miguel_das_missoes
+
+# Settlements
+max_settlements = 2
+
+b_sao_miguel_arcanjo = tribal
+#b_tupantuba = city
+#b_mato_queimado_2 = temple
+#b_vila_coimbra = castle
+#b_sao_sepe_tiaraju = city
+#b_nicolas_nanguiru = temple
+#b_vila_coimbra_2 = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

@@ -1,0 +1,21 @@
+# c_los_vilos
+
+# County Title
+title = c_los_vilos
+
+# Settlements
+max_settlements = 2
+
+b_los_vilos = castle
+b_pichidangui = city
+#b_canela_2 = temple
+#b_huentaleuquen = castle
+#b_tilama = city
+#b_guangali = temple
+#b_cavilolen = castle
+
+# Misc
+culture = huaso
+religion = catholic
+
+#History

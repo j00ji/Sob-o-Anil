@@ -1,0 +1,21 @@
+# c_bento_goncalves
+
+# County Title
+title = c_bento_goncalves
+
+# Settlements
+max_settlements = 4
+
+b_bento_goncalves = castle
+b_garibaldi = temple
+b_veranopolis = castle
+#b_carlos_barbosa = castle
+#b_tuiuti = city
+#b_vale_dos_pinhedos = temple
+#b_vespasiano_correa = castle
+
+# Misc
+culture = talian
+religion = celeste
+
+#History

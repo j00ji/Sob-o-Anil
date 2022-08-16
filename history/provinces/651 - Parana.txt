@@ -1,0 +1,21 @@
+# c_parana
+
+# County Title
+title = c_parana
+
+# Settlements
+max_settlements = 4
+
+b_parana_2 = castle
+b_diamante_2 = city
+b_crespo = temple
+#b_coronda = castle
+#b_piedras_blancas = city
+#b_urquiza = temple
+#b_brugo = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

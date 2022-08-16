@@ -1,0 +1,21 @@
+# c_oriximana
+
+# County Title
+title = c_oriximana
+
+# Settlements
+max_settlements = 3
+
+b_oriximana = castle
+b_obidos = city
+#b_avelinopolis = temple
+#b_faro_2 = castle
+#b_terra_santa = city
+#b_papa_pau = temple
+#b_caipuru = castle
+
+# Misc
+culture = paraense
+religion = amazonian_jews
+
+#History

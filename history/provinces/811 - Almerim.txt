@@ -1,0 +1,21 @@
+# c_almerim
+
+# County Title
+title = c_almerim
+
+# Settlements
+max_settlements = 3
+
+b_almeirim = castle
+#b_prainha = city
+#b_bom_futuro = temple
+#b_menino_deus = castle
+#b_mazagao_2 = city
+#b_jutuarana = temple
+#b_porto_mulungu = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

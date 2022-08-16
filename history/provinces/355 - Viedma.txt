@@ -1,0 +1,21 @@
+# c_viedma
+
+# County Title
+title = c_viedma
+
+# Settlements
+max_settlements = 3
+
+b_viedma = tribal
+b_san_javier_de_rio_negro = city
+#b_el_condor = temple
+#b_bahia_creek = castle
+#b_la_loberia = city
+#b_cubanea = temple
+#b_nuevo_leon = castle
+
+# Misc
+culture = desertico
+religion = gaucheria
+
+#History

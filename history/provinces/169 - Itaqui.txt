@@ -1,0 +1,21 @@
+# c_itaqui
+
+# County Title
+title = c_itaqui
+
+# Settlements
+max_settlements = 2
+
+b_itaqui = tribal
+#b_macambara = city
+#b_tapurai = temple
+#b_borore = castle
+#b_pintado = city
+#b_ibicui = temple
+#b_itao = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

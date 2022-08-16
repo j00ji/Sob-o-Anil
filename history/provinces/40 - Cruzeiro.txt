@@ -1,0 +1,21 @@
+# c_cruzeiro
+
+# County Title
+title = c_cruzeiro
+
+# Settlements
+max_settlements = 3
+
+b_nova_cruzeiro = castle
+b_guaratingueta = city
+#b_washington_beleza = temple
+#b_pontilhao = castle
+#b_vila_bionde = city
+#b_itagacaba = temple
+#b_retiro_mantiqueiro = castle
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

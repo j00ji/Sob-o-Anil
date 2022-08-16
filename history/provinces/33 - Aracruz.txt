@@ -1,0 +1,21 @@
+# c_aracruz
+
+# County Title
+title = c_aracruz
+
+# Settlements
+max_settlements = 4
+
+b_aracruz = castle
+b_coqueiral = city
+#b_barra_do_riacho = temple
+#b_barra_do_sai = castle
+#b_polivalente = city
+#b_de_carli = temple
+#b_segatomorumba = castle
+
+# Misc
+culture = capixaba
+religion = evangelical
+
+#History

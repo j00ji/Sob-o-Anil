@@ -1,0 +1,21 @@
+# c_serrana
+
+# County Title
+title = c_serrana
+
+# Settlements
+max_settlements = 2
+
+b_ouro_branco = castle
+#b_santana_do_ipanema = city
+#b_cacimbinhas = temple
+#b_olivenca_2 = castle
+#b_senador_rui_palmeira = city
+#b_maravilha_2 = temple
+#b_aguas_belas_2 = castle
+
+# Misc
+culture = pankararu
+religion = camdomble
+
+#History

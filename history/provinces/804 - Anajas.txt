@@ -1,0 +1,21 @@
+# c_anajas
+
+# County Title
+title = c_anajas
+
+# Settlements
+max_settlements = 3
+
+b_anajas_2 = castle
+b_afua = city
+#b_sao_cosme = temple
+#b_chaves_2 = castle
+#b_breves = city
+#b_curralinho_3 = temple
+#b_piria = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

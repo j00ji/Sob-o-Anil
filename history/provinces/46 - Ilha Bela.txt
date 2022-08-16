@@ -1,0 +1,21 @@
+# c_ilha_bela
+
+# County Title
+title = c_ilha_bela
+
+# Settlements
+max_settlements = 3
+
+b_ilhabela = city
+b_cambaquara = castle
+b_paranabi = temple
+#b_praia_castelhanos = castle
+#b_praia_jabaquara = city
+#b_zabumba = temple
+#b_faustino_belo = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

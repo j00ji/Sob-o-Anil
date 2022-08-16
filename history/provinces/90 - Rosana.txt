@@ -1,0 +1,21 @@
+# c_rosana
+
+# County Title
+title = c_rosana
+
+# Settlements
+max_settlements = 3
+
+b_porto_primavera = tribal
+b_santa_rita = temple
+#b_morro_do_diabo = temple
+#b_primavera_da_baixa = castle
+#b_jose_pardini = city
+#b_irmao_da_eski = temple
+#b_toca_do_jau = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

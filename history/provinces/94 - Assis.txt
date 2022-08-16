@@ -1,0 +1,21 @@
+# c_assis
+
+# County Title
+title = c_assis
+
+# Settlements
+max_settlements = 3
+
+b_platina = castle
+b_taruma = temple
+#b_joao_ramalho = temple
+#b_rancharia = castle
+#b_florinia = city
+#b_macarai = temple
+#b_palmital_sp = castle
+
+# Misc
+culture = kyusei
+religion = anchietican
+
+#History

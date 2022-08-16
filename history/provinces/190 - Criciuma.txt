@@ -1,0 +1,21 @@
+# c_criciuma
+
+# County Title
+title = c_criciuma
+
+# Settlements
+max_settlements = 4
+
+b_castelo_britanico = castle
+b_criciuma = city
+b_sao_jose_cathedral = temple
+#b_aranangua = castle
+#b_sombrio = city
+#b_balneario_rincao = temple
+#b_cocal_do_sul = castle
+
+# Misc
+culture = greenbelly
+religion = celeste
+
+#History

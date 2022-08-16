@@ -1,0 +1,21 @@
+# c_itapeva
+
+# County Title
+title = c_itapeva
+
+# Settlements
+max_settlements = 4
+
+b_itarare_2 = castle
+b_faxina = city
+b_santana_2 = temple
+#b_taquari = castle
+#b_tres_cecapes = city
+#b_lote_de_kantian = temple
+#b_colina_dos_pinhero = castle
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

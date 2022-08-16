@@ -1,0 +1,21 @@
+# c_constitucion
+
+# County Title
+title = c_constitucion
+
+# Settlements
+max_settlements = 3
+
+b_constitucion_2 = castle
+b_hualane = city
+#b_curepto = temple
+#b_licanten = castle
+#b_vichuquen = city
+#b_empedrado = temple
+#b_llico = castle
+
+# Misc
+culture = huaso
+religion = catholic
+
+#History

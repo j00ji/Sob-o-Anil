@@ -1,0 +1,21 @@
+# c_antofagasta
+
+# County Title
+title = c_antofagasta
+
+# Settlements
+max_settlements = 5
+
+b_antofagasta = castle
+b_mejillones = city
+b_sierra_gorda = temple
+#b_la_chimba = castle
+#b_la_negra = city
+#b_michilla = temple
+#b_hornitos = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

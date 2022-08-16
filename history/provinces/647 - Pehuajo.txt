@@ -1,0 +1,21 @@
+# c_pehuajo
+
+# County Title
+title = c_pehuajo
+
+# Settlements
+max_settlements = 2
+
+b_pehuajo = castle
+#b_cesares = city
+#b_chiclana = temple
+#b_hirsch = castle
+#b_gnecco = city
+#b_moctezuma = temple
+#b_smith = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

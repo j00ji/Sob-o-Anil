@@ -1,0 +1,21 @@
+# c_pedra_grande
+
+# County Title
+title = c_pedra_grande
+
+# Settlements
+max_settlements = 2
+
+b_sao_roque = castle
+#b_pedra_grande = city
+#b_parazinho = temple
+#b_sao_bento_do_norte = castle
+#b_tabua_do_reduto = city
+#b_sao_miguel_do_gostoso = temple
+#b_joao_camara = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

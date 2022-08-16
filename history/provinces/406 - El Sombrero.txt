@@ -1,0 +1,21 @@
+# c_el_sombrero
+
+# County Title
+title = c_el_sombrero
+
+# Settlements
+max_settlements = 2
+
+b_el_sombrero = tribal
+#b_el_mirasol = city
+#b_las_plumas = temple
+#b_los_altares = castle
+#b_paso_de_indios = city
+#b_tierra_muerte = temple
+#b_baldiaz = castle
+
+# Misc
+culture = desertico
+religion = calafatist
+
+#History

@@ -1,0 +1,21 @@
+# c_itanhem
+
+# County Title
+title = c_itanhem
+
+# Settlements
+max_settlements = 2
+
+b_itamaraju = castle
+b_itanhem = city
+#b_teixeira_de_freitas = temple
+#b_prado = castle
+#b_cumuruxatiba = city
+#b_itanhem_2 = temple
+#b_jucurucu = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

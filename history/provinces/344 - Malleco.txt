@@ -1,0 +1,21 @@
+# c_malleco
+
+# County Title
+title = c_malleco
+
+# Settlements
+max_settlements = 4
+
+b_angol = castle
+b_victoria = city
+#b_curacautin = temple
+#b_traiguen = castle
+#b_collipulli = city
+#b_puren = temple
+#b_ercilla = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

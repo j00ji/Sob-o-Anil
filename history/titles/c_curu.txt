@@ -1,0 +1,11 @@
+# e_nordeste
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_ceara
+}
+2366.9.12={
+	holder = 10001 #Ciro I Jereissati
+}

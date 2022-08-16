@@ -1,0 +1,23 @@
+# c_novo_horizonte
+
+# County Title
+title = c_novo_horizonte
+
+# Settlements
+max_settlements = 5
+
+#Everything WIP
+
+b_jose_bonifacio = tribal
+#b_itajobi = temple
+#b_itapolis = city
+#b_irapua = castle
+#b_marapoama = temple
+#b_ibitinga = castle
+#b_tabatinga = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

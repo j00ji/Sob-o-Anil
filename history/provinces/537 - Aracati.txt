@@ -1,0 +1,21 @@
+# c_aracati
+
+# County Title
+title = c_aracati
+
+# Settlements
+max_settlements = 3
+
+b_fortim = castle
+b_icapui = temple
+#b_itaicaba = temple
+#b_jaguaruana = castle
+#b_limoeiro_do_norte = city
+#b_morada_nova = temple
+#b_cascavel_2 = castle
+
+# Misc
+culture = cearense
+religion = cicerite
+
+#History

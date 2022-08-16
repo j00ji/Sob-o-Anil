@@ -1,0 +1,21 @@
+# c_jaguarao
+
+# County Title
+title = c_jaguarao
+
+# Settlements
+max_settlements = 2
+
+b_jaguarao = tribal
+#b_herval = city
+#b_arroio_grande = temple
+#b_passo_do_centuriao = castle
+#b_coxilha_do_lageado = city
+#b_cerro_chato = temple
+#b_mingote = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

@@ -1,0 +1,21 @@
+# c_diguillin
+
+# County Title
+title = c_diguillin
+
+# Settlements
+max_settlements = 4
+
+b_chillan = castle
+b_chillan_viejo = temple
+b_bulnes = city
+#b_yungay = castle
+#b_san_ignacio = city
+#b_coihueco = temple
+#b_pemuco = castle
+
+# Misc
+culture = huaso
+religion = catholic
+
+#History

@@ -1,0 +1,111 @@
+#PARA
+
+technology = {
+	titles = {
+		d_belem
+		d_tucuria
+		d_marajo
+		d_altamira
+		d_tapajos
+		d_pamboapy
+		d_amapa
+	}
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.75
+		economy = 0.75
+		culture = 0.75
+		
+		TECH_INFANTRY = 1.0
+		TECH_CAVALRY = 1.0
+		TECH_CASTLE_CONSTRUCTION = 1.25
+		TECH_CITY_CONSTRUCTION = 1.25
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1.25
+		TECH_CONSTRUCTION = 1.0
+		TECH_TRADE_PRACTICES = 1.5
+	}
+}
+
+technology = {
+	titles = {
+		d_itacotiara
+		d_manaus
+		d_roraima
+		d_lesser_acre
+		d_taumaturgia
+	}
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.75
+		economy = 0.75
+		culture = 0.75
+		
+		TECH_INFANTRY = 1.0
+		TECH_CAVALRY = 1.0
+		TECH_CASTLE_CONSTRUCTION = 1.25
+		TECH_CITY_CONSTRUCTION = 1.25
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1.25
+		TECH_CONSTRUCTION = 1.0
+		TECH_TRADE_PRACTICES = 1.5
+	}
+}
+
+#TRIBES OF PARA
+
+technology = {
+	titles = {
+		d_carajas
+	}
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.4
+		economy = 0.4
+		culture = 0.4
+		
+		TECH_INFANTRY = 1
+		TECH_MELEE = 0.75
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1
+		TECH_CASTLE_CONSTRUCTION = 1
+	}
+}
+#AMAZONIA
+
+#TRIBES OF THE AMAZON
+
+technology = {
+	titles = {
+		d_igarape_mamoria
+		d_aironia
+		d_the_dogs_head
+		d_vale_do_bia
+		d_copea
+		d_vale_do_javari
+	}
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.4
+		economy = 0.4
+		culture = 0.4
+		
+		TECH_INFANTRY = 1
+		TECH_MELEE = 0.75
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1
+		TECH_CASTLE_CONSTRUCTION = 1
+	}
+}

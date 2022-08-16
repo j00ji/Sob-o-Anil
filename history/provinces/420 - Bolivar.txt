@@ -1,0 +1,21 @@
+# c_bolivar
+
+# County Title
+title = c_bolivar
+
+# Settlements
+max_settlements = 4
+
+b_guaranda = castle
+b_san_miguel_de_bolivar = temple
+b_chimbo = city
+#b_caluma = castle
+#b_echeandia = city
+#b_chillanes = temple
+#b_las_naves = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

@@ -1,0 +1,21 @@
+# c_valdivia
+
+# County Title
+title = c_valdivia
+
+# Settlements
+max_settlements = 3
+
+b_valdivia = castle
+b_mehuin = city
+#b_mariquina = temple
+#b_angachilla = castle
+#b_lanco = city
+#b_antilhue = temple
+#b_niebla = castle
+
+# Misc
+culture = sureno
+religion = nguillatun
+
+#History

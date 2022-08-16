@@ -1,0 +1,21 @@
+# c_chapare
+
+# County Title
+title = c_chapare
+
+# Settlements
+max_settlements = 5
+
+b_sacaba = castle
+b_puerto_villaroel = city
+b_entre_rios_2 = temple
+b_ayopaya = castle
+#b_tiraque = city
+#b_ivirgarzama = temple
+#b_chimore = castle
+
+# Misc
+culture = colla
+religion = santa_diablada
+
+#History

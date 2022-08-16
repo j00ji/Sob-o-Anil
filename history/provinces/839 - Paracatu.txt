@@ -1,0 +1,21 @@
+# c_paracatu
+
+# County Title
+title = c_paracatu
+
+# Settlements
+max_settlements = 3
+
+b_morro_do_ouro_2 = castle
+#b_duas_pontes = city
+#b_principe = temple
+#b_sao_luiz = castle
+#b_sao_silvestre = city
+#b_santa_ana_2 = temple
+#b_santo_antonio_8 = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

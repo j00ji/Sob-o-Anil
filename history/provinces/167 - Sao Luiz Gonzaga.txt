@@ -1,0 +1,21 @@
+# c_sao_luiz_gonzaga
+
+# County Title
+title = c_sao_luiz_gonzaga
+
+# Settlements
+max_settlements = 2
+
+b_sao_luiz_gonzaga = tribal
+#b_santo_antonio_das_missoes = city
+#b_esquina_piratini = temple
+#b_rolador = castle
+#b_afonso_rodrigues = city
+#b_cerro_largo = temple
+#b_salvador_das_missoes = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

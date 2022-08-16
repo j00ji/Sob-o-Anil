@@ -1,0 +1,3 @@
+prophesied_my_death = {
+	opinion = -15
+}

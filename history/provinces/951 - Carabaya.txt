@@ -1,0 +1,21 @@
+# c_carabaya
+
+# County Title
+title = c_carabaya
+
+# Settlements
+max_settlements = 3
+
+b_macusani = castle
+b_ayaviri = temple
+#b_sandia = temple
+#b_santa_rosa_de_puno = castle
+#b_crucero = city
+#b_ayapata = temple
+#b_cuyocuyo = castle
+
+# Misc
+culture = charapa
+religion = chicha
+
+#History

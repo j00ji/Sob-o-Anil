@@ -1,0 +1,21 @@
+# c_zamora_chinchipe
+
+# County Title
+title = c_zamora_chinchipe
+
+# Settlements
+max_settlements = 3
+
+b_zamora = castle
+b_yantzaza = city
+#b_palanda = temple
+#b_paquisha = castle
+#b_chinchipe = city
+#b_el_pangui = temple
+#b_yacuambi = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

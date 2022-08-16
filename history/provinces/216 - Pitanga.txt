@@ -1,0 +1,21 @@
+# c_pitanga
+
+# County Title
+title = c_pitanga
+
+# Settlements
+max_settlements = 2
+
+b_pitanga = castle
+#b_manoel_ribas = city
+#b_nova_tebas = temple
+#b_romeopolis = castle
+#b_barra_santa_salete = city
+#b_santa_maria_do_oeste = temple
+#b_roncador = castle
+
+# Misc
+culture = rutenio
+religion = orthodoxist
+
+#History

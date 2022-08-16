@@ -1,0 +1,21 @@
+# c_auriflama
+
+# County Title
+title = c_auriflama
+
+# Settlements
+max_settlements = 5
+
+b_gen_salgado = temple
+#b_nova_castilho = city
+#b_floreal = castle
+#b_magda = temple
+#b_nhandeara = temple
+#b_nova_luzitania = city
+#b_moncoes = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

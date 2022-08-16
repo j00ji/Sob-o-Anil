@@ -1,0 +1,21 @@
+# c_moxoto
+
+# County Title
+title = c_moxoto
+
+# Settlements
+max_settlements = 2
+
+b_ibimirim = castle
+#b_custodia = city
+#b_betania = temple
+#b_arcoverde = castle
+#b_tupanatinga = city
+#b_manari = temple
+#b_sertania = castle
+
+# Misc
+culture = pankararu
+religion = camdomble
+
+#History

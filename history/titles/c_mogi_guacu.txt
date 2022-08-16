@@ -1,0 +1,47 @@
+# e_vera_cruz
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2170.3.13 = { #Albert Norton's conquest
+	holder = 120002
+}
+2173.2.20 = { #Jacob Norton
+	holder = 120011
+}
+2208.9.22 = { #Nathan Norton
+	holder = 120012
+}
+2221.10.3 = { #Sylvester I Norton
+	holder = 120015
+}
+2252.10.3 = { #Damian Norton
+	holder = 120027
+}
+2278.11.20 = { #Oliver Norton
+	holder = 120029
+}
+2286.8.24 = { #Reginald I Norton
+	holder = 120030
+}
+2298.11.11 = { #Anna I Norton
+	holder = 120025
+}
+2303.10.5 = { #Victor I West
+	holder = 120040
+}
+2322.4.27 = { #Lars West
+	holder = 120045
+}
+2350.1.3 = { #Roger West
+	holder = 120062
+}
+2353.7.3 = { #William I West
+	holder = 120049
+}
+2359.2.10 = { #William I gives it to someone else
+	holder = 0
+}

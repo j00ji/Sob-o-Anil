@@ -1,0 +1,17 @@
+# e_nordeste
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_pernambuco
+}
+2354.12.29 = { #Belchior defeats Flávio I's army, causing his death and the his victory
+	holder = 1 #Antônio Carlos Belchioringio
+}
+2362.2.10={
+	holder = 3 #Severino I Belchioringio
+}
+2366.1.1 = {
+	holder = 9 #Mateus Belchioringio
+}

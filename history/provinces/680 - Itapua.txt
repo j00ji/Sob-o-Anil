@@ -1,0 +1,21 @@
+# c_itapua
+
+# County Title
+title = c_itapua
+
+# Settlements
+max_settlements = 4
+
+b_encarnacion = castle
+b_cambyreta = city
+b_hohenhau = temple
+#b_auxiliadora = castle
+#b_san_pedro_2 = city
+#b_trinidad_4 = temple
+#b_fram = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

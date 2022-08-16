@@ -1,0 +1,21 @@
+# c_el_imperio
+
+# County Title
+title = c_el_imperio
+
+# Settlements
+max_settlements = 3
+
+b_rio_cuarto = castle
+b_santa_catalina = city
+#b_sampacho = temple
+#b_la_gilda = castle
+#b_espinillos = city
+#b_acequias = temple
+#b_reduccion = castle
+
+# Misc
+culture = cordobes
+religion = theosophist
+
+#History

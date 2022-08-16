@@ -1,0 +1,21 @@
+# c_codajas
+
+# County Title
+title = c_codajas
+
+# Settlements
+max_settlements = 1
+
+b_codajas = tribal
+#b_mara_bar = city
+#b_arauju = temple
+#b_naturebas = castle
+#b_batista_codajas = city
+#b_projetadas = temple
+#b_efarias = castle
+
+# Misc
+culture = ticuna
+religion = xabaxai_xagi
+
+#History

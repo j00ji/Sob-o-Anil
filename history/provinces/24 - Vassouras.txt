@@ -1,0 +1,21 @@
+# c_vassouras
+
+# County Title
+title = c_vassouras
+
+# Settlements
+max_settlements = 3
+
+b_vassouras = castle
+b_mendes = temple
+#b_sebastiao_ferreiros = temple
+#b_morro_azulado = castle
+#b_sacra_tingua = city
+#b_uana_ete = temple
+#b_grecco = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

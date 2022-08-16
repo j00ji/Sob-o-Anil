@@ -1,0 +1,21 @@
+# c_olivia
+
+# County Title
+title = c_olivia
+
+# Settlements
+max_settlements = 3
+
+b_caleta_olivia = tribal
+b_canadon_seco = temple
+#b_pico_truncado = temple
+#b_koluel_kayke = castle
+#b_las_heras = city
+#b_cameron_2 = temple
+#b_centenario_4 = castle
+
+# Misc
+culture = santacruceno
+religion = calafatist
+
+#History

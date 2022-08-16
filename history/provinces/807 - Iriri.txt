@@ -1,0 +1,21 @@
+# c_iriri
+
+# County Title
+title = c_iriri
+
+# Settlements
+max_settlements = 3
+
+b_medicilandia = castle
+#b_uruara = city
+#b_linha_dura = temple
+#b_verde_floresta = castle
+#b_arara = city
+#b_filho_unico = temple
+#b_bambui = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

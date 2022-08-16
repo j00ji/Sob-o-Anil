@@ -1,0 +1,11 @@
+# e_nordeste
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_cabo_norte
+}
+2367.1.1 = { #Given to José by André I
+	holder = 5 #José Belchioringio
+}

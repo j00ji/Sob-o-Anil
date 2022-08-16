@@ -1,0 +1,21 @@
+# c_sapucaia
+
+# County Title
+title = c_sapucaia
+
+# Settlements
+max_settlements = 4
+
+b_sapucaia = castle
+b_carmo = city
+#b_anta = temple
+#b_jamapara = castle
+#b_porto_velho_cunha = city
+#b_corrego_prata = temple
+#b_jafereweporto = castle
+
+# Misc
+culture = mantiqueiro
+religion = umbanda
+
+#History

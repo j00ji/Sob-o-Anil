@@ -1,0 +1,21 @@
+# c_bolivar_2
+
+# County Title
+title = c_bolivar_2
+
+# Settlements
+max_settlements = 2
+
+b_bolivar = castle
+b_henderson = city
+#b_unzue = temple
+#b_vegas = castle
+#b_sanz = city
+#b_urdampilleta = temple
+#b_daireaux = castle
+
+# Misc
+culture = contadino
+religion = platinean
+
+#History

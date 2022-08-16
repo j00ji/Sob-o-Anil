@@ -1,0 +1,21 @@
+# c_natal
+
+# County Title
+title = c_natal
+
+# Settlements
+max_settlements = 5
+
+b_reis_magos = castle
+b_parnamirim = city
+b_ogunxai = temple
+b_redinha = castle
+#b_costeira = city
+#b_sao_goncalo_do_amarante = temple
+#b_macaiba = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

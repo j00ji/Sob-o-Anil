@@ -1,0 +1,21 @@
+# c_itanhaem
+
+# County Title
+title = c_itanhaem
+
+# Settlements
+max_settlements = 5
+
+b_juquitiba = city
+b_mongagua = city
+b_abarebebe = temple
+#b_mambu = castle
+#b_santanna = city
+#b_namoa = temple
+#b_pollastrini = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

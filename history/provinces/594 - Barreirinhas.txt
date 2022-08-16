@@ -1,0 +1,21 @@
+# c_barreirinhas
+
+# County Title
+title = c_barreirinhas
+
+# Settlements
+max_settlements = 2
+
+b_barreirinhas = castle
+b_santo_amaro_5 = castle
+#b_paulino_neves = temple
+#b_algodao = castle
+#b_agua_doce = city
+#b_cangote = temple
+#b_sangrador = castle
+
+# Misc
+culture = parnaibas
+religion = cicerite
+
+#History

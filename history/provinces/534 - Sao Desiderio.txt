@@ -1,0 +1,21 @@
+# c_sao_desiderio
+
+# County Title
+title = c_sao_desiderio
+
+# Settlements
+max_settlements = 3
+
+b_barreiras_2 = tribal
+b_sao_desiderio_2 = temple
+#b_magalhaes = temple
+#b_cerradao = castle
+#b_sitio_do_rio_grande = city
+#b_mozondo = temple
+#b_riachao_das_neves = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

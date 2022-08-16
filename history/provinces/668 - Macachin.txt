@@ -1,0 +1,21 @@
+# c_macachin
+
+# County Title
+title = c_macachin
+
+# Settlements
+max_settlements = 1
+
+b_macachin = tribal
+#b_general_acha = city
+#b_rivera_2 = temple
+#b_riglos = castle
+#b_doblas = city
+#b_ataliva_roca = temple
+#b_quehue = castle
+
+# Misc
+culture = pampeano
+religion = gaucheria
+
+#History

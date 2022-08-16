@@ -1,0 +1,21 @@
+# c_trenque_lauquen
+
+# County Title
+title = c_trenque_lauquen
+
+# Settlements
+max_settlements = 2
+
+b_trenque_lauquen = tribal
+b_villegas = temple
+#b_america = temple
+#b_piedritas = castle
+#b_tres_algarrobos = city
+#b_banderalo = temple
+#b_fortin_olavarria = castle
+
+# Misc
+culture = contadino
+religion = platinean
+
+#History

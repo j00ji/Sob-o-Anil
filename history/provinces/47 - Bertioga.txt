@@ -1,0 +1,21 @@
+# c_bertioga
+
+# County Title
+title = c_bertioga
+
+# Settlements
+max_settlements = 3
+
+b_sao_tiago = city
+b_sao_sebastiao = city
+#b_sao_joao = temple
+#b_maitinga = castle
+#b_ana_paula = city
+#b_idaia_caicara = temple
+#b_tres_glebas = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

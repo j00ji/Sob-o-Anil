@@ -1,0 +1,21 @@
+# c_mafra
+
+# County Title
+title = c_mafra
+
+# Settlements
+max_settlements = 3
+
+b_mafra = castle
+b_canoinhas = temple
+#b_tres_barras = temple
+#b_papanduva = castle
+#b_monte_castelo = city
+#b_itaiopolis = temple
+#b_iraputa = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

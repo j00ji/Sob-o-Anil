@@ -1,0 +1,21 @@
+# c_arapiraca
+
+# County Title
+title = c_arapiraca
+
+# Settlements
+max_settlements = 3
+
+b_arapiraca = castle
+b_bom_conselho = temple
+#b_primavera_3 = temple
+#b_craibas = castle
+#b_traipu = city
+#b_taquarana = temple
+#b_campo_alegre_3 = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

@@ -1,0 +1,21 @@
+# c_itabuna
+
+# County Title
+title = c_itabuna
+
+# Settlements
+max_settlements = 5
+
+b_coaraci = castle
+b_itabuna = city
+b_ibicarai = temple
+#b_aritagua = castle
+#b_coaraci_2 = city
+#b_itape = temple
+#b_itapitanga = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

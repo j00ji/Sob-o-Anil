@@ -1,0 +1,21 @@
+# c_cholila
+
+# County Title
+title = c_cholila
+
+# Settlements
+max_settlements = 2
+
+b_cholila = castle
+#b_mayoco = city
+#b_costa_de_lepa = temple
+#b_leleque = castle
+#b_epuyen = city
+#b_cushamen = temple
+#b_cerro_anexo = castle
+
+# Misc
+culture = mapuche
+religion = evangelical
+
+#History

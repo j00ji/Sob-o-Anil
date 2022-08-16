@@ -1,0 +1,21 @@
+# c_joao_pinheiro
+
+# County Title
+title = c_joao_pinheiro
+
+# Settlements
+max_settlements = 2
+
+b_forte_brandao = castle
+#b_brasilandia_2 = city
+#b_santana_dos_alegres = temple
+#b_porto_diamante = castle
+#b_santa_luzia_2 = city
+#b_minas_verde = temple
+#b_testa = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

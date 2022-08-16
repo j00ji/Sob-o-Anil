@@ -1,0 +1,21 @@
+# c_conselheiro_lafaiete
+
+# County Title
+title = c_conselheiro_lafaiete
+
+# Settlements
+max_settlements = 4
+
+b_carijos = castle
+b_itaverava = temple
+#b_tres_barra = temple
+#b_sao_goncalo_2 = castle
+#b_queluzito = city
+#b_gaje = temple
+#b_buarque_de_macedo = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

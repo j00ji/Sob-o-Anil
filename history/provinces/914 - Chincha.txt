@@ -1,0 +1,21 @@
+# c_chincha
+
+# County Title
+title = c_chincha
+
+# Settlements
+max_settlements = 3
+
+b_chincha_alta = castle
+b_chincha_baja = city
+#b_pueblo_nuevo_2 = temple
+#b_sunampe = castle
+#b_grocio_prado = city
+#b_el_carmen_de_chincha = temple
+#b_san_pedro_de_huacarpana = castle
+
+# Misc
+culture = iqueno
+religion = liberationist
+
+#History

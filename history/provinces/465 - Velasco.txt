@@ -1,0 +1,21 @@
+# c_velasco
+
+# County Title
+title = c_velasco
+
+# Settlements
+max_settlements = 3
+
+b_san_ignacio_de_velasco = castle
+b_san_miguel_de_velasco = city
+#b_san_rafael_de_velasco = temple
+#b_san_antonio_de_lomerio = castle
+#b_santa_rosa_de_velasco = city
+#b_petas = temple
+#b_los_pastos = castle
+
+# Misc
+culture = chiquitano
+religion = catholic
+
+#History

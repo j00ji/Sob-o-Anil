@@ -1,0 +1,21 @@
+# c_itajai
+
+# County Title
+title = c_itajai
+
+# Settlements
+max_settlements = 4
+
+b_beto_carrero_castle = castle
+b_balneario_camboriu = city
+b_navegantes = temple
+#b_praia_brava = castle
+#b_picarras = city
+#b_luiz_alves = temple
+#b_sao_joao_do_itaperiu = castle
+
+# Misc
+culture = greenbelly
+religion = celeste
+
+#History

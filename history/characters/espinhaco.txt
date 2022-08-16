@@ -1,0 +1,99 @@
+###ÄNSI
+
+600001 ={
+	name="Carla"
+	dynasty=270001
+	female=yes
+	religion=varedesian
+	culture=espinhaco
+	
+	2321.7.12={birth=yes}
+	2341.4.2={add_matrilineal_spouse=600002}
+}
+600002 ={
+	name="Vitor"
+	dynasty=270005
+	religion=varedesian
+	culture=espinhaco
+	add_trait = mystic
+	2318.7.20={birth=yes}
+}
+600003 ={
+	name="Emanuel"
+	dynasty=270001
+	religion=varedesian
+	culture=espinhaco
+	mother = 600001
+	father = 600002
+	
+	add_trait = shy
+	2340.4.6={birth=yes}
+}
+600004 ={
+	name="Camila"
+	dynasty=270001
+	religion=varedesian
+	culture=espinhaco
+	female=yes
+	mother = 600001
+	father = 600002
+	martial = 10
+	
+	add_trait = wroth
+	2349.7.2={birth=yes}
+}
+600005 ={
+	name="Renato"
+	dynasty=270002
+	religion=terra_benta
+	culture=espinhaco
+	diplomacy=8
+	add_trait = skilled_tactician
+	add_trait = ambitious
+	
+	2346.2.20={birth=yes}
+	2365.2.11={add_spouse=600006}
+}
+600006 ={
+	name="Hilda"
+	dynasty=270005
+	religion=terra_benta
+	culture=espinhaco
+	diplomacy=8
+	female=yes
+	add_trait = skilled_tactician
+	add_trait = ambitious
+	
+	2347.9.9={birth=yes}
+}
+
+600007 = {
+	name = "Rogério"
+	dynasty = 270006 #Navarro
+	religion = terra_benta
+	culture = espinhaco
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	father = 600008
+	
+	2338.3.16 = {
+		birth = yes
+	}
+}
+
+600008 = {
+	name = "Luiz"
+	dynasty = 270006 #Navarro
+	religion = terra_benta
+	culture = espinhaco
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2311.7.28={birth=yes}
+	
+	2363.9.12 = {
+		death = {
+			death_reason = death_natural
+		} 
+	}
+}

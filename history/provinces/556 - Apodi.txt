@@ -1,0 +1,21 @@
+# c_apodi
+
+# County Title
+title = c_apodi
+
+# Settlements
+max_settlements = 2
+
+b_apodi = tribal
+#b_caraubas = city
+#b_umarizal = temple
+#b_pau_dos_ferros = castle
+#b_patu = city
+#b_severiano_melo = temple
+#b_rodolfo_fernandes = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

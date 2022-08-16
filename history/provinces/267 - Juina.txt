@@ -1,0 +1,21 @@
+# c_juina
+
+# County Title
+title = c_juina
+
+# Settlements
+max_settlements = 2
+
+b_juina = tribal
+#b_cotriguacu = city
+#b_colniza = temple
+#b_castanheira = castle
+#b_juruena = city
+#b_aripuana = temple
+#b_rondolandia = castle
+
+# Misc
+culture = rikbatsa
+religion = manredebu
+
+#History

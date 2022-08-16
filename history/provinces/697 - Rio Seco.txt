@@ -1,0 +1,21 @@
+# c_rio_seco
+
+# County Title
+title = c_rio_seco
+
+# Settlements
+max_settlements = 2
+
+b_rio_seco = castle
+#b_chanar = city
+#b_elcano = temple
+#b_encrucijada = castle
+#b_rinconada = city
+#b_alta_cordoba = temple
+#b_arrias = castle
+
+# Misc
+culture = cordobes
+religion = theosophist
+
+#History

@@ -1,0 +1,21 @@
+# c_barretos
+
+# County Title
+title = c_barretos
+
+# Settlements
+max_settlements = 5
+
+b_fortaleza = castle
+b_monte_alegre = temple
+#b_ibitu = temple
+#b_posse_seca = castle
+#b_alberto_moreira = city
+#b_japorandia = temple
+#b_ortega_nogueira = castle
+
+# Misc
+culture = canastro
+religion = anchietican
+
+#History

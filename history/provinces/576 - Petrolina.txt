@@ -1,0 +1,21 @@
+# c_petrolina
+
+# County Title
+title = c_petrolina
+
+# Settlements
+max_settlements = 4
+
+b_episcopal = castle
+b_petrolina = city
+b_cristo_rei = temple
+#b_lagoa_grande = castle
+#b_santana_do_sobrado = city
+#b_nova_descoberta = temple
+#b_boa_vista = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

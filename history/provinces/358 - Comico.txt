@@ -1,0 +1,21 @@
+# c_comico
+
+# County Title
+title = c_comico
+
+# Settlements
+max_settlements = 2
+
+b_comico = tribal
+#b_prahuaniyeu = city
+#b_los_menucos = temple
+#b_cerro_abanico = castle
+#b_sierra_colorada = city
+#b_ministro_ramos_mexia = temple
+#b_aguada_de_guerra = castle
+
+# Misc
+culture = desertico
+religion = gaucheria
+
+#History

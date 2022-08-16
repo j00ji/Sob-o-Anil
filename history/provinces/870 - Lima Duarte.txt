@@ -1,0 +1,21 @@
+# c_lima_duarte
+
+# County Title
+title = c_lima_duarte
+
+# Settlements
+max_settlements = 4
+
+b_lopes = tribal
+#b_bias_fortes = city
+#b_olaria = temple
+#b_ibitipoca = castle
+#b_garambeu = city
+#b_jacutinga = temple
+#b_monte_verde = castle
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

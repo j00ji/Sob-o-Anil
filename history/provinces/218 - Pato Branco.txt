@@ -1,0 +1,21 @@
+# c_pato_branco
+
+# County Title
+title = c_pato_branco
+
+# Settlements
+max_settlements = 2
+
+b_pato_branco = castle
+b_clevelandia = temple
+#b_vitorino = temple
+#b_mariopolis = castle
+#b_renascenca = city
+#b_itapejara_do_oeste = temple
+#b_coronel_vivida = castle
+
+# Misc
+culture = gaucho
+religion = celeste
+
+#History

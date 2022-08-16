@@ -1,0 +1,45 @@
+belchioringian = {
+	atlanticano_opinion = 5
+	camdomble_opinion = 5
+	combat_rating = 8
+	monthly_character_prestige = 0.2
+	bloodline_effect_great_heroes_appear = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_belchioringian
+	flags = { historical_bloodline bloodline_heroes }
+}	
+alexandre = {
+	paulista_opinion = 5
+	apostolic_opinion = 5
+	mineiro_opinion = -5
+	combat_rating = 5
+	monthly_character_prestige = 0.1
+	bloodline_effect_great_heroes_appear = 1
+	inheritance = patrilineal
+	allow_bastards = yes 
+	matrilineal_override = no
+	picture = GFX_bloodlines_symbol_lion
+	flags = { historical_bloodline bloodline_heroes }
+}
+manuel_black = {
+	religion_head_opinion = -5
+	combat_rating = 5
+	arrest_chance_modifier = 0.1
+	levy_reinforce_rate = 0.05
+	inheritance = patrilineal
+	allow_bastards = yes 
+	picture = GFX_bloodlines_symbol_ruthless
+	flags = { historical_bloodline bloodline_heroes }
+}
+catrilanca = {
+	combat_rating = 5
+	command_modifier = {
+		morale_offence = 0.015
+	}
+	mapuche_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes 
+	picture = GFX_bloodlines_symbol_war
+	flags = { historical_bloodline bloodline_heroes }
+}

@@ -1,0 +1,21 @@
+# c_javari
+
+# County Title
+title = c_javari
+
+# Settlements
+max_settlements = 1
+
+b_javari = tribal
+#b_lar_feio = city
+#b_aviao_salvador = temple
+#b_trinta_e_um = castle
+#b_mushabo = city
+#b_kanamari = temple
+#b_kulina_pano = castle
+
+# Misc
+culture = matis
+religion = xabaxai_xagi
+
+#History

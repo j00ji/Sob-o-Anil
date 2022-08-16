@@ -1,0 +1,21 @@
+# c_tsachilas
+
+# County Title
+title = c_tsachilas
+
+# Settlements
+max_settlements = 4
+
+b_santo_domingo_de_los_tsachilas = castle
+b_chiguilpe = city
+b_bomboli = temple
+b_zaracay = castle
+#b_concordia_2 = city
+#b_calazacon = temple
+#b_san_jacinto_del_bua = castle
+
+# Misc
+culture = guayasense
+religion = tridentine
+
+#History

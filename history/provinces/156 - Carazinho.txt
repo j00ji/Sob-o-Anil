@@ -1,0 +1,21 @@
+# c_carazinho
+
+# County Title
+title = c_carazinho
+
+# Settlements
+max_settlements = 3
+
+b_carazinho = castle
+b_nao_me_toque = city
+#b_sarandi = temple
+#b_victor_graeff = castle
+#b_saldanha_marinho = city
+#b_chapada = temple
+#b_coqueiros_do_sul = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

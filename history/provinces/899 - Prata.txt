@@ -1,0 +1,21 @@
+# c_prata
+
+# County Title
+title = c_prata
+
+# Settlements
+max_settlements = 4
+
+b_forte_pratao = castle
+b_sao_jose_6 = temple
+b_patrimonio = city
+#b_jardinesia = castle
+#b_monjolinho = city
+#b_los_pampas = temple
+#b_chacara_ramada = castle
+
+# Misc
+culture = triangler
+religion = umbanda
+
+#History

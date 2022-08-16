@@ -1,0 +1,21 @@
+# c_bombinhas
+
+# County Title
+title = c_bombinhas
+
+# Settlements
+max_settlements = 2
+
+b_bombinhas = castle
+b_meia_praia = city
+#b_tijucas = temple
+#b_itapema = castle
+#b_celso_ramos = city
+#b_caieira_2 = temple
+#b_porto_belo = castle
+
+# Misc
+culture = greenbelly
+religion = celeste
+
+#History

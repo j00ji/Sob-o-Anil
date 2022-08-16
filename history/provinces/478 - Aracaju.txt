@@ -1,0 +1,21 @@
+# c_aracaju
+
+# County Title
+title = c_aracaju
+
+# Settlements
+max_settlements = 5
+
+b_olimpio_campos = castle
+b_aracaju = city
+b_senhora_da_conceicao = temple
+#b_barra_dos_coqueiros = castle
+#b_flecheiras = city
+#b_santa_rosa_de_lima = temple
+#b_itaporanga = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

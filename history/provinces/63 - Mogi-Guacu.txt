@@ -1,0 +1,21 @@
+# c_mogi_guacu
+
+# County Title
+title = c_mogi_guacu
+
+# Settlements
+max_settlements = 3
+
+b_conceicao_do_campo = castle
+b_imaculada_conceicao = temple
+#b_mogi_mirim = temple
+#b_estiva_gerbi = castle
+#b_velo_citta = city
+#b_vila_champion = temple
+#b_tieana_bar = castle
+
+# Misc
+culture = americano
+religion = anchietican
+
+#History

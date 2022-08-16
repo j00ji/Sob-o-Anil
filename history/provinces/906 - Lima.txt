@@ -1,0 +1,21 @@
+# c_lima
+
+# County Title
+title = c_lima
+
+# Settlements
+max_settlements = 6
+
+b_lima_3 = castle
+b_callao = city
+b_san_juan_de_lurigancho = temple
+b_san_martin_de_porres = castle
+b_ate = city
+b_comas = temple
+#b_villa_el_salvador = castle
+
+# Misc
+culture = rimense
+religion = liberationist
+
+#History

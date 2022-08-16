@@ -1,0 +1,21 @@
+# c_ascope
+
+# County Title
+title = c_ascope
+
+# Settlements
+max_settlements = 4
+
+b_ascope = castle
+b_casa_grande = city
+b_guadalupe_2 = temple
+#b_san_pedro_de_lloc = castle
+#b_cascas = city
+#b_chepen = temple
+#b_pacasmayo = castle
+
+# Misc
+culture = nortegrandeno
+religion = tridentine
+
+#History

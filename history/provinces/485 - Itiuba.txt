@@ -1,0 +1,21 @@
+# c_itiuba
+
+# County Title
+title = c_itiuba
+
+# Settlements
+max_settlements = 2
+
+b_monte_santo = castle
+b_cansancao = temple
+#b_riacho_da_onca = temple
+#b_mandacaia = castle
+#b_pedra_vermelha = city
+#b_andorinhas = temple
+#b_sitio_das_flores = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

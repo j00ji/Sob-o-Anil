@@ -1,0 +1,21 @@
+# c_tecka
+
+# County Title
+title = c_tecka
+
+# Settlements
+max_settlements = 2
+
+b_tecka = castle
+#b_paso_del_sapo = city
+#b_gobernador_costa = temple
+#b_pampa_de_agnia = castle
+#b_arroyo_pescado = city
+#b_colan_conhue = temple
+#b_carrenleufu = castle
+
+# Misc
+culture = wladfaeg
+religion = evangelical
+
+#History

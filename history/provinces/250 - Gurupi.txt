@@ -1,0 +1,21 @@
+# c_gurupi
+
+# County Title
+title = c_gurupi
+
+# Settlements
+max_settlements = 2
+
+b_gurupi = tribal
+#b_parana = city
+#b_peixe = temple
+#b_crixas_do_tocantins = castle
+#b_jau_do_tocantins = city
+#b_talisma = temple
+#b_duere = castle
+
+# Misc
+culture = araguaio
+religion = manredebu
+
+#History

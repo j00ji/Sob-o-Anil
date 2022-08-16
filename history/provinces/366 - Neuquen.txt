@@ -1,0 +1,21 @@
+# c_neuquen
+
+# County Title
+title = c_neuquen
+
+# Settlements
+max_settlements = 5
+
+b_neuquen = castle
+b_centenario_3 = city
+b_plottier = temple
+#b_san_patricio_del_chanar = castle
+#b_zapala = city
+#b_picun_leufu = temple
+#b_catan_lil = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

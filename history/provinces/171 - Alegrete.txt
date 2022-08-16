@@ -1,0 +1,21 @@
+# c_alegrete
+
+# County Title
+title = c_alegrete
+
+# Settlements
+max_settlements = 3
+
+b_alegrete = tribal
+#b_cavera = city
+#b_ibirapuita = temple
+#b_manoel_viana = castle
+#b_passo_novo = city
+#b_harmonia = temple
+#b_vertentes_2 = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

@@ -1,0 +1,962 @@
+###ÄNSI
+
+
+####################
+##Random dynasties
+##Based on MG's senators and representatives
+##source: wikipedia
+##range: 275500+
+####################
+
+275500 = {
+	name = "Abi-Ackel"
+	culture = valcude
+	}
+275501 = {
+	name = "Abreu"
+	culture = valcude
+	}
+275502 = {
+	name = "Adauto"
+	culture = valcude
+	}
+275503 = {
+	name = "Aguiar"
+	culture = valcude
+	}
+275504 = {
+	name = "Albergaria"
+	culture = valcude
+	}
+275505 = {
+	name = "Aldo"
+	culture = valcude
+	}
+275506 = {
+	name = "Aleixo"
+	culture = valcude
+	}
+275507 = {
+	name = "Alkmin"
+	culture = valcude
+	}
+275508 = {
+	name = "Almeida"
+	culture = valcude
+	}
+275509 = {
+	name = "Alvim"
+	culture = valcude
+	}
+275510 = {
+	name = "Amorim"
+	culture = valcude
+	}
+275511 = {
+	name = "Ananias"
+	culture = valcude
+	}
+275512 = {
+	name = "Anghinetti"
+	culture = valcude
+	}
+275513 = {
+	name = "Anísio"
+	culture = valcude
+	}
+275514 = {
+	name = "Antônio"
+	culture = valcude
+	}
+275515 = {
+	name = "Arinos"
+	culture = valcude
+	}
+275516 = {
+	name = "Assad"
+	culture = valcude
+	}
+275517 = {
+	name = "Athayde"
+	culture = valcude
+	}
+275518 = {
+	name = "Avelino"
+	culture = valcude
+	}
+275519 = {
+	name = "Azeredo"
+	culture = valcude
+	}
+275520 = {
+	name = "Baccarini"
+	culture = valcude
+	}
+275521 = {
+	name = "Badaró"
+	culture = valcude
+	}
+275522 = {
+	name = "Balbi"
+	culture = valcude
+	}
+275523 = {
+	name = "Barbosa"
+	culture = valcude
+	}
+275524 = {
+	name = "Batista"
+	culture = valcude
+	}
+275525 = {
+	name = "Belato"
+	culture = valcude
+	}
+275526 = {
+	name = "Belém"
+	culture = valcude
+	}
+275527 = {
+	name = "Bernardes"
+	culture = valcude
+	}
+275528 = {
+	name = "Bernardino"
+	culture = valcude
+	}
+275529 = {
+	name = "Bernardo"
+	culture = valcude
+	}
+275530 = {
+	name = "Bessone"
+	culture = valcude
+	}
+275531 = {
+	name = "Bilac"
+	culture = valcude
+	}
+275532 = {
+	name = "Bisaglia"
+	culture = valcude
+	}
+275533 = {
+	name = "Bittencourt"
+	culture = valcude
+	}
+275534 = {
+	name = "Boaventura"
+	culture = valcude
+	}
+275535 = {
+	name = "Bonifácio"
+	culture = valcude
+	}
+275536 = {
+	name = "Botelho"
+	culture = valcude
+	}
+275537 = {
+	name = "Bouchardet"
+	culture = valcude
+	}
+275538 = {
+	name = "Branco"
+	culture = valcude
+	}
+275539 = {
+	name = "Brandão"
+	culture = valcude
+	}
+275540 = {
+	name = "Brant"
+	culture = valcude
+	}
+275541 = {
+	name = "Brasileiro"
+	culture = valcude
+	}
+275542 = {
+	name = "Campos"
+	culture = valcude
+	}
+275543 = {
+	name = "Canabrava"
+	culture = valcude
+	}
+275544 = {
+	name = "Cançado"
+	culture = valcude
+	}
+275545 = {
+	name = "Canedo"
+	culture = valcude
+	}
+275546 = {
+	name = "Capanema"
+	culture = valcude
+	}
+275547 = {
+	name = "Cardoso"
+	culture = valcude
+	}
+275548 = {
+	name = "Carmo"
+	culture = valcude
+	}
+275549 = {
+	name = "Carneiro"
+	culture = valcude
+	}
+275550 = {
+	name = "Carone"
+	culture = valcude
+	}
+275551 = {
+	name = "Carvalho"
+	culture = valcude
+	}
+275552 = {
+	name = "César"
+	culture = valcude
+	}
+275553 = {
+	name = "Chagas"
+	culture = valcude
+	}
+275554 = {
+	name = "Chaves"
+	culture = valcude
+	}
+275555 = {
+	name = "Chiaradia"
+	culture = valcude
+	}
+275556 = {
+	name = "Cícero"
+	culture = valcude
+	}
+275557 = {
+	name = "Coelho"
+	culture = valcude
+	}
+275558 = {
+	name = "Corrêa"
+	culture = valcude
+	}
+275559 = {
+	name = "Correia"
+	culture = valcude
+	}
+275560 = {
+	name = "Costa"
+	culture = valcude
+	}
+275561 = {
+	name = "Cotta"
+	culture = valcude
+	}
+275562 = {
+	name = "Cruz"
+	culture = valcude
+	}
+275563 = {
+	name = "Cunha"
+	culture = valcude
+	}
+275564 = {
+	name = "da Conceição"
+	culture = valcude
+	}
+275565 = {
+	name = "da Cunha"
+	culture = valcude
+	}
+275566 = {
+	name = "da Gama"
+	culture = valcude
+	}
+275567 = {
+	name = "da Mata"
+	culture = valcude
+	}
+275568 = {
+	name = "da Silva"
+	culture = valcude
+	}
+275569 = {
+	name = "da Veiga"
+	culture = valcude
+	}
+275570 = {
+	name = "Dantas"
+	culture = valcude
+	}
+275571 = {
+	name = "de Abreu"
+	culture = valcude
+	}
+275572 = {
+	name = "de Almeida"
+	culture = valcude
+	}
+275573 = {
+	name = "de Andrada"
+	culture = valcude
+	}
+275574 = {
+	name = "de Andrade"
+	culture = valcude
+	}
+275575 = {
+	name = "de Barros"
+	culture = valcude
+	}
+275576 = {
+	name = "de Carvalho"
+	culture = valcude
+	}
+275577 = {
+	name = "de Castro"
+	culture = valcude
+	}
+275578 = {
+	name = "de Lima"
+	culture = valcude
+	}
+275579 = {
+	name = "de Melo"
+	culture = valcude
+	}
+275580 = {
+	name = "de Mendonça"
+	culture = valcude
+	}
+275581 = {
+	name = "de Mesquita"
+	culture = valcude
+	}
+275582 = {
+	name = "de Morais"
+	culture = valcude
+	}
+275583 = {
+	name = "de Oliveira"
+	culture = valcude
+	}
+275584 = {
+	name = "de Paula"
+	culture = valcude
+	}
+275585 = {
+	name = "de Rezende"
+	culture = valcude
+	}
+275586 = {
+	name = "de Sousa"
+	culture = valcude
+	}
+275587 = {
+	name = "de Vasconcelos"
+	culture = valcude
+	}
+275588 = {
+	name = "Delgado"
+	culture = valcude
+	}
+275589 = {
+	name = "Deodato"
+	culture = valcude
+	}
+275590 = {
+	name = "Dias"
+	culture = valcude
+	}
+275591 = {
+	name = "Dib"
+	culture = valcude
+	}
+275592 = {
+	name = "Diniz"
+	culture = valcude
+	}
+275593 = {
+	name = "do Lago"
+	culture = valcude
+	}
+275594 = {
+	name = "do Nascimento"
+	culture = valcude
+	}
+275595 = {
+	name = "do Vale"
+	culture = valcude
+	}
+275596 = {
+	name = "dos Mares"
+	culture = valcude
+	}
+275597 = {
+	name = "dos Santos"
+	culture = valcude
+	}
+275598 = {
+	name = "Dulci"
+	culture = valcude
+	}
+275599 = {
+	name = "Dutra"
+	culture = valcude
+	}
+275600 = {
+	name = "Elísio"
+	culture = valcude
+	}
+275601 = {
+	name = "Eloy"
+	culture = valcude
+	}
+275602 = {
+	name = "Fagundes"
+	culture = valcude
+	}
+275603 = {
+	name = "Faria"
+	culture = valcude
+	}
+275604 = {
+	name = "Fassarella"
+	culture = valcude
+	}
+275605 = {
+	name = "Felipe"
+	culture = valcude
+	}
+275606 = {
+	name = "Ferramenta"
+	culture = valcude
+	}
+275607 = {
+	name = "Ferrara"
+	culture = valcude
+	}
+275608 = {
+	name = "Ferraz"
+	culture = valcude
+	}
+275609 = {
+	name = "Ferreira"
+	culture = valcude
+	}
+275610 = {
+	name = "Figueiredo"
+	culture = valcude
+	}
+275611 = {
+	name = "Fonseca"
+	culture = valcude
+	}
+275612 = {
+	name = "Fortes"
+	culture = valcude
+	}
+275613 = {
+	name = "Franco"
+	culture = valcude
+	}
+275614 = {
+	name = "Freire"
+	culture = valcude
+	}
+275615 = {
+	name = "Galassi"
+	culture = valcude
+	}
+275616 = {
+	name = "Gallo"
+	culture = valcude
+	}
+275617 = {
+	name = "Garcia"
+	culture = valcude
+	}
+275618 = {
+	name = "Gomes"
+	culture = valcude
+	}
+275619 = {
+	name = "Gonçalves"
+	culture = valcude
+	}
+275620 = {
+	name = "Guabiroba"
+	culture = valcude
+	}
+275621 = {
+	name = "Guerra"
+	culture = valcude
+	}
+275622 = {
+	name = "Guia"
+	culture = valcude
+	}
+275623 = {
+	name = "Guido"
+	culture = valcude
+	}
+275624 = {
+	name = "Guimarães"
+	culture = valcude
+	}
+275625 = {
+	name = "Henrique"
+	culture = valcude
+	}
+275626 = {
+	name = "Herculino"
+	culture = valcude
+	}
+275627 = {
+	name = "Heslander"
+	culture = valcude
+	}
+275628 = {
+	name = "Humberto"
+	culture = valcude
+	}
+275629 = {
+	name = "Jabur"
+	culture = valcude
+	}
+275630 = {
+	name = "Júlio"
+	culture = valcude
+	}
+275631 = {
+	name = "Júnior"
+	culture = valcude
+	}
+275632 = {
+	name = "Junqueira"
+	culture = valcude
+	}
+275633 = {
+	name = "Kubitschek"
+	culture = valcude
+	}
+275634 = {
+	name = "Lara"
+	culture = valcude
+	}
+275635 = {
+	name = "Leal"
+	culture = valcude
+	}
+275636 = {
+	name = "Leão"
+	culture = valcude
+	}
+275637 = {
+	name = "Leite"
+	culture = valcude
+	}
+275638 = {
+	name = "Libânio"
+	culture = valcude
+	}
+275639 = {
+	name = "Lima"
+	culture = valcude
+	}
+275640 = {
+	name = "Lobato"
+	culture = valcude
+	}
+275641 = {
+	name = "Lodi"
+	culture = valcude
+	}
+275642 = {
+	name = "Lopes"
+	culture = valcude
+	}
+275643 = {
+	name = "Lucas"
+	culture = valcude
+	}
+275644 = {
+	name = "Luciano"
+	culture = valcude
+	}
+275645 = {
+	name = "Luz"
+	culture = valcude
+	}
+275646 = {
+	name = "Machado"
+	culture = valcude
+	}
+275647 = {
+	name = "Maciel"
+	culture = valcude
+	}
+275648 = {
+	name = "Magalhães"
+	culture = valcude
+	}
+275649 = {
+	name = "Magno"
+	culture = valcude
+	}
+275650 = {
+	name = "Marise"
+	culture = valcude
+	}
+275651 = {
+	name = "Martins"
+	culture = valcude
+	}
+275652 = {
+	name = "Matos"
+	culture = valcude
+	}
+275653 = {
+	name = "Mattos"
+	culture = valcude
+	}
+275654 = {
+	name = "Medeiros"
+	culture = valcude
+	}
+275655 = {
+	name = "Medioli"
+	culture = valcude
+	}
+275656 = {
+	name = "Medrado"
+	culture = valcude
+	}
+275657 = {
+	name = "Melles"
+	culture = valcude
+	}
+275658 = {
+	name = "Mendes"
+	culture = valcude
+	}
+275659 = {
+	name = "Mendonça"
+	culture = valcude
+	}
+275660 = {
+	name = "Miranda"
+	culture = valcude
+	}
+275661 = {
+	name = "Monteiro"
+	culture = valcude
+	}
+275662 = {
+	name = "Moreira"
+	culture = valcude
+	}
+275663 = {
+	name = "Mosconi"
+	culture = valcude
+	}
+275664 = {
+	name = "Murad"
+	culture = valcude
+	}
+275665 = {
+	name = "Murilo"
+	culture = valcude
+	}
+275666 = {
+	name = "Murta"
+	culture = valcude
+	}
+275667 = {
+	name = "Naya"
+	culture = valcude
+	}
+275668 = {
+	name = "Negrão"
+	culture = valcude
+	}
+275669 = {
+	name = "Neiva"
+	culture = valcude
+	}
+275670 = {
+	name = "Neri"
+	culture = valcude
+	}
+275671 = {
+	name = "Neto"
+	culture = valcude
+	}
+275672 = {
+	name = "Neves"
+	culture = valcude
+	}
+275673 = {
+	name = "Nobre"
+	culture = valcude
+	}
+275674 = {
+	name = "Pacheco"
+	culture = valcude
+	}
+275675 = {
+	name = "Pádua"
+	culture = valcude
+	}
+275676 = {
+	name = "Paes"
+	culture = valcude
+	}
+275677 = {
+	name = "Palmério"
+	culture = valcude
+	}
+275678 = {
+	name = "Passos"
+	culture = valcude
+	}
+275679 = {
+	name = "Paulinelli"
+	culture = valcude
+	}
+275680 = {
+	name = "Paulo"
+	culture = valcude
+	}
+275681 = {
+	name = "Peixoto"
+	culture = valcude
+	}
+275682 = {
+	name = "Pena"
+	culture = valcude
+	}
+275683 = {
+	name = "Pereira"
+	culture = valcude
+	}
+275684 = {
+	name = "Perim"
+	culture = valcude
+	}
+275685 = {
+	name = "Perrella"
+	culture = valcude
+	}
+275686 = {
+	name = "Pimenta"
+	culture = valcude
+	}
+275687 = {
+	name = "Pinheiro"
+	culture = valcude
+	}
+275688 = {
+	name = "Pinto"
+	culture = valcude
+	}
+275689 = {
+	name = "Pires"
+	culture = valcude
+	}
+275690 = {
+	name = "Pompei"
+	culture = valcude
+	}
+275691 = {
+	name = "Portela"
+	culture = valcude
+	}
+275692 = {
+	name = "Porto"
+	culture = valcude
+	}
+275693 = {
+	name = "Prata"
+	culture = valcude
+	}
+275694 = {
+	name = "Queiroz"
+	culture = valcude
+	}
+275695 = {
+	name = "Raimundo"
+	culture = valcude
+	}
+275696 = {
+	name = "Reis"
+	culture = valcude
+	}
+275697 = {
+	name = "Renault"
+	culture = valcude
+	}
+275698 = {
+	name = "Resende"
+	culture = valcude
+	}
+275699 = {
+	name = "Rezende"
+	culture = valcude
+	}
+275700 = {
+	name = "Ribeiro"
+	culture = valcude
+	}
+275701 = {
+	name = "Rodrigues"
+	culture = valcude
+	}
+275702 = {
+	name = "Romano"
+	culture = valcude
+	}
+275703 = {
+	name = "Rosa"
+	culture = valcude
+	}
+275704 = {
+	name = "Santana"
+	culture = valcude
+	}
+275705 = {
+	name = "Santiago"
+	culture = valcude
+	}
+275706 = {
+	name = "Santos"
+	culture = valcude
+	}
+275707 = {
+	name = "Scarano"
+	culture = valcude
+	}
+275708 = {
+	name = "Seabra"
+	culture = valcude
+	}
+275709 = {
+	name = "Silvestre"
+	culture = valcude
+	}
+275710 = {
+	name = "Siqueira"
+	culture = valcude
+	}
+275711 = {
+	name = "Soares"
+	culture = valcude
+	}
+275712 = {
+	name = "Sobrinho"
+	culture = valcude
+	}
+275713 = {
+	name = "Souto"
+	culture = valcude
+	}
+275714 = {
+	name = "Starling"
+	culture = valcude
+	}
+275715 = {
+	name = "Tadeu"
+	culture = valcude
+	}
+275716 = {
+	name = "Tannus"
+	culture = valcude
+	}
+275717 = {
+	name = "Tavares"
+	culture = valcude
+	}
+275718 = {
+	name = "Taveira"
+	culture = valcude
+	}
+275719 = {
+	name = "Teixeira"
+	culture = valcude
+	}
+275720 = {
+	name = "Terra"
+	culture = valcude
+	}
+275721 = {
+	name = "Thibau"
+	culture = valcude
+	}
+275722 = {
+	name = "Tito"
+	culture = valcude
+	}
+275723 = {
+	name = "Tourinho"
+	culture = valcude
+	}
+275724 = {
+	name = "Ulisses"
+	culture = valcude
+	}
+275725 = {
+	name = "Valadares"
+	culture = valcude
+	}
+275726 = {
+	name = "Valente"
+	culture = valcude
+	}
+275727 = {
+	name = "Varella"
+	culture = valcude
+	}
+275728 = {
+	name = "Vargas"
+	culture = valcude
+	}
+275729 = {
+	name = "Vasconcelos"
+	culture = valcude
+	}
+275730 = {
+	name = "Vaz"
+	culture = valcude
+	}
+275731 = {
+	name = "Veloso"
+	culture = valcude
+	}
+275732 = {
+	name = "Viana"
+	culture = valcude
+	}
+275733 = {
+	name = "Vidigal"
+	culture = valcude
+	}
+275734 = {
+	name = "Viegas"
+	culture = valcude
+	}
+275735 = {
+	name = "Vieira"
+	culture = valcude
+	}
+275736 = {
+	name = "Vital"
+	culture = valcude
+	}
+275737 = {
+	name = "Werneck"
+	culture = valcude
+	}

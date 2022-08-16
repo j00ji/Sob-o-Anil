@@ -1,0 +1,21 @@
+# c_iturralde
+
+# County Title
+title = c_iturralde
+
+# Settlements
+max_settlements = 2
+
+b_ixiamas = castle
+#b_rurrenabaque = city
+#b_tumupasa = temple
+#b_san_buenaventura = castle
+#b_tahua = city
+#b_madidi = temple
+#b_puerto_heath = castle
+
+# Misc
+culture = colla
+religion = pachamama
+
+#History

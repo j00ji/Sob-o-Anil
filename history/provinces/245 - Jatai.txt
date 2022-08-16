@@ -1,0 +1,21 @@
+# c_jatai
+
+# County Title
+title = c_jatai
+
+# Settlements
+max_settlements = 1
+
+b_jatai = tribal
+#b_apore = city
+#b_portelandia = temple
+#b_doverlandia = castle
+#b_caiaponia = city
+#b_serranopolis = temple
+#b_mineiros = castle
+
+# Misc
+culture = goyanense
+religion = anchietican
+
+#History

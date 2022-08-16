@@ -1,0 +1,21 @@
+# c_passo_fundo
+
+# County Title
+title = c_passo_fundo
+
+# Settlements
+max_settlements = 3
+
+b_passo_fundo = castle
+b_marau = temple
+b_tapejara = castle
+#b_tapejara_2 = castle
+#b_sananduva = city
+#b_mato_castelhano = temple
+#b_nova_alvorada = castle
+
+# Misc
+culture = talian
+religion = celeste
+
+#History

@@ -1,0 +1,21 @@
+# c_guarda_mor
+
+# County Title
+title = c_guarda_mor
+
+# Settlements
+max_settlements = 3
+
+b_guardaverde = castle
+#b_passo_principe = city
+#b_impossiveis = temple
+#b_vazante = castle
+#b_lagoa_grande_2 = city
+#b_santa_rita_5 = temple
+#b_forte_sangrento = castle
+
+# Misc
+culture = triangler
+religion = terra_benta
+
+#History

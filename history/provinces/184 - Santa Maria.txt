@@ -1,0 +1,21 @@
+# c_santa_maria
+
+# County Title
+title = c_santa_maria
+
+# Settlements
+max_settlements = 4
+
+b_santa_maria = tribal
+#b_basilica_nossa_senhora_medianeira = city
+#b_boca_do_monte = temple
+#b_camobi = castle
+#b_sao_joao_do_polesine = city
+#b_itaara = temple
+#b_sao_pedro_do_sul = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

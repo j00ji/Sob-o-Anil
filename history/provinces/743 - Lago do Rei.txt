@@ -1,0 +1,21 @@
+# c_lago_do_rei
+
+# County Title
+title = c_lago_do_rei
+
+# Settlements
+max_settlements = 2
+
+b_lago_do_rei = castle
+#b_lago_marimba = city
+#b_jose_vasconcelo = temple
+#b_cambixe = castle
+#b_careiro_da_varzea = city
+#b_morada_nova_2 = temple
+#b_ieadem = castle
+
+# Misc
+culture = amazonense
+religion = holy_spirit
+
+#History

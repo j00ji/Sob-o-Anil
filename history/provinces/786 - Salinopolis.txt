@@ -1,0 +1,21 @@
+# c_salinopolis
+
+# County Title
+title = c_salinopolis
+
+# Settlements
+max_settlements = 3
+
+b_salinopolis = castle
+b_curuca = temple
+#b_colares = temple
+#b_vigia = castle
+#b_odvelas = city
+#b_marapanin = temple
+#b_magalhaes_barata = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

@@ -1,0 +1,21 @@
+# c_taubate
+
+# County Title
+title = c_taubate
+
+# Settlements
+max_settlements = 4
+
+b_ouroville = castle
+b_aparecida = temple
+#b_terra_nova = temple
+#b_catagua = castle
+#b_pindamonhangaba = city
+#b_roseira = temple
+#b_sao_piraitinga = castle
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

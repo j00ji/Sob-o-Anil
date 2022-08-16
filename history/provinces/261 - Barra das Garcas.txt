@@ -1,0 +1,21 @@
+# c_barra_das_garcas
+
+# County Title
+title = c_barra_das_garcas
+
+# Settlements
+max_settlements = 3
+
+b_barra_do_garcas = tribal
+#b_torixoreu = city
+#b_ribeiraozinho = temple
+#b_araguaiana = castle
+#b_general_carneiro = city
+#b_nova_xavantina = temple
+#b_ponte_branca_2 = castle
+
+# Misc
+culture = xavante
+religion = manredebu
+
+#History

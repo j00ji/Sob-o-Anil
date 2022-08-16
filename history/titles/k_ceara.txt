@@ -1,0 +1,19 @@
+# k_ceara
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+2358.3.4={ #Belchior conquests Ceará
+	holder = 1 #Antônio Carlos Belchioringio
+	name = FORTALEZA_KINGDOM
+	adjective = FORTALEZA_KINGDOM_ADJ
+}
+2362.2.10={
+	holder = 5 #José I Belchioringio
+}
+2366.9.12={ #Cicerite Revolt 
+	holder = 10001 #Ciro I Jereissati
+	reset_name = yes
+	reset_adjective = yes
+	set_global_flag = fortaleza_renamed
+}

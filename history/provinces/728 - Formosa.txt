@@ -1,0 +1,21 @@
+# c_formosa
+
+# County Title
+title = c_formosa
+
+# Settlements
+max_settlements = 2
+
+b_formosa_3 = tribal
+b_clorinda = tribal
+#b_tacagle = temple
+#b_palma_sola_2 = castle
+#b_fierro = city
+#b_palo_santo = temple
+#b_laguna_gallo = castle
+
+# Misc
+culture = chaqueno
+religion = catholic
+
+#History

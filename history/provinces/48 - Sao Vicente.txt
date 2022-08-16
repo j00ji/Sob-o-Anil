@@ -1,0 +1,21 @@
+# c_sao_vicente
+
+# County Title
+title = c_sao_vicente
+
+# Settlements
+max_settlements = 6
+
+b_itarare = city
+b_voturua = castle
+b_samarita = temple
+#b_praia_grande = castle
+#b_quarentenario = city
+#b_ema = temple
+#b_boqueirao = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

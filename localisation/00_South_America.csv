@@ -1,0 +1,654 @@
+###ÄNSI;;;;;;;;;;;;;;
+###RELIGIONS;;;;;;;;;;;;;;
+american_native;Amerindian;;;;;;;;;;;;;x
+nguillatun;Nguillatun;;;;;;;;;;;;;x
+nguillatun_DESC;The traditional faith of the Mapuche people, they believe that before the world was even formed, different primordial spirits, called the Ngen, Pillan, and Wangulén, came forth from the Pu-Am, the universal soul, and gave shape to all of creation through their own conflicts and stories. Now Ngenechén, the ruler spirit of mankind, blesses those that satisfy them with offerings in the Nguillatun ceremonies, and punishes those that fail to give worthy offerings.;;;;;;;;;;;;;x
+xoon;Xo'on;;;;;;;;;;;;;x
+xoon_DESC;Born from the revival of myths and cultures long lost in the south of the continent, led by the Xo'on shamans, they believe first and foremost in their supreme god, Temaulken, under him are the Ancestral Spirits, or Howenh. The Followers of the Xo'on also believe that, long ago, woman murdered the ancient spirits and ruled over man with an iron fist. The Sun Howenh, Kren, observed this oppression with rage, and so called for the Soortes, demons from the underworld that would bring back the natural order of things, so now men, with the assistance of the Soortes, would make sure that woman will never oppress man again.;;;;;;;;;;;;;x
+pachamama;Pachamama;;;;;;;;;;;;;x
+pachamama_DESC;The resurgence of the native spiritual beliefs, syncretized with traditional virgin devotion, and in conjunction with ecological and social movements of the past age before the Event, culminated in the ascendance of the cult of the Mother Earth, or Pachamama. As the source of life and the world we live in, mother of the Sun and the Moon and everything that is, Pachamamists believe that we must give offerings back to the World Mother in gratitude for everything she has given us, and caring for nature is caring for the gifts of the Goddess herself, thus protection of the land and living in harmony with it is the primordial duty of each person.;;;;;;;;;;;;;x
+jerovia;Añetejerovia;;;;;;;;;;;;;x
+jerovia_desc;The guarani but like they are not christian bah.;;;;;;;;;;;;;x
+inti;Inti;;;;;;;;;;;;;x
+inti_desc;Sun god go splof.;;;;;;;;;;;;;x
+inkarri;Inkarri;;;;;;;;;;;;;x
+inkarri_DESC;The faithful of Inkarri believe in the titular god, Inkarri, supreme and only deity that created and ruled the Andean world, taking the form of many Avatars through the ages, such as Viracocha, Inti, Manco Capac and others. When the evil and cruel Españarri came from a distant world, he struck down Inkarri's last Avatar, Atahualpa. Separating his body and limbs but keeping his head alive and buried, the power of Inkarri has been locked. Once his parts are finally reunited, Inkarri faithful believe that a new age will rise on the Andes with the return of their god, bringing back a Holy and Godly empire ruled by the newest incarnation of Inkarri.;;;;;;;;;;;;;x
+hekura;Hekura;;;;;;;;;;;;;x
+hekura_desc;Viloence and death dudes, forest spirits bro.;;;;;;;;;;;;;x
+apostolic;Apostolic;;;;;;;;;;;;;x
+anchietican;Anchietano;;;;;;;;;;;;;x
+iconoclasts;Iconoclast;;;;;;;;;;;;;x
+orthodoxist;Orthodoxist;;;;;;;;;;;;;x
+liberationist;Liberationist;;;;;;;;;;;;;x
+liberationist_DESC;Based on the antediluvian teachings of Liberation Theology, Liberationists propose to fight poverty and misery by addressing its alleged source, the sin of greed, that they denounce at every chance. They believe that the ancient hierarchies have been corrupted by this sin, and led the church stray from God's path. Thus it's only through base church communities, where self-reliant worshipers from amongst the common people will return the church closer to the early uncorrupted gospel. Some of the more radical Liberationists even believe that it's this plight of greed that lead to the Event, as society went Godless and the natural order was broken.;;;;;;;;;;;;;x
+cicerite;Cicerite;;;;;;;;;;;;;x
+seladite;Seladite;;;;;;;;;;;;;x
+evangelical;Evangelical;;;;;;;;;;;;;x
+evangelical_DESC;After the Event, most of the South-American protestant churches entered in a communion to protect themselves from other encroaching faiths, in a union recognizing their theological differences and similiraties. Their communion however remains fragile, and interference by outsiders may bring it to colapse.
+universal;Universal;;;;;;;;;;;;;x
+universal_DESC;The Universal Church of the Kingdom of God was the only church to reject communion with the other Protestants who managed to survive the post-deluge world. Organizing around the Pastor-Bishop and prosperity theology, Universalists are not very well seem by the rest of the Evangelical faith.
+tridentine;Tridentine;;;;;;;;;;;;;x
+mysticalism;Mysticalism;;;;;;;;;;;;;x
+holy_spirit;Holy Spirit;;;;;;;;;;;;;x
+xabaxai_xagi;Xabaxáígio Xagí;;;;;;;;;;;;;x
+catholic_DESC;Once the by far dominant faith of the continent, Catholicism has been battered by the chaos and the change brought by the Event. In need of greater unity and direction than ever, the archbishops of South America brought their political differences aside and decided to unite as a particular Catholic Church, and elected the Patriarch of South America to lead them. Originally based in Buenos Aires, the rise of other faiths has displaced the Patriarchy to Santiago, where it prepares to once again reclaim the land for the Church.;;;;;;;;;;;;;x
+cult_of_saints;Cult Of Saints;;;;;;;;;;;;;x
+chicha;Chicha;;;;;;;;;;;;;x
+santa_diablada;Santa Diablada;;;;;;;;;;;;;x
+santa_diablada_DESC;Born from the clash between worlds, Las Santas Diabladas are a diverse and vibrant clade of cults that have arisen in the Central Andes, believing that under God there is a wide pantheon of powerful beings composed by Saints, Demons, and Spirits of the Land, that either in awe and admiration or in fear, must be worshipped and kept content, otherwise they might sway from blessing into cursing those who don't give them the offering they seek and deserve. As rival interests and domains between the forces exist, Santa Diablada worshippers identify with one of three large groups. Los Santos, followers of Jesús, the Virgin, San Ernesto and El Tata. Los Diablos, followers of dark demons like El Tío, Ekeko, Momo and even Mandinga. And Los Dueños, followers of the spirits of nature, like Jichi, Coquena and Jerere.;;;;;;;;;;;;;x
+folclorista;Folclorista;;;;;;;;;;;;;x
+patria_grande;Patria Grande;;;;;;;;;;;;;x
+syncretic_group;Syncretic;;;;;;;;;;;;;x
+camdomble;Camdomble;;;;;;;;;;;;;x
+santo_daime;Santo Daime;;;;;;;;;;;;;x
+umbanda;Umbanda;;;;;;;;;;;;;x
+tres_potencias;Tres Potencias;;;;;;;;;;;;;x
+kardecists;Kardecist;;;;;;;;;;;;;x
+eastern_group;Eastern;;;;;;;;;;;;;x
+buddhism;Buddhist;;;;;;;;;;;;;x
+theosophist;Theosophist;;;;;;;;;;;;;x
+hindu;Hindu;;;;;;;;;;;;;x
+old_world_cultists;Old World Cultist;;;;;;;;;;;;;x
+camino_estelar;Camino Estelar;;;;;;;;;;;;;x
+camino_estelar_DESC;Born from the synthesis of different UFO cults, Andean myths and geoglyphs, and the influence of Astronomy, Camino Estelar believes that the Event was actually written in the stars, a cosmic punishment for not following the celestial instructions. It's through star-reading and observation that they can follow the path of the Hermanos Mayores or Elder Siblings, also known as the Annunaki, all-mighty beings from far amongst the stars, led by the sacred master Nibiru. They revere the ruins of the old observatories and astronomical facilities as holy places where they regularly pilgrim to, crossing the desert and reaching these far temples where they can communicate with the stars. Ancient geoglyphs are also regarded as messages to the gods, and a way of asking for guidance and blessings.;;;;;;;;;;;;;x
+obscurantist;Obscurantist;;;;;;;;;;;;;x
+obscurantist_DESC;Born from a different interpretation on the Camino Estelar myths, Obscurantists believe that although it's true that mighty beings are found amongst the stars, and through observation they can be reached, they believe those being are harbingers of the end, lead by the World Born Dead, Nibiru,and the Event was caused because mankind looked too deep into the Abyss beyond the world. To prevent anything like that to ever happen again, they seek to destroy any chance of people finding what the people of old ever found, and hide any secrets the stars hide, as keepers of what must not be known. It is only under the cover of Darkness, that Humankind will be safe from the Shining Abyss.;;;;;;;;;;;;;x
+modernists;Modernist;;;;;;;;;;;;;x
+varedesian;Varedesian;;;;;;;;;;;;;x
+aphite;Aphite;;;;;;;;;;;;;x
+atomicist;Atomicist;;;;;;;;;;;;;x
+platinean;Platinean;;;;;;;;;;;;;x
+rosalian;Rosalian;;;;;;;;;;;;;x
+bandean;Bandean;;;;;;;;;;;;;x
+artiguista;Artiguista;;;;;;;;;;;;;x
+piriamano;Piriamano;;;;;;;;;;;;;x
+farrapo;Farrapo;;;;;;;;;;;;;x
+vargist;Vargist;;;;;;;;;;;;;x
+darwinist;Darwinist;;;;;;;;;;;;;x
+darwinist_DESC;Darwinists follow the teachings of the wise and ancient Prophet Darwin, they believe that Mother Nature is supreme in all of her doings, and that she shall select each one's path upon this world through Evolution, and lead those who aren't meant to be to Extinction. Darwinists also venerate the great and majestous creatures and living beings that Mother Nature blessed the lands with and strongly reject the ideals of forcing the environment to follow the nefarious anthropocentric needs, for only Nature's will must be supreme.;;;;;;;;;;;;;x
+lamarckian;Lamarckian;;;;;;;;;;;;;x
+lamarckian_DESC;Lamarckians are the followers of Father Lamarck, Vile Darwin’s greatest rival. They reject the idea that Mother Nature will decide their fate and keep mankind enslaved to her will, instead, they preach that their own effort will lead to mankind’s ultimate development and rise over the wild. They worship Ortho Genesis, the god of Mankind, and Lord of the Driving Force, the divine grace of self-development, and the power behind everything good in society, instead of capricious Nature.;;;;;;;;;;;;;x
+calafatist_reformed;Calafatist;;;;;;;;;;;;;x
+calafatist;Calafatist;;;;;;;;;;;;;x
+calafatist_DESC;Calafatist paganism refers to the series of myths and beliefs developed by the people at the southernmost frontier of the continent, Patagonia. The Calafatists believe that after the event the world reached a new age, but two ages came past, the age of the Giants, lead by Nosjthej, and the age of the Explorers, lead by Magellan. Together, these forces stood their ground against the vile cold from the south, until the ice shattered and the new age began, awith the descendants of both following their path and gaining strength from reclaiming their old power, they are known for their ritual consumption of calafate berries, said to contain the essence of the great female spirit Calafate, whose sacrifice to keep standing cold’s greatest strike gives them strength to remain unyielding against everything and always come back to the frontier.;;;;;;;;;;;;;x
+terra_benta_reformed;Terra Benta;;;;;;;;;;;;;x
+terra_benta;Terra Benta;;;;;;;;;;;;;x
+gaucheria_reformed;Gaucheria;;;;;;;;;;;;;x
+gaucheria;Gaucheria;;;;;;;;;;;;;x
+dreamtime_reformed;Dreamtime;;;;;;;;;;;;;x
+dreamtime;Dreamtime;;;;;;;;;;;;;x
+manredebu_reformed;Manredebu;;;;;;;;;;;;;x
+manredebu;Manredebu;;;;;;;;;;;;;x
+nautical;Nautical;;;;;;;;;;;;;x
+brethren;Brethren;;;;;;;;;;;;;x
+conservante;Conservante;;;;;;;;;;;;;x
+angel_cult;Angel Cult;;;;;;;;;;;;;x
+###FORM OF ADDRESS;;;;;;;;;;;;;;
+PATRIARCH;Patriarch;;;;;;;;;;;;;x
+PATRIARCH_FEMALE;Patriarchess;;;;;;;;;;;;;x
+ARCHBISHOP;Archbishop;;;;;;;;;;;;;x
+PATRIARCHY_FOA;Patriarch of South America;;;;;;;;;;;;;x
+ARCHBISHOP_FOA;Archbishop of São Paulo;;;;;;;;;;;;;x
+ERRAZURIZ;Errázuriz;;;;;;;;;;;;;x
+GONZALEZ;González;;;;;;;;;;;;;x
+DIAZ;Díaz;;;;;;;;;;;;;x
+LOPEZ;López;;;;;;;;;;;;;x
+SEPULVEDA;Sepúlveda;;;;;;;;;;;;;x
+MUNOZ;Muñoz;;;;;;;;;;;;;x
+LORD_COMMANDER;Lord-Commander;;;;;;;;;;;;;x
+LADY_COMMANDER;Lady-Commander;;;;;;;;;;;;;x
+GENERALSHIP;Generalship of;;;;;;;;;;;;;x
+ARCHDIOCESE;Archdiocese of;;;;;;;;;;;;;x
+###GODS ETC;;;;;;;;;;;;;;
+WEICHAN;Weichan;;;;;;;;;;;;;x
+ADMAPU;Admapu;;;;;;;;;;;;;x
+MACHI;Machi;;;;;;;;;;;;;x
+AM;Am;;;;;;;;;;;;;x
+APTITUDE;Aptitude;;;;;;;;;;;;;x
+GOD_NGENECHEN;Ngenechén;;;;;;;;;;;;;x
+GOD_ANTU;Antu;;;;;;;;;;;;;x
+GOD_KUYEN;Kuyen;;;;;;;;;;;;;x
+GOD_PERIPILLAN;Peripillán;;;;;;;;;;;;;x
+GOD_TRENTREN;Trentren-Vilu;;;;;;;;;;;;;x
+GOD_CAICAI;Caicai-Vilu;;;;;;;;;;;;;x
+GOD_EPUNAMUN;Epunamún;;;;;;;;;;;;;x
+GOD_WEKUFES;Wekufes;;;;;;;;;;;;;x
+GOD_KALKUS;Kalkus;;;;;;;;;;;;;x
+SHOON;Sho'on;;;;;;;;;;;;;x
+XOON;Xo'on;;;;;;;;;;;;;x
+MIU;Miu;;;;;;;;;;;;;x
+GOD_TEMAUKEL;Temáukel;;;;;;;;;;;;;x
+GOD_KENOS;Kenos;;;;;;;;;;;;;x
+GOD_KWANYIP;Kwanyip;;;;;;;;;;;;;x
+GOD_CENUKE;Cenuke;;;;;;;;;;;;;x
+GOD_KOJH;Kojh;;;;;;;;;;;;;x
+GOD_KREN;Kren;;;;;;;;;;;;;x
+GOD_KRE;Kre;;;;;;;;;;;;;x
+GOD_JOSH;Josh;;;;;;;;;;;;;x
+GOD_SHENRR;Shenrr;;;;;;;;;;;;;x
+GOD_XALPEN;Xalpen;;;;;;;;;;;;;x
+GOD_SOORTES;The Soortes;;;;;;;;;;;;;x
+ASHE;Ashe;;;;;;;;;;;;;x
+AYAYEMA;Ayayema;;;;;;;;;;;;;x
+BOOK_OF_TRAPALANDA;Book of Trapalanda;;;;;;;;;;;;;x
+CAMPAIGN;Campaign;;;;;;;;;;;;;x
+CARAMURU;Caramuru;;;;;;;;;;;;;x
+CRIMSON_BOOKS;Crimson Books;;;;;;;;;;;;;x
+CURSPI;Curspi;;;;;;;;;;;;;x
+DRIVE;Drive;;;;;;;;;;;;;x
+EXPOSITOR;Expositor;;;;;;;;;;;;;x
+EXTINCTION_WAR;Extinction War;;;;;;;;;;;;;x
+GOD_ABAPORU;Abaporu;;;;;;;;;;;;;x
+GOD_ABISMO_BRILLANTE;Abismo Brillante;;;;;;;;;;;;;x
+GOD_ABRAHAM;Abraham;;;;;;;;;;;;;x
+GOD_ADAO;Adao;;;;;;;;;;;;;x
+GOD_ALEP_LAYP;Alep-Láyp;;;;;;;;;;;;;x
+GOD_ALMA;Alma;;;;;;;;;;;;;x
+GOD_AMUNDSEN;Amundsen;;;;;;;;;;;;;x
+GOD_AN;An;;;;;;;;;;;;;x
+GOD_ANITTA;Anitta;;;;;;;;;;;;;x
+GOD_ANNUNAKI;The Annunaki;;;;;;;;;;;;;x
+GOD_BELGRANO;Belgrano;;;;;;;;;;;;;x
+GOD_BENTO_GONCALVES;Bento Gonçalves;;;;;;;;;;;;;x
+GOD_BLAVATSKY;Blavatsky;;;;;;;;;;;;;x
+GOD_BLOOD;Blood;;;;;;;;;;;;;x
+GOD_BONE;Bone;;;;;;;;;;;;;x
+GOD_BRASILEIROS;Brasileiros;;;;;;;;;;;;;x
+GOD_BROWN;Brown;;;;;;;;;;;;;x
+GOD_BULL;Bull;;;;;;;;;;;;;x
+GOD_CALAFATE;Calafate;;;;;;;;;;;;;x
+GOD_CANABARRO;Canabarro;;;;;;;;;;;;;x
+GOD_CAUDILLOS;Caudillos;;;;;;;;;;;;;x
+GOD_CHAOS;Chaos;;;;;;;;;;;;;x
+GOD_CHIZA;Chiza;;;;;;;;;;;;;x
+GOD_CHUG_CHUG;Chug Chug;;;;;;;;;;;;;x
+GOD_CLAY;Clay;;;;;;;;;;;;;x
+GOD_COQUENA;Coquena;;;;;;;;;;;;;x
+GOD_CRISTO;Cristo;;;;;;;;;;;;;x
+GOD_CUCA;Cuca;;;;;;;;;;;;;x
+GOD_DIADORIM;Diadorim;;;;;;;;;;;;;x
+GOD_DIOS;Dios;;;;;;;;;;;;;x
+GOD_DISCOVERY;Discovery;;;;;;;;;;;;;x
+GOD_DORREGO;Dorrego;;;;;;;;;;;;;x
+GOD_EARTH_MOTHER;Earth Mother;;;;;;;;;;;;;x
+GOD_EKEKO;Ekeko;;;;;;;;;;;;;x
+GOD_EL_TATA;El Tata;;;;;;;;;;;;;x
+GOD_EL_TIO;El Tío;;;;;;;;;;;;;x
+GOD_ELAL;Elal;;;;;;;;;;;;;x
+GOD_ESO;Eso;;;;;;;;;;;;;x
+GOD_EVA;Eva;;;;;;;;;;;;;x
+GOD_EXPLORATION;Exploration;;;;;;;;;;;;;x
+GOD_FATHER_LAMARCK;Father Lamarck;;;;;;;;;;;;;x
+GOD_FROZEN_EMPEROR;Frozen Emperor;;;;;;;;;;;;;x
+GOD_GALILEU;Galileu;;;;;;;;;;;;;x
+GOD_GARIBALDI;Garibaldi;;;;;;;;;;;;;x
+GOD_GAUCHITO;Gauchito Gil;;;;;;;;;;;;;x
+GOD_GUEMES;Guemes;;;;;;;;;;;;;x
+GOD_HORSE;Horse;;;;;;;;;;;;;x
+GOD_IANSA;Iansa;;;;;;;;;;;;;x
+GOD_IEMANJA;Iemanja;;;;;;;;;;;;;x
+GOD_INTI;Inti;;;;;;;;;;;;;x
+GOD_IBLIS;Iblis;;;;;;;;;;;;;x
+GOD_JERERE;Jerere;;;;;;;;;;;;;x
+GOD_JESUS;Jesus;;;;;;;;;;;;;x
+GOD_JICHI;Jichi;;;;;;;;;;;;;x
+GOD_KOOT_HOOMI;Koot Hoomi;;;;;;;;;;;;;x
+GOD_LA_MAZORCA;La Mazorca;;;;;;;;;;;;;x
+GOD_LORD_VULCAN;Lord Vulcan;;;;;;;;;;;;;x
+GOD_MACUNAIMA;Macunaima;;;;;;;;;;;;;x
+GOD_MARADONA;Maradona;;;;;;;;;;;;;x
+GOD_MARTIN_FIERRO;Martín Fierro;;;;;;;;;;;;;x
+GOD_MARY;Mary;;;;;;;;;;;;;x
+GOD_MAGELLAN;Magellan;;;;;;;;;;;;;x
+GOD_MOON;Moon;;;;;;;;;;;;;x
+GOD_MORENO;Moreno;;;;;;;;;;;;;x
+GOD_MORYA;Morya;;;;;;;;;;;;;x
+GOD_MOSES;Moses;;;;;;;;;;;;;x
+GOD_MOTHER_EARTH;Mother Earth;;;;;;;;;;;;;x
+GOD_MOTHER_NATURE;Mother Nature;;;;;;;;;;;;;x
+GOD_NETTO;Netto;;;;;;;;;;;;;x
+GOD_NIBIRU;Nibiru;;;;;;;;;;;;;x
+GOD_NOSJTHEJ;Nosjthej;;;;;;;;;;;;;x
+GOD_OSCURIDAD;Oscuridad;;;;;;;;;;;;;x
+GOD_ORTHO_GENESIS;Ortho Genesis;;;;;;;;;;;;;x
+GOD_ORUNMILA;Orunmila;;;;;;;;;;;;;x
+GOD_OZONO;Ozono;;;;;;;;;;;;;x
+GOD_PACHAMAMA;Pachamama;;;;;;;;;;;;;x
+GOD_PERITO_MORENO;Perito Moreno;;;;;;;;;;;;;x
+GOD_POLLUTION;Pollution;;;;;;;;;;;;;x
+GOD_PROPHET_DARWIN;Prophet Darwin;;;;;;;;;;;;;x
+GOD_QUILLA;Quilla;;;;;;;;;;;;;x
+GOD_QUIROGA;Quiroga;;;;;;;;;;;;;x
+GOD_REINALDO;Reinaldo;;;;;;;;;;;;;x
+GOD_SAN_ERNESTO;San Ernesto;;;;;;;;;;;;;x
+GOD_SAN_MARTIN;San Martín;;;;;;;;;;;;;x
+GOD_SARMIENTO;Sarmiento;;;;;;;;;;;;;x
+GOD_SIRIUS;Sirius;;;;;;;;;;;;;x
+GOD_SOL_MUERTO;El Sol Muerto;;;;;;;;;;;;;x
+GOD_SUN;Sun;;;;;;;;;;;;;x
+GOD_SUPAY;Supay;;;;;;;;;;;;;x
+GOD_TEIXEIRA_NUNES;Teixeira Nunes;;;;;;;;;;;;;x
+GOD_THE_ANCESTRAL_RACE;The Ancestral Race;;;;;;;;;;;;;x
+GOD_THE_ARCHITECT;The Architect;;;;;;;;;;;;;x
+GOD_THE_ARTIFICE;The Artifice;;;;;;;;;;;;;x
+GOD_THE_BLESSED_VIRGIN;The Blessed Virgin;;;;;;;;;;;;;x
+GOD_THE_CIPAYO;The Cipayo;;;;;;;;;;;;;x
+GOD_THE_CONCEDING_ONE;The Conceding One;;;;;;;;;;;;;x
+GOD_THE_CROSS;The Cross;;;;;;;;;;;;;x
+GOD_THE_CROWN;The Crown;;;;;;;;;;;;;x
+GOD_THE_DARKNESS;The Darkness;;;;;;;;;;;;;x
+GOD_THE_DOG;The Dog;;;;;;;;;;;;;x
+GOD_THE_DRIVING_FORCE;The Driving Force;;;;;;;;;;;;;x
+GOD_THE_DROUGHT;The Drought;;;;;;;;;;;;;x
+GOD_THE_EMBOABAS;The Emboabas;;;;;;;;;;;;;x
+GOD_THE_FROST;The Frost;;;;;;;;;;;;;x
+GOD_THE_GREATNESS;The Greatness;;;;;;;;;;;;;x
+GOD_THE_GRINGO;The Gringo;;;;;;;;;;;;;x
+GOD_THE_HEADLESS_MULE;The Headless Mule;;;;;;;;;;;;;x
+GOD_THE_JANGUNSUS;The Jangunsus;;;;;;;;;;;;;x
+GOD_THE_LUSOS;The Lusos;;;;;;;;;;;;;x
+GOD_THE_MAN;The Man;;;;;;;;;;;;;x
+GOD_THE_METHOD;The Method;;;;;;;;;;;;;x
+GOD_THE_ORICHAS;The Orichas;;;;;;;;;;;;;x
+GOD_THE_RACE;The Race;;;;;;;;;;;;;x
+GOD_THE_RESTORER;The Restorer;;;;;;;;;;;;;x
+GOD_THE_SAINTS;The Saints;;;;;;;;;;;;;x
+GOD_THE_SELECTION;The Selection;;;;;;;;;;;;;x
+GOD_THE_SNAKE;The Snake;;;;;;;;;;;;;x
+GOD_THE_SPIRITS;The Spirits;;;;;;;;;;;;;x
+GOD_TUNUPA_TARAPACA;Tunupa-Tarapacá;;;;;;;;;;;;;x
+GOD_THE_VICAR;The Vicar of the Christ;;;;;;;;;;;;;x
+GOD_THE_WILD;The Wild;;;;;;;;;;;;;x
+GOD_WORLD_MOTHER;World Mother;;;;;;;;;;;;;x
+GOD_YSO;Yso;;;;;;;;;;;;;x
+GREAT_VANGUARD;Great Vanguard;;;;;;;;;;;;;x
+GREAT_WALK;Great Walk;;;;;;;;;;;;;x
+GUALICHO;Gualicho;;;;;;;;;;;;;x
+HARMONY;Harmony;;;;;;;;;;;;;x
+HERB_POET;Herb Poet;;;;;;;;;;;;;x
+HERMANO;Hermano;;;;;;;;;;;;;x
+HOLY_WAR_VACARIA;Vacaría;;;;;;;;;;;;;x
+INOVATION;Inovation;;;;;;;;;;;;;x
+JUDGE;Judge;;;;;;;;;;;;;x
+KACHPIK;Kachpik;;;;;;;;;;;;;x
+KEEPER;Keeper;;;;;;;;;;;;;x
+LAS_INSTRUCCIONES_CELESTIALES;Las Instrucciones Celestiales;;;;;;;;;;;;;x
+LUCIFER;Lucifer;;;;;;;;;;;;;x
+MANDINGA;Mandinga;;;;;;;;;;;;;x
+NATURALIST;Naturalist;;;;;;;;;;;;;x
+OBSERVADOR;Observador;;;;;;;;;;;;;x
+ODU_IFA;Odu Ifa;;;;;;;;;;;;;x
+OFFICER;Officer;;;;;;;;;;;;;x
+THE_ORIGIN_OF_THE_SPECIES;The Origin of Species;;;;;;;;;;;;;x
+PADRE;Padre;;;;;;;;;;;;;x
+PARENT;Parent;;;;;;;;;;;;;x
+PARTENON_LITERARIO;Partenon Literario;;;;;;;;;;;;;x
+PAYADOR;Payador;;;;;;;;;;;;;x
+PHILOSOPHIE_ZOOLOGIQUE;Philosophie Zoologique;;;;;;;;;;;;;x
+PURITY;Purity;;;;;;;;;;;;;x
+SATAN;Satan;;;;;;;;;;;;;x
+SCIENTIST;Scientist;;;;;;;;;;;;;x
+SHAMAN;Shaman;;;;;;;;;;;;;x
+SHEPERD;Sheperd;;;;;;;;;;;;;x
+SILVER_BOOKS;The Silver Books;;;;;;;;;;;;;x
+SUMAK_KAWSAY;Sumak Kawsay;;;;;;;;;;;;;x
+SUPAY;Supay;;;;;;;;;;;;;x
+TEINIAGUA;Teiniagua;;;;;;;;;;;;;x
+TELLER;Teller;;;;;;;;;;;;;x
+THE_ARCHITECT;The Architect;;;;;;;;;;;;;x
+THE_BEAST;The Beast;;;;;;;;;;;;;x
+THE_CACIQUES;The Caciques;;;;;;;;;;;;;x
+THE_CERRADO_DEMON;The Cerrado Demon;;;;;;;;;;;;;x
+THE_COLD_ONE;The Cold One;;;;;;;;;;;;;x
+THE_DARKNESS;The Darkness;;;;;;;;;;;;;x
+THE_DEVIL;The Devil;;;;;;;;;;;;;x
+THE_FIERRO_TOMES;The Fierro Tomes;;;;;;;;;;;;;x
+THE_GOD_LIGHT;The God Light;;;;;;;;;;;;;x
+THE_GREAT_GAUCHO;The Great Gaucho;;;;;;;;;;;;;x
+THE_GRINGO;The Gringo;;;;;;;;;;;;;x
+THE_LEFT_SPIRITS;The Left Spirits;;;;;;;;;;;;;x
+THE_MIMEOGRAPHED_TEXTS;The Mimeographed Texts;;;;;;;;;;;;;x
+THE_MISSIONED_DOCUMENTS;The Missioned Documents;;;;;;;;;;;;;x
+THE_NIGHT;The Night;;;;;;;;;;;;;x
+THE_RECOLLECTIONS;The Recollections;;;;;;;;;;;;;x
+THE_SAGARANA;The Sagarana;;;;;;;;;;;;;x
+THE_SANG_TRUTHS;The Sang Truths;;;;;;;;;;;;;x
+THE_SECRET_DOCTRINE;The Secret Doctrine;;;;;;;;;;;;;x
+THE_SPIRITS;The Spirits;;;;;;;;;;;;;x
+THE_TEXTBOOK;The Textbook;;;;;;;;;;;;;x
+THE_UNITARIANS;The Unitarians;;;;;;;;;;;;;x
+THE_VALLEY;The Valley;;;;;;;;;;;;;x
+THE_VIRGIN_OF_THE_FOREST;The Virgin of the Forest;;;;;;;;;;;;;x
+THE_WEREWOLF;The Werewolf;;;;;;;;;;;;;x
+THE_QURAN;The Quran;;;;;;;;;;;;;x
+TRADITION;Tradition;;;;;;;;;;;;;x
+TROVADOR;Trovador;;;;;;;;;;;;;x
+VIGOR;Vigor;;;;;;;;;;;;;x
+YATIRI;Yatiri;;;;;;;;;;;;;x
+GOD_MANTO_CELESTIAL;El Manto Celestial;;;;;;;;;;;;;
+camino_estelar_FEATURES;§Y*§! Followers of Camino Estelar might realize Star-Readings, obtaining random prophecies to fulfill with associated bonuses.;;;;;;;;;;;;;;
+manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
+manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x
+catrilanca;Blood of Catriel 'The Conqueror';;;;;;;;;;;;;x
+catrilanca_desc;The uniter of the Mapuche, the earth trembled under his feet as he lead his people into their true destiny, until his premature death ended it all.;;;;;;;;;;;;;x
+belchioringian;Belchioringian Blood;;;;;;;;;;;;;x
+belchioringian_desc;A brilliant statesmen and warrior, he revolted against the Salvadorense overlords, founding his own Empire in most of the Northeast.;;;;;;;;;;;;;x
+baron_mapuche;Lonko;;;;;;;;;;;;;x
+baron_female_mapuche;Lonko;;;;;;;;;;;;;x
+barony_of_mapuche;Caví of;;;;;;;;;;;;;x
+barony_mapuche;Caví;;;;;;;;;;;;;x
+count_mapuche;Ülmen;;;;;;;;;;;;;x
+count_female_mapuche;Ülmen;;;;;;;;;;;;;x
+county_of_mapuche;Lof of;;;;;;;;;;;;;x
+county_mapuche;Lof of;;;;;;;;;;;;;x
+duke_mapuche;Ülmen Buta Lonko;;;;;;;;;;;;;x
+duke_female_mapuche;Ülmen Buta Lonko;;;;;;;;;;;;;x
+duchy_of_mapuche;Aillarehue of;;;;;;;;;;;;;x
+duchy_mapuche;Aillarehue;;;;;;;;;;;;;x
+king_mapuche;Ñizol Lonko;;;;;;;;;;;;;x
+king_female_mapuche;Ñizol Lonko;;;;;;;;;;;;;x
+kingdom_of_mapuche;Butalmapu of;;;;;;;;;;;;;x
+kingdom_mapuche;Butalmapu;;;;;;;;;;;;;x
+emperor_mapuche;Ñizol Buta Lonko;;;;;;;;;;;;;x
+emperor_female_mapuche;Ñizol Buta Lonko;;;;;;;;;;;;;x
+empire_of_mapuche;Wallmapu of;;;;;;;;;;;;;x
+empire_female_mapuche;Wallmapu;;;;;;;;;;;;;x
+job_spiritual_nguillatun;Court Machi;;;;;;;;;;;;;x
+temple_baron_nguillatun;Machi;;;;;;;;;;;;;x
+temple_baron_female_nguillatun;Machi;;;;;;;;;;;;;x
+temple_baron_nguillatuns;Adjuncts;;;;;;;;;;;;;x
+temple_barony_of_nguillatun;Rehue of;;;;;;;;;;;;;x
+temple_count_nguillatun;Buta Machi;;;;;;;;;;;;;x
+temple_count_female_nguillatun;Buta Machi;;;;;;;;;;;;;x
+temple_county_of_nguillatun;Lonkorehue of;;;;;;;;;;;;;x
+temple_duke_nguillatun;Machi Buta Lonko;;;;;;;;;;;;;x
+temple_duke_female_nguillatun;Machi Buta Lonko;;;;;;;;;;;;;x
+temple_duchy_of_nguillatun;Butalrehue of;;;;;;;;;;;;;x
+temple_king_nguillatun;Machi Ñizal Lonko;;;;;;;;;;;;;x
+temple_king_female_nguillatun;Machi Ñizal Lonko;;;;;;;;;;;;;x
+temple_kingdom_of_nguillatun;Butalmapu Rehue of;;;;;;;;;;;;;x
+temple_emperor_nguillatun;Machi Ñizol Buta Lonko;;;;;;;;;;;;;x
+temple_emperor_female_nguillatun;Machi Ñizol Buta Lonko;;;;;;;;;;;;;x
+temple_empire_of_nguillatun;Wallrehue of;;;;;;;;;;;;;x
+city_barony_of_mapuche;Coyag of;;;;;;;;;;;;;x
+city_county_of_mapuche;Buta Coyag of;;;;;;;;;;;;;x
+city_count_mapuche;Werken;;;;;;;;;;;;;x
+city_count_female_mapuche;Werken;;;;;;;;;;;;;x
+city_duchy_of_mapuche;Ñizol Coyag of;;;;;;;;;;;;;x
+city_duke_mapuche;Buta Werken;;;;;;;;;;;;;x
+city_duke_female_mapuche;Buta Werken;;;;;;;;;;;;;x
+city_kingdom_of_mapuche;Wudalmapu  of;;;;;;;;;;;;;x
+city_king_mapuche;Ñizol Werken;;;;;;;;;;;;;x
+city_king_female_mapuche;Ñizol Werken;;;;;;;;;;;;;x
+city_empire_of_mapuche;Ñizol Wudalmapu Unions of;;;;;;;;;;;;;x
+city_emperor_mapuche;Ñizol Buta Werken;;;;;;;;;;;;;x
+city_emperor_female_mapuche;Ñizol Buta Werken;;;;;;;;;;;;;x
+tribal_count_female_selknam;K'mal;;;;;;;;;;;;;x
+tribal_count_selknam;K'mal;;;;;;;;;;;;;x
+tribal_county_selknam;Haruwen;;;;;;;;;;;;;x
+tribal_county_of_selknam;Haruwen of;;;;;;;;;;;;;x
+tribal_duke_female_selknam;Aienam;;;;;;;;;;;;;x
+tribal_duke_selknam;Aienain;;;;;;;;;;;;;x
+tribal_county_selknam;Haruwen;;;;;;;;;;;;;x
+tribal_county_of_selknam;Haruwen of;;;;;;;;;;;;;x
+tribal_king_female_selknam;Chanam;;;;;;;;;;;;;x
+tribal_king_selknam;Chanain;;;;;;;;;;;;;x
+king_wladfaeg;Prince;;;;;;;;;;;;;x
+king_female_wladfaeg;Princess;;;;;;;;;;;;;x
+kingdom_of_wladfaeg;Princedom of;;;;;;;;;;;;;x
+kingdom_mapuche;Princedom;;;;;;;;;;;;;x
+emperor_wladfaeg;High King;;;;;;;;;;;;;x
+emperor_female_wladfaeg;High Queen;;;;;;;;;;;;;x
+empire_of_wladfaeg;High Kingdom of;;;;;;;;;;;;;x
+empire_female_wladfaeg;High Kingdom;;;;;;;;;;;;;x
+baron_muslim;Wali;;;;;;;;;;;;;x
+baron_female_muslim;Wali'a;;;;;;;;;;;;;x
+barony_of_muslim;Madinat of;;;;;;;;;;;;;x
+barony_muslim;Madinat;;;;;;;;;;;;;x
+count_muslim;Hakim;;;;;;;;;;;;;x
+count_female_muslim;Sayyida;;;;;;;;;;;;;x
+county_of_muslim;Wilayat of;;;;;;;;;;;;;x
+county_muslim;Wilayat;;;;;;;;;;;;;x
+duke_muslim;Za'eem;;;;;;;;;;;;;x
+duke_female_muslim;Za'eema;;;;;;;;;;;;;x
+duchy_of_muslim;Dawlat of;;;;;;;;;;;;;x
+duchy_muslim;Dawlat;;;;;;;;;;;;;x
+king_muslim;Shareef;;;;;;;;;;;;;x
+king_female_muslim;Shareefa;;;;;;;;;;;;;x
+kingdom_of_muslim;Shareefate of;;;;;;;;;;;;;x
+kingdom_muslim;Shareefate;;;;;;;;;;;;;x
+emperor_muslim;Sultan;;;;;;;;;;;;;x
+emperor_female_muslim;Sultana;;;;;;;;;;;;;x
+empire_of_muslim;Sultanate of;;;;;;;;;;;;;x
+empire_muslim;Sultanate;;;;;;;;;;;;;x
+temple_baron_camino_estelar;Hermano;;;;;;;;;;;;;x
+temple_baron_female_camino_estelar;Hermana;;;;;;;;;;;;;x
+temple_baron_camino_estelars;Hermanos;;;;;;;;;;;;;x
+temple_barony_of_camino_estelar;Telescope of;;;;;;;;;;;;;x
+temple_barony_camino_estelar;Telescope;;;;;;;;;;;;;x
+temple_count_camino_estelar;Alto Hermano;;;;;;;;;;;;;x
+temple_count_female_camino_estelar;Alta Hermana;;;;;;;;;;;;;x
+temple_county_camino_estelar;Observatory;;;;;;;;;;;;;x
+temple_county_of_camino_estelar;Observatory of;;;;;;;;;;;;;x
+temple_duke_camino_estelar;Iluminado Hermano;;;;;;;;;;;;;x
+temple_duke_female_camino_estelar;Iluminada Hermana;;;;;;;;;;;;;x
+temple_duchy_of_camino_estelar;Proyect of;;;;;;;;;;;;;x
+temple_duchy_of_camino_estelar;Proyect;;;;;;;;;;;;;x
+temple_king_camino_estelar;Padre;;;;;;;;;;;;;x
+temple_king_female_camino_estelar;Madre;;;;;;;;;;;;;x
+temple_kingdom_of_camino_estelar;Grand-Project of;;;;;;;;;;;;;x
+temple_emperor_camino_estelar;Alto Padre;;;;;;;;;;;;;x
+temple_emperor_female_camino_estelar;Alta Madre;;;;;;;;;;;;;x
+temple_empire_of_camino_estelar;World-Project of;;;;;;;;;;;;;x
+job_spiritual_camino_estelar;Court Observer;;;;;;;;;;;;;x
+baron_farrapo;Patrão;;;;;;;;;;;;;x
+baron_female_farrapo;Patroa;;;;;;;;;;;;;x
+barony_of_farrapo;Rincão of;;;;;;;;;;;;;x
+barony_farrapo;Rincão;;;;;;;;;;;;;x
+count_farrapo;Capitão;;;;;;;;;;;;;x
+count_female_farrapo;Capitã;;;;;;;;;;;;;x
+county_of_farrapo;Pago of;;;;;;;;;;;;;x
+county_farrapo;Pago;;;;;;;;;;;;;x
+duke_farrapo;Paisano;;;;;;;;;;;;;x
+duke_female_farrapo;Paisana;;;;;;;;;;;;;x
+duchy_of_farrapo;Querência of;;;;;;;;;;;;;x
+duchy_farrapo;Querência;;;;;;;;;;;;;x
+king_farrapo;Caudilho;;;;;;;;;;;;;x
+king_female_farrapo;Caudilha;;;;;;;;;;;;;x
+kingdom_of_farrapo;Estância of;;;;;;;;;;;;;x
+kingdom_farrapo;Estância;;;;;;;;;;;;;x
+emperor_farrapo;Grão-Caudilho;;;;;;;;;;;;;x
+emperor_female_farrapo;Grã-Caudilha;;;;;;;;;;;;;x
+empire_of_farrapo;Continente of;;;;;;;;;;;;;x
+empire_farrapo;Continente;;;;;;;;;;;;;x
+job_spiritual_farrapo;Court Trovador;;;;;;;;;;;;;x
+temple_baron_farrapo;Pajador;;;;;;;;;;;;;x
+temple_baron_female_farrapo;Pajadora;;;;;;;;;;;;;x
+temple_count_farrapo;Milongueiro;;;;;;;;;;;;;x
+temple_count_female_farrapo;Milongueira;;;;;;;;;;;;;x
+temple_duke_farrapo;Grão-Milongueiro;;;;;;;;;;;;;x
+temple_duke_female_farrapo;Grã-Milongueira;;;;;;;;;;;;;x
+job_spymaster_carioca;Xisnove;;;;;;;;;;;;;x
+###Traits;;;;;;;;;;;;;;
+caste_fixed;Fixed Mode;;;;;;;;;;;;;x
+caste_fixed_desc;This character was born under a sign of Fixed Mode, and is expected to hold firm the beliefs and teachings of masters of old, and stand for the true faith in a spiritual role.;;;;;;;;;;;;;x
+caste_cardinal;Cardinal Mode;;;;;;;;;;;;;x
+caste_cardinal_desc;This character was born under a sign of Cardinal Mode, and is expected to stand up for themselves in secular matters as strong leaders, fighting for their realms..;;;;;;;;;;;;;x
+caste_mutable;Mutable Mode;;;;;;;;;;;;;x
+caste_mutable_desc;This character was born under a sign of Mutable Mode, and is expected to use their adaptability and flexibility to focus on minute and instantaneous ways, like trade and commerce.;;;;;;;;;;;;;x
+branch_presbyterian;Presbyterian;;;;;;;;;;;;;x
+branch_presbyterian_desc;This character is a Presbyterian, choosing to believe in common leaders choosen by their community.;;;;;;;;;;;;;x
+branch_pentecostal;Pentecostal;;;;;;;;;;;;;x
+branch_pentecostal_desc;This character is a Pentecostal, believing first and foremost in direct contact with the Holy spirit and in the central role of the Charisma.;;;;;;;;;;;;;x
+branch_methodist;Methodist;;;;;;;;;;;;;x
+branch_methodist_desc;This character is a Methodist, who considers necessary a personal relationship with God and engagement with an ethical life.;;;;;;;;;;;;;x
+branch_baptist;Baptist;;;;;;;;;;;;;x
+branch_baptist_desc;As a Baptist, this character believes in salvation through faith alone, and in the confirmation through the Holy Eucharist and in Credobaptism.;;;;;;;;;;;;;x
+branch_non_sectarian;Non Sectarian;;;;;;;;;;;;;x
+branch_non_sectarian_desc;This character is against identyfing as a single denomination of Protestantism, believing instead in the duty of the Protestant Communion for the sake of unity.;;;;;;;;;;;;;x
+initiate_astronomer;Initiate Astronomer;;;;;;;;;;;;;x
+initiate_astronomer_desc;This character in an initiate in perfoming star-reading and prophesying, and is respected amongt followers of the Camino Estelar.;;;;;;;;;;;;;x
+adept_astronomer;Adept Astronomer;;;;;;;;;;;;;x
+adept_astronomer_desc;This character in an adept in perfoming star-reading and prophesying, and is well respected amongt followers of the Camino Estelar.\n§GThis will grant better modifiers while fulfilling prophecies§!;;;;;;;;;;;;;x
+initiate_astronomer;Initiate Astronomer;;;;;;;;;;;;;x
+initiate_astronomer_desc;This character in a master in perfoming star-reading and prophesying, and is well respected amongt followers of the Camino Estelar.\n§GThis will grant better modifiers while fulfilling prophecies§!;;;;;;;;;;;;;x
+###DECISIONS ;;;;;;;;;;;;;;x
+change_evangelical_church;Change Evangelical Denomination;;;;;;;;;;;;;x
+change_evangelical_church_desc;Choosing a denomination to belong to is a crucial part of our religion, I may change mine if I find it necessary.;;;;;;;;;;;;;x
+do_deep_bible_study;Do a Deep Bible study;;;;;;;;;;;;;x
+do_deep_bible_study_desc;Do a deep bible study in search of meaning in the great holy book.;;;;;;;;;;;;;x
+receive_charisma;Receive Charisma;;;;;;;;;;;;;x
+receive_charisma_desc;Receive charisma from the Holy Spirit for a spiritual blessing.;;;;;;;;;;;;;x
+holy_spirit_waiting;Has not recently taken the Charisma.;;;;;;;;;;;;;x
+sacrifice_to_nature;Sacrifice to Nature;;;;;;;;;;;;;x
+sacrifice_to_nature_desc;The believers of the Calafate hold sacrifice as the highest ideal. When someone is old, ailing, or close to death, they can partake in the ultimate sacrifice, leaving everybody behind to confront the embrace of the cold, bringing your people more chances to survive, and blessing the upcoming harvest.;;;;;;;;;;;;;x
+restore_belchioringia;Restore Belchioringia;;;;;;;;;;;;;x
+restore_belchioringia_desc;When Antônio Carlos I died, his empire was divided between his sons, with us in a weak position, we soon saw Ceará being lost and the Salvadorense restoring their power. With the lost territories reunited, the Sun will shine once again over the Northeast and our rule will prove to be eternal.;;;;;;;;;;;;;x
+restore_belchioringia_desc_extra;The Sun is reborn!;;;;;;;;;;;;;x
+feast_on_calafate;Harvest Calafate;;;;;;;;;;;;;x
+feast_on_calafate_desc;Every summer, the calafate berries are ready to harvest, the goddess' gift and sacrifice, that has helped us survive in the toughest times. It's a great honor and rite for us to consume her gift, or to save it for when it might be needed.;;;;;;;;;;;;;x
+feast_on_stored_calafate;Consume Stored Calafate;;;;;;;;;;;;;x
+feast_on_stored_calafate_desc;You consume the calafate berries you stored while they are still good, the goddess blessing you with her strength if you do.;;;;;;;;;;;;;x
+restore_the_fraternidad;Restore the Fraternidad Estelar;;;;;;;;;;;;;x
+restore_the_fraternidad_desc;Long ago when the first observers found the star path, they conjoined a brotherhood, the Stellar Brotherhood, or Fraternidad Estelar, dedicated to guiding the believers in finding the true path to the stars, and to contact the Elder Siblings in the stars. In the stars it is found that the brotherhood will rise again, but nobody knows when. A strong ruler might be able to centralize the faith and become the new Master of the Brotherhood, fulfilling this prophecy.;;;;;;;;;;;;;x
+read_the_star_path;Read the Star Path;;;;;;;;;;;;;x
+read_the_star_path_desc;Through careful observation of the night sky, the most imporant rite for our religion, we can find the Star Path or Camino Estelar; the underlying prophecy and instructions written by the Elder Siblings and Master Nibiru to guide us and enlighten us. ;;;;;;;;;;;;;x
+###effects ;;;;;;;;;;;;;;x
+CALAFATIST_SUICIDE;You will proceed to throw yourself to nature and §RDIE§!.;;;;;;;;;;;;;x
+death_sacrifice_nature;Was taken by the cold embrace of death while sacrificing themselves to nature.;;;;;;;;;;;;;x
+CALAFATIST_CALAFATE;You will harvest the calafate berries, to either consume, granting you §Ypiety§!, as well as §Ghealth§!, §Gfertility§! and greater §Gmorale§!, or §Ystore§! for later consumption.;;;;;;;;;;;;;x
+CALAFATIST_STORED_CONSUMED;You will consume the calafate berries you stored, obtaining the goddess' blessing, and thus §Ghealth§!, §Gfertility§! and greater §Gmorale§! in the battlefield.;;;;;;;;;;;;;x
+STORING_CALAFATE;You will store the calafate berries for later, and will be able to consume them through a decision.;;;;;;;;;;;;;x
+CAMINO_STAR_READING;You will proceed to observe and read the stars, finding what next step might await you in the celestial instructions.\n§YYou will receive a random prophetic reading from the stars, potentially granting you a bonus to accomplish it. There will be a limited time for it to be fulfilled.§!\n§GShould it be fulfilled, your standing as an astronomer might increase.§!;;;;;;;;;;;;;x
+CATHOLIC_NO_CRUSADES;§RCatholics won't be able to wage Crusades again until this mistake is forgotten and the faith is put on jeopardy.§!;;;;;;;;;;;;;x
+###TITLES ;;;;;;;;;;;;;;x
+title_keeper_of_the_steps;Tilemaster of the Steps;;;;;;;;;;;;;x
+title_keeper_of_the_steps_desc;A honorous title given to the one with the duty to maintain and preserve the Selarón Steps.;;;;;;;;;;;;;x
+AUGUST_EMPEROR;August Emperor;;;;;;;;;;;;;x
+AUGUST_EMPRESS;August Empress;;;;;;;;;;;;;x
+AUGUST_FOA;August;;;;;;;;;;;;;x
+###WONDERS ;;;;;;;;;;;;;;x
+wonder_christ_the_redeemer;Christ the Redeeemer;;;;;;;;;;;;;x
+wonder_christ_the_redeemer_desc;For millenia this soapstone statue of Jesus Christ has sat atop a mountain near the shores of Guanabara, inside it there is a small church and a stone heart.;;;;;;;;;;;;;x
+upgrade_carioca_aqueduct;Carioca Aqueduct;;;;;;;;;;;;;x
+upgrade_carioca_aqueduct_desc;A restored aqueduct bringing fresh water to the center of the city.;;;;;;;;;;;;;x
+upgrade_selaron_steps;Selarón Steps;;;;;;;;;;;;;x
+upgrade_selaron_steps_desc;An extensive set of beautifully tilled stairs connecting the city.;;;;;;;;;;;;;x
+maintainer_of_steps_custom_modifier_tt;Unlocks the §YTilemaster of the Steps§! minor title;;;;;;;;;;x
+###Modifiers;;;;;;;;;;;;;;x
+calafate_harvested;Harvested Calafate;;;;;;;;;;;;;x
+calafate_harvested_desc;You have already harvested calafate this season.;;;;;;;;;;;;;x
+calafate_stored;Stored Calafate;;;;;;;;;;;;;x
+calafate_stored_desc;You have stored the calafate you harvested this season, and while it is still good, you are able to consume it, granting you the blessing of the goddess.;;;;;;;;;;;;;x
+calafate_ingested;Consumed Calafate;;;;;;;;;;;;;x
+calafate_ingested_desc;You have consumed the calafate berries, and now you feel the goddess' blessing inside of you, granting you strength to survive anything.;;;;;;;;;;;;;x
+camino_conquest_prophecy;Prophesied Conquest;;;;;;;;;;;;;x
+camino_conquest_prophecy_desc;You have read the stars and found that your next step in the path is conquering [prophesied_province.GetName].;;;;;;;;;;;;;x
+camino_duchy_prophecy;Prophesied Dukedom;;;;;;;;;;;;;x
+camino_duchy_prophecy_desc;You have read the stars and found that your next step in the path is acquiring the [prophesied_duchy.GetFullBaseName].;;;;;;;;;;;;;x
+camino_kingdom_prophecy;Prophesied Kingdom;;;;;;;;;;;;;x
+camino_kingdom_prophecy_desc;You have read the stars and found that your next step in the path is acquiring the [prophesied_kingdom.GetFullBaseName].;;;;;;;;;;;;;x
+camino_empire_prophecy;Prophesied Empire;;;;;;;;;;;;;x
+camino_empire_prophecy_desc;You have read the stars and found that your next step in the path is acquiring the [prophesied_empire.GetFullBaseName].;;;;;;;;;;;;;x
+camino_peace_prophecy_1;Prophesied Peace;;;;;;;;;;;;;x
+camino_peace_prophecy_1_desc;You have read the stars and found that the next step for your realm will consist of a period of peace and prosperity.;;;;;;;;;;;;;x
+camino_peace_prophecy_2;Prophesied Peace;;;;;;;;;;;;;x
+camino_peace_prophecy_2_desc;You have read the stars and found that the next step for your realm will consist of a period of peace and prosperity.;;;;;;;;;;;;;x
+camino_peace_prophecy_3;Prophesied Peace;;;;;;;;;;;;;x
+camino_peace_prophecy_3_desc;You have read the stars and found that the next step for your realm will consist of a period of peace and prosperity.;;;;;;;;;;;;;x
+camino_family_prophecy;Prophesied Family;;;;;;;;;;;;;x
+camino_family_prophecy_desc;You have read the stars and found that your next step in the path is forming a family, having a spouse and a child.;;;;;;;;;;;;;x
+camino_old_children_prophecy;Prophesied Child;;;;;;;;;;;;;x
+camino_old_children_prophecy_desc;You have read the stars and found that your next step in the path is finally after all this time having a child.;;;;;;;;;;;;;x
+camino_death_prophecy_1;Prophesied Death;;;;;;;;;;;;;x
+camino_death_prophecy_1_desc;You have read the stars and found that the next step in the path will be §Rthe Death of [prophesied_to_die.GetFullName]§! within a year.;;;;;;;;;;;;;x
+camino_death_prophecy_2;Prophesied Death;;;;;;;;;;;;;x
+camino_death_prophecy_2_desc;You have read the stars and found that the next step in the path will be §Rthe Death of [prophesied_to_die.GetFullName]§! within a year.;;;;;;;;;;;;;x
+camino_death_prophecy_3;Prophesied Death;;;;;;;;;;;;;x
+camino_death_prophecy_3_desc;You have read the stars and found that the next step in the path will be §Rthe Death of [prophesied_to_die.GetFullName]§! within a year.;;;;;;;;;;;;;x
+camino_friend_prophecy;Prophesied Friendship;;;;;;;;;;;;;x
+camino_friend_prophecy_desc;You have read the stars and found that your next step in the path is finding a friend.;;;;;;;;;;;;;x
+camino_lover_prophecy;Prophesied Love;;;;;;;;;;;;;x
+camino_lover_prophecy_desc;You have read the stars and found that your next step in the path is finding love.;;;;;;;;;;;;;x
+camino_wealth_prophecy;Prophesied Wealth;;;;;;;;;;;;;x
+camino_wealth_prophecy_desc;You have read the stars and found that your next step in the path is accumulating great wealth.\n§YYou need to accumulate 500 gold to fulfill this prophecy.§!;;;;;;;;;;;;;x
+camino_failed_reading;Failed Star-Reading;;;;;;;;;;;;;x
+camino_failed_reading_desc;You have failed to interprete the stars and find the Star Path, a shameful result that will apart you from attempting to observe the stars for a while.;;;;;;;;;;;;;x
+holy_spirit_martial;Vision of Holy War;;;;;;;;;;;;;x
+holy_spirit_martial_desc;This character received charisma empowering them for holy war.;;;;;;;;;;;;;x
+holy_spirit_martial2;Vision of Spiritual War;;;;;;;;;;;;;x
+holy_spirit_martial2_desc;This character received charisma greatly emboldening them with combat prowess.;;;;;;;;;;;;;x
+holy_spirit_stewardship;Vision of Prosperity;;;;;;;;;;;;;x
+holy_spirit_stewardship_desc;This character received a vision of prosperity.;;;;;;;;;;;;;x
+holy_spirit_stewardship2;Vison of Abundance;;;;;;;;;;;;;x
+holy_spirit_stewardship2_desc;This character received a vision of great abundance.;;;;;;;;;;;;;x
+holy_spirit_learning;Vision of Knowlodge;;;;;;;;;;;;;x
+holy_spirit_learning_desc;This character has received spiritual guidance from the Holy Spirit.;;;;;;;;;;;;;x
+holy_spirit_learning2;Spiritual Revelation;;;;;;;;;;;;;x
+holy_spirit_learning2_desc;This character has received great knowlodge from the Holy Spirit.;;;;;;;;;;;;;x
+holy_spirit_diplo;Speaking in Tongues;;;;;;;;;;;;;x
+holy_spirit_diplo_desc;This character has received the gift of tongues from the Holy Spirit.;;;;;;;;;;;;;x
+holy_spirit_diplo2;Calling All-Tongues;;;;;;;;;;;;;x
+holy_spirit_diplo2_desc;This character has been made aware of interpersonal knowlodge by the Holy Spirit.;;;;;;;;;;;;;x
+holy_spirit_cynical;No vision;;;;;;;;;;;;;x
+holy_spirit_cynical_desc;This character has had no vision from the Holy Spirit.;;;;;;;;;;;;;x
+failed_holy_spirit;No vision;;;;;;;;;;;;;x
+failed_holy_spirit_desc;This character has failed to have a vision of the Holy Spirit.;;;;;;;;;;;;;x
+candomble_ogum;Follower of Ogum;;;;;;;;;;;;;x
+candomble_ogum_desc;This character's patron Orixá is Ogum, god of iron and rum.;;;;;;;;;;;;;x
+candomble_oxossi;Follower of Oxóssi;;;;;;;;;;;;;x
+candomble_oxossi_desc;This character's patron Orixá is Oxóssi, god of meals and the hunt.;;;;;;;;;;;;;x
+candomble_pomba_gira;Follower of Pomba Gira;;;;;;;;;;;;;x
+candomble_pomba_gira_desc;This character's patron Orixá is Pomba Gira, goddess of sexual exploration and witchcraft.;;;;;;;;;;;;;x
+candomble_orunmila;Follower of Orunmilá;;;;;;;;;;;;;x
+candomble_orunmila_desc;This character's patron Orixá is Orunmilá, god of wisdom and prophecy.;;;;;;;;;;;;;x
+candomble_xango;Follower of Xangô;;;;;;;;;;;;;x
+candomble_xango_desc;This character's patron Orixá is Xangô, god of strength and thunder.;;;;;;;;;;;;;x
+candomble_yemanja;Follower of Yemanjá;;;;;;;;;;;;;x
+candomble_yemanja_desc;This character's patron Orixá is Yemanjá, goddess of fertility and the ocean.;;;;;;;;;;;;;x
+candomble_oxum;Follower of Oxúm;;;;;;;;;;;;;x
+candomble_oxum_desc;This character's patron Orixá is Oxúm, goddess of motherhood and prosperity.;;;;;;;;;;;;;x
+candomble_iansa;Follower of Iansã;;;;;;;;;;;;;x
+candomble_iansa_desc;This character's patron Orixá is Iansã, goddess of war and storms.;;;;;;;;;;;;;x
+candomble_obaluaie;Follower of Obaluaiê;;;;;;;;;;;;;x
+candomble_obaluaie_desc;This character's patron Orixá is Obaluaiê, god of disease and healing.;;;;;;;;;;;;;x
+prophesied_my_death;Prophesied My Death;;;;;;;;;;;;;x
+###flags;;;;;;;;;;;;;;x
+camino_prophecy_current;Has a prophecy yet to fulfill.;;;;;;;;;;;;;x
+job_spiritual_terra_benta;Benzedor;;Benzedor;;;;;;;;;;;x
+job_spiritual_female_terra_benta;Benzedeira;;Benzedeira;;;;;;;;;;;x
+temple_barony_terra_benta;Hallowed Grounds;;Hallowed Grounds;;;;;;;;;;;x
+temple_barony_of_terra_benta;Hallowed Grounds of;;Hallowed Grounds of;;;;;;;;;;;x
+temple_baron_terra_benta;Father;;Father;;;;;;;;;;;x
+temple_baron_terra_benta_female;Mother;;Mother;;;;;;;;;;;x
+temple_county_terra_benta;Sanctuary;;Sanctuary;;;;;;;;;;;x
+temple_county_of_terra_benta;Sanctuary of;;Sanctuary of;;;;;;;;;;;x
+temple_count_terra_benta;Hallowfather;;Hallowfather;;;;;;;;;;;x
+temple_count_terra_benta_female;Hallowmother;;Hallowmother;;;;;;;;;;;x
+temple_duchy_terra_benta;High Sanctuary;;High Sanctuary;;;;;;;;;;;x
+temple_duchy_of_terra_benta;High Sanctuary of;;High Sanctuary of;;;;;;;;;;;x
+temple_duke_terra_benta;Hallowest Father;;Hallowest Father;;;;;;;;;;;x
+temple_duke_terra_benta_female;Hallowest Mother;;Hallowest Mother;;;;;;;;;;;x
+temple_kingdom_terra_benta;Blessed Kingdom of;;Blessed Kingdom of;;;;;;;;;;;x
+temple_kingdom_of_terra_benta;Blessed Kingdom;;Blessed Kingdom;;;;;;;;;;;x
+temple_king_terra_benta;Hallow King;;Hallow King;;;;;;;;;;;x
+temple_king_terra_benta_female;Hallow Queen;;Hallow Queen;;;;;;;;;;;x
+job_spiritual_kardecist;Court Psychographer;;Court Psychographer;;;;;;;;;;;x
+job_spiritual_kardecist_female;Court Psychographer;;Court Psychographer;;;;;;;;;;;x
+temple_barony_kardecist;Center;;Center;;;;;;;;;;;x
+temple_barony_of_kardecist;Center of;;Center of;;;;;;;;;;;x
+temple_baron_kardecist;Medium;;Medium;;;;;;;;;;;x
+temple_baron_kardecist_female;Medium;;Medium;;;;;;;;;;;x
+temple_county_kardecist;Spiritual Society;;Spiritual Society;;;;;;;;;;;x
+temple_county_of_kardecist;Spiritual Society of;;Spiritual Society of;;;;;;;;;;;x
+temple_count_kardecist;Head Medium;;Head Medium;;;;;;;;;;;x
+temple_count_kardecist_female;Head Medium;;Head Medium;;;;;;;;;;;x
+temple_duchy_kardecist;Spiritual Federation of;;Spiritual Federation of;;;;;;;;;;;x
+temple_duchy_of_kardecist;Spiritual Federation;;Spiritual Federation;;;;;;;;;;;x
+temple_duke_kardecist;Enlightened Speaker;;Enlightened Speaker;;;;;;;;;;;x
+temple_duke_kardecist_female;Enlightened Speaker;;Enlightened Speaker;;;;;;;;;;;x
+temple_kingdom_kardecist;Astral Kingdom of;;Astral Kingdom of;;;;;;;;;;;x
+temple_kingdom_of_kardecist;Astral Kingdom;;Astral Kingdom;;;;;;;;;;;x
+temple_king_kardecist;Enlightened King;;Enlightened King;;;;;;;;;;;x
+temple_king_kardecist_female;Enlightened Queen;;Enlightened Queen;;;;;;;;;;;x
+

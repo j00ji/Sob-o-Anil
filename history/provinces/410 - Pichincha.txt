@@ -1,0 +1,20 @@
+# c_pichincha
+
+# County Title
+title = c_pichincha
+
+# Settlements
+max_settlements = 6
+
+b_quito = castle
+b_ruminahui = city
+b_cayambe = temple
+b_mejia = castle
+b_tabacundo = city
+b_san_miguel_de_los_bancos = temple
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

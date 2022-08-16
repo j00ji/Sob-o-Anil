@@ -1,0 +1,21 @@
+# c_presidente_figueiredo
+
+# County Title
+title = c_presidente_figueiredo
+
+# Settlements
+max_settlements = 2
+
+b_figueiredo = tribal
+#b_balbina = city
+#b_monte_sagrado = temple
+#b_waimir = castle
+#b_atorairi = city
+#b_rivas = temple
+#b_maravilha_3 = castle
+
+# Misc
+culture = amazonense
+religion = holy_spirit
+
+#History

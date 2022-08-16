@@ -1,0 +1,21 @@
+# c_lafonia
+
+# County Title
+title = c_lafonia
+
+# Settlements
+max_settlements = 2
+
+b_goose_green = tribal
+#b_north_arm = city
+#b_walker_creek = temple
+#b_bull_point = castle
+#b_speedwell = city
+#b_new_haven = temple
+#b_bleaker = castle
+
+# Misc
+culture = falklander
+religion = calafatist
+
+#History

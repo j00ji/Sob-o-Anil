@@ -1,0 +1,21 @@
+# c_remanso
+
+# County Title
+title = c_remanso
+
+# Settlements
+max_settlements = 2
+
+b_amorim = castle
+b_beira = temple
+#b_pilao_arcado = temple
+#b_caracol_3 = castle
+#b_vila_aparecida = city
+#b_bem_bom = temple
+#b_pau_a_pique = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

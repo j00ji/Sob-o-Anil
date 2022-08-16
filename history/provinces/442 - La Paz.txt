@@ -1,0 +1,21 @@
+# c_la_paz
+
+# County Title
+title = c_la_paz
+
+# Settlements
+max_settlements = 7
+
+b_la_paz = castle
+b_el_alto = city
+b_achacachi = temple
+b_pucarani = castle
+b_achocalla = city
+b_palca = temple
+#b_mecapaca = castle
+
+# Misc
+culture = aymara
+religion = pachamama
+
+#History

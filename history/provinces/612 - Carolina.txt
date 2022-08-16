@@ -1,0 +1,21 @@
+# c_carolina
+
+# County Title
+title = c_carolina
+
+# Settlements
+max_settlements = 2
+
+b_carolina = tribal
+#b_riachao_3 = city
+#b_babaculandia_2 = temple
+#b_goiatins = castle
+#b_feira_nova = city
+#b_novo_horizonte = temple
+#b_bacuri = castle
+
+# Misc
+culture = araguaio
+religion = manredebu
+
+#History

@@ -1,0 +1,21 @@
+# c_arica
+
+# County Title
+title = c_arica
+
+# Settlements
+max_settlements = 4
+
+b_arica = castle
+b_codpa = temple
+#b_cuya = temple
+#b_azapa = castle
+#b_villa_frontera = city
+#b_caleta_camarones = temple
+#b_chapisca = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

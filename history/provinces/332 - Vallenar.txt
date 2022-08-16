@@ -1,0 +1,21 @@
+# c_vallenar
+
+# County Title
+title = c_vallenar
+
+# Settlements
+max_settlements = 3
+
+b_vallenar = castle
+b_la_laja = city
+#b_el_algodon = temple
+#b_domeyko = castle
+#b_cachiyuyo = city
+#b_los_barros = temple
+#b_imperial_bajo = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

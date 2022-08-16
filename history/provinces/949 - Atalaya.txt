@@ -1,0 +1,21 @@
+# c_atalaya
+
+# County Title
+title = c_atalaya
+
+# Settlements
+max_settlements = 2
+
+b_atalaya = castle
+#b_sepahua = city
+#b_bolognesi = temple
+#b_breu = castle
+#b_puerto_esperanza = city
+#b_murunahua = temple
+#b_mashco_piro = castle
+
+# Misc
+culture = charapa
+religion = chicha
+
+#History

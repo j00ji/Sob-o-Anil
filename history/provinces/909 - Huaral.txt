@@ -1,0 +1,21 @@
+# c_huaral
+
+# County Title
+title = c_huaral
+
+# Settlements
+max_settlements = 3
+
+b_huaral = castle
+b_aucallama = city
+#b_chancay = temple
+#b_ihuari = castle
+#b_lampian = city
+#b_sumbilca = temple
+#b_canta_2 = castle
+
+# Misc
+culture = rimense
+religion = liberationist
+
+#History

@@ -1,0 +1,16 @@
+# e_vera_cruz
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_espirito_santo
+}
+2260.9.28={holder=90003}
+2271.7.3={holder=90004}
+2294.12.5={holder=90005}
+2302.8.30={holder=90007}
+2332.3.20={holder=100004}
+2339.7.7={holder=0} #FATIMAS DOMAIN
+2348.4.2={holder=100006} #CORRECT LATER TO FATIMAS PROPER DEATH
+2354.8.26={holder=100011}

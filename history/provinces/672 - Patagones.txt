@@ -1,0 +1,21 @@
+# c_patagones
+
+# County Title
+title = c_patagones
+
+# Settlements
+max_settlements = 2
+
+b_patagones = tribal
+b_san_blas = castle
+#b_villalonga = temple
+#b_stroeder = castle
+#b_san_blas_2 = city
+#b_guardia_mitre = temple
+#b_pradere = castle
+
+# Misc
+culture = pampeano
+religion = gaucheria
+
+#History

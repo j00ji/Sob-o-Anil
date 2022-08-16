@@ -1,0 +1,21 @@
+# c_formoso_2
+
+# County Title
+title = c_formoso_2
+
+# Settlements
+max_settlements = 2
+
+b_forte_falcao_2 = tribal
+#b_ornelas = city
+#b_vale_do_amanhecer = temple
+#b_pontes = castle
+#b_sao_domingos_3 = city
+#b_taboca = temple
+#b_carinhanha_2 = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

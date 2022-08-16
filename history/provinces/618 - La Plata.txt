@@ -1,0 +1,21 @@
+# c_la_plata
+
+# County Title
+title = c_la_plata
+
+# Settlements
+max_settlements = 5
+
+b_berisso = castle
+b_la_plata = city
+b_ensenada_2 = temple
+#b_city_bell = castle
+#b_abasto = city
+#b_elvira = temple
+#b_olmos = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

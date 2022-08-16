@@ -1,0 +1,21 @@
+# c_deseado
+
+# County Title
+title = c_deseado
+
+# Settlements
+max_settlements = 3
+
+b_deseado = tribal
+#b_tellier = city
+#b_dos_hermanos = temple
+#b_caminos_real = castle
+#b_nueva_buenos_aires = city
+#b_mazarredo = temple
+#b_la_calandria = castle
+
+# Misc
+culture = aonikenk
+religion = calafatist
+
+#History

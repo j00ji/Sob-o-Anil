@@ -1,0 +1,21 @@
+# c_guaitecas
+
+# County Title
+title = c_guaitecas
+
+# Settlements
+max_settlements = 2
+
+b_melinka = tribal
+#b_repollal = city
+#b_san_judas_tadeo = temple
+#b_laguna_granizo = castle
+#b_bahia_arenal = city
+#b_playa_raya = temple
+#b_ofqui = castle
+
+# Misc
+culture = australino
+religion = calafatist
+
+#History

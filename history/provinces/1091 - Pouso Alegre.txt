@@ -1,0 +1,21 @@
+# c_pouso_alegre
+
+# County Title
+title = c_pouso_alegre
+
+# Settlements
+max_settlements = 5
+
+b_congonhal = tribal
+b_sao_jose_pantano = temple
+#b_extrema = castle
+#b_monte_verde = castle
+#b_cambui_3 = city
+#b_camanducaia = city
+#b_cervo = temple
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

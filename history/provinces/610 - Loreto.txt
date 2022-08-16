@@ -1,0 +1,21 @@
+# c_loreto
+
+# County Title
+title = c_loreto
+
+# Settlements
+max_settlements = 2
+
+b_sambaiba = tribal
+b_loreto_2 = city
+#b_aldeia_presidio = temple
+#b_salta_lusia = castle
+#b_angico_torto = city
+#b_criolizinho = temple
+#b_jenipapo_2 = castle
+
+# Misc
+culture = kraho
+religion = manredebu
+
+#History

@@ -1,0 +1,21 @@
+# c_sucre
+
+# County Title
+title = c_sucre
+
+# Settlements
+max_settlements = 5
+
+b_sucre = castle
+b_presto = city
+b_tarabuco = temple
+#b_yamparaez = castle
+#b_yotala = city
+#b_chuqui = temple
+#b_mamahuasi = castle
+
+# Misc
+culture = colla
+religion = santa_diablada
+
+#History

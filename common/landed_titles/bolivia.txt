@@ -1,0 +1,496 @@
+e_bolivia = {
+	color={ 147 128 149 }
+	color2={ 255 255 20 }
+	
+	capital = 437 # c_potosi
+	culture = quechua
+	
+	k_bolivia = {
+		color={ 157 118 154 }
+		color2={ 255 255 255 }
+		
+		capital = 437 # c_potosi
+		culture = quechua
+		
+		d_potosi = {
+			color={ 177 98 164 }
+			color2={ 255 255 255 }
+			
+			capital = 437 # c_potosi
+			
+			c_potosi = { # 437
+				color={ 187 88 169 }
+				color2={ 255 255 255 }
+				
+				b_potosi = {}
+				b_betanzos = {}
+				b_uyuni = {}
+				b_colchaka = {}
+				b_lipez = {}
+				b_llica = {}
+				b_baldivieso = {}
+			}
+			c_carangas = { # 440
+				color={ 98 97 165 }
+				color2={ 255 255 255 }
+				
+				b_corque = {}
+				b_garci_mendoza = {}
+				b_sabaya = {}
+				b_sajama = {}
+				b_carangas = {}
+				b_chipaya = {}
+				b_huachacalla = {}
+			}
+			c_chayanta = { # 438
+				color={ 168 140 169 }
+				color2={ 255 255 255 }
+				
+				b_colquechaca = {}
+				b_uncia = {}
+				b_charcas = {}
+				b_challapata = {}
+				b_sacaca = {}
+				b_santiago_de_huari = {}
+				b_chuqihuta = {}
+			}
+			c_chichas = { # 441
+				color={ 134 96 165 }
+				color2={ 255 255 255 }
+				
+				b_puna = {}
+				b_tupiza = {}
+				b_villazon = {}
+				b_cotagaita = {}
+				b_chuquiago = {}
+				b_oploca = {}
+				b_quiriza = {}
+			}
+			c_oruro = { # 439
+				color={ 164 85 168 }
+				color2={ 255 255 255 }
+				
+				b_oruro = {}
+				b_caracollo = {}
+				b_huanuni = {}
+				b_eucaliptus = {}
+				b_poopo = {}
+				b_machacamarca = {}
+				b_marcamarca = {}
+			}
+		}
+		d_chuquisaca = {
+			color={ 102 169 182 }
+			color2={ 255 255 255 }
+			
+			capital = 452 # c_sucre
+			
+			c_sucre = { # 452
+				color={ 112 159 187 }
+				color2={ 255 255 255 }
+				
+				b_sucre = {}
+				b_presto = {}
+				b_tarabuco = {}
+				b_yamparaez = {}
+				b_yotala = {}
+				b_chuqui = {}
+				b_mamahuasi = {}
+			}
+			c_cinti = { # 453
+				color={ 159 159 153 }
+				color2={ 255 255 255 }
+				
+				b_camargo = {}
+				b_tomina = {}
+				b_monteagudo = {}
+				b_abecia = {}
+				b_azurduy = {}
+				b_culpina = {}
+				b_incahuasi = {}
+			}
+			c_tarija = { # 454
+				color={ 203 99 169 }
+				color2={ 255 255 255 }
+				
+				b_tarija = {}
+				b_yacuiba = {}
+				b_padcaya = {}
+				b_uriondo = {}
+				b_villamontes = {}
+				b_choroma = {}
+				b_iscayachi = {}
+			}
+		}
+		d_cochabamba = {
+			color={ 145 42 60 }
+			color2={ 255 255 255 }
+			
+			capital = 449 # c_cochabamba
+			
+			c_cochabamba = { # 449
+				color={ 135 52 55 }
+				color2={ 255 255 255 }
+				
+				b_cochabamba = {}
+				b_quillacollo = {}
+				b_punata = {}
+				b_tapacari = {}
+				b_capinota = {}
+				b_tarata = {}
+				b_sipe_sipe = {}
+			}
+			c_campero = { # 451
+				color={ 125 99 169 }
+				color2={ 255 255 255 }
+				
+				b_aiquile = {}
+				b_mizque = {}
+				b_arani = {}
+				b_epizana = {}
+				b_novillero = {}
+				b_pajcha = {}
+				b_pojo = {}
+			}
+			c_chapare = { # 450
+				color={ 255 99 103 }
+				color2={ 255 255 255 }
+				
+				b_sacaba = {}
+				b_puerto_villaroel = {}
+				b_entre_rios_2 = {}
+				b_ayopaya = {}
+				b_tiraque = {}
+				b_ivirgarzama = {}
+				b_chimore = {}
+			}
+		}
+		d_la_paz = {
+			color={ 155 21 148 }
+			color2={ 255 255 255 }
+			
+			capital = 442 # c_la_paz
+			
+			c_la_paz = { # 442
+				color={ 145 31 143 }
+				color2={ 255 255 255 }
+				holy_site = camino_estelar
+				
+				b_la_paz = {}
+				b_el_alto = {}
+				b_achacachi = {}
+				b_pucarani = {}
+				b_achocalla = {}
+				b_palca = {}
+				b_mecapaca = {}
+			}
+			c_camacho = { # 443
+				color={ 255 99 169 }
+				color2={ 255 255 255 }
+				
+				b_puerto_acosta = {}
+				b_escoma = {}
+				b_ancoraimes = {}
+				b_chaguaya = {}
+				b_carabuco = {}
+				b_pasuja = {}
+				b_pacaures = {}
+			}
+			c_ingavi = { # 444
+				color={ 206 91 204 }
+				color2={ 255 255 255 }
+				
+				b_ingavi = {}
+				b_aroma = {}
+				b_pacajes = {}
+				b_villaroel = {}
+				b_pando_2 = {}
+				b_nazacara = {}
+				b_guaqui = {}
+			}
+		}
+		d_yungas = {
+			color={ 27 150 165 }
+			color2={ 255 255 255 }
+			
+			capital = 445 # c_yungas
+			
+			c_yungas = { # 445
+				color={ 17 160 160 }
+				color2={ 255 255 255 }
+				
+				b_la_asunta = {}
+				b_palos_blancos = {}
+				b_coroico = {}
+				b_inquisivi = {}
+				b_chulumani = {}
+				b_irupana = {}
+				b_licoma = {}
+			}
+			c_apolo = { # 447
+				color={ 15 145 145 }
+				color2={ 255 255 255 }
+				
+				b_apolo = {}
+				b_charazani = {}
+				b_pelechuco = {}
+				b_curva = {}
+				b_aten = {}
+				b_chachiya = {}
+				b_nuevo_brasil = {}
+			}
+			c_iturralde = { # 448
+				color={ 189 75 234 }
+				color2={ 255 255 255 }
+				
+				b_ixiamas = {}
+				b_rurrenabaque = {}
+				b_tumupasa = {}
+				b_san_buenaventura = {}
+				b_tahua = {}
+				b_madidi = {}
+				b_puerto_heath = {}
+			}
+			c_larecaja = { # 446
+				color={ 25 232 232 }
+				color2={ 255 255 255 }
+				
+				b_sorata = {}
+				b_guanay = {}
+				b_caranavi = {}
+				b_munecas = {}
+				b_guanay_2 = {}
+				b_teoponte = {}
+				b_mapiri = {}
+			}
+		}
+	}
+	k_grigota = {
+		color={ 70 239 147 }
+		color2={ 255 255 255 }
+		
+		capital = 455 # c_santa_cruz
+		culture = camba
+		
+		d_santa_cruz = {
+			color={ 90 219 157 }
+			color2={ 255 255 255 }
+			
+			capital = 455 # c_santa_cruz
+			
+			c_santa_cruz = { # 455
+				color={ 100 209 162 }
+				color2={ 255 255 255 }
+				
+				b_santa_cruz_de_la_sierra = {}
+				b_la_guardia = {}
+				b_cotoca = {}
+				b_el_torno = {}
+				b_ayacucho = {}
+				b_paurito = {}
+				b_malmar_del_oratorio = {}
+			}
+			c_florida_2 = { # 456
+				color={ 124 190 128 }
+				color2={ 255 255 255 }
+				
+				b_samaipata = {}
+				b_vallegrande = {}
+				b_comarapa = {}
+				b_mairana = {}
+				b_saipina = {}
+				b_la_palizada = {}
+				b_trigal = {}
+			}
+			c_ichilo = { # 459
+				color={ 101 186 176 }
+				color2={ 255 255 255 }
+				
+				b_yapacani = {}
+				b_buena_vista = {}
+				b_san_carlos_de_ichilo = {}
+				b_enconada = {}
+				b_buen_retiro = {}
+				b_huaytu = {}
+				b_santa_fe_de_santa_cruz = {}
+			}
+			c_santistevan = { # 457
+				color={ 100 181 224 }
+				color2={ 255 255 255 }
+				
+				b_montero = {}
+				b_mineros = {}
+				b_portachuelo = {}
+				b_sara = {}
+				b_agustin_saavedra = {}
+				b_loma_alta = {}
+				b_villa_rosario = {}
+			}
+			c_warnes = { # 458
+				color={ 68 206 91 }
+				color2={ 255 255 255 }
+				
+				b_warnes = {}
+				b_okinawa = {}
+				b_belgica = {}
+				b_canchas = {}
+				b_los_siervos = {}
+				b_las_gamas = {}
+				b_clara_chuchio = {}
+			}
+		}
+		d_beni = {
+			color={ 245 71 159 }
+			color2={ 255 255 255 }
+			
+			capital = 466 # c_cercado
+			
+			c_cercado = { # 466
+				color={ 255 61 164 }
+				color2={ 255 255 255 }
+				
+				b_trinidad_2 = {}
+				b_san_javier_de_beni = {}
+				b_magdalena_de_beni = {}
+				b_san_joaquin_de_beni = {}
+				b_loreto_de_beni = {}
+				b_san_ramon_de_beni = {}
+				b_bella_vista_de_beni = {}
+			}
+			c_moxos = { # 469
+				color={ 190 131 72 }
+				color2={ 255 255 255 }
+				
+				b_moxos = {}
+				b_puerto_canoa = {}
+				b_gundonovia = {}
+				b_los_cusis = {}
+				b_embocada = {}
+				b_santa_maria_de_beni = {}
+				b_loreto_de_beni_2 = {}
+			}
+			c_pando = { # 470
+				color={ 170 41 153 }
+				color2={ 255 255 255 }
+				
+				b_cobija_2 = {}
+				b_madre_de_dios = {}
+				b_puerto_rico = {}
+				b_nueva_esperanza = {}
+				b_machua = {}
+				b_inava = {}
+				b_san_silvestre = {}
+			}
+			c_san_borja = { # 468
+				color={ 112 203 206 }
+				color2={ 255 255 255 }
+				
+				b_san_borja = {}
+				b_yucumo = {}
+				b_raquio = {}
+				b_santa_rosa_de_beni = {}
+				b_palalo = {}
+				b_el_triunfo = {}
+				b_rogagua = {}
+			}
+			c_vaca_diez = { # 467
+				color={ 162 119 236 }
+				color2={ 255 255 255 }
+				
+				b_riberalta = {}
+				b_guayaramerin = {}
+				b_yacuma = {}
+				b_santos_reyes = {}
+				b_buena_hora = {}
+				b_borochi = {}
+				b_puerto_siles = {}
+			}
+		}
+		d_cordillera = {
+			color={ 245 124 231 }
+			color2={ 255 255 255 }
+			
+			capital = 460 # c_lagunillas
+			
+			c_lagunillas = { # 460
+				color={ 255 114 236 }
+				color2={ 255 255 255 }
+				
+				b_lagunillas = {}
+				b_camiri = {}
+				b_charagua = {}
+				b_parapeti = {}
+				b_boyuibe = {}
+				b_morevita = {}
+				b_ipita = {}
+			}
+			c_busch = { # 462
+				color={ 56 167 234 }
+				color2={ 255 255 255 }
+				
+				b_puerto_suarez = {}
+				b_puerto_quijarro = {}
+				b_carmen_rivero = {}
+				b_yacuces = {}
+				b_santa_ana_de_chiquitos = {}
+				b_yare = {}
+				b_paquio = {}
+			}
+			c_chiquitos = { # 461
+				color={ 253 114 182 }
+				color2={ 255 255 255 }
+				
+				b_chiquitos = {}
+				b_pailon = {}
+				b_robore = {}
+				b_chochis = {}
+				b_las_taperas = {}
+				b_equitos = {}
+				b_crecencia = {}
+			}
+		}
+		d_nuflo = {
+			color={ 118 203 231 }
+			color2={ 255 255 255 }
+			
+			capital = 463 # c_nuflo
+			
+			c_nuflo = { # 463
+				color={ 128 193 236 }
+				color2={ 255 255 255 }
+				
+				b_san_julian_de_chavez = {}
+				b_cuatro_canadas = {}
+				b_concepcion_de_chavez = {}
+				b_san_xavier = {}
+				b_espiritu = {}
+				b_san_bartolo = {}
+				b_ascencion = {}
+			}
+			c_guarayos = { # 464
+				color={ 170 93 164 }
+				color2={ 255 255 255 }
+				
+				b_ascencion_2 = {}
+				b_urubicha = {}
+				b_el_puente = {}
+				b_yotau = {}
+				b_desconsierto = {}
+				b_yaguaru = {}
+				b_la_anta = {}
+			}
+			c_velasco = { # 465
+				color={ 221 159 206 }
+				color2={ 255 255 255 }
+				
+				b_san_ignacio_de_velasco = {}
+				b_san_miguel_de_velasco = {}
+				b_san_rafael_de_velasco = {}
+				b_san_antonio_de_lomerio = {}
+				b_santa_rosa_de_velasco = {}
+				b_petas = {}
+				b_los_pastos = {}
+			}
+		}
+	}
+}

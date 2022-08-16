@@ -1,0 +1,21 @@
+# c_tres_rios
+
+# County Title
+title = c_tres_rios
+
+# Settlements
+max_settlements = 3
+
+b_tres_rios = castle
+b_miguel_pereira = city
+#b_paty_do_alferes = temple
+#b_andrade_pinto_2 = castle
+#b_cavaru_2 = city
+#b_bemposta = temple
+#b_dona_lindu = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

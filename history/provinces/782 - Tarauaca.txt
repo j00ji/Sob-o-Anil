@@ -1,0 +1,21 @@
+# c_tarauaca
+
+# County Title
+title = c_tarauaca
+
+# Settlements
+max_settlements = 3
+
+b_tarauaca = castle
+#b_feijo = city
+#b_seringal_buriti = temple
+#b_vinte_e_sete = castle
+#b_caucho = city
+#b_sacado = temple
+#b_diabinho = castle
+
+# Misc
+culture = acreano
+religion = santo_daime
+
+#History

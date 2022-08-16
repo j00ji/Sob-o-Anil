@@ -1,0 +1,22 @@
+
+# c_huamachuco
+
+# County Title
+title = c_huamachuco
+
+# Settlements
+max_settlements = 3
+
+b_huamachuco = castle
+b_santiago_de_chuco = city
+#b_retamas = temple
+#b_bolivar_de_chuco = castle
+#b_sartimbamba = city
+#b_cochorco = temple
+#b_angasmarca = castle
+
+# Misc
+culture = huascareno
+religion = inti
+
+#History

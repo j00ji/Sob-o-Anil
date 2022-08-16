@@ -1,0 +1,21 @@
+# c_serro
+
+# County Title
+title = c_serro
+
+# Settlements
+max_settlements = 2
+
+b_serro_frio = tribal
+#b_serra_azul = city
+#b_milho_verde = temple
+#b_alvorada_2 = castle
+#b_itambe_2 = city
+#b_gororos = temple
+#b_tapera_3 = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

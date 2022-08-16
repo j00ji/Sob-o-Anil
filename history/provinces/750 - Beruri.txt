@@ -1,0 +1,21 @@
+# c_beruri
+
+# County Title
+title = c_beruri
+
+# Settlements
+max_settlements = 2
+
+b_beruri = tribal
+#b_tuiue = city
+#b_tupari = temple
+#b_tupana = castle
+#b_rio_purus = city
+#b_caviano = temple
+#b_sao_tome = castle
+
+# Misc
+culture = ticuna
+religion = xabaxai_xagi
+
+#History

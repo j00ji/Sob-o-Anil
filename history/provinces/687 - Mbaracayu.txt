@@ -1,0 +1,21 @@
+# c_mbaracayu
+
+# County Title
+title = c_mbaracayu
+
+# Settlements
+max_settlements = 2
+
+b_curuguaty_2 = castle
+#b_ygatimi = city
+#b_yataity = temple
+#b_san_lorenzo_3 = castle
+#b_lata = city
+#b_koety = temple
+#b_itandey = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

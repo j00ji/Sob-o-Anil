@@ -1,0 +1,21 @@
+# c_piripiri
+
+# County Title
+title = c_piripiri
+
+# Settlements
+max_settlements = 3
+
+b_piripiri = castle
+b_barras = city
+#b_sete_cidades = temple
+#b_pedro_ii = castle
+#b_capitao_de_campos_2 = city
+#b_cabeceiras = temple
+#b_jose_de_freitas = castle
+
+# Misc
+culture = parnaibas
+religion = camdomble
+
+#History

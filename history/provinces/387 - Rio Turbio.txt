@@ -1,0 +1,21 @@
+# c_rio_turbio
+
+# County Title
+title = c_rio_turbio
+
+# Settlements
+max_settlements = 2
+
+b_rio_turbio = tribal
+#b_28_de_noviembre = city
+#b_gaypon = temple
+#b_bella_vista = castle
+#b_la_carlota = city
+#b_cancha_carrera = temple
+#b_el_turbio = castle
+
+# Misc
+culture = aonikenk
+religion = xoon
+
+#History

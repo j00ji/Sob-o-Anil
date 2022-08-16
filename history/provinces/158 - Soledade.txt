@@ -1,0 +1,21 @@
+# c_soledade
+
+# County Title
+title = c_soledade
+
+# Settlements
+max_settlements = 2
+
+b_soledade_4 = castle
+#b_espumoso = city
+#b_fontoura_xavier = temple
+#b_barros_cassal = castle
+#b_volta_alegre = city
+#b_tio_hugo = temple
+#b_itapuca = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

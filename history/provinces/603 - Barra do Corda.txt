@@ -1,0 +1,21 @@
+# c_barra_do_corda
+
+# County Title
+title = c_barra_do_corda
+
+# Settlements
+max_settlements = 2
+
+b_jenipapo = tribal
+#b_tuntum = city
+#b_marambaia = temple
+#b_jucaral_mirim = castle
+#b_jucaral_do_saraiva = city
+#b_vitorino_freire = temple
+#b_pucunzal = castle
+
+# Misc
+culture = parnaibas
+religion = cicerite
+
+#History

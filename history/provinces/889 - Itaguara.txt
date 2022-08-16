@@ -1,0 +1,21 @@
+# c_itaguara
+
+# County Title
+title = c_itaguara
+
+# Settlements
+max_settlements = 2
+
+b_itauna = tribal
+#b_para_de_minas = city
+#b_entrerrios = temple
+#b_sapecado = castle
+#b_passa_tempo = city
+#b_crucilandia = temple
+#b_piracema = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

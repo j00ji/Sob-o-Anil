@@ -1,0 +1,21 @@
+# c_caraveli
+
+# County Title
+title = c_caraveli
+
+# Settlements
+max_settlements = 2
+
+b_caraveli = castle
+#b_chala = city
+#b_atico = temple
+#b_acari = castle
+#b_chaparra = city
+#b_huanuhuanu = temple
+#b_bella_union = castle
+
+# Misc
+culture = arequipeno
+religion = catholic
+
+#History

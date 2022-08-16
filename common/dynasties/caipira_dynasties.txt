@@ -1,0 +1,2868 @@
+###ÄNSI
+####################
+####Random caipira Surnames
+####Based on all state representatives of São Paulo
+####Source: wikipedia
+####Range: 55500 - 60000
+####################
+
+80500 = {
+	name = "Abe"
+	culture = caipira
+	religion = apostolic
+}
+80501 = {
+	name = "Albuquerque"
+	culture = caipira
+	religion = apostolic
+}
+80502 = {
+	name = "Alckmin"
+	culture = caipira
+	religion = apostolic
+}
+80503 = {
+	name = "Aldrovandi"
+	culture = caipira
+	religion = apostolic
+}
+80504 = {
+	name = "Alessi"
+	culture = caipira
+	religion = apostolic
+}
+80505 = {
+	name = "Alexis"
+	culture = caipira
+	religion = apostolic
+}
+80506 = {
+	name = "Allegretti"
+	culture = caipira
+	religion = apostolic
+}
+80507 = {
+	name = "Almeida"
+	culture = caipira
+	religion = apostolic
+}
+80508 = {
+	name = "Álvares"
+	culture = caipira
+	religion = apostolic
+}
+80509 = {
+	name = "Alves"
+	culture = caipira
+	religion = apostolic
+}
+80510 = {
+	name = "Alves Pinto"
+	culture = caipira
+	religion = apostolic
+}
+80511 = {
+	name = "Alvim"
+	culture = caipira
+	religion = apostolic
+}
+80512 = {
+	name = "Amaral"
+	culture = caipira
+	religion = apostolic
+}
+80513 = {
+	name = "Amarante"
+	culture = caipira
+	religion = apostolic
+}
+80514 = {
+	name = "Amary"
+	culture = caipira
+	religion = apostolic
+}
+80515 = {
+	name = "Amazonas"
+	culture = caipira
+	religion = apostolic
+}
+80516 = {
+	name = "Andaló"
+	culture = caipira
+	religion = apostolic
+}
+80517 = {
+	name = "Andrade"
+	culture = caipira
+	religion = apostolic
+}
+80518 = {
+	name = "Ansaldo"
+	culture = caipira
+	religion = apostolic
+}
+80519 = {
+	name = "Antonela"
+	culture = caipira
+	religion = apostolic
+}
+80520 = {
+	name = "Antunes"
+	culture = caipira
+	religion = apostolic
+}
+80521 = {
+	name = "Aparecido"
+	culture = caipira
+	religion = apostolic
+}
+80522 = {
+	name = "Apolinário"
+	culture = caipira
+	religion = apostolic
+}
+80523 = {
+	name = "Araújo"
+	culture = caipira
+	religion = apostolic
+}
+80524 = {
+	name = "Arruda"
+	culture = caipira
+	religion = apostolic
+}
+80525 = {
+	name = "Artacho"
+	culture = caipira
+	religion = apostolic
+}
+80526 = {
+	name = "Artigas"
+	culture = caipira
+	religion = apostolic
+}
+80527 = {
+	name = "Artures"
+	culture = caipira
+	religion = apostolic
+}
+80528 = {
+	name = "Ascar"
+	culture = caipira
+	religion = apostolic
+}
+80529 = {
+	name = "Ashcar"
+	culture = caipira
+	religion = apostolic
+}
+80530 = {
+	name = "Assuf"
+	culture = caipira
+	religion = apostolic
+}
+80531 = {
+	name = "Auada"
+	culture = caipira
+	religion = apostolic
+}
+80532 = {
+	name = "Augustim"
+	culture = caipira
+	religion = apostolic
+}
+80533 = {
+	name = "Avallone"
+	culture = caipira
+	religion = apostolic
+}
+80534 = {
+	name = "Ayala"
+	culture = caipira
+	religion = apostolic
+}
+80535 = {
+	name = "Azevedo"
+	culture = caipira
+	religion = apostolic
+}
+80536 = {
+	name = "Baccarin"
+	culture = caipira
+	religion = apostolic
+}
+80537 = {
+	name = "Baldochi"
+	culture = caipira
+	religion = apostolic
+}
+80538 = {
+	name = "Barbiere"
+	culture = caipira
+	religion = apostolic
+}
+80539 = {
+	name = "Barbieri"
+	culture = caipira
+	religion = apostolic
+}
+80540 = {
+	name = "Barbosa"
+	culture = caipira
+	religion = apostolic
+}
+80541 = {
+	name = "Barnabé"
+	culture = caipira
+	religion = apostolic
+}
+80542 = {
+	name = "Barreto"
+	culture = caipira
+	religion = apostolic
+}
+80543 = {
+	name = "Baruselli"
+	culture = caipira
+	religion = apostolic
+}
+80544 = {
+	name = "Bassitt"
+	culture = caipira
+	religion = apostolic
+}
+80545 = {
+	name = "Bastos"
+	culture = caipira
+	religion = apostolic
+}
+80546 = {
+	name = "Batista"
+	culture = caipira
+	religion = apostolic
+}
+80547 = {
+	name = "Benassi"
+	culture = caipira
+	religion = apostolic
+}
+80548 = {
+	name = "Beni"
+	culture = caipira
+	religion = apostolic
+}
+80549 = {
+	name = "Benito"
+	culture = caipira
+	religion = apostolic
+}
+80550 = {
+	name = "Beraldo"
+	culture = caipira
+	religion = apostolic
+}
+80551 = {
+	name = "Bérgamo"
+	culture = caipira
+	religion = apostolic
+}
+80552 = {
+	name = "Bernardes"
+	culture = caipira
+	religion = apostolic
+}
+80553 = {
+	name = "Bernardi"
+	culture = caipira
+	religion = apostolic
+}
+80554 = {
+	name = "Bertola"
+	culture = caipira
+	religion = apostolic
+}
+80555 = {
+	name = "Bettio"
+	culture = caipira
+	religion = apostolic
+}
+80556 = {
+	name = "Bezerra"
+	culture = caipira
+	religion = apostolic
+}
+80557 = {
+	name = "Bicudo"
+	culture = caipira
+	religion = apostolic
+}
+80558 = {
+	name = "Bierrenbach"
+	culture = caipira
+	religion = apostolic
+}
+80559 = {
+	name = "Bittencourt"
+	culture = caipira
+	religion = apostolic
+}
+80560 = {
+	name = "Bognar"
+	culture = caipira
+	religion = apostolic
+}
+80561 = {
+	name = "Bom"
+	culture = caipira
+	religion = apostolic
+}
+80562 = {
+	name = "Borges"
+	culture = caipira
+	religion = apostolic
+}
+80563 = {
+	name = "Borghi"
+	culture = caipira
+	religion = apostolic
+}
+80564 = {
+	name = "Bosco"
+	culture = caipira
+	religion = apostolic
+}
+80565 = {
+	name = "Botelho"
+	culture = caipira
+	religion = apostolic
+}
+80566 = {
+	name = "Botta"
+	culture = caipira
+	religion = apostolic
+}
+80567 = {
+	name = "Braga"
+	culture = caipira
+	religion = apostolic
+}
+80568 = {
+	name = "Bragato"
+	culture = caipira
+	religion = apostolic
+}
+80569 = {
+	name = "Braido"
+	culture = caipira
+	religion = apostolic
+}
+80570 = {
+	name = "Branco"
+	culture = caipira
+	religion = apostolic
+}
+80571 = {
+	name = "Brandão"
+	culture = caipira
+	religion = apostolic
+}
+80572 = {
+	name = "Bravo"
+	culture = caipira
+	religion = apostolic
+}
+80573 = {
+	name = "Breda"
+	culture = caipira
+	religion = apostolic
+}
+80574 = {
+	name = "Broca"
+	culture = caipira
+	religion = apostolic
+}
+80575 = {
+	name = "Buarque"
+	culture = caipira
+	religion = apostolic
+}
+80576 = {
+	name = "Bueno"
+	culture = caipira
+	religion = apostolic
+}
+80577 = {
+	name = "Bustamante"
+	culture = caipira
+	religion = apostolic
+}
+80578 = {
+	name = "Buzato"
+	culture = caipira
+	religion = apostolic
+}
+80579 = {
+	name = "Cabral"
+	culture = caipira
+	religion = apostolic
+}
+80580 = {
+	name = "Cadorniga"
+	culture = caipira
+	religion = apostolic
+}
+80581 = {
+	name = "Caires"
+	culture = caipira
+	religion = apostolic
+}
+80582 = {
+	name = "Calazans"
+	culture = caipira
+	religion = apostolic
+}
+80583 = {
+	name = "Caldeira"
+	culture = caipira
+	religion = apostolic
+}
+80584 = {
+	name = "Caldini"
+	culture = caipira
+	religion = apostolic
+}
+80585 = {
+	name = "Calil"
+	culture = caipira
+	religion = apostolic
+}
+80586 = {
+	name = "Calixto"
+	culture = caipira
+	religion = apostolic
+}
+80587 = {
+	name = "Callegari"
+	culture = caipira
+	religion = apostolic
+}
+80588 = {
+	name = "Calvo"
+	culture = caipira
+	religion = apostolic
+}
+80589 = {
+	name = "Camargo"
+	culture = caipira
+	religion = apostolic
+}
+80590 = {
+	name = "Camarinha"
+	culture = caipira
+	religion = apostolic
+}
+80591 = {
+	name = "Campanari"
+	culture = caipira
+	religion = apostolic
+}
+80592 = {
+	name = "Campanella"
+	culture = caipira
+	religion = apostolic
+}
+80593 = {
+	name = "Caramez"
+	culture = caipira
+	religion = apostolic
+}
+80594 = {
+	name = "Cardoso"
+	culture = caipira
+	religion = apostolic
+}
+80595 = {
+	name = "Carlucci"
+	culture = caipira
+	religion = apostolic
+}
+80596 = {
+	name = "Carneiro"
+	culture = caipira
+	religion = apostolic
+}
+80597 = {
+	name = "Carolo"
+	culture = caipira
+	religion = apostolic
+}
+80598 = {
+	name = "Cartola"
+	culture = caipira
+	religion = apostolic
+}
+80599 = {
+	name = "Carvalhães"
+	culture = caipira
+	religion = apostolic
+}
+80600 = {
+	name = "Carvalho"
+	culture = caipira
+	religion = apostolic
+}
+80601 = {
+	name = "Casanova"
+	culture = caipira
+	religion = apostolic
+}
+80602 = {
+	name = "Castanho"
+	culture = caipira
+	religion = apostolic
+}
+80603 = {
+	name = "Castellano"
+	culture = caipira
+	religion = apostolic
+}
+80604 = {
+	name = "Castelo Branco"
+	culture = caipira
+	religion = apostolic
+}
+80605 = {
+	name = "Castillon"
+	culture = caipira
+	religion = apostolic
+}
+80606 = {
+	name = "Cembranelli"
+	culture = caipira
+	religion = apostolic
+}
+80607 = {
+	name = "Ceravolo"
+	culture = caipira
+	religion = apostolic
+}
+80608 = {
+	name = "Cerchiari"
+	culture = caipira
+	religion = apostolic
+}
+80609 = {
+	name = "Cerqueira"
+	culture = caipira
+	religion = apostolic
+}
+80610 = {
+	name = "Cervalo"
+	culture = caipira
+	religion = apostolic
+}
+80611 = {
+	name = "Cesare"
+	culture = caipira
+	religion = apostolic
+}
+80612 = {
+	name = "Chaib"
+	culture = caipira
+	religion = apostolic
+}
+80613 = {
+	name = "Chaves"
+	culture = caipira
+	religion = apostolic
+}
+80614 = {
+	name = "Chedid"
+	culture = caipira
+	religion = apostolic
+}
+80615 = {
+	name = "Chicarino"
+	culture = caipira
+	religion = apostolic
+}
+80616 = {
+	name = "Chinaglia"
+	culture = caipira
+	religion = apostolic
+}
+80617 = {
+	name = "Chubaci"
+	culture = caipira
+	religion = apostolic
+}
+80618 = {
+	name = "Ciampolini"
+	culture = caipira
+	religion = apostolic
+}
+80619 = {
+	name = "Cicote"
+	culture = caipira
+	religion = apostolic
+}
+80620 = {
+	name = "Cinti"
+	culture = caipira
+	religion = apostolic
+}
+80621 = {
+	name = "Cintra"
+	culture = caipira
+	religion = apostolic
+}
+80622 = {
+	name = "Codo"
+	culture = caipira
+	religion = apostolic
+}
+80623 = {
+	name = "Coelho"
+	culture = caipira
+	religion = apostolic
+}
+80624 = {
+	name = "Coimbra"
+	culture = caipira
+	religion = apostolic
+}
+80625 = {
+	name = "Condeixa"
+	culture = caipira
+	religion = apostolic
+}
+80626 = {
+	name = "Cordeiro"
+	culture = caipira
+	religion = apostolic
+}
+80627 = {
+	name = "Corrêa"
+	culture = caipira
+	religion = apostolic
+}
+80628 = {
+	name = "Correia"
+	culture = caipira
+	religion = apostolic
+}
+80629 = {
+	name = "Corte"
+	culture = caipira
+	religion = apostolic
+}
+80630 = {
+	name = "Cortes"
+	culture = caipira
+	religion = apostolic
+}
+80631 = {
+	name = "Costa"
+	culture = caipira
+	religion = apostolic
+}
+80632 = {
+	name = "Coury"
+	culture = caipira
+	religion = apostolic
+}
+80633 = {
+	name = "Coutinho"
+	culture = caipira
+	religion = apostolic
+}
+80634 = {
+	name = "Crespo"
+	culture = caipira
+	religion = apostolic
+}
+80635 = {
+	name = "Cruz"
+	culture = caipira
+	religion = apostolic
+}
+80636 = {
+	name = "Cunha"
+	culture = caipira
+	religion = apostolic
+}
+80637 = {
+	name = "Cunha Lima"
+	culture = caipira
+	religion = apostolic
+}
+80638 = {
+	name = "Curiati"
+	culture = caipira
+	religion = apostolic
+}
+80639 = {
+	name = "Cury"
+	culture = caipira
+	religion = apostolic
+}
+80640 = {
+	name = "da Costa"
+	culture = caipira
+	religion = apostolic
+}
+80641 = {
+	name = "da Costa e Silva"
+	culture = caipira
+	religion = apostolic
+}
+80642 = {
+	name = "da Cruz"
+	culture = caipira
+	religion = apostolic
+}
+80643 = {
+	name = "da Cunha"
+	culture = caipira
+	religion = apostolic
+}
+80644 = {
+	name = "da Mota"
+	culture = caipira
+	religion = apostolic
+}
+80645 = {
+	name = "da Paulina"
+	culture = caipira
+	religion = apostolic
+}
+80646 = {
+	name = "da Paz"
+	culture = caipira
+	religion = apostolic
+}
+80647 = {
+	name = "da Rocha"
+	culture = caipira
+	religion = apostolic
+}
+80648 = {
+	name = "da Silva"
+	culture = caipira
+	religion = apostolic
+}
+80649 = {
+	name = "Dabus"
+	culture = caipira
+	religion = apostolic
+}
+80650 = {
+	name = "Daige"
+	culture = caipira
+	religion = apostolic
+}
+80651 = {
+	name = "Dalla Pria"
+	culture = caipira
+	religion = apostolic
+}
+80652 = {
+	name = "Dallari"
+	culture = caipira
+	religion = apostolic
+}
+80653 = {
+	name = "de Abreu"
+	culture = caipira
+	religion = apostolic
+}
+80654 = {
+	name = "de Almeida"
+	culture = caipira
+	religion = apostolic
+}
+80655 = {
+	name = "de Araújo"
+	culture = caipira
+	religion = apostolic
+}
+80656 = {
+	name = "de Assis"
+	culture = caipira
+	religion = apostolic
+}
+80657 = {
+	name = "de Ávila"
+	culture = caipira
+	religion = apostolic
+}
+80658 = {
+	name = "de Barros"
+	culture = caipira
+	religion = apostolic
+}
+80659 = {
+	name = "de Brito"
+	culture = caipira
+	religion = apostolic
+}
+80660 = {
+	name = "de Camargo"
+	culture = caipira
+	religion = apostolic
+}
+80661 = {
+	name = "de Campos"
+	culture = caipira
+	religion = apostolic
+}
+80662 = {
+	name = "de Carvalho"
+	culture = caipira
+	religion = apostolic
+}
+80663 = {
+	name = "de Castro"
+	culture = caipira
+	religion = apostolic
+}
+80664 = {
+	name = "de Faria"
+	culture = caipira
+	religion = apostolic
+}
+80665 = {
+	name = "de Faria Lima"
+	culture = caipira
+	religion = apostolic
+}
+80666 = {
+	name = "de Filippi"
+	culture = caipira
+	religion = apostolic
+}
+80667 = {
+	name = "de Freitas"
+	culture = caipira
+	religion = apostolic
+}
+80668 = {
+	name = "de Lima"
+	culture = caipira
+	religion = apostolic
+}
+80669 = {
+	name = "de Macedo"
+	culture = caipira
+	religion = apostolic
+}
+80670 = {
+	name = "de Matos"
+	culture = caipira
+	religion = apostolic
+}
+80671 = {
+	name = "de Melo"
+	culture = caipira
+	religion = apostolic
+}
+80672 = {
+	name = "de Moraes"
+	culture = caipira
+	religion = apostolic
+}
+80673 = {
+	name = "de Moura"
+	culture = caipira
+	religion = apostolic
+}
+80674 = {
+	name = "de Nóbrega"
+	culture = caipira
+	religion = apostolic
+}
+80675 = {
+	name = "de Oliveira"
+	culture = caipira
+	religion = apostolic
+}
+80676 = {
+	name = "de Paula"
+	culture = caipira
+	religion = apostolic
+}
+80677 = {
+	name = "de Queiroz"
+	culture = caipira
+	religion = apostolic
+}
+80678 = {
+	name = "de Souza"
+	culture = caipira
+	religion = apostolic
+}
+80679 = {
+	name = "de Toledo"
+	culture = caipira
+	religion = apostolic
+}
+80680 = {
+	name = "de Velasco"
+	culture = caipira
+	religion = apostolic
+}
+80681 = {
+	name = "Dejtiar"
+	culture = caipira
+	religion = apostolic
+}
+80682 = {
+	name = "Delmont"
+	culture = caipira
+	religion = apostolic
+}
+80683 = {
+	name = "Delta"
+	culture = caipira
+	religion = apostolic
+}
+80684 = {
+	name = "Demarchi"
+	culture = caipira
+	religion = apostolic
+}
+80685 = {
+	name = "Di Ciero"
+	culture = caipira
+	religion = apostolic
+}
+80686 = {
+	name = "Dias"
+	culture = caipira
+	religion = apostolic
+}
+80687 = {
+	name = "Diniz"
+	culture = caipira
+	religion = apostolic
+}
+80688 = {
+	name = "Dirceu"
+	culture = caipira
+	religion = apostolic
+}
+80689 = {
+	name = "do Amaral"
+	culture = caipira
+	religion = apostolic
+}
+80690 = {
+	name = "do Pulo"
+	culture = caipira
+	religion = apostolic
+}
+80691 = {
+	name = "doenha"
+	culture = caipira
+	religion = apostolic
+}
+80692 = {
+	name = "Domingues"
+	culture = caipira
+	religion = apostolic
+}
+80693 = {
+	name = "Donato"
+	culture = caipira
+	religion = apostolic
+}
+80694 = {
+	name = "dos Reis"
+	culture = caipira
+	religion = apostolic
+}
+80695 = {
+	name = "dos Santos"
+	culture = caipira
+	religion = apostolic
+}
+80696 = {
+	name = "Duarte"
+	culture = caipira
+	religion = apostolic
+}
+80697 = {
+	name = "Eduardo"
+	culture = caipira
+	religion = apostolic
+}
+80698 = {
+	name = "Egreja"
+	culture = caipira
+	religion = apostolic
+}
+80699 = {
+	name = "Engler"
+	culture = caipira
+	religion = apostolic
+}
+80700 = {
+	name = "Erundina"
+	culture = caipira
+	religion = apostolic
+}
+80701 = {
+	name = "Escobar"
+	culture = caipira
+	religion = apostolic
+}
+80702 = {
+	name = "Espíndola"
+	culture = caipira
+	religion = apostolic
+}
+80703 = {
+	name = "Eumene"
+	culture = caipira
+	religion = apostolic
+}
+80704 = {
+	name = "Euritisses"
+	culture = caipira
+	religion = apostolic
+}
+80705 = {
+	name = "Fabiano"
+	culture = caipira
+	religion = apostolic
+}
+80706 = {
+	name = "Falcão"
+	culture = caipira
+	religion = apostolic
+}
+80707 = {
+	name = "Falconi"
+	culture = caipira
+	religion = apostolic
+}
+80708 = {
+	name = "Falseti"
+	culture = caipira
+	religion = apostolic
+}
+80709 = {
+	name = "Fanganielo"
+	culture = caipira
+	religion = apostolic
+}
+80710 = {
+	name = "Faraco"
+	culture = caipira
+	religion = apostolic
+}
+80711 = {
+	name = "Farhat"
+	culture = caipira
+	religion = apostolic
+}
+80712 = {
+	name = "Feijó"
+	culture = caipira
+	religion = apostolic
+}
+80713 = {
+	name = "Feldman"
+	culture = caipira
+	religion = apostolic
+}
+80714 = {
+	name = "Feliciano"
+	culture = caipira
+	religion = apostolic
+}
+80715 = {
+	name = "Fernandes"
+	culture = caipira
+	religion = apostolic
+}
+80716 = {
+	name = "Ferrarini"
+	culture = caipira
+	religion = apostolic
+}
+80717 = {
+	name = "Ferraz"
+	culture = caipira
+	religion = apostolic
+}
+80718 = {
+	name = "Ferreira"
+	culture = caipira
+	religion = apostolic
+}
+80719 = {
+	name = "Figueira"
+	culture = caipira
+	religion = apostolic
+}
+80720 = {
+	name = "Filho"
+	culture = caipira
+	religion = apostolic
+}
+80721 = {
+	name = "Flaquer"
+	culture = caipira
+	religion = apostolic
+}
+80722 = {
+	name = "Flaviano"
+	culture = caipira
+	religion = apostolic
+}
+80723 = {
+	name = "Florence"
+	culture = caipira
+	religion = apostolic
+}
+80724 = {
+	name = "Fonseca"
+	culture = caipira
+	religion = apostolic
+}
+80725 = {
+	name = "Formiga"
+	culture = caipira
+	religion = apostolic
+}
+80726 = {
+	name = "Fossen"
+	culture = caipira
+	religion = apostolic
+}
+80727 = {
+	name = "Fraga"
+	culture = caipira
+	religion = apostolic
+}
+80728 = {
+	name = "Francisco"
+	culture = caipira
+	religion = apostolic
+}
+80729 = {
+	name = "Franco"
+	culture = caipira
+	religion = apostolic
+}
+80730 = {
+	name = "Frateschi"
+	culture = caipira
+	religion = apostolic
+}
+80731 = {
+	name = "Freire"
+	culture = caipira
+	religion = apostolic
+}
+80732 = {
+	name = "Freua"
+	culture = caipira
+	religion = apostolic
+}
+80733 = {
+	name = "Furlan"
+	culture = caipira
+	religion = apostolic
+}
+80734 = {
+	name = "Gadia"
+	culture = caipira
+	religion = apostolic
+}
+80735 = {
+	name = "Galante"
+	culture = caipira
+	religion = apostolic
+}
+80736 = {
+	name = "Gale"
+	culture = caipira
+	religion = apostolic
+}
+80737 = {
+	name = "Galvão"
+	culture = caipira
+	religion = apostolic
+}
+80738 = {
+	name = "Garcia"
+	culture = caipira
+	religion = apostolic
+}
+80739 = {
+	name = "Garib"
+	culture = caipira
+	religion = apostolic
+}
+80740 = {
+	name = "Gasparini"
+	culture = caipira
+	religion = apostolic
+}
+80741 = {
+	name = "Gebara"
+	culture = caipira
+	religion = apostolic
+}
+80742 = {
+	name = "Gentil"
+	culture = caipira
+	religion = apostolic
+}
+80743 = {
+	name = "Geraldo"
+	culture = caipira
+	religion = apostolic
+}
+80744 = {
+	name = "Gesuen"
+	culture = caipira
+	religion = apostolic
+}
+80745 = {
+	name = "Giachini"
+	culture = caipira
+	religion = apostolic
+}
+80746 = {
+	name = "Gianetti"
+	culture = caipira
+	religion = apostolic
+}
+80747 = {
+	name = "Giglio"
+	culture = caipira
+	religion = apostolic
+}
+80748 = {
+	name = "Gimenez"
+	culture = caipira
+	religion = apostolic
+}
+80749 = {
+	name = "Giuli"
+	culture = caipira
+	religion = apostolic
+}
+80750 = {
+	name = "Godinho"
+	culture = caipira
+	religion = apostolic
+}
+80751 = {
+	name = "Goldman"
+	culture = caipira
+	religion = apostolic
+}
+80752 = {
+	name = "Gomes"
+	culture = caipira
+	religion = apostolic
+}
+80753 = {
+	name = "Gonçalves"
+	culture = caipira
+	religion = apostolic
+}
+80754 = {
+	name = "Gondim"
+	culture = caipira
+	religion = apostolic
+}
+80755 = {
+	name = "Gonzaga"
+	culture = caipira
+	religion = apostolic
+}
+80756 = {
+	name = "Gonzalez"
+	culture = caipira
+	religion = apostolic
+}
+80757 = {
+	name = "Gosuen"
+	culture = caipira
+	religion = apostolic
+}
+80758 = {
+	name = "Gouvêa"
+	culture = caipira
+	religion = apostolic
+}
+80759 = {
+	name = "Gouveia"
+	culture = caipira
+	religion = apostolic
+}
+80760 = {
+	name = "Granja"
+	culture = caipira
+	religion = apostolic
+}
+80761 = {
+	name = "Gregori"
+	culture = caipira
+	religion = apostolic
+}
+80762 = {
+	name = "Grillo"
+	culture = caipira
+	religion = apostolic
+}
+80763 = {
+	name = "Guerra"
+	culture = caipira
+	religion = apostolic
+}
+80764 = {
+	name = "Guglielmi"
+	culture = caipira
+	religion = apostolic
+}
+80765 = {
+	name = "Guimarães"
+	culture = caipira
+	religion = apostolic
+}
+80766 = {
+	name = "Gurgel"
+	culture = caipira
+	religion = apostolic
+}
+80767 = {
+	name = "Hadade"
+	culture = caipira
+	religion = apostolic
+}
+80768 = {
+	name = "Haddad"
+	culture = caipira
+	religion = apostolic
+}
+80769 = {
+	name = "Hama"
+	culture = caipira
+	religion = apostolic
+}
+80770 = {
+	name = "Hamam"
+	culture = caipira
+	religion = apostolic
+}
+80771 = {
+	name = "Hanashiro"
+	culture = caipira
+	religion = apostolic
+}
+80772 = {
+	name = "Helu"
+	culture = caipira
+	religion = apostolic
+}
+80773 = {
+	name = "Hiar"
+	culture = caipira
+	religion = apostolic
+}
+80774 = {
+	name = "Hirata"
+	culture = caipira
+	religion = apostolic
+}
+80775 = {
+	name = "Hornos"
+	culture = caipira
+	religion = apostolic
+}
+80776 = {
+	name = "Hourneaux"
+	culture = caipira
+	religion = apostolic
+}
+80777 = {
+	name = "Iazetti"
+	culture = caipira
+	religion = apostolic
+}
+80778 = {
+	name = "Iervolino"
+	culture = caipira
+	religion = apostolic
+}
+80779 = {
+	name = "Iha"
+	culture = caipira
+	religion = apostolic
+}
+80780 = {
+	name = "Izar"
+	culture = caipira
+	religion = apostolic
+}
+80781 = {
+	name = "Jácome"
+	culture = caipira
+	religion = apostolic
+}
+80782 = {
+	name = "Jardim"
+	culture = caipira
+	religion = apostolic
+}
+80783 = {
+	name = "Jazadji"
+	culture = caipira
+	religion = apostolic
+}
+80784 = {
+	name = "Jordi"
+	culture = caipira
+	religion = apostolic
+}
+80785 = {
+	name = "Julianelli"
+	culture = caipira
+	religion = apostolic
+}
+80786 = {
+	name = "Julião"
+	culture = caipira
+	religion = apostolic
+}
+80787 = {
+	name = "Júlio"
+	culture = caipira
+	religion = apostolic
+}
+80788 = {
+	name = "Júnior"
+	culture = caipira
+	religion = apostolic
+}
+80789 = {
+	name = "Junqueira"
+	culture = caipira
+	religion = apostolic
+}
+80790 = {
+	name = "Jurca"
+	culture = caipira
+	religion = apostolic
+}
+80791 = {
+	name = "Justo"
+	culture = caipira
+	religion = apostolic
+}
+80792 = {
+	name = "Kara"
+	culture = caipira
+	religion = apostolic
+}
+80793 = {
+	name = "Kassab"
+	culture = caipira
+	religion = apostolic
+}
+80794 = {
+	name = "Kefer"
+	culture = caipira
+	religion = apostolic
+}
+80795 = {
+	name = "Keffer"
+	culture = caipira
+	religion = apostolic
+}
+80796 = {
+	name = "Kenan"
+	culture = caipira
+	religion = apostolic
+}
+80797 = {
+	name = "Kerlakian"
+	culture = caipira
+	religion = apostolic
+}
+80798 = {
+	name = "Keutenedjian"
+	culture = caipira
+	religion = apostolic
+}
+80799 = {
+	name = "Khuriyeh"
+	culture = caipira
+	religion = apostolic
+}
+80800 = {
+	name = "Kiono"
+	culture = caipira
+	religion = apostolic
+}
+80801 = {
+	name = "Kobayashi"
+	culture = caipira
+	religion = apostolic
+}
+80802 = {
+	name = "Kuriki"
+	culture = caipira
+	religion = apostolic
+}
+80803 = {
+	name = "Kyono"
+	culture = caipira
+	religion = apostolic
+}
+80804 = {
+	name = "Lammoglia"
+	culture = caipira
+	religion = apostolic
+}
+80805 = {
+	name = "Lapa"
+	culture = caipira
+	religion = apostolic
+}
+80806 = {
+	name = "Lara"
+	culture = caipira
+	religion = apostolic
+}
+80807 = {
+	name = "Lazareno"
+	culture = caipira
+	religion = apostolic
+}
+80808 = {
+	name = "Leandrini"
+	culture = caipira
+	religion = apostolic
+}
+80809 = {
+	name = "Leão"
+	culture = caipira
+	religion = apostolic
+}
+80810 = {
+	name = "Leça"
+	culture = caipira
+	religion = apostolic
+}
+80811 = {
+	name = "Leite"
+	culture = caipira
+	religion = apostolic
+}
+80812 = {
+	name = "Leiva"
+	culture = caipira
+	religion = apostolic
+}
+80813 = {
+	name = "Leme"
+	culture = caipira
+	religion = apostolic
+}
+80814 = {
+	name = "Lepera"
+	culture = caipira
+	religion = apostolic
+}
+80815 = {
+	name = "Liarte"
+	culture = caipira
+	religion = apostolic
+}
+80816 = {
+	name = "Lima"
+	culture = caipira
+	religion = apostolic
+}
+80817 = {
+	name = "Lino"
+	culture = caipira
+	religion = apostolic
+}
+80818 = {
+	name = "Lins"
+	culture = caipira
+	religion = apostolic
+}
+80819 = {
+	name = "Lipnik"
+	culture = caipira
+	religion = apostolic
+}
+80820 = {
+	name = "Lobo"
+	culture = caipira
+	religion = apostolic
+}
+80821 = {
+	name = "Lopes"
+	culture = caipira
+	religion = apostolic
+}
+80822 = {
+	name = "Lopes Ferraz"
+	culture = caipira
+	religion = apostolic
+}
+80823 = {
+	name = "Lot"
+	culture = caipira
+	religion = apostolic
+}
+80824 = {
+	name = "Lucchesi"
+	culture = caipira
+	religion = apostolic
+}
+80825 = {
+	name = "Luciano"
+	culture = caipira
+	religion = apostolic
+}
+80826 = {
+	name = "Luis"
+	culture = caipira
+	religion = apostolic
+}
+80827 = {
+	name = "Luiz"
+	culture = caipira
+	religion = apostolic
+}
+80828 = {
+	name = "Luizinho"
+	culture = caipira
+	religion = apostolic
+}
+80829 = {
+	name = "Lune"
+	culture = caipira
+	religion = apostolic
+}
+80830 = {
+	name = "Lurtz"
+	culture = caipira
+	religion = apostolic
+}
+80831 = {
+	name = "Macedo"
+	culture = caipira
+	religion = apostolic
+}
+80832 = {
+	name = "Machado"
+	culture = caipira
+	religion = apostolic
+}
+80833 = {
+	name = "Macris"
+	culture = caipira
+	religion = apostolic
+}
+80834 = {
+	name = "Maida"
+	culture = caipira
+	religion = apostolic
+}
+80835 = {
+	name = "Maltoni"
+	culture = caipira
+	religion = apostolic
+}
+80836 = {
+	name = "Mantelli"
+	culture = caipira
+	religion = apostolic
+}
+80837 = {
+	name = "Marcelinni"
+	culture = caipira
+	religion = apostolic
+}
+80838 = {
+	name = "Marcondes"
+	culture = caipira
+	religion = apostolic
+}
+80839 = {
+	name = "Margato"
+	culture = caipira
+	religion = apostolic
+}
+80840 = {
+	name = "Maria"
+	culture = caipira
+	religion = apostolic
+}
+80841 = {
+	name = "Marin"
+	culture = caipira
+	religion = apostolic
+}
+80842 = {
+	name = "Marinho"
+	culture = caipira
+	religion = apostolic
+}
+80843 = {
+	name = "Marins"
+	culture = caipira
+	religion = apostolic
+}
+80844 = {
+	name = "Martin"
+	culture = caipira
+	religion = apostolic
+}
+80845 = {
+	name = "Martini"
+	culture = caipira
+	religion = apostolic
+}
+80846 = {
+	name = "Martins"
+	culture = caipira
+	religion = apostolic
+}
+80847 = {
+	name = "Massei"
+	culture = caipira
+	religion = apostolic
+}
+80848 = {
+	name = "Massih"
+	culture = caipira
+	religion = apostolic
+}
+80849 = {
+	name = "Mastrocola"
+	culture = caipira
+	religion = apostolic
+}
+80850 = {
+	name = "Matarazzo"
+	culture = caipira
+	religion = apostolic
+}
+80851 = {
+	name = "Matina"
+	culture = caipira
+	religion = apostolic
+}
+80852 = {
+	name = "Matos"
+	culture = caipira
+	religion = apostolic
+}
+80853 = {
+	name = "Mattos"
+	culture = caipira
+	religion = apostolic
+}
+80854 = {
+	name = "Maurício"
+	culture = caipira
+	religion = apostolic
+}
+80855 = {
+	name = "Mauro"
+	culture = caipira
+	religion = apostolic
+}
+80856 = {
+	name = "Máximo"
+	culture = caipira
+	religion = apostolic
+}
+80857 = {
+	name = "Mayer"
+	culture = caipira
+	religion = apostolic
+}
+80858 = {
+	name = "Mazzo"
+	culture = caipira
+	religion = apostolic
+}
+80859 = {
+	name = "Mendes"
+	culture = caipira
+	religion = apostolic
+}
+80860 = {
+	name = "Mendonça"
+	culture = caipira
+	religion = apostolic
+}
+80861 = {
+	name = "Meneghini"
+	culture = caipira
+	religion = apostolic
+}
+80862 = {
+	name = "Menezes"
+	culture = caipira
+	religion = apostolic
+}
+80863 = {
+	name = "Menk"
+	culture = caipira
+	religion = apostolic
+}
+80864 = {
+	name = "Mesquita"
+	culture = caipira
+	religion = apostolic
+}
+80865 = {
+	name = "Messias"
+	culture = caipira
+	religion = apostolic
+}
+80866 = {
+	name = "Meves"
+	culture = caipira
+	religion = apostolic
+}
+80867 = {
+	name = "Miglori"
+	culture = caipira
+	religion = apostolic
+}
+80868 = {
+	name = "Milliet"
+	culture = caipira
+	religion = apostolic
+}
+80869 = {
+	name = "Miraglia"
+	culture = caipira
+	religion = apostolic
+}
+80870 = {
+	name = "Monteiro"
+	culture = caipira
+	religion = apostolic
+}
+80871 = {
+	name = "Monti"
+	culture = caipira
+	religion = apostolic
+}
+80872 = {
+	name = "Montoro"
+	culture = caipira
+	religion = apostolic
+}
+80873 = {
+	name = "Morais"
+	culture = caipira
+	religion = apostolic
+}
+80874 = {
+	name = "Moreira"
+	culture = caipira
+	religion = apostolic
+}
+80875 = {
+	name = "Mori"
+	culture = caipira
+	religion = apostolic
+}
+80876 = {
+	name = "Morimoto"
+	culture = caipira
+	religion = apostolic
+}
+80877 = {
+	name = "Morinaga"
+	culture = caipira
+	religion = apostolic
+}
+80878 = {
+	name = "Mota"
+	culture = caipira
+	religion = apostolic
+}
+80879 = {
+	name = "Mudalen"
+	culture = caipira
+	religion = apostolic
+}
+80880 = {
+	name = "Munhoz"
+	culture = caipira
+	religion = apostolic
+}
+80881 = {
+	name = "Murad"
+	culture = caipira
+	religion = apostolic
+}
+80882 = {
+	name = "Muraro"
+	culture = caipira
+	religion = apostolic
+}
+80883 = {
+	name = "Najar"
+	culture = caipira
+	religion = apostolic
+}
+80884 = {
+	name = "Nakandakare"
+	culture = caipira
+	religion = apostolic
+}
+80885 = {
+	name = "Namo"
+	culture = caipira
+	religion = apostolic
+}
+80886 = {
+	name = "Nascimento"
+	culture = caipira
+	religion = apostolic
+}
+80887 = {
+	name = "Nasser"
+	culture = caipira
+	religion = apostolic
+}
+80888 = {
+	name = "Negrini"
+	culture = caipira
+	religion = apostolic
+}
+80889 = {
+	name = "Neto"
+	culture = caipira
+	religion = apostolic
+}
+80890 = {
+	name = "Neves"
+	culture = caipira
+	religion = apostolic
+}
+80891 = {
+	name = "Nicoleli"
+	culture = caipira
+	religion = apostolic
+}
+80892 = {
+	name = "Noda"
+	culture = caipira
+	religion = apostolic
+}
+80893 = {
+	name = "Nogueira"
+	culture = caipira
+	religion = apostolic
+}
+80894 = {
+	name = "Nomura"
+	culture = caipira
+	religion = apostolic
+}
+80895 = {
+	name = "Novaes"
+	culture = caipira
+	religion = apostolic
+}
+80896 = {
+	name = "Novais"
+	culture = caipira
+	religion = apostolic
+}
+80897 = {
+	name = "Nunes"
+	culture = caipira
+	religion = apostolic
+}
+80898 = {
+	name = "Oliveira"
+	culture = caipira
+	religion = apostolic
+}
+80899 = {
+	name = "Ornellas"
+	culture = caipira
+	religion = apostolic
+}
+80900 = {
+	name = "Ortiz"
+	culture = caipira
+	religion = apostolic
+}
+80901 = {
+	name = "Osório"
+	culture = caipira
+	religion = apostolic
+}
+80902 = {
+	name = "Ozi"
+	culture = caipira
+	religion = apostolic
+}
+80903 = {
+	name = "Pacheco"
+	culture = caipira
+	religion = apostolic
+}
+80904 = {
+	name = "Paes"
+	culture = caipira
+	religion = apostolic
+}
+80905 = {
+	name = "Paixão"
+	culture = caipira
+	religion = apostolic
+}
+80906 = {
+	name = "Palácios"
+	culture = caipira
+	religion = apostolic
+}
+80907 = {
+	name = "Palocci"
+	culture = caipira
+	religion = apostolic
+}
+80908 = {
+	name = "Pannunzio"
+	culture = caipira
+	religion = apostolic
+}
+80909 = {
+	name = "Pardi"
+	culture = caipira
+	religion = apostolic
+}
+80910 = {
+	name = "Pascoal"
+	culture = caipira
+	religion = apostolic
+}
+80911 = {
+	name = "Passarelli"
+	culture = caipira
+	religion = apostolic
+}
+80912 = {
+	name = "Passoni"
+	culture = caipira
+	religion = apostolic
+}
+80913 = {
+	name = "Pazzianotto"
+	culture = caipira
+	religion = apostolic
+}
+80914 = {
+	name = "Pedroso"
+	culture = caipira
+	religion = apostolic
+}
+80915 = {
+	name = "Pena"
+	culture = caipira
+	religion = apostolic
+}
+80916 = {
+	name = "Pereira"
+	culture = caipira
+	religion = apostolic
+}
+80917 = {
+	name = "Peres"
+	culture = caipira
+	religion = apostolic
+}
+80918 = {
+	name = "Perri"
+	culture = caipira
+	religion = apostolic
+}
+80919 = {
+	name = "Perrone"
+	culture = caipira
+	religion = apostolic
+}
+80920 = {
+	name = "Pescarini"
+	culture = caipira
+	religion = apostolic
+}
+80921 = {
+	name = "Petrilli"
+	culture = caipira
+	religion = apostolic
+}
+80922 = {
+	name = "Pieroni"
+	culture = caipira
+	religion = apostolic
+}
+80923 = {
+	name = "Pietá"
+	culture = caipira
+	religion = apostolic
+}
+80924 = {
+	name = "Pinheiro"
+	culture = caipira
+	religion = apostolic
+}
+80925 = {
+	name = "Pinto"
+	culture = caipira
+	religion = apostolic
+}
+80926 = {
+	name = "Pires"
+	culture = caipira
+	religion = apostolic
+}
+80927 = {
+	name = "Piteri"
+	culture = caipira
+	religion = apostolic
+}
+80928 = {
+	name = "Piunti"
+	culture = caipira
+	religion = apostolic
+}
+80929 = {
+	name = "Pivatto"
+	culture = caipira
+	religion = apostolic
+}
+80930 = {
+	name = "Piza"
+	culture = caipira
+	religion = apostolic
+}
+80931 = {
+	name = "Planet"
+	culture = caipira
+	religion = apostolic
+}
+80932 = {
+	name = "Poli"
+	culture = caipira
+	religion = apostolic
+}
+80933 = {
+	name = "Pompeu"
+	culture = caipira
+	religion = apostolic
+}
+80934 = {
+	name = "Porchat"
+	culture = caipira
+	religion = apostolic
+}
+80935 = {
+	name = "Port"
+	culture = caipira
+	religion = apostolic
+}
+80936 = {
+	name = "Porto"
+	culture = caipira
+	religion = apostolic
+}
+80937 = {
+	name = "Pozzi"
+	culture = caipira
+	religion = apostolic
+}
+80938 = {
+	name = "Praça"
+	culture = caipira
+	religion = apostolic
+}
+80939 = {
+	name = "Prado"
+	culture = caipira
+	religion = apostolic
+}
+80940 = {
+	name = "Prandi"
+	culture = caipira
+	religion = apostolic
+}
+80941 = {
+	name = "Pria"
+	culture = caipira
+	religion = apostolic
+}
+80942 = {
+	name = "Purini"
+	culture = caipira
+	religion = apostolic
+}
+80943 = {
+	name = "Quadros"
+	culture = caipira
+	religion = apostolic
+}
+80944 = {
+	name = "Quércia"
+	culture = caipira
+	religion = apostolic
+}
+80945 = {
+	name = "Rahal"
+	culture = caipira
+	religion = apostolic
+}
+80946 = {
+	name = "Ramalho"
+	culture = caipira
+	religion = apostolic
+}
+80947 = {
+	name = "Ramos"
+	culture = caipira
+	religion = apostolic
+}
+80948 = {
+	name = "Ranieri"
+	culture = caipira
+	religion = apostolic
+}
+80949 = {
+	name = "Razuk"
+	culture = caipira
+	religion = apostolic
+}
+80950 = {
+	name = "Real"
+	culture = caipira
+	religion = apostolic
+}
+80951 = {
+	name = "Reis"
+	culture = caipira
+	religion = apostolic
+}
+80952 = {
+	name = "Resegue"
+	culture = caipira
+	religion = apostolic
+}
+80953 = {
+	name = "Rezeck"
+	culture = caipira
+	religion = apostolic
+}
+80954 = {
+	name = "Rezende"
+	culture = caipira
+	religion = apostolic
+}
+80955 = {
+	name = "Rezk"
+	culture = caipira
+	religion = apostolic
+}
+80956 = {
+	name = "Ribas"
+	culture = caipira
+	religion = apostolic
+}
+80957 = {
+	name = "Ribeiro"
+	culture = caipira
+	religion = apostolic
+}
+80958 = {
+	name = "Ricchetti"
+	culture = caipira
+	religion = apostolic
+}
+80959 = {
+	name = "Rocha"
+	culture = caipira
+	religion = apostolic
+}
+80960 = {
+	name = "Rodrigues"
+	culture = caipira
+	religion = apostolic
+}
+80961 = {
+	name = "Rolim"
+	culture = caipira
+	religion = apostolic
+}
+80962 = {
+	name = "Rollemberg"
+	culture = caipira
+	religion = apostolic
+}
+80963 = {
+	name = "Romano"
+	culture = caipira
+	religion = apostolic
+}
+80964 = {
+	name = "Romeiro"
+	culture = caipira
+	religion = apostolic
+}
+80965 = {
+	name = "Romeu"
+	culture = caipira
+	religion = apostolic
+}
+80966 = {
+	name = "Rosa"
+	culture = caipira
+	religion = apostolic
+}
+80967 = {
+	name = "Rosalindo"
+	culture = caipira
+	religion = apostolic
+}
+80968 = {
+	name = "Rosário"
+	culture = caipira
+	religion = apostolic
+}
+80969 = {
+	name = "Rosas"
+	culture = caipira
+	religion = apostolic
+}
+80970 = {
+	name = "Roscitti"
+	culture = caipira
+	religion = apostolic
+}
+80971 = {
+	name = "Rossi"
+	culture = caipira
+	religion = apostolic
+}
+80972 = {
+	name = "Rubez"
+	culture = caipira
+	religion = apostolic
+}
+80973 = {
+	name = "Sabiá"
+	culture = caipira
+	religion = apostolic
+}
+80974 = {
+	name = "Sabino"
+	culture = caipira
+	religion = apostolic
+}
+80975 = {
+	name = "Saion"
+	culture = caipira
+	religion = apostolic
+}
+80976 = {
+	name = "Sala"
+	culture = caipira
+	religion = apostolic
+}
+80977 = {
+	name = "Sales"
+	culture = caipira
+	religion = apostolic
+}
+80978 = {
+	name = "Salgado"
+	culture = caipira
+	religion = apostolic
+}
+80979 = {
+	name = "Salim"
+	culture = caipira
+	religion = apostolic
+}
+80980 = {
+	name = "Salomé"
+	culture = caipira
+	religion = apostolic
+}
+80981 = {
+	name = "Salvagni"
+	culture = caipira
+	religion = apostolic
+}
+80982 = {
+	name = "Sampaio"
+	culture = caipira
+	religion = apostolic
+}
+80983 = {
+	name = "Sanches"
+	culture = caipira
+	religion = apostolic
+}
+80984 = {
+	name = "Sandoval"
+	culture = caipira
+	religion = apostolic
+}
+80985 = {
+	name = "Santana"
+	culture = caipira
+	religion = apostolic
+}
+80986 = {
+	name = "Santos"
+	culture = caipira
+	religion = apostolic
+}
+80987 = {
+	name = "Sapienza"
+	culture = caipira
+	religion = apostolic
+}
+80988 = {
+	name = "Sayon"
+	culture = caipira
+	religion = apostolic
+}
+80989 = {
+	name = "Sbeghen"
+	culture = caipira
+	religion = apostolic
+}
+80990 = {
+	name = "Scalamandre"
+	culture = caipira
+	religion = apostolic
+}
+80991 = {
+	name = "Schwinden"
+	culture = caipira
+	religion = apostolic
+}
+80992 = {
+	name = "Scopel"
+	culture = caipira
+	religion = apostolic
+}
+80993 = {
+	name = "Secco"
+	culture = caipira
+	religion = apostolic
+}
+80994 = {
+	name = "Seco"
+	culture = caipira
+	religion = apostolic
+}
+80995 = {
+	name = "Sedeh"
+	culture = caipira
+	religion = apostolic
+}
+80996 = {
+	name = "Segura"
+	culture = caipira
+	religion = apostolic
+}
+80997 = {
+	name = "Serpa"
+	culture = caipira
+	religion = apostolic
+}
+80998 = {
+	name = "Serrano"
+	culture = caipira
+	religion = apostolic
+}
+80999 = {
+	name = "Severo"
+	culture = caipira
+	religion = apostolic
+}
+81000 = {
+	name = "Shimomoto"
+	culture = caipira
+	religion = apostolic
+}
+81001 = {
+	name = "Sidney"
+	culture = caipira
+	religion = apostolic
+}
+81002 = {
+	name = "Signorelli"
+	culture = caipira
+	religion = apostolic
+}
+81003 = {
+	name = "Silva"
+	culture = caipira
+	religion = apostolic
+}
+81004 = {
+	name = "Silveira"
+	culture = caipira
+	religion = apostolic
+}
+81005 = {
+	name = "Simão"
+	culture = caipira
+	religion = apostolic
+}
+81006 = {
+	name = "Simionatto"
+	culture = caipira
+	religion = apostolic
+}
+81007 = {
+	name = "Simões"
+	culture = caipira
+	religion = apostolic
+}
+81008 = {
+	name = "Siqueira"
+	culture = caipira
+	religion = apostolic
+}
+81009 = {
+	name = "Siraque"
+	culture = caipira
+	religion = apostolic
+}
+81010 = {
+	name = "Soares"
+	culture = caipira
+	religion = apostolic
+}
+81011 = {
+	name = "Sodré"
+	culture = caipira
+	religion = apostolic
+}
+81012 = {
+	name = "Sogayar"
+	culture = caipira
+	religion = apostolic
+}
+81013 = {
+	name = "Soltur"
+	culture = caipira
+	religion = apostolic
+}
+81014 = {
+	name = "Sousa"
+	culture = caipira
+	religion = apostolic
+}
+81015 = {
+	name = "Stangarlini"
+	culture = caipira
+	religion = apostolic
+}
+81016 = {
+	name = "Storópoli"
+	culture = caipira
+	religion = apostolic
+}
+81017 = {
+	name = "Suplicy"
+	culture = caipira
+	religion = apostolic
+}
+81018 = {
+	name = "Taibo"
+	culture = caipira
+	religion = apostolic
+}
+81019 = {
+	name = "Taler"
+	culture = caipira
+	religion = apostolic
+}
+81020 = {
+	name = "Tamura"
+	culture = caipira
+	religion = apostolic
+}
+81021 = {
+	name = "Tanauí"
+	culture = caipira
+	religion = apostolic
+}
+81022 = {
+	name = "Tank"
+	culture = caipira
+	religion = apostolic
+}
+81023 = {
+	name = "Tarabay"
+	culture = caipira
+	religion = apostolic
+}
+81024 = {
+	name = "Tardelli"
+	culture = caipira
+	religion = apostolic
+}
+81025 = {
+	name = "Tarquínio"
+	culture = caipira
+	religion = apostolic
+}
+81026 = {
+	name = "Tasso"
+	culture = caipira
+	religion = apostolic
+}
+81027 = {
+	name = "Tatto"
+	culture = caipira
+	religion = apostolic
+}
+81028 = {
+	name = "Tavares"
+	culture = caipira
+	religion = apostolic
+}
+81029 = {
+	name = "Teixeira"
+	culture = caipira
+	religion = apostolic
+}
+81030 = {
+	name = "Teles"
+	culture = caipira
+	religion = apostolic
+}
+81031 = {
+	name = "Thomé"
+	culture = caipira
+	religion = apostolic
+}
+81032 = {
+	name = "Thomeu"
+	culture = caipira
+	religion = apostolic
+}
+81033 = {
+	name = "Tibiriçá"
+	culture = caipira
+	religion = apostolic
+}
+81034 = {
+	name = "Tomazzi"
+	culture = caipira
+	religion = apostolic
+}
+81035 = {
+	name = "Tommasini"
+	culture = caipira
+	religion = apostolic
+}
+81036 = {
+	name = "Toni"
+	culture = caipira
+	religion = apostolic
+}
+81037 = {
+	name = "Tonin"
+	culture = caipira
+	religion = apostolic
+}
+81038 = {
+	name = "Torloni"
+	culture = caipira
+	religion = apostolic
+}
+81039 = {
+	name = "Tortorello"
+	culture = caipira
+	religion = apostolic
+}
+81040 = {
+	name = "Toscano"
+	culture = caipira
+	religion = apostolic
+}
+81041 = {
+	name = "Trevisan"
+	culture = caipira
+	religion = apostolic
+}
+81042 = {
+	name = "Trigais"
+	culture = caipira
+	religion = apostolic
+}
+81043 = {
+	name = "Trigo"
+	culture = caipira
+	religion = apostolic
+}
+81044 = {
+	name = "Trindade"
+	culture = caipira
+	religion = apostolic
+}
+81045 = {
+	name = "Tripoli"
+	culture = caipira
+	religion = apostolic
+}
+81046 = {
+	name = "Utiyama"
+	culture = caipira
+	religion = apostolic
+}
+81047 = {
+	name = "Valadão"
+	culture = caipira
+	religion = apostolic
+}
+81048 = {
+	name = "Valente"
+	culture = caipira
+	religion = apostolic
+}
+81049 = {
+	name = "Varginha"
+	culture = caipira
+	religion = apostolic
+}
+81050 = {
+	name = "Vetorazzo"
+	culture = caipira
+	religion = apostolic
+}
+81051 = {
+	name = "Viana"
+	culture = caipira
+	religion = apostolic
+}
+81052 = {
+	name = "Vidal"
+	culture = caipira
+	religion = apostolic
+}
+81053 = {
+	name = "Vidigal"
+	culture = caipira
+	religion = apostolic
+}
+81054 = {
+	name = "Vieira"
+	culture = caipira
+	religion = apostolic
+}
+81055 = {
+	name = "Vilar"
+	culture = caipira
+	religion = apostolic
+}
+81056 = {
+	name = "Vinholi"
+	culture = caipira
+	religion = apostolic
+}
+81057 = {
+	name = "Vitor"
+	culture = caipira
+	religion = apostolic
+}
+81058 = {
+	name = "Volpi"
+	culture = caipira
+	religion = apostolic
+}
+81059 = {
+	name = "Yazbek"
+	culture = caipira
+	religion = apostolic
+}
+81060 = {
+	name = "Yunes"
+	culture = caipira
+	religion = apostolic
+}
+81061 = {
+	name = "Zampol"
+	culture = caipira
+	religion = apostolic
+}
+81062 = {
+	name = "Zancaner"
+	culture = caipira
+	religion = apostolic
+}
+81063 = {
+	name = "Zanini"
+	culture = caipira
+	religion = apostolic
+}
+81064 = {
+	name = "Zarattini"
+	culture = caipira
+	religion = apostolic
+}
+81065 = {
+	name = "Zekcer"
+	culture = caipira
+	religion = apostolic
+}
+81066 = {
+	name = "Zico"
+	culture = caipira
+	religion = apostolic
+}
+81067 = {
+	name = "Zollner"
+	culture = caipira
+	religion = apostolic
+}
+81068 = {
+	name = "Zomignani"
+	culture = caipira
+	religion = apostolic
+}
+81069 = {
+	name = "Zumbano"
+	culture = caipira
+	religion = apostolic
+}
+81070 = {
+	name = "Zuppo"
+	culture = caipira
+	religion = apostolic
+}
+81071 = {
+	name = "Zveibil"
+	culture = caipira
+	religion = apostolic
+}

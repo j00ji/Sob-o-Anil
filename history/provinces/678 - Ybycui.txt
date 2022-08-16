@@ -1,0 +1,21 @@
+# c_ybycui
+
+# County Title
+title = c_ybycui
+
+# Settlements
+max_settlements = 3
+
+b_ybycui = castle
+b_alberdi = temple
+#b_quiindy = temple
+#b_la_colmena = castle
+#b_la_rosada = city
+#b_acahay = temple
+#b_roque_gonzalez = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

@@ -1,0 +1,21 @@
+# c_mazagao
+
+# County Title
+title = c_mazagao
+
+# Settlements
+max_settlements = 2
+
+b_mazagao = castle
+#b_laranjal_do_jari = city
+#b_maranata_do_ajuruxi = temple
+#b_vitoria_do_jari = castle
+#b_carvao = city
+#b_pancudo = temple
+#b_acitine = castle
+
+# Misc
+culture = amapaense
+religion = holy_spirit
+
+#History

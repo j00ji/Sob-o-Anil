@@ -1,0 +1,57 @@
+namespace=calafatist
+
+long_character_event = {
+	id=calafatist.1
+	title=calafatist.1.t
+	desc=calafatist.1.d
+	is_triggered_only=yes
+	option = {
+		name = calafatist.1.a
+		ROOT = {
+			death = {
+				death_reason = death_sacrifice_nature
+  				killer = ROOT
+			}
+		}
+		hidden_effect={
+			current_heir = {
+				long_character_event = { id = calafatist.2 }
+			}
+		}
+	}
+}
+long_character_event = {
+	id=calafatist.2
+	title=calafatist.2.t
+	desc=calafatist.2.d
+	is_triggered_only=yes
+	option = {
+		name = calafatist.2.a
+		piety = 50
+		prestige = 50
+	}
+}
+long_character_event = {
+	id=calafatist.3
+	title=calafatist.3.t
+	desc=calafatist.3.d
+	is_triggered_only=yes
+	option = {
+		name = calafatist.3.a
+		piety = 75
+		add_character_modifier = {
+			name = calafate_ingested
+			months = 1
+		}
+	}
+	option = {
+		name = calafatist.3.b
+		add_character_modifier = {
+			name = calafate_stored
+			months = 6
+		}
+		custom_tooltip = {
+ 		   text = STORING_CALAFATE
+		}
+	}
+}

@@ -1,0 +1,21 @@
+# c_cotopaxi
+
+# County Title
+title = c_cotopaxi
+
+# Settlements
+max_settlements = 5
+
+b_latacunga = castle
+b_pujii = city
+b_salcedo = temple
+b_la_mana = castle
+#b_saquisili = city
+#b_sigchos = temple
+#b_pangua = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

@@ -1,0 +1,21 @@
+# c_lagunillas
+
+# County Title
+title = c_lagunillas
+
+# Settlements
+max_settlements = 3
+
+b_lagunillas = castle
+b_camiri = temple
+b_charagua = city
+#b_parapeti = castle
+#b_boyuibe = city
+#b_morevita = temple
+#b_ipita = castle
+
+# Misc
+culture = camba
+religion = catholic
+
+#History

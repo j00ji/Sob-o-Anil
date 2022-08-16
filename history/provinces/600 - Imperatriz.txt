@@ -1,0 +1,21 @@
+# c_imperatriz
+
+# County Title
+title = c_imperatriz
+
+# Settlements
+max_settlements = 4
+
+b_imperatriz = castle
+b_cidelandia = castle
+b_sao_pedro_2 = temple
+#b_davinopolis = castle
+#b_acailandia = city
+#b_vila_nova_2 = temple
+#b_esperantina_3 = castle
+
+# Misc
+culture = parnaibas
+religion = cicerite
+
+#History

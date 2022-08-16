@@ -1,0 +1,21 @@
+# c_ramon_castilla
+
+# County Title
+title = c_ramon_castilla
+
+# Settlements
+max_settlements = 2
+
+b_caballococha_2 = castle
+#b_ramon_castilla = city
+#b_pebas_2 = temple
+#b_san_pablo_3 = castle
+#b_yavari = city
+#b_alto_yavari = temple
+#b_bajo_cocha = castle
+
+# Misc
+culture = charapa
+religion = santo_daime
+
+#History

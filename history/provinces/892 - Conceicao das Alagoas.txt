@@ -1,0 +1,21 @@
+# c_conceicao_das_alagoas
+
+# County Title
+title = c_conceicao_das_alagoas
+
+# Settlements
+max_settlements = 3
+
+b_forte_garimpo = castle
+b_miguelopolis = city
+#b_guaira_2 = temple
+#b_verissimo = castle
+#b_campo_florido = city
+#b_planura = temple
+#b_pirajuba = castle
+
+# Misc
+culture = triangler
+religion = umbanda
+
+#History

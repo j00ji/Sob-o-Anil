@@ -1,0 +1,21 @@
+# c_caxiuna
+
+# County Title
+title = c_caxiuna
+
+# Settlements
+max_settlements = 3
+
+b_porto_de_moz = city
+b_melgaco = temple
+#b_portel = temple
+#b_lagoa_da_biriba = castle
+#b_carrazedo = city
+#b_raimundo_goncalves = temple
+#b_jose_porfirio = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

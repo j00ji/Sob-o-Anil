@@ -1,0 +1,21 @@
+# c_gaviao
+
+# County Title
+title = c_gaviao
+
+# Settlements
+max_settlements = 2
+
+b_juraci = tribal
+#b_iramaia = city
+#b_itaete = temple
+#b_marcionilio_souza = castle
+#b_boa_vista_do_tupim = city
+#b_joao_amaro = temple
+#b_lencois_2 = castle
+
+# Misc
+culture = ilhense
+religion = angel_cult
+
+#History

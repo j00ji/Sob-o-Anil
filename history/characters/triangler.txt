@@ -1,0 +1,92 @@
+###ÄNSI
+
+570001 = {
+	name = "Fábio"
+	dynasty = 255001 #Gusmão
+	religion = terra_benta
+	culture = triangler
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2345.12.1 = {
+		birth = yes
+	}
+}
+
+570002 = {
+	name = "Mário"
+	dynasty = 255001 #Gusmão
+	religion = terra_benta
+	culture = triangler
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2345.12.1 = {
+		birth = yes
+	}
+}
+
+570003 = {
+	name = "Douglas"
+	dynasty = 255004 #Borges
+	religion = umbanda
+	culture = triangler
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2345.12.1 = {
+		birth = yes
+	}
+}
+
+570004 = {
+	name = "André"
+	dynasty = 255002 #Marquinho
+	religion = terra_benta
+	culture = triangler
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2345.12.1 = {
+		birth = yes
+	}
+}
+
+570005 = {
+	name = "José"
+	dynasty = 255002 #Marquinho
+	religion = terra_benta
+	culture = triangler
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2345.12.1 = {
+		birth = yes
+	}
+}
+
+570006 = {
+	name = "Felipe"
+	dynasty = 255003 #de Almeida Franco
+	religion = anchietican
+	culture = triangler
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2345.12.1 = {
+		birth = yes
+	}
+}
+
+570007 = {
+	name = "Vinicius"
+	dynasty = 255003 #de Almeida Franco
+	religion = anchietican
+	culture = triangler
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2345.12.1 = {
+		birth = yes
+	}
+}

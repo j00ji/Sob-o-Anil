@@ -1,0 +1,21 @@
+# c_apurimac
+
+# County Title
+title = c_apurimac
+
+# Settlements
+max_settlements = 4
+
+b_andahuaylas = castle
+b_abancay = city
+b_chincheros = temple
+#b_cotabambas = castle
+#b_chalhuanca = city
+#b_chuquibambilla = temple
+#b_antabamba = castle
+
+# Misc
+culture = quechua
+religion = inti
+
+#History

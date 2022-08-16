@@ -1,0 +1,122 @@
+###ÄNSI
+
+#File with the info about the "determined" id ranges for dynasties of said culture/cultural group.
+
+# NORTHEASTERN RANGE: 1-20000 
+### Atlanticano: 1-5000 
+### Cearense: 5001-10000 
+### Sertanista: 10001-15000 
+### Parnaiba: 15001-20000
+
+# BAHIANO RANGE: 20001-35000
+### Salvadorense: 20001-25000
+### Ilhense: 25001-30000 
+### Chiconho: 30001-35000
+
+# FLUMINENSE RANGE: 35001-55000 
+### Carioca: 35001-40000 
+### Mantiqueiro: 40001-45000 
+### pomerisch: 45001-50000 
+### Capixaba: 50001-55000 
+
+# PAULISTA RANGE: 55001 - 85000
+### Paulistano: 55001-60000
+### Americano: 60001-65000
+### Camponeto: 65001-70000
+### Kyusei: 70001-75000
+### Paranapanense: 75001-80000
+### Caipira: 80001-85000
+
+# CISPLATINEAN RANGE 85001 - 120000
+### Paranaense: 85001 - 90000
+### Greenbelly: 90001 - 95000
+### Gaucho: 95001 - 100000
+### Hunsruckisch: 100001 - 105000
+### Talian: 105001 - 110000
+### Rutenio: 110001 - 115000
+### Guacho: 115001 - 120000
+
+# CERRADONENSE RANGE: 120001-140000
+
+### Goyanense 120001-125000
+### Matogrossense 125001-130000
+### Candango 130001-135000
+### Araguaio 135001-140000
+
+# CHILENO RANGE: 140001-160000
+
+### Atacameño 140001-145000
+### Centrino 145001-150000
+### Huaso 150001-155000
+### Sureño 155001-160000
+
+# OUTSIDER RANGE: 160001 - 210000
+### Suomi 160001 - 170000
+### Rapa Nui 170001 - 180000
+### Samoan 180001 - 190000
+### Ozzy 190001 - 200000
+### Wastelander 200001 - 210000
+
+# AMERO-AUSTRAL RANGE: 210001-225000
+
+### Mapuche 210001-215000
+### Aonikenk 215001-220000
+### Selk'nam 220001-225000
+### Kawesqar 225001-230000
+
+# PATAGON RANGE: 230001-245000
+
+### Desertico 230001-235000
+### Australino 235001-240000
+### Santacruceño 240001-245000
+
+# BRITISH RANGE: 245001-255000
+
+### Falklander 245001-250000
+### Wladfaeg 250001-255000
+
+# MINEIRO RANGE: 255001 - 285000
+
+### Triangler: 255001 - 260000
+### Canastro: 260001 - 265000
+### Auriferro: 265001 - 270000
+### Espinhaco: 270001 - 275000
+### Valcude: 275001 - 280000
+### Mineiro-Mantiqueiro 280001 - 285000
+
+# INTERIORANO RANGE: 285001-310000
+
+### Cordobes 285001-290000
+### Cuyano 290001-295000
+### Chaqueño 295001-300000
+### Norteño 300001-305000
+### Turco 305001-310000
+
+# MBAYA RANGE: 310001 - 320000
+### Guarani: 310001 - 315000
+### Kadiweu: 315001 - 320000
+
+# XINGU RANGE: 320001 - 340000
+### Kayapo: 320001 - 325000
+### Kraho: 315001 - 330000
+### Xavante: 330001 - 335000
+### Xerente: 335001 - 340000
+
+# PLATEÑO RANGE: 340001 - 365000
+### Porteño 340001 - 345000
+### Pampeano 345001 - 350000
+### Contadino 350001 - 355000
+### Litoraleño 355001 - 360000
+### Urbuguayo 360001 - 365000
+
+#The list is incomplete and will have more added later.
+#If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.
+
+#See the template/example below:
+
+###EXAMPLE RANGE1: 100001-105000
+#Example culture1: 100001-105000
+
+###TEST RANGE2:105001-15000
+#Example culture2:105001-15000
+

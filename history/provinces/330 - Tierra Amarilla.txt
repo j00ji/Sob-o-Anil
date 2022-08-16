@@ -1,0 +1,21 @@
+# c_tierra_amarilla
+
+# County Title
+title = c_tierra_amarilla
+
+# Settlements
+max_settlements = 2
+
+b_tierra_amarilla = castle
+#b_el_salvador = city
+#b_los_loros = temple
+#b_nantoco = castle
+#b_elisa_de_bordos = city
+#b_tranque_lautaro = temple
+#b_iglesia_colorada = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

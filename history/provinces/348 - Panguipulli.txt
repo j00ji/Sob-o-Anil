@@ -1,0 +1,21 @@
+# c_panguipulli
+
+# County Title
+title = c_panguipulli
+
+# Settlements
+max_settlements = 2
+
+b_panguipulli = castle
+#b_los_lagos = city
+#b_malalhue = temple
+#b_conaripe = castle
+#b_licanray = city
+#b_huellahue = temple
+#b_rinihue = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

@@ -1,0 +1,21 @@
+# c_caapiranga
+
+# County Title
+title = c_caapiranga
+
+# Settlements
+max_settlements = 2
+
+b_caapiranga = tribal
+#b_vila_jaburu = city
+#b_agroindustrial = temple
+#b_uniao_2 = castle
+#b_floresta_2 = city
+#b_pousada_do_jack = temple
+#b_lago_do_padre = castle
+
+# Misc
+culture = ticuna
+religion = holy_spirit
+
+#History

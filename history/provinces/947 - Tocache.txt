@@ -1,0 +1,21 @@
+# c_tocache
+
+# County Title
+title = c_tocache
+
+# Settlements
+max_settlements = 3
+
+b_tocache = castle
+b_juanjui = city
+#b_bellavista_de_san_martin = temple
+#b_saposoa = castle
+#b_huallaga = city
+#b_uchiza = temple
+#b_pizana = castle
+
+# Misc
+culture = charapa
+religion = inti
+
+#History

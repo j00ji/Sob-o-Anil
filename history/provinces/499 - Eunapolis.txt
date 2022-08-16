@@ -1,0 +1,21 @@
+# c_eunapolis
+
+# County Title
+title = c_eunapolis
+
+# Settlements
+max_settlements = 5
+
+b_buranhem = castle
+b_guaratinga = city
+#b_itu_2 = temple
+#b_santa_cruz_cabralia = castle
+#b_coroa_vermelha = city
+#b_porto_seguro = temple
+#b_trancoso = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

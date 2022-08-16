@@ -1,0 +1,21 @@
+# c_coquimbo
+
+# County Title
+title = c_coquimbo
+
+# Settlements
+max_settlements = 5
+
+b_coquimbo = castle
+b_la_serena = city
+b_tongoy = castle
+b_andacollo = temple
+#b_la_higuera = city
+#b_totoralillo = temple
+#b_el_molle = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

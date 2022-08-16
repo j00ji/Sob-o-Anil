@@ -1,0 +1,21 @@
+# c_santos
+
+# County Title
+title = c_santos
+
+# Settlements
+max_settlements = 6
+
+b_ponta_da_praia = city
+b_guaruja = castle
+b_sao_bento = city
+b_enguaguacu = temple
+#b_cubatao = city
+#b_forte_augusto = temple
+#b_praia_do_tombo = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

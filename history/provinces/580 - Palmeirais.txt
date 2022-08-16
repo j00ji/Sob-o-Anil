@@ -1,0 +1,21 @@
+# c_palmeirais
+
+# County Title
+title = c_palmeirais
+
+# Settlements
+max_settlements = 3
+
+b_floriano = castle
+b_amarante = city
+#b_agua_branca = temple
+#b_regeneracao = castle
+#b_barao_de_grajau = city
+#b_sao_joao_dos_patos = temple
+#b_palmeirais = castle
+
+# Misc
+culture = parnaibas
+religion = evangelical
+
+#History

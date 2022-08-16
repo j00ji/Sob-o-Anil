@@ -1,0 +1,6 @@
+800.1.1={
+	liege=k_tierra_del_fuego
+}
+2328.1.12={
+	holder = 510001
+}

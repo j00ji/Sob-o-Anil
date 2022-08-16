@@ -1,0 +1,21 @@
+# c_xanxere
+
+# County Title
+title = c_xanxere
+
+# Settlements
+max_settlements = 2
+
+b_xanxere = castle
+#b_faxinal_dos_guedes = city
+#b_vargeao = temple
+#b_lajeado_grande = castle
+#b_marema = city
+#b_cambuinzal = temple
+#b_ipuacu = castle
+
+# Misc
+culture = talian
+religion = celeste
+
+#History

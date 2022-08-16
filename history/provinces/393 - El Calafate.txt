@@ -1,0 +1,21 @@
+# c_el_calafate
+
+# County Title
+title = c_el_calafate
+
+# Settlements
+max_settlements = 2
+
+b_el_calafate = tribal
+#b_punta_bandera = city
+#b_charles_fuhr = temple
+#b_tapi_aike = castle
+#b_pinaculo = city
+#b_skvarca = temple
+#b_flamenquia = castle
+
+# Misc
+culture = santacruceno
+religion = xoon
+
+#History

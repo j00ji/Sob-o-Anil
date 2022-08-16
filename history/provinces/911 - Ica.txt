@@ -1,0 +1,21 @@
+# c_ica
+
+# County Title
+title = c_ica
+
+# Settlements
+max_settlements = 4
+
+b_ica = castle
+b_parcona = city
+b_santiago_de_ica = temple
+#b_subtanjalla = castle
+#b_salas_de_ica = city
+#b_pachacutec = temple
+#b_ocucaje = castle
+
+# Misc
+culture = iqueno
+religion = camino_estelar
+
+#History

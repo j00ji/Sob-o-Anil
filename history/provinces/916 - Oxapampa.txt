@@ -1,0 +1,21 @@
+# c_oxapampa
+
+# County Title
+title = c_oxapampa
+
+# Settlements
+max_settlements = 2
+
+b_oxapampa = castle
+#b_chontabamba = city
+#b_pozuzo = temple
+#b_villa_rica = castle
+#b_huancabamba = city
+#b_puerto_bermudez = temple
+#b_palcazu = castle
+
+# Misc
+culture = oxapampino
+religion = liberationist
+
+#History

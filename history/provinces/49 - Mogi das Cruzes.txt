@@ -1,0 +1,21 @@
+# c_mogi_das_cruzes
+
+# County Title
+title = c_mogi_das_cruzes
+
+# Settlements
+max_settlements = 6
+
+b_bras_cubas = castle
+b_oliveira = city
+b_santana = temple
+#b_suzano = castle
+#b_itaquaquecetuba = city
+#b_via_cidinha = temple
+#b_conjectura_cocu = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

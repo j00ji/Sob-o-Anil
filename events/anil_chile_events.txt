@@ -1,0 +1,38 @@
+namespace=chl
+
+long_character_event = {
+	id=chl.1
+	title=chl.1.t
+	desc=chl.1.d
+	trigger = {
+		has_character_flag = huacho_riquelme
+	}
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = chl.1.a
+		hidden_effect = {
+			long_character_event= { id=chl.2 }
+		}
+	}
+
+}
+long_character_event = {
+	id=chl.2
+	title=chl.2.t
+	desc=chl.2.d
+	is_triggered_only=yes
+	option = {
+		name = chl.2.a
+		ai_chance = {
+			factor = 10
+		}
+		set_father = 240011
+		add_claim = c_punilla
+		add_claim = c_itata
+	}
+	option = {
+		name = chl.2.b
+	}
+}

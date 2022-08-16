@@ -1,0 +1,21 @@
+# c_coari
+
+# County Title
+title = c_coari
+
+# Settlements
+max_settlements = 2
+
+b_coari = tribal
+#b_aiapua = city
+#b_arrependido = temple
+#b_mamia = castle
+#b_urucu = city
+#b_arua = temple
+#b_taua_mirim = castle
+
+# Misc
+culture = ticuna
+religion = xabaxai_xagi
+
+#History

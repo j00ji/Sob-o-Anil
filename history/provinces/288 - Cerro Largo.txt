@@ -1,0 +1,21 @@
+# c_cerro_largo
+
+# County Title
+title = c_cerro_largo
+
+# Settlements
+max_settlements = 2
+
+b_melo = tribal
+#b_rio_branco_2 = city
+#b_acegua_2 = temple
+#b_fraile_muerto = castle
+#b_tupambae = city
+#b_getulio_vargas_2 = temple
+#b_arachania = castle
+
+# Misc
+culture = guacho
+religion = bandean
+
+#History

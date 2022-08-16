@@ -1,0 +1,21 @@
+# c_japaratuba
+
+# County Title
+title = c_japaratuba
+
+# Settlements
+max_settlements = 3
+
+b_neopolis = castle
+b_pacatuba = city
+#b_japaratuba = temple
+#b_japoata = castle
+#b_muribeca = city
+#b_ladeiras = temple
+#b_aguilhada = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

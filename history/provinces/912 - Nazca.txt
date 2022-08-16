@@ -1,0 +1,21 @@
+# c_nazca
+
+# County Title
+title = c_nazca
+
+# Settlements
+max_settlements = 2
+
+b_nazca = castle
+#b_palpa = city
+#b_changuillo = temple
+#b_marcona = castle
+#b_vista_alegre = city
+#b_orcona = temple
+#b_copara = castle
+
+# Misc
+culture = iqueno
+religion = camino_estelar
+
+#History

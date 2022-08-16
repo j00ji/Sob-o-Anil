@@ -1,0 +1,21 @@
+# c_santa_cruz_do_sul
+
+# County Title
+title = c_santa_cruz_do_sul
+
+# Settlements
+max_settlements = 3
+
+b_santa_cruz_do_sul = tribal
+#b_candelaria = city
+#b_passo_do_sobrado = temple
+#b_venancio_aires_2 = castle
+#b_vale_do_sol = city
+#b_sinimbu = temple
+#b_herveiras = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

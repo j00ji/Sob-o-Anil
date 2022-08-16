@@ -1,0 +1,21 @@
+# c_salinas
+
+# County Title
+title = c_salinas
+
+# Settlements
+max_settlements = 3
+
+b_forte_jenipapo = castle
+#b_porteirinha = city
+#b_mato_verde = temple
+#b_novorizonte = castle
+#b_ferreiropolis = city
+#b_rubelita = temple
+#b_fruta_de_leite = castle
+
+# Misc
+culture = espinhaco
+religion = angel_cult
+
+#History

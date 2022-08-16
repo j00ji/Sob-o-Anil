@@ -1,0 +1,671 @@
+###ÄNSI
+
+230001 = {
+	name = "Cañones"
+	culture = desertico
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+
+230002 = {
+	name = "Solari"
+	culture = desertico
+	religion = calafatist
+	used_for_random = no
+	can_appear = no
+}
+
+230003 = {
+	name = "Companc"
+	culture = desertico
+	religion = calafatist
+
+}
+
+230004 = {
+	name = "Mosconi"
+	culture = desertico
+	religion = calafatist
+}
+
+230005 = {
+	name = "Pérez"
+	culture = desertico
+	religion = calafatist
+}
+
+230006 = {
+	name = "Abeijón"
+	culture = desertico
+	religion = calafatist
+
+}
+
+230007 = {
+	name = "Agrelo"
+	culture = desertico
+	religion = calafatist
+}
+
+230008 = {
+	name = "Almonacid"
+	culture = desertico
+	religion = calafatist
+}
+
+230009 = {
+	name = "Altuna"
+	culture = desertico
+	religion = calafatist
+
+}
+
+230010 = {
+	name = "Bontempo"
+	culture = desertico
+	religion = calafatist
+}
+
+230011 = {
+	name = "Buzzi"
+	culture = desertico
+	religion = calafatist
+}
+
+230012 = {
+	name = "Concha"
+	culture = desertico
+	religion = calafatist
+
+}
+
+230013 = {
+	name = "Herrera"
+	culture = desertico
+	religion = calafatist
+}
+
+230014 = {
+	name = "Galindo"
+	culture = desertico
+	religion = calafatist
+}
+
+230015 = {
+	name = "Eguia"
+	culture = desertico
+	religion = calafatist
+
+}
+
+230016 = {
+	name = "Toni"
+	culture = desertico
+	religion = calafatist
+}
+
+230017 = {
+	name = "Ruá"
+	culture = desertico
+	religion = calafatist
+}
+
+230018 = {
+	name = "Regazzoni"
+	culture = desertico
+	religion = calafatist
+
+}
+
+230019 = {
+	name = "Pacho"
+	culture = desertico
+	religion = calafatist
+}
+
+230020 = {
+	name = "Pietrobelli"
+	culture = desertico
+	religion = calafatist
+}
+
+230021 = {
+	name = "Luenzo"
+	culture = desertico
+	religion = calafatist
+}
+
+230022 = {
+	name = "Salto"
+	culture = desertico
+	religion = calafatist
+}
+
+230023 = {
+	name = "Campos"
+	culture = desertico
+	religion = calafatist
+}
+
+230024 = {
+	name = "Bermúdez"
+	culture = desertico
+	religion = calafatist
+	used_for_random = no
+	can_appear = no
+}
+
+230025 = {
+	name = "Cellerino"
+	culture = desertico
+	religion = calafatist
+}
+
+230026 = {
+	name = "Lenher"
+	culture = desertico
+	religion = calafatist
+}
+
+
+230027 = {
+	name = "Cernadas"
+	culture = desertico
+	religion = calafatist
+}
+
+
+230028 = {
+	name = "Vecchi"
+	culture = desertico
+	religion = calafatist
+}
+
+
+230029 = {
+	name = "Lenzi"
+	culture = desertico
+	religion = calafatist
+}
+
+230030 = {
+	name = "Mazzini"
+	culture = desertico
+	religion = gaucheria
+	used_for_random = no
+	can_appear = no
+}
+
+230031 = {
+	name = "Astraudi"
+	culture = desertico
+	religion = gaucheria
+}
+
+230032 = {
+	name = "Koop"
+	culture = desertico
+	religion = gaucheria
+	used_for_random = no
+	can_appear = no
+}
+
+230033 = {
+	name = "Richter"
+	culture = desertico
+	religion = atomicist
+	used_for_random = no
+	can_appear = no
+}
+
+230034 = {
+	name = "Oreja"
+	culture = desertico
+	religion = gaucheria
+	used_for_random = no
+	can_appear = no
+}
+
+
+235001 = {
+	name = "Arancibia"
+	culture = australino
+	religion = calafatist
+}
+
+235002 = {
+	name = "Jiménez"
+	culture = australino
+	religion = calafatist
+}
+235003 = {
+	name = "Goic"
+	culture = australino
+	religion = calafatist
+}
+235004 = {
+	name = "Ogeda"
+	culture = australino
+	religion = calafatist
+}
+235005 = {
+	name = "Tapia"
+	culture = australino
+	religion = calafatist
+}
+235006 = {
+	name = "Chávez"
+	culture = australino
+	religion = calafatist
+}
+235007 = {
+	name = "Canales"
+	culture = australino
+	religion = calafatist
+}
+235008 = {
+	name = "Boroevic"
+	culture = australino
+	religion = calafatist
+}
+235009 = {
+	name = "Boric"
+	culture = australino
+	religion = calafatist
+}
+235010 = {
+	name = "Pérez"
+	culture = australino
+	religion = calafatist
+}
+235011 = {
+	name = "Andrade"
+	culture = australino
+	religion = calafatist
+}
+235012 = {
+	name = "Marinovic"
+	culture = australino
+	religion = calafatist
+}
+235013 = {
+	name = "Aguilar"
+	culture = australino
+	religion = calafatist
+}
+235014 = {
+	name = "Jelincic"
+	culture = australino
+	religion = calafatist
+}
+235015 = {
+	name = "Gallardo"
+	culture = australino
+	religion = calafatist
+}
+235016 = {
+	name = "Martinez"
+	culture = australino
+	religion = calafatist
+}
+235017 = {
+	name = "Novoa"
+	culture = australino
+	religion = calafatist
+}
+235018 = {
+	name = "Otth"
+	culture = australino
+	religion = calafatist
+}
+235019 = {
+	name = "Mansilla"
+	culture = australino
+	religion = calafatist
+}
+235020 = {
+	name = "Sepúlveda"
+	culture = australino
+	religion = calafatist
+}
+235021 = {
+	name = "Molina"
+	culture = australino
+	religion = calafatist
+}
+235022 = {
+	name = "Oyarzo"
+	culture = australino
+	religion = calafatist
+}
+235023 = {
+	name = "Tejeda"
+	culture = australino
+	religion = calafatist
+}
+235024 = {
+	name = "Soto"
+	culture = australino
+	religion = calafatist
+}
+235025 = {
+	name = "Aravena"
+	culture = australino
+	religion = calafatist
+}
+235026 = {
+	name = "Millar"
+	culture = australino
+	religion = calafatist
+}
+235027 = {
+	name = "Becerra"
+	culture = australino
+	religion = calafatist
+}
+235028 = {
+	name = "Provoste"
+	culture = australino
+	religion = calafatist
+}
+235029 = {
+	name = "Barrientos"
+	culture = australino
+	religion = calafatist
+}
+235030 = {
+	name = "Fica"
+	culture = australino
+	religion = calafatist
+}
+235031 = {
+	name = "Marchant"
+	culture = australino
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+235032 = {
+	name = "Huala"
+	culture = australino
+	religion = calafatist
+}
+235033 = {
+	name = "Ormeño"
+	culture = australino
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+235034 = {
+	name = "Silva"
+	culture = australino
+	religion = calafatist
+}
+235035 = {
+	name = "Solís"
+	culture = australino
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+235036 = {
+	name = "Zuñiga"
+	culture = australino
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+235037 = {
+	name = "Barra"
+	culture = australino
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+235038 = {
+	name = "Zuñiga"
+	culture = australino
+	religion = calafatist
+}
+235039 = {
+	name = "Ovando"
+	culture = australino
+	religion = calafatist
+}
+235040 = {
+	name = "Aguilante"
+	culture = australino
+	religion = calafatist
+}
+235041 = {
+	name = "Boric"
+	culture = australino
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+235042 = {
+	name = "Cárcamo"
+	culture = australino
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+235043 = {
+	name = "Nancuante"
+	culture = australino
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+235044 = {
+	name = "Cárcamo"
+	culture = australino
+	religion = calafatist
+}
+235045 = {
+	name = "Nancuante"
+	culture = australino
+	religion = calafatist
+}
+
+240001 = {
+	name = "Fadul"
+	culture = santacruceno
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+240002 = {
+	name = "Amarilla"
+	culture = santacruceno
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+240003 = {
+	name = "Medina"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240004 = {
+	name = "Torre"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240005 = {
+	name = "Zuloaga"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240006 = {
+	name = "Sciurano"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240007 = {
+	name = "Catalán"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240008 = {
+	name = "Arciero"
+	culture = santacruceno
+	religion = calafatist
+}
+
+240009 = {
+	name = "Bonetto"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240010 = {
+	name = "Mazza"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240011 = {
+	name = "Cepernic"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240012 = {
+	name = "Lozano"
+	culture = santacruceno
+	religion = calafatist
+}
+
+240013 = {
+	name = "Victoria"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240014 = {
+	name = "Muriete"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240015 = {
+	name = "Terraz"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240016 = {
+	name = "Peralta"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240017 = {
+	name = "Tártara"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240018 = {
+	name = "Granero"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240019 = {
+	name = "Parolín"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240020 = {
+	name = "Parolín"
+	culture = santacruceno
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+240021 = {
+	name = "Kirchner"
+	culture = santacruceno
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+240022 = {
+	name = "Becerra"
+	culture = santacruceno
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+240023 = {
+	name = "Puricelli"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240024 = {
+	name = "Anselmo"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240025 = {
+	name = "Gómez"
+	culture = santacruceno
+	religion = calafatist
+
+}
+240026 = {
+	name = "Alvarado"
+	culture = santacruceno
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+240027 = {
+	name = "Alvarado"
+	culture = santacruceno
+	religion = xoon
+}
+240028 = {
+	name = "Martínez"
+	culture = santacruceno
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+240029 = {
+	name = "Cerato"
+	culture = santacruceno
+	religion = xoon
+}
+240030 = {
+	name = "Cuerva"
+	culture = santacruceno
+	religion = calafatist
+}
+240031 = {
+	name = "Lobos"
+	culture = santacruceno
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+240032 = {
+	name = "Grande"
+	culture = santacruceno
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}

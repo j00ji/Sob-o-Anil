@@ -1,0 +1,21 @@
+# c_porvenir
+
+# County Title
+title = c_porvenir
+
+# Settlements
+max_settlements = 2
+
+b_porvenir = tribal
+#b_primavera = city
+#b_san_sebastian = temple
+#b_punta_espora = castle
+#b_puerto_percy = city
+#b_el_paramo = temple
+#b_cerro_sombrero = castle
+
+# Misc
+culture = selknam
+religion = xoon
+
+#History

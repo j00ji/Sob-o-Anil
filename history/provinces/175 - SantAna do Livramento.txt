@@ -1,0 +1,21 @@
+# c_santana_do_livramento
+
+# County Title
+title = c_santana_do_livramento
+
+# Settlements
+max_settlements = 2
+
+b_santana_do_livramento = tribal
+#b_ibirapuita_2 = city
+#b_masoller = temple
+#b_passo_dos_guedes = castle
+#b_estancia_do_cerrito = city
+#b_tres_vendas = temple
+#b_arroio_do_cambeta = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

@@ -1,0 +1,21 @@
+# c_nova_mamore
+
+# County Title
+title = c_nova_mamore
+
+# Settlements
+max_settlements = 2
+
+b_nova_mamore = castle
+b_palmeiral = temple
+#b_maloca = temple
+#b_messias = castle
+#b_chocolatal = city
+#b_tres_irmaos_2 = temple
+#b_sydney_girao = castle
+
+# Misc
+culture = rondonian
+religion = evangelical
+
+#History

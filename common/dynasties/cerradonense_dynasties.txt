@@ -1,0 +1,89 @@
+###ÄNSI
+
+120001 = {
+	name = "Zousa"
+	culture = goyanense
+}
+
+120002 = {
+	name = "Monteiro"
+	culture = goyanense
+}
+
+120003 = {
+	name = "Poeta"
+	culture = goyanense
+	culture = candango
+}
+125001 = {
+	name = "Godoy"
+	culture = matogrossense
+}
+125002 = {
+	name = "Ibrahim"
+	culture = matogrossense
+}
+125003 = {
+	name = "Razuk"
+	culture = matogrossense
+}
+125004 = {
+	name = "Warde"
+	culture = matogrossense
+}
+125005 = {
+	name = "Catam"
+	culture = matogrossense
+}
+125006 = {
+	name = "Pereira"
+	culture = matogrossense
+}
+125007 = {
+	name = "Souza"
+	culture = matogrossense
+}
+125008 = {
+	name = "Arakaki"
+	culture = matogrossense
+}
+125009 = {
+	name = "Coelho"
+	culture = matogrossense
+}
+125010 = {
+	name = "Dourado"
+	culture = matogrossense
+}
+125011 = {
+	name = "Oshiro"
+	culture = matogrossense
+}
+125012 = {
+	name = "Tamashiro"
+	culture = matogrossense
+}
+125013 = {
+	name = "Martins"
+	culture = matogrossense
+}
+125014 = {
+	name = "Melo"
+	culture = matogrossense
+}
+125015 = {
+	name = "Mesquita"
+	culture = matogrossense
+}
+125016 = {
+	name = "Arima"
+	culture = matogrossense
+}
+130001 = {
+	name = "Córrego"
+	culture = candango
+}
+135001 = {
+	name = "Pilar"
+	culture = araguaio
+}

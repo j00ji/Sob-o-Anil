@@ -1,0 +1,21 @@
+# c_araraquara
+
+# County Title
+title = c_araraquara
+
+# Settlements
+max_settlements = 4
+
+b_morada_do_sol = castle
+b_matao = temple
+#b_tabatinga = 
+#b_ibitinga_2 = 
+#b_borborema = 
+#b_americo_brasiliense = 
+#b_gaviao_peixoto = 
+
+# Misc
+culture = kyusei
+religion = anchietican
+
+#History

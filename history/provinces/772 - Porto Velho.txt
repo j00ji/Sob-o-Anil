@@ -1,0 +1,21 @@
+# c_porto_velho
+
+# County Title
+title = c_porto_velho
+
+# Settlements
+max_settlements = 4
+
+b_porto_velho = castle
+b_belmonte_2 = city
+b_candeias_do_jamari = temple
+#b_teotonio = castle
+#b_vinte_e_cinco_de_abril = city
+#b_pedra_canga = temple
+#b_planalto_dois = castle
+
+# Misc
+culture = rondonian
+religion = evangelical
+
+#History

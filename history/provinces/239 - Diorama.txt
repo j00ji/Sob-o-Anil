@@ -1,0 +1,21 @@
+# c_diorama
+
+# County Title
+title = c_diorama
+
+# Settlements
+max_settlements = 3
+
+b_diorama = tribal
+#b_jaupaci = city
+#b_jacinopolis = temple
+#b_estrela_do_oriente = castle
+#b_registro_do_araguaia = city
+#b_caete = temple
+#b_ponte_alta = castle
+
+# Misc
+culture = goyanense
+religion = manredebu
+
+#History

@@ -1,0 +1,21 @@
+# c_barra_seca
+
+# County Title
+title = c_barra_seca
+
+# Settlements
+max_settlements = 2
+
+b_barra_seca = castle
+#b_urussuquara = city
+#b_gracai_sorvetes = temple
+#b_barra_nova = castle
+#b_bar_pelanca = city
+#b_emefe_barra_seca = temple
+#b_adrriva = castle
+
+# Misc
+culture = capixaba
+religion = camdomble
+
+#History

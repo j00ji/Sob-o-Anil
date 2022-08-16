@@ -1,0 +1,21 @@
+# c_pozo_del_sauce
+
+# County Title
+title = c_pozo_del_sauce
+
+# Settlements
+max_settlements = 2
+
+b_rivadavia = castle
+#b_pozo_del_sauce = city
+#b_bragado_2 = temple
+#b_sapo_quemado = castle
+#b_el_talar = city
+#b_remanso = temple
+#b_fortuna_2 = castle
+
+# Misc
+culture = norteno
+religion = catholic
+
+#History

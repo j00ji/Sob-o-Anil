@@ -1,0 +1,21 @@
+# c_cachoeira_do_sul
+
+# County Title
+title = c_cachoeira_do_sul
+
+# Settlements
+max_settlements = 2
+
+b_cachoeira_do_sul = tribal
+#b_jacui = city
+#b_capane = temple
+#b_barro_vermelho = castle
+#b_irui = city
+#b_jazidas = temple
+#b_novo_cabrais = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

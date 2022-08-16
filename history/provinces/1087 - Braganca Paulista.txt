@@ -1,0 +1,21 @@
+# c_braganca_paulista
+
+# County Title
+title = c_braganca_paulista
+
+# Settlements
+max_settlements = 5
+
+b_braganca = castle
+b_atibaia = city
+b_socorro = temple
+#b_piracaia = city
+#b_bom_jesus_perdoes = temple
+#b_taboao = castle
+#b_nazare = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

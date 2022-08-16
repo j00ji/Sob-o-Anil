@@ -1,0 +1,16 @@
+bm_test_date = {
+	name = "SOA_BRAZIL_SOUTHEAST"
+	desc = "BM_BRAZIL_SOUTHEAST_DESC"
+	date = 2369.11.19
+	
+	era = yes
+	picture = GFX_pick_era_image_1
+	custom_start = yes
+	
+	selectable_character = {
+		id = 120051 #Jaime I
+	}
+	selectable_character = {
+		id = 80002 #Camila da Paixao
+	}
+}

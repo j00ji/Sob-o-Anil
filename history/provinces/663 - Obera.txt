@@ -1,0 +1,21 @@
+# c_obera
+
+# County Title
+title = c_obera
+
+# Settlements
+max_settlements = 3
+
+b_obera = tribal
+b_alem = temple
+#b_san_javier_3 = temple
+#b_guarani = castle
+#b_ameghino_2 = city
+#b_helechos = temple
+#b_campo_ramon = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

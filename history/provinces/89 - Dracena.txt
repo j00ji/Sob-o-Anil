@@ -1,0 +1,21 @@
+# c_dracena
+
+# County Title
+title = c_dracena
+
+# Settlements
+max_settlements = 3
+
+b_ouro_verde_2 = tribal
+b_jacipora = temple
+#b_tupi = temple
+#b_vila_lucelia = castle
+#b_vila_correia = city
+#b_zanatta = temple
+#b_netemarques = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

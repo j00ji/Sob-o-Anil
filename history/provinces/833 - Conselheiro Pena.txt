@@ -1,0 +1,21 @@
+# c_conselheiro_pena
+
+# County Title
+title = c_conselheiro_pena
+
+# Settlements
+max_settlements = 2
+
+b_aguia_branca = tribal
+#b_lajao = city
+#b_penha_do_norte = temple
+#b_sete_saloes = castle
+#b_galileia = city
+#b_cuiete = temple
+#b_serra_da_onca = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

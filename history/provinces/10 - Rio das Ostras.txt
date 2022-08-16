@@ -1,0 +1,21 @@
+# c_rio_das_ostras
+
+# County Title
+title = c_rio_das_ostras
+
+# Settlements
+max_settlements = 2
+
+b_rio_das_ostras = temple
+#b_rocha_leao = city
+#b_atalheira = temple
+#b_unamar = castle
+#b_balneario_remanso = city
+#b_campomar = temple
+#b_aquariuschavao = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

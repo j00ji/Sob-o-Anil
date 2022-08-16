@@ -1,0 +1,21 @@
+# c_primavera_do_leste
+
+# County Title
+title = c_primavera_do_leste
+
+# Settlements
+max_settlements = 2
+
+b_primavera_do_leste = tribal
+#b_poxoreu = city
+#b_paranatinga = temple
+#b_santo_antonio_do_leste = castle
+#b_sangradouro = city
+#b_alto_coite = temple
+#b_itaquare = castle
+
+# Misc
+culture = xavante
+religion = manredebu
+
+#History

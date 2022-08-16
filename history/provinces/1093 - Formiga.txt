@@ -1,0 +1,21 @@
+# c_formiga
+
+# County Title
+title = c_formiga
+
+# Settlements
+max_settlements = 4
+
+b_pontevila = tribal
+b_corrego_fundo = temple
+#b_bailoes_albertos = temple
+#b_jose_valerio = city
+#b_arcos = castle
+#b_pains = city
+#b_cristais = castle
+
+# Misc
+culture = canastro
+religion = terra_benta
+
+#History

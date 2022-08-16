@@ -1,0 +1,21 @@
+# c_campos
+
+# County Title
+title = c_campos
+
+# Settlements
+max_settlements = 5
+
+b_campos = castle
+b_santo_amaro = temple
+b_morangaba = city
+#b_ibitioca = castle
+#b_porco_gordo = city
+#b_pipeiras = temple
+#b_muitosparques = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

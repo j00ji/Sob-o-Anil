@@ -1,0 +1,21 @@
+# c_marilia
+
+# County Title
+title = c_marilia
+
+# Settlements
+max_settlements = 5
+
+b_pompeia = castle
+b_nobrega = castle
+b_lacio = city
+b_dirceu = temple
+#b_garca = city
+#b_montolar = temple
+#b_alto_cafezal = castle
+
+# Misc
+culture = kyusei
+religion = anchietican
+
+#History

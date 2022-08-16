@@ -1,0 +1,21 @@
+# c_santa_maria_da_boa_vista
+
+# County Title
+title = c_santa_maria_da_boa_vista
+
+# Settlements
+max_settlements = 3
+
+b_filomena = castle
+b_santa_maria_4 = temple
+#b_ouricuri_2 = temple
+#b_bodoco = castle
+#b_santa_cruz_2 = city
+#b_oroco = temple
+#b_timorante = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

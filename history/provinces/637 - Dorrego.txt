@@ -1,0 +1,21 @@
+# c_dorrego
+
+# County Title
+title = c_dorrego
+
+# Settlements
+max_settlements = 2
+
+b_dorrego = castle
+b_monte_hermoso = city
+#b_faro = temple
+#b_el_sharid = castle
+#b_olivos = city
+#b_sauce_grande = temple
+#b_pehuen_co = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

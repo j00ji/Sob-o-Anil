@@ -1,0 +1,21 @@
+# c_kadiweu
+
+# County Title
+title = c_kadiweu
+
+# Settlements
+max_settlements = 2
+
+b_kadiweu = tribal
+#b_abobral = city
+#b_tres_morros = temple
+#b_porto_murtinho = castle
+#b_caracol_2 = city
+#b_causalidade = temple
+#b_bela_vista_3 = castle
+
+# Misc
+culture = kadiweu
+religion = manredebu
+
+#History

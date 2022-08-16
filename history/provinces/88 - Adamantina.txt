@@ -1,0 +1,21 @@
+# c_adamantina
+
+# County Title
+title = c_adamantina
+
+# Settlements
+max_settlements = 4
+
+b_tupa = tribal
+b_lucelia = city
+b_florida = temple
+#b_osvaldo_cruz = castle
+#b_prestes_maia = city
+#b_diogo_e_betty = temple
+#b_chacara_tsuda = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_codo
+
+# County Title
+title = c_codo
+
+# Settlements
+max_settlements = 3
+
+b_codo = castle
+b_peritoro = temple
+#b_timbiras = temple
+#b_aldeias_altas = castle
+#b_coroata = city
+#b_peritoro_2 = temple
+#b_capinzal = castle
+
+# Misc
+culture = parnaibas
+religion = evangelical
+
+#History

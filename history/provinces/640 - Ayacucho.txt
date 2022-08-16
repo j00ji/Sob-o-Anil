@@ -1,0 +1,21 @@
+# c_ayacucho
+
+# County Title
+title = c_ayacucho
+
+# Settlements
+max_settlements = 2
+
+b_ayacucho_2 = castle
+#b_las_armas = city
+#b_cangallo = temple
+#b_solanet = castle
+#b_el_destino = city
+#b_tierra_amada = temple
+#b_luna = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

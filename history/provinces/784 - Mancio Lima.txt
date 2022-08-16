@@ -1,0 +1,21 @@
+# c_mancio_lima
+
+# County Title
+title = c_mancio_lima
+
+# Settlements
+max_settlements = 3
+
+b_mancio_lima = castle
+b_porto_walter = temple
+#b_cruzeiro_do_sul = temple
+#b_gibraltar = castle
+#b_serra_do_moa = city
+#b_avai = temple
+#b_tres_bocas = castle
+
+# Misc
+culture = acreano
+religion = santo_daime
+
+#History

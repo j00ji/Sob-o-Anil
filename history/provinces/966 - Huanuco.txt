@@ -1,0 +1,21 @@
+# c_huanuco
+
+# County Title
+title = c_huanuco
+
+# Settlements
+max_settlements = 5
+
+b_huanuco = castle
+b_panao = city
+b_llata = temple
+b_ambo = castle
+#b_la_union_de_huanuco = city
+#b_jesus_de_huanuco = temple
+#b_chavinillo = castle
+
+# Misc
+culture = huanca
+religion = inti
+
+#History

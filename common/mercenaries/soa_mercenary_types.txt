@@ -1,0 +1,43 @@
+# Define mercenary types here now instead of in the static_composition.txt file
+# Also remember to tell the landed title to use this mercenary type instead.
+# Several titles can refer to the same type as well now.
+
+bandeirante_composition = { #Please let's rethink about our previous mistakes and add handgunners into the game, @Nico
+	levy_size = 3
+	pikemen = 150
+	heavy_infantry = 100 
+	archers = 150 
+	knights = 50
+}
+futebol_composition = { #GOOOOOOOOOOLL
+	levy_size = 2
+	pikemen = 100
+	light_infantry = 200
+	heavy_infantry = 100
+	archers = 100 
+}
+regatas_composition = { #REMO
+	levy_size = 2
+	pikemen = 50
+	light_infantry = 200
+	heavy_infantry = 200
+	archers = 100
+	galleys = 20
+}
+botafogo_composition = { #When we add handgunners botafogo could have some
+	levy_size = 2
+	pikemen = 150
+	light_infantry = 150
+	archers = 100 
+}
+peao_composition = {
+	levy_size = 2
+	light_cavalry = 350
+ 	knights = 50
+}
+street_block_composition = {
+	levy_size = 1
+	light_infantry = 400
+	archers = 100
+	pikemen = 50
+}

@@ -1,0 +1,21 @@
+# c_frederico_westphalen
+
+# County Title
+title = c_frederico_westphalen
+
+# Settlements
+max_settlements = 2
+
+b_frederico_westphalen = castle
+#b_alpestre = city
+#b_seberi = temple
+#b_nonoai = castle
+#b_ametista_do_sul = city
+#b_irai = temple
+#b_tenente_portela = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

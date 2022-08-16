@@ -1,0 +1,21 @@
+# c_resende
+
+# County Title
+title = c_resende
+
+# Settlements
+max_settlements = 4
+
+b_resende = castle
+b_porto_real = city
+b_penedo = castle
+#b_itatiaia = castle
+#b_casa_da_lua = city
+#b_paraiso = temple
+#b_cidade_alegria = castle
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

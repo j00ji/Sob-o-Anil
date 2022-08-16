@@ -1,0 +1,21 @@
+# c_gesell
+
+# County Title
+title = c_gesell
+
+# Settlements
+max_settlements = 2
+
+b_gesell = city
+b_pinamar = castle
+#b_mar_azul = temple
+#b_mar_de_las_pampas = castle
+#b_ostende = city
+#b_coto = temple
+#b_valeria_del_mar = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

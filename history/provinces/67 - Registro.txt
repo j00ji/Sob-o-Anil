@@ -1,0 +1,21 @@
+# c_registro
+
+# County Title
+title = c_registro
+
+# Settlements
+max_settlements = 4
+
+b_ribeira = castle
+b_eldorado = city
+b_sete_barras = temple
+#b_iporanga = castle
+#b_nakatsugawa = city
+#b_kozo_toshida = temple
+#b_carapiranga = castle
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

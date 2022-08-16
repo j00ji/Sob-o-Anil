@@ -1,0 +1,11 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_restored_camino"
+		textureFile = "gfx\\event_pictures\\restored_camino.dds"
+	}
+	spriteType = {
+		name = "GFX_observe_camino"
+		textureFile = "gfx\\event_pictures\\observe_camino.dds"
+	}
+}

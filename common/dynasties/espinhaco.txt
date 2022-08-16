@@ -1,0 +1,987 @@
+###ÄNSI
+
+270001 ={
+	name = "Quadros"
+	culture = espinhaco
+}
+270002 ={
+	name = "Teixeira"
+	culture = espinhaco
+}
+270003 ={
+	name = "Pinto"
+	culture = espinhaco
+}
+270004 ={
+	name = "Durão"
+	culture = espinhaco
+}
+270005 ={
+	name = "Salião"
+	culture = espinhaco
+}
+270006 ={
+	name = "Navarro"
+	culture = espinhaco
+}
+
+
+####################
+##Random dynasties
+##Based on MG's senators and representatives
+##source: wikipedia
+##range: 255500+
+####################
+
+270500 = {
+	name = "Abi-Ackel"
+	culture = espinhaco
+	}
+270501 = {
+	name = "Abreu"
+	culture = espinhaco
+	}
+270502 = {
+	name = "Adauto"
+	culture = espinhaco
+	}
+270503 = {
+	name = "Aguiar"
+	culture = espinhaco
+	}
+270504 = {
+	name = "Albergaria"
+	culture = espinhaco
+	}
+270505 = {
+	name = "Aldo"
+	culture = espinhaco
+	}
+270506 = {
+	name = "Aleixo"
+	culture = espinhaco
+	}
+270507 = {
+	name = "Alkmin"
+	culture = espinhaco
+	}
+270508 = {
+	name = "Almeida"
+	culture = espinhaco
+	}
+270509 = {
+	name = "Alvim"
+	culture = espinhaco
+	}
+270510 = {
+	name = "Amorim"
+	culture = espinhaco
+	}
+270511 = {
+	name = "Ananias"
+	culture = espinhaco
+	}
+270512 = {
+	name = "Anghinetti"
+	culture = espinhaco
+	}
+270513 = {
+	name = "Anísio"
+	culture = espinhaco
+	}
+270514 = {
+	name = "Antônio"
+	culture = espinhaco
+	}
+270515 = {
+	name = "Arinos"
+	culture = espinhaco
+	}
+270516 = {
+	name = "Assad"
+	culture = espinhaco
+	}
+270517 = {
+	name = "Athayde"
+	culture = espinhaco
+	}
+270518 = {
+	name = "Avelino"
+	culture = espinhaco
+	}
+270519 = {
+	name = "Azeredo"
+	culture = espinhaco
+	}
+270520 = {
+	name = "Baccarini"
+	culture = espinhaco
+	}
+270521 = {
+	name = "Badaró"
+	culture = espinhaco
+	}
+270522 = {
+	name = "Balbi"
+	culture = espinhaco
+	}
+270523 = {
+	name = "Barbosa"
+	culture = espinhaco
+	}
+270524 = {
+	name = "Batista"
+	culture = espinhaco
+	}
+270525 = {
+	name = "Belato"
+	culture = espinhaco
+	}
+270526 = {
+	name = "Belém"
+	culture = espinhaco
+	}
+270527 = {
+	name = "Bernardes"
+	culture = espinhaco
+	}
+270528 = {
+	name = "Bernardino"
+	culture = espinhaco
+	}
+270529 = {
+	name = "Bernardo"
+	culture = espinhaco
+	}
+270530 = {
+	name = "Bessone"
+	culture = espinhaco
+	}
+270531 = {
+	name = "Bilac"
+	culture = espinhaco
+	}
+270532 = {
+	name = "Bisaglia"
+	culture = espinhaco
+	}
+270533 = {
+	name = "Bittencourt"
+	culture = espinhaco
+	}
+270534 = {
+	name = "Boaventura"
+	culture = espinhaco
+	}
+270535 = {
+	name = "Bonifácio"
+	culture = espinhaco
+	}
+270536 = {
+	name = "Botelho"
+	culture = espinhaco
+	}
+270537 = {
+	name = "Bouchardet"
+	culture = espinhaco
+	}
+270538 = {
+	name = "Branco"
+	culture = espinhaco
+	}
+270539 = {
+	name = "Brandão"
+	culture = espinhaco
+	}
+270540 = {
+	name = "Brant"
+	culture = espinhaco
+	}
+270541 = {
+	name = "Brasileiro"
+	culture = espinhaco
+	}
+270542 = {
+	name = "Campos"
+	culture = espinhaco
+	}
+270543 = {
+	name = "Canabrava"
+	culture = espinhaco
+	}
+270544 = {
+	name = "Cançado"
+	culture = espinhaco
+	}
+270545 = {
+	name = "Canedo"
+	culture = espinhaco
+	}
+270546 = {
+	name = "Capanema"
+	culture = espinhaco
+	}
+270547 = {
+	name = "Cardoso"
+	culture = espinhaco
+	}
+270548 = {
+	name = "Carmo"
+	culture = espinhaco
+	}
+270549 = {
+	name = "Carneiro"
+	culture = espinhaco
+	}
+270550 = {
+	name = "Carone"
+	culture = espinhaco
+	}
+270551 = {
+	name = "Carvalho"
+	culture = espinhaco
+	}
+270552 = {
+	name = "César"
+	culture = espinhaco
+	}
+270553 = {
+	name = "Chagas"
+	culture = espinhaco
+	}
+270554 = {
+	name = "Chaves"
+	culture = espinhaco
+	}
+270555 = {
+	name = "Chiaradia"
+	culture = espinhaco
+	}
+270556 = {
+	name = "Cícero"
+	culture = espinhaco
+	}
+270557 = {
+	name = "Coelho"
+	culture = espinhaco
+	}
+270558 = {
+	name = "Corrêa"
+	culture = espinhaco
+	}
+270559 = {
+	name = "Correia"
+	culture = espinhaco
+	}
+270560 = {
+	name = "Costa"
+	culture = espinhaco
+	}
+270561 = {
+	name = "Cotta"
+	culture = espinhaco
+	}
+270562 = {
+	name = "Cruz"
+	culture = espinhaco
+	}
+270563 = {
+	name = "Cunha"
+	culture = espinhaco
+	}
+270564 = {
+	name = "da Conceição"
+	culture = espinhaco
+	}
+270565 = {
+	name = "da Cunha"
+	culture = espinhaco
+	}
+270566 = {
+	name = "da Gama"
+	culture = espinhaco
+	}
+270567 = {
+	name = "da Mata"
+	culture = espinhaco
+	}
+270568 = {
+	name = "da Silva"
+	culture = espinhaco
+	}
+270569 = {
+	name = "da Veiga"
+	culture = espinhaco
+	}
+270570 = {
+	name = "Dantas"
+	culture = espinhaco
+	}
+270571 = {
+	name = "de Abreu"
+	culture = espinhaco
+	}
+270572 = {
+	name = "de Almeida"
+	culture = espinhaco
+	}
+270573 = {
+	name = "de Andrada"
+	culture = espinhaco
+	}
+270574 = {
+	name = "de Andrade"
+	culture = espinhaco
+	}
+270575 = {
+	name = "de Barros"
+	culture = espinhaco
+	}
+270576 = {
+	name = "de Carvalho"
+	culture = espinhaco
+	}
+270577 = {
+	name = "de Castro"
+	culture = espinhaco
+	}
+270578 = {
+	name = "de Lima"
+	culture = espinhaco
+	}
+270579 = {
+	name = "de Melo"
+	culture = espinhaco
+	}
+270580 = {
+	name = "de Mendonça"
+	culture = espinhaco
+	}
+270581 = {
+	name = "de Mesquita"
+	culture = espinhaco
+	}
+270582 = {
+	name = "de Morais"
+	culture = espinhaco
+	}
+270583 = {
+	name = "de Oliveira"
+	culture = espinhaco
+	}
+270584 = {
+	name = "de Paula"
+	culture = espinhaco
+	}
+270585 = {
+	name = "de Rezende"
+	culture = espinhaco
+	}
+270586 = {
+	name = "de Sousa"
+	culture = espinhaco
+	}
+270587 = {
+	name = "de Vasconcelos"
+	culture = espinhaco
+	}
+270588 = {
+	name = "Delgado"
+	culture = espinhaco
+	}
+270589 = {
+	name = "Deodato"
+	culture = espinhaco
+	}
+270590 = {
+	name = "Dias"
+	culture = espinhaco
+	}
+270591 = {
+	name = "Dib"
+	culture = espinhaco
+	}
+270592 = {
+	name = "Diniz"
+	culture = espinhaco
+	}
+270593 = {
+	name = "do Lago"
+	culture = espinhaco
+	}
+270594 = {
+	name = "do Nascimento"
+	culture = espinhaco
+	}
+270595 = {
+	name = "do Vale"
+	culture = espinhaco
+	}
+270596 = {
+	name = "dos Mares"
+	culture = espinhaco
+	}
+270597 = {
+	name = "dos Santos"
+	culture = espinhaco
+	}
+270598 = {
+	name = "Dulci"
+	culture = espinhaco
+	}
+270599 = {
+	name = "Dutra"
+	culture = espinhaco
+	}
+270600 = {
+	name = "Elísio"
+	culture = espinhaco
+	}
+270601 = {
+	name = "Eloy"
+	culture = espinhaco
+	}
+270602 = {
+	name = "Fagundes"
+	culture = espinhaco
+	}
+270603 = {
+	name = "Faria"
+	culture = espinhaco
+	}
+270604 = {
+	name = "Fassarella"
+	culture = espinhaco
+	}
+270605 = {
+	name = "Felipe"
+	culture = espinhaco
+	}
+270606 = {
+	name = "Ferramenta"
+	culture = espinhaco
+	}
+270607 = {
+	name = "Ferrara"
+	culture = espinhaco
+	}
+270608 = {
+	name = "Ferraz"
+	culture = espinhaco
+	}
+270609 = {
+	name = "Ferreira"
+	culture = espinhaco
+	}
+270610 = {
+	name = "Figueiredo"
+	culture = espinhaco
+	}
+270611 = {
+	name = "Fonseca"
+	culture = espinhaco
+	}
+270612 = {
+	name = "Fortes"
+	culture = espinhaco
+	}
+270613 = {
+	name = "Franco"
+	culture = espinhaco
+	}
+270614 = {
+	name = "Freire"
+	culture = espinhaco
+	}
+270615 = {
+	name = "Galassi"
+	culture = espinhaco
+	}
+270616 = {
+	name = "Gallo"
+	culture = espinhaco
+	}
+270617 = {
+	name = "Garcia"
+	culture = espinhaco
+	}
+270618 = {
+	name = "Gomes"
+	culture = espinhaco
+	}
+270619 = {
+	name = "Gonçalves"
+	culture = espinhaco
+	}
+270620 = {
+	name = "Guabiroba"
+	culture = espinhaco
+	}
+270621 = {
+	name = "Guerra"
+	culture = espinhaco
+	}
+270622 = {
+	name = "Guia"
+	culture = espinhaco
+	}
+270623 = {
+	name = "Guido"
+	culture = espinhaco
+	}
+270624 = {
+	name = "Guimarães"
+	culture = espinhaco
+	}
+270625 = {
+	name = "Henrique"
+	culture = espinhaco
+	}
+270626 = {
+	name = "Herculino"
+	culture = espinhaco
+	}
+270627 = {
+	name = "Heslander"
+	culture = espinhaco
+	}
+270628 = {
+	name = "Humberto"
+	culture = espinhaco
+	}
+270629 = {
+	name = "Jabur"
+	culture = espinhaco
+	}
+270630 = {
+	name = "Júlio"
+	culture = espinhaco
+	}
+270631 = {
+	name = "Júnior"
+	culture = espinhaco
+	}
+270632 = {
+	name = "Junqueira"
+	culture = espinhaco
+	}
+270633 = {
+	name = "Kubitschek"
+	culture = espinhaco
+	}
+270634 = {
+	name = "Lara"
+	culture = espinhaco
+	}
+270635 = {
+	name = "Leal"
+	culture = espinhaco
+	}
+270636 = {
+	name = "Leão"
+	culture = espinhaco
+	}
+270637 = {
+	name = "Leite"
+	culture = espinhaco
+	}
+270638 = {
+	name = "Libânio"
+	culture = espinhaco
+	}
+270639 = {
+	name = "Lima"
+	culture = espinhaco
+	}
+270640 = {
+	name = "Lobato"
+	culture = espinhaco
+	}
+270641 = {
+	name = "Lodi"
+	culture = espinhaco
+	}
+270642 = {
+	name = "Lopes"
+	culture = espinhaco
+	}
+270643 = {
+	name = "Lucas"
+	culture = espinhaco
+	}
+270644 = {
+	name = "Luciano"
+	culture = espinhaco
+	}
+270645 = {
+	name = "Luz"
+	culture = espinhaco
+	}
+270646 = {
+	name = "Machado"
+	culture = espinhaco
+	}
+270647 = {
+	name = "Maciel"
+	culture = espinhaco
+	}
+270648 = {
+	name = "Magalhães"
+	culture = espinhaco
+	}
+270649 = {
+	name = "Magno"
+	culture = espinhaco
+	}
+270650 = {
+	name = "Marise"
+	culture = espinhaco
+	}
+270651 = {
+	name = "Martins"
+	culture = espinhaco
+	}
+270652 = {
+	name = "Matos"
+	culture = espinhaco
+	}
+270653 = {
+	name = "Mattos"
+	culture = espinhaco
+	}
+270654 = {
+	name = "Medeiros"
+	culture = espinhaco
+	}
+270655 = {
+	name = "Medioli"
+	culture = espinhaco
+	}
+270656 = {
+	name = "Medrado"
+	culture = espinhaco
+	}
+270657 = {
+	name = "Melles"
+	culture = espinhaco
+	}
+270658 = {
+	name = "Mendes"
+	culture = espinhaco
+	}
+270659 = {
+	name = "Mendonça"
+	culture = espinhaco
+	}
+270660 = {
+	name = "Miranda"
+	culture = espinhaco
+	}
+270661 = {
+	name = "Monteiro"
+	culture = espinhaco
+	}
+270662 = {
+	name = "Moreira"
+	culture = espinhaco
+	}
+270663 = {
+	name = "Mosconi"
+	culture = espinhaco
+	}
+270664 = {
+	name = "Murad"
+	culture = espinhaco
+	}
+270665 = {
+	name = "Murilo"
+	culture = espinhaco
+	}
+270666 = {
+	name = "Murta"
+	culture = espinhaco
+	}
+270667 = {
+	name = "Naya"
+	culture = espinhaco
+	}
+270668 = {
+	name = "Negrão"
+	culture = espinhaco
+	}
+270669 = {
+	name = "Neiva"
+	culture = espinhaco
+	}
+270670 = {
+	name = "Neri"
+	culture = espinhaco
+	}
+270671 = {
+	name = "Neto"
+	culture = espinhaco
+	}
+270672 = {
+	name = "Neves"
+	culture = espinhaco
+	}
+270673 = {
+	name = "Nobre"
+	culture = espinhaco
+	}
+270674 = {
+	name = "Pacheco"
+	culture = espinhaco
+	}
+270675 = {
+	name = "Pádua"
+	culture = espinhaco
+	}
+270676 = {
+	name = "Paes"
+	culture = espinhaco
+	}
+270677 = {
+	name = "Palmério"
+	culture = espinhaco
+	}
+270678 = {
+	name = "Passos"
+	culture = espinhaco
+	}
+270679 = {
+	name = "Paulinelli"
+	culture = espinhaco
+	}
+270680 = {
+	name = "Paulo"
+	culture = espinhaco
+	}
+270681 = {
+	name = "Peixoto"
+	culture = espinhaco
+	}
+270682 = {
+	name = "Pena"
+	culture = espinhaco
+	}
+270683 = {
+	name = "Pereira"
+	culture = espinhaco
+	}
+270684 = {
+	name = "Perim"
+	culture = espinhaco
+	}
+270685 = {
+	name = "Perrella"
+	culture = espinhaco
+	}
+270686 = {
+	name = "Pimenta"
+	culture = espinhaco
+	}
+270687 = {
+	name = "Pinheiro"
+	culture = espinhaco
+	}
+270688 = {
+	name = "Pinto"
+	culture = espinhaco
+	}
+270689 = {
+	name = "Pires"
+	culture = espinhaco
+	}
+270690 = {
+	name = "Pompei"
+	culture = espinhaco
+	}
+270691 = {
+	name = "Portela"
+	culture = espinhaco
+	}
+270692 = {
+	name = "Porto"
+	culture = espinhaco
+	}
+270693 = {
+	name = "Prata"
+	culture = espinhaco
+	}
+270694 = {
+	name = "Queiroz"
+	culture = espinhaco
+	}
+270695 = {
+	name = "Raimundo"
+	culture = espinhaco
+	}
+270696 = {
+	name = "Reis"
+	culture = espinhaco
+	}
+270697 = {
+	name = "Renault"
+	culture = espinhaco
+	}
+270698 = {
+	name = "Resende"
+	culture = espinhaco
+	}
+270699 = {
+	name = "Rezende"
+	culture = espinhaco
+	}
+270700 = {
+	name = "Ribeiro"
+	culture = espinhaco
+	}
+270701 = {
+	name = "Rodrigues"
+	culture = espinhaco
+	}
+270702 = {
+	name = "Romano"
+	culture = espinhaco
+	}
+270703 = {
+	name = "Rosa"
+	culture = espinhaco
+	}
+270704 = {
+	name = "Santana"
+	culture = espinhaco
+	}
+270705 = {
+	name = "Santiago"
+	culture = espinhaco
+	}
+270706 = {
+	name = "Santos"
+	culture = espinhaco
+	}
+270707 = {
+	name = "Scarano"
+	culture = espinhaco
+	}
+270708 = {
+	name = "Seabra"
+	culture = espinhaco
+	}
+270709 = {
+	name = "Silvestre"
+	culture = espinhaco
+	}
+270710 = {
+	name = "Siqueira"
+	culture = espinhaco
+	}
+270711 = {
+	name = "Soares"
+	culture = espinhaco
+	}
+270712 = {
+	name = "Sobrinho"
+	culture = espinhaco
+	}
+270713 = {
+	name = "Souto"
+	culture = espinhaco
+	}
+270714 = {
+	name = "Starling"
+	culture = espinhaco
+	}
+270715 = {
+	name = "Tadeu"
+	culture = espinhaco
+	}
+270716 = {
+	name = "Tannus"
+	culture = espinhaco
+	}
+270717 = {
+	name = "Tavares"
+	culture = espinhaco
+	}
+270718 = {
+	name = "Taveira"
+	culture = espinhaco
+	}
+270719 = {
+	name = "Teixeira"
+	culture = espinhaco
+	}
+270720 = {
+	name = "Terra"
+	culture = espinhaco
+	}
+270721 = {
+	name = "Thibau"
+	culture = espinhaco
+	}
+270722 = {
+	name = "Tito"
+	culture = espinhaco
+	}
+270723 = {
+	name = "Tourinho"
+	culture = espinhaco
+	}
+270724 = {
+	name = "Ulisses"
+	culture = espinhaco
+	}
+270725 = {
+	name = "Valadares"
+	culture = espinhaco
+	}
+270726 = {
+	name = "Valente"
+	culture = espinhaco
+	}
+270727 = {
+	name = "Varella"
+	culture = espinhaco
+	}
+270728 = {
+	name = "Vargas"
+	culture = espinhaco
+	}
+270729 = {
+	name = "Vasconcelos"
+	culture = espinhaco
+	}
+270730 = {
+	name = "Vaz"
+	culture = espinhaco
+	}
+270731 = {
+	name = "Veloso"
+	culture = espinhaco
+	}
+270732 = {
+	name = "Viana"
+	culture = espinhaco
+	}
+270733 = {
+	name = "Vidigal"
+	culture = espinhaco
+	}
+270734 = {
+	name = "Viegas"
+	culture = espinhaco
+	}
+270735 = {
+	name = "Vieira"
+	culture = espinhaco
+	}
+270736 = {
+	name = "Vital"
+	culture = espinhaco
+	}
+270737 = {
+	name = "Werneck"
+	culture = espinhaco
+	}

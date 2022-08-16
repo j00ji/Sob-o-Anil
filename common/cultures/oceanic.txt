@@ -1,0 +1,51 @@
+###ÄNSI
+
+polynesian = {
+	graphical_cultures = { bodpagfx }
+	
+	rapa_nui = {
+		graphical_cultures = { cumangfx }
+		
+		color = { 0.7 0.65 0.2 }
+		
+		male_names = {
+		Ahohako Amanaki Arana Ariki
+		Eloni Etoru
+		Fangaloka Filimoeika
+		Hori Hotuiti	
+		Kereteki
+		Manu Matareka "Mata'u" Maui 	
+		Rangi
+		Tangaroa
+		}
+		female_names = {	
+		Ema
+		Hika Hine Hiriwa Hoku
+		Inas
+		Kaula Kohia
+		Lulani
+		Mahuru Maru Moana
+		Nani
+		Palila
+		Rewa
+		Taranga Teamaiteata Turua
+		Ulani
+		Vaimoana
+		}
+		
+		from_dynasty_prefix = "o "
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+
+		
+		modifier = default_culture_modifier
+		
+	}
+}

@@ -1,0 +1,21 @@
+# c_castelli
+
+# County Title
+title = c_castelli
+
+# Settlements
+max_settlements = 2
+
+b_castelli = castle
+#b_pila = city
+#b_guerrero = temple
+#b_lezama = castle
+#b_sevigne = city
+#b_la_ranquel = temple
+#b_minotauro = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

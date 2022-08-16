@@ -1,0 +1,21 @@
+# c_dupuy
+
+# County Title
+title = c_dupuy
+
+# Settlements
+max_settlements = 1
+
+b_buena_esperanza = temple
+#b_el_patria = city
+#b_ipefe = temple
+#b_saa = castle
+#b_el_patria_2 = city
+#b_batavia = temple
+#b_galia = castle
+
+# Misc
+culture = pampeano
+religion = gaucheria
+
+#History

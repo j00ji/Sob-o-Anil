@@ -1,0 +1,21 @@
+# c_monte_alto
+
+# County Title
+title = c_monte_alto
+
+# Settlements
+max_settlements = 2
+
+b_botuquara = tribal
+b_santana_3 = temple
+#b_riacho_de_santana_2 = temple
+#b_laguna_2 = castle
+#b_matina = city
+#b_vesperina = temple
+#b_espraiado = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

@@ -1,0 +1,21 @@
+# c_posadas
+
+# County Title
+title = c_posadas
+
+# Settlements
+max_settlements = 3
+
+b_posadas = tribal
+b_santa_ana = temple
+b_garupa = city
+#b_candelaria_2 = castle
+#b_leis = city
+#b_cerro_cora = temple
+#b_fachinal = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

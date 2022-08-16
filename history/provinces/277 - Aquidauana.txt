@@ -1,0 +1,21 @@
+# c_aquidauana
+
+# County Title
+title = c_aquidauana
+
+# Settlements
+max_settlements = 1
+
+b_aquidauana = tribal
+#b_touro_morto = city
+#b_bodoquena = temple
+#b_guavira = castle
+#b_anastacio = city
+#b_miranda = temple
+#b_chapena = castle
+
+# Misc
+culture = kadiweu
+religion = manredebu
+
+#History

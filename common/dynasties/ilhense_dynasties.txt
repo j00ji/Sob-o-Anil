@@ -1,0 +1,28 @@
+###ÄNSI
+
+25001 = {
+	name = "Laurentino"
+	culture = ilhense
+	religion = camdomble
+	religion = cicerite
+}
+
+25002 = {
+	name = "de Azevedo"
+	religion = camdomble
+	culture = ilhense
+	can_appear = no
+	used_for_random = no
+	#coat_of_arms = {
+	#	template = 0
+	#	layer = {
+	#		texture =
+	#		texture_internal =
+	#		emblem = 0
+	#		color = 0
+	#		color = 0
+	#		color = 0
+	#	}
+	#}
+}
+	

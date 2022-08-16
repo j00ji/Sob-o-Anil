@@ -1,0 +1,21 @@
+# c_villa_ohiggins
+
+# County Title
+title = c_villa_ohiggins
+
+# Settlements
+max_settlements = 2
+
+b_villa_ohiggins = tribal
+#b_calluqueo = city
+#b_la_florida_2 = temple
+#b_ohiggins = castle
+#b_pascua = city
+#b_tres_frailes = temple
+#b_briceno = castle
+
+# Misc
+culture = australino
+religion = calafatist
+
+#History

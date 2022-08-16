@@ -1,0 +1,21 @@
+# c_francisco_beltrao
+
+# County Title
+title = c_francisco_beltrao
+
+# Settlements
+max_settlements = 2
+
+b_francisco_beltrao = castle
+#b_santo_antonio_do_sudoeste = city
+#b_ampere = temple
+#b_salto_do_lontra = castle
+#b_santa_izabel_do_oeste = city
+#b_nova_prata_do_iguacu = temple
+#b_dois_vizinhos = castle
+
+# Misc
+culture = gaucho
+religion = celeste
+
+#History

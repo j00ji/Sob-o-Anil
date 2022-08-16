@@ -1,0 +1,21 @@
+# c_costa_de_oro
+
+# County Title
+title = c_costa_de_oro
+
+# Settlements
+max_settlements = 4
+
+b_ciudad_de_la_costa = castle
+b_pando = city
+#b_atlantida = temple
+#b_ciudad_de_la_costa_2 = castle
+#b_la_floresta = city
+#b_san_luis = temple
+#b_cuchilla_alta = castle
+
+# Misc
+culture = urbuguayo
+religion = bandean
+
+#History

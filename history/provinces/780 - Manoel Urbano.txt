@@ -1,0 +1,21 @@
+# c_manoel_urbano
+
+# County Title
+title = c_manoel_urbano
+
+# Settlements
+max_settlements = 3
+
+b_manoel_urbano = castle
+b_sena_madureira = temple
+#b_seringal_granja = temple
+#b_reforma = castle
+#b_solidao = city
+#b_aracua = temple
+#b_terra_alta = castle
+
+# Misc
+culture = acreano
+religion = santo_daime
+
+#History

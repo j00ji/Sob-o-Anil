@@ -1,0 +1,21 @@
+# c_general_lopez
+
+# County Title
+title = c_general_lopez
+
+# Settlements
+max_settlements = 4
+
+b_alcorta = castle
+b_venado_tuerto = castle
+b_canas = temple
+#b_chapuy = castle
+#b_carmen = city
+#b_jockey = temple
+#b_hughes = castle
+
+# Misc
+culture = litoraleno
+religion = catholic
+
+#History

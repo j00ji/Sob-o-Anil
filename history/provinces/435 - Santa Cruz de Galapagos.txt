@@ -1,0 +1,21 @@
+# c_santa_cruz_de_galapagos
+
+# County Title
+title = c_santa_cruz_de_galapagos
+
+# Settlements
+max_settlements = 2
+
+b_puerto_ayora = castle
+#b_puerto_baquerizo_moreno = city
+#b_bellavista_de_santa_cruz = temple
+#b_el_progreso = castle
+#b_el_chato = city
+#b_santa_cruz_de_galapagos = temple
+#b_san_cristobal_de_galapagos = castle
+
+# Misc
+culture = guayasense
+religion = darwinist
+
+#History

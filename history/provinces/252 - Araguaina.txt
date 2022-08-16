@@ -1,0 +1,21 @@
+# c_araguaina
+
+# County Title
+title = c_araguaina
+
+# Settlements
+max_settlements = 3
+
+b_araguaina = tribal
+#b_xambioa = city
+#b_filadelfia = temple
+#b_babaculandia = castle
+#b_aragominas = city
+#b_piraque = temple
+#b_ananas = castle
+
+# Misc
+culture = kraho
+religion = manredebu
+
+#History

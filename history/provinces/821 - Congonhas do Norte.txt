@@ -1,0 +1,21 @@
+# c_congonhas_do_norte
+
+# County Title
+title = c_congonhas_do_norte
+
+# Settlements
+max_settlements = 2
+
+b_baragem_da_fumaca = tribal
+#b_tombadouro = city
+#b_fechados = temple
+#b_costa_sena = castle
+#b_santa_cruz_dos_alves = city
+#b_valo_fundo = temple
+#b_nossa_senhora_do_rosario = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

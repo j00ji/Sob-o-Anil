@@ -1,0 +1,21 @@
+# c_dourados
+
+# County Title
+title = c_dourados
+
+# Settlements
+max_settlements = 2
+
+b_dourados = tribal
+#b_ponta_pora = city
+#b_aral_moreira = temple
+#b_fatima_do_sul = castle
+#b_laguna_carapa = city
+#b_itapora = temple
+#b_jatei = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

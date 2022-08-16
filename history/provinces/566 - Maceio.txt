@@ -1,0 +1,21 @@
+# c_maceio
+
+# County Title
+title = c_maceio
+
+# Settlements
+max_settlements = 5
+
+b_martirios = castle
+b_ponta_verde = city
+b_iemanja = temple
+b_jaragua_2 = castle
+#b_pajucara = city
+#b_marechal_deodoro = temple
+#b_pilar = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

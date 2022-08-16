@@ -1,0 +1,21 @@
+# c_monte_alegre_de_minas
+
+# County Title
+title = c_monte_alegre_de_minas
+
+# Settlements
+max_settlements = 3
+
+b_toribate = castle
+b_sao_francisco_de_chagas = temple
+#b_canapolis_2 = temple
+#b_centralina = castle
+#b_arapora = city
+#b_piracaiba = temple
+#b_tupaciguara = castle
+
+# Misc
+culture = triangler
+religion = umbanda
+
+#History

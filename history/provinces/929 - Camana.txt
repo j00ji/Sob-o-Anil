@@ -1,0 +1,21 @@
+# c_camana
+
+# County Title
+title = c_camana
+
+# Settlements
+max_settlements = 2
+
+b_camana = castle
+#b_ocona = city
+#b_quilca = temple
+#b_quimper = castle
+#b_valcarcel = city
+#b_pierola = temple
+#b_samuel_pastor = castle
+
+# Misc
+culture = arequipeno
+religion = catholic
+
+#History

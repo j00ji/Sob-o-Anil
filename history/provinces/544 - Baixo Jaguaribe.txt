@@ -1,0 +1,21 @@
+# c_baixo_jaguaribe
+
+# County Title
+title = c_baixo_jaguaribe
+
+# Settlements
+max_settlements = 2
+
+b_jaguaruana_2 = castle
+b_quixere = temple
+#b_russas = temple
+#b_flores = castle
+#b_luzia = city
+#b_barauna_2 = temple
+#b_lagoinha = castle
+
+# Misc
+culture = cearense
+religion = cicerite
+
+#History

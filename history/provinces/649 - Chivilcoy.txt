@@ -1,0 +1,21 @@
+# c_chivilcoy
+
+# County Title
+title = c_chivilcoy
+
+# Settlements
+max_settlements = 3
+
+b_chivilcoy = castle
+b_chacabuco = city
+#b_alberti = temple
+#b_indacochea = castle
+#b_henry_bell = city
+#b_bragado = temple
+#b_segui = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

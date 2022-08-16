@@ -1,0 +1,21 @@
+# c_apolo
+
+# County Title
+title = c_apolo
+
+# Settlements
+max_settlements = 3
+
+b_apolo = castle
+b_charazani = city
+#b_pelechuco = temple
+#b_curva = castle
+#b_aten = city
+#b_chachiya = temple
+#b_nuevo_brasil = castle
+
+# Misc
+culture = colla
+religion = pachamama
+
+#History

@@ -1,0 +1,9 @@
+800.1.1={
+	liege=k_santa_cruz_de_patagonia
+}
+2327.6.24={
+	holder = 540001
+}
+2367.10.15={
+	holder = 540004
+}

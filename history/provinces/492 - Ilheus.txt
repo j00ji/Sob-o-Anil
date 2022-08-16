@@ -1,0 +1,21 @@
+# c_ilheus
+
+# County Title
+title = c_ilheus
+
+# Settlements
+max_settlements = 5
+
+b_santo_antonio_dos_ilheus = castle
+b_ilheus = city
+b_sao_sebastiao_2 = temple
+#b_milionarios = castle
+#b_salobrinho = city
+#b_olivenca = temple
+#b_buerarema = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

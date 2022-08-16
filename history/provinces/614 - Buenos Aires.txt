@@ -1,0 +1,21 @@
+# c_buenos_aires
+
+# County Title
+title = c_buenos_aires
+
+# Settlements
+max_settlements = 7
+
+b_buenos_aires = castle
+b_campo_de_mayo = castle
+b_la_matanza = temple
+b_avellandera = city
+b_berazategui = temple
+#b_quilmes = temple
+#b_san_isidro = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

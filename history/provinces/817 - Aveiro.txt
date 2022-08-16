@@ -1,0 +1,21 @@
+# c_aveiro
+
+# County Title
+title = c_aveiro
+
+# Settlements
+max_settlements = 3
+
+b_aveiro = castle
+#b_ruropolis_2 = city
+#b_uruara_2 = temple
+#b_tinga = castle
+#b_planalto_medio = city
+#b_placas = temple
+#b_itapauna = castle
+
+# Misc
+culture = paraense
+religion = xabaxai_xagi
+
+#History

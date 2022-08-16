@@ -1,0 +1,21 @@
+# c_iguape
+
+# County Title
+title = c_iguape
+
+# Settlements
+max_settlements = 3
+
+b_ilha_comprida_2 = castle
+b_cananeia = temple
+#b_valo_grande = temple
+#b_silvi = castle
+#b_durvalino_vieira = city
+#b_meu_recanto = temple
+#b_bal_kennedy = castle
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

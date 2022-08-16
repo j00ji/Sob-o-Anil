@@ -1,0 +1,21 @@
+# c_juiz_de_fora
+
+# County Title
+title = c_juiz_de_fora
+
+# Settlements
+max_settlements = 5
+
+b_torreoes = tribal
+b_ewbank = temple
+#b_ibitiguaia = temple
+#b_manchester = castle
+#b_sarandira = city
+#b_matias_barbosa = temple
+#b_belmiro_braga = castle
+
+# Misc
+culture = mantiqueiro
+religion = terra_benta
+
+#History

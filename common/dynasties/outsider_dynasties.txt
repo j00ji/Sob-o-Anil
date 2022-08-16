@@ -1,0 +1,124 @@
+160001 = {
+	name = "Virtahevot"
+	culture = suomi
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+}
+160002 = {
+	name = "Sukupuoliverkko"
+	culture = suomi
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+}
+160003 = {
+	name = "Korhonen"
+	culture = suomi
+}
+160004 = {
+	name = "Mäkinen"
+	culture = suomi
+}
+160005 = {
+	name = "Nieminens"
+	culture = suomi
+}
+160006 = {
+	name = "Mäkelä"
+	culture = suomi
+}
+160007 = {
+	name = "Juhani"
+	culture = suomi
+}
+160008 = {
+	name = "Kivi"
+	culture = suomi
+}
+160009 = {
+	name = "Kanerva"
+	culture = suomi
+}
+160010 = {
+	name = "Maatila"
+	culture = suomi
+}
+160011 = {
+	name = "sta Afrikka"
+	culture = suomi
+}
+160012 = {
+	name = "Sikanen"
+	culture = suomi
+}
+160013 = {
+	name = "Jaambero"
+	culture = suomi
+}
+160014 = {
+	name = "Pieni maatila"
+	culture = suomi
+}
+160015 = {
+	name = "Pistely"
+	culture = suomi
+}
+160016 = {
+	name = "Mertineli"
+	culture = suomi
+}
+160017 = {
+	name = "Kivitalo"
+	culture = suomi
+}
+160018 = {
+	name = "Jumalan"
+	culture = suomi
+}
+160019 = {
+	name = "Vesiputous"
+	culture = suomi
+}
+160020 = {
+	name = "Vähän"
+	culture = suomi
+}
+###USE THE CORRECT ONE FROM NOW ON TRIMEON
+145028 = {
+	name = "Raharoa"
+	culture = rapa_nui
+	religion = brethren
+	can_appear = no
+	used_for_random = no
+}
+145029 = {
+	name = "Tuki"
+	culture = rapa_nui
+	religion = brethren
+}
+145030 = {
+	name = "Pakarati"
+	culture = rapa_nui
+	religion = brethren
+}
+145031 = {
+	name = "Teao"
+	culture = rapa_nui
+	religion = brethren
+}
+145032 = {
+	name = "Paoa"
+	culture = rapa_nui
+	religion = brethren
+}
+145033 = {
+	name = "Hereveri"
+	culture = rapa_nui
+	religion = brethren
+}
+145034 = {
+	name = "Tepano"
+	culture = rapa_nui
+	religion = brethren
+}

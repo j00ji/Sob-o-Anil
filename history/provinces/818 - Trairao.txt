@@ -1,0 +1,21 @@
+# c_trairao
+
+# County Title
+title = c_trairao
+
+# Settlements
+max_settlements = 2
+
+b_trairao = tribal
+#b_minituba = city
+#b_apui = temple
+#b_itapacura = castle
+#b_vila_caracol = city
+#b_pouso_grande = temple
+#b_aqui_perto = castle
+
+# Misc
+culture = kayapo
+religion = xabaxai_xagi
+
+#History

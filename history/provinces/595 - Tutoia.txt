@@ -1,0 +1,21 @@
+# c_tutoia
+
+# County Title
+title = c_tutoia
+
+# Settlements
+max_settlements = 2
+
+b_tutoia = castle
+b_araioses_2 = city
+#b_arpoador = temple
+#b_frecheira_grande = castle
+#b_barro_duro = city
+#b_sao_bento_3 = temple
+#b_atins = castle
+
+# Misc
+culture = parnaibas
+religion = cicerite
+
+#History

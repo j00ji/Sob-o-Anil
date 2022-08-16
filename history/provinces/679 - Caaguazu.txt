@@ -1,0 +1,21 @@
+# c_caaguazu
+
+# County Title
+title = c_caaguazu
+
+# Settlements
+max_settlements = 3
+
+b_oviedo = castle
+b_rosario_3 = temple
+#b_santani = temple
+#b_villa_oliva = castle
+#b_caaguazu = city
+#b_zanjita = temple
+#b_vera_2 = castle
+
+# Misc
+culture = guarani
+religion = catholic
+
+#History

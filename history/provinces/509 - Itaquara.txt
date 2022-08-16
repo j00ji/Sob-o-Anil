@@ -1,0 +1,21 @@
+# c_itaquara
+
+# County Title
+title = c_itaquara
+
+# Settlements
+max_settlements = 2
+
+b_ibiapora = castle
+#b_barbosa = city
+#b_tapiraipe = temple
+#b_utinga = castle
+#b_cabeceira_do_rio = city
+#b_indai = temple
+#b_ruy_barbosa = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

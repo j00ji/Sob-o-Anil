@@ -1,0 +1,21 @@
+# c_visconde_do_rio_branco
+
+# County Title
+title = c_visconde_do_rio_branco
+
+# Settlements
+max_settlements = 2
+
+b_sao_geraldo_2 = tribal
+#b_guiricema = city
+#b_presidio = temple
+#b_vilas_boas = castle
+#b_tuiutinga = city
+#b_dom_silverio = temple
+#b_cruzeiro = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

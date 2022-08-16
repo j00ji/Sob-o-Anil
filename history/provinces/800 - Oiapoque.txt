@@ -1,0 +1,21 @@
+# c_oiapoque
+
+# County Title
+title = c_oiapoque
+
+# Settlements
+max_settlements = 2
+
+b_oiapoque = castle
+#b_calcoene = city
+#b_ponte_pelada = temple
+#b_cacipore = castle
+#b_cunami = city
+#b_vaca = temple
+#b_carbets_pekeia = castle
+
+# Misc
+culture = amapaense
+religion = holy_spirit
+
+#History

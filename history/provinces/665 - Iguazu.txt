@@ -1,0 +1,21 @@
+# c_iguazu
+
+# County Title
+title = c_iguazu
+
+# Settlements
+max_settlements = 2
+
+b_eldorado_2 = tribal
+b_puerto_iguazu = temple
+#b_victoria_3 = temple
+#b_magdalena_3 = castle
+#b_wanda = city
+#b_cabure = temple
+#b_esperanza = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

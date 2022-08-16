@@ -1,0 +1,21 @@
+# c_balsas
+
+# County Title
+title = c_balsas
+
+# Settlements
+max_settlements = 2
+
+b_tasso_fragoso = tribal
+b_curupa = temple
+#b_alto_parnaiba = temple
+#b_pindaiba = castle
+#b_nova_de_carli = city
+#b_santa_filomena_3 = temple
+#b_aldeia = castle
+
+# Misc
+culture = araguaio
+religion = manredebu
+
+#History

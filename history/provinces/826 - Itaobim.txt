@@ -1,0 +1,21 @@
+# c_itaobim
+
+# County Title
+title = c_itaobim
+
+# Settlements
+max_settlements = 4
+
+b_sao_roque_2 = tribal
+b_mangapolis = temple
+#b_tuparece = temple
+#b_santana_do_aracuai = castle
+#b_monte_formoso = city
+#b_itinga_2 = temple
+#b_pasmado = castle
+
+# Misc
+culture = espinhaco
+religion = angel_cult
+
+#History

@@ -1,0 +1,109 @@
+###ÄNSI
+
+590001 = {
+	name = "Yuri"
+	dynasty = 265001 #Franciscano
+	religion = terra_benta
+	culture = auriferro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	father = 590002
+	
+	2311.7.28 = {
+		birth = yes
+	}
+}
+
+590002 = {
+	name = "Vágner"
+	dynasty = 265001 #Franciscano
+	religion = terra_benta
+	culture = auriferro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2311.7.28 = {
+		birth = yes
+	}
+}
+
+590003 = {
+	name = "Davi"
+	dynasty = 265003 #Ferraz
+	religion = terra_benta
+	culture = auriferro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	father = 590004
+	
+	2311.7.28 = {
+		birth = yes
+	}
+}
+
+590004 = {
+	name = "Fábio"
+	dynasty = 265003 #Ferraz
+	religion = terra_benta
+	culture = auriferro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2311.7.28 = {
+		birth = yes
+	}
+}
+
+590005 = {
+	name = "Paulo"
+	dynasty = 265002 #Freitas
+	religion = terra_benta
+	culture = auriferro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	father = 590006
+	
+	2311.7.28 = {
+		birth = yes
+	}
+}
+
+590006 = {
+	name = "Hugo"
+	dynasty = 265002 #Freitas
+	religion = terra_benta
+	culture = auriferro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2311.7.28 = {
+		birth = yes
+	}
+}
+
+590007 = {
+	name = "Tomás"
+	dynasty = 265004 #Bravo
+	religion = terra_benta
+	culture = auriferro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	father = 590008
+	
+	2311.7.28 = {
+		birth = yes
+	}
+}
+
+590008 = {
+	name = "Jorge"
+	dynasty = 265004 #Bravo
+	religion = terra_benta
+	culture = auriferro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2311.7.28 = {
+		birth = yes
+	}
+}

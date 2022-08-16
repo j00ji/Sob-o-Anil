@@ -1,0 +1,47 @@
+# e_vera_cruz
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2105.1.1 = {
+	holder = 110164 #Álvaro de Abreu
+}
+2140.2.5 = {
+	holder = 110165 #Caio de Abreu
+}
+2160.9.9 = {
+	holder = 110168 #Gastão de Abreu
+}
+2193.11.2 = { #Gastão submits without war, Clemente proclaims the Kingdom
+	liege = k_santos
+}
+2195.12.9 = {
+	holder = 110172 #Feliciano de Abreu
+}
+2235.5.20 = {
+	holder = 110173 #Orlando de Abreu
+}
+2256.2.7 = {
+	holder = 110175 #Samuel de Abreu
+}
+2256.4.4 = {
+	holder = 110176 #Maximiliano de Abreu
+}
+2260.6.17 = {
+	holder = 110178 #César de Abreu
+}
+2288.5.7 = {
+	holder = 110180 #Giuseppe de Abreu
+}
+2307.6.22 = {
+	holder = 110183 #Joaquim de Abreu
+}
+2325.1.10 = {
+	holder = 110186 #Leandro de Abreu
+}
+2350.9.14 = {
+	holder = 110189 #Vinícius de Abreu
+}

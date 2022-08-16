@@ -1,0 +1,21 @@
+# c_torres
+
+# County Title
+title = c_torres
+
+# Settlements
+max_settlements = 2
+
+b_torres = castle
+b_capao_da_canoa = city
+#b_xangri_la = temple
+#b_arroio_do_sal = castle
+#b_terra_de_areia = city
+#b_rondinha = temple
+#b_capao_novo = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

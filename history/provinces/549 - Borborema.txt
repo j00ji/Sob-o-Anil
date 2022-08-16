@@ -1,0 +1,21 @@
+# c_borborema
+
+# County Title
+title = c_borborema
+
+# Settlements
+max_settlements = 3
+
+b_serido = castle
+b_parari = temple
+#b_monteiro_2 = temple
+#b_cubati = castle
+#b_pedra_lavrada = city
+#b_sao_vicente_do_serido = temple
+#b_sossego = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

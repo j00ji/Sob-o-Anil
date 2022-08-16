@@ -1,0 +1,21 @@
+# c_cotegipe
+
+# County Title
+title = c_cotegipe
+
+# Settlements
+max_settlements = 2
+
+b_muquem_2 = tribal
+#b_angical = city
+#b_barreiras = temple
+#b_sao_desiderio = castle
+#b_barauna = city
+#b_sao_jose_3 = temple
+#b_catolandia = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

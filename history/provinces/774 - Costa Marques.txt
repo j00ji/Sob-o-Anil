@@ -1,0 +1,21 @@
+# c_costa_marques
+
+# County Title
+title = c_costa_marques
+
+# Settlements
+max_settlements = 2
+
+b_costa_marques = castle
+#b_curralinho_2 = city
+#b_baia_das_oncas = temple
+#b_surpresa = castle
+#b_terra_firme = city
+#b_tracadal = temple
+#b_porto_rocha = castle
+
+# Misc
+culture = rikbatsa
+religion = evangelical
+
+#History

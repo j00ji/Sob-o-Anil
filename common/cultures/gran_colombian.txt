@@ -1,0 +1,229 @@
+###ÄNSI
+
+gran_colombian = {
+	graphical_cultures = { southerngfx mexicangfx muslimgfx }
+	
+	llanero = {
+		graphical_cultures = { mexicangfx southerngfx }
+		unit_graphical_cultures = { southerngfx occitangfx }
+		
+		color = { 0.3 0.6 0.4 }
+		
+		male_names = {
+			Abran Alano Alejandro Alexander Alfonso Alvaro Alvino Andres Angelino Angelito Aquila Armando Arnoldo
+			Bartolo Beltran Bemabe Bembe Betulio Bonifacio Bonifaco
+			Calvino Carlos César Chano Charro Che Chucho Ciceron Claudio Criston
+			Damario
+			Edwin Elias Eloy Emesto Estevon Ezequiel
+			Faron Felipe Fernando Flavio Frederico
+			Gabriel Galtero Generosb Giovanni Guadalupe Guido Guillermo
+			Hidalgo Honor Hugo
+			Ignado Igone
+			Jerico Joaquin Johan Jorge José Josef Juan Julio
+			Leon Lonzo Lorenzo Luciano Luis
+			Macario Magglio Manny Manuelo Marco Marcos Martino Massimo Mauro Milagro Montes
+			Neron Nicolas Niguel Normando
+			Oliverio Omar Orlondo
+			Platon
+			Ramiro Ramón Raul Rayman Reyes Richard
+			Salomón Santiago Stefano
+			Tabor Teodoro Toli Tomás Tonio
+			Vicente 
+		}
+			
+		female_names = {
+			Adriana Alexandra Alicia Asuncion
+			Bibiana Bienvenida Brisa Buena
+			Calandria Carla Carmen Carmita Cassandra Catalina Cheena Chica Consuelo Crisanna Cyntia
+			Daniela Daria Dinora Dona Dorinda Dulcinia
+			Eleanora Elvita Engracia Eva
+			Felisa Fermina
+			Gabriella Gaspara Gechina Goizeder Grizelda
+			Heriberto
+			Inoceneia Irene Irma Isi
+			Jacqueline Jessica Joaquina Jovanna Jovena Juanita
+			Karmen
+			Lalia Leahonia Lucena Luiza
+			Madelynn Madre Marcela Marelisa Marena María Maribel Mariquita Marisol Marquilla Melita Mercedes Milagrosa
+			Nekana Neta Nita Noemi
+			Palma Patricia Paulita Pilín
+			Raimunda Reia Ria Rosario
+			Sevilla Silvia Stefanía
+			Teresa Thaimy
+			Ventana Verda Vivian
+			Yara Yosdalkis
+			Zanita 
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+	venezolano = { #Truenonato, Agraciado, Bolivariano and Gocho
+		graphical_cultures = { southerngfx mexicangfx }
+		
+		color = { 0.72 0.6 0.35 }
+		
+		male_names = {
+			Aarom Abelardo Abel Alano Alberto Alejandro Alex Allan Aly Andrés Ángel Anténor Antonio Argemiro Arles Armando Arsenio Astolfo Augusto
+			Benjamín_Benjamin Betulio 
+			Carlos Castro Cristóbal Camilo Carl_Carlos Chavéz Cipriano
+			Dalmiro Daniel Danilo Dantes_Dante Darwin David Didier Diego Douglas
+			Edgar Eduard_Eduardo Enmanuel_Emmanuel Emilio Ender Enrique Ernesto Estebán Eugenio
+			Fabien Fabricio Falcón Felipe Félix Fernando Francisco
+			Gerardo Geremi Gian Gilberto Giovanny Grenddy Guillermo Gustavo
+			Héctor Heraclio Hernán Huáscar Hugo Humberto
+			Iker Ilich Isaac Isilio Israel Iván
+			Jackson Jaime Jair Jairo Jan Javier Jesús Jhonny Jhoulys Joaquim Johnny Jonathan José Juan Julián Julio
+			Laureano Leonardo Leonel Leopoldo Lorenzo Lisander Luis
+			Machado Manuel Marcos_Marco Mario Martin Massimo Mauricio Miguel
+			Nacho Nelsón_Nelson Nicolás_Nicholas 
+			Octavio Oliver Omar Orlando Oscar Oswaldo
+			Pablo Pancho Pastor Pavel Pedro
+			Rafael Ramón Raúl Renato René Ricardo Roberto Robinson Rodolfo Rodrigo Rougned Rubén Rudy
+			Salvador Sandro Samuel Santiago Sebastian Símon_Simon
+			Teodoro Teofilo Teolindo Tomás Tony Tulio
+			Venacio Vicencio Vicente Víctor_Victor Vidal
+			Wifredo Willie Wilmer Wilson Wuillians
+			Xabier
+			Yanis Yusmeiro 
+		}
+		female_names = {
+			Abigail Abril Adina Adriana Alba Alejandra Ana Andrea Andreina Andreína Ángela Astrid Aymar
+			Bárbara Beatriz Bella Blanca
+			Carla Carmen Carolina Caroline Catalina Chiquinquirá Christina Claudia Clarisa Consuelo Cynthia
+			Daniela Dayana Denise Dessideria Diana_Diana Diane_Diana Dominga Dominika
+			Edymar Elaiza Eleidy Elián Elianete Emma Erika Estefanía
+			Fabiana Fabiola Federica Fiora Flávia Flor_Flory
+			Gabriela_Gabriella Genesis Gladys Goizeder Grace
+			Hanna Hannelly Héléna_Helen Hermione Hester Hilda
+			Ileanna Irene Isabell Ivanna
+			Jannie Jennifer Jessenia Jéssica Jennipher_Jennifer Joyce Jullye_Julia Jossie
+			Karen Karielys Karina Karla
+			Laura Levys Ligia Lila Lilian_Liliana Lilibeth Linda Lorena Luisa Lupita Ly
+			Marelisa Margareth Maria María Mariam Mariana Maritza Martha Michelle Migbelis Mónica
+			Natascha Nathaly Nina Ninibeth Norkys
+			Patricia Paula Pilín
+			Rebeca_Rebecca Rita Rosa_Rose Rocio 
+			Sandy Sara Sérika Sharon Sofía Stefania Susan Susana
+			Taina Teresa_Theresa Tiffany Tina
+			Valeria Vanessa Verónica_Veronia Veruska Victoría_Victoria Viviana_Vivian 
+			Yaneth Yasmin Yaxeni Yeniffer_Jennifer Yorgelys Yormery Yuliana Yuzmary Yvonne
+			Zenahir Zhandra Zuleibis 
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+	
+	colombian = { #Paisa and Cartagenero
+		graphical_cultures = { southerngfx mexicangfx }
+		
+		color = { 0.78 0.74 0.34 }
+		
+		male_names = {
+			"Andrés Felipe" "Augusto Luís" 
+			"Carlos Alberto" "Carlos Andrés" "Carlos Arturo" "Carlos José" "Carlos Mario" 
+			"David Marcelo" "David Restrepo" "Diego Fernando" 
+			"Fabio Augusto" 
+			"Giovanni Ceron" "Guillermo Andres" 
+			"Jhoan Botero" "Jhoan Sebastian" "Jhon Jairo" "Jhon Ortega" "Joakin Eduardo" "John Jairo" "Jorge Eliécer" "Jorge Luís" "José Antonio" "José Guzman" "José Luís" "Juan Camilo" "Juan Carlos" "Juan David" "Juan Diego" "Juan Esteban" "Juan José" "Juan Manuel" "Juan Pablo" "Juan Sebastian" "Julian Andres" "Julio Cesar" 
+			"Luís Alberto" "Luís Carlos" "Luís Eduardo" "Luís Felipe" "Luís Fernando" 
+			"Mateo Chaguala" "Miguel Angel" 
+			"Neider Eduardo" 
+			"Pablo Sanchez" "Pedro Claver" 
+			"Rico Leon" "Rubén Dario" 
+			"Sebastian Herrera" "Sebastian Quintero" 
+			"Walter Andres"
+		
+			Aarón Abel Adrian Adrián Agapito Agaton Aguilera Aimar Akier Alba Alcides Alejandro Alexander Alverez Andolin Andoni Andrés Androción Androniko Angelo Antíoco Apeles Aquiles Aristides Aristio Aristipo Aristóteles Atenágoras
+			Balan Bazkoare Bernardo
+			Camilo Carlos Clímaco Concepcion Corpuz Cristian Cristián Cristofer
+			Danel
+			Éder Efrain Emiliano Epifanio Ernio Errando Errolan Erroman
+			Fabián Felipe Feo Florentino Francisco
+			Gabriel Gaio Gaitan Gaston Gilberto Giron Guadalupe Gustavo
+			Helibelton Heliodoro Héracles Hernan Herodoto Hidalgo Holguin Honor Hugo
+			Idomeneo Isidoro Ismael
+			Jeison Jerrald Jose Josue Juan
+			Kiritz
+			Lantz Leano Leontzio Luis Luken
+			Macario Magallanez Manuel Matro Menelao Metelo Montealegre Montrel
+			Nepote Neso Nestor Nicátor Nizias
+			Pablo Paléfato Pancho Pedro Peralta Pirro Plutarco Plutón Polen Polentzi Porfiro Pupieno
+			Radamel Rafael Ramone Regal Remedios Renteria Rubiano
+			Sabas Sabino Santiago Sejano Seleuco Simon Sócrates Stefan
+			Talamantez Temístocles Teófilo Txare
+			Urtats Uztaritz
+			Víctor Victorino Vita Vitor
+			Wílmar
+			Zina 
+		}
+		female_names = {
+			Aintzioa Alañe Albira Alexandra Anastasia Andredomeka Anna Antsa Arburua Arrigorria Artemisa Artzeña Atenea Aviles
+			Basa Belita Bethania Burne
+			Carlotta Cassandra Cayetano Cibeles Clareta
+			Delia Deméter Despena Digna Dita Dulcea
+			Elixane Erramona Estebana Eugenia Eulalia Eurínome Eva
+			Fausta Filomela Frontera
+			Galan Genobeba Granado
+			Haro
+			Ignacio Ilazki Iluntze Irati Iria Iris Isidora
+			Kariñe Katalin Kemena
+			Landrada Lavina Leocadia Lourdes Louredes
+			Maduro Maria Marijoantxi Marina Marizuri Markeliñe Martzelina Melendez Mino Molora
+			Nereida Noemi
+			Okina Oña Orantes Ostatxu
+			Paz Perséfone Pietatea Polentze Proserpina Pura
+			Quintero
+			Ria Roxana Ruan
+			Sara Segunda Selena Severino Sofia Sonora
+			Tatiana Teodora Teresa Thalia
+			Uribarri
+			Valle Victoria Vidales
+			Xiomara
+			Zabal Zañe Zepeda Zilia Zorione Zutoia 
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+}

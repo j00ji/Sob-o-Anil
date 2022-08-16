@@ -1,0 +1,350 @@
+###ÄNSI
+
+95001=
+{
+	name="Menna Barreto"
+	culture= gaucho
+}
+95002=
+{
+	name="Lima"
+	culture= gaucho
+}
+95003=
+{
+	name="Gonçalves"
+	culture= gaucho
+}
+95004=
+{
+	name="Netto"
+	culture= gaucho
+}
+95005=
+{
+	name="de Bittencourt"
+	culture= gaucho
+}
+95006=
+{
+	name="Osório"
+	culture= gaucho
+}
+95007=
+{
+	name="Goulart"
+	culture= gaucho
+}
+95008=
+{
+	name="Garcia"
+	culture= gaucho
+}
+95009=
+{
+	name="Borba"
+	culture= gaucho
+}
+95010=
+{
+	name="Vieira"
+	culture= gaucho
+}
+95011=
+{
+	name="Saldanha"
+	culture= gaucho
+}
+95012=
+{
+	name="Brito"
+	culture= gaucho
+}
+95013=
+{
+	name="Canabarro"
+	culture= gaucho
+}
+95014=
+{
+	name="Vasconcellos"
+	culture= gaucho
+}
+95015=
+{
+	name="Pires"
+	culture= gaucho
+}
+95016=
+{
+	name="de Mattos"
+	culture= gaucho
+}
+95017=
+{
+	name="da Fontoura"
+	culture= gaucho
+}
+95018=
+{
+	name="de Almeida"
+	culture= gaucho
+}
+95019=
+{
+	name="de Oliveira"
+	culture= gaucho
+}
+95020=
+{
+	name="Gomes"
+	culture= gaucho
+}
+95021=
+{
+	name="Teixeira Nunes"
+	culture= gaucho
+}
+95022=
+{
+	name="de Mello"
+	culture= gaucho
+}
+95023=
+{
+	name="Corte Real"
+	culture= gaucho
+}
+95024=
+{
+	name="Ulhôa Cintra"
+	culture= gaucho
+}
+95025=
+{
+	name="do Amaral"
+	culture= gaucho
+}
+95026=
+{
+	name="Tavares"
+	culture= gaucho
+}
+95027=
+{
+	name="Albuquerque"
+	culture= gaucho
+}
+95028=
+{
+	name="Ribeiro"
+	culture= gaucho
+}
+95029=
+{
+	name="Silveira Martins"
+	culture= gaucho
+}
+95030=
+{
+	name="Saraiva"
+	culture= gaucho
+}
+95031=
+{
+	name="de Medeiros"
+	culture= gaucho
+}
+95032=
+{
+	name="Pantaleão"
+	culture= gaucho
+}
+95033=
+{
+	name="Assis"
+	culture= gaucho
+}
+95034=
+{
+	name="Pilla"
+	culture= gaucho
+}
+95035=
+{
+	name="Aires"
+	culture= gaucho
+}
+95036=
+{
+	name="Cezimbra"
+	culture= gaucho
+}
+95037=
+{
+	name="de Castilhos"
+	culture= gaucho
+}
+95038=
+{
+	name="Pinheiro Machado"
+	culture= gaucho
+}
+95039=
+{
+	name="Apolinário"
+	culture= gaucho
+}
+95040=
+{
+	name="Montaury"
+	culture= gaucho
+}
+95041=
+{
+	name="Simões Lopes"
+	culture= gaucho
+}
+95042=
+{
+	name="Alencastro"
+	culture= gaucho
+}
+95043=
+{
+	name="de Andrade"
+	culture= gaucho
+}
+95044=
+{
+	name="Flores da Cunha"
+	culture= gaucho
+}
+95045=
+{
+	name="Pestana"
+	culture= gaucho
+}
+95046=
+{
+	name="Abott"
+	culture= gaucho
+}
+95047=
+{
+	name="Marenco"
+	culture= gaucho
+}
+95048=
+{
+	name="Rassier"
+	culture= gaucho
+}
+95049=
+{
+	name="Martins"
+	culture= gaucho
+}
+95050=
+{
+	name="Ledesma"
+	culture= gaucho
+}
+95051=
+{
+	name="Braun"
+	culture= gaucho
+}
+95052=
+{
+	name="Grecco"
+	culture= gaucho
+}
+95053=
+{
+	name="Luzardo"
+	culture= gaucho
+}
+95054=
+{
+	name="Aranha"
+	culture= gaucho
+}
+95055=
+{
+	name="Lemes"
+	culture= gaucho
+}
+95056=
+{
+	name="Prestes"
+	culture= gaucho
+}
+95057=
+{
+	name="Vianna"
+	culture= gaucho
+}
+95058=
+{
+	name="Daltro"
+	culture= gaucho
+}
+95059=
+{
+	name="Dornelles"
+	culture= gaucho
+}
+95060=
+{
+	name="Figueiredo"
+	culture= gaucho
+}
+95061=
+{
+	name="Brizola"
+	culture= gaucho
+}
+95062=
+{
+	name="Simon"
+	culture= gaucho
+}
+95063=
+{
+	name="Collares"
+	culture= gaucho
+}
+95064=
+{
+	name="Dutra"
+	culture= gaucho
+}
+95065=
+{
+	name="Genro"
+	culture= gaucho
+}
+95066=
+{
+	name="Crusius"
+	culture= gaucho
+}
+110001=
+{
+	name="Swiat-Jajek"
+	culture= rutenio
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

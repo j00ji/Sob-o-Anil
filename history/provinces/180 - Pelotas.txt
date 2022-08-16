@@ -1,0 +1,21 @@
+# c_pelotas
+
+# County Title
+title = c_pelotas
+
+# Settlements
+max_settlements = 4
+
+b_pelotas = tribal
+#b_sao_lourenco_do_sul = city
+#b_capao_do_leao = temple
+#b_turucu = castle
+#b_arroio_do_padre_2 = city
+#b_povo_novo = temple
+#b_santa_izabel_do_sul = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

@@ -1,0 +1,21 @@
+# c_chachapoyas
+
+# County Title
+title = c_chachapoyas
+
+# Settlements
+max_settlements = 3
+
+b_bagua_grande = castle
+b_chachapoyas = city
+#b_lamud = temple
+#b_jumbilla = castle
+#b_rodriguez_de_mendoza = city
+#b_cajaruro = temple
+#b_lonya_grande = castle
+
+# Misc
+culture = charapa
+religion = inkarri
+
+#History

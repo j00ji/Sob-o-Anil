@@ -1,0 +1,14 @@
+# e_nordeste
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_cabo_norte
+}
+2354.1.21={ #Belchior crushes last Salvadorense forces in Cabo Norte
+	holder = 1 #Antônio Carlos Belchioringio
+}
+2362.2.10={
+	holder = 4 #André I Belchioringio
+}

@@ -1,0 +1,21 @@
+# c_teofilo_otoni
+
+# County Title
+title = c_teofilo_otoni
+
+# Settlements
+max_settlements = 4
+
+b_filadelfia_3 = tribal
+b_mucuri = temple
+#b_novo_oriente_de_minas = temple
+#b_valao = castle
+#b_topazio = city
+#b_padre_paraiso = temple
+#b_crispim_jacques = castle
+
+# Misc
+culture = valcude
+religion = angel_cult
+
+#History

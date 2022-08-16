@@ -1,0 +1,21 @@
+# c_porto_seguro
+
+# County Title
+title = c_porto_seguro
+
+# Settlements
+max_settlements = 5
+
+b_belmonte = castle
+b_canavieiras = city
+#b_joaima = temple
+#b_itaobim = castle
+#b_almenara = city
+#b_medina = temple
+#b_jacinto = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

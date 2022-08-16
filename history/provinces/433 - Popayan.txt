@@ -1,0 +1,21 @@
+# c_popayan
+
+# County Title
+title = c_popayan
+
+# Settlements
+max_settlements = 5
+
+b_popayan = castle
+b_el_tambo = city
+b_piendamo = temple
+b_la_vega = castle
+#b_bolivar_de_cauca = city
+#b_cajibio = temple
+#b_puelenje = castle
+
+# Misc
+culture = colombian
+religion = inkarri
+
+#History

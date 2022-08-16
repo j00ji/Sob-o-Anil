@@ -1,0 +1,21 @@
+# c_labouyale
+
+# County Title
+title = c_labouyale
+
+# Settlements
+max_settlements = 2
+
+b_labouyale = castle
+b_mackenna = city
+#b_rosales = temple
+#b_rossi = castle
+#b_rio_bamba = city
+#b_leguizamon = temple
+#b_melo_2 = castle
+
+# Misc
+culture = cordobes
+religion = theosophist
+
+#History

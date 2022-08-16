@@ -1,0 +1,21 @@
+# c_caxias_do_sul
+
+# County Title
+title = c_caxias_do_sul
+
+# Settlements
+max_settlements = 5
+
+b_chateau_lacave = castle
+b_santa_teresa_cathedral = temple
+b_flores_da_cunha = castle
+b_farroupilha = temple
+#b_sao_marcos = city
+#b_nova_sardenha = temple
+#b_otavio_rocha = castle
+
+# Misc
+culture = talian
+religion = celeste
+
+#History

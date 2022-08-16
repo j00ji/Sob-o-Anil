@@ -1,0 +1,21 @@
+# c_valcheta
+
+# County Title
+title = c_valcheta
+
+# Settlements
+max_settlements = 3
+
+b_valcheta = tribal
+#b_nahuel_niyiu = city
+#b_musters = temple
+#b_pomona = castle
+#b_lamarque = city
+#b_colonia_josefa = temple
+#b_tres_picos = castle
+
+# Misc
+culture = desertico
+religion = gaucheria
+
+#History

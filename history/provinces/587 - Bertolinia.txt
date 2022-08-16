@@ -1,0 +1,21 @@
+# c_bertolinia
+
+# County Title
+title = c_bertolinia
+
+# Settlements
+max_settlements = 2
+
+b_bertolinia = tribal
+#b_canavieira_2 = city
+#b_canavieira_3 = temple
+#b_manoel_emidio = castle
+#b_eliseu_martins = city
+#b_boiadeiro = temple
+#b_sebastiao_leal = castle
+
+# Misc
+culture = sertanista
+religion = seladite
+
+#History

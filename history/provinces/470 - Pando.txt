@@ -1,0 +1,21 @@
+# c_pando
+
+# County Title
+title = c_pando
+
+# Settlements
+max_settlements = 4
+
+b_cobija_2 = castle
+b_madre_de_dios = temple
+b_puerto_rico = city
+#b_nueva_esperanza = castle
+#b_machua = city
+#b_inava = temple
+#b_san_silvestre = castle
+
+# Misc
+culture = camba
+religion = santa_diablada
+
+#History

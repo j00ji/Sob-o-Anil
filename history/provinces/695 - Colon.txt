@@ -1,0 +1,21 @@
+# c_colon
+
+# County Title
+title = c_colon
+
+# Settlements
+max_settlements = 2
+
+b_jesus_maria = castle
+#b_totoral_2 = city
+#b_chalacea = temple
+#b_trejo = castle
+#b_luque_2 = city
+#b_mula_muerta = temple
+#b_atahona = castle
+
+# Misc
+culture = cordobes
+religion = theosophist
+
+#History

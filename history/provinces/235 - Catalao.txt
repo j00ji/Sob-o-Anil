@@ -1,0 +1,21 @@
+# c_catalao
+
+# County Title
+title = c_catalao
+
+# Settlements
+max_settlements = 3
+
+b_catalao = tribal
+#b_cumari = city
+#b_ipameri = temple
+#b_goiandina = castle
+#b_urutui = city
+#b_ouvidor = temple
+#b_nova_aurora_2 = castle
+
+# Misc
+culture = goyanense
+religion = modernists
+
+#History

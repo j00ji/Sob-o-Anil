@@ -1,0 +1,359 @@
+###ÄNSI
+
+245001 = {
+	name = "Hobley"
+	culture = falklander
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+245002 = {
+	name = "Clarke"
+	culture = falklander
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+
+245003 = {
+	name = "Short"
+	culture = falklander
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+
+245004 = {
+	name = "Rose"
+	culture = falklander
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+245005 = {
+	name = "Baillon"
+	culture = falklander
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+
+245006 = {
+	name = "Barkman"
+	culture = falklander
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+
+245007 = {
+	name = "Peck"
+	culture = falklander
+	religion = brethren
+	can_appear = no
+	used_for_random = no
+}
+
+245008 = {
+	name = "Elsby"
+	culture = falklander
+	religion = brethren
+}
+
+245009 = {
+	name = "Pollard"
+	culture = falklander
+	religion = brethren
+}
+
+245010 = {
+	name = "Birmingham"
+	culture = falklander
+	religion = brethren
+}
+
+245011 = {
+	name = "Lewis"
+	culture = falklander
+	religion = brethren
+}
+
+245012 = {
+	name = "Stanley"
+	culture = falklander
+	religion = brethren
+}
+
+245013 = {
+	name = "Cheek"
+	culture = falklander
+	religion = brethren
+}
+
+245014 = {
+	name = "Poole"
+	culture = falklander
+	religion = brethren
+}
+
+245015 = {
+	name = "Rendell"
+	culture = falklander
+	religion = brethren
+}
+
+245016 = {
+	name = "Summers"
+	culture = falklander
+	religion = brethren
+}
+
+245017 = {
+	name = "Winter"
+	culture = falklander
+	religion = brethren
+}
+
+245018 = {
+	name = "Ashbridge"
+	culture = falklander
+	religion = brethren
+}
+
+245019 = {
+	name = "Camp"
+	culture = falklander
+	religion = brethren
+}
+
+245020 = {
+	name = "Edwards"
+	culture = falklander
+	religion = brethren
+}
+
+245021 = {
+	name = "Cockwell"
+	culture = falklander
+	religion = brethren
+}
+
+245022 = {
+	name = "Williams"
+	culture = falklander
+	religion = brethren
+}
+
+245023 = {
+	name = "Smith"
+	culture = falklander
+	religion = brethren
+}
+
+245024 = {
+	name = "Johnson"
+	culture = falklander
+	religion = brethren
+}
+245025 = {
+	name = "Speedwell"
+	culture = falklander
+	religion = brethren
+}
+245026 = {
+	name = "Howard"
+	culture = falklander
+	religion = brethren
+}
+245027 = {
+	name = "Ford"
+	culture = falklander
+	religion = brethren
+}
+
+250001 = {
+	name = "Jones"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250002 = {
+	name = "Parry"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250003 = {
+	name = "Bell"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250004 = {
+	name = "Lloyd"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250005 = {
+	name = "ap Iwan"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250006 = {
+	name = "Ruffudd"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250007 = {
+	name = "Griffith"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250008 = {
+	name = "Morgan"
+	culture = wladfaeg
+	religion = evangelical
+}
+250009 = {
+	name = "Roberts"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250010 = {
+	name = "Phillips"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250011 = {
+	name = "Williams"
+	culture = wladfaeg
+	religion = evangelical
+}
+
+250012 = {
+	name = "Brown"
+	culture = wladfaeg
+	religion = evangelical
+}
+250013 = {
+	name = "Talbot"
+	culture = wladfaeg
+	religion = evangelical
+}
+250014 = {
+	name = "Fogwill"
+	culture = wladfaeg
+	religion = evangelical
+}
+250015 = {
+	name = "Owen"
+	culture = wladfaeg
+	religion = evangelical
+}
+250016 = {
+	name = "Fogwill"
+	culture = wladfaeg
+	religion = evangelical
+}
+250017 = {
+	name = "Foulkes"
+	culture = wladfaeg
+	religion = evangelical
+}
+250018 = {
+	name = "Jones"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+250019 = {
+	name = "Wilson"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+250020 = {
+	name = "Wilson"
+	culture = wladfaeg
+	religion = evangelical
+}
+250021 = {
+	name = "James"
+	culture = wladfaeg
+	religion = evangelical
+}
+250022 = {
+	name = "Davies"
+	culture = wladfaeg
+	religion = evangelical
+}
+250023 = {
+	name = "King"
+	culture = wladfaeg
+	religion = evangelical
+}
+250024 = {
+	name = "Ramsey"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+250025 = {
+	name = "Davies"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+250026 = {
+	name = "Lockyer"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+250027 = {
+	name = "Morrell"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+250028 = {
+	name = "Moore"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+250029 = {
+	name = "Brown"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+250030 = {
+	name = "Wilson"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+
+250031 = {
+	name = "Burton"
+	culture = wladfaeg
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}

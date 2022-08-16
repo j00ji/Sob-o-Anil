@@ -1,0 +1,21 @@
+# c_sanquianga
+
+# County Title
+title = c_sanquianga
+
+# Settlements
+max_settlements = 3
+
+b_el_charco = castle
+b_olaya_herrera = temple
+#b_la_tola = temple
+#b_mosquera = castle
+#b_pizarro = city
+#b_sta_barbara = temple
+#b_bocas_de_satinga = castle
+
+# Misc
+culture = colombian
+religion = inkarri
+
+#History

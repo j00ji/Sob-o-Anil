@@ -1,0 +1,21 @@
+# c_florida_2
+
+# County Title
+title = c_florida_2
+
+# Settlements
+max_settlements = 3
+
+b_samaipata = castle
+b_vallegrande = city
+#b_comarapa = temple
+#b_mairana = castle
+#b_saipina = city
+#b_la_palizada = temple
+#b_trigal = castle
+
+# Misc
+culture = camba
+religion = santa_diablada
+
+#History

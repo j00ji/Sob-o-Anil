@@ -1,0 +1,21 @@
+# c_gueer_aike
+
+# County Title
+title = c_gueer_aike
+
+# Settlements
+max_settlements = 4
+
+b_rio_gallegos = tribal
+b_palermo_aike = temple
+#b_punta_loyola = temple
+#b_chimen_aike = castle
+#b_mayer = city
+#b_puerto_coig = temple
+#b_monte_dinero = castle
+
+# Misc
+culture = santacruceno
+religion = xoon
+
+#History

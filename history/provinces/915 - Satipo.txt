@@ -1,0 +1,21 @@
+# c_satipo
+
+# County Title
+title = c_satipo
+
+# Settlements
+max_settlements = 5
+
+b_satipo = castle
+b_la_merced = city
+b_san_ramon_de_junin = temple
+b_perene = castle
+#b_chanchamayo = city
+#b_pichanaqui = temple
+#b_pangoa = castle
+
+# Misc
+culture = oxapampino
+religion = liberationist
+
+#History

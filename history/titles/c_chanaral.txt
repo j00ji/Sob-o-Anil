@@ -1,0 +1,14 @@
+# e_chile
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_atacama
+}
+2331.6.13= {
+	holder=220010
+}
+2368.5.12= {
+	holder=220012
+}

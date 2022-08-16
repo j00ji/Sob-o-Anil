@@ -1,0 +1,21 @@
+# c_moises
+
+# County Title
+title = c_moises
+
+# Settlements
+max_settlements = 5
+
+b_tostado = castle
+b_ceres = city
+b_moises_ville = temple
+#b_sancris = castle
+#b_montefiore = city
+#b_virginia = temple
+#b_constanza_2 = castle
+
+# Misc
+culture = turco
+religion = theosophist
+
+#History

@@ -1,0 +1,21 @@
+# c_nova_friburgo
+
+# County Title
+title = c_nova_friburgo
+
+# Settlements
+max_settlements = 3
+
+b_nova_friburgo = castle
+b_macacu = temple
+#b_campo_coelho = temple
+#b_kordoeira = castle
+#b_apraizel = city
+#b_schwss = temple
+#b_katarcione = castle
+
+# Misc
+culture = pomerisch
+religion = evangelical
+
+#History

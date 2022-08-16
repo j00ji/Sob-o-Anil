@@ -1,0 +1,21 @@
+# c_tapaua
+
+# County Title
+title = c_tapaua
+
+# Settlements
+max_settlements = 2
+
+b_tapaua = tribal
+#b_terra_da_morte = city
+#b_apurina = temple
+#b_pauapixuna = castle
+#b_baturite = city
+#b_curupita = temple
+#b_membeca = castle
+
+# Misc
+culture = mura
+religion = xabaxai_xagi
+
+#History

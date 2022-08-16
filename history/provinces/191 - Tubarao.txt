@@ -1,0 +1,21 @@
+# c_tubarao
+
+# County Title
+title = c_tubarao
+
+# Settlements
+max_settlements = 3
+
+b_tubarao = castle
+b_capivari_de_baixco = city
+b_jaguaruna = temple
+#b_gravatal = castle
+#b_sao_ludgero = city
+#b_orleans = temple
+#b_braco_do_norte = castle
+
+# Misc
+culture = greenbelly
+religion = celeste
+
+#History

@@ -1,0 +1,21 @@
+# c_curimatau
+
+# County Title
+title = c_curimatau
+
+# Settlements
+max_settlements = 3
+
+b_campina_grande = castle
+b_olivedos = city
+#b_esperanca = temple
+#b_soledade_3 = castle
+#b_pocinhos = city
+#b_juazeirinho = temple
+#b_catole = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

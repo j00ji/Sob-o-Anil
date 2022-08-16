@@ -1,0 +1,21 @@
+# c_tucuman
+
+# County Title
+title = c_tucuman
+
+# Settlements
+max_settlements = 4
+
+b_tucuman = castle
+b_santiago_del_estero = city
+b_tafi = temple
+#b_garmendia = castle
+#b_pozo = city
+#b_penon = temple
+#b_monteros = castle
+
+# Misc
+culture = norteno
+religion = catholic
+
+#History

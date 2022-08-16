@@ -1,0 +1,21 @@
+# c_araguari
+
+# County Title
+title = c_araguari
+
+# Settlements
+max_settlements = 2
+
+b_tartarugalzinho = castle
+#b_pracuuba = city
+#b_itaubai = temple
+#b_lago_novo = castle
+#b_sucuruju = city
+#b_angelim_las_palmas = temple
+#b_camaleoes = castle
+
+# Misc
+culture = amapaense
+religion = holy_spirit
+
+#History

@@ -1,0 +1,21 @@
+# c_napo
+
+# County Title
+title = c_napo
+
+# Settlements
+max_settlements = 3
+
+b_tena = castle
+b_archidona = city
+#b_quijos = temple
+#b_arosemena = castle
+#b_el_chaco = city
+#b_muyuna = temple
+#b_pano = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

@@ -1,0 +1,21 @@
+# c_sao_matheus
+
+# County Title
+title = c_sao_matheus
+
+# Settlements
+max_settlements = 3
+
+b_sao_matheus = castle
+b_nova_venecia = city
+b_pinheiros = temple
+#b_gurireia = castle
+#b_guriri = city
+#b_lago_dos_cisnes = temple
+#b_inorocop = castle
+
+# Misc
+culture = capixaba
+religion = camdomble
+
+#History

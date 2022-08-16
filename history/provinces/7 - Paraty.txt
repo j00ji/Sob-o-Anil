@@ -1,0 +1,21 @@
+# c_paraty
+
+# County Title
+title = c_paraty
+
+# Settlements
+max_settlements = 3
+
+b_taquary = castle
+b_paraty = city
+b_tarituba = temple
+#b_ponte_branca = castle
+#b_paraty_mirim = city
+#b_praia_do_sono = temple
+#b_ilha_do_pelado = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History

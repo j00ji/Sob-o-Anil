@@ -1,0 +1,21 @@
+# c_esquel
+
+# County Title
+title = c_esquel
+
+# Settlements
+max_settlements = 3
+
+b_esquel = castle
+b_trevelin = city
+#b_corcovado_2 = temple
+#b_bagle = castle
+#b_aldea_escolar = city
+#b_lago_rosario = temple
+#b_gualjaina = castle
+
+# Misc
+culture = wladfaeg
+religion = evangelical
+
+#History

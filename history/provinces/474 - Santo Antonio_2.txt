@@ -1,0 +1,21 @@
+# c_santo_antonio_2
+
+# County Title
+title = c_santo_antonio_2
+
+# Settlements
+max_settlements = 4
+
+b_itaparica = castle
+b_nazare = temple
+#b_margarida = temple
+#b_guaibim = castle
+#b_maragogipe = city
+#b_cruz_das_almas = temple
+#b_castro_alves = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

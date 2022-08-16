@@ -1,0 +1,21 @@
+# c_sierra_grande
+
+# County Title
+title = c_sierra_grande
+
+# Settlements
+max_settlements = 3
+
+b_sierra_grande = castle
+#b_playas_doradas = city
+#b_la_ventana = temple
+#b_los_berros = castle
+#b_cona_niyeu = city
+#b_sierra_paileman = temple
+#b_sierra_chica = castle
+
+# Misc
+culture = desertico
+religion = evangelical
+
+#History

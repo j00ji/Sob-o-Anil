@@ -1,0 +1,21 @@
+# c_valenca
+
+# County Title
+title = c_valenca
+
+# Settlements
+max_settlements = 3
+
+b_valenca = castle
+b_rio_das_flores = city
+b_pentagna = temple
+#b_barao_juparana = castle
+#b_taboas = city
+#b_sebastiao_lacerda = temple
+#b_conservatoria = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

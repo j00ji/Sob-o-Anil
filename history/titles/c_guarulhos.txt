@@ -1,0 +1,25 @@
+# e_vera_cruz
+800.1.1={
+	liege=k_sao_paulo
+}
+2224.12.13 = {
+	holder = 110508 #Odete Siqueira Bruno
+}
+2263.11.3 = {
+	holder = 110509 #Jonas Siqueira Bruno
+}
+2281.6.30 = {
+	holder = 110526 #Anderson Crespi
+}
+2312.1.21 = {
+	holder = 110513 #Reinaldo Siqueira Bruno
+}
+2330.2.10 = {
+	holder = 110530 #José Crespi
+}
+2354.10.3 = {
+	holder = 110534 #Fabrícia Crespi
+}
+2364.4.13 = { #Alexandre takes Guarulhos
+	holder = 110001 #Alexandre I Cantarini
+}

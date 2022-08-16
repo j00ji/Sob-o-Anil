@@ -1,0 +1,21 @@
+# c_sao_lourenco
+
+# County Title
+title = c_sao_lourenco
+
+# Settlements
+max_settlements = 3
+
+b_pouso_alto = tribal
+#b_passa_quatro = city
+#b_virginia_2 = temple
+#b_ibatuba = castle
+#b_pintos_negreiros = city
+#b_itanhandu = temple
+#b_serra_do_papagaio = castle
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_salgueiro
+
+# County Title
+title = c_salgueiro
+
+# Settlements
+max_settlements = 2
+
+b_serrita = tribal
+#b_verdejante = city
+#b_parnamirim_2 = temple
+#b_salgueiro = castle
+#b_moreilandia = city
+#b_sao_jose_do_belmonte = temple
+#b_cabrobo = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

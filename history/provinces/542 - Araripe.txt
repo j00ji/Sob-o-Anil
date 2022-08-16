@@ -1,0 +1,21 @@
+# c_araripe
+
+# County Title
+title = c_araripe
+
+# Settlements
+max_settlements = 2
+
+b_assare = tribal
+#b_nova_olinda = city
+#b_potengi = temple
+#b_altaneira = castle
+#b_farias_brito = city
+#b_santana_do_cariri = temple
+#b_saboeiro = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

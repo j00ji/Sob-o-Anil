@@ -1,0 +1,245 @@
+#Sob o Anil Titles and Realms events
+
+namespace = SOAREALM
+
+#Renaming Kingdoms
+
+# Special event for Fortaleza to be renamed to Ceará
+character_event = {
+	id = SOAREALM.1
+	title = SOAREALM.1.T
+	desc = SOAREALM.1.D
+	
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		has_landed_title = k_ceara
+		NOT = { dynasty = 1 } # Belchioringian dynasty
+		NOT = { has_global_flag = fortaleza_renamed }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA62930
+		set_global_flag = fortaleza_renamed
+		k_ceara = {
+			custom_tooltip = { text = tooltip_fortaleza_to_ceara }
+			hidden_tooltip = {
+				set_name=""
+				adjective=""
+			}
+		}
+	}
+}
+
+# Special event for Natal to be renamed to Cabo Norte
+character_event = {
+	id = SOAREALM.2
+	title = SOAREALM.2.T
+	desc = SOAREALM.2.D
+	
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		has_landed_title = k_cabo_norte
+		NOT = { dynasty = 1 } # Belchioringian dynasty
+		NOT = { has_global_flag = natal_renamed }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA62931
+		set_global_flag = natal_renamed
+		k_cabo_norte = {
+			custom_tooltip = { text = tooltip_natal_to_cabo_norte }
+			hidden_tooltip = {
+				set_name=""
+				adjective=""
+			}
+		}
+	}
+}
+
+# Special event for Recife to be renamed to Pernambuco
+character_event = {
+	id = SOAREALM.3
+	title = SOAREALM.3.T
+	desc = SOAREALM.3.D
+	
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		has_landed_title = k_pernambuco
+		NOT = { dynasty = 1 } # Belchioringian dynasty
+		NOT = { has_global_flag = recife_renamed }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA62931
+		set_global_flag = recife_renamed
+		k_pernambuco = {
+			custom_tooltip = { text = tooltip_recife_to_pernambuco }
+			hidden_tooltip = {
+				set_name=""
+				adjective=""
+			}
+		}
+	}	
+}
+
+# Special event for Ceará to be renamed to Fortaleza
+character_event = {
+	id = SOAREALM.4
+	title = SOAREALM.4.T
+	desc = SOAREALM.4.D
+	
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		independent = yes
+		has_landed_title = k_ceara
+		dynasty = 1 # Belchioringian dynasty
+		has_global_flag = fortaleza_renamed
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA62930
+		clr_global_flag = fortaleza_renamed
+		k_ceara = {
+			custom_tooltip = { text = tooltip_ceara_to_fortaleza }
+			hidden_tooltip = {
+				set_name = "FORTALEZA_KINGDOM"
+				adjective = "FORTALEZA_KINGDOM_ADJ"
+			}
+		}
+	}
+}
+
+# Special event for Cabo Norte to be renamed to Natal
+character_event = {
+	id = SOAREALM.5
+	title = SOAREALM.5.T
+	desc = SOAREALM.5.D
+	
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		independent = yes
+		has_landed_title = k_cabo_norte
+		dynasty = 1 # Belchioringian dynasty
+		has_global_flag = natal_renamed
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA62931
+		clr_global_flag = natal_renamed
+		k_cabo_norte = {
+			custom_tooltip = { text = tooltip_cabo_norte_to_natal }
+			hidden_tooltip = {
+				set_name = "NATAL_KINGDOM"
+				adjective = "NATAL_KINGDOM_ADJ"
+			}
+		}
+	}
+}
+
+# Special event for Pernambuco to be renamed to Natal
+character_event = {
+	id = SOAREALM.6
+	title = SOAREALM.6.T
+	desc = SOAREALM.6.D
+	
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_diplomacy
+	
+	only_playable = yes
+	
+	trigger = {
+		independent = yes
+		has_landed_title = k_pernambuco
+		dynasty = 1 # Belchioringian dynasty
+		has_global_flag = recife_renamed
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA62931
+		clr_global_flag = recife_renamed
+		k_pernambuco = {
+			custom_tooltip = { text = tooltip_pernambuco_to_recife }
+			hidden_tooltip = {
+				set_name = "RECIFE_KINGDOM"
+				adjective = "RECIFE_KINGDOM_ADJ"
+			}
+		}
+	}
+}
+
+#End of Belchioringian renaming kingdoms
+
+character_event = {
+	id = SOAREALM.7
+	desc = "You are not supposed to be seeing it..."
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ROOT = {
+			has_landed_title = e_pretender_empire_1
+		}
+		AND = {
+			PREV = {
+				is_primary_holder_title = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "OK"
+		
+		ROOT = {
+			primary_title = {
+				set_name = "[Root.Capital.GetName]"
+			}
+		}
+	}
+}
+	

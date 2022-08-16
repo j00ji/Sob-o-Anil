@@ -1,0 +1,21 @@
+# c_paraiso_no_tocantins
+
+# County Title
+title = c_paraiso_no_tocantins
+
+# Settlements
+max_settlements = 2
+
+b_paraiso_no_tocantins = tribal
+#b_miracema_no_tocantins = city
+#b_caseara = temple
+#b_lagoa_da_confusao = castle
+#b_pugmil = city
+#b_miranorte = temple
+#b_rio_dos_bois = castle
+
+# Misc
+culture = araguaio
+religion = manredebu
+
+#History

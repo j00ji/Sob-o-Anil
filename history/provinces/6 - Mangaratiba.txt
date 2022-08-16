@@ -1,0 +1,21 @@
+# c_mangaratiba
+
+# County Title
+title = c_mangaratiba
+
+# Settlements
+max_settlements = 3
+
+b_mangaratiba = castle
+b_sao_joao_marcos = temple
+#b_jacuacenga = temple
+#b_bibliocidade = castle
+#b_macieis = city
+#b_sao_joao_marcos_2 = temple
+#b_saco_marina = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History

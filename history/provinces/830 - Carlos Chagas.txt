@@ -1,0 +1,21 @@
+# c_carlos_chagas
+
+# County Title
+title = c_carlos_chagas
+
+# Settlements
+max_settlements = 2
+
+b_crisolita = tribal
+#b_machacalis = city
+#b_fronteira_dos_vales = temple
+#b_perola_do_vale, = castle
+#b_francisco_sa = city
+#b_pavao = temple
+#b_aguas_formosas = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

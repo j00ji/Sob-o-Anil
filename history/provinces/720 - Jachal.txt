@@ -1,0 +1,21 @@
+# c_jachal
+
+# County Title
+title = c_jachal
+
+# Settlements
+max_settlements = 2
+
+b_jachal = castle
+b_huaco_2 = city
+#b_niquivil = temple
+#b_rodeo = castle
+#b_fiscal = city
+#b_las_flores_2 = temple
+#b_huachi = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+680001={
+	name="Omar"
+	dynasty=305001
+	martial=3
+	diplomacy=5
+	stewardship=5
+	intrigue=3
+	learning=4
+	culture=turco
+	religion=conservante
+	trait=erudite
+	trait=poet
+	trait=greedy
+	trait=tough_soldier
+	2330.9.15={
+		birth=yes
+	}
+	2399.6.18={
+		death=yes
+	}
+}

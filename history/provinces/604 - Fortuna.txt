@@ -1,0 +1,21 @@
+# c_fortuna
+
+# County Title
+title = c_fortuna
+
+# Settlements
+max_settlements = 2
+
+b_fortuna = tribal
+#b_colinas = city
+#b_jatoba = temple
+#b_sao_domingos_2 = castle
+#b_buriti_bravo = city
+#b_passagem_franca = temple
+#b_baixao_grande = castle
+
+# Misc
+culture = parnaibas
+religion = evangelical
+
+#History

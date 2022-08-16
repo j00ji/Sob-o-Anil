@@ -1,0 +1,21 @@
+# c_moquegua
+
+# County Title
+title = c_moquegua
+
+# Settlements
+max_settlements = 3
+
+b_moquegua = castle
+b_llo = city
+#b_omate = temple
+#b_samegua = castle
+#b_torata = city
+#b_pacocha = temple
+#b_el_algarrobal = castle
+
+# Misc
+culture = ileno
+religion = catholic
+
+#History

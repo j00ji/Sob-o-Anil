@@ -1,0 +1,21 @@
+# c_valparaiso
+
+# County Title
+title = c_valparaiso
+
+# Settlements
+max_settlements = 6
+
+b_valparaiso = city
+b_vina_del_mar = castle
+b_concon = temple
+b_quintero = city
+b_puchuncavi = castle
+#b_casablanca = temple
+#b_playa_ancha = castle
+
+# Misc
+culture = centrino
+religion = catholic
+
+#History

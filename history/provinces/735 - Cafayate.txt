@@ -1,0 +1,21 @@
+# c_cafayate
+
+# County Title
+title = c_cafayate
+
+# Settlements
+max_settlements = 2
+
+b_cafayate = castle
+b_colalao = temple
+#b_trancas = temple
+#b_la_candelaria = castle
+#b_mojon = city
+#b_tolombon = temple
+#b_animana = castle
+
+# Misc
+culture = norteno
+religion = catholic
+
+#History

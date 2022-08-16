@@ -1,0 +1,21 @@
+# c_vitoria
+
+# County Title
+title = c_vitoria
+
+# Settlements
+max_settlements = 4
+
+b_vitoria = castle
+b_anchieta = temple
+b_viana = city
+#b_bento_ferreira = castle
+#b_ilha_santa_maria = city
+#b_maruipe = temple
+#b_tabuazeiro = castle
+
+# Misc
+culture = capixaba
+religion = evangelical
+
+#History

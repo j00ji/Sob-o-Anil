@@ -1,0 +1,241 @@
+###ÄNSI
+
+costeno = {
+	graphical_cultures = { bodpagfx westerngfx }
+	
+	nortegrandeno = {
+		graphical_cultures = { mexicangfx }
+		
+		color = { 0.70 0.23 0.0 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	rimense = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 1.0 0.77 0.10 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+	nortechicano = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.72 0.05 0.32 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+	iqueno = {
+		graphical_cultures = { mexicangfx }
+		
+		color = { 0.4 0.6 0.0 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	arequipeno = {
+		graphical_cultures = { mexicangfx }
+		
+		color = { 0.5 0.0 0.2 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+
+	}
+	ileno = {
+		graphical_cultures = { mexicangfx }
+		
+		color = { 0.6 0.4 0.0 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	
+}
+
+silvano = {
+	graphical_cultures = { mexicangfx westerngfx }
+	charapa = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.3 0.7 0.3 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+	oxapampino = {
+		graphical_cultures = { germangfx }
+		
+		color = { 0.1 0.6 0.3 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+	huascareno = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.3 0.7 0.1 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+	}
+}
+
+	
+	

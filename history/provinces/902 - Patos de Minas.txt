@@ -1,0 +1,21 @@
+# c_patos_de_minas
+
+# County Title
+title = c_patos_de_minas
+
+# Settlements
+max_settlements = 4
+
+b_cruzeiro_da_fortaleza = castle
+b_santana_do_paranaiba = temple
+b_patolandia = city
+#b_minas_vermelhas = castle
+#b_guimarania = city
+#b_ndaibas = temple
+#b_chumbo = castle
+
+# Misc
+culture = triangler
+religion = terra_benta
+
+#History

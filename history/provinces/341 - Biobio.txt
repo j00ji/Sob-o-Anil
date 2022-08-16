@@ -1,0 +1,21 @@
+# c_biobio
+
+# County Title
+title = c_biobio
+
+# Settlements
+max_settlements = 4
+
+b_los_angeles = castle
+b_nacimiento = temple
+b_mulchen = city
+#b_laja = castle
+#b_yumbel = city
+#b_cabrero = temple
+#b_antuco = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

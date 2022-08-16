@@ -1,0 +1,500 @@
+###ÄNSI
+
+quechua_group = {
+	graphical_cultures = { bodpagfx westerngfx }
+	
+	inca = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.45 0.25 0.39 }
+		
+		male_names = {
+			Achic Ackonqhawaq Akapana Aiyotechapun Amaru Amaruqhipse Amarutupaq Amaruyupanki Anca_Anka "Anco Coyuch" Anqasmayu Anqaspuma Ankuwillka Antawaylla Anquimarca Anta Antay Antiman Antinanco Apalani Apo Apu Apurimac Asto Astu Atahualpa Atauchi Atoc "Atoc Sopa" Atoc-Suqui Atuc Atiq_Atik Aucaman Auqui Auqui-Huaman Awkipuma Awkitupaq Awkiyutupanki Ayar
+			Buvaovamu			
+			Caiya "Caja Cápac" "Caja Cimcim" Canchari Catequil Cauac "Cayo Topa" Cayua Chalcuchima Challco "Cama Bergu" Chaupi_Chawpi Chawar Chikan Chukilla Chun Chusku Ch'uya Chiaquitinta Chican Chilche Chirapa Choque Chumtiku "Chumun Caur" Chuqui Chuya Coique Colla Colla-Topa Collana Coni Coniraya Coyllas Culla Cunac Cuntur Curi Curiatao Cusi Cusichaca Cuyuchi Cuzco 
+			Docoshamu Draytonamu
+			Ehenymacu
+			"Felan Tamuc"
+			Guacra Guaina Guaman "Guaman Chumu" Guanca Guari Guaritito Guaritopa "Guari Cur" Guayasamin Guayra Gusmango
+			Hacan_Hakan Hatuntupaq Huaman Huáscar "Huayna Cápac" Huaypalcon Hakanpuma Huksunk'u_Huksonjo
+			Illaquita Illayuq_Illayuk Illapha_Illapu Illapuma Illatiksi_Illateqsi Ilsayunamu Imasu Inca_Inka "Inca Roca" Inkaurqu_Inkaurko Inti_Ynti Intiawki Intichurin Inti'Illapha Intiwaman Iskay Iskaywari
+			Jotiantikaka
+			Katitika Kuyani Kuzko K'Achi Karwamayu Kashayawri K'aywa K'inti_K'Enti Killinchu_Qillilliku Kichwasam_Quichuasaman Kumya Kunaq_Kunak Kuntur Kunturkanki Kusi Kusiwallpa K'uyuq_K'uyuk K'uyuchi
+			"Litun Orco" Llacsa Luyes Llanqi_Llanke Llashapuma Lliwyaq Lluqi_Lloque Lluqiyupanki_Lloqeyupanki
+			Maicu Maila Mancko Manco "Manco Cápac" Mancoe Mancoh Manko Maras Marcavilca Mayta Mayua Melantonan "Michan Caman" "Michan Chimor" "Muhton Belan" Mullu Mallki Mallqu_Mallko Maywa_Mayua Maytaqhapaq
+			Nahuel "Nancen Pico" Nartamamu Nayra "Ninan Cuyuchi" Nehuametepun Ninancoro Ninan Ninaqolla Ninanwari Ninawillka
+			Opolcynamun "Orco Varanca" Ozcoc 
+			Pacatmamu Pachacútec Panti Parinango Pascac Paucar Paullu Pichiu Pomacapi Pomaguala Puma "Pumi Sopa" Puric Pusca Puyu-Vilca Puznaymun
+			Quenti Quidel Quilaco Quingallumbo Quinti Quintiraura Quispe "Quispe Titu" Quisquis Quizo 
+			Raimea Raimee Raimey Raimi Raimie Raimy "Relyen Padnu" Rimac Rimachi Ronpa Rufay Rumi Ruminavi Rawraq_Rawrak Raymi Rimaq_Rimak Rimachi Rumi Rumimaki Rumisunk'u_Rumisonjo Runak'utu Runtu Ruphay
+			Sach'a Sahuaraura Samín Sapay Sayani Sayri "Sayri Tupac" "Seran Tugun" "Seton Apac" Sinche Sinchi Siuca Somac Sonco Sotaurco Suhay Surandaman Suri Suyai Shullka Suksu_Sokso Sumainka Sunk'u_Sonjok Sunk'uyuq_Sonjoyoq 
+			Tacaynamo Tanqui Taquiri Taracun Taraque Taua Titu "Titu Cusi Yupanqui" Topa Troynuremo Tucuycuyche Tupa Tupac_Tupak "Túpac Amaru" "Túpac Hualpa" "Túpac Yupanqui" Tupac-Amaru Tinkupuma T'it'u_T'it'o Tit'uatawchi Tupakusi Tawa 
+			Uchu Ucumari Umak Unay Urtyantemu "Usca Curiatao" Usuy Uturuncu 
+			Vetsalynun "Villac Umu" Viracocha 
+			Wamani Wayra Wallpa Wallpaya Waman Wamanchawa Wamanchuri Wamay Wanka Wanqar Waqralla Wari Wariruna Warit'it'u Waskhar Waywa Wawal Wayasamin Wayaw Wayna Waynaqhapaq Willaq_Willak Willka Willkawaman Wiraqucha Wisa
+			Yacu "Yahuar Hacuac" "Yamqui Mayta" Yanamayu Yauri Yetuniamu Yupanqui Yurac 
+			Zergoetanu Zambiza Zopahua 
+			Qatiqil_Qateqil Qatuilla Qaylla Qhapaq_Khapaj Qhapaqwari Qhapaqyupanki Qhaqya Qhari Qhawaq Qhawachi Qhawana Qhispe_Qhespi Qhispiyupanki Qulla_Qolla Qullana_Qollana Qullaqhapaq Qoni Qoniraya Quri_Kuri Qoripoma Qoriwaman Qullqi_Qollque Qullqiyuq
+		}
+		
+		female_names = {
+			Achiq Achiyaku Ailen Akllasisa Akllasumaq Alliyma Ayelen Aylen Axomamma
+			Calfuray Cavillaca Cayfutray Chaska Ch'ayña Collipal Curipan Cuyen 
+			Golotina 
+			Hamk'a Huch'uykilla Huchuysisa 
+			Ilchahueque Imasumaq Inkasisa Ipi Izhi 
+			Jalana 
+			Karwasisa Killasisa Killasumaq Kumara Kusi Kusi-Quyllur Kuyani Kuyen Lefitray Leflay Llanquipan Llanquiray 
+			Maiara Mamanea Mamanee Mamaney Mamani Mamanie Mamany Manay Manque Millaray Miski Moraeka Moraekah Moraika Moraikah Morayka Moraykah Munay 
+			Naira Nina Ninasisa 
+			Pachama Peyeche Pilpintu Piro Pitrel 
+			Q'orianka Qhawa Qhispe Qhispi Qhora Qocha Qora Qori Quetroman Quila Quilah Quill Quilla Quillah Quille Quimey Quintruy Quintuqueo Qullqi Qura Quri Quriquyllur Qurit'ika Quya Quyakusi Quyla Quyle Quylla Quylle Quyllurit'i 
+			Rayen 
+			Sachasisa Saqui Sayen Sisa Somoche Sumaq Sumat'ika Suyana 
+			Taki Takiya Tamaya Tamiasisa Tamya Tamyasisa Tanitani Taruka Tuta 
+			Umiña Urpi Urpikusi Waqar Waylla Waytamayu 
+			Yachay Yachaya Yajaira Yana Yma 
+			Zincheata Zincheatah Zincheeta Zincheetah Zincheita Zincheitah Zinchieta Zinchietah Zinchita Zinchitah Zinchyta Zinchytah 
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	chanka = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.45 0.47 0.51 }
+		
+		male_names = {
+			Achic Ackonqhawaq Akapana Aiyotechapun Amaru Amaruqhipse Amarutupaq Amaruyupanki Anca_Anka "Anco Coyuch" Anqasmayu Anqaspuma Ankuwillka Antawaylla Anquimarca Anta Antay Antiman Antinanco Apalani Apo Apu Apurimac Asto Astu Atahualpa Atauchi Atoc "Atoc Sopa" Atoc-Suqui Atuc Atiq_Atik Aucaman Auqui Auqui-Huaman Awkipuma Awkitupaq Awkiyutupanki Ayar
+			Buvaovamu			
+			Caiya "Caja Cápac" "Caja Cimcim" Canchari Catequil Cauac "Cayo Topa" Cayua Chalcuchima Challco "Cama Bergu" Chaupi_Chawpi Chawar Chikan Chukilla Chun Chusku Ch'uya Chiaquitinta Chican Chilche Chirapa Choque Chumtiku "Chumun Caur" Chuqui Chuya Coique Colla Colla-Topa Collana Coni Coniraya Coyllas Culla Cunac Cuntur Curi Curiatao Cusi Cusichaca Cuyuchi Cuzco 
+			Docoshamu Draytonamu
+			Ehenymacu
+			"Felan Tamuc"
+			Guacra Guaina Guaman "Guaman Chumu" Guanca Guari Guaritito Guaritopa "Guari Cur" Guayasamin Guayra Gusmango
+			Hacan_Hakan Hatuntupaq Huaman Huáscar "Huayna Cápac" Huaypalcon Hakanpuma Huksunk'u_Huksonjo
+			Illaquita Illayuq_Illayuk Illapha_Illapu Illapuma Illatiksi_Illateqsi Ilsayunamu Imasu Inca_Inka "Inca Roca" Inkaurqu_Inkaurko Inti_Ynti Intiawki Intichurin Inti'Illapha Intiwaman Iskay Iskaywari
+			Jotiantikaka
+			Katitika Kuyani Kuzko K'Achi Karwamayu Kashayawri K'aywa K'inti_K'Enti Killinchu_Qillilliku Kichwasam_Quichuasaman Kumya Kunaq_Kunak Kuntur Kunturkanki Kusi Kusiwallpa K'uyuq_K'uyuk K'uyuchi
+			"Litun Orco" Llacsa Luyes Llanqi_Llanke Llashapuma Lliwyaq Lluqi_Lloque Lluqiyupanki_Lloqeyupanki
+			Maicu Maila Mancko Manco "Manco Cápac" Mancoe Mancoh Manko Maras Marcavilca Mayta Mayua Melantonan "Michan Caman" "Michan Chimor" "Muhton Belan" Mullu Mallki Mallqu_Mallko Maywa_Mayua Maytaqhapaq
+			Nahuel "Nancen Pico" Nartamamu Nayra "Ninan Cuyuchi" Nehuametepun Ninancoro Ninan Ninaqolla Ninanwari Ninawillka
+			Opolcynamun "Orco Varanca" Ozcoc 
+			Pacatmamu Pachacútec Panti Parinango Pascac Paucar Paullu Pichiu Pomacapi Pomaguala Puma "Pumi Sopa" Puric Pusca Puyu-Vilca Puznaymun
+			Quenti Quidel Quilaco Quingallumbo Quinti Quintiraura Quispe "Quispe Titu" Quisquis Quizo 
+			Raimea Raimee Raimey Raimi Raimie Raimy "Relyen Padnu" Rimac Rimachi Ronpa Rufay Rumi Ruminavi Rawraq_Rawrak Raymi Rimaq_Rimak Rimachi Rumi Rumimaki Rumisunk'u_Rumisonjo Runak'utu Runtu Ruphay
+			Sach'a Sahuaraura Samín Sapay Sayani Sayri "Sayri Tupac" "Seran Tugun" "Seton Apac" Sinche Sinchi Siuca Somac Sonco Sotaurco Suhay Surandaman Suri Suyai Shullka Suksu_Sokso Sumainka Sunk'u_Sonjok Sunk'uyuq_Sonjoyoq 
+			Tacaynamo Tanqui Taquiri Taracun Taraque Taua Titu "Titu Cusi Yupanqui" Topa Troynuremo Tucuycuyche Tupa Tupac_Tupak "Túpac Amaru" "Túpac Hualpa" "Túpac Yupanqui" Tupac-Amaru Tinkupuma T'it'u_T'it'o Tit'uatawchi Tupakusi Tawa 
+			Uchu Ucumari Umak Unay Urtyantemu "Usca Curiatao" Usuy Uturuncu 
+			Vetsalynun "Villac Umu" Viracocha 
+			Wamani Wayra Wallpa Wallpaya Waman Wamanchawa Wamanchuri Wamay Wanka Wanqar Waqralla Wari Wariruna Warit'it'u Waskhar Waywa Wawal Wayasamin Wayaw Wayna Waynaqhapaq Willaq_Willak Willka Willkawaman Wiraqucha Wisa
+			Yacu "Yahuar Hacuac" "Yamqui Mayta" Yanamayu Yauri Yetuniamu Yupanqui Yurac 
+			Zergoetanu Zambiza Zopahua 
+			Qatiqil_Qateqil Qatuilla Qaylla Qhapaq_Khapaj Qhapaqwari Qhapaqyupanki Qhaqya Qhari Qhawaq Qhawachi Qhawana Qhispe_Qhespi Qhispiyupanki Qulla_Qolla Qullana_Qollana Qullaqhapaq Qoni Qoniraya Quri_Kuri Qoripoma Qoriwaman Qullqi_Qollque Qullqiyuq
+		}
+		
+		female_names = {
+			Achiq Achiyaku Ailen Akllasisa Akllasumaq Alliyma Ayelen Aylen Axomamma
+			Calfuray Cavillaca Cayfutray Chaska Ch'ayña Collipal Curipan Cuyen 
+			Golotina 
+			Hamk'a Huch'uykilla Huchuysisa 
+			Ilchahueque Imasumaq Inkasisa Ipi Izhi 
+			Jalana 
+			Karwasisa Killasisa Killasumaq Kumara Kusi Kusi-Quyllur Kuyani Kuyen Lefitray Leflay Llanquipan Llanquiray 
+			Maiara Mamanea Mamanee Mamaney Mamani Mamanie Mamany Manay Manque Millaray Miski Moraeka Moraekah Moraika Moraikah Morayka Moraykah Munay 
+			Naira Nina Ninasisa 
+			Pachama Peyeche Pilpintu Piro Pitrel 
+			Q'orianka Qhawa Qhispe Qhispi Qhora Qocha Qora Qori Quetroman Quila Quilah Quill Quilla Quillah Quille Quimey Quintruy Quintuqueo Qullqi Qura Quri Quriquyllur Qurit'ika Quya Quyakusi Quyla Quyle Quylla Quylle Quyllurit'i 
+			Rayen 
+			Sachasisa Saqui Sayen Sisa Somoche Sumaq Sumat'ika Suyana 
+			Taki Takiya Tamaya Tamiasisa Tamya Tamyasisa Tanitani Taruka Tuta 
+			Umiña Urpi Urpikusi Waqar Waylla Waytamayu 
+			Yachay Yachaya Yajaira Yana Yma 
+			Zincheata Zincheatah Zincheeta Zincheetah Zincheita Zincheitah Zinchieta Zinchietah Zinchita Zinchitah Zinchyta Zinchytah 
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	huanca = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.25 0.3 0.43 }
+		
+		male_names = {
+			Achic Ackonqhawaq Akapana Aiyotechapun Amaru Amaruqhipse Amarutupaq Amaruyupanki Anca_Anka "Anco Coyuch" Anqasmayu Anqaspuma Ankuwillka Antawaylla Anquimarca Anta Antay Antiman Antinanco Apalani Apo Apu Apurimac Asto Astu Atahualpa Atauchi Atoc "Atoc Sopa" Atoc-Suqui Atuc Atiq_Atik Aucaman Auqui Auqui-Huaman Awkipuma Awkitupaq Awkiyutupanki Ayar
+			Buvaovamu			
+			Caiya "Caja Cápac" "Caja Cimcim" Canchari Catequil Cauac "Cayo Topa" Cayua Chalcuchima Challco "Cama Bergu" Chaupi_Chawpi Chawar Chikan Chukilla Chun Chusku Ch'uya Chiaquitinta Chican Chilche Chirapa Choque Chumtiku "Chumun Caur" Chuqui Chuya Coique Colla Colla-Topa Collana Coni Coniraya Coyllas Culla Cunac Cuntur Curi Curiatao Cusi Cusichaca Cuyuchi Cuzco 
+			Docoshamu Draytonamu
+			Ehenymacu
+			"Felan Tamuc"
+			Guacra Guaina Guaman "Guaman Chumu" Guanca Guari Guaritito Guaritopa "Guari Cur" Guayasamin Guayra Gusmango
+			Hacan_Hakan Hatuntupaq Huaman Huáscar "Huayna Cápac" Huaypalcon Hakanpuma Huksunk'u_Huksonjo
+			Illaquita Illayuq_Illayuk Illapha_Illapu Illapuma Illatiksi_Illateqsi Ilsayunamu Imasu Inca_Inka "Inca Roca" Inkaurqu_Inkaurko Inti_Ynti Intiawki Intichurin Inti'Illapha Intiwaman Iskay Iskaywari
+			Jotiantikaka
+			Katitika Kuyani Kuzko K'Achi Karwamayu Kashayawri K'aywa K'inti_K'Enti Killinchu_Qillilliku Kichwasam_Quichuasaman Kumya Kunaq_Kunak Kuntur Kunturkanki Kusi Kusiwallpa K'uyuq_K'uyuk K'uyuchi
+			"Litun Orco" Llacsa Luyes Llanqi_Llanke Llashapuma Lliwyaq Lluqi_Lloque Lluqiyupanki_Lloqeyupanki
+			Maicu Maila Mancko Manco "Manco Cápac" Mancoe Mancoh Manko Maras Marcavilca Mayta Mayua Melantonan "Michan Caman" "Michan Chimor" "Muhton Belan" Mullu Mallki Mallqu_Mallko Maywa_Mayua Maytaqhapaq
+			Nahuel "Nancen Pico" Nartamamu Nayra "Ninan Cuyuchi" Nehuametepun Ninancoro Ninan Ninaqolla Ninanwari Ninawillka
+			Opolcynamun "Orco Varanca" Ozcoc 
+			Pacatmamu Pachacútec Panti Parinango Pascac Paucar Paullu Pichiu Pomacapi Pomaguala Puma "Pumi Sopa" Puric Pusca Puyu-Vilca Puznaymun
+			Quenti Quidel Quilaco Quingallumbo Quinti Quintiraura Quispe "Quispe Titu" Quisquis Quizo 
+			Raimea Raimee Raimey Raimi Raimie Raimy "Relyen Padnu" Rimac Rimachi Ronpa Rufay Rumi Ruminavi Rawraq_Rawrak Raymi Rimaq_Rimak Rimachi Rumi Rumimaki Rumisunk'u_Rumisonjo Runak'utu Runtu Ruphay
+			Sach'a Sahuaraura Samín Sapay Sayani Sayri "Sayri Tupac" "Seran Tugun" "Seton Apac" Sinche Sinchi Siuca Somac Sonco Sotaurco Suhay Surandaman Suri Suyai Shullka Suksu_Sokso Sumainka Sunk'u_Sonjok Sunk'uyuq_Sonjoyoq 
+			Tacaynamo Tanqui Taquiri Taracun Taraque Taua Titu "Titu Cusi Yupanqui" Topa Troynuremo Tucuycuyche Tupa Tupac_Tupak "Túpac Amaru" "Túpac Hualpa" "Túpac Yupanqui" Tupac-Amaru Tinkupuma T'it'u_T'it'o Tit'uatawchi Tupakusi Tawa 
+			Uchu Ucumari Umak Unay Urtyantemu "Usca Curiatao" Usuy Uturuncu 
+			Vetsalynun "Villac Umu" Viracocha 
+			Wamani Wayra Wallpa Wallpaya Waman Wamanchawa Wamanchuri Wamay Wanka Wanqar Waqralla Wari Wariruna Warit'it'u Waskhar Waywa Wawal Wayasamin Wayaw Wayna Waynaqhapaq Willaq_Willak Willka Willkawaman Wiraqucha Wisa
+			Yacu "Yahuar Hacuac" "Yamqui Mayta" Yanamayu Yauri Yetuniamu Yupanqui Yurac 
+			Zergoetanu Zambiza Zopahua 
+			Qatiqil_Qateqil Qatuilla Qaylla Qhapaq_Khapaj Qhapaqwari Qhapaqyupanki Qhaqya Qhari Qhawaq Qhawachi Qhawana Qhispe_Qhespi Qhispiyupanki Qulla_Qolla Qullana_Qollana Qullaqhapaq Qoni Qoniraya Quri_Kuri Qoripoma Qoriwaman Qullqi_Qollque Qullqiyuq
+		}
+		
+		female_names = {
+			Achiq Achiyaku Ailen Akllasisa Akllasumaq Alliyma Ayelen Aylen Axomamma
+			Calfuray Cavillaca Cayfutray Chaska Ch'ayña Collipal Curipan Cuyen 
+			Golotina 
+			Hamk'a Huch'uykilla Huchuysisa 
+			Ilchahueque Imasumaq Inkasisa Ipi Izhi 
+			Jalana 
+			Karwasisa Killasisa Killasumaq Kumara Kusi Kusi-Quyllur Kuyani Kuyen Lefitray Leflay Llanquipan Llanquiray 
+			Maiara Mamanea Mamanee Mamaney Mamani Mamanie Mamany Manay Manque Millaray Miski Moraeka Moraekah Moraika Moraikah Morayka Moraykah Munay 
+			Naira Nina Ninasisa 
+			Pachama Peyeche Pilpintu Piro Pitrel 
+			Q'orianka Qhawa Qhispe Qhispi Qhora Qocha Qora Qori Quetroman Quila Quilah Quill Quilla Quillah Quille Quimey Quintruy Quintuqueo Qullqi Qura Quri Quriquyllur Qurit'ika Quya Quyakusi Quyla Quyle Quylla Quylle Quyllurit'i 
+			Rayen 
+			Sachasisa Saqui Sayen Sisa Somoche Sumaq Sumat'ika Suyana 
+			Taki Takiya Tamaya Tamiasisa Tamya Tamyasisa Tanitani Taruka Tuta 
+			Umiña Urpi Urpikusi Waqar Waylla Waytamayu 
+			Yachay Yachaya Yajaira Yana Yma 
+			Zincheata Zincheatah Zincheeta Zincheetah Zincheita Zincheitah Zinchieta Zinchietah Zinchita Zinchitah Zinchyta Zinchytah 
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+	
+		modifier = default_culture_modifier
+	}
+	chincha = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.95 0.78 0.49 }
+		
+		male_names = {
+			Achic Ackonqhawaq Akapana Aiyotechapun Amaru Amaruqhipse Amarutupaq Amaruyupanki Anca_Anka "Anco Coyuch" Anqasmayu Anqaspuma Ankuwillka Antawaylla Anquimarca Anta Antay Antiman Antinanco Apalani Apo Apu Apurimac Asto Astu Atahualpa Atauchi Atoc "Atoc Sopa" Atoc-Suqui Atuc Atiq_Atik Aucaman Auqui Auqui-Huaman Awkipuma Awkitupaq Awkiyutupanki Ayar
+			Buvaovamu			
+			Caiya "Caja Cápac" "Caja Cimcim" Canchari Catequil Cauac "Cayo Topa" Cayua Chalcuchima Challco "Cama Bergu" Chaupi_Chawpi Chawar Chikan Chukilla Chun Chusku Ch'uya Chiaquitinta Chican Chilche Chirapa Choque Chumtiku "Chumun Caur" Chuqui Chuya Coique Colla Colla-Topa Collana Coni Coniraya Coyllas Culla Cunac Cuntur Curi Curiatao Cusi Cusichaca Cuyuchi Cuzco 
+			Docoshamu Draytonamu
+			Ehenymacu
+			"Felan Tamuc"
+			Guacra Guaina Guaman "Guaman Chumu" Guanca Guari Guaritito Guaritopa "Guari Cur" Guayasamin Guayra Gusmango
+			Hacan_Hakan Hatuntupaq Huaman Huáscar "Huayna Cápac" Huaypalcon Hakanpuma Huksunk'u_Huksonjo
+			Illaquita Illayuq_Illayuk Illapha_Illapu Illapuma Illatiksi_Illateqsi Ilsayunamu Imasu Inca_Inka "Inca Roca" Inkaurqu_Inkaurko Inti_Ynti Intiawki Intichurin Inti'Illapha Intiwaman Iskay Iskaywari
+			Jotiantikaka
+			Katitika Kuyani Kuzko K'Achi Karwamayu Kashayawri K'aywa K'inti_K'Enti Killinchu_Qillilliku Kichwasam_Quichuasaman Kumya Kunaq_Kunak Kuntur Kunturkanki Kusi Kusiwallpa K'uyuq_K'uyuk K'uyuchi
+			"Litun Orco" Llacsa Luyes Llanqi_Llanke Llashapuma Lliwyaq Lluqi_Lloque Lluqiyupanki_Lloqeyupanki
+			Maicu Maila Mancko Manco "Manco Cápac" Mancoe Mancoh Manko Maras Marcavilca Mayta Mayua Melantonan "Michan Caman" "Michan Chimor" "Muhton Belan" Mullu Mallki Mallqu_Mallko Maywa_Mayua Maytaqhapaq
+			Nahuel "Nancen Pico" Nartamamu Nayra "Ninan Cuyuchi" Nehuametepun Ninancoro Ninan Ninaqolla Ninanwari Ninawillka
+			Opolcynamun "Orco Varanca" Ozcoc 
+			Pacatmamu Pachacútec Panti Parinango Pascac Paucar Paullu Pichiu Pomacapi Pomaguala Puma "Pumi Sopa" Puric Pusca Puyu-Vilca Puznaymun
+			Quenti Quidel Quilaco Quingallumbo Quinti Quintiraura Quispe "Quispe Titu" Quisquis Quizo 
+			Raimea Raimee Raimey Raimi Raimie Raimy "Relyen Padnu" Rimac Rimachi Ronpa Rufay Rumi Ruminavi Rawraq_Rawrak Raymi Rimaq_Rimak Rimachi Rumi Rumimaki Rumisunk'u_Rumisonjo Runak'utu Runtu Ruphay
+			Sach'a Sahuaraura Samín Sapay Sayani Sayri "Sayri Tupac" "Seran Tugun" "Seton Apac" Sinche Sinchi Siuca Somac Sonco Sotaurco Suhay Surandaman Suri Suyai Shullka Suksu_Sokso Sumainka Sunk'u_Sonjok Sunk'uyuq_Sonjoyoq 
+			Tacaynamo Tanqui Taquiri Taracun Taraque Taua Titu "Titu Cusi Yupanqui" Topa Troynuremo Tucuycuyche Tupa Tupac_Tupak "Túpac Amaru" "Túpac Hualpa" "Túpac Yupanqui" Tupac-Amaru Tinkupuma T'it'u_T'it'o Tit'uatawchi Tupakusi Tawa 
+			Uchu Ucumari Umak Unay Urtyantemu "Usca Curiatao" Usuy Uturuncu 
+			Vetsalynun "Villac Umu" Viracocha 
+			Wamani Wayra Wallpa Wallpaya Waman Wamanchawa Wamanchuri Wamay Wanka Wanqar Waqralla Wari Wariruna Warit'it'u Waskhar Waywa Wawal Wayasamin Wayaw Wayna Waynaqhapaq Willaq_Willak Willka Willkawaman Wiraqucha Wisa
+			Yacu "Yahuar Hacuac" "Yamqui Mayta" Yanamayu Yauri Yetuniamu Yupanqui Yurac 
+			Zergoetanu Zambiza Zopahua 
+			Qatiqil_Qateqil Qatuilla Qaylla Qhapaq_Khapaj Qhapaqwari Qhapaqyupanki Qhaqya Qhari Qhawaq Qhawachi Qhawana Qhispe_Qhespi Qhispiyupanki Qulla_Qolla Qullana_Qollana Qullaqhapaq Qoni Qoniraya Quri_Kuri Qoripoma Qoriwaman Qullqi_Qollque Qullqiyuq
+		}
+		
+		female_names = {
+			Achiq Achiyaku Ailen Akllasisa Akllasumaq Alliyma Ayelen Aylen Axomamma
+			Calfuray Cavillaca Cayfutray Chaska Ch'ayña Collipal Curipan Cuyen 
+			Golotina 
+			Hamk'a Huch'uykilla Huchuysisa 
+			Ilchahueque Imasumaq Inkasisa Ipi Izhi 
+			Jalana 
+			Karwasisa Killasisa Killasumaq Kumara Kusi Kusi-Quyllur Kuyani Kuyen Lefitray Leflay Llanquipan Llanquiray 
+			Maiara Mamanea Mamanee Mamaney Mamani Mamanie Mamany Manay Manque Millaray Miski Moraeka Moraekah Moraika Moraikah Morayka Moraykah Munay 
+			Naira Nina Ninasisa 
+			Pachama Peyeche Pilpintu Piro Pitrel 
+			Q'orianka Qhawa Qhispe Qhispi Qhora Qocha Qora Qori Quetroman Quila Quilah Quill Quilla Quillah Quille Quimey Quintruy Quintuqueo Qullqi Qura Quri Quriquyllur Qurit'ika Quya Quyakusi Quyla Quyle Quylla Quylle Quyllurit'i 
+			Rayen 
+			Sachasisa Saqui Sayen Sisa Somoche Sumaq Sumat'ika Suyana 
+			Taki Takiya Tamaya Tamiasisa Tamya Tamyasisa Tanitani Taruka Tuta 
+			Umiña Urpi Urpikusi Waqar Waylla Waytamayu 
+			Yachay Yachaya Yajaira Yana Yma 
+			Zincheata Zincheatah Zincheeta Zincheetah Zincheita Zincheitah Zinchieta Zinchietah Zinchita Zinchitah Zinchyta Zinchytah 
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	quechua = { # Formable culture 
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.7 0.7 0.1 }
+		
+		male_names = {
+			Achic Ackonqhawaq Akapana Aiyotechapun Amaru Amaruqhipse Amarutupaq Amaruyupanki Anca_Anka "Anco Coyuch" Anqasmayu Anqaspuma Ankuwillka Antawaylla Anquimarca Anta Antay Antiman Antinanco Apalani Apo Apu Apurimac Asto Astu Atahualpa Atauchi Atoc "Atoc Sopa" Atoc-Suqui Atuc Atiq_Atik Aucaman Auqui Auqui-Huaman Awkipuma Awkitupaq Awkiyutupanki Ayar
+			Buvaovamu			
+			Caiya "Caja Cápac" "Caja Cimcim" Canchari Catequil Cauac "Cayo Topa" Cayua Chalcuchima Challco "Cama Bergu" Chaupi_Chawpi Chawar Chikan Chukilla Chun Chusku Ch'uya Chiaquitinta Chican Chilche Chirapa Choque Chumtiku "Chumun Caur" Chuqui Chuya Coique Colla Colla-Topa Collana Coni Coniraya Coyllas Culla Cunac Cuntur Curi Curiatao Cusi Cusichaca Cuyuchi Cuzco 
+			Docoshamu Draytonamu
+			Ehenymacu
+			"Felan Tamuc"
+			Guacra Guaina Guaman "Guaman Chumu" Guanca Guari Guaritito Guaritopa "Guari Cur" Guayasamin Guayra Gusmango
+			Hacan_Hakan Hatuntupaq Huaman Huáscar "Huayna Cápac" Huaypalcon Hakanpuma Huksunk'u_Huksonjo
+			Illaquita Illayuq_Illayuk Illapha_Illapu Illapuma Illatiksi_Illateqsi Ilsayunamu Imasu Inca_Inka "Inca Roca" Inkaurqu_Inkaurko Inti_Ynti Intiawki Intichurin Inti'Illapha Intiwaman Iskay Iskaywari
+			Jotiantikaka
+			Katitika Kuyani Kuzko K'Achi Karwamayu Kashayawri K'aywa K'inti_K'Enti Killinchu_Qillilliku Kichwasam_Quichuasaman Kumya Kunaq_Kunak Kuntur Kunturkanki Kusi Kusiwallpa K'uyuq_K'uyuk K'uyuchi
+			"Litun Orco" Llacsa Luyes Llanqi_Llanke Llashapuma Lliwyaq Lluqi_Lloque Lluqiyupanki_Lloqeyupanki
+			Maicu Maila Mancko Manco "Manco Cápac" Mancoe Mancoh Manko Maras Marcavilca Mayta Mayua Melantonan "Michan Caman" "Michan Chimor" "Muhton Belan" Mullu Mallki Mallqu_Mallko Maywa_Mayua Maytaqhapaq
+			Nahuel "Nancen Pico" Nartamamu Nayra "Ninan Cuyuchi" Nehuametepun Ninancoro Ninan Ninaqolla Ninanwari Ninawillka
+			Opolcynamun "Orco Varanca" Ozcoc 
+			Pacatmamu Pachacútec Panti Parinango Pascac Paucar Paullu Pichiu Pomacapi Pomaguala Puma "Pumi Sopa" Puric Pusca Puyu-Vilca Puznaymun
+			Quenti Quidel Quilaco Quingallumbo Quinti Quintiraura Quispe "Quispe Titu" Quisquis Quizo 
+			Raimea Raimee Raimey Raimi Raimie Raimy "Relyen Padnu" Rimac Rimachi Ronpa Rufay Rumi Ruminavi Rawraq_Rawrak Raymi Rimaq_Rimak Rimachi Rumi Rumimaki Rumisunk'u_Rumisonjo Runak'utu Runtu Ruphay
+			Sach'a Sahuaraura Samín Sapay Sayani Sayri "Sayri Tupac" "Seran Tugun" "Seton Apac" Sinche Sinchi Siuca Somac Sonco Sotaurco Suhay Surandaman Suri Suyai Shullka Suksu_Sokso Sumainka Sunk'u_Sonjok Sunk'uyuq_Sonjoyoq 
+			Tacaynamo Tanqui Taquiri Taracun Taraque Taua Titu "Titu Cusi Yupanqui" Topa Troynuremo Tucuycuyche Tupa Tupac_Tupak "Túpac Amaru" "Túpac Hualpa" "Túpac Yupanqui" Tupac-Amaru Tinkupuma T'it'u_T'it'o Tit'uatawchi Tupakusi Tawa 
+			Uchu Ucumari Umak Unay Urtyantemu "Usca Curiatao" Usuy Uturuncu 
+			Vetsalynun "Villac Umu" Viracocha 
+			Wamani Wayra Wallpa Wallpaya Waman Wamanchawa Wamanchuri Wamay Wanka Wanqar Waqralla Wari Wariruna Warit'it'u Waskhar Waywa Wawal Wayasamin Wayaw Wayna Waynaqhapaq Willaq_Willak Willka Willkawaman Wiraqucha Wisa
+			Yacu "Yahuar Hacuac" "Yamqui Mayta" Yanamayu Yauri Yetuniamu Yupanqui Yurac 
+			Zergoetanu Zambiza Zopahua 
+			Qatiqil_Qateqil Qatuilla Qaylla Qhapaq_Khapaj Qhapaqwari Qhapaqyupanki Qhaqya Qhari Qhawaq Qhawachi Qhawana Qhispe_Qhespi Qhispiyupanki Qulla_Qolla Qullana_Qollana Qullaqhapaq Qoni Qoniraya Quri_Kuri Qoripoma Qoriwaman Qullqi_Qollque Qullqiyuq
+		}
+		
+		female_names = {
+			Achiq Achiyaku Ailen Akllasisa Akllasumaq Alliyma Ayelen Aylen Axomamma
+			Calfuray Cavillaca Cayfutray Chaska Ch'ayña Collipal Curipan Cuyen 
+			Golotina 
+			Hamk'a Huch'uykilla Huchuysisa 
+			Ilchahueque Imasumaq Inkasisa Ipi Izhi 
+			Jalana 
+			Karwasisa Killasisa Killasumaq Kumara Kusi Kusi-Quyllur Kuyani Kuyen Lefitray Leflay Llanquipan Llanquiray 
+			Maiara Mamanea Mamanee Mamaney Mamani Mamanie Mamany Manay Manque Millaray Miski Moraeka Moraekah Moraika Moraikah Morayka Moraykah Munay 
+			Naira Nina Ninasisa 
+			Pachama Peyeche Pilpintu Piro Pitrel 
+			Q'orianka Qhawa Qhispe Qhispi Qhora Qocha Qora Qori Quetroman Quila Quilah Quill Quilla Quillah Quille Quimey Quintruy Quintuqueo Qullqi Qura Quri Quriquyllur Qurit'ika Quya Quyakusi Quyla Quyle Quylla Quylle Quyllurit'i 
+			Rayen 
+			Sachasisa Saqui Sayen Sisa Somoche Sumaq Sumat'ika Suyana 
+			Taki Takiya Tamaya Tamiasisa Tamya Tamyasisa Tanitani Taruka Tuta 
+			Umiña Urpi Urpikusi Waqar Waylla Waytamayu 
+			Yachay Yachaya Yajaira Yana Yma 
+			Zincheata Zincheatah Zincheeta Zincheetah Zincheita Zincheitah Zinchieta Zinchietah Zinchita Zinchitah Zinchyta Zinchytah 
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+}
+
+aymara_group = {
+	graphical_cultures = { bodpagfx westerngfx }
+	
+	lupaca = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.92 0.43 0.0 }
+		
+		male_names = {
+			"Achu Puquta" Achuri Achuxa "Ajara Jaqi" "Ajayu Pacha" "Ajayu Phaxchiri" "Ajayu Satiri" "Ajayu Pacha" Amaqari Amawt'a Amtaya Amuja
+			"Ch'ama Atipiri" "Ch'ama Kuka" "Ch'ama Quqani" Ch'ama Ch'amanchiri Ch'amankama "Ch'awara Mallku"
+			"Jach'a Katari" "Jach'a Paraqaya" "Jach'a Qala" Jach'a "Jak'anta Uru" Jak'asaya Jalanta "Jalka Lupi"
+			"Qala Chuymani" "Qala T'aqaya" "Qamana Uru"
+		}
+		female_names = {
+			"Achara Mara" "Achara Quqa" Akilla Alaja "Alaxa Uma" Ajanani Aliqa Alira "Alt'ata Chuymani" "Ama Panqara" Ama "Qhiya" "Amara Wara" Amajaya Achika Achu Achuya Ajana Akhana
+			Ilu Illa "Illa Nayra" "Illa Qullqi" "Illa Thaya" "Illa Uma" 
+			Khasany Khasaya Khaya "Khunu Ajayu" "Khunu Illa"
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	charca = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.62 0.33 0.29 }
+		
+		male_names = {
+			"Achu Puquta" Achuri Achuxa "Ajara Jaqi" "Ajayu Pacha" "Ajayu Phaxchiri" "Ajayu Satiri" "Ajayu Pacha" Amaqari Amawt'a Amtaya Amuja
+			"Ch'ama Atipiri" "Ch'ama Kuka" "Ch'ama Quqani" Ch'ama Ch'amanchiri Ch'amankama "Ch'awara Mallku"
+			"Jach'a Katari" "Jach'a Paraqaya" "Jach'a Qala" Jach'a "Jak'anta Uru" Jak'asaya Jalanta "Jalka Lupi"
+			"Qala Chuymani" "Qala T'aqaya" "Qamana Uru"
+		}
+		female_names = {
+			"Achara Mara" "Achara Quqa" Akilla Alaja "Alaxa Uma" Ajanani Aliqa Alira "Alt'ata Chuymani" "Ama Panqara" Ama "Qhiya" "Amara Wara" Amajaya Achika Achu Achuya Ajana Akhana
+			Ilu Illa "Illa Nayra" "Illa Qullqi" "Illa Thaya" "Illa Uma" 
+			Khasany Khasaya Khaya "Khunu Ajayu" "Khunu Illa"
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	aymara = { #Formable culture
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 1.0 0.9 0.0 }
+		
+		male_names = {
+			"Achu Puquta" Achuri Achuxa "Ajara Jaqi" "Ajayu Pacha" "Ajayu Phaxchiri" "Ajayu Satiri" "Ajayu Pacha" Amaqari Amawt'a Amtaya Amuja
+			"Ch'ama Atipiri" "Ch'ama Kuka" "Ch'ama Quqani" Ch'ama Ch'amanchiri Ch'amankama "Ch'awara Mallku"
+			"Jach'a Katari" "Jach'a Paraqaya" "Jach'a Qala" Jach'a "Jak'anta Uru" Jak'asaya Jalanta "Jalka Lupi"
+			"Qala Chuymani" "Qala T'aqaya" "Qamana Uru"
+		}
+		female_names = {
+			"Achara Mara" "Achara Quqa" Akilla Alaja "Alaxa Uma" Ajanani Aliqa Alira "Alt'ata Chuymani" "Ama Panqara" Ama "Qhiya" "Amara Wara" Amajaya Achika Achu Achuya Ajana Akhana
+			Ilu Illa "Illa Nayra" "Illa Qullqi" "Illa Thaya" "Illa Uma" 
+			Khasany Khasaya Khaya "Khunu Ajayu" "Khunu Illa"
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+}
+
+moche = {
+	graphical_cultures = { bodpagfx westerngfx }
+	
+	wari = { 
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 1.0 0.78 0.6 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	chimu = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.67 0.6 0.29 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	chancay = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.57 0.50 0.6 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		founder_named_dynasties = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+}
+	

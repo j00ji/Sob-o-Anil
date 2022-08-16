@@ -1,0 +1,21 @@
+# c_pocos_de_caldas
+
+# County Title
+title = c_pocos_de_caldas
+
+# Settlements
+max_settlements = 4
+
+b_palace = tribal
+b_caldas = temple
+#b_cabo_verde = temple
+#b_andradas = castle
+#b_serra_de_sao_domingos = city
+#b_palmeiral_2 = temple
+#b_serra_dos_lemes = castle
+
+# Misc
+culture = canastro
+religion = anchietican
+
+#History

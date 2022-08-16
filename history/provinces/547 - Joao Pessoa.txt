@@ -1,0 +1,21 @@
+# c_joao_pessoa
+
+# County Title
+title = c_joao_pessoa
+
+# Settlements
+max_settlements = 5
+
+b_castelo_branco_2 = castle
+b_cabedelo = city
+b_obaniko = temple
+b_bayeux = castle
+#b_sao_francisco = city
+#b_santa_rita_3 = temple
+#b_cabedelo_2 = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

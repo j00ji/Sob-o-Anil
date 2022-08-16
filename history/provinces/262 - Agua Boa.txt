@@ -1,0 +1,21 @@
+# c_agua_boa
+
+# County Title
+title = c_agua_boa
+
+# Settlements
+max_settlements = 2
+
+b_agua_boa = tribal
+#b_campinapolis = city
+#b_cocalinho = temple
+#b_ribeirao_cascalheira = castle
+#b_querencia = city
+#b_gaucha_do_norte = temple
+#b_nova_nazare = castle
+
+# Misc
+culture = xavante
+religion = manredebu
+
+#History

@@ -1,0 +1,21 @@
+# c_tucurui
+
+# County Title
+title = c_tucurui
+
+# Settlements
+max_settlements = 2
+
+b_tucurui = castle
+b_breu_branco = temple
+#b_jacunda = temple
+#b_nova_ipixuna = castle
+#b_goianesia_do_para = city
+#b_mulato = temple
+#b_dom_eliseu = castle
+
+# Misc
+culture = paraense
+religion = xabaxai_xagi
+
+#History

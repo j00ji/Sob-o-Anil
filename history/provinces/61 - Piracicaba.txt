@@ -1,0 +1,21 @@
+# c_piracicaba
+
+# County Title
+title = c_piracicaba
+
+# Settlements
+max_settlements = 5
+
+b_vila_nova = castle
+b_santa_olimpia = city
+b_santo_antonio_2 = temple
+#b_sao_pedro = castle
+#b_rio_das_pedras = city
+#b_vila_boyes = temple
+#b_pauliceia = castle
+
+# Misc
+culture = americano
+religion = anchietican
+
+#History

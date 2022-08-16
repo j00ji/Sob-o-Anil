@@ -1,0 +1,21 @@
+# c_santa_rosa_2
+
+# County Title
+title = c_santa_rosa_2
+
+# Settlements
+max_settlements = 2
+
+b_santa_rosa_2 = tribal
+#b_toay = city
+#b_winifreda = temple
+#b_anguil = castle
+#b_conhelo = city
+#b_cachirulo = temple
+#b_la_primavera = castle
+
+# Misc
+culture = pampeano
+religion = gaucheria
+
+#History

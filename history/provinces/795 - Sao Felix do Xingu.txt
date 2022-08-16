@@ -1,0 +1,21 @@
+# c_sao_felix_do_xingu
+
+# County Title
+title = c_sao_felix_do_xingu
+
+# Settlements
+max_settlements = 2
+
+b_sao_felix_do_xingu = tribal
+#b_tucuma = city
+#b_ourilandia_do_norte = temple
+#b_catete_do_para = castle
+#b_xororo = city
+#b_agrovila_do_cuca = temple
+#b_agua_azul_do_norte = castle
+
+# Misc
+culture = kayapo
+religion = xabaxai_xagi
+
+#History

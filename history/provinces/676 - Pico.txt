@@ -1,0 +1,21 @@
+# c_pico
+
+# County Title
+title = c_pico
+
+# Settlements
+max_settlements = 1
+
+b_pico = tribal
+#b_realico = city
+#b_castex = temple
+#b_alvear = castle
+#b_luiggi = city
+#b_trenel = temple
+#b_pichi_huinca = castle
+
+# Misc
+culture = contadino
+religion = gaucheria
+
+#History

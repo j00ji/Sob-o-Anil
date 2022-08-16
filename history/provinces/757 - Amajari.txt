@@ -1,0 +1,21 @@
+# c_amajari
+
+# County Title
+title = c_amajari
+
+# Settlements
+max_settlements = 2
+
+b_amajari = castle
+#b_pedra_pintada_2 = city
+#b_simiao = temple
+#b_tepequem = castle
+#b_ponto_da_serra = city
+#b_aningal = temple
+#b_araca = castle
+
+# Misc
+culture = roraimo
+religion = hekura
+
+#History

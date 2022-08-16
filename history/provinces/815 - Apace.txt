@@ -1,0 +1,21 @@
+# c_apace
+
+# County Title
+title = c_apace
+
+# Settlements
+max_settlements = 2
+
+b_apace = castle
+#b_camara = city
+#b_boim = temple
+#b_cameta_2 = castle
+#b_samauma = city
+#b_pinhel = temple
+#b_urucurituba = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

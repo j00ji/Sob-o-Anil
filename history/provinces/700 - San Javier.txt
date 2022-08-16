@@ -1,0 +1,21 @@
+# c_san_javier
+
+# County Title
+title = c_san_javier
+
+# Settlements
+max_settlements = 4
+
+b_javier = castle
+b_romang = temple
+b_la_brava = tribal
+#b_aricanquin = castle
+#b_dolores_3 = city
+#b_pantanal = temple
+#b_la_criolla_2 = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

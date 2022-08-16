@@ -1,0 +1,21 @@
+# c_rocha
+
+# County Title
+title = c_rocha
+
+# Settlements
+max_settlements = 2
+
+b_rocha = castle
+#b_garzon = city
+#b_la_paloma = temple
+#b_cabo_polonio = castle
+#b_la_pedrera = city
+#b_castillos = temple
+#b_valizas = castle
+
+# Misc
+culture = urbuguayo
+religion = bandean
+
+#History

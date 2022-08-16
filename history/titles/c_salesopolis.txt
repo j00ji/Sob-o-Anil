@@ -1,0 +1,32 @@
+# e_vera_cruz
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2220.1.1 = {
+	holder = 110428 #Gustavo Ramalho
+}
+2273.1.15 = {
+	holder = 110429 #Sandro Ramalho
+}
+2292.4.6 = {
+	holder = 110362 #Leandro Yamashita
+}
+2299.7.10 = {
+	holder = 110457 #Manuel de Campos Sales
+}
+2326.2.6 = {
+	holder = 110458 #Samuel de Campos Sales
+}
+2361.5.30 = {
+	holder = 110443 #Guilherme Ramalho 
+}
+2363.12.5 = { #Guilherme Ramalho ran from Salesópolis
+	holder = 110461 #Jonathan de Campos Sales
+}
+2364.4.25 = { 
+	liege = k_paulistano
+}

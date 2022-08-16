@@ -1,0 +1,21 @@
+# c_coronel_portillo
+
+# County Title
+title = c_coronel_portillo
+
+# Settlements
+max_settlements = 4
+
+b_pucallpa = castle
+b_aguaytia = city
+b_yarinachocha = temple
+#b_manantay = castle
+#b_campoverde = city
+#b_irazola = temple
+#b_curimana = castle
+
+# Misc
+culture = charapa
+religion = santo_daime
+
+#History

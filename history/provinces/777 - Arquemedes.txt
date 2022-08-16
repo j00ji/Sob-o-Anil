@@ -1,0 +1,21 @@
+# c_arquemedes
+
+# County Title
+title = c_arquemedes
+
+# Settlements
+max_settlements = 4
+
+b_arquemedes = castle
+#b_tabajara = city
+#b_cujubim = temple
+#b_triunfo_3 = castle
+#b_jacunda_manoa = city
+#b_rio_crespo = temple
+#b_rama_rama = castle
+
+# Misc
+culture = rikbatsa
+religion = evangelical
+
+#History

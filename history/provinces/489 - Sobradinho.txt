@@ -1,0 +1,21 @@
+# c_sobradinho
+
+# County Title
+title = c_sobradinho
+
+# Settlements
+max_settlements = 2
+
+b_sobradinho = castle
+b_americo = city
+#b_piri = temple
+#b_itapera = castle
+#b_limoeiro = city
+#b_riachos_do_paes = temple
+#b_retiro_de_cima = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

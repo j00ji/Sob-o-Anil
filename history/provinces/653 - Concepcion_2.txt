@@ -1,0 +1,21 @@
+# c_concepcion_2
+
+# County Title
+title = c_concepcion_2
+
+# Settlements
+max_settlements = 4
+
+b_concepcion_2 = castle
+b_gualeychu = city
+b_basavilbaso = temple
+#b_elia = castle
+#b_urdinarrain = city
+#b_almada = temple
+#b_parera = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

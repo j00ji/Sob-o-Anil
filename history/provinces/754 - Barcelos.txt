@@ -1,0 +1,21 @@
+# c_barcelos
+
+# County Title
+title = c_barcelos
+
+# Settlements
+max_settlements = 3
+
+b_barcelos = tribal
+#b_acariquara = city
+#b_aracu_2 = temple
+#b_santana_4 = castle
+#b_cumaru_ou_esmeralda = city
+#b_coqui = temple
+#b_puxuri = castle
+
+# Misc
+culture = amazonense
+religion = holy_spirit
+
+#History

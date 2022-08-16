@@ -1,0 +1,21 @@
+# c_chiloe
+
+# County Title
+title = c_chiloe
+
+# Settlements
+max_settlements = 4
+
+b_castro_2 = castle
+b_ancud = city
+#b_quellon = temple
+#b_chonchi = castle
+#b_dalcahue = city
+#b_achao = temple
+#b_chacao = castle
+
+# Misc
+culture = sureno
+religion = catholic
+
+#History

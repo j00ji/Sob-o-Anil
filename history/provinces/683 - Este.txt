@@ -1,0 +1,21 @@
+# c_este
+
+# County Title
+title = c_este
+
+# Settlements
+max_settlements = 5
+
+b_este = city
+b_hernandarias = castle
+b_irala = temple
+b_franco = castle
+#b_monday = city
+#b_minga_guazu = temple
+#b_cedrales = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

@@ -1,0 +1,136 @@
+
+{% for name, source, target in [
+		('realm_wonder_upgrade', 'Char', 'WonderUpgrade'),
+		('demesne_wonder', 'Char', 'Wonder'),
+		('realm_wonder', 'Char', 'Wonder'),
+		('wonder', '', 'Wonder'),
+	] %}
+{{ ctx.calls.make_any_and_random_scopes(name, source, target) }}
+{% endfor %}
+
+{% for scope in ['Wonder', 'WonderUpgrade'] %}
+
+(ContextValidator {{ scope }}Trigger) = { Members = {
+	(N N) = { Left = "location" Right = ProvTrigger }
+
+	(Y  ) = { Left = "is_active" Right = Bool }
+	(N Y) = { Left = "has_wonder_upgrade" Right = WonderUpgrade }
+
+	(Y  ) = { Left = "is_building_wonder_upgrade" Right = Bool }
+
+} }
+
+(ContextValidator {{ scope }}Command) = { Members = {
+	(N N) = { Left = "location" Right = ProvCommand }
+	(Y  ) = { Left = "set_description" Right = String }
+	(Y  ) = { Left = "set_name" Right = String }
+
+} }
+
+{% endfor %}
+
+{% for scope in ['Char', 'Prov'] %}
+
+(ContextValidator {{ scope }}Trigger) = { Members = {
+	(N Y) = { Left = "has_wonder_upgrade" Right = WonderUpgrade }
+	(Y  ) = { Left = "has_started_building_wonder" Right = Bool }
+	(N Y) = { Left = "has_started_building_wonder" Right = Wonder }
+} }
+
+(ContextValidator {{ scope }}Command) = { Members = {
+} }
+
+{% endfor %}
+
+(ContextValidator WonderTrigger) = { Members = {
+	(N N) = { Left = "original_wonder_owner" Right = CharTrigger }
+	(N N) = { Left = "wonder_owner" Right = CharTrigger }
+	(N N) = { Left = "any_upgrade_on_wonder" Right = WonderUpgradeTriggerWithCount }
+
+	(Y  ) = { Left = "has_started_building_wonder" Right = Bool }
+	(Y  ) = { Left = "has_custom_name" Right = Bool }
+	(Y  ) = { Left = "wonder_stage" Right = PInt }
+	(Y  ) = { Left = "wonder_age" Right = PInt }
+	(N Y) = { Left = "num_of_wonder_upgrades" Right = NnInt }
+	(Y  ) = { Left = "is_being_looted" Right = Bool }
+	(Y  ) = { Left = "is_damaged" Right = Bool }
+	
+	(Y  ) = { Left = "has_wonder" Right = Bool }
+	(A Y) = { Left = "has_wonder" Right = Wonder }
+	(Y  ) = { Left = "is_at_lootable_stage" Right = Bool }
+
+	(Y  ) = { Left = "is_building_wonder" Right = Bool }
+	(A Y) = { Left = "is_building_wonder" Right = Wonder }
+	(A Y) = { Left = "is_building_wonder_upgrade" Right = WonderUpgrade }
+	(N Y) = { Left = "has_wonder_upgrade_flag" Right = String (LocalOp "chk" "[R]" AddChecker WonderUpgradeFlag If = TraceFlags) }
+	#(N Y) = { Left = "had_wonder_upgrade_flag" Right = WonderUpgradeFlagClause }
+} }
+
+(ContextValidator WonderCommand) = { Members = {
+	(N N) = { Left = "original_wonder_owner" Right = CharCommand }
+	(N N) = { Left = "wonder_owner" Right = CharCommand }
+	(N N) = { Left = "any_upgrade_on_wonder" Right = WonderUpgradeMaybeLimitCommand }
+
+	(Y  ) = { Left = "set_wonder_model" Right = String }
+	(Y  ) = { Left = "set_wonder_damaged" Right = Yes }
+	(N Y) = { Left = "add_wonder_upgrade" Right = WonderUpgrade }
+	(N Y) = { Left = "destroy_wonder_upgrade" Right = WonderUpgrade }
+} }
+
+(ContextValidator WonderUpgradeTrigger) = { Members = {
+	(N N) = { Left = "wonder" Right = WonderTrigger }
+	(N Y) = { Left = "wonder_upgrade" Right = MaybeEventTargetWonderUpgrade }
+
+} }
+
+(ContextValidator WonderUpgradeCommand) = { Members = {
+	(N N) = { Left = "wonder" Right = WonderCommand }
+
+	(Y N) = { Left = "destroy_wonder_upgrade" Right = Yes }
+	(N Y) = { Left = "add_wonder_upgrade" Right = Yes }
+} }
+
+(ContextValidator ProvTrigger) = { Members = {
+	(N N) = { Left = "wonder" Right = WonderTrigger }
+	
+	(Y  ) = { Left = "has_wonder" Right = Bool }
+	(A Y) = { Left = "has_wonder" Right = Wonder }
+	(Y  ) = { Left = "is_building_wonder" Right = Bool }
+	(A Y) = { Left = "is_building_wonder" Right = Wonder }
+
+} }
+
+(ContextValidator CharTrigger) = { Members = {
+	(N Y) = { Left = "num_of_wonder_upgrades" Right = NnInt } # Total across all that char owns, probably
+	(Y  ) = { Left = "has_wonder" Right = Bool }
+	(A Y) = { Left = "has_wonder" Right = Wonder }
+	(Y  ) = { Left = "is_building_wonder" Right = Bool }
+	(N Y) = { Left = "is_building_wonder" Right = Wonder }
+
+} }
+
+(ContextValidator ProvCommand) = { Members = {
+	(N N) = { Left = "wonder" Right = WonderCommand }
+
+} }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

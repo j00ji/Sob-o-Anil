@@ -1,0 +1,21 @@
+# c_mutuipe
+
+# County Title
+title = c_mutuipe
+
+# Settlements
+max_settlements = 2
+
+b_laje = castle
+b_mutuipe = city
+#b_sao_miguel_das_matas = temple
+#b_valenca_2 = castle
+#b_pres_tancredo_neves = city
+#b_santa_ines = temple
+#b_ubaira = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

@@ -1,0 +1,21 @@
+# c_coxim
+
+# County Title
+title = c_coxim
+
+# Settlements
+max_settlements = 1
+
+b_coxim = tribal
+#b_costa_rica = city
+#b_sonora = temple
+#b_rio_verde_de_mato_grosso = castle
+#b_pedro_gomes = city
+#b_figueirao = temple
+#b_alcinopolis = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

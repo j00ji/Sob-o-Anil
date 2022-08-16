@@ -1,0 +1,21 @@
+# c_putumayo
+
+# County Title
+title = c_putumayo
+
+# Settlements
+max_settlements = 5
+
+b_lago_agrio = castle
+b_puerto_asis = city
+b_mocoa = temple
+b_shushufindi = castle
+#b_putumayo = city
+#b_orito = temple
+#b_sibundoy = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

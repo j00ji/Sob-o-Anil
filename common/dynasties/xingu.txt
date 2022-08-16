@@ -1,0 +1,40 @@
+###ÄNSI
+### Xavante: 730001 - 740000
+### Xerente: 740001 - 750000
+
+###charcters?
+
+##Random dynasties
+735001 = {
+    name = "Uptabi"
+	culture = xavante
+}
+735002 = {
+    name = "Anharowa"
+	culture = xavante
+}
+735003 = {
+    name = "A'Uwe"
+	culture = xavante
+}
+735004 = {
+    name = "Ho’Amoniwimhã"
+	culture = xavante
+}
+
+745001 = {
+    name = Wahirê
+	culture = xerente
+}
+745002 = {
+    name = Kreprehí
+	culture = xerente
+}
+745003 = {
+    name = Krozaké
+	culture = xerente
+}
+#745004 = {
+#    name =
+#	culture = xerente
+#}

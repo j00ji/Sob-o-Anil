@@ -1,0 +1,21 @@
+# c_cajazeiras
+
+# County Title
+title = c_cajazeiras
+
+# Settlements
+max_settlements = 3
+
+b_triunfo_2 = tribal
+b_santa_helena_2 = temple
+#b_diamante = temple
+#b_divinopolis = castle
+#b_sao_joao_do_rio_do_peixe = city
+#b_poco_de_jose_de_moura = temple
+#b_torroes = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

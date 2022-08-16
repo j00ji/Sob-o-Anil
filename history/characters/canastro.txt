@@ -1,0 +1,14 @@
+###ÄNSI
+
+580001 = {
+	name = "Mannairem"
+	dynasty = 260001 #Nokia
+	religion = terra_benta
+	culture = suomi
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2345.12.1 = {
+		birth = yes
+	}
+}

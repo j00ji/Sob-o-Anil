@@ -1,0 +1,21 @@
+# c_toledo
+
+# County Title
+title = c_toledo
+
+# Settlements
+max_settlements = 3
+
+b_toledo = castle
+b_marechal_candido_rondon = castle
+#b_nova_santa_rosa = temple
+#b_palotina = castle
+#b_assis_chateaubriand = city
+#b_nova_aurora = temple
+#b_cafelandia = castle
+
+# Misc
+culture = gaucho
+religion = celeste
+
+#History

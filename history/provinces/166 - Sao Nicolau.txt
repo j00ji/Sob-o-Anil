@@ -1,0 +1,21 @@
+# c_sao_nicolau
+
+# County Title
+title = c_sao_nicolau
+
+# Settlements
+max_settlements = 2
+
+b_sao_nicolau = tribal
+#b_porto_xavier = city
+#b_santo_isidro = temple
+#b_nova_florida = castle
+#b_porto_lucena = city
+#b_sao_paulo_das_missoes = temple
+#b_dona_otilia = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

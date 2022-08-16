@@ -1,0 +1,21 @@
+# c_rio_grande
+
+# County Title
+title = c_rio_grande
+
+# Settlements
+max_settlements = 3
+
+b_rio_grande = tribal
+#b_cassino = city
+#b_sao_jose_do_norte = temple
+#b_quinta = castle
+#b_ilha_dos_marinheiros = city
+#b_estreito = temple
+#b_ponta_dos_pescadores = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

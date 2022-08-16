@@ -1,0 +1,21 @@
+# c_vidal
+
+# County Title
+title = c_vidal
+
+# Settlements
+max_settlements = 2
+
+b_vidal = city
+#b_piran = city
+#b_vivorata = temple
+#b_artiszabal = castle
+#b_ruca = city
+#b_calfucura = temple
+#b_damarra = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

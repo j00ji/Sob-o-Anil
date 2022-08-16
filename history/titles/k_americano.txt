@@ -1,0 +1,35 @@
+##Norton Dynasty##
+2255.12.25 = { #Robert I Norton founds the American Kingdom
+	holder = 120018
+}
+2278.12.31 = { #Laurence I Norton
+	holder = 120019
+}
+2288.1.13 = { #Harris I Norton
+	holder = 120023
+}
+2291.5.13 = { #Charles I Norton
+	holder = 120024
+}
+2294.9.12 = { #Reginald I Norton
+	holder = 120030
+}
+2298.11.11 = { #Anna I Norton 
+	holder = 120025
+}
+##West Dynasty##
+2303.10.5 = { #Victor I West
+	holder = 120040
+}
+2322.4.27 = { #Jackson I West
+	holder = 120043
+}
+2338.10.28 = { #Damien I West
+	holder = 120047
+}
+2350.10.31 = { #William I West
+	holder = 120049 
+}	
+2367.12.31 = { #Jaime I West
+	holder = 120051
+}

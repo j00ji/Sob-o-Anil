@@ -1,0 +1,21 @@
+# c_pedra_azul
+
+# County Title
+title = c_pedra_azul
+
+# Settlements
+max_settlements = 3
+
+b_medina_2 = tribal
+#b_fortaleza_3 = city
+#b_aracaji_de_minas = temple
+#b_aguas_altas = castle
+#b_parana_3 = city
+#b_estiva_2 = temple
+#b_boca_da_caatinga = castle
+
+# Misc
+culture = espinhaco
+religion = angel_cult
+
+#History

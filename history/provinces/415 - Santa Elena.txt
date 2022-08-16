@@ -1,0 +1,21 @@
+# c_santa_elena
+
+# County Title
+title = c_santa_elena
+
+# Settlements
+max_settlements = 5
+
+b_la_libertad = castle
+b_santa_elena = city
+b_salinas = temple
+#b_ballenita = castle
+#b_manglaralto = city
+#b_recinto = temple
+#b_chanduy = castle
+
+# Misc
+culture = guayasense
+religion = tridentine
+
+#History

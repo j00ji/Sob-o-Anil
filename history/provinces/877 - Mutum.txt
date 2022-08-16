@@ -1,0 +1,21 @@
+# c_mutum
+
+# County Title
+title = c_mutum
+
+# Settlements
+max_settlements = 3
+
+b_imbirucu = tribal
+#b_lajinha = city
+#b_ipanema = temple
+#b_centenario_5 = castle
+#b_alto_capim = city
+#b_roseiral = temple
+#b_sao_sebastiao_da_vala = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

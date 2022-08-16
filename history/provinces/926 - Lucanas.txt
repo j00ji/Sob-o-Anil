@@ -1,0 +1,21 @@
+# c_lucanas
+
+# County Title
+title = c_lucanas
+
+# Settlements
+max_settlements = 3
+
+b_puquio = castle
+b_coracora = city
+#b_pauza = temple
+#b_sancos = castle
+#b_alpabamba = city
+#b_cochapata = temple
+#b_chununa = castle
+
+# Misc
+culture = quechua
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_huaura
+
+# County Title
+title = c_huaura
+
+# Settlements
+max_settlements = 3
+
+b_huacho = castle
+b_huaura = city
+#b_hualmay = temple
+#b_sayan = castle
+#b_vegueta = city
+#b_oyon = temple
+#b_catajambo = castle
+
+# Misc
+culture = rimense
+religion = tridentine
+
+#History

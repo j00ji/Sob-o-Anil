@@ -1,0 +1,21 @@
+# c_pisco
+
+# County Title
+title = c_pisco
+
+# Settlements
+max_settlements = 3
+
+b_pisco = castle
+b_san_clemente_de_ica = temple
+#b_san_andres_de_ica = temple
+#b_independenca_de_ica = castle
+#b_paracas = city
+#b_humay = temple
+#b_huancano = castle
+
+# Misc
+culture = iqueno
+religion = camino_estelar
+
+#History

@@ -1,0 +1,21 @@
+# c_pecanha
+
+# County Title
+title = c_pecanha
+
+# Settlements
+max_settlements = 2
+
+b_suacui = tribal
+#b_virgolandia = city
+#b_cinco_ilhas = temple
+#b_santa_teresa_do_bonito = castle
+#b_raydan = city
+#b_cantagalo = temple
+#b_laura = castle
+
+# Misc
+culture = valcude
+religion = angel_cult
+
+#History

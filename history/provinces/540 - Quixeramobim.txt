@@ -1,0 +1,21 @@
+# c_quixeramobim
+
+# County Title
+title = c_quixeramobim
+
+# Settlements
+max_settlements = 3
+
+b_banabuiu = tribal
+b_ibaretama = city
+#b_jaguaretama = temple
+#b_quixeramobim = castle
+#b_senador_pompeu = city
+#b_itapiuna = temple
+#b_ibicuitinga = castle
+
+# Misc
+culture = cearense
+religion = cicerite
+
+#History

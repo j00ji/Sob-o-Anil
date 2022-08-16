@@ -1,0 +1,23 @@
+# c_passos
+
+# County Title
+title = c_passos
+
+# Settlements
+max_settlements = 3
+
+#Everything WIP
+
+b_alpinopolis = tribal
+#b_cassia_2 = city
+#b_ibiraci = castle
+#b_furnas = temple
+#b_itau = city
+#b_carmo = castle
+#b_conceicao_da_aparecida = temple
+
+# Misc
+culture = canastro
+religion = anchietican
+
+#History

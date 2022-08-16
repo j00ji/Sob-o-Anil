@@ -1,0 +1,21 @@
+# c_macapa
+
+# County Title
+title = c_macapa
+
+# Settlements
+max_settlements = 2
+
+b_macapa = castle
+b_porto_grande = city
+#b_ferreira_gomes = temple
+#b_serra_do_navio = castle
+#b_tassalonica = city
+#b_pedra_branca_do_amapari = temple
+#b_ambe = castle
+
+# Misc
+culture = amapaense
+religion = holy_spirit
+
+#History

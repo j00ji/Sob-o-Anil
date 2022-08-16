@@ -1,0 +1,21 @@
+# c_mostardas
+
+# County Title
+title = c_mostardas
+
+# Settlements
+max_settlements = 2
+
+b_mostardas = tribal
+#b_farol_da_solidao = city
+#b_tavares = temple
+#b_capao_comprido = castle
+#b_bojuru = city
+#b_povos = temple
+#b_bacupari = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

@@ -1,0 +1,21 @@
+# c_san_tome
+
+# County Title
+title = c_san_tome
+
+# Settlements
+max_settlements = 2
+
+b_san_tome = tribal
+b_virasoro = temple
+#b_ituzaingo_2 = temple
+#b_puerto_valle = castle
+#b_borgita = city
+#b_apipe_grande = temple
+#b_playadito = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

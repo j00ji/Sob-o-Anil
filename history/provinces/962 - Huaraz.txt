@@ -1,0 +1,21 @@
+# c_huaraz
+
+# County Title
+title = c_huaraz
+
+# Settlements
+max_settlements = 4
+
+b_huaraz = castle
+b_huaylas = city
+b_carhuaz = temple
+#b_chiquian = castle
+#b_yungay_2 = city
+#b_cabana = temple
+#b_corongo = castle
+
+# Misc
+culture = huascareno
+religion = inti
+
+#History

@@ -1,0 +1,21 @@
+# c_grao_mogol
+
+# County Title
+title = c_grao_mogol
+
+# Settlements
+max_settlements = 3
+
+b_praia_do_vau = castle
+#b_critalia = city
+#b_adao_colares = temple
+#b_catuni_2 = castle
+#b_boa_vista_do_bananal = city
+#b_graobombado = temple
+#b_riberiao_dos_bois = castle
+
+# Misc
+culture = espinhaco
+religion = angel_cult
+
+#History

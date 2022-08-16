@@ -1,0 +1,21 @@
+# c_serra_dourada
+
+# County Title
+title = c_serra_dourada
+
+# Settlements
+max_settlements = 2
+
+b_serra_dourada = tribal
+b_terezinha = temple
+#b_brejolandia = temple
+#b_wanderlay = castle
+#b_baianopolis = city
+#b_paratinga_2 = temple
+#b_cristopolis = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

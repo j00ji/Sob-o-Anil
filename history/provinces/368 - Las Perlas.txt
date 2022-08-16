@@ -1,0 +1,21 @@
+# c_las_perlas
+
+# County Title
+title = c_las_perlas
+
+# Settlements
+max_settlements = 2
+
+b_las_perlas = castle
+#b_el_cuy = city
+#b_cerro_policia = temple
+#b_aguada_de_guzman = castle
+#b_mencue = city
+#b_laguna_blanca = temple
+#b_blancura_centro = castle
+
+# Misc
+culture = desertico
+religion = nguillatun
+
+#History

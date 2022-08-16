@@ -1,0 +1,21 @@
+# c_viamao
+
+# County Title
+title = c_viamao
+
+# Settlements
+max_settlements = 4
+
+b_viamao = castle
+b_santo_antonio_da_patrulha = city
+#b_alvorada = temple
+#b_itapua = castle
+#b_aguas_claras = city
+#b_capivari_do_sul = temple
+#b_miraguaia = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

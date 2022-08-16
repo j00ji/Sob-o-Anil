@@ -1,0 +1,21 @@
+# c_campero
+
+# County Title
+title = c_campero
+
+# Settlements
+max_settlements = 3
+
+b_aiquile = castle
+b_mizque = city
+#b_arani = temple
+#b_epizana = castle
+#b_novillero = city
+#b_pajcha = temple
+#b_pojo = castle
+
+# Misc
+culture = colla
+religion = santa_diablada
+
+#History

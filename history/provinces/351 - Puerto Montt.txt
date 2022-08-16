@@ -1,0 +1,21 @@
+# c_puerto_montt
+
+# County Title
+title = c_puerto_montt
+
+# Settlements
+max_settlements = 4
+
+b_puerto_montt = castle
+b_calbuco = city
+b_llanquihue = temple
+#b_frutillar = castle
+#b_los_muermos = city
+#b_carelmapu = temple
+#b_pargua = castle
+
+# Misc
+culture = sureno
+religion = catholic
+
+#History

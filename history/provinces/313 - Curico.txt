@@ -1,0 +1,21 @@
+# c_curico
+
+# County Title
+title = c_curico
+
+# Settlements
+max_settlements = 4
+
+b_curico = castle
+b_molina = temple
+b_teno = city
+#b_sagrada_familia = castle
+#b_romeral = city
+#b_lontue = temple
+#b_rauco = castle
+
+# Misc
+culture = huaso
+religion = catholic
+
+#History

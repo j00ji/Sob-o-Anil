@@ -1,0 +1,21 @@
+# c_sorriso
+
+# County Title
+title = c_sorriso
+
+# Settlements
+max_settlements = 2
+
+b_sorriso = tribal
+#b_itanhanga = city
+#b_vera = temple
+#b_santa_rita_do_trivelato = castle
+#b_tapurah = city
+#b_mutum = temple
+#b_ubirata = castle
+
+# Misc
+culture = xavante
+religion = manredebu
+
+#History

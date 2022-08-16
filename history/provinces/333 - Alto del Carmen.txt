@@ -1,0 +1,21 @@
+# c_alto_del_carmen
+
+# County Title
+title = c_alto_del_carmen
+
+# Settlements
+max_settlements = 2
+
+b_alto_del_carmen = castle
+#b_chanchoquin = city
+#b_chollay = temple
+#b_san_felix = castle
+#b_la_majada = city
+#b_el_portillo = temple
+#b_la_fragua = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

@@ -1,0 +1,21 @@
+# c_colorado_2
+
+# County Title
+title = c_colorado_2
+
+# Settlements
+max_settlements = 2
+
+b_pata_mora = castle
+#b_los_sauces_3 = city
+#b_crater = temple
+#b_decoct = castle
+#b_zonarida = city
+#b_rojo = temple
+#b_las_bardas = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_timbira
+
+# County Title
+title = c_timbira
+
+# Settlements
+max_settlements = 2
+
+b_moncao = castle
+#b_altamira_2 = city
+#b_ze_doca = temple
+#b_penalva = castle
+#b_pedro_rosario = city
+#b_presidente_sarney = temple
+#b_tres_furos = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

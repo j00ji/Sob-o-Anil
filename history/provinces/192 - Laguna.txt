@@ -1,0 +1,21 @@
+# c_laguna
+
+# County Title
+title = c_laguna
+
+# Settlements
+max_settlements = 2
+
+b_laguna = castle
+b_garopaba = temple
+#b_imbituba = temple
+#b_imarui = castle
+#b_ibiraquera = city
+#b_itapiruba = temple
+#b_siriu = castle
+
+# Misc
+culture = greenbelly
+religion = farrapo
+
+#History

@@ -1,0 +1,21 @@
+# c_uba
+
+# County Title
+title = c_uba
+
+# Settlements
+max_settlements = 4
+
+b_sao_januario = tribal
+b_divinesia = temple
+#b_paraopeba_2 = temple
+#b_miragaia = castle
+#b_ubari = city
+#b_rio_turvo_2 = temple
+#b_rio_pomba = castle
+
+# Misc
+culture = mantiqueiro
+religion = terra_benta
+
+#History

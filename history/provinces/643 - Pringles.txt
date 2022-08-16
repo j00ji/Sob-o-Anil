@@ -1,0 +1,21 @@
+# c_pringles
+
+# County Title
+title = c_pringles
+
+# Settlements
+max_settlements = 2
+
+b_pringles = castle
+#b_pontaut = city
+#b_laprida = temple
+#b_libano = castle
+#b_ventana = city
+#b_pensamiento = temple
+#b_sortija = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

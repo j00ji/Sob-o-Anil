@@ -1,0 +1,21 @@
+# c_joinville
+
+# County Title
+title = c_joinville
+
+# Settlements
+max_settlements = 4
+
+b_joinville = castle
+b_sao_francisco_do_sul = city
+b_itapoa = city
+#b_garuva = castle
+#b_quriri = city
+#b_araquari = temple
+#b_balneario_barra_do_sul = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

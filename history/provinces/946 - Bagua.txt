@@ -1,0 +1,21 @@
+# c_bagua
+
+# County Title
+title = c_bagua
+
+# Settlements
+max_settlements = 2
+
+b_bagua = castle
+#b_santa_maria_de_nieva = city
+#b_la_peca = temple
+#b_copallin = castle
+#b_imaza = city
+#b_el_cenepa = temple
+#b_rio_santiago = castle
+
+# Misc
+culture = charapa
+religion = inkarri
+
+#History

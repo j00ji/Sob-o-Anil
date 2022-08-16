@@ -1,0 +1,61 @@
+###ÄNSI
+
+##House Xavier##
+620001 = {
+	name = "Serjão"
+	dynasty = 280001 #Xavier
+	religion = terra_benta
+	culture = mantiqueiro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	father = 620003
+	
+	martial = 1
+	diplomacy = 1
+	intrigue = 1
+	stewardship = 1
+	learning = 1
+	
+	2346.4.21 = {
+		birth = yes
+	}
+}
+
+620002 = {
+	name = "Pança Rei"
+	dynasty = 280001 #Xavier
+	religion = terra_benta
+	culture = mantiqueiro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	father = 620003
+	
+	2335.12.30 = {
+		birth = yes
+	}
+	
+	2366.10.8 = {
+		death = {
+			death_reason = death_poor_health
+		} 
+	}
+}
+
+620003 = {
+	name = "Jão Lobo"
+	dynasty = 280001 #Xavier
+	religion = terra_benta
+	culture = mantiqueiro
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	
+	2299.5.6 = {
+		birth = yes
+	}
+	
+	2352.9.12 = {
+		death = {
+			death_reason = death_natural
+		} 
+	}
+}

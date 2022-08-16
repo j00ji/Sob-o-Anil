@@ -1,0 +1,39 @@
+# 1-2 Final Results for Charisma
+
+
+namespace = cultholyspirit
+
+narrative_event = {
+	id = cultholyspirit.1
+	is_triggered_only = yes
+	desc = EVTDESC_holy_spirit_prophetic_vision
+	picture = GFX_evt_religious_exultation
+	option = {
+		name = EVTOPT_holy_spirit_prophetic_vision
+		piety = 1000
+		add_character_modifier = {
+			name = holy_spirit_prophetic_vision
+			duration = 1460
+		}
+	}
+}
+
+narrative_event = {
+	id = cultholyspirit.2
+	is_triggered_only = yes
+	desc = EVTDESC_holy_spirit_satanic_vision
+	picture = GFX_evt_impalement
+	
+	option = {
+		name = EVTOPT_holy_spirit_satanic_vision
+		piety = -500
+		add_character_modifier = {
+			name = holy_spirit_satanic_vision
+			duration = 1460
+		}
+		random_list = {
+			80 = {}
+			20 = { add_trait = possessed }
+		}
+	}
+}

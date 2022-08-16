@@ -1,0 +1,21 @@
+# c_saladillo
+
+# County Title
+title = c_saladillo
+
+# Settlements
+max_settlements = 3
+
+b_saladillo = castle
+#b_25_de_mayo_3 = city
+#b_roque_perez = temple
+#b_toledo_2 = castle
+#b_del_carril = city
+#b_reynoso = temple
+#b_monteverde = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

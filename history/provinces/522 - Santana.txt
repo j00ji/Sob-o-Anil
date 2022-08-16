@@ -1,0 +1,21 @@
+# c_santana
+
+# County Title
+title = c_santana
+
+# Settlements
+max_settlements = 3
+
+b_canapolis = tribal
+b_santa_maria_3 = temple
+#b_formoso_2 = temple
+#b_santa_maria_da_vitoria = castle
+#b_santa_paz_da_25 = city
+#b_tabocas_do_brejo_velho = temple
+#b_correntina = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

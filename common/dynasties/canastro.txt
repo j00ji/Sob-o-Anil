@@ -1,0 +1,970 @@
+###ÄNSI
+
+260001 = { #Nokia
+	name = "Nokia"
+	culture = suomi
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+}
+
+
+####################
+##Random dynasties
+##Based on MG's senators and representatives
+##source: wikipedia
+##range: 255500+
+####################
+
+260500 = {
+	name = "Abi-Ackel"
+	culture = canastro
+	}
+260501 = {
+	name = "Abreu"
+	culture = canastro
+	}
+260502 = {
+	name = "Adauto"
+	culture = canastro
+	}
+260503 = {
+	name = "Aguiar"
+	culture = canastro
+	}
+260504 = {
+	name = "Albergaria"
+	culture = canastro
+	}
+260505 = {
+	name = "Aldo"
+	culture = canastro
+	}
+260506 = {
+	name = "Aleixo"
+	culture = canastro
+	}
+260507 = {
+	name = "Alkmin"
+	culture = canastro
+	}
+260508 = {
+	name = "Almeida"
+	culture = canastro
+	}
+260509 = {
+	name = "Alvim"
+	culture = canastro
+	}
+260510 = {
+	name = "Amorim"
+	culture = canastro
+	}
+260511 = {
+	name = "Ananias"
+	culture = canastro
+	}
+260512 = {
+	name = "Anghinetti"
+	culture = canastro
+	}
+260513 = {
+	name = "Anísio"
+	culture = canastro
+	}
+260514 = {
+	name = "Antônio"
+	culture = canastro
+	}
+260515 = {
+	name = "Arinos"
+	culture = canastro
+	}
+260516 = {
+	name = "Assad"
+	culture = canastro
+	}
+260517 = {
+	name = "Athayde"
+	culture = canastro
+	}
+260518 = {
+	name = "Avelino"
+	culture = canastro
+	}
+260519 = {
+	name = "Azeredo"
+	culture = canastro
+	}
+260520 = {
+	name = "Baccarini"
+	culture = canastro
+	}
+260521 = {
+	name = "Badaró"
+	culture = canastro
+	}
+260522 = {
+	name = "Balbi"
+	culture = canastro
+	}
+260523 = {
+	name = "Barbosa"
+	culture = canastro
+	}
+260524 = {
+	name = "Batista"
+	culture = canastro
+	}
+260525 = {
+	name = "Belato"
+	culture = canastro
+	}
+260526 = {
+	name = "Belém"
+	culture = canastro
+	}
+260527 = {
+	name = "Bernardes"
+	culture = canastro
+	}
+260528 = {
+	name = "Bernardino"
+	culture = canastro
+	}
+260529 = {
+	name = "Bernardo"
+	culture = canastro
+	}
+260530 = {
+	name = "Bessone"
+	culture = canastro
+	}
+260531 = {
+	name = "Bilac"
+	culture = canastro
+	}
+260532 = {
+	name = "Bisaglia"
+	culture = canastro
+	}
+260533 = {
+	name = "Bittencourt"
+	culture = canastro
+	}
+260534 = {
+	name = "Boaventura"
+	culture = canastro
+	}
+260535 = {
+	name = "Bonifácio"
+	culture = canastro
+	}
+260536 = {
+	name = "Botelho"
+	culture = canastro
+	}
+260537 = {
+	name = "Bouchardet"
+	culture = canastro
+	}
+260538 = {
+	name = "Branco"
+	culture = canastro
+	}
+260539 = {
+	name = "Brandão"
+	culture = canastro
+	}
+260540 = {
+	name = "Brant"
+	culture = canastro
+	}
+260541 = {
+	name = "Brasileiro"
+	culture = canastro
+	}
+260542 = {
+	name = "Campos"
+	culture = canastro
+	}
+260543 = {
+	name = "Canabrava"
+	culture = canastro
+	}
+260544 = {
+	name = "Cançado"
+	culture = canastro
+	}
+260545 = {
+	name = "Canedo"
+	culture = canastro
+	}
+260546 = {
+	name = "Capanema"
+	culture = canastro
+	}
+260547 = {
+	name = "Cardoso"
+	culture = canastro
+	}
+260548 = {
+	name = "Carmo"
+	culture = canastro
+	}
+260549 = {
+	name = "Carneiro"
+	culture = canastro
+	}
+260550 = {
+	name = "Carone"
+	culture = canastro
+	}
+260551 = {
+	name = "Carvalho"
+	culture = canastro
+	}
+260552 = {
+	name = "César"
+	culture = canastro
+	}
+260553 = {
+	name = "Chagas"
+	culture = canastro
+	}
+260554 = {
+	name = "Chaves"
+	culture = canastro
+	}
+260555 = {
+	name = "Chiaradia"
+	culture = canastro
+	}
+260556 = {
+	name = "Cícero"
+	culture = canastro
+	}
+260557 = {
+	name = "Coelho"
+	culture = canastro
+	}
+260558 = {
+	name = "Corrêa"
+	culture = canastro
+	}
+260559 = {
+	name = "Correia"
+	culture = canastro
+	}
+260560 = {
+	name = "Costa"
+	culture = canastro
+	}
+260561 = {
+	name = "Cotta"
+	culture = canastro
+	}
+260562 = {
+	name = "Cruz"
+	culture = canastro
+	}
+260563 = {
+	name = "Cunha"
+	culture = canastro
+	}
+260564 = {
+	name = "da Conceição"
+	culture = canastro
+	}
+260565 = {
+	name = "da Cunha"
+	culture = canastro
+	}
+260566 = {
+	name = "da Gama"
+	culture = canastro
+	}
+260567 = {
+	name = "da Mata"
+	culture = canastro
+	}
+260568 = {
+	name = "da Silva"
+	culture = canastro
+	}
+260569 = {
+	name = "da Veiga"
+	culture = canastro
+	}
+260570 = {
+	name = "Dantas"
+	culture = canastro
+	}
+260571 = {
+	name = "de Abreu"
+	culture = canastro
+	}
+260572 = {
+	name = "de Almeida"
+	culture = canastro
+	}
+260573 = {
+	name = "de Andrada"
+	culture = canastro
+	}
+260574 = {
+	name = "de Andrade"
+	culture = canastro
+	}
+260575 = {
+	name = "de Barros"
+	culture = canastro
+	}
+260576 = {
+	name = "de Carvalho"
+	culture = canastro
+	}
+260577 = {
+	name = "de Castro"
+	culture = canastro
+	}
+260578 = {
+	name = "de Lima"
+	culture = canastro
+	}
+260579 = {
+	name = "de Melo"
+	culture = canastro
+	}
+260580 = {
+	name = "de Mendonça"
+	culture = canastro
+	}
+260581 = {
+	name = "de Mesquita"
+	culture = canastro
+	}
+260582 = {
+	name = "de Morais"
+	culture = canastro
+	}
+260583 = {
+	name = "de Oliveira"
+	culture = canastro
+	}
+260584 = {
+	name = "de Paula"
+	culture = canastro
+	}
+260585 = {
+	name = "de Rezende"
+	culture = canastro
+	}
+260586 = {
+	name = "de Sousa"
+	culture = canastro
+	}
+260587 = {
+	name = "de Vasconcelos"
+	culture = canastro
+	}
+260588 = {
+	name = "Delgado"
+	culture = canastro
+	}
+260589 = {
+	name = "Deodato"
+	culture = canastro
+	}
+260590 = {
+	name = "Dias"
+	culture = canastro
+	}
+260591 = {
+	name = "Dib"
+	culture = canastro
+	}
+260592 = {
+	name = "Diniz"
+	culture = canastro
+	}
+260593 = {
+	name = "do Lago"
+	culture = canastro
+	}
+260594 = {
+	name = "do Nascimento"
+	culture = canastro
+	}
+260595 = {
+	name = "do Vale"
+	culture = canastro
+	}
+260596 = {
+	name = "dos Mares"
+	culture = canastro
+	}
+260597 = {
+	name = "dos Santos"
+	culture = canastro
+	}
+260598 = {
+	name = "Dulci"
+	culture = canastro
+	}
+260599 = {
+	name = "Dutra"
+	culture = canastro
+	}
+260600 = {
+	name = "Elísio"
+	culture = canastro
+	}
+260601 = {
+	name = "Eloy"
+	culture = canastro
+	}
+260602 = {
+	name = "Fagundes"
+	culture = canastro
+	}
+260603 = {
+	name = "Faria"
+	culture = canastro
+	}
+260604 = {
+	name = "Fassarella"
+	culture = canastro
+	}
+260605 = {
+	name = "Felipe"
+	culture = canastro
+	}
+260606 = {
+	name = "Ferramenta"
+	culture = canastro
+	}
+260607 = {
+	name = "Ferrara"
+	culture = canastro
+	}
+260608 = {
+	name = "Ferraz"
+	culture = canastro
+	}
+260609 = {
+	name = "Ferreira"
+	culture = canastro
+	}
+260610 = {
+	name = "Figueiredo"
+	culture = canastro
+	}
+260611 = {
+	name = "Fonseca"
+	culture = canastro
+	}
+260612 = {
+	name = "Fortes"
+	culture = canastro
+	}
+260613 = {
+	name = "Franco"
+	culture = canastro
+	}
+260614 = {
+	name = "Freire"
+	culture = canastro
+	}
+260615 = {
+	name = "Galassi"
+	culture = canastro
+	}
+260616 = {
+	name = "Gallo"
+	culture = canastro
+	}
+260617 = {
+	name = "Garcia"
+	culture = canastro
+	}
+260618 = {
+	name = "Gomes"
+	culture = canastro
+	}
+260619 = {
+	name = "Gonçalves"
+	culture = canastro
+	}
+260620 = {
+	name = "Guabiroba"
+	culture = canastro
+	}
+260621 = {
+	name = "Guerra"
+	culture = canastro
+	}
+260622 = {
+	name = "Guia"
+	culture = canastro
+	}
+260623 = {
+	name = "Guido"
+	culture = canastro
+	}
+260624 = {
+	name = "Guimarães"
+	culture = canastro
+	}
+260625 = {
+	name = "Henrique"
+	culture = canastro
+	}
+260626 = {
+	name = "Herculino"
+	culture = canastro
+	}
+260627 = {
+	name = "Heslander"
+	culture = canastro
+	}
+260628 = {
+	name = "Humberto"
+	culture = canastro
+	}
+260629 = {
+	name = "Jabur"
+	culture = canastro
+	}
+260630 = {
+	name = "Júlio"
+	culture = canastro
+	}
+260631 = {
+	name = "Júnior"
+	culture = canastro
+	}
+260632 = {
+	name = "Junqueira"
+	culture = canastro
+	}
+260633 = {
+	name = "Kubitschek"
+	culture = canastro
+	}
+260634 = {
+	name = "Lara"
+	culture = canastro
+	}
+260635 = {
+	name = "Leal"
+	culture = canastro
+	}
+260636 = {
+	name = "Leão"
+	culture = canastro
+	}
+260637 = {
+	name = "Leite"
+	culture = canastro
+	}
+260638 = {
+	name = "Libânio"
+	culture = canastro
+	}
+260639 = {
+	name = "Lima"
+	culture = canastro
+	}
+260640 = {
+	name = "Lobato"
+	culture = canastro
+	}
+260641 = {
+	name = "Lodi"
+	culture = canastro
+	}
+260642 = {
+	name = "Lopes"
+	culture = canastro
+	}
+260643 = {
+	name = "Lucas"
+	culture = canastro
+	}
+260644 = {
+	name = "Luciano"
+	culture = canastro
+	}
+260645 = {
+	name = "Luz"
+	culture = canastro
+	}
+260646 = {
+	name = "Machado"
+	culture = canastro
+	}
+260647 = {
+	name = "Maciel"
+	culture = canastro
+	}
+260648 = {
+	name = "Magalhães"
+	culture = canastro
+	}
+260649 = {
+	name = "Magno"
+	culture = canastro
+	}
+260650 = {
+	name = "Marise"
+	culture = canastro
+	}
+260651 = {
+	name = "Martins"
+	culture = canastro
+	}
+260652 = {
+	name = "Matos"
+	culture = canastro
+	}
+260653 = {
+	name = "Mattos"
+	culture = canastro
+	}
+260654 = {
+	name = "Medeiros"
+	culture = canastro
+	}
+260655 = {
+	name = "Medioli"
+	culture = canastro
+	}
+260656 = {
+	name = "Medrado"
+	culture = canastro
+	}
+260657 = {
+	name = "Melles"
+	culture = canastro
+	}
+260658 = {
+	name = "Mendes"
+	culture = canastro
+	}
+260659 = {
+	name = "Mendonça"
+	culture = canastro
+	}
+260660 = {
+	name = "Miranda"
+	culture = canastro
+	}
+260661 = {
+	name = "Monteiro"
+	culture = canastro
+	}
+260662 = {
+	name = "Moreira"
+	culture = canastro
+	}
+260663 = {
+	name = "Mosconi"
+	culture = canastro
+	}
+260664 = {
+	name = "Murad"
+	culture = canastro
+	}
+260665 = {
+	name = "Murilo"
+	culture = canastro
+	}
+260666 = {
+	name = "Murta"
+	culture = canastro
+	}
+260667 = {
+	name = "Naya"
+	culture = canastro
+	}
+260668 = {
+	name = "Negrão"
+	culture = canastro
+	}
+260669 = {
+	name = "Neiva"
+	culture = canastro
+	}
+260670 = {
+	name = "Neri"
+	culture = canastro
+	}
+260671 = {
+	name = "Neto"
+	culture = canastro
+	}
+260672 = {
+	name = "Neves"
+	culture = canastro
+	}
+260673 = {
+	name = "Nobre"
+	culture = canastro
+	}
+260674 = {
+	name = "Pacheco"
+	culture = canastro
+	}
+260675 = {
+	name = "Pádua"
+	culture = canastro
+	}
+260676 = {
+	name = "Paes"
+	culture = canastro
+	}
+260677 = {
+	name = "Palmério"
+	culture = canastro
+	}
+260678 = {
+	name = "Passos"
+	culture = canastro
+	}
+260679 = {
+	name = "Paulinelli"
+	culture = canastro
+	}
+260680 = {
+	name = "Paulo"
+	culture = canastro
+	}
+260681 = {
+	name = "Peixoto"
+	culture = canastro
+	}
+260682 = {
+	name = "Pena"
+	culture = canastro
+	}
+260683 = {
+	name = "Pereira"
+	culture = canastro
+	}
+260684 = {
+	name = "Perim"
+	culture = canastro
+	}
+260685 = {
+	name = "Perrella"
+	culture = canastro
+	}
+260686 = {
+	name = "Pimenta"
+	culture = canastro
+	}
+260687 = {
+	name = "Pinheiro"
+	culture = canastro
+	}
+260688 = {
+	name = "Pinto"
+	culture = canastro
+	}
+260689 = {
+	name = "Pires"
+	culture = canastro
+	}
+260690 = {
+	name = "Pompei"
+	culture = canastro
+	}
+260691 = {
+	name = "Portela"
+	culture = canastro
+	}
+260692 = {
+	name = "Porto"
+	culture = canastro
+	}
+260693 = {
+	name = "Prata"
+	culture = canastro
+	}
+260694 = {
+	name = "Queiroz"
+	culture = canastro
+	}
+260695 = {
+	name = "Raimundo"
+	culture = canastro
+	}
+260696 = {
+	name = "Reis"
+	culture = canastro
+	}
+260697 = {
+	name = "Renault"
+	culture = canastro
+	}
+260698 = {
+	name = "Resende"
+	culture = canastro
+	}
+260699 = {
+	name = "Rezende"
+	culture = canastro
+	}
+260700 = {
+	name = "Ribeiro"
+	culture = canastro
+	}
+260701 = {
+	name = "Rodrigues"
+	culture = canastro
+	}
+260702 = {
+	name = "Romano"
+	culture = canastro
+	}
+260703 = {
+	name = "Rosa"
+	culture = canastro
+	}
+260704 = {
+	name = "Santana"
+	culture = canastro
+	}
+260705 = {
+	name = "Santiago"
+	culture = canastro
+	}
+260706 = {
+	name = "Santos"
+	culture = canastro
+	}
+260707 = {
+	name = "Scarano"
+	culture = canastro
+	}
+260708 = {
+	name = "Seabra"
+	culture = canastro
+	}
+260709 = {
+	name = "Silvestre"
+	culture = canastro
+	}
+260710 = {
+	name = "Siqueira"
+	culture = canastro
+	}
+260711 = {
+	name = "Soares"
+	culture = canastro
+	}
+260712 = {
+	name = "Sobrinho"
+	culture = canastro
+	}
+260713 = {
+	name = "Souto"
+	culture = canastro
+	}
+260714 = {
+	name = "Starling"
+	culture = canastro
+	}
+260715 = {
+	name = "Tadeu"
+	culture = canastro
+	}
+260716 = {
+	name = "Tannus"
+	culture = canastro
+	}
+260717 = {
+	name = "Tavares"
+	culture = canastro
+	}
+260718 = {
+	name = "Taveira"
+	culture = canastro
+	}
+260719 = {
+	name = "Teixeira"
+	culture = canastro
+	}
+260720 = {
+	name = "Terra"
+	culture = canastro
+	}
+260721 = {
+	name = "Thibau"
+	culture = canastro
+	}
+260722 = {
+	name = "Tito"
+	culture = canastro
+	}
+260723 = {
+	name = "Tourinho"
+	culture = canastro
+	}
+260724 = {
+	name = "Ulisses"
+	culture = canastro
+	}
+260725 = {
+	name = "Valadares"
+	culture = canastro
+	}
+260726 = {
+	name = "Valente"
+	culture = canastro
+	}
+260727 = {
+	name = "Varella"
+	culture = canastro
+	}
+260728 = {
+	name = "Vargas"
+	culture = canastro
+	}
+260729 = {
+	name = "Vasconcelos"
+	culture = canastro
+	}
+260730 = {
+	name = "Vaz"
+	culture = canastro
+	}
+260731 = {
+	name = "Veloso"
+	culture = canastro
+	}
+260732 = {
+	name = "Viana"
+	culture = canastro
+	}
+260733 = {
+	name = "Vidigal"
+	culture = canastro
+	}
+260734 = {
+	name = "Viegas"
+	culture = canastro
+	}
+260735 = {
+	name = "Vieira"
+	culture = canastro
+	}
+260736 = {
+	name = "Vital"
+	culture = canastro
+	}
+260737 = {
+	name = "Werneck"
+	culture = canastro
+	}

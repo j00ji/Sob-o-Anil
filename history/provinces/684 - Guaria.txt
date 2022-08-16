@@ -1,0 +1,21 @@
+# c_guaria
+
+# County Title
+title = c_guaria
+
+# Settlements
+max_settlements = 2
+
+b_salto_4 = castle
+#b_adela = city
+#b_salto_5 = temple
+#b_alborada = castle
+#b_espiritu_santo = city
+#b_corpus_christi = temple
+#b_caballero = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

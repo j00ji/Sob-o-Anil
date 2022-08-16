@@ -1,0 +1,21 @@
+# c_sao_miguel_dos_campos
+
+# County Title
+title = c_sao_miguel_dos_campos
+
+# Settlements
+max_settlements = 3
+
+b_coruripe = castle
+b_penedo_2 = city
+#b_mauricio = temple
+#b_jequia_da_praia = castle
+#b_piacabucu = city
+#b_junqueiro = temple
+#b_teotonio_vilela = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

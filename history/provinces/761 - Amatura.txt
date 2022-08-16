@@ -1,0 +1,21 @@
+# c_amatura
+
+# County Title
+title = c_amatura
+
+# Settlements
+max_settlements = 3
+
+b_amatura = tribal
+#b_vuhuata = city
+#b_acarai_2 = temple
+#b_cajuru_2 = castle
+#b_sao_paulo_olivenca = city
+#b_purete = temple
+#b_rita_do_well = castle
+
+# Misc
+culture = ticuna
+religion = xabaxai_xagi
+
+#History

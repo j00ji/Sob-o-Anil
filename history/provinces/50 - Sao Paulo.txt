@@ -1,0 +1,21 @@
+# c_sao_paulo
+
+# County Title
+title = c_sao_paulo
+
+# Settlements
+max_settlements = 7
+
+b_morumbi = castle
+b_sao_paulo = city
+b_se = temple
+b_ibirapuera = castle
+b_santo_andre = city
+b_sao_bernardo = city
+b_sao_caetano = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

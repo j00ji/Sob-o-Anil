@@ -1,0 +1,21 @@
+# c_florida
+
+# County Title
+title = c_florida
+
+# Settlements
+max_settlements = 2
+
+b_florida_2 = tribal
+#b_pintado_2 = city
+#b_san_ramon = temple
+#b_nico_perez = castle
+#b_chamizo = city
+#b_santa_lucia = temple
+#b_tala = castle
+
+# Misc
+culture = guacho
+religion = bandean
+
+#History

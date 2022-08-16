@@ -1,0 +1,21 @@
+# c_chascomus
+
+# County Title
+title = c_chascomus
+
+# Settlements
+max_settlements = 3
+
+b_chascomus = castle
+b_brandsen = temple
+#b_jeppener = temple
+#b_cipriano = castle
+#b_gandara = city
+#b_monasterio = temple
+#b_giribone = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

@@ -1,0 +1,7 @@
+# e_chile
+800.1.1={
+	liege=k_chile
+}
+2358.2.3 = {
+	holder=230001
+}

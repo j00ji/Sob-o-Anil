@@ -1,0 +1,21 @@
+# c_yanomami
+
+# County Title
+title = c_yanomami
+
+# Settlements
+max_settlements = 2
+
+b_yanomami = castle
+#b_hawarihewa = city
+#b_kasi_hami_hiima = temple
+#b_orahitehiima = castle
+#b_xeiwexinakorinhoma = city
+#b_bruka_ruwe = temple
+#b_yoasiwekutau = castle
+
+# Misc
+culture = yanomami
+religion = hekura
+
+#History

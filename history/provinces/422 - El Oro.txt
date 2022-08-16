@@ -1,0 +1,21 @@
+# c_el_oro
+
+# County Title
+title = c_el_oro
+
+# Settlements
+max_settlements = 5
+
+b_machala = castle
+b_pasaje = city
+b_santa_rosa_del_oro = temple
+b_el_guabo = castle
+#b_huaqillas = city
+#b_arenillas = temple
+#b_pinas = castle
+
+# Misc
+culture = guayasense
+religion = tridentine
+
+#History

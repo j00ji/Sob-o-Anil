@@ -1,0 +1,21 @@
+# c_iguatemi
+
+# County Title
+title = c_iguatemi
+
+# Settlements
+max_settlements = 2
+
+b_iguatemi = tribal
+#b_ceci = city
+#b_tacuru = temple
+#b_paranhos = castle
+#b_capitan_bado = city
+#b_japora = temple
+#b_navirai = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

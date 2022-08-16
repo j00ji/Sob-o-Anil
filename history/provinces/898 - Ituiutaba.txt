@@ -1,0 +1,21 @@
+# c_ituiutaba
+
+# County Title
+title = c_ituiutaba
+
+# Settlements
+max_settlements = 3
+
+b_vila_platina = castle
+b_santa_vitoria = temple
+#b_capinopolis = temple
+#b_gurinhata = castle
+#b_flor_de_minas = city
+#b_ipiacu = temple
+#b_cachoeira_dourada = castle
+
+# Misc
+culture = triangler
+religion = terra_benta
+
+#History

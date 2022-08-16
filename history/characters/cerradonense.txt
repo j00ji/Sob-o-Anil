@@ -1,0 +1,51 @@
+###ÄNSI
+
+180001={
+	name="Marcella"
+	dynasty=120002
+	female=yes
+	father=180002
+	culture=goyanense
+	religion=modernists
+	
+	2349.11.12={birth=yes}
+}
+180002={
+	name="Marco"
+	dynasty=120002
+	culture=goyanense
+	religion=modernists
+	martial=12
+	add_trait=brave
+	2317.8.2={birth=yes}
+	2360.5.2={death=yes}
+}
+200001={
+	name="Tomás"
+	dynasty=120003
+	culture=candango
+	religion=modernists
+	
+	2328.7.7={birth=yes}
+	2363.9.10={add_spouse=200002}
+}
+200002={
+	name="Selena"
+	dynasty=130001
+	culture=candango
+	female=yes
+	religion=modernists
+	
+	2347.9.9={birth=yes}
+	2363.9.10={add_spouse=200001}
+}
+210001={
+	name="Oswaldo"
+	dynasty=135001
+	culture=araguaio
+	religion=modernists
+	add_trait=zealous
+	add_trait=cannibal_trait 
+	add_trait=adventurer
+	2343.2.10={birth=yes}
+}

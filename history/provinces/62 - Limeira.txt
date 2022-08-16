@@ -1,0 +1,21 @@
+# c_limeira
+
+# County Title
+title = c_limeira
+
+# Settlements
+max_settlements = 5
+
+b_ibicaba = castle
+b_araras = city
+b_tatuibi = temple
+#b_morro_azul = castle
+#b_cordeiropolis = city
+#b_iracemapolis = temple
+#b_graal_topazio = castle
+
+# Misc
+culture = americano
+religion = anchietican
+
+#History

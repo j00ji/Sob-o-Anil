@@ -1,0 +1,21 @@
+# c_grajau
+
+# County Title
+title = c_grajau
+
+# Settlements
+max_settlements = 2
+
+b_grajau = tribal
+b_itaipava = city
+#b_sitio_novo = temple
+#b_amarante_2 = castle
+#b_barra_do_corda = city
+#b_formosa_da_serra_negra = temple
+#b_estreito_3 = castle
+
+# Misc
+culture = parnaibas
+religion = cicerite
+
+#History

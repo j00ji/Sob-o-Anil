@@ -1,0 +1,21 @@
+# c_guarulhos
+
+# County Title
+title = c_guarulhos
+
+# Settlements
+max_settlements = 6
+
+b_guarulhos = castle
+b_mairipora = castle
+b_cumbica = city
+b_santa_isabel = temple
+#b_cabucu = city
+#b_morros = temple
+#b_vila_hulda = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

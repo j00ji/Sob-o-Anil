@@ -1,0 +1,21 @@
+# c_brasilia
+
+# County Title
+title = c_brasilia
+
+# Settlements
+max_settlements = 3
+
+b_brasilia = tribal
+b_asa_norte = temple
+#b_asa_sul = temple
+#b_ceilandia = castle
+#b_taguatinga = city
+#b_samambaia = temple
+#b_gama = castle
+
+# Misc
+culture = candango
+religion = modernists
+
+#History

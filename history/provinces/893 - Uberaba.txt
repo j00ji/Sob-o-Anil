@@ -1,0 +1,21 @@
+# c_uberaba
+
+# County Title
+title = c_uberaba
+
+# Settlements
+max_settlements = 4
+
+b_sete_colinas = castle
+b_sacramento_2 = temple
+b_conquista = city
+b_peiropolis = city
+#b_nova_ponte = city
+#b_perdizes = temple
+#b_sao_benedito_2 = castle
+
+# Misc
+culture = triangler
+religion = anchietican
+
+#History

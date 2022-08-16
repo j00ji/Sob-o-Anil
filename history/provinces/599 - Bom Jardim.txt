@@ -1,0 +1,21 @@
+# c_bom_jardim
+
+# County Title
+title = c_bom_jardim
+
+# Settlements
+max_settlements = 2
+
+b_bom_jardim = castle
+b_itinga = temple
+#b_alto_alegre_do_pindare = temple
+#b_santa_ines_2 = castle
+#b_pio_xii = city
+#b_igarape = temple
+#b_moncao_2 = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

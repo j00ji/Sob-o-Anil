@@ -1,0 +1,57 @@
+###ÄNSI
+
+mbaya_group = {
+	graphical_cultures = { turkishgfx mongolgfx westerngfx }
+	
+	guarani = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.2 0.75 0.76 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	
+	kadiweu = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.3 0.6 0.6 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+}

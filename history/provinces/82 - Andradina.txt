@@ -1,0 +1,21 @@
+# c_andradina
+
+# County Title
+title = c_andradina
+
+# Settlements
+max_settlements = 3
+
+b_lussanvira = tribal
+b_guaracai = temple
+#b_amandaba = temple
+#b_stella_maris = castle
+#b_vila_peliciaris = city
+#b_vila_botega = temple
+#b_delmond_feltrini = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_chichas
+
+# County Title
+title = c_chichas
+
+# Settlements
+max_settlements = 4
+
+b_puna = castle
+b_tupiza = city
+b_villazon = temple
+#b_cotagaita = castle
+#b_chuquiago = city
+#b_oploca = temple
+#b_quiriza = castle
+
+# Misc
+culture = aymara
+religion = pachamama
+
+#History

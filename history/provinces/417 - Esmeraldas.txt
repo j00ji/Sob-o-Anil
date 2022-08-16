@@ -1,0 +1,21 @@
+# c_esmeraldas
+
+# County Title
+title = c_esmeraldas
+
+# Settlements
+max_settlements = 5
+
+b_esmeraldas = castle
+b_quininde = city
+b_san_lorenzo = temple
+b_atacames = castle
+#b_eloy_alfaro = city
+#b_muisne = temple
+#b_rioverde = castle
+
+# Misc
+culture = guayasense
+religion = tridentine
+
+#History

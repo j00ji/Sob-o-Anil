@@ -1,0 +1,21 @@
+# c_colatina
+
+# County Title
+title = c_colatina
+
+# Settlements
+max_settlements = 3
+
+b_colatina = castle
+b_pancas = temple
+b_marilandia = city
+#b_vila_ameliana = castle
+#b_vila_pedrosa = city
+#b_emefe_luz_gotti = temple
+#b_eredege_acocolati = castle
+
+# Misc
+culture = capixaba
+religion = evangelical
+
+#History

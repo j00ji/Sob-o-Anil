@@ -1,0 +1,21 @@
+# c_mucuri
+
+# County Title
+title = c_mucuri
+
+# Settlements
+max_settlements = 2
+
+b_nova_vicosa = castle
+b_caravelas = temple
+#b_posto_da_mata = temple
+#b_medeiros_neto = castle
+#b_ibirapua = city
+#b_alcobaca = temple
+#b_sao_jose_de_alcobaca = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

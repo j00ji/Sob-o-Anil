@@ -1,0 +1,21 @@
+# c_catamarca
+
+# County Title
+title = c_catamarca
+
+# Settlements
+max_settlements = 2
+
+b_catamarca = city
+b_tinogasta = castle
+#b_frias = temple
+#b_fiambala = castle
+#b_recreo_2 = city
+#b_belen_4 = temple
+#b_andagala = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

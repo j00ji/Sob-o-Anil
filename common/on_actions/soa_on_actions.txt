@@ -1,0 +1,26 @@
+on_startup = {
+	events = {
+		mercenarysoa.1
+		evangelical.1
+		camino.5
+		SOAREALM.7
+	}
+}
+on_adulthood  = {
+	events = {
+		evangelical.1
+	}
+}
+
+on_character_convert_religion = {
+	events = {
+		evangelical.3
+	}
+}
+
+on_new_holder = {
+	events = {
+		mercenarysoa.1
+		SOAREALM.7
+	}
+}

@@ -1,0 +1,21 @@
+# c_campo_maior
+
+# County Title
+title = c_campo_maior
+
+# Settlements
+max_settlements = 2
+
+b_campo_maior = castle
+b_buriti_2 = temple
+#b_capitao_de_campos = temple
+#b_alto_longa = castle
+#b_juazeiro_do_piaui = city
+#b_castelo_do_piaui = temple
+#b_sigefredo_pacheco = castle
+
+# Misc
+culture = parnaibas
+religion = evangelical
+
+#History

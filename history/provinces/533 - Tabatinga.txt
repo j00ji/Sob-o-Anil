@@ -1,0 +1,21 @@
+# c_tabatinga
+
+# County Title
+title = c_tabatinga
+
+# Settlements
+max_settlements = 2
+
+b_cassia = tribal
+#b_rio_preto = city
+#b_intiquira = temple
+#b_malhada_grande = castle
+#b_cruzeiro_do_oeste = city
+#b_prazeres = temple
+#b_malhadinha = castle
+
+# Misc
+culture = araguaio
+religion = modernists
+
+#History

@@ -1,0 +1,21 @@
+# c_santa_cruz
+
+# County Title
+title = c_santa_cruz
+
+# Settlements
+max_settlements = 6
+
+b_santa_cruz_de_la_sierra = castle
+b_la_guardia = temple
+b_cotoca = castle
+b_el_torno = city
+b_ayacucho = city
+#b_paurito = temple
+#b_malmar_del_oratorio = castle
+
+# Misc
+culture = camba
+religion = catholic
+
+#History

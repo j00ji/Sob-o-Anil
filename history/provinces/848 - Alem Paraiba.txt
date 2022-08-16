@@ -1,0 +1,21 @@
+# c_alem_paraiba
+
+# County Title
+title = c_alem_paraiba
+
+# Settlements
+max_settlements = 3
+
+b_sao_jose_4 = castle
+#b_volta_grande = city
+#b_estrela_dalva = temple
+#b_porto_do_cunha = castle
+#b_pirapetinga_2 = city
+#b_trimonte = temple
+#b_aventureiro = castle
+
+# Misc
+culture = mantiqueiro
+religion = terra_benta
+
+#History

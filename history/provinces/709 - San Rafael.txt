@@ -1,0 +1,21 @@
+# c_san_rafael
+
+# County Title
+title = c_san_rafael
+
+# Settlements
+max_settlements = 3
+
+b_san_rafael_2 = castle
+b_atuel = city
+#b_carmensa = temple
+#b_real = castle
+#b_malvinas = city
+#b_llave = temple
+#b_goduge = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

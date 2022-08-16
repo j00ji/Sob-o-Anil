@@ -1,0 +1,21 @@
+# c_copiapo
+
+# County Title
+title = c_copiapo
+
+# Settlements
+max_settlements = 3
+
+b_copiapo = castle
+b_puerto_viejo = city
+b_caldera = temple
+#b_bahia_vieja = castle
+#b_totoral = city
+#b_hacienda_castilla = temple
+#b_carrizal = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

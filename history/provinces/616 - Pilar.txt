@@ -1,0 +1,21 @@
+# c_pilar
+
+# County Title
+title = c_pilar
+
+# Settlements
+max_settlements = 4
+
+b_pilar_2 = castle
+b_general_rodriguez = city
+b_fatima_3 = temple
+#b_la_rosa = castle
+#b_derqui = city
+#b_open_door = temple
+#b_astolfo = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

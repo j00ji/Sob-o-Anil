@@ -1,0 +1,21 @@
+# c_victorica
+
+# County Title
+title = c_victorica
+
+# Settlements
+max_settlements = 1
+
+b_victorica = tribal
+#b_santa_isabel_2 = city
+#b_telen = temple
+#b_arizona = castle
+#b_anchorena = city
+#b_carro_quemado = temple
+#b_luan_toro = castle
+
+# Misc
+culture = pampeano
+religion = gaucheria
+
+#History

@@ -1,0 +1,21 @@
+# c_fernando_de_noronha
+
+# County Title
+title = c_fernando_de_noronha
+
+# Settlements
+max_settlements = 2
+
+b_vila_dos_remedios = castle
+#b_ponta_da_sapata = city
+#b_boldro = temple
+#b_baia_dos_abreus = castle
+#b_enseada_da_cadeira = city
+#b_morro_da_quixaba = temple
+#b_baia_dos_porcos = castle
+
+# Misc
+culture = atlanticano
+religion = lamarckian
+
+#History

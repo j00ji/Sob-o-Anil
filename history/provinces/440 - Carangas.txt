@@ -1,0 +1,21 @@
+# c_carangas
+
+# County Title
+title = c_carangas
+
+# Settlements
+max_settlements = 3
+
+b_corque = castle
+b_garci_mendoza = temple
+#b_sabaya = temple
+#b_sajama = castle
+#b_carangas = city
+#b_chipaya = temple
+#b_huachacalla = castle
+
+# Misc
+culture = aymara
+religion = pachamama
+
+#History

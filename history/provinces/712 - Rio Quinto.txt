@@ -1,0 +1,21 @@
+# c_rio_quinto
+
+# County Title
+title = c_rio_quinto
+
+# Settlements
+max_settlements = 2
+
+b_rivera_3 = castle
+b_mercedes_4 = city
+#b_reynolds = temple
+#b_isletas = castle
+#b_pelado = city
+#b_luna_2 = temple
+#b_daract = castle
+
+# Misc
+culture = cordobes
+religion = catholic
+
+#History

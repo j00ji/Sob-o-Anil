@@ -1,0 +1,21 @@
+# c_huasco
+
+# County Title
+title = c_huasco
+
+# Settlements
+max_settlements = 2
+
+b_freirina = castle
+b_huasco = city
+#b_maintencillo = temple
+#b_caleta_chanaral = castle
+#b_carrizalillo = city
+#b_tamarico = temple
+#b_la_cobaltera = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

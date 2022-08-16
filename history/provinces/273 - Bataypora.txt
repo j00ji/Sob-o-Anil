@@ -1,0 +1,21 @@
+# c_bataypora
+
+# County Title
+title = c_bataypora
+
+# Settlements
+max_settlements = 2
+
+b_bataypora = tribal
+#b_ivinhema = city
+#b_anaurilandia = temple
+#b_novo_horizonte_do_sul = castle
+#b_angelica = city
+#b_nova_andradina = temple
+#b_taquarussu = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

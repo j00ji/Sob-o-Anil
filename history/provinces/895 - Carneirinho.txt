@@ -1,0 +1,21 @@
+# c_carneirinho
+
+# County Title
+title = c_carneirinho
+
+# Settlements
+max_settlements = 3
+
+b_alexandrita = castle
+b_sao_sebastiao_do_pontal = temple
+#b_fatima_do_pontal = temple
+#b_limeira_do_oeste = castle
+#b_juvelandia = city
+#b_iturama = temple
+#b_uniao_de_minas = castle
+
+# Misc
+culture = triangler
+religion = umbanda
+
+#History

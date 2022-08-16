@@ -1,0 +1,21 @@
+# c_canutama
+
+# County Title
+title = c_canutama
+
+# Settlements
+max_settlements = 3
+
+b_canutama = tribal
+#b_alanca = city
+#b_jadibiru = temple
+#b_salvacao = castle
+#b_urucun = city
+#b_labrea = temple
+#b_garancia = castle
+
+# Misc
+culture = mura
+religion = xabaxai_xagi
+
+#History

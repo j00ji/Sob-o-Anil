@@ -1,0 +1,580 @@
+520001={
+	name=Isidoro
+	dynasty=230001
+	martial=5
+	diplomacy=4
+	stewardship=3
+	intrigue=2
+	learning=3
+	culture=desertico
+	religion=calafatist
+	trait=proud
+	trait=lustful
+	trait=ambitious
+	trait=stubborn
+	trait=skilled_tactician
+	2342.2.12={
+		birth=yes
+	}
+	2407.7.15={
+		death=yes
+	}
+}
+
+520002={
+	name=Norberto
+	dynasty=230002
+	martial=3
+	diplomacy=4
+	stewardship=5
+	intrigue=3
+	learning=4
+	culture=desertico
+	religion=calafatist
+	trait=cynical
+	trait=envious
+	trait=deceitful
+	trait=diligent
+	trait=thrifty_clerk
+	2335.8.8={
+		birth=yes
+	}
+	2401.1.19={
+		death=yes
+	}
+}
+
+520003={
+	name=Octavia
+	female=yes
+	dynasty=230024
+	martial=5
+	diplomacy=2
+	stewardship=4
+	intrigue=3
+	learning=5
+	culture=desertico
+	religion=evangelical
+	trait=zealous
+	trait=wroth
+	trait=lustful
+	trait=shrewd
+	trait=tough_soldier
+	2345.5.28={
+		birth=yes
+	}
+	2411.6.16={
+		death=yes
+	}
+}
+
+520004={
+	name=Jacinto
+	dynasty=230030
+	martial=4
+	diplomacy=3
+	stewardship=3
+	intrigue=2
+	learning=5
+	culture=desertico
+	religion=gaucheria
+	trait=patient
+	trait=kind
+	trait=brave
+	trait=physician
+	trait=martial_cleric
+	2340.6.12={
+		birth=yes
+	}
+	2406.9.10={
+		death=yes
+	}
+}
+
+520005={
+	name=Rodolfo
+	dynasty=230032
+	martial=4
+	diplomacy=2
+	stewardship=4
+	intrigue=4
+	learning=4
+	culture=desertico
+	religion=gaucheria
+	trait=erudite
+	trait=duelist
+	trait=shy
+	trait=thrifty_clerk
+	2338.5.10={
+		birth=yes
+	}
+	2404.1.13={
+		death=yes
+	}
+}
+
+520006={
+	name=Eduardo
+	dynasty=230033
+	martial=4
+	diplomacy=4
+	stewardship=3
+	intrigue=3
+	learning=5
+	culture=desertico
+	religion=atomicist
+	trait=robust
+	trait=scholar
+	trait=gluttonous
+	trait=martial_cleric
+	2330.10.10={
+		birth=yes
+	}
+	2356.12.10={
+		add_spouse=480026
+	}
+	2397.7.1={
+		death=yes
+	}
+}
+
+
+520007={
+	name=Nahuel
+	dynasty=230033
+	martial=2
+	diplomacy=1
+	stewardship=2
+	intrigue=1
+	learning=2
+	culture=desertico
+	religion=atomicist
+	trait=conscientious
+	trait=indolent
+	trait=idolizer
+	father=520006
+	mother=480026
+	2358.4.3={
+		birth=yes
+	}
+	2430.6.15={
+		death=yes
+	}
+}
+
+520008={
+	name="Fermín"
+	dynasty=230034
+	martial=4
+	diplomacy=3
+	stewardship=3
+	intrigue=4
+	learning=3
+	culture=desertico
+	religion=gaucheria
+	trait=craven
+	trait=patient
+	trait=just
+	trait=shrewd
+	2344.4.12={
+		birth=yes
+	}
+	2409.3.18={
+		death=yes
+	}
+}
+
+
+530001={
+	name=Enrique
+	dynasty=235031
+	martial=4
+	diplomacy=3
+	stewardship=5
+	intrigue=3
+	learning=4
+	culture=australino
+	religion=calafatist
+	trait=zealous
+	trait=patient
+	trait=humble
+	trait=diligent
+	trait=content
+	trait=honest
+	trait=tough_soldier
+	2326.3.19={
+		birth=yes
+	}
+	2348.1.6={
+		add_spouse=530002
+	}
+	2399.4.5={
+		death=yes
+	}
+}
+530002={
+	name=Ana
+	female=yes
+	dynasty=235033
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=4
+	learning=5
+	culture=australino
+	religion=calafatist
+	trait=erudite
+	trait=craven
+	trait=kind
+	trait=wroth
+	trait=shrewd
+	trait=mystic
+	trait=martial_cleric
+	2327.9.29={
+		birth=yes
+	}
+	2398.1.17={
+		death=yes
+	}
+}
+530003={
+	name="Antolín"
+	dynasty=235031
+	martial=2
+	diplomacy=4
+	stewardship=5
+	intrigue=4
+	learning=3
+	culture=australino
+	religion=calafatist
+	trait=humble
+	trait=uncouth
+	trait=gregarious
+	trait=humble
+	trait=lustful
+	trait=honest
+	trait=fortune_builder
+	father=530001
+	mother=530002
+	2350.2.21={
+		birth=yes
+	}
+	2421.8.11={
+		death=yes
+	}
+}
+530004={
+	name=Dalia
+	female=yes
+	dynasty=235031
+	martial=4
+	diplomacy=3
+	stewardship=5
+	intrigue=3
+	learning=4
+	culture=australino
+	religion=calafatist
+	trait=brave
+	trait=greedy
+	trait=temperate
+	trait=groomed
+	trait=stubborn
+	trait=charismatic_negotiator
+	father=530001
+	mother=530002
+	2352.7.2={
+		birth=yes
+	}
+	2426.11.24={
+		death=yes
+	}
+}
+530005={
+	name="Adán"
+	dynasty=235035
+	martial=4
+	diplomacy=3
+	stewardship=5
+	intrigue=3
+	learning=4
+	culture=australino
+	religion=calafatist
+	trait=physician
+	trait=just
+	trait=patient
+	trait=humble
+	trait=stutter
+	trait=gardener
+	trait=poet
+	trait=underhanded_rogue
+	2345.5.3={
+		birth=yes
+	}
+	2412.1.21={
+		death=yes
+	}
+}
+530007={
+	name=Eleodoro
+	dynasty=235036
+	martial=3
+	diplomacy=4
+	stewardship=3
+	intrigue=5
+	learning=2
+	culture=australino
+	religion=calafatist
+	trait=robust
+	trait=kind
+	trait=temperate
+	trait=humble
+	trait=gamer
+	trait=celibate
+	trait=intricate_webweaver
+	2341.2.15={
+		birth=yes
+	}
+	2363.5.25={
+		add_spouse=530008
+	}
+	2410.10.1={
+		death=yes
+	}
+}
+530008={
+	name=Carolina
+	female=yes
+	dynasty=235037
+	martial=4
+	diplomacy=3
+	stewardship=5
+	intrigue=3
+	learning=4
+	culture=australino
+	religion=calafatist
+	trait=strong
+	trait=fair
+	trait=uncouth
+	trait=groomed
+	trait=kind
+	trait=lustful
+	trait=skilled_tactician
+
+	2343.6.21={
+		birth=yes
+	}
+	2364.3.12={
+		death=yes
+	}
+}
+530009={
+	name=Mauricio
+	dynasty=235041
+	martial=5
+	diplomacy=5
+	stewardship=3
+	intrigue=4
+	learning=3
+	culture=australino
+	religion=calafatist
+	occluded=yes
+	trait=just
+	trait=charitable
+	trait=temperate
+	trait=hunter
+	trait=legendary
+	trait=grey_eminence
+	2193.7.6={
+		birth=yes
+	}
+	2223.7.16={
+		death={
+			death_reason = death_duel killer = 500002
+		}
+	}
+}
+540001={
+	name=Mauricio
+	dynasty=240021
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=2
+	learning=4
+	culture=santacruceno
+	religion=xoon
+	secret_religion=calafatist
+	trait=cynical
+	trait=craven
+	trait=wroth
+	trait=deceitful
+	trait=tough_soldier
+	2306.9.17={
+		birth=yes
+	}
+	2330.2.11={
+		add_spouse=540002
+	}
+	2367.10.5={
+		death=yes
+	}
+}
+540002={
+	name=Florencia
+	dynasty=240022
+	martial=4
+	diplomacy=2
+	stewardship=4
+	intrigue=3
+	learning=2
+	culture=santacruceno
+	religion=xoon
+	secret_religion=calafatist
+	trait=gregarious
+	trait=shy
+	trait=patient
+	trait=intricate_webweaver
+	2307.10.17={
+		birth=yes
+	}
+	2377.4.1={
+		death=yes
+	}
+}
+540003={
+	name=Mauricio
+	dynasty=240021
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=2
+	learning=4
+	culture=santacruceno
+	religion=xoon
+	trait=sickly
+	father=540001
+	mother=540002
+	2333.7.15={
+		birth=yes
+	}
+	2333.12.19={
+		death={
+			death_reason=death_trait
+		}
+	}
+}
+540004={
+	name=Fabrizio
+	dynasty=240021
+	martial=3
+	diplomacy=5
+	stewardship=3
+	intrigue=4
+	learning=3
+	culture=santacruceno
+	religion=xoon
+	trait=ugly
+	trait=socializer
+	trait=lefthanded
+	trait=ambitious
+	trait=charismatic_negotiator
+	father=540001
+	mother=540002
+	2338.1.28={
+		birth=yes
+	}
+	2406.2.13={
+		death=yes
+	}
+}
+540005={
+	name=Pedro
+	dynasty=240026
+	martial=5
+	diplomacy=2
+	stewardship=3
+	intrigue=2
+	learning=5
+	culture=santacruceno
+	religion=xoon
+	secret_religion=calafatist
+	trait=strong
+	trait=mystic
+	trait=deceitful
+	trait=patient
+	trait=scholarly_theologian
+	2345.3.17={
+		birth=yes
+	}
+	2368.1.16={
+		add_spouse=540006
+	}
+	2420.3.12={
+		death=yes
+	}
+}
+540006={
+	name=Lorena
+	dynasty=240028
+	martial=4
+	diplomacy=3
+	stewardship=4
+	intrigue=3
+	learning=2
+	culture=santacruceno
+	religion=xoon
+	trait=lustful
+	trait=shrewd
+	trait=cynical
+	trait=thrifty_clerk
+	2344.8.6={
+		birth=yes
+	}
+	2417.3.12={
+		death=yes
+	}
+}
+540007={
+	name=Gorosito
+	dynasty=240031
+	martial=3
+	diplomacy=4
+	stewardship=5
+	intrigue=3
+	learning=5
+	culture=santacruceno
+	religion=calafatist
+	trait=robust
+	trait=shrewd
+	trait=diligent
+	trait=midas_touched
+	2348.2.19={
+		birth=yes
+	}
+	2412.4.9={
+		death=yes
+	}
+}
+540008={
+	name="Facón"
+	dynasty=240032
+	martial=5
+	diplomacy=3
+	stewardship=2
+	intrigue=4
+	learning=2
+	culture=santacruceno
+	religion=calafatist
+	trait=strategist
+	trait=shrewd
+	trait=just
+	trait=deceitful
+	trait=peasant_leader
+	trait=skilled_tactician
+	2341.12.22={
+		birth=yes
+	}
+	2401.5.24={
+		death=yes
+	}
+}

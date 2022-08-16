@@ -1,0 +1,21 @@
+# c_alto_amazonas
+
+# County Title
+title = c_alto_amazonas
+
+# Settlements
+max_settlements = 3
+
+b_yurimaguas = castle
+b_nauta = city
+#b_san_lorenzo_de_amazonas = temple
+#b_papayacu = castle
+#b_borja = city
+#b_pumayacu = temple
+#b_saramuro = castle
+
+# Misc
+culture = charapa
+religion = santo_daime
+
+#History

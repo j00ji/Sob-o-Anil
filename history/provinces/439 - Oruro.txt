@@ -1,0 +1,21 @@
+# c_oruro
+
+# County Title
+title = c_oruro
+
+# Settlements
+max_settlements = 5
+
+b_oruro = castle
+b_caracollo = city
+b_huanuni = temple
+b_eucaliptus = castle
+#b_poopo = city
+#b_machacamarca = temple
+#b_marcamarca = castle
+
+# Misc
+culture = quechua
+religion = santa_diablada
+
+#History

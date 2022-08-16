@@ -1,0 +1,21 @@
+# c_chimbote
+
+# County Title
+title = c_chimbote
+
+# Settlements
+max_settlements = 4
+
+b_chimbote = castle
+b_huarmey = city
+b_casma = temple
+#b_recuay = castle
+#b_ocros = city
+#b_gramadal = temple
+#b_samanco = castle
+
+# Misc
+culture = nortechicano
+religion = tridentine
+
+#History

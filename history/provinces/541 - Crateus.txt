@@ -1,0 +1,21 @@
+# c_crateus
+
+# County Title
+title = c_crateus
+
+# Settlements
+max_settlements = 2
+
+b_ararenda = tribal
+b_tamboril_2 = temple
+#b_mulungu = temple
+#b_poranga = castle
+#b_livramento = city
+#b_cajazeira = temple
+#b_ipaporanga = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

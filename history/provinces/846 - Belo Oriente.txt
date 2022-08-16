@@ -1,0 +1,21 @@
+# c_belo_oriente
+
+# County Title
+title = c_belo_oriente
+
+# Settlements
+max_settlements = 3
+
+b_mesquita_2 = tribal
+#b_acucena_2 = city
+#b_taquaracu = temple
+#b_perpetuo_socorro = castle
+#b_bom_jesus_do_bagre = city
+#b_aramirim = temple
+#b_felicina = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

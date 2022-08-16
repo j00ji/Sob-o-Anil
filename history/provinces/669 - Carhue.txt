@@ -1,0 +1,21 @@
+# c_carhue
+
+# County Title
+title = c_carhue
+
+# Settlements
+max_settlements = 1
+
+b_carhue_2 = tribal
+#b_darregueira = city
+#b_guatrache = temple
+#b_puan = castle
+#b_san_martin = city
+#b_jacinto_arauz = temple
+#b_bernasconi = castle
+
+# Misc
+culture = pampeano
+religion = gaucheria
+
+#History

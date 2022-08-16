@@ -1,0 +1,21 @@
+# c_telemaco_borba
+
+# County Title
+title = c_telemaco_borba
+
+# Settlements
+max_settlements = 2
+
+b_telemaco_borba = castle
+b_ortigueira = temple
+#b_ventania = temple
+#b_natingui = castle
+#b_campina_alta = city
+#b_tibagi = temple
+#b_guartela = castle
+
+# Misc
+culture = paranaense
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_sao_gabriel_cachoeira
+
+# County Title
+title = c_sao_gabriel_cachoeira
+
+# Settlements
+max_settlements = 2
+
+b_sao_gabriel_cachoeira = tribal
+#b_punyia = city
+#b_trovao = temple
+#b_miraracetuma = castle
+#b_carara_pucu = city
+#b_xaraco = temple
+#b_aru = castle
+
+# Misc
+culture = amazonense
+religion = hekura
+
+#History

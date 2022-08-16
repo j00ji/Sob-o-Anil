@@ -1,0 +1,21 @@
+# c_itaparica
+
+# County Title
+title = c_itaparica
+
+# Settlements
+max_settlements = 2
+
+b_iguira = castle
+#b_itaguacu = city
+#b_xique_xique = temple
+#b_ibiraba = castle
+#b_passagem = city
+#b_itaguacu_da_bahia = temple
+#b_santo_inacio = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

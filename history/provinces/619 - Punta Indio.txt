@@ -1,0 +1,21 @@
+# c_punta_indio
+
+# County Title
+title = c_punta_indio
+
+# Settlements
+max_settlements = 3
+
+b_magdalena_2 = castle
+b_veronica = city
+#b_pipinas = temple
+#b_jonte = castle
+#b_tahonas = city
+#b_monte_veloz = temple
+#b_gloria = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

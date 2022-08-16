@@ -1,0 +1,21 @@
+# c_leopoldina
+
+# County Title
+title = c_leopoldina
+
+# Settlements
+max_settlements = 3
+
+b_tebas = castle
+b_abaiba = temple
+#b_recreio = temple
+#b_argirita = castle
+#b_laranjal = city
+#b_piacatuba = temple
+#b_providencia = castle
+
+# Misc
+culture = mantiqueiro
+religion = terra_benta
+
+#History

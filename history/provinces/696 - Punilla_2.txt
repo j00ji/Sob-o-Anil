@@ -1,0 +1,21 @@
+# c_punilla_2
+
+# County Title
+title = c_punilla_2
+
+# Settlements
+max_settlements = 3
+
+b_cosquin = castle
+b_carlos_paz = city
+#b_cruz_del_eje = temple
+#b_el_brete = castle
+#b_los_sauces_2 = city
+#b_charbonier = temple
+#b_media_naranja = castle
+
+# Misc
+culture = cordobes
+religion = theosophist
+
+#History

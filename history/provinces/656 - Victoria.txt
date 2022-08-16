@@ -1,0 +1,21 @@
+# c_victoria
+
+# County Title
+title = c_victoria
+
+# Settlements
+max_settlements = 3
+
+b_victoria_2 = castle
+b_nogoya = city
+#b_las_cuevas = temple
+#b_doll = castle
+#b_acuarelas = city
+#b_febre = temple
+#b_antelo = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

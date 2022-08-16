@@ -1,0 +1,21 @@
+# c_huancavelica
+
+# County Title
+title = c_huancavelica
+
+# Settlements
+max_settlements = 4
+
+b_huancavelica = castle
+b_pampas_de_huancavelica = city
+b_acobamba = temple
+#b_lircay = castle
+#b_churcampa = city
+#b_huaytara = temple
+#b_castrovirreyna = castle
+
+# Misc
+culture = quechua
+religion = liberationist
+
+#History

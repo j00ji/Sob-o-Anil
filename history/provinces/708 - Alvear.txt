@@ -1,0 +1,21 @@
+# c_alvear
+
+# County Title
+title = c_alvear
+
+# Settlements
+max_settlements = 2
+
+b_alvear_2 = castle
+b_escandinava = temple
+#b_bowen = temple
+#b_lorca = castle
+#b_prats = city
+#b_soitue = temple
+#b_regadios = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

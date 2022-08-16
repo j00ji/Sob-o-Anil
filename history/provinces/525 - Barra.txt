@@ -1,0 +1,21 @@
+# c_barra
+
+# County Title
+title = c_barra
+
+# Settlements
+max_settlements = 3
+
+b_igarite_2 = castle
+b_boa_morte = temple
+b_coveto = city
+#b_jurema = castle
+#b_pedra_negra_do_extremo = city
+#b_quixaba = temple
+#b_itaguatiara = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

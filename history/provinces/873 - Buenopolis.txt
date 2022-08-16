@@ -1,0 +1,21 @@
+# c_buenopolis
+
+# County Title
+title = c_buenopolis
+
+# Settlements
+max_settlements = 3
+
+b_contagem = castle
+#b_lassance = city
+#b_beltrao = temple
+#b_joaquim_felicio = castle
+#b_curimatai = city
+#b_breiro = temple
+#b_sao_gonsalo = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

@@ -1,0 +1,21 @@
+# c_bacabal
+
+# County Title
+title = c_bacabal
+
+# Settlements
+max_settlements = 2
+
+b_bacabal = castle
+b_santa_teresinha = temple
+#b_sao_luis_gonzaga = temple
+#b_sao_mateus = castle
+#b_bom_lugar = city
+#b_lago_verde_2 = temple
+#b_pedra_do_salgado = castle
+
+# Misc
+culture = parnaibas
+religion = cicerite
+
+#History

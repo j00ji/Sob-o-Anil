@@ -1,0 +1,21 @@
+# c_copixaba
+
+# County Title
+title = c_copixaba
+
+# Settlements
+max_settlements = 2
+
+b_copixaba = castle
+b_saco_da_cruz = temple
+#b_barra = temple
+#b_curralinho = castle
+#b_sambaia = city
+#b_morpara = temple
+#b_alto_paraiso = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

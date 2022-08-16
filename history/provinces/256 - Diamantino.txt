@@ -1,0 +1,21 @@
+# c_diamantino
+
+# County Title
+title = c_diamantino
+
+# Settlements
+max_settlements = 2
+
+b_diamantino = tribal
+#b_arenapolis = city
+#b_nortelandia = temple
+#b_barra_do_bugres = castle
+#b_sapezal = city
+#b_denise = temple
+#b_porto_estrela = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

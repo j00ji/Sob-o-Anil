@@ -1,0 +1,21 @@
+# c_boca_do_acre
+
+# County Title
+title = c_boca_do_acre
+
+# Settlements
+max_settlements = 2
+
+b_boca_do_acre = castle
+#b_capana = city
+#b_camicua = temple
+#b_mapangaba = castle
+#b_tocandira = city
+#b_lua_nova = temple
+#b_purgatorio = castle
+
+# Misc
+culture = mura
+religion = santo_daime
+
+#History

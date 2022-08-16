@@ -1,0 +1,97 @@
+###ÄNSI
+
+british_group = {
+	graphical_cultures = { westerngfx }
+	falklander = {
+		graphical_cultures = { englishgfx }
+		
+		color = { 1.0 0.29 0.28 }
+		
+		male_names = {
+			Adam_Adam Alan_Alan Alistair_Alexander Alexander_Alexander Andrew_Andrew
+			Angus_Angus Anthony_Anthony Archibald_Archibald Arthur_Arthur Barry_Barry Benjamin_Benjamin Brian_Brian Brice_Brice Calum_Nicholas
+			Colin_Nicholas Conan_Conan Constantine_Constantine David_David Donald_Donald Douglas_Douglas Duff_Duff Dugald_Dugald
+			Duncan_Duncan Edgar_Edgar Edward_Edward Edwin_Edwin Eric_Eric Eugene_Ewan Fergus_Fergus Finn_Fingal Findlay_Findlay Francis_Francis
+			Gavin_Gavin George_George Gerald_Gerald Gilbert_Gilbert Gilbride_Gilbert Gilchrist_Gilchrist Gillespie Gilpatrick_Gilpatrick Gilroy_Gilroy Giric_Gregory Glenn Godfrey_Godfrey Gregor_Gregory
+			Hamish_Jacob Hector_Hector Henry_Henry Hugh_Hugh Ian_Ian James_Jacob Jason_Jason John_John Kenneth_Kenneth  Laurence_Laurence Lennon_Lennon
+			Louis
+			Macbeth Magnus_Magnus Malcolm_Malcolm Mark_Marcus
+			Marvin_Marvin Matthew_Matthew Michael_Michael  Murray Neil_Nigel Oscar_Oscar
+			Patrick_Patrick Paul_Paul Peter_Peter Philip_Philip Radulf_Ralph Richard_Richard Robert_Robert Roderick_Roderick Roger_Roger Roland_Roland Ronald_Ragnvald Rory_Roderick Ross Roy_Roy
+			Simon_Simon Somerled_Somerled Stephan_Stephen Sweeny_Sweeny Tadhg_Tadg Talore_Talore Thomas_Thomas Torquil_Torkel Uhtred_Uhtred Uisdean_Eysteinn Walan_Valentin
+			Walter_Walter William_William
+		}
+		female_names = {
+			Ada Agnes_Agnes Aileen_Helen Alice_Alice Anna_Anna Annabella Barbara_Barbara Beatrice_Beatrice Bridget_Bridget Brigitte_Bridget
+			Carole_Carole Catriona_Catherine Cecilia_Cecilia Christina_Christina Corina_Corina Donada Donella
+			Edith_Edith Edna_Eithne Ela Eleanor_Eleanor Elizabeth_Elizabeth Euna Eva_Eva Flora_Flora 
+			Helen_Helen Innes Isabel_Elizabeth Isla Isobel_Elizabeth Jean_Joan Julia_Julia
+			Kenna Kentigerna Kirsten_Christina Leona_Leona Lillian_Lillian Lorna Lynda_Lynda Maisie_Margaret Margaret_Margaret Mariota_Mariota Marjory_Marjory Mary_Maria
+			Martha_Martha Maud_Matilda Maura_Maria  Morna_Morna Mona_Mona Muriel_Muriel
+			Rhonda Rodina Sandra_Alexandra Sharon_Sharon Slaine_Slaine Stacy_Stacy Teslyn
+		}
+		
+		dukes_called_kings = yes
+
+		bastard_dynasty_prefix = "Fitz"
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	wladfaeg = {
+		graphical_cultures = { celticgfx }
+		
+		color = { 0.74 0.03 0.16 }
+		
+		male_names = {
+			Adam_Adam Alpin_Alwin Alen_Alan Alastair_Alexander Alexander_Alexander Andrew_Andrew
+			Angus_Angus Archibald_Archibald Arthur_Arthur Arran Aulay_Olaf Beathan Brian_Brian Brice_Brice Cailean_Nicholas Calum_Nicholas Carbrey_Carbrey Colban_Kolbein
+			Colin_Nicholas Conall_Conall Conan_Conan David_David Dermid_Dermid Donald_Donald Douglas_Douglas Duff_Duff Dugald_Dugald
+			Duncan_Duncan Edgar_Edgar Edward_Edward Edwin_Edwin Eric_Eric Evander_Ivar Ewan_Eugene Farquhar_Farquhar Fergus_Fergus Fingal_Finn Findlay_Findlay Frang_Francis
+			Gavin_Gavin Gilbert_Gilbert Gilbride_Gilbert Gilchrist_Gilchrist Gillespie Gilpatrick_Gilpatrick Gilroy_Gilroy Giric_Gregory Glenn Godfrey_Godfrey Gregor_Gregory
+			Hamish_Jacob Hector_Hector Henry_Henry Hugo_Hugh Huw_Hugh Iain_John Indulf Iwan James_Jacob John_John Kenneth_Kenneth Kentigern_Kentigern Lachlan_Roland Laurence_Laurence Lennon_Lennon Lewis_Lewis Llwyd_Lloyd Llywelyn_Lewis Luis_Lewis
+			Lulach Macbeth Magnus_Magnus Malcolm_Malcolm Maldoven_Maldoven Maldred_Maldred Malise_Malise Malmure_Malmure Maoilios Marcas_Marcus
+			Matad_Matad Matthew_Matthew Michael_Michael Mihangel_Michael Miguel_Michael Morgan_Morgan Muir Mungo_Mungo Murdoch_Murdoch Murray Neil_Nigel Ninian_Ninian Oscar_Oscar
+			Patrick_Patrick Paul_Paul Peter_Peter Philip_Philip Ricardo_Richard Richard_Richard Robert_Robert Roderick_Roderick Ronald_Ragnvald Rory_Roderick Ross Roy_Roy
+			Shaw_Shaw Simon_Simon Somerled_Somerled Stephan_Stephen Sweeny_Sweeny Tadhg_Tadg Talore_Talore Tegid Thomas_Thomas Torquil_Torkel Uhtred_Uhtred Uisdean_Eysteinn Walan_Valentin
+			Waldeve_Waltheof Walter_Walter William_William
+		}
+		female_names = {
+			Ada Affraic_Euphemia Agnes_Agnes Aileen_Helen Alice_Alice Anna_Anna Annabella Aufrica_Euphemia Barabal_Barbara Beileag_Elizabeth Beitris_Beatrice Beathoc_Beatrice Bride_Brigit
+			Catriona_Catherine Cecilia_Cecilia Christina_Christina Deirdre_Deirdre Derilla_Derilla Dervorgilla_Dervorgilla Donada Donella
+			Edith_Edith Edna_Eithne Effie Eilionoir_Eleanor Eimhir_Emer Eithne_Eithne Ela Eleanor_Eleanor Ellen_Ellen Elspeth_Elizabeth Eluned Eva_Eva Fenella_Finnguala Fingola_Finnguala Flora_Flora 
+			Forflissa Galiena Glenna Gormelia_Gormflaith Gruoch Helen_Helen Innes Iona Isabel_Elizabeth Isla Isobel_Elizabeth Jean_Joan Julia_Julia
+			Kenna Kentigerna Kirstin_Christina Lillias_Lillian Lorna Malmure_Malmure Mair_Maria Maisie_Margaret Malina Margaret_Margaret Mariota_Mariota Marjory_Marjory Mary_Maria
+			Martha_Martha Marthoc_Marjory Maud_Matilda Maura_Maria Mirren_Murron Mor_Mor Morag_Mor Morna_Morna Moyna_Mona Muriel_Muriel
+			Murron_Murron Mwyni Myfanwy_Myfanwy Nuala_Finnguala Orabilia Peigi_Margaret Rhonda Rodina Ronalda_Ragnhild Ros_Ros Saundra_Alexandra Sheena_Joan Shona_Joan Sholto Slaine_Slaine Sorcha_Sorcha Una_Una
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+		male_patronym = "mac "
+		female_patronym = "nic "
+		prefix = yes
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+}
+	

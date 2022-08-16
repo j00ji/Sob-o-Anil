@@ -1,0 +1,21 @@
+# c_caceres
+
+# County Title
+title = c_caceres
+
+# Settlements
+max_settlements = 2
+
+b_caceres = tribal
+#b_curvelandia = city
+#b_rio_branco = temple
+#b_lambari_doeste = castle
+#b_salto_do_ceu = city
+#b_mirassol_doeste = temple
+#b_molhadinho = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

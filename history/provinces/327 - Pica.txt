@@ -1,0 +1,21 @@
+# c_pica
+
+# County Title
+title = c_pica
+
+# Settlements
+max_settlements = 3
+
+b_pica = castle
+#b_lirima = city
+#b_matilla = temple
+#b_la_huayca = castle
+#b_tamentica = city
+#b_chintaguay = temple
+#b_calguay = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

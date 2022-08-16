@@ -1,0 +1,21 @@
+# c_blumenau
+
+# County Title
+title = c_blumenau
+
+# Settlements
+max_settlements = 4
+
+b_blumenaustadt = castle
+b_pomerode = temple
+b_indaial = temple
+#b_rio_dos_cedros = castle
+#b_ascurra = city
+#b_timbo = temple
+#b_benedito_novo = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

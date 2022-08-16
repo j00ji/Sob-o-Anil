@@ -1,0 +1,21 @@
+# c_yapeyu
+
+# County Title
+title = c_yapeyu
+
+# Settlements
+max_settlements = 2
+
+b_yapeyu = temple
+#b_paso_de_los_libres = city
+#b_bonpland = temple
+#b_monte_caseros = castle
+#b_curuzu_cuatia = city
+#b_cazadores = temple
+#b_mercedes_3 = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

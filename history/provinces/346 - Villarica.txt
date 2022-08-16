@@ -1,0 +1,21 @@
+# c_villarica
+
+# County Title
+title = c_villarica
+
+# Settlements
+max_settlements = 4
+
+b_villarica = temple
+b_pucon = city
+#b_cunco = temple
+#b_curarrehue = castle
+#b_melipeuco = city
+#b_caburgua = temple
+#b_icalma = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

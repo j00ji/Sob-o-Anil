@@ -1,0 +1,21 @@
+# c_maldonado_lavalleja
+
+# County Title
+title = c_maldonado_lavalleja
+
+# Settlements
+max_settlements = 4
+
+b_maldonado = castle
+b_punta_del_este = city
+b_minas = temple
+#b_san_carlos = castle
+#b_villa_serrana = city
+#b_jose_ignacio = temple
+#b_punta_ballena = castle
+
+# Misc
+culture = urbuguayo
+religion = bandean
+
+#History

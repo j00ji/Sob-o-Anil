@@ -1,0 +1,21 @@
+# c_bella_vista_2
+
+# County Title
+title = c_bella_vista_2
+
+# Settlements
+max_settlements = 2
+
+b_bella_vista_2 = tribal
+#b_san_roque_2 = city
+#b_tres_de_abril = temple
+#b_nuestra_senora = castle
+#b_calles = city
+#b_capilla_2 = temple
+#b_granjas = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

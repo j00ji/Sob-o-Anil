@@ -1,0 +1,21 @@
+# c_sao_jose_dos_campos
+
+# County Title
+title = c_sao_jose_dos_campos
+
+# Settlements
+max_settlements = 6
+
+b_sao_jose = castle
+b_francisco_xavier = castle
+b_eugenio_de_melo = city
+b_jacarei = temple
+#b_caminho_da_serra = city
+#b_embraer = temple
+#b_jambeiro = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

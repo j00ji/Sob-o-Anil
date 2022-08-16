@@ -1,0 +1,21 @@
+# c_palmeira_das_missoes
+
+# County Title
+title = c_palmeira_das_missoes
+
+# Settlements
+max_settlements = 2
+
+b_palmeira_das_missoes = castle
+#b_santa_barbara_do_sul = city
+#b_sao_pedro_das_missoes = temple
+#b_novo_barreiro = castle
+#b_sao_jose_das_missoes = city
+#b_dois_irmaos_das_missoes = temple
+#b_santo_augusto = castle
+
+# Misc
+culture = talian
+religion = celeste
+
+#History

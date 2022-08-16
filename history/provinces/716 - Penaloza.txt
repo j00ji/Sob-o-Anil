@@ -1,0 +1,21 @@
+# c_penaloza
+
+# County Title
+title = c_penaloza
+
+# Settlements
+max_settlements = 2
+
+b_chepes = castle
+#b_chamical = city
+#b_chepes_viejo = temple
+#b_chel = castle
+#b_macaisin = city
+#b_chelcos = temple
+#b_tello = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

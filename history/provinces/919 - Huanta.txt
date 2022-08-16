@@ -1,0 +1,21 @@
+# c_huanta
+
+# County Title
+title = c_huanta
+
+# Settlements
+max_settlements = 3
+
+b_huanta = castle
+b_san_miguel_de_ayacucho = city
+#b_tambo = temple
+#b_luricocha = castle
+#b_santa_rosa_de_la_mar = city
+#b_samugari = temple
+#b_ucharaccay = castle
+
+# Misc
+culture = quechua
+religion = liberationist
+
+#History

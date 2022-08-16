@@ -1,0 +1,21 @@
+# c_santo_antonio_da_platina
+
+# County Title
+title = c_santo_antonio_da_platina
+
+# Settlements
+max_settlements = 2
+
+b_santo_antonio_da_platina = castle
+#b_cornelio_procopio = city
+#b_jacarezinho = temple
+#b_cambara = castle
+#b_andira = city
+#b_conselheiro_zacarias = temple
+#b_santa_mariana = castle
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

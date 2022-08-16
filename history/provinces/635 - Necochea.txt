@@ -1,0 +1,21 @@
+# c_necochea
+
+# County Title
+title = c_necochea
+
+# Settlements
+max_settlements = 3
+
+b_quequen = castle
+b_necochea = city
+#b_energia = temple
+#b_los_angeles_2 = castle
+#b_centinela = city
+#b_pieres = temple
+#b_costa_bonita = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

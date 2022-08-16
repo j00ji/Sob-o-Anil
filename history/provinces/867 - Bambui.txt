@@ -1,0 +1,21 @@
+# c_bambui
+
+# County Title
+title = c_bambui
+
+# Settlements
+max_settlements = 4
+
+b_bambui_2 = tribal
+#b_capitolio = city
+#b_sao_jose_5 = temple
+#b_doresopolis = castle
+#b_altolandia = city
+#b_desempenhado = temple
+#b_cabrestos = castle
+
+# Misc
+culture = canastro
+religion = anchietican
+
+#History

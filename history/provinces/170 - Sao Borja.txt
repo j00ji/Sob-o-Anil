@@ -1,0 +1,21 @@
+# c_sao_borja
+
+# County Title
+title = c_sao_borja
+
+# Settlements
+max_settlements = 2
+
+b_sao_borja = tribal
+#b_nhu_pora = city
+#b_icamaqua = temple
+#b_coudelaria = castle
+#b_itacurubi = city
+#b_sambura = temple
+#b_unistalda = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

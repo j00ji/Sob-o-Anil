@@ -1,0 +1,21 @@
+# c_campo_alegre
+
+# County Title
+title = c_campo_alegre
+
+# Settlements
+max_settlements = 2
+
+b_lourdes = tribal
+#b_baluarte = city
+#b_sao_raimundo_nonato = temple
+#b_curimata = castle
+#b_avelino_lopes = city
+#b_mansidao_2 = temple
+#b_santa_rita_de_cassia = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

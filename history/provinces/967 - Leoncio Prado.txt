@@ -1,0 +1,21 @@
+# c_leoncio_prado
+
+# County Title
+title = c_leoncio_prado
+
+# Settlements
+max_settlements = 3
+
+b_tingo_maria = castle
+b_puerto_inca = city
+#b_pumahuasi = temple
+#b_aucayacu = castle
+#b_honoria = city
+#b_tournavista = temple
+#b_yuyapichis = castle
+
+# Misc
+culture = charapa
+religion = inti
+
+#History

@@ -1,0 +1,21 @@
+# c_gurgueia
+
+# County Title
+title = c_gurgueia
+
+# Settlements
+max_settlements = 2
+
+b_currais = tribal
+#b_santa_luz_2 = city
+#b_conceicao = temple
+#b_para_batins = castle
+#b_palmeira_do_piaui = city
+#b_nova_santa_rosa_2 = temple
+#b_colonia_do_guegueia = castle
+
+# Misc
+culture = kraho
+religion = cicerite
+
+#History

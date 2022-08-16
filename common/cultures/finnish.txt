@@ -1,0 +1,69 @@
+###ÄNSI
+
+finnish_group = {
+	graphical_cultures = { westerngfx }
+	
+	suomi = {
+		graphical_cultures = { ugricgfx }
+		
+		color = { 0.36 0.42 0.63 }
+		
+		male_names = {
+			Aarto_Artur Aatos Aatso_Adam Adalfredo Adélio Afonso Agílio Ahma Ahvo Ailson Aimo Alarico Aldemiro Alfredo Almério Alrondio Altamir Aragornio Armas Arnoldo Arvo Asikko Asko Atanagildo 
+			Balduíno Balen Belamiro Beraldo Berengar Bernardo Bertino Bertram Bilbo Bormiro Bruno 
+			Carlomano Carlos Casimiro Celeborne Clodoaldo Clodomiro Clotário Clóvis Conrado Cásper 
+			Dagoberto Delmiro Denetur Derek Djalma Duarte Durvalino 
+			Edmar Edmilson Eduardo Eginardo Eidil Eladão Elke Elmar Elvino Emil Enrico Ensio Eomero Erardo Erkki_Erik Ermelindo Ermínio Ernâni Erós Esildo Everardo Everton 
+			Fangir Faramundo Ferdinando Fernando Filiberto Franco Frederico Frodo 
+			Galdino Gandalfi Genival Geraldo Germano Gervásio Gilberto Gilcimar Gildo Gilimo Givanildo Glorofindo Godofredo Gonçalo Gotardo Gregor Gualberto Guilherme Gustavo Guálter 
+			Haapa Halabade Hamílcar Hannu Haroldo Havu Henri_Henry Henrique Hermano Hermenegildo Hildeberto Hilderico Hintsa Hugo Humberto 
+			Ihanti Ildefonso Ilmar Ingo Into Isnardo Itamar Ivaldir Ivor 
+			Jaakoppi_Jacob Jalo Jefferson Jofre Johannes_John Jorge_George Jurva Kaarle_Charles 
+			Kaleva Kalevi Kalio Karlos Kauro_Gabriel Kettu Kirk Koch Kolli Kristofer_Cristofer Kuuti_Knut 
+			Lalli Lamberto Landolfo Lauri_Laurence Laurio Legola Lemetti Leonardo Leopoldo Lineu Lucas Ludolfo Lutero Luís_Luiz 
+			Manfredo Mannairem Manrico Manualdo Marivaldo Marti Matti_Matthew Mauno Max Meneleú Mielitty Miemo Mike Mikko_Michael Mozar 
+			Naldo Nelson Nicolas_Nikolas Nivaldo Nokia Norberto 
+			Oberto Odair Odoríco Odovaldo Odulfo Oduíno Oiva Olavi_Olaf Olavo Olegário Onni Orlando Oscar Osvino Otso Otílio 
+			Paavo_Paul Pascal Patrício Paulo Pedro_Pieter Pekko Pentti Peor Petri_Peter Pyry Päiviö 
+			Radagásio Radulfo Raimundo Ranildo Reinoldo Reko Ricardo Rieti_Frederick Rigoberto Riku_Richard Risto Risto_Christopher Roaldo Roberto Rodrigo Rodusino Rodérico Rogério Rolando Ronildo Rosamundo 
+			Sampo Sarumo Satajalka Satatieto Saule Saurão Sebastião Selmar Seppo Sigeberto Sigefredo Sigismundo Sigmar Sinval Soini_Sven Susi 
+			Taisto Tancredo Tapani Teodomiro Teodoren Teodorico Teotônio Terho Tohmas_Thomas Toivo Tommo Trêm Tuokko_David Turo Tuure 
+			Ubaldo Ukko Ulando Ulf Uoti Urho Urro 
+			Valdemar Valdir Valdomiro Valta Valter Valteri_Walter Valto Veli Vesa Vitoldo Voitto Vágner Väinö Yrjö_George Yuro
+		}
+		female_names = {
+			Aamu Adalfrida Adalgisa Adalvina Adelaide Adelfa Adelina Adélia Aino Alcina Alda Aldegunde Alienor Alvina Alzira Amalberga Amara Amália Anna Anselmina Antelma Antonina Arlete Aruenia Auni_Agnes 
+			Belinda Belmira Berengária Bernadete Bernardine Bertha Brenda Brigita Britta Bruna Brunilda 
+			Carla Carolina Catarina Celma Charissa Charlene Cindra Clarimunda Clothilde Cremilda Cristina 
+			Dagmar Dalziza Diomara Djalmira Doralice Dália 
+			Edagmara Edelina Edileusa Edith Eduarda Edwiges Egídia Elisa Elisabet_Elizabeth Elisângela Elmara Elsa Elvina Emeline Emma Erla Ermelinda Ermengarda Ermesinda Ervina 
+			Fabíola Fernanda Franca Francisca Freda Frederica Frida Fréia 
+			Galabriel Galdência Geisila Geralda Germana Gerthe Gertrudes Geslinda Geísa Gilda Gisa Giselda Gisele Glaura Gleide Godofreda Greta Griselda Guilhermina Gwenda 
+			Heike Heleonora Hellä Helmi Heloísa Henrike Hertta Hilda Hilma Hulda Hérica_Erica 
+			Idália_Dália Ilda_Hilda Ildete Ilmatar Ilona_Helen Ilsa Ilta Imelda Inkeri Irene_Irene Irma Isolda Ivanice Izolina 
+			Jannike_Jane Jucilene Jutta_Judite 
+			Kaarina_Catherine Kaia Karina Kelda Kielo Kivutar Kristiina_Christina Kukka Käpy 
+			Lauha Laura Laurinda Lemmikki Lempi Leonarda Leone Leopoldina Liekko_Helen Lilsa Lindaura Liutberga_Liutperga Lorena Loviisa Lucimar Luísa_Luiza Lyssa Lyylikki 
+			Madressilva Mafalda Magna Mahla Maija Manuela Maria_Mitzi Maricília Marielsa Marilú Marja Matilda_Matilde Mesi Metta Mielikki Monika 
+			Natália Nelda Nikole Nimrodite Noemi Nokia Nícia 
+			Olga Olívia Oneide Oscarina Osvina Otília 
+			Patrícia Paula Philippa Pietra Pihla Pilvi Päivi Päivä 
+			Rafaela Raimunda Ranilda Rauha Ricarda Rogéria Romilda Roseli Roselinda Rosângela Roth 
+			Salme Sigelinda Sigmara Sigrida Sisko Sohvi_Sofia Sueli Suoma Susana_Susanne 
+			Taimi Talvikki Tarja Tarsrila Teodolinda Terhi Titti Tuija Tuovi Tuuli Tuulikki Tuulitar Tyyne Tyyni Tânia 
+			Uda Ula 
+			Valda Vanamo Vanusa Velma Venla Verena Vilma Virna Vânia Wilá Wismara Wladis 
+			Zelda Zelima Zelinda Zilda Zulmira Zuraide Úrsula
+		}
+		
+		from_dynasty_suffix = "sta"
+		male_patronym = "npoika"
+		female_patronym = "ntytär"
+		prefix = no
+		
+		modifier = default_culture_modifier
+	}
+}
+
+		
+		

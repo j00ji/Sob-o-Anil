@@ -1,0 +1,839 @@
+e_patagonia = {
+	color={ 53 217 163 }
+	color2={ 255 255 20 }
+	
+	capital = 355 # c_viedma
+	culture = desertico
+	
+	k_rio_negro = {
+		color={ 35 163 228 }
+		color2={ 255 255 255 }
+		mapuche = "Curu Leuvu"
+		capital = 355 # c_viedma
+		culture = desertico
+		
+		d_viedma = {
+			color={ 162 128 190 }
+			color2={ 255 255 255 }
+			
+			capital = 355 # c_viedma
+			
+			c_viedma = { # 355
+				color={ 142 133 201 }
+				color2={ 255 255 255 }
+				
+				b_viedma = {}
+				b_san_javier_de_rio_negro = {}
+				b_el_condor = {}
+				b_bahia_creek = {}
+				b_la_loberia = {}
+				b_cubanea = {}
+				b_nuevo_leon = {}
+			}
+			c_san_antonio_2 = { # 356
+				color={ 56 86 175 }
+				color2={ 255 255 255 }
+				
+				b_san_antonio_oeste = {}
+				b_las_grutas = {}
+				b_san_antonio_este = {}
+				b_mancha_blanca = {}
+				b_aguada_cecilio = {}
+				b_san_antonio_este_2 = {}
+				b_rogelio_cortizo = {}
+			}
+			c_valcheta = { # 357
+				color={ 103 121 175 }
+				color2={ 255 255 255 }
+				
+				b_valcheta = {}
+				b_nahuel_niyiu = {}
+				b_musters = {}
+				b_pomona = {}
+				b_lamarque = {}
+				b_colonia_josefa = {}
+				b_tres_picos = {}
+			}
+		}
+
+		d_jacobacci = {
+			color={ 150 129 175 }
+			color2={ 255 255 255 }
+			
+			capital = 359 # c_jacobacci
+			mapuche = "Huahuel Niyeu"
+
+			c_comico = { # 358
+				color={ 53 68 112 }
+				color2={ 255 255 255 }
+				
+				b_comico = {}
+				b_prahuaniyeu = {}
+				b_los_menucos = {}
+				b_cerro_abanico = {}
+				b_sierra_colorada = {}
+				b_ministro_ramos_mexia = {}
+				b_aguada_de_guerra = {}
+			}
+			c_sierra_grande = { # 400
+				color={ 152 102 175 }
+				color2={ 255 255 255 }
+				
+				b_sierra_grande = {}
+				b_playas_doradas = {}
+				b_la_ventana = {}
+				b_los_berros = {}
+				b_cona_niyeu = {}
+				b_sierra_paileman = {}
+				b_sierra_chica = {}
+			}
+			c_jacobacci = { # 359
+				color={ 124 148 221 }
+				color2={ 255 255 255 }
+				mapuche = "Huahuel Niyeu"
+				b_jacobacci = {
+					mapuche = "Huahuel Niyeu"
+				}
+				b_maquinchao = {}
+				b_quetrequile = {}
+				b_ojos_de_agua = {}
+				b_clemente_onelli = {}
+				b_comallo = {}
+				b_rio_chico = {}
+			}
+
+		}
+
+		d_bariloche = {
+			color={ 155 26 75 }
+			color2={ 255 255 255 }
+			
+			capital = 363 # c_bariloche
+			
+			c_bariloche = { # 363
+				color={ 145 36 70 }
+				color2={ 255 255 255 }
+				holy_site = atomicist
+				b_bariloche = {}
+				b_los_coihues = {}
+				b_dina_huapi = {}
+				b_llao_llao = {}
+				b_pilcaniyeu = {}
+				b_puerto_blest = {}
+				b_puerto_manzano = {}
+			}
+			c_bolson = { # 364
+				color={ 142 14 44 }
+				color2={ 255 255 255 }
+				
+				b_el_bolson = {}
+				b_el_foyel = {}
+				b_villa_mascardi = {}
+				b_rio_villegas = {}
+				b_los_repollos = {}
+				b_lago_puelo = {}
+				b_el_hoyo = {}
+			}
+			c_cholila = { # 365
+				color={ 140 57 116 }
+				color2={ 255 255 255 }
+				
+				b_cholila = {}
+				b_mayoco = {}
+				b_costa_de_lepa = {}
+				b_leleque = {}
+				b_epuyen = {}
+				b_cushamen = {}
+				b_cerro_anexo = {}
+			}
+		}
+		d_general_roca = {
+			color={ 149 132 59 }
+			color2={ 255 255 255 }
+			mapuche = "Fisque Menuco"
+			capital = 360 # c_general_roca
+			
+			c_general_roca = { # 360
+				color={ 139 142 54 }
+				color2={ 255 255 255 }
+				mapuche = "Fisque Menuco"
+				b_general_roca = {
+					mapuche = "Fisque Menuco"
+				}
+				b_cipolletti = {}
+				b_villa_regina = {}
+				b_allen = {}
+				b_cinco_saltos = {}
+				b_cervantes = {}
+				b_fernandez_oro = {}
+			}
+			c_avellaneda = { # 362
+				color={ 79 81 31 }
+				color2={ 255 255 255 }
+				
+				b_choele_choel = {}
+				b_luis_beltran = {}
+				b_duval = {}
+				b_negro_muerto = {}
+				b_chelforo = {}
+				b_belisle = {}
+				b_chimpay = {}
+			}
+			c_catriel = { # 361
+				color={ 154 158 60 }
+				color2={ 255 255 255 }
+				
+				b_catriel = {}
+				b_25_de_mayo = {}
+				b_puelen = {}
+				b_colonia_chica = {}
+				b_casa_de_piedra = {}
+				b_la_reforma = {}
+				b_la_copelina = {}
+			}
+		}
+		d_neuquen = {
+			color={ 152 63 70 }
+			color2={ 255 255 255 }
+			
+			capital = 366 # c_neuquen
+			
+			c_neuquen = { # 366
+				color={ 142 73 65 }
+				color2={ 255 255 255 }
+				holy_site = calafatist					
+				b_neuquen = {}
+				b_centenario_3 = {}
+				b_plottier = {}
+				b_san_patricio_del_chanar = {
+					mapuche = "Tratayén"
+				}
+				b_zapala = {}
+				b_picun_leufu = {}
+				b_catan_lil = {}
+			}
+			c_lacar = { # 367
+				color={ 181 38 42 }
+				color2={ 255 255 255 }
+				b_san_martin_de_los_andes = {
+					mapuche = "Pucaullhué"
+				}
+				b_junin_de_los_andes = {}
+				b_villa_la_angostura = {}
+				b_achico = {}
+				b_paso_flores = {}
+				b_estancia_san_ignacio = {}
+				b_sanico = {}
+			}
+			c_las_perlas = { # 368
+				color={ 145 30 34 }
+				color2={ 255 255 255 }
+				
+				b_las_perlas = {}
+				b_el_cuy = {}
+				b_cerro_policia = {}
+				b_aguada_de_guzman = {}
+				b_mencue = {}
+				b_laguna_blanca = {}
+				b_blancura_centro = {}
+			}
+			c_pehuenches = { # 369
+				color={ 140 29 33 }
+				color2={ 255 255 255 }
+				
+				b_rincon_de_los_sauces = {}
+				b_chos_malal = {}
+				b_huinganco = {}
+				b_anelo = {}
+				b_loncopue = {}
+				b_huncal = {}
+				b_mulichinco = {}
+			}
+		}
+	}
+	k_chubut = {
+		color={ 85 174 120 }
+		color2={ 255 255 255 }
+		
+		capital = 398 # c_trelew
+		culture = wladfaeg
+		d_biedma = {
+			color={ 61 140 57 }
+			color2={ 255 255 255 }
+			
+			capital = 398 # c_trelew
+			wladfaeg = "Y Wladfa"
+			c_trelew = { # 398
+				color={ 51 150 52 }
+				color2={ 255 255 255 }
+				holy_site = evangelical
+				b_trelew = {}
+				b_rawson = {
+					wladfaeg = "Trerawson"
+				}
+				b_playa_union = {}
+				b_gaiman = {}
+				b_dolavon = {
+					wladfaeg = "Dôl Afon"
+				}
+				b_ameghino = {}
+				b_azar = {}
+			}
+			c_gan_gan = { # 401
+				color={ 62 168 84 }
+				color2={ 255 255 255 }
+				
+				b_gan_gan = {}
+				b_gastre = {}
+				b_talagapa = {}
+				b_el_cain = {}
+				b_trapalanda = {}
+				b_linlin = {}
+				b_elelin = {}
+			}
+			c_madryn = { # 402
+				color={ 75 158 112 }
+				color2={ 255 255 255 }
+				
+				b_puerto_madryn = {}
+				b_puerto_lobos = {}
+				b_playa_gaviota = {}
+				b_punta_norte = {}
+				b_fuerte_san_jose = {}
+				b_punta_delgada_2 = {}
+				b_puerto_piramides = {}
+			}
+			c_telsen = { # 399
+				color={ 97 150 98 }
+				color2={ 255 255 255 }
+				
+				b_telsen = {}
+				b_corcovado = {}
+				b_sierra_chata = {}
+				b_los_nogales = {}
+				b_los_algarrobos = {}
+				b_la_anita = {}
+				b_bajada_del_diablo = {}
+			}
+		}
+		d_escalante = {
+			color= { 103 144 21 }
+			color2={ 255 255 255 }
+			
+			capital = 403 # c_comodoro_chile
+			
+			c_comodoro_chile = { # 403
+				color={ 113 128 21 }
+				color2={ 255 255 255 }
+				holy_site= calafatist
+				b_comodoro_chile = {}
+				b_diadema_argentina = {}
+				b_caleta_cordova = {}
+				b_astra = {}
+				b_cerro_dragon = {}
+				b_rada_tilly = {}
+				b_pampa_del_castillo = {}
+			}
+			c_bustamante = { # 404
+				color={ 174 188 27 }
+				color2={ 255 255 255 }
+				
+				b_bahia_bustamante = {}
+				b_malaspina = {}
+				b_garayalde = {}
+				b_la_leonor = {}
+				b_conuto = {}
+				b_camarones = {}
+				b_cabo_raso = {}
+			}
+			c_el_sombrero = { # 406
+				color={ 183 196 56 }
+				color2={ 255 255 255 }
+				wladfaeg = "Hesg"
+				b_el_sombrero = {
+					wladfaeg = "Hesg"
+				}
+				b_el_mirasol = {}
+				b_las_plumas = {}
+				b_los_altares = {}
+				b_paso_de_indios = {
+					wladfaeg = "Rhyd yr Indiaid"
+				}
+				b_tierra_muerte = {}
+				b_baldiaz = {}
+			}
+			c_facundo = { # 405
+				color={ 165 198 52 }
+				color2={ 255 255 255 }
+				
+				b_facundo = {}
+				b_buen_pasto = {}
+				b_los_tamarindos = {}
+				b_sarmiento = {}
+				b_las_pulgas = {}
+				b_buen_pasto_2 = {}
+				b_canquel = {}
+			}
+		}
+		d_esquel = {
+			color={ 152 75 114 }
+			color2={ 255 255 255 }
+			
+			capital = 407 # c_esquel
+			
+			c_esquel = { # 407
+				color={ 142 85 109 }
+				color2={ 255 255 255 }
+				
+				b_esquel = {}
+				b_trevelin = {
+					wladfaeg = "Tre Felin"
+				}
+				b_corcovado_2 = {}
+				b_bagle = {}
+				b_aldea_escolar = {}
+				b_lago_rosario = {}
+				b_gualjaina = {}
+			}
+			c_apeleg = { # 409
+				color={ 140 78 90 }
+				color2={ 255 255 255 }
+				desertico = "Río Mayo"
+				b_apeleg = {}
+				b_ricardo_rojas = {}
+				b_valle_huemules = {}
+				b_alto_rio_senguer = {}
+				b_rio_pico = {}
+				b_nueva_lubecka = {}
+				b_lago_vintter = {}
+			}
+			c_tecka = { # 408
+				color={ 152 111 109 }
+				color2={ 255 255 255 }
+				wladfaeg = "Hafn Lâs"
+				b_tecka = {
+					wladfaeg = "Hafn Lâs"
+				}
+				b_paso_del_sapo = {}
+				b_gobernador_costa = {}
+				b_pampa_de_agnia = {}
+				b_arroyo_pescado = {}
+				b_colan_conhue = {}
+				b_carrenleufu = {}
+			}
+		}
+	}
+	k_santa_cruz_de_patagonia = {
+		color={ 70 98 196 }
+		color2={ 255 255 255 }
+		
+		capital = 386 # c_gueer_aike
+		culture = aonikenk
+		
+		d_santa_cruz_de_patagonia = {
+			color={ 70 98 176 }
+			color2={ 255 255 255 }
+			
+			capital = 386 # c_gueer_aike
+			
+			c_gueer_aike = { # 386
+				color={ 106 116 181 }
+				color2={ 255 255 255 }
+
+				b_rio_gallegos = {}
+				b_palermo_aike = {}
+				b_punta_loyola = {}
+				b_chimen_aike = {}
+				b_mayer = {}
+				b_puerto_coig = {}
+				b_monte_dinero = {}
+			}
+			c_corpen_aike = { # 389
+				color={ 101 145 155 }
+				color2={ 255 255 255 }
+				
+				b_puerto_santa_cruz = {}
+				b_piedrabuena = {}
+				b_rio_chico_2 = {}
+				b_punta_quilla = {}
+				b_estancia_la_negra = {}
+				b_la_marchand = {}
+				b_monte_leon = {}
+			}
+			c_rio_turbio = { # 387
+				color={ 70 140 123 }
+				color2={ 255 255 255 }
+				
+				b_rio_turbio = {}
+				b_28_de_noviembre = {}
+				b_gaypon = {}
+				b_bella_vista = {}
+				b_la_carlota = {}
+				b_cancha_carrera = {}
+				b_el_turbio = {}
+			}
+			c_san_julian = { # 388
+				color={ 78 167 147 }
+				color2={ 255 255 255 }
+				
+				b_san_julian = {}
+				b_la_mina = {}
+				b_cerro_negro = {}
+				b_la_gringa = {}
+				b_la_maria = {}
+				b_tierra_baldia = {}
+				b_muertes = {}
+			}
+		}
+		d_deseado = {
+			color={ 50 55 115 }
+			color2={ 255 255 255 }
+			
+			capital = 394 # c_olivia
+			
+			c_olivia = { # 394
+				color={ 74 96 145 }
+				color2={ 255 255 255 }
+				
+				b_caleta_olivia = {}
+				b_canadon_seco = {}
+				b_pico_truncado = {}
+				b_koluel_kayke = {}
+				b_las_heras = {}
+				b_cameron_2 = {}
+				b_centenario_4 = {}
+			}
+			c_fitz_roy = { #395
+				color={ 68 98 176 }
+				color2={ 255 255 255 }
+				
+				b_fitz_roy = {}
+				b_moyano = {}
+				b_jaramillo = {}
+				b_25_de_mayo_2 = {}
+				b_el_rancho = {}
+				b_tristeza = {}
+				b_soledade = {}
+			}			
+			c_deseado = { # 396
+				color={ 67 74 114 }
+				color2={ 255 255 255 }
+				
+				b_deseado = {}
+				b_tellier = {}
+				b_dos_hermanos = {}
+				b_caminos_real = {}
+				b_nueva_buenos_aires = {}
+				b_mazarredo = {}
+				b_la_calandria = {}
+			}
+			c_tres_cerros = { # 397
+				color={ 150 155 246 }
+				color2={ 255 255 255 }
+				
+				b_tres_cerros = {}
+				b_bahia_laura = {}
+				b_punta_buque = {}
+				b_la_herradura_2 = {}
+				b_laguna_dulce = {}
+				b_puerto_maldad = {}
+				b_puerto_laura = {}
+			}
+		}
+		d_lago_argentino = {
+			color={ 90 76 200 }
+			color2={ 255 255 255 }
+			
+			capital = 390 # c_gregores
+			
+			c_gregores = { # 390
+				color={ 105 93 205 }
+				color2={ 255 255 255 }
+				
+				b_gregores = {}
+				b_tres_lagos = {}
+				b_lago_san_martin = {}
+				b_la_guillermina = {}
+				b_santa_lucia_2 = {}
+				b_cerro_negro_2 = {}
+				b_lago_cardiel = {}
+			}
+			c_bajo_caracoles = { # 392
+				color={ 124 109 178 }
+				color2={ 255 255 255 }
+				
+				b_bajo_caracoles = {}
+				b_las_hornetas = {}
+				b_lago_posadas = {}
+				b_tamel_aike = {}
+				b_los_manantiales = {}
+				b_la_manchuria = {}
+				b_la_criolla = {}
+			}
+			c_el_calafate = { # 393
+				color={ 124 151 239 }
+				color2={ 255 255 255 }
+				aonikenk = "Kehek Aike"
+				b_el_calafate = {
+					aonikenk = "Kehek Aike"
+				}
+				b_punta_bandera = {}
+				b_charles_fuhr = {}
+				b_tapi_aike = {}
+				b_pinaculo = {}
+				b_skvarca = {}
+				b_flamenquia = {}
+			}
+			c_lago_argentino = { # 391
+				color={ 90 116 200 }
+				color2={ 255 255 255 }
+				
+				b_lago_argentino = {}
+				b_la_leona = {}
+				b_helsingfors = {}
+				b_maria_elena_2 = {}
+				b_la_herradura = {}
+				b_la_julia = {}
+				b_viedma_2 = {}
+			}
+		}
+	}
+	k_falkland = {
+		color={ 231 25 83 }
+		color2={ 255 255 255 }
+		
+		capital = 383 # c_stanley
+		culture = falklander
+		
+		d_falkland_islands = {
+			color={ 226 20 81 }
+			color2={ 255 255 255 }
+			
+			capital = 383 # c_stanley
+			
+			c_stanley = { # 383
+				color={ 216 30 76 }
+				color2={ 255 255 255 }
+				
+				b_stanley = {}
+				b_mount_pleasant = {}
+				b_darwin = {}
+				b_douglas = {}
+				b_fitzroy = {}
+				b_san_carlos_2 = {}
+				b_bluff_cove = {}
+			}
+			c_lafonia = { # 385
+				color={ 216 72 67 }
+				color2={ 255 255 255 }
+				
+				b_goose_green = {}
+				b_north_arm = {}
+				b_walker_creek = {}
+				b_bull_point = {}
+				b_speedwell = {}
+				b_new_haven = {}
+				b_bleaker = {}
+			}
+			c_west_falkland = { # 384
+				color={ 160 22 57 }
+				color2={ 255 255 255 }
+				
+				b_port_howard = {}
+				b_fox_bay = {}
+				b_weddell = {}
+				b_beaver = {}
+				b_port_stephen = {}
+				b_chartres = {}
+				b_pebble = {}
+			}
+		}
+}
+
+	k_magallanes = {
+		color={ 118 200 118 }
+		color2={ 255 255 255 }
+		
+		capital = 370 # c_rio_grande_del_sur
+		culture = selknam
+		
+		d_tierra_del_fuego = {
+			color={ 102 153 0 }
+			color2={ 255 255 255 }
+			selknam = "Karukinká"
+			mapuche = "Quitralmapu"
+			capital = 370 # c_rio_grande_del_sur
+			
+			c_rio_grande_del_sur = { # 370
+				color={ 178 198 65 }
+				color2={ 255 255 255 }
+				selknam = "Kásen"
+				b_rio_grande_de_patagonia = {}
+				b_las_violetas = {}
+				b_el_quique = {}
+				b_san_pablo_2 = {}
+				b_maria_behety = {}
+				b_cabo_penas = {}
+				b_don_bosco = {}
+			}
+			c_porvenir = { # 371
+				color={ 158 151 53 }
+				color2={ 255 255 255 }
+				selknam = "Karkamke"				
+				b_porvenir = {}
+				b_primavera = {}
+				b_san_sebastian = {}
+				b_punta_espora = {}
+				b_puerto_percy = {}
+				b_el_paramo = {}
+				b_cerro_sombrero = {}
+			}
+			c_timaukel = { # 372
+				color={ 155 173 57 }
+				color2={ 255 255 255 }
+				
+				b_timaukel = {}
+				b_cameron = {}
+				b_puerto_yartou = {}
+				b_galpones = {}
+				b_la_paciencia = {}
+				b_la_marina = {}
+				b_karukinka = {}
+			}
+			c_ushuaia = { # 373
+				color={ 116 130 42 }
+				color2={ 255 255 255 }
+				
+				b_ushuaia = {}
+				b_tolhuin = {}
+				b_navarino = {}
+				b_puerto_williams = {}
+				b_cabo_de_hornos = {}
+				b_lago_escondido = {}
+				b_los_estados = {}
+			}
+		}
+		d_aysen = {
+			color={ 72 109 127 }
+			color2={ 255 255 255 }
+			
+			capital = 374 # c_coyhaique
+			
+			c_coyhaique = { # 374
+				color={ 62 119 122 }
+				color2={ 255 255 255 }
+				b_coyhaique = {}
+				b_balmaceda = {}
+				b_rio_ibanez = {}
+				b_puerto_rio_tranquilo = {}
+				b_puerto_sanchez = {}
+				b_bahia_muerta = {}
+				b_cerro_castillo = {}
+			}
+			c_aysen = { # 375
+				color={ 58 198 112 }
+				color2={ 255 255 255 }
+				
+				b_puerto_aysen = {}
+				b_puerto_aguirre = {}
+				b_puerto_chacabuco = {}
+				b_las_turbinas = {}
+				b_quitralco = {}
+				b_riesco = {}
+				b_maca = {}
+			}
+			c_cisnes = { # 376
+				color={ 39 130 73 }
+				color2={ 255 255 255 }
+				
+				b_puerto_cisnes = {}
+				b_la_junta = {}
+				b_la_tapera = {}
+				b_magdalena = {}
+				b_lago_verde = {}
+				b_villa_amengual = {}
+				b_los_tires = {}
+			}
+			c_cochrane = { # 377
+				color={ 62 94 99 }
+				color2={ 255 255 255 }
+				
+				b_cochrane = {}
+				b_chile_chico = {}
+				b_puerto_guadal = {}
+				b_la_peligrosa = {}
+				b_valle_chacabuco = {}
+				b_rio_nef = {}
+				b_el_distraido = {}
+			}
+			c_guaitecas = { # 378
+				color={ 100 112 34 }
+				color2={ 255 255 255 }
+				
+				b_melinka = {}
+				b_repollal = {}
+				b_san_judas_tadeo = {}
+				b_laguna_granizo = {}
+				b_bahia_arenal = {}
+				b_playa_raya = {}
+				b_ofqui = {}
+			}
+		}
+
+		d_magallanes = {
+			color={ 76 181 43 }
+			color2={ 255 255 255 }
+			
+			capital = 379 # c_magallanes
+			
+			c_magallanes = { # 379
+				color={ 91 166 53 }
+				color2={ 255 255 255 }
+				holy_site = calafatist
+				b_punta_arenas = {}
+				b_san_gregorio_2 = {}
+				b_rio_verde_3 = {}
+				b_punta_delgada = {}
+				b_puerto_del_hambre = {}
+				b_villa_tehuelche = {}
+				b_puerto_zenteno = {}
+			}
+			c_ultima_esperanza = { # 381
+				color={ 92 124 76 }
+				color2={ 255 255 255 }
+				
+				b_natales = {}
+				b_torres_del_paine = {}
+				b_estancia_pudeto = {}
+				b_amarga = {}
+				b_las_viudas = {}
+				b_puerto_bories = {}
+				b_puerto_prat = {}
+			}
+			c_villa_ohiggins = { # 382
+				color={ 110 130 181 }
+				color2={ 255 255 255 }
+				
+				b_villa_ohiggins = {}
+				b_calluqueo = {}
+				b_la_florida_2 = {}
+				b_ohiggins = {}
+				b_pascua = {}
+				b_tres_frailes = {}
+				b_briceno = {}
+			}
+			c_wellington = { # 380
+				color={ 28 113 54 }
+				color2={ 255 255 255 }
+				kawesqar = "Jetarktétqal"
+				b_puerto_eden = {}
+				b_tortel = {}
+				b_lago_vargas = {}
+				b_rasgunado = {}
+				b_merino_jarpa = {}
+				b_wellington = {}
+				b_angamos = {}
+			}
+		}
+	}
+}

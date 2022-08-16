@@ -1,0 +1,21 @@
+# c_uruguaiana
+
+# County Title
+title = c_uruguaiana
+
+# Settlements
+max_settlements = 3
+
+b_uruguaiana = tribal
+#b_barra_do_quarai = city
+#b_plano_alto = temple
+#b_passo_da_cruz = castle
+#b_vertentes = city
+#b_arroio_touro_passo = temple
+#b_arroio_camoatim = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

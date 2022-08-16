@@ -1,0 +1,29 @@
+# e_vera_cruz
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2230.5.11 = {
+	holder = 110467 #Antônio Dumont
+}
+2280.3.20 = {
+	holder = 110468 #Felipe Dumont
+}
+2308.3.31 = {
+	holder = 110373 #Gabriel Yamashita
+}
+2322.5.11 = {
+	holder = 110473 #Diego Dumont
+}
+2340.3.12 = {
+	holder = 110495 #César Alvarenga
+}
+2353.9.8 = {
+	holder = 110497 #Lucas Alvarenga
+}
+2364.4.25 = {
+	liege = k_paulistano
+}

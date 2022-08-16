@@ -1,0 +1,21 @@
+# c_salesopolis
+
+# County Title
+title = c_salesopolis
+
+# Settlements
+max_settlements = 5
+
+b_paraibuna = castle
+b_santa_branca = temple
+#b_salesopolis = temple
+#b_guararema = castle
+#b_jacarapema = city
+#b_vila_denise = temple
+#b_cruz_de_lazaros = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

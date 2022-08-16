@@ -1,0 +1,21 @@
+# c_goiania
+
+# County Title
+title = c_goiania
+
+# Settlements
+max_settlements = 3
+
+b_goiania = tribal
+b_caldazinha = temple
+#b_trindade = temple
+#b_guapo = castle
+#b_caturai = city
+#b_anicuns = temple
+#b_aracu = castle
+
+# Misc
+culture = goyanense
+religion = manredebu
+
+#History

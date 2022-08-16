@@ -1,0 +1,21 @@
+# c_alto_itapecuru
+
+# County Title
+title = c_alto_itapecuru
+
+# Settlements
+max_settlements = 2
+
+b_colinas_2 = tribal
+b_pastos_bons = city
+#b_sucupira = temple
+#b_mirador = castle
+#b_jaguaruana_3 = city
+#b_paraibano = temple
+#b_anajas = castle
+
+# Misc
+culture = parnaibas
+religion = cicerite
+
+#History

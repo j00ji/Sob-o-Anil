@@ -1,0 +1,21 @@
+# c_xinguara
+
+# County Title
+title = c_xinguara
+
+# Settlements
+max_settlements = 3
+
+b_xinguara = tribal
+#b_votuporanga = city
+#b_sapucaia_do_para = temple
+#b_rio_maria = castle
+#b_banach = city
+#b_floresta_do_araguaia = temple
+#b_travessao = castle
+
+# Misc
+culture = kayapo
+religion = xabaxai_xagi
+
+#History

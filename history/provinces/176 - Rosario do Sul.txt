@@ -1,0 +1,21 @@
+# c_rosario_do_sul
+
+# County Title
+title = c_rosario_do_sul
+
+# Settlements
+max_settlements = 2
+
+b_rosario_do_sul = tribal
+#b_cacequi = city
+#b_guara = temple
+#b_azevedo_sodre = castle
+#b_umbu = city
+#b_saica = temple
+#b_curral_das_pedras = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

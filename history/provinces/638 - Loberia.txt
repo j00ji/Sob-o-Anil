@@ -1,0 +1,21 @@
+# c_loberia
+
+# County Title
+title = c_loberia
+
+# Settlements
+max_settlements = 3
+
+b_tamangueyu = castle
+b_loberia = city
+#b_balcarce = temple
+#b_la_dulce = castle
+#b_el_moro = city
+#b_el_lenguaraz = temple
+#b_puma = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

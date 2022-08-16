@@ -1,0 +1,177 @@
+##ÄNSI
+
+xingu_group = {
+	graphical_cultures = { indiangfx westerngfx }
+	
+	kayapo = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.92 0.2 0.53 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	
+	kraho = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.9 0.15 0.4 }
+		
+		male_names = {
+			Ajtà Ahpràcuxwa
+			Cupacà Côrã Crerô Cuxu Cacro Cuhêhkê Crate
+			Domingos
+			Jõhi João
+			Rõhkrã Roptyc Rõrehhô
+			Ihpry Ihkôhkrãn 
+			Pôtyt Põhykrat Pohi Pêphà Prehtyc Pàt Pàrhy Pêhà Paulo Pascoal
+			Tehhi Tuhtê
+			Hapykrit Hajêhi Hinxwatyc Hunhkop 
+			Hapôr Hôhkràkràc Hõrkãkã Huhtê
+			Krôkrôc Kõc Kàj Krãkãmkruw Kenkrat Kryjtep Kencaprêc
+			Yahhe
+			Wewe Wakê 
+			Xore Xêpjaka Xàj Xôtyc
+		}
+		female_names = {
+			Amxykwyj Amxôkwyj Ajehi Ana
+			Bia
+			Cahhuc Craxy Caràhtu Cahtenc Côcahàc Cagãcakê
+			Irãhcaprêc Incà Ihkror
+			Jàt Jõxen Jõkà Junkwyj
+			Pytô Pytenc Pjêhky Prumkwyj Pojkwyj Pàlrë
+			Tônkwyj Terehkwyj
+			Mâkryt Maria Mayana
+			Hypym Hera
+			Waky Wet Wakokwyj Wacm
+		}
+		
+		from_dynasty_prefix = "hõ"
+		male_patronym = "kra"
+		female_patronym = "kra"
+		#grammar_transform =
+
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	
+	xavante = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.94 0.33 0.49 }
+		
+		male_names = {
+			Albâ Alejandro Ai'uté Ai'uté
+			Caimi Crixá Curiaxá Cetti
+			Dzuruna Diogo Davi Divino Dazadawa Dababa
+			Eurico
+			Hötörã
+			Terowa'a Tapacuá Ti'ipê Tirowa Tibë
+			Palo
+			Roberto Ritei'wa
+			Mario Mercedes
+			Srewe
+			Pse Puxit Pracé
+			Valmir Valdir
+			Gê Jê Juruna João Josias
+			Xavante'rada Xabat Xaver Xavan
+		}
+		female_names = {
+			A'amo Adriel Airere Ana Alice
+			Bai Baako Butsé
+			Claudila Carolina
+			Diana Doro Doroteia
+			Samantha Rootsitsiná
+			Laura Lara Leonor
+			Mara Madalena Mafalda Mariazinha
+			We'rada We
+			Ro'we Ramos Reis Rosa
+			Honorina Teres Inha
+			Pi'õ Psea Pse'rada Pse
+			Vitória
+			Xenia Xochilt Xavantr
+		}
+		
+		from_dynasty_prefix = "We"
+		male_patronym = "aibã"
+		female_patronym = "pi'õ"
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	
+	xerente = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.94 0.41 0.6 }
+		
+		male_names = {
+			Adetuc Akwe Aqwê
+			Ctimõwe
+			Dakburôikwa Doí Dinis
+			Lucas
+			Nrõzawi
+			Roseni Rogério Robhedi 
+			Traíra Tpedi
+			Ktépo
+			Srewe
+			Valdir
+			Xerente
+		}
+		female_names = {
+			Beatriz Bea Birdy
+			Diana Doro Doroteia
+			Iwasse
+			Livia Luiza Laura Lara Leonor
+			Mara Madalena
+			Samantha Rootsitsiná Riz
+		}
+		
+		from_dynasty_prefix = "Wi"
+		male_patronym = "aibã"
+		female_patronym = "pi'õ"
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+}

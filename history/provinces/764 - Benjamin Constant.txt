@@ -1,0 +1,21 @@
+# c_benjamin_constant
+
+# County Title
+title = c_benjamin_constant
+
+# Settlements
+max_settlements = 3
+
+b_benjamin_constant = tribal
+#b_tabatinga = city
+#b_atalaia_do_norte = temple
+#b_bahanal = castle
+#b_tukuna_feijoal = city
+#b_tausu = temple
+#b_assacaios = castle
+
+# Misc
+culture = matis
+religion = xabaxai_xagi
+
+#History

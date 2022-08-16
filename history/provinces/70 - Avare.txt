@@ -1,0 +1,21 @@
+# c_avare
+
+# County Title
+title = c_avare
+
+# Settlements
+max_settlements = 3
+
+b_itatinga = castle
+b_manduri = temple
+#b_paranapanema = castle
+#b_paulistania = city
+#b_cerqueira_cesar = city
+#b_arandu = temple
+#b_angatuba = castle
+
+# Misc
+culture = kyusei
+religion = anchietican
+
+#History

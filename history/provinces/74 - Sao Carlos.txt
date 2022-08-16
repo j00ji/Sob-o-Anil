@@ -1,0 +1,21 @@
+# c_sao_carlos
+
+# County Title
+title = c_sao_carlos
+
+# Settlements
+max_settlements = 4
+
+b_pinhal = castle
+b_rio_claro = city
+b_vila_nery = temple
+#b_santa_eudoxia = castle
+#b_jacobucci = city
+#b_stella_faga = temple
+#b_judas_tadeu = castle
+
+# Misc
+culture = camponeto
+religion = anchietican
+
+#History

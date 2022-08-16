@@ -1,0 +1,21 @@
+# c_babahoyo
+
+# County Title
+title = c_babahoyo
+
+# Settlements
+max_settlements = 5
+
+b_babahoyo = castle
+b_quevedo = city
+b_vinces = temple
+b_buena_fe = castle
+b_ventanas = city
+#b_valencia_de_los_rios = temple
+#b_baba = castle
+
+# Misc
+culture = guayasense
+religion = tridentine
+
+#History

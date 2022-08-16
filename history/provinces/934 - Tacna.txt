@@ -1,0 +1,21 @@
+# c_tacna
+
+# County Title
+title = c_tacna
+
+# Settlements
+max_settlements = 4
+
+b_tacna = castle
+b_lanchipa = city
+b_alto_de_la_alianza = temple
+#b_ciudad_nueva = castle
+#b_pocollay = city
+#b_locumba = temple
+#b_yarada_los_palos = castle
+
+# Misc
+culture = ileno
+religion = camino_estelar
+
+#History

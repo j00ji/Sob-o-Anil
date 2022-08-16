@@ -1,0 +1,4 @@
+#Melting pot events for the new Sob O Anil melting pot cultures
+namespace = meltingpot
+
+#Hiii

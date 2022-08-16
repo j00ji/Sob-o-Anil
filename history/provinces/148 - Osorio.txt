@@ -1,0 +1,21 @@
+# c_osorio
+
+# County Title
+title = c_osorio
+
+# Settlements
+max_settlements = 2
+
+b_osorio = castle
+b_tramandai = temple
+#b_cidreira = temple
+#b_balneario_pinhal = castle
+#b_quintao = city
+#b_palmares_do_sul = temple
+#b_albatroz = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

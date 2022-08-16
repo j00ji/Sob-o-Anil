@@ -1,0 +1,21 @@
+# c_caratinga
+
+# County Title
+title = c_caratinga
+
+# Settlements
+max_settlements = 5
+
+b_santa_rita_de_minas = tribal
+#b_jacutinga_2 = city
+#b_ubaporanga = temple
+#b_piedade = castle
+#b_cordeiro_de_minas = city
+#b_dom_modesto = temple
+#b_dom_lara = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

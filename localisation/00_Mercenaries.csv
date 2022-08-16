@@ -1,0 +1,31 @@
+###ÄNSI;;;;;;;;;;;;;;
+d_bandeirantes_northeast;Bandeirantes of the Northeast;;;;;;;;;;;;;x
+d_bandeirantes_northeast_adj;Bandeirantes;;;;;;;;;;;;;x
+d_bandeirantes_south;Bandeirantes of the South;;;;;;;;;;;;;x
+d_bandeirantes_south_adj;Bandeirantes;;;;;;;;;;;;;x
+d_vasco_da_gama;Vasco da Gama;;;;;;;;;;;;;x
+d_vasco_da_gama_adj;Vascaino;;;;;;;;;;;;;x
+d_fluminense;Fluminense;;;;;;;;;;;;;x
+d_fluminense_adj;Tricolor;;;;;;;;;;;;;x
+d_botafogo;Botafogo;;;;;;;;;;;;;x
+d_botafogo_adj;Botafoguense;;;;;;;;;;;;;x
+d_flamengo;Flamengo;;;;;;;;;;;;;x
+d_flamengo_adj;Vulture;;;;;;;;;;;;;x
+d_sao_paulo_fc;São Paulo;;;;;;;;;;;;;x
+d_sao_paulo_fc_adj;Sãopaulino;;;;;;;;;;;;;x
+d_palmeiras_fc;Palmeiras;;;;;;;;;;;;;x
+d_palmeiras_fc_adj;Palmeirense;;;;;;;;;;;;;x
+d_santos_fc;Santos;;;;;;;;;;;;;x
+d_santos_fc_adj;Fish;;;;;;;;;;;;;x
+d_corinthians_fc;Corinthians;;;;;;;;;;;;;x
+d_corinthians_fc_adj;Corinthiano;;;;;;;;;;;;;x
+d_boiadeiros_de_barretos;Boiadeiros de Barretos;;;;;;;;;;;;;x
+d_boiadeiros_de_barretos_adj;Boiadeiro;;;;;;;;;;;;;x
+d_caaso;CAASO;;;;;;;;;;;;;x
+d_caaso_adj;Caaso;;;;;;;;;;;;;x
+d_bloco_do_urso;Bloco do Urso;;;;;;;;;;;;;x
+d_bloco_do_urso_adj;Ursine;;;;;;;;;;;;;x
+
+# FOA
+COACH;Coach;;;;;;;;;;;;;x
+COACH_FOA;Coach;;;;;;;;;;;;;x

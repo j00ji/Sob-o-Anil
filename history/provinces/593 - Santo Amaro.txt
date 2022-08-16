@@ -1,0 +1,21 @@
+# c_santo_amaro
+
+# County Title
+title = c_santo_amaro
+
+# Settlements
+max_settlements = 3
+
+b_santo_amaro_4 = castle
+b_primeira_cruz = temple
+#b_campos_2 = temple
+#b_humberto_de_campos = castle
+#b_axixa = city
+#b_icatu = temple
+#b_bacabeira = castle
+
+# Misc
+culture = parnaibas
+religion = cicerite
+
+#History

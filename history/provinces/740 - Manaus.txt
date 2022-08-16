@@ -1,0 +1,21 @@
+# c_manaus
+
+# County Title
+title = c_manaus
+
+# Settlements
+max_settlements = 3
+
+b_manaus = castle
+b_coroado = temple
+b_compensa = city
+#b_lirio_do_vale = castle
+#b_sumauma = city
+#b_adrianopolis = temple
+#b_educandos = castle
+
+# Misc
+culture = amazonense
+religion = holy_spirit
+
+#History

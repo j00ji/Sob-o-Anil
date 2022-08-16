@@ -1,0 +1,21 @@
+# c_san_julian
+
+# County Title
+title = c_san_julian
+
+# Settlements
+max_settlements = 2
+
+b_san_julian = tribal
+#b_la_mina = city
+#b_cerro_negro = temple
+#b_la_gringa = castle
+#b_la_maria = city
+#b_tierra_baldia = temple
+#b_muertes = castle
+
+# Misc
+culture = santacruceno
+religion = calafatist
+
+#History

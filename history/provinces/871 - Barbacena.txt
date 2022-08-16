@@ -1,0 +1,21 @@
+# c_barbacena
+
+# County Title
+title = c_barbacena
+
+# Settlements
+max_settlements = 4
+
+b_barroso = tribal
+#b_campolide = city
+#b_carandai = temple
+#b_vitorinos_2 = castle
+#b_santa_barbara_do_tugurio = city
+#b_antonio_carlos = temple
+#b_alfredo_vasconcelos = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

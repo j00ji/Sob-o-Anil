@@ -1,0 +1,21 @@
+# c_recife
+
+# County Title
+title = c_recife
+
+# Settlements
+max_settlements = 6
+
+b_justica = castle
+b_olinda_2 = city
+b_iphan_tomba = temple
+b_sao_joao_2 = castle
+#b_camaragipe = city
+#b_paulista_2 = temple
+#b_moreno = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

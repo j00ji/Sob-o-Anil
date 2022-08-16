@@ -1,0 +1,21 @@
+# c_cocal
+
+# County Title
+title = c_cocal
+
+# Settlements
+max_settlements = 2
+
+b_cocal = castle
+#b_alves = city
+#b_vicosa = temple
+#b_joaquim_pires_2 = castle
+#b_esperantina_2 = city
+#b_morro_do_chapeu_3 = temple
+#b_arraial = castle
+
+# Misc
+culture = parnaibas
+religion = camdomble
+
+#History

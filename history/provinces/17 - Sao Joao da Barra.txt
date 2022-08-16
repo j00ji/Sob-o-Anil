@@ -1,0 +1,21 @@
+# c_sao_joao_da_barra
+
+# County Title
+title = c_sao_joao_da_barra
+
+# Settlements
+max_settlements = 1
+
+b_sao_joao_da_barra = castle
+#b_gargau = city
+#b_centrochatuba = temple
+#b_fatima_de_transkat = castle
+#b_grussai = city
+#b_cacimbas = temple
+#b_posto_shangrila = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

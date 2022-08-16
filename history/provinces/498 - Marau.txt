@@ -1,0 +1,21 @@
+# c_marau
+
+# County Title
+title = c_marau
+
+# Settlements
+max_settlements = 3
+
+b_ubaitaba = castle
+#b_marau_2 = city
+#b_itacare = temple
+#b_urucuca = castle
+#b_taboquinhas = city
+#b_orojo = temple
+#b_acarai = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

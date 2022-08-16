@@ -1,0 +1,21 @@
+# c_novo_repartimento
+
+# County Title
+title = c_novo_repartimento
+
+# Settlements
+max_settlements = 2
+
+b_novo_repartimento = tribal
+#b_goianes = city
+#b_gaiazeiras = temple
+#b_marara = castle
+#b_paracana = city
+#b_vila_bigode = temple
+#b_vila_furacao = castle
+
+# Misc
+culture = paraense
+religion = xabaxai_xagi
+
+#History

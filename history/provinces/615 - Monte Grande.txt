@@ -1,0 +1,21 @@
+# c_monte_grande
+
+# County Title
+title = c_monte_grande
+
+# Settlements
+max_settlements = 4
+
+b_ezeiza = castle
+b_monte_grande = city
+b_canuelas = temple
+#b_las_heras_2 = castle
+#b_virrrey = city
+#b_suarez = temple
+#b_korn = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

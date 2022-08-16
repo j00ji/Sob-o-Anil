@@ -1,0 +1,21 @@
+# c_garay
+
+# County Title
+title = c_garay
+
+# Settlements
+max_settlements = 3
+
+b_helvecia = castle
+b_calchines = temple
+#b_cayasta = temple
+#b_elegidos = castle
+#b_campo_del_medio = city
+#b_cayasta_2 = temple
+#b_los_ciervos = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

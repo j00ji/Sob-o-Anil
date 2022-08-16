@@ -1,0 +1,21 @@
+# c_la_docta
+
+# County Title
+title = c_la_docta
+
+# Settlements
+max_settlements = 7
+
+b_toledo_3 = castle
+b_cordoba = city
+b_rio_primero = temple
+b_rio_tercero = castle
+b_monte_cristo = city
+#b_alta_gracia = temple
+#b_santa_monika = castle
+
+# Misc
+culture = cordobes
+religion = theosophist
+
+#History

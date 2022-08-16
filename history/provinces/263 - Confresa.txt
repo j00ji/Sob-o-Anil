@@ -1,0 +1,21 @@
+# c_confresa
+
+# County Title
+title = c_confresa
+
+# Settlements
+max_settlements = 1
+
+b_confresa = tribal
+#b_luciara = city
+#b_vila_rica = temple
+#b_canabrava_do_norte = castle
+#b_serra_nova_dourada = city
+#b_alto_boa_vista = temple
+#b_santa_terezinha = castle
+
+# Misc
+culture = xerente
+religion = manredebu
+
+#History

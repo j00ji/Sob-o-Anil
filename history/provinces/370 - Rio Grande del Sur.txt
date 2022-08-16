@@ -1,0 +1,21 @@
+# c_rio_grande_del_sur
+
+# County Title
+title = c_rio_grande_del_sur
+
+# Settlements
+max_settlements = 4
+
+b_rio_grande_de_patagonia = tribal
+b_las_violetas = temple
+#b_el_quique = temple
+#b_san_pablo_2 = castle
+#b_maria_behety = city
+#b_cabo_penas = temple
+#b_don_bosco = castle
+
+# Misc
+culture = selknam
+religion = xoon
+
+#History

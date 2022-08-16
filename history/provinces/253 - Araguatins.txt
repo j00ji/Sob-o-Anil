@@ -1,0 +1,21 @@
+# c_araguatins
+
+# County Title
+title = c_araguatins
+
+# Settlements
+max_settlements = 2
+
+b_araguatins = tribal
+#b_aguiarnopolis = city
+#b_sampaio = temple
+#b_itaguatins = castle
+#b_carrasco_bonito = city
+#b_praia_norte = temple
+#b_cachoeirinha = castle
+
+# Misc
+culture = paraense
+religion = manredebu
+
+#History

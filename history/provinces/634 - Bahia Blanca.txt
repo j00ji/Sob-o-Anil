@@ -1,0 +1,21 @@
+# c_bahia_blanca
+
+# County Title
+title = c_bahia_blanca
+
+# Settlements
+max_settlements = 4
+
+b_white = castle
+b_bahia_blanca = city
+b_cerri = temple
+#b_punta_alta = castle
+#b_calderon = city
+#b_bajo_hondo = temple
+#b_arias = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

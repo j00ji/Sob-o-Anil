@@ -1,0 +1,21 @@
+# c_buritirama
+
+# County Title
+title = c_buritirama
+
+# Settlements
+max_settlements = 2
+
+b_gonzaga = tribal
+#b_aroeiras = city
+#b_mansidao = temple
+#b_rancho_alegre = castle
+#b_jatobazinho = city
+#b_gato = temple
+#b_altamira = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

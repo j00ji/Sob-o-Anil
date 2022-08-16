@@ -1,0 +1,21 @@
+# c_ayacucho_2
+
+# County Title
+title = c_ayacucho_2
+
+# Settlements
+max_settlements = 5
+
+b_ayacucho_3 = castle
+b_huanta_2 = city
+b_la_mar = temple
+b_cangallo_2 = castle
+#b_huancapi = city
+#b_vilcashuaman = temple
+#b_querobamba = castle
+
+# Misc
+culture = quechua
+religion = chicha
+
+#History

@@ -1,0 +1,21 @@
+# c_castilho
+
+# County Title
+title = c_castilho
+
+# Settlements
+max_settlements = 3
+
+b_urubupunga = tribal
+b_caue = city
+#b_jupia = temple
+#b_nova_iorque = castle
+#b_peixe_que_nada = city
+#b_olario_arco_verde = temple
+#b_eloa_dos_santos = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

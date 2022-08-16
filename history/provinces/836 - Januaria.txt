@@ -1,0 +1,21 @@
+# c_januaria
+
+# County Title
+title = c_januaria
+
+# Settlements
+max_settlements = 3
+
+b_amparo_2 = castle
+#b_itacarambi = city
+#b_miravania = temple
+#b_varzelandia = castle
+#b_montalvania = city
+#b_manga_2 = temple
+#b_maria_da_cruz = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

@@ -1,0 +1,21 @@
+# c_santos_dumont
+
+# County Title
+title = c_santos_dumont
+
+# Settlements
+max_settlements = 3
+
+b_joao_gomes = tribal
+#b_palmira = city
+#b_merces = temple
+#b_tabuleiro_2 = castle
+#b_oliveira_fortes = city
+#b_aracitaba = temple
+#b_silveirania = castle
+
+# Misc
+culture = mantiqueiro
+religion = terra_benta
+
+#History

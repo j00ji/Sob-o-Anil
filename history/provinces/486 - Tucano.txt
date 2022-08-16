@@ -1,0 +1,21 @@
+# c_tucano
+
+# County Title
+title = c_tucano
+
+# Settlements
+max_settlements = 3
+
+b_valente = castle
+#b_jacobina = city
+#b_itaitu = temple
+#b_mirangaba = castle
+#b_caldeirao_grande = city
+#b_saude = temple
+#b_canavieira = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

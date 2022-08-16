@@ -1,0 +1,61 @@
+namespace = cath
+
+# THE END OF CATHOLIC CRUSADES - FAILURE OF THE PLATINE CRUSADE
+narrative_event = {
+	id = cath.1
+	title = cath.1.t
+	desc = cath.1.d
+	picture = GFX_evt_jerusalem
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+	
+	show_ROOT = yes
+	hide_new = yes
+	only_playable = yes
+	min_age = 16
+	
+	trigger = {
+		NOT = { #immersion-breaking
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		
+		year = 2369
+		
+		OR = {
+			614 = { # Buenos Aires
+				NOT = { owner = { religion_group = christian } }
+			}
+		}
+		
+		NOR = {
+			has_global_flag = christian_crusade_unlocked 
+			has_global_flag = platine_failure
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		set_global_flag = platine_failure
+	}
+	
+	option = {
+		name = cath.1.a
+		trigger = {
+			religion_group = christian
+		}
+		custom_tooltip = {
+ 		   text = CATHOLIC_NO_CRUSADES
+		}
+	}
+	
+	option = {
+		name = cath.1.b
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}

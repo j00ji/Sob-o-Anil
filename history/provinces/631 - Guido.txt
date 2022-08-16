@@ -1,0 +1,21 @@
+# c_guido
+
+# County Title
+title = c_guido
+
+# Settlements
+max_settlements = 2
+
+b_guido = castle
+b_maipu_2 = temple
+#b_santo_domingo_2 = temple
+#b_gouza = castle
+#b_labarden = city
+#b_segurola = temple
+#b_estacion = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

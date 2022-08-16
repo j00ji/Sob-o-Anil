@@ -1,0 +1,21 @@
+# c_belem
+
+# County Title
+title = c_belem
+
+# Settlements
+max_settlements = 4
+
+b_belem_2 = castle
+b_barcarena = city
+b_benevides = temple
+#b_bujaru = castle
+#b_barajuba = city
+#b_beja = temple
+#b_barbara_do_para = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

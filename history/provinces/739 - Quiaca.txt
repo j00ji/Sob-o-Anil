@@ -1,0 +1,21 @@
+# c_quiaca
+
+# County Title
+title = c_quiaca
+
+# Settlements
+max_settlements = 3
+
+b_quiaca = castle
+#b_humahuaca = city
+#b_iruya = temple
+#b_uquia = castle
+#b_abra_pampa = city
+#b_chico = temple
+#b_orosmayo = castle
+
+# Misc
+culture = quechua
+religion = santa_diablada
+
+#History

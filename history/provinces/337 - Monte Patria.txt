@@ -1,0 +1,21 @@
+# c_monte_patria
+
+# County Title
+title = c_monte_patria
+
+# Settlements
+max_settlements = 2
+
+b_monte_patria = castle
+b_combarbala = temple
+#b_rio_hurtado = temple
+#b_sotaqui = castle
+#b_carachilla = city
+#b_el_palqui = temple
+#b_el_coipo = castle
+
+# Misc
+culture = atacameno
+religion = catholic
+
+#History

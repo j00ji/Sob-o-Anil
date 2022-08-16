@@ -1,0 +1,21 @@
+# c_parnagua
+
+# County Title
+title = c_parnagua
+
+# Settlements
+max_settlements = 3
+
+b_corrente = tribal
+b_parnagua = city
+b_curimata_3 = temple
+#b_gilbues = castle
+#b_formosa_do_rio_preto = city
+#b_dois_irmaos = temple
+#b_julio_borges = castle
+
+# Misc
+culture = araguaio
+religion = modernists
+
+#History

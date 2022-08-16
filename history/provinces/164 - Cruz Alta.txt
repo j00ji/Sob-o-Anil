@@ -1,0 +1,21 @@
+# c_cruz_alta
+
+# County Title
+title = c_cruz_alta
+
+# Settlements
+max_settlements = 3
+
+b_cruz_alta = tribal
+#b_tupancireta = city
+#b_julio_de_castilhos = temple
+#b_ibiruba = castle
+#b_boa_vista_do_incra = city
+#b_fortaleza_dos_valos = temple
+#b_salto_do_jacui = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

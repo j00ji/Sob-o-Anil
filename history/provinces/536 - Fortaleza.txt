@@ -1,0 +1,21 @@
+# c_fortaleza
+
+# County Title
+title = c_fortaleza
+
+# Settlements
+max_settlements = 6
+
+b_schoonenborch = castle
+b_bandeira = castle
+b_metropolitana = temple
+b_fortaleza_2 = city
+b_santa_edwiges = temple
+#b_pacajus = temple
+#b_mirambe = castle
+
+# Misc
+culture = cearense
+religion = cicerite
+
+#History

@@ -1,0 +1,21 @@
+# c_mossoro
+
+# County Title
+title = c_mossoro
+
+# Settlements
+max_settlements = 4
+
+b_serra_do_mel = castle
+b_mossoro = city
+b_barauna_3 = temple
+#b_tibau = castle
+#b_governador_dix_sept_rosado = city
+#b_serra_do_mel_2 = temple
+#b_areia_branca = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

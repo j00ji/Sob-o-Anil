@@ -1,0 +1,21 @@
+# c_luro
+
+# County Title
+title = c_luro
+
+# Settlements
+max_settlements = 1
+
+b_luro = tribal
+#b_buratovich = city
+#b_medanos_2 = temple
+#b_ascasubi = castle
+#b_couste = city
+#b_levalle = temple
+#b_argerich = castle
+
+# Misc
+culture = pampeano
+religion = gaucheria
+
+#History

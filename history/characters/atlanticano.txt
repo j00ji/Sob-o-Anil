@@ -1,0 +1,368 @@
+###ÄNSI
+
+1={
+	name="Antônio Carlos Belchior" 
+	#Belchior, founder of the Belchioringian Empire
+	dynasty=1 #Belchioríngio
+	dna=bcidd0cace0
+	properties=di0akb00000
+	religion=camdomble
+	culture=atlanticano
+	disallow_random_traits=yes
+	trait=brilliant_strategist
+	trait=quick
+	trait=ambitious
+	trait=brave
+	trait=diligent
+	
+	martial=7
+	diplomacy=5
+	intrigue=3
+	stewardship=6
+	learning=3
+	
+	2293.7.14={
+		birth=yes
+		effect={
+			set_graphical_culture=mediterranean 
+		}
+	}
+	2318.12.25={
+		add_spouse=2
+	}
+	2355.10.8={
+		give_nickname=nick_the_great
+		create_bloodline={
+			type=belchioringian
+			has_dlc="Holy Fury"
+		}
+	}
+	2362.2.10={death=yes}
+}
+
+2={
+	name="Rafaela" #Belchior's wife
+	female=yes
+	dynasty=0
+	dna=0ecda0abbe0
+	religion=camdomble
+	culture=atlanticano
+	
+	2298.5.10={birth=yes}
+	2318.12.25={
+		add_spouse=1
+	}
+	2367.1.10={death=yes}
+}
+
+3={ #Firstborn of Belchior, King of Recife
+	name="Severino"
+	dynasty=1 #Belchioríngio
+	dna=behai0ga0a0
+	properties=am0anc00000
+	religion=camdomble
+	culture=atlanticano
+	father=1
+	mother=2
+	disallow_random_traits=yes
+	trait=skilled_tactician
+	trait=quick
+	trait=patient
+	trait=trusting
+	trait=just
+	trait=zealous
+	
+	martial=6
+	diplomacy=3
+	intrigue=3
+	stewardship=4
+	learning=3
+	
+	2325.3.20={birth=yes}
+	2345.1.5={
+		add_spouse=6
+	}
+}
+
+4={ #Middle Child of Belchior, King of Natal
+	name="André" 
+	dynasty=1 #Belchioríngio
+	dna=behai0da0a0
+	properties=wj0amb00000
+	religion=camdomble
+	culture=atlanticano
+	father=1
+	mother=2
+	disallow_random_traits=yes
+	trait=thrifty_clerk
+	trait=temperate
+	trait=envious
+	trait=paranoid
+	trait=arbitrary
+	
+	martial=2
+	diplomacy=2
+	intrigue=5
+	stewardship=5
+	learning=3
+	
+	2334.10.20={birth=yes}
+	2353.2.22={
+		add_spouse=7
+	}
+}
+
+5={ #Lastborn son of Belchior, former King of Fortaleza, Count of Mossoró
+	name="José"
+	dynasty=1 #Belchioríngio
+	dna=becah0jaaa0
+	properties=we0e0x00000
+	religion=camdomble
+	culture=atlanticano
+	father=1
+	mother=2
+	disallow_random_traits=yes
+	trait=misguided_warrior
+	trait=wroth
+	trait=brave
+	trait=ambitious
+	trait=stubborn
+	
+	martial=5
+	diplomacy=3
+	intrigue=2
+	stewardship=3
+	learning=2
+	
+	2340.12.1={ 
+		birth=yes
+	}
+	2358.3.17={
+		add_spouse=8
+	}
+}
+
+6={ #Severino's Wife
+	name="Maria Eduarda" 
+	female=yes
+	dynasty=0
+	dna=0a0hc0dc0e0
+	religion=camdomble
+	culture=atlanticano
+	
+	2328.3.18={
+		birth=yes
+		effect={
+			set_graphical_culture=mediterranean
+		}
+	}
+	2345.1.5={
+		add_spouse=3
+	}
+}
+
+7={ #André's Wife
+	name="Antônia" 
+	female=yes
+	dynasty=0
+	dna=bbcgh0kacc0
+	religion=camdomble
+	culture=atlanticano
+	
+	2336.7.30={birth=yes}
+	2353.2.22={
+		add_spouse=4
+	}
+}
+
+8={ #José's Wife, deceased
+	name="Valentina"
+	female=yes
+	dynasty=0
+	dna=0ddbb0icb00
+	religion=camdomble
+	culture=atlanticano
+	
+	2340.1.16={birth=yes}
+	2358.3.17={
+		add_spouse=5
+	}
+	2363.10.13={
+		death={
+			death_reason=death_childbirth
+		}
+	}
+}
+
+	##Severinian Line##
+	
+9={ #Severino's heir, Duke of Alagoas
+	name="Mateus"
+	dynasty=1 #Belchioríngio
+	dna=acech0a0000
+	properties=bg0c0d00000
+	religion=camdomble
+	culture=atlanticano
+	father=3
+	mother=6
+	disallow_random_traits=yes
+	trait=skilled_tactician
+	trait=brave
+	trait=wroth
+	trait=proud
+	trait=gregarious
+	
+	martial=4
+	diplomacy=3
+	intrigue=1
+	stewardship=2
+	learning=1
+	
+	2348.5.13={
+		birth=yes
+		effect={
+			set_graphical_culture=mediterranean
+		}
+	}
+#	2367.3.9={
+#		add_spouse=x
+#	} You cannot legally marry a tulpa
+}
+
+10={
+	name="Vitória"
+	female=yes
+	dynasty=1 #Belchioríngio
+	dna=0jjcj0d00e0
+	religion=camdomble
+	culture=atlanticano
+	father=3
+	mother=6
+	trait=intricate_webweaver
+	trait=diligent
+	trait=deceitful
+	
+	martial=1
+	diplomacy=2
+	intrigue=4
+	stewardship=2
+	learning=1
+	
+	2352.2.3={birth=yes}
+}
+
+11={
+	name="Bianca"
+	female=yes
+	dynasty=1 #Belchioríngio
+	dna=a0hhi0b0ad0
+	religion=camdomble
+	culture=atlanticano
+	father=3
+	mother=6
+	
+	martial=1
+	diplomacy=3
+	intrigue=2
+	stewardship=1
+	learning=2
+	
+	2357.4.19={
+		birth=yes
+		effect={
+			set_graphical_culture=mediterranean
+		}
+	}
+}
+
+12={
+	name="Felipe"
+	dynasty=1 #Belchioríngio
+	dna=bifcg0gc0a0
+	religion=camdomble
+	culture=atlanticano
+	father=3
+	mother=6
+	
+	martial=2
+	diplomacy=2
+	intrigue=1
+	stewardship=3
+	learning=1 
+	
+	2360.2.10={birth=yes}
+}
+
+	##Andretian Line##	
+
+13={
+	name="Amanda"
+	female=yes
+	dynasty=1 #Belchioríngio
+	dna=afhjd0jccc0
+	religion=camdomble
+	culture=atlanticano
+	father=4
+	mother=7
+
+	martial=1
+	diplomacy=2
+	intrigue=4
+	stewardship=2
+	learning=1
+	
+	2354.9.8={birth=yes}
+}
+
+14={
+	name="Paulo"
+	dynasty=1 #Belchioríngio
+	dna=aihc00iacd0
+	religion=camdomble
+	culture=atlanticano
+	father=4
+	mother=7
+	
+	martial=2
+	diplomacy=4
+	intrigue=2
+	stewardship=3
+	learning=2
+	
+	2358.11.7={birth=yes}
+}
+
+	##Josenian Line##
+
+15={
+	name="Luíza"
+	female=yes
+	dynasty=1 #Belchioríngio
+	dna=00gad0hcb00
+	religion=camdomble
+	culture=atlanticano
+	father=5
+	mother=8
+	trait=quick
+	trait=twin #One of the twins of José and Valentina
+	
+	2363.10.13={birth=yes}
+}
+
+16={
+	name="Eduardo"
+	dynasty=1 #Belchioríngio
+	dna=00gad0hcb00
+	religion=camdomble
+	culture=atlanticano
+	father=5
+	mother=8
+	trait=quick
+	trait=twin #One of the twins of José and Valentian
+	
+	2363.10.13={birth=yes}
+}
+
+	### End of the Belchioringian Dynasty ###
+
+	

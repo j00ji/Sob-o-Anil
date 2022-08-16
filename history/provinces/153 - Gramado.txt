@@ -1,0 +1,21 @@
+# c_gramado
+
+# County Title
+title = c_gramado
+
+# Settlements
+max_settlements = 3
+
+b_gramado = castle
+b_canela = city
+#b_caracol = temple
+#b_taquara_2 = castle
+#b_varzea_do_cedro = city
+#b_sao_francisco_de_paula = temple
+#b_itaimbezinho = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

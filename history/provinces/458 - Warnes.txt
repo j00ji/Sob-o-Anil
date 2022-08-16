@@ -1,0 +1,21 @@
+# c_warnes
+
+# County Title
+title = c_warnes
+
+# Settlements
+max_settlements = 4
+
+b_warnes = castle
+b_okinawa = temple
+b_belgica = city
+#b_canchas = castle
+#b_los_siervos = city
+#b_las_gamas = temple
+#b_clara_chuchio = castle
+
+# Misc
+culture = camba
+religion = catholic
+
+#History

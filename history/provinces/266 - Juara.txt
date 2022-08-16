@@ -1,0 +1,21 @@
+# c_juara
+
+# County Title
+title = c_juara
+
+# Settlements
+max_settlements = 2
+
+b_juara = tribal
+#b_tabapora = city
+#b_paranaita = temple
+#b_alta_floresta = castle
+#b_apiacas = city
+#b_carlinda = temple
+#b_nova_bandeirantes = castle
+
+# Misc
+culture = rikbatsa
+religion = manredebu
+
+#History

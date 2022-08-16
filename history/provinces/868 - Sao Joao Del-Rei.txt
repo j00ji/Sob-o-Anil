@@ -1,0 +1,21 @@
+# c_sao_joao_del_rei
+
+# County Title
+title = c_sao_joao_del_rei
+
+# Settlements
+max_settlements = 6
+
+b_emboabas = tribal
+b_rio_das_mortes = temple
+#b_ritapolis = temple
+#b_matosinhos = castle
+#b_conceicao_da_barra = city
+#b_amarante_3 = temple
+#b_capela_do_saco = castle
+
+# Misc
+culture = canastro
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_cardenal_caro
+
+# County Title
+title = c_cardenal_caro
+
+# Settlements
+max_settlements = 4
+
+b_pichilemu = castle
+b_marchihue = city
+#b_lolol = temple
+b_navidad = castle
+#b_litueche = city
+#b_paredones = temple
+#b_bucalemu = castle
+
+# Misc
+culture = huaso
+religion = catholic
+
+#History

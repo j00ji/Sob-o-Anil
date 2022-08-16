@@ -1,0 +1,21 @@
+# c_trancado
+
+# County Title
+title = c_trancado
+
+# Settlements
+max_settlements = 2
+
+b_cambui_2 = tribal
+#b_redencao = city
+#b_nova_holanda = temple
+#b_pendao = castle
+#b_capoeira_do_meio = city
+#b_lajedo = temple
+#b_serrote = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

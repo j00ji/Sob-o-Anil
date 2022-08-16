@@ -1,0 +1,21 @@
+# c_ushuaia
+
+# County Title
+title = c_ushuaia
+
+# Settlements
+max_settlements = 4
+
+b_ushuaia = tribal
+b_tolhuin = temple
+#b_navarino = temple
+#b_puerto_williams = castle
+#b_cabo_de_hornos = city
+#b_lago_escondido = temple
+#b_los_estados = castle
+
+# Misc
+culture = selknam
+religion = xoon
+
+#History

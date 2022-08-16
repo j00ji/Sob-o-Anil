@@ -1,0 +1,21 @@
+# c_san_jeronimo
+
+# County Title
+title = c_san_jeronimo
+
+# Settlements
+max_settlements = 4
+
+b_coronda_2 = castle
+b_galvez = city
+b_san_genaro = tribal
+#b_monje = castle
+#b_larrechea = city
+#b_arocena = temple
+#b_san_fabian = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

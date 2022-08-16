@@ -1,0 +1,21 @@
+# c_soriano
+
+# County Title
+title = c_soriano
+
+# Settlements
+max_settlements = 2
+
+b_mercedes = castle
+#b_fray_bentos = city
+#b_dolores = temple
+#b_villa_soriano = castle
+#b_agraciada = city
+#b_cardona = temple
+#b_jose_enrique_rodo = castle
+
+# Misc
+culture = rutenio
+religion = orthodoxist
+
+#History

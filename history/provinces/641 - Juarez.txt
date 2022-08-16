@@ -1,0 +1,21 @@
+# c_juarez
+
+# County Title
+title = c_juarez
+
+# Settlements
+max_settlements = 2
+
+b_lopez = castle
+b_juarez = city
+#b_chaves = temple
+#b_claraz = castle
+#b_cacique = city
+#b_fernandez = temple
+#b_garma = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

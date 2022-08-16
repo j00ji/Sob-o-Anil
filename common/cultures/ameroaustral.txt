@@ -1,0 +1,209 @@
+###ÄNSI
+
+ameroaustral = {
+	graphical_cultures = { norsegfx westerngfx }
+	
+	mapuche = { 
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.1 0.7 0.4 }
+		
+		male_names = {
+			Alhue Anganamon Ankatu Antucau Antulaf Antumanque Aukan Ayun
+			Butapichon
+			Camilo Catriel Caucaman Celestino Ceferino
+			Eluney
+			Felipe
+			Galvarino
+			Hueicha Huenchullan
+			José Juan
+			Lancuyen Lauchoique Lautaro Licanhuala Lihuel Linkoyan
+			Mainque Melipangi Millalhuan
+			Nahuel Nahuelquin Nangoniel Nehuen Ngürü
+			Ñamku
+			Paiquereu Pelantaro
+			Quillen 
+			Raiquen Rimü
+			Tahiel Tayül
+			Weychafe
+			Yaco
+		}
+		
+		female_names = {
+			Ailin Amancay Aneley Antumalen Ayilen Ayinko
+			Chiwaiad
+			Darelen
+			Ellangechi Epulewfu
+			Guacolda
+			Huanel Huilen
+			Ilwen Inara
+			Kelleñu Komalen Kuyenray
+			Lilen Lihuen Llacolen Llanca Llankuray
+			Mailen Mariwal Mawunko Mayela Melian Millaray
+			Pairo Pire
+			Quimey
+			Rayen Raymilla Raynanku Relmutray Rosa
+			Sakiñ Sayen Suya
+			Wüñelfe
+			Yaima Yanara Yerimeni
+		}
+		
+		founder_named_dynasties = no
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+
+	aonikenk = { 
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.2 0.7 0.35 }
+		
+		male_names = {
+			Alhue Anganamon Ankatu Antucau Antulaf Antumanque Aukan Ayun
+			Butapichon
+			Camilo Casimiro Catriel Cangapol "Cayupán"
+			Eluney
+			Felipe
+			Galvarino
+			Hueicha Huenchullan
+			Lancuyen Lauchoique Lautaro Licanhuala Lihuel Linkoyan
+			Mainque Melipangi Millalhuan
+			Nahuel Nahuelquin Nangoniel Nehuen "Nicolás" Ngürü
+			Orkeke
+			Paiquereu "Papón" "Pincén"
+			Quillen 
+			Raiquen Rimü
+			Tahiel Tayül
+			Vicente
+			Weychafe
+			Yaco
+		}
+		
+		female_names = {
+			Ailin Amancay Aneley Antumalen Ayilen Ayinko
+			Chiwaiad Cogocha
+			Darelen
+			Ellangechi Epulewfu
+			Guacolda
+			Huanel Huilen
+			Ilwen Inara
+			Kelleñu Komalen Kuyenray
+			Lilen Lihuen Llacolen Llanca Llankuray
+			Mailen María Mawunko Mayela Melian Millaray
+			Pairo Pire
+			Quimey
+			Rayen Raymilla Raynanku Relmutray Rosa
+			Sakiñ Sayen Suya
+			Wüñelfe
+			Yaima Yanara Yerimeni
+		}
+		
+		founder_named_dynasties = no
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	selknam = {
+		graphical_cultures = { arabicgfx mesoamericangfx }
+
+		color = { 0.4 0.4 0.4 }
+
+		male_names = {
+			Ahnikin Alaken Alekatem Alexpoot Amek Aneki Anik "Atelén"
+			Chalshoat 
+			Hala Halemink Hatah
+			Ishtohn
+			Kapriel Kaukais Kautempklh Kauxia Kenós Kelal Keyuk "Kostelén" Kuanyip 
+			Minquiol "Maiyén"
+			Paachek Paciek "Paynén" Puppup
+			Schilchan Sixiol Shishkolh
+			Tael "Táiyin" Tenenisk
+			Yehuun Yonolpe 
+			"Warquirión" Wengull 
+		}
+		female_names = { 
+			"Aluxán" "Anián" "Aynkán" "Atelén"
+			Halemink Hayin "Hema'ny"
+			Kiepja "Kostelén" Kuanyip 
+			"Laswáix"
+			Minquiol Maiyén
+			"Paynén"
+			Sixiol
+			"Te-al" "Táix"
+			"Warquirión"
+		}			
+
+
+		founder_named_dynasties = no
+
+		pat_grf_name_chance = 25
+		mat_grf_name_chance = 0
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 25
+		mother_name_chance = 25
+		
+		modifier = default_culture_modifier
+	}
+	kawesqar = {
+		graphical_cultures = { arabicgfx mesoamericangfx }
+
+		color = { 0.48 0.62 0.83 }
+
+		male_names = {
+			Ailké Alberto
+			C'akuol Carlos
+			Chamalo Charkush
+			Elleparu Enokoué
+			José Julio
+			Kieshka
+			Leum
+			Óscar
+			Peteyem
+			Terwa
+		}
+		female_names = { 
+			Aiksté Atáp
+			Celina
+			Estér
+			Fressia
+			Gabriela
+			Jérawr
+			K'eotcok Kun'hek Kuolet
+			Margarita
+			Nóus
+			Paáksa
+			Verónica
+			Yokcushlu
+		}			
+
+		seafarer=yes
+		founder_named_dynasties = no
+
+		pat_grf_name_chance = 25
+		mat_grf_name_chance = 0
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 25
+		mother_name_chance = 25
+		
+		modifier = default_culture_modifier
+	}
+}

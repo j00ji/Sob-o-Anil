@@ -1,0 +1,21 @@
+# c_ingavi
+
+# County Title
+title = c_ingavi
+
+# Settlements
+max_settlements = 4
+
+b_ingavi = castle
+b_aroma = city
+b_pacajes = temple
+#b_villaroel = castle
+#b_pando_2 = city
+#b_nazacara = temple
+#b_guaqui = castle
+
+# Misc
+culture = aymara
+religion = pachamama
+
+#History

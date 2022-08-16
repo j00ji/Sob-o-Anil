@@ -1,0 +1,21 @@
+# c_garanhuns
+
+# County Title
+title = c_garanhuns
+
+# Settlements
+max_settlements = 2
+
+b_caetes = castle
+b_lajedo_2 = city
+#b_capoeiras_2 = temple
+#b_venturosa = castle
+#b_aguas_belas = city
+#b_garanhuns = temple
+#b_quebrangulo = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

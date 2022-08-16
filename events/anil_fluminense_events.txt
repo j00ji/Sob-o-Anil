@@ -1,0 +1,596 @@
+#The princess of the Valley
+namespace = princessofthevalley
+narrative_event = {
+	id = princessofthevalley.1
+	title = EVTITLE_mattersofknowlodgeofdeath
+	desc = "EVTDESC_saddukemoment"
+	picture = GFX_bad_news_soa
+	border = GFX_event_narrative_frame_religion
+	prisoner = no
+	trigger = {
+		has_character_flag = dukeofthevalley
+	}
+	only_playable = yes
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	option = {
+		name = "EVTOPT_accept_what_is_to_come"
+		piety = 25
+		clr_character_flag = dukeofthevalley
+		hidden_tooltip = {
+		remove_trait = flowered
+		}
+		ai_chance = { factor = 2 }
+	
+	}
+	option = {
+		name = "EVTOPT_solveissuesleftbehind"
+		prestige = 10
+		clr_character_flag = dukeofthevalley
+		ai_chance = { factor = 10 }
+		trigger = {
+			c_80012 = {
+				ai = yes #This chain would led into a game over otherwise.
+			}
+		}
+	}
+}
+
+# Da Paixão Storyline
+
+namespace = dapaixao
+
+narrative_event = {
+    id = dapaixao.1
+    title = EVTITLE_inheritorfailedquest
+    desc = EVTDESC_inheritorfailedquest
+	
+    picture = GFX_evt_princess_byzantine
+    border = GFX_event_narrative_frame_religion
+	
+	prisoner = no
+	capable_only = yes
+    only_playable = yes
+
+    trigger = {
+		has_character_flag = dapaixao
+		NOR = {
+			has_character_flag = dapaixaoalonepath
+			has_character_flag = dapaixaobahianohelp
+			has_character_flag = dapaixaofavored
+		}
+	}
+    
+    mean_time_to_happen = {
+        days = 10
+    }    
+	
+    option = {
+        name = "EVTOPT_bahianohelp"
+        prestige = -10
+        set_character_flag = dapaixaobahianohelp
+     
+		custom_tooltip = {
+			text = REQUESTHELPTOSALVADOR
+			hidden_tooltip = {
+				any_playable_ruler = {
+					limit = {
+						has_landed_title = e_pretender_empire_1
+						age = 16
+						prisoner = no
+					}
+					character_event = {
+						id = dapaixao.2
+						days = 1
+					}
+				}
+			}
+		}
+		
+        ai_chance = { factor = 8 }
+    }
+	
+    option = {
+        name = "EVTOPT_thecountessalone"
+        wealth = -25
+        prestige = 25
+        set_character_flag = dapaixaoalonepath
+        spawn_unit = {
+                    province = capital_scope
+                    home = capital_scope
+                    owner = ROOT
+                    troops = {
+                        light_infantry = { 800 800 }
+                        light_cavalry = { 200 200 }
+                        archers = { 200 200 }
+                    }
+                    earmark = reconquista_event_troops
+                    attrition = 1
+                    maintenance_multiplier = 0
+                    reinforces = no
+                }
+        ai_chance = { factor = 2 }
+		hidden_tooltip = {
+			character_event = { id = dapaixao.5 days = 10 }
+		}
+	}
+}	
+
+narrative_event = {
+	id = dapaixao.2
+	title = EVTITLE_countesshelp
+	desc = EVTDESC_countesshelp
+	picture = GFX_evt_character_receiving_letter
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		FROM = {
+			has_character_flag = dapaixaobahianohelp
+		}
+	}
+	
+	option = { #Need proper AI factors
+		name = "EVTOPTA_countesshelp"
+		prestige = 50
+		wealth = 10
+		
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					has_character_flag = dapaixao
+				}
+				character_event = { id = dapaixao.3 days = 5 }
+			}
+		}
+		#any_realm_province = {
+		#	add_province_modifier = {
+		#		name = helping_conqueror
+		#		duration = 365
+			#}
+		#}
+		set_character_flag = helpingcountess
+	}
+	option = { #Need proper AI factors
+		name = "EVTOPTA_countesshelpless"
+		prestige = -50
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					has_character_flag = dapaixao
+				}
+				character_event = { id = dapaixao.4 days = 5 }
+			}
+		}
+	}
+}
+
+narrative_event = {
+	id = dapaixao.3
+	title = EVTITLE_bahianohelp
+	desc = EVTDESC_bahianohelp
+	picture = GFX_evt_pleasing_letter
+	is_triggered_only = yes
+	trigger = {
+		has_character_flag = dapaixaobahianohelp
+	}
+	
+	option = {
+		name = "EVTOPT_thecounteshelped"
+		prestige = 15
+		clr_character_flag = dapaixaobahianohelp
+		set_character_flag = dapaixaofavored
+		spawn_unit = {
+	                province = capital_scope
+	                home = capital_scope
+	                owner = ROOT
+	                troops = {
+	                    light_infantry = { 1000 1000 }
+						light_cavalry = { 400 400 }
+	                    archers = { 400 400 }
+	                }
+	                earmark = reconquista_event_troops
+	                attrition = 1
+	                maintenance_multiplier = 0
+	                reinforces = yes
+	            }
+		hidden_tooltip = {
+			character_event = { id = dapaixao.5 days = 15 }
+		}
+	}
+}
+narrative_event = {
+	id = dapaixao.4
+	title = EVTITLE_bahianoabandoned
+	desc = EVTDESC_bahianoabandoned
+	picture = GFX_evt_upsetting_letter
+	is_triggered_only = yes
+	trigger = {
+		has_character_flag = dapaixaobahianohelp
+	}
+	
+	option = {
+		name = "EVTOPT_onceagainalone"
+		prestige = -10
+		clr_character_flag = dapaixaobahianohelp
+		set_character_flag = dapaixaoalonepath
+		spawn_unit = {
+	                province = capital_scope
+	                home = capital_scope
+	                owner = ROOT
+	                troops = {
+	                    light_infantry = { 600 600 }
+						light_cavalry = { 200 200 }
+	                    archers = { 200 200 }
+	                }
+	                earmark = reconquista_event_troops
+	                attrition = 1
+	                maintenance_multiplier = 0
+	                reinforces = no
+	            }
+		hidden_tooltip = {
+			character_event = { id = dapaixao.5 days = 30 }
+		}
+	}
+}
+
+narrative_event = {
+	id = dapaixao.5
+	title = EVTITLE_warforgoytacazia
+	desc = EVTDESC_warforgoytacazia
+	picture = GFX_evt_armory
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_character_flag = dapaixaoalonepath
+			has_character_flag = dapaixaofavored
+		}
+	}
+	
+	option = {
+		name = "EVTOPT_destroygoytacazia"
+		prestige = 30
+		set_character_flag = waragainstgeneral
+		add_claim = d_goytacazia
+		d_goytacazia = {
+			holder_scope = {
+				reverse_war = {
+					target = ROOT
+					casus_belli = claim
+					thirdparty_title = PREV
+					infamy = 0
+				}
+			}
+		}	
+	}
+}
+
+narrative_event = {
+	id = dapaixao.6
+	title = EVTITLE_postgoytacazia
+	desc = EVTDESC_postgoytacazia
+	picture = GFX_evt_victory_arch_byzantine
+			
+	trigger = {		
+		ROOT = {
+			has_character_flag = dapaixao
+			has_character_flag = waragainstgeneral
+			has_landed_title = d_goytacazia
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	immediate = {
+		c_50001 = {
+			limit = {
+				is_alive = yes
+			}
+			save_event_target_as = tomas_laurentino
+			imprison = ROOT
+			move_character = ROOT
+		}
+		event_target:tomas_laurentino = {
+			any_child = {
+				limit = {
+					is_alive = yes
+				}
+				imprison = ROOT
+				move_character = ROOT
+			}
+			any_spouse = {
+				limit = {
+					is_alive = yes
+				}
+				imprison = ROOT
+				move_character = ROOT
+			}
+		}
+		clr_character_flag = waragainstgeneral
+	}
+			
+	option = { #Alone path
+		name = "EVTOPTA_postgoytacazia"
+		trigger = {
+			has_character_flag = dapaixaoalonepath
+		}
+		prestige = 250
+		piety = 150
+	}
+	
+	option = { #Salvador path
+		name = "EVTOPTB_postgoytacazia"
+		trigger = {
+			has_character_flag = dapaixaofavored
+		}
+		prestige = 150
+		piety = 50
+		
+		custom_tooltip = {
+			text = NOTIFYSALVADORGOYTACAZIA
+			hidden_tooltip = {
+				any_playable_ruler = {
+					limit = {
+						has_landed_title = e_pretender_empire_1
+						age = 16
+						prisoner = no
+					}
+					character_event = { id = dapaixao.7 days = 3 }
+				}
+			}
+		}
+	}
+	after = {
+		character_event = { id = dapaixao.8 days = 7 }
+	}
+}
+
+letter_event = {
+	id = dapaixao.7
+	title = EVTITLE_goytacazianotification
+	desc = EVTDESC_goytacazianotification
+	#picture =
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		opinion = {
+			modifier = opinion_satisfied
+			who = FROM
+			years = 5
+		}
+	}
+	
+	option = { #Monetary Support
+		name = "EVTOPTA_goytacazianotification"
+		prestige = 50
+		wealth = -250
+		
+		ai_chance = { factor = 6 } #Need proper AI factors
+		
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					has_character_flag = dapaixao
+				}
+				wealth = 250
+				prestige = 80
+			}
+		}
+		set_global_flag = monetary_support_salvador
+	}
+	
+	option = { #Military Support
+		name = "EVOPTB_goytacazianotification"
+		prestige = 20
+		wealth = -100
+		
+		ai_chance = { #Need proper AI factors
+			factor = 3
+		}
+		
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					has_character_flag = dapaixao
+				}
+				spawn_unit = {
+					province = capital_scope
+					home = capital_scope
+					owner = FROM
+					troops = {
+						light_infantry = { 250 250 }
+						archers = { 120 120 }
+						heavy_infantry = { 200 200 }
+						knights = { 100 100 }
+						pikemen = { 150 150 }
+					}
+				}
+				character_event = { id = dapaixao.9 days = 1 }
+			}
+		}
+		set_global_flag = military_support_salvador_1
+	}
+	
+	option = { #No support at all
+		name = "EVTOPTC_goytacazianotification"
+		prestige = -10
+		
+		ai_chance = {
+			factor = 1
+		}
+		
+		set_global_flag = no_support_salvador_1
+	}
+}
+
+narrative_event = {
+	id = dapaixao.8
+	title = EVTITLE_laurentinotrial
+	desc = EVTDESC_laurentinotrial
+	#picture =
+	
+	is_triggered_only = yes
+	
+	option = { #Execute the Laurentinos
+		name = "EVTOPTA_laurentinotrial"
+		prestige = 150
+		piety = -30
+		
+		event_target:tomas_laurentino = {
+			limit = {
+				is_alive = yes
+			}
+			death = {
+				death_reason = death_execution
+				killer = ROOT
+			}
+			any_child = {
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+			any_spouse = {
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				has_character_flag = dapaixaofavored
+			}
+			custom_tooltip = {
+				text = SALVADORMAYNOTLIKE
+				hidden_tooltip = {	
+					any_playable_ruler = {
+						limit = {
+							has_landed_title = e_pretender_empire_1
+							age = 16
+							prisoner = no
+						}
+						character_event = { id = dapaixao.10 days = 7 }
+					}
+				}
+			}
+		}
+	}
+	
+	option = { #Do nothing with them
+		name = "EVTOPTB_laurentinotrial"
+		prestige = -50
+		piety = 100
+	}
+}
+
+letter_event = {
+	id = dapaixao.9
+	title = EVTITLE_notificationfromsalvador
+	desc = {
+		trigger = {
+			has_global_flag = monetary_support_salvador
+		}
+		text = EVTDESC_notificationfromsalvadormonetary
+	}
+	desc = {
+		trigger = {
+			has_global_flag = military_support_salvador_1
+		}
+		text = EVTDESC_notificationfromsalvadormilitary
+	}
+	desc = {
+		trigger = {
+			has_global_flag = no_support_salvador_1
+		}
+		text = EVTDESC_notificationfromsalvadornosupport
+	}
+	#picture =
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA_notificationfromsalvador"
+		trigger = {
+			has_global_flag = monetary_support_salvador
+		}	
+		opinion = {
+			modifier = opinion_grateful
+			who = FROM
+			years = 5
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB_notificationfromsalvador"
+		trigger = {
+			has_global_flag = military_support_salvador_1
+		}
+		
+		opinion = {
+			modifier = opinion_grateful
+			who = FROM
+			years = 5
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC_notificationfromsalvador"
+		trigger = {
+			has_global_flag = no_support_salvador_1
+		}
+		opinion = {
+			modifier = opinion_very_disappointed
+			who = FROM
+			years = 5
+		}
+	}
+	
+	after = {
+		if = {
+			limit = {
+				has_global_flag = no_support_salvador_1
+			}
+			clr_global_flag = no_support_salvador_1
+		}
+		else_if = {
+			limit = {
+				has_global_flag = military_support_salvador_1
+			}
+			clr_global_flag = no_support_salvador_1
+		}
+		else_if = {
+			limit = {
+				has_global_flag = monetary_support_salvador
+			}
+			clr_global_flag = monetary_support_salvador
+		}
+	}
+}
+
+letter_event = {
+	id = dapaixao.10
+	title = EVTITLE_laurentinoexecution
+	desc = EVTDESC_laurentinoexecution
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		opinion = {
+			modifier = opinion_furious
+			who = FROM
+			years = 10
+		}
+	}
+	
+	option = {
+		name = "OK"	
+		set_character_flag = laurentinoexecution
+	}
+}

@@ -1,0 +1,21 @@
+# c_niteroi
+
+# County Title
+title = c_niteroi
+
+# Settlements
+max_settlements = 4
+
+b_itaipuacu = castle
+b_icarai = temple
+b_engenhoca = city
+#b_caramujo = castle
+#b_itaipu = city
+#b_charitas = temple
+#b_camboinha = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History

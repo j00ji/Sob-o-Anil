@@ -1,0 +1,21 @@
+# c_pauini
+
+# County Title
+title = c_pauini
+
+# Settlements
+max_settlements = 2
+
+b_pauini = tribal
+b_seringal_raposo = temple
+#b_febrasa = temple
+#b_tomia = castle
+#b_pupunheira = city
+#b_monte_aracati = temple
+#b_monjuba = castle
+
+# Misc
+culture = mura
+religion = xabaxai_xagi
+
+#History

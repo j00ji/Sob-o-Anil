@@ -1,0 +1,21 @@
+# c_catriel
+
+# County Title
+title = c_catriel
+
+# Settlements
+max_settlements = 3
+
+b_catriel = tribal
+#b_25_de_mayo = city
+#b_puelen = temple
+#b_colonia_chica = castle
+#b_casa_de_piedra = city
+#b_la_reforma = temple
+#b_la_copelina = castle
+
+# Misc
+culture = desertico
+religion = gaucheria
+
+#History

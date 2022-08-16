@@ -1,0 +1,821 @@
+###ÄNSI
+
+140001 = {
+	name = "Cerezas"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140002 = {
+	name = "Guerrero"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140003 = {
+	name = "Contreras"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140004 = {
+	name = "Godoy"
+	culture = atacameno
+	religion = camino_estelar
+}
+140005 = {
+	name = "Alcayaga"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140006 = {
+	name = "Jacob"
+	culture = atacameno
+	religion = camino_estelar
+}
+140007 = {
+	name = "Salinas"
+	culture = atacameno
+	religion = camino_estelar
+}
+140008 = {
+	name = "Palma"
+	culture = atacameno
+	religion = camino_estelar
+}
+140009 = {
+	name = "Riveros"
+	culture = atacameno
+	religion = camino_estelar
+}
+140010 = {
+	name = "Cifuentes"
+	culture = atacameno
+	religion = camino_estelar
+}
+140011 = {
+	name = "Concha"
+	culture = atacameno
+	religion = camino_estelar
+}
+140012 = {
+	name = "Aguilera"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140013 = {
+	name = "Tomic"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140014 = {
+	name = "Pino"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140015 = {
+	name = "Pino"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140016 = {
+	name = "Guzmán"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140017 = {
+	name = "Guzmán"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140018 = {
+	name = "Cepeda"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140019 = {
+	name = "Mamani"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140020 = {
+	name = "Marín"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140021 = {
+	name = "Walker"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140022 = {
+	name = "Martínez"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140023 = {
+	name = "Martínez"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140024 = {
+	name = "Recabarren"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+
+140025 = {
+	name = "Recabarren"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+
+140026 = {
+	name = "Sanhueza"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140027 = {
+	name = "Karmelic"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140028 = {
+	name = "Huerta"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140029 = {
+	name = "Huerta"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140030 = {
+	name = "Toselli"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140031 = {
+	name = "Bugueño"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140032 = {
+	name = "Cárcamo"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140033 = {
+	name = "Luksic"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+
+140034 = {
+	name = "Leocadia"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140035 = {
+	name = "Vega"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+
+140036 = {
+	name = "Urzúa"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+140037 = {
+	name = "Vega"
+	culture = atacameno
+	religion = camino_estelar
+}
+140038 = {
+	name = "Urzúa"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140039 = {
+	name = "Mamani"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+
+140040 = {
+	name = "Gallardo"
+	culture = atacameno
+	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+
+140041 = {
+	name = "Gallardo"
+	culture = atacameno
+	religion = camino_estelar
+}
+
+
+145001 = {
+	name = "Muñoz"
+	culture = centrino
+	religion = catholic
+}
+145002 = {
+	name = "Rojas"
+	culture = centrino
+	religion = catholic
+}
+145003 = {
+	name = "González"
+	culture = centrino
+	religion = catholic
+}
+145004 = {
+	name = "Díaz"
+	culture = centrino
+	religion = catholic
+}
+145005 = {
+	name = "Soto"
+	culture = centrino
+	religion = catholic
+}
+145006 = {
+	name = "Contreras"
+	culture = centrino
+	religion = catholic
+}
+145007 = {
+	name = "López"
+	culture = centrino
+	religion = catholic
+}
+145008 = {
+	name = "Figueroa"
+	culture = centrino
+	religion = catholic
+}
+145009 = {
+	name = "Sepúlveda"
+	culture = centrino
+	religion = catholic
+}
+145010 = {
+	name = "Errázuriz"
+	culture = centrino
+	religion = catholic
+}
+145011 = {
+	name = "Valdivieso"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145012 = {
+	name = "Guerra"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145013 = {
+	name = "Leiva"
+	culture = centrino
+	religion = catholic
+}
+145014 = {
+	name = "Goic"
+	culture = centrino
+	religion = catholic
+}
+145014 = {
+	name = "Karmelic"
+	culture = centrino
+	religion = catholic
+}
+145016 = {
+	name = "Bulnes"
+	culture = centrino
+	religion = catholic
+}
+145017 = {
+	name = "Alessandri"
+	culture = centrino
+	religion = catholic
+}
+145018 = {
+	name = "Allende"
+	culture = centrino
+	religion = catholic
+}
+145019 = {
+	name = "Molina"
+	culture = centrino
+	religion = catholic
+}
+145020 = {
+	name = "Camiroaga"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145021 = {
+	name = "Barros"
+	culture = centrino
+	religion = catholic
+}
+145022 = {
+	name = "Luco"
+	culture = centrino
+	religion = catholic
+}
+145023 = {
+	name = "Jarpa"
+	culture = centrino
+	religion = catholic
+}
+145024 = {
+	name = "Reyes"
+	culture = centrino
+	religion = catholic
+}
+145025 = {
+	name = "Jadue"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145026 = {
+	name = "Figueroa"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145027 = {
+	name = "Basoalto"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145028 = {
+	name = "Salfate"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145029 = {
+	name = "Zaldívar"
+	culture = centrino
+	religion = catholic
+
+}
+145029 = {
+	name = "Zaldívar"
+	culture = centrino
+	religion = catholic
+
+}
+145030 = {
+	name = "Ampuero"
+	culture = centrino
+	religion = catholic
+
+}
+145031 = {
+	name = "Larraín"
+	culture = centrino
+	religion = catholic
+
+}
+145032 = {
+	name = "Irrázabal"
+	culture = centrino
+	religion = catholic
+
+}
+145033 = {
+	name = "Eyzaguirre"
+	culture = centrino
+	religion = catholic
+
+}
+145034 = {
+	name = "Grez"
+	culture = centrino
+	religion = catholic
+
+}
+150001 = {
+	name = "Soto"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150002 = {
+	name = "Tufilo"
+	culture = huaso
+	religion = catholic
+}
+150002 = {
+	name = "Mena"
+	culture = huaso
+	religion = catholic
+}
+150003 = {
+	name = "Araya"
+	culture = huaso
+	religion = catholic
+}
+150004 = {
+	name = "Fuentes"
+	culture = huaso
+	religion = catholic
+}
+150005 = {
+	name = "Flores"
+	culture = huaso
+	religion = catholic
+}
+150006 = {
+	name = "Riquelme"
+	culture = huaso
+	religion = catholic
+}
+150007 = {
+	name = "Miranda"
+	culture = huaso
+	religion = catholic
+}
+150008 = {
+	name = "Soto"
+	culture = huaso
+	religion = catholic
+}
+150008 = {
+	name = "Correa"
+	culture = huaso
+	religion = catholic
+}
+150008 = {
+	name = "Mardones"
+	culture = huaso
+	religion = catholic
+}
+150009 = {
+	name = "Tapia"
+	culture = huaso
+	religion = catholic
+}
+150010 = {
+	name = "Naranjo"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150011 = {
+	name = "Riquelme"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150012 = {
+	name = "Olivares"
+	culture = huaso
+	religion = catholic
+}
+150013 = {
+	name = "Peralta"
+	culture = huaso
+	religion = catholic
+}
+150014 = {
+	name = "Rosales"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150015 = {
+	name = "Ortega"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150016 = {
+	name = "Triviño"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150017 = {
+	name = "Erraz"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150018 = {
+	name = "Riesco"
+	culture = huaso
+	religion = catholic
+}
+150019 = {
+	name = "Tufilo"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150020 = {
+	name = "Parra"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150021 = {
+	name = "Parra"
+	culture = huaso
+	religion = catholic
+}
+150022 = {
+	name = "Altamirano"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150023 = {
+	name = "Santibañez"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150024 = {
+	name = "Markic"
+	culture = huaso
+	religion = catholic
+}
+150025 = {
+	name = "González"
+	culture = huaso
+	religion = catholic
+}
+150026 = {
+	name = "Elizalde"
+	culture = huaso
+	religion = catholic
+}
+150027 = {
+	name = "Peñailillo"
+	culture = huaso
+	religion = catholic
+}
+150028 = {
+	name = "Barrera"
+	culture = huaso
+	religion = catholic
+}
+155001 = {
+	name = "Barrientos"
+	culture = sureno
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+155002 = {
+	name = "Saavedra"
+	culture = sureno
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+155003 = {
+	name = "Schurch"
+	culture = sureno
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+155004 = {
+	name = "Montt"
+	culture = sureno
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+155006 = {
+	name = "Norambuena"
+	culture = sureno
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+155007 = {
+	name = "Barrientos"
+	culture = sureno
+	religion = nguillatun
+}
+155008 = {
+	name = "Rivera"
+	culture = sureno
+	religion = catholic
+}
+155009 = {
+	name = "Dicter"
+	culture = sureno
+	religion = catholic
+}
+155010 = {
+	name = "Bórquez"
+	culture = sureno
+	religion = catholic
+}
+155011 = {
+	name = "Muñoz"
+	culture = sureno
+	religion = catholic
+}
+155012 = {
+	name = "Paredes"
+	culture = sureno
+	religion = catholic
+}
+155013 = {
+	name = "Sotomayor"
+	culture = sureno
+	religion = catholic
+}
+155014 = {
+	name = "Bahamonde"
+	culture = sureno
+	religion = catholic
+}
+155015 = {
+	name = "Cea"
+	culture = sureno
+	religion = catholic
+}
+155016 = {
+	name = "Varas"
+	culture = sureno
+	religion = catholic
+}
+155017 = {
+	name = "Angulo"
+	culture = sureno
+	religion = catholic
+}
+155018 = {
+	name = "Lezana"
+	culture = sureno
+	religion = catholic
+}
+155019 = {
+	name = "Ilesca"
+	culture = sureno
+	religion = catholic
+}
+155020 = {
+	name = "Núñez"
+	culture = sureno
+	religion = catholic
+}
+155021 = {
+	name = "Ojeda"
+	culture = sureno
+	religion = catholic
+}
+155022 = {
+	name = "Uarac"
+	culture = sureno
+	religion = catholic
+}
+155023 = {
+	name = "Bertín"
+	culture = sureno
+	religion = catholic
+}
+155024 = {
+	name = "Schwalm"
+	culture = sureno
+	religion = catholic
+}
+155025 = {
+	name = "Urzúa"
+	culture = sureno
+	religion = catholic
+}
+155026 = {
+	name = "Paris"
+	culture = sureno
+	religion = catholic
+}
+155027 = {
+	name = "Mancilla"
+	culture = sureno
+	religion = catholic
+}
+155028 = {
+	name = "Alarcón"
+	culture = sureno
+	religion = catholic
+}
+155029 = {
+	name = "Ñancúpel"
+	culture = sureno
+	religion = brethren
+	can_appear = no
+	used_for_random = no	
+}
+155030 = {
+	name = "Berger"
+	culture = sureno
+	religion = catholic
+}
+155031 = {
+	name = "Sabat"
+	culture = sureno
+	religion = catholic
+}
+155032 = {
+	name = "Ilabaca"
+	culture = sureno
+	religion = catholic
+}
+155033 = {
+	name = "Kuntzmann"
+	culture = sureno
+	religion = catholic
+}

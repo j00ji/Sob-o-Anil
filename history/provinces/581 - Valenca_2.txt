@@ -1,0 +1,21 @@
+# c_valenca_2
+
+# County Title
+title = c_valenca_2
+
+# Settlements
+max_settlements = 2
+
+b_inhuma = castle
+b_aroazes = temple
+#b_ipiranga = temple
+#b_canabrava_2 = castle
+#b_lagoa_do_sitio = city
+#b_valenca_do_piaui = temple
+#b_novo_oriente = castle
+
+# Misc
+culture = parnaibas
+religion = evangelical
+
+#History

@@ -1,0 +1,21 @@
+# c_aracuai
+
+# County Title
+title = c_aracuai
+
+# Settlements
+max_settlements = 2
+
+b_itira = castle
+#b_virgem_da_lapa = city
+#b_jacare = temple
+#b_coronel_murta = castle
+#b_francisco_badaro = city
+#b_berilo = temple
+#b_catutiba = castle
+
+# Misc
+culture = espinhaco
+religion = angel_cult
+
+#History

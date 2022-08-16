@@ -1,0 +1,21 @@
+# c_apucarana
+
+# County Title
+title = c_apucarana
+
+# Settlements
+max_settlements = 2
+
+b_apucarana = castle
+b_arapongas = temple
+#b_rolandia = temple
+#b_nova_itacolomi = castle
+#b_tamarana = city
+#b_jandaia_do_sul_2 = temple
+#b_maua_da_serra = castle
+
+# Misc
+culture = paranaense
+religion = anchietican
+
+#History

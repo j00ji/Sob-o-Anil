@@ -1,0 +1,21 @@
+# c_bom_jesus
+
+# County Title
+title = c_bom_jesus
+
+# Settlements
+max_settlements = 2
+
+b_soledade_2 = tribal
+b_liberdade = city
+#b_serra_do_ramalho = temple
+#b_formoso = castle
+#b_porto_novo_3 = city
+#b_parateca = temple
+#b_marraqueiro = castle
+
+# Misc
+culture = chiconho
+religion = angel_cult
+
+#History

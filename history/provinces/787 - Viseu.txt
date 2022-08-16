@@ -1,0 +1,21 @@
+# c_viseu
+
+# County Title
+title = c_viseu
+
+# Settlements
+max_settlements = 3
+
+b_viseu = castle
+b_augusto_correa = city
+#b_ourem = temple
+#b_quatipiru = castle
+#b_tracuteua = city
+#b_santa_luzia_do_para = temple
+#b_capanema = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

@@ -1,0 +1,21 @@
+# c_resplendor
+
+# County Title
+title = c_resplendor
+
+# Settlements
+max_settlements = 2
+
+b_nicolandia = tribal
+#b_calixto = city
+#b_cuparaque = temple
+#b_campo_alegre_de_minas = castle
+#b_quatituba = city
+#b_bom_pastor = temple
+#b_santa_rita_do_itueto = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

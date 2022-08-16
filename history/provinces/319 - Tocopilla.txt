@@ -1,0 +1,21 @@
+# c_tocopilla
+
+# County Title
+title = c_tocopilla
+
+# Settlements
+max_settlements = 2
+
+b_tocopilla = castle
+#b_maria_elena = city
+#b_cobija = temple
+#b_gatico = castle
+#b_puntillas = city
+#b_quillagua = temple
+#b_calate = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

@@ -1,0 +1,21 @@
+# c_fitz_roy
+
+# County Title
+title = c_fitz_roy
+
+# Settlements
+max_settlements = 2
+
+b_fitz_roy = tribal
+#b_moyano = city
+#b_jaramillo = temple
+#b_25_de_mayo_2 = castle
+#b_el_rancho = city
+#b_tristeza = temple
+#b_soledad = castle
+
+# Misc
+culture = santacruceno
+religion = calafatist
+
+#History

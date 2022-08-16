@@ -1,0 +1,21 @@
+# c_caracarai
+
+# County Title
+title = c_caracarai
+
+# Settlements
+max_settlements = 3
+
+b_caracarai = castle
+#b_mucajai = city
+#b_iracema_2 = temple
+#b_adolfo_cutrim = castle
+#b_maiami = city
+#b_kajy = temple
+#b_helena_porto = castle
+
+# Misc
+culture = yanomami
+religion = hekura
+
+#History

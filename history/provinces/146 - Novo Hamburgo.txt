@@ -1,0 +1,21 @@
+# c_novo_hamburgo
+
+# County Title
+title = c_novo_hamburgo
+
+# Settlements
+max_settlements = 4
+
+b_novo_hamburgo = castle
+b_sapiranga = castle
+b_estancia_velha = temple
+#b_nova_hartz = castle
+#b_parobe = city
+#b_taquara = temple
+#b_morro_reuter = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

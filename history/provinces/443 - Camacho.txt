@@ -1,0 +1,21 @@
+# c_camacho
+
+# County Title
+title = c_camacho
+
+# Settlements
+max_settlements = 3
+
+b_puerto_acosta = castle
+b_escoma = city
+#b_ancoraimes = temple
+#b_chaguaya = castle
+#b_carabuco = city
+#b_pasuja = temple
+#b_pacaures = castle
+
+# Misc
+culture = aymara
+religion = pachamama
+
+#History

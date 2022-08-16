@@ -1,0 +1,21 @@
+# c_huarochiri
+
+# County Title
+title = c_huarochiri
+
+# Settlements
+max_settlements = 2
+
+b_matucana = castle
+#b_san_jeronimo_de_surco = city
+#b_callahuanca = temple
+#b_huanza = castle
+#b_san_pedro_de_casta = city
+#b_san_bartolome = temple
+#b_san_miguel_de_viso = castle
+
+# Misc
+culture = huanca
+religion = liberationist
+
+#History

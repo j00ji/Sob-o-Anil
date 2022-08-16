@@ -1,0 +1,21 @@
+# c_convencion
+
+# County Title
+title = c_convencion
+
+# Settlements
+max_settlements = 4
+
+b_quillabamba = castle
+b_calca = city
+b_paucartambo = temple
+#b_urubamba = castle
+#b_echarati = city
+#b_pisac = temple
+#b_chinchero = castle
+
+# Misc
+culture = oxapampino
+religion = inti
+
+#History

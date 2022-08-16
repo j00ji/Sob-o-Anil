@@ -1,0 +1,21 @@
+# c_itumbiara
+
+# County Title
+title = c_itumbiara
+
+# Settlements
+max_settlements = 2
+
+b_itumbiara = tribal
+#b_aloandia = city
+#b_caldas_novas = temple
+#b_agua_limpa = castle
+#b_crominia = city
+#b_pontalina = temple
+#b_piracanjuba = castle
+
+# Misc
+culture = goyanense
+religion = manredebu
+
+#History

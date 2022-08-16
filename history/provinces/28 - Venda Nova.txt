@@ -1,0 +1,21 @@
+# c_venda_nova
+
+# County Title
+title = c_venda_nova
+
+# Settlements
+max_settlements = 3
+
+b_venda_nova = castle
+b_brejetuba = city
+#b_zandonade = temple
+#b_tapera = castle
+#b_vila_betania = city
+#b_gramafal = temple
+#b_zandonadini = castle
+
+# Misc
+culture = pomerisch
+religion = evangelical
+
+#History

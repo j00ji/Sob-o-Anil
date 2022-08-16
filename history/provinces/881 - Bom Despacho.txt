@@ -1,0 +1,21 @@
+# c_bom_despacho
+
+# County Title
+title = c_bom_despacho
+
+# Settlements
+max_settlements = 3
+
+b_cruz_do_monte = tribal
+#b_nova_serrana = city
+#b_pitangui = temple
+#b_leandro_ferreira = castle
+#b_moitinha = city
+#b_moreiras = temple
+#b_forte_jale = castle
+
+# Misc
+culture = canastro
+religion = terra_benta
+
+#History

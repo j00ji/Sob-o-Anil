@@ -1,0 +1,21 @@
+# c_brusque
+
+# County Title
+title = c_brusque
+
+# Settlements
+max_settlements = 3
+
+b_brusque = castle
+b_guabiruba = temple
+#b_botuvera = temple
+#b_claraiba = castle
+#b_serra_do_brilhante = city
+#b_nova_trento = temple
+#b_canelinha = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

@@ -1,0 +1,21 @@
+# c_salto
+
+# County Title
+title = c_salto
+
+# Settlements
+max_settlements = 5
+
+b_salto_2 = castle
+b_constitucion = temple
+#b_termas_del_dayman = temple
+#b_termas_del_arapey = castle
+#b_colonia_itapebi = city
+#b_laureles = temple
+#b_biassini = castle
+
+# Misc
+culture = urbuguayo
+religion = artiguista
+
+#History

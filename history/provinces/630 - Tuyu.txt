@@ -1,0 +1,21 @@
+# c_tuyu
+
+# County Title
+title = c_tuyu
+
+# Settlements
+max_settlements = 2
+
+b_tuyu = city
+#b_lavalle = city
+#b_nueva_atlantis = temple
+#b_costa_del_este = castle
+#b_las_toninas = city
+#b_aguas_verdes = temple
+#b_costa_azul = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

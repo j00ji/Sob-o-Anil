@@ -1,0 +1,1160 @@
+e_nordeste = {
+	color={ 113 176 108 }
+	color2={ 255 255 20 }
+	
+	capital = 536 # c_fortaleza
+	culture = cearense
+	
+	k_ceara = {
+		color={ 103 186 103 }
+		color2={ 255 255 255 }
+		
+		capital = 536 # c_fortaleza
+		culture = cearense
+		
+		d_morro_branco = {
+			color={ 83 206 93 }
+			color2={ 255 255 255 }
+			
+			capital = 536 # c_fortaleza
+			
+			c_fortaleza = { # 536
+				color={ 73 216 88 }
+				color2={ 255 255 255 }
+				
+				b_schoonenborch = {}
+				b_bandeira = {}
+				b_metropolitana = {}
+				b_fortaleza_2 = {}
+				b_santa_edwiges = {}
+				b_pacajus = {}
+				b_mirambe = {}
+			}
+			c_acarau = { # 539
+				color={ 132 216 140 }
+				color2={ 255 255 255 }
+				
+				b_martinopole = {}
+				b_bela_cruz = {}
+				b_granja = {}
+				b_serrota = {}
+				b_uruoca = {}
+				b_paracua = {}
+				b_campanario = {}
+			}
+			c_aracati = { # 537
+				color={ 33 150 44 }
+				color2={ 255 255 255 }
+				
+				b_fortim = {}
+				b_icapui = {}
+				b_itaicaba = {}
+				b_jaguaruana = {}
+				b_limoeiro_do_norte = {}
+				b_morada_nova = {}
+				b_cascavel_2 = {}
+			}
+			c_curu = { # 538
+				color={ 107 175 114 }
+				color2={ 255 255 255 }
+				
+				b_itapipoca = {}
+				b_aratuba = {}
+				b_arapari = {}
+				b_uruburetama = {}
+				b_tururu = {}
+				b_ipu_mazagao = {}
+				b_barrento = {}
+			}
+		}
+		d_ibiapaba = {
+			color={ 121 143 96 }
+			color2={ 255 255 255 }
+			
+			capital = 540 # c_quixeramobim
+			
+			c_quixeramobim = { # 540
+				color={ 111 153 91 }
+				color2={ 255 255 255 }
+				
+				b_banabuiu = {}
+				b_ibaretama = {}
+				b_jaguaretama = {}
+				b_quixeramobim = {}
+				b_senador_pompeu = {}
+				b_itapiuna = {}
+				b_ibicuitinga = {}
+			}
+			c_araripe = { # 542
+				color={ 126 214 85 }
+				color2={ 255 255 255 }
+				
+				b_assare = {}
+				b_nova_olinda = {}
+				b_potengi = {}
+				b_altaneira = {}
+				b_farias_brito = {}
+				b_santana_do_cariri = {}
+				b_saboeiro = {}
+			}
+			c_crateus = { # 541
+				color={ 116 155 56 }
+				color2={ 255 255 255 }
+				
+				b_ararenda = {}
+				b_tamboril_2 = {}
+				b_mulungu = {}
+				b_poranga = {}
+				b_livramento = {}
+				b_cajazeira = {}
+				b_ipaporanga = {}
+			}
+		}
+		d_jaguaribe = {
+			color={ 158 234 168 }
+			color2={ 255 255 255 }
+			
+			capital = 543 # c_cariri
+			
+			c_cariri = { # 543
+				color={ 168 224 173 }
+				color2={ 255 255 255 }
+				
+				holy_site = cicerite
+				
+				b_crato = {}
+				b_juazeiro_do_norte = {}
+				b_brejo_santo = {}
+				b_missao_velha = {}
+				b_barbalha = {}
+				b_abaiara = {}
+				b_caririacu = {}
+			}
+			c_baixo_jaguaribe = { # 544
+				color={ 162 207 83 }
+				color2={ 255 255 255 }
+				
+				b_jaguaruana_2 = {}
+				b_quixere = {}
+				b_russas = {}
+				b_flores = {}
+				b_luzia = {}
+				b_barauna_2 = {}
+				b_lagoinha = {}
+			}
+			c_iguatu = { # 546
+				color={ 161 216 67 }
+				color2={ 255 255 255 }
+				
+				b_oros = {}
+				b_cedro_2 = {}
+				b_iguatu = {}
+				b_ico_2 = {}
+				b_lavras_da_mangabeira = {}
+				b_arrojado = {}
+				b_varzea_alegre = {}
+			}
+			c_medio_jaguaribe = { # 545
+				color={ 136 196 33 }
+				color2={ 255 255 255 }
+				
+				b_jaguaribara = {}
+				b_poco_comprido = {}
+				b_castanhao = {}
+				b_alto_santo = {}
+				b_iracema = {}
+				b_jaguaribe = {}
+				b_pereiro = {}
+			}
+		}
+	}
+	k_cabo_norte = {
+		color={ 194 144 97 }
+		color2={ 255 255 255 }
+		
+		capital = 547 # c_joao_pessoa
+		culture = atlanticano
+		
+		d_paraiba = {
+			color={ 214 124 107 }
+			color2={ 255 255 255 }
+			
+			capital = 547 # c_joao_pessoa
+			
+			c_joao_pessoa = { # 547
+				color={ 224 114 112 }
+				color2={ 255 255 255 }
+				holy_site = vargist
+				
+				b_castelo_branco_2 = {}
+				b_cabedelo = {}
+				b_obaniko = {}
+				b_bayeux = {}
+				b_sao_francisco = {}
+				b_santa_rita_3 = {}
+				b_cabedelo_2 = {}
+			}
+			c_borborema = { # 549
+				color={ 221 117 53 }
+				color2={ 255 255 255 }
+				
+				b_serido = {}
+				b_parari = {}
+				b_monteiro_2 = {}
+				b_cubati = {}
+				b_pedra_lavrada = {}
+				b_sao_vicente_do_serido = {}
+				b_sossego = {}
+			}
+			c_curimatau = { # 548
+				color={ 221 136 75 }
+				color2={ 255 255 255 }
+				
+				b_campina_grande = {}
+				b_olivedos = {}
+				b_esperanca = {}
+				b_soledade_3 = {}
+				b_pocinhos = {}
+				b_juazeirinho = {}
+				b_catole = {}
+			}
+		}
+		d_itamaraca = {
+			color={ 211 127 142 }
+			color2={ 255 255 255 }
+			
+			capital = 558 # c_cajazeiras
+			
+			c_cajazeiras = { # 558
+				color={ 221 117 147 }
+				color2={ 255 255 255 }
+				
+				b_triunfo_2 = {}
+				b_santa_helena_2 = {}
+				b_diamante = {}
+				b_divinopolis = {}
+				b_sao_joao_do_rio_do_peixe = {}
+				b_poco_de_jose_de_moura = {}
+				b_torroes = {}
+			}
+			c_patos = { # 559
+				color={ 221 53 101 }
+				color2={ 255 255 255 }
+				
+				b_patos = {}
+				b_senhora_da_guia = {}
+				b_santa_gertrudes_2 = {}
+				b_malta = {}
+				b_sao_jose_de_espinharas = {}
+				b_condado = {}
+				b_teixeira = {}
+			}
+		}
+		d_leste_potiguar = {
+			color={ 170 147 5 }
+			color2={ 255 255 255 }
+			
+			capital = 550 # c_natal
+			
+			c_natal = { # 550
+				color={ 160 157 0 }
+				color2={ 255 255 255 }
+				
+				b_reis_magos = {}
+				b_parnamirim = {}
+				b_ogunxai = {}
+				b_redinha = {}
+				b_costeira = {}
+				b_sao_goncalo_do_amarante = {}
+				b_macaiba = {}
+			}
+			c_nova_cruz = { # 553
+				color={ 224 175 13 }
+				color2={ 255 255 255 }
+				
+				b_ze_dos_montes = {}
+				b_nova_cruz = {}
+				b_bivar = {}
+				b_lagoa_dagua = {}
+				b_montanhas = {}
+				b_jacarau = {}
+				b_logradouro = {}
+			}
+			c_pedra_grande = { # 552
+				color={ 234 198 98 }
+				color2={ 255 255 255 }
+				
+				b_sao_roque = {}
+				b_pedra_grande = {}
+				b_parazinho = {}
+				b_sao_bento_do_norte = {}
+				b_tabua_do_reduto = {}
+				b_sao_miguel_do_gostoso = {}
+				b_joao_camara = {}
+			}
+			c_touros = { # 551
+				color={ 204 199 65 }
+				color2={ 255 255 255 }
+				
+				b_touros = {}
+				b_pureza = {}
+				b_taipu = {}
+				b_rio_do_fogo = {}
+				b_maxaranguape = {}
+				b_extremoz = {}
+				b_ceara_mirim = {}
+			}
+		}
+		d_sertao_potiguar = {
+			color={ 197 231 251 }
+			color2={ 255 255 255 }
+			
+			capital = 554 # c_macau
+			
+			c_macau = { # 554
+				color={ 207 221 0 }
+				color2={ 255 255 255 }
+				
+				b_macau = {}
+				b_guamare = {}
+				b_fernandes = {}
+				b_pendencias = {}
+				b_carnubais = {}
+				b_pedro_avelino = {}
+				b_afonso_bezerra = {}
+			}
+			c_apodi = { # 556
+				color={ 251 255 28 }
+				color2={ 255 255 255 }
+				
+				b_apodi = {}
+				b_caraubas = {}
+				b_umarizal = {}
+				b_pau_dos_ferros = {}
+				b_patu = {}
+				b_severiano_melo = {}
+				b_rodolfo_fernandes = {}
+			}
+			c_assu = { # 557
+				color={ 221 148 177 }
+				color2={ 255 255 255 }
+				
+				b_jucurutu = {}
+				b_sao_rafael = {}
+				b_itaja = {}
+				b_santa_tereza = {}
+				b_angicos = {}
+				b_fernando_pedroza = {}
+				b_carnaubais = {}
+			}
+			c_mossoro = { # 555
+				color={ 221 224 51 }
+				color2={ 255 255 255 }
+				
+				b_serra_do_mel = {}
+				b_mossoro = {}
+				b_barauna_3 = {}
+				b_tibau = {}
+				b_governador_dix_sept_rosado = {}
+				b_serra_do_mel_2 = {}
+				b_areia_branca = {}
+			}
+		}
+	}
+	k_maranhao = {
+		color={ 30 90 175 }
+		color2={ 255 255 255 }
+		
+		capital = 592 # c_sao_luis
+		culture = parnaibas
+		
+		d_lencois = {
+			color={ 10 110 165 }
+			color2={ 255 255 255 }
+			
+			capital = 592 # c_sao_luis
+			
+			c_sao_luis = { # 592
+				color={ 0 120 160 }
+				color2={ 255 255 255 }
+				
+				b_leoes = {}
+				b_la_ravardiere = {}
+				b_senhora_da_vitoria = {}
+				b_sao_luis = {}
+				b_lumiar = {}
+				b_rosario_2 = {}
+				b_ribamar = {}
+			}
+			c_barreirinhas = { # 594
+				color={ 0 229 152 }
+				color2={ 255 255 255 }
+				
+				b_barreirinhas = {}
+				b_santo_amaro_5 = {}
+				b_paulino_neves = {}
+				b_algodao = {}
+				b_agua_doce = {}
+				b_cangote = {}
+				b_sangrador = {}
+			}
+			c_santo_amaro = { # 593
+				color={ 79 204 137 }
+				color2={ 255 255 255 }
+				
+				b_santo_amaro_4 = {}
+				b_primeira_cruz = {}
+				b_campos_2 = {}
+				b_humberto_de_campos = {}
+				b_axixa = {}
+				b_icatu = {}
+				b_bacabeira = {}
+			}
+			c_tutoia = { # 595
+				color={ 0 255 169 }
+				color2={ 255 255 255 }
+				
+				b_tutoia = {}
+				b_araioses_2 = {}
+				b_arpoador = {}
+				b_frecheira_grande = {}
+				b_barro_duro = {}
+				b_sao_bento_3 = {}
+				b_atins = {}
+			}
+		}
+		d_gurupi = {
+			color={ 67 194 64 }
+			color2={ 255 255 255 }
+			
+			capital = 596 # c_gurupi_2
+			
+			c_gurupi_2 = { # 596
+				color={ 57 204 59 }
+				color2={ 255 255 255 }
+				
+				b_turilandia = {}
+				b_carutapera = {}
+				b_turiaca = {}
+				b_santa_helena_3 = {}
+				b_bacabeira_2 = {}
+				b_limoeiro_2 = {}
+				b_dalban = {}
+			}
+			c_bom_jardim = { # 599
+				color={ 46 165 48 }
+				color2={ 255 255 255 }
+				
+				b_bom_jardim = {}
+				b_itinga = {}
+				b_alto_alegre_do_pindare = {}
+				b_santa_ines_2 = {}
+				b_pio_xii = {}
+				b_igarape = {}
+				b_moncao_2 = {}
+			}
+			c_imperatriz = { # 600
+				color={ 38 181 52 }
+				color2={ 255 255 255 }
+				
+				b_imperatriz = {}
+				b_cidelandia = {}
+				b_sao_pedro_2 = {}
+				b_davinopolis = {}
+				b_acailandia = {}
+				b_vila_nova_2 = {}
+				b_esperantina_3 = {}
+			}
+			c_pindare = { # 598
+				color={ 206 141 68 }
+				color2={ 255 255 255 }
+				
+				b_araguana = {}
+				b_buriticupu = {}
+				b_taruparu = {}
+				b_nova_olinda_2 = {}
+				b_venceslau = {}
+				b_parua = {}
+				b_ubinzal = {}
+			}
+			c_timbira = { # 597
+				color={ 181 125 28 }
+				color2={ 255 255 255 }
+				
+				b_moncao = {}
+				b_altamira_2 = {}
+				b_ze_doca = {}
+				b_penalva = {}
+				b_pedro_rosario = {}
+				b_presidente_sarney = {}
+				b_tres_furos = {}
+			}
+		}
+		d_itapecuru = {
+			color={ 214 226 93 }
+			color2={ 255 255 255 }
+			
+			capital = 608 # c_alto_itapecuru
+			
+			c_alto_itapecuru = { # 608
+				color={ 224 216 98 }
+				color2={ 255 255 255 }
+				
+				b_colinas_2 = {}
+				b_pastos_bons = {}
+				b_sucupira = {}
+				b_mirador = {}
+				b_jaguaruana_3 = {}
+				b_paraibano = {}
+				b_anajas = {}
+			}
+			c_loreto = { # 610
+				color={ 242 224 60 }
+				color2={ 255 255 255 }
+				
+				b_sambaiba = {}
+				b_loreto_2 = {}
+				b_aldeia_presidio = {}
+				b_salta_lusia = {}
+				b_angico_torto = {}
+				b_criolizinho = {}
+				b_jenipapo_2 = {}
+			}
+			c_mangabeiras = { # 609
+				color={ 216 200 54 }
+				color2={ 255 255 255 }
+				
+				b_nova_colinas = {}
+				b_nogueiras = {}
+				b_canto_grande = {}
+				b_balsas = {}
+				b_riachao_2 = {}
+				b_angelim = {}
+				b_formosa_2 = {}
+			}
+		}
+		d_mearim = {
+			color={ 191 69 44 }
+			color2={ 255 255 255 }
+			
+			capital = 601 # c_grajau
+			
+			c_grajau = { # 601
+				color={ 181 79 39 }
+				color2={ 255 255 255 }
+				
+				b_grajau = {}
+				b_itaipava = {}
+				b_sitio_novo = {}
+				b_amarante_2 = {}
+				b_barra_do_corda = {}
+				b_formosa_da_serra_negra = {}
+				b_estreito_3 = {}
+			}
+			c_bacabal = { # 602
+				color={ 112 135 39 }
+				color2={ 255 255 255 }
+				
+				b_bacabal = {}
+				b_santa_teresinha = {}
+				b_sao_luis_gonzaga = {}
+				b_sao_mateus = {}
+				b_bom_lugar = {}
+				b_lago_verde_2 = {}
+				b_pedra_do_salgado = {}
+			}
+			c_barra_do_corda = { # 603
+				color={ 74 107 34 }
+				color2={ 255 255 255 }
+				
+				b_jenipapo = {}
+				b_tuntum = {}
+				b_marambaia = {}
+				b_jucaral_mirim = {}
+				b_jucaral_do_saraiva = {}
+				b_vitorino_freire = {}
+				b_pucunzal = {}
+			}
+			c_fortuna = { # 604
+				color={ 171 255 112 }
+				color2={ 255 255 255 }
+				
+				b_fortuna = {}
+				b_colinas = {}
+				b_jatoba = {}
+				b_sao_domingos_2 = {}
+				b_buriti_bravo = {}
+				b_passagem_franca = {}
+				b_baixao_grande = {}
+			}
+		}
+		d_parnaiba_poente = {
+			color={ 196 138 54 }
+			color2={ 255 255 255 }
+			
+			capital = 605 # c_chapadinha
+			
+			c_chapadinha = { # 605
+				color={ 206 128 59 }
+				color2={ 255 255 255 }
+				
+				b_buriti_3 = {}
+				b_belagua = {}
+				b_urbano_santos = {}
+				b_sao_benedito = {}
+				b_vargem_grande_2 = {}
+				b_nina_rodrigues = {}
+				b_presidente_juscelino = {}
+			}
+			c_caxias = { # 607
+				color={ 234 109 0 }
+				color2={ 255 255 255 }
+				
+				b_parnarama = {}
+				b_sao_joao_do_sotero = {}
+				b_matoes = {}
+				b_monsenhor_gil = {}
+				b_lagoa_do_mato = {}
+				b_timon = {}
+				b_buriti_cortado = {}
+			}
+			c_codo = { # 606
+				color={ 234 145 68 }
+				color2={ 255 255 255 }
+				
+				b_codo = {}
+				b_peritoro = {}
+				b_timbiras = {}
+				b_aldeias_altas = {}
+				b_coroata = {}
+				b_peritoro_2 = {}
+				b_capinzal = {}
+			}
+		}
+		d_porto_franco = {
+			color={ 245 129 97 }
+			color2={ 255 255 255 }
+			
+			capital = 611 # c_estreito
+			
+			c_estreito = { # 611
+				color={ 255 119 102 }
+				color2={ 255 255 255 }
+				
+				b_estreito_4 = {}
+				b_sao_joao_do_paraiso = {}
+				b_aguiarnopolis_2 = {}
+				b_vao_de_dentro = {}
+				b_vale_da_formosa = {}
+				b_porto_franco = {}
+				b_coite = {}
+			}
+			c_balsas = { # 613
+				color={ 255 55 20 }
+				color2={ 255 255 255 }
+				
+				b_tasso_fragoso = {}
+				b_curupa = {}
+				b_alto_parnaiba = {}
+				b_pindaiba = {}
+				b_nova_de_carli = {}
+				b_santa_filomena_3 = {}
+				b_aldeia = {}
+			}
+			c_carolina = { # 612
+				color={ 255 180 137 }
+				color2={ 255 255 255 }
+				
+				b_carolina = {}
+				b_riachao_3 = {}
+				b_babaculandia_2 = {}
+				b_goiatins = {}
+				b_feira_nova = {}
+				b_novo_horizonte = {}
+				b_bacuri = {}
+			}
+		}
+	}
+	k_pernambuco = {
+		color={ 170 32 183 }
+		color2={ 255 255 255 }
+		
+		capital = 560 # c_recife
+		culture = atlanticano
+		
+		d_recife = {
+			color={ 150 52 173 }
+			color2={ 255 255 255 }
+			
+			capital = 560 # c_recife
+			
+			c_recife = { # 560
+				color={ 140 62 168 }
+				color2={ 255 255 255 }
+				
+				b_justica = {}
+				b_olinda_2 = {}
+				b_iphan_tomba = {}
+				b_sao_joao_2 = {}
+				b_camaragipe = {}
+				b_paulista_2 = {}
+				b_moreno = {}
+			}
+			c_itamaraca = { # 561
+				color={ 146 119 196 }
+				color2={ 255 255 255 }
+				
+				b_itapissuma = {}
+				b_igarassu = {}
+				b_vicencia = {}
+				b_ilha_de_itamaraca = {}
+				b_aracoiaba = {}
+				b_tejucopapo = {}
+				b_tres_ladeiras = {}
+			}
+			c_suape = { # 562
+				color={ 192 143 196 }
+				color2={ 255 255 255 }
+				
+				b_ipojuca = {}
+				b_cabo_de_agostinho = {}
+				b_muro_alto = {}
+				b_coroa_grande = {}
+				b_escada = {}
+				b_ruropolis = {}
+				b_camela = {}
+			}
+		}
+		d_alagoas = {
+			color={ 120 112 64 }
+			color2={ 255 255 255 }
+			
+			capital = 566 # c_maceio
+			
+			c_maceio = { # 566
+				color={ 110 122 59 }
+				color2={ 255 255 255 }
+				
+				b_martirios = {}
+				b_ponta_verde = {}
+				b_iemanja = {}
+				b_jaragua_2 = {}
+				b_pajucara = {}
+				b_marechal_deodoro = {}
+				b_pilar = {}
+			}
+			c_arapiraca = { # 569
+				color={ 131 145 71 }
+				color2={ 255 255 255 }
+				
+				b_arapiraca = {}
+				b_bom_conselho = {}
+				b_primavera_3 = {}
+				b_craibas = {}
+				b_traipu = {}
+				b_taquarana = {}
+				b_campo_alegre_3 = {}
+			}
+			c_japaratinga = { # 567
+				color={ 196 216 106 }
+				color2={ 255 255 255 }
+				
+				b_japaratinga = {}
+				b_maragogi = {}
+				b_porto_calvo = {}
+				b_porto_de_pedras = {}
+				b_tatuamunha = {}
+				b_jundia = {}
+				b_jacuipe = {}
+			}
+			c_sao_miguel_dos_campos = { # 568
+				color={ 77 91 15 }
+				color2={ 255 255 255 }
+				
+				b_coruripe = {}
+				b_penedo_2 = {}
+				b_mauricio = {}
+				b_jequia_da_praia = {}
+				b_piacabucu = {}
+				b_junqueiro = {}
+				b_teotonio_vilela = {}
+			}
+			c_serrana = { # 570
+				color={ 77 136 15 }
+				color2={ 255 255 255 }
+				
+				b_ouro_branco = {}
+				b_santana_do_ipanema = {}
+				b_cacimbinhas = {}
+				b_olivenca_2 = {}
+				b_senador_rui_palmeira = {}
+				b_maravilha_2 = {}
+				b_aguas_belas_2 = {}
+			}
+		}
+		d_capibaribe = {
+			color={ 124 125 27 }
+			color2={ 255 255 255 }
+			
+			capital = 563 # c_vale_do_ipojuca
+			
+			c_vale_do_ipojuca = { # 563
+				color={ 114 135 22 }
+				color2={ 255 255 255 }
+				
+				b_caruaru = {}
+				b_sanharo = {}
+				b_santa_cruz_do_capibaribe = {}
+				b_agrestina = {}
+				b_toritama = {}
+				b_jatauba = {}
+				b_belo_jardim = {}
+			}
+			c_garanhuns = { # 565
+				color={ 97 114 19 }
+				color2={ 255 255 255 }
+				
+				b_caetes = {}
+				b_lajedo_2 = {}
+				b_capoeiras_2 = {}
+				b_venturosa = {}
+				b_aguas_belas = {}
+				b_garanhuns = {}
+				b_quebrangulo = {}
+			}
+			c_ibirajuba = { # 564
+				color={ 116 142 0 }
+				color2={ 255 255 255 }
+				
+				b_amaraji = {}
+				b_vitoria_de_santo_antao = {}
+				b_gravata = {}
+				b_ribeirao = {}
+				b_cha_grande = {}
+				b_primavera_2 = {}
+				b_cortes = {}
+			}
+		}
+		d_fernando_de_noronha = {
+			color={ 203 235 251 }
+			color2={ 255 255 255 }
+			
+			capital = 905 # c_fernando_de_noronha
+			
+			c_fernando_de_noronha = { # 905
+				color={ 213 225 0 }
+				color2={ 255 255 255 }
+				
+				b_vila_dos_remedios = {}
+				b_ponta_da_sapata = {}
+				b_boldro = {}
+				b_baia_dos_abreus = {}
+				b_enseada_da_cadeira = {}
+				b_morro_da_quixaba = {}
+				b_baia_dos_porcos = {}
+			}
+		}
+		d_francisca = {
+			color={ 39 109 5 }
+			color2={ 255 255 255 }
+			
+			capital = 575 # c_santa_maria_da_boa_vista
+			
+			c_santa_maria_da_boa_vista = { # 575
+				color={ 29 119 0 }
+				color2={ 255 255 255 }
+				
+				b_filomena = {}
+				b_santa_maria_4 = {}
+				b_ouricuri_2 = {}
+				b_bodoco = {}
+				b_santa_cruz_2 = {}
+				b_oroco = {}
+				b_timorante = {}
+			}
+			c_itaparica_2 = { # 577
+				color={ 110 158 96 }
+				color2={ 255 255 255 }
+				
+				b_itacuruba = {}
+				b_sao_francisco_2 = {}
+				b_petrolandia = {}
+				b_floresta = {}
+				b_cargueja = {}
+				b_petrolandia_2 = {}
+				b_caarnubeira_da_penha = {}
+			}
+			c_petrolina = { # 576
+				color={ 45 183 0 }
+				color2={ 255 255 255 }
+				
+				b_episcopal = {}
+				b_petrolina = {}
+				b_cristo_rei = {}
+				b_lagoa_grande = {}
+				b_santana_do_sobrado = {}
+				b_nova_descoberta = {}
+				b_boa_vista = {}
+			}
+		}
+		d_sertao_pernambucano = {
+			color={ 100 150 74 }
+			color2={ 255 255 255 }
+			
+			capital = 571 # c_moxoto
+			
+			c_moxoto = { # 571
+				color={ 90 160 69 }
+				color2={ 255 255 255 }
+				
+				b_ibimirim = {}
+				b_custodia = {}
+				b_betania = {}
+				b_arcoverde = {}
+				b_tupanatinga = {}
+				b_manari = {}
+				b_sertania = {}
+			}
+			c_araripina = { # 574
+				color={ 57 229 0 }
+				color2={ 255 255 255 }
+				
+				b_trindade_2 = {}
+				b_araripina = {}
+				b_simoes = {}
+				b_salitre = {}
+				b_ibupi = {}
+				b_gergelim = {}
+				b_morais = {}
+			}
+			c_pajeu = { # 572
+				color={ 111 198 85 }
+				color2={ 255 255 255 }
+				
+				b_quixaba_2 = {}
+				b_iguaracy = {}
+				b_tavares_2 = {}
+				b_novo_pernambuco = {}
+				b_ita = {}
+				b_princesa_isabel = {}
+				b_flores_2 = {}
+			}
+			c_salgueiro = { # 573
+				color={ 108 183 122 }
+				color2={ 255 255 255 }
+				
+				b_serrita = {}
+				b_verdejante = {}
+				b_parnamirim_2 = {}
+				b_salgueiro = {}
+				b_moreilandia = {}
+				b_sao_jose_do_belmonte = {}
+				b_cabrobo = {}
+			}
+		}
+	}
+	k_piaui = {
+		color={ 225 116 80 }
+		color2={ 255 255 255 }
+		
+		capital = 578 # c_teresina
+		culture = parnaibas
+		
+		d_teresina = {
+			color={ 245 96 90 }
+			color2={ 255 255 255 }
+			
+			capital = 578 # c_teresina
+			
+			c_teresina = { # 578
+				color={ 255 86 95 }
+				color2={ 255 255 255 }
+				
+				b_karnak = {}
+				b_teresina = {}
+				b_uniao = {}
+				b_senhora_de_amparo = {}
+				b_altos = {}
+				b_demeval_lobao = {}
+				b_caxias = {}
+			}
+			c_campo_maior = { # 579
+				color={ 211 124 129 }
+				color2={ 255 255 255 }
+				
+				b_campo_maior = {}
+				b_buriti_2 = {}
+				b_capitao_de_campos = {}
+				b_alto_longa = {}
+				b_juazeiro_do_piaui = {}
+				b_castelo_do_piaui = {}
+				b_sigefredo_pacheco = {}
+			}
+			c_palmeirais = { # 580
+				color={ 216 101 109 }
+				color2={ 255 255 255 }
+				
+				b_floriano = {}
+				b_amarante = {}
+				b_agua_branca = {}
+				b_regeneracao = {}
+				b_barao_de_grajau = {}
+				b_sao_joao_dos_patos = {}
+				b_palmeirais = {}
+			}
+			c_valenca_2 = { # 581
+				color={ 168 79 86 }
+				color2={ 255 255 255 }
+				
+				b_inhuma = {}
+				b_aroazes = {}
+				b_ipiranga = {}
+				b_canabrava_2 = {}
+				b_lagoa_do_sitio = {}
+				b_valenca_do_piaui = {}
+				b_novo_oriente = {}
+			}
+		}
+		d_alto_parnaiba = {
+			color={ 183 89 106 }
+			color2={ 255 255 255 }
+			
+			capital = 589 # c_urucui
+			
+			c_urucui = { # 589
+				color={ 193 79 111 }
+				color2={ 255 255 255 }
+				
+				b_urucui = {}
+				b_santa_filomena_2 = {}
+				b_baixa_grande = {}
+				b_loreto = {}
+				b_guadalupe = {}
+				b_itaueira = {}
+				b_canto_do_buriti = {}
+			}
+			c_gurgueia = { # 590
+				color={ 224 112 143 }
+				color2={ 255 255 255 }
+				
+				b_currais = {}
+				b_santa_luz_2 = {}
+				b_conceicao = {}
+				b_para_batins = {}
+				b_palmeira_do_piaui = {}
+				b_nova_santa_rosa_2 = {}
+				b_colonia_do_guegueia = {}
+			}
+			c_parnagua = { # 591
+				color={ 224 100 119 }
+				color2={ 255 255 255 }
+				
+				b_corrente = {}
+				b_parnagua = {}
+				b_curimata_3 = {}
+				b_gilbues = {}
+				b_formosa_do_rio_preto = {}
+				b_dois_irmaos = {}
+				b_julio_borges = {}
+			}
+		}
+		d_baixo_parnaiba = {
+			color={ 245 83 81 }
+			color2={ 255 255 255 }
+			
+			capital = 582 # c_parnaiba
+			
+			c_parnaiba = { # 582
+				color={ 255 73 86 }
+				color2={ 255 255 255 }
+				
+				b_parnaiba = {}
+				b_divina_graca = {}
+				b_barcas = {}
+				b_luis_correia = {}
+				b_araioses = {}
+				b_buriti_dos_lopes = {}
+				b_chaval = {}
+			}
+			c_cocal = { # 584
+				color={ 234 25 39 }
+				color2={ 255 255 255 }
+				
+				b_cocal = {}
+				b_alves = {}
+				b_vicosa = {}
+				b_joaquim_pires_2 = {}
+				b_esperantina_2 = {}
+				b_morro_do_chapeu_3 = {}
+				b_arraial = {}
+			}
+			c_luzilandia = { # 583
+				color={ 211 78 89 }
+				color2={ 255 255 255 }
+				
+				b_madeiro = {}
+				b_esperantina = {}
+				b_batalha = {}
+				b_matias_olimpio = {}
+				b_picarra = {}
+				b_joaquim_pires = {}
+				b_coelho_neto = {}
+			}
+			c_piripiri = { # 585
+				color={ 232 102 112 }
+				color2={ 255 255 255 }
+				
+				b_piripiri = {}
+				b_barras = {}
+				b_sete_cidades = {}
+				b_pedro_ii = {}
+				b_capitao_de_campos_2 = {}
+				b_cabeceiras = {}
+				b_jose_de_freitas = {}
+			}
+		}
+		d_medio_parnaiba = {
+			color={ 245 178 186 }
+			color2={ 255 255 255 }
+			
+			capital = 586 # c_caninde
+			
+			c_caninde = { # 586
+				color={ 255 168 191 }
+				color2={ 255 255 255 }
+				
+				b_picos = {}
+				b_senhora_dos_remedios = {}
+				b_fronteiras = {}
+				b_geminiano = {}
+				b_riachao = {}
+				b_alto_alegre = {}
+				b_jaicos = {}
+			}
+			c_bertolinia = { # 587
+				color={ 255 132 165 }
+				color2={ 255 255 255 }
+				
+				b_bertolinia = {}
+				b_canavieira_2 = {}
+				b_canavieira_3 = {}
+				b_manoel_emidio = {}
+				b_eliseu_martins = {}
+				b_boiadeiro = {}
+				b_sebastiao_leal = {}
+			}
+			c_sao_raimundo_nonato = { # 588
+				color={ 206 82 115 }
+				color2={ 255 255 255 }
+				
+				b_guaribas = {}
+				b_caracol_4 = {}
+				b_bom_jesus_2 = {}
+				b_curimata_2 = {}
+				b_redencao_do_gurgueia = {}
+				b_santa_luz = {}
+				b_cristino_castro = {}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+# c_asuncion
+
+# County Title
+title = c_asuncion
+
+# Settlements
+max_settlements = 6
+
+b_asuncion = castle
+b_san_lorenzo_2 = city
+b_caacupe = temple
+b_yaguaron = castle
+#b_san_jose = city
+#b_luque = temple
+#b_limpio = castle
+
+# Misc
+culture = guarani
+religion = catholic
+
+#History

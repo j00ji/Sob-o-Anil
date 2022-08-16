@@ -1,0 +1,21 @@
+# c_guarani
+
+# County Title
+title = c_guarani
+
+# Settlements
+max_settlements = 2
+
+b_el_soberbio = tribal
+#b_san_vicente_2 = city
+#b_aristobulo = temple
+#b_dos_de_mayo = castle
+#b_el_alcazar = city
+#b_garupe = temple
+#b_caraguatay = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

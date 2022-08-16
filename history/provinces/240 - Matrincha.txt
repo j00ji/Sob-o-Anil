@@ -1,0 +1,21 @@
+# c_matrincha
+
+# County Title
+title = c_matrincha
+
+# Settlements
+max_settlements = 2
+
+b_matrincha = tribal
+#b_baunilha = city
+#b_santa_rita_2 = temple
+#b_araguapaz = castle
+#b_faina = city
+#b_cibele = temple
+#b_diolandia = castle
+
+# Misc
+culture = goyanense
+religion = manredebu
+
+#History

@@ -1,0 +1,21 @@
+# c_holambra
+
+# County Title
+title = c_holambra
+
+# Settlements
+max_settlements = 5
+
+b_povos_unidos = castle
+b_pedreira = city
+b_amparo = temple
+#b_monte_alegre_do_sul = castle
+#b_serra_negra = city
+#b_borda_da_mata = temple
+#b_parque_park = castle
+
+# Misc
+culture = americano
+religion = anchietican
+
+#History

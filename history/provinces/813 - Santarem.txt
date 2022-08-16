@@ -1,0 +1,21 @@
+# c_santarem
+
+# County Title
+title = c_santarem
+
+# Settlements
+max_settlements = 3
+
+b_santarem = castle
+b_belterra = city
+b_pascoval = temple
+#b_bom_gosto = castle
+#b_jabuti = city
+#b_jaguarari_2 = temple
+#b_tiningu = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

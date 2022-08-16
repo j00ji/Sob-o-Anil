@@ -1,0 +1,994 @@
+###ÄNSI
+
+265001 = { #Franciscano
+	name = "Franciscano"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+}
+
+265002 = { #Freitas 
+	name = "Freitas"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+}
+
+265003 = { #Ferraz 
+	name = "Ferraz"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+}
+
+265004 = { #Bravo 
+	name = "Bravo"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+}
+
+
+####################
+##Random dynasties
+##Based on MG's senators and representatives
+##source: wikipedia
+##range: 265500+
+####################
+
+265500 = {
+	name = "Abi-Ackel"
+	culture = auriferro
+	}
+265501 = {
+	name = "Abreu"
+	culture = auriferro
+	}
+265502 = {
+	name = "Adauto"
+	culture = auriferro
+	}
+265503 = {
+	name = "Aguiar"
+	culture = auriferro
+	}
+265504 = {
+	name = "Albergaria"
+	culture = auriferro
+	}
+265505 = {
+	name = "Aldo"
+	culture = auriferro
+	}
+265506 = {
+	name = "Aleixo"
+	culture = auriferro
+	}
+265507 = {
+	name = "Alkmin"
+	culture = auriferro
+	}
+265508 = {
+	name = "Almeida"
+	culture = auriferro
+	}
+265509 = {
+	name = "Alvim"
+	culture = auriferro
+	}
+265510 = {
+	name = "Amorim"
+	culture = auriferro
+	}
+265511 = {
+	name = "Ananias"
+	culture = auriferro
+	}
+265512 = {
+	name = "Anghinetti"
+	culture = auriferro
+	}
+265513 = {
+	name = "Anísio"
+	culture = auriferro
+	}
+265514 = {
+	name = "Antônio"
+	culture = auriferro
+	}
+265515 = {
+	name = "Arinos"
+	culture = auriferro
+	}
+265516 = {
+	name = "Assad"
+	culture = auriferro
+	}
+265517 = {
+	name = "Athayde"
+	culture = auriferro
+	}
+265518 = {
+	name = "Avelino"
+	culture = auriferro
+	}
+265519 = {
+	name = "Azeredo"
+	culture = auriferro
+	}
+265520 = {
+	name = "Baccarini"
+	culture = auriferro
+	}
+265521 = {
+	name = "Badaró"
+	culture = auriferro
+	}
+265522 = {
+	name = "Balbi"
+	culture = auriferro
+	}
+265523 = {
+	name = "Barbosa"
+	culture = auriferro
+	}
+265524 = {
+	name = "Batista"
+	culture = auriferro
+	}
+265525 = {
+	name = "Belato"
+	culture = auriferro
+	}
+265526 = {
+	name = "Belém"
+	culture = auriferro
+	}
+265527 = {
+	name = "Bernardes"
+	culture = auriferro
+	}
+265528 = {
+	name = "Bernardino"
+	culture = auriferro
+	}
+265529 = {
+	name = "Bernardo"
+	culture = auriferro
+	}
+265530 = {
+	name = "Bessone"
+	culture = auriferro
+	}
+265531 = {
+	name = "Bilac"
+	culture = auriferro
+	}
+265532 = {
+	name = "Bisaglia"
+	culture = auriferro
+	}
+265533 = {
+	name = "Bittencourt"
+	culture = auriferro
+	}
+265534 = {
+	name = "Boaventura"
+	culture = auriferro
+	}
+265535 = {
+	name = "Bonifácio"
+	culture = auriferro
+	}
+265536 = {
+	name = "Botelho"
+	culture = auriferro
+	}
+265537 = {
+	name = "Bouchardet"
+	culture = auriferro
+	}
+265538 = {
+	name = "Branco"
+	culture = auriferro
+	}
+265539 = {
+	name = "Brandão"
+	culture = auriferro
+	}
+265540 = {
+	name = "Brant"
+	culture = auriferro
+	}
+265541 = {
+	name = "Brasileiro"
+	culture = auriferro
+	}
+265542 = {
+	name = "Campos"
+	culture = auriferro
+	}
+265543 = {
+	name = "Canabrava"
+	culture = auriferro
+	}
+265544 = {
+	name = "Cançado"
+	culture = auriferro
+	}
+265545 = {
+	name = "Canedo"
+	culture = auriferro
+	}
+265546 = {
+	name = "Capanema"
+	culture = auriferro
+	}
+265547 = {
+	name = "Cardoso"
+	culture = auriferro
+	}
+265548 = {
+	name = "Carmo"
+	culture = auriferro
+	}
+265549 = {
+	name = "Carneiro"
+	culture = auriferro
+	}
+265550 = {
+	name = "Carone"
+	culture = auriferro
+	}
+265551 = {
+	name = "Carvalho"
+	culture = auriferro
+	}
+265552 = {
+	name = "César"
+	culture = auriferro
+	}
+265553 = {
+	name = "Chagas"
+	culture = auriferro
+	}
+265554 = {
+	name = "Chaves"
+	culture = auriferro
+	}
+265555 = {
+	name = "Chiaradia"
+	culture = auriferro
+	}
+265556 = {
+	name = "Cícero"
+	culture = auriferro
+	}
+265557 = {
+	name = "Coelho"
+	culture = auriferro
+	}
+265558 = {
+	name = "Corrêa"
+	culture = auriferro
+	}
+265559 = {
+	name = "Correia"
+	culture = auriferro
+	}
+265560 = {
+	name = "Costa"
+	culture = auriferro
+	}
+265561 = {
+	name = "Cotta"
+	culture = auriferro
+	}
+265562 = {
+	name = "Cruz"
+	culture = auriferro
+	}
+265563 = {
+	name = "Cunha"
+	culture = auriferro
+	}
+265564 = {
+	name = "da Conceição"
+	culture = auriferro
+	}
+265565 = {
+	name = "da Cunha"
+	culture = auriferro
+	}
+265566 = {
+	name = "da Gama"
+	culture = auriferro
+	}
+265567 = {
+	name = "da Mata"
+	culture = auriferro
+	}
+265568 = {
+	name = "da Silva"
+	culture = auriferro
+	}
+265569 = {
+	name = "da Veiga"
+	culture = auriferro
+	}
+265570 = {
+	name = "Dantas"
+	culture = auriferro
+	}
+265571 = {
+	name = "de Abreu"
+	culture = auriferro
+	}
+265572 = {
+	name = "de Almeida"
+	culture = auriferro
+	}
+265573 = {
+	name = "de Andrada"
+	culture = auriferro
+	}
+265574 = {
+	name = "de Andrade"
+	culture = auriferro
+	}
+265575 = {
+	name = "de Barros"
+	culture = auriferro
+	}
+265576 = {
+	name = "de Carvalho"
+	culture = auriferro
+	}
+265577 = {
+	name = "de Castro"
+	culture = auriferro
+	}
+265578 = {
+	name = "de Lima"
+	culture = auriferro
+	}
+265579 = {
+	name = "de Melo"
+	culture = auriferro
+	}
+265580 = {
+	name = "de Mendonça"
+	culture = auriferro
+	}
+265581 = {
+	name = "de Mesquita"
+	culture = auriferro
+	}
+265582 = {
+	name = "de Morais"
+	culture = auriferro
+	}
+265583 = {
+	name = "de Oliveira"
+	culture = auriferro
+	}
+265584 = {
+	name = "de Paula"
+	culture = auriferro
+	}
+265585 = {
+	name = "de Rezende"
+	culture = auriferro
+	}
+265586 = {
+	name = "de Sousa"
+	culture = auriferro
+	}
+265587 = {
+	name = "de Vasconcelos"
+	culture = auriferro
+	}
+265588 = {
+	name = "Delgado"
+	culture = auriferro
+	}
+265589 = {
+	name = "Deodato"
+	culture = auriferro
+	}
+265590 = {
+	name = "Dias"
+	culture = auriferro
+	}
+265591 = {
+	name = "Dib"
+	culture = auriferro
+	}
+265592 = {
+	name = "Diniz"
+	culture = auriferro
+	}
+265593 = {
+	name = "do Lago"
+	culture = auriferro
+	}
+265594 = {
+	name = "do Nascimento"
+	culture = auriferro
+	}
+265595 = {
+	name = "do Vale"
+	culture = auriferro
+	}
+265596 = {
+	name = "dos Mares"
+	culture = auriferro
+	}
+265597 = {
+	name = "dos Santos"
+	culture = auriferro
+	}
+265598 = {
+	name = "Dulci"
+	culture = auriferro
+	}
+265599 = {
+	name = "Dutra"
+	culture = auriferro
+	}
+265600 = {
+	name = "Elísio"
+	culture = auriferro
+	}
+265601 = {
+	name = "Eloy"
+	culture = auriferro
+	}
+265602 = {
+	name = "Fagundes"
+	culture = auriferro
+	}
+265603 = {
+	name = "Faria"
+	culture = auriferro
+	}
+265604 = {
+	name = "Fassarella"
+	culture = auriferro
+	}
+265605 = {
+	name = "Felipe"
+	culture = auriferro
+	}
+265606 = {
+	name = "Ferramenta"
+	culture = auriferro
+	}
+265607 = {
+	name = "Ferrara"
+	culture = auriferro
+	}
+265608 = {
+	name = "Ferraz"
+	culture = auriferro
+	}
+265609 = {
+	name = "Ferreira"
+	culture = auriferro
+	}
+265610 = {
+	name = "Figueiredo"
+	culture = auriferro
+	}
+265611 = {
+	name = "Fonseca"
+	culture = auriferro
+	}
+265612 = {
+	name = "Fortes"
+	culture = auriferro
+	}
+265613 = {
+	name = "Franco"
+	culture = auriferro
+	}
+265614 = {
+	name = "Freire"
+	culture = auriferro
+	}
+265615 = {
+	name = "Galassi"
+	culture = auriferro
+	}
+265616 = {
+	name = "Gallo"
+	culture = auriferro
+	}
+265617 = {
+	name = "Garcia"
+	culture = auriferro
+	}
+265618 = {
+	name = "Gomes"
+	culture = auriferro
+	}
+265619 = {
+	name = "Gonçalves"
+	culture = auriferro
+	}
+265620 = {
+	name = "Guabiroba"
+	culture = auriferro
+	}
+265621 = {
+	name = "Guerra"
+	culture = auriferro
+	}
+265622 = {
+	name = "Guia"
+	culture = auriferro
+	}
+265623 = {
+	name = "Guido"
+	culture = auriferro
+	}
+265624 = {
+	name = "Guimarães"
+	culture = auriferro
+	}
+265625 = {
+	name = "Henrique"
+	culture = auriferro
+	}
+265626 = {
+	name = "Herculino"
+	culture = auriferro
+	}
+265627 = {
+	name = "Heslander"
+	culture = auriferro
+	}
+265628 = {
+	name = "Humberto"
+	culture = auriferro
+	}
+265629 = {
+	name = "Jabur"
+	culture = auriferro
+	}
+265630 = {
+	name = "Júlio"
+	culture = auriferro
+	}
+265631 = {
+	name = "Júnior"
+	culture = auriferro
+	}
+265632 = {
+	name = "Junqueira"
+	culture = auriferro
+	}
+265633 = {
+	name = "Kubitschek"
+	culture = auriferro
+	}
+265634 = {
+	name = "Lara"
+	culture = auriferro
+	}
+265635 = {
+	name = "Leal"
+	culture = auriferro
+	}
+265636 = {
+	name = "Leão"
+	culture = auriferro
+	}
+265637 = {
+	name = "Leite"
+	culture = auriferro
+	}
+265638 = {
+	name = "Libânio"
+	culture = auriferro
+	}
+265639 = {
+	name = "Lima"
+	culture = auriferro
+	}
+265640 = {
+	name = "Lobato"
+	culture = auriferro
+	}
+265641 = {
+	name = "Lodi"
+	culture = auriferro
+	}
+265642 = {
+	name = "Lopes"
+	culture = auriferro
+	}
+265643 = {
+	name = "Lucas"
+	culture = auriferro
+	}
+265644 = {
+	name = "Luciano"
+	culture = auriferro
+	}
+265645 = {
+	name = "Luz"
+	culture = auriferro
+	}
+265646 = {
+	name = "Machado"
+	culture = auriferro
+	}
+265647 = {
+	name = "Maciel"
+	culture = auriferro
+	}
+265648 = {
+	name = "Magalhães"
+	culture = auriferro
+	}
+265649 = {
+	name = "Magno"
+	culture = auriferro
+	}
+265650 = {
+	name = "Marise"
+	culture = auriferro
+	}
+265651 = {
+	name = "Martins"
+	culture = auriferro
+	}
+265652 = {
+	name = "Matos"
+	culture = auriferro
+	}
+265653 = {
+	name = "Mattos"
+	culture = auriferro
+	}
+265654 = {
+	name = "Medeiros"
+	culture = auriferro
+	}
+265655 = {
+	name = "Medioli"
+	culture = auriferro
+	}
+265656 = {
+	name = "Medrado"
+	culture = auriferro
+	}
+265657 = {
+	name = "Melles"
+	culture = auriferro
+	}
+265658 = {
+	name = "Mendes"
+	culture = auriferro
+	}
+265659 = {
+	name = "Mendonça"
+	culture = auriferro
+	}
+265660 = {
+	name = "Miranda"
+	culture = auriferro
+	}
+265661 = {
+	name = "Monteiro"
+	culture = auriferro
+	}
+265662 = {
+	name = "Moreira"
+	culture = auriferro
+	}
+265663 = {
+	name = "Mosconi"
+	culture = auriferro
+	}
+265664 = {
+	name = "Murad"
+	culture = auriferro
+	}
+265665 = {
+	name = "Murilo"
+	culture = auriferro
+	}
+265666 = {
+	name = "Murta"
+	culture = auriferro
+	}
+265667 = {
+	name = "Naya"
+	culture = auriferro
+	}
+265668 = {
+	name = "Negrão"
+	culture = auriferro
+	}
+265669 = {
+	name = "Neiva"
+	culture = auriferro
+	}
+265670 = {
+	name = "Neri"
+	culture = auriferro
+	}
+265671 = {
+	name = "Neto"
+	culture = auriferro
+	}
+265672 = {
+	name = "Neves"
+	culture = auriferro
+	}
+265673 = {
+	name = "Nobre"
+	culture = auriferro
+	}
+265674 = {
+	name = "Pacheco"
+	culture = auriferro
+	}
+265675 = {
+	name = "Pádua"
+	culture = auriferro
+	}
+265676 = {
+	name = "Paes"
+	culture = auriferro
+	}
+265677 = {
+	name = "Palmério"
+	culture = auriferro
+	}
+265678 = {
+	name = "Passos"
+	culture = auriferro
+	}
+265679 = {
+	name = "Paulinelli"
+	culture = auriferro
+	}
+265680 = {
+	name = "Paulo"
+	culture = auriferro
+	}
+265681 = {
+	name = "Peixoto"
+	culture = auriferro
+	}
+265682 = {
+	name = "Pena"
+	culture = auriferro
+	}
+265683 = {
+	name = "Pereira"
+	culture = auriferro
+	}
+265684 = {
+	name = "Perim"
+	culture = auriferro
+	}
+265685 = {
+	name = "Perrella"
+	culture = auriferro
+	}
+265686 = {
+	name = "Pimenta"
+	culture = auriferro
+	}
+265687 = {
+	name = "Pinheiro"
+	culture = auriferro
+	}
+265688 = {
+	name = "Pinto"
+	culture = auriferro
+	}
+265689 = {
+	name = "Pires"
+	culture = auriferro
+	}
+265690 = {
+	name = "Pompei"
+	culture = auriferro
+	}
+265691 = {
+	name = "Portela"
+	culture = auriferro
+	}
+265692 = {
+	name = "Porto"
+	culture = auriferro
+	}
+265693 = {
+	name = "Prata"
+	culture = auriferro
+	}
+265694 = {
+	name = "Queiroz"
+	culture = auriferro
+	}
+265695 = {
+	name = "Raimundo"
+	culture = auriferro
+	}
+265696 = {
+	name = "Reis"
+	culture = auriferro
+	}
+265697 = {
+	name = "Renault"
+	culture = auriferro
+	}
+265698 = {
+	name = "Resende"
+	culture = auriferro
+	}
+265699 = {
+	name = "Rezende"
+	culture = auriferro
+	}
+265700 = {
+	name = "Ribeiro"
+	culture = auriferro
+	}
+265701 = {
+	name = "Rodrigues"
+	culture = auriferro
+	}
+265702 = {
+	name = "Romano"
+	culture = auriferro
+	}
+265703 = {
+	name = "Rosa"
+	culture = auriferro
+	}
+265704 = {
+	name = "Santana"
+	culture = auriferro
+	}
+265705 = {
+	name = "Santiago"
+	culture = auriferro
+	}
+265706 = {
+	name = "Santos"
+	culture = auriferro
+	}
+265707 = {
+	name = "Scarano"
+	culture = auriferro
+	}
+265708 = {
+	name = "Seabra"
+	culture = auriferro
+	}
+265709 = {
+	name = "Silvestre"
+	culture = auriferro
+	}
+265710 = {
+	name = "Siqueira"
+	culture = auriferro
+	}
+265711 = {
+	name = "Soares"
+	culture = auriferro
+	}
+265712 = {
+	name = "Sobrinho"
+	culture = auriferro
+	}
+265713 = {
+	name = "Souto"
+	culture = auriferro
+	}
+265714 = {
+	name = "Starling"
+	culture = auriferro
+	}
+265715 = {
+	name = "Tadeu"
+	culture = auriferro
+	}
+265716 = {
+	name = "Tannus"
+	culture = auriferro
+	}
+265717 = {
+	name = "Tavares"
+	culture = auriferro
+	}
+265718 = {
+	name = "Taveira"
+	culture = auriferro
+	}
+265719 = {
+	name = "Teixeira"
+	culture = auriferro
+	}
+265720 = {
+	name = "Terra"
+	culture = auriferro
+	}
+265721 = {
+	name = "Thibau"
+	culture = auriferro
+	}
+265722 = {
+	name = "Tito"
+	culture = auriferro
+	}
+265723 = {
+	name = "Tourinho"
+	culture = auriferro
+	}
+265724 = {
+	name = "Ulisses"
+	culture = auriferro
+	}
+265725 = {
+	name = "Valadares"
+	culture = auriferro
+	}
+265726 = {
+	name = "Valente"
+	culture = auriferro
+	}
+265727 = {
+	name = "Varella"
+	culture = auriferro
+	}
+265728 = {
+	name = "Vargas"
+	culture = auriferro
+	}
+265729 = {
+	name = "Vasconcelos"
+	culture = auriferro
+	}
+265730 = {
+	name = "Vaz"
+	culture = auriferro
+	}
+265731 = {
+	name = "Veloso"
+	culture = auriferro
+	}
+265732 = {
+	name = "Viana"
+	culture = auriferro
+	}
+265733 = {
+	name = "Vidigal"
+	culture = auriferro
+	}
+265734 = {
+	name = "Viegas"
+	culture = auriferro
+	}
+265735 = {
+	name = "Vieira"
+	culture = auriferro
+	}
+265736 = {
+	name = "Vital"
+	culture = auriferro
+	}
+265737 = {
+	name = "Werneck"
+	culture = auriferro
+	}

@@ -1,0 +1,21 @@
+# c_patrocinio
+
+# County Title
+title = c_patrocinio
+
+# Settlements
+max_settlements = 3
+
+b_monte_carmelo = castle
+b_coromandel = castle
+b_sao_joao_4 = temple
+#b_dourados_2 = castle
+#b_estrela_do_sul = city
+#b_irai_2 = temple
+#b_romaria = castle
+
+# Misc
+culture = triangler
+religion = terra_benta
+
+#History

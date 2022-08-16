@@ -1,0 +1,21 @@
+# c_durazno
+
+# County Title
+title = c_durazno
+
+# Settlements
+max_settlements = 2
+
+b_durazno = tribal
+#b_rincon_del_bonete = city
+#b_baygorria = temple
+#b_cerro_chato_2 = castle
+#b_centenario_2 = city
+#b_sarandi_del_yi = temple
+#b_san_jorge = castle
+
+# Misc
+culture = guacho
+religion = bandean
+
+#History

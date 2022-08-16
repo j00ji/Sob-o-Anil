@@ -1,0 +1,21 @@
+# c_soure
+
+# County Title
+title = c_soure
+
+# Settlements
+max_settlements = 2
+
+b_soure = city
+b_salvaterra = castle
+#b_cajuuna = temple
+#b_diamantina_do_para = castle
+#b_santa_cruz_do_ariri = city
+#b_urubu = temple
+#b_caju = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

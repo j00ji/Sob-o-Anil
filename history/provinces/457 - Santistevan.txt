@@ -1,0 +1,21 @@
+# c_santistevan
+
+# County Title
+title = c_santistevan
+
+# Settlements
+max_settlements = 4
+
+b_montero = castle
+b_mineros = city
+b_portachuelo = temple
+#b_sara = castle
+#b_agustin_saavedra = city
+#b_loma_alta = temple
+#b_villa_rosario = castle
+
+# Misc
+culture = camba
+religion = catholic
+
+#History

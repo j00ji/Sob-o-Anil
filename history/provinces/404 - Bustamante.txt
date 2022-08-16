@@ -1,0 +1,21 @@
+# c_bustamante
+
+# County Title
+title = c_bustamante
+
+# Settlements
+max_settlements = 3
+
+b_bahia_bustamante = tribal
+#b_malaspina = city
+#b_garayalde = temple
+#b_la_leonor = castle
+#b_conuto = city
+#b_camarones = temple
+#b_cabo_raso = castle
+
+# Misc
+culture = desertico
+religion = calafatist
+
+#History

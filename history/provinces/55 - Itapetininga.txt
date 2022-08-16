@@ -1,0 +1,21 @@
+# c_itapetininga
+
+# County Title
+title = c_itapetininga
+
+# Settlements
+max_settlements = 4
+
+b_sarutaya = castle
+b_guarei = temple
+b_alambari = temple
+#b_vendramini = castle
+#b_sao_miguel = city
+#b_regina_sonia_alves = temple
+#b_porta_da_figueira = castle
+
+# Misc
+culture = camponeto
+religion = anchietican
+
+#History

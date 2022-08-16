@@ -1,0 +1,21 @@
+# c_bagre
+
+# County Title
+title = c_bagre
+
+# Settlements
+max_settlements = 3
+
+b_bagre = castle
+b_cameta = city
+#b_limoeiro_do_ajuru = temple
+#b_oeiras_do_para = castle
+#b_joana_coeli = city
+#b_melancial = temple
+#b_curucamba = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

@@ -1,0 +1,21 @@
+# c_camaqua
+
+# County Title
+title = c_camaqua
+
+# Settlements
+max_settlements = 2
+
+b_camaqua = tribal
+#b_tapes = city
+#b_arambare = temple
+#b_chuvisca = castle
+#b_cerro_grande_do_sul = city
+#b_dom_feliciano = temple
+#b_amaral_ferrador = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

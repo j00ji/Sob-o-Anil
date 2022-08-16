@@ -1,0 +1,21 @@
+# c_ovalle
+
+# County Title
+title = c_ovalle
+
+# Settlements
+max_settlements = 2
+
+b_ovalle = castle
+b_punitaqui = city
+#b_camarico = temple
+#b_socos = castle
+#b_tabali = city
+#b_san_julian_del_valle = temple
+#b_pachingo = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

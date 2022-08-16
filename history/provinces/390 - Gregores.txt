@@ -1,0 +1,21 @@
+# c_gregores
+
+# County Title
+title = c_gregores
+
+# Settlements
+max_settlements = 2
+
+b_gregores = tribal
+#b_tres_lagos = city
+#b_lago_san_martin = temple
+#b_la_guillermina = castle
+#b_santa_lucia_2 = city
+#b_cerro_negro_2 = temple
+#b_lago_cardiel = castle
+
+# Misc
+culture = aonikenk
+religion = xoon
+
+#History

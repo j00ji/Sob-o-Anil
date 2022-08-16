@@ -1,0 +1,21 @@
+# c_stanley
+
+# County Title
+title = c_stanley
+
+# Settlements
+max_settlements = 3
+
+b_stanley = tribal
+#b_mount_pleasant = city
+#b_darwin = temple
+#b_douglas = castle
+#b_fitzroy = city
+#b_san_carlos_2 = temple
+#b_bluff_cove = castle
+
+# Misc
+culture = falklander
+religion = calafatist
+
+#History

@@ -1,0 +1,21 @@
+# c_assu
+
+# County Title
+title = c_assu
+
+# Settlements
+max_settlements = 2
+
+b_jucurutu = tribal
+#b_sao_rafael = city
+#b_itaja = temple
+#b_santa_tereza = castle
+#b_angicos = city
+#b_fernando_pedroza = temple
+#b_carnaubais = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

@@ -1,0 +1,21 @@
+# c_sao_gotardo
+
+# County Title
+title = c_sao_gotardo
+
+# Settlements
+max_settlements = 3
+
+b_guarda_dos_ferreiros = castle
+b_tiros = castle
+b_lagoa_formosa = temple
+#b_arapua = castle
+#b_paranaiba_2 = city
+#b_quintinos = temple
+#b_matutina = castle
+
+# Misc
+culture = canastro
+religion = terra_benta
+
+#History

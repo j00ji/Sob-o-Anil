@@ -1,0 +1,21 @@
+# c_cochrane
+
+# County Title
+title = c_cochrane
+
+# Settlements
+max_settlements = 2
+
+b_cochrane = tribal
+#b_chile_chico = city
+#b_puerto_guadal = temple
+#b_la_peligrosa = castle
+#b_valle_chacabuco = city
+#b_rio_nef = temple
+#b_el_distraido = castle
+
+# Misc
+culture = australino
+religion = calafatist
+
+#History

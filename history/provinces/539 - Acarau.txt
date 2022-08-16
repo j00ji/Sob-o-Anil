@@ -1,0 +1,21 @@
+# c_acarau
+
+# County Title
+title = c_acarau
+
+# Settlements
+max_settlements = 3
+
+b_martinopole = castle
+b_bela_cruz = temple
+#b_granja = temple
+#b_serrota = castle
+#b_uruoca = city
+#b_paracua = temple
+#b_campanario = castle
+
+# Misc
+culture = cearense
+religion = cicerite
+
+#History

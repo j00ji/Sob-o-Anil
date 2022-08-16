@@ -1,0 +1,19 @@
+# c_huentota
+
+# County Title
+title = c_huentota
+
+# Settlements
+max_settlements = 5
+
+b_mendoza = castle
+b_godoy_cruz = city
+b_las_heras_3 = temple
+b_gueymallen = castle
+#b_lujan_2 = city
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_jacareacanga
+
+# County Title
+title = c_jacareacanga
+
+# Settlements
+max_settlements = 2
+
+b_jacareacanga = tribal
+#b_mamao_ana = city
+#b_cuiu_cuiu = temple
+#b_canima = castle
+#b_jabota = city
+#b_frances = temple
+#b_sai_cinza = castle
+
+# Misc
+culture = kayapo
+religion = xabaxai_xagi
+
+#History

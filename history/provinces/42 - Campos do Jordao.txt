@@ -1,0 +1,21 @@
+# c_campos_do_jordao
+
+# County Title
+title = c_campos_do_jordao
+
+# Settlements
+max_settlements = 5
+
+b_bonsucesso = castle
+b_sao_matheus_2 = temple
+#b_sao_bento_do_sapucai = temple
+#b_santo_antonio_do_pinhal = castle
+#b_imbiri = city
+#b_amantikiria = temple
+#b_morro_do_elefante = castle
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_coyhaique
+
+# County Title
+title = c_coyhaique
+
+# Settlements
+max_settlements = 3
+
+b_coyhaique = tribal
+b_balmaceda = temple
+#b_rio_ibanez = temple
+#b_puerto_rio_tranquilo = castle
+#b_puerto_sanchez = city
+#b_bahia_muerta = temple
+#b_cerro_castillo = castle
+
+# Misc
+culture = australino
+religion = calafatist
+
+#History

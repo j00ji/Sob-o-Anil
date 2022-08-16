@@ -1,0 +1,21 @@
+# c_uniao_da_vitoria
+
+# County Title
+title = c_uniao_da_vitoria
+
+# Settlements
+max_settlements = 2
+
+b_uniao_da_vitoria = castle
+#b_sao_mateus_do_sul = city
+#b_mallet = temple
+#b_paulo_frontin = castle
+#b_dorizon = city
+#b_meia_lua = temple
+#b_pinare = castle
+
+# Misc
+culture = rutenio
+religion = orthodoxist
+
+#History

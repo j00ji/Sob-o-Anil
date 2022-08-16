@@ -1,0 +1,20 @@
+2180.2.3 = {
+	holding_dynasty = 55009
+	liege = k_santos
+	holder = 110035 #Hélio Stucchi
+}
+2232.5.10 = { 
+	holder = 110043 #Hélio Stucchi
+}	
+2245.12.2 = {
+	holder = 110045 #Marcelo Stucchi 
+}
+2253.7.10 = {
+	holder = 110046 #Fernando Stucchi
+}
+2287.10..12 = {
+	holder = 110048 #Rodrigo Stucchi
+}
+2293.5.8 = {
+	holder = 0
+}

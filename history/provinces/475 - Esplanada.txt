@@ -1,0 +1,21 @@
+# c_esplanada
+
+# County Title
+title = c_esplanada
+
+# Settlements
+max_settlements = 3
+
+b_conde = castle
+b_rio_real = city
+#b_carira = temple
+#b_poco_redondo = castle
+#b_porto_da_folha = city
+#b_monte_alegre_2 = temple
+#b_caninde = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

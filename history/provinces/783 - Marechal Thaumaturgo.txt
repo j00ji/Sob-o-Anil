@@ -1,0 +1,21 @@
+# c_marechal_thaumaturgo
+
+# County Title
+title = c_marechal_thaumaturgo
+
+# Settlements
+max_settlements = 2
+
+b_marechal_thaumaturgo = castle
+#b_boca_do_tejo = city
+#b_jardim_palma = temple
+#b_restauracao = castle
+#b_transvaal = city
+#b_moema = temple
+#b_chanchavocaia = castle
+
+# Misc
+culture = acreano
+religion = santo_daime
+
+#History

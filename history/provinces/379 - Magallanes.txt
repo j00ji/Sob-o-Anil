@@ -1,0 +1,21 @@
+# c_magallanes
+
+# County Title
+title = c_magallanes
+
+# Settlements
+max_settlements = 4
+
+b_punta_arenas = tribal
+b_san_gregorio_2 = temple
+#b_rio_verde_3 = temple
+#b_punta_delgada = castle
+#b_puerto_del_hambre = city
+#b_villa_tehuelche = temple
+#b_puerto_zenteno = castle
+
+# Misc
+culture = australino
+religion = xoon
+
+#History

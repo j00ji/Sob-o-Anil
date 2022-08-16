@@ -1,0 +1,21 @@
+# c_uberlandia
+
+# County Title
+title = c_uberlandia
+
+# Settlements
+max_settlements = 5
+
+b_forte_tabajaras = castle
+b_santa_rita_de_barreiros = temple
+b_araguari = city
+b_indianopolis = city
+#b_martinesia = city
+#b_miraporanga = temple
+#b_cascalho_rico = castle
+
+# Misc
+culture = triangler
+religion = anchietican
+
+#History

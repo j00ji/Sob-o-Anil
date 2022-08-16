@@ -1,0 +1,21 @@
+# c_novo_airao
+
+# County Title
+title = c_novo_airao
+
+# Settlements
+max_settlements = 3
+
+b_novo_airao = tribal
+#b_bairro_do_chico = city
+#b_igarape_acu = temple
+#b_jardim_wilton = castle
+#b_anavilhanas = city
+#b_unini = temple
+#b_bacaba = castle
+
+# Misc
+culture = ticuna
+religion = holy_spirit
+
+#History

@@ -1,0 +1,21 @@
+# c_cascavel
+
+# County Title
+title = c_cascavel
+
+# Settlements
+max_settlements = 4
+
+b_cascavel = castle
+b_corbelia = city
+b_santa_tereza_doeste = temple
+#b_rio_do_salto = castle
+#b_braganey = city
+#b_catanduvas_2 = temple
+#b_ibema = castle
+
+# Misc
+culture = gaucho
+religion = celeste
+
+#History

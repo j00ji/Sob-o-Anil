@@ -1,0 +1,21 @@
+# c_colorado
+
+# County Title
+title = c_colorado
+
+# Settlements
+max_settlements = 1
+
+b_colorado = tribal
+#b_la_adela = city
+#b_julia_y_echarren = temple
+#b_anzoategui = castle
+#b_travesia = city
+#b_salina = temple
+#b_santa_ines_3 = castle
+
+# Misc
+culture = pampeano
+religion = gaucheria
+
+#History

@@ -1,0 +1,21 @@
+# c_ecoporanga
+
+# County Title
+title = c_ecoporanga
+
+# Settlements
+max_settlements = 2
+
+b_ecoporanga = castle
+b_mantenopolis = city
+#b_juncado = temple
+#b_chumbado = castle
+#b_corrego_alegrisimo = city
+#b_sooregas = temple
+#b_pau_atrevessado = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

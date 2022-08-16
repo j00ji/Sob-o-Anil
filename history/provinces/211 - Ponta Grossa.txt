@@ -1,0 +1,21 @@
+# c_ponta_grossa
+
+# County Title
+title = c_ponta_grossa
+
+# Settlements
+max_settlements = 4
+
+b_ponta_grossa = castle
+b_castro = temple
+b_carambei = castle
+#b_palmeira = castle
+#b_tres_corregos = city
+#b_abapa = temple
+#b_socavao = castle
+
+# Misc
+culture = paranaense
+religion = celeste
+
+#History

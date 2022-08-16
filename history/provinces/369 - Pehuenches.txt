@@ -1,0 +1,21 @@
+# c_pehuenches
+
+# County Title
+title = c_pehuenches
+
+# Settlements
+max_settlements = 4
+
+b_rincon_de_los_sauces = castle
+b_chos_malal = city
+#b_huinganco = temple
+#b_anelo = castle
+#b_loncopue = city
+#b_huncal = temple
+#b_mulichinco = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

@@ -1,0 +1,118 @@
+#PARANA
+
+technology = {
+	titles = {
+		d_curitiba
+		d_paranapanema
+		d_nova_rutenia
+		d_guayra
+		d_vale_do_iguacu
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.75
+		economy = 1.0
+		culture = 1.25
+		
+		TECH_RECRUITMENT = 1
+		TECH_CASTLE_CONSTRUCTION = 2
+		TECH_CITY_CONSTRUCTION = 2
+		TECH_CONSTRUCTION = 2
+		TECH_TRADE_PRACTICES = 1.5
+		TECH_MAJESTY = 1.5
+		TECH_LEGALISM = 1.5
+	}
+}
+
+#SANTA CATARINA
+
+technology = {
+	titles = {
+		d_passo_do_principe
+		d_greater_florianopolis
+		d_ararangua
+		d_lages
+		d_vale_do_itajai
+		d_constestado
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.75
+		economy = 1.0
+		culture = 1.25
+		
+		TECH_RECRUITMENT = 1
+		TECH_CASTLE_CONSTRUCTION = 2
+		TECH_CITY_CONSTRUCTION = 2
+		TECH_CONSTRUCTION = 2
+		TECH_TRADE_PRACTICES = 1.5
+		TECH_MAJESTY = 1.5
+		TECH_LEGALISM = 1.5
+
+	}
+}
+
+#RIO GRANDE DO SUL
+
+technology = {
+	titles = {
+		d_porto_alegre
+		d_campos_de_vacaria
+		d_alto_uruguai
+	}
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.75
+		economy = 1.0
+		culture = 1.25
+		
+		TECH_RECRUITMENT = 1
+		TECH_CASTLE_CONSTRUCTION = 2
+		TECH_CITY_CONSTRUCTION = 2
+		TECH_CONSTRUCTION = 2
+		TECH_TRADE_PRACTICES = 1.5
+		TECH_MAJESTY = 1.5
+		TECH_LEGALISM = 1.5
+	}
+}
+
+technology = {
+	titles = {
+		d_vale_do_rio_pardo
+		d_costa_doce
+		d_tapes
+		d_campanha
+		d_boca_do_monte
+		d_missoes
+		d_coxilhas
+		d_arapei
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.5
+		economy = 0.3
+		culture = 0.3
+		
+		TECH_CAVALRY = 2
+		TECH_SKIRMISH = 2
+	}
+}

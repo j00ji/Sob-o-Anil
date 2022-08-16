@@ -1,0 +1,21 @@
+# c_presidente_hayes
+
+# County Title
+title = c_presidente_hayes
+
+# Settlements
+max_settlements = 2
+
+b_villa_hayes = tribal
+#b_pozo_colorado = city
+#b_laguna_verde = temple
+#b_la_golondrina = castle
+#b_indigo_anaconda = city
+#b_josefina = temple
+#b_santa_aurelia = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

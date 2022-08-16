@@ -1,0 +1,21 @@
+# c_estreito
+
+# County Title
+title = c_estreito
+
+# Settlements
+max_settlements = 2
+
+b_estreito_4 = tribal
+b_sao_joao_do_paraiso = temple
+#b_aguiarnopolis_2 = temple
+#b_vao_de_dentro = castle
+#b_vale_da_formosa = city
+#b_porto_franco = temple
+#b_coite = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

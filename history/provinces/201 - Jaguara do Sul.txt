@@ -1,0 +1,21 @@
+# c_jaguara_do_sul
+
+# County Title
+title = c_jaguara_do_sul
+
+# Settlements
+max_settlements = 2
+
+b_jaragua_do_sul = castle
+b_sao_bento_do_sul = temple
+#b_guaramirim = temple
+#b_schroeder = castle
+#b_rio_negrinho = city
+#b_campo_alegre = temple
+#b_avencal = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

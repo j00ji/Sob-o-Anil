@@ -1,0 +1,21 @@
+# c_rio_do_sul
+
+# County Title
+title = c_rio_do_sul
+
+# Settlements
+max_settlements = 3
+
+b_rio_do_sul = castle
+b_ituporanga = temple
+#b_ibirama = temple
+#b_lontras = castle
+#b_nereu_ramos = city
+#b_laurentino = temple
+#b_rio_do_oeste = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

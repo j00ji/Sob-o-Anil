@@ -1,0 +1,21 @@
+# c_chuy
+
+# County Title
+title = c_chuy
+
+# Settlements
+max_settlements = 2
+
+b_chuy = castle
+#b_barra_del_chuy = city
+#b_dieciocho_de_julio = temple
+#b_san_luis_al_medio = castle
+#b_la_coronilla = city
+#b_punta_del_diablo = temple
+#b_la_esmeralda = castle
+
+# Misc
+culture = guacho
+religion = bandean
+
+#History

@@ -1,0 +1,21 @@
+# c_unai
+
+# County Title
+title = c_unai
+
+# Settlements
+max_settlements = 3
+
+b_canabrava_3 = tribal
+#b_cabeceira_grande = city
+#b_natalandia = temple
+#b_boqueirao_2 = castle
+#b_rio_preto_2 = city
+#b_kamayura = temple
+#b_palmital = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

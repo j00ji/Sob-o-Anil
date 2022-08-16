@@ -1,0 +1,21 @@
+# c_sao_miguel_do_oeste
+
+# County Title
+title = c_sao_miguel_do_oeste
+
+# Settlements
+max_settlements = 2
+
+b_sao_miguel_do_oeste = castle
+#b_sao_jose_do_cedro = city
+#b_maravilha = temple
+#b_ipora_do_oeste = castle
+#b_dionisio_cerqueira = city
+#b_sao_carlos = temple
+#b_mariflor = castle
+
+# Misc
+culture = talian
+religion = celeste
+
+#History

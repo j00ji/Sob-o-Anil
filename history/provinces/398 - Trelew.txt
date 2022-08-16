@@ -1,0 +1,21 @@
+# c_trelew
+
+# County Title
+title = c_trelew
+
+# Settlements
+max_settlements = 5
+
+b_trelew = castle
+b_rawson = temple
+b_playa_union = city
+#b_gaiman = castle
+#b_dolavon = city
+#b_ameghino = temple
+#b_azar = castle
+
+# Misc
+culture = wladfaeg
+religion = evangelical
+
+#History

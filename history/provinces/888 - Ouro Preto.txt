@@ -1,0 +1,21 @@
+# c_ouro_preto
+
+# County Title
+title = c_ouro_preto
+
+# Settlements
+max_settlements = 5
+
+b_itacolomi = castle
+b_ouro_branco_2 = city
+b_mariana = temple
+#b_lavras_novas = castle
+#b_cachoeira_do_campo = city
+#b_romao = temple
+#b_antonio_pereira = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

@@ -1,0 +1,21 @@
+# c_campo_grande
+
+# County Title
+title = c_campo_grande
+
+# Settlements
+max_settlements = 3
+
+b_campo_grande = tribal
+b_camapua = city
+#b_corguinho = temple
+#b_ribas_do_rio_pardo = castle
+#b_terenos = city
+#b_sidrolandia = temple
+#b_rochedo = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

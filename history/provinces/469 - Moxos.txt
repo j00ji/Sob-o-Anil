@@ -1,0 +1,21 @@
+# c_moxos
+
+# County Title
+title = c_moxos
+
+# Settlements
+max_settlements = 3
+
+b_moxos = castle
+#b_puerto_canoa = city
+#b_gundonovia = temple
+#b_los_cusis = castle
+#b_embocada = city
+#b_santa_maria_de_beni = temple
+#b_loreto_de_beni_2 = castle
+
+# Misc
+culture = camba
+religion = santa_diablada
+
+#History

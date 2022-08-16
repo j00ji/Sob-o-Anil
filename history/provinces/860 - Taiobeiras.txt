@@ -1,0 +1,21 @@
+# c_taiobeiras
+
+# County Title
+title = c_taiobeiras
+
+# Settlements
+max_settlements = 3
+
+b_rio_pardo_de_minas = castle
+#b_ninheira = city
+#b_aguas_vermelhas = temple
+#b_sao_joao_do_paraiso_2 = castle
+#b_vargem_grande_3 = city
+#b_indaiabira = temple
+#b_barra_da_alegria = castle
+
+# Misc
+culture = espinhaco
+religion = angel_cult
+
+#History

@@ -1,0 +1,21 @@
+# c_macaubas
+
+# County Title
+title = c_macaubas
+
+# Settlements
+max_settlements = 2
+
+b_ibipetum = tribal
+b_ouricuri = temple
+#b_sodrelandia = temple
+#b_pituba = castle
+#b_brotas_de_macauba = city
+#b_ouricuri_do_ouro = temple
+#b_bom_sossego = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

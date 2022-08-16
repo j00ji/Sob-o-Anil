@@ -1,0 +1,260 @@
+### Titular Empires ###
+
+# Historical
+
+e_belchioringia = {
+	color = { 255 182 0 }
+	color2 = { 255 255 255 }
+
+	capital = 560 #Recife
+	
+	culture = atlanticano
+	
+	allow = {
+		always = no
+	}
+}
+
+e_pretender_empire_1 = {
+	color = { 61 124 84 }
+	color2 = { 255 255 255 }
+	
+	title = "AUGUST_EMPEROR"
+	title_female = "AUGUST_EMPRESS"
+	foa = "AUGUST_FOA"
+
+	location_ruler_title = yes
+	dynasty_title_names = no
+	assimilate = no
+	dignity = 150
+	
+	allow = {
+		always = no
+	}
+}
+
+### Titular Kingdoms ###
+
+# Historical
+
+k_paulistano = {
+	color = { 158 33 37 }
+	color2 = { 255 255 255 }
+	
+	short_name = yes
+	
+	capital = 50 # São Paulo
+	dignity = 10
+	
+	culture = paulistano
+	
+	allow = {
+		culture = paulistano
+		OR = {
+			AND = {
+				independent = yes
+				num_of_duke_titles = 4
+				prestige = 500
+				OR = {
+					50 = {
+						owner = {
+							OR = {
+								character = ROOT
+								is_liege_or_above = ROOT
+							}
+						}
+					}
+					47 = {
+						owner = {
+							character = ROOT
+							is_liege_or_above = ROOT
+						}
+					}
+				}
+				AND = {
+					d_santos = {
+						owner = {
+							OR = {
+								character = ROOT
+								is_liege_or_above = ROOT
+							}
+						}
+					}	
+					d_grande_sao_paulo = {
+						owner = {
+							OR = {
+								character = ROOT
+								is_liege_or_above = ROOT
+							}
+						}
+					}
+				}
+			}
+			AND = {
+				independent = yes
+				prestige = 1000
+				has_landed_title = c_sao_paulo
+				AND = {
+					49 = {
+						owner = {
+							OR = {
+								character = ROOT
+								is_liege_or_above = ROOT
+							}
+						}
+					}
+					51 = {
+						owner = {
+							OR = {
+								character = ROOT
+								is_liege_or_above = ROOT
+							}
+						}
+					}
+					52 = {
+						owner = {
+							OR = {
+								character = ROOT
+								is_liege_or_above = ROOT
+							}
+						}
+					}
+				}
+				OR = {
+					trait = genius
+					trait = quick
+				}
+			}
+		}
+	}
+}
+
+k_americano = {
+	color = { 49 120 191 }
+	color2 = { 255 255 255 }
+	
+	short_name = yes
+	
+	capital = 57 #Americana
+	dignity = 10
+	
+	culture = americano
+	
+	allow = {
+		culture = americano
+		has_landed_title = d_americana
+		OR = {
+			has_landed_title = d_piracicaba
+			num_culture_realm_provs	= {
+				value = 3
+				culture = americano
+			}
+		}				
+	}
+}
+
+k_ribeira = {
+	color = { 66 182 128 }
+	color2 = { 255 255 255 }
+	
+	capital = 67 # Registro
+	dignity = 10
+	
+	culture = paranapanense
+	
+	title_prefix = "GRAND_DUCHY_PREFIX"
+	title = "GRAND_DUCHY_RULER"
+	title_female = "GRAND_DUCHY_RULER_FEMALE"
+	
+	allow = {
+		culture = londrano
+		has_landed_title = d_ribeira
+		has_landed_title = d_itapeva
+		realm_size = 25
+	}
+}
+
+k_santos = {
+	color = { 112 202 255 }
+	color2 = { 255 255 255 }
+	
+	capital = 47 # Santos
+	dignity = 200 # Never want the Republic of Santos to change primary title
+	
+	culture = paulistano
+	
+	allow = {
+		is_republic = yes
+		k_santos = {
+			is_titular = no
+		}
+	}
+}
+
+k_costa_sol_generalship = {
+	color = { 232 158 31 }
+	color2 = { 158 105 22 }
+	
+	capital = 8 #Buzios
+	
+	culture = carioca
+	
+	title = "LORD_COMMANDER" 
+	title_female = "LADY_COMMANDER" 
+	title_prefix = "GENERALSHIP"
+	
+	 can_be_usurped = no 
+	 assimilate = no 
+	 primary = yes 
+}
+
+k_costa_verde_generalship = {
+	color = { 136 194 0 }
+	color2 = { 182 114 0 }
+	
+	capital = 5 #Angra dos Reis
+	
+	culture = carioca
+	
+	title = "LORD_COMMANDER" 
+	title_female = "LADY_COMMANDER" 
+	title_prefix = "GENERALSHIP"
+	
+	 can_be_usurped = no 
+	 assimilate = no 
+	 primary = yes 
+}
+
+k_goytacazes_generalship = {
+	color = { 0 60 130 }
+	color2 = { 0 40 85 }
+	
+	capital = 15 #Campos
+	
+	culture = carioca
+	
+	title = "LORD_COMMANDER" 
+	title_female = "LADY_COMMANDER" 
+	title_prefix = "GENERALSHIP"
+	
+	 can_be_usurped = no 
+	 assimilate = no 
+	 primary = yes 
+}
+
+### Duchies ###
+
+d_americana = {
+	color = { 27 67 107 }
+	color2 = { 255 255 255 }
+
+	capital = 57 #Americana
+
+	culture = americano
+
+	allow = {
+		culture = americano
+		has_landed_title = c_americana
+		has_landed_title = c_holambra
+	}
+}

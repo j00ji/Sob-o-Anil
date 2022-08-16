@@ -1,0 +1,21 @@
+# c_las_flores
+
+# County Title
+title = c_las_flores
+
+# Settlements
+max_settlements = 3
+
+b_las_flores = castle
+b_boerr = temple
+#b_montero_2 = temple
+#b_estrugamou = castle
+#b_el_trigo = city
+#b_pardo = temple
+#b_refroma = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

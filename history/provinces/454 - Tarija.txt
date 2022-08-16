@@ -1,0 +1,21 @@
+# c_tarija
+
+# County Title
+title = c_tarija
+
+# Settlements
+max_settlements = 5
+
+b_tarija = castle
+b_yacuiba = city
+b_padcaya = temple
+b_uriondo = castle
+#b_villamontes = city
+#b_choroma = temple
+#b_iscayachi = castle
+
+# Misc
+culture = colla
+religion = santa_diablada
+
+#History

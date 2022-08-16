@@ -1,0 +1,21 @@
+# c_urucui
+
+# County Title
+title = c_urucui
+
+# Settlements
+max_settlements = 2
+
+b_urucui = tribal
+b_santa_filomena_2 = temple
+#b_baixa_grande = temple
+#b_loreto = castle
+#b_guadalupe = city
+#b_itaueira = temple
+#b_canto_do_buriti = castle
+
+# Misc
+culture = kraho
+religion = manredebu
+
+#History

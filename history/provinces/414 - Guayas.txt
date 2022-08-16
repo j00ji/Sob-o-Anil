@@ -1,0 +1,21 @@
+# c_guayas
+
+# County Title
+title = c_guayas
+
+# Settlements
+max_settlements = 6
+
+b_guayaquil = city
+b_duran = castle
+b_milagro = temple
+b_daule = castle
+b_naranjal = city
+b_empalme = temple
+#b_samborondon = castle
+
+# Misc
+culture = guayasense
+religion = tridentine
+
+#History

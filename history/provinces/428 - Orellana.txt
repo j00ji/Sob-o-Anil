@@ -1,0 +1,21 @@
+# c_orellana
+
+# County Title
+title = c_orellana
+
+# Settlements
+max_settlements = 3
+
+b_orellana = castle
+b_sachas = city
+#b_aguarico = temple
+#b_tiputini = castle
+#b_taracoa = city
+#b_guayusa = temple
+#b_dayuma = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

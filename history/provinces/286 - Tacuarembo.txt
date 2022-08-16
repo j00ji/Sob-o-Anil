@@ -1,0 +1,21 @@
+# c_tacuarembo
+
+# County Title
+title = c_tacuarembo
+
+# Settlements
+max_settlements = 3
+
+b_tacuarembo = tribal
+#b_paso_de_los_toros = city
+#b_san_gregorio_de_polanco = temple
+#b_villa_ansina = castle
+#b_valle_eden = city
+#b_tambores = temple
+#b_quiebra_yugos = castle
+
+# Misc
+culture = guacho
+religion = bandean
+
+#History

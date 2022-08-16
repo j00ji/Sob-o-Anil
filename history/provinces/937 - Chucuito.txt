@@ -1,0 +1,21 @@
+# c_chucuito
+
+# County Title
+title = c_chucuito
+
+# Settlements
+max_settlements = 3
+
+b_juli = castle
+b_yunguyo = city
+#b_pilcuyo = temple
+#b_pomata = castle
+#b_cuturapi = city
+#b_zepita = temple
+#b_mazocruz = castle
+
+# Misc
+culture = aymara
+religion = pachamama
+
+#History

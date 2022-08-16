@@ -1,0 +1,21 @@
+# c_volta_redonda
+
+# County Title
+title = c_volta_redonda
+
+# Settlements
+max_settlements = 3
+
+b_volta_redonda = castle
+b_barra_mansa = city
+b_barra_do_pirai = temple
+#b_pinheiral = castle
+#b_arrozal = city
+#b_vargem_alegre = temple
+#b_pirai = castle
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

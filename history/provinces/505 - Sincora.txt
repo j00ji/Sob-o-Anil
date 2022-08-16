@@ -1,0 +1,21 @@
+# c_sincora
+
+# County Title
+title = c_sincora
+
+# Settlements
+max_settlements = 2
+
+b_estiva = tribal
+b_barbado = temple
+#b_ituacu = temple
+#b_tinhacu = castle
+#b_sussuarana = city
+#b_ibicoara = temple
+#b_maracas = castle
+
+# Misc
+culture = ilhense
+religion = angel_cult
+
+#History

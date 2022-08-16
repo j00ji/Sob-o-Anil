@@ -1,0 +1,21 @@
+# c_muriae
+
+# County Title
+title = c_muriae
+
+# Settlements
+max_settlements = 4
+
+b_belisario = tribal
+b_mirai = temple
+#b_itajuru = temple
+#b_eugenopolis = castle
+#b_monte_alto = city
+#b_pirapanema = temple
+#b_macuco = castle
+
+# Misc
+culture = mantiqueiro
+religion = terra_benta
+
+#History

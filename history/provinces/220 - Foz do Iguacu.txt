@@ -1,0 +1,21 @@
+# c_foz_do_iguacu
+
+# County Title
+title = c_foz_do_iguacu
+
+# Settlements
+max_settlements = 4
+
+b_foz_do_iguacu = castle
+b_itaipu_dam = castle
+b_nossa_senhora_de_guadalupe = temple
+#b_garganta_do_diabo = castle
+#b_sao_miguel_do_iguacu = city
+#b_matelandia = temple
+#b_santa_helena = castle
+
+# Misc
+culture = paranaense
+religion = valentes
+
+#History

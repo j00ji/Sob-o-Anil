@@ -1,0 +1,21 @@
+# c_itarana
+
+# County Title
+title = c_itarana
+
+# Settlements
+max_settlements = 2
+
+b_itarana = castle
+b_laranja = temple
+#b_joatuba = temple
+#b_pedra_da_onca = castle
+#b_vila_dos_lemke = city
+#b_cerimonia_dois_amores = temple
+#b_fiorritti = castle
+
+# Misc
+culture = pomerisch
+religion = evangelical
+
+#History

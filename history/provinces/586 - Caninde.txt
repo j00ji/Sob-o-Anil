@@ -1,0 +1,21 @@
+# c_caninde
+
+# County Title
+title = c_caninde
+
+# Settlements
+max_settlements = 3
+
+b_picos = tribal
+b_senhora_dos_remedios = temple
+#b_fronteiras = temple
+#b_geminiano = castle
+#b_riachao = city
+#b_alto_alegre = temple
+#b_jaicos = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

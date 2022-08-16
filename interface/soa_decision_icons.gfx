@@ -1,0 +1,31 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_restore_belchioringia"
+		textureFile = "gfx\\interface\\decision_icon_restore_belchioringia.dds"
+	}
+	spriteType= {
+		name = "GFX_receive_charisma"
+		texturefile = "gfx/interface/decision_icon_catholic_pilgrimage.dds"
+	}
+	spriteType= {
+		name = "GFX_do_deep_bible_study"
+		texturefile = "gfx/interface/decision_icon_convert_to_liege_religion.dds"
+	}
+	spriteType= {
+		name = "GFX_sacrifice_to_nature"
+		texturefile = "gfx/interface/sacrifice_to_nature.dds"
+	}
+	spriteType= {
+		name = "GFX_feast_on_calafate"
+		texturefile = "gfx/interface/feast_on_calafate.dds"
+	}
+	spriteType= {
+		name = "GFX_restore_the_fraternidad"
+		texturefile = "gfx/interface/restore_the_fraternidad.dds"
+	}
+	spriteType= {
+		name = "GFX_read_the_star_path"
+		texturefile = "gfx/interface/read_the_star_path.dds"
+	}
+}

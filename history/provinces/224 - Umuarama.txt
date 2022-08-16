@@ -1,0 +1,21 @@
+# c_umuarama
+
+# County Title
+title = c_umuarama
+
+# Settlements
+max_settlements = 3
+
+b_umuarama = castle
+b_paranavai = temple
+#b_cianorte = temple
+#b_xambre = castle
+#b_sao_pedro_do_parana = city
+#b_santa_monica = temple
+#b_terra_rica = castle
+
+# Misc
+culture = gaucho
+religion = celeste
+
+#History

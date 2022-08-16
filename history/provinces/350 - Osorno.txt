@@ -1,0 +1,21 @@
+# c_osorno
+
+# County Title
+title = c_osorno
+
+# Settlements
+max_settlements = 4
+
+b_osorno = castle
+b_purranque = temple
+#b_rio_negro_2 = temple
+#b_san_pablo = castle
+#b_bahia_mansa = city
+#b_pucotrihue = temple
+#b_cancura = castle
+
+# Misc
+culture = sureno
+religion = catholic
+
+#History

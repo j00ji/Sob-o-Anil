@@ -1,0 +1,21 @@
+# c_misiones
+
+# County Title
+title = c_misiones
+
+# Settlements
+max_settlements = 3
+
+b_san_bautista = castle
+b_san_ignacio_2 = city
+#b_itacora = temple
+#b_pilar_3 = castle
+#b_loma_guazu = city
+#b_humaita = temple
+#b_desmochados = castle
+
+# Misc
+culture = guarani
+religion = catholic
+
+#History

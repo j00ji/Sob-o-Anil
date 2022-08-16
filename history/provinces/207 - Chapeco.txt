@@ -1,0 +1,21 @@
+# c_chapeco
+
+# County Title
+title = c_chapeco
+
+# Settlements
+max_settlements = 4
+
+b_chapeco = castle
+b_xaxim = castle
+b_pinhalzinho = temple
+#b_sao_lourenco_do_oeste = castle
+#b_nova_teutonia = city
+#b_bormann = temple
+#b_zandavalli = castle
+
+# Misc
+culture = gaucho
+religion = celeste
+
+#History

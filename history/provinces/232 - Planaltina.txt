@@ -1,0 +1,21 @@
+# c_planaltina
+
+# County Title
+title = c_planaltina
+
+# Settlements
+max_settlements = 2
+
+b_planaltina = tribal
+#b_formosa = city
+#b_aliansa = temple
+#b_cabeceira = castle
+#b_muquem = city
+#b_urutagua = temple
+#b_niquelandia = castle
+
+# Misc
+culture = candango
+religion = modernists
+
+#History

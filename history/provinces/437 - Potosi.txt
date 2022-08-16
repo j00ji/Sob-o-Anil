@@ -1,0 +1,21 @@
+# c_potosi
+
+# County Title
+title = c_potosi
+
+# Settlements
+max_settlements = 6
+
+b_potosi = castle
+b_betanzos = temple
+b_uyuni = castle
+b_colchaka = castle
+#b_lipez = city
+#b_llica = temple
+#b_baldivieso = castle
+
+# Misc
+culture = quechua
+religion = pachamama
+
+#History

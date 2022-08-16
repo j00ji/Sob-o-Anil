@@ -1,0 +1,21 @@
+# c_itubera
+
+# County Title
+title = c_itubera
+
+# Settlements
+max_settlements = 2
+
+b_tinhare = castle
+#b_geridu = city
+#b_camamu = temple
+#b_pirai_do_norte = castle
+#b_igrapiuna = city
+#b_ibirapitanga = temple
+#b_ubata = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

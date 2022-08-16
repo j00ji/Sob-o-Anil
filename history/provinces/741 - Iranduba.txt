@@ -1,0 +1,21 @@
+# c_iranduba
+
+# County Title
+title = c_iranduba
+
+# Settlements
+max_settlements = 2
+
+b_iranduba = castle
+b_balneario = temple
+#b_recanto = temple
+#b_mendonca = castle
+#b_saguein = city
+#b_mirin = temple
+#b_janauari = castle
+
+# Misc
+culture = amazonense
+religion = holy_spirit
+
+#History

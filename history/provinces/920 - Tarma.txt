@@ -1,0 +1,21 @@
+# c_tarma
+
+# County Title
+title = c_tarma
+
+# Settlements
+max_settlements = 3
+
+b_tarma = castle
+b_la_oroya = city
+#b_junin_2 = temple
+#b_yauli = castle
+#b_acobamba_2 = city
+#b_huasihuasi = temple
+#b_morococha = castle
+
+# Misc
+culture = huanca
+religion = liberationist
+
+#History

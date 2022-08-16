@@ -1,0 +1,21 @@
+# c_temuco
+
+# County Title
+title = c_temuco
+
+# Settlements
+max_settlements = 5
+
+b_temuco = castle
+b_villa_alegre = city
+b_lautaro = temple
+b_vilcun = castle
+#b_pitrufquen = city
+#b_loncoche = temple
+#b_labranza = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

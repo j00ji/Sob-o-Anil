@@ -1,0 +1,1841 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+c_abaete;Abaeté;Abaeté;Abaeté;;Abaeté;;;;;;;;;x
+c_abaete_adj;Abaetéian;;abaetéer;;;;;;;;;;;x
+c_abufari;Abufari;Abufari;Abufari;;Abufari;;;;;;;;;x
+c_abufari_adj;Abufarian;;abufarer;;;;;;;;;;;x
+c_acarau;Acaraú;Acaraú;Acaraú;;Acaraú;;;;;;;;;x
+c_acarau_adj;Acaraúian;;acaraúer;;;;;;;;;;;x
+c_adamantina;Adamantina;Adamantina;Adamantina;;Adamantina;;;;;;;;;x
+c_adamantina_adj;Adamantinan;;adamantiner;;;;;;;;;;;x
+c_agua_boa;Água Boa;Água Boa;Água Boa;;Água Boa;;;;;;;;;x
+c_agua_boa_adj;Água Boan;;Água Ber;;;;;;;;;;;x
+c_aimores;Aimorés;Aimorés;Aimorés;;Aimorés;;;;;;;;;x
+c_aimores_adj;Aimorésian;;aimoréser;;;;;;;;;;;x
+c_alagoinhas;Alagoinhas;Alagoinhas;Alagoinhas;;Alagoinhas;;;;;;;;;x
+c_alagoinhas_adj;Alagoinhasian;;alagoinhaser;;;;;;;;;;;x
+c_alegrete;Alegrete;Alegrete;Alegrete;;Alegrete;;;;;;;;;x
+c_alegrete_adj;Alegretean;;alegreter;;;;;;;;;;;x
+c_alem_paraiba;Além Paraíba;Além Paraíba;Além Paraíba;;Além Paraíba;;;;;;;;;x
+c_alem_paraiba_adj;Além Paraíban;;Além Paraíber;;;;;;;;;;;x
+c_alenquer;Alenquer;Alenquer;Alenquer;;Alenquer;;;;;;;;;x
+c_alenquer_adj;Alenquerian;;alenquerer;;;;;;;;;;;x
+c_almenara;Almenara;Almenara;Almenara;;Almenara;;;;;;;;;x
+c_almenara_adj;Almenaran;;almenarer;;;;;;;;;;;x
+c_almerim;Almerim;Almerim;Almerim;;Almerim;;;;;;;;;x
+c_almerim_adj;Almerimian;;almerimer;;;;;;;;;;;x
+c_altamira;Altamira;Altamira;Altamira;;Altamira;;;;;;;;;x
+c_altamira_adj;Altamiran;;altamirer;;;;;;;;;;;x
+c_alto_amazonas;Alto Amazonas;Alto Amazonas;Alto Amazonas;;Alto Amazonas;;;;;;;;;x
+c_alto_amazonas_adj;Alto Amazonasian;;Alto Amazonaser;;;;;;;;;;;x
+c_alto_del_carmen;Alto del Carmen;Alto del Carmen;Alto del Carmen;;Alto del Carmen;;;;;;;;;x
+c_alto_del_carmen_adj;Alto del Carmenian;;Alto del Carmener;;;;;;;;;;;x
+c_alto_itapecuru;Alto Itapecuru;Alto Itapecuru;Alto Itapecuru;;Alto Itapecuru;;;;;;;;;x
+c_alto_itapecuru_adj;Alto Itapecurian;;Alto Itapecurer;;;;;;;;;;;x
+c_alto_paraguay;Alto Paraguay;Alto Paraguay;Alto Paraguay;;Alto Paraguay;;;;;;;;;x
+c_alto_paraguay_adj;Alto Paraguaian;;Alto Paraguaer;;;;;;;;;;;x
+c_alto_rio_doce;Alto Rio Doce;Alto Rio Doce;Alto Rio Doce;;Alto Rio Doce;;;;;;;;;x
+c_alto_rio_doce_adj;Alto Rio Docean;;Alto Rio Docer;;;;;;;;;;;x
+c_alvear;Alvear;Alvear;Alvear;;Alvear;;;;;;;;;x
+c_alvear_adj;Alvearian;;alvearer;;;;;;;;;;;x
+c_amajari;Amajari;Amajari;Amajari;;Amajari;;;;;;;;;x
+c_amajari_adj;Amajarian;;amajarer;;;;;;;;;;;x
+c_amambay;Amambay;Amambay;Amambay;;Amambay;;;;;;;;;x
+c_amambay_adj;Amambaian;;amambaer;;;;;;;;;;;x
+c_amatura;Amaturá;Amaturá;Amaturá;;Amaturá;;;;;;;;;x
+c_amatura_adj;Amaturáian;;amaturáer;;;;;;;;;;;x
+c_americana;Americana;Americana;Americana;;Americana;;;;;;;;;x
+c_americana_adj;Americanan;;americaner;;;;;;;;;;;x
+c_anajas;Anajás;Anajás;Anajás;;Anajás;;;;;;;;;x
+c_anajas_adj;Anajásian;;anajáser;;;;;;;;;;;x
+c_anama;Anamã;Anamã;Anamã;;Anamã;;;;;;;;;x
+c_anama_adj;Anamenho;;anamenho;;;;;;;;;;;x
+c_anapolis;Anapolis;Anapolis;Anapolis;;Anapolis;;;;;;;;;x
+c_anapolis_adj;Anapolisian;;anapoliser;;;;;;;;;;;x
+c_andradina;Andradina;Andradina;Andradina;;Andradina;;;;;;;;;x
+c_andradina_adj;Andradinan;;andradiner;;;;;;;;;;;x
+c_angra_dos_reis;Angra dos Reis;Angra dos Reis;Angra dos Reis;;Angra dos Reis;;;;;;;;;x
+c_angra_dos_reis_adj;Angra dos Reisian;;Angra dos Reiser;;;;;;;;;;;x
+c_antofagasta;Antofagasta;Antofagasta;Antofagasta;;Antofagasta;;;;;;;;;x
+c_antofagasta_adj;Antofagastan;;antofagaster;;;;;;;;;;;x
+c_apace;Apacê;Apacê;Apacê;;Apacê;;;;;;;;;x
+c_apace_adj;Apacêian;;apacêer;;;;;;;;;;;x
+c_apeleg;Apeleg;Apeleg;Apeleg;;Apeleg;;;;;;;;;x
+c_apeleg_adj;Apelegian;;apeleger;;;;;;;;;;;x
+c_apiai;Apiaí;Apiaí;Apiaí;;Apiaí;;;;;;;;;x
+c_apiai_adj;Apiaíian;;apiaíer;;;;;;;;;;;x
+c_apodi;Apodi;Apodi;Apodi;;Apodi;;;;;;;;;x
+c_apodi_adj;Apodian;;apoder;;;;;;;;;;;x
+c_apolo;Apolo;Apolo;Apolo;;Apolo;;;;;;;;;x
+c_apolo_adj;Apolian;;apoler;;;;;;;;;;;x
+c_apucarana;Apucarana;Apucarana;Apucarana;;Apucarana;;;;;;;;;x
+c_apucarana_adj;Apucaranan;;apucaraner;;;;;;;;;;;x
+c_apurimac;Apurimac;Apurimac;Apurimac;;Apurimac;;;;;;;;;x
+c_apurimac_adj;Apurimacian;;apurimacer;;;;;;;;;;;x
+c_aquidauana;Aquidauana;Aquidauana;Aquidauana;;Aquidauana;;;;;;;;;x
+c_aquidauana_adj;Aquidauanan;;aquidauaner;;;;;;;;;;;x
+c_aracaju;Aracaju;Aracaju;Aracaju;;Aracaju;;;;;;;;;x
+c_aracaju_adj;Aracajian;;aracajer;;;;;;;;;;;x
+c_aracati;Aracati;Aracati;Aracati;;Aracati;;;;;;;;;x
+c_aracati_adj;Aracatian;;aracater;;;;;;;;;;;x
+c_aracatuba;Araçatuba;Araçatuba;Araçatuba;;Araçatuba;;;;;;;;;x
+c_aracatuba_adj;Araçatuban;;araçatuber;;;;;;;;;;;x
+c_araci;Araci;Araci;Araci;;Araci;;;;;;;;;x
+c_araci_adj;Aracian;;aracer;;;;;;;;;;;x
+c_aracruz;Aracruz;Aracruz;Aracruz;;Aracruz;;;;;;;;;x
+c_aracruz_adj;Aracruzian;;aracruzer;;;;;;;;;;;x
+c_aracuai;Araçuaí;Araçuaí;Araçuaí;;Araçuaí;;;;;;;;;x
+c_aracuai_adj;Araçuaíian;;araçuaíer;;;;;;;;;;;x
+c_araguaina;Araguaína;Araguaína;Araguaína;;Araguaína;;;;;;;;;x
+c_araguaina_adj;Araguaínan;;araguaíner;;;;;;;;;;;x
+c_araguari;Araguari;Araguari;Araguari;;Araguari;;;;;;;;;x
+c_araguari_adj;Araguarian;;araguarer;;;;;;;;;;;x
+c_araguatins;Araguatins;Araguatins;Araguatins;;Araguatins;;;;;;;;;x
+c_araguatins_adj;Araguatinsian;;araguatinser;;;;;;;;;;;x
+c_arapei;Arapeí;Arapeí;Arapeí;;Arapeí;;;;;;;;;x
+c_arapei_adj;Arapeíian;;arapeíer;;;;;;;;;;;x
+c_arapiraca;Arapiraca;Arapiraca;Arapiraca;;Arapiraca;;;;;;;;;x
+c_arapiraca_adj;Arapiracan;;arapiracer;;;;;;;;;;;x
+c_araripe;Araripe;Araripe;Araripe;;Araripe;;;;;;;;;x
+c_araripe_adj;Araripean;;arariper;;;;;;;;;;;x
+c_araripina;Araripina;Araripina;Araripina;;Araripina;;;;;;;;;x
+c_araripina_adj;Araripinan;;araripiner;;;;;;;;;;;x
+c_araruama;Araruama;Araruama;Araruama;;Araruama;;;;;;;;;x
+c_araruama_adj;Araruaman;;araruamer;;;;;;;;;;;x
+c_arauco;Arauco;Arauco;Arauco;;Arauco;;;;;;;;;x
+c_arauco_adj;Araucian;;araucer;;;;;;;;;;;x
+c_araxa;Araxa;Araxa;Araxa;;Araxa;;;;;;;;;x
+c_araxa_adj;Araxan;;araxer;;;;;;;;;;;x
+c_arcado;Arcado;Arcado;Arcado;;Arcado;;;;;;;;;x
+c_arcado_adj;Arcadian;;arcader;;;;;;;;;;;x
+c_arequipa;Arequipa;Arequipa;Arequipa;;Arequipa;;;;;;;;;x
+c_arequipa_adj;Arequipan;;arequiper;;;;;;;;;;;x
+c_arica;Arica;Arica;Arica;;Arica;;;;;;;;;x
+c_arica_adj;Arican;;aricer;;;;;;;;;;;x
+c_arquemedes;Arquemedes;Arquemedes;Arquemedes;;Arquemedes;;;;;;;;;x
+c_arquemedes_adj;Arquemedesian;;arquemedeser;;;;;;;;;;;x
+c_artigas;Artigas;Artigas;Artigas;;Artigas;;;;;;;;;x
+c_artigas_adj;Artigasian;;artigaser;;;;;;;;;;;x
+c_ascope;Ascope;Ascope;Ascope;;Ascope;;;;;;;;;x
+c_ascope_adj;Ascopean;;ascoper;;;;;;;;;;;x
+c_assu;Assú;Assú;Assú;;Assú;;;;;;;;;x
+c_assu_adj;Assúian;;assúer;;;;;;;;;;;x
+c_asuncion;Asuncion;Asuncion;Asuncion;;Asuncion;;;;;;;;;x
+c_asuncion_adj;Asuncionian;;asuncioner;;;;;;;;;;;x
+c_ataituba;Ataituba;Ataituba;Ataituba;;Ataituba;;;;;;;;;x
+c_ataituba_adj;Ataituban;;ataituber;;;;;;;;;;;x
+c_atalaya;Atalaya;Atalaya;Atalaya;;Atalaya;;;;;;;;;x
+c_atalaya_adj;Atalayan;;atalaer;;;;;;;;;;;x
+c_autazes;Autazes;Autazes;Autazes;;Autazes;;;;;;;;;x
+c_autazes_adj;Autazesian;;autazeser;;;;;;;;;;;x
+c_aveiro;Aveiro;Aveiro;Aveiro;;Aveiro;;;;;;;;;x
+c_aveiro_adj;Aveirian;;aveirer;;;;;;;;;;;x
+c_avellaneda;Avellaneda;Avellaneda;Avellaneda;;Avellaneda;;;;;;;;;x
+c_avellaneda_adj;Avellanedan;;avellaneder;;;;;;;;;;;x
+c_ayacucho;Ayacucho;Ayacucho;Ayacucho;;Ayacucho;;;;;;;;;x
+c_ayacucho_adj;Ayacuchian;;ayacucher;;;;;;;;;;;x
+c_ayacucho_2;Ayacucho;Ayacucho;Ayacucho;;Ayacucho;;;;;;;;;x
+c_ayacucho_2_adj;Ayacuchian;;ayacucher;;;;;;;;;;;x
+c_aysen;Aysén;Aysén;Aysén;;Aysén;;;;;;;;;x
+c_aysen_adj;Aysénian;;ayséner;;;;;;;;;;;x
+c_azangaro;Azángaro;Azángaro;Azángaro;;Azángaro;;;;;;;;;x
+c_azangaro_adj;Azángarian;;azángarer;;;;;;;;;;;x
+c_azuay;Azuay;Azuay;Azuay;;Azuay;;;;;;;;;x
+c_azuay_adj;Azuaian;;azuaer;;;;;;;;;;;x
+c_azul;Azul;Azul;Azul;;Azul;;;;;;;;;x
+c_azul_adj;Azulian;;azuler;;;;;;;;;;;x
+c_babahoyo;Babahoyo;Babahoyo;Babahoyo;;Babahoyo;;;;;;;;;x
+c_babahoyo_adj;Babahoian;;babahoer;;;;;;;;;;;x
+c_bacabal;Bacabal;Bacabal;Bacabal;;Bacabal;;;;;;;;;x
+c_bacabal_adj;Bacabalian;;bacabaler;;;;;;;;;;;x
+c_bage;Bagé;Bagé;Bagé;;Bagé;;;;;;;;;x
+c_bage_adj;Bagéian;;bagéer;;;;;;;;;;;x
+c_bagre;Bagre;Bagre;Bagre;;Bagre;;;;;;;;;x
+c_bagre_adj;Bagrean;;bagrer;;;;;;;;;;;x
+c_bagua;Bagua;Bagua;Bagua;;Bagua;;;;;;;;;x
+c_bagua_adj;Baguan;;bager;;;;;;;;;;;x
+c_bahia_blanca;Bahia Blanca;Bahia Blanca;Bahia Blanca;;Bahia Blanca;;;;;;;;;x
+c_bahia_blanca_adj;Bahia Blancan;;Bahia Blancer;;;;;;;;;;;x
+c_baixo_jaguaribe;Baixo Jaguaribe;Baixo Jaguaribe;Baixo Jaguaribe;;Baixo Jaguaribe;;;;;;;;;x
+c_baixo_jaguaribe_adj;Baixo Jaguaribean;;Baixo Jaguariber;;;;;;;;;;;x
+c_bajo_caracoles;Bajo Caracoles;Bajo Caracoles;Bajo Caracoles;;Bajo Caracoles;;;;;;;;;x
+c_bajo_caracoles_adj;Bajo Caracolesian;;Bajo Caracoleser;;;;;;;;;;;x
+c_balsas;Balsas;Balsas;Balsas;;Balsas;;;;;;;;;x
+c_balsas_adj;Balsasian;;balsaser;;;;;;;;;;;x
+c_barbacena;Barbacena;Barbacena;Barbacena;;Barbacena;;;;;;;;;x
+c_barbacena_adj;Barbacenan;;barbacener;;;;;;;;;;;x
+c_barcelos;Barcelos;Barcelos;Barcelos;;Barcelos;;;;;;;;;x
+c_barcelos_adj;Barcelosian;;barceloser;;;;;;;;;;;x
+c_bariloche;Bariloche;Bariloche;Bariloche;;Bariloche;;;;;;;;;x
+c_bariloche_adj;Barilochean;;barilocher;;;;;;;;;;;x
+c_barra;Barra;Barra;Barra;;Barra;;;;;;;;;x
+c_barra_adj;Barran;;barrer;;;;;;;;;;;x
+c_barra_das_garcas;Barra das Garças;Barra das Garças;Barra das Garças;;Barra das Garças;;;;;;;;;x
+c_barra_das_garcas_adj;Barra das Garçasian;;Barra das Garçaser;;;;;;;;;;;x
+c_barra_do_corda;Barra do Corda;Barra do Corda;Barra do Corda;;Barra do Corda;;;;;;;;;x
+c_barra_do_corda_adj;Barra do Cordan;;Barra do Corder;;;;;;;;;;;x
+c_barra_seca;Barra Seca;Barra Seca;Barra Seca;;Barra Seca;;;;;;;;;x
+c_barra_seca_adj;Barra Secan;;Barra Secer;;;;;;;;;;;x
+c_barranca;Barranca;Barranca;Barranca;;Barranca;;;;;;;;;x
+c_barranca_adj;Barrancan;;barrancer;;;;;;;;;;;x
+c_barreirinhas;Barreirinhas;Barreirinhas;Barreirinhas;;Barreirinhas;;;;;;;;;x
+c_barreirinhas_adj;Barreirinhasian;;barreirinhaser;;;;;;;;;;;x
+c_barretos;Barretos;Barretos;Barretos;;Barretos;;;;;;;;;x
+c_barretos_adj;Barretosian;;barretoser;;;;;;;;;;;x
+c_bataypora;Batayporã;Batayporã;Batayporã;;Batayporã;;;;;;;;;x
+c_bataypora_adj;Batayporãian;;batayporãer;;;;;;;;;;;x
+c_bauru;Bauru;Bauru;Bauru;;Bauru;;;;;;;;;x
+c_bauru_adj;Baurian;;baurer;;;;;;;;;;;x
+c_belem;Belém;Belém;Belém;;Belém;;;;;;;;;x
+c_belem_adj;Belémian;;belémer;;;;;;;;;;;x
+c_bella_vista;Bella Vista;Bella Vista;Bella Vista;;Bella Vista;;;;;;;;;x
+c_bella_vista_adj;Bella Vistan;;Bella Vister;;;;;;;;;;;x
+c_bella_vista_2;Bella Vista;Bella Vista;Bella Vista;;Bella Vista;;;;;;;;;x
+c_bella_vista_2_adj;Bella Vistan;;Bella Vister;;;;;;;;;;;x
+c_belo_horizonte;Belo Horizonte;Belo Horizonte;Belo Horizonte;;Belo Horizonte;;;;;;;;;x
+c_belo_horizonte_adj;Belo Horizontean;;Belo Horizonter;;;;;;;;;;;x
+c_belo_oriente;Belo Oriente;Belo Oriente;Belo Oriente;;Belo Oriente;;;;;;;;;x
+c_belo_oriente_adj;Belo Orientean;;Belo Orienter;;;;;;;;;;;x
+c_benjamin_constant;Benjamin Constant;Benjamin Constant;Benjamin Constant;;Benjamin Constant;;;;;;;;;x
+c_benjamin_constant_adj;Benjamin Constantian;;Benjamin Constanter;;;;;;;;;;;x
+c_bento_goncalves;Bento Gonçalves;Bento Gonçalves;Bento Gonçalves;;Bento Gonçalves;;;;;;;;;x
+c_bento_goncalves_adj;Bento Gonçalvesian;;Bento Gonçalveser;;;;;;;;;;;x
+c_bermejo;Bermejo;Bermejo;Bermejo;;Bermejo;;;;;;;;;x
+c_bermejo_adj;Bermejian;;bermejer;;;;;;;;;;;x
+c_bertioga;Bertioga;Bertioga;Bertioga;;Bertioga;;;;;;;;;x
+c_bertioga_adj;Bertiogan;;bertioger;;;;;;;;;;;x
+c_bertolinia;Bertolínia;Bertolínia;Bertolínia;;Bertolínia;;;;;;;;;x
+c_bertolinia_adj;Bertolínian;;bertolíner;;;;;;;;;;;x
+c_beruri;Beruri;Beruri;Beruri;;Beruri;;;;;;;;;x
+c_beruri_adj;Berurian;;berurer;;;;;;;;;;;x
+c_biobio;Biobío;Biobío;Biobío;;Biobío;;;;;;;;;x
+c_biobio_adj;Biobíian;;biobíer;;;;;;;;;;;x
+c_biribiri;Biribiri;Biribiri;Biribiri;;Biribiri;;;;;;;;;x
+c_biribiri_adj;Biribirian;;biribirer;;;;;;;;;;;x
+c_blumenau;Blumenau;Blumenau;Blumenau;;Blumenau;;;;;;;;;x
+c_blumenau_adj;Blumenian;;blumener;;;;;;;;;;;x
+c_boa_vista;Boa Vista;Boa Vista;Boa Vista;;Boa Vista;;;;;;;;;x
+c_boa_vista_adj;Boa Vistan;;Boa Vister;;;;;;;;;;;x
+c_boca_do_acre;Boca do Acre;Boca do Acre;Boca do Acre;;Boca do Acre;;;;;;;;;x
+c_boca_do_acre_adj;Boca do Acrean;;Boca do Acrer;;;;;;;;;;;x
+c_boca_do_acre_2;Boca do Acre;Boca do Acre;Boca do Acre;;Boca do Acre;;;;;;;;;x
+c_boca_do_acre_2_adj;Boca do Acrean;;Boca do Acrer;;;;;;;;;;;x
+c_bocaiuva;Bocaiuva;Bocaiuva;Bocaiuva;;Bocaiuva;;;;;;;;;x
+c_bocaiuva_adj;Bocaiuvan;;bocaiuver;;;;;;;;;;;x
+c_bolivar;Bolivar;Bolivar;Bolivar;;Bolivar;;;;;;;;;x
+c_bolivar_adj;Bolivarian;;bolivarer;;;;;;;;;;;x
+c_bolivar_2;Bolivar;Bolivar;Bolivar;;Bolivar;;;;;;;;;x
+c_bolivar_2_adj;Bolivarian;;bolivarer;;;;;;;;;;;x
+c_bolson;Bolsón;Bolsón;Bolsón;;Bolsón;;;;;;;;;x
+c_bolson_adj;Bolsónian;;bolsóner;;;;;;;;;;;x
+c_bom_despacho;Bom Despacho;Bom Despacho;Bom Despacho;;Bom Despacho;;;;;;;;;x
+c_bom_despacho_adj;Bom Despachian;;Bom Despacher;;;;;;;;;;;x
+c_bom_jardim;Bom Jardim;Bom Jardim;Bom Jardim;;Bom Jardim;;;;;;;;;x
+c_bom_jardim_adj;Bom Jardimian;;Bom Jardimer;;;;;;;;;;;x
+c_bom_jesus;Bom Jesus;Bom Jesus;Bom Jesus;;Bom Jesus;;;;;;;;;x
+c_bom_jesus_adj;Bom Jesusian;;Bom Jesuser;;;;;;;;;;;x
+c_bombinhas;Bombinhas;Bombinhas;Bombinhas;;Bombinhas;;;;;;;;;x
+c_bombinhas_adj;Bombinhasian;;bombinhaser;;;;;;;;;;;x
+c_boqueron;Boquerón;Boquerón;Boquerón;;Boquerón;;;;;;;;;x
+c_boqueron_adj;Boquerónian;;boqueróner;;;;;;;;;;;x
+c_boquira;Boquira;Boquira;Boquira;;Boquira;;;;;;;;;x
+c_boquira_adj;Boquiran;;boquirer;;;;;;;;;;;x
+c_borborema;Borborema;Borborema;Borborema;;Borborema;;;;;;;;;x
+c_borborema_adj;Borboreman;;borboremer;;;;;;;;;;;x
+c_botucatu;Botucatu;Botucatu;Botucatu;;Botucatu;;;;;;;;;x
+c_botucatu_adj;Botucatian;;botucater;;;;;;;;;;;x
+c_braganca_paulista;Bragança Paulista;Bragança Paulista;Bragança Paulista;;Bragança Paulista;;;;;;;;;x
+c_braganca_paulista_adj;Bragantino;;Bragantino;;;;;;;;;;;x
+c_brasilia;Brasilia;Brasilia;Brasilia;;Brasilia;;;;;;;;;x
+c_brasilia_adj;Brasilian;;brasiler;;;;;;;;;;;x
+c_brown;Brown;Brown;Brown;;Brown;;;;;;;;;x
+c_brown_adj;Brownian;;browner;;;;;;;;;;;x
+c_brusque;Brusque;Brusque;Brusque;;Brusque;;;;;;;;;x
+c_brusque_adj;Brusquean;;brusqer;;;;;;;;;;;x
+c_buenopolis;Buenópolis;Buenópolis;Buenópolis;;Buenópolis;;;;;;;;;x
+c_buenopolis_adj;Buenópolisian;;buenópoliser;;;;;;;;;;;x
+c_buenos_aires;Buenos Aires;Buenos Aires;Buenos Aires;;Buenos Aires;;;;;;;;;x
+c_buenos_aires_adj;Buenos Airesian;;Buenos Aireser;;;;;;;;;;;x
+c_buritirama;Buritirama;Buritirama;Buritirama;;Buritirama;;;;;;;;;x
+c_buritirama_adj;Buritiraman;;buritiramer;;;;;;;;;;;x
+c_busch;Busch;Busch;Busch;;Busch;;;;;;;;;x
+c_busch_adj;Buschian;;buscher;;;;;;;;;;;x
+c_bustamante;Bustamante;Bustamante;Bustamante;;Bustamante;;;;;;;;;x
+c_bustamante_adj;Bustamantean;;bustamanter;;;;;;;;;;;x
+c_buzios;Búzios;Búzios;Búzios;;Búzios;;;;;;;;;x
+c_buzios_adj;Búziosian;;búzioser;;;;;;;;;;;x
+c_caaguazu;Caaguazu;Caaguazu;Caaguazu;;Caaguazu;;;;;;;;;x
+c_caaguazu_adj;Caaguazian;;caaguazer;;;;;;;;;;;x
+c_caapiranga;Caapiranga;Caapiranga;Caapiranga;;Caapiranga;;;;;;;;;x
+c_caapiranga_adj;Caapirangan;;caapiranger;;;;;;;;;;;x
+c_cacador;Caçador;Caçador;Caçador;;Caçador;;;;;;;;;x
+c_cacador_adj;Caçadorian;;caçadorer;;;;;;;;;;;x
+c_cacapava_do_sul;Caçapava do Sul;Caçapava do Sul;Caçapava do Sul;;Caçapava do Sul;;;;;;;;;x
+c_cacapava_do_sul_adj;Caçapava do Sulian;;Caçapava do Suler;;;;;;;;;;;x
+c_caceres;Cáceres;Cáceres;Cáceres;;Cáceres;;;;;;;;;x
+c_caceres_adj;Cáceresian;;cácereser;;;;;;;;;;;x
+c_cachapoal;Cachapoal;Cachapoal;Cachapoal;;Cachapoal;;;;;;;;;x
+c_cachapoal_adj;Cachapoalian;;cachapoaler;;;;;;;;;;;x
+c_cachoeira_do_ariri;Cachoeira do Ariri;Cachoeira do Ariri;Cachoeira do Ariri;;Cachoeira do Ariri;;;;;;;;;x
+c_cachoeira_do_ariri_adj;Cachoeira do Aririan;;Cachoeira do Arirer;;;;;;;;;;;x
+c_cachoeira_do_sul;Cachoeira do Sul;Cachoeira do Sul;Cachoeira do Sul;;Cachoeira do Sul;;;;;;;;;x
+c_cachoeira_do_sul_adj;Cachoeira do Sulian;;Cachoeira do Suler;;;;;;;;;;;x
+c_cadillo;Cadillo;Cadillo;Cadillo;;Cadillo;;;;;;;;;x
+c_cadillo_adj;Cadillian;;cadiller;;;;;;;;;;;x
+c_cafayate;Cafayate;Cafayate;Cafayate;;Cafayate;;;;;;;;;x
+c_cafayate_adj;Cafayatean;;cafayater;;;;;;;;;;;x
+c_cajamarca;Cajamarca;Cajamarca;Cajamarca;;Cajamarca;;;;;;;;;x
+c_cajamarca_adj;Cajamarcan;;cajamarcer;;;;;;;;;;;x
+c_cajazeiras;Cajazeiras;Cajazeiras;Cajazeiras;;Cajazeiras;;;;;;;;;x
+c_cajazeiras_adj;Cajazeirasian;;cajazeiraser;;;;;;;;;;;x
+c_calingasta;Calingasta;Calingasta;Calingasta;;Calingasta;;;;;;;;;x
+c_calingasta_adj;Calingastan;;calingaster;;;;;;;;;;;x
+c_camacan;Camacan;Camacan;Camacan;;Camacan;;;;;;;;;x
+c_camacan_adj;Camacanian;;camacaner;;;;;;;;;;;x
+c_camacho;Camacho;Camacho;Camacho;;Camacho;;;;;;;;;x
+c_camacho_adj;Camachian;;camacher;;;;;;;;;;;x
+c_camana;Camaná;Camaná;Camaná;;Camaná;;;;;;;;;x
+c_camana_adj;Camanáian;;camanáer;;;;;;;;;;;x
+c_camaqua;Camaquã;Camaquã;Camaquã;;Camaquã;;;;;;;;;x
+c_camaqua_adj;Camaquãian;;camaquãer;;;;;;;;;;;x
+c_campero;Campero;Campero;Campero;;Campero;;;;;;;;;x
+c_campero_adj;Camperian;;camperer;;;;;;;;;;;x
+c_campina_verde;Campina Verde;Campina Verde;Campina Verde;;Campina Verde;;;;;;;;;x
+c_campina_verde_adj;Campina Verdean;;Campina Verder;;;;;;;;;;;x
+c_campinas;Campinas;Campinas;Campinas;;Campinas;;;;;;;;;x
+c_campinas_adj;Campinasian;;campinaser;;;;;;;;;;;x
+c_campinorte;Campinorte;Campinorte;Campinorte;;Campinorte;;;;;;;;;x
+c_campinorte_adj;Campinortean;;campinorter;;;;;;;;;;;x
+c_campo_alegre;Campo Alegre;Campo Alegre;Campo Alegre;;Campo Alegre;;;;;;;;;x
+c_campo_alegre_adj;Campo Alegrean;;Campo Alegrer;;;;;;;;;;;x
+c_campo_grande;Campo Grande;Campo Grande;Campo Grande;;Campo Grande;;;;;;;;;x
+c_campo_grande_adj;Campo Grandean;;Campo Grander;;;;;;;;;;;x
+c_campo_maior;Campo Maior;Campo Maior;Campo Maior;;Campo Maior;;;;;;;;;x
+c_campo_maior_adj;Campo Maiorian;;Campo Maiorer;;;;;;;;;;;x
+c_campo_mourao;Campo Mourão;Campo Mourão;Campo Mourão;;Campo Mourão;;;;;;;;;x
+c_campo_mourao_adj;Campo Mourãian;;Campo Mourãer;;;;;;;;;;;x
+c_campos;Campos;Campos;Campos;;Campos;;;;;;;;;x
+c_campos_adj;Camposian;;camposer;;;;;;;;;;;x
+c_campos_do_jordao;Campos do Jordão;Campos do Jordão;Campos do Jordão;;Campos do Jordão;;;;;;;;;x
+c_campos_do_jordao_adj;Campos do Jordãian;;Campos do Jordãer;;;;;;;;;;;x
+c_canama;Canamã;Canamã;Canamã;;Canamã;;;;;;;;;x
+c_canama_adj;Canamãian;;canamãer;;;;;;;;;;;x
+c_canchis;Canchis;Canchis;Canchis;;Canchis;;;;;;;;;x
+c_canchis_adj;Canchisian;;canchiser;;;;;;;;;;;x
+c_canete;Cañete;Cañete;Cañete;;Cañete;;;;;;;;;x
+c_canete_adj;Cañetean;;cañeter;;;;;;;;;;;x
+c_caninde;Canindé;Canindé;Canindé;;Canindé;;;;;;;;;x
+c_caninde_adj;Canindéian;;canindéer;;;;;;;;;;;x
+c_canoas;Canoas;Canoas;Canoas;;Canoas;;;;;;;;;x
+c_canoas_adj;Canoasian;;canoaser;;;;;;;;;;;x
+c_canutama;Canutama;Canutama;Canutama;;Canutama;;;;;;;;;x
+c_canutama_adj;Canutaman;;canutamer;;;;;;;;;;;x
+c_capao;Capão;Capão;Capão;;Capão;;;;;;;;;x
+c_capao_adj;Capãian;;capãer;;;;;;;;;;;x
+c_capelinha;Capelinha;Capelinha;Capelinha;;Capelinha;;;;;;;;;x
+c_capelinha_adj;Capelinhan;;capelinher;;;;;;;;;;;x
+c_capivari;Capivari;Capivari;Capivari;;Capivari;;;;;;;;;x
+c_capivari_adj;Capivarian;;capivarer;;;;;;;;;;;x
+c_carabaya;Carabaya;Carabaya;Carabaya;;Carabaya;;;;;;;;;x
+c_carabaya_adj;Carabayan;;carabaer;;;;;;;;;;;x
+c_caracarai;Caracarái;Caracarái;Caracarái;;Caracarái;;;;;;;;;x
+c_caracarai_adj;Caracaráian;;caracaráer;;;;;;;;;;;x
+c_carangas;Carangas;Carangas;Carangas;;Carangas;;;;;;;;;x
+c_carangas_adj;Carangasian;;carangaser;;;;;;;;;;;x
+c_carangola;Carangola;Carangola;Carangola;;Carangola;;;;;;;;;x
+c_carangola_adj;Carangolan;;carangoler;;;;;;;;;;;x
+c_caratinga;Caratinga;Caratinga;Caratinga;;Caratinga;;;;;;;;;x
+c_caratinga_adj;Caratingan;;caratinger;;;;;;;;;;;x
+c_caraveli;Caravelí;Caravelí;Caravelí;;Caravelí;;;;;;;;;x
+c_caraveli_adj;Caravelíian;;caravelíer;;;;;;;;;;;x
+c_carazinho;Carazinho;Carazinho;Carazinho;;Carazinho;;;;;;;;;x
+c_carazinho_adj;Carazinhian;;carazinher;;;;;;;;;;;x
+c_cardenal_caro;Cardenal Caro;Cardenal Caro;Cardenal Caro;;Cardenal Caro;;;;;;;;;x
+c_cardenal_caro_adj;Cardenal Carian;;Cardenal Carer;;;;;;;;;;;x
+c_carhue;Carhue;Carhue;Carhue;;Carhue;;;;;;;;;x
+c_carhue_adj;Carhuean;;carher;;;;;;;;;;;x
+c_cariri;Cariri;Cariri;Cariri;;Cariri;;;;;;;;;x
+c_cariri_adj;Caririan;;carirer;;;;;;;;;;;x
+c_carlos_chagas;Carlos Chagas;Carlos Chagas;Carlos Chagas;;Carlos Chagas;;;;;;;;;x
+c_carlos_chagas_adj;Carlos Chagasian;;Carlos Chagaser;;;;;;;;;;;x
+c_carneirinho;Carneirinho;Carneirinho;Carneirinho;;Carneirinho;;;;;;;;;x
+c_carneirinho_adj;Carneirinhian;;carneirinher;;;;;;;;;;;x
+c_carolina;Carolina;Carolina;Carolina;;Carolina;;;;;;;;;x
+c_carolina_adj;Carolinan;;caroliner;;;;;;;;;;;x
+c_cascavel;Cascavel;Cascavel;Cascavel;;Cascavel;;;;;;;;;x
+c_cascavel_adj;Cascavelian;;cascaveler;;;;;;;;;;;x
+c_cassilandia;Cassilándia;Cassilándia;Cassilándia;;Cassilándia;;;;;;;;;x
+c_cassilandia_adj;Cassilándian;;cassilánder;;;;;;;;;;;x
+c_castelli;Castelli;Castelli;Castelli;;Castelli;;;;;;;;;x
+c_castelli_adj;Castellian;;casteller;;;;;;;;;;;x
+c_castilho;Castilho;Castilho;Castilho;;Castilho;;;;;;;;;x
+c_castilho_adj;Castilhian;;castilher;;;;;;;;;;;x
+c_catalao;Catalão;Catalão;Catalão;;Catalão;;;;;;;;;x
+c_catalao_adj;Catalãian;;catalãer;;;;;;;;;;;x
+c_catamarca;Catamarca;Catamarca;Catamarca;;Catamarca;;;;;;;;;x
+c_catamarca_adj;Catamarcan;;catamarcer;;;;;;;;;;;x
+c_catriel;Catriel;Catriel;Catriel;;Catriel;;;;;;;;;x
+c_catriel_adj;Catrielian;;catrieler;;;;;;;;;;;x
+c_catu;Catu;Catu;Catu;;Catu;;;;;;;;;x
+c_catu_adj;Catian;;cater;;;;;;;;;;;x
+c_cauquenes;Cauquenes;Cauquenes;Cauquenes;;Cauquenes;;;;;;;;;x
+c_cauquenes_adj;Cauquenesian;;cauqueneser;;;;;;;;;;;x
+c_caxias;Caxias;Caxias;Caxias;;Caxias;;;;;;;;;x
+c_caxias_adj;Caxiasian;;caxiaser;;;;;;;;;;;x
+c_caxias_do_sul;Caxias do Sul;Caxias do Sul;Caxias do Sul;;Caxias do Sul;;;;;;;;;x
+c_caxias_do_sul_adj;Caxias do Sulian;;Caxias do Suler;;;;;;;;;;;x
+c_caxiuna;Caxiuna;Caxiuna;Caxiuna;;Caxiuna;;;;;;;;;x
+c_caxiuna_adj;Caxiunan;;caxiuner;;;;;;;;;;;x
+c_caylloma;Caylloma;Caylloma;Caylloma;;Caylloma;;;;;;;;;x
+c_caylloma_adj;Caylloman;;cayllomer;;;;;;;;;;;x
+c_cercado;Cercado;Cercado;Cercado;;Cercado;;;;;;;;;x
+c_cercado_adj;Cercadian;;cercader;;;;;;;;;;;x
+c_cerejeiras;Cerejeiras;Cerejeiras;Cerejeiras;;Cerejeiras;;;;;;;;;x
+c_cerejeiras_adj;Cerejeirasian;;cerejeiraser;;;;;;;;;;;x
+c_cerro_largo;Cerro Largo;Cerro Largo;Cerro Largo;;Cerro Largo;;;;;;;;;x
+c_cerro_largo_adj;Cerro Largian;;Cerro Larger;;;;;;;;;;;x
+c_chacabuco;Chacabuco;Chacabuco;Chacabuco;;Chacabuco;;;;;;;;;x
+c_chacabuco_adj;Chacabucian;;chacabucer;;;;;;;;;;;x
+c_chachapoyas;Chachapoyas;Chachapoyas;Chachapoyas;;Chachapoyas;;;;;;;;;x
+c_chachapoyas_adj;Chachapoyasian;;chachapoyaser;;;;;;;;;;;x
+c_chaco;Chaco;Chaco;Chaco;;Chaco;;;;;;;;;x
+c_chaco_adj;Chacian;;chacer;;;;;;;;;;;x
+c_chanaral;Chañaral;Chañaral;Chañaral;;Chañaral;;;;;;;;;x
+c_chanaral_adj;Chañaralian;;chañaraler;;;;;;;;;;;x
+c_chapadinha;Chapadinha;Chapadinha;Chapadinha;;Chapadinha;;;;;;;;;x
+c_chapadinha_adj;Chapadinhan;;chapadinher;;;;;;;;;;;x
+c_chapare;Chapare;Chapare;Chapare;;Chapare;;;;;;;;;x
+c_chapare_adj;Chaparean;;chaparer;;;;;;;;;;;x
+c_chapeco;Chapecó;Chapecó;Chapecó;;Chapecó;;;;;;;;;x
+c_chapeco_adj;Chapecóian;;chapecóer;;;;;;;;;;;x
+c_chascomus;Chascomus;Chascomus;Chascomus;;Chascomus;;;;;;;;;x
+c_chascomus_adj;Chascomusian;;chascomuser;;;;;;;;;;;x
+c_chayanta;Chayanta;Chayanta;Chayanta;;Chayanta;;;;;;;;;x
+c_chayanta_adj;Chayantan;;chayanter;;;;;;;;;;;x
+c_chichas;Chichas;Chichas;Chichas;;Chichas;;;;;;;;;x
+c_chichas_adj;Chichasian;;chichaser;;;;;;;;;;;x
+c_chiclayo;Chiclayo;Chiclayo;Chiclayo;;Chiclayo;;;;;;;;;x
+c_chiclayo_adj;Chiclaian;;chiclaer;;;;;;;;;;;x
+c_chilecito;Chilecito;Chilecito;Chilecito;;Chilecito;;;;;;;;;x
+c_chilecito_adj;Chilecitian;;chileciter;;;;;;;;;;;x
+c_chiloe;Chiloé;Chiloé;Chiloé;;Chiloé;;;;;;;;;x
+c_chiloe_adj;Chiloéian;;chiloéer;;;;;;;;;;;x
+c_chimbote;Chimbote;Chimbote;Chimbote;;Chimbote;;;;;;;;;x
+c_chimbote_adj;Chimbotean;;chimboter;;;;;;;;;;;x
+c_chincha;Chincha;Chincha;Chincha;;Chincha;;;;;;;;;x
+c_chincha_adj;Chinchan;;chincher;;;;;;;;;;;x
+c_chiquitos;Chiquitos;Chiquitos;Chiquitos;;Chiquitos;;;;;;;;;x
+c_chiquitos_adj;Chiquitosian;;chiquitoser;;;;;;;;;;;x
+c_chivilcoy;Chivilcoy;Chivilcoy;Chivilcoy;;Chivilcoy;;;;;;;;;x
+c_chivilcoy_adj;Chivilcoian;;chivilcoer;;;;;;;;;;;x
+c_cholila;Cholila;Cholila;Cholila;;Cholila;;;;;;;;;x
+c_cholila_adj;Cholilan;;choliler;;;;;;;;;;;x
+c_chucuito;Chucuito;Chucuito;Chucuito;;Chucuito;;;;;;;;;x
+c_chucuito_adj;Chucuitian;;chucuiter;;;;;;;;;;;x
+c_chuy;Chuy;Chuy;Chuy;;Chuy;;;;;;;;;x
+c_chuy_adj;Chuian;;chuer;;;;;;;;;;;x
+c_cinti;Cinti;Cinti;Cinti;;Cinti;;;;;;;;;x
+c_cinti_adj;Cintian;;cinter;;;;;;;;;;;x
+c_cisnes;Cisnes;Cisnes;Cisnes;;Cisnes;;;;;;;;;x
+c_cisnes_adj;Cisnesian;;cisneser;;;;;;;;;;;x
+c_coari;Coarí;Coarí;Coarí;;Coarí;;;;;;;;;x
+c_coari_adj;Coaríian;;coaríer;;;;;;;;;;;x
+c_cocal;Cocal;Cocal;Cocal;;Cocal;;;;;;;;;x
+c_cocal_adj;Cocalian;;cocaler;;;;;;;;;;;x
+c_cochabamba;Cochabamba;Cochabamba;Cochabamba;;Cochabamba;;;;;;;;;x
+c_cochabamba_adj;Cochabamban;;cochabamber;;;;;;;;;;;x
+c_cochrane;Cochrane;Cochrane;Cochrane;;Cochrane;;;;;;;;;x
+c_cochrane_adj;Cochranean;;cochraner;;;;;;;;;;;x
+c_codajas;Codájas;Codájas;Codájas;;Codájas;;;;;;;;;x
+c_codajas_adj;Codájasian;;codájaser;;;;;;;;;;;x
+c_codo;Codó;Codó;Codó;;Codó;;;;;;;;;x
+c_codo_adj;Codóian;;codóer;;;;;;;;;;;x
+c_colatina;Colatina;Colatina;Colatina;;Colatina;;;;;;;;;x
+c_colatina_adj;Colatinan;;colatiner;;;;;;;;;;;x
+c_colchagua;Colchagua;Colchagua;Colchagua;;Colchagua;;;;;;;;;x
+c_colchagua_adj;Colchaguan;;colchager;;;;;;;;;;;x
+c_colon;Colon;Colon;Colon;;Colon;;;;;;;;;x
+c_colon_adj;Colonian;;coloner;;;;;;;;;;;x
+c_colonia;Colonia;Colonia;Colonia;;Colonia;;;;;;;;;x
+c_colonia_adj;Colonian;;coloner;;;;;;;;;;;x
+c_colorado;Colorado;Colorado;Colorado;;Colorado;;;;;;;;;x
+c_colorado_adj;Coloradian;;colorader;;;;;;;;;;;x
+c_colorado_2;Colorado;Colorado;Colorado;;Colorado;;;;;;;;;x
+c_colorado_2_adj;Coloradian;;colorader;;;;;;;;;;;x
+c_comico;Comicó;Comicó;Comicó;;Comicó;;;;;;;;;x
+c_comico_adj;Comicóian;;comicóer;;;;;;;;;;;x
+c_comodoro;Comodoro;Comodoro;Comodoro;;Comodoro;;;;;;;;;x
+c_comodoro_adj;Comodorian;;comodorer;;;;;;;;;;;x
+c_comodoro_2;Comodoro;Comodoro;Comodoro;;Comodoro;;;;;;;;;x
+c_comodoro_2_adj;Comodorian;;comodorer;;;;;;;;;;;x
+c_conceicao_das_alagoas;Conceição das Alagoas;Conceição das Alagoas;Conceição das Alagoas;;Conceição das Alagoas;;;;;;;;;x
+c_conceicao_das_alagoas_adj;Conceição das Alagoasian;;Conceição das Alagoaser;;;;;;;;;;;x
+c_conceicao_do_mato_dentro;Conceição do Mato Dentro;Conceição do Mato Dentro;Conceição do Mato Dentro;;Conceição do Mato Dentro;;;;;;;;;x
+c_conceicao_do_mato_dentro_adj;Conceição do Mato Dentrian;;Conceição do Mato Dentrer;;;;;;;;;;;x
+c_concepcion;Concepción;Concepción;Concepción;;Concepción;;;;;;;;;x
+c_concepcion_adj;Concepciónian;;concepcióner;;;;;;;;;;;x
+c_concepcion_2;Concepcion;Concepcion;Concepcion;;Concepcion;;;;;;;;;x
+c_concepcion_2_adj;Concepcionian;;concepcioner;;;;;;;;;;;x
+c_concepcion_3;Concepcion;Concepcion;Concepcion;;Concepcion;;;;;;;;;x
+c_concepcion_3_adj;Concepcionian;;concepcioner;;;;;;;;;;;x
+c_concordia;Concórdia;Concórdia;Concórdia;;Concórdia;;;;;;;;;x
+c_concordia_adj;Concórdian;;concórder;;;;;;;;;;;x
+c_concordia_2;Concordia;Concordia;Concordia;;Concordia;;;;;;;;;x
+c_concordia_2_adj;Concordian;;concorder;;;;;;;;;;;x
+c_condesuyos;Condesuyos;Condesuyos;Condesuyos;;Condesuyos;;;;;;;;;x
+c_condesuyos_adj;Condesuyosian;;condesuyoser;;;;;;;;;;;x
+c_confresa;Confresa;Confresa;Confresa;;Confresa;;;;;;;;;x
+c_confresa_adj;Confresan;;confreser;;;;;;;;;;;x
+c_congonhas_do_norte;Congonhas do Norte;Congonhas do Norte;Congonhas do Norte;;Congonhas do Norte;;;;;;;;;x
+c_congonhas_do_norte_adj;Congonhas do Nortean;;Congonhas do Norter;;;;;;;;;;;x
+c_conselheiro_lafaiete;Conselheiro Lafaiete;Conselheiro Lafaiete;Conselheiro Lafaiete;;Conselheiro Lafaiete;;;;;;;;;x
+c_conselheiro_lafaiete_adj;Conselheiro Lafaietean;;Conselheiro Lafaieter;;;;;;;;;;;x
+c_conselheiro_pena;Conselheiro Pena;Conselheiro Pena;Conselheiro Pena;;Conselheiro Pena;;;;;;;;;x
+c_conselheiro_pena_adj;Conselheiro Penan;;Conselheiro Pener;;;;;;;;;;;x
+c_constitucion;Constitución;Constitución;Constitución;;Constitución;;;;;;;;;x
+c_constitucion_adj;Constituciónian;;constitucióner;;;;;;;;;;;x
+c_convencion;Convención;Convención;Convención;;Convención;;;;;;;;;x
+c_convencion_adj;Convenciónian;;convencióner;;;;;;;;;;;x
+c_copiapo;Copiapó;Copiapó;Copiapó;;Copiapó;;;;;;;;;x
+c_copiapo_adj;Copiapóian;;copiapóer;;;;;;;;;;;x
+c_copixaba;Copixaba;Copixaba;Copixaba;;Copixaba;;;;;;;;;x
+c_copixaba_adj;Copixaban;;copixaber;;;;;;;;;;;x
+c_coquimbo;Coquimbo;Coquimbo;Coquimbo;;Coquimbo;;;;;;;;;x
+c_coquimbo_adj;Coquimbian;;coquimber;;;;;;;;;;;x
+c_cordillera;Cordillera;Cordillera;Cordillera;;Cordillera;;;;;;;;;x
+c_cordillera_adj;Cordilleran;;cordillerer;;;;;;;;;;;x
+c_coronel_portillo;Coronel Portillo;Coronel Portillo;Coronel Portillo;;Coronel Portillo;;;;;;;;;x
+c_coronel_portillo_adj;Coronel Portillian;;Coronel Portiller;;;;;;;;;;;x
+c_corpen_aike;Corpen Aike;Corpen Aike;Corpen Aike;;Corpen Aike;;;;;;;;;x
+c_corpen_aike_adj;Corpen Aikean;;Corpen Aiker;;;;;;;;;;;x
+c_corrientes;Corrientes;Corrientes;Corrientes;;Corrientes;;;;;;;;;x
+c_corrientes_adj;Corrientesian;;corrienteser;;;;;;;;;;;x
+c_corumba;Corumbá;Corumbá;Corumbá;;Corumbá;;;;;;;;;x
+c_corumba_adj;Corumbáian;;corumbáer;;;;;;;;;;;x
+c_costa_de_oro;Costa de Oro;Costa de Oro;Costa de Oro;;Costa de Oro;;;;;;;;;x
+c_costa_de_oro_adj;Costa de Orian;;Costa de Orer;;;;;;;;;;;x
+c_costa_marques;Costa Marques;Costa Marques;Costa Marques;;Costa Marques;;;;;;;;;x
+c_costa_marques_adj;Costa Marquesian;;Costa Marqueser;;;;;;;;;;;x
+c_cotegipe;Cotegipe;Cotegipe;Cotegipe;;Cotegipe;;;;;;;;;x
+c_cotegipe_adj;Cotegipean;;cotegiper;;;;;;;;;;;x
+c_cotopaxi;Cotopaxi;Cotopaxi;Cotopaxi;;Cotopaxi;;;;;;;;;x
+c_cotopaxi_adj;Cotopaxian;;cotopaxer;;;;;;;;;;;x
+c_coxim;Coxim;Coxim;Coxim;;Coxim;;;;;;;;;x
+c_coxim_adj;Coximian;;coximer;;;;;;;;;;;x
+c_coyhaique;Coyhaique;Coyhaique;Coyhaique;;Coyhaique;;;;;;;;;x
+c_coyhaique_adj;Coyhaiquean;;coyhaiqer;;;;;;;;;;;x
+c_crateus;Crateús;Crateús;Crateús;;Crateús;;;;;;;;;x
+c_crateus_adj;Crateúsian;;crateúser;;;;;;;;;;;x
+c_criciuma;Criciúma;Criciúma;Criciúma;;Criciúma;;;;;;;;;x
+c_criciuma_adj;Criciúman;;criciúmer;;;;;;;;;;;x
+c_cruz_alta;Cruz Alta;Cruz Alta;Cruz Alta;;Cruz Alta;;;;;;;;;x
+c_cruz_alta_adj;Cruz Altan;;Cruz Alter;;;;;;;;;;;x
+c_cruzeiro;Cruzeiro;Cruzeiro;Cruzeiro;;Cruzeiro;;;;;;;;;x
+c_cruzeiro_adj;Cruzeirian;;cruzeirer;;;;;;;;;;;x
+c_cuchillo_co;Cuchillo-co;Cuchillo-co;Cuchillo-co;;Cuchillo-co;;;;;;;;;x
+c_cuchillo_co_adj;Cuchillo-cian;;cuchillo-cer;;;;;;;;;;;x
+c_cuiaba;Cuiabá;Cuiabá;Cuiabá;;Cuiabá;;;;;;;;;x
+c_cuiaba_adj;Cuiabáian;;cuiabáer;;;;;;;;;;;x
+c_cumaru_do_norte;Cumaru do Norte;Cumaru do Norte;Cumaru do Norte;;Cumaru do Norte;;;;;;;;;x
+c_cumaru_do_norte_adj;Cumaru do Nortean;;Cumaru do Norter;;;;;;;;;;;x
+c_curaca;Curaçá;Curaçá;Curaçá;;Curaçá;;;;;;;;;x
+c_curaca_adj;Curaçáian;;curaçáer;;;;;;;;;;;x
+c_curico;Curicó;Curicó;Curicó;;Curicó;;;;;;;;;x
+c_curico_adj;Curicóian;;curicóer;;;;;;;;;;;x
+c_curimatau;Curimataú;Curimataú;Curimataú;;Curimataú;;;;;;;;;x
+c_curimatau_adj;Curimataúian;;curimataúer;;;;;;;;;;;x
+c_curitiba;Curitiba;Curitiba;Curitiba;;Curitiba;;;;;;;;;x
+c_curitiba_adj;Curitiban;;curitiber;;;;;;;;;;;x
+c_curu;Curu;Curu;Curu;;Curu;;;;;;;;;x
+c_curu_adj;Curian;;curer;;;;;;;;;;;x
+c_curvelo;Curvelo;Curvelo;Curvelo;;Curvelo;;;;;;;;;x
+c_curvelo_adj;Curvelian;;curveler;;;;;;;;;;;x
+c_cuzco;Cuzco;Cuzco;Cuzco;;Cuzco;;;;;;;;;x
+c_cuzco_adj;Cuzcian;;cuzcer;;;;;;;;;;;x
+c_deseado;Deseado;Deseado;Deseado;;Deseado;;;;;;;;;x
+c_deseado_adj;Deseadian;;deseader;;;;;;;;;;;x
+c_diamantina;Diamantina;Diamantina;Diamantina;;Diamantina;;;;;;;;;x
+c_diamantina_adj;Diamantinian;;diamantiner;;;;;;;;;;;x
+c_diamantino;Diamantino;Diamantino;Diamantino;;Diamantino;;;;;;;;;x
+c_diamantino_adj;Diamantinian;;diamantiner;;;;;;;;;;;x
+c_dianopolis;Dianopólis;Dianopólis;Dianopólis;;Dianopólis;;;;;;;;;x
+c_dianopolis_adj;Dianopólisian;;dianopóliser;;;;;;;;;;;x
+c_diguillin;Diguillín;Diguillín;Diguillín;;Diguillín;;;;;;;;;x
+c_diguillin_adj;Diguillínian;;diguillíner;;;;;;;;;;;x
+c_diorama;Diorama;Diorama;Diorama;;Diorama;;;;;;;;;x
+c_diorama_adj;Dioraman;;dioramer;;;;;;;;;;;x
+c_divinopolis;Divinopolis;Divinopolis;Divinopolis;;Divinopolis;;;;;;;;;x
+c_divinopolis_adj;Divinopolisian;;divinopoliser;;;;;;;;;;;x
+c_dolores;Dolores;Dolores;Dolores;;Dolores;;;;;;;;;x
+c_dolores_adj;Doloresian;;doloreser;;;;;;;;;;;x
+c_dorrego;Dorrego;Dorrego;Dorrego;;Dorrego;;;;;;;;;x
+c_dorrego_adj;Dorregian;;dorreger;;;;;;;;;;;x
+c_dourados;Dourados;Dourados;Dourados;;Dourados;;;;;;;;;x
+c_dourados_adj;Douradosian;;douradoser;;;;;;;;;;;x
+c_dracena;Dracena;Dracena;Dracena;;Dracena;;;;;;;;;x
+c_dracena_adj;Dracenan;;dracener;;;;;;;;;;;x
+c_dupuy;Dupuy;Dupuy;Dupuy;;Dupuy;;;;;;;;;x
+c_dupuy_adj;Dupuian;;dupuer;;;;;;;;;;;x
+c_durazno;Durazno;Durazno;Durazno;;Durazno;;;;;;;;;x
+c_durazno_adj;Duraznian;;durazner;;;;;;;;;;;x
+c_ecoporanga;Ecoporanga;Ecoporanga;Ecoporanga;;Ecoporanga;;;;;;;;;x
+c_ecoporanga_adj;Ecoporangan;;ecoporanger;;;;;;;;;;;x
+c_el_calafate;El Calafate;El Calafate;El Calafate;;El Calafate;;;;;;;;;x
+c_el_calafate_adj;El Calafatean;;El Calafater;;;;;;;;;;;x
+c_el_imperio;El Imperio;El Imperio;El Imperio;;El Imperio;;;;;;;;;x
+c_el_imperio_adj;El Imperian;;El Imperer;;;;;;;;;;;x
+c_el_loa;El Loa;El Loa;El Loa;;El Loa;;;;;;;;;x
+c_el_loa_adj;El Loan;;El Ler;;;;;;;;;;;x
+c_el_oro;El Oro;El Oro;El Oro;;El Oro;;;;;;;;;x
+c_el_oro_adj;El Orian;;El Orer;;;;;;;;;;;x
+c_el_sombrero;El Sombrero;El Sombrero;El Sombrero;;El Sombrero;;;;;;;;;x
+c_el_sombrero_adj;El Sombrerian;;El Sombrerer;;;;;;;;;;;x
+c_eldorado_dos_carajas;Eldorado dos Carajás;Eldorado dos Carajás;Eldorado dos Carajás;;Eldorado dos Carajás;;;;;;;;;x
+c_eldorado_dos_carajas_adj;Eldorado dos Carajásian;;Eldorado dos Carajáser;;;;;;;;;;;x
+c_erechim;Erechim;Erechim;Erechim;;Erechim;;;;;;;;;x
+c_erechim_adj;Erechimian;;erechimer;;;;;;;;;;;x
+c_esmeraldas;Esmeraldas;Esmeraldas;Esmeraldas;;Esmeraldas;;;;;;;;;x
+c_esmeraldas_adj;Esmeraldasian;;esmeraldaser;;;;;;;;;;;x
+c_espigao_doeste;Espigão D'oeste;Espigão D'oeste;Espigão D'oeste;;Espigão D'oeste;;;;;;;;;x
+c_espigao_doeste_adj;Espigão D'oestean;;Espigão D'oester;;;;;;;;;;;x
+c_espinhaco;Espinhaço;Espinhaço;Espinhaço;;Espinhaço;;;;;;;;;x
+c_espinhaco_adj;Espinhaçian;;espinhaçer;;;;;;;;;;;x
+c_esplanada;Esplanada;Esplanada;Esplanada;;Esplanada;;;;;;;;;x
+c_esplanada_adj;Esplanadan;;esplanader;;;;;;;;;;;x
+c_esquel;Esquel;Esquel;Esquel;;Esquel;;;;;;;;;x
+c_esquel_adj;Esquelian;;esqueler;;;;;;;;;;;x
+c_este;Este;Este;Este;;Este;;;;;;;;;x
+c_este_adj;Estean;;ester;;;;;;;;;;;x
+c_estreito;Estreito;Estreito;Estreito;;Estreito;;;;;;;;;x
+c_estreito_adj;Estreitian;;estreiter;;;;;;;;;;;x
+c_eunapolis;Eunápolis;;;;;;;;;;;;x
+c_eunapolis_adj;Eunapolitan;;;;;;;;;;;;x
+c_facundo;Facundo;Facundo;Facundo;;Facundo;;;;;;;;;x
+c_facundo_adj;Facundian;;facunder;;;;;;;;;;;x
+c_federacion;Federacion;Federacion;Federacion;;Federacion;;;;;;;;;x
+c_federacion_adj;Federacionian;;federacioner;;;;;;;;;;;x
+c_feira_de_santana;Feira de Santana;;;;;;;;;;;;x
+c_feira_de_santana_adj;Feirense;;;;;;;;;;;;x
+c_fernando_de_noronha;Fernando de Noronha;Fernando de Noronha;Fernando de Noronha;;Fernando de Noronha;;;;;;;;;x
+c_fernando_de_noronha_adj;Fernando de Noronhan;;Fernando de Noronher;;;;;;;;;;;x
+c_fernandopolis;Fernandópolis;Fernandópolis;Fernandópolis;;Fernandópolis;;;;;;;;;x
+c_fernandopolis_adj;Fernandópolisian;;fernandópoliser;;;;;;;;;;;x
+c_fitz_roy;Fitz Roy;Fitz Roy;Fitz Roy;;Fitz Roy;;;;;;;;;x
+c_fitz_roy_adj;Fitz Roian;;Fitz Roer;;;;;;;;;;;x
+c_florianopolis;Florianópolis;Florianópolis;Florianópolis;;Florianópolis;;;;;;;;;x
+c_florianopolis_adj;Florianópolisian;;florianópoliser;;;;;;;;;;;x
+c_florida;Florida;Florida;Florida;;Florida;;;;;;;;;x
+c_florida_adj;Floridan;;florider;;;;;;;;;;;x
+c_florida_2;Florida;Florida;Florida;;Florida;;;;;;;;;x
+c_florida_2_adj;Floridan;;florider;;;;;;;;;;;x
+c_formosa;Formosa;Formosa;Formosa;;Formosa;;;;;;;;;x
+c_formosa_adj;Formosan;;formoser;;;;;;;;;;;x
+c_formoso;Formoso;Formoso;Formoso;;Formoso;;;;;;;;;x
+c_formoso_adj;Formosian;;formoser;;;;;;;;;;;x
+c_formoso_2;Formoso;Formoso;Formoso;;Formoso;;;;;;;;;x
+c_formoso_2_adj;Formosian;;formoser;;;;;;;;;;;x
+c_fortaleza;Fortaleza;Fortaleza;Fortaleza;;Fortaleza;;;;;;;;;x
+c_fortaleza_adj;Fortalezan;;fortalezer;;;;;;;;;;;x
+c_fortuna;Fortuna;Fortuna;Fortuna;;Fortuna;;;;;;;;;x
+c_fortuna_adj;Fortunan;;fortuner;;;;;;;;;;;x
+c_foz_do_iguacu;Foz do Iguaçu;Foz do Iguaçu;Foz do Iguaçu;;Foz do Iguaçu;;;;;;;;;x
+c_foz_do_iguacu_adj;Foz do Iguaçian;;Foz do Iguaçer;;;;;;;;;;;x
+c_franca;Franca;Franca;Franca;;Franca;;;;;;;;;x
+c_franca_adj;Francan;;francer;;;;;;;;;;;x
+c_francisco_beltrao;Francisco Beltrão;Francisco Beltrão;Francisco Beltrão;;Francisco Beltrão;;;;;;;;;x
+c_francisco_beltrao_adj;Francisco Beltrãian;;Francisco Beltrãer;;;;;;;;;;;x
+c_francisco_dumont;Francisco Dumont;Francisco Dumont;Francisco Dumont;;Francisco Dumont;;;;;;;;;x
+c_francisco_dumont_adj;Francisco Dumontian;;Francisco Dumonter;;;;;;;;;;;x
+c_frederico_westphalen;Frederico Westphalen;Frederico Westphalen;Frederico Westphalen;;Frederico Westphalen;;;;;;;;;x
+c_frederico_westphalen_adj;Frederico Westphalenian;;Frederico Westphalener;;;;;;;;;;;x
+c_frutal;Frutal;Frutal;Frutal;;Frutal;;;;;;;;;x
+c_frutal_adj;Frutalian;;frutaler;;;;;;;;;;;x
+c_gan_gan;Gan Gan;Gan Gan;Gan Gan;;Gan Gan;;;;;;;;;x
+c_gan_gan_adj;Gan Ganian;;Gan Ganer;;;;;;;;;;;x
+c_garanhuns;Garanhuns;Garanhuns;Garanhuns;;Garanhuns;;;;;;;;;x
+c_garanhuns_adj;Garanhunsian;;garanhunser;;;;;;;;;;;x
+c_garay;Garay;Garay;Garay;;Garay;;;;;;;;;x
+c_garay_adj;Garaian;;garaer;;;;;;;;;;;x
+c_gaviao;Gavião;Gavião;Gavião;;Gavião;;;;;;;;;x
+c_gaviao_adj;Gaviãian;;gaviãer;;;;;;;;;;;x
+c_general_lopez;General López;General López;General López;;General López;;;;;;;;;x
+c_general_lopez_adj;General Lópezian;;General Lópezer;;;;;;;;;;;x
+c_general_roca;General Roca;General Roca;General Roca;;General Roca;;;;;;;;;x
+c_general_roca_adj;General Rocan;;General Rocer;;;;;;;;;;;x
+c_gesell;Gesell;Gesell;Gesell;;Gesell;;;;;;;;;x
+c_gesell_adj;Gesellian;;geseller;;;;;;;;;;;x
+c_goiania;Goiania;Goiania;Goiania;;Goiania;;;;;;;;;x
+c_goiania_adj;Goianian;;goianer;;;;;;;;;;;x
+c_governador_valadares;Governador Valadares;Governador Valadares;Governador Valadares;;Governador Valadares;;;;;;;;;x
+c_governador_valadares_adj;Governador Valadaresian;;Governador Valadareser;;;;;;;;;;;x
+c_goya;Goya;Goya;Goya;;Goya;;;;;;;;;x
+c_goya_adj;Goyan;;goer;;;;;;;;;;;x
+c_grajau;Grajaú;Grajaú;Grajaú;;Grajaú;;;;;;;;;x
+c_grajau_adj;Grajaúian;;grajaúer;;;;;;;;;;;x
+c_gramado;Gramado;Gramado;Gramado;;Gramado;;;;;;;;;x
+c_gramado_adj;Gramadian;;gramader;;;;;;;;;;;x
+c_grao_mogol;Grão Mogol;Grão Mogol;Grão Mogol;;Grão Mogol;;;;;;;;;x
+c_grao_mogol_adj;Grão Mogolian;;Grão Mogoler;;;;;;;;;;;x
+c_gregores;Gregores;Gregores;Gregores;;Gregores;;;;;;;;;x
+c_gregores_adj;Gregoresian;;gregoreser;;;;;;;;;;;x
+c_guaiba;Guaíba;Guaíba;Guaíba;;Guaíba;;;;;;;;;x
+c_guaiba_adj;Guaíban;;guaíber;;;;;;;;;;;x
+c_guaira;Guaíra;Guaíra;Guaíra;;Guaíra;;;;;;;;;x
+c_guaira_adj;Guaíran;;guaírer;;;;;;;;;;;x
+c_guaitecas;Guaitecas;Guaitecas;Guaitecas;;Guaitecas;;;;;;;;;x
+c_guaitecas_adj;Guaitecasian;;guaitecaser;;;;;;;;;;;x
+c_gualeguay;Gualeguay;Gualeguay;Gualeguay;;Gualeguay;;;;;;;;;x
+c_gualeguay_adj;Gualeguaian;;gualeguaer;;;;;;;;;;;x
+c_guanambi;Guanambi;Guanambi;Guanambi;;Guanambi;;;;;;;;;x
+c_guanambi_adj;Guanambian;;guanamber;;;;;;;;;;;x
+c_guarai;Guaraí;Guaraí;Guaraí;;Guaraí;;;;;;;;;x
+c_guarai_adj;Guaraíian;;guaraíer;;;;;;;;;;;x
+c_guarani;Guarani;Guarani;Guarani;;Guarani;;;;;;;;;x
+c_guarani_adj;Guaranian;;guaraner;;;;;;;;;;;x
+c_guarapari;Guarapari;Guarapari;Guarapari;;Guarapari;;;;;;;;;x
+c_guarapari_adj;Guaraparian;;guaraparer;;;;;;;;;;;x
+c_guarapuava;Guarapuava;Guarapuava;Guarapuava;;Guarapuava;;;;;;;;;x
+c_guarapuava_adj;Guarapuavan;;guarapuaver;;;;;;;;;;;x
+c_guarayos;Guarayos;Guarayos;Guarayos;;Guarayos;;;;;;;;;x
+c_guarayos_adj;Guarayosian;;guarayoser;;;;;;;;;;;x
+c_guarda_mor;Guarda Mor;Guarda Mor;Guarda Mor;;Guarda Mor;;;;;;;;;x
+c_guarda_mor_adj;Guarda Morian;;Guarda Morer;;;;;;;;;;;x
+c_guarei;Guareí;Guareí;Guareí;;Guareí;;;;;;;;;x
+c_guarei_adj;Guareíian;;guareíer;;;;;;;;;;;x
+c_guaria;Guaria;Guaria;Guaria;;Guaria;;;;;;;;;x
+c_guaria_adj;Guarian;;guarer;;;;;;;;;;;x
+c_guarulhos;Guarulhos;Guarulhos;Guarulhos;;Guarulhos;;;;;;;;;x
+c_guarulhos_adj;Guarulhosian;;guarulhoser;;;;;;;;;;;x
+c_guayas;Guayas;Guayas;Guayas;;Guayas;;;;;;;;;x
+c_guayas_adj;Guayasian;;guayaser;;;;;;;;;;;x
+c_gueer_aike;Güer Aike;Güer Aike;Güer Aike;;Güer Aike;;;;;;;;;x
+c_gueer_aike_adj;Güer Aikean;;Güer Aiker;;;;;;;;;;;x
+c_guido;Guido;Guido;Guido;;Guido;;;;;;;;;x
+c_guido_adj;Guidian;;guider;;;;;;;;;;;x
+c_gurgueia;Gurgueia;Gurgueia;Gurgueia;;Gurgueia;;;;;;;;;x
+c_gurgueia_adj;Gurgueian;;gurger;;;;;;;;;;;x
+c_gurupi;Gurupi;Gurupi;Gurupi;;Gurupi;;;;;;;;;x
+c_gurupi_adj;Gurupian;;guruper;;;;;;;;;;;x
+c_gurupi_2;Gurupi;Gurupi;Gurupi;;Gurupi;;;;;;;;;x
+c_gurupi_2_adj;Gurupian;;guruper;;;;;;;;;;;x
+c_holambra;Holambra;Holambra;Holambra;;Holambra;;;;;;;;;x
+c_holambra_adj;Holambran;;holambrer;;;;;;;;;;;x
+c_huamachuco;Huamachuco;Huamachuco;Huamachuco;;Huamachuco;;;;;;;;;x
+c_huamachuco_adj;Huamachucian;;huamachucer;;;;;;;;;;;x
+c_huancavelica;Huancavelica;Huancavelica;Huancavelica;;Huancavelica;;;;;;;;;x
+c_huancavelica_adj;Huancavelican;;huancavelicer;;;;;;;;;;;x
+c_huancayo;Huancayo;Huancayo;Huancayo;;Huancayo;;;;;;;;;x
+c_huancayo_adj;Huancaian;;huancaer;;;;;;;;;;;x
+c_huanta;Huanta;Huanta;Huanta;;Huanta;;;;;;;;;x
+c_huanta_adj;Huantan;;huanter;;;;;;;;;;;x
+c_huanuco;Huánuco;Huánuco;Huánuco;;Huánuco;;;;;;;;;x
+c_huanuco_adj;Huánucian;;huánucer;;;;;;;;;;;x
+c_huara;Huara;Huara;Huara;;Huara;;;;;;;;;x
+c_huara_adj;Huaran;;huarer;;;;;;;;;;;x
+c_huaral;Huaral;Huaral;Huaral;;Huaral;;;;;;;;;x
+c_huaral_adj;Huaralian;;huaraler;;;;;;;;;;;x
+c_huaraz;Huaraz;Huaraz;Huaraz;;Huaraz;;;;;;;;;x
+c_huaraz_adj;Huarazian;;huarazer;;;;;;;;;;;x
+c_huari;Huari;Huari;Huari;;Huari;;;;;;;;;x
+c_huari_adj;Huarian;;huarer;;;;;;;;;;;x
+c_huarochiri;Huarochirí;Huarochirí;Huarochirí;;Huarochirí;;;;;;;;;x
+c_huarochiri_adj;Huarochiríian;;huarochiríer;;;;;;;;;;;x
+c_huasco;Huasco;Huasco;Huasco;;Huasco;;;;;;;;;x
+c_huasco_adj;Huascian;;huascer;;;;;;;;;;;x
+c_huaura;Huaura;Huaura;Huaura;;Huaura;;;;;;;;;x
+c_huaura_adj;Huauran;;huaurer;;;;;;;;;;;x
+c_huentota;Huentota;Huentota;Huentota;;Huentota;;;;;;;;;x
+c_huentota_adj;Huentotan;;huentoter;;;;;;;;;;;x
+c_ibiassuce;Ibiassucê;Ibiassucê;Ibiassucê;;Ibiassucê;;;;;;;;;x
+c_ibiassuce_adj;Ibiassucêian;;ibiassucêer;;;;;;;;;;;x
+c_ibiraba;Ibiraba;Ibiraba;Ibiraba;;Ibiraba;;;;;;;;;x
+c_ibiraba_adj;Ibiraban;;ibiraber;;;;;;;;;;;x
+c_ibirajuba;Ibirajuba;Ibirajuba;Ibirajuba;;Ibirajuba;;;;;;;;;x
+c_ibirajuba_adj;Ibirajuban;;ibirajuber;;;;;;;;;;;x
+c_ica;Ica;Ica;Ica;;Ica;;;;;;;;;x
+c_ica_adj;Ican;;icer;;;;;;;;;;;x
+c_ichilo;Ichilo;Ichilo;Ichilo;;Ichilo;;;;;;;;;x
+c_ichilo_adj;Ichilian;;ichiler;;;;;;;;;;;x
+c_igapora;Igaporã;Igaporã;Igaporã;;Igaporã;;;;;;;;;x
+c_igapora_adj;Igaporãian;;igaporãer;;;;;;;;;;;x
+c_iguai;Iguaí;Iguaí;Iguaí;;Iguaí;;;;;;;;;x
+c_iguai_adj;Iguaíian;;iguaíer;;;;;;;;;;;x
+c_iguape;Iguape;Iguape;Iguape;;Iguape;;;;;;;;;x
+c_iguape_adj;Iguapean;;iguaper;;;;;;;;;;;x
+c_iguatemi;Iguatemi;Iguatemi;Iguatemi;;Iguatemi;;;;;;;;;x
+c_iguatemi_adj;Iguatemian;;iguatemer;;;;;;;;;;;x
+c_iguatu;Iguatu;Iguatu;Iguatu;;Iguatu;;;;;;;;;x
+c_iguatu_adj;Iguatian;;iguater;;;;;;;;;;;x
+c_iguazu;Iguazu;Iguazu;Iguazu;;Iguazu;;;;;;;;;x
+c_iguazu_adj;Iguazian;;iguazer;;;;;;;;;;;x
+c_ijui;Ijuí;Ijuí;Ijuí;;Ijuí;;;;;;;;;x
+c_ijui_adj;Ijuíian;;ijuíer;;;;;;;;;;;x
+c_ilha_bela;Ilha Bela;Ilha Bela;Ilha Bela;;Ilha Bela;;;;;;;;;x
+c_ilha_bela_adj;Ilha Belan;;Ilha Beler;;;;;;;;;;;x
+c_ilhas_do_delta;Ilhas do Delta;Ilhas do Delta;Ilhas do Delta;;Ilhas do Delta;;;;;;;;;x
+c_ilhas_do_delta_adj;Ilhas do Deltan;;Ilhas do Delter;;;;;;;;;;;x
+c_ilheus;Ilhéus;Ilhéus;Ilhéus;;Ilhéus;;;;;;;;;x
+c_ilheus_adj;Ilhéusian;;ilhéuser;;;;;;;;;;;x
+c_illapel;Illapel;Illapel;Illapel;;Illapel;;;;;;;;;x
+c_illapel_adj;Illapelian;;illapeler;;;;;;;;;;;x
+c_imbabura;Imbabura;Imbabura;Imbabura;;Imbabura;;;;;;;;;x
+c_imbabura_adj;Imbaburan;;imbaburer;;;;;;;;;;;x
+c_impenetrable;Impenetrable;Impenetrable;Impenetrable;;Impenetrable;;;;;;;;;x
+c_impenetrable_adj;Impenetrablean;;impenetrabler;;;;;;;;;;;x
+c_imperatriz;Imperatriz;Imperatriz;Imperatriz;;Imperatriz;;;;;;;;;x
+c_imperatriz_adj;Imperatrizian;;imperatrizer;;;;;;;;;;;x
+c_ingavi;Ingavi;Ingavi;Ingavi;;Ingavi;;;;;;;;;x
+c_ingavi_adj;Ingavian;;ingaver;;;;;;;;;;;x
+c_inhapim;Inhapim;Inhapim;Inhapim;;Inhapim;;;;;;;;;x
+c_inhapim_adj;Inhapimian;;inhapimer;;;;;;;;;;;x
+c_ipatinga;Ipatinga;Ipatinga;Ipatinga;;Ipatinga;;;;;;;;;x
+c_ipatinga_adj;Ipatingan;;ipatinger;;;;;;;;;;;x
+c_ipero;Iperô;Iperô;Iperô;;Iperô;;;;;;;;;x
+c_ipero_adj;Iperôian;;iperôer;;;;;;;;;;;x
+c_ipira;Ipira;Ipira;Ipira;;Ipira;;;;;;;;;x
+c_ipira_adj;Ipiran;;ipirer;;;;;;;;;;;x
+c_ipora;Iporá;Iporá;Iporá;;Iporá;;;;;;;;;x
+c_ipora_adj;Iporáian;;iporáer;;;;;;;;;;;x
+c_iquique;Iquique;Iquique;Iquique;;Iquique;;;;;;;;;x
+c_iquique_adj;Iquiquean;;iquiqer;;;;;;;;;;;x
+c_iranduba;Iranduba;Iranduba;Iranduba;;Iranduba;;;;;;;;;x
+c_iranduba_adj;Iranduban;;iranduber;;;;;;;;;;;x
+c_iriri;Iriri;Iriri;Iriri;;Iriri;;;;;;;;;x
+c_iriri_adj;Iririan;;irirer;;;;;;;;;;;x
+c_isabela_de_galapagos;Isabela de Galapagos;Isabela de Galapagos;Isabela de Galapagos;;Isabela de Galapagos;;;;;;;;;x
+c_isabela_de_galapagos_adj;Isabela de Galapagosian;;Isabela de Galapagoser;;;;;;;;;;;x
+c_islay;Islay;Islay;Islay;;Islay;;;;;;;;;x
+c_islay_adj;Islaian;;islaer;;;;;;;;;;;x
+c_itabaiana;Itabaiana;Itabaiana;Itabaiana;;Itabaiana;;;;;;;;;x
+c_itabaiana_adj;Itabaianan;;itabaianer;;;;;;;;;;;x
+c_itabapoana;Itabapoana;Itabapoana;Itabapoana;;Itabapoana;;;;;;;;;x
+c_itabapoana_adj;Itabapoanan;;itabapoaner;;;;;;;;;;;x
+c_itabira;Itabira;Itabira;Itabira;;Itabira;;;;;;;;;x
+c_itabira_adj;Itabiran;;itabirer;;;;;;;;;;;x
+c_itabuna;Itabuna;Itabuna;Itabuna;;Itabuna;;;;;;;;;x
+c_itabuna_adj;Itabunan;;itabuner;;;;;;;;;;;x
+c_itacare;Itacaré;Itacaré;Itacaré;;Itacaré;;;;;;;;;x
+c_itacare_adj;Itacaréian;;itacaréer;;;;;;;;;;;x
+c_itacotiara;Itacotiara;Itacotiara;Itacotiara;;Itacotiara;;;;;;;;;x
+c_itacotiara_adj;Itacotiaran;;itacotiarer;;;;;;;;;;;x
+c_itaguara;Itaguara;Itaguara;Itaguara;;Itaguara;;;;;;;;;x
+c_itaguara_adj;Itaguaran;;itaguarer;;;;;;;;;;;x
+c_itajai;Itajaí;Itajaí;Itajaí;;Itajaí;;;;;;;;;x
+c_itajai_adj;Itajaíian;;itajaíer;;;;;;;;;;;x
+c_itamaraca;Itamaracá;Itamaracá;Itamaracá;;Itamaracá;;;;;;;;;x
+c_itamaraca_adj;Itamaracáian;;itamaracáer;;;;;;;;;;;x
+c_itaquara;Itaquara;;;;;;;;;;;;x
+c_itaquara_adj;Itaquarean;;;;;;;;;;;;x
+c_itanhaem;Itanhaém;Itanhaém;Itanhaém;;Itanhaém;;;;;;;;;x
+c_itanhaem_adj;Itanhaémian;;itanhaémer;;;;;;;;;;;x
+c_itanhem;Itanhém;Itanhém;Itanhém;;Itanhém;;;;;;;;;x
+c_itanhem_adj;Itanhémian;;itanhémer;;;;;;;;;;;x
+c_itaobim;Itaobim;Itaobim;Itaobim;;Itaobim;;;;;;;;;x
+c_itaobim_adj;Itaobimian;;itaobimer;;;;;;;;;;;x
+c_itaparica;Itaparica;Itaparica;Itaparica;;Itaparica;;;;;;;;;x
+c_itaparica_adj;Itaparican;;itaparicer;;;;;;;;;;;x
+c_itaparica_2;Itaparica;Itaparica;Itaparica;;Itaparica;;;;;;;;;x
+c_itaparica_2_adj;Itaparican;;itaparicer;;;;;;;;;;;x
+c_itape;Itapé;;;;;;;;;;;;x
+c_itape_adj;Itapean;;;;;;;;;;;;x
+c_itapemirim;Itapemirim;Itapemirim;Itapemirim;;Itapemirim;;;;;;;;;x
+c_itapemirim_adj;Itapemirimian;;itapemirimer;;;;;;;;;;;x
+c_itaperuna;Itaperuna;Itaperuna;Itaperuna;;Itaperuna;;;;;;;;;x
+c_itaperuna_adj;Itaperunan;;itaperuner;;;;;;;;;;;x
+c_itapetininga;Itapetininga;Itapetininga;Itapetininga;;Itapetininga;;;;;;;;;x
+c_itapetininga_adj;Itapetiningan;;itapetininger;;;;;;;;;;;x
+c_itapeva;Itapeva;Itapeva;Itapeva;;Itapeva;;;;;;;;;x
+c_itapeva_adj;Itapevan;;itapever;;;;;;;;;;;x
+c_itapicuru;Itapicuru;Itapicuru;Itapicuru;;Itapicuru;;;;;;;;;x
+c_itapicuru_adj;Itapicurian;;itapicurer;;;;;;;;;;;x
+c_itaporanga;Itaporanga;Itaporanga;Itaporanga;;Itaporanga;;;;;;;;;x
+c_itaporanga_adj;Itaporangan;;itaporanger;;;;;;;;;;;x
+c_itapua;Itapua;Itapua;Itapua;;Itapua;;;;;;;;;x
+c_itapua_adj;Itapuan;;itaper;;;;;;;;;;;x
+c_itaqui;Itaqui;Itaqui;Itaqui;;Itaqui;;;;;;;;;x
+c_itaqui_adj;Itaqian;;itaqer;;;;;;;;;;;x
+c_itarana;Itarana;Itarana;Itarana;;Itarana;;;;;;;;;x
+c_itarana_adj;Itaranan;;itaraner;;;;;;;;;;;x
+c_itata;Itata;Itata;Itata;;Itata;;;;;;;;;x
+c_itata_adj;Itatan;;itater;;;;;;;;;;;x
+c_itiuba;Itiúba;Itiúba;Itiúba;;Itiúba;;;;;;;;;x
+c_itiuba_adj;Itiúban;;itiúber;;;;;;;;;;;x
+c_itubera;Ituberã;;;;;;;;;;;;x
+c_itubera_adj;Ituberanian;;;;;;;;;;;;x
+c_ituiutaba;Ituiutaba;Ituiutaba;Ituiutaba;;Ituiutaba;;;;;;;;;x
+c_ituiutaba_adj;Ituiutaban;;ituiutaber;;;;;;;;;;;x
+c_itumbiara;Itumbiara;Itumbiara;Itumbiara;;Itumbiara;;;;;;;;;x
+c_itumbiara_adj;Itumbiaran;;itumbiarer;;;;;;;;;;;x
+c_iturralde;Iturralde;Iturralde;Iturralde;;Iturralde;;;;;;;;;x
+c_iturralde_adj;Iturraldean;;iturralder;;;;;;;;;;;x
+c_jabaucu;Jabauçu;Jabauçu;Jabauçu;;Jabauçu;;;;;;;;;x
+c_jabaucu_adj;Jabauçian;;jabauçer;;;;;;;;;;;x
+c_jacareacanga;Jacareacanga;Jacareacanga;Jacareacanga;;Jacareacanga;;;;;;;;;x
+c_jacareacanga_adj;Jacareacangan;;jacareacanger;;;;;;;;;;;x
+c_jachal;Jachal;Jachal;Jachal;;Jachal;;;;;;;;;x
+c_jachal_adj;Jachalian;;jachaler;;;;;;;;;;;x
+c_jaciara;Jaciara;Jaciara;Jaciara;;Jaciara;;;;;;;;;x
+c_jaciara_adj;Jaciaran;;jaciarer;;;;;;;;;;;x
+c_jacobacci;Jacobacci;Jacobacci;Jacobacci;;Jacobacci;;;;;;;;;x
+c_jacobacci_adj;Jacobaccian;;jacobaccer;;;;;;;;;;;x
+c_jaen;Jaén;Jaén;Jaén;;Jaén;;;;;;;;;x
+c_jaen_adj;Jaénian;;jaéner;;;;;;;;;;;x
+c_jaguara_do_sul;Jaguará do Sul;Jaguará do Sul;Jaguará do Sul;;Jaguará do Sul;;;;;;;;;x
+c_jaguara_do_sul_adj;Jaguará do Sulian;;Jaguará do Suler;;;;;;;;;;;x
+c_jaguarao;Jaguarão;Jaguarão;Jaguarão;;Jaguarão;;;;;;;;;x
+c_jaguarao_adj;Jaguarãian;;jaguarãer;;;;;;;;;;;x
+c_janauba;Janaúba;Janaúba;Janaúba;;Janaúba;;;;;;;;;x
+c_janauba_adj;Janaúban;;janaúber;;;;;;;;;;;x
+c_januaria;Januária;Januária;Januária;;Januária;;;;;;;;;x
+c_januaria_adj;Januárian;;januárer;;;;;;;;;;;x
+c_japaratinga;Japaratinga;Japaratinga;Japaratinga;;Japaratinga;;;;;;;;;x
+c_japaratinga_adj;Japaratingan;;japaratinger;;;;;;;;;;;x
+c_japaratuba;Japaratuba;Japaratuba;Japaratuba;;Japaratuba;;;;;;;;;x
+c_japaratuba_adj;Japaratuban;;japaratuber;;;;;;;;;;;x
+c_jatai;Jataí;Jataí;Jataí;;Jataí;;;;;;;;;x
+c_jatai_adj;Jataíian;;jataíer;;;;;;;;;;;x
+c_javari;Javari;Javari;Javari;;Javari;;;;;;;;;x
+c_javari_adj;Javarian;;javarer;;;;;;;;;;;x
+c_jequie;Jequié;Jequié;Jequié;;Jequié;;;;;;;;;x
+c_jequie_adj;Jequiéian;;jequiéer;;;;;;;;;;;x
+c_joao_pessoa;João Pessoa;João Pessoa;João Pessoa;;João Pessoa;;;;;;;;;x
+c_joao_pessoa_adj;João Pessoan;;João Pesser;;;;;;;;;;;x
+c_joao_pinheiro;João Pinheiro;João Pinheiro;João Pinheiro;;João Pinheiro;;;;;;;;;x
+c_joao_pinheiro_adj;João Pinheirian;;João Pinheirer;;;;;;;;;;;x
+c_joinville;Joinville;Joinville;Joinville;;Joinville;;;;;;;;;x
+c_joinville_adj;Joinvillean;;joinviller;;;;;;;;;;;x
+c_juara;Juara;Juara;Juara;;Juara;;;;;;;;;x
+c_juara_adj;Juaran;;juarer;;;;;;;;;;;x
+c_juarez;Juarez;Juarez;Juarez;;Juarez;;;;;;;;;x
+c_juarez_adj;Juarezian;;juarezer;;;;;;;;;;;x
+c_juazeiro;Juazeiro;Juazeiro;Juazeiro;;Juazeiro;;;;;;;;;x
+c_juazeiro_adj;Juazeirian;;juazeirer;;;;;;;;;;;x
+c_juina;Juína;Juína;Juína;;Juína;;;;;;;;;x
+c_juina_adj;Juínan;;juíner;;;;;;;;;;;x
+c_juiz_de_fora;Juiz de Fora;Juiz de Fora;Juiz de Fora;;Juiz de Fora;;;;;;;;;x
+c_juiz_de_fora_adj;Juiz de Foran;;Juiz de Forer;;;;;;;;;;;x
+c_jundiai;Jundiaí;Jundiaí;Jundiaí;;Jundiaí;;;;;;;;;x
+c_jundiai_adj;Jundiaiense;;Jundiaiense;;;;;;;;;;;x
+c_junin;Junin;Junin;Junin;;Junin;;;;;;;;;x
+c_junin_adj;Juninian;;juniner;;;;;;;;;;;x
+c_jurua;Jurúa;Jurúa;Jurúa;;Jurúa;;;;;;;;;x
+c_jurua_adj;Jurúan;;jurúer;;;;;;;;;;;x
+c_juruti;Juruti;Juruti;Juruti;;Juruti;;;;;;;;;x
+c_juruti_adj;Jurutian;;juruter;;;;;;;;;;;x
+c_kadiweu;Kadiwéu;Kadiwéu;Kadiwéu;;Kadiwéu;;;;;;;;;x
+c_kadiweu_adj;Kadiwéian;;kadiwéer;;;;;;;;;;;x
+c_kandu;Kandu;Kandu;Kandu;;Kandu;;;;;;;;;x
+c_kandu_adj;Kandian;;kander;;;;;;;;;;;x
+c_la_docta;La Docta;La Docta;La Docta;;La Docta;;;;;;;;;x
+c_la_docta_adj;La Doctan;;La Docter;;;;;;;;;;;x
+c_la_paz;La Paz;La Paz;La Paz;;La Paz;;;;;;;;;x
+c_la_paz_adj;La Pazian;;La Pazer;;;;;;;;;;;x
+c_la_plata;La Plata;La Plata;La Plata;;La Plata;;;;;;;;;x
+c_la_plata_adj;La Platan;;La Plater;;;;;;;;;;;x
+c_la_punta;La Punta;La Punta;La Punta;;La Punta;;;;;;;;;x
+c_la_punta_adj;La Puntan;;La Punter;;;;;;;;;;;x
+c_la_rioja;La Rioja;La Rioja;La Rioja;;La Rioja;;;;;;;;;x
+c_la_rioja_adj;La Riojan;;La Riojer;;;;;;;;;;;x
+c_labouyale;Labouyale;Labouyale;Labouyale;;Labouyale;;;;;;;;;x
+c_labouyale_adj;Labouyalean;;labouyaler;;;;;;;;;;;x
+c_lacar;Lácar;Lácar;Lácar;;Lácar;;;;;;;;;x
+c_lacar_adj;Lácarian;;lácarer;;;;;;;;;;;x
+c_lafonia;Lafonia;Lafonia;Lafonia;;Lafonia;;;;;;;;;x
+c_lafonia_adj;Lafonian;;lafoner;;;;;;;;;;;x
+c_lageado;Lageado;Lageado;Lageado;;Lageado;;;;;;;;;x
+c_lageado_adj;Lageadian;;lageader;;;;;;;;;;;x
+c_lagerenza;Lagerenza;Lagerenza;Lagerenza;;Lagerenza;;;;;;;;;x
+c_lagerenza_adj;Lagerenzan;;lagerenzer;;;;;;;;;;;x
+c_lages;Lages;Lages;Lages;;Lages;;;;;;;;;x
+c_lages_adj;Lagesian;;lageser;;;;;;;;;;;x
+c_lago_argentino;Lago Argentino;Lago Argentino;Lago Argentino;;Lago Argentino;;;;;;;;;x
+c_lago_argentino_adj;Lago Argentinian;;Lago Argentiner;;;;;;;;;;;x
+c_lago_do_rei;Lago do Rei;Lago do Rei;Lago do Rei;;Lago do Rei;;;;;;;;;x
+c_lago_do_rei_adj;Lago do Rian;;Lago do Rer;;;;;;;;;;;x
+c_laguna;Laguna;Laguna;Laguna;;Laguna;;;;;;;;;x
+c_laguna_adj;Lagunan;;laguner;;;;;;;;;;;x
+c_lagunillas;Lagunillas;Lagunillas;Lagunillas;;Lagunillas;;;;;;;;;x
+c_lagunillas_adj;Lagunillasian;;lagunillaser;;;;;;;;;;;x
+c_lambayeque;Lambayeque;Lambayeque;Lambayeque;;Lambayeque;;;;;;;;;x
+c_lambayeque_adj;Lambayequean;;lambayeqer;;;;;;;;;;;x
+c_lapa;Lapa;Lapa;Lapa;;Lapa;;;;;;;;;x
+c_lapa_adj;Lapan;;laper;;;;;;;;;;;x
+c_larecaja;Larecaja;Larecaja;Larecaja;;Larecaja;;;;;;;;;x
+c_larecaja_adj;Larecajan;;larecajer;;;;;;;;;;;x
+c_las_flores;Las Flores;Las Flores;Las Flores;;Las Flores;;;;;;;;;x
+c_las_flores_adj;Las Floresian;;Las Floreser;;;;;;;;;;;x
+c_las_perlas;Las Perlas;Las Perlas;Las Perlas;;Las Perlas;;;;;;;;;x
+c_las_perlas_adj;Las Perlasian;;Las Perlaser;;;;;;;;;;;x
+c_leoncio_prado;Leoncio Prado;Leoncio Prado;Leoncio Prado;;Leoncio Prado;;;;;;;;;x
+c_leoncio_prado_adj;Leoncio Pradian;;Leoncio Prader;;;;;;;;;;;x
+c_leopoldina;Leopoldina;Leopoldina;Leopoldina;;Leopoldina;;;;;;;;;x
+c_leopoldina_adj;Leopoldinan;;leopoldiner;;;;;;;;;;;x
+c_lima;Lima;Lima;Lima;;Lima;;;;;;;;;x
+c_lima_adj;Liman;;limer;;;;;;;;;;;x
+c_lima_duarte;Lima Duarte;Lima Duarte;Lima Duarte;;Lima Duarte;;;;;;;;;x
+c_lima_duarte_adj;Lima Duartean;;Lima Duarter;;;;;;;;;;;x
+c_limeira;Limeira;Limeira;Limeira;;Limeira;;;;;;;;;x
+c_limeira_adj;Limeiran;;limeirer;;;;;;;;;;;x
+c_linares;Linares;Linares;Linares;;Linares;;;;;;;;;x
+c_linares_adj;Linaresian;;linareser;;;;;;;;;;;x
+c_linhares;Linhares;Linhares;Linhares;;Linhares;;;;;;;;;x
+c_linhares_adj;Linharesian;;linhareser;;;;;;;;;;;x
+c_lins;Lins;Lins;Lins;;Lins;;;;;;;;;x
+c_lins_adj;Linsian;;linser;;;;;;;;;;;x
+c_loberia;Loberia;Loberia;Loberia;;Loberia;;;;;;;;;x
+c_loberia_adj;Loberian;;loberer;;;;;;;;;;;x
+c_loja;Loja;Loja;Loja;;Loja;;;;;;;;;x
+c_loja_adj;Lojan;;lojer;;;;;;;;;;;x
+c_londrina;Londrina;Londrina;Londrina;;Londrina;;;;;;;;;x
+c_londrina_adj;Londrinan;;londriner;;;;;;;;;;;x
+c_loreto;Loreto;Loreto;Loreto;;Loreto;;;;;;;;;x
+c_loreto_adj;Loretian;;loreter;;;;;;;;;;;x
+c_los_vilos;Los Vilos;Los Vilos;Los Vilos;;Los Vilos;;;;;;;;;x
+c_los_vilos_adj;Los Vilosian;;Los Viloser;;;;;;;;;;;x
+c_lucanas;Lucanas;Lucanas;Lucanas;;Lucanas;;;;;;;;;x
+c_lucanas_adj;Lucanasian;;lucanaser;;;;;;;;;;;x
+c_lujan;Lujan;Lujan;Lujan;;Lujan;;;;;;;;;x
+c_lujan_adj;Lujanian;;lujaner;;;;;;;;;;;x
+c_luro;Luro;Luro;Luro;;Luro;;;;;;;;;x
+c_luro_adj;Lurian;;lurer;;;;;;;;;;;x
+c_luziania;Luziania;Luziania;Luziania;;Luziania;;;;;;;;;x
+c_luziania_adj;Luzianian;;luzianer;;;;;;;;;;;x
+c_luzilandia;Luzilândia;Luzilândia;Luzilândia;;Luzilândia;;;;;;;;;x
+c_luzilandia_adj;Luzilândian;;luzilânder;;;;;;;;;;;x
+c_macachin;Macachin;Macachin;Macachin;;Macachin;;;;;;;;;x
+c_macachin_adj;Macachinian;;macachiner;;;;;;;;;;;x
+c_macae;Macaé;Macaé;Macaé;;Macaé;;;;;;;;;x
+c_macae_adj;Macaéian;;macaéer;;;;;;;;;;;x
+c_macapa;Macapá;Macapá;Macapá;;Macapá;;;;;;;;;x
+c_macapa_adj;Macapáian;;macapáer;;;;;;;;;;;x
+c_macau;Macau;Macau;Macau;;Macau;;;;;;;;;x
+c_macau_adj;Macian;;macer;;;;;;;;;;;x
+c_macaubas;Macaúbas;Macaúbas;Macaúbas;;Macaúbas;;;;;;;;;x
+c_macaubas_adj;Macaúbasian;;macaúbaser;;;;;;;;;;;x
+c_maceio;Maceió;Maceió;Maceió;;Maceió;;;;;;;;;x
+c_maceio_adj;Maceióian;;maceióer;;;;;;;;;;;x
+c_madariaga;Madariaga;Madariaga;Madariaga;;Madariaga;;;;;;;;;x
+c_madariaga_adj;Madariagan;;madariager;;;;;;;;;;;x
+c_madre_de_dios;Madre de Dios;Madre de Dios;Madre de Dios;;Madre de Dios;;;;;;;;;x
+c_madre_de_dios_adj;Madre de Diosian;;Madre de Dioser;;;;;;;;;;;x
+c_madryn;Madryn;Madryn;Madryn;;Madryn;;;;;;;;;x
+c_madryn_adj;Madrynian;;madryner;;;;;;;;;;;x
+c_mafra;Mafra;Mafra;Mafra;;Mafra;;;;;;;;;x
+c_mafra_adj;Mafran;;mafrer;;;;;;;;;;;x
+c_magallanes;Magallanes;Magallanes;Magallanes;;Magallanes;;;;;;;;;x
+c_magallanes_adj;Magallanesian;;magallaneser;;;;;;;;;;;x
+c_malacacheta;Malacacheta;Malacacheta;Malacacheta;;Malacacheta;;;;;;;;;x
+c_malacacheta_adj;Malacachetan;;malacacheter;;;;;;;;;;;x
+c_malargue;Malargue;Malargue;Malargue;;Malargue;;;;;;;;;x
+c_malargue_adj;Malarguean;;malarger;;;;;;;;;;;x
+c_maldonado_lavalleja;Maldonado-Lavalleja;Maldonado-Lavalleja;Maldonado-Lavalleja;;Maldonado-Lavalleja;;;;;;;;;x
+c_maldonado_lavalleja_adj;Maldonado-Lavallejan;;maldonado-lavallejer;;;;;;;;;;;x
+c_malleco;Malleco;Malleco;Malleco;;Malleco;;;;;;;;;x
+c_malleco_adj;Mallecian;;mallecer;;;;;;;;;;;x
+c_manabi;Manabí;Manabí;Manabí;;Manabí;;;;;;;;;x
+c_manabi_adj;Manabíian;;manabíer;;;;;;;;;;;x
+c_manaus;Manaus;Manaus;Manaus;;Manaus;;;;;;;;;x
+c_manaus_adj;Manausian;;manauser;;;;;;;;;;;x
+c_mancapuru;Mancapuru;Mancapuru;Mancapuru;;Mancapuru;;;;;;;;;x
+c_mancapuru_adj;Mancapurian;;mancapurer;;;;;;;;;;;x
+c_mancio_lima;Mâncio Lima;Mâncio Lima;Mâncio Lima;;Mâncio Lima;;;;;;;;;x
+c_mancio_lima_adj;Mâncio Liman;;Mâncio Limer;;;;;;;;;;;x
+c_mangabeiras;Mangabeiras;Mangabeiras;Mangabeiras;;Mangabeiras;;;;;;;;;x
+c_mangabeiras_adj;Mangabeirasian;;mangabeiraser;;;;;;;;;;;x
+c_mangaratiba;Mangaratiba;Mangaratiba;Mangaratiba;;Mangaratiba;;;;;;;;;x
+c_mangaratiba_adj;Mangaratiban;;mangaratiber;;;;;;;;;;;x
+c_manhancu;Manhancu;Manhancu;Manhancu;;Manhancu;;;;;;;;;x
+c_manhancu_adj;Manhancian;;manhancer;;;;;;;;;;;x
+c_manoel_urbano;Manoel Urbano;Manoel Urbano;Manoel Urbano;;Manoel Urbano;;;;;;;;;x
+c_manoel_urbano_adj;Manoel Urbanian;;Manoel Urbaner;;;;;;;;;;;x
+c_mar_del_plata;Mar del Plata;Mar del Plata;Mar del Plata;;Mar del Plata;;;;;;;;;x
+c_mar_del_plata_adj;Mar del Platan;;Mar del Plater;;;;;;;;;;;x
+c_marechal_thaumaturgo;Marechal Thaumaturgo;Marechal Thaumaturgo;Marechal Thaumaturgo;;Marechal Thaumaturgo;;;;;;;;;x
+c_marechal_thaumaturgo_adj;Marechal Thaumaturgian;;Marechal Thaumaturger;;;;;;;;;;;x
+c_marga_marga;Marga Marga;Marga Marga;Marga Marga;;Marga Marga;;;;;;;;;x
+c_marga_marga_adj;Marga Margan;;Marga Marger;;;;;;;;;;;x
+c_marilia;Marília;Marília;Marília;;Marília;;;;;;;;;x
+c_marilia_adj;Marílian;;maríler;;;;;;;;;;;x
+c_maringa;Maringá;Maringá;Maringá;;Maringá;;;;;;;;;x
+c_maringa_adj;Maringáian;;maringáer;;;;;;;;;;;x
+c_matrincha;Matrinchã;Matrinchã;Matrinchã;;Matrinchã;;;;;;;;;x
+c_matrincha_adj;Matrinchãian;;matrinchãer;;;;;;;;;;;x
+c_maynas;Maynas;Maynas;Maynas;;Maynas;;;;;;;;;x
+c_maynas_adj;Maynasian;;maynaser;;;;;;;;;;;x
+c_mazagao;Mazagão;Mazagão;Mazagão;;Mazagão;;;;;;;;;x
+c_mazagao_adj;Mazagãian;;mazagãer;;;;;;;;;;;x
+c_mbaracayu;Mbaracayu;Mbaracayu;Mbaracayu;;Mbaracayu;;;;;;;;;x
+c_mbaracayu_adj;Mbaracaian;;mbaracaer;;;;;;;;;;;x
+c_medio_jaguaribe;Médio Jaguaribe;Médio Jaguaribe;Médio Jaguaribe;;Médio Jaguaribe;;;;;;;;;x
+c_medio_jaguaribe_adj;Médio Jaguaribean;;Médio Jaguariber;;;;;;;;;;;x
+c_melipilla;Melipilla;Melipilla;Melipilla;;Melipilla;;;;;;;;;x
+c_melipilla_adj;Melipillan;;melipiller;;;;;;;;;;;x
+c_mercedes;Mercedes;Mercedes;Mercedes;;Mercedes;;;;;;;;;x
+c_mercedes_adj;Mercedesian;;mercedeser;;;;;;;;;;;x
+c_misiones;Misiones;Misiones;Misiones;;Misiones;;;;;;;;;x
+c_misiones_adj;Misionesian;;misioneser;;;;;;;;;;;x
+c_mocajuba;Mocajuba;Mocajuba;Mocajuba;;Mocajuba;;;;;;;;;x
+c_mocajuba_adj;Mocajuban;;mocajuber;;;;;;;;;;;x
+c_mogi_das_cruzes;Mogi das Cruzes;Mogi das Cruzes;Mogi das Cruzes;;Mogi das Cruzes;;;;;;;;;x
+c_mogi_das_cruzes_adj;Mogi das Cruzesian;;Mogi das Cruzeser;;;;;;;;;;;x
+c_mogi_guacu;Mogi-Guaçu;Mogi-Guaçu;Mogi-Guaçu;;Mogi-Guaçu;;;;;;;;;x
+c_mogi_guacu_adj;Mogi-Guaçian;;mogi-guaçer;;;;;;;;;;;x
+c_moises;Moisés;Moisés;Moisés;;Moisés;;;;;;;;;x
+c_moises_adj;Moisésian;;moiséser;;;;;;;;;;;x
+c_monte;Monte;Monte;Monte;;Monte;;;;;;;;;x
+c_monte_adj;Montean;;monter;;;;;;;;;;;x
+c_monte_alegre_de_minas;Monte Alegre de Minas;Monte Alegre de Minas;Monte Alegre de Minas;;Monte Alegre de Minas;;;;;;;;;x
+c_monte_alegre_de_minas_adj;Monte Alegre de Minasian;;Monte Alegre de Minaser;;;;;;;;;;;x
+c_monte_alto;Monte Alto;Monte Alto;Monte Alto;;Monte Alto;;;;;;;;;x
+c_monte_alto_adj;Monte Altian;;Monte Alter;;;;;;;;;;;x
+c_monte_grande;Monte Grande;Monte Grande;Monte Grande;;Monte Grande;;;;;;;;;x
+c_monte_grande_adj;Monte Grandean;;Monte Grander;;;;;;;;;;;x
+c_monte_patria;Monte Patria;Monte Patria;Monte Patria;;Monte Patria;;;;;;;;;x
+c_monte_patria_adj;Monte Patrian;;Monte Patrer;;;;;;;;;;;x
+c_montes_claros;Montes Claros;Montes Claros;Montes Claros;;Montes Claros;;;;;;;;;x
+c_montes_claros_adj;Montes Clarosian;;Montes Claroser;;;;;;;;;;;x
+c_montevideo;Montevideo;Montevideo;Montevideo;;Montevideo;;;;;;;;;x
+c_montevideo_adj;Montevidian;;montevider;;;;;;;;;;;x
+c_moquegua;Moquegua;Moquegua;Moquegua;;Moquegua;;;;;;;;;x
+c_moquegua_adj;Moqueguan;;moqueger;;;;;;;;;;;x
+c_morona_santiago;Morona Santiago;Morona Santiago;Morona Santiago;;Morona Santiago;;;;;;;;;x
+c_morona_santiago_adj;Morona Santiagian;;Morona Santiager;;;;;;;;;;;x
+c_mossoro;Mossoró;Mossoró;Mossoró;;Mossoró;;;;;;;;;x
+c_mossoro_adj;Mossoróian;;mossoróer;;;;;;;;;;;x
+c_mostardas;Mostardas;Mostardas;Mostardas;;Mostardas;;;;;;;;;x
+c_mostardas_adj;Mostardasian;;mostardaser;;;;;;;;;;;x
+c_moxos;Moxos;Moxos;Moxos;;Moxos;;;;;;;;;x
+c_moxos_adj;Moxosian;;moxoser;;;;;;;;;;;x
+c_moxoto;Moxotó;Moxotó;Moxotó;;Moxotó;;;;;;;;;x
+c_moxoto_adj;Moxotóian;;moxotóer;;;;;;;;;;;x
+c_muana;Muaná;Muaná;Muaná;;Muaná;;;;;;;;;x
+c_muana_adj;Muanáian;;muanáer;;;;;;;;;;;x
+c_mucuri;Mucuri;Mucuri;Mucuri;;Mucuri;;;;;;;;;x
+c_mucuri_adj;Mucurian;;mucurer;;;;;;;;;;;x
+c_muriae;Muriae;Muriae;Muriae;;Muriae;;;;;;;;;x
+c_muriae_adj;Muriaean;;murer;;;;;;;;;;;x
+c_mutuipe;Mutuípe;;;;;;;;;;;;x
+c_mutuipe_adj;Mutuipean;;;;;;;;;;;;x
+c_mutum;Mutum;Mutum;Mutum;;Mutum;;;;;;;;;x
+c_mutum_adj;Mutumian;;mutumer;;;;;;;;;;;x
+c_nanuque;Nanuque;Nanuque;Nanuque;;Nanuque;;;;;;;;;x
+c_nanuque_adj;Nanuquean;;nanuqer;;;;;;;;;;;x
+c_napo;Napo;Napo;Napo;;Napo;;;;;;;;;x
+c_napo_adj;Napian;;naper;;;;;;;;;;;x
+c_natal;Natal;Natal;Natal;;Natal;;;;;;;;;x
+c_natal_adj;Natalian;;nataler;;;;;;;;;;;x
+c_nazca;Nazca;Nazca;Nazca;;Nazca;;;;;;;;;x
+c_nazca_adj;Nazcan;;nazcer;;;;;;;;;;;x
+c_necochea;Necochea;Necochea;Necochea;;Necochea;;;;;;;;;x
+c_necochea_adj;Necochean;;necocher;;;;;;;;;;;x
+c_neuquen;Neuquén;Neuquén;Neuquén;;Neuquén;;;;;;;;;x
+c_neuquen_adj;Neuquénian;;neuquéner;;;;;;;;;;;x
+c_niteroi;Niterói;Niterói;Niterói;;Niterói;;;;;;;;;x
+c_niteroi_adj;Niteróian;;niteróer;;;;;;;;;;;x
+c_nova_cruz;Nova Cruz;Nova Cruz;Nova Cruz;;Nova Cruz;;;;;;;;;x
+c_nova_cruz_adj;Nova Cruzian;;Nova Cruzer;;;;;;;;;;;x
+c_nova_friburgo;Nova Friburgo;Nova Friburgo;Nova Friburgo;;Nova Friburgo;;;;;;;;;x
+c_nova_friburgo_adj;Nova Friburgian;;Nova Friburger;;;;;;;;;;;x
+c_nova_iguacu;Nova Iguaçu;Nova Iguaçu;Nova Iguaçu;;Nova Iguaçu;;;;;;;;;x
+c_nova_iguacu_adj;Nova Iguaçian;;Nova Iguaçer;;;;;;;;;;;x
+c_nova_mamore;Nova Mamoré;Nova Mamoré;Nova Mamoré;;Nova Mamoré;;;;;;;;;x
+c_nova_mamore_adj;Nova Mamoréian;;Nova Mamoréer;;;;;;;;;;;x
+c_novo_airao;Novo Airão;Novo Airão;Novo Airão;;Novo Airão;;;;;;;;;x
+c_novo_airao_adj;Novo Airãian;;Novo Airãer;;;;;;;;;;;x
+c_novo_hamburgo;Novo Hamburgo;Novo Hamburgo;Novo Hamburgo;;Novo Hamburgo;;;;;;;;;x
+c_novo_hamburgo_adj;Novo Hamburgian;;Novo Hamburger;;;;;;;;;;;x
+c_novo_repartimento;Novo Repartimento;Novo Repartimento;Novo Repartimento;;Novo Repartimento;;;;;;;;;x
+c_novo_repartimento_adj;Novo Repartimentian;;Novo Repartimenter;;;;;;;;;;;x
+c_nueva_imperial;Nueva Imperial;Nueva Imperial;Nueva Imperial;;Nueva Imperial;;;;;;;;;x
+c_nueva_imperial_adj;Nueva Imperialian;;Nueva Imperialer;;;;;;;;;;;x
+c_nueva_oran;Nueva Oran;Nueva Oran;Nueva Oran;;Nueva Oran;;;;;;;;;x
+c_nueva_oran_adj;Nueva Oranian;;Nueva Oraner;;;;;;;;;;;x
+c_nuflo;Ñuflo;Ñuflo;Ñuflo;;Ñuflo;;;;;;;;;x
+c_nuflo_adj;Ñuflian;;ñufler;;;;;;;;;;;x
+c_obera;Obera;Obera;Obera;;Obera;;;;;;;;;x
+c_obera_adj;Oberan;;oberer;;;;;;;;;;;x
+c_obligado;Obligado;Obligado;Obligado;;Obligado;;;;;;;;;x
+c_obligado_adj;Obligadian;;obligader;;;;;;;;;;;x
+c_oiapoque;Oiapoque;Oiapoque;Oiapoque;;Oiapoque;;;;;;;;;x
+c_oiapoque_adj;Oiapoquean;;oiapoqer;;;;;;;;;;;x
+c_olivia;Olivia;Olivia;Olivia;;Olivia;;;;;;;;;x
+c_olivia_adj;Olivian;;oliver;;;;;;;;;;;x
+c_orellana;Orellana;Orellana;Orellana;;Orellana;;;;;;;;;x
+c_orellana_adj;Orellanan;;orellaner;;;;;;;;;;;x
+c_oriximana;Oriximaná;Oriximaná;Oriximaná;;Oriximaná;;;;;;;;;x
+c_oriximana_adj;Oriximanáian;;oriximanáer;;;;;;;;;;;x
+c_orizona;Orizona;Orizona;Orizona;;Orizona;;;;;;;;;x
+c_orizona_adj;Orizonan;;orizoner;;;;;;;;;;;x
+c_oruro;Oruro;Oruro;Oruro;;Oruro;;;;;;;;;x
+c_oruro_adj;Orurian;;orurer;;;;;;;;;;;x
+c_osasco;Osasco;Osasco;Osasco;;Osasco;;;;;;;;;x
+c_osasco_adj;Osascian;;osascer;;;;;;;;;;;x
+c_osorio;Osório;Osório;Osório;;Osório;;;;;;;;;x
+c_osorio_adj;Osórian;;osórer;;;;;;;;;;;x
+c_osorno;Osorno;Osorno;Osorno;;Osorno;;;;;;;;;x
+c_osorno_adj;Osornian;;osorner;;;;;;;;;;;x
+c_ourolandia;Ourolândia;;;;;;;;;;;;x
+c_ourolandia_adj;Ourolandian;;;;;;;;;;;;x
+c_ouro_preto;Ouro Preto;Ouro Preto;Ouro Preto;;Ouro Preto;;;;;;;;;x
+c_ouro_preto_adj;Ouro Pretian;;Ouro Preter;;;;;;;;;;;x
+c_ovalle;Ovalle;Ovalle;Ovalle;;Ovalle;;;;;;;;;x
+c_ovalle_adj;Ovallean;;ovaller;;;;;;;;;;;x
+c_oxapampa;Oxapampa;Oxapampa;Oxapampa;;Oxapampa;;;;;;;;;x
+c_oxapampa_adj;Oxapampan;;oxapamper;;;;;;;;;;;x
+c_pajeu;Pajeú;Pajeú;Pajeú;;Pajeú;;;;;;;;;x
+c_pajeu_adj;Pajeúian;;pajeúer;;;;;;;;;;;x
+c_palena;Palena;Palena;Palena;;Palena;;;;;;;;;x
+c_palena_adj;Palenan;;palener;;;;;;;;;;;x
+c_palmas;Palmas;Palmas;Palmas;;Palmas;;;;;;;;;x
+c_palmas_adj;Palmasian;;palmaser;;;;;;;;;;;x
+c_palmeira_das_missoes;Palmeira das Missões;Palmeira das Missões;Palmeira das Missões;;Palmeira das Missões;;;;;;;;;x
+c_palmeira_das_missoes_adj;Palmeira das Missõesian;;Palmeira das Missõeser;;;;;;;;;;;x
+c_palmeirais;Palmeirais;Palmeirais;Palmeirais;;Palmeirais;;;;;;;;;x
+c_palmeirais_adj;Palmeiraisian;;palmeiraiser;;;;;;;;;;;x
+c_pando;Pando;Pando;Pando;;Pando;;;;;;;;;x
+c_pando_adj;Pandian;;pander;;;;;;;;;;;x
+c_panguipulli;Panguipulli;Panguipulli;Panguipulli;;Panguipulli;;;;;;;;;x
+c_panguipulli_adj;Panguipullian;;panguipuller;;;;;;;;;;;x
+c_paracatu;Paracatu;Paracatu;Paracatu;;Paracatu;;;;;;;;;x
+c_paracatu_adj;Paracatian;;paracater;;;;;;;;;;;x
+c_paragominas;Paragominas;Paragominas;Paragominas;;Paragominas;;;;;;;;;x
+c_paragominas_adj;Paragominasian;;paragominaser;;;;;;;;;;;x
+c_paraiso_no_tocantins;Paraíso no Tocantins;Paraíso no Tocantins;Paraíso no Tocantins;;Paraíso no Tocantins;;;;;;;;;x
+c_paraiso_no_tocantins_adj;Paraíso no Tocantinsian;;Paraíso no Tocantinser;;;;;;;;;;;x
+c_parana;Parana;Parana;Parana;;Parana;;;;;;;;;x
+c_parana_adj;Paranan;;paraner;;;;;;;;;;;x
+c_paranagua;Paranaguá;Paranaguá;Paranaguá;;Paranaguá;;;;;;;;;x
+c_paranagua_adj;Paranaguáian;;paranaguáer;;;;;;;;;;;x
+c_paratinga;Paratinga;Paratinga;Paratinga;;Paratinga;;;;;;;;;x
+c_paratinga_adj;Paratingan;;paratinger;;;;;;;;;;;x
+c_paraty;Paraty;Paraty;Paraty;;Paraty;;;;;;;;;x
+c_paraty_adj;Paratian;;parater;;;;;;;;;;;x
+c_parinacota;Parinacota;Parinacota;Parinacota;;Parinacota;;;;;;;;;x
+c_parinacota_adj;Parinacotan;;parinacoter;;;;;;;;;;;x
+c_parnagua;Parnaguá;Parnaguá;Parnaguá;;Parnaguá;;;;;;;;;x
+c_parnagua_adj;Parnaguáian;;parnaguáer;;;;;;;;;;;x
+c_parnaiba;Parnaíba;Parnaíba;Parnaíba;;Parnaíba;;;;;;;;;x
+c_parnaiba_adj;Parnaíban;;parnaíber;;;;;;;;;;;x
+c_pasco;Pasco;Pasco;Pasco;;Pasco;;;;;;;;;x
+c_pasco_adj;Pascian;;pascer;;;;;;;;;;;x
+c_passo_fundo;Passo Fundo;Passo Fundo;Passo Fundo;;Passo Fundo;;;;;;;;;x
+c_passo_fundo_adj;Passo Fundian;;Passo Funder;;;;;;;;;;;x
+c_pastaza;Pastaza;Pastaza;Pastaza;;Pastaza;;;;;;;;;x
+c_pastaza_adj;Pastazan;;pastazer;;;;;;;;;;;x
+c_pasto;Pasto;Pasto;Pasto;;Pasto;;;;;;;;;x
+c_pasto_adj;Pastian;;paster;;;;;;;;;;;x
+c_patagones;Patagones;Patagones;Patagones;;Patagones;;;;;;;;;x
+c_patagones_adj;Patagonesian;;patagoneser;;;;;;;;;;;x
+c_pato_branco;Pato Branco;Pato Branco;Pato Branco;;Pato Branco;;;;;;;;;x
+c_pato_branco_adj;Pato Brancian;;Pato Brancer;;;;;;;;;;;x
+c_patos;Patos;Patos;Patos;;Patos;;;;;;;;;x
+c_patos_adj;Patosian;;patoser;;;;;;;;;;;x
+c_patos_de_minas;Patos de Minas;Patos de Minas;Patos de Minas;;Patos de Minas;;;;;;;;;x
+c_patos_de_minas_adj;Patos de Minasian;;Patos de Minaser;;;;;;;;;;;x
+c_patquia;Patquia;Patquia;Patquia;;Patquia;;;;;;;;;x
+c_patquia_adj;Patquian;;patqer;;;;;;;;;;;x
+c_patrocinio;Patrocinio;Patrocinio;Patrocinio;;Patrocinio;;;;;;;;;x
+c_patrocinio_adj;Patrocinian;;patrociner;;;;;;;;;;;x
+c_pauini;Pauini;Pauini;Pauini;;Pauini;;;;;;;;;x
+c_pauini_adj;Pauinian;;pauiner;;;;;;;;;;;x
+c_pecanha;Peçanha;Peçanha;Peçanha;;Peçanha;;;;;;;;;x
+c_pecanha_adj;Peçanhan;;peçanher;;;;;;;;;;;x
+c_pedra_azul;Pedra Azul;Pedra Azul;Pedra Azul;;Pedra Azul;;;;;;;;;x
+c_pedra_azul_adj;Pedra Azulian;;Pedra Azuler;;;;;;;;;;;x
+c_pedra_grande;Pedra Grande;Pedra Grande;Pedra Grande;;Pedra Grande;;;;;;;;;x
+c_pedra_grande_adj;Pedra Grandean;;Pedra Grander;;;;;;;;;;;x
+c_pehuajo;Pehuajo;Pehuajo;Pehuajo;;Pehuajo;;;;;;;;;x
+c_pehuajo_adj;Pehuajian;;pehuajer;;;;;;;;;;;x
+c_pehuenches;Pehuenches;Pehuenches;Pehuenches;;Pehuenches;;;;;;;;;x
+c_pehuenches_adj;Pehuenchesian;;pehuencheser;;;;;;;;;;;x
+c_pelotas;Pelotas;Pelotas;Pelotas;;Pelotas;;;;;;;;;x
+c_pelotas_adj;Pelotasian;;pelotaser;;;;;;;;;;;x
+c_penaloza;Penaloza;Penaloza;Penaloza;;Penaloza;;;;;;;;;x
+c_penaloza_adj;Penalozan;;penalozer;;;;;;;;;;;x
+c_pergamino;Pergamino;Pergamino;Pergamino;;Pergamino;;;;;;;;;x
+c_pergamino_adj;Pergaminian;;pergaminer;;;;;;;;;;;x
+c_peruibe;Peruíbe;Peruíbe;Peruíbe;;Peruíbe;;;;;;;;;x
+c_peruibe_adj;Peruíbean;;peruíber;;;;;;;;;;;x
+c_petorca;Petorca;Petorca;Petorca;;Petorca;;;;;;;;;x
+c_petorca_adj;Petorcan;;petorcer;;;;;;;;;;;x
+c_petrolina;Petrolina;Petrolina;Petrolina;;Petrolina;;;;;;;;;x
+c_petrolina_adj;Petrolinan;;petroliner;;;;;;;;;;;x
+c_petropolis;Petrópolis;Petrópolis;Petrópolis;;Petrópolis;;;;;;;;;x
+c_petropolis_adj;Petrópolisian;;petrópoliser;;;;;;;;;;;x
+c_pica;Pica;Pica;Pica;;Pica;;;;;;;;;x
+c_pica_adj;Pican;;picer;;;;;;;;;;;x
+c_pichincha;Pichincha;Pichincha;Pichincha;;Pichincha;;;;;;;;;x
+c_pichincha_adj;Pichinchan;;pichincher;;;;;;;;;;;x
+c_pico;Pico;Pico;Pico;;Pico;;;;;;;;;x
+c_pico_adj;Pician;;picer;;;;;;;;;;;x
+c_piedade;Piedade;Piedade;Piedade;;Piedade;;;;;;;;;x
+c_piedade_adj;Piedadean;;piedader;;;;;;;;;;;x
+c_pilar;Pilar;Pilar;Pilar;;Pilar;;;;;;;;;x
+c_pilar_adj;Pilarian;;pilarer;;;;;;;;;;;x
+c_pindare;Pindaré;Pindaré;Pindaré;;Pindaré;;;;;;;;;x
+c_pindare_adj;Pindaréian;;pindaréer;;;;;;;;;;;x
+c_piracicaba;Piracicaba;Piracicaba;Piracicaba;;Piracicaba;;;;;;;;;x
+c_piracicaba_adj;Piracicaban;;piracicaber;;;;;;;;;;;x
+c_piranga;Piranga;Piranga;Piranga;;Piranga;;;;;;;;;x
+c_piranga_adj;Pirangan;;piranger;;;;;;;;;;;x
+c_pirapora;Pirapora;Pirapora;Pirapora;;Pirapora;;;;;;;;;x
+c_pirapora_adj;Piraporan;;piraporer;;;;;;;;;;;x
+c_piratini;Piratini;Piratini;Piratini;;Piratini;;;;;;;;;x
+c_piratini_adj;Piratinian;;piratiner;;;;;;;;;;;x
+c_piriapolis;Piriápolis;Piriápolis;Piriápolis;;Piriápolis;;;;;;;;;x
+c_piriapolis_adj;Piriápolisian;;piriápoliser;;;;;;;;;;;x
+c_piripiri;Piripiri;Piripiri;Piripiri;;Piripiri;;;;;;;;;x
+c_piripiri_adj;Piripirian;;piripirer;;;;;;;;;;;x
+c_piritiba;Piritiba;Piritiba;Piritiba;;Piritiba;;;;;;;;;x
+c_piritiba_adj;Piritiban;;piritiber;;;;;;;;;;;x
+c_pisco;Pisco;Pisco;Pisco;;Pisco;;;;;;;;;x
+c_pisco_adj;Piscian;;piscer;;;;;;;;;;;x
+c_pitalito;Pitalito;Pitalito;Pitalito;;Pitalito;;;;;;;;;x
+c_pitalito_adj;Pitalitian;;pitaliter;;;;;;;;;;;x
+c_pitanga;Pitanga;Pitanga;Pitanga;;Pitanga;;;;;;;;;x
+c_pitanga_adj;Pitangan;;pitanger;;;;;;;;;;;x
+c_bambui;Bambuí;Bambuí;Bambuí;;Bambuí;;;;;;;;;x
+c_piumhi_adj;Piumhian;;piumher;;;;;;;;;;;x
+c_piura;Piura;Piura;Piura;;Piura;;;;;;;;;x
+c_piura_adj;Piuran;;piurer;;;;;;;;;;;x
+c_planaltina;Planaltina;Planaltina;Planaltina;;Planaltina;;;;;;;;;x
+c_planaltina_adj;Planaltinan;;planaltiner;;;;;;;;;;;x
+c_pocos_de_caldas;Poços de Caldas;Poços de Caldas;Poços de Caldas;;Poços de Caldas;;;;;;;;;x
+c_pocos_de_caldas_adj;Poços de Caldasian;;Poços de Caldaser;;;;;;;;;;;x
+c_ponta_grossa;Ponta Grossa;Ponta Grossa;Ponta Grossa;;Ponta Grossa;;;;;;;;;x
+c_ponta_grossa_adj;Ponta Grossan;;Ponta Grosser;;;;;;;;;;;x
+c_ponte_nova;Ponte Nova;Ponte Nova;Ponte Nova;;Ponte Nova;;;;;;;;;x
+c_ponte_nova_adj;Ponte Novan;;Ponte Nover;;;;;;;;;;;x
+c_popayan;Popayán;Popayán;Popayán;;Popayán;;;;;;;;;x
+c_popayan_adj;Popayánian;;popayáner;;;;;;;;;;;x
+c_porangatu;Porangatu;Porangatu;Porangatu;;Porangatu;;;;;;;;;x
+c_porangatu_adj;Porangatian;;porangater;;;;;;;;;;;x
+c_porto_alegre;Porto Alegre;Porto Alegre;Porto Alegre;;Porto Alegre;;;;;;;;;x
+c_porto_alegre_adj;Porto Alegrean;;Porto Alegrer;;;;;;;;;;;x
+c_porto_nacional;Porto Nacional;Porto Nacional;Porto Nacional;;Porto Nacional;;;;;;;;;x
+c_porto_nacional_adj;Porto Nacionalian;;Porto Nacionaler;;;;;;;;;;;x
+c_porto_seguro;Porto Seguro;;;;;;;;;;;;x
+c_porto_seguro_adj;Porto Segurean;;;;;;;;;;;;x
+c_porto_velho;Porto Velho;Porto Velho;Porto Velho;;Porto Velho;;;;;;;;;x
+c_porto_velho_adj;Porto Velhian;;Porto Velher;;;;;;;;;;;x
+c_porvenir;Porvenir;Porvenir;Porvenir;;Porvenir;;;;;;;;;x
+c_porvenir_adj;Porvenirian;;porvenirer;;;;;;;;;;;x
+c_posadas;Posadas;Posadas;Posadas;;Posadas;;;;;;;;;x
+c_posadas_adj;Posadasian;;posadaser;;;;;;;;;;;x
+c_potosi;Potosí;Potosí;Potosí;;Potosí;;;;;;;;;x
+c_potosi_adj;Potosíian;;potosíer;;;;;;;;;;;x
+c_pozo_del_sauce;Pozo del Sauce;Pozo del Sauce;Pozo del Sauce;;Pozo del Sauce;;;;;;;;;x
+c_pozo_del_sauce_adj;Pozo del Saucean;;Pozo del Saucer;;;;;;;;;;;x
+c_prata;Prata;Prata;Prata;;Prata;;;;;;;;;x
+c_prata_adj;Pratan;;prater;;;;;;;;;;;x
+c_presidente_figueiredo;Presidente Figueiredo;Presidente Figueiredo;Presidente Figueiredo;;Presidente Figueiredo;;;;;;;;;x
+c_presidente_figueiredo_adj;Presidente Figueiredian;;Presidente Figueireder;;;;;;;;;;;x
+c_presidente_hayes;Presidente Hayes;Presidente Hayes;Presidente Hayes;;Presidente Hayes;;;;;;;;;x
+c_presidente_hayes_adj;Presidente Hayesian;;Presidente Hayeser;;;;;;;;;;;x
+c_presidente_prudente;Presidente Prudente;Presidente Prudente;Presidente Prudente;;Presidente Prudente;;;;;;;;;x
+c_presidente_prudente_adj;Presidente Prudentean;;Presidente Prudenter;;;;;;;;;;;x
+c_primavera_do_leste;Primavera do Leste;Primavera do Leste;Primavera do Leste;;Primavera do Leste;;;;;;;;;x
+c_primavera_do_leste_adj;Primavera do Lestean;;Primavera do Lester;;;;;;;;;;;x
+c_pringles;Pringles;Pringles;Pringles;;Pringles;;;;;;;;;x
+c_pringles_adj;Pringlesian;;pringleser;;;;;;;;;;;x
+c_prudentopolis;Prudentópolis;Prudentópolis;Prudentópolis;;Prudentópolis;;;;;;;;;x
+c_prudentopolis_adj;Prudentópolisian;;prudentópoliser;;;;;;;;;;;x
+c_puerto_montt;Puerto Montt;Puerto Montt;Puerto Montt;;Puerto Montt;;;;;;;;;x
+c_puerto_montt_adj;Puerto Monttian;;Puerto Montter;;;;;;;;;;;x
+c_puerto_varas;Puerto Varas;Puerto Varas;Puerto Varas;;Puerto Varas;;;;;;;;;x
+c_puerto_varas_adj;Puerto Varasian;;Puerto Varaser;;;;;;;;;;;x
+c_punilla;Punilla;Punilla;Punilla;;Punilla;;;;;;;;;x
+c_punilla_adj;Punillan;;puniller;;;;;;;;;;;x
+c_punilla_2;Punilla;Punilla;Punilla;;Punilla;;;;;;;;;x
+c_punilla_2_adj;Punillan;;puniller;;;;;;;;;;;x
+c_puno;Puno;Puno;Puno;;Puno;;;;;;;;;x
+c_puno_adj;Punian;;puner;;;;;;;;;;;x
+c_punta_indio;Punta Indio;Punta Indio;Punta Indio;;Punta Indio;;;;;;;;;x
+c_punta_indio_adj;Punta Indian;;Punta Inder;;;;;;;;;;;x
+c_putumayo;Putumayo;Putumayo;Putumayo;;Putumayo;;;;;;;;;x
+c_putumayo_adj;Putumaian;;putumaer;;;;;;;;;;;x
+c_putumayo_2;Putumayo;Putumayo;Putumayo;;Putumayo;;;;;;;;;x
+c_putumayo_2_adj;Putumaian;;putumaer;;;;;;;;;;;x
+c_quatis;Quatis;Quatis;Quatis;;Quatis;;;;;;;;;x
+c_quatis_adj;Quatisian;;quatiser;;;;;;;;;;;x
+c_quiaca;Quiaca;Quiaca;Quiaca;;Quiaca;;;;;;;;;x
+c_quiaca_adj;Quiacan;;quiacer;;;;;;;;;;;x
+c_quixeramobim;Quixeramobim;Quixeramobim;Quixeramobim;;Quixeramobim;;;;;;;;;x
+c_quixeramobim_adj;Quixeramobimian;;quixeramobimer;;;;;;;;;;;x
+c_rafaela;Rafaela;Rafaela;Rafaela;;Rafaela;;;;;;;;;x
+c_rafaela_adj;Rafaelan;;rafaeler;;;;;;;;;;;x
+c_ramalho;Ramalho;Ramalho;Ramalho;;Ramalho;;;;;;;;;x
+c_ramalho_adj;Ramalhian;;ramalher;;;;;;;;;;;x
+c_ramon_castilla;Ramón Castilla;Ramón Castilla;Ramón Castilla;;Ramón Castilla;;;;;;;;;x
+c_ramon_castilla_adj;Ramón Castillan;;Ramón Castiller;;;;;;;;;;;x
+c_ranco;Ranco;Ranco;Ranco;;Ranco;;;;;;;;;x
+c_ranco_adj;Rancian;;rancer;;;;;;;;;;;x
+c_raul_soares;Raul Soares;Raul Soares;Raul Soares;;Raul Soares;;;;;;;;;x
+c_raul_soares_adj;Raul Soaresian;;Raul Soareser;;;;;;;;;;;x
+c_recife;Recife;Recife;Recife;;Recife;;;;;;;;;x
+c_recife_adj;Recifean;;recifer;;;;;;;;;;;x
+c_registro;Registro;Registro;Registro;;Registro;;;;;;;;;x
+c_registro_adj;Registrian;;registrer;;;;;;;;;;;x
+c_remanso;Remanso;Remanso;Remanso;;Remanso;;;;;;;;;x
+c_remanso_adj;Remansian;;remanser;;;;;;;;;;;x
+c_rengo;Rengo;Rengo;Rengo;;Rengo;;;;;;;;;x
+c_rengo_adj;Rengian;;renger;;;;;;;;;;;x
+c_requena;Requena;Requena;Requena;;Requena;;;;;;;;;x
+c_requena_adj;Requenan;;requener;;;;;;;;;;;x
+c_resende;Resende;Resende;Resende;;Resende;;;;;;;;;x
+c_resende_adj;Resendean;;resender;;;;;;;;;;;x
+c_resplendor;Resplendor;Resplendor;Resplendor;;Resplendor;;;;;;;;;x
+c_resplendor_adj;Resplendorian;;resplendorer;;;;;;;;;;;x
+c_ribeirao_preto;Ribeirão Preto;Ribeirão Preto;Ribeirão Preto;;Ribeirão Preto;;;;;;;;;x
+c_ribeirao_preto_adj;Ribeirão Pretian;;Ribeirão Preter;;;;;;;;;;;x
+c_rio_branco;Rio Branco;Rio Branco;Rio Branco;;Rio Branco;;;;;;;;;x
+c_rio_branco_adj;Rio Brancian;;Rio Brancer;;;;;;;;;;;x
+c_rio_claro;Rio Claro;Rio Claro;Rio Claro;;Rio Claro;;;;;;;;;x
+c_rio_claro_adj;Rio Clarian;;Rio Clarer;;;;;;;;;;;x
+c_rio_das_ostras;Rio das Ostras;Rio das Ostras;Rio das Ostras;;Rio das Ostras;;;;;;;;;x
+c_rio_das_ostras_adj;Rio das Ostrasian;;Rio das Ostraser;;;;;;;;;;;x
+c_rio_de_janeiro;Rio de Janeiro;Rio de Janeiro;Rio de Janeiro;;Rio de Janeiro;;;;;;;;;x
+c_rio_de_janeiro_adj;Carioca;;carioca;;;;;;;;;;;x
+c_rio_do_sul;Rio do Sul;Rio do Sul;Rio do Sul;;Rio do Sul;;;;;;;;;x
+c_rio_do_sul_adj;Rio do Sulian;;Rio do Suler;;;;;;;;;;;x
+c_rio_grande;Rio Grande;Rio Grande;Rio Grande;;Rio Grande;;;;;;;;;x
+c_rio_grande_adj;Rio Grandean;;Rio Grander;;;;;;;;;;;x
+c_rio_grande_2;Rio Grande;Rio Grande;Rio Grande;;Rio Grande;;;;;;;;;x
+c_rio_grande_2_adj;Rio Grandean;;Rio Grander;;;;;;;;;;;x
+c_rio_grande_del_sur;Rió Grande del Sur;Rió Grande del Sur;Rió Grande del Sur;;Rió Grande del Sur;;;;;;;;;x
+c_rio_grande_del_sur_adj;Rió Grande del Surian;;Rió Grande del Surer;;;;;;;;;;;x
+c_rio_negro;Río Negro;Río Negro;Río Negro;;Río Negro;;;;;;;;;x
+c_rio_negro_adj;Río Negrian;;Río Negrer;;;;;;;;;;;x
+c_rio_pardo;Rio Pardo;Rio Pardo;Rio Pardo;;Rio Pardo;;;;;;;;;x
+c_rio_pardo_adj;Rio Pardian;;Rio Parder;;;;;;;;;;;x
+c_rio_quinto;Rio Quinto;Rio Quinto;Rio Quinto;;Rio Quinto;;;;;;;;;x
+c_rio_quinto_adj;Rio Quintian;;Rio Quinter;;;;;;;;;;;x
+c_rio_seco;Rio Seco;Rio Seco;Rio Seco;;Rio Seco;;;;;;;;;x
+c_rio_seco_adj;Rio Secian;;Rio Secer;;;;;;;;;;;x
+c_rio_turbio;Río Turbio;Río Turbio;Río Turbio;;Río Turbio;;;;;;;;;x
+c_rio_turbio_adj;Río Turbian;;Río Turber;;;;;;;;;;;x
+c_rio_verde;Rio Verde;Rio Verde;Rio Verde;;Rio Verde;;;;;;;;;x
+c_rio_verde_adj;Rio Verdean;;Rio Verder;;;;;;;;;;;x
+c_rivadavia;Rivadavia;Rivadavia;Rivadavia;;Rivadavia;;;;;;;;;x
+c_rivadavia_adj;Rivadavian;;rivadaver;;;;;;;;;;;x
+c_rivera;Rivera;Rivera;Rivera;;Rivera;;;;;;;;;x
+c_rivera_adj;Riveran;;riverer;;;;;;;;;;;x
+c_rocha;Rocha;Rocha;Rocha;;Rocha;;;;;;;;;x
+c_rocha_adj;Rochan;;rocher;;;;;;;;;;;x
+c_rorainopolis;Rorainópolis;Rorainópolis;Rorainópolis;;Rorainópolis;;;;;;;;;x
+c_rorainopolis_adj;Rorainópolisian;;rorainópoliser;;;;;;;;;;;x
+c_rosana;Rosana;Rosana;Rosana;;Rosana;;;;;;;;;x
+c_rosana_adj;Rosanan;;rosaner;;;;;;;;;;;x
+c_rosario;Rosario;Rosario;Rosario;;Rosario;;;;;;;;;x
+c_rosario_adj;Rosarian;;rosarer;;;;;;;;;;;x
+c_rosario_do_sul;Rosário do Sul;Rosário do Sul;Rosário do Sul;;Rosário do Sul;;;;;;;;;x
+c_rosario_do_sul_adj;Rosário do Sulian;;Rosário do Suler;;;;;;;;;;;x
+c_sabino;Sabino;Sabino;Sabino;;Sabino;;;;;;;;;x
+c_sabino_adj;Sabinian;;sabiner;;;;;;;;;;;x
+c_saladillo;Saladillo;Saladillo;Saladillo;;Saladillo;;;;;;;;;x
+c_saladillo_adj;Saladillian;;saladiller;;;;;;;;;;;x
+c_salesopolis;Salesópolis;Salesópolis;;Salesópolis;;;;;;;;;x
+c_salesopolis_adj;Salesopolitan;Salepoliter;;;;;;;;;;;x
+c_salgueiro;Salgueiro;Salgueiro;Salgueiro;;Salgueiro;;;;;;;;;x
+c_salgueiro_adj;Salgueirian;;salgueirer;;;;;;;;;;;x
+c_salinas;Salinas;Salinas;Salinas;;Salinas;;;;;;;;;x
+c_salinas_adj;Salinasian;;salinaser;;;;;;;;;;;x
+c_salinopolis;Salinopólis;Salinopólis;Salinopólis;;Salinopólis;;;;;;;;;x
+c_salinopolis_adj;Salinopólisian;;salinopóliser;;;;;;;;;;;x
+c_salliquelo;Salliquelo;Salliquelo;Salliquelo;;Salliquelo;;;;;;;;;x
+c_salliquelo_adj;Salliquelian;;salliqueler;;;;;;;;;;;x
+c_salta;Salta;Salta;Salta;;Salta;;;;;;;;;x
+c_salta_adj;Saltan;;salter;;;;;;;;;;;x
+c_salto;Salto;Salto;Salto;;Salto;;;;;;;;;x
+c_salto_adj;Saltian;;salter;;;;;;;;;;;x
+c_salvador;Salvador;Salvador;Salvador;;Salvador;;;;;;;;;x
+c_salvador_adj;Salvadorian;;salvadorer;;;;;;;;;;;x
+c_san_antonio;San Antonio;San Antonio;San Antonio;;San Antonio;;;;;;;;;x
+c_san_antonio_adj;San Antonian;;San Antoner;;;;;;;;;;;x
+c_san_antonio_2;San Antonio;San Antonio;San Antonio;;San Antonio;;;;;;;;;x
+c_san_antonio_2_adj;San Antonian;;San Antoner;;;;;;;;;;;x
+c_san_borja;San Borja;San Borja;San Borja;;San Borja;;;;;;;;;x
+c_san_borja_adj;San Borjan;;San Borjer;;;;;;;;;;;x
+c_san_felipe;San Felipe;San Felipe;San Felipe;;San Felipe;;;;;;;;;x
+c_san_felipe_adj;San Felipean;;San Feliper;;;;;;;;;;;x
+c_san_javier;San Javier;San Javier;San Javier;;San Javier;;;;;;;;;x
+c_san_javier_adj;San Javierian;;San Javierer;;;;;;;;;;;x
+c_san_jeronimo;San Jerónimo;San Jerónimo;San Jerónimo;;San Jerónimo;;;;;;;;;x
+c_san_jeronimo_adj;San Jerónimian;;San Jerónimer;;;;;;;;;;;x
+c_san_jose;San José;San José;San José;;San José;;;;;;;;;x
+c_san_jose_adj;San Joséian;;San Joséer;;;;;;;;;;;x
+c_san_juan;San Juan;San Juan;San Juan;;San Juan;;;;;;;;;x
+c_san_juan_adj;San Juanian;;San Juaner;;;;;;;;;;;x
+c_san_julian;San Julian;San Julian;San Julian;;San Julian;;;;;;;;;x
+c_san_julian_adj;San Julianian;;San Julianer;;;;;;;;;;;x
+c_san_justo;San Justo;San Justo;San Justo;;San Justo;;;;;;;;;x
+c_san_justo_adj;San Justian;;San Juster;;;;;;;;;;;x
+c_san_martin;San Martín;San Martín;San Martín;;San Martín;;;;;;;;;x
+c_san_martin_adj;San Martínian;;San Martíner;;;;;;;;;;;x
+c_san_pedro;San Pedro;San Pedro;San Pedro;;San Pedro;;;;;;;;;x
+c_san_pedro_adj;San Pedrian;;San Pedrer;;;;;;;;;;;x
+c_san_pedro_de_atacama;San Pedro de Atacama;San Pedro de Atacama;San Pedro de Atacama;;San Pedro de Atacama;;;;;;;;;x
+c_san_pedro_de_atacama_adj;San Pedro de Atacaman;;San Pedro de Atacamer;;;;;;;;;;;x
+c_san_rafael;San Rafael;San Rafael;San Rafael;;San Rafael;;;;;;;;;x
+c_san_rafael_adj;San Rafaelian;;San Rafaeler;;;;;;;;;;;x
+c_san_tome;San Tome;San Tome;San Tome;;San Tome;;;;;;;;;x
+c_san_tome_adj;San Tomean;;San Tomer;;;;;;;;;;;x
+c_sanquianga;Sanquianga;Sanquianga;Sanquianga;;Sanquianga;;;;;;;;;x
+c_sanquianga_adj;Sanquiangan;;sanquianger;;;;;;;;;;;x
+c_santa_barbara;Santa Bárbara;Santa Bárbara;Santa Bárbara;;Santa Bárbara;;;;;;;;;x
+c_santa_barbara_adj;Santa Bárbaran;;Santa Bárbarer;;;;;;;;;;;x
+c_santa_cruz;Santa Cruz;Santa Cruz;Santa Cruz;;Santa Cruz;;;;;;;;;x
+c_santa_cruz_adj;Santa Cruzian;;Santa Cruzer;;;;;;;;;;;x
+c_santa_cruz_de_galapagos;Santa Cruz de Galapagos;Santa Cruz de Galapagos;Santa Cruz de Galapagos;;Santa Cruz de Galapagos;;;;;;;;;x
+c_santa_cruz_de_galapagos_adj;Santa Cruz de Galapagosian;;Santa Cruz de Galapagoser;;;;;;;;;;;x
+c_santa_cruz_do_sul;Santa Cruz do Sul;Santa Cruz do Sul;Santa Cruz do Sul;;Santa Cruz do Sul;;;;;;;;;x
+c_santa_cruz_do_sul_adj;Santa Cruz do Sulian;;Santa Cruz do Suler;;;;;;;;;;;x
+c_santa_elena;Santa Elena;Santa Elena;Santa Elena;;Santa Elena;;;;;;;;;x
+c_santa_elena_adj;Santa Elenan;;Santa Elener;;;;;;;;;;;x
+c_santa_fe;Santa Fe;Santa Fe;Santa Fe;;Santa Fe;;;;;;;;;x
+c_santa_fe_adj;Santa Fean;;Santa Fer;;;;;;;;;;;x
+c_santa_isabel;Santa Isabel;Santa Isabel;Santa Isabel;;Santa Isabel;;;;;;;;;x
+c_santa_isabel_adj;Santa Isabelian;;Santa Isabeler;;;;;;;;;;;x
+c_santa_maria;Santa Maria;Santa Maria;Santa Maria;;Santa Maria;;;;;;;;;x
+c_santa_maria_adj;Santa Marian;;Santa Marer;;;;;;;;;;;x
+c_santa_maria_da_boa_vista;Santa Maria da Boa Vista;Santa Maria da Boa Vista;Santa Maria da Boa Vista;;Santa Maria da Boa Vista;;;;;;;;;x
+c_santa_maria_da_boa_vista_adj;Santa Maria da Boa Vistan;;Santa Maria da Boa Vister;;;;;;;;;;;x
+c_santa_rosa;Santa Rosa;Santa Rosa;Santa Rosa;;Santa Rosa;;;;;;;;;x
+c_santa_rosa_adj;Santa Rosan;;Santa Roser;;;;;;;;;;;x
+c_santa_rosa_2;Santa Rosa;Santa Rosa;Santa Rosa;;Santa Rosa;;;;;;;;;x
+c_santa_rosa_2_adj;Santa Rosan;;Santa Roser;;;;;;;;;;;x
+c_santana;Santana;Santana;Santana;;Santana;;;;;;;;;x
+c_santana_adj;Santanan;;santaner;;;;;;;;;;;x
+c_santana_do_livramento;Sant'Ana do Livramento;Sant'Ana do Livramento;Sant'Ana do Livramento;;Sant'Ana do Livramento;;;;;;;;;x
+c_santana_do_livramento_adj;Sant'Ana do Livramentian;;Sant'Ana do Livramenter;;;;;;;;;;;x
+c_santarem;Santarém;Santarém;Santarém;;Santarém;;;;;;;;;x
+c_santarem_adj;Santarémian;;santarémer;;;;;;;;;;;x
+c_santiago;Santiago;Santiago;Santiago;;Santiago;;;;;;;;;x
+c_santiago_adj;Santiagian;;santiager;;;;;;;;;;;x
+c_santiago_do_boqueirao;Santiago do Boqueirão;Santiago do Boqueirão;Santiago do Boqueirão;;Santiago do Boqueirão;;;;;;;;;x
+c_santiago_do_boqueirao_adj;Santiago do Boqueirãian;;Santiago do Boqueirãer;;;;;;;;;;;x
+c_santistevan;Santistevan;Santistevan;Santistevan;;Santistevan;;;;;;;;;x
+c_santistevan_adj;Santistevanian;;santistevaner;;;;;;;;;;;x
+c_santo_amaro;Santo Amaro;Santo Amaro;Santo Amaro;;Santo Amaro;;;;;;;;;x
+c_santo_amaro_adj;Santo Amarian;;Santo Amarer;;;;;;;;;;;x
+c_santo_angelo;Santo Ângelo;Santo Ângelo;Santo Ângelo;;Santo Ângelo;;;;;;;;;x
+c_santo_angelo_adj;Santo Ângelian;;Santo Ângeler;;;;;;;;;;;x
+c_santo_antonio;Santo Antonio;Santo Antonio;Santo Antonio;;Santo Antonio;;;;;;;;;x
+c_santo_antonio_adj;Santo Antonian;;Santo Antoner;;;;;;;;;;;x
+c_santo_antonio_2;Santo Antônio;Santo Antônio;Santo Antônio;;Santo Antônio;;;;;;;;;x
+c_santo_antonio_2_adj;Santo Antônian;;Santo Antôner;;;;;;;;;;;x
+c_santo_antonio_da_platina;Santo Antônio da Platina;Santo Antônio da Platina;Santo Antônio da Platina;;Santo Antônio da Platina;;;;;;;;;x
+c_santo_antonio_da_platina_adj;Santo Antônio da Platinan;;Santo Antônio da Platiner;;;;;;;;;;;x
+c_santos;Santos;Santos;Santos;;Santos;;;;;;;;;x
+c_santos_adj;Santosian;;santoser;;;;;;;;;;;x
+c_santos_dumont;Santos Dumont;Santos Dumont;Santos Dumont;;Santos Dumont;;;;;;;;;x
+c_santos_dumont_adj;Santos Dumontian;;Santos Dumonter;;;;;;;;;;;x
+c_sao_borja;São Borja;São Borja;São Borja;;São Borja;;;;;;;;;x
+c_sao_borja_adj;São Borjan;;São Borjer;;;;;;;;;;;x
+c_sao_carlos;São Carlos;São Carlos;São Carlos;;São Carlos;;;;;;;;;x
+c_sao_carlos_adj;São Carlosian;;São Carloser;;;;;;;;;;;x
+c_sao_desiderio;São Desidério;São Desidério;São Desidério;;São Desidério;;;;;;;;;x
+c_sao_desiderio_adj;São Desidérian;;São Desidérer;;;;;;;;;;;x
+c_sao_felix_do_xingu;São Felix do Xingu;São Felix do Xingu;São Felix do Xingu;;São Felix do Xingu;;;;;;;;;x
+c_sao_felix_do_xingu_adj;São Felix do Xingian;;São Felix do Xinger;;;;;;;;;;;x
+c_sao_fidelis;São Fidelis;São Fidelis;São Fidelis;;São Fidelis;;;;;;;;;x
+c_sao_fidelis_adj;São Fidelisian;;São Fideliser;;;;;;;;;;;x
+c_sao_gabriel;São Gabriel;São Gabriel;São Gabriel;;São Gabriel;;;;;;;;;x
+c_sao_gabriel_adj;São Gabrielian;;São Gabrieler;;;;;;;;;;;x
+c_sao_gabriel_cachoeira;São Gabriel Cachoeira;São Gabriel Cachoeira;São Gabriel Cachoeira;;São Gabriel Cachoeira;;;;;;;;;x
+c_sao_gabriel_cachoeira_adj;São Gabriel Cachoeiran;;São Gabriel Cachoeirer;;;;;;;;;;;x
+c_sao_goncalo;São Gonçalo;São Gonçalo;São Gonçalo;;São Gonçalo;;;;;;;;;x
+c_sao_goncalo_adj;São Gonçalian;;São Gonçaler;;;;;;;;;;;x
+c_sao_gotardo;São Gotardo;São Gotardo;São Gotardo;;São Gotardo;;;;;;;;;x
+c_sao_gotardo_adj;São Gotardian;;São Gotarder;;;;;;;;;;;x
+c_sao_joao_da_barra;São João da Barra;São João da Barra;São João da Barra;;São João da Barra;;;;;;;;;x
+c_sao_joao_da_barra_adj;São João da Barran;;São João da Barrer;;;;;;;;;;;x
+c_sao_joao_da_boa_vista;São João da Boa Vista;São João da Boa Vista;São João da Boa Vista;;São João da Boa Vista;;;;;;;;;x
+c_sao_joao_da_boa_vista_adj;São João da Boa Vistan;;São João da Boa Vister;;;;;;;;;;;x
+c_sao_joao_del_rei;São João Del-Rei;São João Del-Rei;São João Del-Rei;;São João Del-Rei;;;;;;;;;x
+c_sao_joao_del_rei_adj;São João Del-Rian;;São João Del-Rer;;;;;;;;;;;x
+c_sao_joaquim;São Joaquim;São Joaquim;São Joaquim;;São Joaquim;;;;;;;;;x
+c_sao_joaquim_adj;São Joaquimian;;São Joaquimer;;;;;;;;;;;x
+c_sao_jose_da_terra_firme;São José da Terra Firme;São José da Terra Firme;São José da Terra Firme;;São José da Terra Firme;;;;;;;;;x
+c_sao_jose_da_terra_firme_adj;São José da Terra Firmean;;São José da Terra Firmer;;;;;;;;;;;x
+c_sao_jose_do_barreiro;São Jose do Barreiro;São Jose do Barreiro;São Jose do Barreiro;;São Jose do Barreiro;;;;;;;;;x
+c_sao_jose_do_barreiro_adj;São Jose do Barreirian;;São Jose do Barreirer;;;;;;;;;;;x
+c_sao_jose_do_rio_preto;São José do Rio Preto;São José do Rio Preto;São José do Rio Preto;;São José do Rio Preto;;;;;;;;;x
+c_sao_jose_do_rio_preto_adj;São José do Rio Pretian;;São José do Rio Preter;;;;;;;;;;;x
+c_sao_jose_dos_campos;São José dos Campos;São José dos Campos;São José dos Campos;;São José dos Campos;;;;;;;;;x
+c_sao_jose_dos_campos_adj;São José dos Camposian;;São José dos Camposer;;;;;;;;;;;x
+c_sao_lourenco;São Lourenco;São Lourenco;São Lourenco;;São Lourenco;;;;;;;;;x
+c_sao_lourenco_adj;São Lourencian;;São Lourencer;;;;;;;;;;;x
+c_sao_luis;São Luís;São Luís;São Luís;;São Luís;;;;;;;;;x
+c_sao_luis_adj;São Luísian;;São Luíser;;;;;;;;;;;x
+c_sao_luiz_gonzaga;São Luiz Gonzaga;São Luiz Gonzaga;São Luiz Gonzaga;;São Luiz Gonzaga;;;;;;;;;x
+c_sao_luiz_gonzaga_adj;São Luiz Gonzagan;;São Luiz Gonzager;;;;;;;;;;;x
+c_sao_matheus;São Matheus;São Matheus;São Matheus;;São Matheus;;;;;;;;;x
+c_sao_matheus_adj;São Matheusian;;São Matheuser;;;;;;;;;;;x
+c_sao_miguel_das_missoes;São Miguel das Missões;São Miguel das Missões;São Miguel das Missões;;São Miguel das Missões;;;;;;;;;x
+c_sao_miguel_das_missoes_adj;São Miguel das Missõesian;;São Miguel das Missõeser;;;;;;;;;;;x
+c_sao_miguel_do_oeste;São Miguel do Oeste;São Miguel do Oeste;São Miguel do Oeste;;São Miguel do Oeste;;;;;;;;;x
+c_sao_miguel_do_oeste_adj;São Miguel do Oestean;;São Miguel do Oester;;;;;;;;;;;x
+c_sao_miguel_dos_campos;São Miguel dos Campos;São Miguel dos Campos;São Miguel dos Campos;;São Miguel dos Campos;;;;;;;;;x
+c_sao_miguel_dos_campos_adj;São Miguel dos Camposian;;São Miguel dos Camposer;;;;;;;;;;;x
+c_sao_nicolau;São Nicolau;São Nicolau;São Nicolau;;São Nicolau;;;;;;;;;x
+c_sao_nicolau_adj;São Nicolian;;São Nicoler;;;;;;;;;;;x
+c_sao_paulo;São Paulo;São Paulo;São Paulo;;São Paulo;;;;;;;;;x
+c_sao_paulo_adj;São Paulian;;São Pauler;;;;;;;;;;;x
+c_sao_raimundo_nonato;São Raimundo Nonato;São Raimundo Nonato;São Raimundo Nonato;;São Raimundo Nonato;;;;;;;;;x
+c_sao_raimundo_nonato_adj;São Raimundo Nonatian;;São Raimundo Nonater;;;;;;;;;;;x
+c_sao_sebastiao_do_paraiso;São Sebastião do Paraíso;São Sebastião do Paraíso;São Sebastião do Paraíso;;São Sebastião do Paraíso;;;;;;;;;x
+c_sao_sebastiao_do_paraiso_adj;São Sebastião do Paraísian;;São Sebastião do Paraíser;;;;;;;;;;;x
+c_sao_vicente;São Vicente;São Vicente;São Vicente;;São Vicente;;;;;;;;;x
+c_sao_vicente_adj;São Vicentean;;São Vicenter;;;;;;;;;;;x
+c_sapucaia;Sapucaia;Sapucaia;Sapucaia;;Sapucaia;;;;;;;;;x
+c_sapucaia_adj;Sapucaian;;sapucer;;;;;;;;;;;x
+c_satipo;Satipo;Satipo;Satipo;;Satipo;;;;;;;;;x
+c_satipo_adj;Satipian;;satiper;;;;;;;;;;;x
+c_seabra;Seabra;Seabra;Seabra;;Seabra;;;;;;;;;x
+c_seabra_adj;Seabran;;seabrer;;;;;;;;;;;x
+c_sento_se;Sento Sé;Sento Sé;Sento Sé;;Sento Sé;;;;;;;;;x
+c_sento_se_adj;Sento Séian;;Sento Séer;;;;;;;;;;;x
+c_sergipana;Sergipana;Sergipana;Sergipana;;Sergipana;;;;;;;;;x
+c_sergipana_adj;Sergipanan;;sergipaner;;;;;;;;;;;x
+c_serra_dourada;Serra Dourada;Serra Dourada;Serra Dourada;;Serra Dourada;;;;;;;;;x
+c_serra_dourada_adj;Serra Douradan;;Serra Dourader;;;;;;;;;;;x
+c_serrana;Serrana;Serrana;Serrana;;Serrana;;;;;;;;;x
+c_serrana_adj;Serranan;;serraner;;;;;;;;;;;x
+c_serro;Serro;Serro;Serro;;Serro;;;;;;;;;x
+c_serro_adj;Serrian;;serrer;;;;;;;;;;;x
+c_sierra_grande;Sierra Grande;Sierra Grande;Sierra Grande;;Sierra Grande;;;;;;;;;x
+c_sierra_grande_adj;Sierra Grandean;;Sierra Grander;;;;;;;;;;;x
+c_sincora;Sincora;Sincora;Sincora;;Sincora;;;;;;;;;x
+c_sincora_adj;Sincoran;;sincorer;;;;;;;;;;;x
+c_sinop;Sinop;Sinop;Sinop;;Sinop;;;;;;;;;x
+c_sinop_adj;Sinopian;;sinoper;;;;;;;;;;;x
+c_sobradinho;Sobradinho;;;;;;;;;;;;x
+c_sobradinho_adj;Sobradinian;;;;;;;;;;;;x
+c_soledade;Soledade;Soledade;Soledade;;Soledade;;;;;;;;;x
+c_soledade_adj;Soledadean;;soledader;;;;;;;;;;;x
+c_soriano;Soriano;Soriano;Soriano;;Soriano;;;;;;;;;x
+c_soriano_adj;Sorianian;;sorianer;;;;;;;;;;;x
+c_sorocaba;Sorocaba;Sorocaba;Sorocaba;;Sorocaba;;;;;;;;;x
+c_sorocaba_adj;Sorocaban;;sorocaber;;;;;;;;;;;x
+c_sorriso;Sorriso;Sorriso;Sorriso;;Sorriso;;;;;;;;;x
+c_sorriso_adj;Sorrisian;;sorriser;;;;;;;;;;;x
+c_soure;Soure;Soure;Soure;;Soure;;;;;;;;;x
+c_soure_adj;Sourean;;sourer;;;;;;;;;;;x
+c_stanley;Stanley;Stanley;Stanley;;Stanley;;;;;;;;;x
+c_stanley_adj;Stanleian;;stanleer;;;;;;;;;;;x
+c_suape;Suape;Suape;Suape;;Suape;;;;;;;;;x
+c_suape_adj;Suapean;;suaper;;;;;;;;;;;x
+c_suarez;Suarez;Suarez;Suarez;;Suarez;;;;;;;;;x
+c_suarez_adj;Suarezian;;suarezer;;;;;;;;;;;x
+c_sucre;Sucre;Sucre;Sucre;;Sucre;;;;;;;;;x
+c_sucre_adj;Sucrean;;sucrer;;;;;;;;;;;x
+c_sullana;Sullana;Sullana;Sullana;;Sullana;;;;;;;;;x
+c_sullana_adj;Sullanan;;sullaner;;;;;;;;;;;x
+c_tabatinga;Tabatinga;Tabatinga;Tabatinga;;Tabatinga;;;;;;;;;x
+c_tabatinga_adj;Tabatingan;;tabatinger;;;;;;;;;;;x
+c_tacna;Tacna;Tacna;Tacna;;Tacna;;;;;;;;;x
+c_tacna_adj;Tacnan;;tacner;;;;;;;;;;;x
+c_tacuarembo;Tacuarembó;Tacuarembó;Tacuarembó;;Tacuarembó;;;;;;;;;x
+c_tacuarembo_adj;Tacuarembóian;;tacuarembóer;;;;;;;;;;;x
+c_taiobeiras;Taiobeiras;Taiobeiras;Taiobeiras;;Taiobeiras;;;;;;;;;x
+c_taiobeiras_adj;Taiobeirasian;;taiobeiraser;;;;;;;;;;;x
+c_talca;Talca;Talca;Talca;;Talca;;;;;;;;;x
+c_talca_adj;Talcan;;talcer;;;;;;;;;;;x
+c_taltal;Taltal;Taltal;Taltal;;Taltal;;;;;;;;;x
+c_taltal_adj;Taltalian;;taltaler;;;;;;;;;;;x
+c_tandil;Tandil;Tandil;Tandil;;Tandil;;;;;;;;;x
+c_tandil_adj;Tandilian;;tandiler;;;;;;;;;;;x
+c_tapaua;Tapaúa;Tapaúa;Tapaúa;;Tapaúa;;;;;;;;;x
+c_tapaua_adj;Tapaúan;;tapaúer;;;;;;;;;;;x
+c_tapirai;Tapiraí;Tapiraí;Tapiraí;;Tapiraí;;;;;;;;;x
+c_tapirai_adj;Tapiraíian;;tapiraíer;;;;;;;;;;;x
+c_tarauaca;Tarauacá;Tarauacá;Tarauacá;;Tarauacá;;;;;;;;;x
+c_tarauaca_adj;Tarauacáian;;tarauacáer;;;;;;;;;;;x
+c_tarija;Tarija;Tarija;Tarija;;Tarija;;;;;;;;;x
+c_tarija_adj;Tarijan;;tarijer;;;;;;;;;;;x
+c_tarma;Tarma;Tarma;Tarma;;Tarma;;;;;;;;;x
+c_tarma_adj;Tarman;;tarmer;;;;;;;;;;;x
+c_taubate;Taubaté;Taubaté;Taubaté;;Taubaté;;;;;;;;;x
+c_taubate_adj;Taubatéian;;taubatéer;;;;;;;;;;;x
+c_tecka;Tecka;Tecka;Tecka;;Tecka;;;;;;;;;x
+c_tecka_adj;Teckan;;tecker;;;;;;;;;;;x
+c_telemaco_borba;Telêmaco Borba;Telêmaco Borba;Telêmaco Borba;;Telêmaco Borba;;;;;;;;;x
+c_telemaco_borba_adj;Telêmaco Borban;;Telêmaco Borber;;;;;;;;;;;x
+c_telsen;Telsen;Telsen;Telsen;;Telsen;;;;;;;;;x
+c_telsen_adj;Telsenian;;telsener;;;;;;;;;;;x
+c_temuco;Temuco;Temuco;Temuco;;Temuco;;;;;;;;;x
+c_temuco_adj;Temucian;;temucer;;;;;;;;;;;x
+c_teofilo_otoni;Teófilo Otoni;Teófilo Otoni;Teófilo Otoni;;Teófilo Otoni;;;;;;;;;x
+c_teofilo_otoni_adj;Teófilo Otonian;;Teófilo Otoner;;;;;;;;;;;x
+c_teresina;Teresina;Teresina;Teresina;;Teresina;;;;;;;;;x
+c_teresina_adj;Teresinan;;teresiner;;;;;;;;;;;x
+c_teresopolis;Teresópolis;Teresópolis;Teresópolis;;Teresópolis;;;;;;;;;x
+c_teresopolis_adj;Teresópolisian;;teresópoliser;;;;;;;;;;;x
+c_tierra_amarilla;Tierra Amarilla;Tierra Amarilla;Tierra Amarilla;;Tierra Amarilla;;;;;;;;;x
+c_tierra_amarilla_adj;Tierra Amarillan;;Tierra Amariller;;;;;;;;;;;x
+c_tigre;Tigre;Tigre;Tigre;;Tigre;;;;;;;;;x
+c_tigre_adj;Tigrean;;tigrer;;;;;;;;;;;x
+c_timaukel;Timaukel;Timaukel;Timaukel;;Timaukel;;;;;;;;;x
+c_timaukel_adj;Timaukelian;;timaukeler;;;;;;;;;;;x
+c_timbira;Timbira;Timbira;Timbira;;Timbira;;;;;;;;;x
+c_timbira_adj;Timbiran;;timbirer;;;;;;;;;;;x
+c_tocache;Tocache;Tocache;Tocache;;Tocache;;;;;;;;;x
+c_tocache_adj;Tocachean;;tocacher;;;;;;;;;;;x
+c_tocopilla;Tocopilla;Tocopilla;Tocopilla;;Tocopilla;;;;;;;;;x
+c_tocopilla_adj;Tocopillan;;tocopiller;;;;;;;;;;;x
+c_toledo;Toledo;Toledo;Toledo;;Toledo;;;;;;;;;x
+c_toledo_adj;Toledian;;toleder;;;;;;;;;;;x
+c_tonantins;Tonantins;Tonantins;Tonantins;;Tonantins;;;;;;;;;x
+c_tonantins_adj;Tonantinsian;;tonantinser;;;;;;;;;;;x
+c_torres;Torres;Torres;Torres;;Torres;;;;;;;;;x
+c_torres_adj;Torresian;;torreser;;;;;;;;;;;x
+c_touros;Touros;Touros;Touros;;Touros;;;;;;;;;x
+c_touros_adj;Tourosian;;touroser;;;;;;;;;;;x
+c_trairao;Trairão;Trairão;Trairão;;Trairão;;;;;;;;;x
+c_trairao_adj;Trairãian;;trairãer;;;;;;;;;;;x
+c_trancado;Trancado;Trancado;Trancado;;Trancado;;;;;;;;;x
+c_trancado_adj;Trancadian;;trancader;;;;;;;;;;;x
+c_treinta_y_tres;Treinta y Trés;Treinta y Trés;Treinta y Trés;;Treinta y Trés;;;;;;;;;x
+c_treinta_y_tres_adj;Treinta y Trésian;;Treinta y Tréser;;;;;;;;;;;x
+c_trelew;Trelew;Trelew;Trelew;;Trelew;;;;;;;;;x
+c_trelew_adj;Trelewian;;trelewer;;;;;;;;;;;x
+c_trenque_lauquen;Trenque Lauquen;Trenque Lauquen;Trenque Lauquen;;Trenque Lauquen;;;;;;;;;x
+c_trenque_lauquen_adj;Trenque Lauquenian;;Trenque Lauquener;;;;;;;;;;;x
+c_tres_arroyos;Tres Arroyos;Tres Arroyos;Tres Arroyos;;Tres Arroyos;;;;;;;;;x
+c_tres_arroyos_adj;Tres Arroyosian;;Tres Arroyoser;;;;;;;;;;;x
+c_tres_cerros;Tres Cerros;Tres Cerros;Tres Cerros;;Tres Cerros;;;;;;;;;x
+c_tres_cerros_adj;Tres Cerrosian;;Tres Cerroser;;;;;;;;;;;x
+c_tres_lagoas;Três Lagoas;Três Lagoas;Três Lagoas;;Três Lagoas;;;;;;;;;x
+c_tres_lagoas_adj;Três Lagoasian;;Três Lagoaser;;;;;;;;;;;x
+c_tres_lagoas_2;Três Lagoas;Três Lagoas;Três Lagoas;;Três Lagoas;;;;;;;;;x
+c_tres_lagoas_2_adj;Três Lagoasian;;Três Lagoaser;;;;;;;;;;;x
+c_tres_rios;Três Rios;Três Rios;Três Rios;;Três Rios;;;;;;;;;x
+c_tres_rios_adj;Três Riosian;;Três Rioser;;;;;;;;;;;x
+c_trujillo;Trujillo;Trujillo;Trujillo;;Trujillo;;;;;;;;;x
+c_trujillo_adj;Trujillian;;trujiller;;;;;;;;;;;x
+c_tsachilas;Tsáchilas;Tsáchilas;Tsáchilas;;Tsáchilas;;;;;;;;;x
+c_tsachilas_adj;Tsáchilasian;;tsáchilaser;;;;;;;;;;;x
+c_tubarao;Tubarão;Tubarão;Tubarão;;Tubarão;;;;;;;;;x
+c_tubarao_adj;Tubarãian;;tubarãer;;;;;;;;;;;x
+c_tucano;Tucano;;;;;;;;;;;;x
+c_tucano_adj;Tucanian;;;;;;;;;;;;x
+c_tucuman;Tucuman;Tucuman;Tucuman;;Tucuman;;;;;;;;;x
+c_tucuman_adj;Tucumanian;;tucumaner;;;;;;;;;;;x
+c_tucurui;Tucuruí;Tucuruí;Tucuruí;;Tucuruí;;;;;;;;;x
+c_tucurui_adj;Tucuruíian;;tucuruíer;;;;;;;;;;;x
+c_tumaco;Tumaco;Tumaco;Tumaco;;Tumaco;;;;;;;;;x
+c_tumaco_adj;Tumacian;;tumacer;;;;;;;;;;;x
+c_tumbes;Tumbes;Tumbes;Tumbes;;Tumbes;;;;;;;;;x
+c_tumbes_adj;Tumbesian;;tumbeser;;;;;;;;;;;x
+c_tungurahua;Tungurahua;Tungurahua;Tungurahua;;Tungurahua;;;;;;;;;x
+c_tungurahua_adj;Tungurahuan;;tunguraher;;;;;;;;;;;x
+c_tutoia;Tutóia;Tutóia;Tutóia;;Tutóia;;;;;;;;;x
+c_tutoia_adj;Tutóian;;tutóer;;;;;;;;;;;x
+c_tuyu;Tuyu;Tuyu;Tuyu;;Tuyu;;;;;;;;;x
+c_tuyu_adj;Tuian;;tuer;;;;;;;;;;;x
+c_uba;Uba;Uba;Uba;;Uba;;;;;;;;;x
+c_uba_adj;Uban;;uber;;;;;;;;;;;x
+c_ubatuba;Ubatuba;Ubatuba;Ubatuba;;Ubatuba;;;;;;;;;x
+c_ubatuba_adj;Ubatuban;;ubatuber;;;;;;;;;;;x
+c_uberaba;Uberaba;Uberaba;Uberaba;;Uberaba;;;;;;;;;x
+c_uberaba_adj;Uberaban;;uberaber;;;;;;;;;;;x
+c_uberlandia;Uberlândia;Uberlândia;Uberlândia;;Uberlândia;;;;;;;;;x
+c_uberlandia_adj;Uberlândian;;uberlânder;;;;;;;;;;;x
+c_ultima_esperanza;Última Esperanza;Última Esperanza;Última Esperanza;;Última Esperanza;;;;;;;;;x
+c_ultima_esperanza_adj;Última Esperanzan;;Última Esperanzer;;;;;;;;;;;x
+c_umuarama;Umuarama;Umuarama;Umuarama;;Umuarama;;;;;;;;;x
+c_umuarama_adj;Umuaraman;;umuaramer;;;;;;;;;;;x
+c_unai;Unai;Unai;Unai;;Unai;;;;;;;;;x
+c_unai_adj;Unian;;uner;;;;;;;;;;;x
+c_uniao_da_vitoria;União da Vitória;União da Vitória;União da Vitória;;União da Vitória;;;;;;;;;x
+c_uniao_da_vitoria_adj;União da Vitórian;;União da Vitórer;;;;;;;;;;;x
+c_urucui;Uruçuí;Uruçuí;Uruçuí;;Uruçuí;;;;;;;;;x
+c_urucui_adj;Uruçuíian;;uruçuíer;;;;;;;;;;;x
+c_uruguaiana;Uruguaiana;Uruguaiana;Uruguaiana;;Uruguaiana;;;;;;;;;x
+c_uruguaiana_adj;Uruguaianan;;uruguaianer;;;;;;;;;;;x
+c_urutagua;Urutagua;Urutagua;Urutagua;;Urutagua;;;;;;;;;x
+c_urutagua_adj;Urutaguan;;urutager;;;;;;;;;;;x
+c_ushuaia;Ushuaia;Ushuaia;Ushuaia;;Ushuaia;;;;;;;;;x
+c_ushuaia_adj;Ushuaian;;usher;;;;;;;;;;;x
+c_vaca_diez;Vaca Díez;Vaca Díez;Vaca Díez;;Vaca Díez;;;;;;;;;x
+c_vaca_diez_adj;Vaca Díezian;;Vaca Díezer;;;;;;;;;;;x
+c_vacaria;Vacaria;Vacaria;Vacaria;;Vacaria;;;;;;;;;x
+c_vacaria_adj;Vacarian;;vacarer;;;;;;;;;;;x
+c_valcheta;Valcheta;Valcheta;Valcheta;;Valcheta;;;;;;;;;x
+c_valcheta_adj;Valchetan;;valcheter;;;;;;;;;;;x
+c_valdivia;Valdivia;Valdivia;Valdivia;;Valdivia;;;;;;;;;x
+c_valdivia_adj;Valdivian;;valdiver;;;;;;;;;;;x
+c_vale_do_ipojuca;Vale do Ipojuca;Vale do Ipojuca;Vale do Ipojuca;;Vale do Ipojuca;;;;;;;;;x
+c_vale_do_ipojuca_adj;Vale do Ipojucan;;Vale do Ipojucer;;;;;;;;;;;x
+c_valenca;Valenca;Valenca;Valenca;;Valenca;;;;;;;;;x
+c_valenca_adj;Valencan;;valencer;;;;;;;;;;;x
+c_valenca_2;Valença;Valença;Valença;;Valença;;;;;;;;;x
+c_valenca_2_adj;Valençan;;valençer;;;;;;;;;;;x
+c_vallenar;Vallenar;Vallenar;Vallenar;;Vallenar;;;;;;;;;x
+c_vallenar_adj;Vallenarian;;vallenarer;;;;;;;;;;;x
+c_valparaiso;Valparaiso;Valparaiso;Valparaiso;;Valparaiso;;;;;;;;;x
+c_valparaiso_adj;Valparaisian;;valparaiser;;;;;;;;;;;x
+c_varginha;Varginha;Varginha;Varginha;;Varginha;;;;;;;;;x
+c_varginha_adj;Varginhan;;varginher;;;;;;;;;;;x
+c_vassouras;Vassouras;Vassouras;Vassouras;;Vassouras;;;;;;;;;x
+c_vassouras_adj;Vassourasian;;vassouraser;;;;;;;;;;;x
+c_velasco;Velasco;Velasco;Velasco;;Velasco;;;;;;;;;x
+c_velasco_adj;Velascian;;velascer;;;;;;;;;;;x
+c_venda_nova;Venda Nova;Venda Nova;Venda Nova;;Venda Nova;;;;;;;;;x
+c_venda_nova_adj;Venda Novan;;Venda Nover;;;;;;;;;;;x
+c_viamao;Viamão;Viamão;Viamão;;Viamão;;;;;;;;;x
+c_viamao_adj;Viamãian;;viamãer;;;;;;;;;;;x
+c_vicosa;Viçosa;Viçosa;Viçosa;;Viçosa;;;;;;;;;x
+c_vicosa_adj;Viçosan;;viçoser;;;;;;;;;;;x
+c_victoria;Victoria;Victoria;Victoria;;Victoria;;;;;;;;;x
+c_victoria_adj;Victorian;;victorer;;;;;;;;;;;x
+c_victorica;Victorica;Victorica;Victorica;;Victorica;;;;;;;;;x
+c_victorica_adj;Victorican;;victoricer;;;;;;;;;;;x
+c_vicuna;Vicuña;Vicuña;Vicuña;;Vicuña;;;;;;;;;x
+c_vicuna_adj;Vicuñan;;vicuñer;;;;;;;;;;;x
+c_vidal;Vidal;Vidal;Vidal;;Vidal;;;;;;;;;x
+c_vidal_adj;Vidalian;;vidaler;;;;;;;;;;;x
+c_viedma;Viedma;Viedma;Viedma;;Viedma;;;;;;;;;x
+c_viedma_adj;Viedman;;viedmer;;;;;;;;;;;x
+c_vilelas;Vilelas;Vilelas;Vilelas;;Vilelas;;;;;;;;;x
+c_vilelas_adj;Vilelasian;;vilelaser;;;;;;;;;;;x
+c_villa_ohiggins;Villa O'Higgins;Villa O'Higgins;Villa O'Higgins;;Villa O'Higgins;;;;;;;;;x
+c_villa_ohiggins_adj;Villa O'Higginsian;;Villa O'Higginser;;;;;;;;;;;x
+c_villarica;Villarica;Villarica;Villarica;;Villarica;;;;;;;;;x
+c_villarica_adj;Villarican;;villaricer;;;;;;;;;;;x
+c_vinchina;Vinchina;Vinchina;Vinchina;;Vinchina;;;;;;;;;x
+c_vinchina_adj;Vinchinan;;vinchiner;;;;;;;;;;;x
+c_visconde_do_rio_branco;Visconde do Rio Branco;Visconde do Rio Branco;Visconde do Rio Branco;;Visconde do Rio Branco;;;;;;;;;x
+c_visconde_do_rio_branco_adj;Visconde do Rio Brancian;;Visconde do Rio Brancer;;;;;;;;;;;x
+c_viseu;Viseu;Viseu;Viseu;;Viseu;;;;;;;;;x
+c_viseu_adj;Visian;;viser;;;;;;;;;;;x
+c_vitoria;Vitoria;Vitoria;Vitoria;;Vitoria;;;;;;;;;x
+c_vitoria_adj;Vitorian;;vitorer;;;;;;;;;;;x
+c_volta_redonda;Volta Redonda;Volta Redonda;Volta Redonda;;Volta Redonda;;;;;;;;;x
+c_volta_redonda_adj;Volta Redondan;;Volta Redonder;;;;;;;;;;;x
+c_votuporanga;Votuporanga;Votuporanga;Votuporanga;;Votuporanga;;;;;;;;;x
+c_votuporanga_adj;Votuporangan;;votuporanger;;;;;;;;;;;x
+c_warnes;Warnes;Warnes;Warnes;;Warnes;;;;;;;;;x
+c_warnes_adj;Warnesian;;warneser;;;;;;;;;;;x
+c_wellington;Wellington;Wellington;Wellington;;Wellington;;;;;;;;;x
+c_wellington_adj;Wellingtonian;;wellingtoner;;;;;;;;;;;x
+c_west_falkland;West Falkland;West Falkland;West Falkland;;West Falkland;;;;;;;;;x
+c_west_falkland_adj;West Falklandian;;West Falklander;;;;;;;;;;;x
+c_xanxere;Xanxerê;Xanxerê;Xanxerê;;Xanxerê;;;;;;;;;x
+c_xanxere_adj;Xanxerêian;;xanxerêer;;;;;;;;;;;x
+c_xapuri;Xapuri;Xapuri;Xapuri;;Xapuri;;;;;;;;;x
+c_xapuri_adj;Xapurian;;xapurer;;;;;;;;;;;x
+c_xinguara;Xinguara;Xinguara;Xinguara;;Xinguara;;;;;;;;;x
+c_xinguara_adj;Xinguaran;;xinguarer;;;;;;;;;;;x
+c_yanomami;Yanomami;Yanomami;Yanomami;;Yanomami;;;;;;;;;x
+c_yanomami_adj;Yanomamian;;yanomamer;;;;;;;;;;;x
+c_yapeyu;Yapeyu;Yapeyu;Yapeyu;;Yapeyu;;;;;;;;;x
+c_yapeyu_adj;Yapeian;;yapeer;;;;;;;;;;;x
+c_ybycui;Ybycui;Ybycui;Ybycui;;Ybycui;;;;;;;;;x
+c_ybycui_adj;Ybycian;;ybycer;;;;;;;;;;;x
+c_yguazu;Yguazu;Yguazu;Yguazu;;Yguazu;;;;;;;;;x
+c_yguazu_adj;Yguazian;;yguazer;;;;;;;;;;;x
+c_yungas;Yungas;Yungas;Yungas;;Yungas;;;;;;;;;x
+c_yungas_adj;Yungasian;;yungaser;;;;;;;;;;;x
+c_zamora_chinchipe;Zamora Chinchipe;Zamora Chinchipe;Zamora Chinchipe;;Zamora Chinchipe;;;;;;;;;x
+c_zamora_chinchipe_adj;Zamora Chinchipean;;Zamora Chinchiper;;;;;;;;;;;x

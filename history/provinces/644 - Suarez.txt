@@ -1,0 +1,21 @@
+# c_suarez
+
+# County Title
+title = c_suarez
+
+# Settlements
+max_settlements = 2
+
+b_suarez_2 = castle
+#b_la_madrid = city
+#b_la_colina = temple
+#b_trinidad_3 = castle
+#b_cura_malal = city
+#b_pasman = temple
+#b_carhue = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

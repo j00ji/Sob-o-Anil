@@ -1,0 +1,21 @@
+# c_pindare
+
+# County Title
+title = c_pindare
+
+# Settlements
+max_settlements = 3
+
+b_araguana = castle
+b_buriticupu = temple
+#b_taruparu = temple
+#b_nova_olinda_2 = castle
+#b_venceslau = city
+#b_parua = temple
+#b_ubinzal = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

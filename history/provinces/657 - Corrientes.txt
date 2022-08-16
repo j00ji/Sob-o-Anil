@@ -1,0 +1,21 @@
+# c_corrientes
+
+# County Title
+title = c_corrientes
+
+# Settlements
+max_settlements = 4
+
+b_corrientes = tribal
+b_palmar = temple
+#b_empredrado = temple
+#b_paso_de_la_patria = castle
+#b_cosme = city
+#b_itati = temple
+#b_laguna_braba = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

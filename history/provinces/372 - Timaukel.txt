@@ -1,0 +1,21 @@
+# c_timaukel
+
+# County Title
+title = c_timaukel
+
+# Settlements
+max_settlements = 2
+
+b_timaukel = tribal
+#b_cameron = city
+#b_puerto_yartou = temple
+#b_galpones = castle
+#b_la_paciencia = city
+#b_la_marina = temple
+#b_karukinka = castle
+
+# Misc
+culture = selknam
+religion = xoon
+
+#History

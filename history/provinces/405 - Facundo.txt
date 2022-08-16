@@ -1,0 +1,21 @@
+# c_facundo
+
+# County Title
+title = c_facundo
+
+# Settlements
+max_settlements = 3
+
+b_facundo = tribal
+#b_buen_pasto = city
+#b_los_tamarindos = temple
+#b_sarmiento = castle
+#b_las_pulgas = city
+#b_buen_pasto_2 = temple
+#b_canquel = castle
+
+# Misc
+culture = aonikenk
+religion = nguillatun
+
+#History

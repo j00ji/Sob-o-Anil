@@ -1,0 +1,21 @@
+# c_itabaiana
+
+# County Title
+title = c_itabaiana
+
+# Settlements
+max_settlements = 3
+
+b_macambira = castle
+b_sao_domingos = temple
+#b_nossa_senhora_das_dores = temple
+#b_propria = castle
+#b_aquidaba = city
+#b_capela = temple
+#b_nossa_senhora_da_gloria = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

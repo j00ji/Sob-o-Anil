@@ -1,0 +1,21 @@
+# c_concepcion_3
+
+# County Title
+title = c_concepcion_3
+
+# Settlements
+max_settlements = 2
+
+b_concepcion_3 = castle
+#b_aguara_cai = city
+#b_victoria_4 = temple
+#b_belen_2 = castle
+#b_sagrada_familia_2 = city
+#b_kurusu = temple
+#b_panchito = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

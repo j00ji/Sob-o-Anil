@@ -1,0 +1,21 @@
+# c_alto_paraguay
+
+# County Title
+title = c_alto_paraguay
+
+# Settlements
+max_settlements = 2
+
+b_fuerte_olimpo = tribal
+#b_toro_pampa = city
+#b_carreria = temple
+#b_la_victoria = castle
+#b_san_jorge_2 = city
+#b_ohia = temple
+#b_bahia_negra = castle
+
+# Misc
+culture = nivacle
+religion = manredebu
+
+#History

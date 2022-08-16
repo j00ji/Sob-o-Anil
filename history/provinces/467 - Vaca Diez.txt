@@ -1,0 +1,21 @@
+# c_vaca_diez
+
+# County Title
+title = c_vaca_diez
+
+# Settlements
+max_settlements = 4
+
+b_riberalta = castle
+b_guayaramerin = city
+b_yacuma = temple
+#b_santos_reyes = castle
+#b_buena_hora = city
+#b_borochi = temple
+#b_puerto_siles = castle
+
+# Misc
+culture = camba
+religion = santa_diablada
+
+#History

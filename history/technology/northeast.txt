@@ -1,0 +1,236 @@
+#MARANHAO-PIAUI
+
+technology = {
+	titles = {
+		d_gurupi
+		d_lencois
+		d_parnaiba_poente
+		d_teresina
+		d_baixo_parnaiba
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.75
+		economy = 0.75
+		culture = 0.75
+		
+		TECH_RECRUITMENT = 2
+		TECH_CASTLE_CONSTRUCTION = 2
+		TECH_CITY_CONSTRUCTION = 2
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1.75
+		TECH_CONSTRUCTION = 2
+		TECH_MAJESTY = 1
+		TECH_LEGALISM = 1
+	}
+}
+
+technology = {
+	titles = {
+		d_mearim
+		d_itapecuru
+		d_medio_parnaiba
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.4
+		economy = 0.4
+		culture = 0.4
+	}
+}
+
+technology = {
+	titles = {
+		d_alto_parnaiba
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.5
+		economy = 0.3
+		culture = 0.2
+		
+		TECH_CAVALRY = 2
+	}
+}
+
+#BELCHIORINGIA
+
+technology = {
+	titles = {
+		d_morro_branco
+		d_sertao_potiguar
+		d_leste_potiguar
+		d_paraiba
+		d_recife
+		d_capibaribe
+		d_alagoas
+		d_francisca
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 1.25
+		economy = 1.0
+		culture = 1.0
+		
+		TECH_RECRUITMENT = 2.75
+		TECH_CASTLE_CONSTRUCTION = 2.75
+		TECH_CITY_CONSTRUCTION = 2.75
+		TECH_FORTIFICATIONS_CONSTRUCTION = 2
+		TECH_CONSTRUCTION = 2.75
+		TECH_MAJESTY = 2.75
+		TECH_LEGALISM = 2.75
+	}
+}
+
+technology = {
+	titles = {
+		d_sertao_pernambucano
+		d_itamaraca
+		d_jaguaribe
+		d_ibiapaba
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.75
+		economy = 0.75
+		culture = 0.75
+		
+		TECH_RECRUITMENT = 1
+		TECH_CASTLE_CONSTRUCTION = 1
+		TECH_CITY_CONSTRUCTION = 1
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1
+		TECH_CONSTRUCTION = 1
+		TECH_MAJESTY = 1
+		TECH_LEGALISM = 1
+	}
+}
+
+#BAHIA
+technology = {
+	titles = {
+		d_sergipe
+		d_rio_real
+		d_jeremoabo
+		d_capivari
+		d_brumado
+		d_valenca
+		d_tres_bracos
+		d_porto_seguro
+		d_diamantina
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 1.25		
+		economy = 1.25
+		culture = 1.25
+		TECH_RECRUITMENT = 3
+		TECH_CASTLE_CONSTRUCTION = 3
+		TECH_CITY_CONSTRUCTION = 2.75
+		TECH_FORTIFICATIONS_CONSTRUCTION = 2
+		TECH_CONSTRUCTION = 2.75
+		TECH_MAJESTY = 2
+		TECH_LEGALISM = 3 
+	}
+}
+
+technology = {
+	titles = {
+		d_angelim
+		d_lapa
+		d_macaubas
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 1.0
+		economy = 1.0
+		culture = 1.0
+	}
+}
+
+technology = {
+	titles = {
+		d_paraguacu
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+		
+		TECH_RECRUITMENT = 4
+		TECH_CASTLE_CONSTRUCTION = 4
+		TECH_CITY_CONSTRUCTION = 3
+		TECH_FORTIFICATIONS_CONSTRUCTION = 3.5
+		TECH_CONSTRUCTION = 3
+		TECH_MAJESTY = 3
+		TECH_LEGALISM = 4
+	}
+}
+
+technology = {
+	titles = {
+		d_sobrado
+		d_rio_grande
+		d_santa_maria
+		d_carinhanha
+		d_barreiras
+	}
+	
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2369 = {
+		military = 0.75
+		economy = 0.75
+		culture = 0.75
+		
+		TECH_RECRUITMENT = 1
+		TECH_CASTLE_CONSTRUCTION = 1
+		TECH_CITY_CONSTRUCTION = 1
+		TECH_FORTIFICATIONS_CONSTRUCTION = 1
+		TECH_CONSTRUCTION = 1
+		TECH_MAJESTY = 1
+		TECH_LEGALISM = 1
+	}
+}

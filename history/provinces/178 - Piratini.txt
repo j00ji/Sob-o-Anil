@@ -1,0 +1,21 @@
+# c_piratini
+
+# County Title
+title = c_piratini
+
+# Settlements
+max_settlements = 2
+
+b_piratini = tribal
+#b_pinheiro_machado = city
+#b_cangucu = temple
+#b_torrinhas_2 = castle
+#b_arroio_da_solidao = city
+#b_morro_redondo = temple
+#b_arroio_do_padre = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

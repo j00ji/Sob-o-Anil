@@ -1,0 +1,21 @@
+# c_cerejeiras
+
+# County Title
+title = c_cerejeiras
+
+# Settlements
+max_settlements = 3
+
+b_cerejeiras = castle
+b_pimenteiras_do_oeste = city
+#b_cabixi = temple
+#b_chupinguaia = castle
+#b_corumbiara = city
+#b_colorado_do_oeste = temple
+#b_vilhena = castle
+
+# Misc
+culture = rondonian
+religion = evangelical
+
+#History

@@ -1,0 +1,21 @@
+# c_iquique
+
+# County Title
+title = c_iquique
+
+# Settlements
+max_settlements = 4
+
+b_iquique = castle
+b_alto_hospicio = city
+b_la_tirana = temple
+#b_pozo_almonte = castle
+#b_mamina = city
+#b_chucumata = temple
+#b_yape = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

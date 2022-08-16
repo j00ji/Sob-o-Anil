@@ -1,0 +1,74 @@
+# e_vera_cruz
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2101.10.7 = {
+	holder = 110078 #Bruno Cubas
+}
+2133.1.10 = {
+	holder = 110051 #Damião de Andrade
+}
+2163.5.30 = {
+	holder = 110006 #Giuseppe Lombardi
+}
+2189.2.24 = {
+	holder = 110055 #Clemente de Andrade
+}
+2212.10.1 = {
+	holder = 110148 # Adriano Silva Prado
+}	
+2233.7.21 = {
+	holder = 110085 #Emanuel Cubas
+}
+2248.12.10 = {
+	holder = 110037 #Filipe Stucchi
+}
+2256.7.5 = {
+	holder = 110012 #Fabrício Lombardi
+}
+2263.12.1 = {
+	holder = 110061 #Caetano de Andrade
+}
+2270.1.17 = {
+	holder = 110040 #Lívio Stucchi
+}
+2285.8.12 = {
+	holder = 110108 #Demétrio Schertz
+}
+2300.11.7 = {
+	holder = 110112 #Gustavo Schertz
+}
+2307.12.1 = {
+	holder = 110131 #Filipe Graeff
+}
+2320.10.24 = {
+	holder = 110239 #Eugênio Matarazzo
+}
+2325.7.6 = {
+	holder = 110472 #Germano Dumont
+}
+2330.1.17 = {
+	holder = 110066 #Eduardo de Andrade
+}
+2338.5.1 = {
+	holder = 110098 #Ícaro Cubas
+}
+2345.7.11 = {
+	holder = 110155 #Hélio Lombardi-Stucchi
+}
+2355.7.10 = {
+	holder = 110160 #Murilo Lombardi-Stucchi
+}
+2362.3.11 = {
+	holder = 110070 #João de Andrade
+}
+2364.12.3 = {
+	holder = 110443 #Guilherme Ramalho
+}
+2368.3.1 = {
+	holder = 110161 #Henrique Lombrdi-Stucchi
+}

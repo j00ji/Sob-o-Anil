@@ -1,0 +1,21 @@
+# c_colonia
+
+# County Title
+title = c_colonia
+
+# Settlements
+max_settlements = 5
+
+b_colonia_del_sacramento = castle
+b_carmelo = city
+#b_juan_lacaze = temple
+#b_nueva_helvecia = castle
+#b_rosario = city
+#b_nueva_palmira = temple
+#b_trinidad = castle
+
+# Misc
+culture = urbuguayo
+religion = bandean
+
+#History

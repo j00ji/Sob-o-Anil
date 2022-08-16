@@ -1,0 +1,21 @@
+# c_la_rioja
+
+# County Title
+title = c_la_rioja
+
+# Settlements
+max_settlements = 3
+
+b_la_rioja = castle
+b_aimogasta = temple
+#b_conchagasta = temple
+#b_cantadero = castle
+#b_padercita = city
+#b_ceollar = temple
+#b_huaco = castle
+
+# Misc
+culture = turco
+religion = herderos
+
+#History

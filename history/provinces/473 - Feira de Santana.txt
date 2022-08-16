@@ -1,0 +1,21 @@
+# c_feira_de_santana
+
+# County Title
+title = c_feira_de_santana
+
+# Settlements
+max_settlements = 6
+
+b_acupe = castle
+b_feira_de_santana = city
+b_senhora_santanna = temple
+b_santo_amaro_3 = castle
+#b_riachao_do_jacuipe = city
+#b_anguera = temple
+#b_irara = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

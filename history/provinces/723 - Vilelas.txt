@@ -1,0 +1,21 @@
+# c_vilelas
+
+# County Title
+title = c_vilelas
+
+# Settlements
+max_settlements = 2
+
+b_vilelas = tribal
+b_quimili = temple
+#b_pozo_del_toba = temple
+#b_el_colorado = castle
+#b_el_cuadrado = city
+#b_chorotis = temple
+#b_ypef = castle
+
+# Misc
+culture = chaqueno
+religion = catholic
+
+#History

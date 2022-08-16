@@ -1,0 +1,70 @@
+
+### MERCHANT REPUBLIC PATRICIAN FAMILIES
+
+## Valparaiso
+
+b_figueroa = {
+	culture=centrino
+}
+b_raharoa = {
+	culture=rapa_nui
+}
+
+## Santos
+
+b_lombardi_stucchi = {
+	culture = paulistano
+	religion = apostolic
+}
+b_de_andrade = {
+	culture = paulistano
+	religion = apostolic
+}
+b_cubas = {
+	culture = paulistano
+	religion = apostolic
+}
+b_stucchi = { 
+	culture = paulistano 
+	religion = apostolic
+}
+b_stucchi_vicentine = {
+	culture = paulistano
+	religion = apostolic
+}
+b_lombardi = {
+	culture = paulistano
+	religion = apostolic
+}
+b_lombardi_vicentine = {
+	culture = paulistano 
+	religion = apostolic
+}
+b_silva_prado = { 
+	culture = paulistano
+	religion = apostolic
+}
+b_de_abreu = {
+	culture = paulistano
+	religion = apostolic
+}
+b_de_abreu_bertiogan = { 
+	culture = paulistano
+	religion = apostolic
+}
+b_graeff = { 
+	culture = paulistano
+	religion = apostolic
+}
+b_schertz = { 
+	culture = paulistano
+	religion = apostolic
+}
+b_de_camargo = { 
+	culture = paulistano
+	religion = apostolic
+}
+b_schimidt = {
+	culture = paulistano
+	religion = apostolic
+}

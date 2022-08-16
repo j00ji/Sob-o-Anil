@@ -1,0 +1,21 @@
+# c_paragominas
+
+# County Title
+title = c_paragominas
+
+# Settlements
+max_settlements = 3
+
+b_paragominas = castle
+#b_ipixuna_do_para = city
+#b_esperanca_do_piria = temple
+#b_tome_acu = castle
+#b_irituia = city
+#b_acara = temple
+#b_mae_do_rio = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

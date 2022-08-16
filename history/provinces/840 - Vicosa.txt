@@ -1,0 +1,21 @@
+# c_vicosa
+
+# County Title
+title = c_vicosa
+
+# Settlements
+max_settlements = 4
+
+b_santa_cruz_3 = tribal
+b_teixeiras = temple
+#b_sao_miguel_2 = temple
+#b_santa_rita_4 = castle
+#b_coimbra = city
+#b_cajuri = temple
+#b_arrepiados = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

@@ -1,0 +1,21 @@
+# c_arequipa
+
+# County Title
+title = c_arequipa
+
+# Settlements
+max_settlements = 6
+
+b_arequipa = castle
+b_cerro_colorado = city
+b_cayma = temple
+b_alto_selva_alegre = castle
+b_bustamante_y_rivero = city
+#b_socabaya = temple
+#b_melgar = castle
+
+# Misc
+culture = arequipeno
+religion = catholic
+
+#History

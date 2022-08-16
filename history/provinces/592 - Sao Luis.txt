@@ -1,0 +1,21 @@
+# c_sao_luis
+
+# County Title
+title = c_sao_luis
+
+# Settlements
+max_settlements = 6
+
+b_leoes = castle
+b_la_ravardiere = castle
+b_senhora_da_vitoria = temple
+b_sao_luis = city
+#b_lumiar = city
+#b_rosario_2 = temple
+#b_ribamar = castle
+
+# Misc
+culture = parnaibas
+religion = cicerite
+
+#History

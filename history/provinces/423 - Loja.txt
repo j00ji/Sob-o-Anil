@@ -1,0 +1,21 @@
+# c_loja
+
+# County Title
+title = c_loja
+
+# Settlements
+max_settlements = 5
+
+b_loja = castle
+b_catamayo = city
+b_calvas = temple
+b_saraguro = castle
+#b_paltas = city
+#b_macara = temple
+#b_puyango = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

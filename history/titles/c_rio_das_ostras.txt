@@ -1,0 +1,14 @@
+# e_vera_cruz
+800.1.1={
+	liege=k_fluminense
+}
+2349.8.12 = {
+	holder = 80001
+}
+2352.4.9 = {
+	holder = 70017
+}
+2352.4.9 = {
+	liege = k_costa_sol_generalship
+	holder = 70020
+}

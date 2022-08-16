@@ -1,0 +1,25 @@
+(Validator Worker) = {
+	Type = LocalContainer
+	FriendlyName = "_!Hidden"
+	
+	CreateLocals = {
+		(Local GlobalFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local CharFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local DynastyFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local ProvFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local TitleFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local ArtifactFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local OffmapFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local OffmapTmpFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local BloodlineFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local Variable FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local Earmarks FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local CharQuest FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local ReligionFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local CultureFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local SocietyFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local WonderFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local WonderUpgradeFlag FlagAnalyzer TraceFlags If = TraceFlags)
+		(Local EventId Uid) = Right
+	}
+}

@@ -1,0 +1,21 @@
+# c_ipora
+
+# County Title
+title = c_ipora
+
+# Settlements
+max_settlements = 3
+
+b_ipora_2 = tribal
+#b_turvania = city
+#b_edeia = temple
+#b_cezarina = castle
+#b_baliza = city
+#b_buriti_de_goias = temple
+#b_moipora = castle
+
+# Misc
+culture = goyanense
+religion = manredebu
+
+#History

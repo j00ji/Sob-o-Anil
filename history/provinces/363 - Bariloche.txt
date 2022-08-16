@@ -1,0 +1,21 @@
+# c_bariloche
+
+# County Title
+title = c_bariloche
+
+# Settlements
+max_settlements = 4
+
+b_bariloche = castle
+b_los_coihues = city
+#b_dina_huapi = temple
+#b_llao_llao = castle
+#b_pilcaniyeu = city
+#b_puerto_blest = temple
+#b_puerto_manzano = castle
+
+# Misc
+culture = mapuche
+religion = atomicist
+
+#History

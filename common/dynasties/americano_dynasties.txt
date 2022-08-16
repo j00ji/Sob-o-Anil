@@ -1,0 +1,48 @@
+###ÄNSI
+#Canon
+
+60001 = {
+	name = "Norton"
+	culture = americano
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+60002 = {
+	name = "West"
+	culture = americano
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+} 
+
+60003 = {
+	name = "Holzmann"
+	culture = americano
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+}

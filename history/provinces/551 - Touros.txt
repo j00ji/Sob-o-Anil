@@ -1,0 +1,21 @@
+# c_touros
+
+# County Title
+title = c_touros
+
+# Settlements
+max_settlements = 3
+
+b_touros = castle
+b_pureza = temple
+#b_taipu = temple
+#b_rio_do_fogo = castle
+#b_maxaranguape = city
+#b_extremoz = temple
+#b_ceara_mirim = castle
+
+# Misc
+culture = atlanticano
+religion = camdomble
+
+#History

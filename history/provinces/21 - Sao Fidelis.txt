@@ -1,0 +1,21 @@
+# c_sao_fidelis
+
+# County Title
+title = c_sao_fidelis
+
+# Settlements
+max_settlements = 2
+
+b_sao_fidelis = castle
+#b_cambiasca = city
+#b_jaguarambe = temple
+#b_cehab = castle
+#b_vila_coroada = city
+#b_bar_do_pacheco = temple
+#b_santa_luisa = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

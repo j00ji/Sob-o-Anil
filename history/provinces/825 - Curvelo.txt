@@ -1,0 +1,21 @@
+# c_curvelo
+
+# County Title
+title = c_curvelo
+
+# Settlements
+max_settlements = 3
+
+b_inimutaba = tribal
+#b_cordisburgo = city
+#b_pompeu = temple
+#b_anguereta = castle
+#b_paraopeba = city
+#b_papagaios = temple
+#b_saco_novo = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

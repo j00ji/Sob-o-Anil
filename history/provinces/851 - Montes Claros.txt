@@ -1,0 +1,21 @@
+# c_montes_claros
+
+# County Title
+title = c_montes_claros
+
+# Settlements
+max_settlements = 5
+
+b_formigas = castle
+#b_alto_belo = city
+#b_glaucilandia = temple
+#b_nova_esperanca_2 = castle
+#b_panoramica = city
+#b_mundo_novo_2 = temple
+#b_sao_pedro_de_garca = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

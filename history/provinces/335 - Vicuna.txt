@@ -1,0 +1,21 @@
+# c_vicuna
+
+# County Title
+title = c_vicuna
+
+# Settlements
+max_settlements = 3
+
+b_vicuna = castle
+#b_paihuano = city
+#b_peralillo = temple
+#b_varillar = castle
+#b_pisco_elqui = city
+#b_la_totorita = temple
+#b_condoriaco = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

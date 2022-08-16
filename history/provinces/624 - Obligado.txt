@@ -1,0 +1,21 @@
+# c_obligado
+
+# County Title
+title = c_obligado
+
+# Settlements
+max_settlements = 2
+
+b_san_pedro = castle
+b_obligado = temple
+#b_baradero = temple
+#b_campana_2 = castle
+#b_zarate = city
+#b_atucha = temple
+#b_lima = castle
+
+# Misc
+culture = porteno
+religion = rosalian
+
+#History

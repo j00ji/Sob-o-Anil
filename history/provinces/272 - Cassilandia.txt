@@ -1,0 +1,21 @@
+# c_cassilandia
+
+# County Title
+title = c_cassilandia
+
+# Settlements
+max_settlements = 3
+
+b_cassilandia = tribal
+#b_inocencia = city
+#b_paranaiba = temple
+#b_paraiso_das_aguas = castle
+#b_chapadao_do_sul = city
+#b_apericida_do_taboado = temple
+#b_vila_izanopolis = castle
+
+# Misc
+culture = matogrossense
+religion = anchietican
+
+#History

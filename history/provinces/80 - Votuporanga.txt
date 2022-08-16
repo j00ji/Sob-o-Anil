@@ -1,0 +1,21 @@
+# c_votuporanga
+
+# County Title
+title = c_votuporanga
+
+# Settlements
+max_settlements = 3
+
+b_simonsen = tribal
+b_monteiro = temple
+#b_cardoso = temple
+#b_guerchia = castle
+#b_zan = city
+#b_joses_melo = temple
+#b_marao_cecaps = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

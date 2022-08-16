@@ -1,0 +1,21 @@
+# c_curaca
+
+# County Title
+title = c_curaca
+
+# Settlements
+max_settlements = 3
+
+b_curaca = castle
+b_ibo = city
+#b_abare = temple
+#b_oiteiro = castle
+#b_riacho_seco = city
+#b_chorrocho = temple
+#b_itamotinga = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

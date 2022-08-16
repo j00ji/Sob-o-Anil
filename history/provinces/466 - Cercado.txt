@@ -1,0 +1,21 @@
+# c_cercado
+
+# County Title
+title = c_cercado
+
+# Settlements
+max_settlements = 4
+
+b_trinidad_2 = castle
+b_san_javier_de_beni = city
+b_magdalena_de_beni = temple
+#b_san_joaquin_de_beni = castle
+#b_loreto_de_beni = city
+#b_san_ramon_de_beni = temple
+#b_bella_vista_de_beni = castle
+
+# Misc
+culture = camba
+religion = santa_diablada
+
+#History

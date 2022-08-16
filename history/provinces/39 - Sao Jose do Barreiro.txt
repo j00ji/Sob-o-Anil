@@ -1,0 +1,21 @@
+# c_sao_jose_do_barreiro
+
+# County Title
+title = c_sao_jose_do_barreiro
+
+# Settlements
+max_settlements = 3
+
+b_arapei = castle
+b_bananal = city
+#b_silveiras = temple
+#b_barreiro_de_baixo = castle
+#b_santana_bonsucesso = city
+#b_volterra_do_bosque = temple
+#b_formigas_de_coqueiro = castle
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

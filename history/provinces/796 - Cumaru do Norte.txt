@@ -1,0 +1,21 @@
+# c_cumaru_do_norte
+
+# County Title
+title = c_cumaru_do_norte
+
+# Settlements
+max_settlements = 2
+
+b_cumaru_do_norte = tribal
+#b_santana_do_araguaia = city
+#b_conceicao_do_araguaia = temple
+#b_pau_darco = castle
+#b_aracatuba = city
+#b_inaja_2 = temple
+#b_redencao_2 = castle
+
+# Misc
+culture = kayapo
+religion = xabaxai_xagi
+
+#History

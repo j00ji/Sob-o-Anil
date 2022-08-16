@@ -1,0 +1,835 @@
+###ÄNSI
+
+210001 = {
+	name = "Catrilanca"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210002 = {
+	name = "Quintupil"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210003 = {
+	name = "Calbucura"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210004 = {
+	name = "Quitral"
+	culture = mapuche
+	religion = nguillatun
+}
+210005 = {
+	name = "Marilao"
+	culture = mapuche
+	religion = nguillatun
+}
+210006= {
+	name = "Reinao"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210007 = {
+	name = "Millabur"
+	culture = mapuche
+	religion = nguillatun
+}
+210008 = {
+	name = "Ñancuil"
+	culture = mapuche
+	religion = nguillatun
+}
+210009 = {
+	name = "Huirilef"
+	culture = mapuche
+	religion = nguillatun
+}
+210010 = {
+	name = "Calfulen"
+	culture = mapuche
+	religion = nguillatun
+}
+210011 = {
+	name = "Painequeo"
+	culture = mapuche
+	religion = nguillatun
+}
+210012 = {
+	name = "Catrileo"
+	culture = mapuche
+	religion = nguillatun
+}
+210013 = {
+	name = "Tragnolao"
+	culture = mapuche
+	religion = nguillatun
+}
+210014 = {
+	name = "Maripangui"
+	culture = mapuche
+	religion = nguillatun
+}
+210015 = {
+	name = "Llaulen"
+	culture = mapuche
+	religion = nguillatun
+}
+210016 = {
+	name = "Lienlaf"
+	culture = mapuche
+	religion = nguillatun
+}
+210017 = {
+	name = "Huilcaman"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210018 = {
+	name = "Coñoepan"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210019 = {
+	name = "Maripan"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210020 = {
+	name = "Maripan"
+	culture = mapuche
+	religion = nguillatun
+}
+210021 = {
+	name = "Calfunao"
+	culture = mapuche
+	religion = nguillatun
+}
+
+210022 = {
+	name = "Paillalef"
+	culture = mapuche
+	religion = nguillatun
+}
+
+210023 = {
+	name = "Calfunao"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210024 = {
+	name = "Paillalef"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210025 = {
+	name = "Ancapichun"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+210026 = {
+	name = "Huilipan"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+
+210027 = {
+	name = "Ancalao"
+	culture = mapuche
+	religion = nguillatun
+}
+
+210028 = {
+	name = "Millaqueucurá"
+	culture = mapuche
+	religion = nguillatun
+}
+
+
+210029 = {
+	name = "Namuncurá"
+	culture = mapuche
+	religion = nguillatun
+}
+
+
+210030 = {
+	name = "Calfucurá"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+
+210031 = {
+	name = "Reumaycurá"
+	culture = mapuche
+	religion = nguillatun
+}
+
+210032 = {
+	name = "Lienlaf"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+
+210033 = {
+	name = "Reinao"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+
+210034 = {
+	name = "Ancalao"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+
+210035 = {
+	name = "Buenuleo"
+	culture = mapuche
+	religion = nguillatun
+	can_appear = no
+	used_for_random = no
+}
+
+210036 = {
+	name = "Lemunao"
+	culture = mapuche
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+
+215001 = {
+	name = "Yoppen"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215002 = {
+	name = "Karrro"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215003 = {
+	name = "Paínk"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215004 = {
+	name = "Kerrpr"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215005 = {
+	name = "Terke"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215006 = {
+	name = "Oteh'l"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215007 = {
+	name = "Klatue"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215008 = {
+	name = "Josh'n"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215009 = {
+	name = "Krewem'n"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215010 = {
+	name = "Koy"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215011 = {
+	name = "Paún"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215012 = {
+	name = "Wuoms"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215013 = {
+	name = "Yath"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215014 = {
+	name = "Chiquichano"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215015 = {
+	name = "Biguá"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215016 = {
+	name = "Inacayal"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215017 = {
+	name = "Salpul"
+	culture = aonikenk
+	religion = calafatist
+
+}
+215018 = {
+	name = "Chiquichano"
+	culture = aonikenk
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+215019 = {
+	name = "Salpul"
+	culture = aonikenk
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+
+}
+215020 = {
+	name = "Inacayal"
+	culture = aonikenk
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+215021 = {
+	name = "Sayhueque"
+	culture = aonikenk
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+220001 = {
+	name = "Yoppen"
+	culture = selknam
+	religion = xoon
+
+}
+220002 = {
+	name = "Ahal"
+	culture = selknam
+	religion = xoon
+
+}
+220003 = {
+	name = "Díaz"
+	culture = selknam
+	religion = xoon
+
+}
+220004 = {
+	name = "Karr-Kai"
+	culture = selknam
+	religion = xoon
+
+}
+220005 = {
+	name = "Muñoz"
+	culture = selknam
+	religion = xoon
+
+}
+220006 = {
+	name = "Kúm"
+	culture = selknam
+	religion = xoon
+
+}
+220007 = {
+	name = "Kerrpr"
+	culture = selknam
+	religion = xoon
+
+}
+220008 = {
+	name = "Jauke"
+	culture = selknam
+	religion = xoon
+
+}
+220009 = {
+	name = "Tel"
+	culture = selknam
+	religion = xoon
+
+}
+220010 = {
+	name = "Otrchin"
+	culture = selknam
+	religion = xoon
+
+}
+220011 = {
+	name = "Koshpy"
+	culture = selknam
+	religion = xoon
+
+}
+220012 = {
+	name = "Tohol"
+	culture = selknam
+	religion = xoon
+
+}
+220013 = {
+	name = "Jauje"
+	culture = selknam
+	religion = xoon
+
+}
+220014 = {
+	name = "Jauje"
+	culture = selknam
+	religion = xoon
+
+}
+220015 = {
+	name = "Yech'n"
+	culture = selknam
+	religion = xoon
+
+}
+220016 = {
+	name = "Wuisn"
+	culture = selknam
+	religion = xoon
+
+}
+220017 = {
+	name = "Chache"
+	culture = selknam
+	religion = xoon
+
+}
+220018 = {
+	name = "Barrientos"
+	culture = selknam
+	religion = xoon
+
+}
+220019 = {
+	name = "Campos"
+	culture = selknam
+	religion = xoon
+
+}
+220020 = {
+	name = "Cárdenas"
+	culture = selknam
+	religion = xoon
+
+}
+
+220021 = {
+	name = "Galindo"
+	culture = selknam
+	religion = xoon
+
+}
+
+220022 = {
+	name = "Oyarzún"
+	culture = selknam
+	religion = xoon
+
+}
+
+220023 = {
+	name = "Fique"
+	culture = selknam
+	religion = xoon
+
+}
+
+220024 = {
+	name = "Sobral"
+	culture = selknam
+	religion = xoon
+
+}
+
+220025 = {
+	name = "Galindo"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+
+220026 = {
+	name = "Barrientos"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+
+220027 = {
+	name = "Enríquez"
+	culture = selknam
+	religion = xoon
+
+}
+
+220028 = {
+	name = "Canales"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+
+220029 = {
+	name = "Álvarez"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+220030 = {
+	name = "Wuisn"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+220031 = {
+	name = "Chache"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+220032 = {
+	name = "Muñoz"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+
+}
+
+220033 = {
+	name = "Jauje"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+
+220034 = {
+	name = "Verdugo"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+220035 = {
+	name = "Soto"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+
+}
+
+220036 = {
+	name = "Jauke"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+
+220037 = {
+	name = "Tekol"
+	culture = selknam
+	religion = xoon
+}
+
+220038 = {
+	name = "Molina"
+	culture = selknam
+	religion = xoon
+}
+
+220039 = {
+	name = "Yanten"
+	culture = selknam
+	religion = xoon
+}
+
+220040 = {
+	name = "Loij"
+	culture = selknam
+	religion = xoon
+}
+220041 = {
+	name = "Tekol"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+
+220042 = {
+	name = "Molina"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+
+220043 = {
+	name = "Yanten"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+
+220044 = {
+	name = "Loij"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+220045 = {
+	name = "Koshpy"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+220046 = {
+	name = "Lasserre"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+220047 = {
+	name = "Choquintel"
+	culture = selknam
+	religion = xoon
+	can_appear = no
+	used_for_random = no
+}
+220048 = {
+	name = "Choquintel"
+	culture = selknam
+	religion = xoon
+}
+
+220049 = {
+	name = "Saenes"
+	culture = selknam
+	religion = xoon
+}
+
+
+
+
+225001 = {
+	name = "Tonko"
+	culture = kawesqar
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+225002 = {
+	name = "Tonko"
+	culture = kawesqar
+	religion = calafatist
+}
+225003 = {
+	name = "Achacaz"
+	culture = kawesqar
+	religion = calafatist
+}
+225004 = {
+	name = "Paterito"
+	culture = kawesqar
+	religion = calafatist
+}
+225005 = {
+	name = "Renchi"
+	culture = kawesqar
+	religion = calafatist
+}
+225006 = {
+	name = "Edén"
+	culture = kawesqar
+	religion = calafatist
+}
+225007 = {
+	name = "Wellington"
+	culture = kawesqar
+	religion = calafatist
+}
+225008 = {
+	name = "Guarello"
+	culture = kawesqar
+	religion = calafatist
+}
+225009 = {
+	name = "Asáwer"
+	culture = kawesqar
+	religion = calafatist
+}
+225010 = {
+	name = "Asáwer"
+	culture = kawesqar
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}
+225011 = {
+	name = "Walakial"
+	culture = kawesqar
+	religion = calafatist
+}
+225012 = {
+	name = "Baker"
+	culture = kawesqar
+	religion = calafatist
+}
+225013 = {
+	name = "Alessandri"
+	culture = kawesqar
+	religion = calafatist
+}
+225014 = {
+	name = "Koyo"
+	culture = kawesqar
+	religion = calafatist
+}
+225015 = {
+	name = "Tawokser"
+	culture = kawesqar
+	religion = calafatist
+}
+225016 = {
+	name = "Jautok"
+	culture = kawesqar
+	religion = calafatist
+}
+225017 = {
+	name = "Maidel"
+	culture = kawesqar
+	religion = calafatist
+}
+225018 = {
+	name = "Lalaif"
+	culture = kawesqar
+	religion = calafatist
+}
+225019 = {
+	name = "Pauntil"
+	culture = kawesqar
+	religion = calafatist
+}
+225020 = {
+	name = "Tafkarh"
+	culture = kawesqar
+	religion = calafatist
+}
+225021 = {
+	name = "Amalaikar"
+	culture = kawesqar
+	religion = calafatist
+}
+225022 = {
+	name = "Kuun'ach"
+	culture = kawesqar
+	religion = calafatist
+}
+225023 = {
+	name = "Chunbíl"
+	culture = kawesqar
+	religion = calafatist
+}
+225024 = {
+	name = "Yeerha"
+	culture = kawesqar
+	religion = calafatist
+}
+225025 = {
+	name = "Nancuante"
+	culture = kawesqar
+	religion = calafatist
+}
+225027 = {
+	name = "Navarino"
+	culture = kawesqar
+	religion = calafatist
+}
+225028 = {
+	name = "Paterito"
+	culture = kawesqar
+	religion = calafatist
+	can_appear = no
+	used_for_random = no
+}

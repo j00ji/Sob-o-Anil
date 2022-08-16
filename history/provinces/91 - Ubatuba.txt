@@ -1,0 +1,21 @@
+# c_ubatuba
+
+# County Title
+title = c_ubatuba
+
+# Settlements
+max_settlements = 5
+
+b_picinguaba = city
+b_iperoig = castle
+b_maranduba = temple
+#b_porto_novo_2 = castle
+#b_ilha_anchieta = city
+#b_praia_do_cedro = temple
+#b_praia_do_tenorio = castle
+
+# Misc
+culture = paulistano
+religion = anchietican
+
+#History

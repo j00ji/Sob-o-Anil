@@ -1,0 +1,14 @@
+# e_patagonia
+500.1.1={
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_rio_negro
+}
+2356.12.17={
+	holder=480020
+}
+2362.7.14={
+	holder=480022
+}

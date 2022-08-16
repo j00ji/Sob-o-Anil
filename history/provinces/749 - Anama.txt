@@ -1,0 +1,21 @@
+# c_anama
+
+# County Title
+title = c_anama
+
+# Settlements
+max_settlements = 2
+
+b_anama = tribal
+#b_anori = city
+#b_primavera_anama = temple
+#b_chama_viva = castle
+#b_parana_arara = city
+#b_bom_preco_anama = temple
+#b_joaria_anama = castle
+
+# Misc
+culture = ticuna
+religion = holy_spirit
+
+#History

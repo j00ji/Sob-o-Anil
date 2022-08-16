@@ -1,0 +1,21 @@
+# c_rafaela
+
+# County Title
+title = c_rafaela
+
+# Settlements
+max_settlements = 5
+
+b_rafaela = city
+b_sunchales = city
+b_escobas = temple
+#b_garibaldi_2 = castle
+#b_trebol = city
+#b_roca = temple
+#b_lehmann = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

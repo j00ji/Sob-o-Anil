@@ -1,0 +1,21 @@
+# c_teresina
+
+# County Title
+title = c_teresina
+
+# Settlements
+max_settlements = 5
+
+b_karnak = castle
+b_teresina = city
+b_uniao = city
+b_senhora_de_amparo = temple
+#b_altos = city
+#b_demeval_lobao = temple
+#b_caxias = castle
+
+# Misc
+culture = parnaibas
+religion = evangelical
+
+#History

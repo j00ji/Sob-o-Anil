@@ -1,0 +1,21 @@
+# c_formoso
+
+# County Title
+title = c_formoso
+
+# Settlements
+max_settlements = 2
+
+b_correntina_2 = tribal
+b_pitarana = city
+#b_palmas_de_monte_alto = temple
+#b_candiba = castle
+#b_mutas = city
+#b_mandiroba = temple
+#b_sebastiao_das_laranjeiras = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

@@ -1,0 +1,21 @@
+# c_maringa
+
+# County Title
+title = c_maringa
+
+# Settlements
+max_settlements = 4
+
+b_maringa = castle
+b_marialva = temple
+b_mandaguacu = city
+#b_paicandu = castle
+#b_astorga = city
+#b_mandaguacu_2 = temple
+#b_jandaia_do_sul = castle
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

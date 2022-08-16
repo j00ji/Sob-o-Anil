@@ -1,0 +1,21 @@
+# c_cajamarca
+
+# County Title
+title = c_cajamarca
+
+# Settlements
+max_settlements = 6
+
+b_cajamarca = castle
+b_chota = city
+b_cajabamba = temple
+b_celendin = castle
+b_san_marcos_de_cajamarca = city
+#b_contumaza = temple
+#b_san_miguel_de_pallaques = castle
+
+# Misc
+culture = huascareno
+religion = inkarri
+
+#History

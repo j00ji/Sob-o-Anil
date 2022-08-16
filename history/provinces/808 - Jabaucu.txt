@@ -1,0 +1,21 @@
+# c_jabaucu
+
+# County Title
+title = c_jabaucu
+
+# Settlements
+max_settlements = 2
+
+b_jucara = castle
+#b_caraburi = city
+#b_campinho = temple
+#b_arimum = castle
+#b_santarem_denovo = city
+#b_furo_do_brito = temple
+#b_mocambo = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

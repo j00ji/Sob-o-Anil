@@ -1,0 +1,21 @@
+# c_guarapari
+
+# County Title
+title = c_guarapari
+
+# Settlements
+max_settlements = 4
+
+b_guarapari = castle
+b_piuma = temple
+b_marataizes = city
+#b_itapebussu = castle
+#b_muquicaba = city
+#b_camurugi = temple
+#b_sol_nascente = castle
+
+# Misc
+culture = mantiqueiro
+religion = evangelical
+
+#History

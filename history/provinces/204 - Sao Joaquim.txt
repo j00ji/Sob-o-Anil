@@ -1,0 +1,21 @@
+# c_sao_joaquim
+
+# County Title
+title = c_sao_joaquim
+
+# Settlements
+max_settlements = 2
+
+b_sao_joaquim = castle
+#b_bom_jardim_da_serra = city
+#b_sao_sebastiao_do_arvoredo = temple
+#b_vacas_gordas = castle
+#b_ubici = city
+#b_bom_jardim_da_serra_2 = temple
+#b_urupema = castle
+
+# Misc
+culture = greenbelly
+religion = celeste
+
+#History

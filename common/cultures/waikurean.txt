@@ -1,0 +1,72 @@
+#ÄNSI
+
+waikurean_group = {
+	graphical_cultures = { norsegfx westerngfx }
+	
+	qom = { 
+		graphical_cultures = { mesoamericangfx }
+		color = { 0.66 0.49 0.77 }
+		
+		male_names = {
+		}
+		
+		female_names = {
+		}
+		founder_named_dynasties = no
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	
+	nivacle = { 
+		graphical_cultures = { mesoamericangfx }
+		color = { 0.73 0.51 0.45 }
+		
+		male_names = {
+		}
+		
+		female_names = {
+		}
+		founder_named_dynasties = no
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+
+	chiquitano = { 
+		graphical_cultures = { mesoamericangfx }
+		color = { 0.33 0.61 0.45 }
+		
+		male_names = {
+		}
+		
+		female_names = {
+		}
+		founder_named_dynasties = no
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+
+}

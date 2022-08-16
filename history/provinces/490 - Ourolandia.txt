@@ -1,0 +1,21 @@
+# c_ourolandia
+
+# County Title
+title = c_ourolandia
+
+# Settlements
+max_settlements = 2
+
+b_catuni = castle
+b_senhor_do_bomfim = temple
+#b_mirangaba_2 = temple
+#b_carrapichel = castle
+#b_igara = city
+#b_campo_formoso = temple
+#b_jaguarari = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

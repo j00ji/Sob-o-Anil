@@ -1,0 +1,2030 @@
+# Religion-specific opinion can be added to modifiers (E.G., norse_pagan_opinion = 5), but the modifier *has* to be defined in 00_modifier_definitions.txt as well. It also needs localisation. Works for groups as well
+
+# join_crusade_if_bordering_hostile = yes # The AI won't refrain from joining a crusade simply because it borders a heathen/heretic realm
+
+# This trigger defines who can see a character's secret religion. The character with the secret religion is FROM, while the viewer is ROOT
+# Characters can always see their own secret religion. The observer can see all secret religions
+secret_religion_visibility_trigger = {
+	secret_religion = FROM
+}
+
+american_native = {
+	has_coa_on_barony_only = yes
+	graphical_culture = mesoamericangfx #westerngfx
+	#crusade_cb = crusade
+	playable = yes
+	
+	ai_convert_same_group = 0
+	ai_convert_other_group = 1 # Only if zealous
+	
+	color = { 0.2 0.6 0.7 }
+	
+	nguillatun={
+		graphical_culture = mesoamericangfx #norsegfx
+		
+		icon = 5
+		
+		color = { 0.08 0.65 0.82 }
+		crusade_name = WEICHAN
+		scripture_name = ADMAPU
+		priest_title = MACHI
+		piety_name = AM
+
+		high_god_name = GOD_NGENECHEN
+		
+		god_names = {
+			GOD_ANTU GOD_KUYEN GOD_PERIPILLAN GOD_TRENTREN GOD_CAICAI GOD_EPUNAMUN
+		}
+		evil_god_names = {
+			GOD_WEKUFES GOD_KALKUS
+		}
+
+		allow_viking_invasion = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		rel_head_defense = yes
+		can_call_crusade = yes
+		priests_can_marry = yes
+		female_temple_holders = yes
+		male_temple_holders = no
+		intermarry = calafatist
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+	}
+	xoon={
+		graphical_culture = mesoamericangfx #norsegfx
+		
+		icon = 8
+		
+		color = { 0.9 0.2 0.2 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = SHOON
+		priest_title = XOON
+		piety_name = MIU
+
+		high_god_name = GOD_TEMAUKEL
+		
+		god_names = {
+			GOD_TEMAUKEL GOD_KENOS GOD_KWANYIP GOD_CENUKE GOD_KOJH GOD_KREN GOD_KRE GOD_JOSH GOD_SHENRR
+		}
+		evil_god_names = {
+			GOD_XALPEN GOD_SOORTES
+		}
+
+		allow_viking_invasion = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		max_consorts = 3
+		ignores_defensive_attrition = yes
+		priests_can_marry = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+	}
+	pachamama={
+		graphical_culture = mesoamericangfx #norsegfx
+		
+		icon = 7
+		
+		color = { 0.28 0.8 0.06 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = SUMAK_KAWSAY
+		priest_title = YATIRI
+		piety_name = HARMONY
+
+		high_god_name = GOD_PACHAMAMA
+		
+		god_names = {
+			GOD_PACHAMAMA GOD_WORLD_MOTHER GOD_MOTHER_EARTH GOD_INTI GOD_QUILLA
+		}
+		evil_god_names = {
+			GOD_SUPAY GOD_POLLUTION
+		}
+
+		allow_rivermovement = yes
+		allow_looting = yes
+		max_consorts = 3
+		defensive_attrition = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		has_heir_designation = yes
+		feminist = yes
+		pacifist = yes
+		female_temple_holders = yes	
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		can_grant_invasion_cb = invasion
+
+		intermarry = inti
+		intermarry = inkarri
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 3
+	}	
+	jerovia = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 1
+		
+		color = { 1.0 0.0 0.1 }
+	}
+	inti = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 2
+		
+		color = { 0.25 0.45 0.45 }
+	}
+	inkarri = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 3
+		
+		color = { 0.9 0.58 0.06 }
+	}
+	hekura = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 4
+		
+		color = { 0.5 0.0 0.0 }
+	}
+}
+
+christian = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.8 0.8 0.6 }
+	
+	# Names given only to Christian characters (base names)
+	male_names = {
+		André Antônio Bartolomeu Benedito Cristiano Cristófer Clemente Constantino Davi Demétrio Eustácio Jorge Gregório 
+		Isaac Joaquim Jacob João Jordão José Lourenço Magno Marcos Martinho Matheus Michael Nicolas Patrick Paulo Pedro Felipe 
+		Salvador Samuel Sebastião Simon Estevão Tomás Abraão Alexandre Daniel Jesus Job Josué Cyrus Lucas Zacarias
+	}
+	female_names = {
+		Ana Beatriz Benedita Brígida Catarina Cecília Cristina Clementina Constância Doroteia Elisabete Joana Judite Juliana Helena 
+		Madalena Margarete Maria Marina Patricia Felipa Rachel 
+		Sara Sofia Estefânia
+	}
+	
+	anchietican = {
+		graphical_culture = westerngfx
+		
+		icon = 10
+		heresy_icon = 17
+	
+		color = { 1.0 1.0 0.5 }
+		
+		high_god_name = GOD_DEUS 
+		
+		god_names = {
+			GOD_DEUS GOD_HOLY_SPIRIT GOD_JESUS GOD_THE_BLESSED_VIRGIN GOD_THE_SAINTS GOD_MAGNANIMOUS
+		}
+		
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER 
+		}
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		can_retire_to_monastery = yes
+		
+		autocephaly = yes
+		pentarchy = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PADRE
+	}
+	apostolic = {
+		graphical_culture = westerngfx
+		
+		icon = 10
+		heresy_icon = 17
+		
+		color = { 0.6 0.7 0.1 }
+		
+		high_god_name = GOD_DEUS
+		
+		god_names = {
+			GOD_DEUS GOD_HOLY_SPIRIT GOD_JESUS GOD_THE_BLESSED_VIRGIN GOD_THE_SAINTS
+		}
+		
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER 
+		}
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PADRE
+		parent = apostolic
+		parent = anchietican
+	}
+	iconoclasts = {
+		graphical_culture = westerngfx
+		
+		icon = 10
+		heresy_icon = 17
+		
+		color = { 0.75 0.42 0.6 }
+		
+		high_god_name = GOD_DEUS
+		
+		god_names = {
+			GOD_DEUS GOD_HOLY_SPIRIT GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER 
+		}
+		
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PADRE
+		
+		parent = anchietican
+	}
+	catholic = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 18
+		
+		color = { 0.8 0.8 0.6 }
+		
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+			
+		autocephaly = yes
+		pentarchy = yes
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		rel_head_defense = yes 
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	orthodoxist = {
+		graphical_culture = westerngfx
+		
+		icon = 11
+		heresy_icon = 18
+		
+		color = { 0.85 0.32 0.65 }
+	
+		parent = catholic
+	}
+	liberationist = {
+		graphical_culture = westerngfx
+
+		icon = 11
+		heresy_icon = 18
+		
+		color = { 1.0 0.93 0.34 }  
+		parent = catholic
+		
+		crusade_name = CRUSADE
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL GREED
+		}
+		investiture = no
+		can_retire_to_monastery = no
+		uses_jizya_tax = yes 
+		raised_vassal_opinion_loss = no
+		can_grant_invasion_cb = no
+		can_grant_claim = no
+		can_excommunicate = no
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+	}
+	celeste = {
+		graphical_culture = westerngfx 
+		
+		icon = 12
+		heresy_icon = 19
+		
+		color = { 0.2 0.55 0.15 }
+		
+	}
+	mucker = {
+		graphical_culture = westerngfx 
+		
+		icon = 12
+		heresy_icon = 19
+		
+		color = { 0.4 0.77 0.15 }
+		parent = celeste
+		
+	}
+	cicerite = {
+		graphical_culture = westerngfx 
+		
+		icon = 13
+		heresy_icon = 20
+		
+		color = { 1.0 0.9 0.4 }
+		
+	}
+	seladite = {
+		graphical_culture = yes
+	
+		icon = 13
+		heresy_icon = 20
+	
+		color = { 0.85 0.76 0.33 }
+		
+		parent = cicerite
+	}
+	evangelical = {
+		graphical_culture = westerngfx
+		
+		icon = 15
+		heresy_icon = 22
+		
+		color = { 0.47 0.38 1.0 }
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+	}
+	universal = {
+		graphical_culture = westerngfx
+		
+		icon = 15
+		heresy_icon = 22
+		
+		color = { 0.64 0.6 0.82 }
+		
+		parent = evangelical
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSINGS
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+	}
+	holy_spirit = {
+		graphical_culture = westerngfx
+		
+		icon = 14
+		heresy_icon = 21
+		
+		color = { 1.0 0.62 0.1 }
+	
+	}
+	xabaxai_xagi = {
+		graphical_culture = westerngfx
+		
+		icon = 14
+		heresy_icon = 21
+		
+		color = { 0.7 0.62 0.1 }
+		
+		parent = holy_spirit
+	}
+	tridentine = {
+		graphical_culture = westerngfx
+		
+		icon = 70
+		heresy_icon = 71
+		
+		color = { 0.85 0.8 0.45 }
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_VICAR
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		investiture = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		rel_head_defense = yes 
+		aggression = 2.0
+		can_demand_religious_conversion = yes
+		raised_vassal_opinion_loss = no
+
+		religious_clothing_head = 0
+		religious_clothing_priest = 1		
+
+
+
+	}
+	mysticalist = {
+		graphical_culture = westerngfx
+		
+		icon = 70
+		heresy_icon = 71
+		parent = tridentine
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		crusade_name = CRUSADE
+		use_new_crusade = yes
+		crusade_cb = new_crusade
+		scripture_name = THE_BIBLE
+		priest_title = PRIEST
+		investiture = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		allow_rivermovement = yes
+		rel_head_defense = yes 
+
+	}
+	
+
+}
+
+cult_of_saints= {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	#crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.8 0.2 0.1 }
+	
+	chicha = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 23
+		
+		color = { 1.0 0.5 0.16 }
+	}
+
+	santa_diablada = {
+		graphical_culture = westerngfx
+
+		icon = 24
+		
+		color = { 0.8 0.1 0.2 }
+
+		high_god_name = GOD_DIOS
+		
+		god_names = {
+			GOD_JESUS GOD_THE_BLESSED_VIRGIN GOD_EKEKO GOD_EL_TIO GOD_EL_TATA GOD_SAN_ERNESTO GOD_JICHI GOD_COQUENA GOD_JERERE
+		}
+		
+		evil_god_names = {
+			MANDINGA SATAN SUPAY LUCIFER
+		}
+		
+		can_grant_divorce = yes
+		autocephaly = yes
+		priests_can_inherit = no
+		priests_can_marry = no
+		allow_rivermovement = yes
+		hard_to_convert = yes
+
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PADRE
+		
+		intermarry = catholic
+		intermarry = pachamama
+	}
+	
+	folclorista = {
+		graphical_culture = westerngfx
+		
+		icon = 25
+		
+		color = { 0.77 0.63 0.85 }
+	}
+	
+	patria_grande = {
+		graphical_culture = westerngfx
+		
+		icon = 26
+		
+		color = { 0.88 0.63 0.0 }
+	}
+	
+	angel_cult = {
+		graphical_culture = westerngfx
+		
+		icon = 72
+		
+		color = { 0.88 0.63 0.0 }
+	}
+}
+
+eastern_group = {
+	
+	buddhism = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 27
+		
+		color = { 0.8 0.4 0.0 }
+		
+		scripture_name = THE_TRIPITACA
+		priest_title = BICO
+		piety_name = KARMA
+		
+		high_god_name = GOD_BRAMA
+		
+		god_names = {
+			GOD_THE_BUDA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES
+		}
+		
+		evil_god_names = {
+			MARA
+		}
+		
+		character_modifier = {
+			learning = 4
+		}
+		
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		intermarry = apostolic
+		intermarry = hindu
+		intermarry = theosophist
+	}
+	
+	hindu = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 28
+		
+		color = { 1.0 0.0 0.0 }
+		
+		high_god_name = GOD_AUM
+		
+		god_names = {
+			GOD_VISHNU GOD_THE_SUPREME GOD_SHIVA GOD_BRAHMA KALI
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS KALI
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		max_consorts = 3
+		#caste_opinions = yes
+		#castes = yes
+		allow_rivermovement = yes
+		
+		unit_modifier = {
+			land_morale = 0.3
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_VEDAS
+		priest_title = GURU
+		piety_name = KARMA
+
+		intermarry = theosophist
+		intermarry = buddhism
+	}
+
+	theosophist = {
+		has_coa_on_barony_only = yes
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 29
+		
+		color = { 0.7 0.2 0.3 }
+		
+		scripture_name = THE_SECRET_DOCTRINE
+		priest_title = OFFICER
+		piety_name = KARMA
+		
+		high_god_name = GOD_THE_MASTERS
+		
+		god_names = {
+			GOD_BLAVATSKY GOD_KOOT_HOOMI GOD_MORYA GOD_ABRAHAM GOD_MOSES GOD_JESUS GOD_BUDDHA GOD_CONFUCIUS GOD_LAOZI
+		}
+		
+		evil_god_names = {
+			THEVETAT ATLANTIS
+		}
+		
+
+		
+		has_heir_designation = yes
+		can_grant_divorce = yes		
+		can_excommunicate = yes
+		can_call_crusade = yes
+		priests_can_inherit = yes
+		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		female_temple_holders = yes
+		
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+
+		intermarry = catholic
+		intermarry = platinean
+		intermarry = jewish
+		intermarry = kabbalist
+		intermarry = hindu
+		intermarry = buddhism
+	}
+
+}
+
+muslim = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2
+	ai_convert_other_group = 1
+	ai_fabricate_claims = no
+	
+	color = { 0 0.7 0 }
+	
+	interface_skin = { muslim_interface } 
+	
+	# Names given only to Muslims
+	# the way this works is that it looks at all the names in a particular culture's name list and only assigns certain names to them if they follow the appropriate religion.
+	# i was rather confused about this myself for a while.
+	# this can be used to, say, add way more explicitly Muslim names to Motowners that only show up if they are Muslim.
+	# i can still get why Neomoors need to be their own culture, the system only works on a religion group rather than an individual religion basis.
+	male_names = {
+		Abbas Abdul Abdullah Abolhassan Abu-Bakr Ahmad Akbar Allahyar Ali Ali-Fay Ali-Kolon Ali-Zalil Hasan Hossein Hussayn Ismail Mahmud Mohammed Muammar Muhammad
+	}
+	female_names = {
+		Ayesha Abrar Afifah Anabia Hijrah Hind Hareem Iqra Judi Karida Khadijah Khalidah Khawlah Madeeha Maryam Mariyah Maymunah Mariam Mina Nuwwarrah Qismah Ruqayyah Saba Safaa Safiyyah Salma Shahrazad Sirin Sumaiyah Thuwaibah Umamah Zainab Zubaidah Zainab
+	}
+	
+	herderos = {
+	
+		graphical_culture = muslimgfx
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		icon = 30
+		heresy_icon = 32
+		
+		color = { 0.39 0.73 0.32 }
+	}
+	
+	valentes = {
+	
+		graphical_culture = muslimgfx
+		
+		icon = 30
+		heresy_icon = 32
+		
+		color = { 0.76 0.36 0.34 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		parent = herderos
+	}
+	
+	conservante = {
+	
+		graphical_culture = muslimgfx
+		
+		icon = 30
+		heresy_icon = 32
+		
+		color = { 0.33 0.74 0.38 }
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		parent = herderos
+	}
+	
+	#Main AtE religions that come from somewhere out there
+	
+	traditionalist = {
+		graphical_culture = muslimgfx
+		
+		icon = 31
+		heresy_icon = 33
+
+		color = { 0 0.5 0 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		allow_rivermovement = yes
+		attacking_same_religion_piety_loss = yes
+		hard_to_convert = yes
+		uses_jizya_tax = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		matrilineal_marriages = no
+		max_wives = 4
+		peace_piety_gain = 2.0 #Gains 2 extra piety per month while at peace
+		autocephaly = yes # may have issues with localization...
+	
+		intermarry = imamite
+		intermarry = herderos
+		intermarry = valentes
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+	
+	imamite = {
+		graphical_culture = muslimgfx
+		
+		icon = 31
+		heresy_icon = 33
+
+		color = { 0 0.8 0 }
+		crusade_name = JIHAD
+		scripture_name = THE_QURAN
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		can_call_crusade = yes
+		allow_rivermovement = yes
+		attacking_same_religion_piety_loss = yes
+		hard_to_convert = yes
+		uses_jizya_tax = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		has_heir_designation = yes 
+		defensive_attrition = yes
+	
+		intermarry = traditionalist
+		intermarry = herderos
+		intermarry = valentes
+
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
+	
+}
+
+jewish_group = {
+	graphical_culture = jewishgfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1	# try to convert if ai_zeal is high
+	
+	color = { 0.1 0.7 1.0 }
+	
+	interface_skin = { jews_interface }	
+	# Names given only to Jewish characters (base names)
+	male_names = {
+		Abram Avraham Baruch Ethan Ezra David Yaakov Yonatan Moshe Natan Reuven Saul Shlomo Yitzhak Yisrael Yochanan
+	}
+	
+	female_names = {
+		Sarai Batzion Devorah Hila Yehudit Miryam Rivka Rut Shoshana Sara Rachel Leah
+	}
+	
+	jewish = {
+		graphical_culture = jewishgfx
+		
+		icon = 34
+		heresy_icon = 35
+		
+		color = { 0.1 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TORAH
+		priest_title = RABBI
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD ADONAI
+		}
+		evil_god_names = {
+			SATAN
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+		
+		expel_modifier = expelled_jewish
+
+		intermarry = amazonian_jews
+	}
+	amazonian_jews = {
+		graphical_culture = jewishgfx
+		
+		icon = 34
+		heresy_icon = 35
+		
+		color = { 0.1 0.8 0.8 }
+		
+		parent = jewish
+		
+		crusade_name = GREAT_HOLY_WAR
+
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+		
+		expel_modifier = expelled_jewish
+
+		intermarry = jewish
+	}
+
+}
+
+old_world_cultists = {
+	has_coa_on_barony_only = yes
+	graphical_culture = muslimgfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 2 # always try to convert
+	
+	color = { 0.1 0.7 0.1 }
+	
+	atomicist = {
+		graphical_culture = muslimgfx
+
+		parent = aphite
+
+		icon = 36
+		heresy_icon = 43
+		
+		color = { 0.75 1.0 0.2 }
+		
+		interface_skin = { atomicist_interface }
+
+		high_god_name = GOD_ATOMOS
+
+		god_names = {
+			GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA GOD_ATOMOS GOD_THE_ELEMENTS
+		}
+		evil_god_names = {
+			THE_DEMON_CORE THE_VOID
+		}
+		crusade_name = GREAT_HOLY_WAR
+		allow_viking_invasion = yes
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+		
+		intermarry = aphite
+	}
+	
+	aphite = { #This Is Not A Place Of Honor
+		graphical_culture = muslimgfx
+		
+		icon = 36
+		heresy_icon = 43
+		
+		color = { 0.6 0.4 0.2 }
+		
+		interface_skin = { atomicist_interface }
+
+		high_god_name = GOD_THE_ELEMENTS
+
+		god_names = { #Might want to rethink the god names, but this seems fine for now
+			GOD_ATOMOS GOD_THE_ELEMENTS
+		}
+		evil_god_names = {
+			THE_DEMON_CORE THE_VOID GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA
+		}
+		crusade_name = GREAT_HOLY_WAR
+		allow_viking_invasion = yes
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_rivermovement = yes
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+		
+		intermarry = atomicist
+		
+		parent = atomicist
+	}
+
+	bandean = {
+		graphical_culture = muslimgfx
+		
+		icon = 37
+		heresy_icon = 44
+		
+		color = { 0.38 0.83 0.83 }
+	}
+	
+	artiguista = {
+		graphical_culture = muslimgfx
+		
+		icon = 37
+		heresy_icon = 44
+		
+		color = { 0.38 0.57 0.83 }
+		
+		parent = bandean
+	}
+	
+	piriamano = {
+		graphical_culture = muslimgfx
+		
+		icon = 37
+		heresy_icon = 44
+		
+		color = { 0.34 0.38 0.74 }
+		
+		parent = bandean
+	}
+	
+	camino_estelar = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 38
+		heresy_icon = 45
+		
+		color = { 0.81 0.05 0.86}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = LAS_INSTRUCCIONES_CELESTIALES
+		priest_title = HERMANO
+		
+		high_god_name = GOD_NIBIRU
+		
+		god_names = {
+			GOD_ALMA GOD_ANNUNAKI GOD_AN GOD_ESO GOD_CHUG_CHUG GOD_CHIZA GOD_TUNUPA_TARAPACA
+		}
+		
+		evil_god_names = {
+			GOD_OSCURIDAD GOD_SOL_MUERTO GOD_SIRIUS
+		}
+		
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		allow_rivermovement = yes
+		
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
+		feminist = yes
+	}
+
+	obscurantist = {
+		graphical_culture = mesoamericangfx
+		
+		icon = 38
+		heresy_icon = 45
+		
+		color = { 0.32 0.05 0.62}
+		parent = camino_estelar
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = LAS_INSTRUCCIONES_CELESTIALES
+		priest_title = KEEPER
+		
+		high_god_name = GOD_MANTO_CELESTIAL
+		
+		god_names = {
+			GOD_CHUG_CHUG GOD_CHIZA GOD_OSCURIDAD GOD_OZONO
+		}
+		
+		evil_god_names = {
+			GOD_NIBIRU GOD_ABISMO_BRILLANTE
+		}
+		
+		can_call_crusade = no
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		allow_rivermovement = yes
+		raised_vassal_opinion_loss = no
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		female_temple_holders = yes
+		feminist = yes
+	}
+	
+	darwinist = {
+		graphical_culture = muslimgfx
+		
+		icon = 39
+		heresy_icon = 46
+
+		crusade_name = EXTINCTION_WAR
+		scripture_name = THE_ORIGIN_OF_THE_SPECIES
+		priest_title = NATURALIST
+		piety_name=APTITUDE
+		high_god_name = GOD_MOTHER_NATURE
+		
+		god_names = {
+			GOD_MOTHER_NATURE GOD_PROPHET_DARWIN GOD_THE_SELECTION GOD_THE_WILD
+		}
+		
+		evil_god_names = {
+			GOD_LORD_VULCAN GOD_ORTHO_GENESIS GOD_THE_MAN GOD_THE_ARTIFICE
+		}		
+
+
+
+		color = { 0.62 0.25 0.3 }
+	}
+	
+	lamarckian = {
+		graphical_culture = muslimgfx
+		
+		icon = 39
+		heresy_icon = 46
+
+		crusade_name = EXTINCTION_WAR
+		scripture_name = PHILOSOPHIE_ZOOLOGIQUE
+		priest_title = NATURALIST
+		piety_name=DRIVE
+		high_god_name = GOD_ORTHO_GENESIS
+		
+		god_names = {
+			GOD_ORTHO_GENESIS GOD_FATHER_LAMARCK GOD_THE_DRIVING_FORCE GOD_THE_MAN
+		}
+		
+		evil_god_names = {
+			GOD_THE_WILD GOD_LORD_VULCAN
+		}	
+
+
+		color = { 0.85 0.25 0.3 }
+		parent = darwinist
+	}
+	
+	farrapo = {
+		graphical_culture = muslimgfx
+		
+		icon = 40
+		heresy_icon = 47
+		
+		color = { 0.4 0.6 0.57 }
+		
+		crusade_name = CAMPAIGN
+		scripture_name = PARTENON_LITERARIO
+		piety_name = TRADITION
+		priest_title = TROVADOR
+		
+		priests_can_marry = yes
+		
+		high_god_name = GOD_BENTO_GONCALVES
+		
+		god_names = {
+			GOD_NETTO GOD_GARIBALDI GOD_ANITTA GOD_CANABARRO GOD_TEIXEIRA_NUNES
+		}
+		
+		evil_god_names = {
+			CARAMURU TEINIAGUA
+		}
+		
+		allow_looting = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+
+		dislike_tribal_organization = yes
+
+		aggression = 1.5
+	
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+		
+		intermarry = gaucheria
+		intermarry = gaucheria_reformed
+		
+	}
+	
+	vargist = {
+		graphical_culture = muslimgfx
+		
+		icon = 40
+		heresy_icon = 47
+		
+		color = { 0.4 0.78 0.62 }
+		
+		parent = farrapo
+	}
+	
+	platinean = {
+		graphical_culture = muslimgfx
+
+		icon = 41
+		heresy_icon = 48
+
+		color = { 0.4 0.95 1.0 }
+		
+		interface_skin = { atomicist_interface }
+
+		high_god_name = GOD_SAN_MARTIN
+
+		god_names = {
+			GOD_BELGRANO GOD_GUEMES GOD_MORENO GOD_MARADONA GOD_BROWN GOD_SARMIENTO
+		}
+		evil_god_names = {
+			GOD_THE_CROSS GOD_THE_CROWN GOD_THE_LUSOS GOD_THE_CIPAYO
+		}
+		crusade_name = CAMPAIGN
+		scripture_name = SILVER_BOOKS
+		priest_title = JUDGE
+		priests_can_marry = yes 
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+
+		rel_head_defense = yes
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+
+	rosalian = {
+		graphical_culture = muslimgfx
+	
+		parent = platinean
+
+		icon = 41
+		heresy_icon = 48
+
+		color = { 0.75 1.0 0.2 }
+	
+		interface_skin = { atomicist_interface }
+
+		high_god_name = GOD_ROSAS
+
+		god_names = {
+				GOD_THE_RESTORER GOD_BELGRANO GOD_GUEMES GOD_MARADONA GOD_BROWN GOD_SAN_MARTIN GOD_LA_MAZORCA GOD_DORREGO GOD_QUIROGA
+		}
+		evil_god_names = {
+			GOD_THE_CROSS GOD_THE_CROWN GOD_THE_LUSOS GOD_THE_CIPAYO THE_UNITARIANS
+		}
+		crusade_name = CAMPAIGN
+		scripture_name = CRIMSON_BOOKS
+		priest_title = JUDGE
+		priests_can_marry = yes 
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+
+		peace_prestige_loss = yes	
+
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+
+	modernists = { 
+		graphical_culture = muslimgfx
+	
+		icon = 42
+		heresy_icon = 49
+		
+		color = { 0.9 0.9 0.9 }
+		
+		interface_skin = { muslim_interface }
+		
+		high_god_name = GOD_THE_ANCESTRAL_RACE
+		
+		god_names = {
+			GOD_BRASILEIROS GOD_ADAO GOD_EVA GOD_ABAPORU GOD_THE_ARCHITECT GOD_MACUNAIMA
+		}
+		
+		evil_god_names = {
+			GOD_THE_GRINGO GOD_THE_DARKNESS GOD_THE_HEADLESS_MULE GOD_CUCA
+		}
+		crusade_name = GREAT_VANGUARD
+		allow_in_ruler_designer= yes
+		allow_looting= yes
+		scripture_name= THE_MIMEOGRAPHED_TEXTS
+		piety_name= INOVATION
+		priest_title= EXPOSITOR
+		priests_can_marry = yes
+		female_temple_holders = yes
+		max_consorts = 1
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	
+	}
+
+	varedesian = { # A greater Sertão
+		graphical_culture = muslimgfx
+	
+		icon = 42
+		heresy_icon = 49
+		
+		color = { 0.9 0.78 0.64 }
+		
+		interface_skin = { muslim_interface }
+		
+		high_god_name = GOD_THE_ANCESTRAL_RACE
+		
+		parent = modernists
+		
+		god_names = {
+			GOD_BRASILEIROS GOD_REINALDO GOD_DIADORIM GOD_THE_RACE
+		}
+		
+		evil_god_names = {
+			GOD_THE_GRINGO THE_DEVIL GOD_THE_DROUGHT GOD_THE_JANGUNSUS
+		}
+		crusade_name = GREAT_WALK
+		allow_looting= yes
+		scripture_name= THE_SAGARANA
+		piety_name= VIGOR
+		priest_title= TELLER
+		priests_can_marry = yes
+		female_temple_holders = yes
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		peace_piety_gain = 1.0 #Varedesians 1 extra piety per month while at peace
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
+	
+}	
+	
+pagan_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { pagan_interface }
+
+	dreamtime_reformed = {
+		graphical_culture = mesoamericangfx
+		
+		color = { 0.85 0.55 0.33 }	
+			
+		icon = 50
+		heresy_icon = 51
+	}
+	
+	dreamtime = {
+		graphical_culture = mesoamericangfx
+		
+		color = { 0.55 0.35 0.22 }	
+			
+		icon = 49
+		heresy_icon = 51
+		
+		reformed = dreamtime_reformed
+	}
+	
+	gaucheria_reformed = {
+		graphical_culture = mongolgfx
+		alternate_start = { always = no }
+		
+		color = { 0.87 0.63 0.33 }	
+		
+		icon = 54
+		heresy_icon = 55
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_FIERRO_TOMES
+		piety_name = TRADITION
+		priest_title = PAYADOR
+		
+		priests_can_marry = yes
+		
+		high_god_name = THE_GREAT_GAUCHO
+		
+		god_names = {
+			GOD_MARTIN_FIERRO GOD_CAUDILLOS GOD_HORSE GOD_GAUCHITO
+		}
+		
+		evil_god_names = {
+			THE_GRINGO THE_CACIQUES
+		}
+		
+		ai_convert_other_group = 2 #Alwayss
+		
+		allow_looting = yes
+		max_consorts = 3
+				
+		aggression = 1.5 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.25
+
+		religious_clothing_head = 13
+		religious_clothing_priest = 4
+		
+		allow_in_ruler_designer = no
+
+		intermarry = gaucheria
+		intermarry = farrapo
+		
+	}
+	gaucheria = {
+		graphical_culture = mongolgfx
+		
+		color = { 0.70 0.51 0.28 }	
+			
+		icon = 53
+		heresy_icon = 55
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_FIERRO_TOMES
+		piety_name = TRADITION
+		priest_title = PAYADOR
+		
+		high_god_name = THE_GREAT_GAUCHO
+		
+		god_names = {
+			GOD_MARTIN_FIERRO GOD_CAUDILLOS GOD_HORSE GOD_GAUCHITO
+		}
+		
+		evil_god_names = {
+			THE_GRINGO THE_CACIQUES
+		}
+				
+		allow_looting = yes
+		priests_can_marry = yes
+		allow_looting = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		max_consorts = 3
+		reformed = gaucheria_reformed
+		
+		dislike_tribal_organization = yes
+		
+		short_reign_opinion_year_mult = 1.5
+
+		aggression = 2.0 # AI aggression factor
+
+		religious_clothing_head = 13
+		religious_clothing_priest = 4
+		
+		intermarry = gaucheria_reformed
+		intermarry = farrapo
+		
+	}
+	
+	calafatist_reformed = {
+		graphical_culture = norsegfx
+		alternate_start = { always = no }
+		
+		icon = 57
+		heresy_icon = 58
+		
+		color = { 0.23 0.64 0.8 }
+			
+		ai_convert_other_group = 2 #Always try to convert	
+
+		high_god_name = GOD_CALAFATE
+		
+		god_names = {
+			GOD_CALAFATE GOD_NOSJTHEJ GOD_MAGELLAN GOD_ELAL GOD_SARMIENTO GOD_ALEP_LAYP GOD_PERITO_MORENO
+		}
+		
+		evil_god_names = {
+			KACHPIK THE_COLD_ONE AYAYEMA CURSPI GUALICHO
+		}
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = BOOK_OF_TRAPALANDA
+		priest_title = SHEPERD
+		
+		female_temple_holders = yes
+		priests_can_marry = yes
+
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		aggression = 1.25 # AI aggression factor
+		
+		allow_in_ruler_designer = no
+		
+		intermarry = calafatist
+		intermarry = nguillatun
+		
+	}
+	calafatist = {
+		graphical_culture = norsegfx
+		
+		icon = 56
+		heresy_icon = 58
+		
+		color = { 0.42 0.65 0.76 }
+				
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = BOOK_OF_TRAPALANDA
+		priest_title = SHEPERD
+		
+		female_temple_holders = yes
+		priests_can_marry = yes
+		
+		high_god_name = GOD_CALAFATE
+		
+		god_names = {
+			GOD_CALAFATE GOD_NOSJTHEJ GOD_MAGELLAN GOD_ELAL GOD_SARMIENTO GOD_ALEP_LAYP GOD_PERITO_MORENO
+		}
+		
+		evil_god_names = {
+			KACHPIK THE_COLD_ONE AYAYEMA CURSPI GUALICHO
+		}
+		unit_modifier = {		
+			garrison_size = 0.3
+			levy_size = 0.1
+			
+			key = "DEF_RELIGION"
+		}
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			light_cavalry_defensive = 0.8
+			knights_defensive = 0.8
+			archers_defensive = 0.8
+			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
+			
+			garrison_size = 0.4
+			
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		allow_looting = yes
+		allow_rivermovement = yes
+		defensive_attrition = yes
+		seafarer = yes
+		raised_vassal_opinion_loss = no
+		reformed = calafatist_reformed
+		max_consorts = 3
+		hard_to_convert = yes
+		dislike_tribal_organization = yes
+		
+		aggression = 1.25 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 2.5
+		
+		religious_clothing_head = 15
+		religious_clothing_priest = 3
+		
+		intermarry = calafatist_reformed
+		intermarry = nguillatun
+		
+	}
+	
+	manredebu_reformed = {
+		graphical_culture = mongolgfx
+		alternate_start = { always = no }
+		
+		icon = 60
+		heresy_icon = 61
+		
+		color = { 0.95 0.39 0.0 }
+		
+		ai_convert_other_group = 2 #Always try to convert
+		
+		high_god_name = GOD_SUN
+		
+		god_names = {
+			GOD_SUN GOD_MOON GOD_BULL GOD_YSO
+		}
+		evil_god_names = {
+			GOD_CHAOS GOD_BLOOD THE_CERRADO_DEMON GOD_CLAY GOD_BONE
+		}
+		
+		crusade_name = HOLY_WAR_VACARIA
+		scripture_name = THE_SANG_TRUTHS
+		priest_title = HERB_POET
+		
+		priests_can_marry = yes
+		
+		allow_looting = yes
+		max_consorts = 3
+		
+		female_temple_holders = yes
+		male_temple_holders  = no
+		
+		aggression = 2.0 # AI aggression factor
+		
+		short_reign_opinion_year_mult = 1.25
+
+		religious_clothing_head = 13
+		religious_clothing_priest = 4
+		
+		allow_in_ruler_designer = no
+		
+		intermarry = manredebu
+	}
+	manredebu = {
+		graphical_culture = mongolgfx
+		
+		icon = 59
+		heresy_icon = 61
+		
+		color = { 0.93 0.65 0.0 }
+		
+		high_god_name = GOD_SUN
+		
+		god_names = {
+			GOD_SUN GOD_MOON GOD_BULL GOD_YSO
+		}
+		evil_god_names = {
+			GOD_CHAOS GOD_BLOOD THE_CERRADO_DEMON GOD_CLAY GOD_BONE
+		}
+		
+		crusade_name = HOLY_WAR_VACARIA
+		scripture_name = THE_SANG_TRUTHS
+		priest_title = HERB_POET
+		
+		priests_can_marry = yes
+		allow_looting = yes
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		max_consorts = 2
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		reformed = manredebu_reformed
+		
+		short_reign_opinion_year_mult = 2
+		
+		female_temple_holders = yes
+		
+		aggression = 2.0 # AI aggression factor
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+		
+		dislike_tribal_organization = yes
+	}
+	
+	terra_benta_reformed = {
+		graphical_culture = pagangfx
+		alternate_start = { always = no }
+		
+		icon =	63
+		heresy_icon = 64
+		
+		color = { 0.53 0.25 0.02 }
+		
+		ai_convert_other_group = 2 #Always try to convert
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_RECOLECTIONS
+		priest_title = PARENT
+		
+		female_temple_holders = yes
+		
+		high_god_name = THE_ARCHITECT
+		
+		god_names = {
+			THE_VALLEY THE_SPIRITS GOD_JESUS GOD_THE_SNAKE GOD_THE_GREATNESS
+		}
+		
+		evil_god_names = {
+			THE_BEAST THE_DARKNESS THE_NIGHT THE_WEREWOLF
+		}
+		
+		allow_looting = yes
+		
+		aggression = 1.5
+		
+		allow_in_ruler_designer = no
+		
+		intermarry = terra_benta
+		
+	}
+	terra_benta = {
+		graphical_culture = pagangfx
+		
+		icon = 62
+		heresy_icon = 64
+		
+		color = { 0.53 0.25 0.02 }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_RECOLLECTIONS
+		priest_title = PARENT
+		
+		female_temple_holders = yes
+		
+		high_god_name = THE_GOD_LIGHT
+		
+		god_names = {
+			THE_VALLEY GOD_MARY GOD_EARTH_MOTHER THE_SPIRITS GOD_JESUS GOD_CRISTO
+		}
+		
+		evil_god_names = {
+			THE_DARKNESS GOD_THE_DOG GOD_THE_EMBOABAS
+		}
+		
+		unit_modifier = {
+			land_morale = 0.3
+			
+			light_infantry_offensive = 0.2
+			heavy_infantry_offensive = 0.2
+			
+			key = "MINEIRO_ATK"
+		}
+		unit_home_modifier = {
+			land_morale = 0.5
+			light_infantry_defensive = 0.5
+			heavy_infantry_defensive = 0.5
+			pikemen_defensive = 0.5
+			light_cavalry_defensive = 0.5
+			knights_defensive = 0.5
+			archers_defensive = 0.5
+			
+			garrison_size = 0.5
+			
+			key = "MINEIRO_DEF"
+		}
+		
+		allow_looting = yes
+		defensive_attrition = yes
+		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
+		hard_to_convert = yes
+		reformed = terra_benta_reformed
+			
+		dislike_tribal_organization = yes
+		
+		aggression = 2.0
+		
+		short_reign_opinion_year_mult = 2
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+		
+		intermarry = terra_benta_reformed
+
+	}
+	
+}
+
+syncretic_group = {
+
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx #to ensure it works with new African shields
+	playable = yes
+	
+	ai_convert_same_group = 0
+	ai_convert_other_group = 1
+	
+	color = { 0.5 0.4 0.3 }
+
+
+	camdomble = {
+		graphical_culture = africangfx
+		secondary_event_pictures = west_african_pagan
+
+		icon = 65
+		
+		color = { 0.6 0.75 0.2 }
+		
+		interface_skin = { afro_syncretic_interface zoroastrian_interface muslim_interface }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = ODU_IFA
+		#priest_title = SHAMAN
+		
+		high_god_name = GOD_OLORUN
+		
+		god_names = {
+			GOD_THE_ORICHAS GOD_THE_SAINTS GOD_ORUNMILA GOD_IANSA GOD_IEMANJA
+		}
+		evil_god_names = {
+			THE_LEFT_SPIRITS
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		#aggression = 2.0 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		piety_name = ASHE
+	}
+	
+	kardecists = {
+		graphical_culture = westerngfx
+		
+		icon = 66
+		
+		color = { 0.8 0.57 0.0 }
+	}
+	santo_daime = {
+		graphical_culture = mesoamericangfx
+		secondary_event_pictures = west_african_pagan
+
+		icon = 67
+		
+		color = { 0.35 0.43 0.35 }
+		
+		interface_skin = { afro_syncretic_interface zoroastrian_interface muslim_interface }
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_MISSIONED_DOCUMENTS
+		#priest_title = SHAMAN
+		
+		high_god_name = THE_VIRGIN_OF_THE_FOREST
+		
+		god_names = { GOD_THE_SPIRITS GOD_THE_BLESSED_VIRGIN GOD_THE_CONCEDING_ONE
+			
+		}
+		evil_god_names = { THE_LEFT_SPIRITS GOD_THE_DARKNESS
+			
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		#aggression = 2.0 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		piety_name = PURITY
+	}
+	umbanda = {
+		graphical_culture = umbanda
+		
+		icon = 68
+		
+		color = { 0.83 0.0 0.76 }
+	}
+
+}
+
+nautical = {
+	has_coa_on_barony_only = no
+	graphical_culture = norsegfx
+	playable = yes
+	hostile_within_group = yes
+	
+	color = { 0.4 0.2 0.2 }
+	
+	interface_skin = { pirate_interface pagan_interface }
+	
+	ai_convert_same_group = 2 # try to convert if ai_zeal is high
+	ai_convert_other_group = 1	# only if zealous
+	
+	brethren = { # pirates!
+		graphical_culture = norsegfx
+
+		icon = 69
+		
+		color = { 0.3 0.2 0.2 }
+
+		high_god_name = GOD_NEPTUNE
+
+		god_names = {
+			GOD_THE_SEA_HAG GOD_NEPTUNE GOD_AGWE GOD_EXPLORATION
+		}
+		evil_god_names = {
+			THE_HANGMAN DAVY_JONES
+		}
+		
+		scripture_name = THE_CODE
+		priest_title = PRIEST
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		max_consorts = 3
+		seafarer = yes
+		raised_vassal_opinion_loss = no
+		peace_prestige_loss = yes
+		defensive_attrition = yes
+		uses_jizya_tax = yes
+		aggression = 2.0 # AI aggression factor
+		
+		unit_home_modifier = {
+			land_morale = 0.8
+			light_infantry_defensive = 0.8
+			heavy_infantry_defensive = 0.8
+			pikemen_defensive = 0.8
+			archers_defensive = 0.8
+			key = "DEF_RELIGION_HOME_TERRITORY"
+		}
+		
+		religious_clothing_head = 17
+		religious_clothing_priest = 17
+		
+		intermarry = camdomble
+		intermarry = calafatist
+		intermarry = calafatist_reformed
+	
+	}
+}

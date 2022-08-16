@@ -1,0 +1,21 @@
+# c_alenquer
+
+# County Title
+title = c_alenquer
+
+# Settlements
+max_settlements = 3
+
+b_alenquer = castle
+b_curua = temple
+#b_monte_alegre_4 = temple
+#b_jaguara = castle
+#b_vai_quem_quer = city
+#b_boca_nova = temple
+#b_acucena = castle
+
+# Misc
+culture = paraense
+religion = xabaxai_xagi
+
+#History

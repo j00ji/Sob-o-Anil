@@ -1,0 +1,21 @@
+# c_paratinga
+
+# County Title
+title = c_paratinga
+
+# Settlements
+max_settlements = 3
+
+b_calmon_2 = castle
+b_santo_antonio_5 = temple
+b_paratinga = city
+#b_boquira = castle
+#b_sitio_do_mato = city
+#b_macaubas = temple
+#b_oliveira_dos_brejinhos = castle
+
+# Misc
+culture = chiconho
+religion = cicerite
+
+#History

@@ -1,0 +1,21 @@
+# c_muana
+
+# County Title
+title = c_muana
+
+# Settlements
+max_settlements = 3
+
+b_muana = city
+b_ponta_das_pedras = temple
+#b_mariai = temple
+#b_sao_sebastiao_da_boa_vista = castle
+#b_caimbe = city
+#b_cambu = temple
+#b_arrozal_2 = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

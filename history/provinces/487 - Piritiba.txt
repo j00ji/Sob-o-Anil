@@ -1,0 +1,21 @@
+# c_piritiba
+
+# County Title
+title = c_piritiba
+
+# Settlements
+max_settlements = 3
+
+b_morro_do_chapeu = castle
+b_piritiba = city
+#b_mairi = temple
+#b_sonhem = castle
+#b_duas_barras_do_morro = city
+#b_fedegoso = temple
+#b_america_dourada = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

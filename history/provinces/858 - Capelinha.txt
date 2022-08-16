@@ -1,0 +1,21 @@
+# c_capelinha
+
+# County Title
+title = c_capelinha
+
+# Settlements
+max_settlements = 4
+
+b_forte_areao = castle
+#b_itamarandiba = city
+#b_carbonita = temple
+#b_turmalina = castle
+#b_botumirim = city
+#b_itacambira = temple
+#b_chapada_do_norte = castle
+
+# Misc
+culture = espinhaco
+religion = angel_cult
+
+#History

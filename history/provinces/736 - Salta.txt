@@ -1,0 +1,21 @@
+# c_salta
+
+# County Title
+title = c_salta
+
+# Settlements
+max_settlements = 5
+
+b_salta = city
+b_jujuy = castle
+b_tilcara = castle
+#b_rosario_de_la_frontera = castle
+#b_guemes = city
+#b_poma = temple
+#b_vina = castle
+
+# Misc
+culture = norteno
+religion = catholic
+
+#History

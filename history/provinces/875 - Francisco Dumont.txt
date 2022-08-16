@@ -1,0 +1,21 @@
+# c_francisco_dumont
+
+# County Title
+title = c_francisco_dumont
+
+# Settlements
+max_settlements = 3
+
+b_forte_cabral = castle
+#b_jequitai = city
+#b_dolabela = temple
+#b_porto_faria = castle
+#b_varzea_da_palma = city
+#b_barrocao = temple
+#b_olhos_dagua = castle
+
+# Misc
+culture = espinhaco
+religion = terra_benta
+
+#History

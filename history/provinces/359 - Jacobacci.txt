@@ -1,0 +1,21 @@
+# c_jacobacci
+
+# County Title
+title = c_jacobacci
+
+# Settlements
+max_settlements = 3
+
+b_jacobacci = tribal
+b_maquinchao = city
+#b_quetrequile = temple
+#b_ojos_de_agua = castle
+#b_clemente_onelli = city
+#b_comallo = temple
+#b_rio_chico = castle
+
+# Misc
+culture = desertico
+religion = gaucheria
+
+#History

@@ -1,0 +1,21 @@
+# c_mercedes
+
+# County Title
+title = c_mercedes
+
+# Settlements
+max_settlements = 3
+
+b_mercedes_2 = castle
+b_navarro = city
+#b_suipacha = temple
+#b_gowland = castle
+#b_agote = city
+#b_jofre = temple
+#b_noelia = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

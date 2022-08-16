@@ -1,0 +1,664 @@
+###ÄNSI
+
+35001 = {
+	name = "Sousa"
+	culture = carioca
+	religion = evangelical
+}
+
+35002 = {
+	name = "Costa"
+	culture = carioca
+	religion = evangelical
+}
+
+35003 = {
+	name = "Barreiros"
+	culture = carioca
+	religion = evangelical
+}
+
+35004 = {
+	name = "Morais"
+	culture = carioca
+	religion = evangelical
+}
+
+35005 = {
+	name = "Gomes"
+	culture = carioca
+	religion = evangelical
+}
+
+35006 = {
+	name = "Maciel"
+	culture = carioca
+	religion = evangelical
+}
+
+35007 = {
+	name = "Gallier"
+	culture = carioca
+	religion = evangelical
+}
+
+35008 = {
+	name = "Pádua"
+	culture = carioca
+	religion = evangelical
+}
+
+35009 = {
+	name = "da Rocha"
+	culture = carioca
+	religion = evangelical
+}
+
+35010 = {
+	name = "Marcomini"
+	culture = carioca
+	religion = evangelical
+}
+
+35011 = {
+	name = "Nunes"
+	culture = carioca
+	religion = evangelical
+}
+
+35012 = {
+	name = "Melo"
+	culture = carioca
+	religion = evangelical
+}
+
+35013 = {
+	name = "de Paiva"
+	culture = carioca
+	religion = evangelical
+}
+
+35014 = {
+	name = "da Penha"
+	culture = carioca
+}
+
+35015 = {
+	name = "Carvalho"
+	culture = carioca
+	religion = evangelical
+}
+35016 = {
+	name = "Guinle"
+	culture = carioca
+}
+35017 = {
+	name = "Escarlate"
+	culture = carioca
+}
+35018 = {
+	name = "Moreira"
+	culture = carioca
+}
+35019 = {
+	name = "Sales"
+	culture = carioca
+}
+35020 = {
+	name = "Catão"
+	culture = carioca
+}
+35021 = {
+	name = "Klabin"
+	culture = carioca
+}
+35022 = {
+	name = "Carrara"
+	culture = carioca
+}
+35023 = {
+	name = "Silva"
+	culture = carioca
+}
+35024 = {
+	name = "Macedo"
+	culture = carioca
+}
+35025 = {
+	name = "Cunha"
+	culture = carioca
+}
+35027 = {
+	name = "Menezes"
+	culture = carioca
+}
+35028 = {
+	name = "Saldanha"
+	culture = carioca
+}
+35027 = {
+	name = "Mota"
+	culture = carioca
+}
+35028 = {
+	name = "Oliveira"
+	culture = carioca
+}
+35029 = {
+	name = "Palhares"
+	culture = carioca
+}
+35030 = {
+	name = "Pires"
+	culture = carioca
+	culture = mantiqueiro
+}
+35031 = {
+	name = "Rangel"
+	culture = carioca
+}
+35032 = {
+	name = "Gabeira"
+	culture = carioca
+}
+35033 = {
+	name = "Tavares"
+	culture = carioca
+}
+35034 = {
+	name = "Siqueira"
+	culture = carioca
+}
+35035 = {
+	name = "Mendes"
+	culture = carioca
+	culture = mantiqueiro
+}
+35036 = {
+	name = "Pedreira"
+	culture = carioca
+}
+35037 = {
+	name = "Rodrigues"
+	culture = carioca
+}
+35038 = {
+	name = "Carloter"
+	culture = carioca
+	can_appear = no
+	used_for_random = no
+}
+35039 = {
+	name = "Maddi"
+	culture = carioca
+}
+35040 = {
+	name = "Barreto"
+	culture = carioca
+}
+35041 = {
+	name = "Baia"
+	culture = carioca
+}
+35042 = {
+	name = "Pimenta"
+	culture = carioca
+}
+40001 = {
+	name = "da Paixão"
+	culture = mantiqueiro
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 12
+			emblem = 0
+			color = 1
+			color = 3
+			color = 1
+		}
+	}
+}
+
+40002 = {
+	name = "Almeida"
+	culture = mantiqueiro
+}
+
+40003 = {
+	name = "Balieiro"
+	culture = mantiqueiro
+}
+
+40004 = {
+	name = "Diniz"
+	culture = mantiqueiro
+}
+
+40005 = {
+	name = "Nakabori"
+	culture = mantiqueiro
+}
+
+40006 = {
+	name = "Serra"
+	culture = mantiqueiro
+}
+40007 = {
+	name = "Fortis"
+	culture = mantiqueiro
+}
+40008 = {
+	name = "Carvalho"
+	culture = mantiqueiro
+}
+40009 = {
+	name = "Rocha"
+	culture = mantiqueiro
+}
+40010 = {
+	name = "Dias"
+	culture = mantiqueiro
+}
+40011 = {
+	name = "Peixoto"
+	culture = mantiqueiro
+}
+40012 = {
+	name = "Werneck"
+	culture = mantiqueiro
+}
+40013 = {
+	name = "Whetley"
+	culture = mantiqueiro
+}
+40014 = {
+	name = "Soós"
+	culture = mantiqueiro
+}
+40015 = {
+	name = "Stagi"
+	culture = mantiqueiro
+}
+40016 = {
+	name = "Bogosian"
+	culture = mantiqueiro
+}
+40017 = {
+	name = "Soares"
+	culture = mantiqueiro
+}
+40018 = {
+	name = "Aguiar"
+	culture = mantiqueiro
+}
+40019 = {
+	name = "Pineschi"
+	culture = mantiqueiro
+}
+40020 = {
+	name = "Flores"
+	culture = mantiqueiro
+}
+40021 = {
+	name = "Pereira"
+	culture = mantiqueiro
+}
+40022 = {
+	name = "Coutinho"
+	culture = mantiqueiro
+}
+40023 = {
+	name = "Farias"
+	culture = mantiqueiro
+}
+40024 = {
+	name = "Leite"
+	culture = mantiqueiro
+}
+40025 = {
+	name = "Azevedo"
+	culture = mantiqueiro
+}
+40026 = {
+	name = "Alves"
+	culture = mantiqueiro
+}
+40027 = {
+	name = "Teixeira"
+	culture = mantiqueiro
+}
+40028 = {
+	name = "Lamin"
+	culture = mantiqueiro
+}
+40029 = {
+	name = "Matos"
+	culture = mantiqueiro
+}
+40030 = {
+	name = "Salin"
+	culture = mantiqueiro
+}
+40031 = {
+	name = "Santos"
+	culture = mantiqueiro
+}
+40032 = {
+	name = "Barbosa"
+	culture = mantiqueiro
+}
+40033 = {
+	name = "Simão"
+	culture = mantiqueiro
+}
+40034 = {
+	name = "Beozzo"
+	culture = mantiqueiro
+	religion = santo_daime
+}
+40035 = {
+	name = "Mariano"
+	culture = mantiqueiro
+}
+40036 = {
+	name = "Alvares"
+	culture = mantiqueiro
+}
+40037 = {
+	name = "Paz"
+	culture = mantiqueiro
+}
+40038 = {
+	name = "Maximo"
+	culture = mantiqueiro
+}
+40039 = {
+	name = "Tanaka"
+	culture = mantiqueiro
+	culture = kyusei
+}
+40040 = {
+	name = "Nakano"
+	culture = mantiqueiro
+	culture = kyusei
+}
+40041 = {
+	name = "Vidal"
+	culture = mantiqueiro
+}
+45001 = {
+	name = "Coura"
+	culture = pomerisch
+}
+45002 = {
+	name = "der Rhein"
+	culture = pomerisch
+}
+45003 = {
+	name = "Fischer"
+	culture = pomerisch
+}
+45004 = {
+	name = "Schenberg"
+	culture = pomerisch
+}
+45005 = {
+	name = "Arns"
+	culture = pomerisch
+}
+45006 = {
+	name = "Kuerten"
+	culture = pomerisch
+}
+45007 = {
+	name = "Schünemann"
+	culture = pomerisch
+}
+45008 = {
+	name = "Hickmann"
+	culture = pomerisch
+}
+45009 = {
+	name = "Linz"
+	culture = pomerisch
+}
+45010 = {
+	name = "Koeler"
+	culture = pomerisch
+}
+45011 = {
+	name = "Kastellaun"
+	culture = pomerisch
+}
+45012 = {
+	name = "Mosel"
+	culture = pomerisch
+}
+45013 = {
+	name = "Bingen"
+	culture = pomerisch
+}
+45014 = {
+	name = "Nassau"
+	culture = pomerisch
+}
+45015 = {
+	name = "Woerrstadt"
+	culture = pomerisch
+}
+45016 = {
+	name = "Darmstadt"
+	culture = pomerisch
+}
+45017 = {
+	name = "Belgard"
+	culture = pomerisch
+}
+45018 = {
+	name = "Greifenberg"
+	culture = pomerisch
+}
+45019 = {
+	name = "Kolberg"
+	culture = pomerisch
+}
+45020 = {
+	name = "Labes"
+	culture = pomerisch
+}
+45021 = {
+	name = "Kowak"
+	culture = pomerisch
+}
+45022 = {
+	name = "Ragenwald"
+	culture = pomerisch
+}
+45023 = {
+	name = "Müller"
+	culture = pomerisch
+}
+45024 = {
+	name = "Thurow"
+	culture = pomerisch
+}
+45025 = {
+	name = "Klein"
+	culture = pomerisch
+}
+45026 = {
+	name = "Grifo"
+	culture = pomerisch
+}
+45027 = {
+	name = "Wandermurem"
+	culture = pomerisch
+}
+45028 = {
+	name = "Suiebodisce"
+	culture = pomerisch
+}
+50001 = {
+	name = "Camanho"
+	culture = capixaba
+}
+50002 = {
+	name = "Biló"
+	culture = capixaba
+}
+50003 = {
+	name = "Delpupo"
+	culture = capixaba
+}
+50004 = {
+	name = "Thomes"
+	culture = capixaba
+}
+50005 = {
+	name = "Teles"
+	culture = capixaba
+}
+50006 = {
+	name = "Matos"
+	culture = capixaba
+}
+50007 = {
+	name = "Chaves"
+	culture = capixaba
+}
+50008 = {
+	name = "Melotti"
+	culture = capixaba
+}
+50009 = {
+	name = "Lomar"
+	culture = capixaba
+}
+50010 = {
+	name = "Rodrigues"
+	culture = capixaba
+}
+50011 = {
+	name = "Macedo"
+	culture = capixaba
+}
+50012 = {
+	name = "Giezen"
+	culture = capixaba
+}
+50013 = {
+	name = "Modah"
+	culture = capixaba
+}
+50014 = {
+	name = "Srour"
+	culture = capixaba
+}
+50015 = {
+	name = "Medeiros"
+	culture = capixaba
+}
+50016 = {
+	name = "Caldas"
+	culture = capixaba
+}
+50017 = {
+	name = "Bonissi"
+	culture = capixaba
+}
+50018 = {
+	name = "Betim"
+	culture = capixaba
+}
+50019 = {
+	name = "Barrozo"
+	culture = capixaba
+}
+50020 = {
+	name = "Otoni"
+	culture = capixaba
+}
+50021 = {
+	name = "Araujo"
+	culture = capixaba
+}
+50022 = {
+	name = "Liberato"
+	culture = capixaba
+}
+50023 = {
+	name = "Trindade"
+	culture = capixaba
+}
+50024 = {
+	name = "Filgueiras"
+	culture = capixaba
+}
+50025 = {
+	name = "Madrikis"
+	culture = capixaba
+}
+50026 = {
+	name = "Deodato"
+	culture = capixaba
+}
+50027 = {
+	name = "Pimentel"
+	culture = capixaba
+}
+50028 = {
+	name = "Guida"
+	culture = capixaba
+}
+50029 = {
+	name = "Pagio"
+	culture = capixaba
+}
+50030 = {
+	name = "Campana"
+	culture = capixaba
+}
+50031 = {
+	name = "Conceição"
+	culture = capixaba
+}
+50032 = {
+	name = "Fagundes"
+	culture = capixaba
+}
+50033 = {
+	name = "Mikales"
+	culture = capixaba
+}
+50034 = {
+	name = "Pacheco"
+	culture = capixaba
+}
+50035 = {
+	name = "Hartuiq"
+	culture = capixaba
+}
+50036 = {
+	name = "Perfeira"
+	culture = capixaba
+}
+50037 = {
+	name = "Loiola"
+	culture = capixaba
+}
+50038 = {
+	name = "Colnago"
+	culture = capixaba
+}
+50039 = {
+	name = "Recla"
+	culture = capixaba
+}
+50040 = {
+	name = "Belmiro"
+	culture = capixaba
+}

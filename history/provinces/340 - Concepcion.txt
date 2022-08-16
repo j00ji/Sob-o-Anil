@@ -1,0 +1,21 @@
+# c_concepcion
+
+# County Title
+title = c_concepcion
+
+# Settlements
+max_settlements = 6
+
+b_concepcion = castle
+b_talcahuano = city
+b_san_pedro_de_la_paz = temple
+b_coronel = castle
+b_hualpen = city
+#b_chiguayante = temple
+#b_tome = castle
+
+# Misc
+culture = centrino
+religion = nguillatun
+
+#History

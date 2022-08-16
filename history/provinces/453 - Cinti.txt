@@ -1,0 +1,21 @@
+# c_cinti
+
+# County Title
+title = c_cinti
+
+# Settlements
+max_settlements = 4
+
+b_camargo = castle
+b_tomina = city
+b_monteagudo = temple
+#b_abecia = castle
+#b_azurduy = city
+#b_culpina = temple
+#b_incahuasi = castle
+
+# Misc
+culture = colla
+religion = santa_diablada
+
+#History

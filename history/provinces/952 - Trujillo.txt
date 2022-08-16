@@ -1,0 +1,21 @@
+# c_trujillo
+
+# County Title
+title = c_trujillo
+
+# Settlements
+max_settlements = 6
+
+b_trujillo = castle
+b_la_esperanza = city
+b_el_porvenir = temple
+b_viru = castle
+b_otuzco = city
+#b_julcan = temple
+#b_huanchaco = castle
+
+# Misc
+culture = nortegrandeno
+religion = tridentine
+
+#History

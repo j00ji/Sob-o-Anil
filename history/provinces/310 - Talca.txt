@@ -1,0 +1,21 @@
+# c_talca
+
+# County Title
+title = c_talca
+
+# Settlements
+max_settlements = 4
+
+b_talca = castle
+b_maule = city
+b_san_clemente = temple
+#b_rio_claro_2 = castle
+#b_san_rafael = city
+#b_culenar = temple
+#b_maitenes = castle
+
+# Misc
+culture = huaso
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_concordia
+
+# County Title
+title = c_concordia
+
+# Settlements
+max_settlements = 3
+
+b_concordia = castle
+b_joacaba = temple
+#b_catanduvas = temple
+#b_piratuba = castle
+#b_peritiba = city
+#b_irani = temple
+#b_lindoia_do_sul = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

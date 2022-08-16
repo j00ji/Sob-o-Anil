@@ -1,0 +1,472 @@
+branch_baptist = {
+	opposites = {
+		branch_methodist
+		branch_pentecostal
+		branch_presbyterian
+		branch_non_sectarian
+	}
+	same_opinion = 5
+	opposite_opinion = -5
+	learning = 1
+	potential = { religion = evangelical }
+	random = no
+
+	male_compliment_adj = COMPL_PURE
+	female_compliment_adj = COMPL_PURE
+	child_compliment_adj = COMPL_PURE
+	male_insult_adj = INSULT_DULLARD
+	female_insult_adj = INSULT_VACUOUS
+	child_insult_adj = INSULT_STUPID
+
+	religious = yes
+	ruler_designer_cost = 0
+	
+	
+}
+
+branch_methodist = {
+	opposites = {
+		branch_baptist
+		branch_pentecostal
+		branch_presbyterian
+		branch_non_sectarian
+	}
+	same_opinion = 5
+	opposite_opinion = -5
+	
+	diplomacy = 1
+	
+	potential = { religion = evangelical }
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+	child_compliment_adj = COMPL_RIGHTEOUS
+	male_insult_adj = INSULT_DULLARD
+	female_insult_adj = INSULT_VACUOUS
+	child_insult_adj = INSULT_STUPID
+	
+}
+
+branch_pentecostal = {
+	opposites = {
+		branch_baptist
+		branch_methodist
+		branch_presbyterian
+		branch_non_sectarian
+	}
+	same_opinion = 5
+	opposite_opinion = -5
+	
+	martial = 1
+	
+	potential = { religion = evangelical }
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+	child_compliment_adj = COMPL_RIGHTEOUS
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	child_insult_adj = INSULT_NARROWMINDED
+
+}
+
+branch_presbyterian = {
+	opposites = {
+		branch_baptist
+		branch_methodist
+		branch_pentecostal
+		branch_non_sectarian
+	}
+	same_opinion = 5
+	opposite_opinion = -5
+	
+	learning = 1
+	stewardship = 1
+	martial = -1
+	intrigue = -1
+	
+	potential = { religion = evangelical }
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+	child_compliment_adj = COMPL_RIGHTEOUS
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	child_insult_adj = INSULT_NARROWMINDED
+
+}
+
+branch_non_sectarian = {
+	opposites = {
+		branch_baptist
+		branch_methodist
+		branch_pentecostal
+		branch_presbyterian
+	}
+	same_opinion = 10
+	opposite_opinion = -5
+	
+	church_opinion = 5
+	
+	potential = { religion = evangelical }
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+	child_compliment_adj = COMPL_RIGHTEOUS
+	male_insult_adj = INSULT_DULLARD
+	female_insult_adj = INSULT_DULLARD
+	child_insult_adj = INSULT_STUPID
+
+}
+
+
+#Zodiac Signs
+zodiac_aquarius = {
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	opposites = {
+		zodiac_leo
+	}
+
+	diplomacy = -1
+	monthly_character_prestige = 0.05
+
+	random = no	
+	opposite_opinion = -10
+	same_opinion = 5
+
+	ai_rationality = -40
+	ai_greed = -20
+}
+
+zodiac_aries = {
+	opposites = {
+		zodiac_libra
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+
+	diplomacy = 1
+	intrigue = -1
+
+	random = no	
+	opposite_opinion = -15
+	same_opinion = 5
+
+	ai_zeal = 20
+	ai_honor = 40
+	ai_greed = -20	
+}
+
+zodiac_cancer = {
+	opposites = {
+		zodiac_capricorn
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	diplomacy = -1
+	combat_rating = 5
+
+	random = no	
+	opposite_opinion = -10
+	same_opinion = 5
+
+	ai_rationality = 40
+	ai_zeal = -20	
+}
+
+zodiac_capricorn = {
+	opposites = {
+		zodiac_cancer
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	martial = -1
+	learning = 1
+
+	random = no	
+	opposite_opinion = -10
+	same_opinion = 5
+
+	ai_rationality = 20
+	ai_ambition = 20	
+}
+
+zodiac_gemini = {
+	opposites = {
+		zodiac_sagittarius
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	stewardship = 1
+	general_opinion = -5
+
+	random = no	
+	opposite_opinion = -15
+	same_opinion = 10
+
+	ai_rationality = -20
+	ai_ambition = 40
+	ai_greed = 20
+}
+
+zodiac_leo = {
+	opposites = {
+		zodiac_aquarius
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	martial = 1
+
+	monthly_character_prestige = 0.05
+	monthly_character_piety = -0.01
+
+	random = no	
+	opposite_opinion = -20
+	same_opinion = -5
+
+	ai_ambition = 40
+	ai_zeal = 40
+
+}
+
+zodiac_libra = {
+	opposites = {
+		zodiac_aries
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+
+	stewardship = 1
+	intrigue = -1
+
+	random = no	
+	opposite_opinion = -5
+	same_opinion = 5
+
+	ai_zeal = -40
+	ai_rationality = 40
+}
+
+zodiac_pisces = {
+	opposites = {
+		zodiac_virgo
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	diplomacy = -1
+	dynasty_opinion = 10
+
+	random = no	
+	opposite_opinion = -5
+	same_opinion = 10
+
+	ai_greed = -40
+	ai_ambition = -20
+	ai_honor = 40
+}
+
+zodiac_sagittarius = {
+	opposites = {
+		zodiac_gemini
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	martial = 1
+	diplomacy = 1
+
+	monthly_character_piety = -0.05
+	random = no	
+	opposite_opinion = -10
+	same_opinion = 5
+
+	ai_zeal = 20
+	ai_honor = 20
+}
+
+zodiac_scorpio = {
+	opposites = {
+		zodiac_taurus
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	intrigue = 1
+
+	fertility = 0.1
+
+	dynasty_opinion = -10
+	random = no	
+	opposite_opinion = -15
+	same_opinion = -5
+
+	ai_zeal = 40
+	ai_rationality = -20	
+}
+
+zodiac_taurus = {
+	opposites = {
+		zodiac_scorpio
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	martial = 1
+	intrigue = -1
+
+	random = no	
+	opposite_opinion = -5
+	same_opinion = 5
+
+	ai_rationality = -20
+	ai_ambition = 40
+}
+
+zodiac_virgo = {
+	opposites = {
+		zodiac_pisces
+	}
+	potential = {
+		OR = {
+			religion = camino_estelar
+			religion = obscurantist
+			has_religion_feature = religion_astrology
+			has_religion_feature = religion_feature_occultist
+		}
+	}
+	stewardship = 1
+	monthly_character_prestige = -0.05
+	monthly_character_piety = 0.01
+	random = no	
+	opposite_opinion = -10
+	same_opinion = 5
+
+	ai_greed = -40
+	ai_ambition = -40
+}
+
+#Camino Astronomer traits
+
+initiate_astronomer = {
+	religious = yes
+	opposites = {
+		adept_astronomer
+		master_astronomer
+	}
+	potential = {
+		is_adult = yes
+		religion = camino_estelar
+	}
+	monthly_character_piety = 0.25
+	same_religion_opinion = 5
+	opposite_opinion = 5
+	same_opinion = 5
+}
+adept_astronomer = {
+	religious = yes
+	opposites = {
+		initiate_astronomer
+		master_astronomer
+	}
+	potential = {
+		is_adult = yes
+		religion = camino_estelar
+	}
+	monthly_character_piety = 0.5
+	learning = 1
+	same_religion_opinion = 10
+	opposite_opinion = 5
+	same_opinion = 5
+}
+master_astronomer = {
+	religious = yes
+	opposites = {
+		initiate_astronomer
+		adept_astronomer
+	}
+	potential = {
+		is_adult = yes
+		religion = camino_estelar
+	}
+	monthly_character_piety = 0.75
+	learning = 2
+	same_religion_opinion = 15
+	opposite_opinion = 5
+	same_opinion = 5
+}

@@ -1,0 +1,21 @@
+# c_tres_lagoas_2
+
+# County Title
+title = c_tres_lagoas_2
+
+# Settlements
+max_settlements = 4
+
+b_barreiro_grande = tribal
+b_morada_nova_3 = temple
+#b_canastrao = temple
+#b_felixlandia = castle
+#b_frei_orlando = city
+#b_vereda = temple
+#b_buriti_4 = castle
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

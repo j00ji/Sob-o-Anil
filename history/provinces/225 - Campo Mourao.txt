@@ -1,0 +1,21 @@
+# c_campo_mourao
+
+# County Title
+title = c_campo_mourao
+
+# Settlements
+max_settlements = 2
+
+b_campo_mourao = castle
+#b_sao_joao_do_ivai = city
+#b_peabiru = temple
+#b_corumbatai_do_sul = castle
+#b_bourbonia = city
+#b_mambore = temple
+#b_lunardelli = castle
+
+# Misc
+culture = gaucho
+religion = celeste
+
+#History

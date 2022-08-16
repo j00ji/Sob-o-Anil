@@ -1,0 +1,21 @@
+# c_islay
+
+# County Title
+title = c_islay
+
+# Settlements
+max_settlements = 2
+
+b_mollendo = castle
+#b_islay = city
+#b_cochacara = temple
+#b_dean_valdivia = castle
+#b_mejia_2 = city
+#b_punta_de_bombon = temple
+#b_cuchacarapi = castle
+
+# Misc
+culture = arequipeno
+religion = catholic
+
+#History

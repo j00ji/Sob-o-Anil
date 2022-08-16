@@ -1,0 +1,21 @@
+# c_bajo_caracoles
+
+# County Title
+title = c_bajo_caracoles
+
+# Settlements
+max_settlements = 2
+
+b_bajo_caracoles = tribal
+#b_las_hornetas = city
+#b_lago_posadas = temple
+#b_tamel_aike = castle
+#b_los_manantiales = city
+#b_la_manchuria = temple
+#b_la_criolla = castle
+
+# Misc
+culture = santacruceno
+religion = calafatist
+
+#History

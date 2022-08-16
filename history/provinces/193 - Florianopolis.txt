@@ -1,0 +1,21 @@
+# c_florianopolis
+
+# County Title
+title = c_florianopolis
+
+# Settlements
+max_settlements = 4
+
+b_florianopolis = city
+b_sao_jose_da_ponta_grossa = castle
+b_canasvieiras = city
+#b_jurere = castle
+#b_ingleses = city
+#b_campeche = temple
+#b_armacao = castle
+
+# Misc
+culture = greenbelly
+religion = kardecists
+
+#History

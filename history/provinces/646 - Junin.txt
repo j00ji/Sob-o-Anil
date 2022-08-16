@@ -1,0 +1,21 @@
+# c_junin
+
+# County Title
+title = c_junin
+
+# Settlements
+max_settlements = 4
+
+b_junin = castle
+b_los_toldos = city
+#b_lincoln = temple
+#b_pinto = castle
+#b_baigorria = city
+#b_saforcada = temple
+#b_agustina = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

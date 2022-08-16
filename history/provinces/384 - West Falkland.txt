@@ -1,0 +1,21 @@
+# c_west_falkland
+
+# County Title
+title = c_west_falkland
+
+# Settlements
+max_settlements = 2
+
+b_port_howard = tribal
+#b_fox_bay = city
+#b_weddell = temple
+#b_beaver = castle
+#b_port_stephen = city
+#b_chartres = temple
+#b_pebble = castle
+
+# Misc
+culture = falklander
+religion = brethren
+
+#History

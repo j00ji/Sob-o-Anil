@@ -1,0 +1,21 @@
+# c_guarai
+
+# County Title
+title = c_guarai
+
+# Settlements
+max_settlements = 2
+
+b_guarai = tribal
+#b_centenario = city
+#b_itacaja = temple
+#b_juarina = castle
+#b_palmeirante = city
+#b_tupiratins = temple
+#b_bernardo_sayao = castle
+
+# Misc
+culture = kraho
+religion = manredebu
+
+#History

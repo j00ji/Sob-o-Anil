@@ -1,0 +1,21 @@
+# c_tapirai
+
+# County Title
+title = c_tapirai
+
+# Settlements
+max_settlements = 3
+
+b_turvo = castle
+b_paranapiacaba = temple
+#b_forte_corujas = temple
+#b_pegada_da_onca = castle
+#b_terra_do_massao = city
+#b_irmaes_elise = temple
+#b_vila_mincovisk = castle
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

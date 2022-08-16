@@ -1,0 +1,21 @@
+# c_pastaza
+
+# County Title
+title = c_pastaza
+
+# Settlements
+max_settlements = 3
+
+b_puyo = castle
+b_mera = city
+#b_arajuno = temple
+#b_pomona_2 = castle
+#b_montalvo = city
+#b_fatima_2 = temple
+#b_canelos = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

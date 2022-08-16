@@ -1,0 +1,21 @@
+# c_lageado
+
+# County Title
+title = c_lageado
+
+# Settlements
+max_settlements = 3
+
+b_lageado = castle
+b_teutonia = city
+#b_venancio_aires = temple
+#b_monte_alverne = castle
+#b_arroio_do_meio = city
+#b_bom_retiro_do_sul = temple
+#b_encantado = castle
+
+# Misc
+culture = hunsruckisch
+religion = evangelical
+
+#History

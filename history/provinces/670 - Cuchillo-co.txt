@@ -1,0 +1,21 @@
+# c_cuchillo_co
+
+# County Title
+title = c_cuchillo_co
+
+# Settlements
+max_settlements = 1
+
+b_cuchillo_co = tribal
+#b_puelches = city
+#b_el_lucero = temple
+#b_chacharramendi = castle
+#b_el_carancho = city
+#b_lihue_calel = temple
+#b_la_amarga = castle
+
+# Misc
+culture = pampeano
+religion = gaucheria
+
+#History

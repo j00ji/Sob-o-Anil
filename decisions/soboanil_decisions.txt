@@ -1,0 +1,333 @@
+decisions = {
+	do_deep_bible_study={
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+		
+		potential = {
+			religion = evangelical
+			age = 16
+			prisoner = no
+			in_seclusion = no
+			trait = branch_presbyterian
+			NOT = { is_incapable = yes }
+			NOT = { has_character_flag = recent_bible_study }
+			NOT = { #immersion-breaking
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			war = no
+			piety = 100
+			NOT = { trait = stressed }
+		}
+		effect = {
+			piety = -100
+			add_character_flag = { name = recent_bible_study duration = 365 }
+			hidden_tooltip = {
+				character_event = {
+					id = evangelical.10
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.01 }
+			modifier = { factor = 100 trait = scholar }
+			modifier = { factor = 100 trait = zealous }
+		}
+	}
+	
+	receive_charisma ={
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+		
+		potential = {
+			OR = {
+			AND = {
+				religion = evangelical
+				trait = branch_pentecostal
+			}
+			religion = universalist
+			religion = holy_spirit
+			}
+			age = 16
+			prisoner = no
+			in_seclusion = no
+			NOT = { is_incapable = yes }
+			NOT = { #immersion-breaking
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = holy_spirit_waiting
+				hidden_tooltip = {
+				NOR = {
+				has_character_modifier = holy_spirit_martial
+				has_character_modifier = holy_spirit_martial2
+				has_character_modifier = holy_spirit_learning
+				has_character_modifier = holy_spirit_learning2
+				has_character_modifier = holy_spirit_diplo
+				has_character_modifier = holy_spirit_diplo2
+				has_character_modifier = holy_spirit_stewardship
+				has_character_modifier = holy_spirit_stewardship2
+				has_character_modifier = holy_spirit_cynical
+				has_character_modifier = failed_holy_spirit
+				}
+			}
+			}
+			piety = 200
+			NOR = {
+				trait = dull
+				trait = imbecile
+			}
+		}
+		
+		effect = {
+			piety = -100
+			hidden_tooltip = {
+				character_event = {
+					id = evangelical.5
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 5
+			modifier = { factor = 100 trait = zealous }
+		}
+	}
+	sacrifice_to_nature = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			OR = {
+				religion = calafatist
+				religion = calafatist_reformed
+			}
+			is_adult = yes		
+		}
+		allow = {
+			OR = {
+				trait=incapable
+				trait=infirm
+				trait=depressed
+				trait=maimed
+				trait=has_typhus
+				trait=cancer
+				trait=has_typhoid_fever
+				trait=has_tuberculosis 
+				trait=dancing_plague
+				trait=flu
+				trait=food_poisoning
+				trait=gout
+				trait=syphilitic
+				trait=ill
+				trait=leper
+				trait=has_measles
+				trait=pneumonic
+				trait=rabies
+				trait=scurvy
+				trait=sickly
+				trait=has_small_pox
+				trait=has_bubonic_plague
+				trait=mangled
+				trait=severly_injured
+				age >= 60
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = { 
+				factor = 100 
+				OR = {
+					trait = depressed
+					trait = stressed
+					trait = zealous
+					trait = temperate
+					trait = charitable
+				}
+			}
+		}
+		effect = {
+			piety = 100
+			prestige = 100
+			hidden_effect ={
+				long_character_event = { id = calafatist.1 }
+			}
+			custom_tooltip = {
+ 			   text = CALAFATIST_SUICIDE
+			}
+		}
+	}
+
+	feast_on_calafate = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			OR = {
+				religion = calafatist
+				religion = calafatist_reformed
+			}
+			is_adult = yes
+			OR = {
+				month = 11
+				month = 0
+				month = 1
+			}
+			NOT = { 
+				trait = incapable 
+			}
+			NOT = {
+				has_character_modifier = calafate_harvested
+			}			
+		}
+		allow = {
+			scaled_wealth = 0.3
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = { 
+				factor = 100 
+				OR = {
+					trait = zealous
+				}
+			}
+		}
+		effect = {
+			hidden_effect ={
+				long_character_event = { id = calafatist.3 }
+			}
+			scaled_wealth = -0.3
+			custom_tooltip = {
+ 			   text = CALAFATIST_CALAFATE
+			}
+			add_character_modifier = {
+				modifier = calafate_harvested
+				months = 9
+			}
+		}
+	}
+
+	restore_the_fraternidad = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			religion = camino_estelar
+			is_adult = yes
+			NOT = { 
+				trait = incapable 
+			}	
+			d_fraternidad_estelar = {
+				has_holder = no
+			}
+		}
+		allow = {
+			primary_title = { higher_tier_than = DUKE }
+			num_of_holy_sites = 3
+			piety = 500
+			prestige = 500
+			trait = master_astronomer
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = { 
+				factor = 100 
+				OR = {
+					trait = zealous
+				}
+			}
+		}
+		effect = {
+			piety = -500
+			activate_title = { 
+				title = d_fraternidad_estelar 
+				status = yes 
+			}
+			d_fraternidad_estelar = { grant_title = ROOT }
+			primary_title = {
+				d_fraternidad_estelar = {
+					copy_title_laws = PREV
+				}
+			}
+			hidden_effect={
+				narrative_event = { id = camino.6 }
+			}
+		}
+	}
+
+	read_the_star_path = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			religion = camino_estelar
+			is_adult = yes
+			NOT = { 
+				trait = incapable 
+			}	
+			NOT = {
+				has_character_flag = camino_prophecy_current
+			}
+		}
+		allow = {
+			piety = 50
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { 
+				factor = 5 
+				OR = {
+					trait = zealous
+				}
+			}
+		}
+		effect = {
+			piety = -50
+			custom_tooltip = {
+ 			   text = CAMINO_STAR_READING
+			}
+			hidden_effect={
+				narrative_event = { id = camino.9 }
+			}
+		}
+	}
+
+}
+
+targeted_decisions = {
+	feast_on_stored_calafate = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		filter = self
+		potential = {
+			OR = {
+				religion = calafatist
+				religion = calafatist_reformed
+			}
+			is_adult = yes
+			NOT = { 
+				trait = incapable 
+			}
+			has_character_modifier = calafate_stored
+		}
+		allow = {
+			has_character_modifier = calafate_stored
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		effect = {
+			custom_tooltip = {
+ 			   text = CALAFATIST_STORED_CONSUMED
+			}
+			add_character_modifier = {
+				name = calafate_ingested
+				months = 1
+			}
+			remove_character_modifier = calafate_stored
+		}
+	}
+}

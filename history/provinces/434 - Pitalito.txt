@@ -1,0 +1,21 @@
+# c_pitalito
+
+# County Title
+title = c_pitalito
+
+# Settlements
+max_settlements = 4
+
+b_pitalito = castle
+b_acevedo = city
+b_san_agustin_de_huila = temple
+#b_isnos = castle
+#b_timana = city
+#b_oparopa = temple
+#b_palestina = castle
+
+# Misc
+culture = colombian
+religion = inkarri
+
+#History

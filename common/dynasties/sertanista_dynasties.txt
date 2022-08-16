@@ -1,0 +1,23 @@
+###ÄNSI
+#Canon
+
+10001 = {
+	name = "Sousa-Tapeba"
+	culture = sertanista
+	can_appear = no
+	used_for_random = no
+}
+10002 = {
+	name = "Tabaraja"
+	culture = sertanista
+	can_appear = no
+	used_for_random = no
+}
+10003 = {
+	name = "Vasconcelos"
+	culture = sertanista
+}
+10004 = {
+	name = "Coelho"
+	culture = sertanista
+}

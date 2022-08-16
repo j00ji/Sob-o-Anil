@@ -1,0 +1,21 @@
+# c_telsen
+
+# County Title
+title = c_telsen
+
+# Settlements
+max_settlements = 4
+
+b_telsen = castle
+b_corcovado = city
+#b_sierra_chata = temple
+#b_los_nogales = castle
+#b_los_algarrobos = city
+#b_la_anita = temple
+#b_bajada_del_diablo = castle
+
+# Misc
+culture = wladfaeg
+religion = evangelical
+
+#History

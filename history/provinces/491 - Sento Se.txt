@@ -1,0 +1,21 @@
+# c_sento_se
+
+# County Title
+title = c_sento_se
+
+# Settlements
+max_settlements = 2
+
+b_amaniu = castle
+b_cajui = temple
+#b_tombador = city
+#b_retiro_de_baixo = temple
+#b_volta_da_serra = castle
+#b_ponta_dagua = city
+#b_itapera_2 = temple
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

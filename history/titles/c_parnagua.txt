@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_piaui
+}
+2364.8.8={
+	holder = 210001
+	historical_nomad=yes
+}

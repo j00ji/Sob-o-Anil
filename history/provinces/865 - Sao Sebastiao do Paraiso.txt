@@ -1,0 +1,21 @@
+# c_sao_sebastiao_do_paraiso
+
+# County Title
+title = c_sao_sebastiao_do_paraiso
+
+# Settlements
+max_settlements = 3
+
+b_pratapolis = tribal
+#b_jacui_2 = city
+#b_itamogi = temple
+#b_termopolis = castle
+#b_antinha = city
+#b_monte_santo_2 = temple
+#b_sao_tomas_de_aquino = castle
+
+# Misc
+culture = canastro
+religion = anchietican
+
+#History

@@ -1,0 +1,21 @@
+# c_tres_lagoas
+
+# County Title
+title = c_tres_lagoas
+
+# Settlements
+max_settlements = 2
+
+b_tres_lagoas = tribal
+#b_bataguassu = city
+#b_selviria = temple
+#b_santa_rita_do_pardo = castle
+#b_agua_clara = city
+#b_brasilandia = temple
+#b_vila_zuque = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

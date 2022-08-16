@@ -1,0 +1,21 @@
+# c_itapicuru
+
+# County Title
+title = c_itapicuru
+
+# Settlements
+max_settlements = 2
+
+b_heliopolis = castle
+b_pombal = temple
+#b_cicero_dantas = temple
+#b_poco_verde = castle
+#b_cipo = city
+#b_ribeira_do_pombal_2 = temple
+#b_curral_falso = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

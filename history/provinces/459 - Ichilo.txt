@@ -1,0 +1,21 @@
+# c_ichilo
+
+# County Title
+title = c_ichilo
+
+# Settlements
+max_settlements = 3
+
+b_yapacani = castle
+b_buena_vista = city
+#b_san_carlos_de_ichilo = temple
+#b_enconada = castle
+#b_buen_retiro = city
+#b_huaytu = temple
+#b_santa_fe_de_santa_cruz = castle
+
+# Misc
+culture = camba
+religion = santa_diablada
+
+#History

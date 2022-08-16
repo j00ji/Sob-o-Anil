@@ -1,0 +1,21 @@
+# c_kandu
+
+# County Title
+title = c_kandu
+
+# Settlements
+max_settlements = 3
+
+b_caazapa = castle
+#b_villarica_2 = city
+#b_iturbe = temple
+#b_maciel = castle
+#b_buena_vista_2 = city
+#b_bertoni = temple
+#b_numi = castle
+
+# Misc
+culture = guarani
+religion = jerovia
+
+#History

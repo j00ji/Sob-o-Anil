@@ -1,0 +1,21 @@
+# c_parinacota
+
+# County Title
+title = c_parinacota
+
+# Settlements
+max_settlements = 2
+
+b_putre = castle
+#b_visviri = city
+#b_socorama = temple
+#b_murmuntani = castle
+#b_cotapalca = city
+#b_pachama = temple
+#b_tignamar = castle
+
+# Misc
+culture = aymara
+religion = camino_estelar
+
+#History

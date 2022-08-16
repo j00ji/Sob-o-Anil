@@ -1,0 +1,21 @@
+# c_yungas
+
+# County Title
+title = c_yungas
+
+# Settlements
+max_settlements = 4
+
+b_la_asunta = castle
+b_palos_blancos = city
+b_coroico = temple
+#b_inquisivi = castle
+#b_chulumani = city
+#b_irupana = temple
+#b_licoma = castle
+
+# Misc
+culture = colla
+religion = pachamama
+
+#History

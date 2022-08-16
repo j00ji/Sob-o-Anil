@@ -1,0 +1,21 @@
+# c_tumaco
+
+# County Title
+title = c_tumaco
+
+# Settlements
+max_settlements = 4
+
+b_tumaco = castle
+b_barbacoas = city
+b_roberto_payan = temple
+#b_maguei_payan = castle
+#b_chilvi = city
+#b_san_isidro_de_tumaco = temple
+#b_quendan = castle
+
+# Misc
+culture = colombian
+religion = inkarri
+
+#History

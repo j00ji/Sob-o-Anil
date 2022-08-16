@@ -1,0 +1,21 @@
+# c_puerto_varas
+
+# County Title
+title = c_puerto_varas
+
+# Settlements
+max_settlements = 2
+
+b_puerto_varas = castle
+#b_puyehue = city
+#b_puerto_octay = temple
+#b_cochamo = castle
+#b_entre_lagos = city
+#b_ensenada = temple
+#b_petrohue = castle
+
+# Misc
+culture = sureno
+religion = catholic
+
+#History

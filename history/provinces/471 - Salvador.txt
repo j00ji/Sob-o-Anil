@@ -1,0 +1,21 @@
+# c_salvador
+
+# County Title
+title = c_salvador
+
+# Settlements
+max_settlements = 7
+
+b_rio_branco_3 = castle
+b_salvador = city
+b_engenho_velho = temple
+b_santo_antonio_da_barra = castle
+b_camacari = city
+#b_sao_salvador = temple
+#b_senhor_do_bonfim = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

@@ -1,0 +1,21 @@
+# c_fernandopolis
+
+# County Title
+title = c_fernandopolis
+
+# Settlements
+max_settlements = 3
+
+b_jales = tribal
+b_pedranopolis = city
+#b_brasitania = temple
+#b_ubirajara = castle
+#b_joao_pimenta = city
+#b_santa_filomena = temple
+#b_antonia_marim = castle
+
+# Misc
+culture = caipira
+religion = anchietican
+
+#History

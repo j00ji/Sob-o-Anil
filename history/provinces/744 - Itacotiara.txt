@@ -1,0 +1,21 @@
+# c_itacotiara
+
+# County Title
+title = c_itacotiara
+
+# Settlements
+max_settlements = 2
+
+b_itacotiara = castle
+b_pedra_pintada = city
+#b_itapirange = temple
+#b_silves = castle
+#b_nhamunda = city
+#b_sao_sebastiao_3 = temple
+#b_pequia = castle
+
+# Misc
+culture = amazonense
+religion = holy_spirit
+
+#History

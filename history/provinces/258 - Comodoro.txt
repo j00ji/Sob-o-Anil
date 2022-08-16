@@ -1,0 +1,21 @@
+# c_comodoro
+
+# County Title
+title = c_comodoro
+
+# Settlements
+max_settlements = 2
+
+b_comodoro = tribal
+#b_pontes_e_lacerda = city
+#b_nova_lacerda = temple
+#b_vila_bela_da_trindade = castle
+#b_vale_de_sao_domingos = city
+#b_campos_de_julio = temple
+#b_conquista_doeste = castle
+
+# Misc
+culture = matogrossense
+religion = manredebu
+
+#History

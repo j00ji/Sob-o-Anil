@@ -1,0 +1,21 @@
+# c_avellaneda
+
+# County Title
+title = c_avellaneda
+
+# Settlements
+max_settlements = 3
+
+b_choele_choel = tribal
+b_luis_beltran = temple
+#b_duval = temple
+#b_negro_muerto = castle
+#b_chelforo = city
+#b_belisle = temple
+#b_chimpay = castle
+
+# Misc
+culture = desertico
+religion = gaucheria
+
+#History

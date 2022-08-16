@@ -1,0 +1,21 @@
+# c_ijui
+
+# County Title
+title = c_ijui
+
+# Settlements
+max_settlements = 2
+
+b_ijui = tribal
+#b_panambi = city
+#b_augusto_pestana = temple
+#b_porongas = castle
+#b_nova_ramada = city
+#b_chiapetta = temple
+#b_ajuricaba = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

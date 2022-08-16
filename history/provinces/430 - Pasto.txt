@@ -1,0 +1,21 @@
+# c_pasto
+
+# County Title
+title = c_pasto
+
+# Settlements
+max_settlements = 6
+
+b_pasto = castle
+b_obando = city
+b_rio_mayo = temple
+b_los_abades = castle
+b_juanambu = city
+#b_la_sabana = temple
+#b_narino = castle
+
+# Misc
+culture = colombian
+religion = inkarri
+
+#History

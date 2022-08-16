@@ -1,0 +1,21 @@
+# c_itape
+
+# County Title
+title = c_itape
+
+# Settlements
+max_settlements = 3
+
+b_iguai = castle
+b_iguaibi = temple
+#b_ibicui_2 = temple
+#b_itororo = castle
+#b_caatiba = city
+#b_nova_canaa = temple
+#b_valentim = castle
+
+# Misc
+culture = ilhense
+religion = camdomble
+
+#History

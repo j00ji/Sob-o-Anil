@@ -1,0 +1,21 @@
+# c_chapadinha
+
+# County Title
+title = c_chapadinha
+
+# Settlements
+max_settlements = 2
+
+b_buriti_3 = castle
+b_belagua = city
+#b_urbano_santos = temple
+#b_sao_benedito = castle
+#b_vargem_grande_2 = city
+#b_nina_rodrigues = temple
+#b_presidente_juscelino = castle
+
+# Misc
+culture = parnaibas
+religion = evangelical
+
+#History

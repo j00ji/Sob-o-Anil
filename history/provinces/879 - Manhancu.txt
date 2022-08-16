@@ -1,0 +1,21 @@
+# c_manhancu
+
+# County Title
+title = c_manhancu
+
+# Settlements
+max_settlements = 3
+
+b_dom_correa = tribal
+#b_sacramento = city
+#b_matipo = temple
+#b_caputira = castle
+#b_abre_campo = city
+#b_bonanza_2 = temple
+#b_monte_sinai = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

@@ -1,0 +1,21 @@
+# c_sullana
+
+# County Title
+title = c_sullana
+
+# Settlements
+max_settlements = 4
+
+b_sullana = castle
+b_paita = city
+b_talara = temple
+#b_bellavista_de_sullana = castle
+#b_lancones = city
+#b_amotape = temple
+#b_querecotillo = castle
+
+# Misc
+culture = nortegrandeno
+religion = tridentine
+
+#History

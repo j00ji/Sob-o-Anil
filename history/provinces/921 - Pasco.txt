@@ -1,0 +1,21 @@
+# c_pasco
+
+# County Title
+title = c_pasco
+
+# Settlements
+max_settlements = 3
+
+b_cerro_de_pasco = castle
+b_yanahuanca = city
+#b_huayllay = temple
+#b_vicco = castle
+#b_pacoyan = city
+#b_ticlacayan = temple
+#b_oyon_2 = castle
+
+# Misc
+culture = huanca
+religion = liberationist
+
+#History

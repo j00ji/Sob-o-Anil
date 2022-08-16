@@ -1,0 +1,21 @@
+# c_governador_valadares
+
+# County Title
+title = c_governador_valadares
+
+# Settlements
+max_settlements = 6
+
+b_baguari = castle
+b_figueira = temple
+#b_tumiritinga = temple
+#b_alpercata = castle
+#b_santa_helena_4 = city
+#b_goiabal = temple
+#b_pico_da_ibituruna = castle
+
+# Misc
+culture = valcude
+religion = terra_benta
+
+#History

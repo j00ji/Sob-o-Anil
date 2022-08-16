@@ -1,0 +1,21 @@
+# c_lambayeque
+
+# County Title
+title = c_lambayeque
+
+# Settlements
+max_settlements = 4
+
+b_lambayeque = castle
+b_ferrenafe = city
+b_jayanca = temple
+#b_motupe = castle
+#b_mochumi = city
+#b_morrope = temple
+#b_olmos_2 = castle
+
+# Misc
+culture = nortegrandeno
+religion = tridentine
+
+#History

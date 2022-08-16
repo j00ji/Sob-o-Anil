@@ -1,0 +1,21 @@
+# c_quatis
+
+# County Title
+title = c_quatis
+
+# Settlements
+max_settlements = 2
+
+b_quatis = tribal
+#b_queda_do_robertao = city
+#b_senhora_do_emparo = temple
+#b_terra_do_edson = castle
+#b_fazenda_do_robson = city
+#b_jose_do_turvo = temple
+#b_vale_da_grama = castle
+
+# Misc
+culture = mantiqueiro
+religion = terra_benta
+
+#History

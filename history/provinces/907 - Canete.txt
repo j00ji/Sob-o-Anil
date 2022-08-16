@@ -1,0 +1,21 @@
+# c_canete
+
+# County Title
+title = c_canete
+
+# Settlements
+max_settlements = 3
+
+b_san_vicente_de_canete = castle
+b_imperial_de_canete = city
+#b_mala = temple
+#b_nuevo_imperial = castle
+#b_chilca = city
+#b_quilmana = temple
+#b_yauyos = castle
+
+# Misc
+culture = iqueno
+religion = liberationist
+
+#History

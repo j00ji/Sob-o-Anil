@@ -1,0 +1,21 @@
+# c_santiago
+
+# County Title
+title = c_santiago
+
+# Settlements
+max_settlements = 6
+
+b_santiago = temple
+b_maipu = castle
+b_la_florida = city
+b_las_condes = castle
+b_penalolen = temple
+b_nunoa = city
+#b_pudahuel = castle
+
+# Misc
+culture = centrino
+religion = catholic
+
+#History

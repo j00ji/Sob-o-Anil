@@ -1,0 +1,21 @@
+# c_curu
+
+# County Title
+title = c_curu
+
+# Settlements
+max_settlements = 3
+
+b_itapipoca = castle
+b_aratuba = city
+#b_arapari = temple
+#b_uruburetama = castle
+#b_tururu = city
+#b_ipu_mazagao = temple
+#b_barrento = castle
+
+# Misc
+culture = cearense
+religion = cicerite
+
+#History

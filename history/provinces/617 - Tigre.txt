@@ -1,0 +1,21 @@
+# c_tigre
+
+# County Title
+title = c_tigre
+
+# Settlements
+max_settlements = 3
+
+b_tigre = castle
+b_campana = city
+#b_belen = temple
+#b_la_costa = castle
+#b_milberg = city
+#b_benavidez = temple
+#b_maschwitz = castle
+
+# Misc
+culture = porteno
+religion = platinean
+
+#History

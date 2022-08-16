@@ -1,0 +1,21 @@
+# c_tonantins
+
+# County Title
+title = c_tonantins
+
+# Settlements
+max_settlements = 2
+
+b_tonantins = tribal
+#b_jutai = city
+#b_fonte_boa = temple
+#b_uati_parana = castle
+#b_boca_da_campina = city
+#b_siria = temple
+#b_inaja = castle
+
+# Misc
+culture = ticuna
+religion = xabaxai_xagi
+
+#History

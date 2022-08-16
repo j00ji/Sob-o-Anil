@@ -1,0 +1,455 @@
+##### Mercenaries Bands #####
+
+d_bandeirantes_northeast = {
+	color = { 188 45 112 }
+	color2 = { 255 255 255 }
+	
+	capital = 471 #Salvador
+	
+	#Hire Trigger
+	
+	allow = { #Maybe just attaching them to specifical regions should work better. Unfortunately, they weren't set.
+		OR = {
+			culture_group = bahiano
+			culture_group = northeastern_group
+		}
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes #Cannot be held as a secondary title
+	
+	independent = yes #Cannot be vassalized
+	
+	short_name = yes
+	
+	religion = apostolic
+	culture = paulistano
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	
+	strength_growth_per_century = 0.15
+	
+	mercenary_type = bandeirante_composition
+}
+
+d_bandeirantes_south = {
+	color = { 115 69 168 }
+	color2 = { 255 255 255 }
+	
+	capital = 193 #Florianopolis
+	
+	#Hire Trigger
+	
+	allow = {
+		culture_group = cisplatinean
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = apostolic
+	culture = paulistano
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	
+	strength_growth_per_century = 0.15
+	mercenary_type = bandeirante_composition
+}
+d_flamengo = {
+	color = { 195 40 30 }
+	color2 = { 0 0 0 }
+	
+	capital = 1 #Rio de Janeiro
+	
+	#Hire Trigger
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = evangelical
+	culture = carioca
+	
+	title = "COACH"
+	title_female = "COACH"
+	foa = "COACH_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = regatas_composition
+}
+d_botafogo = {
+	color = { 0 0 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 1 #Rio de Janeiro
+	
+	#Hire Trigger
+	
+	allow = {
+		OR = {
+			culture_group = fluminense_group
+			culture_group = mineiro_group
+			}
+
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = evangelical
+	culture = carioca
+	
+	title = "COACH"
+	title_female = "COACH"
+	foa = "COACH_FOA"
+	
+	strength_growth_per_century = 0.3
+	mercenary_type = botafogo_composition
+}
+d_fluminense = {
+	color = { 135 10 40 }
+	color2 = { 0 97 60 }
+	
+	capital = 1 #Rio de Janeiro
+	
+	#Hire Trigger
+	
+	allow = {
+		OR = {
+			culture_group = fluminense_group
+			culture_group = mineiro_group
+			}
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = evangelical
+	culture = carioca
+	
+	title = "COACH"
+	title_female = "COACH"
+	foa = "COACH_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = futebol_composition
+}
+d_vasco_da_gama = {
+	color = { 0 0 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 1 #Rio de Janeiro
+	
+	#Hire Trigger
+	
+	allow = {
+		OR = {
+			culture_group = fluminense_group
+			culture_group = paulista
+			culture_group = mineiro_group
+			}
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = anchietican
+	culture = carioca
+	
+	title = "COACH"
+	title_female = "COACH"
+	foa = "COACH_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = regatas_composition
+}
+
+d_sao_paulo_fc = {
+	color = { 255 0 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 50 #São Paulo
+	
+	#Hire Trigger
+	
+	allow = {
+		OR = {
+			culture_group = paulista
+			culture_group = mineiro_group
+			culture = mantiqueiro
+			}
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = apostolic
+	culture = paulistano
+	
+	title = "COACH"
+	title_female = "COACH"
+	foa = "COACH_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = futebol_composition
+}
+
+d_corinthians_fc = {
+	color = { 0 0 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 50 #São Paulo
+	
+	#Hire Trigger
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = apostolic
+	culture = paulistano
+	
+	title = "COACH"
+	title_female = "COACH"
+	foa = "COACH_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = futebol_composition
+}
+
+d_santos_fc = {
+	color = { 0 0 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 45 #Santos
+	
+	#Hire Trigger
+	
+	allow = {
+		OR = {
+			culture_group = paulista
+			culture_group = mineiro_group
+			culture = mantiqueiro
+			}
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = apostolic
+	culture = paulistano
+	
+	title = "COACH"
+	title_female = "COACH"
+	foa = "COACH_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = regatas_composition
+}
+
+d_palmeiras_fc = {
+	color = { 0 200 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 50 #São Paulo
+	
+	#Hire Trigger
+	
+	allow = {
+	OR = {
+		culture_group = paulista
+		culture = mantiqueiro
+		}
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = apostolic
+	culture = paulistano
+	
+	title = "COACH"
+	title_female = "COACH"
+	foa = "COACH_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = futebol_composition
+}
+
+
+d_boiadeiros_de_barretos = {
+	color = { 255 0 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 77 #Barretos
+	
+	#Hire Trigger
+	
+	allow = {
+		OR = {
+			culture = camponeto
+			culture = caipira
+			culture = triangler
+			culture = canastro
+			culture = matogrossense
+			}
+
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = apostolic
+	culture = caipira
+	
+	title = "CAPTAIN"
+	title_female = "CAPTAIN_FEMALE"
+	foa = "CAPTAIN_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = peao_composition
+}
+
+
+d_caaso = {
+	color = { 255 0 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 74 #Sao Carlos
+	
+	#Hire Trigger
+	
+	allow = {
+		culture_group = paulista
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = apostolic
+	culture = camponeto
+	
+	title = "GRANDMASTER"
+	title_female = "CAPTAIN_FEMALE"
+	foa = "GRANDMASTER_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = street_block_composition
+}
+
+d_bloco_do_urso = {
+	color = { 255 0 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 869 #Sao Carlos
+	
+	#Hire Trigger
+	
+	allow = {
+	OR = {
+		culture = mantiqueiro
+		culture = canastro
+		culture = auriferro
+		}
+	}
+	
+	mercenary = yes
+	
+	landless = yes #Always exists
+	
+	primary = yes
+	
+	independent = yes
+	
+	short_name = yes
+	
+	religion = terra_benta
+	culture = mantiqueiro
+	
+	title = "GRANDMASTER"
+	title_female = "CAPTAIN_FEMALE"
+	foa = "GRANDMASTER_FOA"
+	
+	strength_growth_per_century = 0.2
+	mercenary_type = street_block_composition
+}

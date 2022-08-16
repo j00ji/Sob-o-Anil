@@ -1,0 +1,54 @@
+###ÄNSI
+
+boliviano = {
+	graphical_cultures = { bodpagfx westerngfx }
+	
+	camba = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.12 0.37 0.12 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	colla = {
+		graphical_cultures = { mexicangfx }
+		
+		color = { 1.0 0.36 0.2 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+}

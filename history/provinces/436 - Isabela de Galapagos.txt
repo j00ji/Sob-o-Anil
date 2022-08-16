@@ -1,0 +1,21 @@
+# c_isabela_de_galapagos
+
+# County Title
+title = c_isabela_de_galapagos
+
+# Settlements
+max_settlements = 2
+
+b_puerto_villamil = castle
+#b_la_playita = city
+#b_muro_de_las_lagrimas = temple
+#b_campo_duro = castle
+#b_valle_negro = city
+b_isabela_de_galapagos = castle
+#b_fernandina = castle
+
+# Misc
+culture = guayasense
+religion = darwinist
+
+#History

@@ -1,0 +1,21 @@
+# c_araci
+
+# County Title
+title = c_araci
+
+# Settlements
+max_settlements = 3
+
+b_araci = castle
+#b_tucano = city
+#b_ribeira_do_pombal = temple
+#b_olindina = castle
+#b_inhambupe = city
+#b_ouricangas = temple
+#b_pataiba = castle
+
+# Misc
+culture = salvadorense
+religion = camdomble
+
+#History

@@ -1,0 +1,21 @@
+# c_caxias
+
+# County Title
+title = c_caxias
+
+# Settlements
+max_settlements = 2
+
+b_parnarama = castle
+b_sao_joao_do_sotero = temple
+#b_matoes = temple
+#b_monsenhor_gil = castle
+#b_lagoa_do_mato = city
+#b_timon = temple
+#b_buriti_cortado = castle
+
+# Misc
+culture = parnaibas
+religion = evangelical
+
+#History

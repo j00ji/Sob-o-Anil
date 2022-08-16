@@ -1,0 +1,21 @@
+# c_pajeu
+
+# County Title
+title = c_pajeu
+
+# Settlements
+max_settlements = 2
+
+b_quixaba_2 = tribal
+b_iguaracy = temple
+#b_tavares_2 = temple
+#b_novo_pernambuco = castle
+#b_ita = city
+#b_princesa_isabel = temple
+#b_flores_2 = castle
+
+# Misc
+culture = xukuru
+religion = cicerite
+
+#History

@@ -1,0 +1,21 @@
+# c_condesuyos
+
+# County Title
+title = c_condesuyos
+
+# Settlements
+max_settlements = 2
+
+b_chuquibamba = castle
+#b_cotahuasi = city
+#b_cayarani = temple
+#b_yanaquihua = castle
+#b_rio_grande_del_peru = city
+#b_huaynacotas = temple
+#b_pampamarca = castle
+
+# Misc
+culture = arequipeno
+religion = catholic
+
+#History

@@ -1,0 +1,22 @@
+
+# c_tumbes
+
+# County Title
+title = c_tumbes
+
+# Settlements
+max_settlements = 3
+
+b_tumbes = castle
+b_zorritos = city
+#b_san_juan_de_la_virgen = temple
+#b_zarumilla = castle
+#b_pampas_de_hospital = city
+#b_matapalo = temple
+#b_papayal = castle
+
+# Misc
+culture = nortegrandeno
+religion = tridentine
+
+#History

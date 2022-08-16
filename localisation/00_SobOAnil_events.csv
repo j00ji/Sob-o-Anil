@@ -1,0 +1,158 @@
+###ÄNSI;;;;;;;;;;;;;;
+
+chl.1.t;The Bastard Count;;;;;;;;;;;;;x
+chl.1.d;Since your childhood, you have been ostracized, kept apart and mocked. For even if you are of noble birth, you are not of noble conception. Fatherless, for long have people looked at you as less, and you have had little figures to aspire to be. But now, you are in charge, for your mother's dynasty has legitimized you, and at her passing, your reign from Chillán has begun.\n\nBut as you are ready to set aside the past, a package arrives at your dwellings. A wooden box, carrying your family's stamp. It seems there are things your mother kept from you.;;;;;;;;;;;;;x
+chl.1.a;What could be inside?;;;;;;;;;;;;;x
+chl.2.t;A Black Origin;;;;;;;;;;;;;x
+chl.1.t;As you can't keep waiting, you decide to open the box. A letter, carrying the seal of the House of Naranjo, is laying inside.\n\nAs you begin reading its contents, the world suddenly stops and starts making sense at once. For you find in it a signed confession, a letter from the old Duke of Ñuble and Maule, Manuel, detailing his relationship with your mother, and officially recognizing you, Fernando, as his son. While the Duke died heirless, and stories of his illicit relationships abound, this is different, for you are a legitimate child of the Riquelme House, and with this confession, the right for his land, has passed to you. While your drunkard uncle wastes his days in his throne, it seems your inheritance that he weakly gave away, is at hand to recover. But your father's legacy is a dark one to take, and maybe this is not the right path you are about to take.;;;;;;;;;;;;;x
+chl.2.a;I am my father's son, and I will reclaim my birthright.;;;;;;;;;;;;;x
+chl.2.b;I will never be the terrible man he was, nor his son.;;;;;;;;;;;;;x
+calafatist.1.t;The Embrace of the Cold;;;;;;;;;;;;;x
+calafatist.1.d;You never thought this moment would arrive, but it has, as you turn your head to see how far away from your home you are, you know this is it.\nAs night begins to fall, the cold turns ever-present, your stomach is empty and your mouth is dry, you spend your last cold moments, remembering everything you have been through, and contemplating the wondrous beauty of the wild.;;;;;;;;;;;;;x
+calafatist.1.a;And you open your arms for the embrace.;;;;;;;;;;;;;x
+calafatist.2.t;A Noble Sacrifice;;;;;;;;;;;;;x
+calafatist.2.d;You always thought it would happen someday, but finally, [From.GetTitledFirstName] has done it, the ultimate sacrifice, as the goddess once did.\nNow, while [From.GetHerHis] memory will always be blessed by this pious act, the grace of this noble act falls upon you, as prosperity awaits in reward for [From.GetHerHis] sacrifice, and now it is your turn to begin your rule solemnly, the same way as [From.GetSheHe] rule ended.;;;;;;;;;;;;;x
+calafatist.2.a;We'll remember your sacrifice.;;;;;;;;;;;;;x
+calafatist.3.t;The Calafate Harvest;;;;;;;;;;;;;x
+calafatist.3.d;Every summer, the faithful go and look for the goddess' ever-present gift, the calafate berries. It's in their sweet and delicate taste, in the life-giving flesh of the fruit, that we find our goddess and our faith incarnated. As the most prominent rite we express our faith in, it's truly a moment to show everyone our devotion, costly as the harvests might be in effort some times. While eating the harvested fruit fresh is a great gift, many choose to store the berries, as the gift of the goddess persists as long as they are good to eat, and consuming it in difficult times is a way to gain strength to survive another day.;;;;;;;;;;;;;x
+calafatist.3.a;We'll enjoy the gift of the goddess.;;;;;;;;;;;;;x
+calafatist.3.b;Her blessing might be needed later.;;;;;;;;;;;;;x
+camino.6.t;The Brotherhood Reborn;;;;;;;;;;;;;x
+camino.6.d;When the first brothers and sisters found the path of the stars ages ago, they set to follow the example of the Elder Siblings and Master Nibiru, and joined together in a Stellar Brotherhood of the true path, guided by an illuminated Master, who lead and presided over all the matters of the faith.\nFor ages since then, our people have sought guidance in the stars and found the rebirth of the Brotherhood under a Master as the next step in the path, yet we remained without a guide nor protector against those who obscure the light.\nBut now, [From.GetTitledFirstName] has shown us the light once again, and declaring [From.GetHerselfHimself] as Master of a reborn Stellar Brotherhood in the Earth, is ready to guide and strengthen the faith, as we advance in the next step through the path of the Elder Siblings, bringing us closer to fulfilling the Celestial Instructions than ever!;;;;;;;;;;;;;x
+camino.6.a;This all, was written in the stars.;;;;;;;;;;;;;x
+camino.9.t;The Path in the Stars;;;;;;;;;;;;;x
+camino.9.d;You set yourself in position to read the night sky for answers, your traditional equipment all set and ready for the most important rite for the followers of the Star Path, or Camino Estelar.\n\nYou set your sight through the scope, ready to find whatever plan has the Master Nibiru set for you, and what step must you follow, as you concentrate and begin to seek the message hidden in the stars.;;;;;;;;;;;;;x
+camino.9.a;I believe in [Root.Religion.GetRandomGodName]'s path for me.;;;;;;;;;;;;;x
+camino.10.t;A Path of Conquest;;;;;;;;;;;;;x
+camino.10.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYou shall conquer the land of [prophesied_province.GetName], for this is what you have read in the stars. It's time to fulfill your destiny, and prove the prophecy to be true.;;;;;;;;;;;;;x
+camino.10.a;This is what the stars desire.;;;;;;;;;;;;;x
+camino.11.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.11.d;With the land of [prophesied_province.GetName] now firmly under your control, it seems that your reading was true. While many might have once before doubted you, you have fulfilled the path that the stars gave you, and your star-reading skills grow respected amongst the true believers.;;;;;;;;;;;;;x
+camino.11.a;Nibiru's plan.;;;;;;;;;;;;;x
+camino.12.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.12.d;As times passes by, many have noticed how the reading you had of the stars desiring you to conquer [prophesied_province.GetName] has not come true. While no one might doubt the Annunaki's grace, it seems that fate this time was not in your side, as even your own devotion has come into question.;;;;;;;;;;;;;x
+camino.12.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.13.t;A Path of Peace;;;;;;;;;;;;;x
+camino.13.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYour realm is to enjoy a period of peace and prosperity in the horizon, and nothing should stop this from happening, for this is Nibiru's intention. It's time to relax and share the peace with your realm.;;;;;;;;;;;;;x
+camino.13.a;This is what the stars desire.;;;;;;;;;;;;;x
+camino.14.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.14.d;As time passes, people have enjoyed the peace and tranquility in the realm, and while the future is yet to be read, they know they can trust you in guiding them through the steps of the path, for you have the blessing of the Annunaki.;;;;;;;;;;;;;x
+camino.14.a;Just as foretold.;;;;;;;;;;;;;x
+camino.15.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.15.d;As war and violence threaten our realm, the prophecy has become unfulfilled, for the peace that you foretold has not come, but conflict instead. It's as if whatever the stars told you, peace was not what they meant, and now people have lost faith in your connection to the Elder Siblings.;;;;;;;;;;;;;x
+camino.15.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.16.t;A Path of Family;;;;;;;;;;;;;x
+camino.16.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYou will be not be alone anymore, as a partner, a spouse, will appear in your life, and not only that, but for a child will, fruit of your loins, blood of your blood, will be part of it all. This family is your future and the next step in the path.;;;;;;;;;;;;;x
+camino.16.a;A gift foretold by the stars.;;;;;;;;;;;;;x
+camino.17.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.17.d;As you contemplate your family now by your side, you have realized the prophecy written in the stars, of forming a family, has come true. It seems everything is coming to you as planned, and your connection to the Elder Siblings is proven to be righteous and fruitful.;;;;;;;;;;;;;x
+camino.17.a;Just as foretold.;;;;;;;;;;;;;x
+camino.18.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.18.d;As time passes by, the family you once saw in the stars has not arrived as it was shown to you. While life might not be so bad, it seems that either the path you saw in the stars wasn't right, or you failed the stars and strayed away from it. Your righteousness and devotion to the stars has come into question, because of this.;;;;;;;;;;;;;x
+camino.18.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.19.t;A Death in the Path;;;;;;;;;;;;;x
+camino.19.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nA dark vision is in sight, as you see that within a year from tonight, [prophesied_to_die.GetFullName] will draw [prophesied_to_die.GetHerHis] last breath. While you never expected for such an outcome of your reading, this is the will of the stars, and even if you'd decide to be against this, you can't challenge Nibiru's will, for this fate must be fulfilled.;;;;;;;;;;;;;x
+camino.19.a;The stars shine darkly tonight.;;;;;;;;;;;;;x
+camino.20.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.20.d;As the news of [prophesied_to_die.GetFullName]'s name spread, the dark path you saw in the stars has happened as you predicted, and while some might doubt why this fate was written, no one can doubt that it was you who the Annunaki trusted the truth with.;;;;;;;;;;;;;x
+camino.20.a;A dark step was taken.;;;;;;;;;;;;;x
+camino.21.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.21.d;As the year passes, [prophesied_to_die.GetFullName] has remained alive still, against the future you read in the stars. While [prophesied_to_die.GetSheHe] for sure might be glad, this only proves that, luckily for [prophesied_to_die.GetHerHim], your reading was false, or incorrect at least, and many wonder why would you claim such dark prophecies.;;;;;;;;;;;;;x
+camino.21.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.22.t;A Path of Friendship;;;;;;;;;;;;;x
+camino.22.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYou set your sight on yourself. But not like now, a new companion, not romantic, but rather a friend, will arrive at your life, to be with you when you need them. It seems like a bright path awaits you.;;;;;;;;;;;;;x
+camino.22.a;The stars created friendship itself.;;;;;;;;;;;;;x
+camino.23.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.23.d;With a new friend in your life, you have come to realize the prophecy you once read in the night sky has turned true, and you couldn't be more glad of the fact it did, as you enjoy your newfound friendship.;;;;;;;;;;;;;x
+camino.23.a;A friend is like a sibling.;;;;;;;;;;;;;x
+camino.24.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.24.d;As time passes by, you can't help but notice the friendship you saw in the stars hasn't arrived. Perhaps all this time you weren't meant to have that kind of companionship in your life, but gloomy as it might be to know it hasn't come true, others can't help but feel disappointed in your own devotion, given your reading of the stars' will was wrong.;;;;;;;;;;;;;x
+camino.24.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.25.t;A Path of Expansion;;;;;;;;;;;;;x
+camino.25.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYou shall one way or another come to acquire the [prophesied_duchy.GetFullBaseName], for this is what the Elder Siblings have planned for you. It's time to fulfill your destiny, and prove the prophecy to be true.;;;;;;;;;;;;;x
+camino.25.a;This is what the stars want.;;;;;;;;;;;;;x
+camino.26.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.26.d;With the [prophesied_duchy.GetFullBaseName] now firmly under your rule, it seems that your prophetic reading was true. While many might have once doubted this prophecy the stars revealed, you have fulfilled the path that was written in them, and your devotion to the far gods and grace with them gains notoriety.;;;;;;;;;;;;;x
+camino.26.a;Just another step on the path..;;;;;;;;;;;;;x
+camino.27.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.27.d;As times passes by, many have noticed how the reading you had of the Elder Siblings desiring you to acquire the [prophesied_duchy.GetFullBaseName] has not come true. While no one might doubt the Annunaki's grace and wisdom, yours truly can be, and it seems that fate this time was not in your side, as even your own devotion has come into question.;;;;;;;;;;;;;x
+camino.27.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.28.t;A Path of Expansion;;;;;;;;;;;;;x
+camino.28.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYou shall one way or another come to acquire the [prophesied_kingdom.GetFullBaseName], for this is what the Elder Siblings have planned for you. It's time to fulfill your destiny, and prove the prophecy to be true.;;;;;;;;;;;;;x
+camino.28.a;This is what the stars want.;;;;;;;;;;;;;x
+camino.29.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.29.d;With the [prophesied_kingdom.GetFullBaseName] now firmly under your rule, it seems that your prophetic reading was true. While many might have once doubted this prophecy the stars revealed, you have fulfilled the path that was written in them, and your devotion to the far gods and grace with them gains prominence, and attracts the envy of many.;;;;;;;;;;;;;x
+camino.29.a;Just another step on the path..;;;;;;;;;;;;;x
+camino.30.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.30.d;As times passes by, many have noticed how the reading you had of the Elder Siblings desiring you to acquire the [prophesied_kingdom.GetFullBaseName] has not come true. While no one might doubt the Annunaki's grace and wisdom, yours truly can be, and it seems that fate this time was not in your side, as even your own devotion has come into question, some even claiming you fabricated such ostentatious claims.;;;;;;;;;;;;;x
+camino.30.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.31.t;A Path of Expansion;;;;;;;;;;;;;x
+camino.31.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYou shall one way or another come to acquire the [prophesied_empire.GetFullBaseName], for this is what the Elder Siblings have planned for you. It's time to fulfill your great destiny, and prove one of the grandest prophecies to be true, as well as that Nibiru's favor is on your side.;;;;;;;;;;;;;x
+camino.31.a;My destiny come true.;;;;;;;;;;;;;x
+camino.32.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.32.d;With the [prophesied_empire.GetFullBaseName] now firmly under your rule, it seems that your prophetic reading was true. While many might have once doubted this great prophecy the stars revealed, calling it ridiculous even, you have fulfilled the path that was written in them, and your great devotion to the distant gods and your grace with them gains legend, and attracts the envy and awe of many.;;;;;;;;;;;;;x
+camino.32.a;Just another step on the path..;;;;;;;;;;;;;x
+camino.33.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.33.d;As times passes by, many have noticed how the reading you had of the Elder Siblings desiring you to acquire the [prophesied_kingdom.GetFullBaseName] has not come true. While no one might doubt the Annunaki's grace and wisdom, yours truly can be, and it seems that fate this time was not in your side, as even your own devotion has come into question, some even claiming you fabricated such ostentatious claims.;;;;;;;;;;;;;x
+camino.33.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.34.t;A Path of Parenthood;;;;;;;;;;;;;x
+camino.34.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYou see the gift of life coming into yours, a child, blood of your blood and spawn of your loins, finally come into this world. You realize this is what the stars have finally written for you after so many years.;;;;;;;;;;;;;x
+camino.34.a;A Little Sibling for us all.;;;;;;;;;;;;;x
+camino.35.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.35.d;With your child [your_new_child.GetFirstName] finally born into this world, you have come to understand how this was the step the gods in the stars planned for you all along, even if it came late into your path, this blessing was part of the plan.;;;;;;;;;;;;;x
+camino.35.a;A step long time coming.;;;;;;;;;;;;;x
+camino.36.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.36.d;As time passes by, and no child in your life, you have come to doubt if it will ever be possible, as everything seems to show the prophecy you once read in the stars was no true. Whether you did something wrong, or didn't read what was actually meant to happen, you don't understand what went wrong.;;;;;;;;;;;;;x
+camino.36.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.37.t;A Path of Love?;;;;;;;;;;;;;x
+camino.37.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYou see the caress of a lover, the rush of emotion, the excitement, all coming into your life. While you might not necessarily be ignorant to the joys of the heart and the flesh, there is no lover in your life to share them with right now, that is, unless that's what the stars intend for you.;;;;;;;;;;;;;x
+camino.37.a;Love is but a domain of the gods.;;;;;;;;;;;;;x
+camino.38.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.38.d;The rush, the heartbeats, the smiles, you can't get them out of your head. While you can't stop thinking of [your_new_lover.GetFirstName], a different thought passes through your mind. The prophecy you read time ago, it came true. And you couldn't be happier about it.;;;;;;;;;;;;;x
+camino.38.a;Love's in the stars.;;;;;;;;;;;;;x
+camino.39.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.39.d;As time passes by, and no child in your life, you have come to doubt if it will ever be possible, as everything seems to show the prophecy you once read in the stars was no true. Whether you did something wrong, or didn't read what was actually meant to happen, you don't understand what went wrong.;;;;;;;;;;;;;x
+camino.39.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.40.t;A Path of Wealth;;;;;;;;;;;;;x
+camino.40.d;As you focus on finding the path, suddenly the celestial instructions are clear in their intention, and the Elder Siblings in their distant wisdom have revealed to you the next step in the star path.\n\nYou see prosperity and wealth coming into you, as you will amass great riches and become the envy of many.\n\n§YYou need to accumulate 500 gold to fulfill this prophecy.§!;;;;;;;;;;;;;x
+camino.40.a;The path shines bright as gold.;;;;;;;;;;;;;x
+camino.41.t;Prophecy Fulfilled;;;;;;;;;;;;;x
+camino.41.d;You have recently attained good wealth, as with everything, you feel grateful to the gods for this blessing, as well as fulfilling the prophesied step you saw in your future time ago, showing everyone how devout and blessed you truly are.;;;;;;;;;;;;;x
+camino.41.a;I Thank the Siblings.;;;;;;;;;;;;;x
+camino.42.t;Prophecy Failed;;;;;;;;;;;;;x
+camino.42.d;As time passes by, your coffers remain stale, not receiving the blessing you remember finding written for you in the night sky. While this is severely disappointing, this also has put your devotion to the gods in question in the eye of many.;;;;;;;;;;;;;x
+camino.42.a;Did I misunderstand the stars?;;;;;;;;;;;;;x
+camino.43.t;Without A Path To Find;;;;;;;;;;;;;x
+camino.43.d;You try to focus on finding the path, but while you keep concentrating and looking for anything the gods have left for you to find, you instead find nothing at all, failing to read the star path, and to understand your upcoming destiny, as only the overwhelming darkness between the stars catches your eyes, devouring your gaze completely.;;;;;;;;;;;;;x
+camino.43.a;Damned [Root.Religion.GetRandomEvilGodName], what have you done to me?!;;;;;;;;;;;;;x
+cath.1.t;Crusaders Not;;;;;;;;;;;;;x
+cath.1.d;The Catholic attempts to reconquer the holy city of Buenos Aires in the form of the Platine Crusade, began as a tragedy, and ended as a farce. With their forces rooted out of Buenos Aires and afterwards from the Platine Littoral, they were forced north into the Guarani lands, where the combined crusader forces, establishing themselves in a Crusader State out of necessity, were forced to settle for peace.\n\nCompletely outed from the holy lands, coffers were emptied and blood was spilled for what is deemed a worthless venture no one desired. Now the Platine Crusade will be remembered as a mistake, and the Crusade Experiment will have to end, until we heal from the wounds of the first one.;;;;;;;;;;;;;x
+cath.1.a;Nec Vult Deus.;;;;;;;;;;;;;x
+cath.1.b;Fools getting their due.;;;;;;;;;;;;;x
+EVTDESC_holy_spirit_encarnation_eva;After a lot of emotional preparation, with a clear mind, You are finally ready for Charisma and entering communion with God through the Holy Spirit.\n As the church cerimony procedes and guided by the Pastor, you feel more and more in touch with God. \n \n Through diligence and prayer, you fell a light entering and what you see becomes clear.;;;;;;;;;;;;;x
+EVTOPTHO_holy_spirit;I see the awnser to my dillema, holy warriors and holy man!;;;;;;;;;;;;;x
+EVTOPTA_holy_spirit;I see Jesus among the people, making miracles of bread and fish, bringing prosperity to the land.;;;;;;;;;;;;;x
+EVTOPTB_holy_spirit;I see knights and holy man, warriors marching for holy war in service of our faith.;;;;;;;;;;;;;x
+EVTOPTC_holy_spirit;I see people speaking many tongues and Jesus showing his kindness, I understand that I must act accordingly.;;;;;;;;;;;;;x
+EVTOPTD_holy_spirit;I see greater truths of our faith and of God, holy lights.;;;;;;;;;;;;;x
+EVTOPTE_holy_spirit;I see nothing.;;;;;;;;;;;;;x
+EVTOPTF_holy_spirit;I see... nothing...;;;;;;;;;;;;;x
+EVTOPTG_holy_spirit;I see vividly the old church masters in their study and the holy spirit tells me of the mysteries of the faith.;;;;;;;;;;;;;x
+EVTOPTH_holy_spirit;I see all tongues and I hear all mouths, The holy spirit has blessed me with prowess.;;;;;;;;;;;;;x
+EVTOPTI_holy_spirit;I see a great army circling around an unholy city, as I sound the horn, the rightful man descend upon it.;;;;;;;;;;;;;x
+EVTOPTJ_holy_spirit;I see Eden and Israel, great fields of wheat and corn, the holy spirit has show me plentifulness.;;;;;;;;;;;;;x
+EVTOPTK_holy_spirit;Blinding White!;;;;;;;;;;;;;x
+EVTDESC_evangelical_choose_branch;The time has come to choose a church for myself inside the Evangelical umbrella, this decision will define my later on life and I need to choose wisely.;;;;;;;;;;;;;x
+EVTOPT_choose_same;The faith in my church remains unshaken.;;;;;;;;;;;;;x
+EVTOPT_choose_branch_presbyterian;I am attracted to the Presbyterians.;;;;;;;;;;;;;x
+EVTOPT_choose_branch_methodist;I should consider the Methodist point of view.;;;;;;;;;;;;;x
+EVTOPT_choose_branch_pentecostal;I have faith in the Pentacostal points!;;;;;;;;;;;;;x
+EVTOPT_choose_branch_baptist;I do aggree with the Baptists.;;;;;;;;;;;;;x
+EVTOPT_choose_branch_non_sectarian;Let me go against schisms, Non-sectarianism for a strong church!;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x

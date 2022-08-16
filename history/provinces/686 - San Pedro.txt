@@ -1,0 +1,21 @@
+# c_san_pedro
+
+# County Title
+title = c_san_pedro
+
+# Settlements
+max_settlements = 4
+
+b_san_pedro_3 = castle
+b_rosario_4 = city
+#b_aguaray = temple
+#b_lima_2 = castle
+#b_antequera = city
+#b_puku = temple
+#b_loma_verde = castle
+
+# Misc
+culture = guarani
+religion = catholic
+
+#History

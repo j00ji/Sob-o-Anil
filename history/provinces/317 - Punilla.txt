@@ -1,0 +1,21 @@
+# c_punilla
+
+# County Title
+title = c_punilla
+
+# Settlements
+max_settlements = 3
+
+b_itihue = castle
+b_san_carlos_del_nuble = city
+#b_san_nicolas = temple
+#b_niquen = castle
+#b_pomuyeto = city
+#b_san_fabian_del_nuble = temple
+#b_buli = castle
+
+# Misc
+culture = huaso
+religion = evangelical
+
+#History

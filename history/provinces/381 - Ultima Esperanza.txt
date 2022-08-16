@@ -1,0 +1,21 @@
+# c_ultima_esperanza
+
+# County Title
+title = c_ultima_esperanza
+
+# Settlements
+max_settlements = 2
+
+b_natales = tribal
+#b_torres_del_paine = city
+#b_estancia_pudeto = temple
+#b_amarga = castle
+#b_las_viudas = city
+#b_puerto_bories = temple
+#b_puerto_prat = castle
+
+# Misc
+culture = australino
+religion = xoon
+
+#History

@@ -1,0 +1,21 @@
+# c_porto_nacional
+
+# County Title
+title = c_porto_nacional
+
+# Settlements
+max_settlements = 3
+
+b_porto_nacional = tribal
+#b_ipueiras = city
+#b_natividade_2 = temple
+#b_brejinho_do_nazare = castle
+#b_fatima = city
+#b_monte_do_carmo = temple
+#b_pindorama_do_tocantins = castle
+
+# Misc
+culture = araguaio
+religion = manredebu
+
+#History

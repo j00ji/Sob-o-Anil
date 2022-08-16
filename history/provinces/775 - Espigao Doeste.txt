@@ -1,0 +1,21 @@
+# c_espigao_doeste
+
+# County Title
+title = c_espigao_doeste
+
+# Settlements
+max_settlements = 3
+
+b_espigao_doeste = castle
+#b_pimenta_bueno = city
+#b_cacoal_2 = temple
+#b_andreazza = castle
+#b_rolim_de_moura = city
+#b_usina_de_calcario = temple
+#b_roosevelt = castle
+
+# Misc
+culture = rondonian
+religion = santo_daime
+
+#History

@@ -1,0 +1,21 @@
+# c_eldorado_dos_carajas
+
+# County Title
+title = c_eldorado_dos_carajas
+
+# Settlements
+max_settlements = 2
+
+b_eldorado_dos_carajas = tribal
+#b_palestina_do_para = city
+#b_canna_dos_carajas = temple
+#b_curionopolis = castle
+#b_parauapebas = city
+#b_picarra_2 = temple
+#b_sao_geraldo_do_araguaia = castle
+
+# Misc
+culture = paraense
+religion = xabaxai_xagi
+
+#History

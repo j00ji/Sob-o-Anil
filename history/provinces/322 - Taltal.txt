@@ -1,0 +1,21 @@
+# c_taltal
+
+# County Title
+title = c_taltal
+
+# Settlements
+max_settlements = 2
+
+b_taltal = castle
+#b_imilac = city
+#b_argolla = temple
+#b_zaldivar = castle
+#b_alemania = city
+#b_las_zorras = temple
+#b_llullaillaco = castle
+
+# Misc
+culture = atacameno
+religion = camino_estelar
+
+#History

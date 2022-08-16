@@ -1,0 +1,21 @@
+# c_puno
+
+# County Title
+title = c_puno
+
+# Settlements
+max_settlements = 5
+
+b_puno = castle
+b_juliaca = city
+b_lampa_2 = temple
+b_llave_2 = castle
+#b_chucuito = city
+#b_santa_lucia_de_puno = temple
+#b_tincopalca = castle
+
+# Misc
+culture = aymara
+religion = pachamama
+
+#History

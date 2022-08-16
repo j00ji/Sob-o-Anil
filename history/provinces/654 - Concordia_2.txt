@@ -1,0 +1,21 @@
+# c_concordia_2
+
+# County Title
+title = c_concordia_2
+
+# Settlements
+max_settlements = 3
+
+b_concordia_3 = castle
+b_colon = city
+#b_villaguay = temple
+#b_moss = castle
+#b_yuqueri = city
+#b_yerua = temple
+#b_nueva_escocia = castle
+
+# Misc
+culture = litoraleno
+religion = platinean
+
+#History

@@ -1,0 +1,21 @@
+# c_tungurahua
+
+# County Title
+title = c_tungurahua
+
+# Settlements
+max_settlements = 6
+
+b_ambato = castle
+b_riobamba = city
+b_alausi = temple
+b_pelileo = castle
+b_guano = city
+#b_colta = temple
+#b_pillaro = castle
+
+# Misc
+culture = serrano
+religion = inkarri
+
+#History

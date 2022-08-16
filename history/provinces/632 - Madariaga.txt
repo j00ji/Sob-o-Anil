@@ -1,0 +1,21 @@
+# c_madariaga
+
+# County Title
+title = c_madariaga
+
+# Settlements
+max_settlements = 1
+
+b_madariaga = castle
+#b_invernadas = city
+#b_tuyu_mapu = temple
+#b_sagrado_corazon = castle
+#b_la_troja = city
+#b_el_amanecer = temple
+#b_los_sauces = castle
+
+# Misc
+culture = pampeano
+religion = platinean
+
+#History

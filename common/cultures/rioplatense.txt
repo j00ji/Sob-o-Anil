@@ -1,0 +1,293 @@
+###ÄNSI
+
+rioplatense = {
+	graphical_cultures = { italiangfx westerngfx }
+
+	porteno = {
+		
+		graphical_cultures = { italiangfx }
+		
+
+		color = {0.2 0.65 0.9}
+
+		male_names = {
+			Adam Augusto_Agustin Alfonso Adalberto_Alberto Andrés António Alessandro_Alejandro
+			Balduíno Bartolomé Benedetto_Benedito Benjamim Bruno
+			Carlos Camillo_Camilo Cesare_Cesar Claudio Costantino Cristoforo_Cristobal
+			Daniel Davide_David Dinis Donato 
+			Edmundo Emmanuele_Manuel Enrico_Enrique 
+			Fausto Fernan Ferdinando_Fernando Filipe_Felipe Francisco Frederico
+			Gabriel German Gerardo_Geraldo Gregorio Giovanni Guillermo
+			Hector Herberto
+			Juan Jorge José Julio
+			Lando Lionel Lorenzo Luigi_Luis 
+			Marco_Marcos Mario Martin Matteo_Mateo Maurizio Mirón
+			Nicola_Nicolás
+			Patrizio_Patricio Pablo Pedro
+			Rafael Riccardo_Ricardo Roberto Rodrigo Ronaldo
+			Salvatore Sergio Simone_Simon Stefano_Esteban
+			Teodósio_Theodoro Timoteo Tiziano
+			Ulisses Umberto
+			Vermudo Vittorio_Victor
+			Xabier
+		}
+
+		female_names = {
+			Adelia Alessandra Alisia Amélia Antonia Andréa
+			Bárbara Benedita_Benedicta Brunhilda
+			Carla Camilla_Camila Caterina_Catarina Cecília Constancia
+			Debora Delinda Dores Dorotéia_Dorothea
+			Eleonora Elisa_Isabella Eva
+			Felicia Francesca Florenzia
+			Glória Gisela
+			Joana Joaquima Josefa 
+			Liliana Livia Ludmila 
+			Margarita Marcella_Marcela Matilde_Matilda Maria Marisa Mirtha
+			Ofélia
+			Paola_Paula Priscila
+			Raquel Rebeca Renata Roberta Rute
+			Silvana Sara Sofia Susana 
+			Tatiana Theodora
+			Úrsula
+			Valentina Veronica Vitória
+			Zanina
+		}
+
+		from_dynasty_prefix = "di "
+		male_patronym = "pibe di "
+		female_patronym = "piba di "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	
+	pampeano = {
+		
+		graphical_cultures = { italiangfx }
+
+		color = {0.4 0.5 0.7}
+
+		male_names = {
+			Adam Augusto_Agustin Alfonso Adalberto_Alberto Andrés António Alessandro_Alejandro
+			Balduíno Bartolomé Benedito Benjamim Bruno
+			Carlos Camillo_Camilo Cesar Claudio Costantino Cristobal
+			Daniel David Desiderius Diedrich Dinis Donato 
+			Edmundo Emmanuele_Manuel Enrico_Enrique Erich Esteban
+			Fausto Fernan Fernando Filipe_Felipe Francisco Frederico
+			German Gerardo_Geraldo Gregorio Giovanni Guillermo
+			Hans Hector Herberto Hermann
+			Isaac
+			Jesse Jorge José Juan Julio
+			Lando Lionel Lorenzo Luigi_Luis Luther
+			Marcos Mario Martin Mateo Maurizio Mirón
+			Nicolás
+			Patrizio_Patricio Pablo Pedro
+			Rafael Ricardo Roberto Rodrigo Ronaldo
+			Salvatore Sergio Simone_Simon 
+			Teodósio_Teodoro Timoteo 
+			Ulisses Umberto
+			Vermudo Vittorio_Victor
+			Xabier
+		}
+
+		female_names = {
+			Adelia Alessandra Alisia Amélia Antonia Andréa
+			Bárbara Benedita_Benedicta Beatrix Brunhilda
+			Carla Camilla_Camila Catarina Cecília Constancia
+			Debora Dores Dorotéia_Dorothea
+			Eleonora Elisa_Isabella Eva
+			Felicia Francesca Florenzia
+			Glória Gisela
+			Hannah Helene_Helana
+			Johanna_Joana Joaquima Josefa 
+			Liliana Livia Ludmila 
+			Margarita Marcella_Marcela Matilde_Matilda Maria Marisa Mirtha
+			Ofélia Olivia
+			Paola_Paula Priscila
+			Raquel Rebeca Renata Roberta Rute
+			Silvana Sara Sofia Susana 
+			Tatiana Teodora
+			Úrsula
+			Valentina Veronica Vitória
+			Zanina
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "pibe de "
+		female_patronym = "pibe de "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	contadino = {
+		graphical_cultures = { italiangfx }
+
+		color = {0.95 0.95 0.75}
+
+		male_names = {
+			Augusto_Agustin Adalberto Alberto Andrea Antonio Alessandro_Alejandro
+			Balduíno Bartolomeo_Bartolomé Benedetto_Benedito Benjamim Bruno
+			Carlo_Carlos Camillo_Camilo Cesare_Cesar Claudio Costantino Cristoforo_Cristobal
+			Damiano_Daniel Davide_David Dinis Donato 
+			Edmundo Emmanuele_Manuel Enrico_Enrique Eugenio Ezio
+			Fausto Ferdinando_Fernando Fillippo_Felipe Francesco_Francisco Frederico
+			Gabriele_Gabriel Germano Gerardo_Geraldo Gregorio Giorgio_Jorge Giovanni_Juan Guglielmo_Guillermo
+			Herberto
+			Iacopo_Jacob
+			Julio
+			Lando Leonello_Lionel Lorenzo Luigi_Luis 
+			Marco_Marcos Mario Martino_Martin Matteo_Mateo Maurizio
+			Niccoló_Nicolás
+			Patrizio_Patricio Paolo Pietro_Pedro
+			Rafaello_Rafael Riccardo_Ricardo Robert Ronaldo
+			Salvatore Sergio Simone_Simon Stefano_Esteban
+			Teodósio_Theodoro Timoteo Tiziano
+			Ulisses Umberto
+			Vermudo Vittorio_Victor			
+		}
+
+		female_names = {
+			Adelia Alessandra Alisia Amalia_Amélia Antonia 
+			Benedita_Benedicta Brunhilda
+			Carla Camilla_Camila Caterina_Catarina Cecília Contanza_Constancia
+			Delinda Dores Dorotéia_Dorothea
+			Eleonora Elisa_Isabella
+			Felicia Francesca Flora
+			Gloria Giovanna_Joana
+			Joaquima Josefa Julia
+			Liliana Livia Ludmila 
+			Margarita Marcella_Marcela Matilde_Matilda Maria Marisa Mirtha
+			Paola_Paula Patrizia_Patricia
+			Renata Roberta Rute
+			Silvana Sofia Susana 
+			Tatiana Teodora Tiziana
+			Úrsula
+			Valentina Vitoria
+		}
+
+		from_dynasty_prefix = "di "
+		male_patronym = "pibe di "
+		female_patronym = "piba di "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+	litoraleno = {
+		
+		graphical_cultures = { southerngfx }
+		
+
+		color = {0.12 0.31 0.79}
+
+		male_names = {
+			Adolfo Alberto_Adalberto Alejandro_Alessandro Andrés Andresito "Ángel" Antonio Armando Arturo Ataliva
+			Camilo_Camillo Carlos Casimiro Chango
+			David "Damián"
+			Elías Enrique Ernesto Estanislao  Eusebio Ezequiel
+			Facundo Fernando
+			Felipe_Fillippo Francisco_Francesco Franco
+			Gabriel Gervasio Gonzalo
+			Hector "Hector María" Hernán_German Horacio
+			Iván
+			Javier_Xabier Jonás José_Josué Juan_Giovanni "Juan Cruz" "Juan Ignacio" "Juan Manuel" "Juan Pablo" "Juan José" Julio Justo
+			Laurencio Lautaro Leandro Lucas Lucio Luis_Luigi "Luis Alberto"
+			Manuel_Emmanuele Marcelo Marcos_Marco Miguel
+			"Nicolás"
+			Pedro Pablo Pocho
+			Rafael "Raúl" Ricardo Rodrigo
+			Sebastian
+			Olivero
+			"Tomás" Teodoro_Teodosio
+			Santiago
+			Valentín Valentino Victor_Vittorio
+		}
+
+		female_names = {
+			Adriana Agustina Alejandra Alicia Ana Anita Anastasia Antonia
+			"Bárbara" "Belén"
+			Camila Carla Carmen Carolina Catalina Celeste
+			Dolores
+			Elisa Elvira Esmeralda "Estefanía" Eugenia
+			Fernanda Francisca
+			Gabriela Guillermina Graciela Griselda
+			"Inés" Isabel
+			Jacinta Josefina Juana
+			Laura Luciana Lucila Ludmila
+			"Magalí" Magdalena Margarita "María" "María Ana" "María Inés" "María Laura" "María Luz" "María Paz" Mariana Marta Melina Mercedes Micaela Morena
+			Nadina Nahir
+			Octavia Ofelia
+			Paula Pilar
+			Ramona Romina Rosa "Rocío"
+			Sara Sabrina Silvia "Sofía" Susana
+			Teresa
+			Valentina Victoria "Verónica"
+			Yanina
+		}
+
+		from_dynasty_prefix = "de "
+		male_patronym = "pibe de "
+		female_patronym = "piba de "
+		prefix = yes
+	
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	}
+
+	urbuguayo = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.02 0.4 0.61 }
+		
+		male_names = {
+		}
+		female_names = {
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier		
+	}
+
+}

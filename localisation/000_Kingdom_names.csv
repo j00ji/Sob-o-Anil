@@ -1,0 +1,98 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+k_acre;Acre;Acre;Acre;;Acre;;;;;;;;;x
+k_acre_adj;Acrean;;acrer;;;;;;;;;;;x
+k_amazonas;Amazonas;Amazonas;Amazonas;;Amazonas;;;;;;;;;x
+k_amazonas_adj;Amazonasian;;amazonaser;;;;;;;;;;;x
+k_araucania;Araucanía;Araucanía;Araucanía;;Araucanía;;;;;;;;;x
+k_araucania_adj;Araucanían;;araucaníer;;;;;;;;;;;x
+k_atacama;Atacama;Atacama;Atacama;;Atacama;;;;;;;;;x
+k_atacama_adj;Atacaman;;atacamer;;;;;;;;;;;x
+k_bolivia;Bolivia;Bolivia;Bolivia;;Bolivia;;;;;;;;;x
+k_bolivia_adj;Bolivian;;boliver;;;;;;;;;;;x
+k_buenos_aires;Buenos Aires;Buenos Aires;Buenos Aires;;Buenos Aires;;;;;;;;;x
+k_buenos_aires_adj;Buenos Airesian;;Buenos Aireser;;;;;;;;;;;x
+k_cabo_norte;Cabo Norte;Cabo Norte;Cabo Norte;;Cabo Norte;;;;;;;;;x
+k_cabo_norte_adj;Cabo Nortean;;Cabo Norter;;;;;;;;;;;x
+k_ceara;Ceará;Ceará;Ceará;;Ceará;;;;;;;;;x
+k_ceara_adj;Cearáian;;cearáer;;;;;;;;;;;x
+k_chile;Chile;Chile;Chile;;Chile;;;;;;;;;x
+k_chile_adj;Chilean;;chiler;;;;;;;;;;;x
+k_chubut;Chubut;Chubut;Chubut;;Chubut;;;;;;;;;x
+k_chubut_adj;Chubutian;;chubuter;;;;;;;;;;;x
+k_cordoba;Córdoba;Córdoba;Córdoba;;Córdoba;;;;;;;;;x
+k_cordoba_adj;Córdoban;;córdober;;;;;;;;;;;x
+k_cuyo;Cuyo;Cuyo;Cuyo;;Cuyo;;;;;;;;;x
+k_cuyo_adj;Cuian;;cuer;;;;;;;;;;;x
+k_ecuador;Ecuador;Ecuador;Ecuador;;Ecuador;;;;;;;;;x
+k_ecuador_adj;Ecuadorian;;ecuadorer;;;;;;;;;;;x
+k_espirito_santo;Espirito Santo;Espirito Santo;Espirito Santo;;Espirito Santo;;;;;;;;;x
+k_espirito_santo_adj;Espirito Santian;;Espirito Santer;;;;;;;;;;;x
+k_falkland;Falkland;Falkland;Falkland;;Falkland;;;;;;;;;x
+k_falkland_adj;Falklish;;Falklish;;;;;;;;;;;x
+k_fluminense;Fluminense;Fluminense;Fluminense;;Fluminense;;;;;;;;;x
+k_fluminense_adj;Fluminensean;;fluminenser;;;;;;;;;;;x
+k_goias;Goias;Goias;Goias;;Goias;;;;;;;;;x
+k_goias_adj;Goiasian;;goiaser;;;;;;;;;;;x
+k_gran_chaco;Gran Chaco;Gran Chaco;Gran Chaco;;Gran Chaco;;;;;;;;;x
+k_gran_chaco_adj;Gran Chacian;;Gran Chacer;;;;;;;;;;;x
+k_grigota;Grigotá;Grigotá;Grigotá;;Grigotá;;;;;;;;;x
+k_grigota_adj;Grigotáian;;grigotáer;;;;;;;;;;;x
+k_ilheus;Ilhéus;Ilhéus;Ilhéus;;Ilhéus;;;;;;;;;x
+k_ilheus_adj;Ilhéusian;;ilhéuser;;;;;;;;;;;x
+k_la_pampa;La Pampa;La Pampa;La Pampa;;La Pampa;;;;;;;;;x
+k_la_pampa_adj;La Pampan;;La Pamper;;;;;;;;;;;x
+k_magallanes;Magallanes;Magallanes;Magallanes;;Magallanes;;;;;;;;;x
+k_magallanes_adj;Magallanesian;;magallaneser;;;;;;;;;;;x
+k_maranhao;Maranhão;Maranhão;Maranhão;;Maranhão;;;;;;;;;x
+k_maranhao_adj;Maranhãian;;maranhãer;;;;;;;;;;;x
+k_mato_grosso;Mato Grosso;Mato Grosso;Mato Grosso;;Mato Grosso;;;;;;;;;x
+k_mato_grosso_adj;Mato Grossian;;Mato Grosser;;;;;;;;;;;x
+k_mesopotamia;Mesopotamia;Mesopotamia;Mesopotamia;;Mesopotamia;;;;;;;;;x
+k_mesopotamia_adj;Mesopotamian;;mesopotamer;;;;;;;;;;;x
+k_minas_gerais;Minas;Minas;Minas;;Minas;;;;;;;;;x
+k_minas_gerais_adj;Minas Geraisian;;Minas Geraiser;;;;;;;;;;;x
+k_norte_viejo;Norte Viejo;Norte Viejo;Norte Viejo;;Norte Viejo;;;;;;;;;x
+k_norte_viejo_adj;Norte Viejian;;Norte Viejer;;;;;;;;;;;x
+k_omagua;Omagua;Omagua;Omagua;;Omagua;;;;;;;;;x
+k_omagua_adj;Omaguan;;omager;;;;;;;;;;;x
+k_pachacamac;Pachacamac;Pachacamac;Pachacamac;;Pachacamac;;;;;;;;;x
+k_pachacamac_adj;Pachacamacian;;pachacamacer;;;;;;;;;;;x
+k_para;Pará;Pará;Pará;;Pará;;;;;;;;;x
+k_para_adj;Paráian;;paráer;;;;;;;;;;;x
+k_paraguay;Paraguay;Paraguay;Paraguay;;Paraguay;;;;;;;;;x
+k_paraguay_adj;Paraguaian;;paraguaer;;;;;;;;;;;x
+k_parana;Paraná;Paraná;Paraná;;Paraná;;;;;;;;;x
+k_parana_adj;Paranáian;;paranáer;;;;;;;;;;;x
+k_pernambuco;Pernambuco;Pernambuco;Pernambuco;;Pernambuco;;;;;;;;;x
+k_pernambuco_adj;Pernambucian;;pernambucer;;;;;;;;;;;x
+k_piaui;Piauí;Piauí;Piauí;;Piauí;;;;;;;;;x
+k_piaui_adj;Piauíian;;piauíer;;;;;;;;;;;x
+k_rio_grande_do_sul;Rio Grande do Sul;Rio Grande do Sul;Rio Grande do Sul;;Rio Grande do Sul;;;;;;;;;x
+k_rio_grande_do_sul_adj;Rio Grande do Sulian;;Rio Grande do Suler;;;;;;;;;;;x
+k_rio_negro;Río Negro;Río Negro;Río Negro;;Río Negro;;;;;;;;;x
+k_rio_negro_adj;Río Negrian;;Río Negrer;;;;;;;;;;;x
+k_salvador;Salvador;Salvador;Salvador;;Salvador;;;;;;;;;x
+k_salvador_adj;Salvadorian;;salvadorer;;;;;;;;;;;x
+k_santa_catarina;Santa Catarina;Santa Catarina;Santa Catarina;;Santa Catarina;;;;;;;;;x
+k_santa_catarina_adj;Santa Catarinan;;Santa Catariner;;;;;;;;;;;x
+k_santa_cruz_de_patagonia;Santa Cruz de Patagonia;Santa Cruz de Patagonia;Santa Cruz de Patagonia;;Santa Cruz de Patagonia;;;;;;;;;x
+k_santa_cruz_de_patagonia_adj;Santa Cruz de Patagonian;;Santa Cruz de Patagoner;;;;;;;;;;;x
+k_sao_francisco;São Francisco;São Francisco;São Francisco;;São Francisco;;;;;;;;;x
+k_sao_francisco_adj;São Franciscian;;São Franciscer;;;;;;;;;;;x
+k_sao_paulo;São Paulo;São Paulo;São Paulo;;São Paulo;;;;;;;;;x
+k_sao_paulo_adj;São Paulian;;São Pauler;;;;;;;;;;;x
+k_sipan;Sipán;Sipán;Sipán;;Sipán;;;;;;;;;x
+k_sipan_adj;Sipánian;;sipáner;;;;;;;;;;;x
+k_triangle;Triângulo;Triângulo;Triângulo;;Triângulo;;;;;;;;;x
+k_triangle_adj;Trianglean;;triangler;;;;;;;;;;;x
+k_uruguay;Uruguay;Uruguay;Uruguay;;Uruguay;;;;;;;;;x
+k_uruguay_adj;Uruguaian;;uruguaer;;;;;;;;;;;x
+k_vilcabamba;Vilcabamba;Vilcabamba;Vilcabamba;;Vilcabamba;;;;;;;;;x
+k_vilcabamba_adj;Vilcabamban;;vilcabamber;;;;;;;;;;;x
+###OTHERS;;;;;;;;;;;
+NATAL_KINGDOM;Natal;;;;;;;;;;;x
+NATAL_KINGDOM_ADJ;Natalese;;;;;;;;;;;x
+FORTALEZA_KINGDOM;Fortaleza;;;;;;;;;;;x
+FORTALEZA_KINGDOM_ADJ;Fortalezean;;;;;;;;;;;x
+RECIFE_KINGDOM;Recife;;;;;;;;;;;x
+RECIFE_KINGDOM_ADJ;Recifean;;;;;;;;;;;x

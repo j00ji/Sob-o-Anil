@@ -1,0 +1,21 @@
+# c_cariri
+
+# County Title
+title = c_cariri
+
+# Settlements
+max_settlements = 3
+
+b_crato = tribal
+b_juazeiro_do_norte = temple
+b_brejo_santo = city
+#b_missao_velha = castle
+#b_barbalha = city
+#b_abaiara = temple
+#b_caririacu = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

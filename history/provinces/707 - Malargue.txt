@@ -1,0 +1,21 @@
+# c_malargue
+
+# County Title
+title = c_malargue
+
+# Settlements
+max_settlements = 2
+
+b_malargue = castle
+#b_san_carlos_3 = city
+#b_aguer = temple
+#b_sosneado = castle
+#b_bardas_blancas = city
+#b_arenal = temple
+#b_malacara = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History

@@ -1,0 +1,1549 @@
+###ÄNSI
+
+340001 = {
+	name = "Abate"
+	culture = porteno
+	religion = platinean
+}
+
+340002= {
+	name = "Acosta"
+	culture = porteno
+	religion = platinean
+}
+
+340003 = {
+	name = "Allende"
+	culture = porteno
+	religion = platinean
+}
+
+
+340004 = {
+	name = "Álvarez"
+	culture = porteno
+	religion = platinean
+}
+
+340005 = {
+	name = "Andrea"
+	culture = porteno
+	religion = platinean
+}
+
+340006 = {
+	name = "Annini"
+	culture = porteno
+	religion = platinean
+}
+
+340007 = {
+	name = "Arambarri"
+	culture = porteno
+	religion = platinean
+}
+
+340008 = {
+	name = "Areco"
+	culture = porteno
+	religion = platinean
+}
+
+340009 = {
+	name = "Arias"
+	culture = porteno
+	religion = platinean
+}
+
+340010 = {
+	name = "Armando"
+	culture = porteno
+	religion = platinean
+}
+
+340011 = {
+	name = "Augias"
+	culture = porteno
+	religion = platinean
+}
+
+340012= {
+	name = "della Bona"
+	culture = porteno
+	religion = platinean
+}
+
+340013 = {
+	name = "Bonelli"
+	culture = porteno
+	religion = platinean
+}
+
+
+340014 = {
+	name = "Bruno"
+	culture = porteno
+	religion = platinean
+}
+
+340015 = {
+	name = "Bucci"
+	culture = porteno
+	religion = platinean
+}
+
+340016 = {
+	name = "Burgio"
+	culture = porteno
+	religion = platinean
+}
+
+340017 = {
+	name = "Camacho"
+	culture = porteno
+	religion = platinean
+}
+
+340018 = {
+	name = "Cardonatti"
+	culture = porteno
+	religion = platinean
+}
+
+340019 = {
+	name = "Carrasco"
+	culture = porteno
+	religion = platinean
+}
+
+340020 = {
+	name = "Carrizo"
+	culture = porteno
+	religion = platinean
+}
+
+340021 = {
+	name = "des Cars"
+	culture = porteno
+	religion = platinean
+}
+
+340022= {
+	name = "Castro"
+	culture = porteno
+	religion = platinean
+}
+
+340023 = {
+	name = "Cavalli"
+	culture = porteno
+	religion = platinean
+}
+
+
+340024 = {
+	name = "Clerici"
+	culture = porteno
+	religion = platinean
+}
+
+340025 = {
+	name = "Corti"
+	culture = porteno
+	religion = platinean
+}
+
+340026 = {
+	name = "Damiani"
+	culture = porteno
+	religion = platinean
+}
+
+340027 = {
+	name = "Dávila"
+	culture = porteno
+	religion = platinean
+}
+
+340028 = {
+	name = "Díaz"
+	culture = porteno
+	religion = platinean
+}
+
+340029 = {
+	name = "Donato"
+	culture = porteno
+	religion = platinean
+}
+
+340030 = {
+	name = "Espeche"
+	culture = porteno
+	religion = platinean
+}
+
+340031 = {
+	name = "Esposito"
+	culture = porteno
+	religion = platinean
+}
+
+340032= {
+	name = "Fernández"
+	culture = porteno
+	religion = platinean
+}
+
+340033 = {
+	name = "della Fuente"
+	culture = porteno
+	religion = platinean
+}
+
+
+340034 = {
+	name = "Galluzzi"
+	culture = porteno
+	religion = platinean
+}
+
+340035 = {
+	name = "García"
+	culture = porteno
+	religion = platinean
+}
+
+340036 = {
+	name = "Giachetti"
+	culture = porteno
+	religion = platinean
+}
+
+340037 = {
+	name = "Giménez"
+	culture = porteno
+	religion = platinean
+}
+
+340038 = {
+	name = "González"
+	culture = porteno
+	religion = platinean
+}
+
+340039 = {
+	name = "Gómez"
+	culture = porteno
+	religion = platinean
+}
+
+340040 = {
+	name = "Guatti"
+	culture = porteno
+	religion = platinean
+}
+
+340041 = {
+	name = "Guerrero"
+	culture = porteno
+	religion = platinean
+}
+
+340042= {
+	name = "Heredia"
+	culture = porteno
+	religion = platinean
+}
+
+340043 = {
+	name = "Hernández"
+	culture = porteno
+	religion = platinean
+}
+
+
+340044 = {
+	name = "Hernandías"
+	culture = porteno
+	religion = platinean
+}
+
+340045 = {
+	name = "Juarez"
+	culture = porteno
+	religion = platinean
+}
+
+340046 = {
+	name = "Jauregüi"
+	culture = porteno
+	religion = platinean
+}
+
+340047 = {
+	name = "Kelly"
+	culture = porteno
+	religion = platinean
+}
+
+340048 = {
+	name = "dall’Lago"
+	culture = porteno
+	religion = platinean
+}
+
+340049 = {
+	name = "Lattanzi"
+	culture = porteno
+	religion = platinean
+}
+
+340050 = {
+	name = "Losada"
+	culture = porteno
+	religion = platinean
+}
+
+340051 = {
+	name = "López"
+	culture = porteno
+	religion = platinean
+}
+
+340052= {
+	name = "Loza"
+	culture = porteno
+	religion = platinean
+}
+
+340053 = {
+	name = "Luna"
+	culture = porteno
+	religion = platinean
+}
+
+
+340054 = {
+	name = "della Luna"
+	culture = porteno
+	religion = platinean
+}
+
+340055 = {
+	name = "Mancini"
+	culture = porteno
+	religion = platinean
+}
+
+340056 = {
+	name = "Martínez"
+	culture = porteno
+	religion = platinean
+}
+
+340057 = {
+	name = "McCoffin"
+	culture = porteno
+	religion = platinean
+}
+
+340058 = {
+	name = "McCormac"
+	culture = porteno
+	religion = platinean
+}
+
+340059 = {
+	name = "McCromnick"
+	culture = porteno
+	religion = platinean
+}
+
+340060 = {
+	name = "Mignone"
+	culture = porteno
+	religion = platinean
+}
+
+340061 = {
+	name = "Navarro"
+	culture = porteno
+	religion = platinean
+}
+
+340062= {
+	name = "Niccola"
+	culture = porteno
+	religion = platinean
+}
+
+340063 = {
+	name = "Nieva"
+	culture = porteno
+	religion = platinean
+}
+
+
+340064 = {
+	name = "Núñez"
+	culture = porteno
+	religion = platinean
+}
+
+340065 = {
+	name = "Ochoa"
+	culture = porteno
+	religion = platinean
+}
+
+340066 = {
+	name = "O’Donnel"
+	culture = porteno
+	religion = platinean
+}
+
+340067 = {
+	name = "Palermo"
+	culture = porteno
+	religion = platinean
+}
+
+340068 = {
+	name = "Pérez"
+	culture = porteno
+	religion = platinean
+}
+
+340069 = {
+	name = "Quino"
+	culture = porteno
+	religion = platinean
+}
+
+340070 = {
+	name = "Ravenna"
+	culture = porteno
+	religion = platinean
+}
+
+340071 = {
+	name = "Ramacciotti"
+	culture = porteno
+	religion = platinean
+}
+
+340072= {
+	name = "Rodríguez"
+	culture = porteno
+	religion = platinean
+}
+
+340073 = {
+	name = "Rojas"
+	culture = porteno
+	religion = platinean
+}
+
+340074 = {
+	name = "Romano"
+	culture = porteno
+	religion = platinean
+}
+
+340075 = {
+	name = "Romero"
+	culture = porteno
+	religion = platinean
+}
+
+340076 = {
+	name = "Rossi"
+	culture = porteno
+	religion = platinean
+}
+
+340077 = {
+	name = "Ruiz"
+	culture = porteno
+	religion = platinean
+}
+
+340078 = {
+	name = "Russo"
+	culture = porteno
+	religion = platinean
+}
+
+340079 = {
+	name = "Saccone"
+	culture = porteno
+	religion = platinean
+}
+
+340080 = {
+	name = "Sánchez"
+	culture = porteno
+	religion = platinean
+}
+
+340081 = {
+	name = "dei Santi"
+	culture = porteno
+	religion = platinean
+}
+
+340082= {
+	name = "Santos"
+	culture = porteno
+	religion = platinean
+}
+
+340083 = {
+	name = "Scandella"
+	culture = porteno
+	religion = platinean
+}
+
+
+340084 = {
+	name = "Silva"
+	culture = porteno
+	religion = platinean
+}
+
+340085 = {
+	name = "Somoza"
+	culture = porteno
+	religion = platinean
+}
+
+340086 = {
+	name = "Sosa"
+	culture = porteno
+	religion = platinean
+}
+
+340087 = {
+	name = "Stefano"
+	culture = porteno
+	religion = platinean
+}
+
+340088 = {
+	name = "di Stefano"
+	culture = porteno
+	religion = platinean
+}
+
+340089 = {
+	name = "Trotta"
+	culture = porteno
+	religion = platinean
+}
+
+340090 = {
+	name = "Trotta"
+	culture = porteno
+	religion = platinean
+}
+
+340091 = {
+	name = "Toledo"
+	culture = porteno
+	religion = platinean
+}
+
+340092= {
+	name = "Tolosa"
+	culture = porteno
+	religion = platinean
+}
+
+340093 = {
+	name = "Torres"
+	culture = porteno
+	religion = platinean
+}
+
+340094 = {
+	name = "Utaegui"
+	culture = porteno
+	religion = platinean
+}
+
+340095 = {
+	name = "del Valle"
+	culture = porteno
+	religion = platinean
+}
+
+340096 = {
+	name = "Vásquez"
+	culture = porteno
+	religion = platinean
+}
+
+340097 = {
+	name = "Villanueva"
+	culture = porteno
+	religion = platinean
+}
+
+340098 = {
+	name = "Villavieja"
+	culture = porteno
+	religion = platinean
+}
+
+340099 = {
+	name = "Walterson"
+	culture = porteno
+	religion = platinean
+}
+
+340100 = {
+	name = "Zinganelli"
+	culture = porteno
+	religion = platinean
+}
+
+340101 = {
+	name = "d’Agostini"
+	culture = porteno
+	religion = platinean
+}
+
+350001 = {
+	name = "d’Agostini"
+	culture = contadino
+	religion = platinean
+}
+
+350002 = {
+	name = "Allighieri"
+	culture = contadino
+	religion = platinean
+}
+
+350003 = {
+	name = "Angeli"
+	culture = contadino
+	religion = platinean
+}
+
+350004 = {
+	name = "d’Angelo"
+	culture = contadino
+	religion = platinean
+}
+
+350005 = {
+	name = "Amato"
+	culture = contadino
+	religion = platinean
+}
+
+350006 = {
+	name = "Arcagni"
+	culture = contadino
+	religion = platinean
+}
+
+350007 = {
+	name = "Baccanelli"
+	culture = contadino
+	religion = platinean
+}
+
+350008 = {
+	name = "Baroni"
+	culture = contadino
+	religion = platinean
+}
+
+350009 = {
+	name = "Battaglia"
+	culture = contadino
+	religion = platinean
+}
+
+350010 = {
+	name = "Bernasconi"
+	culture = contadino
+	religion = platinean
+}
+
+350011 = {
+	name = "Baroli"
+	culture = contadino
+	religion = platinean
+}
+
+350012 = {
+	name = "Bassi"
+	culture = contadino
+	religion = platinean
+}
+
+350013 = {
+	name = "Benedetti"
+	culture = contadino
+	religion = platinean
+}
+
+350014 = {
+	name = "Bianchi"
+	culture = contadino
+	religion = platinean
+}
+
+350015 = {
+	name = "Bianco"
+	culture = contadino
+	religion = platinean
+}
+
+350016 = {
+	name = "Bonini"
+	culture = contadino
+	religion = platinean
+}
+
+350017 = {
+	name = "Bonanno"
+	culture = contadino
+	religion = platinean
+}
+
+350018 = {
+	name = "Borghini"
+	culture = contadino
+	religion = platinean
+}
+
+350019 = {
+	name = "Botazzi"
+	culture = contadino
+	religion = platinean
+}
+
+350020 = {
+	name = "Brunelleschi"
+	culture = contadino
+	religion = platinean
+}
+
+350021 = {
+	name = "Bruno"
+	culture = contadino
+	religion = platinean
+}
+
+350022 = {
+	name = "Carbone"
+	culture = contadino
+	religion = platinean
+}
+
+350023 = {
+	name = "Cariddi"
+	culture = contadino
+	religion = platinean
+}
+
+350024 = {
+	name = "Cardinale"
+	culture = contadino
+	religion = platinean
+}
+
+350025 = {
+	name = "Cerati"
+	culture = contadino
+	religion = platinean
+}
+
+350026 = {
+	name = "Colombo"
+	culture = contadino
+	religion = platinean
+}
+
+350027 = {
+	name = "Coppola"
+	culture = contadino
+	religion = platinean
+}
+
+350028 = {
+	name = "Constantini"
+	culture = contadino
+	religion = platinean
+}
+
+350029 = {
+	name = "Constanti"
+	culture = contadino
+	religion = platinean
+}
+
+350030 = {
+	name = "Constanze"
+	culture = contadino
+	religion = platinean
+}
+
+350031 = {
+	name = "Dantelli"
+	culture = contadino
+	religion = platinean
+}
+
+350032 = {
+	name = "Donato"
+	culture = contadino
+	religion = platinean
+}
+
+350033 = {
+	name = "Dontilli"
+	culture = contadino
+	religion = platinean
+}
+
+350034 = {
+	name = "Esposito"
+	culture = contadino
+	religion = platinean
+}
+
+350035 = {
+	name = "Ferrari"
+	culture = contadino
+	religion = platinean
+}
+
+350036 = {
+	name = "dei Fiori"
+	culture = contadino
+	religion = platinean
+}
+
+350037 = {
+	name = "Fontana"
+	culture = contadino
+	religion = platinean
+}
+
+350038 = {
+	name = "Fontante"
+	culture = contadino
+	religion = platinean
+}
+
+350039 = {
+	name = "Francese"
+	culture = contadino
+	religion = platinean
+}
+
+350040 = {
+	name = "Galli"
+	culture = contadino
+	religion = platinean
+}
+
+350041 = {
+	name = "Gatti"
+	culture = contadino
+	religion = platinean
+}
+
+350042 = {
+	name = "Gambarotta"
+	culture = contadino
+	religion = platinean
+}
+
+350043 = {
+	name = "Giachetti"
+	culture = contadino
+	religion = platinean
+}
+
+350044 = {
+	name = "Giacche"
+	culture = contadino
+	religion = platinean
+}
+
+350045 = {
+	name = "Giordano"
+	culture = contadino
+	religion = platinean
+}
+
+350046 = {
+	name = "Giulani"
+	culture = contadino
+	religion = platinean
+}
+
+350047 = {
+	name = "Gentile"
+	culture = contadino
+	religion = platinean
+}
+
+350048 = {
+	name = "Grasso"
+	culture = contadino
+	religion = platinean
+}
+
+350049 = {
+	name = "Greco"
+	culture = contadino
+	religion = platinean
+}
+
+350050 = {
+	name = "Ingeniere"
+	culture = contadino
+	religion = platinean
+}
+
+350051 = {
+	name = "Leoni"
+	culture = contadino
+	religion = platinean
+}
+
+350052 = {
+	name = "Lombardi"
+	culture = contadino
+	religion = platinean
+}
+
+350053 = {
+	name = "Lorenzi"
+	culture = contadino
+	religion = platinean
+}
+
+350054 = {
+	name = "de Luca"
+	culture = contadino
+	religion = platinean
+}
+
+350055 = {
+	name = "Macchie"
+	culture = contadino
+	religion = platinean
+}
+
+350056 = {
+	name = "Mancini"
+	culture = contadino
+	religion = platinean
+}
+
+350057 = {
+	name = "Marchetti"
+	culture = contadino
+	religion = platinean
+}
+
+350058 = {
+	name = "Marino"
+	culture = contadino
+	religion = platinean
+}
+
+350059 = {
+	name = "Martinelli"
+	culture = contadino
+	religion = platinean
+}
+
+350060 = {
+	name = "Milani"
+	culture = contadino
+	religion = platinean
+}
+
+350061 = {
+	name = "Molinari"
+	culture = contadino
+	religion = platinean
+}
+
+350062 = {
+	name = "Monti"
+	culture = contadino
+	religion = platinean
+}
+
+350063 = {
+	name = "Moretti"
+	culture = contadino
+	religion = platinean
+}
+
+350064 = {
+	name = "Negrio"
+	culture = contadino
+	religion = platinean
+}
+
+350065 = {
+	name = "Olivieri"
+	culture = contadino
+	religion = platinean
+}
+
+350066 = {
+	name = "Orlando"
+	culture = contadino
+	religion = platinean
+}
+
+350067 = {
+	name = "Ottolenghi"
+	culture = contadino
+	religion = platinean
+}
+
+350068 = {
+	name = "Pagano"
+	culture = contadino
+	religion = platinean
+}
+
+350069 = {
+	name = "Palermo"
+	culture = contadino
+	religion = platinean
+}
+
+350070 = {
+	name = "Palmieri"
+	culture = contadino
+	religion = platinean
+}
+
+350071 = {
+	name = "Parisi"
+	culture = contadino
+	religion = platinean
+}
+
+350072 = {
+	name = "Peretti"
+	culture = contadino
+	religion = platinean
+}
+
+350073 = {
+	name = "Piatti"
+	culture = contadino
+	religion = platinean
+}
+
+350074 = {
+	name = "Ré"
+	culture = contadino
+	religion = platinean
+}
+
+350075 = {
+	name = "Regina"
+	culture = contadino
+	religion = platinean
+}
+
+350076 = {
+	name = "Rimoldi"
+	culture = contadino
+	religion = platinean
+}
+
+350077 = {
+	name = "Rossi"
+	culture = contadino
+	religion = platinean
+}
+
+350078 = {
+	name = "Romano"
+	culture = contadino
+	religion = platinean
+}
+
+350079 = {
+	name = "Rossatto"
+	culture = contadino
+	religion = platinean
+}
+
+350080 = {
+	name = "Rossetti"
+	culture = contadino
+	religion = platinean
+}
+
+350081 = {
+	name = "Ruggeri"
+	culture = contadino
+	religion = platinean
+}
+
+350082 = {
+	name = "Russo"
+	culture = contadino
+	religion = platinean
+}
+
+350083 = {
+	name = "dei Santi"
+	culture = contadino
+	religion = platinean
+}
+
+350084 = {
+	name = "Sargenti"
+	culture = contadino
+	religion = platinean
+}
+
+350085 = {
+	name = "Sartori"
+	culture = contadino
+	religion = platinean
+}
+
+350086 = {
+	name = "Silvestri"
+	culture = contadino
+	religion = platinean
+}
+
+350087 = {
+	name = "Sorrentini"
+	culture = contadino
+	religion = platinean
+}
+
+350088 = {
+	name = "Spinelli"
+	culture = contadino
+	religion = platinean
+}
+
+350089 = {
+	name = "Squadre"
+	culture = contadino
+	religion = platinean
+}
+
+350090 = {
+	name = "Stella"
+	culture = contadino
+	religion = platinean
+}
+
+350091 = {
+	name = "Tano"
+	culture = contadino
+	religion = platinean
+}
+
+350092 = {
+	name = "Trotta"
+	culture = contadino
+	religion = platinean
+}
+
+350093 = {
+	name = "Tavella"
+	culture = contadino
+	religion = platinean
+}
+
+350094 = {
+	name = "Ungari"
+	culture = contadino
+	religion = platinean
+}
+
+350095 = {
+	name = "dei Valli"
+	culture = contadino
+	religion = platinean
+}
+
+350096 = {
+	name = "Vitali"
+	culture = contadino
+	religion = platinean
+}
+
+350097 = {
+	name = "Volpe"
+	culture = contadino
+	religion = platinean
+}
+
+350098 = {
+	name = "Zanetti"
+	culture = contadino
+	religion = platinean
+}
+
+355001 = {
+	name = "Álvarez"
+	culture = litoraleno
+	religion = platinean
+}
+355002 = {
+	name = "Arias"
+	culture = litoraleno
+	religion = platinean
+}
+355003 = {
+	name = "Ayala"
+	culture = litoraleno
+	religion = platinean
+}
+355004 = {
+	name = "Ayerza"
+	culture = litoraleno
+	religion = platinean
+}
+355005 = {
+	name = "Benítez"
+	culture = litoraleno
+	religion = platinean
+}
+355006 = {
+	name = "Bomplan"
+	culture = litoraleno
+	religion = platinean
+}
+355007 = {
+	name = "Braida"
+	culture = litoraleno
+	religion = platinean
+}
+355008 = {
+	name = "Cáceres"
+	culture = litoraleno
+	religion = platinean
+}
+355009 = {
+	name = "Carabello"
+	culture = litoraleno
+	religion = platinean
+}
+355010 = {
+	name = "Carvajal"
+	culture = litoraleno
+	religion = platinean
+}
+355011 = {
+	name = "Caseros"
+	culture = litoraleno
+	religion = platinean
+}
+355012 = {
+	name = "Celestino"
+	culture = litoraleno
+	religion = platinean
+}
+355013 = {
+	name = "Ciancio"
+	culture = litoraleno
+	religion = platinean
+}
+355014 = {
+	name = "Díaz"
+	culture = litoraleno
+	religion = platinean
+}
+355015 = {
+	name = "Domínguez"
+	culture = litoraleno
+	religion = platinean
+}
+355016 = {
+	name = "Dornelles"
+	culture = litoraleno
+	religion = platinean
+}
+355017 = {
+	name = "Espinosa"
+	culture = litoraleno
+	religion = platinean
+}
+355018 = {
+	name = "Esteche"
+	culture = litoraleno
+	religion = platinean
+}
+355019 = {
+	name = "Fernández"
+	culture = litoraleno
+	religion = platinean
+}
+355020 = {
+	name = "Fridlmeier"
+	culture = litoraleno
+	religion = platinean
+}
+355021 = {
+	name = "Garay"
+	culture = litoraleno
+	religion = platinean
+}
+355022 = {
+	name = "Gaurito"
+	culture = litoraleno
+	religion = platinean
+}
+355023 = {
+	name = "González"
+	culture = litoraleno
+	religion = platinean
+}
+355024 = {
+	name = "Gómez"
+	culture = litoraleno
+	religion = platinean
+}
+355025 = {
+	name = "Goñé"
+	culture = litoraleno
+	religion = platinean
+}
+355026 = {
+	name = "Growski"
+	culture = litoraleno
+	religion = platinean
+}
+355027 = {
+	name = "Gualeguaysky"
+	culture = litoraleno
+	religion = platinean
+}
+355028 = {
+	name = "Heinrich"
+	culture = litoraleno
+	religion = platinean
+}
+355029 = {
+	name = "Hernández"
+	culture = litoraleno
+	religion = platinean
+}
+355030 = {
+	name = "Iberá"
+	culture = litoraleno
+	religion = platinean
+}
+355031 = {
+	name = "Isla"
+	culture = litoraleno
+	religion = platinean
+}
+355032 = {
+	name = "de las Islas"
+	culture = litoraleno
+	religion = platinean
+}
+355033 = {
+	name = "Korestynksy"
+	culture = litoraleno
+	religion = platinean
+}
+355034 = {
+	name = "Lacalle"
+	culture = litoraleno
+	religion = platinean
+}
+355035 = {
+	name = "Las Calles"
+	culture = litoraleno
+	religion = platinean
+}
+355036 = {
+	name = "López"
+	culture = litoraleno
+	religion = platinean
+}
+355037 = {
+	name = "Lucero"
+	culture = litoraleno
+	religion = platinean
+}
+355038 = {
+	name = "Luenzo"
+	culture = litoraleno
+	religion = platinean
+}
+355039 = {
+	name = "Matuchesky"
+	culture = litoraleno
+	religion = platinean
+}
+355040 = {
+	name = "Martínez"
+	culture = litoraleno
+	religion = platinean
+}
+355041 = {
+	name = "Mendieta"
+	culture = litoraleno
+	religion = platinean
+}
+355042 = {
+	name = "Menéndez"
+	culture = litoraleno
+	religion = platinean
+}
+355043 = {
+	name = "Miño"
+	culture = litoraleno
+	religion = platinean
+}
+355044 = {
+	name = "Navarro"
+	culture = litoraleno
+	religion = platinean
+}
+355045 = {
+	name = "Nieto"
+	culture = litoraleno
+	religion = platinean
+}
+355046 = {
+	name = "Núñez"
+	culture = litoraleno
+	religion = platinean
+}
+355047 = {
+	name = "Poliszuksky"
+	culture = litoraleno
+	religion = platinean
+}
+355048 = {
+	name = "Ramírez"
+	culture = litoraleno
+	religion = platinean
+}
+355049 = {
+	name = "Ríos"
+	culture = litoraleno
+	religion = platinean
+}
+355050 = {
+	name = "Rodríguez"
+	culture = litoraleno
+	religion = platinean
+}
+355051 = {
+	name = "Rojas"
+	culture = litoraleno
+	religion = platinean
+}
+355052 = {
+	name = "Romero"
+	culture = litoraleno
+	religion = platinean
+}
+355053 = {
+	name = "Ruda"
+	culture = litoraleno
+	religion = platinean
+}
+355054 = {
+	name = "Saavedra"
+	culture = litoraleno
+	religion = platinean
+}
+355055 = {
+	name = "Saguchi"
+	culture = litoraleno
+	religion = platinean
+}
+355056 = {
+	name = "San Antonio"
+	culture = litoraleno
+	religion = platinean
+}
+355057 = {
+	name = "Silva"
+	culture = litoraleno
+	religion = platinean
+}
+355058 = {
+	name = "Sosa"
+	culture = litoraleno
+	religion = platinean
+}
+355059 = {
+	name = "Spasiuk"
+	culture = litoraleno
+	religion = platinean
+}
+355060 = {
+	name = "Sugira"
+	culture = litoraleno
+	religion = platinean
+}
+355061 = {
+	name = "Torres"
+	culture = litoraleno
+	religion = platinean
+}
+355062 = {
+	name = "de las Torres"
+	culture = litoraleno
+	religion = platinean
+}
+355063 = {
+	name = "Orrego"
+	culture = litoraleno
+	religion = platinean
+}
+355064 = {
+	name = "Ortiz"
+	culture = litoraleno
+	religion = platinean
+}
+355065 = {
+	name = "Valdés"
+	culture = litoraleno
+	religion = platinean
+}
+355066 = {
+	name = "Velasco"
+	culture = litoraleno
+	religion = platinean
+}
+355067 = {
+	name = "Verón"
+	culture = litoraleno
+	religion = platinean
+}
+355068 = {
+	name = "Villaguay"
+	culture = litoraleno
+	religion = platinean
+}
+355069 = {
+	name = "Zalazar"
+	culture = litoraleno
+	religion = platinean
+}

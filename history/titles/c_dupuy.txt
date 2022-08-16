@@ -1,0 +1,4 @@
+# e_interior
+800.1.1={
+	liege=k_cuyo
+}

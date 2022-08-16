@@ -1,0 +1,21 @@
+# c_lages
+
+# County Title
+title = c_lages
+
+# Settlements
+max_settlements = 4
+
+b_lages = castle
+b_curitibanos = temple
+b_campo_belo_do_sul = castle
+#b_otacilio_costa = castle
+#b_bocaina_do_sul = city
+#b_capao_alto = temple
+#b_anita_garibaldi = castle
+
+# Misc
+culture = greenbelly
+religion = celeste
+
+#History

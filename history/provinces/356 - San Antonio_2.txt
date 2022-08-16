@@ -1,0 +1,21 @@
+# c_san_antonio_2
+
+# County Title
+title = c_san_antonio_2
+
+# Settlements
+max_settlements = 3
+
+b_san_antonio_oeste = tribal
+b_las_grutas = temple
+#b_san_antonio_este = temple
+#b_mancha_blanca = castle
+#b_aguada_cecilio = city
+#b_san_antonio_este_2 = temple
+#b_rogelio_cortizo = castle
+
+# Misc
+culture = desertico
+religion = gaucheria
+
+#History

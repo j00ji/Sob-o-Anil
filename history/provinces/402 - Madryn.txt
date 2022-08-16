@@ -1,0 +1,21 @@
+# c_madryn
+
+# County Title
+title = c_madryn
+
+# Settlements
+max_settlements = 4
+
+b_puerto_madryn = castle
+b_puerto_lobos = city
+#b_playa_gaviota = temple
+#b_punta_norte = castle
+#b_fuerte_san_jose = city
+#b_punta_delgada_2 = temple
+#b_puerto_piramides = castle
+
+# Misc
+culture = wladfaeg
+religion = evangelical
+
+#History

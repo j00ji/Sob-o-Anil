@@ -1,0 +1,21 @@
+# c_guaiba
+
+# County Title
+title = c_guaiba
+
+# Settlements
+max_settlements = 2
+
+b_guaiba = castle
+b_eldorado_do_sul = temple
+#b_barra_do_ribeiro = temple
+#b_charqueadas = castle
+#b_douradilho = city
+#b_arroio_dos_ratos = temple
+#b_marina_pimentel = castle
+
+# Misc
+culture = gaucho
+religion = farrapo
+
+#History

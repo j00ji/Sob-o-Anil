@@ -1,0 +1,21 @@
+# c_apiai
+
+# County Title
+title = c_apiai
+
+# Settlements
+max_settlements = 3
+
+b_aracaiba = castle
+b_santo_antonio_3 = temple
+#b_morro_do_ouro = temple
+#b_sedehu = castle
+#b_alto_da_tenda = city
+#b_paiolinho = temple
+#b_pinheiro_de_dois = castle
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

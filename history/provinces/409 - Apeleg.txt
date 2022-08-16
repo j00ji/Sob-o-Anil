@@ -1,0 +1,21 @@
+# c_apeleg
+
+# County Title
+title = c_apeleg
+
+# Settlements
+max_settlements = 2
+
+b_apeleg = tribal
+#b_ricardo_rojas = city
+#b_valle_huemules = temple
+#b_alto_rio_senguer = castle
+#b_rio_pico = city
+#b_nueva_lubecka = temple
+#b_lago_vintter = castle
+
+# Misc
+culture = aonikenk
+religion = calafatist
+
+#History

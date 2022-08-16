@@ -1,0 +1,21 @@
+# c_caylloma
+
+# County Title
+title = c_caylloma
+
+# Settlements
+max_settlements = 3
+
+b_chivay = castle
+b_aplao = city
+#b_majes = temple
+#b_cayllama = castle
+#b_yanque = city
+#b_huanca = temple
+#b_andagua = castle
+
+# Misc
+culture = quechua
+religion = inti
+
+#History

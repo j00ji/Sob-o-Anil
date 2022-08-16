@@ -1,0 +1,21 @@
+# c_jau
+
+# County Title
+title = c_jau
+
+# Settlements
+max_settlements = 3
+
+b_jau = castle
+b_barra_bonita = city
+b_brotas = temple
+#b_dois_corregos = castle
+#b_bocaina = city
+#b_torrinha = temple
+#b_itaju = castle
+
+# Misc
+culture = camponeto
+religion = anchietican
+
+#History

@@ -1,0 +1,178 @@
+spriteTypes = {
+	#Icons
+	spriteType = {
+		name = "GFX_religion_icon_strip"
+		texturefile = "gfx\\interface\\religion_icon_strip.tga"
+		noOfFrames = 72
+	}
+	spriteType = {
+		name = "GFX_religion_icon_strip_small"
+		texturefile = "gfx\\interface\\religion_icon_strip_small.tga"
+		noOfFrames = 72
+	}
+	spriteType = {
+		name = "GFX_religion_icon_strip_big"
+		texturefile = "gfx\\interface\\religion_icon_strip_big.tga"
+		noOfFrames = 72
+	}
+	#Camino Estelar
+	spriteType = {
+		name = "GFX_trait_initiate_astronomer"
+		texturefile = "gfx/traits/initiate_astronomer.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_adept_astronomer"
+		texturefile = "gfx/traits/adept_astronomer.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_master_astronomer"
+		texturefile = "gfx/traits/master_astronomer.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sol"
+		texturefile = "gfx/traits/sol.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_mercury"
+		texturefile = "gfx/traits/mercury.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_venus"
+		texturefile = "gfx/traits/venus.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_terra"
+		texturefile = "gfx/traits/terra.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_mars"
+		texturefile = "gfx/traits/mars.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_jupiter"
+		texturefile = "gfx/traits/jupiter.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_saturn"
+		texturefile = "gfx/traits/saturn.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_uranus"
+		texturefile = "gfx/traits/uranus.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_legendary"
+		texturefile = "gfx/traits/legendary.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	#Evangelical
+	spriteType = {
+		name = "GFX_trait_branch_presbyterian"
+		texturefile = "gfx/traits/branch_presbyterian.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_branch_baptist"
+		texturefile = "gfx/traits/branch_baptist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_branch_methodist"
+		texturefile = "gfx/traits/branch_methodist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_branch_pentecostal"
+		texturefile = "gfx/traits/branch_pentecostal.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_branch_non_sectarian"
+		texturefile = "gfx/traits/branch_non_sectarian.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_eastern"
+		texturefile = "gfx/traits/sympathy_eastern.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_old_world"
+		texturefile = "gfx/traits/sympathy_old_world.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_cult_of_saints"
+		texturefile = "gfx/traits/sympathy_cult_of_saints.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_american_native"
+		texturefile = "gfx/traits/sympathy_american_native.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_syncretic"
+		texturefile = "gfx/traits/sympathy_syncretic.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType= {
+		name = "GFX_change_evangelical_church"
+		texturefile = "gfx/interface/decision_icon_change_evangelical_branch.dds"
+	}
+}

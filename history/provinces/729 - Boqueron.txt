@@ -1,0 +1,21 @@
+# c_boqueron
+
+# County Title
+title = c_boqueron
+
+# Settlements
+max_settlements = 2
+
+b_filadelfia_2 = tribal
+#b_tezen = city
+#b_atajado = temple
+#b_ochoa = castle
+#b_loma_plata = city
+#b_neuland = temple
+#b_tifunque = castle
+
+# Misc
+culture = nivacle
+religion = manredebu
+
+#History

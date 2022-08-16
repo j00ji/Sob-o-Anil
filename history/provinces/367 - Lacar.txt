@@ -1,0 +1,21 @@
+# c_lacar
+
+# County Title
+title = c_lacar
+
+# Settlements
+max_settlements = 3
+
+b_san_martin_de_los_andes = castle
+b_junin_de_los_andes = city
+#b_villa_la_angostura = temple
+#b_achico = castle
+#b_paso_flores = city
+#b_estancia_san_ignacio = temple
+#b_sanico = castle
+
+# Misc
+culture = mapuche
+religion = nguillatun
+
+#History

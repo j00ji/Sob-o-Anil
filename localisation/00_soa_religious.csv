@@ -1,0 +1,9 @@
+###ÄNSI;;;;;;;;;;;;;;x
+
+title_apostolic_cardinal;Cardinal;;;;;;;;;;;;;x
+expected_next_title_apostolic_cardinal;Expected Next Cardinal;;;;;;;;;;;;;x
+expected_next_title_apostolic_cardinal_tooltip;This bishop is probably next in line for a Cardinalship when one becomes available.;;;;;;;;;;;;;x
+best_candidate_title_apostolic_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
+best_candidate_title_apostolic_cardinal_tooltip;Of all the bishops in my realm, this one is the likeliest to get appointed Cardinal by the Archbishop.;;;;;;;;;;;;;x
+PREFERATI_APOSTOLIC;Preferatus;;;;;;;;;;;;;x
+PREFERATI_APOSTOLIC_TOOLTIP;The Preferatus is the Cardinal expected to succeed the current Archbishop.;;;;;;;;;;;;;x

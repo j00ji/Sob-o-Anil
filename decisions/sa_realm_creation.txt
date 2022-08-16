@@ -1,0 +1,136 @@
+decisions = {
+	create_kingdom_santos = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 120
+
+		potential = {
+			is_republic = yes
+			has_landed_title = d_santos
+			NOT = {
+				higher_tier_than = DUKE
+			}
+			k_santos = {
+				has_holder = no
+			}
+			k_santos = {
+				is_titular = yes
+			}
+		}
+
+		allow = {
+			is_adult = yes
+			independent = yes
+			war = no
+			num_of_duke_titles = 2
+			NOT = {
+				trait = incapable
+			}
+			conditional_tooltip = {
+				trigger = {
+					ai = no
+				}
+
+				prestige = 500
+			}
+			conditional_tooltip = {
+				trigger = {
+					ai = no
+				}
+
+				wealth = 500
+			}
+			has_landed_title = c_santos
+		}
+		effect = {
+			wealth = -500
+			primary_title = {
+				save_event_target_as = current_primary_title
+			}
+			d_venice = {
+				show_scope_change = no
+				de_jure_liege = k_venice
+			}
+			k_venice = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:current_primary_title
+			}
+		}
+	}
+	restore_belchioringia = {
+		is_high_prio = yes
+		only_independent = yes
+		ai_check_interval = 24
+		
+		potential = {
+			is_playable = yes
+			is_alternate_start = no
+			dynasty = 1 #Belchioringia
+			independent = yes
+			tier = KING
+			NOT = { has_landed_title = e_nordeste }
+			e_belchioringia = {
+				has_holder = no
+			}
+			OR = {
+				has_landed_title = k_ceara
+				has_landed_title = k_pernambuco
+				has_landed_title = k_cabo_norte
+			}
+		}
+		allow = {
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+			culture = atlanticano
+			prestige = 800
+			piety = 300
+			wealth = 500
+			conditional_tooltip = {
+				trigger = {
+					is_alternate_start = no
+				}
+				custom_tooltip = {
+					text = restore_belchioringia_1
+					hidden_tooltip = {
+						AND = {
+							has_landed_title = k_pernambuco
+							has_landed_title = k_ceara
+							has_landed_title = k_cabo_norte
+						}
+					}
+				}
+				custom_tooltip = {
+					text = restore_belchioringia_2
+					hidden_tooltip = {
+						e_nordeste = { 
+							has_holder = no
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 200
+			wealth = -500
+			piety = -300
+			primary_title = {
+				show_scope_change = no
+				e_belchioringia = {
+					show_scope_change = no
+					grant_title = ROOT
+					copy_title_laws = PREV
+					make_primary_title = yes
+				}
+			}
+			any_demesne_title = {
+				limit = { tier = KING }
+				de_jure_liege = e_belchioringia
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}	

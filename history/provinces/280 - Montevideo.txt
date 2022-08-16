@@ -1,0 +1,21 @@
+# c_montevideo
+
+# County Title
+title = c_montevideo
+
+# Settlements
+max_settlements = 6
+
+b_ciudad_vieja = castle
+b_centro = city
+b_barrio_sur = temple
+b_cerro = castle
+b_la_union = city
+#b_santiago_vazquez = temple
+#b_pueblo_abayuba = castle
+
+# Misc
+culture = urbuguayo
+religion = bandean
+
+#History

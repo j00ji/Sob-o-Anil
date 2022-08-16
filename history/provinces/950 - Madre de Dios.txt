@@ -1,0 +1,21 @@
+# c_madre_de_dios
+
+# County Title
+title = c_madre_de_dios
+
+# Settlements
+max_settlements = 3
+
+b_puerto_maldonado = castle
+b_salvacion = temple
+#b_inapari = temple
+#b_inambari = castle
+#b_laberinto = city
+#b_manu = temple
+#b_huepetuhe = castle
+
+# Misc
+culture = charapa
+religion = inti
+
+#History

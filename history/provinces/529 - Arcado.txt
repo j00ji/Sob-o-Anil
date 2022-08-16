@@ -1,0 +1,21 @@
+# c_arcado
+
+# County Title
+title = c_arcado
+
+# Settlements
+max_settlements = 2
+
+b_ico = castle
+#b_pindoba = city
+#b_varzea_nova = temple
+#b_fedegosos = castle
+#b_soares = city
+#b_morro_do_chapeu_2 = temple
+#b_porto_feliz_2 = castle
+
+# Misc
+culture = sertanista
+religion = cicerite
+
+#History

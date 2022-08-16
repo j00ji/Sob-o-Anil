@@ -1,0 +1,21 @@
+# c_varginha
+
+# County Title
+title = c_varginha
+
+# Settlements
+max_settlements = 4
+
+b_discopolis = tribal
+b_santana_da_vargem = temple
+#b_tres_coracoes = temple
+#b_paraguacu = castle
+#b_tres_pontas = city
+#b_coqueiral_2 = temple
+#b_cachos = castle
+
+# Misc
+culture = canastro
+religion = anchietican
+
+#History

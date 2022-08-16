@@ -1,0 +1,21 @@
+# c_buzios
+
+# County Title
+title = c_buzios
+
+# Settlements
+max_settlements = 3
+
+b_buzios = castle
+b_cabo_frio = city
+#b_armasao = temple
+#b_geriba = castle
+#b_passagem_do_pero = city
+#b_pedro_aldeia = temple
+#b_porto_do_carro = castle
+
+# Misc
+culture = carioca
+religion = evangelical
+
+#History

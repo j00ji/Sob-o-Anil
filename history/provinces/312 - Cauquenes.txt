@@ -1,0 +1,21 @@
+# c_cauquenes
+
+# County Title
+title = c_cauquenes
+
+# Settlements
+max_settlements = 2
+
+b_cauquenes = castle
+#b_chanco = city
+#b_pelluhue = temple
+#b_curanipe = castle
+#b_chovellen = city
+#b_canelillos = temple
+#b_pahuil = castle
+
+# Misc
+culture = huaso
+religion = catholic
+
+#History

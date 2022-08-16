@@ -1,0 +1,21 @@
+# c_mocajuba
+
+# County Title
+title = c_mocajuba
+
+# Settlements
+max_settlements = 3
+
+b_mocajuba = castle
+b_baiao = temple
+#b_tailandia = temple
+#b_catanzal = castle
+#b_moiraba = city
+#b_lago_grande = temple
+#b_pederneira = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

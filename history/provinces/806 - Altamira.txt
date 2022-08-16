@@ -1,0 +1,21 @@
+# c_altamira
+
+# County Title
+title = c_altamira
+
+# Settlements
+max_settlements = 3
+
+b_altamira_3 = castle
+b_vitoria_do_xingu = city
+#b_favania = temple
+#b_brasil_novo = castle
+#b_ambe_2 = city
+#b_paquicama = temple
+#b_aricaria = castle
+
+# Misc
+culture = paraense
+religion = holy_spirit
+
+#History

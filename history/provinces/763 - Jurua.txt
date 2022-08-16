@@ -1,0 +1,21 @@
+# c_jurua
+
+# County Title
+title = c_jurua
+
+# Settlements
+max_settlements = 2
+
+b_jurua = tribal
+#b_sao_romao = city
+#b_bacururu = temple
+#b_jaci = castle
+#b_bacaba_2 = city
+#b_martirio = temple
+#b_carauri = castle
+
+# Misc
+culture = ticuna
+religion = xabaxai_xagi
+
+#History

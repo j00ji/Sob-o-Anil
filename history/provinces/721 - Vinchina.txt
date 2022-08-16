@@ -1,0 +1,21 @@
+# c_vinchina
+
+# County Title
+title = c_vinchina
+
+# Settlements
+max_settlements = 2
+
+b_vichina = castle
+#b_durazno_2 = city
+#b_cerro_toro = temple
+#b_alcaparrosa = castle
+#b_peregrino = city
+#b_paganeras = temple
+#b_el_chinguillo = castle
+
+# Misc
+culture = cuyano
+religion = catholic
+
+#History
