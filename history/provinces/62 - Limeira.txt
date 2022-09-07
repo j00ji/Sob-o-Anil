@@ -15,7 +15,7 @@ b_tatuibi = temple
 #b_graal_topazio = castle
 
 # Misc
-culture = americano
+culture = camponeto
 religion = anchietican
 
 #History

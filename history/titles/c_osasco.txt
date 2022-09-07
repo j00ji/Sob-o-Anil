@@ -6,24 +6,7 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2220.1.1 = {
-	holder = 110391 #Ademar de Barros
-}
-2256.4.7 = {
-	holder = 110392 #Nazário de Barros
-}
-2278.1.26 = {
-	holder = 110393 #Andrade de Barros
-}
-2302.12.3 = {
-	holder = 110413 #Antônio Raposo Tavares
-}
-2329.11.3 = {
-	holder = 110416 #Diego Raposo Tavares
-}
-2348.11.5 = {
-	holder = 110420 #Bruno Raposo Tavares
-}
-2364.11.13 = { #Alexander takes the county
-	holder = 110001 #Alexandre I Cantarini
+2365.11.5 = {
+	holder = 110602 #Sansão
+	liege = k_paulistano
 }

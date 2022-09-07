@@ -10583,3 +10583,148 @@
 }
 
 ## End of the Bragança Dynasty ##
+
+## de Sousa dynasty ##
+
+110602 = { #shameless Turma da Mônica reference
+	name = "Sansão"
+	dynasty = 56014
+	religion = anchietican
+	culture = paulistano
+	
+	disallow_random_traits = yes
+	trait = strong
+	trait = sturdy
+	trait = wroth
+	trait = diligent
+	trait = tough_soldier
+	
+	martial = 7
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 3
+	learning = 3
+	
+	2337.3.3 = {
+		birth = yes
+	}
+	
+	2360.10.15 = {
+		add_spouse = 110603
+	}
+}
+
+110603 = {
+	name = "Dalila" #Samson's wife
+	female = yes
+	dynasty = 55862
+	religion = anchietican
+	culture = paulistano
+	
+	disallow_random_traits = yes
+	trait = ambitious
+	trait = shrewd
+	trait = schemer
+	trait = lisp
+	trait = paranoid
+	trait = proud
+	trait = envious
+	trait = chaste
+	trait = flamboyant_schemer
+	
+	martial = 2
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 4
+	learning = 4
+	
+	2340.10.24 = {
+		birth = yes
+	}
+	
+	2359.3.3 = {
+		add_rival = 110602
+	}
+}
+
+110604 = {
+	name = "Mônica"
+	female = yes
+	dynasty = 56014
+	religion = anchietican
+	culture = paulistano
+	father = 110602
+	mother = 110603
+	
+	trait = indolent
+	trait = affectionate
+	
+	martial = 4
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 6
+	learning = 8
+	
+	2361.5.10 = {
+		birth = yes
+	}
+}
+
+## End of de Sousa Dynasty ## 
+
+## da Rocha Dynasty ##
+
+110605 = {
+	name = "Giovani"
+	dynasty = 65647
+	religion = anchietican
+	culture = camponeto
+	
+	disallow_random_traits = yes
+	trait = content
+	trait = gamer
+	trait = quick
+	trait = detached_priest
+	
+	martial = 7
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 5
+	learning = 10
+	
+	2348.9.29 = {
+		birth = yes
+	}
+}
+
+## End of da Rocha Dynasty ##
+
+## Magalhães Dynasty ##
+
+110606 = {
+	name = Isabela
+	female = yes
+	dynasty = 65715
+	religion = anchietican
+	culture = camponeto
+	
+	disallow_random_traits = yes
+	trait = giant
+	trait = fair
+	trait = proud
+	trait = diligent
+	trait = scholarly_theologian
+	
+	martial = 3
+	diplomacy = 5
+	intrigue = 3
+	stewardship = 5
+	learning = 8
+	
+	2328.4.18 = {
+		birth = yes
+	}
+} #Reminder to give her a BIG family cause in Itu everything is bigger
+
+## End of Magalhães Dynasty ##
+

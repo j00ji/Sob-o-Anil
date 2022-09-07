@@ -2917,10 +2917,23 @@
 	culture = paulistano
 	religion = apostolic
 }
-56014 = {
-	name = "Sousa"
+56014 = { #Mauricio de Sousa
+	name = "de Sousa"
 	culture = paulistano
 	religion = apostolic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 56015 = {
 	name = "Stangarlini"

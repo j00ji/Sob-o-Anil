@@ -15,7 +15,7 @@ b_imaculada_conceicao = temple
 #b_tieana_bar = castle
 
 # Misc
-culture = americano
+culture = camponeto
 religion = anchietican
 
 #History

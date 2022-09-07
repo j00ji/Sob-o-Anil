@@ -15,7 +15,7 @@ b_santo_antonio_2 = temple
 #b_pauliceia = castle
 
 # Misc
-culture = americano
+culture = camponeto
 religion = anchietican
 
 #History
