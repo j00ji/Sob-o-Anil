@@ -20,25 +20,6 @@
 	}
 }
 
-55002 = { #Ruler of Santos, Start Date
-	name = "Lombardi-Stucchi"
-	culture = paulistano
-	religion = apostolic
-	can_appear = no
-	used_for_random = no
-	#coat_of_arms = {
-		#template =
-		#layer = {
-			#texture =
-			#texture_internal
-			#emblem =
-			#color =
-			#color =
-			#color =
-		#}
-	#}
-}
-
 55003 = {
 	name = "Matarazzo"
 	culture = paulistano
@@ -218,13 +199,7 @@
 	used_for_random = no
 }
 
-55024 = {
-	name = "Graeff"
-	culture = paulistano
-	religion = apostolic
-	can_appear = no
-	used_for_random = no
-}
+###
 
 55025 = { #Quatrocentão
 	name = "Leme"

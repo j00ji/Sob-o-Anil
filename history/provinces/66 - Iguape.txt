@@ -15,7 +15,7 @@ b_cananeia = temple
 #b_bal_kennedy = castle
 
 # Misc
-culture = paranapanense
+culture = caicara
 religion = anchietican
 
 #History

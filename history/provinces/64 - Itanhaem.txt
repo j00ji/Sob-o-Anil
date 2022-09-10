@@ -15,7 +15,7 @@ b_abarebebe = temple
 #b_pollastrini = castle
 
 # Misc
-culture = paulistano
+culture = caicara
 religion = anchietican
 
 #History

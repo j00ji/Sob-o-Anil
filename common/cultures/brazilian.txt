@@ -727,6 +727,152 @@ paulista = {
 		
 		modifier = default_culture_modifier
 	}
+	paulistano = {
+		graphical_cultures = { paulistagfx }
+		
+		color = { 0.10 0.16 0.32 }
+		
+		male_names = {
+			Adélio Adriano Aécio Afrânio Afonso Agenor Agripino Ailton Airton Álvaro_Oliver Alison Ângelo_Angel Augusto Alberto Alessandro Alexandre Aloísio Ambrósio Anderson André_Andrew Antônio_Anthony Armando Artur_Arthur Aurélio
+			Balduíno Baltazar Basílio Bastos Bartolomeu_Bartholomew Batista Benedito_Benedict Benjamin Benício Bento Berengár Bernardo Bonifácio Branco Brás Brendon Breno Brian_Bryan Bruno
+			Caetano Caio Caique Calebe Calisto Camilo Cândido Carlos_Charles Casimiro Cassiano Cássio Celestino Cecilio Celso César Chico Christofer Cícero Cláudio Clemente Cornélio Cristiano Cristóvão
+			Damião Daniel Dante Davi_David Delfim Delmar Demétrio Desidério Denis Dimas Diniz Diego Diogo Dionísio Domênico Domingos Donato Donizete Douglas Duarte_Edward
+			Éber Éder Eduardo Elias Eliseu Élton Emanuel Emílio Enzo "Enzo Gabriel" Érico_Erik Ernesto Ermenegildo Estêvão_Stephen Eugênio Eusebio Evandro Evaristo Eustaquio Everton Ezequiel
+			Fabiano Fábio Fabrício Fausto Faustino Feliciano Felisberto Félix Fernando Ferdinando Filipe_Phillip Flávio Florêncio Francisco_Francis Franco Francis Frederico_Frederick
+			Gabriel Gael Galileu Gaspar Gastão Genésio Geraldo Germano Gervasio Gianluca Gilberto Gilmar Giovani Giuseppe Glauco Godofredo Gonçalo Graciano Gregório_Gregory Gualter García Guilherme_William Gustavo
+			Heitor Hélio Hélder Heliodoro Henrique_Enrique Hermano Herberto Hermenegildo Hermínio Hilário Hipolito Horácio Hugo Humberto
+			Ian_Yan Iago_Yago Ícaro Igor Inácio Isaac Isaías Isidoro Ítalo Itamar Ivandro Ivan Ivo
+			Jaime Jair Jefferson Jeremias Jerônimo João_John "João Vitor" "João Pedro" "João Miguel" Joaquim Joel Jonas Jorge_George José_Josué Jonathan Júlio Juliano Júnior
+			Kauan Kaique_Caique Kelvin Kevin Kennedy Kléber
+			Laerte Lauro Lázaro Leandro Leonardo Leonel Leopoldo Lisandro Lívio Logan Lourenço_Lorenzo Luan Lucas_Lucca Luciano Lúcio Luigi Luís_Luiz
+			Macário Magnus Malvino Manoel_Manuel Marcelino Marcelo Márcio Marcos_Mark Mário Martin Mateus_Matheus Matias Mauro Maurício Maurílio Maximiliano Micael Miguel Milton Murilo
+			Nataniel Nazário Narciso Natanael_Nathan Nélson Nicolas_Nicholas Nilson Nilton Noah Nunes
+			Oceano Olavo Orlando Orlandino Oliveira Óscar Osvaldo_Oswald Otávio_Octavio Otto Ovídio
+			Pablo Pascoal Patricio_Patrick Paulinho_Paul Paulo_Paul Pedro_Peter Percival Pierre Pietro Pio Plácido Plínio
+			Quim Quintino Quinto
+			Rafael Rafaelo Raimundo Ralf Ramiro Raúl Reginaldo Régis Reinaldo Renato Renan Ricardo_Richard Roberto_Robert Rodolfo Rodrigo Roger Rogério Ronaldo_Ronald Rômulo Rui Ruan Ryan
+			Salomão Salvador Samuel Santiago Santos Saulo Sávio Sérgio Severino Sidney Silvestre Sílvio Simão Sinésio Sebastião_Sebastian Stefano
+			Taciano Tacito Tadeu Tales Tancredo Teobaldo Teodósio_Theodore Théo_Theo Tiago_Thiago Tiago_James Timoteo_Timothy Tobias Tomás_Thomas Tristão Túlio
+			Ulf Ulisses_Ulysses Urbano Ulrico Ulpiano Uriel 
+			Vágner Valdemar Valentim_Valentine Valeriano Valerio Valter Vanderlei Veríssimo Vicente_Vincente Vítor_Victor Victoriano Vinícius Virgílio Vital Vladimir
+			Wagner_Vágner Waldir Waldo Wallace Washington Watson Weller Wellington Wendel Wesley William_Guilherme Wilson
+			Xavier
+			Yudi Yuri	
+		}
+		female_names = {
+			Abelita Abigail Adriana Adelaide Adele Ágata_Agatha Agda Agnes Alba Alésia Alice_Alicia Aline Ana_Anna Anabela Anastasia Andréia Andressa Ângela Angélica Antonella Amália_Amélie Amanda Amélia "Ana Clara" "Ana Julia" Ambrósia Ariane Alexandra
+			Bárbara Basilissa Beatriz_Beatrice Belmira Betina Bella Benedicta_Benedita Berengária Bernadete Bernarda Bertha Bianca Branca Brena Brenda Brígida_Bridget Brunilde Bruna Bonifácia 
+			Caetana Caia Candace Cândida Carina Carla Carlinda Carmélia Cármen Camila_Camille Carol Carolina_Caroline Cassandra Cássia Catarina_Catarine Cecília Celeste Célia Cíntia Charlotte Chloe_Khloe Cláudia Clara Clarice Cristina Cinderela Cirila Clélia Clementina 
+			Dafne Daiane Daniela_Danielle Daisi_Daisy Dalma Darcília Débora Delfina Delma Demétria Denise Desidéria Diamantina Diane Dionísia Dolores Domitila Dominica Donatela_Donatella Dora Doroteia_Dorothea 
+			Edite_Edith Edna Eduarda Emília Elaine Eleanor Elena Eleonora Eliana Elisa Élia Elisabete_Elizabeth Elisângela Ellen Eloá Eloísa Elsa Elvira Emanuela_Emanuelly Emma Esmeralda Ester_Esther Estela Érica Eva Evelyn Eudora Estefânia
+			Fabiana Fabrícia Fátima Felícia Fernanda Filipa Flora Flávia Flor Florentina Florisbela Francisca_Francine Franciele Frederica Franca Francine Formosa
+			Gabriela Gasparina Gertrudes Geórgia Geovanna_Giovanna Gilda Gisele_Giselle Gisleine Giulia Giuliana Gláucia Glenda Glória Graciele Guadalupe Guilhermina
+			Hannah_Hanna Hebe Hedviges Heidi Hellen_Helen Helena Heloísa Helma Hilda Hélia Henriqueta Hercília Hermine Herta Hilária Hilda_Ilda Hipolita Horacia Hortênsia Holanda
+			Iasmin_Yasmin Iara Ignês Ilda Ilsa Inácia Inara India Inês Ingrid_Ingride Íris Irene Isabel_Isabelle Isabela_Isabella Isadora Isidora Isis Ivana Ivete Ivona 
+			Jacobina Jade Jacqueline_Jaqueline Jane Jéssica Jénifer_Jennifer Joana Joelma Joice Josefa Josefina Judite_Judith Júlia_Julia Juliana Julieta 
+			Karen Karina Kamila Kátia Kauane Kayla Kéfera Keila Kelma Kelly Késsia Kênia Kimberly Kiara Kristen Khloe_Chloe Kendall Kristal Kalena
+			Laila Laís_Laísa Lana Lara Larissa Laura Lavínia Leandra Léa_Léah Layla Leila Leonor Leonora Letícia Lícia Lídia Lidiane Lígia Lívia Lisa Liliana Lorraine Lorena Lua Luana Lúcia Ludmilla Luciana Luna Luíza_Luísa Lurdes 
+			Maeva Mafalda Magda Maíra Maísa Manuela_Manuella Marcela Márcia Margarida Maria "Maria Clara" "Maria Eduarda" "Maria Luíza" Mariana Marta_Martha Maya Mayara Melissa Micaela Michele_Michelle Mirela Mônica Monique Morgana 
+			Nádia Nadine Nancy Narcisa Natália_Nathalia Natasha Nayara_Naiara Neide Nélia Nelma Neusa Nicole Nilma Nina Noélia Norma Núbia
+			Oceana Odaria Odete Olália Olga Olímpia Olívia Oriana Orlandina Otávia Otília 
+			Pamela Pandora Patrícia Paula_Paola Pedrina Penélope Pérola Pétala Pietra Primavera Poliana Priscila 
+			Rachel Rafaela_Rafaella Raimunda Raissa_Rayssa Raquel Ravena Rayane Rebeca_Rebecca Regina Renata Rhianna Rhonda Rita Roberta Rogéria Rosa_Rose Rosalba Rosália Rosângela Roseli Rosemary Roxane Ruth
+			Sabina Sabrina Safira Samanta_Samantha Samara Sandra Sansa Sara_Sarah Sasha Savana Scarlete Selena Selma Serafina_Seraphina Severina Sheila Silvana Sílvia Simone Sofia_Sophia Sônia Sol Stephany_Stefany Suelen Suzana
+			Taciana_Taciane Tainá Tainara_Thaynara Tália_Thalia Tânia Taís_Thaís Tâmara Tamires Tássia Talita_Thalita Tatiane Tarsila Teodora Teresa_Theresa Tifane_Tifanny 
+			Valentina Valéria Valesca Valquíria Vanda Vanessa Velma Vênus Verônica Victória_Vitória Vi	rgília Virgínia Violetta Viviane 
+			Wanda Wânia Wendy Wilma
+			Yasmin_Iasmin Ynes Yohanna Yumi 
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+
+	}
+	caicara = {
+		graphical_cultures = { paulistagfx }
+		
+		color = { 0.10 0.30 0.32 }
+		
+		male_names = {
+			Adélio Adriano Aécio Afrânio Afonso Agenor Agripino Ailton Airton Álvaro_Oliver Alison Ângelo_Angel Augusto Alberto Alessandro Alexandre Aloísio Ambrósio Anderson André_Andrew Antônio_Anthony Armando Artur_Arthur Aurélio
+			Balduíno Baltazar Basílio Bastos Bartolomeu_Bartholomew Batista Benedito_Benedict Benjamin Benício Bento Berengár Bernardo Bertoldo_Berthold Bonifácio Branco Brás Brendon Breno Bruno
+			Caetano Caio Caique Calebe Calisto Camilo Cândido Carlos_Charles Casimiro Cassiano Cássio Celestino Cecilio Celso César Chico Christofer Cícero Cláudio Clemente Cornélio Cristiano Cristóvão
+			Damião Daniel Dante Davi_David Delfim Delmar Demétrio Desidério Denis Dimas Diniz Diego Diogo Dionísio Domênico Domingos Donato Donizete Douglas Duarte_Edward
+			Éber Éder Eduardo Elias Eliseu Élton Emanuel Emílio Enzo "Enzo Gabriel" Érico_Erik Ernesto Ermenegildo Estêvão_Stephen Eugênio Eusebio Evandro Evaristo Eustaquio Everton Ezequiel
+			Fabiano Fábio Fabrício Fausto Faustino Feliciano Felisberto Félix Fernando Ferdinando Filipe_Phillip Flávio Florêncio Francisco_Francis Franco Francis Frederico_Frederick
+			Gabriel Gael Galileu Gaspar Gastão Genésio Geraldo Germano Gervasio Gianluca Gilberto Gilmar Giovani Giuseppe Glauco Godofredo Gonçalo Graciano Gregório_Gregory Gualter García Guilherme_William Gustavo
+			Heitor Hélio Hélder Heliodoro Henrique_Enrique Hermano Herberto Hermenegildo Hermínio Hilário Hipolito Horácio Hugo Humberto
+			Ian_Yan Iago_Yago Ícaro Igor Inácio Isaac Isaías Isidoro Ítalo Itamar Ivandro Ivan Ivo
+			Jaime Jair Jefferson Jeremias Jerônimo João_John "João Vitor" "João Pedro" "João Miguel" Joaquim Joel Jonas Jorge_George José_Josué Jonathan Júlio Juliano Júnior
+			Kauan Kaique_Caique Kelvin Kevin Kennedy Kléber
+			Laerte Lauro Lázaro Leandro Leonardo Leonel Leopoldo Lisandro Lívio Logan Lourenço_Lorenzo Luan Lucas_Lucca Luciano Lúcio Luigi Luís_Luiz
+			Macário Magnus Malvino Manoel_Manuel Marcelino Marcelo Márcio Marcos_Mark Mário Martin Mateus_Matheus Matias Mauro Maurício Maurílio Maximiliano Micael Miguel Milton Murilo
+			Nataniel Nazário Narciso Natanael_Nathan Nélson Nicolas_Nicholas Nilson Nilton Noah Nunes
+			Oceano Olavo Orlando Orlandino Oliveira Óscar Osvaldo_Oswald Otávio_Octavio Otto Ovídio
+			Pablo Pascoal Patricio_Patrick Paulinho_Paul Paulo_Paul Pedro_Peter Percival Pierre Pietro Pio Plácido Plínio
+			Quim Quintino Quinto
+			Rafael Rafaelo Raimundo Ralf Ramiro Raúl Reginaldo Régis Reinaldo Renato Renan Ricardo_Richard Roberto_Robert Rodolfo Rodrigo Roger Rogério Ronaldo_Ronald Rômulo Rui Ruan Ryan
+			Salomão Salvador Samuel Santiago Santos Saulo Sávio Sérgio Severino Sidney Silvestre Sílvio Simão Sinésio Sebastião_Sebastian Stefano
+			Taciano Tacito Tadeu Tales Tancredo Teobaldo Teodósio_Theodore Théo_Theo Tiago_Thiago Tiago_James Timoteo_Timothy Tobias Tomás_Thomas Tristão Túlio
+			Ulf Ulisses_Ulysses Urbano Ulrico Ulpiano Uriel 
+			Vágner Valdemar Valentim_Valentine Valeriano Valerio Valter Vanderlei Veríssimo Vicente_Vincente Vítor_Victor Victoriano Vinícius Virgílio Vital Vladimir
+			Wagner_Vágner Waldir Waldo Wallace Washington Watson Weller Wellington Wendel Wesley William_Guilherme Wilson
+			Xavier
+			Yudi Yuri	
+		}
+		female_names = {
+			Abelita Abigail Adriana Adelaide Adele Ágata_Agatha Agda Agnes Alba Alésia Alice_Alicia Aline Ana_Anna Anabela Anastasia Andréia Andressa Ângela Angélica Antonella Amália_Amélie Amanda Amélia "Ana Clara" "Ana Julia" Ambrósia Ariane Alexandra
+			Bárbara Basilissa Beatriz_Beatrice Belmira Betina Bella Benedicta_Benedita Berengária Bernadete Bernarda Bertha Bianca Branca Brena Brenda Brígida_Bridget Brunilde Bruna Bonifácia 
+			Caetana Caia Candace Cândida Carina Carla Carlinda Carmélia Cármen Camila_Camille Carol Carolina_Caroline Cassandra Cássia Catarina_Catarine Cecília Celeste Célia Cíntia Charlotte Chloe_Khloe Cláudia Clara Clarice Cristina Cinderela Cirila Clélia Clementina 
+			Dafne Daiane Daniela_Danielle Daisi_Daisy Dalma Darcília Débora Delfina Delma Demétria Denise Desidéria Diamantina Diane Dionísia Dolores Domitila Dominica Donatela_Donatella Dora Doroteia_Dorothea 
+			Edite_Edith Edna Eduarda Emília Elaine Eleanor Elena Eleonora Eliana Elisa Élia Elisabete_Elizabeth Elisângela Ellen Eloá Eloísa Elsa Elvira Emanuela_Emanuelly Emma Esmeralda Ester_Esther Estela Érica Eva Evelyn Eudora Estefânia
+			Fabiana Fabrícia Fátima Felícia Fernanda Filipa Flora Flávia Flor Florentina Florisbela Francisca_Francine Franciele Frederica Franca Francine Formosa
+			Gabriela Gasparina Gertrudes Geórgia Geovanna_Giovanna Gilda Gisele_Giselle Gisleine Giulia Giuliana Gláucia Glenda Glória Graciele Guadalupe Guilhermina
+			Hannah_Hanna Hebe Hedviges Heidi Hellen_Helen Helena Heloísa Helma Hilda Hélia Henriqueta Hercília Hermine Herta Hilária Hilda_Ilda Hipolita Horacia Hortênsia Holanda
+			Iasmin_Yasmin Iara Ignês Ilda Ilsa Inácia Inara India Inês Ingrid_Ingride Íris Irene Isabel_Isabelle Isabela_Isabella Isadora Isidora Isis Ivana Ivete Ivona 
+			Jacobina Jade Jacqueline_Jaqueline Jane Jéssica Jénifer_Jennifer Joana Joelma Joice Josefa Josefina Judite_Judith Júlia_Julia Juliana Julieta 
+			Karen Karina Kamila Kátia Kauane Kayla Kéfera Keila Kelma Kelly Késsia Kênia Kimberly Kiara Kristen Khloe_Chloe Kendall Kristal Kalena
+			Laila Laís_Laísa Lana Lara Larissa Laura Lavínia Leandra Léa_Léah Layla Leila Leonor Leonora Letícia Lícia Lídia Lidiane Lígia Lívia Lisa Liliana Lorraine Lorena Lua Luana Lúcia Ludmilla Luciana Luna Luíza_Luísa Lurdes 
+			Maeva Mafalda Magda Maíra Maísa Manuela_Manuella Marcela Márcia Margarida Maria "Maria Clara" "Maria Eduarda" "Maria Luíza" Mariana Marta_Martha Maya Mayara Melissa Micaela Michele_Michelle Mirela Mônica Monique Morgana 
+			Nádia Nadine Nancy Narcisa Natália_Nathalia Natasha Nayara_Naiara Neide Nélia Nelma Neusa Nicole Nilma Nina Noélia Norma Núbia
+			Oceana Odaria Odete Olália Olga Olímpia Olívia Oriana Orlandina Otávia Otília 
+			Pamela Pandora Patrícia Paula_Paola Pedrina Penélope Pérola Pétala Pietra Primavera Poliana Priscila 
+			Rachel Rafaela_Rafaella Raimunda Raissa_Rayssa Raquel Ravena Rayane Rebeca_Rebecca Regina Renata Rhianna Rhonda Rita Roberta Rogéria Rosa_Rose Rosalba Rosália Rosângela Roseli Rosemary Roxane Ruth
+			Sabina Sabrina Safira Samanta_Samantha Samara Sandra Sansa Sara_Sarah Sasha Savana Scarlete Selena Selma Serafina_Seraphina Severina Sheila Silvana Sílvia Simone Sofia_Sophia Sônia Sol Stephany_Stefany Suelen Suzana
+			Taciana_Taciane Tainá Tainara_Thaynara Tália_Thalia Tânia Taís_Thaís Tâmara Tamires Tássia Talita_Thalita Tatiane Tarsila Teodora Teresa_Theresa Tifane_Tifanny 
+			Valentina Valéria Valesca Valquíria Vanda Vanessa Velma Vênus Verônica Victória_Vitória Vi	rgília Virgínia Violetta Viviane 
+			Wanda Wânia Wendy Wilma
+			Yasmin_Iasmin Ynes Yumi 
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+
+	}
 }
 
 mineiro_group = { 

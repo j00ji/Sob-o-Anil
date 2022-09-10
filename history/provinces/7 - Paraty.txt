@@ -15,7 +15,7 @@ b_tarituba = temple
 #b_ilha_do_pelado = castle
 
 # Misc
-culture = carioca
-religion = evangelical
+culture = caicara
+religion = anchietican
 
 #History

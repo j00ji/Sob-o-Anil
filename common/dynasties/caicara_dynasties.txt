@@ -1,0 +1,45 @@
+###ÄNSI
+#Canon
+
+55002 = { #Ruler of Santos, Start Date
+	name = "Lombardi-Stucchi"
+	culture = caicara
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+	#coat_of_arms = {
+		#template =
+		#layer = {
+			#texture =
+			#texture_internal
+			#emblem =
+			#color =
+			#color =
+			#color =
+		#}
+	#}
+}
+
+55024 = {
+	name = "Graeff"
+	culture = caicara
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+}
+
+77501 = {
+	name = "Cananeia"
+	culture = caicara
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+}
+
+77502 = {
+	name = "Ottoboni"
+	culture = caicara
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+}

@@ -15,7 +15,7 @@ b_enguaguacu = temple
 #b_praia_do_tombo = castle
 
 # Misc
-culture = paulistano
+culture = caicara
 religion = anchietican
 
 #History

@@ -24,7 +24,8 @@
 ### Americano: 60001-65000
 ### Camponeto: 65001-70000
 ### Kyusei: 70001-75000
-### Paranapanense: 75001-80000
+### Paranapanense: 75001-77500
+### Caicara: 77501-80000
 ### Caipira: 80001-85000
 
 # CISPLATINEAN RANGE 85001 - 120000

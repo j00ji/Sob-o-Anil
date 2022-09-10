@@ -15,7 +15,7 @@ b_abarebebe_2 = temple
 #b_balneario_continental = castle
 
 # Misc
-culture = paranapanense
+culture = caicara
 religion = anchietican
 
 #History

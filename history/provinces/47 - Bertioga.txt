@@ -15,7 +15,7 @@ b_sao_sebastiao = city
 #b_tres_glebas = castle
 
 # Misc
-culture = paulistano
+culture = caicara
 religion = anchietican
 
 #History

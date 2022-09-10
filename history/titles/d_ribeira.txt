@@ -6,3 +6,12 @@
 800.1.1={
 	liege=k_sao_paulo
 }
+
+2330.12.25 = {
+	holder = 110615
+	liege = k_paulistano
+}
+
+2343.7.9 = {
+	liege = 0
+}

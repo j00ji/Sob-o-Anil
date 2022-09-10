@@ -15,7 +15,7 @@ b_paranabi = temple
 #b_faustino_belo = castle
 
 # Misc
-culture = paulistano
+culture = caicara
 religion = anchietican
 
 #History
