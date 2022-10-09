@@ -6,3 +6,8 @@
 800.1.1={
 	liege=k_paraguay
 }
+2364.1.25 = { 
+	holder = 680002 #Marko Nasur
+	liege=k_paraguay
+}
+

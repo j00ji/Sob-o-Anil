@@ -25,3 +25,13 @@
 	
 	2341.5.1={birth=yes}
 }
+
+320001={
+	name="Isabel"
+	dynasty=115001
+	religion=catholic
+	culture=guacho
+	female=yes
+	
+	2341.5.1={birth=yes}
+}

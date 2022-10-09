@@ -1,0 +1,10 @@
+###ÃNSI
+
+800001 = {
+	name = "José"
+	dynasty = 365041 #Carrera
+	religion = catholic
+	culture = asunceno
+	
+	2341.5.1 = {birth = yes}
+}

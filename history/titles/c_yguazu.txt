@@ -2,3 +2,8 @@
 800.1.1={
 	liege=k_paraguay
 }
+2364.1.25 = { 
+	holder = 320001 #Isabel Durazno
+	liege=k_paraguay
+}
+

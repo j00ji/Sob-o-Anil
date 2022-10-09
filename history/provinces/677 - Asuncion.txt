@@ -15,7 +15,7 @@ b_yaguaron = castle
 #b_limpio = castle
 
 # Misc
-culture = guarani
+culture = asunceno
 religion = catholic
 
 #History

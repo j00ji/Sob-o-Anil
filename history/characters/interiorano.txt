@@ -19,3 +19,15 @@
 		death=yes
 	}
 }
+
+###Nasur Dynasty###
+
+680002={
+	name="Marko"
+	dynasty=305002
+	culture=turco
+	religion=catholic
+	2330.9.15={
+		birth=yes
+	}
+}

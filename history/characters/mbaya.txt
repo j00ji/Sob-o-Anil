@@ -1,0 +1,34 @@
+###ÃNSI
+
+###Henriquez Dynasty#####
+
+690001 = {
+	name = "Pedro"
+	dynasty = 310001 #Mendoza
+	religion = catholic
+	culture = guarani
+	
+	2345.4.8 = {birth = yes}
+}
+
+###Sanchez Dynasty#####
+
+690010 = {
+	name = "Pytuna"
+	dynasty = 310002 #Sanchez
+	religion = jerovia
+	culture = guarani
+	
+	2345.4.8 = {birth = yes}
+}
+
+###Perez Dynasty#####
+
+690020 = {
+	name = "Kauan"
+	dynasty = 310003 #Perez
+	religion = jerovia
+	culture = guarani
+	
+	2345.4.8 = {birth = yes}
+}

@@ -3,6 +3,6 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_paraguay
+2364.1.25 = { 
+	holder = 690020 #Kauan Perez
 }

@@ -1164,7 +1164,7 @@ e_la_plata = {
 		}
 	}
 	k_paraguay = {
-		color={ 129 208 102 }
+		color={ 213 43 30 }
 		color2={ 255 255 255 }
 		
 		capital = 677 # c_asuncion

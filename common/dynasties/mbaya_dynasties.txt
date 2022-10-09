@@ -1,0 +1,22 @@
+###ÄNSI
+
+310001 = {
+	name = "Mendoza"
+	culture = guarani
+	can_appear = no
+	used_for_random = no
+}
+
+310002 = {
+	name = "Sanchez"
+	culture = guarani
+	can_appear = no
+	used_for_random = no
+}
+
+310003 = {
+	name = "Perez"
+	culture = guarani
+	can_appear = no
+	used_for_random = no
+}

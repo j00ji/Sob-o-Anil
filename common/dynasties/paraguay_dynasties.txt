@@ -1,0 +1,168 @@
+###ÄNSI
+
+365001 = {
+	name = "Acosta"
+	culture = asunceno
+}
+365002 = {
+	name = "Báez"
+	culture = asunceno
+}
+365003 = {
+	name = "Benitez"
+	culture = asunceno
+}
+365004 = {
+	name = "Gonzalez"
+	culture = asunceno
+}
+365005 = {
+	name = "Martinez"
+	culture = asunceno
+}
+365006 = {
+	name = "Gimenez"
+	culture = asunceno
+}
+365007 = {
+	name = "Vera"
+	culture = asunceno
+}
+365008 = {
+	name = "Duarte"
+	culture = asunceno
+}
+365009 = {
+	name = "Ramirez"
+	culture = asunceno
+}
+365010 = {
+	name = "Villalba"
+	culture = asunceno
+}
+365011 = {
+	name = "Rojas"
+	culture = asunceno
+
+365012 = {
+	name = "Fernandez"
+	culture = asunceno
+}
+365013 = {
+	name = "Gomez"
+	culture = asunceno
+}
+365014 = {
+	name = "Ortiz"
+	culture = asunceno
+}
+365015 = {
+	name = "Caceres"
+	culture = asunceno
+}
+365016 = {
+	name = "Rodriguez"
+	culture = asunceno
+}
+365017 = {
+	name = "Ruiz"
+	culture = asunceno
+}
+365018 = {
+	name = "Nuñez"
+	culture = asunceno
+}
+365019 = {
+	name = "Ayala"
+	culture = asunceno
+}
+365020 = {
+	name = "Barboza"
+	culture = asunceno
+}
+365021 = {
+	name = "Barrios"
+	culture = asunceno
+}
+365022 = {
+	name = "Bigi"
+	culture = asunceno
+}
+365023 = {
+	name = "Bozzano"
+	culture = asunceno
+}
+365024 = {
+	name = "Caballero"
+	culture = asunceno
+}
+365025 = {
+	name = "Centurión"
+	culture = asunceno
+}
+365026 = {
+	name = "Delgado"
+	culture = asunceno
+}
+365027 = {
+	name = "Eckert"
+	culture = asunceno
+}
+365028 = {
+	name = "Espinola"
+	culture = asunceno
+}
+365029 = {
+	name = "Filizzola"
+	culture = asunceno
+}
+365030 = {
+	name = "Gamarra"
+	culture = asunceno
+}
+365031 = {
+	name = "Godoy"
+	culture = asunceno
+}
+365032 = {
+	name = "Gonzalez"
+	culture = asunceno
+}
+365033 = {
+	name = "Granada"
+	culture = asunceno
+}
+365034 = {
+	name = "Grillon"
+	culture = asunceno
+}
+365035 = {
+	name = "Jiménez"
+	culture = asunceno
+}
+365036 = {
+	name = "Kennedy"
+	culture = asunceno
+}
+365037 = {
+	name = "López"
+	culture = asunceno
+}
+365038 = {
+	name = "Solano"
+	culture = asunceno
+}
+365039 = {
+	name = "Ovelar"
+	culture = asunceno
+}
+365040 = {
+	name = "Pecci"
+	culture = asunceno
+}
+365041 = {
+	name = "Carrera"
+	culture = asunceno
+	can_appear = no
+	used_for_random = no
+}

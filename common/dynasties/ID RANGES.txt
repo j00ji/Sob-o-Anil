@@ -109,6 +109,7 @@
 ### Contadino 350001 - 355000
 ### Litoraleño 355001 - 360000
 ### Urbuguayo 360001 - 365000
+### Asunceno 365001 - 370000
 
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.

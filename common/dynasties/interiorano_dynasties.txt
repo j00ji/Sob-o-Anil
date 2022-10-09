@@ -425,3 +425,10 @@
 	culture=turco
 	religion=conservante
 }
+
+305002={
+	name=Nasur
+	culture=turco
+	religion=catholic
+	used_for_random=no
+}

@@ -1,0 +1,35 @@
+###ÃNSI
+
+###Gelly Dynasty#####
+
+330001 = {
+	name = "Alfonso"
+	dynasty = 355070 #Gelly
+	dna = biaffbic0fb
+	religion = catholic
+	culture = pampeano
+	
+	2344.4.8 = {birth = yes}
+}
+
+330002 = {
+	name = "Juan"
+	dynasty = 355070 #Gelly
+	religion = catholic
+	culture = pampeano
+	father = 330001
+	
+	2345.4.8 = {birth = yes}
+}
+
+###Henriquez Dynasty#####
+
+330003 = {
+	name = "Raul"
+	dynasty = 355071 #Henriquez
+	religion = catholic
+	culture = pampeano
+	father = 330001
+	
+	2345.4.8 = {birth = yes}
+}

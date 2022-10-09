@@ -1547,3 +1547,15 @@
 	culture = litoraleno
 	religion = platinean
 }
+355070 = {
+	name = "Gelly"
+	culture = pampeano
+	religion = catholic
+	used_for_random = no
+}
+355071 = {
+	name = "Henriquez"
+	culture = pampeano
+	religion = catholic
+	used_for_random = no
+}
