@@ -16,6 +16,6 @@ b_esquina = castle
 
 # Misc
 culture = litoraleno
-religion = platinean
+religion = folclorista
 
 #History
