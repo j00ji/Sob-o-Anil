@@ -16,6 +16,6 @@ b_yapeyu = temple
 
 # Misc
 culture = litoraleno
-religion = platinean
+religion = folclorista
 
 #History

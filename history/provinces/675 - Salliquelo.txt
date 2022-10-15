@@ -16,6 +16,6 @@ b_salliqueo = tribal
 
 # Misc
 culture = contadino
-religion = platinean
+religion = catholic
 
 #History

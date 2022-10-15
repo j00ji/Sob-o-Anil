@@ -16,6 +16,6 @@ b_san_genaro = tribal
 
 # Misc
 culture = litoraleno
-religion = platinean
+religion = folclorista
 
 #History

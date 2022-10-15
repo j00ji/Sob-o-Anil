@@ -16,6 +16,6 @@ b_durazno = tribal
 
 # Misc
 culture = guacho
-religion = bandean
+religion = catholic
 
 #History

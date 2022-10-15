@@ -16,6 +16,6 @@ b_la_vega = castle
 
 # Misc
 culture = colombian
-religion = inkarri
+religion = patria_grande
 
 #History

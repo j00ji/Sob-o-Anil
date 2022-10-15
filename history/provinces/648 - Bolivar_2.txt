@@ -16,6 +16,6 @@ b_henderson = city
 
 # Misc
 culture = contadino
-religion = platinean
+religion = catholic
 
 #History

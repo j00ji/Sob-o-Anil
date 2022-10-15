@@ -16,6 +16,6 @@ b_los_toldos = city
 
 # Misc
 culture = pampeano
-religion = platinean
+religion = catholic
 
 #History

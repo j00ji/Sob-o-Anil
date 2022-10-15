@@ -16,6 +16,6 @@ b_itaqui = tribal
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = vargist
 
 #History

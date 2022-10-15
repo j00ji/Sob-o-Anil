@@ -16,6 +16,6 @@ b_tranqueras = temple
 
 # Misc
 culture = gaucho
-religion = bandean
+religion = catholic
 
 #History

@@ -16,6 +16,6 @@ b_campana = city
 
 # Misc
 culture = porteno
-religion = platinean
+religion = jewish
 
 #History

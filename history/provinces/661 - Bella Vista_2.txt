@@ -16,6 +16,6 @@ b_bella_vista_2 = tribal
 
 # Misc
 culture = litoraleno
-religion = platinean
+religion = folclorista
 
 #History

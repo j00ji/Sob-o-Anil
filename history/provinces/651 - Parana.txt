@@ -16,6 +16,6 @@ b_crespo = temple
 
 # Misc
 culture = litoraleno
-religion = platinean
+religion = folclorista
 
 #History

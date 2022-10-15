@@ -16,6 +16,6 @@ b_saladillo = castle
 
 # Misc
 culture = pampeano
-religion = platinean
+religion = catholic
 
 #History

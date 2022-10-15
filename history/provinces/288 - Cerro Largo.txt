@@ -16,6 +16,6 @@ b_melo = tribal
 
 # Misc
 culture = guacho
-religion = bandean
+religion = liberationist
 
 #History

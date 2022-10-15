@@ -16,6 +16,6 @@ b_tumba_del_fede = temple
 
 # Misc
 culture = qom
-religion = catholic
+religion = dreamtime
 
 #History

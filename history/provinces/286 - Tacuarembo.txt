@@ -16,6 +16,6 @@ b_tacuarembo = tribal
 
 # Misc
 culture = guacho
-religion = bandean
+religion = catholic
 
 #History

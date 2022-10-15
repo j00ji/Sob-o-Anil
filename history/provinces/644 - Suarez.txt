@@ -16,6 +16,6 @@ b_suarez_2 = castle
 
 # Misc
 culture = pampeano
-religion = platinean
+religion = catholic
 
 #History

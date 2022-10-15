@@ -16,6 +16,6 @@ b_treinta_y_tres = tribal
 
 # Misc
 culture = guacho
-religion = bandean
+religion = liberationist
 
 #History

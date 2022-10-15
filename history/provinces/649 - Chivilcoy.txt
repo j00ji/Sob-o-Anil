@@ -16,6 +16,6 @@ b_chacabuco = city
 
 # Misc
 culture = pampeano
-religion = platinean
+religion = catholic
 
 #History

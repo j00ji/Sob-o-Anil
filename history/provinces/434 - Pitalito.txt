@@ -16,6 +16,6 @@ b_san_agustin_de_huila = temple
 
 # Misc
 culture = colombian
-religion = inkarri
+religion = patria_grande
 
 #History
