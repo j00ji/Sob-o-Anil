@@ -22,7 +22,7 @@
 	holder = 110055 #Clemente de Andrade
 }
 2193.11.2 = { #Clemente de Andrade founds the Kingdom of Santos
-	liege = k_santos
+	liege = d_santos
 }
 2212.10.1 = {
 	holder = 110057 #Mateus de Andrade

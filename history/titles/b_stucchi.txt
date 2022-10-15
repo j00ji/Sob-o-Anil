@@ -1,6 +1,6 @@
 2135.1.1 = {
 	holding_dynasty = 55009
-	liege = k_santos
+	liege = d_santos
 	holder = 110031 #Gustavo Stucchi
 }
 2173.9.12 = {

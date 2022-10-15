@@ -1,6 +1,6 @@
 2277.1.1 = {
 	holding_dynasty = 55005 
-	liege = k_santos
+	liege = d_santos
 	holder = 110251 #Diogo Schimidt
 }
 2317.4.22 = {

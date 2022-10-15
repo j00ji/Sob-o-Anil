@@ -1,6 +1,6 @@
 2230.1.1 = {
 	holding_dynasty = 55024
-	liege = k_santos
+	liege = d_santos
 	holder = 110126 #Leonardo Graeff
 }
 2273.11.3 = {

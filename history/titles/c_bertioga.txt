@@ -17,7 +17,7 @@
 	liege = d_santos
 }
 2193.11.2 = { #Clemente proclaims the Kingdom of Santos
-	liege = k_santos
+	liege = d_santos
 }
 2206.7.4 = {
 	holder = 110201 #Caique de Abreu

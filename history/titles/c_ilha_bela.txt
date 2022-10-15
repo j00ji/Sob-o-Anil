@@ -16,7 +16,7 @@
 	holder = 110168 #Gastão de Abreu
 }
 2193.11.2 = { #Gastão submits without war, Clemente proclaims the Kingdom
-	liege = k_santos
+	liege = d_santos
 }
 2195.12.9 = {
 	holder = 110172 #Feliciano de Abreu
