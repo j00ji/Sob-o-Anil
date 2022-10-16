@@ -28,5 +28,5 @@
 	holder = 110461 #Jonathan de Campos Sales
 }
 2364.4.25 = { 
-	liege = k_paulistano
+	liege = d_alto_paraiba
 }

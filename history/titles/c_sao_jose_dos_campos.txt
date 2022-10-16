@@ -25,5 +25,5 @@
 	holder = 110497 #Lucas Alvarenga
 }
 2364.4.25 = {
-	liege = k_paulistano
+	liege = d_alto_paraiba
 }

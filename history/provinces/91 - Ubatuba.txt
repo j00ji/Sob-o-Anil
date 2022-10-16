@@ -15,7 +15,7 @@ b_maranduba = temple
 #b_praia_do_tenorio = castle
 
 # Misc
-culture = paulistano
+culture = caicara
 religion = anchietican
 
 #History

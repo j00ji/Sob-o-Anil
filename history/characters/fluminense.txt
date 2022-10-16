@@ -750,6 +750,20 @@
 	2337.10.28={birth=yes}
 }
 
+80018={
+	name="Irineu"
+	dynasty=40042 #sabugosa dynasty
+	culture=mantiqueiro
+	religion=anchietican
+	add_trait=erudite
+	add_trait=gregarious
+	add_trait=proud
+	add_trait=temperate
+	add_trait=scholarly_theologian
+	disallow_random_traits=yes
+	
+	2337.12.24={birth=yes}
+}
 #POMERANOS
 
 90001={
