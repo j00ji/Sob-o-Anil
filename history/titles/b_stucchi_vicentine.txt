@@ -1,6 +1,6 @@
 2180.2.3 = {
 	holding_dynasty = 55009
-	liege = k_santos
+	liege = d_santos
 	holder = 110035 #Hélio Stucchi
 }
 2232.5.10 = { 

@@ -13,7 +13,7 @@
 	liege = d_santos
 }
 2193.11.2 = { #Clemente proclaims the Kingdom of Santos
-	liege = k_santos
+	liege = d_santos
 }
 2213.12.2 = {
 	holder = 110216 #Renato de Camargo

@@ -7,7 +7,7 @@
 	holder = 110018 #José Lombardi
 }
 2193.11.2 = { #Clemente proclaims the Kingdom
-	liege = k_santos
+	liege = d_santos
 }
 2200.2.2 = { 
 	holder = 110020 #Alberto Lombardi

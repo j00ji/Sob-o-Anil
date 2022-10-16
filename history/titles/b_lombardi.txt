@@ -10,7 +10,7 @@
 	holder = 110008 #Rafaelo Lombardi
 }
 2193.11.2 = { #Clemente de Andrade founds the Kingdom of Santos
-	liege = k_santos
+	liege = d_santos
 }
 2218.3.5 = {
 	holder = 110011 #Miguel Lombardi

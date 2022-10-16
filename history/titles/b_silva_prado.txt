@@ -10,7 +10,7 @@
 	holder = 110146 #Bernardo Silva Prado
 }
 2193.11.2 = { #Clemente proclaims the Kingdom of Santos
-	liege = k_santos
+	liege = d_santos
 }
 2203.8.3 = {
 	holder = 110148 #Adriano Silva Prado

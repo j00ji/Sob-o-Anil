@@ -23,7 +23,7 @@
 	holder = 110035 #Hélio Stucchi
 }
 2193.11.2 = {
-	liege = k_santos
+	liege = d_santos
 }
 2232.5.10 = {
 	holder = 110043 #Carlos Stucchi
