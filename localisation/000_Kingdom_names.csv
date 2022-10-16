@@ -7,12 +7,16 @@ k_araucania;Araucanía;Araucanía;Araucanía;;Araucanía;;;;;;;;;x
 k_araucania_adj;Araucanían;;araucaníer;;;;;;;;;;;x
 k_atacama;Atacama;Atacama;Atacama;;Atacama;;;;;;;;;x
 k_atacama_adj;Atacaman;;atacamer;;;;;;;;;;;x
+k_baixo_tiete;Baixo Tietê;;;;;;;;;;;x
+k_baixo_tiete_adj;Baixo-tieteense;;;;;;;;;;;x
 k_bolivia;Bolivia;Bolivia;Bolivia;;Bolivia;;;;;;;;;x
 k_bolivia_adj;Bolivian;;boliver;;;;;;;;;;;x
 k_buenos_aires;Buenos Aires;Buenos Aires;Buenos Aires;;Buenos Aires;;;;;;;;;x
 k_buenos_aires_adj;Buenos Airesian;;Buenos Aireser;;;;;;;;;;;x
 k_cabo_norte;Cabo Norte;Cabo Norte;Cabo Norte;;Cabo Norte;;;;;;;;;x
 k_cabo_norte_adj;Cabo Nortean;;Cabo Norter;;;;;;;;;;;x
+k_california;California Paulista;;;;;;;;;;;x
+k_california_adj;Californianos;;;;;;;;;;;x
 k_ceara;Ceará;Ceará;Ceará;;Ceará;;;;;;;;;x
 k_ceara_adj;Cearáian;;cearáer;;;;;;;;;;;x
 k_chile;Chile;Chile;Chile;;Chile;;;;;;;;;x
@@ -63,6 +67,8 @@ k_paraguay;Paraguay;Paraguay;Paraguay;;Paraguay;;;;;;;;;x
 k_paraguay_adj;Paraguaian;;paraguaer;;;;;;;;;;;x
 k_parana;Paraná;Paraná;Paraná;;Paraná;;;;;;;;;x
 k_parana_adj;Paranáian;;paranáer;;;;;;;;;;;x
+k_paulistano;Reino Paulistano;;;;;;;;;;;;;x
+k_paulistano_adj;Paulistano;;;;;;;;;;;;;x
 k_pernambuco;Pernambuco;Pernambuco;Pernambuco;;Pernambuco;;;;;;;;;x
 k_pernambuco_adj;Pernambucian;;pernambucer;;;;;;;;;;;x
 k_piaui;Piauí;Piauí;Piauí;;Piauí;;;;;;;;;x
@@ -76,6 +82,8 @@ k_salvador_adj;Salvadorian;;salvadorer;;;;;;;;;;;x
 k_santa_catarina;Santa Catarina;Santa Catarina;Santa Catarina;;Santa Catarina;;;;;;;;;x
 k_santa_catarina_adj;Santa Catarinan;;Santa Catariner;;;;;;;;;;;x
 k_santa_cruz_de_patagonia;Santa Cruz de Patagonia;Santa Cruz de Patagonia;Santa Cruz de Patagonia;;Santa Cruz de Patagonia;;;;;;;;;x
+k_santos;Baixada;;;;;;;;;;;;;x
+k_santos_adj;Caiçara;;;;;;;;;;;;;x
 k_santa_cruz_de_patagonia_adj;Santa Cruz de Patagonian;;Santa Cruz de Patagoner;;;;;;;;;;;x
 k_sao_francisco;São Francisco;São Francisco;São Francisco;;São Francisco;;;;;;;;;x
 k_sao_francisco_adj;São Franciscian;;São Franciscer;;;;;;;;;;;x
@@ -83,6 +91,8 @@ k_sao_paulo;São Paulo;São Paulo;São Paulo;;São Paulo;;;;;;;;;x
 k_sao_paulo_adj;São Paulian;;São Pauler;;;;;;;;;;;x
 k_sipan;Sipán;Sipán;Sipán;;Sipán;;;;;;;;;x
 k_sipan_adj;Sipánian;;sipáner;;;;;;;;;;;x
+k_terra_roxa;Terra Roxa;;;;;;;;;;;x
+k_terra_roxa_adj;Roxo;;;;;;;;;;;x
 k_triangle;Triângulo;Triângulo;Triângulo;;Triângulo;;;;;;;;;x
 k_triangle_adj;Trianglean;;triangler;;;;;;;;;;;x
 k_uruguay;Uruguay;Uruguay;Uruguay;;Uruguay;;;;;;;;;x

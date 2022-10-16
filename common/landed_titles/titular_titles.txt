@@ -37,17 +37,13 @@ e_pretender_empire_1 = {
 
 # Historical
 
-k_paulistano = {
-	color = { 158 33 37 }
-	color2 = { 255 255 255 }
-	
-	short_name = yes
-	
-	capital = 50 # São Paulo
-	dignity = 10
-	
+k_sao_paulo = {
+	color={ 134 28 28 }
+	color2={ 255 255 255 }
+		
+	capital = 50 # c_sao_paulo
 	culture = paulistano
-	
+		
 	allow = {
 		culture = paulistano
 		OR = {
@@ -174,22 +170,22 @@ k_ribeira = {
 	}
 }
 
-k_santos = {
-	color = { 112 202 255 }
-	color2 = { 255 255 255 }
-	
-	capital = 47 # Santos
-	dignity = 200 # Never want the Republic of Santos to change primary title
-	
-	culture = paulistano
-	
-	allow = {
-		is_republic = yes
-		k_santos = {
-			is_titular = no
-		}
-	}
-}
+#k_santos = {
+#	color = { 112 202 255 }
+#	color2 = { 255 255 255 }
+#	
+#	capital = 47 # Santos
+#	dignity = 200 # Never want the Republic of Santos to change primary title
+#	
+#	culture = paulistano
+#	
+#	allow = {
+#		is_republic = yes
+#		k_santos = {
+#			is_titular = no
+#		}
+#	}
+#}
 
 k_costa_sol_generalship = {
 	color = { 232 158 31 }
