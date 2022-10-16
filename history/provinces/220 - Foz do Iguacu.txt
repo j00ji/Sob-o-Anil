@@ -16,6 +16,6 @@ b_nossa_senhora_de_guadalupe = temple
 
 # Misc
 culture = paranaense
-religion = valentes
+religion = herderos
 
 #History

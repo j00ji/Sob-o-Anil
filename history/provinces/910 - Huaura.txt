@@ -16,6 +16,6 @@ b_huaura = city
 
 # Misc
 culture = rimense
-religion = tridentine
+religion = liberationist
 
 #History
