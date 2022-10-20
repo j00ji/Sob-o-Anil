@@ -16,6 +16,6 @@ b_sao_jose_4 = castle
 
 # Misc
 culture = mantiqueiro
-religion = terra_benta
+religion = kardecist
 
 #History

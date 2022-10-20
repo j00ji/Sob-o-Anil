@@ -16,6 +16,6 @@ b_morangaba = city
 
 # Misc
 culture = mantiqueiro
-religion = evangelical
+religion = tridentine
 
 #History

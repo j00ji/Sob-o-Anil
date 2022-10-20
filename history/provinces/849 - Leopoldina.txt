@@ -16,6 +16,6 @@ b_abaiba = temple
 
 # Misc
 culture = mantiqueiro
-religion = terra_benta
+religion = kardecist
 
 #History

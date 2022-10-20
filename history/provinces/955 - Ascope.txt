@@ -16,6 +16,6 @@ b_guadalupe_2 = temple
 
 # Misc
 culture = nortegrandeno
-religion = tridentine
+religion = catholic
 
 #History

@@ -16,6 +16,6 @@ b_sao_joao_da_barra = castle
 
 # Misc
 culture = mantiqueiro
-religion = evangelical
+religion = tridentine
 
 #History

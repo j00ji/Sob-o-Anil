@@ -16,6 +16,6 @@ b_assarai = temple
 
 # Misc
 culture = valcude
-religion = terra_benta
+religion = kardecist
 
 #History
