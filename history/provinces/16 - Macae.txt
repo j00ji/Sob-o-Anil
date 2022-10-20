@@ -16,6 +16,6 @@ b_carapebus = temple
 
 # Misc
 culture = mantiqueiro
-religion = tridentine
+religion = evangelical
 
 #History
