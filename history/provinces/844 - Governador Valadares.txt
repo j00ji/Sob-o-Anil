@@ -16,6 +16,6 @@ b_figueira = temple
 
 # Misc
 culture = valcude
-religion = kardecist
+religion = kardecists
 
 #History

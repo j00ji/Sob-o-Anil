@@ -16,6 +16,6 @@ b_crisolita = tribal
 
 # Misc
 culture = valcude
-religion = kardecist
+religion = kardecists
 
 #History

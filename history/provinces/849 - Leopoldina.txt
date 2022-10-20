@@ -16,6 +16,6 @@ b_abaiba = temple
 
 # Misc
 culture = mantiqueiro
-religion = kardecist
+religion = kardecists
 
 #History
