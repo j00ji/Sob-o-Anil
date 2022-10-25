@@ -16,6 +16,6 @@ b_nicolandia = tribal
 
 # Misc
 culture = valcude
-religion = terra_benta
+religion = kardecists
 
 #History

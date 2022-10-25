@@ -16,6 +16,6 @@ b_paramonga = city
 
 # Misc
 culture = nortechicano
-religion = tridentine
+religion = catholic
 
 #History

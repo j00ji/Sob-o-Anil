@@ -16,6 +16,6 @@ b_mandaguacu = city
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = tridentine
 
 #History

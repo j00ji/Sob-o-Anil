@@ -17,6 +17,6 @@ b_chongoyape = castle
 
 # Misc
 culture = nortegrandeno
-religion = tridentine
+religion = catholic
 
 #History

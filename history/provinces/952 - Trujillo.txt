@@ -16,6 +16,6 @@ b_otuzco = city
 
 # Misc
 culture = nortegrandeno
-religion = tridentine
+religion = catholic
 
 #History

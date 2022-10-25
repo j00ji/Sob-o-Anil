@@ -16,6 +16,6 @@ b_forte_fritz = tribal
 
 # Misc
 culture = valcude
-religion = terra_benta
+religion = kardecists
 
 #History

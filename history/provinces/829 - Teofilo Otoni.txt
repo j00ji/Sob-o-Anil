@@ -16,6 +16,6 @@ b_mucuri = temple
 
 # Misc
 culture = valcude
-religion = angel_cult
+religion = kardecists
 
 #History
