@@ -432,3 +432,24 @@
 	religion=catholic
 	used_for_random=no
 }
+
+305003 = {
+	name = "Seineldín"
+	culture = turco
+	religion = catholic
+	used_for_random = no
+}
+
+305004 = {
+	name = "Yoacham"
+	culture = turco
+	religion = catholic
+	used_for_random = no
+}
+
+305004 = {
+	name = "Amat"
+	culture = turco
+	religion = catholic
+	used_for_random = no
+}

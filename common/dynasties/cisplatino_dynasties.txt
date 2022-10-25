@@ -348,9 +348,58 @@
 		}
 	}
 }
+
+110002 = {
+	name="Golovchenko"
+	culture= rutenio
+	religion = orthodoxist
+	can_appear = no
+	used_for_random = no
+}
+
 115001 = {
 	name="Durazno"
 	culture= guacho
+	can_appear = no
+	used_for_random = no
+}
+
+115002 = {
+	name="Hernandez"
+	culture= guacho
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+
+115003 = {
+	name="San Miguel"
+	culture= guacho
+	religion = bandean
+	can_appear = no
+	used_for_random = no
+}
+
+115004 = {
+	name="Aemilius"
+	culture= guacho
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+
+115004 = {
+	name="Nantes"
+	culture= guacho
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+
+115005 = {
+	name="Segundo"
+	culture= guacho
+	religion = liberationist
 	can_appear = no
 	used_for_random = no
 }

@@ -614,6 +614,231 @@
 	religion = platinean
 }
 
+340102 = { #Kings of Buenos Aires
+	name = "D'Anna"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340103 = { 
+	name = "Bello"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340104 = { 
+	name = "Uqbar"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340105 = { 
+	name = "Biro"
+	culture = porteno
+	religion = jewish
+	used_for_random = no
+}
+
+340106 = { 
+	name = "Teresa"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340107 = { 
+	name = "Volponi"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340108	 = {
+	name = "de Asterion"
+	culture = porteno
+	religion = rosalian
+	used_for_random = no
+}
+
+340109	 = {
+	name = "Belgrano"
+	culture = porteno
+	religion = rosalian
+	used_for_random = no
+}
+
+340110	 = {
+	name = "de Barracas"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340111	 = {
+	name = "de Levya"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340112	 = {
+	name = "Benedetti"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340113	 = {
+	name = "Gesell"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340114	 = {
+	name = "Mazorca"
+	culture = porteno
+	religion = rosalian
+	used_for_random = no
+}
+
+340115	 = {
+	name = "del Sur"
+	culture = porteno
+	religion = platinean
+	used_for_random = no
+}
+
+340116	 = {
+	name = "Canavery"
+	culture = porteno
+	religion = catholic
+	used_for_random = no
+}
+
+345001 = {
+	name = "D'Anna"
+	culture = pampeano
+	religion = catholic
+	used_for_random = no
+}
+
+345002 = {
+	name = "Paz"
+	culture = pampeano
+	religion = catholic
+	used_for_random = no
+}
+
+345003 = {
+	name = "Zunz"
+	culture = pampeano
+	religion = platinean
+	used_for_random = no
+}
+
+345004 = {
+	name = "Valle"
+	culture = pampeano
+	religion = platinean
+	used_for_random = no
+}
+
+345005 = {
+	name = "El Policía"
+	culture = pampeano
+	religion = gaucheria
+	used_for_random = no
+}
+
+345006 = {
+	name = "Oliveira"
+	culture = pampeano
+	religion = platinean
+	used_for_random = no
+}
+
+
+345007 = {
+	name = "Duarte"
+	culture = pampeano
+	religion = catholic
+	used_for_random = no
+}
+
+345008 = {
+	name = "Holgado"
+	culture = pampeano
+	religion = catholic
+	used_for_random = no
+}
+
+345009	 = {
+	name = "Bedoya"
+	culture = pampeano
+	religion = catholic
+	used_for_random = no
+}
+
+345010	 = {
+	name = "Facio"
+	culture = pampeano
+	religion = catholic
+	used_for_random = no
+}
+
+345011	 = {
+	name = "Campora"
+	culture = pampeano
+	religion = platinean
+	used_for_random = no
+}
+
+345012	 = {
+	name = "Taillade"
+	culture = pampeano
+	religion = platinean
+	used_for_random = no
+}
+
+345013	 = {
+	name = "Lavand"
+	culture = pampeano
+	religion = platinean
+	used_for_random = no
+}
+
+345014	 = {
+	name = "de los Angeles Rivas"
+	culture = pampeano
+	religion = gaucheria
+	used_for_random = no
+}
+
+345015	 = {
+	name = "Sombra"
+	culture = pampeano
+	religion = gaucheria
+	used_for_random = no
+}
+
+345016	 = {
+	name = "sin Ropa"
+	culture = pampeano
+	religion = gaucheria
+	used_for_random = no
+}
+
+345017	 = {
+	name = "de Pollo"
+	culture = pampeano
+	religion = gaucheria
+	used_for_random = no
+}
+
 350001 = {
 	name = "d’Agostini"
 	culture = contadino
@@ -1202,6 +1427,20 @@
 	religion = platinean
 }
 
+350099	 = {
+	name = "Alsina"
+	culture = pampeano
+	religion = gaucheria
+	used_for_random = no
+}
+
+350100	 = {
+	name = "Carancho"
+	culture = pampeano
+	religion = gaucheria
+	used_for_random = no
+}
+
 355001 = {
 	name = "Álvarez"
 	culture = litoraleno
@@ -1441,6 +1680,7 @@
 	name = "Ramírez"
 	culture = litoraleno
 	religion = platinean
+	used_for_random = no
 }
 355049 = {
 	name = "Ríos"
@@ -1557,5 +1797,90 @@
 	name = "Henriquez"
 	culture = pampeano
 	religion = catholic
+	used_for_random = no
+}
+
+355072	 = {
+	name = "Moreira"
+	culture = litoraleno
+	religion = folclorista
+	used_for_random = no
+}
+
+355073	 = {
+	name = "Romero Feris"
+	culture = litoraleno
+	religion = platinean
+	used_for_random = no
+}
+
+355074 = {
+	name = "Coca"
+	culture = litoraleno
+	religion = platinean
+	used_for_random = no
+}
+
+355075 = {
+	name = "Ortiz"
+	culture = litoraleno
+	religion = platinean
+	used_for_random = no
+}
+
+355076 = {
+	name = "Cosido"
+	culture = litoraleno
+	religion = platinean
+	used_for_random = no
+}
+
+355077 = {
+	name = "Cosido"
+	culture = litoraleno
+	religion = platinean
+	used_for_random = no
+}
+
+
+360001 = {
+	name = "La Maga"
+	culture = urbuguayo
+	religion = bandean
+	used_for_random = no
+}
+
+360002 = {
+	name = "Viana"
+	culture = urbuguayo
+	religion = bandean
+	used_for_random = no
+}
+
+360003 = {
+	name = "de Genoa"
+	culture = urbuguayo
+	religion = piriamano
+	used_for_random = no
+}
+
+360004 = {
+	name = "Maggi"
+	culture = urbuguayo
+	religion = artiguista
+	used_for_random = no
+}
+
+360005 = {
+	name = "Blanco"
+	culture = urbuguayo
+	religion = bandean
+	used_for_random = no
+}
+
+360006 = {
+	name = "Bandeira"
+	culture = urbuguayo
+	religion = bandean
 	used_for_random = no
 }

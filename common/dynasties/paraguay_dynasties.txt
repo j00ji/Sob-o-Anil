@@ -166,3 +166,18 @@
 	can_appear = no
 	used_for_random = no
 }
+
+365042 = {
+	name = "Lopez"
+	culture = asunceno
+	can_appear = no
+	used_for_random = no
+}
+
+365042 = {
+	name = "Andacollo"
+	culture = asunceno
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}

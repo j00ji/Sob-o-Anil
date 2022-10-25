@@ -20,3 +20,52 @@
 	can_appear = no
 	used_for_random = no
 }
+
+310004 = {
+	name = "de Jesus"
+	culture = guarani
+	religion = folclorista
+	used_for_random = no
+}
+
+310005 = {
+	name = "Aracuyu"
+	culture = guarani
+	religion = jerovia
+	used_for_random = no
+}
+
+310006 = {
+	name = "Ramirez"
+	culture = guarani
+	religion = jerovia
+	used_for_random = no
+}
+
+310007 = {
+	name = "Morales"
+	culture = guarani
+	religion = jerovia
+	used_for_random = no
+}
+
+310008 = {
+	name = "de Leon"
+	culture = guarani
+	religion = jerovia
+	used_for_random = no
+}
+
+310008 = {
+	name = "de Loyala"
+	culture = guarani
+	religion = catholic
+	used_for_random = no
+}
+
+310009 = {
+	name = "del Indios"
+	culture = guarani
+	religion = catholic
+	used_for_random = no
+}
