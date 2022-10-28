@@ -614,7 +614,7 @@
 	religion = platinean
 }
 
-340102 = { #Kings of Buenos Aires
+340102 = {
 	name = "D'Anna"
 	culture = porteno
 	religion = platinean
@@ -715,13 +715,6 @@
 340116	 = {
 	name = "Canavery"
 	culture = porteno
-	religion = catholic
-	used_for_random = no
-}
-
-345001 = {
-	name = "D'Anna"
-	culture = pampeano
 	religion = catholic
 	used_for_random = no
 }

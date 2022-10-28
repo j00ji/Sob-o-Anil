@@ -7,6 +7,6 @@
 	liege=k_paraguay
 }
 2364.1.25 = { 
-	holder = 800001 #José Carrera
+	holder = 800001 #Lorenzo
 	liege = k_paraguay
 }

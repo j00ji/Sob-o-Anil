@@ -56,15 +56,15 @@
 	used_for_random = no
 }
 
-310008 = {
-	name = "de Loyala"
+310009 = {
+	name = "del Indios"
 	culture = guarani
 	religion = catholic
 	used_for_random = no
 }
 
-310009 = {
-	name = "del Indios"
+310010 = {
+	name = "de Loyala"
 	culture = guarani
 	religion = catholic
 	used_for_random = no

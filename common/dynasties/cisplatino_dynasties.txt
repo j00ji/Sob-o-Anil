@@ -388,7 +388,7 @@
 	used_for_random = no
 }
 
-115004 = {
+115005 = {
 	name="Nantes"
 	culture= guacho
 	religion = catholic
@@ -396,7 +396,7 @@
 	used_for_random = no
 }
 
-115005 = {
+115006 = {
 	name="Segundo"
 	culture= guacho
 	religion = liberationist

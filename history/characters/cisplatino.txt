@@ -24,14 +24,52 @@
 	learning=7
 	
 	2341.5.1={birth=yes}
+	2415.1.1={death=yes}
 }
 
 320001={
-	name="Isabel"
-	dynasty=115001
-	religion=catholic
-	culture=guacho
-	female=yes
+	name="Alexandra"
+    dynasty=115002 # Hernandez
+    female=yes
+    culture=guacho
+    religion=catholic
+    martial=5
+    diplomacy=2
+    stewardship=3
+    intrigue=4
+    learning=5
+    trait=fortune_builder        
+    trait=crusader
+    trait=ugly
+    trait=greedy
+    trait=shrewd
+    trait=envious        
+    trait=patient        
+    trait=diligent
+    2350.1.1={birth=yes}
+    2428.1.1={death=yes}
 	
-	2341.5.1={birth=yes}
+	#Countess of Yguazu
+}
+
+320002 = {
+	name="Jose"
+    dynasty=115004 # Aemilius
+    culture=guacho
+    religion=catholic
+    martial=5
+    diplomacy=2
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=skilled_tactician
+    trait=zealous
+    trait=envious
+    trait=diligent
+    trait=patient
+    trait=proud
+    2320.1.1={birth=yes}
+    2374.1.1={death=yes}
+
+	#High Chief of Interior, rules Rivera, Tacuarembó, and Durazno
 }

@@ -1,33 +1,23 @@
 680001={
-	name="Omar"
-	dynasty=305001
-	martial=3
-	diplomacy=5
-	stewardship=5
-	intrigue=3
-	learning=4
-	culture=turco
-	religion=conservante
-	trait=erudite
-	trait=poet
-	trait=greedy
-	trait=tough_soldier
-	2330.9.15={
-		birth=yes
-	}
-	2399.6.18={
-		death=yes
-	}
+    name="Omar"
+    dynasty=305005 # Amat
+    culture=turco
+    religion=catholic
+    martial=5
+    diplomacy=4
+    stewardship=4
+    intrigue=5
+    learning=2
+    trait=skilled_tactician
+    trait=crusader
+    trait=content
+    trait=kind
+    trait=just
+    trait=brave
+    trait=humble
+    2333.1.1={birth=yes}
+    2405.1.1={death=yes}
+
+	#Count of Concepcion
 }
 
-###Nasur Dynasty###
-
-680002={
-	name="Marko"
-	dynasty=305002
-	culture=turco
-	religion=catholic
-	2330.9.15={
-		birth=yes
-	}
-}

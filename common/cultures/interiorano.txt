@@ -39,7 +39,7 @@ interiorano = {
 		color = {0.56 0.31 0.2}
 
 		male_names = {
-			Adolfo Ainelen Alan Alberto_Adalberto Alejandro_Alessandro Alejo Alfredo "Andrés" "Ángel" Antonio Arturo Augusto_"Agustín" Awka
+			Adolfo Ainelen Alan Alberto_Adalberto Alejandro_Alessandro Alejo Alfredo "Andrés" "Ángel" Antonio Arturo Augusto_Agustín Awka
 			"Bartolomé" Bastian Benicio Benjamin Blas Brian
 			Camilo Carlos Ciro Cruz
 			Diego Damian Daniel

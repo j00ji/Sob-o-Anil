@@ -1,10 +1,25 @@
 ###ÃNSI
 
 800001 = {
-	name = "José"
-	dynasty = 365041 #Carrera
-	religion = catholic
-	culture = asunceno
-	
-	2341.5.1 = {birth = yes}
+	name="Lorezno"
+    dynasty=365043 # de Andacollo
+    culture=asunceno
+    religion=catholic
+    martial=4
+    diplomacy=5
+    stewardship=3
+    intrigue=3
+    learning=6
+    trait=martial_cleric
+    trait=crusader
+    trait=zealous
+    trait=cruel
+    trait=zealous
+    trait=diligent
+    trait=wroth
+    trait=envious
+    2328.1.1={birth=yes}
+    2401.1.1={death=yes}
+
+	#Duke of Upper Paraguay, rules Amambay, Mbaracayu, and San Pedro
 }

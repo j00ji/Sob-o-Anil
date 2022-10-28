@@ -43,7 +43,7 @@
 365011 = {
 	name = "Rojas"
 	culture = asunceno
-
+}
 365012 = {
 	name = "Fernandez"
 	culture = asunceno
@@ -174,7 +174,7 @@
 	used_for_random = no
 }
 
-365042 = {
+365043 = {
 	name = "Andacollo"
 	culture = asunceno
 	religion = catholic

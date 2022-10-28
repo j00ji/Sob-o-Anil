@@ -1,7 +1,5 @@
 ###ÃNSI
 
-###Henriquez Dynasty#####
-
 690001 = {
 	name = "Pedro"
 	dynasty = 310001 #Mendoza
@@ -10,8 +8,6 @@
 	
 	2345.4.8 = {birth = yes}
 }
-
-###Sanchez Dynasty#####
 
 690010 = {
 	name = "Pytuna"
@@ -22,13 +18,180 @@
 	2345.4.8 = {birth = yes}
 }
 
-###Perez Dynasty#####
-
 690020 = {
-	name = "Kauan"
-	dynasty = 310003 #Perez
-	religion = jerovia
-	culture = guarani
-	
-	2345.4.8 = {birth = yes}
+	name="Marangatu"
+    dynasty=310003 # Perez
+    culture=guarani
+    religion=jerovia
+    martial=2
+    diplomacy=4
+    stewardship=6
+    intrigue=4
+    learning=4
+    trait=indulgent_wastrel
+    trait=drunkard
+    trait=slothful
+    trait=lustful
+    trait=kind
+    trait=charitable
+    2345.1.1={birth=yes}
+    2410.1.1={death=yes}
+
+	#Count of Este and Guaria
+}
+
+690021 = {
+	name="Kuarahy"
+    dynasty=310004 # de Jesus
+    culture=guarani
+    religion=folclorista
+    martial=5
+    diplomacy=2
+    stewardship=2
+    intrigue=4
+    learning=3
+    trait=skilled_tactician
+    trait=ambitious
+    trait=brave
+    trait=charitable
+    trait=kind
+    trait=proud
+    2330.1.1={birth=yes}
+    2405.1.1={death=yes}
+
+	#Chief of San Tome
+}
+
+690022 = {
+	name="Higinio"
+    dynasty=310005 # Aracuyu
+    culture=guarani
+    religion=jerovia
+    martial=6
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=5
+    trait=tough_soldier
+    trait=quick
+    trait=gregarious
+    trait=lustful
+    trait=proud
+    trait=diligent
+    trait=patient
+    trait=just
+    2344.1.1={birth=yes}
+    2373.1.1={death=yes}
+
+	#High Chief of Misiones, rules Guarani and Oberta
+}
+
+690023 = {
+	name="Anai"
+    dynasty=310006 # Ramirez
+    female=yes
+    culture=guarani
+    religion=jerovia
+    martial=2
+    diplomacy=5
+    stewardship=4
+    intrigue=3
+    learning=5
+    trait=flamboyant_schemer
+    trait=lustful
+    trait=stubborn
+    trait=cruel
+    trait=shrewd
+    2349.1.1={birth=yes}
+    2421.1.1={death=yes}
+
+	#Chief of Iguazu
+}
+
+690024 = {
+	name="Jasy"
+    dynasty=310007 # Morales
+    culture=guarani
+    religion=jerovia
+    martial=5
+    diplomacy=3
+    stewardship=3
+    intrigue=4
+    learning=4
+    trait=skilled_tactician
+    trait=ambitious
+    trait=arbitrary
+    trait=wroth
+    trait=cruel
+    trait=zealous
+    2330.1.1={birth=yes}
+    2394.1.1={death=yes}
+
+	#Chief of Posadas
+}
+
+690025 = {
+	name="Kuarahy"
+    dynasty=310008 # de Leon
+    culture=guarani
+    religion=jerovia
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=2
+    learning=1
+    trait=charismatic_negotiator
+    trait=gregarious
+    trait=kind
+    trait=honest
+    trait=sympathy_christendom
+    trait=envious
+    2342.1.1={birth=yes}
+    2399.1.1={death=yes}
+
+	#Chief of Itapua
+}
+
+690026 = {
+	name="Arandu "
+    dynasty=310010 # de Loyala
+    culture=guarani
+    religion=catholic
+    martial=3
+    diplomacy=4
+    stewardship=2
+    intrigue=3
+    learning=4
+    trait=martial_cleric
+    trait=mystic
+    trait=content
+    trait=honest
+    trait=charitable
+    trait=ambitious
+    2336.1.1={birth=yes}
+    2385.1.1={death=yes}
+
+	#Count of Kandu
+}
+
+690027 = {
+	name="Juliana"
+    dynasty=310009 # del Indios
+    culture=guarani
+    religion=catholic
+	secret_religion=jerovia
+    martial=6
+    diplomacy=3
+    stewardship=3
+    intrigue=2
+    learning=3
+    trait=wroth
+    trait=deceitful
+    trait=brave
+    trait=just
+    trait=humble
+    2349.1.1={birth=yes}
+    2425.1.1={death=yes}
+
+	#Wife of Prince Luis Gelly, 50/50 chance to assassinate the crown prince in opening event chain
 }
