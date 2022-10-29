@@ -1,4 +1,5 @@
 # e_la_plata
-800.1.1={
-	liege=k_mesopotamia
+
+2368.1.1={
+	holder = 330038 #Juanito Moreira
 }

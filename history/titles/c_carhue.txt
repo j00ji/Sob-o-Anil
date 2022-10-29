@@ -1,3 +1,4 @@
-800.1.1={
-	liege=k_la_pampa
+
+2368.1.1={
+	holder = 330033 #Segundo Sombra
 }

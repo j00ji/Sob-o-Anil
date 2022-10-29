@@ -3,6 +3,8 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_uruguay
+
+2368.1.1={
+	holder = 330020 #Jorge Campora
+	liege=k_buenos_aires
 }

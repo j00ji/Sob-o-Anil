@@ -1,24 +1,6 @@
 ###ÃNSI
 
-690001 = {
-	name = "Pedro"
-	dynasty = 310001 #Mendoza
-	religion = catholic
-	culture = guarani
-	
-	2345.4.8 = {birth = yes}
-}
-
 690010 = {
-	name = "Pytuna"
-	dynasty = 310002 #Sanchez
-	religion = jerovia
-	culture = guarani
-	
-	2345.4.8 = {birth = yes}
-}
-
-690020 = {
 	name="Marangatu"
     dynasty=310003 # Perez
     culture=guarani
@@ -153,7 +135,7 @@
 }
 
 690026 = {
-	name="Arandu "
+	name="Arandu"
     dynasty=310010 # de Loyala
     culture=guarani
     religion=catholic

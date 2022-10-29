@@ -654,6 +654,17 @@
 	culture = porteno
 	religion = platinean
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 340108	 = {
@@ -661,6 +672,17 @@
 	culture = porteno
 	religion = rosalian
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 340109	 = {
@@ -738,6 +760,17 @@
 	culture = pampeano
 	religion = platinean
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 345005 = {
@@ -745,6 +778,17 @@
 	culture = pampeano
 	religion = gaucheria
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 345006 = {
@@ -752,6 +796,17 @@
 	culture = pampeano
 	religion = platinean
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 
@@ -760,6 +815,17 @@
 	culture = pampeano
 	religion = catholic
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 345008 = {
@@ -830,6 +896,17 @@
 	culture = pampeano
 	religion = gaucheria
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 350001 = {
@@ -1785,6 +1862,17 @@
 	culture = pampeano
 	religion = catholic
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 355071 = {
 	name = "Henriquez"

@@ -1,4 +1,5 @@
 # e_la_plata
-800.1.1={
-	liege=k_buenos_aires
+
+2368.1.1={
+	holder = 330021 #Ferdinand de Asterion
 }

@@ -3,6 +3,8 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_uruguay
+
+2368.1.1={
+	holder = 410009 #Azevedo Bandeira
+	liege=d_montevideo
 }

@@ -29,6 +29,7 @@
 
 330002 = {
 	name="Luciana"
+	female=yes
     dynasty=355070 # Gelly
     culture=asunceno
     religion=catholic
@@ -73,7 +74,7 @@
 	father=330001
 	mother=330044
     2352.1.1={birth=yes}
-	2368.1.1={add_spouse=330044}
+	2368.1.1={add_spouse=690027}
     2425.1.1={death=yes}
 	
 	#Crown Prince (and heir/older sibling) of Paraguay, rules Ybycui
@@ -434,9 +435,15 @@
     trait=chaste
     trait=mangled
     2330.1.1={birth=yes}
-    2366.1.1={death=yes}
+	2365.2.1={add_spouse=330016}
+    2366.1.1={
+		death={
+			death_reason = death_battle
+            killer = 330007
+		}
+	}
 
-	#Previous Duke of Junin and first husband of Duchess Christina Duarte of Junin, killed in battle by the King of Buenos Aires in 2365.1.1
+	#Previous Duke of Junin and first husband of Duchess Christina Duarte of Junin, killed in battle by the King of Buenos Aires in 2366.1.1
 }
 
 330018 = {
@@ -552,7 +559,7 @@
     trait=diligent
     2329.1.1={birth=yes}
 	2368.1.1={
-		effect={reverse_imprison=330021}
+		effect={imprison=330021}
 	}
     2370.1.1={death=yes}
 
@@ -579,7 +586,7 @@
 	2368.1.1={
 		effect={
 			add_lover=330022
-			reverse_imprison=330021
+			imprison=330021
 		}
 	}
     2370.1.1={death=yes}
@@ -1238,7 +1245,7 @@
     2350.1.1={birth=yes}
     2415.1.1={death=yes}
 
-	#Count of Pirapolis and Costa de Oro
+	#Count of Piriapolis and Costa de Oro
 }
 
 410004 = {

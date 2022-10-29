@@ -7,6 +7,6 @@
 	liege=k_paraguay
 }
 2364.1.25 = { 
-	holder = 330002 #Juan Gelly
+	holder = 330002 #Luciana Gelly
 	liege=k_paraguay
 }

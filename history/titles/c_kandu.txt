@@ -7,6 +7,6 @@
 	liege=k_paraguay
 }
 2364.1.25 = { 
-	holder = 690001 #Pedro Mendoza
+	holder = 690026 #Arandu de Loyala
 	liege=k_paraguay
 }

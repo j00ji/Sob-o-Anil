@@ -3,6 +3,8 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_mesopotamia
+
+2368.1.1={
+	holder = 330041 #Hilda Coca
+	liege=d_enterrios
 }

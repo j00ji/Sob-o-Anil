@@ -2,6 +2,8 @@
 500.1.1={
 	law = agnatic_succession
 }
-800.1.1={
-	liege=k_buenos_aires
+
+2368.1.1={
+	holder = 330028 #Basilio Seineldín
+	liege=d_mardel
 }

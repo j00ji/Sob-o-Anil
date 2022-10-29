@@ -7,7 +7,7 @@
 	liege=k_paraguay
 }
 2364.1.25 = { 
-	holder = 680001 #Marko Nasur
+	holder = 680001 #Omar Amat
 	liege=k_paraguay
 }
 

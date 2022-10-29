@@ -3,6 +3,9 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_buenos_aires
+2360.1.1={
+	holder = 330017 #Domingo Holgado
+}
+2366.1.1={
+	holder = 330016 #Cristina Duarte
 }
