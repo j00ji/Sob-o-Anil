@@ -159,6 +159,7 @@
 690027 = {
 	name="Juliana"
     dynasty=310009 # del Indios
+	female=yes
     culture=guarani
     religion=catholic
 	secret_religion=jerovia
