@@ -16,6 +16,6 @@ b_colchaka = castle
 
 # Misc
 culture = quechua
-religion = pachamama
+religion = santa_diablada
 
 #History

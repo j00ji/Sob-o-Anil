@@ -16,6 +16,6 @@ b_villazon = temple
 
 # Misc
 culture = aymara
-religion = pachamama
+religion = santa_diablada
 
 #History
