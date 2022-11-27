@@ -16,6 +16,6 @@ b_magdalena_de_beni = temple
 
 # Misc
 culture = camba
-religion = santa_diablada
+religion = evangelical
 
 #History

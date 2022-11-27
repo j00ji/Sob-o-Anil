@@ -16,6 +16,6 @@ b_yacuma = temple
 
 # Misc
 culture = camba
-religion = santa_diablada
+religion = evangelical
 
 #History

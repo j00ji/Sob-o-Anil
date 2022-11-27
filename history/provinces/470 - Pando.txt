@@ -16,6 +16,6 @@ b_puerto_rico = city
 
 # Misc
 culture = camba
-religion = santa_diablada
+religion = evangelical
 
 #History
