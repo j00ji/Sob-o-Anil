@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_rio_grande_do_sul
 }
+2350.1.1={
+	holder=290001
+	liege=d_alto_uruguai
+}

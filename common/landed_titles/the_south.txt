@@ -57,18 +57,6 @@ e_the_south = {
 				b_arroio_dos_ratos = {}
 				b_marina_pimentel = {}
 			}
-			c_novo_hamburgo = { # 146
-				color={ 65 159 240 }
-				color2={ 255 255 255 }
-				
-				b_novo_hamburgo = {}
-				b_sapiranga = {}
-				b_estancia_velha = {}
-				b_nova_hartz = {}
-				b_parobe = {}
-				b_taquara = {}
-				b_morro_reuter = {}
-			}
 			c_osorio = { # 148
 				color={ 226 164 43 }
 				color2={ 255 255 255 }
@@ -104,85 +92,6 @@ e_the_south = {
 				b_aguas_claras = {}
 				b_capivari_do_sul = {}
 				b_miraguaia = {}
-			}
-		}
-		d_alto_uruguai = {
-			color={ 242 30 18 }
-			color2={ 255 255 255 }
-			
-			capital = 155 # c_passo_fundo
-			
-			c_passo_fundo = { # 155
-				color={ 232 40 13 }
-				color2={ 255 255 255 }
-				
-				b_passo_fundo = {}
-				b_marau = {}
-				b_tapejara = {}
-				b_tapejara_2 = {}
-				b_sananduva = {}
-				b_mato_castelhano = {}
-				b_nova_alvorada = {}
-			}
-			c_carazinho = { # 156
-				color={ 172 22 66 }
-				color2={ 255 255 255 }
-				
-				b_carazinho = {}
-				b_nao_me_toque = {}
-				b_sarandi = {}
-				b_victor_graeff = {}
-				b_saldanha_marinho = {}
-				b_chapada = {}
-				b_coqueiros_do_sul = {}
-			}
-			c_erechim = { # 157
-				color={ 222 251 212 }
-				color2={ 255 255 255 }
-				
-				b_erechim = {}
-				b_getulio_vargas = {}
-				b_marcelino_ramos = {}
-				b_rio_toldo = {}
-				b_sao_valentim = {}
-				b_sao_joao_da_urtiga = {}
-				b_aurea = {}
-			}
-			c_frederico_westphalen = { # 160
-				color={ 154 240 158 }
-				color2={ 255 255 255 }
-				
-				b_frederico_westphalen = {}
-				b_alpestre = {}
-				b_seberi = {}
-				b_nonoai = {}
-				b_ametista_do_sul = {}
-				b_irai = {}
-				b_tenente_portela = {}
-			}
-			c_palmeira_das_missoes = { # 159
-				color={ 50 139 33 }
-				color2={ 255 255 255 }
-				
-				b_palmeira_das_missoes = {}
-				b_santa_barbara_do_sul = {}
-				b_sao_pedro_das_missoes = {}
-				b_novo_barreiro = {}
-				b_sao_jose_das_missoes = {}
-				b_dois_irmaos_das_missoes = {}
-				b_santo_augusto = {}
-			}
-			c_soledade = { # 158
-				color={ 243 230 153 }
-				color2={ 255 255 255 }
-				
-				b_soledade_4 = {}
-				b_espumoso = {}
-				b_fontoura_xavier = {}
-				b_barros_cassal = {}
-				b_volta_alegre = {}
-				b_tio_hugo = {}
-				b_itapuca = {}
 			}
 		}
 		d_arapei = {
@@ -300,73 +209,6 @@ e_the_south = {
 				b_estancia_do_cerrito = {}
 				b_tres_vendas = {}
 				b_arroio_do_cambeta = {}
-			}
-		}
-		d_campos_de_vacaria = {
-			color={ 150 245 209 }
-			color2={ 255 255 255 }
-			
-			capital = 150 # c_caxias_do_sul
-			
-			c_caxias_do_sul = { # 150
-				color={ 148 1 165 }
-				color2={ 255 255 255 }
-				
-				b_chateau_lacave = {}
-				b_santa_teresa_cathedral = {}
-				b_flores_da_cunha = {}
-				b_farroupilha = {}
-				b_sao_marcos = {}
-				b_nova_sardenha = {}
-				b_otavio_rocha = {}
-			}
-			c_bento_goncalves = { # 152
-				color={ 199 2 24 }
-				color2={ 255 255 255 }
-				
-				b_bento_goncalves = {}
-				b_garibaldi = {}
-				b_veranopolis = {}
-				b_carlos_barbosa = {}
-				b_tuiuti = {}
-				b_vale_dos_pinhedos = {}
-				b_vespasiano_correa = {}
-			}
-			c_gramado = { # 153
-				color={ 10 196 149 }
-				color2={ 255 255 255 }
-				holy_site = evangelical
-				b_gramado = {}
-				b_canela = {}
-				b_caracol = {}
-				b_taquara_2 = {}
-				b_varzea_do_cedro = {}
-				b_sao_francisco_de_paula = {}
-				b_itaimbezinho = {}
-			}
-			c_lageado = { # 151
-				color={ 160 235 214 }
-				color2={ 255 255 255 }
-				
-				b_lageado = {}
-				b_teutonia = {}
-				b_venancio_aires = {}
-				b_monte_alverne = {}
-				b_arroio_do_meio = {}
-				b_bom_retiro_do_sul = {}
-				b_encantado = {}
-			}
-			c_vacaria = { # 154
-				color={ 213 90 145 }
-				color2={ 255 255 255 }
-				
-				b_vacaria = {}
-				b_sao_jose_dos_ausentes = {}
-				b_bom_jesus = {}
-				b_cambara_do_sul = {}
-				b_campestre_da_serra = {}
-				b_lagoa_vermelha = {}
-				b_muitos_capoes = {}
 			}
 		}
 		d_costa_doce = {
@@ -952,6 +794,172 @@ e_the_south = {
 				b_santa_izabel_do_oeste = {}
 				b_nova_prata_do_iguacu = {}
 				b_dois_vizinhos = {}
+			}
+		}
+	}
+	k_serra_gaucha = {
+		color={ 242 40 25 }
+		color2={ 255 255 255 }
+		
+		capital = 143 # c_porto_alegre
+		culture = gaucho
+		
+		d_alto_uruguai = {
+			color={ 242 30 18 }
+			color2={ 255 255 255 }
+			
+			capital = 155 # c_passo_fundo
+			
+			c_passo_fundo = { # 155
+				color={ 232 40 13 }
+				color2={ 255 255 255 }
+				
+				b_passo_fundo = {}
+				b_marau = {}
+				b_tapejara = {}
+				b_tapejara_2 = {}
+				b_sananduva = {}
+				b_mato_castelhano = {}
+				b_nova_alvorada = {}
+			}
+			c_carazinho = { # 156
+				color={ 172 22 66 }
+				color2={ 255 255 255 }
+				
+				b_carazinho = {}
+				b_nao_me_toque = {}
+				b_sarandi = {}
+				b_victor_graeff = {}
+				b_saldanha_marinho = {}
+				b_chapada = {}
+				b_coqueiros_do_sul = {}
+			}
+			c_erechim = { # 157
+				color={ 222 251 212 }
+				color2={ 255 255 255 }
+				
+				b_erechim = {}
+				b_getulio_vargas = {}
+				b_marcelino_ramos = {}
+				b_rio_toldo = {}
+				b_sao_valentim = {}
+				b_sao_joao_da_urtiga = {}
+				b_aurea = {}
+			}
+			c_frederico_westphalen = { # 160
+				color={ 154 240 158 }
+				color2={ 255 255 255 }
+				
+				b_frederico_westphalen = {}
+				b_alpestre = {}
+				b_seberi = {}
+				b_nonoai = {}
+				b_ametista_do_sul = {}
+				b_irai = {}
+				b_tenente_portela = {}
+			}
+			c_palmeira_das_missoes = { # 159
+				color={ 50 139 33 }
+				color2={ 255 255 255 }
+				
+				b_palmeira_das_missoes = {}
+				b_santa_barbara_do_sul = {}
+				b_sao_pedro_das_missoes = {}
+				b_novo_barreiro = {}
+				b_sao_jose_das_missoes = {}
+				b_dois_irmaos_das_missoes = {}
+				b_santo_augusto = {}
+			}
+			c_soledade = { # 158
+				color={ 243 230 153 }
+				color2={ 255 255 255 }
+				
+				b_soledade_4 = {}
+				b_espumoso = {}
+				b_fontoura_xavier = {}
+				b_barros_cassal = {}
+				b_volta_alegre = {}
+				b_tio_hugo = {}
+				b_itapuca = {}
+			}
+		}
+		d_campos_de_vacaria = {
+			color={ 150 245 209 }
+			color2={ 255 255 255 }
+			
+			capital = 150 # c_caxias_do_sul
+			
+			c_caxias_do_sul = { # 150
+				color={ 148 1 165 }
+				color2={ 255 255 255 }
+				
+				b_chateau_lacave = {}
+				b_santa_teresa_cathedral = {}
+				b_flores_da_cunha = {}
+				b_farroupilha = {}
+				b_sao_marcos = {}
+				b_nova_sardenha = {}
+				b_otavio_rocha = {}
+			}
+			c_bento_goncalves = { # 152
+				color={ 199 2 24 }
+				color2={ 255 255 255 }
+				
+				b_bento_goncalves = {}
+				b_garibaldi = {}
+				b_veranopolis = {}
+				b_carlos_barbosa = {}
+				b_tuiuti = {}
+				b_vale_dos_pinhedos = {}
+				b_vespasiano_correa = {}
+			}
+			c_gramado = { # 153
+				color={ 10 196 149 }
+				color2={ 255 255 255 }
+				holy_site = evangelical
+				b_gramado = {}
+				b_canela = {}
+				b_caracol = {}
+				b_taquara_2 = {}
+				b_varzea_do_cedro = {}
+				b_sao_francisco_de_paula = {}
+				b_itaimbezinho = {}
+			}
+			c_lageado = { # 151
+				color={ 160 235 214 }
+				color2={ 255 255 255 }
+				
+				b_lageado = {}
+				b_teutonia = {}
+				b_venancio_aires = {}
+				b_monte_alverne = {}
+				b_arroio_do_meio = {}
+				b_bom_retiro_do_sul = {}
+				b_encantado = {}
+			}
+			c_vacaria = { # 154
+				color={ 213 90 145 }
+				color2={ 255 255 255 }
+				
+				b_vacaria = {}
+				b_sao_jose_dos_ausentes = {}
+				b_bom_jesus = {}
+				b_cambara_do_sul = {}
+				b_campestre_da_serra = {}
+				b_lagoa_vermelha = {}
+				b_muitos_capoes = {}
+			}
+			c_novo_hamburgo = { # 146
+				color={ 65 159 240 }
+				color2={ 255 255 255 }
+				
+				b_novo_hamburgo = {}
+				b_sapiranga = {}
+				b_estancia_velha = {}
+				b_nova_hartz = {}
+				b_parobe = {}
+				b_taquara = {}
+				b_morro_reuter = {}
 			}
 		}
 	}

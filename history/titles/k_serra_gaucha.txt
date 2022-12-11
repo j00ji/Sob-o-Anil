@@ -1,10 +1,7 @@
-# e_the_south
+# k_santa_catarina
 500.1.1={
 	law = agnatic_succession
 	law = succ_gavelkind
-}
-800.1.1={
-	liege=k_rio_grande_do_sul
 }
 2339.1.1={
 	holder=300001

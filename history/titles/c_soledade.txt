@@ -6,3 +6,10 @@
 800.1.1={
 	liege=k_rio_grande_do_sul
 }
+2339.1.1={
+	holder=300002
+	liege=k_serra_gaucha
+}
+2362.1.1={
+	holder=300004
+}

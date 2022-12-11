@@ -1,5 +1,233 @@
 #ÄNSI
-
+290001={
+	name="Cecília"
+	dynasty=100002 #westphalia
+	female=yes
+	culture=hunsruckisch
+	religion=evangelical
+	trait=fortune_builder
+	trait=branch_presbyterian
+	trait=lustful
+	diplomacy=8
+	martial=10
+	stewardship=11
+	intrigue=9
+	learning=7
+	#countess of Federico Westphalen, might make her lover of Mateus Taurus
+	2351.1.1={birth=yes}
+}
+290002={
+	name="Hans"
+	dynasty=100003 #chucrute
+	culture=hunsruckisch
+	religion=evangelical
+	trait=detached_priest
+	trait=branch_baptist
+	trait=greedy
+	trait=shy
+	trait=physician
+	diplomacy=3
+	martial=6
+	stewardship=6
+	intrigue=4
+	learning=7
+	2331.1.1={birth=yes}
+	#count of Cruz Alta
+}
+290003={
+	name="Arthur"
+	dynasty=100004 #rosenfeld
+	culture=hunsruckisch
+	religion=evangelical
+	trait=tough_soldier
+	trait=branch_methodist
+	trait=fortune_builder
+	trait=greedy
+	trait=patient
+	trait=craven
+	diplomacy=8
+	martial=5
+	stewardship=12
+	intrigue=7
+	learning=10
+	2325.1.1={birth=yes}
+	2357.1.1={
+		add_spouse=290004
+	}
+	#count of Gramado and Vacaria
+}
+290004={
+	name="Ritta"
+	dynasty=100002 #westphalia
+	female=yes
+	culture=hunsruckisch
+	religion=evangelical
+	trait=grey_eminence
+	trait=branch_presbyterian
+	trait=fair
+	diplomacy=10
+	martial=7
+	stewardship=9
+	intrigue=5
+	learning=10
+	2337.1.1={birth=yes}
+	#spouse of Arthur, should be made Aunt of Cecília
+}
+290005={
+	name="Érico"
+	dynasty=100004 #rosenfeld
+	culture=hunsruckisch
+	religion=evangelical
+	father=290003
+	mother=290004
+	trait=branch_methodist
+	2359.1.1={birth=yes}
+}
+290006={
+	name="Rafaela"
+	dynasty=100004 #rosenfeld
+	female=yes
+	culture=hunsruckisch
+	religion=evangelical
+	father=290003
+	mother=290004
+	trait=branch_methodist
+	2363.1.1={birth=yes}
+}
+290007={
+	name="Carol"
+	dynasty=100004 #rosenfeld
+	female=yes
+	culture=hunsruckisch
+	religion=evangelical
+	father=290003
+	mother=290004
+	trait=branch_methodist
+	2368.1.1={birth=yes}
+}
+290008={
+	name="Lino"
+	dynasty=100005 #goettems
+	culture=hunsruckisch
+	religion=celeste
+	trait=brilliant_strategist
+	trait=zealous
+	trait=strong
+	trait=brave
+	trait=patient
+	2320.1.1={birth=yes}
+	2350.1.1={effect={add_friend=300003}}
+	#ruler of lageado
+}
+300001={
+	name="Paulo"
+	dynasty=105001 #taurus
+	culture=talian
+	religion=celeste
+	trait=charismatic_negotiator
+	trait=strong
+	trait=diligent
+	trait=cynical
+	trait=arbitrary
+	trait=ambitious
+	trait=gregarious
+	diplomacy=12
+	martial=9
+	stewardship=8
+	intrigue=3
+	learning=6
+	2318.1.1={birth=yes}
+	2338.12.1={
+		add_spouse=300002
+	}
+	2362.1.1={death = {death_reason=death_battle}} #Add a Gaucho ruler as his killer
+	#First king of Serra Gaucha married to a german duchess in order to unite the kingdom
+}
+300002={
+	name="Bárbara"
+	dynasty=100001 #Muller
+	female=yes
+	culture=hunsruckisch
+	religion=evangelical
+	trait=scholarly_theologian
+	trait=fair
+	trait=branch_non_sectarian
+	trait=zealous
+	trait=stubborn
+	trait=proud
+	trait=ambitious
+	diplomacy=5
+	martial=8
+	stewardship=8
+	intrigue=9
+	learning=14
+	#Spouse of Paulo Taurus and former Duchess
+	2322.5.1={birth=yes}
+	2367.1.1={death = {death_reason=murder_unknown}}
+}
+300003={
+	name="Vinicius"
+	dynasty=105001 #taurus
+	culture=talian
+	religion=celeste
+	father=300001
+	mother=300002
+	trait=skilled_tactician
+	trait=fair
+	trait=zealous
+	trait=just
+	trait=charitable
+	trait=wroth
+	diplomacy=3
+	martial=12
+	stewardship=10
+	intrigue=4
+	learning=5
+	2340.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Eldest son of Paulo, King of Serra Gaucha owns Caxias do Sul and Bento Gonçalves should be given a gun old world firearm
+}
+300004={
+	name="Mateus"
+	dynasty=105001 #taurus
+	culture=hunsruckisch
+	religion=evangelical
+	father=300001
+	mother=300002
+	trait=mastermind_theologian
+	trait=strong
+	trait=gluttonous
+	trait=ambitious
+	trait=gregarious
+	trait=socializer
+	trait=zealous
+	diplomacy=10
+	martial=7
+	stewardship=6
+	intrigue=7
+	learning=9
+	2348.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Youngest son of Paulo, Duke of Alto Uruguai, owns Passo Fundo, Carazinho and Soledad
+}
+300005={
+	name="Fernando"
+	dynasty=105002 #Zanchi
+	culture=talian
+	religion=celeste
+	trait=elusive_shadow
+	trait=chaste
+	trait=paranoid
+	trait=zealous
+	diplomacy=7
+	martial=2
+	intrigue=8
+	stewardship=5
+	learning=6
+	2332.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#count-tier vassal of the Duchy of Alto Uruguai, owns Erechim and Palmeira das Missões
+}
 310001={
 	name="Ewa"
 	dynasty=110001

@@ -330,6 +330,62 @@
 	name="Crusius"
 	culture= gaucho
 }
+95067=
+{
+	name="Assis" #O Bruxo add wizard hat to this COA
+	culture= gaucho
+	can_appear = no
+	used_for_random = no
+}
+100001=
+{
+	name="Müller"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no
+}
+100002=
+{
+	name="Vestfália"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no
+}
+100003=
+{
+	name="Chucrute"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no
+}
+100004=
+{
+	name="Rosenfeld"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no
+}
+100005=
+{
+	name="Goettems"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no
+}
+105001=
+{
+	name="Taurus"
+	culture= talian
+	can_appear = no
+	used_for_random = no
+}
+105002=
+{
+	name="Zanchi"
+	culture= talian
+	can_appear = no
+	used_for_random = no
+}
 110001=
 {
 	name="Swiat-Jajek"

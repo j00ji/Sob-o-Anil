@@ -61,6 +61,8 @@ k_omagua;Omagua;Omagua;Omagua;;Omagua;;;;;;;;;x
 k_omagua_adj;Omaguan;;omager;;;;;;;;;;;x
 k_pachacamac;Pachacamac;Pachacamac;Pachacamac;;Pachacamac;;;;;;;;;x
 k_pachacamac_adj;Pachacamacian;;pachacamacer;;;;;;;;;;;x
+k_pampa;Pampa;;;;;;;;;;;x
+k_pampa_adj;Pampean;;;;;;;;;;;x
 k_para;Pará;Pará;Pará;;Pará;;;;;;;;;x
 k_para_adj;Paráian;;paráer;;;;;;;;;;;x
 k_paraguay;Paraguay;Paraguay;Paraguay;;Paraguay;;;;;;;;;x
@@ -89,6 +91,8 @@ k_sao_francisco;São Francisco;São Francisco;São Francisco;;São Francisco;;;;;;;;
 k_sao_francisco_adj;São Franciscian;;São Franciscer;;;;;;;;;;;x
 k_sao_paulo;São Paulo;São Paulo;São Paulo;;São Paulo;;;;;;;;;x
 k_sao_paulo_adj;São Paulian;;São Pauler;;;;;;;;;;;x
+k_serra_gaucha;Serra Gaúcha;;;;;;;;;;;x
+k_serra_gaucha_adj;Serrano;;;;;;;;;;;x
 k_sipan;Sipán;Sipán;Sipán;;Sipán;;;;;;;;;x
 k_sipan_adj;Sipánian;;sipáner;;;;;;;;;;;x
 k_terra_roxa;Terra Roxa;;;;;;;;;;;x
