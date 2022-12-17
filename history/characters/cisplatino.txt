@@ -1,4 +1,152 @@
 #ÄNSI
+280001={
+	name="Humberto"
+	dynasty=95068 #gomes
+	culture=gaucho
+	religion=umbanda
+	trait=tough_soldier
+	trait=peasant_leader
+	trait=lustful
+	trait=charitable
+	trait=brave
+	diplomacy=5
+	martial=8
+	stewardship=8
+	intrigue=6
+	learning=5
+	2329.1.1={birth=yes}
+	#duke of Porto Alegre, directly owns Viamão Guaiba and Porto Alegre
+}
+280002={
+	name="Félix"
+	dynasty=95069 #Borges
+	culture=hunsruckisch
+	religion=evangelical
+	trait=martial_cleric
+	trait=branch_pentecostal
+	trait=sturdy
+	trait=slothful
+	trait=proud
+	diplomacy=3
+	martial=8
+	stewardship=4
+	intrigue=9
+	learning=6
+	2347.1.1={birth=yes}
+	#holder of Novo Hamburgo, vassal of Porto Alegre Duchy
+}
+280003={
+	name="Cibele"
+	dynasty=95070 #Germano
+	female=yes
+	culture=hunsruckisch
+	religion=umbanda
+	trait=freckles
+	trait=intricate_webweaver
+	trait=groomed
+	trait=temperate
+	trait=content
+	2338.1.1={birth=yes}
+	#holder of canoas, vassal of Porto Alegre
+}
+280004={
+	name="Vera"
+	dynasty=95070 #Germano
+	female=yes
+	culture=hunsruckisch
+	mother=280003
+	religion=evangelical
+	trait=freckles
+	2360.1.1={birth=yes}
+	#daughter of Cibele
+}
+280005={
+	name="Roberto"
+	dynasty=95067 #Assis
+	culture=salvadorense
+	religion=farrapo
+	father=280007
+	trait=fortune_builder	
+	trait=fair
+	trait=gregarious
+	trait=greedy
+	#trait=soccer_1
+	diplomacy=12
+	martial=10
+	stewardship=7
+	intrigue=5
+	learning=6
+	2338.1.1={
+		birth=yes 
+		culture=gaucho
+	}
+	2355.1.1={effect={add_friend=280006}}
+	#duke of Costa Doce, directly owns Mostardas and Rio Grande
+}
+280006={
+	name="Ronaldo" #Ronaldinho Gaucho o Bruxo
+	dynasty=95067 #Assis
+	culture=salvadorense
+	religion=farrapo
+	father=280007
+	trait=brilliant_strategist
+	trait=quick
+	trait=ugly
+	trait=deceitful
+	trait=lustful
+	diplomacy=7
+	martial=11
+	stewardship=7
+	intrigue=9
+	learning=7
+	2347.1.1={
+		birth=yes 
+		culture=gaucho
+	}
+	2367.1.1 = {
+		give_nickname = nick_the_wizard
+	}
+	#holder of Pelotas
+}
+280007={
+	name="João"
+	dynasty=95067 #Assis
+	culture=salvadorense
+	religion=farrapo
+	trait=underhanded_rogue
+	trait=kind
+	trait=diligent
+	diplomacy=7
+	martial=8
+	stewardship=7
+	intrigue=9
+	learning=7
+	2307.1.1={
+		birth=yes 
+		culture=gaucho
+	}
+	2355.1.1={death=yes}
+	#Ronaldinho's father
+}
+280008={
+	name="Eduardo"
+	dynasty=95071
+	culture=gaucho
+	religion=vargist
+	trait=grey_eminence
+	trait=sturdy
+	trait=deceitful
+	trait=gluttonous
+	diplomacy=9
+	martial=8
+	stewardship=10
+	intrigue=8
+	learning=7
+	2342.4.1={
+		birth=yes 
+	}
+	#Vargis duke of Coxilhas, holds São Borja, Itaqui and Santiago do Boqueirão
+}
 290001={
 	name="Cecília"
 	dynasty=100002 #westphalia
@@ -127,6 +275,7 @@
 	trait=charismatic_negotiator
 	trait=strong
 	trait=diligent
+	trait=proud
 	trait=cynical
 	trait=arbitrary
 	trait=ambitious

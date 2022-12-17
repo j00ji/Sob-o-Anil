@@ -15,6 +15,6 @@ b_partenon = city
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = umbanda
 
 #History

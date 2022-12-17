@@ -97,7 +97,7 @@
 }
 95020=
 {
-	name="Gomes"
+	name="Bündchen"
 	culture= gaucho
 }
 95021=
@@ -183,7 +183,9 @@
 95037=
 {
 	name="de Castilhos"
-	culture= gaucho
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
 }
 95038=
 {
@@ -336,6 +338,45 @@
 	culture= gaucho
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+95068=
+{
+	name="Gomes"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+}
+95069=
+{
+	name="Borges"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+}
+95070=
+{
+	name="Germano"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+}
+95071=
+{
+	name="Vargas"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
 }
 100001=
 {
@@ -350,6 +391,17 @@
 	culture=hunsruckisch
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 100003=
 {
@@ -364,6 +416,17 @@
 	culture=hunsruckisch
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 100005=
 {
@@ -378,6 +441,17 @@
 	culture= talian
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 105002=
 {
