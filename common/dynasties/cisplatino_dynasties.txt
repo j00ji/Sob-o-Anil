@@ -378,6 +378,34 @@
 	can_appear = no
 	used_for_random = no
 }
+95072=
+{
+	name="Sarmanho"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+}
+95073=
+{
+	name="Fortunato"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+}
+95074=
+{
+	name="Godói"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+}
+95075=
+{
+	name="Gerhard"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no
+}
 100001=
 {
 	name="Müller"

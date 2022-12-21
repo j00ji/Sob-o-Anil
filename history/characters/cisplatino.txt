@@ -130,7 +130,7 @@
 }
 280008={
 	name="Eduardo"
-	dynasty=95071
+	dynasty=95071 #Vargas
 	culture=gaucho
 	religion=vargist
 	trait=grey_eminence
@@ -145,7 +145,334 @@
 	2342.4.1={
 		birth=yes 
 	}
-	#Vargis duke of Coxilhas, holds São Borja, Itaqui and Santiago do Boqueirão
+	2366={
+		add_spouse=290009
+	}
+	2400.1.1={death=yes}
+	#Vargist duke of Coxilhas, holds São Borja, Itaqui and Santiago do Boqueirão
+}
+290009={
+	name="Elis"
+	dynasty=95072 #Sarmanho
+	female=yes
+	culture=gaucho
+	religion=vargist
+	trait=indulgent_wastrel
+	trait=fair
+	trait=shrewd
+	trait=content
+	trait=proud
+	diplomacy=6
+	martial=3
+	stewardship=5
+	intrigue=4
+	learning=7
+	2346.1.1={
+		birth=yes
+	}
+	2400.1.1={death=yes}
+	#Eduardo Vargas's spouse
+}
+290010={
+	name="Valder"
+	dynasty=95072 #Sarmanho
+	culture=gaucho
+	religion=vargist
+	trait=scholarly_theologian
+	trait=fair
+	trait=erudite
+	trait=envious
+	diplomacy=5
+	martial=8
+	stewardship=6
+	intrigue=8
+	learning=11
+	2350.1.1={
+		birth=yes
+	}
+	2400.1.1={death=yes}
+	#Chief of Uruguaiana, vassal of Coxilhas
+}
+290011={
+	name="Gregório"
+	dynasty=95073 #Fortunato
+	culture=salvadorense
+	religion=vargist
+	trait=elusive_shadow
+	trait=robust
+	trait=paranoid
+	trait=duelist
+	trait=diligent
+	trait=wroth
+	diplomacy=4
+	martial=10
+	stewardship=3
+	intrigue=9
+	learning=5
+	2351.1.1={
+		birth=yes
+		culture=gaucho
+	}
+	2368.4.1={
+		add_lover=290012
+	}
+	2369.1.1={
+		add_spouse=290012
+	}
+	2400.1.1={death=yes}
+	#chief of Alegrete, vassal of Coxilhas
+}
+290012={
+	name="Juraci"
+	dynasty = none
+	female=yes
+	culture=gaucho
+	religion=catholic
+	trait=naive_appeaser
+	trait=strong
+	trait=stutter
+	trait=humble
+	trait=kind
+	disallow_random_traits = yes
+	diplomacy=8
+	martial=4
+	stewardship=7
+	intrigue=8
+	learning=11
+	2352.1.1={
+		birth=yes
+	}
+	2400.1.1={death=yes}
+	#spouse of Gregório Fortunato
+}
+290013={
+	name="Augusto"
+	dynasty=95037 #Castilhos
+	culture=gaucho
+	religion=vargist
+	trait=mastermind_theologian
+	trait=genius
+	trait=scholar
+	trait=diligent
+	trait=stubborn
+	diplomacy=8
+	martial=7
+	stewardship=5
+	intrigue=5
+	learning=15
+	2298.1.1={
+		birth=yes
+	}
+	2350.1.1={
+		death=yes
+	}
+	#previous ruler of Santa Maria and Caçapava do SUl
+}
+290014={
+	name="Tiago"
+	dynasty=95037 #Castilhos
+	father=290013
+	culture=gaucho
+	religion=farrapo
+	trait=misguided_warrior
+	trait=quick
+	trait=stubborn
+	trait=slothful
+	trait=ambitious
+	diplomacy=2
+	martial=8
+	stewardship=4
+	intrigue=6
+	learning=4
+	2333.1.1={
+		birth=yes
+	}
+	2400.1.1={death=yes}
+	#holder of Santa Maria and Caçapava do Sul
+}
+290015={
+	name="Cândido"
+	dynasty=95074 #Godói
+	culture=gaucho
+	religion=farrapo
+	trait=skilled_tactician
+	trait=is_fat
+	trait=gluttonous
+	trait=lustful
+	diplomacy=6
+	martial=8
+	stewardship=7
+	intrigue=9
+	learning=2
+	2318.1.1={
+		birth=yes
+	}
+	2345.1.1={
+		add_spouse=290017
+	}
+	2400.1.1={
+		death=yes
+	}
+	#Duke of Missões, holder of santa rosa and ijui
+}	
+290016={
+	name="Wolfgang"
+	dynasty=95075 #Gerhard
+	culture=hunsruckisch
+	religion=farrapo
+	trait=scholarly_theologian
+	trait=physician
+	trait=cynical
+	trait=arbitrary
+	trait=cruel
+	trait=patient
+	trait=lustful
+	diplomacy=10
+	martial=2
+	stewardship=4
+	intrigue=13
+	learning=16
+	2300.1.1={
+		birth=yes
+	}
+	2355.1.1={
+		death=yes
+	}
+	#Former holder of Santa Rosa
+}
+290017={
+	name="Marta"
+	dynasty=95075 #Gerhard
+	female=yes
+	father=290016
+	culture=hunsruckisch
+	religion=farrapo
+	trait=naive_appeaser
+	trait=twin
+	trait=feeble
+	trait=kind
+	diplomacy=5
+	martial=1
+	stewardship=7
+	intrigue=2
+	learning=10
+	2329.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#Spouse of Candido Godoi
+}
+290018={
+	name="Marcelo"
+	dynasty=95075 #Gerhard
+	father=290016
+	culture=hunsruckisch
+	religion=farrapo
+	trait=tough_soldier
+	trait=twin
+	trait=brawny
+	trait=duelist
+	trait=lustful
+	diplomacy=5
+	martial=12
+	stewardship=4
+	intrigue=4
+	learning=2
+	2329.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#Holder of Santa Rosa
+}
+290019={
+	name="Lucia"
+	dynasty=95075 #Gerhard
+	father=290018
+	female=yes
+	culture=hunsruckisch
+	religion=farrapo
+	trait=flamboyant_schemer
+	trait=twin
+	trait=ambitious
+	trait=charitable
+	2352.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#daughter of Marcelo Gerhard
+}
+290020={
+	name="Luciane"
+	dynasty=95075 #Gerhard
+	father=290018
+	female=yes
+	culture=hunsruckisch
+	religion=farrapo
+	trait=flamboyant_schemer
+	trait=twin
+	trait=stubborn
+	trait=slothful
+	2352.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#daughter of Marcelo Gerhard
+}
+290021={
+	name="Carlos"
+	dynasty=95074 #Godói
+	father=290015
+	mother=290017
+	culture=gaucho
+	religion=farrapo
+	trait=tough_soldier
+	trait=twin
+	trait=ambitious
+	trait=proud
+	diplomacy=6
+	martial=8
+	stewardship=7
+	intrigue=9
+	learning=2
+	2350.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#son of Candido Godoi owns São Miguel das Missões
+}
+290022={
+	name="Caio"
+	dynasty=95074 #Godói
+	father=290015
+	mother=290017
+	culture=gaucho
+	religion=farrapo
+	trait=tough_soldier
+	trait=twin
+	trait=groomed
+	trait=brave
+	diplomacy=6
+	martial=8
+	stewardship=7
+	intrigue=9
+	learning=2
+	2350.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#son of Candido Godoi owns São Nicolau and São Luis Gonzaga
 }
 290001={
 	name="Cecília"
@@ -163,6 +490,9 @@
 	learning=7
 	#countess of Federico Westphalen, might make her lover of Mateus Taurus
 	2351.1.1={birth=yes}
+	2400.1.1={
+		death=yes
+	}
 }
 290002={
 	name="Hans"
@@ -180,6 +510,9 @@
 	intrigue=4
 	learning=7
 	2331.1.1={birth=yes}
+	2400.1.1={
+		death=yes
+	}
 	#count of Cruz Alta
 }
 290003={
@@ -219,6 +552,9 @@
 	intrigue=5
 	learning=10
 	2337.1.1={birth=yes}
+	2400.1.1={
+		death=yes
+	}
 	#spouse of Arthur, should be made Aunt of Cecília
 }
 290005={
@@ -230,6 +566,9 @@
 	mother=290004
 	trait=branch_methodist
 	2359.1.1={birth=yes}
+	2400.1.1={
+		death=yes
+	}
 }
 290006={
 	name="Rafaela"
@@ -241,6 +580,9 @@
 	mother=290004
 	trait=branch_methodist
 	2363.1.1={birth=yes}
+	2400.1.1={
+		death=yes
+	}
 }
 290007={
 	name="Carol"
@@ -252,6 +594,9 @@
 	mother=290004
 	trait=branch_methodist
 	2368.1.1={birth=yes}
+	2400.1.1={
+		death=yes
+	}
 }
 290008={
 	name="Lino"
@@ -266,6 +611,9 @@
 	2320.1.1={birth=yes}
 	2350.1.1={effect={add_friend=300003}}
 	#ruler of lageado
+	2400.1.1={
+		death=yes
+	}
 }
 300001={
 	name="Paulo"

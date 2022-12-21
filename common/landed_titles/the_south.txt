@@ -322,7 +322,7 @@ e_the_south = {
 			}
 		}
 		d_missoes = {
-			color={ 21 237 223 }
+			color={ 1 102 70 }
 			color2={ 255 255 255 }
 			
 			capital = 161 # c_santo_angelo
