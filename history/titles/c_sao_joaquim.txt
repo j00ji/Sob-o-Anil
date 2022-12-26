@@ -6,3 +6,13 @@
 800.1.1={
 	liege=k_santa_catarina
 }
+2290.1.1={
+	holder=27004
+}
+2326.1.1={
+	holder=27005
+}
+2340.1.1={
+	holder=270001
+	liege=d_lages
+}

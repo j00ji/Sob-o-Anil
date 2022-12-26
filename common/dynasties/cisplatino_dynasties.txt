@@ -1,5 +1,28 @@
 ###ÄNSI
-
+90001=
+{
+	name="Madruga"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+90002={
+	name="Frias"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+}
 95001=
 {
 	name="Menna Barreto"
@@ -282,7 +305,10 @@
 {
 	name="Aranha"
 	culture= gaucho
+	can_appear=no
+	used_for_random=no
 }
+
 95055=
 {
 	name="Lemes"
@@ -517,6 +543,13 @@
 			color = 0
 		}
 	}
+}
+95081=
+{
+	name="Canabarro"
+	culture=gaucho
+	can_appear=no
+	used_for_random=no
 }
 100001=
 {

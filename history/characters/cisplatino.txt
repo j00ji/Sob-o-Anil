@@ -1,4 +1,197 @@
 #ÄNSI
+270001={
+	name="Ramon"
+	dynasty=90001 #Madruga
+	father=27005
+	culture=brown
+	dna="a0bae0kbab0"
+	properties="gh00e0000000000000000000000000000000"
+	religion=celeste
+	trait=flamboyant_schemer
+	trait=is_malnourished
+	trait=slothful
+	trait=wroth
+	trait=humble
+	trait=shrewd
+	trait=uncouth
+	disallow_random_traits=yes
+	diplomacy=7
+	martial=7
+	stewardship=4
+	intrigue=12
+	learning=3
+	2329.1.1={
+		birth=yes
+		culture=greenbelly
+	}
+	2360.1.1-{
+		effect={
+			add_character_modifier = {
+				name = borrowed_from_jews
+				duration = -1
+				inherit = yes
+			}
+		}
+	}
+	2400.1.1={
+		death=yes
+	}
+	#holder of São Joaquim?
+	#O Seu Madruga não é sonambulo, ele é CATARINENSE
+}
+270002={
+	name="Maria Francisca" #Chiquinha
+	dynasty=90001 #Madruga
+	female=yes
+	culture=greenbelly
+	father=270001
+	dna="b0hbe0cbaa0"
+	properties="ce0h0k000000000000000000000000000000"
+	religion=celeste
+	trait=freckles
+	trait=quick
+	trait=playful
+	trait=haughty
+	trait=curious
+	disallow_random_traits=yes
+	2361.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+}
+27003={
+	name="Neves" #Dona Neves
+	dynasty=90002 #Frias
+	female=yes
+	culture=greenbelly
+	dna="b0hbe0cbaa0"
+	properties="ce0h0k000000000000000000000000000000"
+	religion=celeste
+	trait=flamboyant_schemer
+	trait=freckles
+	trait=deceitful
+	trait=proud
+	trait=shrewd
+	disallow_random_traits=yes
+	diplomacy=9
+	martial=8
+	stewardship=4
+	intrigue=13
+	learning=6
+	#she must be really old
+	2279.1.1={
+		birth=yes
+	}
+}
+27004={
+	name="Limão Aguado"
+	dynasty=90001 #Madruga
+	culture=brown
+	religion=celeste
+	trait=naive_appeaser
+	trait=frail
+	trait=kind
+	trait=humble
+	2275.1.1={
+		birth=yes
+		culture=greenbelly
+	}
+	2299.1.1={
+		add_spouse=27003
+	}
+	2326.1.1={
+		death=yes
+	}
+	#formerformer ruler of SaoJoaquim
+}
+27005={
+	name="Rafael"
+	dynasty=90001 #Madruga
+	father=27004
+	mother=27003
+	culture=brown
+	religion=celeste
+	trait=fortune_builder
+	trait=honest
+	trait=patient
+	diplomacy=7
+	martial=5
+	stewardship=12
+	intrigue=6
+	learning=7
+	2300.1.1={
+		birth=yes
+		culture=greenbelly
+	}
+	2340.1.1={
+		death=yes
+	}
+	#father of seu madruga former ruler of SaoJoaquim
+}
+270006={
+	name="Ernesto"
+	dynasty=95081 #Canabarro
+	culture=gaucho
+	religion=farrapo
+	trait=brilliant_strategist
+	trait=adventurer
+	trait=ambitious
+	trait=zealous
+	diplomacy=8
+	martial=17
+	stewardship=15
+	intrigue=7
+	learning=10
+	2299.1.1={
+		birth=yes
+	}
+	2359.1.1={
+		death=yes
+	}
+	#lead the invasion of Laguna
+}
+270007={
+	name="Igor"
+	dynasty=95081 #Canabarro
+	father=270006
+	culture=gaucho
+	religion=farrapo
+	trait=tough_soldier
+	trait=ambitious
+	trait=cavalry_leader
+	trait=shy
+	trait=slothful
+	diplomacy=2
+	martial=11
+	stewardship=8
+	intrigue=5
+	learning=2
+	2345.1.1={
+		birth=yes
+	}
+	#duke of ararangua, holds Laguna, Tubarão and Criciuma
+}
+270008={
+	name="Giovana"
+	dynasty=95054 #Aranha
+	female=yes
+	culture=gaucho
+	religion=farrapo
+	trait=midas_touched
+	trait=greedy
+	trait=proud
+	diplomacy=7
+	martial=4
+	stewardship=14
+	intrigue=11
+	learning=4
+	2342.1.1={
+		birth=yes
+	}
+	#vassal of Ararangua, holder of Torres and Osório
+}
 280001={
 	name="Humberto"
 	dynasty=95068 #gomes
