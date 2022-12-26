@@ -214,7 +214,7 @@
 		culture=gaucho
 	}
 	2368.4.1={
-		add_lover=290012
+		effect={add_lover=290012}
 	}
 	2369.1.1={
 		add_spouse=290012
@@ -474,6 +474,232 @@
 	}
 	#son of Candido Godoi owns São Nicolau and São Luis Gonzaga
 }
+290023={
+	name="Teiniaguá"
+	dynasty=95076 #Salamanca
+	female=yes
+	culture=brown
+	religion=catholic
+	trait=underhanded_rogue
+	trait=fair
+	trait=mystic
+	trait=sympathy_old_world
+	trait=lustful
+	diplomacy=8
+	martial=4
+	stewardship=4
+	intrigue=9
+	learning=9
+	2349.1.1={
+		birth=yes
+		culture=gaucho
+	}
+	2365.3.2={
+		effect={add_lover=290024}
+	}
+	2367.1.1={
+		add_spouse=290024
+	}
+	2400.1.1={
+		death=yes
+	}
+	#holder of arapei and Artigas
+}
+290024={
+	name="Erico"
+	dynasty=none
+	culture=guacho
+	religion=catholic
+	trait=martial_cleric
+	trait=charitable
+	trait=honest
+	diplomacy=4
+	martial=8
+	stewardship=8
+	intrigue=4
+	learning=11
+	2347.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#spouse of Teiniaguá
+}
+290025={
+	name="Carlo"
+	dynasty=95077 #Peruzzo
+	culture=gaucho
+	religion=farrapo
+	trait=charismatic_negotiator
+	trait=lustful
+	trait=gluttonous
+	trait=hedonist
+	trait=scarred_mid
+	diplomacy=10
+	martial=8
+	stewardship=5
+	intrigue=6
+	learning=1
+	2338.1.1={
+		birth=yes
+	}
+	2367.1.2={
+		add_spouse=280030
+	}
+	2400.1.1={
+		death=yes
+	}
+	#ruler of Campanha Gaucha
+}
+280026={
+	name="Fioravante"
+	dynasty=95078 #Bertussi
+	culture=gaucho
+	religion=farrapo
+	trait=thrifty_clerk
+	trait=cavalry_leader
+	trait=ambitious
+	trait=humble
+	trait=lustful
+	diplomacy=11
+	martial=10
+	stewardship=15
+	intrigue=10
+	learning=8
+	2296.1.1={
+		birth=yes
+	}
+	2354.1.1={
+		death=yes
+	}
+	#former ruler of Rio Pardo
+}
+280027={
+	name="Adelar"
+	dynasty=95078 #Bertussi
+	culture=gaucho
+	religion=farrapo
+	father=280026
+	trait=thrifty_clerk
+	trait=content
+	trait=poet
+	diplomacy=9
+	martial=6
+	stewardship=12
+	intrigue=2
+	learning=8
+	2330.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#duke of vale do rio pardo holder of Santa Cruz do Sul and Camaquã
+}
+280028={
+	name="Honeyde"
+	dynasty=95078 #Bertussi
+	culture=gaucho
+	religion=farrapo
+	father=280026
+	trait=naive_appeaser
+	trait=poet
+	trait=groomed
+	trait=greedy
+	diplomacy=10
+	martial=5
+	stewardship=8
+	intrigue=5
+	learning=6
+	2333.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#holder of rio pardo
+}
+280029={
+	name="Walmor"
+	dynasty=95078 #Bertussi
+	culture=gaucho
+	religion=farrapo
+	father=280026
+	trait=tough_soldier	
+	trait=cavalry_leader
+	trait=proud
+	trait=duelist
+	trait=patient
+	trait=one_eyed
+	diplomacy=8
+	martial=8
+	stewardship=5
+	intrigue=5
+	learning=5
+	2343.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#holder of cachoeira do sul
+}
+280030={
+	name="Doralice"
+	dynasty=95078 #Bertussi
+	female=yes
+	culture=gaucho
+	religion=farrapo
+	father=280026
+	trait=amateurish_plotter
+	diplomacy=8
+	martial=6
+	stewardship=7
+	intrigue=5
+	learning=6
+	2351.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#spouse of Carlo of Campanha
+}
+280031={
+	name="Lorenzo"
+	dynasty=95079 #Medici
+	culture=gaucho
+	religion=farrapo
+	trait=skilled_tactician
+	trait=paranoid
+	trait=diligent
+	trait=cruel
+	trait=wroth
+	2315.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#ruler of Bagé
+}
+280032={
+	name="Leonardo"
+	dynasty=95080 #Brizola
+	culture=gaucho
+	religion=vargist
+	trait=underhanded_rogue
+	trait=charitable
+	trait=socializer
+	2344.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#duke of tapes, holds Jaguarão and Piratini
+}
 290001={
 	name="Cecília"
 	dynasty=100002 #westphalia
@@ -615,6 +841,10 @@
 		death=yes
 	}
 }
+#Skipping to 290031 due to a tagging mistake 
+#290031={
+#
+#}
 300001={
 	name="Paulo"
 	dynasty=105001 #taurus
@@ -685,7 +915,7 @@
 	#Eldest son of Paulo, King of Serra Gaucha owns Caxias do Sul and Bento Gonçalves should be given a gun old world firearm
 }
 300004={
-	name="Mateus"
+	name="Matheus"
 	dynasty=105001 #taurus
 	culture=hunsruckisch
 	religion=evangelical

@@ -186,6 +186,17 @@
 	culture=gaucho
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 95038=
 {
@@ -377,6 +388,17 @@
 	culture=gaucho
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 95072=
 {
@@ -391,6 +413,17 @@
 	culture=gaucho
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 95074=
 {
@@ -405,6 +438,85 @@
 	culture=hunsruckisch
 	can_appear = no
 	used_for_random = no
+}
+95076=
+{
+	name="Salamanca"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+95077=
+{
+	name="Peruzzo"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+95078=
+{
+	name="Bertussi"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+}
+95079=
+{
+	name="Médici"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+95080=
+{
+	name="Brizola"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 100001=
 {

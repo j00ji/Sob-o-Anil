@@ -16,6 +16,6 @@ b_termas_do_arapei = tribal
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = catholic
 
 #History
