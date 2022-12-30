@@ -171,6 +171,9 @@
 	2345.1.1={
 		birth=yes
 	}
+	2400.1.1={
+		death=yes
+	}
 	#duke of ararangua, holds Laguna, Tubarão and Criciuma
 }
 270008={
@@ -190,8 +193,231 @@
 	2342.1.1={
 		birth=yes
 	}
+	2400.1.1={
+		death=yes
+	}
 	#vassal of Ararangua, holder of Torres and Osório
 }
+270009={
+	name="Altair"
+	dynasty=90003 #Amorim
+	culture=greenbelly
+	religion=celeste
+	trait=thrifty_clerk
+	trait=kind
+	trait=is_fat
+	diplomacy=6
+	martial=7
+	stewardship=9
+	intrigue=4
+	learning=7
+	2301.1.1={
+		birth=yes
+	}
+	2354.1.1={
+		death=yes
+	}
+	#Father of João Amorim, former ruler of Lages, Caçador and Rio do Sul
+}
+270010={
+	name="Carine"
+	dynasty=none
+	culture=hunsruckisch
+	religion=celeste
+	trait=naive_appeaser
+	trait=kind
+	trait=gluttonous
+	diplomacy=7
+	martial=6
+	stewardship=4
+	intrigue=5
+	learning=5
+	2310.1.1={
+		birth=yes
+	}
+	2363.1.1={
+		death=yes
+	}
+	#mother of João Amorim
+}
+270011={
+	name="João" #haha funny meme
+	dynasty=90003 #Amorim
+	culture=greenbelly
+	religion=celeste
+	father=270009
+	mother=270010
+	trait=tough_soldier
+	#trait=musician
+	trait=poet #for now, when we add musician trait it should be changed
+	trait=brave
+	trait=humble
+	trait=chaste
+	trait=is_fat
+	diplomacy=9
+	martial=11
+	stewardship=8
+	intrigue=7
+	learning=7
+	2326.1.1={
+		birth=yes
+	}
+	2350.1.1={
+		add_spouse=270012
+	}
+	2365.1.1={
+		add_rival=270016
+		add_rival=270014
+	}
+	2400.1.1={
+		death=yes
+	}
+	#João Amorim, duke of lages holds lages and Caçador formerly held Rio do Sul too but lost it in a war
+}
+270012={
+	name="Lucimara"
+	dynasty=none
+	female=yes
+	culture=greenbelly
+	religion=celeste
+	trait=naive_appeaser
+	trait=chaste
+	trait=kind
+	trait=brave
+	diplomacy=4
+	martial=3
+	stewardship=4
+	intrigue=1
+	learning=5
+	2330.1.1={
+		birth=yes
+	}
+	2365.1.1={
+		death={
+			death_reason = death_murder
+			killer=270016 #Santana acabe com ela
+		}
+	}
+	#Wife of João Amorim, killed by Santana on the orders of the Geisel ruler
+}
+270013={
+	name="Maria"
+	dynasty=90003 #Amorim
+	female=yes
+	father=270011
+	mother=270012
+	culture=greenbelly
+	religion=celeste
+	trait=willful
+	diplomacy=8
+	martial=8
+	stewardship=6
+	intrigue=9
+	learning=7
+	2354.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+}
+270014={
+	name="Santana"
+	dynasty=none
+	culture=greenbelly
+	religion=evangelical
+	trait=tough_soldier
+	trait=branch_pentecostal
+	trait=duelist
+	trait=robust
+	trait=greedy
+	diplomacy=4
+	martial=12
+	stewardship=2
+	intrigue=7
+	learning=5
+	2325.1.1={
+		birth=yes
+	}
+	2360.1.1={
+		employer=270016
+	}
+	2400.1.1={
+		death=yes
+	}
+	#killed Amorim's wife
+}
+270015={
+	name="Attilio"
+	dynasty=90004 #fontana the sadia dynasty
+	culture=talian
+	religion=celeste
+	trait=ambitious
+	trait=midas_touched
+	trait=diligent
+	trait=greedy
+	diplomacy=10
+	martial=4
+	stewardship=12
+	intrigue=6
+	learning=8
+	2337.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#ruler of Concórdia vassal of Lages
+}
+270016={
+	name="Ivan"
+	dynasty=100006 #geisel
+	culture=hunsruckisch
+	religion=evangelical
+	trait=intricate_webweaver
+	#we need a luthran branch
+	trait=ambitious
+	trait=arbitrary
+	trait=cruel
+	diplomacy=5
+	martial=10
+	stewardship=10
+	intrigue=12
+	learning=8
+	2329.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#duke of both vale do itajai and passo do principe
+}
+270017={
+	name="Adão"
+	dynasty=100006 #geisel
+	culture=hunsruckisch
+	religion=evangelical
+	trait=midas_touched
+	trait=gluttonous
+	trait=kind
+	trait=trusting
+	trait=is_fat
+	diplomacy=11
+	martial=4
+	stewardship=15
+	intrigue=6
+	learning=8
+	2333.1.1={
+		birth=yes
+	}
+	2360.1.1={
+		death={
+			death_reason = death_murder_unknown
+		}
+	}
+	#former ruler of passo do principe killed under suspicious circunstances I wonder by who...
+}
+
 280001={
 	name="Humberto"
 	dynasty=95068 #gomes
@@ -338,7 +564,7 @@
 	2342.4.1={
 		birth=yes 
 	}
-	2366={
+	2366.1.1={
 		add_spouse=290009
 	}
 	2400.1.1={death=yes}
@@ -565,7 +791,7 @@
 	religion=farrapo
 	trait=tough_soldier
 	trait=twin
-	trait=brawny
+	trait=robust
 	trait=duelist
 	trait=lustful
 	diplomacy=5

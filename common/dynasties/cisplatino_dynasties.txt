@@ -23,6 +23,29 @@
 	can_appear = no
 	used_for_random = no
 }
+90003={
+	name="Amorim"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+}
+90004={
+	name="Fontana"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 95001=
 {
 	name="Menna Barreto"
@@ -604,6 +627,13 @@
 100005=
 {
 	name="Goettems"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no
+}
+100006=
+{
+	name="Geisel"
 	culture=hunsruckisch
 	can_appear = no
 	used_for_random = no
