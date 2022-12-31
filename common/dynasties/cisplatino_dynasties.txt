@@ -46,6 +46,35 @@
 		}
 	}
 }
+90005={
+	name="César"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+90006={
+	name="Melo"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+}
+90007={
+	name="Amin"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+}
 95001=
 {
 	name="Menna Barreto"
@@ -330,6 +359,17 @@
 	culture= gaucho
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 95055=
@@ -638,6 +678,13 @@
 	can_appear = no
 	used_for_random = no
 }
+100007=
+{
+	name="Renaux"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no	
+}
 105001=
 {
 	name="Taurus"
@@ -662,6 +709,24 @@
 	culture= talian
 	can_appear = no
 	used_for_random = no
+}
+105003=
+{
+	name="Balan"
+	culture= talian
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 110001=
 {

@@ -5,8 +5,8 @@ e_the_south = {
 	capital = 143 # c_porto_alegre
 	culture = gaucho
 	
-	k_rio_grande_do_sul = {
-		color={ 98 147 192 }
+	k_pampa = {
+		color={ 255 234 000 }
 		color2={ 255 255 255 }
 		
 		capital = 143 # c_porto_alegre

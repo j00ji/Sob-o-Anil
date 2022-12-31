@@ -266,8 +266,8 @@
 		add_spouse=270012
 	}
 	2365.1.1={
-		add_rival=270016
-		add_rival=270014
+		effect={add_rival=270016} #Ivan
+		effect={add_rival=270014} #santana
 	}
 	2400.1.1={
 		death=yes
@@ -294,7 +294,7 @@
 	}
 	2365.1.1={
 		death={
-			death_reason = death_murder
+			death_reason=death_murder
 			killer=270016 #Santana acabe com ela
 		}
 	}
@@ -412,10 +412,643 @@
 	}
 	2360.1.1={
 		death={
-			death_reason = death_murder_unknown
+			death_reason=death_murder_unknown
 		}
 	}
 	#former ruler of passo do principe killed under suspicious circunstances I wonder by who...
+}
+270018={
+	name="Caio"
+	dynasty=90005 #César
+	culture=greenbelly
+	religion=celeste
+	trait=brilliant_strategist
+	trait=brave
+	trait=strategist
+	trait=one_eyed
+	diplomacy=7
+	martial=16
+	stewardship=9
+	intrigue=9
+	learning=8
+	2297.1.1={
+		birth=yes
+	}
+	2364.1.1={
+		death=yes
+	}
+	#Former ruler of Florianopólis, started to rule after 2359
+}
+270019={
+	name="Otávio"
+	dynasty=90005 #César
+	father=270018
+	culture=greenbelly
+	religion=celeste
+	trait=misguided_warrior
+	trait=gregarious
+	trait=content
+	diplomacy=8
+	martial=5
+	stewardship=4
+	intrigue=7
+	learning=7
+	2333.1.1={
+		birth=yes
+	}
+	2357.1.1={
+		death = {
+               death_reason = death_battle
+               killer = 270006
+          }
+	}
+	#son of Caio, died in battle against gauchos
+}
+270020={
+	name="Fabiana"
+	dynasty=90005 #César
+	father=270019
+	culture=greenbelly
+	religion=celeste
+	trait=flamboyant_schemer
+	trait=stubborn
+	trait=temperate
+	diplomacy=6
+	martial=7
+	stewardship=9
+	intrigue=9
+	learning=9
+	2349.1.1={
+		birth=yes
+	}
+	#oldest daughter of Otávio
+}
+270021={
+	name="Júlio"
+	dynasty=90005 #César
+	father=270019
+	culture=greenbelly
+	religion=celeste
+	trait=skilled_tactician
+	trait=genius
+	#trait=ambitious he will gain this trait upon game start through his event
+	trait=wroth
+	trait=charitable
+	disallow_random_traits=yes
+	diplomacy=7
+	martial=10
+	stewardship=7
+	intrigue=7
+	learning=7
+	2353.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#current ruler of São José da Terra Firme and a patrician
+}
+270022={
+	name="Cláudio"
+	dynasty=90005 #César
+	culture=greenbelly
+	religion=celeste
+	trait=thrifty_clerk
+	trait=humble
+	trait=kind
+	trait=stubborn
+	diplomacy=12
+	martial=5
+	stewardship=12
+	intrigue=9
+	learning=10
+	2339.1.1={
+		birth=yes
+	}
+	2363.1.1={
+		death=yes
+	}
+	#other member of the César dynasty
+}
+270023={
+	name="Augusto"
+	dynasty=90005 #César
+	father=270019
+	culture=greenbelly
+	religion=celeste
+	trait=twin
+	trait=playful
+	trait=willful
+	2360.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#young member of the césar dynasty
+}
+270024={
+	name="Lívia"
+	dynasty=90005 #César
+	female=yes
+	father=270019
+	culture=greenbelly
+	religion=celeste
+	trait=twin
+	trait=playful
+	trait=affectionate
+	2360.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#young member of the césar dynasty
+}
+270025={
+	name="Camila"
+	dynasty=90005 #César
+	female=yes
+	culture=greenbelly
+	religion=celeste
+	trait=underhanded_rogue
+	trait=groomed	
+	trait=lustful
+	trait=paranoid
+	2312.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+}
+270026={
+	name="Arno"
+	dynasty=100007 #Renaux
+	culture=hunsruckisch
+	religion=evangelical
+	trait=charismatic_negotiator
+	trait=branch_methodist
+	trait=gregarious
+	trait=lustful
+	trait=proud
+	trait=craven
+	trait=trusting
+	2308.1.1={
+		birth=yes
+	}
+	2328.1.1={
+		add_spouse=270025
+	}
+	2360.1.1={
+		death=yes
+	}
+	#fourth ruler of the Floripa republic
+}
+270027={
+	name="Maximiliano"
+	dynasty=100007 #Renaux
+	culture=hunsruckisch
+	father=270026
+	mother=270025
+	trait=underhanded_rogue
+	trait=branch_methodist
+	trait=zealous
+	trait=envious
+	trait=deceitful
+	diplomacy=8
+	martial=5
+	stewardship=6
+	intrigue=7
+	learning=4
+	2339.1.1={
+		birth=yes
+	}
+	2362.1.1={
+		add_spouse=270029
+	}
+	2400.1.1={
+		death=yes
+	}
+	#current holder of Brusque, patrician of Florianopólis
+}
+270028={
+	name="Frederico"
+	dynasty=100007 #Renaux
+	culture=hunsruckisch
+	father=270026
+	mother=270025
+	trait=martial_cleric
+	trait=branch_methodist
+	trait=zealous
+	trait=erudite
+	trait=temperate
+	diplomacy=8
+	martial=3
+	stewardship=7
+	intrigue=6
+	learning=11
+	2347.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#younger brother of Frederico Renaux
+}
+270029={
+	name="Gisele"
+	female=yes
+	dynasty=100006 #geisel
+	culture=hunsruckisch
+	religion=evangelical#we need a luthran branch
+	trait=intricate_webweaver
+	trait=schemer
+	trait=groomed
+	trait=ambitious
+	trait=freckles_2 #why not I guess
+	diplomacy=9
+	martial=5
+	stewardship=7
+	intrigue=9
+	learning=7
+	2345.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#wife of the brusque patrician
+}
+270030={
+	name="Osvaldo"
+	dynasty=90006 #Melo
+	culture=greenbelly
+	religion=kardecists
+	trait=grey_eminence
+	trait=socializer
+	trait=sympathy_christendom
+	diplomacy=17
+	martial=10
+	stewardship=10
+	intrigue=5
+	learning=5
+	2245.1.1={
+		birth=yes
+	}
+	2300.1.1={
+		death=yes
+	}
+	#defeated the old Geisel rulers of Florianopólis and founded the republic, ruled from 2265 until his death in 2300
+}
+270031={
+	name="José"
+	dynasty=90006 #Melo
+	culture=greenbelly
+	religion=kardecists
+	father=270030
+	trait=mastermind_theologian
+	trait=theologian
+	trait=lustful
+	trait=charitable
+	2267.1.1={
+		birth=yes
+	}
+	2320.1.1={
+		death=yes
+	}
+	#son of Osvaldo Melo
+}
+270032={
+	name="Helio"
+	dynasty=90006 #Melo
+	culture=greenbelly
+	religion=kardecists
+	father=270030
+	trait=tough_soldier
+	trait=duelist
+	trait=brave
+	trait=charitable
+	2280.1.1={
+		birth=yes
+	}
+	2330.1.1={
+		death=yes
+	}
+	#second son of Osvaldo Melo, third ruler of the Floripa Republic, ruled from 2311 onwards
+}
+270033={
+	name="Avelino"
+	dynasty=90006 #Melo
+	culture=greenbelly
+	religion=kardecists
+	father=270031
+	trait=thrifty_clerk
+	trait=dull
+	trait=uncouth
+	2301.1.1={
+		birth=yes
+	}
+	2353.1.1={
+		death=yes
+	}
+	#son of José Melo
+}
+270034={
+	name="Ari"
+	dynasty=90006 #Melo
+	father=270033
+	culture=greenbelly
+	religion=kardecists
+	trait=fortune_builder
+	trait=mystic
+	trait=lefthanded
+	trait=gardener
+	trait=diligent
+	trait=proud
+	2315.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#current and fifht ruler of Florianopólis republic
+}
+270035={
+	name="Selma"
+	dynasty=none
+	culture=greenbelly
+	religion=kardecists
+	trait=naive_appeaser
+	trait=fair
+	trait=envious
+	trait=diligent
+	2330.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#wife of Ari
+}
+270036={
+	name="Givaldo"
+	dynasty=90006 #Melo
+	father=270034
+	culture=greenbelly
+	religion=kardecists
+	trait=amateurish_plotter
+	trait=ambitious
+	2349.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#son of Ari
+}
+270037={
+	name="Gerson"
+	dynasty=90006 #Melo
+	father=270034
+	mother=270035
+	culture=greenbelly
+	religion=kardecists
+	trait=brooding
+	2359.1.1={
+		birth=yes
+	}
+	#seocnd son of Ari
+}
+270038={
+	name="Angelo"
+	dynasty=105003 #Balan
+	culture=talian
+	religion=celeste
+	trait=elusive_shadow
+	trait=is_fat
+	trait=wroth
+	trait=one_legged
+	trait=shrewd
+	2243.1.1={
+		birth=yes
+	}
+	2311.1.1={
+		death=yes
+	}
+	#second ruler of the Florianopólis republic ruled from 2300 onwards
+}
+270039={
+	name="Antônio"
+	dynasty=105003 #Balan
+	father=270038
+	culture=talian
+	religion=celeste
+	trait=midas_touched
+	trait=diligent
+	trait=lustful
+	trait=stubborn
+	2287.1.1={
+		birth=yes
+	}
+	2320.1.1={
+		add_spouse=270040
+	}
+	2344.1.1={
+		death=yes
+	}
+	#son of Angelo Balan
+}
+270040={
+	name="Gabriela"
+	dynasty=100007 #Renaux
+	culture=hunsruckisch
+	religion=celeste
+	trait=fortune_builder
+	trait=wroth
+	trait=robust
+	trait=zealous
+	2296.1.1={
+		birth=yes
+	}
+	2363.1.1={
+		death=yes
+	}
+	#spouse of Antônio Balan
+}
+270041={
+	name="Luiz"
+	dynasty=105003 #Balan
+	father=270039
+	mother=270040
+	culture=talian
+	religion=celeste
+	trait=tough_soldier
+	trait=wroth
+	trait=arbitrary
+	diplomacy=5
+	martial=10
+	stewardship=9
+	intrigue=6
+	learning=3
+	2320.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#first son of Antônio
+}
+270042={
+	name="José Mario" #Gotta give him a military education older brother
+	dynasty=105003 #Balan
+	father=270039
+	mother=270040
+	culture=talian
+	religion=celeste
+	trait=scholarly_theologian
+	trait=shrewd
+	trait=cynical
+	trait=scholar
+	trait=charitable
+	trait=diligent
+	trait=socializer
+	disallow_random_traits=yes
+	2323.1.1={
+		birth=yes
+	}
+	2344.1.1={
+		add_spouse=270044
+	}
+	2400.1.1={
+		death=yes
+	}
+	#second son of Antônio and current patrician of Balan
+}
+270043={
+	name="Marina"
+	dynasty=105003 #Balan
+	father=270039
+	female=yes
+	culture=talian
+	religion=celeste
+	trait=legit_bastard
+	2342.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#bastard daughter of Antônio
+}
+270044={
+	name="Doralice"#BALAN WIFE
+	dynasty=none
+	culture=greenbelly
+	religion=celeste
+	trait=naive_appeaser
+	trait=kind
+	trait=stubborn
+	2323.7.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#wife of José Mario
+}
+270045={
+	name="Enzo"
+	dynasty=105003 #Balan
+	culture=talian
+	religion=celeste
+	trait=charismatic_negotiator
+	trait=poet
+	trait=ambitious
+	trait=gamer
+	diplomacy=11
+	martial=9
+	stewardship=7
+	intrigue=8
+	learning=7
+	2346.1.1={
+		birth=yes
+	}
+	2400.1.={
+		death=yes
+	}
+	#son of José Mario Balan
+}
+270046={
+	name="Giovanni"
+	dynasty=105003 #Balan
+	culture=talian
+	religion=celeste
+	trait=thrifty_clerk
+	trait=diligent
+	diplomacy=9
+	martial=7
+	stewardship=12
+	intrigue=7
+	learning=10
+	2352.1.1={
+		birth=yes
+	}
+	#son of José Mario Balan
+}
+270047={
+	name="Inácio"
+	dynasty=90007 #Amin
+	culture=turco
+	religion=celeste
+	trait=flamboyant_schemer
+	trait=greedy
+	trait=diligent
+	2347.1.1={
+		birth=yes
+	}
+	#Floripa patrician
+}
+##Geisel Family History
+270048={
+	name="Esperidião"
+	dynasty=100006 #Geisel
+	culture=hunsruckisch
+	religion=evangelical
+	trait=tough_soldier
+	trait=cruel
+	trait=arbitrary
+	trait=impaler
+	trait=disfigured
+	diplomacy=3
+	martial=16
+	stewardship=12
+	intrigue=19
+	learning=7
+	2237.1.1={
+		birth=yes
+	}
+	2281.1.1={
+		death=yes
+	}
+	#Former Military-king of Santa Catarina formerly held Florianopólis before being deposed by the revolution
+}
+270049={
+	name="André"
+	dynasty=100006 #Geisel
+	culture=hunsruckisch
+	religion=evangelical
+	father=270048
+	trait=detached_priest
+	trait=honest
+	trait=chaste
+	2265.1.1={
+		birth=yes
+	}
+	2303.1.1={
+		death=yes
+	}
+	#eldest son of Geisel
 }
 
 280001={
@@ -428,6 +1061,7 @@
 	trait=lustful
 	trait=charitable
 	trait=brave
+	trait=lefthanded
 	diplomacy=5
 	martial=8
 	stewardship=8
