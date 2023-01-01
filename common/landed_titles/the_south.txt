@@ -1020,6 +1020,8 @@ e_the_south = {
 			
 			capital = 207 # c_chapeco
 			
+			controls_religion = celeste
+			
 			c_chapeco = { # 207
 				color={ 65 117 97 }
 				color2={ 255 255 255 }
@@ -1035,6 +1037,8 @@ e_the_south = {
 			c_sao_miguel_do_oeste = { # 209
 				color={ 48 124 255 }
 				color2={ 255 255 255 }
+				
+				holy_site = celeste
 				
 				b_sao_miguel_do_oeste = {}
 				b_sao_jose_do_cedro = {}

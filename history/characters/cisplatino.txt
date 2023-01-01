@@ -375,6 +375,7 @@
 	culture=hunsruckisch
 	religion=evangelical
 	trait=intricate_webweaver
+	father=270051
 	#we need a luthran branch
 	trait=ambitious
 	trait=arbitrary
@@ -397,6 +398,7 @@
 	dynasty=100006 #geisel
 	culture=hunsruckisch
 	religion=evangelical
+	father=270052
 	trait=midas_touched
 	trait=gluttonous
 	trait=kind
@@ -437,7 +439,7 @@
 	2364.1.1={
 		death=yes
 	}
-	#Former ruler of Florianopólis, started to rule after 2359
+	#Fifth ruler of Florianopólis, started to rule after 2359
 }
 270019={
 	name="Otávio"
@@ -609,6 +611,7 @@
 	name="Maximiliano"
 	dynasty=100007 #Renaux
 	culture=hunsruckisch
+	religion=evangelical
 	father=270026
 	mother=270025
 	trait=underhanded_rogue
@@ -636,6 +639,7 @@
 	name="Frederico"
 	dynasty=100007 #Renaux
 	culture=hunsruckisch
+	religion=evangelical
 	father=270026
 	mother=270025
 	trait=martial_cleric
@@ -772,7 +776,7 @@
 	2400.1.1={
 		death=yes
 	}
-	#current and fifht ruler of Florianopólis republic
+	#current and sixth ruler of Florianopólis republic
 }
 270035={
 	name="Selma"
@@ -900,7 +904,7 @@
 	#first son of Antônio
 }
 270042={
-	name="José Mario" #Gotta give him a military education older brother
+	name="José Mario"
 	dynasty=105003 #Balan
 	father=270039
 	mother=270040
@@ -942,8 +946,9 @@
 	#bastard daughter of Antônio
 }
 270044={
-	name="Doralice"#BALAN WIFE
+	name="Doralice"
 	dynasty=none
+	female=yes
 	culture=greenbelly
 	religion=celeste
 	trait=naive_appeaser
@@ -1000,18 +1005,19 @@
 	name="Inácio"
 	dynasty=90007 #Amin
 	culture=turco
-	religion=celeste
+	religion=universal
 	trait=flamboyant_schemer
 	trait=greedy
 	trait=diligent
 	2347.1.1={
 		birth=yes
+		culture=greenbelly
 	}
 	#Floripa patrician
 }
 ##Geisel Family History
 270048={
-	name="Esperidião"
+	name="Floriano"
 	dynasty=100006 #Geisel
 	culture=hunsruckisch
 	religion=evangelical
@@ -1048,9 +1054,60 @@
 	2303.1.1={
 		death=yes
 	}
-	#eldest son of Geisel
+	#eldest son of Geisel, inherited Vale do Itajaí
 }
-
+270050={
+	name="Floriano"
+	dynasty=100006 #Geisel
+	culture=hunsruckisch
+	religion=evangelical
+	father=270048
+	trait=misguided_warrior
+	trait=envious
+	trait=dull
+	2276.1.1={
+		birth=yes
+	}
+	2313.1.1={
+		death=yes
+	}
+	#youngest son of Geisel, inherited Passo do principe
+}
+270051={
+	name="Amaury"
+	dynasty=100006 #Geisel
+	culture=hunsruckisch
+	religion=evangelical
+	father=270049
+	trait=martial_cleric
+	trait=kind
+	trait=chaste
+	trait=patient
+	2300.1.1={
+		birth=yes
+	}
+	2343.1.1={
+		death=yes
+	}
+	#son of André Geisel, ruled Vale do Itajái
+}
+270052={
+	name="Ernesto"
+	dynasty=100006 #Geisel
+	culture=hunsruckisch
+	religion=evangelical
+	father=270050
+	trait=fortune_builder
+	trait=gluttonous
+	trait=lustful
+	trait=hedonist
+	2308.1.1={
+		birth=yes
+	}
+	2350.1.1={
+		death=yes
+	}
+}
 280001={
 	name="Humberto"
 	dynasty=95068 #gomes
@@ -1801,7 +1858,6 @@
 	religion=evangelical
 	trait=tough_soldier
 	trait=branch_methodist
-	trait=fortune_builder
 	trait=greedy
 	trait=patient
 	trait=craven

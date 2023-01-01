@@ -6,3 +6,10 @@
 800.1.1={
 	liege=k_santa_catarina
 }
+2316.1.1 = {
+	liege = d_greater_florianopolis
+	holder = 270019 #Caio César
+}
+2364.1.1={
+	holder = 270021 #Júlio César
+}

@@ -1,12 +1,5 @@
-# e_the_south
-500.1.1={
-	law = agnatic_succession
-	law = succ_gavelkind
-}
-800.1.1={
-	liege=k_santa_catarina
-}
 2265.1.1 = {
+	holding_dynasty = 105003 #Balan
 	liege = d_greater_florianopolis
 	holder = 270038 #Angelo Balan
 }

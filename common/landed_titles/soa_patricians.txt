@@ -68,3 +68,30 @@ b_schimidt = {
 	culture = paulistano
 	religion = apostolic
 }
+
+## Florianopolis
+
+b_cesar = {
+	culture = greenbelly
+	religion = celeste
+}
+
+b_renaux = {
+	culture = hunsruckisch
+	religion = evangelical
+}
+
+b_melo = {
+	culture = greenbelly
+	religion = kardecists
+}
+
+b_balan = {
+	culture = talian
+	religion = celeste
+}
+
+b_amin = {
+	culture = greenbelly
+	religion = universal
+}

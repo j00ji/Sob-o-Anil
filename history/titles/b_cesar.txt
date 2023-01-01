@@ -1,0 +1,8 @@
+2316.1.1 = {
+	holding_dynasty = 90005 #César
+	liege = d_greater_florianopolis
+	holder = 270019 #Caio César
+}
+2364.1.1={
+	holder = 270021 #Júlio César
+}
