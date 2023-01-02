@@ -367,12 +367,21 @@ christian = {
 		
 		color = { 0.2 0.55 0.15 }
 		
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		female_temple_holders = yes
 	}
 	mucker = {
 		graphical_culture = westerngfx 
 		
 		icon = 12
 		heresy_icon = 19
+		
+		female_temple_holders = yes
+		#male_temple_holders = no
 		
 		color = { 0.4 0.77 0.15 }
 		parent = celeste

@@ -1020,8 +1020,6 @@ e_the_south = {
 			
 			capital = 207 # c_chapeco
 			
-			controls_religion = celeste
-			
 			c_chapeco = { # 207
 				color={ 65 117 97 }
 				color2={ 255 255 255 }

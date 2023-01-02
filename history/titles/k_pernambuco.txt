@@ -1,6 +1,6 @@
 # k_pernambuco
 500.1.1={
-	law = agnatic_succession
+	law = cognatic_succession
 	law = succ_gavelkind
 }
 2353.11.2={ #Belchior routs the Salvadorense out of Pernambuco

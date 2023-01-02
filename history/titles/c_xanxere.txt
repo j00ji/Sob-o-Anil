@@ -1,8 +1,13 @@
 # e_the_south
 500.1.1={
-	law = agnatic_succession
+	law = cognatic_succession
 	law = succ_gavelkind
 }
 800.1.1={
 	liege=k_santa_catarina
+}
+2360.1.1={
+	holder = 270058 #Bonifacio Zanchi
+	de_jure_liege = d_contestado_celeste
+	liege = d_contestado_celeste
 }

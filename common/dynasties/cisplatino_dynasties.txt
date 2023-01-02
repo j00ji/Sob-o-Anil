@@ -75,6 +75,40 @@
 	can_appear = no
 	used_for_random = no
 }
+90008={
+	name="Santo Agostinho"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+}
+90009={
+	name="Rosa"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+}
+90010={
+	name="Manuel Ramos"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+}
+90011={
+	name="Calloni"
+	culture=talian
+	can_appear = no
+	used_for_random = no
+}
+90012={
+	name="Ramos"
+	culture=greenbelly
+}
+90013={
+	name="Tavares"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+}
 95001=
 {
 	name="Menna Barreto"

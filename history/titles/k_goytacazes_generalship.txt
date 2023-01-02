@@ -1,5 +1,5 @@
 2352.4.9 = {
 	law = succ_open_elective
-	law = agnatic_succession
+	law = cognatic_succession
 	holder = 50001
 }

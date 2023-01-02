@@ -15,7 +15,7 @@ b_pinhalzinho = temple
 #b_zandavalli = castle
 
 # Misc
-culture = gaucho
+culture = greenbelly
 religion = celeste
 
 #History

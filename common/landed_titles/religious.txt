@@ -30,3 +30,37 @@ k_apostolic = {
 	
 	dignity = 200
 }
+
+d_contestado_celeste = {
+	color={ 193 246 71 }
+	color2={ 255 255 255 }
+	
+	capital = 207 # c_chapeco
+	
+	#title = "PRELATE"
+	#foa = "PRELATE_FOA"
+	
+	dignity = 1000
+	
+	religion = celeste
+	controls_religion = celeste
+
+	primary = yes
+	short_name = yes
+	dynasty_title_names = no
+	
+	culture = greenbelly
+	
+	landless = yes
+	holy_order = yes
+
+	monthly_income = 10
+	
+	assimilate = no # Nothing drifts in or out
+
+	mercenary_type = bandeirante_composition
+	
+	allow = {
+		religion = celeste
+	}
+}

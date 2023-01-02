@@ -1,6 +1,6 @@
 # k_ceara
 500.1.1={
-	law = agnatic_succession
+	law = cognatic_succession
 	law = succ_gavelkind
 }
 2358.3.4={ #Belchior conquests Ceará

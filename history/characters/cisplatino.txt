@@ -1013,6 +1013,9 @@
 		birth=yes
 		culture=greenbelly
 	}
+	2400.1.1={
+		death=yes
+	}
 	#Floripa patrician
 }
 ##Geisel Family History
@@ -1107,6 +1110,130 @@
 	2350.1.1={
 		death=yes
 	}
+}
+270053={ #First leader of the Contestado Rebels
+	name="José Maria" 
+	dynasty=90008 #de Santo Agostinho
+	culture=greenbelly
+	religion=celeste
+	trait=mastermind_theologian
+	trait=diligent
+	trait=patient
+	trait=mystic
+	trait=chaste
+	trait=monk
+	trait=kind
+	trait=humble
+	trait=zealous
+	1825.1.1={
+		birth=yes
+	}
+	1912.10.22={
+		death={
+			death_reason = death_battle
+			#killer = Deodoro da Fonseca
+		}
+	}
+}
+270054={ #2nd leader of the Contestado
+	name="Maria"
+	dynasty=90009 #Rosa
+	female=yes
+	culture=greenbelly
+	religion=celeste
+	trait=brilliant_strategist
+	trait=celibate
+	trait=zealous
+	trait=chaste
+	trait=honest
+	trait=brave
+	trait=trusting
+	trait=inspiring_leader
+	trait=aggressive_leader
+	trait=flanker
+	1899.1.1={
+		birth=yes
+	}
+	1915.3.29={
+		death={
+			death_reason = death_battle
+		}
+	}
+}
+270055={ #third contestado leader, stopped being a leader in mid 1916
+	name="Adeodato"
+	dynasty=90010 #Manuel Ramos
+	culture=salvadorense
+	religion=celeste
+	trait=skilled_tactician
+	trait=diligent
+	trait=hunter
+	trait=temperate
+	trait=light_foot_leader
+	1887.1.1={
+		birth=yes
+		culture=greenbelly
+	}
+	1923.1.1={
+		death={
+			death_reason= death_execution
+		}
+	}
+}
+
+270056={
+	name="Letícia"
+	dynasty=90011 #Calloni
+	female=yes
+	culture=paulistano
+	religion=celeste
+	trait=brilliant_strategist
+	trait=holy_warrior
+	trait=chaste
+	2321.1.1={
+		birth=yes
+		culture=talian
+	}
+	2400.1.1={
+		death=yes
+	}
+	#Ruler of the Contestado, and holder of Chapecó
+}
+270057={
+	name="Aleixo"
+	dynasty=90013 #Tavares
+	culture=greenbelly
+	religion=celeste
+	trait=tough_soldier
+	trait=brave
+	trait=gluttonous
+	trait=chartible
+	trait=one_eyed
+	2324.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#holder of São Miguel do Oeste
+}
+270058={
+	name="Bonifácio"
+	dynasty=105002 #Zanchi
+	culture=talian
+	religion=celeste
+	trait=detached_priest
+	trait=lustful
+	trait=proud
+	trait=strategist
+	trait=heavy_infantry_leader
+	2322.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#holder of Xanxere
 }
 280001={
 	name="Humberto"

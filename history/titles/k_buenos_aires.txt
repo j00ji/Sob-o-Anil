@@ -1,6 +1,6 @@
 # k_buenos_aires
 500.1.1={
-	law = agnatic_succession
+	law = cognatic_succession
 }
 2368.1.1={
 	holder = 330007 #Estanislao Valle

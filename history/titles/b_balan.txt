@@ -1,7 +1,7 @@
 2265.1.1 = {
 	holding_dynasty = 105003 #Balan
-	liege = d_greater_florianopolis
 	holder = 270038 #Angelo Balan
+	liege = d_greater_florianopolis
 }
 2311.1.1={
 	holder = 270039 #Antônio Balan

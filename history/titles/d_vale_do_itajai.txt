@@ -1,8 +1,17 @@
 # e_the_south
 500.1.1={
-	law = agnatic_succession
+	law = cognatic_succession
 	law = succ_gavelkind
 }
-2355.1.1={
-	holder=270016
+2262.1.1={
+	holder=270048 #Floriano Geisel
+}
+2281.1.1={
+	holder=270049 #André Geisel
+}
+2303.1.1={
+	holder=270051 #Amaury Geisel
+}
+2343.1.1={
+	holder=270016 #Ivan Geisel
 }

@@ -81,7 +81,7 @@ b_renaux = {
 	religion = evangelical
 }
 
-b_melo = {
+b_de_melo = {
 	culture = greenbelly
 	religion = kardecists
 }

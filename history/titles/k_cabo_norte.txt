@@ -1,6 +1,6 @@
 # k_cabo_norte
 500.1.1={
-	law = agnatic_succession
+	law = cognatic_succession
 	law = succ_gavelkind
 }
 2354.1.21={ #Belchior crushes last Salvadorense forces in Cabo Norte
