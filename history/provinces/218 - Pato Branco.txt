@@ -15,7 +15,7 @@ b_clevelandia = temple
 #b_coronel_vivida = castle
 
 # Misc
-culture = gaucho
+culture = paranaense
 religion = celeste
 
 #History

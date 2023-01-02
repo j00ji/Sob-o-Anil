@@ -15,7 +15,7 @@ b_campo_mourao = castle
 #b_lunardelli = castle
 
 # Misc
-culture = gaucho
+culture = paranaense
 religion = celeste
 
 #History

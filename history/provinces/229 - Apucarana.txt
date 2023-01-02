@@ -16,6 +16,6 @@ b_arapongas = temple
 
 # Misc
 culture = paranaense
-religion = tridentine
+religion = anchietican
 
 #History

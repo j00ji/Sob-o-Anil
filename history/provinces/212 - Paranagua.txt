@@ -15,7 +15,7 @@ b_pontal_do_parana = temple
 #b_rio_sagrado = castle
 
 # Misc
-culture = paranaense
-religion = celeste
+culture = caicara
+religion = anchietican
 
 #History

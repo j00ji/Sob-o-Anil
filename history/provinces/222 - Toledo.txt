@@ -15,7 +15,7 @@ b_marechal_candido_rondon = castle
 #b_cafelandia = castle
 
 # Misc
-culture = gaucho
+culture = paranaense
 religion = celeste
 
 #History

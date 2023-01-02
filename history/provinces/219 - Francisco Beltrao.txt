@@ -15,7 +15,7 @@ b_francisco_beltrao = castle
 #b_dois_vizinhos = castle
 
 # Misc
-culture = gaucho
+culture = paranaense
 religion = celeste
 
 #History

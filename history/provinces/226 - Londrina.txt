@@ -16,6 +16,6 @@ b_bela_vista_do_paraiso = temple
 
 # Misc
 culture = paranapanense
-religion = tridentine
+religion = iconoclasts
 
 #History

@@ -15,7 +15,7 @@ b_mandaguacu = city
 #b_jandaia_do_sul = castle
 
 # Misc
-culture = paranapanense
-religion = tridentine
+culture = kyusei
+religion = iconoclasts
 
 #History
