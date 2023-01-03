@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_parana
 }
+2360.1.1={
+	holder = 260002#Jackson Leão
+	liege=d_curitiba
+}

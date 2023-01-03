@@ -1,4 +1,213 @@
 #ÄNSI
+260001={
+	name="Ahnume"
+	dynasty=85002#Guerios
+	culture=arabic
+	religion=orthodoxist
+	trait=charismatic_negotiator
+	trait=proud
+	trait=content
+	trait=patient
+	diplomacy=11
+	martial=7
+	stewardship=6
+	intrigue=4
+	learning=8
+	2340.1.1={
+		birth=yes
+		culture=paranaense
+		create_bloodline = {
+			type = ghassanid
+			has_dlc = "Holy Fury"
+		}
+	}
+	2400.1.1={
+		death=yes
+	}
+	#Curitiba ruler, also owns Lapa
+}
+260002={
+	name="Jackson"
+	dynasty=85003 #Leão
+	culture=caicara
+	religion=anchietican
+	trait=fortune_builder
+	trait=slothful
+	trait=greedy
+	trait=is_fat
+	trait=paranoid
+	trait=stubborn
+	diplomacy=7
+	martial=8
+	stewardship=13
+	intrigue=5
+	learning=7
+	2323.1.1={
+		birth=yes
+	}
+	2341.1.1={
+		add_spouse=260003
+	}
+	2400.1.1={
+		death=yes
+	}
+	#ruler of paranagua, vassal of curitiba
+}
+260003={
+	name="Júlia"
+	dynasty=none #for now no dynasty, would like to make her a noble
+	female=yes
+	culture=caicara
+	religion=anchietican
+	trait=naive_appeaser
+	trait=sturdy
+	trait=diligent
+	trait=stressed
+	trait=kind
+	trait=chaste
+	diplomacy=2
+	martial=3
+	stewardship=8
+	intrigue=4
+	learning=12
+	2325.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#spouse of paranagua ruler
+}
+260004={
+	name="Milton"
+	dynasty=85003 #Leão
+	father=260002
+	mother=260003
+	culture=caicara
+	religion=anchietican
+	trait=scholarly_theologian
+	trait=stubborn
+	trait=shrewd
+	trait=erudite
+	2345.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#1st son of paranagua ruler
+}
+260005={
+	name="Ricardo"
+	dynasty=85003 #Leão
+	father=260002
+	mother=260003
+	culture=caicara
+	religion=anchietican
+	trait=slow
+	trait=conscientious
+	trait=playful
+	2362.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#2nd son of paranagua ruler
+}
+260006={
+	name="Robson"
+	dynasty=85004 #Leinig
+	culture=paranaense
+	religion=orthodoxist
+	secret_religion=apostolic
+	trait=martial_cleric
+	trait=gardener
+	trait=cynical
+	trait=temperate
+	diplomacy=9
+	martial=4
+	stewardship=9
+	intrigue=8
+	learning=12
+	2317.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#ruler of Ponta Grossa, vassal of Curitiba
+}
+260007={
+	name="Beatriz"
+	dynasty=85004 #Leinig
+	culture=german
+	father=260006
+	religion=orthodoxist
+	secret_religion=apostolic
+	trait=amateurish_plotter
+	trait=cynical
+	trait=fair
+	trait=deceitful
+	diplomacy=9
+	martial=10
+	stewardship=9
+	intrigue=11
+	learning=9
+	2348.1.1={
+		birth=yes
+		culture=paranaense
+	}
+	2400.1.1={
+		death=yes
+	}
+	#daughter of Ponta Grossa ruler
+}
+260008={
+	name="Twardomir"
+	dynasty=110003 #Pasternak
+	culture=rutenio
+	religion=orthodoxist
+	trait=intricate_webweaver
+	trait=homosexual
+	trait=zealous
+	trait=wroth
+	diplomacy=9
+	martial=9
+	stewardship=4
+	intrigue=9
+	learning=5
+	2347.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#ruler of Prudentopolis and União da Vitória
+}
+260009={
+	name="Omar"
+	dynasty=110004 #Habibs
+	culture=paranaense
+	religion=herderos
+	trait=thrifty_clerk
+	trait=gluttonous
+	trait=is_fat
+	trait=charitable
+	trait=quick
+	diplomacy=6
+	martial=12
+	stewardship=15
+	intrigue=7
+	learning=8
+	2331.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#duke of Guayra, owns Foz and Toledo
+}
 270001={
 	name="Ramon"
 	dynasty=90001 #Madruga

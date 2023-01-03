@@ -43,3 +43,14 @@ catrilanca = {
 	picture = GFX_bloodlines_symbol_war
 	flags = { historical_bloodline bloodline_heroes }
 }
+ghassanid = {
+	diplomacy = 2
+	christian_opinion = 10
+	muslim_opinion = 5
+	turco_opinion = 5
+	monthly_character_prestige = 0.2
+	inheritance = patrilineal
+	allow_bastards = yes 
+	picture = GFX_bloodlines_symbol_ghassanid
+	flags = { historical_bloodline }
+}

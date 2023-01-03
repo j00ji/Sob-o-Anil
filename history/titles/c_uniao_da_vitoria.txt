@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_parana
 }
+2360.1.1={
+	holder = 260008#Twardomir
+}

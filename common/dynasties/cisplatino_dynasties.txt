@@ -1,4 +1,50 @@
 ###ÄNSI
+85001={
+	name="Ghassanid"
+	culture=turco
+	can_appear=no
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+85002={
+	name="Guerios"
+	culture=paranaense
+	can_appear=no
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+85003={
+	name="Leão"
+	culture=paranaense
+	can_appear=no
+	used_for_random=no
+}
+85004={
+	name="Leinig"
+	culture=paranaense
+	can_appear=no
+	used_for_random=no
+}
 90001=
 {
 	name="Madruga"
@@ -799,7 +845,43 @@
 		}
 	}
 }
-
+110003={
+	name="Pasternak"
+	culture= rutenio
+	religion = orthodoxist
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+110004={
+	name="Habibs"
+	culture= paranaense
+	religion = herderos
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = herderos
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 115001 = {
 	name="Durazno"
 	culture= guacho
