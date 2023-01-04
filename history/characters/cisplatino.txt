@@ -141,6 +141,7 @@
 260007={
 	name="Beatriz"
 	dynasty=85004 #Leinig
+	female=yes
 	culture=german
 	father=260006
 	religion=orthodoxist
