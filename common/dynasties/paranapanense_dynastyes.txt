@@ -1,0 +1,24 @@
+###ÄNSI
+#Canon
+
+75001={
+	name="Marcomini"
+	culture=paranapense
+	coat_of_arms = {
+		religion = jerovia
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+75002={
+	name="Pennafiel"
+	culture=paranapense
+}

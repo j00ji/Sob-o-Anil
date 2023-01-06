@@ -7,7 +7,7 @@
 	liege=k_santa_catarina
 }
 2360.1.1={
-	holder = 270058 #Bonifacio Zanchi
+	holder = 270056 #Leticia
 	de_jure_liege = d_contestado_celeste
 	liege = d_contestado_celeste
 }

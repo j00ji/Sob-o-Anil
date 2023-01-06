@@ -1,1 +1,38 @@
 ###ÄNSI
+
+1400001 = {
+	name = "Tanaka"
+	culture = kyusei
+	religion = iconoclast
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+1400002 = {
+	name = "Suzuki"
+	culture = kyusei
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

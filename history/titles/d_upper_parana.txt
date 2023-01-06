@@ -4,4 +4,5 @@
 }
 2364.1.25 = { 
 	holder = 690010 #Marangatu Perez
+	liege=k_teachers
 }

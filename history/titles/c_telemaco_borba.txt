@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_parana
 }
+2362.1.1={
+	holder=260026 #Jessica Stetiski
+	liege=d_paranapanema
+}

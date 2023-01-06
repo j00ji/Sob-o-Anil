@@ -765,6 +765,12 @@
 	can_appear = no
 	used_for_random = no	
 }
+100008={
+	name="Schumann"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no	
+}
 105001=
 {
 	name="Taurus"
@@ -881,6 +887,31 @@
 			color = 0
 		}
 	}
+}
+110005={
+	name="Jalloul"
+	culture= paranaense
+	religion = herderos
+	can_appear = no
+	used_for_random = no
+}
+110006={
+	name="Fagundes"
+	culture= paranaense
+	can_appear = no
+	used_for_random = no
+}
+110007={
+	name="Novak"
+	culture= paranaense
+	can_appear = no
+	used_for_random = no
+}
+110008={
+	name="Stetiski"
+	culture= paranaense
+	can_appear = no
+	used_for_random = no
 }
 115001 = {
 	name="Durazno"

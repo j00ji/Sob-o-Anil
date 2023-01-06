@@ -6,3 +6,15 @@
 800.1.1={
 	liege=k_parana
 }
+2250.1.1={
+	holder=260017 #Robson Marcomini
+}
+2285.1.1={
+	holder=260021 #Francisco Tanaka
+}
+2325.1.1={
+	holder=260022 #Ulisses Tanaka
+}
+2365.1.1={
+	holder=260023 #Thiago Tanaka
+}

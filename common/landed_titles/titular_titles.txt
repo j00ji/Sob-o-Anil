@@ -238,6 +238,20 @@ k_goytacazes_generalship = {
 	 primary = yes 
 }
 
+k_trifrontier = {
+	color={ 33 177 116 }
+	color2 = { 255 255 255 }
+	
+	short_name = yes
+	
+	capital = 220 #Foz do Iguaçu
+	dignity = 10
+	
+	culture = paranaense #need to change it to the melting pot culture
+	
+	allow = { always = no }
+}
+
 ### Duchies ###
 
 d_americana = {

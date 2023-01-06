@@ -24,6 +24,8 @@ k_americano;Reino Americano;;;;;;;;;;;;;x
 k_americano_adj;Americano;;;;;;;;;;;;;x
 k_ribeira;Ribeira;;;;;;;;;;;;;x
 k_ribeira_adj;Ribeirense;;;;;;;;;;;;;x
+d_trifrontier;Triple Frontier;;;;;;;;;;;;;x
+d_trifrontier_adj;Frontero;;;;;;;;;;;;;x
 d_americana;Americana;;;;;;;;;;;;;x
 d_americana_adj;Americano;;;;;;;;;;;;;x
 e_belchioringia;Belchioringia;;;;;;;;;;;;;x
@@ -32,3 +34,5 @@ e_pretender_empire_1;Salvador;;;;;;;;;;;;x
 e_pretender_empire_1_adj;Salvadorense;;;;;;;;;;;x
 d_contestado_celeste;Contestado;;;;;;;;;;;x
 d_contestado_celeste_adj;Contestadian;;;;;;;;;;;x
+k_teachers;The Society of Seminary Teachers;;;;;;;;;;;x
+k_teachers_adj;Seminary Teacher;;;;;;;;;;;x

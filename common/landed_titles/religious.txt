@@ -64,3 +64,31 @@ d_contestado_celeste = {
 		religion = celeste
 	}
 }
+
+k_teachers= {
+	color={ 0 140 0 }
+	color2={ 0 200 0 }
+	
+	capital = 220 #Foz do Iguaçu
+	dignity = 1000 # Counted as having this many more counties than it does
+
+	title = "AYATOLLAH"
+	title_female = "AYATOLLAH"
+	short_name = yes
+	location_ruler_title = yes
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = herderos
+	
+	religion = herderos
+	
+	# Cannot be held as a secondary title
+	primary = yes
+
+	assimilate = no # Nothing drifts in or out
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}

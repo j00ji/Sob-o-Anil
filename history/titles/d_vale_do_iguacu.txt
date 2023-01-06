@@ -6,3 +6,9 @@
 800.1.1={
 	liege=k_parana
 }
+2345.1.1={
+	holder=260014 #Enrico Calloni
+}
+2365.1.1={
+	holder=260016 #Vitor Calloni
+}

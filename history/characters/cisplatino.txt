@@ -204,10 +204,415 @@
 	2331.1.1={
 		birth=yes
 	}
+	2364.1.1={
+		effect={
+			make_tributary = {
+				who = 690023
+				percentage = 0.40
+				tributary_type = default
+			}
+		}
+	}
 	2400.1.1={
 		death=yes
 	}
-	#duke of Guayra, owns Foz and Toledo
+	#duke of Guayra, owns Foz and Guaira
+}
+260010={
+	name="Rodrigo"
+	dynasty=110005 #Jalloul
+	culture=paranaense
+	religion=herderos
+	trait=martial_cleric
+	trait=theologian
+	trait=gregarious
+	trait=charitable
+	2321.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#current holder of the Seminary Teachers, rules over Toledo vassal of Omar
+}
+260011={
+	name="Alessandro"
+	dynasty=110006 #Fagundes
+	culture=paranaense
+	religion=celeste
+	trait=skilled_tactician
+	trait=diligent
+	trait=patient
+	trait=is_fat
+	diplomacy=12
+	martial=11
+	stewardship=9
+	intrigue=6
+	learning=8
+	2329.1.1={
+		birth=yes
+	}
+	2360.1.1={
+		add_spouse=260012
+	}
+	2400.1.1={
+		death=yes
+	}
+	#ruler of Cascavel and Campo Mourão
+}
+260012={
+	name="Leda"
+	dynasty=110007 #Novak
+	female=yes
+	culture=paranaense
+	religion=celeste
+	trait=detached_priest
+	trait=chaste
+	trait=kind	
+	2330.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#wife of Alessandro Fagundes
+}
+260013={
+	name="Giuseppe" #Father of Letícia Calloni
+	dynasty=90011 #Calloni
+	culture=talian
+	religion=celeste
+	trait=flamboyant_schemer
+	trait=trickster
+	trait=paranoid
+	trait=wroth
+	diplomacy=7
+	martial=10
+	2293.1.1={
+		birth=yes
+	}
+	2342.1.1={
+		death=yes
+	}
+	#former ruler of Pato Branco and Francisco Beltrão
+}
+260014={
+	name="Enrico"
+	dynasty=90011 #Calloni
+	father=260013
+	culture=talian
+	religion=celeste
+	trait=misguided_warrior
+	trait=scarred_mid
+	trait=strong
+	trait=greedy
+	trait=ambitious
+	2336.1.1={
+		birth=yes
+	}
+	2361.1.1={
+		add_spouse=260015
+	}
+	23647.1.1={
+		culture=paranaense
+	}
+	2365.1.1={
+		death={
+			death_reason=death_murder_unknown
+		}
+	}
+	#ruled Pato Branco and Francisco Beltrão, formed the Vale do Iguaçu duchy
+}
+260015={
+	name="Zaida"
+	dynasty=110004 #Habibs
+	female=yes
+	#father= we should later look into giving her a proper family history, she's supposed to be a reference to Zaida of Seville
+	culture=arabic
+	religion=herderos
+	trait=intricate_webweaver
+	trait=sympathy_islam
+	trait=fair
+	trait=lustful
+	trait=ambitious
+	2351.1.1={
+		birth=yes
+		culture=paranaense
+	}
+	2400.1.1={
+		death=yes
+	}
+}
+260016={
+	name="Vitor"
+	dynasty=90011 #Calloni
+	culture=talian
+	father=260014
+	mother=260015
+	religion=celeste
+	trait=strong
+	trait=timid
+	2361.4.1={
+		birth=yes
+		culture=paranaense
+	}
+	2400.1.1={
+		death=yes
+	}
+	#current ruler of Vale do Iguaçu
+}
+260017={
+	name="Robson"
+	dynasty=75001 #Marcomini
+	culture=paranapanense
+	religion=apostolic
+	trait=scholarly_theologian
+	trait=sympathy_old_world
+	trait=scholar
+	trait=erudite
+	trait=cynical
+	trait=deceitful
+	2243.1.1={
+		birth=yes
+	}
+	2285.1.1={
+		effect={add_claim=d_paranapanema}
+	}
+	2300.1.1={
+		death=yes
+	}
+	#Ruled an Apostolic realm in paranapanema, was deposed by an iconoclasts revolt
+}
+260018={
+	name="Sócrates"
+	dynasty=75001 #Marcomini
+	father=260017
+	culture=paranapanense
+	religion=apostolic
+	trait=martial_cleric
+	trait=stutter
+	trait=frail
+	2299.1.1={
+		birth=yes
+		employer=80012
+	}
+	2370.1.1={
+		death=yes
+	}
+}
+260019={
+	name="Hipátia"
+	dynasty=75001 #Marcomini
+	father=260018
+	female=yes
+	culture=paranapanense
+	religion=apostolic
+	trait=scholarly_theologian
+	trait=sympathy_old_world
+	trait=erudite
+	trait=chaste
+	trait=quick
+	trait=fair
+	2345.1.1={
+		birth=yes
+		employer=80012
+	}
+	2400.1.1={
+		death=yes
+	}
+}
+260020={
+	name="Alex"
+	dynasty=75001 #Marcomini
+	father=260018
+	culture=paranapanense
+	religion=apostolic
+	trait=tough_soldier
+	trait=ambitious
+	trait=just
+	trait=lustful
+	2352.1.1={
+		birth=yes
+		employer=80012
+	}
+	2400.1.1={
+		death=yes
+	}
+}
+260021={
+	name="Francisco"
+	dynasty=1400001 #Tanaka
+	culture=kyusei
+	religion=iconoclasts
+	trait=skilled_tactician
+	trait=dwarf
+	trait=patient
+	trait=zealous
+	trait=peasant_leader
+	trait=holy_warrior
+	martial=16
+	2269.1.1={
+		birth=yes
+	}
+	2325.1.1={
+		death=yes
+	}
+	#Lead the Iconoclasts revolt in Paranapanema, deposing its former ruler at a young age in around 2285
+}
+260022={
+	name="Ulisses"
+	dynasty=1400001 #Tanaka
+	culture=kyusei
+	father=260021
+	religion=iconoclasts
+	trait=thrifty_clerk
+	trait=temperate
+	trait=humble
+	trait=pilgrim
+	2314.1.1={
+		birth=yes
+	}
+	2365.1.1={
+		death=yes
+	}
+	#2nd rulre of Tanaka paranapanema, ruled from childhood in 2325 until his death in 2365
+}
+260023={
+	name="Thiago"
+	dynasty=1400001 #Tanaka
+	culture=kyusei
+	father=260022
+	religion=iconoclasts
+	trait=misguided_warrior
+	trait=erudite
+	trait=brave
+	trait=stubborn
+	trait=lustful
+	trait=diligent
+	disallow_random_traits=yes
+	diplomacy=6
+	martial=7
+	stewardship=9
+	intrigue=10
+	learning=8
+	2346.1.1={
+		birth=yes
+	}
+	2367.1.1={
+		effect={add_lover=260025}
+	}
+	2368.1.1={
+		add_spouse=260025
+	}
+	2400.1.1={
+		death=yes
+	}
+	#current ruler of paranapanema, holds Maringa, Londrina and Umuarama. Started ruling from 2365
+}
+260024={
+	name="Larissa"
+	dynasty=1400001 #Tanaka
+	culture=kyusei
+	father=260022
+	religion=iconoclasts
+	female=yes
+	trait=underhanded_rogue
+	trait=groomed
+	trait=gregarious
+	diplomacy=8
+	martial=6
+	stewardship=8
+	intrigue=8
+	learning=5
+	2350.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#sister of thiago tanaka
+}
+260025={
+	name="Nicoli"
+	dynasty=none #should probably change this later to a Paulista family or smt
+	culture=americano
+	religion=anchietican
+	female=yes
+	trait=underhanded_rogue
+	trait=lustful
+	trait=humble
+	trait=trusting
+	disallow_random_traits=yes
+	diplomacy=9
+	martial=6
+	stewardship=7
+	intrigue=6
+	learning=4
+	2348.1.1={
+		birth=yes
+		culture=paranapanema
+	}
+	2400.1.1={
+		death=yes
+	}
+	#Spouse and Lover of Thiago Tanaka
+}
+260026={
+	name="Jessica"
+	dynasty=110008 #stetiski
+	female=yes
+	culture=paranaense
+	religion=iconoclasts
+	secret_religion=apostolic #amongst the last Apostolics of paranapanema
+	trait=brilliant_strategist
+	trait=robust
+	trait=duelist
+	trait=kind
+	trait=lustful
+	diplomacy=10
+	martial=11
+	stewardship=5
+	intrigue=10
+	learning=7
+	2340.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#rules apucarana and telemarco borba
+}
+260027={
+	name="Antônio"
+	dynasty=75002 #Pennafiel
+	trait=flamboyant_schemer
+	culture=paranapanense
+	religion=iconoclasts
+	trait=impaler
+	trait=cruel
+	trait=diligent
+	2335.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#rules Santo Antonio da Platina
+}
+260028={
+	name="Naomi"
+	dynasty=1400001 #Tanaka
+	female=yes
+	culture=kyusei
+	religion=iconoclasts
+	father=260023
+	mother=260025
+	2369.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
 }
 270001={
 	name="Ramon"
@@ -432,6 +837,7 @@
 270010={
 	name="Carine"
 	dynasty=none
+	female=yes
 	culture=hunsruckisch
 	religion=celeste
 	trait=naive_appeaser
@@ -1394,6 +1800,7 @@
 270056={
 	name="Letícia"
 	dynasty=90011 #Calloni
+	father=260013
 	female=yes
 	culture=paulistano
 	religion=celeste
@@ -1407,7 +1814,7 @@
 	2400.1.1={
 		death=yes
 	}
-	#Ruler of the Contestado, and holder of Chapecó
+	#Ruler of the Contestado, and holder of Chapecó Xanxere and São Miguel do Oeste
 }
 270057={
 	name="Aleixo"
@@ -1425,7 +1832,7 @@
 	2400.1.1={
 		death=yes
 	}
-	#holder of São Miguel do Oeste
+	#member of the Contestado court
 }
 270058={
 	name="Bonifácio"
@@ -1443,7 +1850,7 @@
 	2400.1.1={
 		death=yes
 	}
-	#holder of Xanxere
+	#member of the Contestado court
 }
 280001={
 	name="Humberto"
@@ -2288,9 +2695,25 @@
 	}
 }
 #Skipping to 290031 due to a tagging mistake 
-#290031={
-#
-#}
+290031={
+	name="Rosa"
+	dynasty=100008 #Schumman
+	female=yes
+	culture=hunsruckisch
+	religion=orthodoxist
+	secret_religion=mucker
+	trait=charismatic_negotiator
+	trait=fair
+	trait=proud
+	trait=ambitious
+	2348.1.1={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#holder of Mafra, vassal of Curitiba
+}
 300001={
 	name="Paulo"
 	dynasty=105001 #taurus
