@@ -133,4 +133,93 @@ decisions = {
 			factor = 100
 		}
 	}
+	restore_rio_grande_do_sul = {
+		is_high_prio = yes
+		only_independent = yes
+		ai_check_interval = 24
+		
+		potential = {
+			is_playable = yes
+			OR = {
+				has_landed_title = k_pampa
+				has_landed_title = k_serra_gaucha
+			}
+		}
+		
+		allow = {
+			has_landed_title = k_pampa
+			has_landed_title = k_serra_gaucha
+			prestige = 800
+			wealth = 200
+		}
+		
+		effect = {
+			prestige = 200
+			wealth = -200
+			primary_title = {
+				save_event_target_as = current_primary_title
+			}
+			k_rio_grande_do_sul = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:current_primary_title
+				make_primary_title = yes
+			}
+			d_arapei = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_coxilhas = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_campanha = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_tapes = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_costa_doce = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_vale_do_rio_pardo = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_boca_do_monte = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_missoes = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_alto_uruguai = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_campos_de_vacaria = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			d_porto_alegre = {
+				show_scope_change = no
+				de_jure_liege = k_rio_grande_do_sul
+			}
+			destroy_landed_title = k_pampa
+			destroy_landed_title = k_serra_gaucha
+			activate_title = {
+				title = k_pampa
+				status = no
+			}
+			activate_title = {
+				title = k_serra_gaucha
+				status = no
+			}
+			
+		}
+	}
 }	

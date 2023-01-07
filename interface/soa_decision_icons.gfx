@@ -28,4 +28,8 @@ spriteTypes = {
 		name = "GFX_read_the_star_path"
 		texturefile = "gfx/interface/read_the_star_path.dds"
 	}
+	spriteType = {
+		name = "GFX_restore_rio_grande_do_sul"
+		textureFile = "gfx\\interface\\decision_icon_restore_rio_grande_do_sul.dds"
+	}
 }

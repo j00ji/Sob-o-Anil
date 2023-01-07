@@ -367,12 +367,36 @@ christian = {
 		
 		color = { 0.2 0.55 0.15 }
 		
+		high_god_name = GOD_DEUS
+		
+		god_names = {
+			GOD_DEUS GOD_JESUS THE_MONGES GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER
+		}
+		
+		piety_name = PURITY
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
+		allow_rivermovement = yes
 		female_temple_holders = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = MONGE
+		
+		intermarry = catholic
+		intermarry = anchietican
+		intermarry = evangelical
+		intermarry = orthodoxist
 	}
 	mucker = {
 		graphical_culture = westerngfx 
@@ -611,6 +635,28 @@ cult_of_saints= {
 		icon = 72
 		
 		color = { 0.88 0.63 0.0 }
+	}
+	
+	sebastianist = {
+		graphical_culture = westerngfx
+		
+		icon = 73
+		
+		scripture_name = MENSAGEM
+		priest_title = PADRE
+		crusade_name = CRUSADE
+		
+		high_god_name = GOD_DEUS
+		
+		god_names = {
+			GOD_SEBASTIAN GOD_DOM_PEDRO GOD_DESIRED GOD_ENCOBERTO GOD_ISABEL
+		}
+		
+		evil_god_names = {
+			THE_DEVIL REPUBLICANISM
+		}
+		
+		color = { 0.68 0.1 0.2 }
 	}
 }
 
@@ -1382,8 +1428,8 @@ old_world_cultists = {
 	modernists = { 
 		graphical_culture = muslimgfx
 	
-		icon = 42
-		heresy_icon = 49
+		icon = 74
+		heresy_icon = 75
 		
 		color = { 0.9 0.9 0.9 }
 		
@@ -1422,8 +1468,8 @@ old_world_cultists = {
 	varedesian = { # A greater Sertão
 		graphical_culture = muslimgfx
 	
-		icon = 42
-		heresy_icon = 49
+		icon = 74
+		heresy_icon = 75
 		
 		color = { 0.9 0.78 0.64 }
 		
@@ -1479,8 +1525,8 @@ pagan_group = {
 		
 		color = { 0.85 0.55 0.33 }	
 			
-		icon = 50
-		heresy_icon = 51
+		icon = 78
+		heresy_icon = 80
 	}
 	
 	dreamtime = {
@@ -1488,8 +1534,8 @@ pagan_group = {
 		
 		color = { 0.55 0.35 0.22 }	
 			
-		icon = 49
-		heresy_icon = 51
+		icon = 78
+		heresy_icon = 80
 		
 		reformed = dreamtime_reformed
 	}
@@ -1972,7 +2018,38 @@ syncretic_group = {
 		
 		color = { 0.83 0.0 0.76 }
 	}
+	israelite = {
+		graphical_culture = jewishgfx
+		
+		icon = 76
+		heresy_icon = 76
+		
+		color = { 0.1 0.1 1.0 }
+		crusade_name = MAQANAKUY 
+		scripture_name = TAHUANTINSUYO_BIBLE
+		priest_title = RABBI
+		
+		high_god_name = GOD_JEHOVAH
+		
+		god_names = {
+			GOD_EZEQUIEL GOD_THE_LORD GOD_JESUS_EAST
+		}
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		can_grant_divorce = yes
+		#can_call_crusade = yes
+		#join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
 
+		intermarry = amazonian_jews
+	}
 }
 
 nautical = {

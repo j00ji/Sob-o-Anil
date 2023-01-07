@@ -238,18 +238,17 @@ k_goytacazes_generalship = {
 	 primary = yes 
 }
 
-k_trifrontier = {
-	color={ 33 177 116 }
-	color2 = { 255 255 255 }
+k_rio_grande_do_sul = {
+	color={ 255 234 000 }
+	color2={ 255 255 255 }
 	
-	short_name = yes
+	capital = 143 # c_porto_alegre
 	
-	capital = 220 #Foz do Iguaçu
-	dignity = 10
+	culture = gaucho
 	
-	culture = paranaense #need to change it to the melting pot culture
-	
-	allow = { always = no }
+	allow = {
+		always = no
+	}
 }
 
 ### Duchies ###
@@ -267,4 +266,18 @@ d_americana = {
 		has_landed_title = c_americana
 		has_landed_title = c_holambra
 	}
+}
+
+d_trifrontier = {
+	color={ 33 177 116 }
+	color2 = { 255 255 255 }
+	
+	short_name = yes
+	
+	capital = 220 #Foz do Iguaçu
+	dignity = 10
+	
+	culture = paranaense #need to change it to the melting pot culture
+	
+	allow = { always = no }
 }

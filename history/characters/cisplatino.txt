@@ -1280,6 +1280,7 @@
 	name="Gisele"
 	female=yes
 	dynasty=100006 #geisel
+	father=270052
 	culture=hunsruckisch
 	religion=evangelical#we need a luthran branch
 	trait=intricate_webweaver
