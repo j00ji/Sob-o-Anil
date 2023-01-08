@@ -3,6 +3,6 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-2362.4.25 = { 
-	holder = 80018 #Sabugosa ruler
-}
+#2362.4.25 = { 
+#	holder = 80018 #Sabugosa ruler
+#}

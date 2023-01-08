@@ -26,6 +26,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55004 = { #Geremia Lunardelli, 5th Coffee King Ref
@@ -93,6 +104,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55011 = { #Quatrocentão
@@ -101,6 +123,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55012 = { #Quatrocentão
@@ -109,6 +142,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55013 = { #Quatrocentão
@@ -117,6 +161,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55014 = { #Quatrocentão
@@ -149,6 +204,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55018 = { #Quatrocentão
@@ -207,6 +273,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55026 = {
@@ -215,6 +292,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55027 = {
@@ -295,6 +383,63 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+}
+
+55037 = {
+	name = "Abravanel"
+	culture = paulistano
+	religion = jewish
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+55038 = {
+	name = "Macedo" #Universal rulers
+	culture = paulistano
+	religion = universal
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+55039 = {
+	name = "da Fé" #scion of Macedo
+	culture = paulistano
+	religion = universal
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 ####################
@@ -1167,11 +1312,11 @@
 	culture = paulistano
 	religion = apostolic
 }
-55669 = {
-	name = "de Macedo"
-	culture = paulistano
-	religion = apostolic
-}
+#55669 = {
+#	name = "de Macedo"
+#	culture = paulistano
+#	religion = apostolic
+#}
 55670 = {
 	name = "de Matos"
 	culture = paulistano
@@ -1977,11 +2122,11 @@
 	culture = paulistano
 	religion = apostolic
 }
-55831 = {
-	name = "Macedo"
-	culture = paulistano
-	religion = apostolic
-}
+#55831 = {
+#	name = "Macedo"
+#	culture = paulistano
+#	religion = apostolic
+#}
 55832 = {
 	name = "Machado"
 	culture = paulistano

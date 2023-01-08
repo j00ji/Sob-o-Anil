@@ -1,5 +1,5 @@
 2364.1.25 = { 
-	holder = 110001 #Alexandre I Cantarini
+	holder = 110242 #Alexandre I Cantarini
 	law = crown_authority_1
 	law = centralization_1
 	law = succession_voting_power_1

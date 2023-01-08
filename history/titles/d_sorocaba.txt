@@ -7,6 +7,5 @@
 	liege=k_sao_paulo
 }
 2362.4.25 = { 
-	holder = 110605 #Bragança ruler
-	liege = k_paulistano
+	holder = 110605 #Giovani
 }
