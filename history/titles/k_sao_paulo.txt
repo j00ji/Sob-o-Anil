@@ -3,3 +3,34 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
+
+# Legendary Ruler from right after the event #
+
+2050.7.9={
+	holder = 110660#Paulo de Julho, Coronel que preservou São Paulo no pós-evento
+	#government=military_governorate
+}
+2071.5.6 = {
+	holder = 110661 #Lino de Julho, he would convert São Paulo towards bureaucracy
+}
+2100.1.1 = {
+	#government=civil_bureaucracy
+	#law=elective
+}
+2106.1.1={
+	#holder = #Amongst the last Catholic rulers
+}
+2119.1.1={
+	holder = 110664 #Joaquim Macedo, the first Universal ruler of the São Paulo, faced heavy opposotion due to also being head of a religion
+}
+2125.6.10 = {
+	holder = 110670 #Macedo misteryously dies and is replaced by Jorge Mackenzie, presbyterean ruler
+}
+2128.7.24 = {
+	holder = 110665 #Calebe, leader of the Universal rebellion overthrows Jorge and later kills him. After this São Paulo collapses, and he ends up forming Paulistania
+}
+2129.1.1 = {
+	holder = 0
+}
+
+#2154 date of the Great Schism

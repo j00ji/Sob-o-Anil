@@ -6,6 +6,12 @@
 800.1.1={
 	liege=k_sao_paulo
 }
+2080.1.1 ={
+	holder = 110663 #Adilson Macedo
+}
+2094.6.10 = {
+	holder = 110664 #Joaquim Macedo
+}
 2365.11.5 = {
 	holder = 110602 #Sansão
 	liege = k_paulistano

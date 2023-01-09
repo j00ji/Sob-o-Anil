@@ -2,8 +2,7 @@
 ####################
 ####Random camponeto Surnames
 ####Based on all state representatives of São Paulo
-####Source: wikipedia
-####Range: 55500 - 60000
+####
 ####################
 
 65500 = {
@@ -742,11 +741,22 @@
 	religion = apostolic
 }
 65647 = {
-	name = "da Rocha"
+	name = "de Aguiar"
 	culture = camponeto
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 65648 = {
 	name = "da Silva"
@@ -1087,8 +1097,6 @@
 	name = "Fernandes"
 	culture = camponeto
 	religion = apostolic
-	can_appear = no
-	used_for_random = no
 }
 65716 = {
 	name = "Ferrarini"
@@ -2871,4 +2879,22 @@
 	name = "Zveibil"
 	culture = camponeto
 	religion = apostolic
+}
+66100 = {
+	name = "Cabanas"
+	culture = camponeto
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }

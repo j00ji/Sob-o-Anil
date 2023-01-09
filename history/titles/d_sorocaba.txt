@@ -6,6 +6,15 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2362.4.25 = { 
+2270.1.1={
+	holder = 110652 #beginning of the period of Aguiar rule in the duchy
+}
+2279.1.1 = {
+	holder = 110651 #Rafael de Aguiar
+}
+2319.2.23 = {
+	holder = 110650 #Tobias
+}
+2356.5.22 = { 
 	holder = 110605 #Giovani
 }

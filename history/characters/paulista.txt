@@ -2417,7 +2417,7 @@
 	name = "Brás"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	disallow_random_traits = yes
 	add_trait = midas_touched
 	add_trait = architect 
@@ -2433,7 +2433,7 @@
 	name = "Pedro"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110076 #Brás
 	disallow_random_traits = yes
 	add_trait = flamboyant_schemer
@@ -2456,7 +2456,7 @@
 	name = "Bruno"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110076 #Brás
 	disallow_random_traits = yes
 	add_trait = skilled_tactician
@@ -2480,7 +2480,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110078 #Bruno
 	
 	2103.5.10 = {birth = yes}
@@ -2496,7 +2496,7 @@
 	name = "André"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110078 #Bruno
 	add_trait = slow
 	
@@ -2508,7 +2508,7 @@
 	name = "Davi"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110080 #André
 	
 	2130.2.12 = {birth = yes}
@@ -2520,7 +2520,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110080 #André
 	
 	2133.4.10 = {birth = yes}
@@ -2531,7 +2531,7 @@
 	name = "Vinícius"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110081 #Davi
 	
 	2154.6.13 = {birth = yes}
@@ -2543,7 +2543,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110081 #Davi
 	
 	2157.3.10 = {birth = yes}
@@ -2554,7 +2554,7 @@
 	name = "Emanuel"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110083 #Vinícius
 	add_trait = elusive_shadow
 	add_trait = shrewd
@@ -2569,7 +2569,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110083 #Vinícius
 	
 	2183.8.26 = {birth = yes}
@@ -2581,7 +2581,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110083 #Vinícius
 	
 	2185.1.10 = {birth = yes}
@@ -2592,7 +2592,7 @@
 	name = "Jefferson"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110085 #Emanuel
 	
 	2200.2.3 = {birth = yes}
@@ -2604,7 +2604,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110085 #Emanuel
 	
 	2203.11.7 = {birth = yes}
@@ -2615,7 +2615,7 @@
 	name = "Fausto"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110088 #Jefferson
 	
 	2225.12.3 = {birth = yes}
@@ -2627,7 +2627,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110088 #Jefferson
 	
 	2230.4.8 = {birth = yes}
@@ -2639,7 +2639,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110090 #Fausto
 	
 	2248.3.11 = {birth = yes}
@@ -2650,7 +2650,7 @@
 	name = "Ítalo"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110090 #Fausto
 	
 	2250.8.23 = {birth = yes}
@@ -2666,7 +2666,7 @@
 	name = "Lisandro"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110093 #Ítalo
 	
 	2272.3.10 = {birth = yes}
@@ -2677,7 +2677,7 @@
 	name = "Filipe"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110093 #Ítalo
 	
 	2275.11.1 = {birth = yes}
@@ -2689,7 +2689,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110093 #Ítalo
 	
 	2278.3.15 = {birth = yes}
@@ -2699,7 +2699,7 @@
 	name = "Desidério"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110094 #Lisandro
 	
 	2303.12.5 = {birth = yes}
@@ -2717,7 +2717,7 @@
 	name = "Ícaro"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110095 #Filipe
 	
 	2307.2.23 = {birth = yes}
@@ -2729,7 +2729,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110095 #Filipe
 	
 	2310.1.8 = {birth = yes}
@@ -2740,7 +2740,7 @@
 	name = "Rafael"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110098 #Ícaro
 	
 	2326.8.12 = {birth = yes}
@@ -2754,7 +2754,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110098 #Ícaro
 	
 	2328.2.9 = {birth = yes}
@@ -2767,7 +2767,7 @@
 	name = "Bernardo"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110098 #Ícaro
 	
 	2333.3.3 = {birth = yes}
@@ -2782,7 +2782,7 @@
 	name = "Filipe"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110100 #Rafael
 	mother = 110191 #Carolina
 	
@@ -2793,7 +2793,7 @@
 	name = "Anselmo"
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110100 #Rafael
 	mother = 110191 #Carolina
 	
@@ -2805,7 +2805,7 @@
 	female = yes
 	dynasty = 55013
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110100 #Rafael
 	mother = 110191 #Carolina
 	
@@ -2818,11 +2818,11 @@
 	name = "Fábio"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	
 	2213.7.20 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2270.1.3 = {death = yes}
 }
@@ -2831,12 +2831,12 @@
 	name = "Joaquim"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110106 #Fábio
 	
 	2233.7.15 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2283.3.9 = {death = yes}
 }
@@ -2845,12 +2845,12 @@
 	name = "Demétrio"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110107 #Joaquim
 	
 	2257.12.21 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2300.11.7 = {death = yes}
 }
@@ -2859,12 +2859,12 @@
 	name = "Germano"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110107 #Joaquim
 	
 	2260.1.13 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2304.12.3 = {death = yes}
 }
@@ -2873,12 +2873,12 @@
 	name = "José"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110107 #Joaquim
 	
 	2264.2.7 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2301.1.1 = {
 		add_trait = ill
@@ -2894,12 +2894,12 @@
 	name = "Fernando"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110107 #Joaquim
 	
 	2267.3.12 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2307.10.3 = {
 		death = {
@@ -2913,12 +2913,12 @@
 	name = "Gustavo"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110108 #Demétrio
 	
 	2278.1.3 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2307.12.1 = {
 		death = {
@@ -2932,12 +2932,12 @@
 	name = "Diego"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110109 #Germano
 	
 	2280.2.11 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2306.3.11 = {
 		death = {
@@ -2951,12 +2951,12 @@
 	name = "Lucas"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110110 #José
 	
 	2283.12.8 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2307.8.30 = {
 		death = {
@@ -2971,12 +2971,12 @@
 	female = yes
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110110 #José
 	
 	2285.10.3 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2329.1.7 = {death = yes}
 }
@@ -2985,12 +2985,12 @@
 	name = "Tiago"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110111 #Fernando
 	
 	2287.3.10 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2307.12.1 = {
 		death = {
@@ -3005,12 +3005,12 @@
 	name = "Brás"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110112 #Gustavo 
 	
 	2300.12.3 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2357.8.5 = {death = yes}
 }
@@ -3019,12 +3019,12 @@
 	name = "Orlandino"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110117 #Brás
 	
 	2323.7.3 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2364.1.25 = {
 		employer = 110001 #Alexandre I Cantarini
@@ -3036,12 +3036,12 @@
 	female = yes
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110117 #Brás
 	
 	2325.10.8 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 }
 
@@ -3049,12 +3049,12 @@
 	name = "Sérgio"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110117 #Brás
 	
 	2330.7.12 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2364.1.25 = {
 		employer = 110001 #Alexandre I Cantarini
@@ -3066,12 +3066,12 @@
 	female = yes
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110117 #Brás
 
 	2332.9.12 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 }
 
@@ -3079,12 +3079,12 @@
 	name = "Luís"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110118 #Orlandino
 	
 	2347.3.13 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 }
 
@@ -3092,12 +3092,12 @@
 	name = "Nicolas"
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110118 #Orlandino
 	
 	2347.3.12 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2347.3.13 = {death = yes}
 }
@@ -3107,13 +3107,13 @@
 	female = yes
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110118 #Orlandino
 	add_trait = twin
 	
 	2350.9.10 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 }
 
@@ -3122,13 +3122,13 @@
 	female = yes
 	dynasty = 55023
 	religion = anchietican
-	culture = teuto_paulista
+	culture = salvadorense
 	father = 110118 #Orlandino
 	add_trait = twin
 	
 	2350.9.10 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 }
 	
@@ -10678,19 +10678,140 @@
 
 ## End of de Sousa Dynasty ## 
 
-## da Rocha Dynasty ##
+## de Aguiar Dynasty ##
+## 110650-110660 ##
+## Members of Sorocaba nobility ##
 
-110605 = {
-	name = "Giovani"
+110650 = {
+	name = "Tobias"
+	dynasty = 65647
+	religion = anchietican
+	culture = camponeto
+	father=110651
+	
+	trait = skilled_tactician
+	trait = cavalry_leader
+	trait = aggressive_leader
+	
+	2308.1.17 = {
+		birth = yes
+	}
+	2356.5.22 = {
+		death = yes
+	}
+}
+
+110651 = {
+	name = "Rafael"
+	dynasty = 65647
+	religion = anchietican
+	culture = camponeto
+	father=110652
+	
+	trait= indulgent_wastrel
+	trait= content
+	trait= zealous
+	trait= charitable
+	
+	2274.5.29 = {
+		birth = yes
+	}
+	2319.2.23 = {
+		death = yes
+	}
+}
+
+110652 = {
+	name = "Daniel"
+	dynasty = 65647
+	religion = anchietican
+	culture = camponeto
+	father=110653
+	
+	trait = tough_soldier
+	trait = diligent
+	trait = just
+	trait = sturdy
+	
+	2243.2.26 = {
+		birth = yes
+	}
+	2279.1.1 = {
+		death = yes
+	}
+	#first of the fmaily to rule the duchy of Sorocaba
+}
+
+110653 = {
+	name = "Martinez"
+	dynasty = 65647
+	religion = anchietican
+	culture = camponeto
+	father=110654
+	
+	trait = brilliant_strategist
+	trait = impaler
+	trait = heavy_infantry_leader
+	trait = paranoid
+	
+	2210.1.1 = {
+		birth = yes
+	}
+	2250.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+110654 = {
+	name = "Conte"
 	dynasty = 65647
 	religion = anchietican
 	culture = camponeto
 	
+	trait=intricate_webweaver
+	trait=brave
+	trait=honest
+	
+	2184.8.2 = {
+		birth=yes
+	}
+	2223.8.5 = {
+		death = yes
+	}
+}
+
+110655 = {
+	name = "Maria"
+	dynasty = 65647
+	religion = anchietican
+	culture = camponeto
+	female=yes
+	father=110654
+	
+	2200.1.1 = {
+		birth = yes
+	}
+	2267.1.1 = {
+		death = yes
+	}
+}
+
+110605 = {
+	name = "Diogo"
+	dynasty = 65647
+	religion = anchietican
+	culture = camponeto
+	father=110650
+	
 	disallow_random_traits = yes
-	trait = content
+	trait = ambitious
 	trait = gamer
 	trait = quick
-	trait = detached_priest
+	trait = charitable
+	trait = diligent
+	trait = grey_eminence
 	
 	martial = 7
 	diplomacy = 5
@@ -10701,16 +10822,19 @@
 	2348.9.29 = {
 		birth = yes
 	}
+	2400.1.1={
+		death = yes
+	}
 }
 
-## End of da Rocha Dynasty ##
+## End of de Aguiar Dynasty ##
 
-## Magalhães Dynasty ##
+## Cabanas Dynasty ##
 
 110606 = {
 	name = "Isabela"
 	female = yes
-	dynasty = 65715
+	dynasty = 66100
 	religion = anchietican
 	culture = camponeto
 	
@@ -10734,7 +10858,7 @@
 
 110607 = {
 	name = "Felipe"
-	dynasty = 65715
+	dynasty = 66100
 	religion = anchietican
 	culture = camponeto
 	mother = 110606
@@ -10837,3 +10961,341 @@
 }
 
 ## End of Ottoboni Dynasty ##
+
+## de Julho dynasty ##
+## 110660 - 110662##
+
+110660 = {
+	name = "Paulo"
+	dynasty = 55040 # de Julho
+	religion = catholic #from before the schism
+	culture = paulistano
+	occluded=yes #shrouded in Legend
+	
+	trait=brilliant_strategist
+	trait=just
+	trait=strategist
+	trait=diligent
+	trait=zealous
+	
+	2000.11.24 = {
+		birth = yes 
+	}
+	2071.5.6 = {
+		death = yes
+	}
+	#preserver of São Paulo
+}
+
+110661 = {
+	name = "Lino" 
+	dynasty = 55040 # de Julho
+	father = 110660
+	religion = catholic #from before the schism
+	culture = paulistano
+	occluded=yes #shrouded in Legend
+	
+	trait=midas_touched
+	trait=just
+	trait=patient
+	trait=kind
+	trait=charitable
+	trait=administrator
+	
+	2025.3.15 = {
+		birth = yes
+	}
+	2106.1.1={
+		death =yes
+	}
+	#transformed São Paulo into a BUREAUCRATIC REALM
+}
+
+110662 = {
+	name = "Heloísa´" 
+	dynasty = 55040 # de Julho
+	female = yes
+	father = 110661
+	religion = catholic #from before the schism
+	culture = paulistano
+	occluded=yes #shrouded in Legend
+	
+	trait = naive_appeaser
+	trait = wroth
+	trait = kind
+	trait = honest
+	
+	2092.6.23 = {
+		birth = yes
+	}
+	2141.2.5 = {
+		death = yes
+	}
+}
+
+## end of de Julho dynasty ##
+## Macedo Dynasty ##
+## 110663 - ?? ##
+110663 = { #ruler of Osasco
+	name = "Adilson"
+	dynasty = 55038 # Macedo
+	religion = universal
+	culture = paulistano
+	
+	trait = charismatic_negotiator
+	trait = gregarious
+	trait = deceitful
+	
+	2059.9.10 = {
+		birth = yes
+	}
+	2094.6.10 = {
+		death={
+			death_reason=death_murder_unknown
+		}
+	}
+}
+110664 = {
+	name = "Elias"
+	dynasty = 55038 # Macedo
+	religion = universal
+	culture = paulistano
+	father =110663
+	trait = charismatic_negotiator
+	trait = zealous
+	trait = gregarious
+	trait = deceitful
+	trait = cruel
+	
+	2080.8.24 = {
+		birth = yes
+	}
+	2125.6.10 = {
+		death={
+			death_reason=death_murder_unknown
+		}
+	}
+}
+110665 = {
+	name = "Calebe" #leader of the Universal rebels
+	dynasty = 55038 # Macedo
+	religion = universal
+	culture = salvadorense
+	father=110664
+	
+	trait = skilled_tactician
+	trait = impaler
+	trait = wroth
+	trait = zealous
+	trait = charitable
+	
+	2101.8.30 = {
+		birth = yes
+		culture = paulistano
+	}
+	2129.1.1 = {
+		effect = {
+			add_claim = k_sao_paulo
+		}
+	}
+	2134.2.23 = {
+		death = {
+			death_reason=death_battle
+			killer = 110671
+		}
+	}
+}
+110666 = {
+	name = "Ester"
+	dynasty = 55038 # Macedo
+	religion = universal
+	culture = canastro
+	female = yes
+	
+	father = 110665
+	
+	trait = intricate_webweaver
+	trait = fair
+	trait = lustful
+	trait = shrewd
+	
+	2119.4.15 = {
+		birth = yes
+		culture = paulistano
+	}
+	#inherited the Universal title
+	#ela deve se casar com algum Capixaba ou Carioca, e tbm ter um bastardinho e esse bastardinho criar a familia da Fé
+}
+110667 = {
+	name = "Levi"
+	dynasty = 55038 # Macedo
+	religion = universal
+	culture = salvadorense
+	
+	father = 110665
+	
+	trait = tough_soldier
+	trait = shy
+	trait = ambitious
+	trait = depressed
+	
+	2122.10.5 = {
+		birth = yes
+		culture = paulistano
+	}
+	2168.5.17 = {
+		death = {
+			death_reason = death_missing
+		}
+	} #inherited Universal and São Paulo after his father's death, eventually disappeared after losing control of São Paulo
+}
+##end of Macedo Dynasty ##
+## Mackenzie dynasty ##
+## 110670 - ?? ##
+110670 = {
+	name = "Jorge"
+	dynasty = 55041 # Mackenzie
+	religion = evangelical
+	culture = teuto_paulista
+	
+	trait = thrifty_clerk
+	trait = branch_presbyterian
+	trait = erudite
+	
+	2072.5.5 = {
+		birth = yes
+		culture = paulistano
+	}
+	2128.7.30 = {
+		death={
+			death_reason=death_execution
+			killer = 110665 #Calebe ordered him executed
+		}
+	}
+}
+#the Mackenzie brothers, sons of Jorge
+110671 = {
+	name = "Lucas"
+	dynasty = 55041 # Mackenzie
+	religion=evangelical
+	culture = teuto_paulista
+	father = 110670
+	
+	trait = skilled_tactician
+	trait = branch_presbyterian
+	trait = duelist
+	trait = cynical
+	trait = twin
+	
+	2099.5.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2110.2.4 = {
+		add_friend = 110672
+	}
+	2150.2.24 = {
+		death = yes
+	}
+}
+110672 = {
+	name = "Leonardo"
+	dynasty = 55041 # Mackenzie
+	religion=evangelical
+	culture = teuto_paulista
+	father = 110670
+	
+	trait = mastermind_theologian
+	trait = branch_presbyterian
+	trait = kind
+	trait = scholar
+	trait = twin
+	
+	2099.5.1 = {
+		birth = yes
+		culture = paulistano
+	}
+	2110.2.4 = {
+		add_friend = 110672
+	}
+	2155.1.1 = {
+		effect = {
+			imprison=110674
+		}
+	}
+	2160.1.1 = {
+		death = {
+			death_reason = death_dungeon
+			killer = 110674
+		}
+	}
+}
+
+#Sguassabia family
+
+110673 = {
+	name = "José"
+	dynasty = 55042 #Sguassabia
+	religion = catholic
+	culture = paulistano
+	
+	trait = martial_cleric
+	trait = erudite
+	trait = fair
+	trait = poet
+	
+	2059.4.10 = {
+		birth = yes
+	}
+	2119.1.1 = {
+		death = yes
+	}
+}
+
+110674 = {
+	name = "Mario"
+	dynasty = 55042 #Sguassabia
+	religion = catholic
+	culture = paulistano
+	father = 110673
+	
+	trait = brilliant_strategist
+	trait = quick
+	trait = gamer
+	trait = zealous
+	trait = patient
+	
+	2110.12.25 = {
+		birth = yes
+	}
+	2126.12.10 = {
+		religion = iconoclasts
+	}
+	2171.12.26 = {
+		death = yes
+	}
+}
+
+110675 = {
+	name = "Luiz"
+	dynasty = 55042 #Sguassabia
+	religion = iconoclasts
+	culture = paulistano
+	father = 110674
+	
+	trait = intricate_webweaver
+	trait = scarred_mid
+	trait = just
+	trait = shrewd
+	trait = patient
+	
+	2131.10.14 = {
+		birth = yes
+	}
+	2155.1.15 = {
+		religion = anchietican #he converted following the schism
+	}
+	2202.1.1 = {
+		death = yes
+	}
+}

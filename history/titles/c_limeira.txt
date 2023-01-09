@@ -6,3 +6,15 @@
 800.1.1={
 	liege=k_sao_paulo
 }
+2354.8.22 = { #William I West defeats the revolt in Piracicaba
+	holder = 120049
+}
+2358.1.10 = { #Albert West is made Duke of Piracicaba
+	holder = 120052
+}
+2362.1.19 = { #Mineiro Ruler must be added
+	holder = 0
+}
+2364.1.25 = { #New Americano ruler with collapse of the Mineiros
+	holder = 120055 
+}	

@@ -1,3 +1,45 @@
+2129.1.1 = {
+	holder = 110665 #Calebe reorganizes the kingdom following the Paulista Collapse
+}
+2134.2.23 = {
+	holder = 110667 #Levi inherits following his father's death, he however is only 12 years old and doesn't last very long
+}
+2137.11.7 = {
+	holder = 110671 #Lucas Mackenzie ends period of Universal rule in São Paulo
+}
+2150.2.24 = {
+	holder = 110674 #Mario Sguassabia, radical Catholic gets elected, he gradually reduces the rights of protestants until deciding to expel them after a rebellion in 2160
+}
+2170.2.26 = {
+	holder = 110675 #Luis Sguassabia
+}
+2202.1.1 = {
+	holder = 110229 #Gabriel Matarazzo
+}
+2235.12.3 = {
+	holder = 110230 #Francisco Matarazzo
+}
+2257.6.2 = { 
+	holder = 110247 #Baltazar Schimidt
+}
+2298.2.13 = { 
+	holder = 110249 #Galileu Schimidt
+}
+2312.7.5 = {
+	holder = 110237 #Daniel Matarazzo
+}
+2336.8.3 = {
+	holder = 110254 #Bianca Schimidt
+}
+2352.9.21 = {
+	holder = 110283 #Domingos Jafet
+}
+2359.6.16 = { 
+	holder = 110285 #Guilherme Jafet
+}
+2364.1.25 = { 
+	holder = 110242 #Yago Matarazzo
+}
 2364.1.25 = { 
 	holder = 110242 #Alexandre I Cantarini
 	law = crown_authority_1

@@ -2638,7 +2638,7 @@ e_vera_cruz = {
 			color={ 216 48 3 }
 			color2={ 255 255 255 }
 
-			capital = 39 # c_sao_jose_do_barreiro
+			capital = 42 # c_campos_do_jordao
 			
 			c_sao_jose_do_barreiro = { # 39
 				color={ 196 177 33 }

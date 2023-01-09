@@ -1,7 +1,7 @@
 ###ÄNSI
 
 1400001 = {
-	name = "Tanaka"
+	name = "Taguchi"
 	culture = kyusei
 	religion = iconoclast
 	can_appear = no
