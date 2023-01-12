@@ -1,4 +1,18 @@
 ###ÄNSI
+
+####################
+####Non-Random caipira Surnames
+####Range: 80001 - 80499
+####################
+
+80001 = {
+	name = "Agripino"
+	culture = caipira
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+}
+
 ####################
 ####Random caipira Surnames
 ####Based on all state representatives of São Paulo

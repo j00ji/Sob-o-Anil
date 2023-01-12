@@ -18,6 +18,6 @@ b_ribeirao_do_sul = temple
 
 # Misc
 culture = kyusei
-religion = anchietican
+religion = johrei
 
 #History

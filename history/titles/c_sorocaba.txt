@@ -6,8 +6,14 @@
 800.1.1={
 	liege=k_sao_paulo
 }
+2230.1.1 ={
+	holder = 110678 #Miguel Cabanas
+}
+2252.1.1 = {
+	holder = 110679 #Alfredo Cabanas
+}
 2270.1.1={
-	holder = 110652 #beginning of the period of Aguiar rule in the duchy
+	holder = 110652 #beginning of the period of Aguiar rule in the duchy, as Alfredo gets overthrown
 }
 2279.1.1 = {
 	holder = 110651 #Rafael de Aguiar

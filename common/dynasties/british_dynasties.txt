@@ -170,6 +170,11 @@
 	culture = falklander
 	religion = brethren
 }
+245028 = {
+	name = "Iris"
+	culture = falklander
+	religion = brethren
+}
 
 250001 = {
 	name = "Jones"

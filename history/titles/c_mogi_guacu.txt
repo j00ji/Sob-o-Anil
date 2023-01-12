@@ -43,5 +43,6 @@
 	holder = 120049
 }
 2359.2.10 = { #William I gives it to someone else
-	holder = 0
+	holder = 110715
+	liege = k_americano
 }

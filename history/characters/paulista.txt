@@ -1083,6 +1083,12 @@
 #	2366.8.3 = {
 #		add_spouse = x
 #	} ehhhhhhhhhhhhhhhhhhhhh
+	2367.1.1 = {
+		effect={add_weak_claim = d_piracicaba}
+	}
+	2400.1.1 = {
+		death = yes
+	}
 }
 
 120052 = {
@@ -1333,7 +1339,7 @@
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
 	add_trait = genius
-	add_trait = adventurer
+	#add_trait = adventurer
 	add_trait = ambitious
 	add_trait = temperate
 	add_trait = diligent
@@ -4784,6 +4790,8 @@
 	dynasty = 55003
 	religion = anchietican
 	culture = paulistano
+	dna="00ad00ja000"
+	properties="lk0lhk000000000000000000000000000000"
 	
 	father = 110240 #Pedro Matarazzo
 	
@@ -9302,7 +9310,7 @@
 	
 	father = 110514 #Diego Siqueira Bruno
 	
-	2328.5.20 = {
+	2318.5.20 = {
 		birth = yes
 	}
 }
@@ -10829,7 +10837,7 @@
 
 ## End of de Aguiar Dynasty ##
 
-## Cabanas Dynasty ##
+## de Itu Dynasty ##
 
 110606 = {
 	name = "Isabela"
@@ -11018,7 +11026,6 @@
 	father = 110661
 	religion = catholic #from before the schism
 	culture = paulistano
-	occluded=yes #shrouded in Legend
 	
 	trait = naive_appeaser
 	trait = wroth
@@ -11123,6 +11130,9 @@
 		birth = yes
 		culture = paulistano
 	}
+	2181.2.4 = {
+		death = yes
+	}
 	#inherited the Universal title
 	#ela deve se casar com algum Capixaba ou Carioca, e tbm ter um bastardinho e esse bastardinho criar a familia da Fé
 }
@@ -11148,6 +11158,24 @@
 			death_reason = death_missing
 		}
 	} #inherited Universal and São Paulo after his father's death, eventually disappeared after losing control of São Paulo
+}
+110668 = {
+	name = "Davi"
+	dynasty = 55039 # da Fé
+	religion = universal
+	culture = capixaba
+	
+	mother=110666
+	
+	trait = skilled_tactician
+	trait = bastard
+	
+	2143.4.7 = {
+		birth = yes
+	}
+	2202.3.6 = {
+		death = yes
+	}
 }
 ##end of Macedo Dynasty ##
 ## Mackenzie dynasty ##
@@ -11298,4 +11326,749 @@
 	2202.1.1 = {
 		death = yes
 	}
+}
+
+#Vassals of Paranapanema
+
+110676 = {
+	name = "Benedito"
+	dynasty = 75003 #santoro
+	religion = iconoclasts
+	culture = paranapanense
+	
+	trait = misguided_warrior
+	trait = robust
+	trait = kind
+	
+	diplomacy = 7
+	martial = 9
+	stewardship = 5
+	intrigue = 7
+	learning = 4
+	
+	2322.4.6 = {
+		birth = yes
+	}
+	2400.1.1 ={
+		death = yes
+	}
+}
+
+110677 = {
+	name = "Giovani"
+	dynasty = 65959 #Rocha
+	religion = iconoclasts
+	culture = paranapanense
+	
+	trait = thrifty_clerk
+	trait = gamer
+	trait = content
+	
+	2343.2.10 = {
+		birth = yes
+	}
+	2400.1.1 ={
+		death = yes
+	}
+}
+
+## Cabanas dynasty
+
+110678 = {
+	name = "Miguel"
+	dynasty=66101 #Cabanas
+	religion = anchietican
+	culture = camponeto
+	
+	trait = brilliant_strategist
+	trait = brave
+	trait = narrow_flank_leader
+	trait = light_foot_leader
+	
+	2201.2.4 = {
+		birth = yes
+	}
+	2252.1.1 = {
+		death = yes
+	}
+	#leader of Sorocaba prior to the de Aguiars
+}
+
+110679 = {
+	name = "Alfredo"
+	dynasty = 66101 #Cabanas
+	religion = anchietican
+	culture = camponeto
+	father = 110678
+	trait = amateurish_plotter
+	trait = envious
+	trait = cynical
+	2240.1.1 = {
+		birth = yes
+	}
+	2290.4.23 = {
+		death = yes
+	}
+}
+
+110680 = {
+	name = "Isidoro"
+	dynasty = 66101 #Cabanas
+	religion = apostolic #maybe
+	culture = camponeto
+	father = 110679
+	trait = tough_soldier
+	trait = zealous
+	trait = honest
+	trait = scholar
+	2269.1.1 = {
+		birth = yes
+	}
+	2343.1.1 = {
+		death = yes
+	}
+}
+
+110681 = {
+	name = "João"
+	dynasty = 66101 #Cabanas
+	religion = apostolic #maybe
+	culture = camponeto
+	father = 110680
+	trait = brilliant_strategist
+	trait = adventurer
+	trait = brave
+	trait = stubborn
+	trait = envious
+	diplomacy = 7
+	martial = 9
+	stewardship = 8
+	intrigue = 7
+	learning = 9
+	
+	2335.1.1 = {
+		birth = yes
+		effect = {
+			add_claim = d_sorocaba
+		}
+	}
+	2400.1.1 ={
+		death = yes
+	}
+}
+
+110682 = {
+	name = "Fernanda"
+	dynasty = 66101 #Cabanas
+	religion = apostolic #maybe
+	culture = camponeto
+	father = 110680
+	trait = elusive_shadow
+	trait = quick
+	trait = strong
+	trait = gregarious
+	trait = ambitious
+	trait = groomed
+	2340.1.1 = {
+		birth = yes
+	}
+	2400.1.1 ={
+		death = yes
+	}
+}
+
+#Capelli
+
+110683 = {
+	name = "Antônio"
+	dynasty = 66102 #Capelli
+	religion = anchietican
+	culture = camponeto
+	
+	trait = martial_cleric
+	trait = scholar
+	
+	diplomacy = 9
+	martial = 8
+	stewardship = 12
+	intrigue = 4
+	learning = 9
+	2343.4.5 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#counts of São Carlos, dukes of medio tiete
+}
+
+##Lott, Mineiro invaders of São Paulo
+110684 = {
+	name = "Zé"
+	dynasty = 260002 #Lott
+	religion = terra_benta
+	culture = canastro
+	
+	trait = tough_soldier
+	trait = is_fat
+	trait = slothful
+	trait = gluttonous
+	
+	2274.2.4 = {
+		birth = yes
+	}
+	2330.2.3 = {
+		death = yes
+	}
+	#father of the invaders
+}
+
+110685 = {
+	name = "Valamiro"
+	dynasty = 260002 #Lott
+	religion = terra_benta
+	culture = canastro
+	
+	father = 110684
+	
+	trait = brilliant_strategist
+	trait = adventurer
+	trait = ambitious
+	
+	diplomacy = 10
+	martial = 12
+	stewardship = 9
+	intrigue= 7
+	learning = 2
+	
+	2318.11.2 = {
+		birth = yes
+	}
+	2358.1.1 = {
+		effect = {
+			make_tributary = {
+				who = 110700
+				percentage = 0.40
+				tributary_type = default
+			}
+		}
+	}
+	2365.11.3 = {
+		death = yes
+	}
+	#leader of the invading mineiros, held the kingdom of Terra Roxa, rio pardo, medio tiete and piracicaba, also 
+}
+
+110686 = {
+	name = "Mané" #Valamiro's half brother
+	dynasty = 260002 #Lott
+	religion = terra_benta
+	culture = canastro 
+	
+	trait = skilled_tactician
+	trait = envious
+	trait = deceitful
+	
+	father = 110684
+	2319.6.7 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#holds Passos and São Sebastião do Paraíso, vassal of Rio Pardo
+}
+
+110687 = {
+	name = "Eurico" # son of Valamiro
+	dynasty = 260002 #Lott
+	religion = terra_benta
+	culture = canastro
+	
+	trait = tough_soldier
+	trait = ambitious
+	trait = duelist
+	trait = depressed
+	trait = sympathy_christendom
+	
+	2351.2.5 = {
+		birth = yes
+	}
+	2362.1.19 = {
+		effect={
+			add_claim = k_terra_roxa 
+		}
+	}
+	2367.1.1 = {
+		effect={add_friend=110688}
+	} 
+	2400.1.1 = {
+		death = yes
+	}
+	#currently rules what's left of the Mineiro Invasion, the duchy of Rio Pardo, ribeirão preto, barretos and são joão da boa vista
+}
+
+110688 = {
+	name = "Inês" #Eurico's friend, a prisoner captured by his father
+	dynasty = none
+	female=yes
+	religion = anchietican 
+	culture = camponeto
+	
+	trait = charismatic_negotiator
+	trait = kind
+	trait = quick
+	trait = gluttonous
+	trait = honest
+	disallow_random_traits = yes
+	
+	2353.1.1 = {
+		birth = yes
+	}
+	2359.1.1 = {
+		employer = 110685
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+110689 = {
+	name = "Carlos Magno"
+	dynasty = 260003 #de Ribeirão
+	religion = terra_benta
+	culture = salvadorense
+	
+	trait = intricate_webweaver
+	trait = duelist
+	trait = ambitious
+	trait = stubborn
+	
+	2344.1.1 = {
+		birth = yes
+		culture = canastro
+	}
+	2360.1.1 = {
+		give_nickname = nick_the_marginal_knight
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#ruler of Franca, vassal of Rio Pardo
+}
+##Suzuki dynasty##
+## 110700-1107XX ###
+110700 = {
+	name = "Paulo"
+	dynasty = 1400002 #Suzuki
+	religion = johrei
+	culture = kyusei
+	
+	trait = grey_eminence
+	trait = shrewd
+	trait = humble
+	trait = trusting
+	
+	diplomacy=8
+	martial=4
+	stewardship=7
+	intrigue=5
+	learning=7
+	
+	2314.1.1 = {
+		birth = yes
+	}
+	2332.5.5 = {
+		add_spouse = 110701
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#Duke of Marilia, owns Marilia, Ourinhos and Bauru, at some point he was made tributary of the Mineiro invaders
+}
+
+110701 = {
+	name = "Camila"
+	female = yes
+	dynasty = none ##maybe change it to a noblewoman
+	culture = caipira
+	religion = johrei
+	
+	trait = indulgent_wastrel
+	trait = greedy
+	trait = kind
+	trait = stubborn
+	
+	2316.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+110702 = {
+	name = "Hana"
+	female = yes
+	dynasty = 1400002 #Suzuki
+	culture = kyusei
+	religion = johrei
+	
+	father = 110700
+	mother = 110701
+	
+	trait = indulgent_wastrel
+	trait = arbitrary
+	trait = wroth
+	
+	2333.3.4 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	
+}
+
+110703 = {
+	name = "Naomi"
+	female = yes
+	dynasty = 1400002 #Suzuki
+	culture = caipira
+	religion = johrei
+	
+	father = 110700
+	mother = 110701
+	
+	trait = martial_cleric
+	trait = erudite
+	trait = kind
+	
+	2338.8.12 = {
+		birth = yes
+		culture = kyusei
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+110704 = {
+	name = "Camily"
+	female = yes
+	dynasty = 1400002 #Suzuki
+	culture = kyusei
+	religion = johrei
+	
+	father = 110700
+	mother = 110701
+	
+	trait = flamboyant_schemer
+	trait = fair
+	trait = patient
+	trait = shrewd
+	trait = ambitious
+	
+	2347.2.4 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+##Vassals of Marilia
+
+110705 = {
+	name = "Sabrina"
+	female = yes
+	dynasty = 1400003 #Makino
+	culture = kyusei
+	religion = johrei
+	
+	trait = charismatic_negotiator
+	trait = diligent
+	trait = poet
+	trait = kind
+	
+	2341.3.5 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#count of Assis, vassal of marilia
+}
+
+110706 = {
+	name = "Rufino"
+	dynasty = 80001 #Agripino
+	culture = caipira
+	religion = johrei
+	
+	trait = midas_touched
+	trait = greedy
+	trait = groomed
+	trait = honest
+	
+	2339.5.10 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#holder of Lins, vassal of marilia
+}
+
+#Holder of Araraquara
+
+110707 = {
+	name = "Hiro"
+	dynasty = 1400004 # Koma; Conde Koma
+	culture = kyusei
+	religion = anchietican
+	
+	trait = skilled_tactician
+	trait = strong
+	trait = patient
+	trait = duelist
+	trait = adventurer
+	trait = humble
+	
+	2327.7.12 = {
+		birth = yes
+	}
+	2353.4.5 = {
+		effect={add_lover=110708}
+		add_spouse = 110708
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#vassal of Médio Tietê
+}
+
+110708 = {
+	name = "Daisy May"
+	dynasty = 245028 #Iris
+	culture = falklander
+	religion = anchietican #she converted
+	
+	trait = scholarly_theologian
+	trait = kind
+	trait = physician
+	trait = fair
+	
+	2331.6.7 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+#Villas Boas family
+
+110709 = {
+	name = "Agnello"
+	dynasty = 65001 #Villas Boas
+	culture = camponeto
+	religion = anchietican
+	
+	trait = underhanded_rogue
+	trait = gregarious
+	trait = just
+	
+	2281.1.1 = {
+		birth = yes
+	}
+	2350.1.1 = {
+		death = yes
+	}
+	#Villas Boas parents
+}
+
+110710 = {
+	name = "Arlinda"
+	dynasty = none
+	culture = paulistano
+	religion = anchietican
+	female = yes
+	
+	trait = underhanded_rogue
+	trait = kind
+	trait = charitable
+	
+	2386.1.1 = {
+		birth = yes
+	}
+	2350.1.1 = {
+		death = yes
+	}
+	#Villas Boas mother
+}
+
+110711 = {
+	name = "Orlando"
+	dynasty = 65001 #Villas Boas
+	culture = camponeto
+	religion = anchietican
+	
+	father = 110709
+	mother = 110710
+	
+	trait = skilled_tactician
+	trait = experimenter
+	trait = adventurer
+	trait = kind
+	trait = charitable
+	
+	2314.1.12 = {
+		birth = yes
+	}
+	2340.1.1 = {
+		effect = {
+			add_friend = 110712
+			add_friend = 110713
+			add_friend = 110714
+		}
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#holder of Botucatu and avaré
+}
+
+110712 = {
+	name = "Cláudio"
+	dynasty = 65001 #Villas Boas
+	culture = camponeto
+	religion = anchietican
+	
+	father = 110709
+	mother = 110710
+	
+	trait = martial_cleric
+	trait = adventurer
+	trait = inspiring_leader
+	trait = just
+	trait = charitable
+	
+	2316.12.8 = {
+		birth = yes
+	}
+	2340.1.1 = {
+		effect = {
+			add_friend = 110711
+			add_friend = 110713
+			add_friend = 110714
+		}
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+110713 = {
+	name = "Leonardo"
+	dynasty = 65001 #Villas Boas
+	culture = camponeto
+	religion = anchietican
+	
+	father = 110709
+	mother = 110710
+	
+	trait = flamboyant_schemer
+	trait = lustful
+	trait = adventurer
+	trait = kind
+	trait = charitable
+	
+	2318.1.1 = {
+		birth = yes
+	}
+	2340.1.1 = {
+		effect = {
+			add_friend = 110712
+			add_friend = 110711
+			add_friend = 110714
+		}
+	}
+	2361.1.1 = {
+		death = yes
+	}
+}
+
+110714 = {
+	name = "Álvaro"
+	dynasty = 65001 #Villas Boas
+	culture = camponeto
+	religion = anchietican
+	
+	father = 110709
+	mother = 110710
+	
+	trait = thrifty_clerk
+	trait = adventurer
+	trait = organizer
+	trait = charitable
+	trait = kind
+	
+	
+	2326.2.11 = {
+		birth = yes
+	}
+	2340.1.1 = {
+		effect = {
+			add_friend = 110712
+			add_friend = 110713
+			add_friend = 110711
+		}
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+##Vassals of Reino Americano
+
+110715 = {
+	name = "Renan"
+	dynasty = 60004 #Carter
+	culture = americano
+	religion = anchietican
+	
+	trait = tough_soldier
+	trait = charitable
+	trait = proud
+	trait = ambitious
+	
+	2324.4.5 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#holder of Mogi-Guaçu, vassal of Reino Americano
+}
+
+110716 = {
+	name = "Rita"
+	dynasty = 60005 #Povos Unidos
+	female = yes
+	culture = americano
+	religion = anchietican
+	
+	trait = grey_eminence
+	trait = groomed
+	trait = quick
+	trait = gamer
+	
+	2350.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#holder of Holambra, vassal of Reino Americano
 }

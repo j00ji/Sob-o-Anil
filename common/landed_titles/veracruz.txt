@@ -154,58 +154,6 @@ e_vera_cruz = {
 				b_vila_perin = {}
 			}
 		}
-	}
-	k_california = { #california paulista lol
-		color = { 254 75 99 }
-		color2 = { 255 255 255 }
-		
-		capital = 75 # c_ribeirao_preto
-		
-		culture = caipira
-	
-		d_rio_pardo = {
-			color={ 129 90 23 }
-			color2={ 255 255 255 }
-			
-			capital = 75 # c_ribeirao_preto
-			
-			c_ribeirao_preto = { # 75
-				color={ 255 91 66 }
-				color2={ 255 255 255 }
-				
-				b_palmeiras = {}
-				b_vila_tiberio = {}
-				b_sao_simao = {}
-				b_campos_eliseos = {}
-				b_dumont = {}
-				b_bonfim_paulista = {}
-				b_vila_virginia = {}
-			}
-			c_barretos = { # 77
-				color={ 255 161 114 }
-				color2={ 255 255 255 }
-				
-				b_fortaleza = {}
-				b_monte_alegre = {}
-				b_ibitu = {}
-				b_posse_seca = {}
-				b_alberto_moreira = {}
-				b_japorandia = {}
-				b_ortega_nogueira = {}
-			}
-			c_franca = { # 76
-				color={ 255 172 155 }
-				color2={ 255 255 255 }
-				
-				b_raycos = {}
-				b_leporace = {}
-				b_belo_sertao = {}
-				b_batatais = {}
-				b_petropolis_2 = {}
-				b_eliza_verzola = {}
-				b_colina_noemia = {}
-			}
-		}
 		d_rio_preto = {
 			color={ 130 118 96 }
 			color2={ 255 255 255 }
@@ -2069,6 +2017,90 @@ e_vera_cruz = {
 				b_morro_alto = {}
 			}
 		}
+		d_alto_paraiba = {
+			color={ 216 48 3 }
+			color2={ 255 255 255 }
+
+			capital = 42 # c_campos_do_jordao
+			
+			c_sao_jose_do_barreiro = { # 39
+				color={ 196 177 33 }
+				color2={ 255 255 255 }
+				
+				b_arapei = {}
+				b_bananal = {}
+				b_silveiras = {}
+				b_barreiro_de_baixo = {}
+				b_santana_bonsucesso = {}
+				b_volterra_do_bosque = {}
+				b_formigas_de_coqueiro = {}
+			}
+			c_campos_do_jordao = { # 42
+				color={ 193 152 27 }
+				color2={ 255 255 255 }
+				
+				b_bonsucesso = {}
+				b_sao_matheus_2 = {}
+				b_sao_bento_do_sapucai = {}
+				b_santo_antonio_do_pinhal = {}
+				b_imbiri = {}
+				b_amantikiria = {}
+				b_morro_do_elefante = {}
+			}
+			c_cruzeiro = { # 40
+				color={ 193 177 127 }
+				color2={ 255 255 255 }
+				
+				b_nova_cruzeiro = {}
+				b_guaratingueta = {}
+				b_washington_beleza = {}
+				b_pontilhao = {}
+				b_vila_bionde = {}
+				b_itagacaba = {}
+				b_retiro_mantiqueiro = {}
+			}
+			c_sao_jose_dos_campos = { # 43
+				color={ 193 122 50 }
+				color2={ 255 255 255 }
+				
+				b_sao_jose = {}
+				b_francisco_xavier = {}
+				b_eugenio_de_melo = {}
+				b_jacarei = {}
+				b_caminho_da_serra = {}
+				b_embraer = {}
+				b_jambeiro = {}
+			}
+			c_taubate = { # 41
+				color={ 196 190 82 }
+				color2={ 255 255 255 }
+				
+				holy_site = apostolic
+				holy_site = anchietican
+				
+				b_aparecida = {
+					pentarchy = anchietican
+				}
+				b_ouroville = {}
+				b_terra_nova = {}
+				b_catagua = {}
+				b_pindamonhangaba = {}
+				b_roseira = {}
+				b_sao_piraitinga = {}
+			}
+			c_salesopolis = { # 44
+				color={ 196 89 56 }
+				color2={ 255 255 255 }
+				
+				b_paraibuna = {}
+				b_santa_branca = {}
+				b_salesopolis = {}
+				b_guararema = {}
+				b_jacarapema = {}
+				b_vila_denise = {}
+				b_cruz_de_lazaros = {}
+			}
+		}
 		d_itapeva = {
 			color={ 106 196 229 }
 			color2={ 255 255 255 }
@@ -2430,6 +2462,49 @@ e_vera_cruz = {
 				b_yolanda = {}
 			}
 		}
+		d_rio_pardo = {
+			color={ 129 90 23 }
+			color2={ 255 255 255 }
+			
+			capital = 75 # c_ribeirao_preto
+			
+			c_ribeirao_preto = { # 75
+				color={ 255 91 66 }
+				color2={ 255 255 255 }
+				
+				b_palmeiras = {}
+				b_vila_tiberio = {}
+				b_sao_simao = {}
+				b_campos_eliseos = {}
+				b_dumont = {}
+				b_bonfim_paulista = {}
+				b_vila_virginia = {}
+			}
+			c_barretos = { # 77
+				color={ 255 161 114 }
+				color2={ 255 255 255 }
+				
+				b_fortaleza = {}
+				b_monte_alegre = {}
+				b_ibitu = {}
+				b_posse_seca = {}
+				b_alberto_moreira = {}
+				b_japorandia = {}
+				b_ortega_nogueira = {}
+			}
+			c_franca = { # 76
+				color={ 255 172 155 }
+				color2={ 255 255 255 }
+				
+				b_raycos = {}
+				b_leporace = {}
+				b_belo_sertao = {}
+				b_batatais = {}
+				b_petropolis_2 = {}
+				b_eliza_verzola = {}
+				b_colina_noemia = {}
+			}
+		}
 	}
 	k_triangle = {
 		color={ 215 194 51 }
@@ -2623,100 +2698,5 @@ e_vera_cruz = {
 			}
 		}
 	}
-	k_vale_do_paraiba = {
-		color={ 216 48 3 }
-		color2={ 255 255 255 }
-		
-		capital = 50 # c_campos_do_jordao
-		culture = mantiqueiro
-		
-		title = "GRAND_MARQUIS"
-		title_female = "GRAND_MARCHIONESS"
-		foa = "MARQUIS_FOA"
-		
-		d_alto_paraiba = {
-			color={ 216 48 3 }
-			color2={ 255 255 255 }
-
-			capital = 42 # c_campos_do_jordao
-			
-			c_sao_jose_do_barreiro = { # 39
-				color={ 196 177 33 }
-				color2={ 255 255 255 }
-				
-				b_arapei = {}
-				b_bananal = {}
-				b_silveiras = {}
-				b_barreiro_de_baixo = {}
-				b_santana_bonsucesso = {}
-				b_volterra_do_bosque = {}
-				b_formigas_de_coqueiro = {}
-			}
-			c_campos_do_jordao = { # 42
-				color={ 193 152 27 }
-				color2={ 255 255 255 }
-				
-				b_bonsucesso = {}
-				b_sao_matheus_2 = {}
-				b_sao_bento_do_sapucai = {}
-				b_santo_antonio_do_pinhal = {}
-				b_imbiri = {}
-				b_amantikiria = {}
-				b_morro_do_elefante = {}
-			}
-			c_cruzeiro = { # 40
-				color={ 193 177 127 }
-				color2={ 255 255 255 }
-				
-				b_nova_cruzeiro = {}
-				b_guaratingueta = {}
-				b_washington_beleza = {}
-				b_pontilhao = {}
-				b_vila_bionde = {}
-				b_itagacaba = {}
-				b_retiro_mantiqueiro = {}
-			}
-			c_sao_jose_dos_campos = { # 43
-				color={ 193 122 50 }
-				color2={ 255 255 255 }
-				
-				b_sao_jose = {}
-				b_francisco_xavier = {}
-				b_eugenio_de_melo = {}
-				b_jacarei = {}
-				b_caminho_da_serra = {}
-				b_embraer = {}
-				b_jambeiro = {}
-			}
-			c_taubate = { # 41
-				color={ 196 190 82 }
-				color2={ 255 255 255 }
-				
-				holy_site = apostolic
-				holy_site = anchietican
-				
-				b_aparecida = {
-					pentarchy = anchietican
-				}
-				b_ouroville = {}
-				b_terra_nova = {}
-				b_catagua = {}
-				b_pindamonhangaba = {}
-				b_roseira = {}
-				b_sao_piraitinga = {}
-			}
-			c_salesopolis = { # 44
-				color={ 196 89 56 }
-				color2={ 255 255 255 }
-				
-				b_paraibuna = {}
-				b_santa_branca = {}
-				b_salesopolis = {}
-				b_guararema = {}
-				b_jacarapema = {}
-				b_vila_denise = {}
-				b_cruz_de_lazaros = {}
-			}
-		}
-	}
+	
 }

@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_sao_paulo
 }
+2366.1.1 = {#end of the mineiros
+	holder = 110683 #Antonio Capelli
+}

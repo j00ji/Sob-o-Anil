@@ -1,1 +1,4 @@
-
+2350.1.1 = {
+	holder = 110686 #Mané Lott
+	liege = d_rio_pardo
+}

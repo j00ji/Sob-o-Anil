@@ -3,7 +3,7 @@
 1400001 = {
 	name = "Taguchi"
 	culture = kyusei
-	religion = iconoclast
+	religion = iconoclasts
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -21,6 +21,32 @@
 
 1400002 = {
 	name = "Suzuki"
+	culture = kyusei
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = johrei
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+1400003 = {
+	name = "Makino"
+	culture = kyusei
+	can_appear = no
+	used_for_random = no
+}
+
+1400004 = {
+	name = "Koma" #conde Koma
 	culture = kyusei
 	can_appear = no
 	used_for_random = no

@@ -12,3 +12,4 @@
 
 nick_the_bachelor = {}
 nick_the_wizard = {}
+nick_the_marginal_knight = {}

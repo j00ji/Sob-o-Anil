@@ -27,7 +27,7 @@
 2303.10.5 = { #Victor I West
 	holder = 120040
 }
-2310.7.26 = { #Victor I West gives it to someone else.
+2340.7.26 = { #Victor I West gives it to someone else.
+	holder = 110716
 	liege = k_americano
-	holder = 0
 }

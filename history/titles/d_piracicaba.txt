@@ -13,7 +13,7 @@
 	holder = 120052
 }
 2362.1.19 = { #Mineiro Invasion
-	holder = 0
+	holder = 110685 #Valamiro
 }
 2365.11.3 = { #New Americano Duke of Piracicaba post-Mineiro conquest
 	holder = 120055 

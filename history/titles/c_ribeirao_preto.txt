@@ -6,3 +6,9 @@
 800.1.1={
 	liege=k_sao_paulo
 }
+2349.1.1 = { #the Mineiro Invasion
+	holder = 110685 #Valamiro
+}
+2365.11.3 = {
+	holder = 110687 #Eurico
+}

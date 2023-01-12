@@ -251,6 +251,34 @@ k_rio_grande_do_sul = {
 	}
 }
 
+k_vale_do_paraiba = {
+	color={ 216 48 3 }
+	color2={ 255 255 255 }
+	
+	capital = 50 # c_campos_do_jordao
+	culture = mantiqueiro
+	
+	title = "GRAND_MARQUIS"
+	title_female = "GRAND_MARCHIONESS"
+	foa = "MARQUIS_FOA"
+	
+	allow = {
+		always = no
+	}
+}
+
+k_california = { #california paulista lol
+	color = { 254 75 99 }
+	color2 = { 255 255 255 }
+	
+	capital = 75 # c_ribeirao_preto
+	
+	culture = caipira
+	
+	allow = {
+		always = no
+	}
+}
 ### Duchies ###
 
 d_americana = {

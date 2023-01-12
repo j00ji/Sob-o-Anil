@@ -4,6 +4,8 @@
 75001={
 	name="Marcomini"
 	culture=paranapense
+	can_appear = no
+	used_for_random = no
 	coat_of_arms = {
 		religion = jerovia
 		template = 0
@@ -21,4 +23,13 @@
 75002={
 	name="Pennafiel"
 	culture=paranapense
+	can_appear = no
+	used_for_random = no
+}
+
+75003 = {
+	name="Santoro"
+	culture=paranapense
+	can_appear = no
+	used_for_random = no
 }

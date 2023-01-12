@@ -93,8 +93,8 @@ piriamano;Piriamano;;;;;;;;;;;;;x
 piriamano_DESC;Piriamano posits that the Banda Oriental desires achievement rather than war, as expressed by their idol Piria. It holds Piria to have been the primary physical representative of the Banda Oriental, as shown by his great achievements in building and other legendary feats throughout his life. As such, Piriamanos seek to imitate Piria to gain the favor of the Banda Oriental and jealously guard Piria’s creations.;;;;;;;;;;;;;x
 farrapo;Farroupilha;;;;;;;;;;;;;x
 farrapo_DESC;Farroupilha is a religion of gauchos and revolutionaries, forged in the crucible of war. The Farroupilhas, led by Gonçalves, fought for freedom, the abolition of slavery, and democracy. Their war would be lost, then won, then lost again, with the death of democracy and the end of that Golden Age. Farroupilhas now aspire to live as their ancestors did, as revolutionaries, free to live as they please worshiping the gods of their gaucho forefathers.;;;;;;;;;;;;;x
-vargist;Vargist;;;;;;;;;;;;;x
-vargist_DESC;Vargism recalls a revolution far more successful than that of the Farroupilha, led by one named Vargas. Vargas brought true revolution to all of Brazil, not just one region, as an expression of the collective will against wicked oligarchy. His Estado Novo saw Brazil reach the apex of its power, as he destroyed enemies within and without, including the gauchos. Even the death of Vargas, his sacrifice and his ascension, thwarted the efforts of his enemies to stem his revolution, so beloved was he. Vargists desire a return to the days of the Estado Novo, when Brazil was guided by a strong hand, and they are confident that Vargas guides them now.;;;;;;;;;;;;;x
+vargist;Getulist;;;;;;;;;;;;;x
+vargist_DESC;Getulism recalls a revolution far more successful than that of the Farroupilha, led by one named Getulio. Getulio brought true revolution to all of Brazil, not just one region, as an expression of the collective will against wicked oligarchy. His Estado Novo saw Brazil reach the apex of its power, as he destroyed enemies within and without, including the gauchos. Even the death of Getulio, his sacrifice and his ascension, thwarted the efforts of his enemies to stem his revolution, so beloved was he. Getulists desire a return to the days of the Estado Novo, when Brazil was guided by a strong hand, and they are confident that Getulio Vargas guides them now.;;;;;;;;;;;;;x
 darwinist;Darwinist;;;;;;;;;;;;;x
 darwinist_DESC;Darwinists follow the teachings of the wise and ancient Prophet Darwin, they believe that Mother Nature is supreme in all of her doings, and that she shall select each one's path upon this world through Evolution, and lead those who aren't meant to be to Extinction. Darwinists also venerate the great and majestous creatures and living beings that Mother Nature blessed the lands with and strongly reject the ideals of forcing the environment to follow the nefarious anthropocentric needs, for only Nature's will must be supreme.;;;;;;;;;;;;;x
 lamarckian;Lamarckian;;;;;;;;;;;;;x
@@ -740,4 +740,5 @@ temple_king_kardecist_female;Enlightened Queen;;Enlightened Queen;;;;;;;;;;;x
 ###Nicknames###
 nick_the_bachelor;the Bachelor;;;;;;;;;;;x
 nick_the_wizard;the Wizard;;;;;;;;;;;x
+nick_the_marginal_knight;the Marginal Knight;;;;;;;;;;;x
 
