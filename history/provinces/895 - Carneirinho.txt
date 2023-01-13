@@ -16,6 +16,6 @@ b_sao_sebastiao_do_pontal = temple
 
 # Misc
 culture = triangler
-religion = umbanda
+religion = kardecists
 
 #History

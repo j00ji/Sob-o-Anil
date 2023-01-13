@@ -16,6 +16,6 @@ b_sao_francisco_de_sales = temple
 
 # Misc
 culture = triangler
-religion = umbanda
+religion = kardecists
 
 #History

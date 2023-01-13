@@ -29,7 +29,7 @@
 570003 = {
 	name = "Douglas"
 	dynasty = 255004 #Borges
-	religion = umbanda
+	religion = kardecists
 	culture = triangler
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
@@ -42,7 +42,7 @@
 570004 = {
 	name = "André"
 	dynasty = 255002 #Marquinho
-	religion = terra_benta
+	religion = umbanda
 	culture = triangler
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
@@ -55,7 +55,7 @@
 570005 = {
 	name = "José"
 	dynasty = 255002 #Marquinho
-	religion = terra_benta
+	religion = umbanda
 	culture = triangler
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
@@ -68,7 +68,7 @@
 570006 = {
 	name = "Felipe"
 	dynasty = 255003 #de Almeida Franco
-	religion = anchietican
+	religion = iconoclasts
 	culture = triangler
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
@@ -81,7 +81,7 @@
 570007 = {
 	name = "Vinicius"
 	dynasty = 255003 #de Almeida Franco
-	religion = anchietican
+	religion = iconoclasts
 	culture = triangler
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist

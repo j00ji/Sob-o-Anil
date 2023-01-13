@@ -33,3 +33,17 @@
 	can_appear = no
 	used_for_random = no
 }
+
+75004 = {
+	name="do Valle"
+	culture=paranapense
+	can_appear = no
+	used_for_random = no
+}
+
+75005 = {
+	name="Botelho"
+	culture=paranapense
+	can_appear = no
+	used_for_random = no
+}

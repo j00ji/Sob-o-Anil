@@ -7,5 +7,6 @@
 	liege=k_sao_paulo
 }
 2360.1.1={
-	holder = 260001#Ahnume Guerios
+	holder = 110718#Aureo
+	liege =  d_ribeira
 }

@@ -16,6 +16,6 @@ b_patrimonio = city
 
 # Misc
 culture = triangler
-religion = umbanda
+religion = kardecists
 
 #History

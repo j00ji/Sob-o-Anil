@@ -10830,6 +10830,14 @@
 	2348.9.29 = {
 		birth = yes
 	}
+	2367.4.5 = {
+		effect {
+			set_truce = {
+				who = 110242
+				years = 10
+			}
+		}
+	}
 	2400.1.1={
 		death = yes
 	}
@@ -12071,4 +12079,56 @@
 		death = yes
 	}
 	#holder of Holambra, vassal of Reino Americano
+}
+
+#Tapirai count
+110717 = {
+	name = "José"
+	dynasty = 75004 #do Valle
+	culture = paranapanense
+	religion = anchietican
+	
+	trait = thrifty_clerk
+	trait = stubborn
+	
+	diplomacy = 7
+	martial = 9
+	stewardship = 11
+	intrigue = 7
+	learning = 8
+	
+	2345.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#count of Tapirai vassal of Sorocaba
+}
+
+#Apiai count
+110718 = {
+	name = "Áureo"
+	dynasty = 75005 #Botelho
+	culture = paranapanense
+	religion = anchietican
+	
+	trait = mastermind_theologian
+	trait = genius
+	trait = erudite
+	trait = kind
+	trait = theologian
+	
+	diplomacy = 9
+	martial=2
+	stewardship=7
+	intrigue=2
+	learning=15
+	
+	2350.1.1 ={
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
 }

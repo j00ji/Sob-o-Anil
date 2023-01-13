@@ -7,5 +7,6 @@
 	liege=k_sao_paulo
 }
 2364.1.25 = { 
-	holder = 110605 #Giovani
+	holder = 110717 #José do Valle
+	liege = d_sorocaba
 }

@@ -16,6 +16,6 @@ b_peiropolis = city
 
 # Misc
 culture = triangler
-religion = anchietican
+religion = iconoclasts
 
 #History
