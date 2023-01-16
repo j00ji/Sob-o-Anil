@@ -16,6 +16,6 @@ b_caldas = temple
 
 # Misc
 culture = canastro
-religion = anchietican
+religion = terra_benta
 
 #History

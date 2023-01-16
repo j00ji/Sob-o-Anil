@@ -16,6 +16,6 @@ b_santa_vitoria = temple
 
 # Misc
 culture = triangler
-religion = umbanda
+religion = universal
 
 #History

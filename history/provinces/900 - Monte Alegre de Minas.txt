@@ -16,6 +16,6 @@ b_sao_francisco_de_chagas = temple
 
 # Misc
 culture = triangler
-religion = umbanda
+religion = universal
 
 #History

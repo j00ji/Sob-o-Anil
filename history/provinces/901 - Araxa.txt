@@ -16,6 +16,6 @@ b_argenita = city
 
 # Misc
 culture = triangler
-religion = anchietican
+religion = terra_benta
 
 #History

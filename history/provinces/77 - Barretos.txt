@@ -15,7 +15,7 @@ b_monte_alegre = temple
 #b_ortega_nogueira = castle
 
 # Misc
-culture = canastro
+culture = caipira
 religion = anchietican
 
 #History

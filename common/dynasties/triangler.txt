@@ -16,8 +16,8 @@
 	used_for_random = no
 }
 
-255003 = { #de Almeida Franco
-	name = "de Almeida Franco"
+255003 = { #Pena Branca
+	name = "Pena Branca"
 	culture = triangler
 	religion = apostolic
 	can_appear = no

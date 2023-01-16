@@ -3,6 +3,8 @@ k_acre;Acre;Acre;Acre;;Acre;;;;;;;;;x
 k_acre_adj;Acrean;;acrer;;;;;;;;;;;x
 k_amazonas;Amazonas;Amazonas;Amazonas;;Amazonas;;;;;;;;;x
 k_amazonas_adj;Amazonasian;;amazonaser;;;;;;;;;;;x
+k_alferes;Alferes;;;;;;;;;;;x
+k_alferes;Alferan;;;;;;;;;;;x
 k_araucania;Araucanía;Araucanía;Araucanía;;Araucanía;;;;;;;;;x
 k_araucania_adj;Araucanían;;araucaníer;;;;;;;;;;;x
 k_atacama;Atacama;Atacama;Atacama;;Atacama;;;;;;;;;x
@@ -27,6 +29,8 @@ k_cordoba;Córdoba;Córdoba;Córdoba;;Córdoba;;;;;;;;;x
 k_cordoba_adj;Córdoban;;córdober;;;;;;;;;;;x
 k_cuyo;Cuyo;Cuyo;Cuyo;;Cuyo;;;;;;;;;x
 k_cuyo_adj;Cuian;;cuer;;;;;;;;;;;x
+k_diamantina;Cristais;;;;;;;;;;;x
+k_diamantina;Cristalino;;;;;;;;;;;x
 k_ecuador;Ecuador;Ecuador;Ecuador;;Ecuador;;;;;;;;;x
 k_ecuador_adj;Ecuadorian;;ecuadorer;;;;;;;;;;;x
 k_espirito_santo;Espirito Santo;Espirito Santo;Espirito Santo;;Espirito Santo;;;;;;;;;x
@@ -43,18 +47,24 @@ k_grigota;Grigotá;Grigotá;Grigotá;;Grigotá;;;;;;;;;x
 k_grigota_adj;Grigotáian;;grigotáer;;;;;;;;;;;x
 k_ilheus;Ilhéus;Ilhéus;Ilhéus;;Ilhéus;;;;;;;;;x
 k_ilheus_adj;Ilhéusian;;ilhéuser;;;;;;;;;;;x
+k_jequitinhonha;Vale;;;;;;;;;;;x
+k_jequitinhonha_adj;Valean;;;;;;;;;;;x
 k_la_pampa;La Pampa;La Pampa;La Pampa;;La Pampa;;;;;;;;;x
 k_la_pampa_adj;La Pampan;;La Pamper;;;;;;;;;;;x
 k_magallanes;Magallanes;Magallanes;Magallanes;;Magallanes;;;;;;;;;x
 k_magallanes_adj;Magallanesian;;magallaneser;;;;;;;;;;;x
 k_maranhao;Maranhão;Maranhão;Maranhão;;Maranhão;;;;;;;;;x
 k_maranhao_adj;Maranhãian;;maranhãer;;;;;;;;;;;x
+k_mata;Mata;;;;;;;;;;;x
+k_mata_adj;Matan;;;;;;;;;;;x
 k_mato_grosso;Mato Grosso;Mato Grosso;Mato Grosso;;Mato Grosso;;;;;;;;;x
 k_mato_grosso_adj;Mato Grossian;;Mato Grosser;;;;;;;;;;;x
 k_mesopotamia;Mesopotamia;Mesopotamia;Mesopotamia;;Mesopotamia;;;;;;;;;x
 k_mesopotamia_adj;Mesopotamian;;mesopotamer;;;;;;;;;;;x
 k_minas_gerais;Minas;Minas;Minas;;Minas;;;;;;;;;x
 k_minas_gerais_adj;Minas Geraisian;;Minas Geraiser;;;;;;;;;;;x
+k_montes_claros;Montes Claros;;;;;;;;;x
+k_montes_claros_adj;Monte-Clarian;;;;;;;;;x
 k_norte_viejo;Norte Viejo;Norte Viejo;Norte Viejo;;Norte Viejo;;;;;;;;;x
 k_norte_viejo_adj;Norte Viejian;;Norte Viejer;;;;;;;;;;;x
 k_omagua;Omagua;Omagua;Omagua;;Omagua;;;;;;;;;x

@@ -16,6 +16,6 @@ b_pratapolis = tribal
 
 # Misc
 culture = canastro
-religion = anchietican
+religion = terra_benta
 
 #History

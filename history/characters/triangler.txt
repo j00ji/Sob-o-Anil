@@ -42,7 +42,7 @@
 570004 = {
 	name = "André"
 	dynasty = 255002 #Marquinho
-	religion = umbanda
+	religion = universal
 	culture = triangler
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
@@ -55,7 +55,7 @@
 570005 = {
 	name = "José"
 	dynasty = 255002 #Marquinho
-	religion = umbanda
+	religion = universal
 	culture = triangler
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
@@ -66,27 +66,55 @@
 }
 
 570006 = {
-	name = "Felipe"
-	dynasty = 255003 #de Almeida Franco
+	name = "Ranulfo"
+	dynasty = 255003 #Pena Branca
 	religion = iconoclasts
-	culture = triangler
+	culture = brown
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
+	trait = twin
 	
 	2345.12.1 = {
 		birth = yes
+		culture = triangler
 	}
 }
 
 570007 = {
 	name = "Vinicius"
-	dynasty = 255003 #de Almeida Franco
+	dynasty = 255003 #Pena Branca
 	religion = iconoclasts
-	culture = triangler
+	culture = brown
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
+	trait = twin
 	
 	2345.12.1 = {
 		birth = yes
+		culture = triangler
+	}
+}
+
+###Almeida Franco
+
+570008={
+	name = "Bruno"
+	dynasty = 255003 #Pena Branca
+	religion = iconoclasts
+	culture = brown
+	disallow_random_traits = yes
+	add_trait = brilliant_strategist
+	trait = poet
+	trait = heresiarch
+	trait = cancer
+	trait = is_fat
+	
+	2315.12.1 = {
+		birth = yes
+		culture = triangler
+	}
+	
+	2361.4.5 = {
+		death = yes
 	}
 }

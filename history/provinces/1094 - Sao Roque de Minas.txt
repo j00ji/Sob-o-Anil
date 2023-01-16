@@ -16,6 +16,6 @@ b_sao_roque_minas = tribal
 
 # Misc
 culture = canastro
-religion = anchietican
+religion = terra_benta
 
 #History

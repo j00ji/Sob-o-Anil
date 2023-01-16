@@ -16,6 +16,6 @@ b_pouso_alto = tribal
 
 # Misc
 culture = mantiqueiro
-religion = anchietican
+religion = terra_benta
 
 #History

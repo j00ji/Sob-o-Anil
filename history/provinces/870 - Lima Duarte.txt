@@ -16,6 +16,6 @@ b_lopes = tribal
 
 # Misc
 culture = mantiqueiro
-religion = anchietican
+religion = terra_benta
 
 #History

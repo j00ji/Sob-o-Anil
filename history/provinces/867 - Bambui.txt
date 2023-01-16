@@ -16,6 +16,6 @@ b_bambui_2 = tribal
 
 # Misc
 culture = canastro
-religion = anchietican
+religion = terra_benta
 
 #History
