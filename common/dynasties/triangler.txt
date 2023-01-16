@@ -8,12 +8,23 @@
 	used_for_random = no
 }
 
-255002 = { #Marquinho
-	name = "Marquinho"
+255002 = { #Xavante
+	name = "de Xavantes"
 	culture = triangler
-	religion = terra_benta
+	religion = universal
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 255003 = { #Pena Branca
@@ -22,6 +33,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 255004 = { #Borges
@@ -30,6 +52,17 @@
 	religion = umbanda
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 ####################

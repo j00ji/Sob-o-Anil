@@ -1,28 +1,45 @@
 ###ÄNSI
 
 570001 = {
-	name = "Fábio"
-	dynasty = 255001 #Gusmão
-	religion = terra_benta
-	culture = triangler
-	disallow_random_traits = yes
-	add_trait = brilliant_strategist
-	
-	2345.12.1 = {
-		birth = yes
-	}
-}
-
-570002 = {
 	name = "Mário"
 	dynasty = 255001 #Gusmão
 	religion = terra_benta
 	culture = triangler
 	disallow_random_traits = yes
-	add_trait = brilliant_strategist
+	add_trait = elusive_shadow
+	trait = lustful
+	trait = groomed
+	trait = stubborn
+	trait = wroth 
+	trait = envious
+	trait = humble
+	trait = seducer
+	diplomacy = 11
+	martial = 4
+	stewardship = 6
+	intrigue = 13
+	learning = 3
+	2332.12.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+570002 = { ##maybe later
+	name = "Ricardo"
+	dynasty = 255001 #Gusmão
+	religion = terra_benta
+	culture = triangler
+	disallow_random_traits = yes
+	
 	
 	2345.12.1 = {
 		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
 	}
 }
 
@@ -32,37 +49,78 @@
 	religion = kardecists
 	culture = triangler
 	disallow_random_traits = yes
-	add_trait = brilliant_strategist
+	add_trait = tough_soldier
+	trait = fair
+	trait = trusting
+	trat = stubborn
+	trait = gregarious
+	trait = ambitious
 	
-	2345.12.1 = {
+	diplomacy = 10
+	martial = 8
+	stewardship = 6
+	learning = 8
+	intrigue = 4
+	
+	2341.12.1 = {
 		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
 	}
 }
 
 570004 = {
-	name = "André"
-	dynasty = 255002 #Marquinho
+	name = "Andreia"
+	dynasty = 255002 #Xavantes
 	religion = universal
 	culture = triangler
+	female = yes
+	father = 570012
+	mother = 570013
 	disallow_random_traits = yes
-	add_trait = brilliant_strategist
+	trait = detached_priest
+	trait = stutter
+	trait = temperate
+	trait = cotnent
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 8
+	learning = 4
 	
-	2345.12.1 = {
+	2350.12.1 = {
 		birth = yes
 	}
+	2400.1.1 = {
+		death = yes
+	}
+	#older daughter of Breno
 }
 
 570005 = {
-	name = "José"
-	dynasty = 255002 #Marquinho
+	name = "Calebe"
+	dynasty = 255002 #Xavantes
 	religion = universal
 	culture = triangler
+	father = 570012
+	mother = 570013
 	disallow_random_traits = yes
-	add_trait = brilliant_strategist
-	
-	2345.12.1 = {
+	trait = willful
+	trait = curious
+	trait = rowdy
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 8
+	learning = 4
+	2355.12.1 = {
 		birth = yes
 	}
+	2400.1.1 = {
+		death = yes
+	}
+	#youngest son of Breno, still a teen
 }
 
 570006 = {
@@ -70,13 +128,25 @@
 	dynasty = 255003 #Pena Branca
 	religion = iconoclasts
 	culture = brown
+	father = 570010
 	disallow_random_traits = yes
-	add_trait = brilliant_strategist
+	add_trait = tough_soldier
 	trait = twin
+	trait = hunter
+	trait = proud
+	trait = brawny
+	diplomacy = 5
+	martial = 11
+	stewardship = 7
+	intrigue = 8
+	learning = 4
 	
 	2345.12.1 = {
 		birth = yes
 		culture = triangler
+	}
+	2400.1.1={
+		death = yes
 	}
 }
 
@@ -85,23 +155,80 @@
 	dynasty = 255003 #Pena Branca
 	religion = iconoclasts
 	culture = brown
+	father = 570010
 	disallow_random_traits = yes
-	add_trait = brilliant_strategist
+	add_trait = skilled_tactician
 	trait = twin
+	trait = erudite
+	trait = zealous
+	trait = just
+	trait = patient
+	diplomacy = 9
+	martial = 7
+	stewardship = 8
+	intrigue = 4
+	learning = 10
 	
 	2345.12.1 = {
 		birth = yes
 		culture = triangler
 	}
+	2368.1.1 = {
+		add_spouse = 260024 #Larissa sister of the Paranapanema Iconoclasts
+	}
+	2400.1.1={
+		death = yes
+	}
 }
 
-###Almeida Franco
-
+###Pena Branca
 570008={
+	name = "Aberlardo"
+	dynasty = 255003 #Pena Branca
+	religion = kardecists
+	culture = triangler
+	trait = thrifty_clerk
+	trait = lustful
+	trait = kind
+	trait = cynical
+	2289.1.1 = {
+		birth = yes
+	}
+	2314.1.1 = {
+		add_spouse = 570009
+	}
+	2342.4.1 = {
+		death = yes
+	}
+	#oldest known Pena Branca ruler
+}
+570009={
+	name = "Ângela"
+	dynasty = 255553
+	female=yes
+	religion = anchetican
+	culture = brown
+	trait = naive_appeaser
+	trait = wroth
+	trait = stubborn
+	trait = paranoid
+	trait = lunatic
+	2294.1.1 = {
+		birth = yes
+		culture = triangler
+	}
+	2364.1.1 = {
+		death = yes
+	}
+	#wife of Aberlardo
+}
+570010={
 	name = "Bruno"
 	dynasty = 255003 #Pena Branca
 	religion = iconoclasts
 	culture = brown
+	father = 570008
+	mother = 570009
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
 	trait = poet
@@ -114,7 +241,86 @@
 		culture = triangler
 	}
 	
-	2361.4.5 = {
+	2359.4.5 = {
 		death = yes
 	}
 }
+
+###Xavantes
+
+570011 = {
+	name = "Karen"
+	dynasty = 0 #none
+	religion = universal
+	culture = xavante
+	female = yes
+	trait = intricate_webweaver
+	trait = fair
+	trait = groomed
+	trait = kind
+	trait = deceitful
+	2300.1.1 = {
+		birth = yes
+	}
+	2368.1.1 = {
+		death = yes
+	}
+}
+
+570012 = {
+	name = "Breno"
+	dynasty = 255002 #Xavantes
+	religion = universal
+	culture = xavante
+	father = 570008
+	mother = 570011
+	trait = brilliant_strategist
+	trait = bastard
+	trait = ambitious
+	trait = zealous
+	trait = holy_warrior
+	trait = peasant_leader
+	
+	2318.1.1 = {
+		birth = yes
+		culture = triangler
+	}
+	2347.1.1 = {
+		add_spouse = 570013
+	}
+	2370.1.1 = {
+		death = yes
+	}
+	#Bastard brother of Bruno Pena Branca, he gave origin to the Xavante dynasty
+}
+
+570013 = {
+	name = "Lívia"
+	dynasty = 0 #none
+	religion = universal
+	female = yes
+	culture = triangler
+	trait = martial_cleric
+	trait = zealous
+	trait = wroth
+	trait = ambitious
+	2325.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#sposue of Breno
+}
+
+##Gusmão maybe later
+##570014 = {
+##	name = "Gustavo"
+##	dynasty = 255001 #Gusmão
+##	religion = terra_benta
+##	culture = triangler
+##	trait = tough_soldier
+##	trait = cruel
+##	trait = impaler
+##	2300.1.1 
+##}

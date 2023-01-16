@@ -8,5 +8,5 @@
 }
 
 2369.1.1 = {
-	holder = 570004
+	holder = 570012 #Breno Xavante
 }
