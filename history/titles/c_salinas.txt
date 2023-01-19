@@ -4,6 +4,6 @@
 	law = succ_gavelkind
 }
 
-2344.4.7={
-	holder = 600001
+2361.4.7={
+	holder = 600025
 }

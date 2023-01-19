@@ -3,4 +3,7 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-
+2346.1.1 = {
+	holder = 600021
+	liege =  d_serra_da_noruega
+}

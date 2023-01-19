@@ -24,7 +24,79 @@
 	name = "Navarro"
 	culture = espinhaco
 }
-
+270007 = {
+	name = "Cangussu"
+	culture = espinhaco
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+270008 = {
+	name = "Castro"
+	culture = espinhaco
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+270009 = {
+	name = "Madeira"
+	culture = espinhaco
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+270010 = {
+	name = "Moura"
+	culture = espinhaco
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+270011 ={
+	name = "São João"
+	culture = espinhaco
+}
 
 ####################
 ##Random dynasties

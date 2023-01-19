@@ -5,7 +5,7 @@
 	dynasty = 255001 #Gusmão
 	religion = terra_benta
 	culture = triangler
-	disallow_random_traits = yes
+	
 	add_trait = elusive_shadow
 	trait = lustful
 	trait = groomed
@@ -27,28 +27,28 @@
 	}
 }
 
-570002 = { ##maybe later
-	name = "Ricardo"
-	dynasty = 255001 #Gusmão
-	religion = terra_benta
-	culture = triangler
-	disallow_random_traits = yes
-	
-	
-	2345.12.1 = {
-		birth = yes
-	}
-	2400.1.1 = {
-		death = yes
-	}
-}
+#570002 = { ##maybe later
+#	name = "Ricardo"
+#	dynasty = 255001 #Gusmão
+#	religion = terra_benta
+#	culture = triangler
+#	
+#	
+#	
+#	2345.12.1 = {
+#		birth = yes
+#	}
+#	2400.1.1 = {
+#		death = yes
+#	}
+#}
 
 570003 = {
 	name = "Douglas"
 	dynasty = 255004 #Borges
 	religion = kardecists
 	culture = triangler
-	disallow_random_traits = yes
+	
 	add_trait = tough_soldier
 	trait = fair
 	trait = trusting
@@ -78,7 +78,6 @@
 	female = yes
 	father = 570012
 	mother = 570013
-	disallow_random_traits = yes
 	trait = detached_priest
 	trait = stutter
 	trait = temperate
@@ -105,7 +104,6 @@
 	culture = triangler
 	father = 570012
 	mother = 570013
-	disallow_random_traits = yes
 	trait = willful
 	trait = curious
 	trait = rowdy
@@ -129,12 +127,11 @@
 	religion = iconoclasts
 	culture = brown
 	father = 570010
-	disallow_random_traits = yes
 	add_trait = tough_soldier
 	trait = twin
 	trait = hunter
 	trait = proud
-	trait = brawny
+	trait = robust
 	diplomacy = 5
 	martial = 11
 	stewardship = 7
@@ -156,7 +153,7 @@
 	religion = iconoclasts
 	culture = brown
 	father = 570010
-	disallow_random_traits = yes
+	
 	add_trait = skilled_tactician
 	trait = twin
 	trait = erudite
@@ -229,7 +226,7 @@
 	culture = brown
 	father = 570008
 	mother = 570009
-	disallow_random_traits = yes
+	
 	add_trait = brilliant_strategist
 	trait = poet
 	trait = heresiarch

@@ -1,47 +1,47 @@
 ###ÄNSI
 
-600001 ={
-	name="Carla"
-	dynasty=270001
-	female=yes
-	religion=varedesian
-	culture=espinhaco
-	
-	2321.7.12={birth=yes}
-	2341.4.2={add_matrilineal_spouse=600002}
-}
-600002 ={
-	name="Vitor"
-	dynasty=270005
-	religion=varedesian
-	culture=espinhaco
-	add_trait = mystic
-	2318.7.20={birth=yes}
-}
-600003 ={
-	name="Emanuel"
-	dynasty=270001
-	religion=varedesian
-	culture=espinhaco
-	mother = 600001
-	father = 600002
-	
-	add_trait = shy
-	2340.4.6={birth=yes}
-}
-600004 ={
-	name="Camila"
-	dynasty=270001
-	religion=varedesian
-	culture=espinhaco
-	female=yes
-	mother = 600001
-	father = 600002
-	martial = 10
-	
-	add_trait = wroth
-	2349.7.2={birth=yes}
-}
+#600001 ={
+#	name="Carla"
+#	dynasty=270001
+#	female=yes
+#	religion=varedesian
+#	culture=espinhaco
+#	
+#	2321.7.12={birth=yes}
+#	2341.4.2={add_matrilineal_spouse=600002}
+#}
+#600002 ={
+#	name="Vitor"
+#	dynasty=270005
+#	religion=varedesian
+#	culture=espinhaco
+#	add_trait = mystic
+#	2318.7.20={birth=yes}
+#}
+#600003 ={
+#	name="Emanuel"
+#	dynasty=270001
+#	religion=varedesian
+#	culture=espinhaco
+#	mother = 600001
+#	father = 600002
+#	
+#	add_trait = shy
+#	2340.4.6={birth=yes}
+#}
+#600004 ={
+#	name="Camila"
+#	dynasty=270001
+#	religion=varedesian
+#	culture=espinhaco
+#	female=yes
+#	mother = 600001
+#	father = 600002
+#	martial = 10
+#	
+#	add_trait = wroth
+#	2349.7.2={birth=yes}
+#}
 600005 ={
 	name="Renato"
 	dynasty=270002
@@ -95,5 +95,428 @@
 		death = {
 			death_reason = death_natural
 		} 
+	}
+}
+
+##Cangussu family
+
+600009 = {
+	name = "Inocêncio"
+	dynasty = 270007 #Cangussu
+	religion = angel_cult
+	culture = espinhaco
+	trait = midas_touched
+	trait = is_fat
+	trait = kind
+	trait = diligent
+	trait = gregarious
+	trait = proud
+	
+	2314.1.1 = {
+		birth = yes
+	}
+	2334.1.1 = {
+		add_spouse = 600010
+	}
+	2360.1.1 = {
+		death = yes
+	}
+	#elder of the Cangussu family
+}
+
+600010 = {
+	name = "Prudência"
+	dynasty = none
+	female = yes
+	religion = angel_cult
+	culture = espinhaco
+	trait = grey_eminence
+	trait = kind
+	trait = humble
+	trait = groomed
+	
+	2316.1.1 = {
+		birth = yes
+	}
+	2370.1.1 = {
+		death = yes
+	}
+	#Mother of the Cangussu family
+}
+
+600011 = {
+	name = "Exupério"
+	dynasty = 270007 #Cangussu
+	religion = angel_cult
+	culture = espinhaco
+	father = 600009
+	mother = 600010
+	trait = skilled_tactician
+	trait = erudite
+	trait = honest
+	trait = diligent
+	trait = proud
+	trait = duelist
+	diplomacy = 8
+	martial = 12
+	stewardship = 8
+	intrigue = 8
+	learning = 7
+	
+	2342.9.24 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#ruler of Montes Claros, older brother of the Cangussus
+}
+
+600012 = {
+	name = "Pedro"
+	dynasty = 270007 #Cangussu
+	religion = angel_cult
+	culture = espinhaco
+	father = 600009
+	mother = 600010
+	trait = detached_priest
+	trait = content
+	trait = gluttonous
+	trait = kind
+	trait = patient
+	diplomacy = 9
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 10
+	
+	2345.3.21 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#2nd brother,
+}
+
+600013 = {
+	name = "Leolino"
+	dynasty = 270007 #Cangussu
+	religion = angel_cult
+	culture = espinhaco
+	father = 600009
+	mother = 600010
+	trait = flamboyant_schemer
+	trait = lustful
+	trait = stubborn
+	trait = proud
+	trait = arbitrary
+	
+	diplomacy = 5
+	martial = 8
+	stewardship = 6
+	intrigue = 9
+	learning = 3
+	
+	2348.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#3rd brother, troublemaker
+}
+
+600014 = {
+	name = "Geraldina "
+	dynasty = 270007 #Cangussu
+	religion = angel_cult
+	culture = espinhaco
+	father = 600009
+	mother = 600010
+	female = yes
+	
+	trait = scholarly_theologian
+	trait = shy
+	trait = erudite
+	
+	2350.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+600015 = {
+	name = "Bibiana"
+	dynasty = 270007 #Cangussu
+	religion = angel_cult
+	culture = espinhaco
+	father = 600009
+	mother = 600010
+	female = yes
+	
+	trait = playful
+	trait = indolent
+	
+	2355.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+##Castro Family
+
+600016 = {
+	name = "José Antonio"
+	dynasty = 270008 #Castro
+	religion = angel_cult
+	culture = espinhaco
+
+	trait = skilled_tactician
+	trait = envious
+	trait = honest
+	trait = content
+	trait = just
+	
+	diplomacy=10
+	martial=6
+	stewardship=11
+	intrigue=4
+	learning=7
+	
+	2311.1.1 = {
+		birth = yes
+	}
+	2330.1.1 = {
+		add_spouse = 600017
+	}
+	2367.1.1 = {
+		death = yes
+	}
+}
+
+600017 = {
+	name = "Joanna"
+	dynasty=270011 #São João
+	religion = angel_cult
+	culture = espinhaco
+	
+	trait = underhanded_rogue
+	trait = fair
+	trait = groomed
+	trait = charitable
+	trait = is_fat
+	
+	2315.1.1 = {
+		birth = yes
+	}
+	2370.1.1 = {
+		death = yes
+	}
+}
+
+600018 = {
+	name = "Clélia"
+	dynasty = 270008 #Castro
+	religion = angel_cult
+	culture = espinhaco
+	father = 600016
+	mother = 600017
+	female = yes
+	trait = martial_cleric
+	trait = chaste
+	trait = patient
+	
+	2339.1.1 = {
+		death = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#oldest daughter of the Castro
+}
+
+600019 = {
+	name = "Manoel"
+	dynasty = 270008 #Castro
+	religion = angel_cult
+	culture = espinhaco
+	father = 600016
+	mother = 600017
+	trait = thrifty_clerk
+	trait = just
+	trait = wroth
+	
+	2341.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#holder of Castro lands
+}
+
+600020 = {
+	name = "Pórcia"
+	dynasty = 270008 #Castro
+	religion = angel_cult
+	culture = espinhaco
+	father = 600016
+	mother = 600017
+	female = yes
+	trait = charismatic_negotiator
+	
+	trait = naive_appeaser
+	trait = fair
+	trait = trusting
+	trait = groomed
+	trait = kind
+	2350.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#the one who gets kidnapped
+}
+
+##Madeira family
+600021 = {
+	name = "Carvalho"
+	dynasty = 270009
+	religion = angel_cult
+	culture = espinhaco
+	trait = tough_soldier
+	trait = trusting
+	trait = just
+	trait = honest
+	diplomacy = 7
+	stewardship = 5
+	martial = 11
+	intrigue = 5
+	learning = 7
+	
+	2322.1.1 = {
+		birth = yes
+	}
+	2346.1.1 = {
+		add_spouse = 600022
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#head of the Madeira family
+}
+
+600022 = {
+	name = "Diana"
+	dynasty = none
+	religion = angel_cult
+	culture = espinhaco
+	female = yes
+	
+	trait = amateurish_plotter
+	trait = greedy
+	trait = patient
+	trait = craven
+	diplomacy = 10
+	martial = 7
+	stewardship = 4
+	intrigue = 9
+	learning = 4
+	
+	2330.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+600023 = {
+	name = "Fausta"
+	dynasty = 270009
+	religion = angel_cult
+	culture = espinhaco
+	father = 600021
+	mother = 600022
+	female = yes
+	
+	trait = flamboyant_schemer
+	trait = patient
+	trait = sturdy
+	trait = envious
+	
+	2347.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+600024 = {
+	name = "Idalina"
+	dynasty = 270009
+	religion = angel_cult
+	culture = espinhaco
+	father = 600021
+	mother = 600022
+	female = yes
+	
+	trait = skilled_tactician
+	trait = ambitious
+	trait = brave
+	
+	2353.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+###Moura
+
+600025 = {
+	name = "Manuel"
+	dynasty = 270010 #moura
+	religion = terra_benta
+	culture = espinhaco
+	
+	trait = tough_soldier
+	trait = impaler
+	trait = arbitrary
+	trait = greedy
+	
+	2340.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+600026 = {
+	name = "Ana"
+	dynasty = 270010 #moura
+	religion = terra_benta
+	culture = espinhaco
+	father = 600025
+	female = yes
+	
+	trait = quick
+	trait = willful
+	trait = conscientious
+	
+	2357.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
 	}
 }

@@ -3,7 +3,7 @@
 	name="Ahnume"
 	dynasty=85002#Guerios
 	culture=arabic
-	religion=orthodoxist
+	religion=anchietican
 	trait=charismatic_negotiator
 	trait=proud
 	trait=content
