@@ -59,3 +59,139 @@
 		} 
 	}
 }
+
+##Clóvis 
+
+620006 = {
+	name = "Quilderico"
+	dynasty = 280002 # Águas Claras
+	religion = terra_benta
+	culture = mantiqueiro
+	
+	trait = tough_soldier
+	trait = fat
+	trait = ambitious
+	trait = wroth
+	trait = diligent
+	trait = strong
+	
+	2312.1.1 = {
+		birth = yes
+	}
+	2366.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+	#first ruler of Circuito das Aguas
+}
+
+620005 = {
+	name = "Clóvis"
+	dynasty = 280002 # Águas Claras
+	religion = anchietican
+	culture = mantiqueiro
+	dna="b0jbc0e0aa0"
+	properties="fn0jfc000000000000000000000000000000"
+	father = 620006
+	
+	trait = charismatic_negotiator
+	trait = stubborn
+	trait = patient
+	trait = zealous
+	
+	diplomacy = 12
+	martial = 11
+	stewardship = 8
+	intrigue = 6
+	learning = 5
+	
+	2339.1.1 = {
+		birth = yes
+	}
+	2366.5.7 = {
+		add_spouse = 620006
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#2nd ruler of Circuito das aguas, converted to Christianity
+}
+
+620006 = {
+	name = "Clotilde"
+	dynasty = 0 #give her a dynasty later
+	religion = anchietican
+	culture = triangler
+	female = yes
+	dna="a0aba0bab00"
+	properties="aa0j0f0000000000000000000000000000000"
+
+	trait = martial_cleric
+	trait = weak
+	trait = kind
+	trait = stubborn
+	trait = chaste
+	
+	2344.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+620007 = {
+	name = "Gontrão"
+	dynasty = 280002 # Águas Claras
+	religion = anchietican
+	culture = mantiqueiro
+	dna="00000000000"
+	properties="an0000000000000000000000000000000000"
+	
+	father = 620005
+	mother = 620006
+	
+	trait = weak
+	
+	health = 10 #thanks to the monk's help
+	
+	2368.1.1 = {
+		birth = yes
+	}
+}
+
+620008 = {
+	name = "Benedito"
+	dynasty = 0 #
+	religion = anchietican
+	culture = americano
+	
+	dna="a0aba0bab00"
+	properties="af0i0k000000000000000000000000000000"
+	
+	trait = scholarly_theologian
+	trait = physician
+	trait = shrewd
+	trait = charitable
+	trait = humble
+	trait = monk
+	
+	health = 10
+	
+	2305.1.1 = {
+		birth = yes
+	}
+	2368.1.30 = {
+		employer = 620005
+	}
+	2369.5.15 = {
+		effect = {
+			add_friend = 620005
+			add_friend = 620006
+		}
+	}
+	2372.1.1 = {
+		death = yes
+	}
+}

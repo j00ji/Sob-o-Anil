@@ -16,6 +16,6 @@ b_betim = temple
 
 # Misc
 culture = auriferro
-religion = terra_benta
+religion = kardecists
 
 #History

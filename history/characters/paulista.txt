@@ -11593,6 +11593,8 @@
 	religion = terra_benta
 	culture = canastro
 	
+	father = 110685
+	
 	trait = tough_soldier
 	trait = ambitious
 	trait = duelist

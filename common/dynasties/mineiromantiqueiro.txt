@@ -7,6 +7,24 @@
 	can_appear = no
 	used_for_random = no
 }
+280002 = {
+	name = "Águas Claras"
+	culture = mantiqueiro
+	religion = anchietican
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 
 ####################
@@ -468,10 +486,10 @@
 	name = "Fortes"
 	culture = mantiqueiro
 	}
-280613 = {
-	name = "Franco"
-	culture = mantiqueiro
-	}
+#280613 = {
+#	name = "Franco"
+#	culture = mantiqueiro
+#	}
 280614 = {
 	name = "Freire"
 	culture = mantiqueiro
