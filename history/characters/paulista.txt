@@ -12112,7 +12112,7 @@
 110718 = {
 	name = "Áureo"
 	dynasty = 75005 #Botelho
-	culture = paranapanense
+	culture = brown
 	religion = anchietican
 	
 	trait = mastermind_theologian
@@ -12129,6 +12129,7 @@
 	
 	2350.1.1 ={
 		birth = yes
+		culture = paranapanense
 	}
 	2400.1.1 = {
 		death = yes

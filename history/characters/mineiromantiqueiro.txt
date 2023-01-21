@@ -8,6 +8,11 @@
 	culture = mantiqueiro
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
+	trait=diligent
+	trait = shy
+	trait = trusting
+	trait=stressed
+	trait = lustful
 	father = 620003
 	
 	martial = 1
@@ -16,29 +21,50 @@
 	stewardship = 1
 	learning = 1
 	
-	2346.4.21 = {
+	2336.4.21 = {
 		birth = yes
 	}
+	2363.1.1 = {
+		add_lover = 620009
+	}
+	2367.1.1 = {
+		add_spouse = 620009
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#ruler of Vertentes, holds Barbacena, Lima Duarte and São Lourenço
 }
 
 620002 = {
 	name = "Pança Rei"
 	dynasty = 280001 #Xavier
 	religion = terra_benta
-	culture = mantiqueiro
-	disallow_random_traits = yes
+	culture = auriferro
+	
 	add_trait = brilliant_strategist
+	trait = ambitious
+	trait = just
+	trait = patient
+	trait=light_foot_leader
+	trait =rough_terrain_leader
+	trait = is_fat
+	trait = has_tuberculosis
 	father = 620003
 	
-	2335.12.30 = {
+	2345.12.30 = {
 		birth = yes
+		culture = mantiqueiro
 	}
-	
+	2362.1.1 = {
+		add_spouse = 620009
+	}
 	2366.10.8 = {
 		death = {
 			death_reason = death_poor_health
 		} 
 	}
+	#former ruler of Santos Dumont
 }
 
 620003 = {
@@ -46,8 +72,11 @@
 	dynasty = 280001 #Xavier
 	religion = terra_benta
 	culture = mantiqueiro
-	disallow_random_traits = yes
-	add_trait = brilliant_strategist
+	add_trait = tough_soldier
+	trait=just
+	trait=kind
+	trait=diligent
+	trait=light_foot_leader
 	
 	2299.5.6 = {
 		birth = yes
@@ -57,6 +86,23 @@
 		death = {
 			death_reason = death_natural
 		} 
+	}
+	#current ruler of Santos Dumont
+}
+
+620004 = {
+	name = "Chiquinho"
+	dynasty = 280001 #Xavier
+	religion = terra_benta
+	culture = mantiqueiro
+	father = 620002
+	mother = 620009
+	real_father = 620001
+	
+	trait = strong
+	
+	2364.1.1 = {
+		birth = yes
 	}
 }
 
@@ -194,4 +240,26 @@
 	2372.1.1 = {
 		death = yes
 	}
+}
+
+##Pança Rei's wife Serjão's lover
+620009 = {
+	name = "Diana"
+	dynasty = 0 #
+	religion = terra_benta
+	culture = auriferro
+	female = yes
+	
+	trait = intricate_webweaver
+	trait = lustful
+	trait = strong
+	trait = deceitful
+	
+	2346.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	
 }

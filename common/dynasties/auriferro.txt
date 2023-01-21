@@ -51,7 +51,7 @@
 	}
 }
 
-250006 = {
+265006 = {
 	name = "Lisboa"
 	culture = auriferro
 	religion = terra_benta
@@ -71,12 +71,32 @@
 	}
 }
 
-250007 = {
+265007 = {
 	name = "Ataíde"
 	culture = auriferro
 	religion = terra_benta
 	can_appear = no
 	used_for_random = no
+}
+
+265008 = {
+	name = "Zagaia"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 ####################

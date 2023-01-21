@@ -97,8 +97,21 @@
 	culture = carioca
 }
 35018 = {
-	name = "Moreira"
+	name = "Greenhalgh"
 	culture = carioca
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 35019 = {
 	name = "Sales"
@@ -511,6 +524,19 @@
 45026 = {
 	name = "Grifo"
 	culture = pomerisch
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 45027 = {
 	name = "Wandermurem"
