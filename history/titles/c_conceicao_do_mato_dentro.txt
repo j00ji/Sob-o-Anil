@@ -4,3 +4,6 @@
 	law = succ_gavelkind
 }
 
+2338.7.30 = {
+	holder = 590009 #Danilo Villela
+}

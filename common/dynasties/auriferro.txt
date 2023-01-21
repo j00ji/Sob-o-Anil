@@ -32,6 +32,52 @@
 	used_for_random = no
 }
 
+265005 = {
+	name = "Villela"
+	culture = auriferro
+	religion = kardecists
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+250006 = {
+	name = "Lisboa"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+250007 = {
+	name = "Ataíde"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+}
 
 ####################
 ##Random dynasties

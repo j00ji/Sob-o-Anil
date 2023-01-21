@@ -26,7 +26,6 @@
 	}
 }
 
-
 ####################
 ##Random dynasties
 ##Based on MG's senators and representatives

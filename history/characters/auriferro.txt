@@ -107,3 +107,86 @@
 		birth = yes
 	}
 }
+
+###Villela Kardecist family whose final holdout is Belo Horizonte
+
+590009 = {
+	name = "Danilo"
+	dynasty = 265005 #villela
+	religion = kardecists
+	culture = auriferro
+	trait = skilled_tactician
+	trait = diligent
+	trait = wroth
+	trait = brave
+	trait = harelip
+	trait = defensive_leader
+	
+	diplomacy = 4
+	martial = 7
+	stewardship = 3
+	intrigue = 5
+	learning = 7	
+	
+	2318.6.26 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#holder of Belzonte duchy, Belo Horizonte and Conceicao do Mato Dentro counties 
+}
+
+##Lisboa family of Ouro Preto
+
+590010 = {
+	name = "Antônio"
+	dynasty = 250006 #Lisboa
+	religion = terra_benta
+	culture = auriferro
+	trait = martial_cleric
+	trait = diligent
+	trait = erudite
+	trait = one_legged
+	trait = poet
+	trait = one_handed
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 8
+	intrigue = 8
+	learning = 10
+	
+	2345.4.2 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#Ferroquadro Duke, owns Ouro PReto and conselheiro lafaiate
+}
+
+590011 = {
+	name = "Leonardo"
+	dynasty = 250007#Ataíde
+	religion = terra_benta
+	culture = auriferro
+	trait = naive_appeaser
+	trait = content
+	trait = scarred
+	trait = slothful
+	
+	diplomacy = 4
+	martial = 6
+	stewardship = 4
+	intrigue = 5
+	learning = 7
+	
+	2334.1.1 = {
+		birth = yes
+	}
+	#vassal of Ferroquadro, chief of Itaguara
+}
+
+
+

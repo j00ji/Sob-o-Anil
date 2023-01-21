@@ -16,6 +16,6 @@ b_cachoeira_do_tabuleiro = castle
 
 # Misc
 culture = auriferro
-religion = terra_benta
+religion = kardecists
 
 #History
