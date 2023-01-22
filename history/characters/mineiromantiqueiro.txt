@@ -263,3 +263,57 @@
 	}
 	
 }
+
+##Zona da Mata Kardecists
+620010 = {
+	name = "Cristiano"
+	dynasty = 280003 #baturia
+	religion = kardecists
+	culture = mantiqueiro
+	
+	trait = thrifty_clerk
+	trait = cynical
+	trait = robust
+	trait = patient
+	trait = scholar
+	
+	diplomacy = 7
+	martial = 8
+	stewardship = 8
+	intrigue = 5
+	learning = 9
+	
+	2319.4.24 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#holds Além Paraíba and Leopoldina
+}
+
+620011 = {
+	name = "Bertoldo"
+	dynasty = 0#no dynasty
+	religion = kardecists
+	culture = mantiqueiro
+	
+	trait = mastermind_theologian
+	trait = qucik
+	trait = charitable
+	trait = mystic
+	
+	diplomacy = 5
+	martial = 5
+	stewardship = 4
+	intrigue = 8
+	learning = 12
+	
+	2337.1.1 = {
+		birth = yes
+	}
+	2400.1.1 ={
+		death = yes
+	}
+	#holds the temple in Muriae
+}

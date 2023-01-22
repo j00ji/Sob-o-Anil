@@ -1,1 +1,4 @@
-
+2360.1.1 = {
+	holder = 620011 # Bertoldo
+	liege = d_paraibuna
+}

@@ -3,4 +3,6 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-
+2345.1.1 = {
+	holder = 620010 #Cristiano
+}
