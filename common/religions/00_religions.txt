@@ -1474,10 +1474,10 @@ old_world_cultists = {
 		
 		interface_skin = { muslim_interface }
 		
-		high_god_name = GOD_THE_ANCESTRAL_RACE
+		high_god_name = GOD_THE_OLD_MASTERS
 		
 		god_names = {
-			GOD_BRASILEIROS GOD_ADAO GOD_EVA GOD_ABAPORU GOD_THE_ARCHITECT GOD_MACUNAIMA
+			GOD_THE_ARCHITECT GOD_BRASILEIROS GOD_NOVO_HOMEM
 		}
 		
 		evil_god_names = {
@@ -1486,7 +1486,7 @@ old_world_cultists = {
 		crusade_name = GREAT_VANGUARD
 		allow_in_ruler_designer= yes
 		allow_looting= yes
-		scripture_name= THE_MIMEOGRAPHED_TEXTS
+		scripture_name= FLESH_AND_SOUL
 		piety_name= INOVATION
 		priest_title= EXPOSITOR
 		priests_can_marry = yes
@@ -1543,6 +1543,44 @@ old_world_cultists = {
 		religious_clothing_priest = 14
 	}
 	
+	anthropofagian = {
+		graphical_culture = muslimgfx
+	
+		icon = 74
+		heresy_icon = 75
+		
+		color = { 0.9 0.78 0.64 }
+		
+		interface_skin = { muslim_interface }
+		
+		high_god_name = GOD_THE_ANCESTRAL_RACE
+		
+		parent = modernists
+		
+		god_names = {
+			GOD_ABAPORU GOD_ADAO GOD_EVA GOD_TUPI
+		}
+		
+		evil_god_names = {
+			GOD_GREAT_SNAKE GOD_THE_GRINGO GOD_THE_HEADLESS_MULE GOD_GRACCHI
+		}
+		crusade_name = GREAT_WALK
+		allow_looting= yes
+		scripture_name= MANIFESTO
+		piety_name= VIGOR
+		priest_title= TELLER
+		priests_can_marry = yes
+		female_temple_holders = yes
+		
+		can_grant_claim = yes
+		can_grant_divorce = yes
+		peace_piety_gain = 1.0 #Varedesians 1 extra piety per month while at peace
+		
+		#defensive_attrition = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+	}
 }	
 	
 pagan_group = {

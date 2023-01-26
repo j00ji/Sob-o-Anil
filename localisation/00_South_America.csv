@@ -73,10 +73,12 @@ camino_estelar;Camino Estelar;;;;;;;;;;;;;x
 camino_estelar_DESC;Born from the synthesis of different UFO cults, Andean myths and geoglyphs, and the influence of Astronomy, Camino Estelar believes that the Event was actually written in the stars, a cosmic punishment for not following the celestial instructions. It's through star-reading and observation that they can follow the path of the Hermanos Mayores or Elder Siblings, also known as the Annunaki, all-mighty beings from far amongst the stars, led by the sacred master Nibiru. They revere the ruins of the old observatories and astronomical facilities as holy places where they regularly pilgrim to, crossing the desert and reaching these far temples where they can communicate with the stars. Ancient geoglyphs are also regarded as messages to the gods, and a way of asking for guidance and blessings.;;;;;;;;;;;;;x
 obscurantist;Obscurantist;;;;;;;;;;;;;x
 obscurantist_DESC;Born from a different interpretation on the Camino Estelar myths, Obscurantists believe that although it's true that mighty beings are found amongst the stars, and through observation they can be reached, they believe those being are harbingers of the end, lead by the World Born Dead, Nibiru,and the Event was caused because mankind looked too deep into the Abyss beyond the world. To prevent anything like that to ever happen again, they seek to destroy any chance of people finding what the people of old ever found, and hide any secrets the stars hide, as keepers of what must not be known. It is only under the cover of Darkness, that Humankind will be safe from the Shining Abyss.;;;;;;;;;;;;;x
-modernists;Modernist;;;;;;;;;;;;;x
-modernists_DESC;Modernists have disparate and sometimes contradictory views, but they all have a shared origin: the Semana de Arte Moderna. From that was an explosion of new ideas, ideologies, and philosophies revelling in transgression and syncretism as taught by various Masters. Modernism’s influences range from Tupi cannibalism to Masonic ritual to everything in between seemingly, and its beliefs are very idiosyncratic to the average outsider.;;;;;;;;;;;;;x
+modernists;Architecturalist;;;;;;;;;;;;;x
+modernists_DESC;Architecturalists believe that the Great Architect in coalition with the Old Masters had planned the lead that came, in order to purify the world for a new beginning. Through following the laid out plans of the old masters and coming to important places of worship where Innovation concentrates, Architecturalists believe they will manage to build towards a greater post-collapse glory and restore a greater existence for everyone.;;;;;;;;;;;;;x
 varedesian;Varedesian;;;;;;;;;;;;;x
 varedesian_DESC;While most Modernists look for the past once lost or a future never achieved, the Varedesians, followers of Master Guimarães and Master Graciliano, have learned through their legends that enlightenment exists in the living present and its fundamental conflicts and dualities. Life is both blessing and curse, joy and suffering, reality and magic, and those who understand this shall live truthfully. Men live and die following these teachings, often without even knowing it, but Varedesians embrace these seemingly contradictory dualites with gusto.;;;;;;;;;;;;;x
+anthropofagian;Anthropofagian;;;;;;;;;;;;;x
+anthropofagian_desc;Anthropofagians are followers of the Manifesto, and know that Innovation entrenches itself deep into the Human Condition, due to this, they believe that ritual consumption of other men and woman will bring people into a deeper and more cohesive understanding and will make them able to control and manage Innovation. As outlined by the Old Masters, they believe that the consumption of other cultures is deeply valuable for such goals, as their Innovation only serves to strengthen theirs and come to a better understanding of other cultures.;;;;;;;;;;;;;x
 aphite;Posadist;;;;;;;;;;;;;x
 aphite_DESC;Posadists believes in Atomos similarly to Atomicists, but their theology and practices radically differ from Posadism in various. Mosts prominently, Posadists believe that Atomos will one day return to the material world, as predicted by the prophet Posadas, and he will usher in a utopian world of justice and fairness after cleansing the Earth of evil. These millenarian views have separated them from mainstream Atomicists, and Posadists remain eager to wage holy war themselves in anticipation of the World Revolution, the return of Atomos.;;;;;;;;;;;;;x
 atomicist;Atomicist;;;;;;;;;;;;;x
@@ -162,12 +164,26 @@ LORD_COMMANDER;Lord-Commander;;;;;;;;;;;;;x
 LADY_COMMANDER;Lady-Commander;;;;;;;;;;;;;x
 GENERALSHIP;Generalship of;;;;;;;;;;;;;x
 ARCHDIOCESE;Archdiocese of;;;;;;;;;;;;;x
+
 ###GODS ETC;;;;;;;;;;;;;;
 WEICHAN;Weichan;;;;;;;;;;;;;x
 ADMAPU;Admapu;;;;;;;;;;;;;x
 MACHI;Machi;;;;;;;;;;;;;x
 AM;Am;;;;;;;;;;;;;x
 APTITUDE;Aptitude;;;;;;;;;;;;;x
+
+#Modernist Gods and Books
+GOD_NOVO_HOMEM;Novo Homem;;;;;;;;;;;;;x
+GOD_CONDOR;The Condor;;;;;;;;;;;;;x
+GOD_TUPI;Tupã;;;;;;;;;;;;;x
+GOD_MONTAIGNE;Montaigne;;;;;;;;;;;;;x
+GOD_GRACCHI;Mãe de Gracchi;;;;;;;;;;;;;x
+
+GOD_GREAT_SNAKE;The Great Snake;;;;;;;;;;;;;x
+
+FLESH_AND_SOUL;Flesh and Soul;;;;;;;;;;;;;x
+MANIFESTO;Manifesto Antropófago;;;;;;;;;;;;;x
+
 GOD_NGENECHEN;Ngenechén;;;;;;;;;;;;;x
 GOD_ANTU;Antu;;;;;;;;;;;;;x
 GOD_KUYEN;Kuyen;;;;;;;;;;;;;x

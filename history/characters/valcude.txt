@@ -1,1 +1,51 @@
 ###ÄNSI
+
+610001={
+	name = "Josué"
+	dynasty = 275001 #Vale Encantado
+	culture = valcude
+	religion = evangelical
+	trait = martial_cleric
+	trait = branch_methodist
+	trait = kind
+	trait = charitable
+	trait = sympathy_pagans
+	trait = content
+	diplomacy = 4
+	martial = 6
+	stewardship = 7
+	intrigue = 3
+	learning = 6
+	
+	2331.3.12 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#high chief of Caparaó, holds Carangola and Manhancu
+}
+
+610002 = {
+	name = "Waldecir"
+	dynasty = 250002 #Galvão
+	culture = valcude
+	religion = evangelical
+	trait = misguided_warrior
+	trait = cynical
+	trait = sympathy_pagans
+	
+	diplomacy = 5
+	martial = 6
+	stewardship = 6
+	intrigue = 6
+	learning = 5
+	
+	2347.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#vassal of Caparaó, holds Mutum
+}
