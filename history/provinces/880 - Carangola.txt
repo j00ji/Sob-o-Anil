@@ -16,6 +16,6 @@ b_alvorada_3 = tribal
 
 # Misc
 culture = valcude
-religion = terra_benta
+religion = evangelical
 
 #History

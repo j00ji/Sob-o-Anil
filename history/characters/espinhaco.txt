@@ -56,45 +56,69 @@
 }
 600006 ={
 	name="Hilda"
-	dynasty=270005
-	religion=terra_benta
+	dynasty=270001
+	religion=anthropofagian
 	culture=espinhaco
 	diplomacy=8
 	female=yes
-	add_trait = skilled_tactician
-	add_trait = ambitious
+	add_trait = mastermind_theologian
+	add_trait = zealous
+	trait = cannibal_trait
+	trait = gluttonous
 	
 	2347.9.9={birth=yes}
-}
-
-600007 = {
-	name = "Rogério"
-	dynasty = 270006 #Navarro
-	religion = terra_benta
-	culture = espinhaco
-	disallow_random_traits = yes
-	add_trait = brilliant_strategist
-	father = 600008
-	
-	2338.3.16 = {
-		birth = yes
+	2350.1.1 = {
+		effect={add_weak_claim = c_montes_claros}
+	}
+	2366.1.1 = {
+		add_matrilineal_spouse= 600027
+	}
+	2400.1.1 ={
+		death = yes
 	}
 }
 
-600008 = {
-	name = "Luiz"
+600007 = {
+	name = "Bartolomeu"
 	dynasty = 270006 #Navarro
 	religion = terra_benta
 	culture = espinhaco
-	disallow_random_traits = yes
-	add_trait = brilliant_strategist
+	add_trait = midas_touched
+	trait = kind
+	trait = greedy
+	trait = is_fat
+	trait = chaste
+
+	2319.7.28 = {
+		birth = yes
+	}
+	2350.1.1 = {
+		add_spouse = 600029
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}	
+
+600008 = {
+	name = "Lídia" #got kidnapped
+	dynasty = 270006 #Navarro
+	female=yes
+	religion = terra_benta
+	culture = espinhaco
+	trait = fair
+	trait = shrewd
+	father = 600007
+	mother = 600029
 	
-	2311.7.28={birth=yes}
-	
-	2363.9.12 = {
-		death = {
-			death_reason = death_natural
-		} 
+	2355.7.28={birth=yes}
+	2369.1.1={
+		effect ={
+			imprison = 600006	
+		}
+	}
+	2400.1.1 = {
+		death = yes
 	}
 }
 
@@ -519,4 +543,66 @@
 	2400.1.1 = {
 		death = yes
 	}
+}
+
+#spouse of Hilda
+600027 = {
+	name = "Aníbal"
+	dynasty = 270012 # Barca carthage refereneee
+	culture = espinhaco
+	religion = anthropofagian
+		
+	trait = brilliant_strategist
+	trait = genius
+	trait = ambitious
+	
+	2335.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+#Paracatu stuff
+600029 = {
+	name = "Júlia" #spouse of the Paracatu ruler
+	dynasty = none
+	culture = paulistano
+	religion = terra_benta
+	female = yes
+	trait = scholarly_theologian
+	trait = chaste
+	
+	2332.1.1 = {
+		birth = yes
+		culture = espinhaco
+	}
+}
+
+600028 = {
+	name = "Hércules" #maciste
+	dynasty = 270013
+	culture = paulistano
+	religion = terra_benta
+	
+	trait = tough_soldier
+	trait = strong
+	trait = robust
+	trait = just
+	trait = brave
+	
+	diplomacy = 7
+	martial = 12
+	stewardship = 7
+	intrigue = 9
+	learning = 8
+	
+	2351.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#vassal of Paracatu, holds unai and formoso
 }

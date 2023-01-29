@@ -3,6 +3,20 @@
 270001 ={
 	name = "Quadros"
 	culture = espinhaco
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = modernists
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 270002 ={
 	name = "Teixeira"
@@ -23,6 +37,18 @@
 270006 ={
 	name = "Navarro"
 	culture = espinhaco
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 270007 = {
 	name = "Cangussu"
@@ -96,6 +122,30 @@
 270011 ={
 	name = "São João"
 	culture = espinhaco
+}
+270012 = {
+	name = "Barca"
+	culture = espinhaco
+	can_appear = no
+	used_for_random = no
+}
+270013 = {
+	name = "Olímpio"
+	culture = espinhaco
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 ####################

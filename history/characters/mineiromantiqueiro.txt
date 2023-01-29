@@ -317,3 +317,30 @@
 	}
 	#holds the temple in Muriae
 }
+
+620012 = {
+	name = "Salomão"
+	dynasty = 280004 #Borges
+	religion = terra_benta
+	culture = ilhense
+	
+	trait = underhanded_rogue
+	trait = patient
+	trait = poet
+	trait = slothful
+	
+	diplomacy = 8
+	martial = 7
+	stewardship = 8
+	intrigue = 5
+	learning = 9
+	
+	2335.1.1 = {
+		birth = yes
+		culture = mantiqueiro
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#rules Juiz de Fora and Uba
+}

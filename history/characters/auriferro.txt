@@ -6,8 +6,11 @@
 	religion = terra_benta
 	culture = auriferro
 	disallow_random_traits = yes
-	add_trait = brilliant_strategist
-	father = 590002
+	add_trait = amateurish_plotter
+	trait = content
+	trait = stubborn
+	trait = kind
+	trait = slothful
 	
 	2311.7.28 = {
 		birth = yes
@@ -15,29 +18,41 @@
 }
 
 590002 = {
-	name = "Vágner"
+	name = "Eurico"
 	dynasty = 265001 #Franciscano
 	religion = terra_benta
 	culture = auriferro
 	disallow_random_traits = yes
-	add_trait = brilliant_strategist
+	add_trait = martial_cleric
+	father = 590001
+	trait = gregarious
+	trait = trusting
+	trait = sturdy
 	
-	2311.7.28 = {
+	2351.6.24 = {
 		birth = yes
 	}
 }
 
 590003 = {
-	name = "Davi"
+	name = "Isadora"
 	dynasty = 265003 #Ferraz
 	religion = terra_benta
 	culture = auriferro
-	disallow_random_traits = yes
-	add_trait = brilliant_strategist
+	female = yes
 	father = 590004
+	disallow_random_traits = yes
+	add_trait = naive_appeaser
+	trait = chaste
+	trait = content
+	trait = brave
+	trait = honest
 	
-	2311.7.28 = {
+	2320.2.2 = {
 		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
 	}
 }
 
@@ -51,6 +66,9 @@
 	
 	2311.7.28 = {
 		birth = yes
+	}
+	2369.1.1 = {
+		death = yes
 	}
 }
 
@@ -111,12 +129,17 @@
 	dynasty = 265004 #Bravo
 	religion = terra_benta
 	culture = auriferro
-	disallow_random_traits = yes
-	add_trait = brilliant_strategist
 	father = 590008
+	add_trait = tough_soldier
+	trait = patient
+	trait = paranoid
+	trait = shy
 	
 	2311.7.28 = {
 		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
 	}
 }
 
@@ -125,12 +148,16 @@
 	dynasty = 265004 #Bravo
 	religion = terra_benta
 	culture = auriferro
-	disallow_random_traits = yes
 	add_trait = brilliant_strategist
+	trait = brave
 	
-	2311.7.28 = {
+	2301.7.28 = {
 		birth = yes
 	}
+	2354.1.1 = {
+		death = yes
+	}
+	
 }
 
 ###Villela Kardecist family whose final holdout is Belo Horizonte
@@ -214,7 +241,7 @@
 }
 
 590012 = {
-	name = "Hércules"
+	name = "Djalma"
 	dynasty = 265004 #Zagaia
 	religion = terra_benta 
 	culture = canastro
@@ -223,6 +250,7 @@
 	trait = deceitful
 	trait = cruel
 	trait = rough_terrain_leader
+	father = 590008
 	
 	diplomacy = 7
 	martial = 6
@@ -238,4 +266,186 @@
 	}
 	
 	#holds São Roque de Minas and Bambuí
+}
+
+590013 = {
+	name = "Mozart"
+	dynasty = 265682 #Pena
+	religion = terra_benta
+	culture = auriferro
+	trait = grey_eminence
+	trait = diligent
+	trait = groomed
+	trait = honest
+	
+	diplomacy = 8
+	martial = 9
+	stewardship = 10
+	intrigue = 6
+	learning = 8
+	
+	2324.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#holds Santa Barbara and Itabira
+}
+
+590014 = {
+	name = "Clélia"
+	dynasty = 265730 # Vaz
+	religion = terra_benta
+	culture = auriferro
+	female = yes
+	
+	trait = mastermind_theologian
+	trait = cynical
+	trait = kind
+	trait = robust
+	
+	diplomacy = 9
+	martial = 10
+	stewardship = 8
+	intrigue = 6
+	learning = 10
+	
+	2314.1.1 = {
+		birth = yes
+	}
+	2333.1.1 = {
+		add_matrilineal_spouse = 590015
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#rules Piranga and Alto Rio Doce
+}
+
+590015 = {
+	name = "Afonso"
+	dynasty = 265732 
+	religion = terra_benta
+	culture = auriferro
+	
+	trait = indulgent_wastrel
+	trait = fair
+	trait = lustful
+	trait = slothful
+	trait = wounded
+	
+	2300.1.1 = {
+		birth = yes
+	}
+	2367.1.1 = {
+		death = yes
+	}
+}
+
+590016 = {
+	name = "Afonso"
+	dynasty = 265730 #Vaz
+	religion = terra_benta
+	culture = auriferro
+	father = 590015
+	mother = 590014
+	
+	trait = tough_soldier
+	trait = is_fat
+	trait = gluttonous
+	
+	2333.10.2 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+590017 = {
+	name = "Alfredo"
+	dynasty = 265730 #Vaz
+	religion = terra_benta
+	culture = auriferro
+	father = 590015
+	mother = 590014
+	
+	trait = flamboyant_schemer
+	trait = is_fat
+	trait = gluttonous
+	
+	2338.10.2 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+590018 = {
+	name = "Andréia"
+	dynasty = 265730 #Vaz
+	religion = terra_benta
+	culture = auriferro
+	father = 590015
+	mother = 590014
+	female = yes
+	
+	trait = underhanded_rogue
+	trait = is_fat
+	trait = gluttonous
+	
+	2340.10.2 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+590019 = {
+	name = "Arnaldo"
+	dynasty = 265730 #Vaz
+	religion = terra_benta
+	culture = auriferro
+	father = 590015
+	mother = 590014
+	
+	trait = flamboyant_schemer
+	trait = is_fat
+	trait = gluttonous
+	
+	2343.10.2 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+##end of Vaz family
+
+590020 = {
+	name = "Estácio"
+	dynasty = 265009 #Bernardes
+	religion = terra_benta
+	culture = auriferro
+	
+	trait = fortune_builder
+	trait = arbitrary
+	trait = cruel
+	trait = zealous
+	
+	diplomacy = 3
+	martial = 9
+	stewardship = 6
+	intrigue = 4
+	learning = 6
+	
+	2345.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	
+	#Rules Viçosa, Visconde do Rio and Ponta Nova.	also the ducke of Piranga
+	#MUST GIVE HIM CIVIL ADMINISTRATION OR MILITARY ADMINISTRATION BLOODLINE
 }

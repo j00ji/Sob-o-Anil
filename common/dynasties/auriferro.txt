@@ -99,6 +99,26 @@
 	}
 }
 
+265009 = {
+	name = "Bernardes"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
 ####################
 ##Random dynasties
 ##Based on MG's senators and representatives
@@ -214,10 +234,10 @@
 	name = "Belém"
 	culture = auriferro
 	}
-265527 = {
-	name = "Bernardes"
-	culture = auriferro
-	}
+#265527 = {
+#	name = "Bernardes"
+#	culture = auriferro
+#	}
 265528 = {
 	name = "Bernardino"
 	culture = auriferro
@@ -837,6 +857,8 @@
 265682 = {
 	name = "Pena"
 	culture = auriferro
+	can_appear = no
+	used_for_random = no
 	}
 265683 = {
 	name = "Pereira"
@@ -1029,6 +1051,8 @@
 265730 = {
 	name = "Vaz"
 	culture = auriferro
+	can_appear = no
+	used_for_random = no
 	}
 265731 = {
 	name = "Veloso"

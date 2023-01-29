@@ -58,7 +58,7 @@ branch_pentecostal = {
 		branch_non_sectarian
 	}
 	same_opinion = 5
-	opposite_opinion = -5
+	opposite_opinion = -10 #other proties don't like them that much
 	
 	martial = 1
 	
