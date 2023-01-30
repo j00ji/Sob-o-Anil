@@ -11863,6 +11863,7 @@
 	dynasty = 245028 #Iris
 	culture = falklander
 	religion = anchietican #she converted
+	female = yes
 	
 	trait = scholarly_theologian
 	trait = kind
