@@ -100,3 +100,291 @@
 	}
 	#wife of Antonio Araña
 }
+
+610005 = {
+	name = "Eliezer"
+	dynasty = 250004#Mineiro
+	culture = valcude
+	religion = terra_benta
+	
+	trait = brilliant_strategist
+	trait = ambitious
+	trait = lustful
+	trait = wroth
+	trait = aggressive_leader
+	trait = light_foot_leader
+	
+	2307.11.5 = {
+		birth = yes
+	}
+	2326.1.1={
+		add_spouse = 610006 #first spouse
+	}
+	2330.1.1={
+		add_spouse = 610007 #2nd spouse
+	}
+	2356.1.1 = {
+		add_spouse = 610008 #3rdspouse
+	}
+	2370.1.1 = {
+		death = yes
+	}
+	#ruler of Vale Kingdom. holds two duchies Vale do Rio doce and Serra dos Aimorés. 
+	#Directly owns Belo Oriente, Governador Valardes, Conselheiro Pena, Inhopim, Teofilo Otoni
+	# and Caratinga
+}
+
+610006 = {
+	name = "Tatiane" 
+	dynasty = 250005 #Alves
+	culture = atlanticano
+	religion = terra_benta
+	female = yes
+	
+	trait = charismatic_negotiator
+	trait = fair
+	trait = kind
+	trait = lustful
+	
+	2309.1.1 = {
+		birth = yes
+		culture = valcude
+	}
+	2328.9.3 = {
+		death = yes
+	}
+}
+
+610007 = {
+	name = "Marisa" 
+	dynasty = 250005 #Alves
+	culture = valcude
+	religion = terra_benta
+	female = yes
+	
+	trait = underhanded_rouge
+	trait = fair
+	trait = patient
+	trait = shy
+	
+	2311.1.1 = {
+		birth = yes
+	}
+	2354.5.24 = {
+		death = yes
+	}
+}
+
+610008 = {
+	name = "Rayanne"
+	dynasty = 275624 #guimarães
+	culture = german
+	religion = terra_benta
+	female = yes
+	
+	trait = intricate_websweaver
+	trait = fair
+	
+	2327.1.1 = {
+		birth = yes
+		culture = valcude
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+610009 = {
+	name = "Daniel"
+	dynasty = 250004#Mineiro
+	culture = atlanticano
+	religion = terra_benta
+	father = 610005
+	mother = 610006
+	
+	trait = flamboyant_schemer
+	trait = ambitious
+	
+	2328.1.1 = {
+		birth = yes
+		culture = valcude
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+610010 = {
+	name = "Paulo"
+	dynasty = 250004#Mineiro
+	culture = valcude
+	religion = terra_benta
+	father = 610005
+	mother = 610007
+	
+	trait = indulgent_wastrel
+	
+	2330.12.24 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+610011 = {
+	name = "Danton"
+	dynasty = 250004#Mineiro
+	culture = valcude
+	religion = terra_benta
+	father = 610005
+	mother = 610007
+	
+	trait = tough_soldier
+	trait = twin
+	
+	2333.3.3 = {
+		birth = yes
+	}
+	2400.1.1 ={
+		death = yes
+	}
+}
+610012 = {
+	name = "Selton"
+	dynasty = 250004#Mineiro
+	culture = valcude
+	religion = terra_benta
+	father = 610005
+	mother = 610007
+	
+	trait = skilled_tactician
+	trait = twin
+	
+	2333.3.3 = {
+		birth = yes
+	}
+	2400.1.1 ={
+		death = yes
+	}
+}
+
+610013 = {
+	name = "Arnaldo"
+	dynasty = 250004#Mineiro
+	culture = valcude
+	religion = terra_benta
+	father = 610005
+	mother = 610007
+
+	trait =	martial_cleric
+	
+	2343.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+610014 = {
+	name = "Breno"
+	dynasty = 250004#Mineiro
+	culture = valcude
+	religion = terra_benta
+	father = 610005
+	mother = 610007
+	
+	trait = charismatic_negotiator
+	trait = scarred
+	
+	2351.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+610015 = {
+	name = "Júlio"
+	dynasty = 250004#Mineiro
+	culture = german
+	religion = terra_benta
+	father = 610005
+	mother = 610008
+	
+	trait = fair
+	
+	2351.1.1 = {
+		birth = yes
+		culture = valcude
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+610016 = {
+	name = "Jerônimo"
+	dynasty = 250006 #Chagas
+	culture = valcude
+	religion = terra_benta
+	
+	
+	trait = martial_cleric
+	trait = shrewd
+	trait = diligent
+	trait = physician
+	
+	2349.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#ruler of Carlos Chahas and Nanuque and resplendor
+}
+
+610017 = {
+	name = "Daniela"
+	dynasty = 250007 #Michelli
+	culture = atlanticano
+	religion = terra_benta
+	female = yes
+	
+	trait = skilled_tactician
+	trait = strong
+	trait = duelist
+	
+	2331.2.4 = {
+		birth = yes
+		culture = valcude
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#ruler of Itapinga and Raul Soares
+}
+
+610018 = {
+	name = "Chico"
+	dynasty = 250008#Peçanha
+	culture = brown
+	religion = terra_benta
+	
+	trait = charismatic_negotiator
+	trait = gregarious
+	trait = light_foot_leader
+	
+	diplomacy = 8
+	martial = 11
+	
+	2330.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#ruler of Peçanha and Malacheta
+}

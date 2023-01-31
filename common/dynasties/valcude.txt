@@ -1,7 +1,7 @@
 ###ÄNSI
 
 275001 = {
-	name = "Mineiro"
+	name = "Julião"
 	culture = valcude
 	can_appear = no
 	used_for_random = no
@@ -39,6 +39,48 @@
 			color = 0
 		}
 	}
+}
+250004 = {
+	name = "Mineiro"
+	culture = valcude
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+250005 = {
+	name = "Alves"
+	culture = valcude
+	can_appear = no
+	used_for_random=no
+}
+250006 ={
+	name = "Chagas"
+	culture = valcude
+	can_appear = no
+	used_for_random = no
+}
+250007 = {
+	name = "Michelli"
+	culture = valcude
+	can_appear = no
+	used_for_random = no
+}
+250008 = {
+	name = "Peçanha"
+	culture = valcude
+	can_appear = no 
+	used_for_random = no
 }
 
 ####################

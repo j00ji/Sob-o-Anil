@@ -200,7 +200,7 @@ chileno = {
 	
 	}
 	sureno = {
-		graphical_cultures = { southerngfx }
+		graphical_cultures = { germangfx }
 		
 		color = { 0.67 0.30 0.27 }
 		

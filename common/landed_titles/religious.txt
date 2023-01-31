@@ -92,3 +92,27 @@ k_teachers= {
 	
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
+
+d_universal = {
+	color={ 97 179 253 }
+	color2 = { 218 37 29 }
+	
+	capital = 50 #São Paulo
+	dignity = 1000
+	
+	title = "BISPO"
+	title_female = "BISPA"
+	title_prefix = "BISPADO"
+	foa = "REVEREND"
+	
+	controls_religion = universal
+	religion = universal
+	
+	caliphate = yes
+	
+	primary = yes
+	
+	assimilate = no
+	
+	dynasty_title_names = no
+}

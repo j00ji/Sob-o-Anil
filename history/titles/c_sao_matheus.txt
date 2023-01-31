@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_espirito_santo
 }
+2365.1.25={
+	holder = 100012#Calebe da Fé
+}

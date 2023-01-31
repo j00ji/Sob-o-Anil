@@ -13,3 +13,7 @@
 2332.3.20={holder=100004}
 2339.7.7={holder=0} #FATIMAS DOMAIN
 2348.4.2={holder=0} #CHANGES TO THE EXARCHATE OF ILHEUS
+2367.6.1={
+	holder=90010#Augusto, the bastard Pommeranian prince
+	liege=d_universal
+}
