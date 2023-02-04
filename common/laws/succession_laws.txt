@@ -91,6 +91,10 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
+			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -209,6 +213,10 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
+			}
 			holder_scope = {
 				is_nomadic = no
 				OR = {
@@ -310,6 +318,10 @@ succession_laws = {
 					title = e_byzantium
 					title = e_roman_empire
 				}
+			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
 			}
 			holder_scope = {
 				OR = {
@@ -432,6 +444,10 @@ succession_laws = {
 					title = e_byzantium
 					title = e_roman_empire
 				}
+			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
 			}
 			holder_scope = {
 				OR = {
@@ -603,6 +619,10 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
+			}
 			holder_scope = {
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
@@ -765,6 +785,10 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
+			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -871,6 +895,10 @@ succession_laws = {
 					title = e_byzantium
 					title = e_roman_empire
 				}
+			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
 			}
 			OR = {
 				title = e_hre #Title-bound.
@@ -1035,6 +1063,10 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
+			}
 			holder_scope = {
 				OR = {
 					independent = yes
@@ -1160,6 +1192,10 @@ succession_laws = {
 					title = e_byzantium
 					title = e_roman_empire
 				}
+			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
 			}
 			holder_scope = {
 				OR = {
@@ -1329,6 +1365,10 @@ succession_laws = {
 					title = e_roman_empire
 				}
 			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
+			}
 			holder_scope = {
 				OR = {
 					religion_group = muslim
@@ -1432,6 +1472,10 @@ succession_laws = {
 					title = e_byzantium
 					title = e_roman_empire
 				}
+			}
+			NAND = {
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				higher_tier_than = COUNT
 			}
 			NOT = { title = k_papal_state }
 			temporary = no
@@ -1591,6 +1635,29 @@ succession_laws = {
 		revoke_allowed = {
 			always = no
 		}			
+	}
+	
+	succ_bureaucratic_elective = {
+		potential = {
+			holder_scope = {
+				OR = { 
+					government = bureaucratic_government 
+					government = bureaucratic_government_tolerant 
+				}
+			}
+			higher_tier_than = COUNT
+		}
+		allow = {			
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = bureaucratic_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}	
 	}
 }
 

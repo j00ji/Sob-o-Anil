@@ -12,6 +12,8 @@
 }
 2071.5.6 = {
 	holder = 110661 #Lino de Julho, he would convert São Paulo towards bureaucracy
+	law = succ_bureaucratic_elective
+	government = bureaucratic_government
 }
 2100.1.1 = {
 	#government=civil_bureaucracy

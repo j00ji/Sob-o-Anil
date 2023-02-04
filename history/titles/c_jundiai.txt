@@ -25,5 +25,5 @@
 	holder = 110557 #Samuel Teles
 }
 2364.5.1 = { #Alexandre subjugates Campinas
-	liege = k_paulistano
+	liege = d_grande_sao_paulo
 }

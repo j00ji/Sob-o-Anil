@@ -1,0 +1,9 @@
+###ÄNSI;;;;;;;;;;;;;;
+bureaucratic_government;Bureaucratic;;;;;;;;;;;;;x;
+bureaucratic_government_desc;Bureaucracy is a form of government reminiscent of the Old World, that enshrines the values of meritocracy above all else. It's rulers are expected to take the ENEM exams, a way to prove their merit as rulers. Failure in the face of the test, or refusal to take it in the first place would cause rightful uproar amongst the ruling classes. Rulers are allowed to reorganize their realm, revoking Prefectural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law.;;;;;;;;;;;;;x;
+bureaucratic_government_tolerant;Bureaucratic but Tolerant;;;;;;;;;;;;;x;
+bureaucratic_government_tolerant_desc;Bureaucracy is a form of government reminiscent of the Old World, that enshrines the values of meritocracy above all else. It's rulers are expected to take the ENEM exams, a way to prove their merit as rulers. Failure in the face of the test, or refusal to take it in the first place would cause rightful uproar amongst the ruling classes. Rulers are allowed to reorganize their realm, revoking Prefectural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law.;;;;;;;;;;;;;x;
+succ_bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x;
+succ_bureaucratic_elective;Reminiscent of the democracies of old, Bureaucratic governments decide their leader through election amongst themselves, where administrative skills are seen as the most valuable ones. Only fellow members of the bureaucracy are allowed as candidates, but the vote of council members and direct subordinates is also taken into account..;;;;;;;;;;;;;x;
+bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x;
+gov_elec_bureaucratic;Bureaucratic Elective;;;;;;;;;;;;;x;

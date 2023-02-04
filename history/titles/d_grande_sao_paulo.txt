@@ -1,7 +1,7 @@
 # e_vera_cruz
 500.1.1={
 	law = cognatic_succession
-	law = succ_gavelkind
+	law = succ_bureaucratic_elective
 }
 800.1.1={
 	liege=k_sao_paulo
@@ -11,6 +11,8 @@
 }
 2071.5.6 = {
 	holder = 110661 #Lino de Julho, he would convert São Paulo towards bureaucracy
+	law = succ_bureaucratic_elective
+	government = bureaucratic_government
 }
 2106.1.1={
 	#holder = #Amongst the last Catholic rulers
@@ -32,6 +34,7 @@
 }
 2150.2.24 = {
 	holder = 110674 #Mario Sguassabia, radical Catholic gets elected, he gradually reduces the rights of protestants until deciding to expel them after a rebellion in 2160
+	law = religion_toleration_0
 }
 2170.2.26 = {
 	holder = 110675 #Luis Sguassabia

@@ -6,8 +6,8 @@ title = c_mogi_das_cruzes
 # Settlements
 max_settlements = 6
 
-b_bras_cubas = castle
-b_oliveira = city
+b_bras_cubas = city
+b_oliveira = castle
 b_santana = temple
 #b_suzano = castle
 #b_itaquaquecetuba = city

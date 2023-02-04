@@ -204,3 +204,15 @@ is_born_under_Pisces_trigger = {
 		}
 	}
 }
+bureaucratic_title_trigger={
+	OR = {
+		title = d_federal_district
+		title = d_grande_rio
+		title = d_grande_sao_paulo
+		##SP VASSALS##
+		title = c_guarulhos
+		title = c_osasco
+		title = c_mogi_das_cruzes 
+		##SP VASSALS##
+	}
+}

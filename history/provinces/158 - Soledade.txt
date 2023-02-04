@@ -16,6 +16,6 @@ b_soledade_4 = castle
 
 # Misc
 culture = hunsruckisch
-religion = evangelical
+religion = mucker
 
 #History

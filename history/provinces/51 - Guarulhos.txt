@@ -6,7 +6,7 @@ title = c_guarulhos
 # Settlements
 max_settlements = 6
 
-b_guarulhos = castle
+b_guarulhos = city
 b_mairipora = castle
 b_cumbica = city
 b_santa_isabel = temple

@@ -118,7 +118,11 @@ republic_governments = {
 				controls_religion = yes
 				NOT = { religion_group = muslim }
 			}
-			NOT = { is_government_potential = merchant_republic_government }
+			NOR = { 
+				is_government_potential = merchant_republic_government 
+				is_government_potential = bureaucratic_government
+				is_government_potential = bureaucratic_government_tolerant
+			}
 			holy_order = no
 		}
 		

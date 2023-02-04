@@ -1,0 +1,10 @@
+namespace=bureaucratic
+
+character_event = {
+	id=bureaucratic.1
+	is_triggered_only=yes
+	hide_window = yes
+	effect = {
+		set_government_type = bureaucratic_government_tolerant #reverts to base bureaucratic_government
+	}
+}

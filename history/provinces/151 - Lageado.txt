@@ -16,6 +16,6 @@ b_teutonia = city
 
 # Misc
 culture = hunsruckisch
-religion = evangelical
+religion = mucker
 
 #History

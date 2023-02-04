@@ -6,9 +6,9 @@ title = c_osasco
 # Settlements
 max_settlements = 6
 
-b_quitauna = castle
+b_quitauna = city
 b_bela_vista = castle
-b_sao_lourenco = city
+b_sao_lourenco = castle
 b_embu = temple
 #b_itapecerica = city
 #b_barueri = temple
@@ -20,6 +20,6 @@ religion = anchietican
 
 #History
 
-2364.11.13 = {
-	capital = b_bela_vista
-}
+#2364.11.13 = {
+#	capital = b_bela_vista
+#}

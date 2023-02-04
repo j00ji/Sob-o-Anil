@@ -618,7 +618,7 @@
 	name="Ramon"
 	dynasty=90001 #Madruga
 	father=27005
-	culture=brown
+	culture=ugly
 	dna="a0bae0kbab0"
 	properties="gh00e0000000000000000000000000000000"
 	religion=celeste
@@ -2690,7 +2690,8 @@
 	trait=patient
 	2320.1.1={birth=yes}
 	2350.1.1={effect={add_friend=300003}}
-	#ruler of lageado
+	2360.1.1 = {effect={add_claim=c_lageado}}
+	#former ruler of lageado
 	2400.1.1={
 		death=yes
 	}
@@ -2780,9 +2781,9 @@
 	stewardship=10
 	intrigue=4
 	learning=5
-	2340.1.1={birth=yes}
+	2343.1.1={birth=yes}
 	2400.1.1={death=yes}
-	#Eldest son of Paulo, King of Serra Gaucha owns Caxias do Sul and Bento Gonçalves should be given a gun old world firearm
+	#Eldest son of Paulo, King of Serra Gaucha owns Caxias do Sul and Bento Gonçalves 
 }
 300004={
 	name="Matheus"
@@ -2805,7 +2806,7 @@
 	learning=9
 	2348.1.1={birth=yes}
 	2400.1.1={death=yes}
-	#Youngest son of Paulo, Duke of Alto Uruguai, owns Passo Fundo, Carazinho and Soledad
+	#Youngest son of Paulo, Duke of Alto Uruguai, owns Passo Fundo, Carazinho
 }
 300005={
 	name="Fernando"
@@ -2824,6 +2825,25 @@
 	2332.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#count-tier vassal of the Duchy of Alto Uruguai, owns Erechim and Palmeira das Missões
+}
+300006={
+	name="Sophie"
+	dynasty=105001 #taurus
+	culture=talian
+	religion=mucker
+	female=yes
+	father=300001
+	mother=300002
+	trait=intricate_webweaver
+	trait=fair
+	trait=strong
+	trait=diligent
+	trait=envious
+	trait=deceitful
+	trait=zealous
+	2340.1.1={birth=yes culture=hunsruckisch}
+	2400.1.1={death=yes}
+	#Oldest daughter of Paulo should be given a gun old world firearm. Owns Lageado and Soledad
 }
 310001={
 	name="Ewa"

@@ -1,0 +1,5 @@
+#hidden history traits, made for recognizing past Bureaucratic/Military rulers
+ruled_a_bureaucracy = {
+	hidden = yes
+	random = no
+}

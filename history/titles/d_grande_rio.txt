@@ -11,4 +11,6 @@
 }
 2352.4.9 = {
 	holder = 70001
+	law = succ_bureaucratic_elective
+	government = bureaucratic_government
 }

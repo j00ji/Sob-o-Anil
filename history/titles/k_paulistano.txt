@@ -1,3 +1,8 @@
+2071.5.6 = {
+	holder = 110661 #Lino de Julho, he would convert São Paulo towards bureaucracy
+	law = succ_bureaucratic_elective
+	government = bureaucratic_government
+}
 2129.1.1 = {
 	holder = 110665 #Calebe reorganizes the kingdom following the Paulista Collapse
 }
@@ -38,17 +43,20 @@
 	holder = 110285 #Guilherme Jafet
 }
 2364.1.25 = { 
-	holder = 110242 #Yago Matarazzo
+	holder = none
 }
-2364.1.25 = { 
-	holder = 110242 #Alexandre I Cantarini
-	law = crown_authority_1
-	law = centralization_1
-	law = succession_voting_power_1
-	law = law_voting_power_1
-	law = succ_feudal_elective
-}
-2365.3.15 = { #Alexandrite King's Peace
-	#law = vassal_wars_law_1 
-	#law = crown_authority_2
-}
+#2364.1.25 = { 
+#	holder = 110242 #Yago Matarazzo
+#}
+#2364.1.25 = { 
+#	holder = 110242 #Alexandre I Cantarini
+#	law = crown_authority_1
+#	law = centralization_1
+#	law = succession_voting_power_1
+#	law = law_voting_power_1
+#	law = succ_feudal_elective
+#}
+#2365.3.15 = { #Alexandrite King's Peace
+#	#law = vassal_wars_law_1 
+#	#law = crown_authority_2
+#}

@@ -8,7 +8,7 @@
 }
 2072.1.26 = {
 	holder = 110076 #Brás Cubas
-	liege = k_paulistano
+	liege = d_grande_sao_paulo
 }
 2100.3.10 = {
 	holder = 110077 #Pedro Cubas

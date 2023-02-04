@@ -10,6 +10,6 @@
 	holder=300002
 	liege=k_serra_gaucha
 }
-2362.1.1={
-	holder=300004
+2360.5.1={
+	holder=300006
 }

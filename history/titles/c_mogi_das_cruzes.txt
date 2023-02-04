@@ -31,5 +31,5 @@
 	holder = 110346 #João Watanabe
 }
 2364.4.25 = { 
-	liege = k_paulistano
+	liege = d_grande_sao_paulo
 }

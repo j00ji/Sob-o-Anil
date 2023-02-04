@@ -10,3 +10,6 @@
 	holder=290008
 	liege=k_serra_gaucha
 }
+2360.1.1 = {
+	holder=300006#Sophie Tauru
+}

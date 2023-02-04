@@ -14,5 +14,5 @@
 }
 2365.11.5 = {
 	holder = 110602 #Sansão
-	liege = k_paulistano
+	liege = d_grande_sao_paulo
 }

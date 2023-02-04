@@ -32,9 +32,13 @@ feudal_governments = {
 			NOT = {	religion_group = muslim	}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
+			#NOT = { is_government_potential = bureaucratic_government}
+			#NOT = { is_government_potential = bureaucratic_government_tolerant}
 			NAND = { 
 				OR= {
 					religion = camino_estelar
+					religion = celeste
+					religion = mucker
 					religion = obscurantist
 				}
 				higher_tier_than = BARON
@@ -175,7 +179,11 @@ feudal_governments = {
 				}
 			}
 			AND = {
-				religion = camino_estelar
+				OR = {
+					religion = camino_estelar
+					religion = celeste
+					religion = mucker
+				}
 				higher_tier_than = BARON
 			}
 			NOT = { is_government_potential = roman_imperial_government }
@@ -415,5 +423,183 @@ feudal_governments = {
 		
 		## Modifiers
 		court_size_modifier = 15
+	}
+	bureaucratic_government = {
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			#CASTLE
+			CITY
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			#feudal_government
+			#theocratic_feudal_government
+			#military_governorate
+			merchant_republic_government
+			republic_government
+		}
+		free_revoke_on_tiers = {
+			baron
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_bureaucratic"
+		title_prefix = "bureaucracy_"
+		#gets_religion_opinion_penalties = no
+		#gives_religion_opinion_penalties = no
+		potential = {
+			OR = {
+				AND = {
+					NOR = {
+						#is_government_potential = merchant_republic_government
+						is_government_potential = order_government
+						#is_government_potential = bureaucratic_government_tolerant
+					}
+					higher_tier_than = BARON
+					is_patrician = no
+					mercenary = no
+					is_landed = yes
+					OR = {
+						primary_title = {
+							has_law = succ_bureaucratic_elective
+							has_law = religion_toleration_0
+						}
+						AND = {
+							liege = {
+								government = bureaucratic_government	
+							}
+							NOT = { liege = { character =ROOT}}
+						}
+						AND = { #so they appear at character select screen
+							has_game_started = no
+							is_save_game = no
+							primary_title = {
+								bureaucratic_title_trigger = yes
+							}
+						}
+					}
+				}
+				AND = {
+					is_alive = no
+					trait = ruled_a_bureaucracy
+				}
+			}
+		}
+		color = { 145 10 15 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+		free_retract_vassalage = yes
+		
+		#No free levies in offensive war
+		
+		can_build_tribal = no
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		
+		#can_demand_religious_conversion = no we will create a version that allows it
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 200
+		
+		## Modifiers
+		court_size_modifier = 10
+	}
+	bureaucratic_government_tolerant = {
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			#CASTLE
+			CITY
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			#feudal_government
+			#theocratic_feudal_government
+			#military_governorate
+			merchant_republic_government
+			republic_government
+		}
+		free_revoke_on_tiers = {
+			baron
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_bureaucratic"
+		title_prefix = "bureaucracy_"
+		gets_religion_opinion_penalties = no
+		gives_religion_opinion_penalties = no
+		potential = {
+			OR = {
+				AND = {
+					NOR = {
+						#is_government_potential = merchant_republic_government
+						is_government_potential = order_government
+						#is_government_potential = bureaucratic_government
+					}
+					higher_tier_than = BARON
+					is_patrician = no
+					mercenary = no
+					is_landed = yes
+					OR = {
+						primary_title = {
+							has_law = succ_bureaucratic_elective
+							has_law = religion_toleration_1
+						}
+						AND = {
+							liege = {
+								government = bureaucratic_government_tolerant	
+							}
+							NOT = { liege = { character =ROOT}}
+						}
+						AND = { #so they appear at character select screen
+							has_game_started = no
+							is_save_game = no
+							primary_title = {
+								bureaucratic_title_trigger = yes
+							}
+						}
+					}
+				}
+				AND = {
+					is_alive = no
+					trait = ruled_a_bureaucracy
+				}
+			}
+		}
+		color = { 145 10 15 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+		free_retract_vassalage = yes
+		
+		#No free levies in offensive war
+		
+		can_build_tribal = no
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		
+		can_demand_religious_conversion = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 200
+		
+		## Modifiers
+		court_size_modifier = 10
 	}
 }

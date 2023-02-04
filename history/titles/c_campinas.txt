@@ -31,5 +31,5 @@
 	holder = 110325 #Oceana Leme
 }
 2364.5.1 = { #Alexandre subjugates Campinas
-	liege = k_paulistano
+	liege = d_grande_sao_paulo
 }

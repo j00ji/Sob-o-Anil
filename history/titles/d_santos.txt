@@ -8,7 +8,7 @@
 }
 2101.10.7 = {
 	holder = 110078 #Bruno Cubas
-	liege = k_paulistano
+	liege = d_grande_sao_paulo
 }
 2133.1.10 = {
 	holder = 110051 #Damião de Andrade

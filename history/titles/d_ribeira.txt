@@ -9,7 +9,7 @@
 
 2330.12.25 = {
 	holder = 110615
-	liege = k_paulistano
+	liege = d_grande_sao_paulo
 }
 
 2343.7.9 = {

@@ -19,3 +19,6 @@ culture = paulistano
 religion = anchietican
 
 #History
+2071.5.6 = {
+	capital = b_sao_paulo
+}

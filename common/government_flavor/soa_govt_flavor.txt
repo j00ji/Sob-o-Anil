@@ -1,0 +1,15 @@
+##############################
+# Unique Governments go here #
+##############################
+
+government_flavor = {
+	name = gov_elec_bureaucratic
+	graphics = GFX_evt_book_carolingian_script
+	priority = 2
+	trigger = {
+		OR = { 
+			government = bureaucratic_government
+			government = bureaucratic_government_tolerant
+		}
+	}
+}

@@ -10982,7 +10982,7 @@
 ## 110660 - 110662##
 
 110660 = {
-	name = "Paulo"
+	name = "Saulo"
 	dynasty = 55040 # de Julho
 	religion = catholic #from before the schism
 	culture = paulistano
@@ -11017,6 +11017,7 @@
 	trait=kind
 	trait=charitable
 	trait=administrator
+	trait=ruled_a_bureaucracy
 	
 	2025.3.15 = {
 		birth = yes
@@ -11060,6 +11061,7 @@
 	trait = charismatic_negotiator
 	trait = gregarious
 	trait = deceitful
+	trait=ruled_a_bureaucracy
 	
 	2059.9.10 = {
 		birth = yes
@@ -11081,6 +11083,7 @@
 	trait = gregarious
 	trait = deceitful
 	trait = cruel
+	trait=ruled_a_bureaucracy
 	
 	2080.8.24 = {
 		birth = yes
@@ -11103,6 +11106,7 @@
 	trait = wroth
 	trait = zealous
 	trait = charitable
+	trait=ruled_a_bureaucracy
 	
 	2101.8.30 = {
 		birth = yes

@@ -23,3 +23,6 @@ religion = evangelical
 	build_wonder = wonder_christ_the_redeemer
 	set_wonder_stage = 1
 }
+2352.4.9 = {
+	capital = b_tanque
+}
