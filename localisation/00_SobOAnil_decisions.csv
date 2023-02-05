@@ -1,0 +1,19 @@
+###ÄNSI;;;;;;;;;;;;;;
+take_imp_exam;Take National Exam;;;;;;;;;;;;;x
+take_imp_exam_desc;The National Exam — or the Enem — is the most prestigious test for those living under a bureaucratic society. As a [Root.Government.GetName] ruler, it is your right and duty to have yourself certified by a Evaluator of Merit.;;;;;;;;;;;;;x
+
+#Traits
+not_evaluated;Unevaluated;;;;;;;;;;;;;x
+not_evaluated_desc;This bureaucrat has not been evaluated by an Evaluator of Merit, and is not seen as legitimate by vassals and peers.;;;;;;;;;;;;;x
+
+failed_exam;Failed Exam;;;;;;;;;;;;;x
+failed_exam_desc;This character has failed their National Exam, a grave blow to their legitimacy.;;;;;;;;;;;;;x
+
+imp_ex1;Bacharel;;;;;;;;;;;;;x
+imp_ex1_desc;This bureaucrat has passed the National Exam, and has earned the first rank — Bacharelado.;;;;;;;;;;;;;x
+
+imp_ex2;Mestre;;;;;;;;;;;;;x
+imp_ex2_desc;This bureaucrat has passed the National Exam, and has earned the second rank — Mestrado.;;;;;;;;;;;;;x
+
+imp_ex3;Doutor;;;;;;;;;;;;;x
+imp_ex3_desc;This bureaucrat has passed the National Exam, and has earned the third and highest rank — Doutorado.;;;;;;;;;;;;;x

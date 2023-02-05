@@ -762,6 +762,7 @@ bureaucratic_elective = {
 				FROM = {
 					OR = {
 						government = bureaucratic_government
+						government = bureaucratic_government_tolerant
 					}
 				}
 			}

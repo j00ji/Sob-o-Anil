@@ -295,6 +295,119 @@ decisions = {
 		}
 	}
 
+	take_imp_exam = {
+		is_high_prio = yes
+		only_rulers = yes
+		ai_check_interval = 12
+		
+		potential = {
+			OR = {
+				government = bureaucratic_government
+				government = bureaucratic_government_tolerant
+				liege = {
+					OR = {
+						government = bureaucratic_government
+						government = bureaucratic_government_tolerant
+					}
+				}
+			}
+			age = 16
+			OR = {
+				trait = not_evaluated
+				trait = failed_exam
+			}
+			NOT = {
+				custom_tooltip = {
+					text = ie_applied_TT
+					hidden_tooltip = {
+						has_character_flag = ie_applied
+					}
+				}
+			}
+			NOT = {
+				custom_tooltip = {
+					text = cheated_expelled_TT
+					hidden_tooltip = {
+						has_character_flag = cheated_exam
+					}
+				}
+			}
+		}
+		allow = {
+			NAND = {
+				custom_tooltip = {
+					text = need_retest_TT
+					hidden_tooltip = {
+						has_character_flag = need_retest
+					}
+				}
+				NOT = {
+					wealth = 500
+				}
+			}
+			prisoner = no
+			NOT = { is_incapable = yes }
+			NOT = { is_inaccessible_trigger = yes }
+			war = no
+			in_command = no
+			custom_tooltip = {
+				text = has_eval_merit_TT
+				hidden_tooltip = {
+					any_courtier_or_vassal = {
+						OR = {
+							has_job_title = job_spiritual
+							has_minor_title = title_evaluator_of_merit
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					any_courtier_or_vassal = {
+						liege = { character = ROOT }
+						has_minor_title = title_evaluator_of_merit
+					}
+				}
+				any_courtier_or_vassal = {
+					limit = {
+						liege = { character = ROOT }
+						has_minor_title = title_evaluator_of_merit
+					}
+					character_event = { id = IE.1 }
+				}
+			}
+			else_if = {
+				limit = {
+					any_courtier_or_vassal = {
+						liege = { character = ROOT }
+						has_job_title = job_spiritual
+					}
+				}
+				any_courtier_or_vassal = {
+					limit = {
+						liege = { character = ROOT }
+						has_job_title = job_spiritual
+					}
+					character_event = { id = IE.1 }
+				}
+			}
+			set_character_flag = ie_applied
+			if = {
+				limit = {
+					has_character_flag = need_retest
+				}
+				wealth = -500
+			}
+		}
+		revoke_allowed = { always = no }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 }
 
 targeted_decisions = {

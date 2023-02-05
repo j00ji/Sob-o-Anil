@@ -197,7 +197,7 @@
 	name="Tayana"
 	dynasty=35002
 	female=yes
-	religion=liberationist
+	religion=apostolic
 	culture=salvadorense
 	disallow_random_traits=yes
 	add_trait=scholarly_theologian

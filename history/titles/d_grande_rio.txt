@@ -12,5 +12,6 @@
 2352.4.9 = {
 	holder = 70001
 	law = succ_bureaucratic_elective
-	government = bureaucratic_government
+	law = religion_toleration_1
+	government = bureaucratic_government_tolerant
 }

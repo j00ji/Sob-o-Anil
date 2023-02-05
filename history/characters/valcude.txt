@@ -382,6 +382,7 @@
 	
 	2330.1.1 = {
 		birth = yes
+		culture = valcude
 	}
 	2400.1.1 = {
 		death = yes

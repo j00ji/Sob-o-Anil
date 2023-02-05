@@ -569,6 +569,7 @@ temple_count_female_farrapo;Milongueira;;;;;;;;;;;;;x
 temple_duke_farrapo;Grão-Milongueiro;;;;;;;;;;;;;x
 temple_duke_female_farrapo;Grã-Milongueira;;;;;;;;;;;;;x
 job_spymaster_carioca;Xisnove;;;;;;;;;;;;;x
+
 ###Traits;;;;;;;;;;;;;;
 caste_fixed;Fixed Mode;;;;;;;;;;;;;x
 caste_fixed_desc;This character was born under a sign of Fixed Mode, and is expected to hold firm the beliefs and teachings of masters of old, and stand for the true faith in a spiritual role.;;;;;;;;;;;;;x
@@ -592,6 +593,7 @@ adept_astronomer;Adept Astronomer;;;;;;;;;;;;;x
 adept_astronomer_desc;This character in an adept in perfoming star-reading and prophesying, and is well respected amongt followers of the Camino Estelar.\n§GThis will grant better modifiers while fulfilling prophecies§!;;;;;;;;;;;;;x
 initiate_astronomer;Initiate Astronomer;;;;;;;;;;;;;x
 initiate_astronomer_desc;This character in a master in perfoming star-reading and prophesying, and is well respected amongt followers of the Camino Estelar.\n§GThis will grant better modifiers while fulfilling prophecies§!;;;;;;;;;;;;;x
+
 ###DECISIONS ;;;;;;;;;;;;;;x
 change_evangelical_church;Change Evangelical Denomination;;;;;;;;;;;;;x
 change_evangelical_church_desc;Choosing a denomination to belong to is a crucial part of our religion, I may change mine if I find it necessary.;;;;;;;;;;;;;x

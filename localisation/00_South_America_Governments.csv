@@ -7,3 +7,13 @@ succ_bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x;
 succ_bureaucratic_elective;Reminiscent of the democracies of old, Bureaucratic governments decide their leader through election amongst themselves, where administrative skills are seen as the most valuable ones. Only fellow members of the bureaucracy are allowed as candidates, but the vote of council members and direct subordinates is also taken into account..;;;;;;;;;;;;;x;
 bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x;
 gov_elec_bureaucratic;Bureaucratic Elective;;;;;;;;;;;;;x;
+
+##Laws
+religion_tolerance;Religious Tolerance;;;;;;;;;;;;;x;
+religion_tolerance_desc;Laws that suggest wether or not the state religion is to be enforced upon all vassals.;;;;;;;;;;;;;x;
+religion_toleration_0;Religious Enforcement;;;;;;;;;;;;;x;
+religion_toleration_0_option;Enforced;;;;;;;;;;;;;x;
+religion_toleration_0_desc;The State Religion is enforced, rulers have the right to demand conversion of their vassals and relation between different faiths is strained.;;;;;;;;;;;;;x;
+religion_toleration_1;Freedom of Religion;;;;;;;;;;;;;x;
+religion_toleration_1_option;Secular;;;;;;;;;;;;;x;
+religion_toleration_1_desc;Rulers can't demand the conversion of their vassals, and interfaith relations are better.;;;;;;;;;;;;;x;
