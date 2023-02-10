@@ -13,26 +13,40 @@ laws = {
 				OR = {
 					government = bureaucratic_government
 					government = bureaucratic_government_tolerant
+					government = military_government
+					government = military_government_tolerant
 				}
 			}
-			NOT = {
-				liege = {
-					OR = {
-						government = bureaucratic_government
-						government = bureaucratic_government_tolerant
-					}
-				}
-			}
+			#NOT = {
+			#	liege = {
+			#		OR = {
+			#			government = bureaucratic_government
+			#			government = bureaucratic_government_tolerant
+			#			government = military_government
+			#			government = military_government_tolerant
+			#		}
+			#	}
+			#}
 		}
 		allow = {
 			has_law = religion_toleration_1
+			holder_scope = { independent = yes}
 		}
 		effect = {
 			revoke_law = religion_toleration_1
 		}
 		pass_effect = {
-			holder_scope = {
-				set_government_type = bureaucratic_government #reverts to base bureaucratic_government
+			if = {
+				limit = { holder_scope = { government = bureaucratic_government_tolerant } }
+				holder_scope = {
+					set_government_type = bureaucratic_government #reverts to base bureaucratic_government
+				}
+			}
+			if = {
+				limit = { holder_scope = { government = military_government_tolerant } }
+				holder_scope = {
+					set_government_type = military_government #reverts to base military_government
+				}
 			}
 		}
 		revoke_allowed = {
@@ -47,26 +61,40 @@ laws = {
 				OR = {
 					government = bureaucratic_government
 					government = bureaucratic_government_tolerant
+					government = military_government
+					government = military_government_tolerant
 				}
 			}
-			NOT = {
-				liege = {
-					OR = {
-						government = bureaucratic_government
-						government = bureaucratic_government_tolerant
-					}
-				}
-			}
+			#NOT = {
+			#	liege = {
+			#		OR = {
+			#			government = bureaucratic_government
+			#			government = bureaucratic_government_tolerant
+			#			government = military_government
+			#			government = military_government_tolerant
+			#		}
+			#	}
+			#}
 		}
 		allow = {
 			has_law = religion_toleration_0
+			holder_scope = { independent = yes }
 		}
 		effect = {
 			revoke_law = religion_toleration_0
 		}
 		pass_effect = {
-			holder_scope = {
-				set_government_type = bureaucratic_government_tolerant #government changes to tolerant one
+			if = {
+				limit = { holder_scope = { government = bureaucratic_government } }
+				holder_scope = {
+					set_government_type = bureaucratic_government_tolerant #changes to tolerant government
+				}
+			}
+			if = {
+				limit = { holder_scope = { government = military_government } }
+				holder_scope = {
+					set_government_type = military_government_tolerant #changes to tolerant government
+				}
 			}
 		}
 		revoke_allowed = {

@@ -1,12 +1,37 @@
 ###ÄNSI;;;;;;;;;;;;;;
 bureaucratic_government;Bureaucratic;;;;;;;;;;;;;x;
-bureaucratic_government_desc;Bureaucracy is a form of government reminiscent of the Old World, that enshrines the values of meritocracy above all else. It's rulers are expected to take the ENEM exams, a way to prove their merit as rulers. Failure in the face of the test, or refusal to take it in the first place would cause rightful uproar amongst the ruling classes. Rulers are allowed to reorganize their realm, revoking Prefectural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law.;;;;;;;;;;;;;x;
+bureaucratic_government_desc;Bureaucracy is a form of government reminiscent of the Old World, that enshrines the values of meritocracy above all else. It's rulers are expected to take the ENEM exams, a way to prove their merit as rulers. Failure in the face of the test, or refusal to take it in the first place would cause rightful uproar amongst the ruling classes. Rulers are allowed to reorganize their realm, revoking Governorural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law.;;;;;;;;;;;;;x;
 bureaucratic_government_tolerant;Bureaucratic but Tolerant;;;;;;;;;;;;;x;
-bureaucratic_government_tolerant_desc;Bureaucracy is a form of government reminiscent of the Old World, that enshrines the values of meritocracy above all else. It's rulers are expected to take the ENEM exams, a way to prove their merit as rulers. Failure in the face of the test, or refusal to take it in the first place would cause rightful uproar amongst the ruling classes. Rulers are allowed to reorganize their realm, revoking Prefectural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law.;;;;;;;;;;;;;x;
+bureaucratic_government_tolerant_desc;Bureaucracy is a form of government reminiscent of the Old World, that enshrines the values of meritocracy above all else. It's rulers are expected to take the ENEM exams, a way to prove their merit as rulers. Failure in the face of the test, or refusal to take it in the first place would cause rightful uproar amongst the ruling classes. Rulers are allowed to reorganize their realm, revoking Governorural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law.;;;;;;;;;;;;;x;
 succ_bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x;
 succ_bureaucratic_elective;Reminiscent of the democracies of old, Bureaucratic governments decide their leader through election amongst themselves, where administrative skills are seen as the most valuable ones. Only fellow members of the bureaucracy are allowed as candidates, but the vote of council members and direct subordinates is also taken into account..;;;;;;;;;;;;;x;
 bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x;
 gov_elec_bureaucratic;Bureaucratic Elective;;;;;;;;;;;;;x;
+
+military_government;Junta;;;;;;;;;;;;;x;
+military_government_desc;;;;;;;;;;;;;;x;
+military_government_tolerant;Junta but Tolerant;;;;;;;;;;;;;x;
+military_government_tolerant_desc;;;;;;;;;;;;;;x;
+
+##Titles
+bureaucracy_job_marshal;Colonel;;;;;;;;;;;;;x
+
+bureaucracy_baron;Magistrate;;;;;;;;;;;;;x
+bureaucracy_baron_female;Magistrate;;;;;;;;;;;;;x
+bureaucracy_barony_of;Freguesia of;;;;;;;;;;;;;x
+bureaucracy_barony;Freguesia;;;;;;;;;;;;;x
+bureaucracy_count;Mayor;;;;;;;;;;;;;x
+bureaucracy_count_female;Mayor;;;;;;;;;;;;;x
+bureaucracy_county_of;Municipality of;;;;;;;;;;;;;x
+bureaucracy_county;Municipality;;;;;;;;;;;;;x
+bureaucracy_duke;Governor;;;;;;;;;;;;;x
+bureaucracy_duke_female;Governor;;;;;;;;;;;;;x
+bureaucracy_duchy_of;Governo of;;;;;;;;;;;;;x
+bureaucracy_duchy;Governo;;;;;;;;;;;;;x
+bureaucracy_king;King;;;;;;;;;;;;;x
+bureaucracy_king_female;Queen;;;;;;;;;;;;;x
+bureaucracy_kingdom_of_female;Kingdom of;;;;;;;;;;;;;x
+bureaucracy_kingdom_female;Kingdom;;;;;;;;;;;;;x
 
 ##Laws
 religion_tolerance;Religious Tolerance;;;;;;;;;;;;;x;
@@ -17,3 +42,14 @@ religion_toleration_0_desc;The State Religion is enforced, rulers have the right
 religion_toleration_1;Freedom of Religion;;;;;;;;;;;;;x;
 religion_toleration_1_option;Secular;;;;;;;;;;;;;x;
 religion_toleration_1_desc;Rulers can't demand the conversion of their vassals, and interfaith relations are better.;;;;;;;;;;;;;x;
+
+##Voting Strenght tooltips
+tooltip_imperial_vote_strength_chaplain_stewardship;[Root.GetFirstName] is a wise §YBureaucrat§!;;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_stewardship;[From.GetFirstName] is a brilliant §YBureaucrat§!;;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_councilor_learning;[From.GetFirstName] is a brilliant §YBureaucrat§!;;;;;;;;;;;;;x
+tooltip_bureaucratic_not_evaluated;[Root.GetFirstName] has not been evaluated in the National Exam!;;;;;;;;;;;;;x
+tooltip_bureaucratic_failed_exam;[Root.GetFirstName] has failed the National Exam!;;;;;;;;;;;;;x
+tooltip_bureaucratic_nat_exam;[Root.GetFirstName] has passed the National Exam.;;;;;;;;;;;;;x
+
+##minor titles
+title_evaluator_of_merit;Evaluator of Merit;;;;;;;;;;;;;x;

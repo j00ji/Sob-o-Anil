@@ -3,3 +3,7 @@ ruled_a_bureaucracy = {
 	hidden = yes
 	random = no
 }
+ruled_a_junta = {
+	hidden = yes
+	random = no
+}

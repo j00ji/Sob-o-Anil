@@ -191,7 +191,7 @@ k_costa_sol_generalship = {
 	color = { 232 158 31 }
 	color2 = { 158 105 22 }
 	
-	capital = 8 #Buzios
+	capital = 12 #Buzios
 	
 	culture = carioca
 	

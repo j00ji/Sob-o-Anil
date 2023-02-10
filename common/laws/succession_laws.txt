@@ -1477,6 +1477,10 @@ succession_laws = {
 				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
 				higher_tier_than = COUNT
 			}
+			NAND = {
+				holder_scope = { OR = { government = military_government government = military_government_tolerant } }
+				higher_tier_than = COUNT
+			}
 			NOT = { title = k_papal_state }
 			temporary = no
 			OR = {
@@ -1653,6 +1657,29 @@ succession_laws = {
 			succession = {
 				base_type = feudal_elective
 				voting_rules = bureaucratic_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}	
+	}
+	
+	succ_military_elective = {
+		potential = {
+			holder_scope = {
+				OR = {
+					government = military_government
+					government = military_government_tolerant
+				}
+			}
+			higher_tier_than = COUNT
+		}
+		allow = {			
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = military_elective
 			}
 		}
 		revoke_allowed = {

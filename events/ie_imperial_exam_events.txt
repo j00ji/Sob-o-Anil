@@ -6305,9 +6305,9 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			government = bureaucratic_government
+			OR = { government = bureaucratic_government government = bureaucratic_government_tolerant }
 			liege = {
-				government = bureaucratic_government
+				OR = { government = bureaucratic_government government = bureaucratic_government_tolerant }
 			}
 		}
 		NOR = {
@@ -6352,9 +6352,9 @@ character_event = {
 	trigger = {
 		NOR = {
 			liege = {
-				government = bureaucratic_government
+				OR = { government = bureaucratic_government government = bureaucratic_government_tolerant }
 			}
-			government = bureaucratic_government
+			OR = { government = bureaucratic_government government = bureaucratic_government_tolerant }
 		}
 		OR = {
 			trait = not_evaluated

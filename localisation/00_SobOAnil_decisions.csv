@@ -2,6 +2,15 @@
 take_imp_exam;Take National Exam;;;;;;;;;;;;;x
 take_imp_exam_desc;The National Exam — or the Enem — is the most prestigious test for those living under a bureaucratic society. As a [Root.Government.GetName] ruler, it is your right and duty to have yourself certified by a Evaluator of Merit.;;;;;;;;;;;;;x
 
+failed_exam_abdicate;Abdicate as [Root.GetTitle] of [Root.PrimaryTitle.GetName];;;;;;;;;;;;;x
+failed_exam_abdicate_desc;As a [Root.Government.GetName] ruler, failing your National Exam is a major blow to both your prestige and legitimacy. Although you are under no obligation to renounce the throne, it may be what is best for the realm.;;;;;;;;;;;;;x
+
+reschedule_exam;Reschedule National Exam;;;;;;;;;;;;;x
+reschedule_exam_desc;For one reason or another, the evaluators have yet to come back to you. At this point, it's easier to cut your losses and reschedule.;;;;;;;;;;;;;x
+
+claim_realm_exam;Claim Liege Realm;;;;;;;;;;;;;x
+claim_realm_exam_desc;Your liege has done poorly on their Imperial Exam. As a ruler who has passed, you have a right to claim your lord's realm and replace them.;;;;;;;;;;;;;x
+
 #Traits
 not_evaluated;Unevaluated;;;;;;;;;;;;;x
 not_evaluated_desc;This bureaucrat has not been evaluated by an Evaluator of Merit, and is not seen as legitimate by vassals and peers.;;;;;;;;;;;;;x

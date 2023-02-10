@@ -408,6 +408,211 @@ decisions = {
 		}
 	}
 
+	failed_exam_abdicate = {
+		is_high_prio = yes
+		only_rulers = yes
+		ai_check_interval = 24
+		
+		potential = {
+			trait = failed_exam
+			is_landed = yes
+		}
+		allow = {
+			prisoner = no
+			NOT = { is_inaccessible_trigger = yes }
+			war = no
+			in_command = no
+		}
+		effect = {
+			abdicate = yes 
+			any_realm_lord = {
+				limit = {
+					is_landed = yes
+				}
+				character_event = { id = IE.22 }
+			}
+		}
+		revoke_allowed = { always = no }
+		ai_will_do = {
+			factor = 0.2
+			modifier = {
+				factor = 1.5
+				trait = humble
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = stubborn
+					trait = ambitious
+				}
+			}
+		}
+	}
+	
+	reschedule_exam = {
+		is_high_prio = yes
+		only_rulers = yes
+		ai_check_interval = 2
+		
+		potential = {
+			custom_tooltip = {
+				text = application_tm_TT
+				hidden_tooltip = {
+					had_character_flag = { flag = ie_applied days = 60 }
+				}
+			}
+		}
+		allow = {
+			prisoner = no
+			NOT = { is_inaccessible_trigger = yes }
+			war = no
+			in_command = no
+		}
+		effect = {
+			hidden_tooltip = {
+				set_variable = { which = "test_score" value = 0 }
+			}
+			clr_character_flag = study_hard
+			clr_character_flag = study_well
+			clr_character_flag = study_math
+			clr_character_flag = study_la
+			clr_character_flag = study_sc
+			clr_character_flag = study_hi
+			clr_character_flag = ie_applied
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	claim_realm_exam = {
+		is_high_prio = yes
+		only_rulers = yes
+		ai_check_interval = 12
+		
+		potential = {
+			#NOT = {
+			#	has_strong_claim = dejure_liege_title #?????? THIS ISN'T CODE
+			#}
+			NOT = {
+				has_character_flag = claim_realm_ex
+			}
+			NOT = {
+				trait = failed_exam
+			}
+			OR = {
+				AND = {
+					liege = {
+						trait = failed_exam
+					}
+					OR = {
+						trait = imp_ex1
+						trait = imp_ex2
+						trait = imp_ex3
+						#trait = imp_ex4
+					}
+				}
+				AND = {
+					liege = {
+						OR = {
+							trait = failed_exam
+							trait = imp_ex1
+						}
+					}
+					OR = {
+						trait = imp_ex2
+						trait = imp_ex3
+						#trait = imp_ex4
+					}
+				}
+			}
+			OR = {
+				liege = {
+					NOT = {
+						has_landed_title = e_california
+					}
+				}
+				AND = {
+					liege = {
+						has_landed_title = e_california
+					}
+					religion = cetic
+				}
+			}
+			government = bureaucratic_government
+			age = 16
+		}
+		allow = {
+			liege = {
+				war = no
+			}
+			prisoner = no
+			NOT = { is_inaccessible_trigger = yes }
+			war = no
+			in_command = no
+		}
+		effect = {
+			opinion = {
+				modifier = claimant_vs_holder
+				who = liege
+			}
+			reverse_opinion = {
+				modifier = opinion_claimed_my_title
+				who = liege
+			}
+			dejure_liege_title = {
+				add_claim = ROOT
+			}
+			set_character_flag = claim_realm_ex
+		}
+		ai_will_do = {
+			factor = 0.3
+			modifier = {
+				factor = 100
+				ROOT = { is_rival = liege }
+			}
+			modifier = {
+				factor = 0
+				trait = content
+			}
+			modifier = {
+				factor = 1.5
+				trait = ambitious
+			}
+			modifier = {
+				factor = 1.8
+				ROOT = { reverse_opinion = { who = liege value <= -80 } } 
+			}
+			modifier = {
+				factor = 1.6
+				 ROOT = { reverse_opinion = { who = liege value <= -60 } } 
+			}
+			modifier = {
+				factor = 1.4
+				 ROOT = { reverse_opinion = { who = liege value <= -40 } }
+			}
+			modifier = {
+				factor = 1.2
+				 ROOT = { reverse_opinion = { who = liege value <= -20 } }
+			}
+			modifier = {
+				factor = 0.8
+				ROOT = { reverse_opinion = { who = liege value = 20 } }
+			}
+			modifier = {
+				factor = 0.6
+				ROOT = { reverse_opinion = { who = liege value = 40 } }
+			}
+			modifier = {
+				factor = 0.4
+				ROOT = { reverse_opinion = { who = liege value = 60 } }
+			}
+			modifier = {
+				factor = 0.2
+				ROOT = { reverse_opinion = { who = liege value = 80 } }
+			}
+		}
+	}
 }
 
 targeted_decisions = {

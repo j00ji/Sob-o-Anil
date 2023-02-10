@@ -1242,6 +1242,14 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\government_icon_bureaucratic.dds"
 	}
 	spriteType = {
+		name = "GFX_icon_military_government"
+		texturefile = "gfx\\interface\\government_icon_military_governorate.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_military_government_tolerant"
+		texturefile = "gfx\\interface\\government_icon_military_governorate.dds"
+	}
+	spriteType = {
 		name = "GFX_checkmark"
 		texturefile = "gfx\\interface\\checkmark.dds"
 	}

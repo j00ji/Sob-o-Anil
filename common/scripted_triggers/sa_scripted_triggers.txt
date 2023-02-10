@@ -216,3 +216,12 @@ bureaucratic_title_trigger={
 		##SP VASSALS##
 	}
 }
+
+military_title_trigger={
+	OR = {
+		title = k_costa_verde_generalship
+		title = k_goytacazes_generalship
+		title = k_costa_sol_generalship
+		title = d_costal_sol
+	}
+}

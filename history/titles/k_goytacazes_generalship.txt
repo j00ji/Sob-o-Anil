@@ -1,5 +1,11 @@
-2352.4.9 = {
-	law = succ_open_elective
+500.1.1={
 	law = cognatic_succession
+	law = succ_gavelkind
+}
+2352.4.9 = {
+	law = religion_toleration_1
+	law = succ_military_elective
+	law = cognatic_succession
+	government = military_government_tolerant
 	holder = 50001
 }

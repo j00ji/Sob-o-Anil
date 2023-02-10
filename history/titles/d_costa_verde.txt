@@ -10,5 +10,9 @@
 	holder = 80001
 }
 2352.4.9 = {
-	holder = 0
+	law = religion_toleration_0
+	law = succ_military_elective
+	law = cognatic_succession
+	government = military_government
+	holder = 70019
 }
