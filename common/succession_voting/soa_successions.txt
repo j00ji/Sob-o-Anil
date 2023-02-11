@@ -1870,8 +1870,19 @@ military_elective = {
 
     # ROOT is the elector, FROMFROM is the title.
     elector_vote_strength = {  # Determine how many votes electors get.
-
         days = 5               # This has nothing to do with days. This is the number of votes the elector gets.
+		additive_modifier = { #The ruler's word is worth more than anybody else's by far.
+			value = 50
+			localisation_key = tooltip_imperial_vote_strength_emperor_influence
+			FROMFROM = { 
+				holder_scope = { character = ROOT }
+			}
+		}
+		additive_modifier = { #Children are not leaders.
+			value = -40
+			localisation_key = tooltip_imperial_vote_strength_emperor_child
+			NOT = { is_adult = yes }
+		}
 		#The Electors: General modifiers.
 		additive_modifier = { #Prestigious people hold more sway.
 			value = 5

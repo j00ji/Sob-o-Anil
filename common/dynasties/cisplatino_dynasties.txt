@@ -56,6 +56,414 @@
 	can_appear=no
 	used_for_random=no
 }
+
+####################
+##Random dynasties
+##Based on Paraná's senators
+##source: wikipedia
+##range: 85500+
+####################
+85500={
+	name="Dias"
+	culture=paranaense
+}
+85501={
+	name="Camargo"
+	culture=paranaense
+}
+85502={
+	name="Richa"
+	culture=paranaense
+}
+85503={
+	name="Requião"
+	culture=paranaense
+}
+85504={
+	name="Arns"
+	culture=paranaense
+}
+85505={
+	name="Guimarães"
+	culture=paranaense
+}
+85506={
+	name="Glasser"
+	culture=paranaense
+}
+85507={
+	name="Santos"
+	culture=paranaense
+}
+85508={
+	name="Mader"
+	culture=paranaense
+}
+85509={
+	name="Lupion"
+	culture=paranaense
+}
+85510={
+	name="Naves"
+	culture=paranaense
+}
+85511={
+	name="Franco"
+	culture=paranaense
+}
+85512={
+	name="Silva"
+	culture=paranaense
+}
+85513={
+	name="Braga"
+	culture=paranaense
+}
+85514={
+	name="Filho"
+	culture=paranaense
+}
+85515={
+	name="Chaves"
+	culture=paranaense
+}
+85516={
+	name="Hoffmann"
+	culture=paranaense
+}
+85517={
+	name="Moro"
+	culture=paranaense
+}
+85518={
+	name="Ueno"
+	culture=paranaense
+}
+85519={
+	name="Hauly"
+	culture=paranaense
+}
+85520={
+	name="Sperafico"
+	culture=paranaense
+}
+85521={
+	name="Parcianello"
+	culture=paranaense
+}
+85522={
+	name="Barros"
+	culture=paranaense
+}
+85523={
+	name="Stephanes"
+	culture=paranaense
+}
+85524={
+	name="Rosenmann"
+	culture=paranaense
+}
+85525={
+	name="Giacobo"
+	culture=paranaense
+}
+85526={
+	name="Meurer"
+	culture=paranaense
+}
+85527={
+	name="Macedo"
+	culture=paranaense
+}
+85528={
+	name="Bueno"
+	culture=paranaense
+}
+85529={
+	name="Canziani"
+	culture=paranaense
+}
+85530={
+	name="Serraglio"
+	culture=paranaense
+}
+85531={
+	name="Gama"
+	culture=paranaense
+}
+85532={
+	name="de Carvalho"
+	culture=paranaense
+}
+85533={
+	name="Conti"
+	culture=paranaense
+}
+85534={
+	name="Gabardo"
+	culture=paranaense
+}
+85535={
+	name="Martinez"
+	culture=paranaense
+}
+85536={
+	name="Johnsson"
+	culture=paranaense
+}
+85537={
+	name="Villani"
+	culture=paranaense
+}
+85538={
+	name="Balbinotti"
+	culture=paranaense
+}
+85539={
+	name="Fier"
+	culture=paranaense
+}
+85540={
+	name="Fruet"
+	culture=paranaense
+}
+85541={
+	name="Micheletto"
+	culture=paranaense
+}
+85542={
+	name="do Couto"
+	culture=paranaense
+}
+85543={
+	name="Takayama"
+	culture=paranaense
+}
+85544={
+	name="Alex"
+	culture=paranaense
+}
+85545={
+	name="Dirceu"
+	culture=paranaense
+}
+85546={
+	name="Baby"
+	culture=paranaense
+}
+85547={
+	name="Filho"
+	culture=paranaense
+}
+85548={
+	name="Gomes"
+	culture=paranaense
+}
+85549={
+	name="Miyamoto"
+	culture=paranaense
+}
+85550={
+	name="Seleme"
+	culture=paranaense
+}
+85551={
+	name="Rodrigues"
+	culture=paranaense
+}
+85552={
+	name="Busato"
+	culture=paranaense
+}
+85553={
+	name="Furtado"
+	culture=paranaense
+}
+85554={
+	name="Macedo"
+	culture=paranaense
+}
+85555={
+	name="Marques"
+	culture=paranaense
+}
+85556={
+	name="Filho"
+	culture=paranaense
+}
+85557={
+	name="da Silveira"
+	culture=paranaense
+}
+85558={
+	name="Scalco"
+	culture=paranaense
+}
+85559={
+	name="Duque"
+	culture=paranaense
+}
+85560={
+	name="Guerra"
+	culture=paranaense
+}
+85561={
+	name="Arns"
+	culture=paranaense
+}
+85562={
+	name="Pizzato"
+	culture=paranaense
+}
+85563={
+	name="Bernardo"
+	culture=paranaense
+}
+85564={
+	name="Wanderer"
+	culture=paranaense
+}
+85565={
+	name="Janene"
+	culture=paranaense
+}
+85566={
+	name="Beckert"
+	culture=paranaense
+}
+85567={
+	name="Silvestri"
+	culture=paranaense
+}
+85568={
+	name="Sciarra"
+	culture=paranaense
+}
+85569={
+	name="Kaefer"
+	culture=paranaense
+}
+85570={
+	name="Verri"
+	culture=paranaense
+}
+85571={
+	name="dal Ponte"
+	culture=paranaense
+}
+85572={
+	name="Ducci"
+	culture=paranaense
+}
+85573={
+	name="Nishimori"
+	culture=paranaense
+}
+85574={
+	name="Souza"
+	culture=paranaense
+}
+85575={
+	name="Wandscheer"
+	culture=paranaense
+}
+85576={
+	name="Athayde"
+	culture=paranaense
+}
+85577={
+	name="da Rocha"
+	culture=paranaense
+}
+85578={
+	name="Roguski"
+	culture=paranaense
+}
+85579={
+	name="Buffara"
+	culture=paranaense
+}
+85580={
+	name="Fernal"
+	culture=paranaense
+}
+85581={
+	name="Rezende"
+	culture=paranaense
+}
+85582={
+	name="Annibelli"
+	culture=paranaense
+}
+85583={
+	name="Curi"
+	culture=paranaense
+}
+85584={
+	name="Bertoli"
+	culture=paranaense
+}
+85585={
+	name="Celidônio"
+	culture=paranaense
+}
+85586={
+	name="Costa"
+	culture=paranaense
+}
+85587={
+	name="Leprevost"
+	culture=paranaense
+}
+85588={
+	name="Valente"
+	culture=paranaense
+}
+85589={
+	name="Losso"
+	culture=paranaense
+}
+85590={
+	name="Geara"
+	culture=paranaense
+}
+85591={
+	name="Mazurek"
+	culture=paranaense
+}
+85592={
+	name="Kfurri"
+	culture=paranaense
+}
+85593={
+	name="Furtado"
+	culture=paranaense
+}
+85594={
+	name="Iensen"
+	culture=paranaense
+}
+85595={
+	name="Zacharow"
+	culture=paranaense
+}
+85596={
+	name="Fahur"
+	culture=paranaense
+}
+85597={
+	name="Gaertner"
+	culture=paranaense
+}
+85598={
+	name="Mader"
+	culture=paranaense
+}
+85599={
+	name="Lupião"
+	culture=paranaense
+}
+
 90001=
 {
 	name="Madruga"
@@ -177,6 +585,413 @@
 	can_appear = no
 	used_for_random = no
 }
+####################
+##Random dynasties
+##Based on Santa Catrina's senators
+##source: wikipedia
+##range: 90500+
+####################
+90500={
+	name="Aquino"
+	culture=greenbelly
+}
+90501={
+	name="Konder"
+	culture=greenbelly
+}
+90502={
+	name="Bornhausen"
+	culture=greenbelly
+}
+90503={
+	name="Gallotti"
+	culture=greenbelly
+}
+90504={
+	name="Correia"
+	culture=greenbelly
+}
+90505={
+	name="de Oliveira"
+	culture=greenbelly
+}
+90506={
+	name="Fontana"
+	culture=greenbelly
+}
+90507={
+	name="Barreto"
+	culture=greenbelly
+}
+90508={
+	name="Carneiro"
+	culture=greenbelly
+}
+90509={
+	name="Wedekin"
+	culture=greenbelly
+}
+90510={
+	name="Maldaner"
+	culture=greenbelly
+}
+90511={
+	name="Kleinübing"
+	culture=greenbelly
+}
+90512={
+	name="Salvatti"
+	culture=greenbelly
+}
+90513={
+	name="Pavan"
+	culture=greenbelly
+}
+90514={
+	name="Colombo"
+	culture=greenbelly
+}
+90515={
+	name="da Silveira"
+	culture=greenbelly
+}
+90516={
+	name="Bauer"
+	culture=greenbelly
+}
+90517={
+	name="Berger"
+	culture=greenbelly
+}
+90518={
+	name="Mello"
+	culture=greenbelly
+}
+90519={
+	name="Seif"
+	culture=greenbelly
+}
+90520={
+	name="Ghisi"
+	culture=greenbelly
+}
+90521={
+	name="Bez"
+	culture=greenbelly
+}
+90522={
+	name="Pizzolatti"
+	culture=greenbelly
+}
+90523={
+	name="Zeni"
+	culture=greenbelly
+}
+90524={
+	name="Luca"
+	culture=greenbelly
+}
+90525={
+	name="Viana"
+	culture=greenbelly
+}
+90526={
+	name="Choinacki"
+	culture=greenbelly
+}
+90527={
+	name="Matos"
+	culture=greenbelly
+}
+90528={
+	name="Maldaner"
+	culture=greenbelly
+}
+90529={
+	name="Uczai"
+	culture=greenbelly
+}
+90530={
+	name="Wanderley"
+	culture=greenbelly
+}
+90531={
+	name="Loyola"
+	culture=greenbelly
+}
+90532={
+	name="Macarini"
+	culture=greenbelly
+}
+90533={
+	name="Libardoni"
+	culture=greenbelly
+}
+90534={
+	name="Linhares"
+	culture=greenbelly
+}
+90535={
+	name="Colin"
+	culture=greenbelly
+}
+90536={
+	name="Werner"
+	culture=greenbelly
+}
+90537={
+	name="Morro"
+	culture=greenbelly
+}
+90538={
+	name="Biehl"
+	culture=greenbelly
+}
+90539={
+	name="Merss"
+	culture=greenbelly
+}
+90540={
+	name="Agustini"
+	culture=greenbelly
+}
+90541={
+	name="Micheletto"
+	culture=greenbelly
+}
+90542={
+	name="Boeira"
+	culture=greenbelly
+}
+90543={
+	name="Mendonça"
+	culture=greenbelly
+}
+90544={
+	name="Zanotto"
+	culture=greenbelly
+}
+90545={
+	name="Lacerda"
+	culture=greenbelly
+}
+90546={
+	name="Leal"
+	culture=greenbelly
+}
+90547={
+	name="Rupp"
+	culture=greenbelly
+}
+90548={
+	name="Fontana"
+	culture=greenbelly
+}
+90549={
+	name="Adaime"
+	culture=greenbelly
+}
+90550={
+	name="Andrade"
+	culture=greenbelly
+}
+90551={
+	name="Cunha"
+	culture=greenbelly
+}
+90552={
+	name="Régis"
+	culture=greenbelly
+}
+90553={
+	name="Cherem"
+	culture=greenbelly
+}
+90554={
+	name="Dallanhol"
+	culture=greenbelly
+}
+90555={
+	name="Córdova"
+	culture=greenbelly
+}
+90556={
+	name="Vanderlinde"
+	culture=greenbelly
+}
+90557={
+	name="Pilotto"
+	culture=greenbelly
+}
+90558={
+	name="Conto"
+	culture=greenbelly
+}
+90559={
+	name="Andrino"
+	culture=greenbelly
+}
+90560={
+	name="Venzon"
+	culture=greenbelly
+}
+90561={
+	name="Ticoski"
+	culture=greenbelly
+}
+90562={
+	name="Vignatti"
+	culture=greenbelly
+}
+90563={
+	name="Zonta"
+	culture=greenbelly
+}
+90564={
+	name="Colatto"
+	culture=greenbelly
+}
+90565={
+	name="Tebaldi"
+	culture=greenbelly
+}
+90566={
+	name="Benedet"
+	culture=greenbelly
+}
+90567={
+	name="de Sá"
+	culture=greenbelly
+}
+90568={
+	name="Chiodini"
+	culture=greenbelly
+}
+90569={
+	name="de Toni"
+	culture=greenbelly
+}
+90570={
+	name="Schiochet"
+	culture=greenbelly
+}
+90571={
+	name="Guidi"
+	culture=greenbelly
+}
+90572={
+	name="Jordan"
+	culture=greenbelly
+}
+90573={
+	name="Brasil"
+	culture=greenbelly
+}
+90574={
+	name="Deeke"
+	culture=greenbelly
+}
+90575={
+	name="Catão"
+	culture=greenbelly
+}
+90576={
+	name="Bertoli"
+	culture=greenbelly
+}
+90577={
+	name="Zimmermann"
+	culture=greenbelly
+}
+90578={
+	name="Vieira"
+	culture=greenbelly
+}
+90579={
+	name="Lins"
+	culture=greenbelly
+}
+90580={
+	name="Doutel"
+	culture=greenbelly
+}
+90581={
+	name="Massignan"
+	culture=greenbelly
+}
+90582={
+	name="Grillo"
+	culture=greenbelly
+}
+90583={
+	name="Schmitt"
+	culture=greenbelly
+}
+90584={
+	name="Cechinel"
+	culture=greenbelly
+}
+90585={
+	name="Bittencourt"
+	culture=greenbelly
+}
+90586={
+	name="Wedekin"
+	culture=greenbelly
+}
+90587={
+	name="Puzyna"
+	culture=greenbelly
+}
+90588={
+	name="Kleinübing"
+	culture=greenbelly
+}
+90589={
+	name="Dalpasquale"
+	culture=greenbelly
+}
+90590={
+	name="Gaidzinski"
+	culture=greenbelly
+}
+90591={
+	name="Knop"
+	culture=greenbelly
+}
+90592={
+	name="Furlan"
+	culture=greenbelly
+}
+90593={
+	name="Fritsch"
+	culture=greenbelly
+}
+90594={
+	name="Cavallazzi"
+	culture=greenbelly
+}
+90595={
+	name="Voltolini"
+	culture=greenbelly
+}
+90596={
+	name="Kleinübing"
+	culture=greenbelly
+}
+90597={
+	name="Reinehr"
+	culture=greenbelly
+}
+90598={
+	name="Goetten"
+	culture=greenbelly
+}
+90599={
+	name="Zanatta"
+	culture=greenbelly
+}
+
 95001=
 {
 	name="Menna Barreto"
@@ -804,6 +1619,253 @@
 	can_appear = no
 	used_for_random = no	
 }
+####################
+##Random dynasties
+##Based on the list of Brazilians of German ancestry
+##source: wikipedia
+##range: 100500+
+####################
+100500={
+	name="Fischer"
+	culture=hunsruckisch
+}
+100501={
+	name="Schenberg"
+	culture=hunsruckisch
+}
+100502={
+	name="Hickmann"
+	culture=hunsruckisch
+}
+100503={
+	name="Weber"
+	culture=hunsruckisch
+}
+100504={
+	name="Becker"
+	culture=hunsruckisch
+}
+100505={
+	name="Koseritz"
+	culture=hunsruckisch
+}
+100506={
+	name="Arns"
+	culture=hunsruckisch
+}
+100507={
+	name="Kuerten"
+	culture=hunsruckisch
+}
+100508={
+	name="Luft"
+	culture=hunsruckisch
+}
+100509={
+	name="Renner"
+	culture=hunsruckisch
+}
+100510={
+	name="Rausch"
+	culture=hunsruckisch
+}
+100511={
+	name="Kretzer"
+	culture=hunsruckisch
+}
+100512={
+	name="Woellner"
+	culture=hunsruckisch
+}
+100513={
+	name="Bier"
+	culture=hunsruckisch
+}
+100514={
+	name="Warken"
+	culture=hunsruckisch
+}
+100515={
+	name="Gifwning"
+	culture=hunsruckisch
+}
+100516={
+	name="Niehues"
+	culture=hunsruckisch
+}
+100517={
+	name="Leiner"
+	culture=hunsruckisch
+}
+100518={
+	name="Ruschel"
+	culture=hunsruckisch
+}
+100519={
+	name="Hoffmann"
+	culture=hunsruckisch
+}
+100520={
+	name="Kuhlmann"
+	culture=hunsruckisch
+}
+100521={
+	name="Bins"
+	culture=hunsruckisch
+}
+100522={
+	name="Henschel"
+	culture=hunsruckisch
+}
+100523={
+	name="Albrecht"
+	culture=hunsruckisch
+}
+100524={
+	name="Klautau"
+	culture=hunsruckisch
+}
+100525={
+	name="Rosskamp"
+	culture=hunsruckisch
+}
+100526={
+	name="Schlee"
+	culture=hunsruckisch
+}
+100527={
+	name="Flemming"
+	culture=hunsruckisch
+}
+100528={
+	name="Lenz"
+	culture=hunsruckisch
+}
+100529={
+	name="Kellner"
+	culture=hunsruckisch
+}
+100530={
+	name="Schönburg"
+	culture=hunsruckisch
+}
+100531={
+	name="Fier"
+	culture=hunsruckisch
+}
+100532={
+	name="Adloff"
+	culture=hunsruckisch
+}
+100533={
+	name="Schürig"
+	culture=hunsruckisch
+}
+100534={
+	name="Wegmann"
+	culture=hunsruckisch
+}
+100535={
+	name="Kruel"
+	culture=hunsruckisch
+}
+100536={
+	name="Hartmann"
+	culture=hunsruckisch
+}
+100537={
+	name="Hickmann"
+	culture=hunsruckisch
+}
+100538={
+	name="Müller"
+	culture=hunsruckisch
+}
+100539={
+	name="Horst"
+	culture=hunsruckisch
+}
+100540={
+	name="Harley"
+	culture=hunsruckisch
+}
+100541={
+	name="Lottermann"
+	culture=hunsruckisch
+}
+100542={
+	name="Hohlfeldt"
+	culture=hunsruckisch
+}
+100543={
+	name="Hoonholtz"
+	culture=hunsruckisch
+}
+100544={
+	name="Süssekind"
+	culture=hunsruckisch
+}
+100545={
+	name="Wehling"
+	culture=hunsruckisch
+}
+100546={
+	name="Werner"
+	culture=hunsruckisch
+}
+100547={
+	name="Friedenreich"
+	culture=hunsruckisch
+}
+100548={
+	name="Lundgren"
+	culture=hunsruckisch
+}
+100549={
+	name="Kohl"
+	culture=hunsruckisch
+}
+100550={
+	name="Schlösser"
+	culture=hunsruckisch
+}
+100551={
+	name="Haas"
+	culture=hunsruckisch
+}
+100552={
+	name="Schwantes"
+	culture=hunsruckisch
+}
+100553={
+	name="Meyer"
+	culture=hunsruckisch
+}
+100554={
+	name="Rademaker"
+	culture=hunsruckisch
+}
+100555={
+	name="Stahl"
+	culture=hunsruckisch
+}
+100556={
+	name="Heck"
+	culture=hunsruckisch
+}
+100557={
+	name="Walter"
+	culture=hunsruckisch
+}
+100558={
+	name="Strassburger"
+	culture=hunsruckisch
+}
+100559={
+	name="Klingelhoefer"
+	culture=hunsruckisch
+}
+
 105001=
 {
 	name="Taurus"
@@ -847,6 +1909,165 @@
 		}
 	}
 }
+####################
+##Random dynasties
+##Based on Venetian surnames
+##source: italyheritage.com lol
+##range: 105500+
+####################
+105500={
+	name="Rossi"
+	culture=talian
+}
+105501={
+	name="Boscolo"
+	culture=talian
+}
+105502={
+	name="Carraro"
+	culture=talian
+}
+105503={
+	name="Ferrari"
+	culture=talian
+}
+105504={
+	name="Pavan"
+	culture=talian
+}
+105505={
+	name="Sartori"
+	culture=talian
+}
+105506={
+	name="Trevisan"
+	culture=talian
+}
+105507={
+	name="Vianello"
+	culture=talian
+}
+105508={
+	name="Basso"
+	culture=talian
+}
+105509={
+	name="Bernardi"
+	culture=talian
+}
+105510={
+	name="Costa"
+	culture=talian
+}
+105511={
+	name="Fabris"
+	culture=talian
+}
+105512={
+	name="Favaro"
+	culture=talian
+}
+105513={
+	name="Furlan"
+	culture=talian
+}
+105514={
+	name="Martini"
+	culture=talian
+}
+105515={
+	name="Moro"
+	culture=talian
+}
+105516={
+	name="Visentin"
+	culture=talian
+}
+105517={
+	name="Zanella"
+	culture=talian
+}
+105518={
+	name="Zanetti"
+	culture=talian
+}
+105519={
+	name="Zanon"
+	culture=talian
+}
+105520={
+	name="Marangon"
+	culture=talian
+}
+105521={
+	name="Ballarin"
+	culture=talian
+}
+105522={
+	name="Bordignon"
+	culture=talian
+}
+105523={
+	name="Berton"
+	culture=talian
+}
+105524={
+	name="Lorenzon"
+	culture=talian
+}
+105525={
+	name="Martin"
+	culture=talian
+}
+105526={
+	name="Perin"
+	culture=talian
+}
+105527={
+	name="Baldan"
+	culture=talian
+}
+105528={
+	name="de Pieri"
+	culture=talian
+}
+105529={
+	name="Bonato"
+	culture=talian
+}
+105530={
+	name="Marcato"
+	culture=talian
+}
+105531={
+	name="Simionato"
+	culture=talian
+}
+105532={
+	name="Volpato"
+	culture=talian
+}
+105533={
+	name="Zanon"
+	culture=talian
+}
+105534={
+	name="Zanini"
+	culture=talian
+}
+105535={
+	name="Zampieri"
+	culture=talian
+}
+105536={
+	name="Zanca"
+	culture=talian
+}
+105537={
+	name="Scarpa"
+	culture=talian
+}
+
 110001=
 {
 	name="Swiat-Jajek"
@@ -945,6 +2166,216 @@
 	culture= paranaense
 	can_appear = no
 	used_for_random = no
+}
+####################
+##Random dynasties
+##Based on Brazilian and Uruguayans of Ukraininian descent
+##source: wikipedia
+##range: 110500+
+####################
+110500={
+	name="Terekhov"
+	culture=rutenio
+}
+110501={
+	name="Gelman"
+	culture=rutenio
+}
+110502={
+	name="Fedorczuk"
+	culture=rutenio
+}
+110503={
+	name="Milman"
+	culture=rutenio
+}
+110504={
+	name="Belov"
+	culture=rutenio
+}
+110505={
+	name="Bankoff"
+	culture=rutenio
+}
+110506={
+	name="Popov"
+	culture=rutenio
+}
+110507={
+	name="Ksyvickis"
+	culture=rutenio
+}
+110508={
+	name="Baby"
+	culture=rutenio
+}
+110509={
+	name="Kocubej"
+	culture=rutenio
+}
+110510={
+	name="Bloch"
+	culture=rutenio
+}
+110511={
+	name="Schnaiderman"
+	culture=rutenio
+}
+110512={
+	name="Pinkhasivna"
+	culture=rutenio
+}
+110513={
+	name="Lispector"
+	culture=rutenio
+}
+110514={
+	name="Stival"
+	culture=rutenio
+}
+110515={
+	name="Senek"
+	culture=rutenio
+}
+110516={
+	name="Kozelinski"
+	culture=rutenio
+}
+110517={
+	name="Zeiger"
+	culture=rutenio
+}
+110518={
+	name="Stoklos"
+	culture=rutenio
+}
+110519={
+	name="Krevey"
+	culture=rutenio
+}
+110520={
+	name="Michaelichen"
+	culture=rutenio
+}
+110521={
+	name="Haiut"
+	culture=rutenio
+}
+110522={
+	name="Bondar"
+	culture=rutenio
+}
+110523={
+	name="Babenco"
+	culture=rutenio
+}
+110524={
+	name="Kolody"
+	culture=rutenio
+}
+110525={
+	name="Gorender"
+	culture=rutenio
+}
+110526={
+	name="Ferens"
+	culture=rutenio
+}
+110527={
+	name="Pauliki"
+	culture=rutenio
+}
+110528={
+	name="Mindlin"
+	culture=rutenio
+}
+110529={
+	name="Feffer"
+	culture=rutenio
+}
+110530={
+	name="Basbaum"
+	culture=rutenio
+}
+110531={
+	name="Chor"
+	culture=rutenio
+}
+110532={
+	name="Malamud"
+	culture=rutenio
+}
+110533={
+	name="Kupstas"
+	culture=rutenio
+}
+110534={
+	name="Glad"
+	culture=rutenio
+}
+110535={
+	name="Pauliki"
+	culture=rutenio
+}
+110536={
+	name="Beruski"
+	culture=rutenio
+}
+110537={
+	name="Feffer"
+	culture=rutenio
+}
+110538={
+	name="Melnick"
+	culture=rutenio
+}
+110539={
+	name="Mazur"
+	culture=rutenio
+}
+110540={
+	name="Bakun"
+	culture=rutenio
+}
+110541={
+	name="Sevcenko"
+	culture=rutenio
+}
+110542={
+	name="Nutels"
+	culture=rutenio
+}
+110543={
+	name="Bilynskyj"
+	culture=rutenio
+}
+110544={
+	name="Sevciuc"
+	culture=rutenio
+}
+110545={
+	name="Schaffman"
+	culture=rutenio
+}
+110546={
+	name="Slhessarenko"
+	culture=rutenio
+}
+110547={
+	name="Efremoff"
+	culture=rutenio
+}
+110548={
+	name="Shumyatsky"
+	culture=rutenio
+}
+110549={
+	name="Koubetch"
+	culture=rutenio
+}
+110550={
+	name="Warchavchik"
+	culture=rutenio
 }
 115001 = {
 	name="Durazno"

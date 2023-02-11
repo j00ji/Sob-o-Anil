@@ -14,6 +14,7 @@ military_government_tolerant;Junta but Tolerant;;;;;;;;;;;;;x;
 military_government_tolerant_desc;The Junta is a form of government reminiscent of the Old World, a government that follows the core values of the militaries of old: strenght, hierarchy and meritocracy. Junta vassals particularly disprove of hereditary successions, preferring to choose their leader for his competency rather than for lineage. Rulers are allowed to reorganize their realm, revoking Governorural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law. Conscription camps may also be built on the correct sites.;;;;;;;;;;;;;x;
 succ_military_elective;Military Elective;;;;;;;;;;;;;x;
 succ_military_elective_desc;Rulers and generals are all gathered in order to choose one of themselves as the leader. High martial skill and leadership capabilities are valued above all else.;;;;;;;;;;;;;x;
+military_elective;Junta Elective;;;;;;;;;;;;;x;
 gov_elec_military;Military Junta;;;;;;;;;;;;;x;
 
 ##Titles
@@ -33,8 +34,30 @@ bureaucracy_duchy_of;Governo of;;;;;;;;;;;;;x
 bureaucracy_duchy;Governo;;;;;;;;;;;;;x
 bureaucracy_king;King;;;;;;;;;;;;;x
 bureaucracy_king_female;Queen;;;;;;;;;;;;;x
-bureaucracy_kingdom_of_female;Kingdom of;;;;;;;;;;;;;x
-bureaucracy_kingdom_female;Kingdom;;;;;;;;;;;;;x
+
+military_baron;Lieutenant;;;;;;;;;;;;;x
+military_baron_female;Lieutenant;;;;;;;;;;;;;x
+military_barony_of;Lieutenancy of;;;;;;;;;;;;;x
+military_barony;Lieutenancy;;;;;;;;;;;;;x
+military_count;Captain;;;;;;;;;;;;;x
+military_count_female;Captain;;;;;;;;;;;;;x
+military_county_of;Captaincy of;;;;;;;;;;;;;x
+military_county;Captaincy;;;;;;;;;;;;;x
+military_duke;Colonel;;;;;;;;;;;;;x
+military_duke_female;Colonel;;;;;;;;;;;;;x
+military_duchy_of;Colonelcy of;;;;;;;;;;;;;x
+military_duchy;Colonelcy;;;;;;;;;;;;;x
+military_king;General;;;;;;;;;;;;;x
+military_king_female;General;;;;;;;;;;;;;x
+military_kingdom_of;Generalship of;;;;;;;;;;;;;x
+military_kingdom;Generalship;;;;;;;;;;;;;x
+military_kingdom_of_female;Generalship of;;;;;;;;;;;;;x
+military_kingdom_female;Generalship;;;;;;;;;;;;;x
+military_emperor;Marshal;;;;;;;;;;;;;x
+military_emperor_female;Marshal;;;;;;;;;;;;;x
+military_empire_of;Marshalcy of;;;;;;;;;;;;;x
+military_empire;Marshalcy;;;;;;;;;;;;;x
+
 
 ##Laws
 religion_tolerance;Religious Tolerance;;;;;;;;;;;;;x;
