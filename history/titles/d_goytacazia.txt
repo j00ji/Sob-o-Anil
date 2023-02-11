@@ -13,6 +13,6 @@
 	law = religion_toleration_0
 	law = succ_military_elective
 	law = cognatic_succession
-	government = military_government
+	government = military_government_tolerant
 	holder = 50001
 }

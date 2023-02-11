@@ -656,7 +656,7 @@ feudal_governments = {
 						AND = { #so they appear at character select screen
 							has_game_started = no
 							is_save_game = no
-							title = {
+							primary_title = {
 								military_title_trigger = yes
 							}
 						}

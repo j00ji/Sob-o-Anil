@@ -13,3 +13,15 @@ government_flavor = {
 		}
 	}
 }
+
+government_flavor = {
+	name = gov_elec_military
+	graphics = GFX_evt_camaraderie
+	priority = 2
+	trigger = {
+		OR = { 
+			government = military_government
+			government = military_government_tolerant
+		}
+	}
+}

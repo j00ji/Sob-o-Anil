@@ -201,7 +201,7 @@ k_costa_sol_generalship = {
 	
 	 can_be_usurped = no 
 	 assimilate = no 
-	 primary = yes 
+	 #primary = yes 
 }
 
 k_costa_verde_generalship = {
@@ -218,7 +218,7 @@ k_costa_verde_generalship = {
 	
 	 can_be_usurped = no 
 	 assimilate = no 
-	 primary = yes 
+	 #primary = yes 
 }
 
 k_goytacazes_generalship = {
@@ -235,7 +235,7 @@ k_goytacazes_generalship = {
 	
 	 can_be_usurped = no 
 	 assimilate = no 
-	 primary = yes 
+	 #primary = yes 
 }
 
 k_rio_grande_do_sul = {

@@ -4,14 +4,17 @@ bureaucratic_government_desc;Bureaucracy is a form of government reminiscent of 
 bureaucratic_government_tolerant;Bureaucratic but Tolerant;;;;;;;;;;;;;x;
 bureaucratic_government_tolerant_desc;Bureaucracy is a form of government reminiscent of the Old World, that enshrines the values of meritocracy above all else. It's rulers are expected to take the ENEM exams, a way to prove their merit as rulers. Failure in the face of the test, or refusal to take it in the first place would cause rightful uproar amongst the ruling classes. Rulers are allowed to reorganize their realm, revoking Governorural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law.;;;;;;;;;;;;;x;
 succ_bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x;
-succ_bureaucratic_elective;Reminiscent of the democracies of old, Bureaucratic governments decide their leader through election amongst themselves, where administrative skills are seen as the most valuable ones. Only fellow members of the bureaucracy are allowed as candidates, but the vote of council members and direct subordinates is also taken into account..;;;;;;;;;;;;;x;
+succ_bureaucratic_elective_desc;Reminiscent of the democracies of old, Bureaucratic governments decide their leader through election amongst themselves, where administrative skills are seen as the most valuable ones. Only fellow members of the bureaucracy are allowed as candidates, but the vote of council members and direct subordinates is also taken into account..;;;;;;;;;;;;;x;
 bureaucratic_elective;Bureaucratic Elective;;;;;;;;;;;;;x;
 gov_elec_bureaucratic;Bureaucratic Elective;;;;;;;;;;;;;x;
 
 military_government;Junta;;;;;;;;;;;;;x;
-military_government_desc;;;;;;;;;;;;;;x;
+military_government_desc;The Junta is a form of government reminiscent of the Old World, a government that follows the core values of the militaries of old: strenght, hierarchy and meritocracy. Junta vassals particularly disprove of hereditary successions, preferring to choose their leader for his competency rather than for lineage. Rulers are allowed to reorganize their realm, revoking Governorural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law. Conscription camps may also be built on the correct sites.;;;;;;;;;;;;;x;
 military_government_tolerant;Junta but Tolerant;;;;;;;;;;;;;x;
-military_government_tolerant_desc;;;;;;;;;;;;;;x;
+military_government_tolerant_desc;The Junta is a form of government reminiscent of the Old World, a government that follows the core values of the militaries of old: strenght, hierarchy and meritocracy. Junta vassals particularly disprove of hereditary successions, preferring to choose their leader for his competency rather than for lineage. Rulers are allowed to reorganize their realm, revoking Governorural titles and retracting vassals, but otherwise are not allowed to imprison vassals or revoke their titles unless they have broken the law. Conscription camps may also be built on the correct sites.;;;;;;;;;;;;;x;
+succ_military_elective;Military Elective;;;;;;;;;;;;;x;
+succ_military_elective_desc;Rulers and generals are all gathered in order to choose one of themselves as the leader. High martial skill and leadership capabilities are valued above all else.;;;;;;;;;;;;;x;
+gov_elec_military;Military Junta;;;;;;;;;;;;;x;
 
 ##Titles
 bureaucracy_job_marshal;Colonel;;;;;;;;;;;;;x

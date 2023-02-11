@@ -222,6 +222,5 @@ military_title_trigger={
 		title = k_costa_verde_generalship
 		title = k_goytacazes_generalship
 		title = k_costa_sol_generalship
-		title = d_costal_sol
 	}
 }
