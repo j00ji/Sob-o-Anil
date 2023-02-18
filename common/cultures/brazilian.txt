@@ -152,64 +152,6 @@ fluminense_group = {
 		mat_grm_name_chance = 10
 		mother_name_chance = 5
 	}
-	pomerisch = {
-		graphical_cultures = { trueoccitangfx occitangfx }
-		
-		color = { 0.4 0.6 0.4 }
-		
-		male_names = {
-			Adalberto_Albert Adalhardo Adão_Adam Ademario_Adémar Adolfo_Adolf Alarico_Alaric Alberico_Aubrey Albrechto_Albert Aldrico_Aldric Aloisio_Louis Amadeu_Amadeus Amalrico_Amalric Andre_Andrew Anselmo_Anselm Arnoldo_Arnold Arnulfo_Arnulf Augustino_Augustine
-			Baldarico_Baldric Baldomario Balduinio_Baldwin Berengo_Berengar Bernardo_Bernard Bertoldo_Berthold Bucardo_Bouchard
-			Christophenio_Christopher Cristhian
-			Dietero_Dieter Dietmario_Dietmar Dietepoldo_Dietpold Dietrico_Thierry Diogo Dimas
-			Eberhardo_Everard Ekeberto_Egbert Emelrico_Aymeric Edmundo_Emund Emanuel Erico_Erik Ernesto_Ernest 
-			Fernando_Ferdinand Filisberto_Filibert Folkardo Francisco_Francis Frederico_Frederick
-			George Geraldo_Gerard Gerlaco_Gerlach Gilberto_Gilbert Gottfried_Godfrey Gotthard Gottschalk_Gottschalk Gotzelo Guntram Gunzelin_Günther Günther_Günther
-			Hans_Hans Henrique_Henry Herisberto_Herbert Hugo_Hugh Humberto_Humbert
-			Jaco_Jacob João_John "João Pedro"
-			Karlo_Charles Kasparo_Caspar Kaike
-			Lamberto_Lambert Landolfo_Landolf Leopoldo_Leopold Liudolfo_Ludolf Lothario_Lothair Ludwigio_Louis
-			Magnus_Magnus Manegold Manfred_Manfred Markward_Markward Martin_Martin Matthias_Matthew Meinhard Miguel_Michael 
-			Nikolau_Nicholas Norberto_Norbert 
-			Otto Olavo
-			Pedro_Peter Philipi_Philip Paulo 
-			Rogerio Roberto Reinaldo
-			Siegefredo_Siegfried Simão_Simon Stefanio_Stephen
-			Theodorico_Thierry Thomas_Thomas 
-			Ulrico_Ulrich 
-			Viktor_Victor 
-			Waldemiro_Vladimir Walter Werner_Werner Wolfgang
-		}
-		female_names = {
-			Adelberga Adelchisa Adelgrima Adelperga Altruda_Adeltrudis Amalasuintha Amalberga Amalfrida Ansa_Ansa Anselberga Anselperga Ansiappa Areagne Aurona 
-			Chlotsuintha_Chlothsind Cotani Cunigunda_Kunigunde Clotilde_Clotilde Cecilia Celia
-			Desiderata Ereleuva Erelieva Elena_Helen
-			Gaatha Gaila Gaitelgrima Gambara Geila Gemma Gertrude Gerperga_Gerberga Giseltrude_Gisela Giso Glismoda Gudeliva Gundeperga Guntrud_Gudrun
-			Helchen Hermelinda_Herlinda Hunila Imma_Emma 
-			Kriemhilda Karol Karoline Kamilla_Camille
-			Liutberga Liutperga Liutpirca Larissa Lania Laura Livia
-			Maria_Maria Marozia Menia Mariana Magda Maísa Manuela_Manuella Marcela Margarida
-			Paula Pilitrud Poliana
-			Rodelinda Rosamunda Rotrude Rodriga
-			Serenahilt_Serhilda Sichelgaita Sunigilda Sunilda Swanahild_Swanahild Theodarada Theodelinda Theodorada Theodota Theuderada Thiudigotho Uta_Ute
-			Vadamerca Valdamerca Walderada Wilgefortis Wisigarda
-		}
-		
-		from_dynasty_prefix = "fon "
-		male_patronym = "son"
-		female_patronym = "fan"
-		grammar_transform = french
-
-		modifier = default_culture_modifier
-		
-		pat_grf_name_chance = 10
-		mat_grf_name_chance = 10
-		father_name_chance = 5
-		
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 10
-		mother_name_chance = 5
-	}
 	capixaba = {
 		graphical_cultures = { southerngfx }
 		

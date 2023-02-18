@@ -9,9 +9,9 @@ is_brazilian_trigger = {
 		culture_group = northeastern_group
 		culture_group = cerradonense
 		culture_group = amazonian_group
+		culture_group = teutobrasilianer
 	}
 }
-
 is_born_in_january_trigger = {
 	month_of_birth = 1
 	NOT = { month_of_birth = 2 }

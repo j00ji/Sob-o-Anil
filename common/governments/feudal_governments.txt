@@ -384,18 +384,14 @@ feudal_governments = {
 					has_game_started = no
 					primary_title = { 
 						OR = { 
-							title = e_byzantium
-							title = e_roman_empire
+							title = e_bahia
 						}
 					}
 				}
 				AND = { 
 					primary_title = { 
-						OR = { 
-							title = e_byzantium
-							title = e_roman_empire
-						}
-						has_law = succ_byzantine_elective
+						has_law = succ_brazilian_elective
+						has_law = religion_toleration_0
 					}
 				}
 			}
@@ -424,6 +420,72 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 15
 	}
+	roman_imperial_government_tolerant = {
+		preferred_holdings = { CASTLE CITY }
+		allowed_holdings = {
+			CASTLE
+			CITY
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			republic_government
+			merchant_republic_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_romanimperial"
+		gets_religion_opinion_penalties = no
+		gives_religion_opinion_penalties = no
+		potential = {
+			OR = { 
+				AND = { 
+					is_save_game = no
+					has_game_started = no
+					primary_title = { 
+						OR = { 
+							title = e_bahia
+						}
+					}
+				}
+				AND = { 
+					primary_title = { 
+						has_law = succ_brazilian_elective
+						has_law = religion_toleration_1
+					}
+				}
+			}
+			is_patrician = no
+		}
+		
+		color = { 143 12 125 }
+
+		barons_need_dynasty = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		capital_move_delay = 2000
+		
+		can_demand_religious_conversion = no
+		can_usurp_kingdoms_and_empires = no
+		can_imprison_without_reason = no
+		can_create_empires = no
+		vassal_government_opinion_penalties = no
+		can_grant_kingdoms_and_empires_to_other_government_group = yes
+		can_be_granted_kingdoms_and_empires_by_other_government = no
+		free_retract_vassalage = yes
+		
+		## Modifiers
+		court_size_modifier = 15
+	}
 	bureaucratic_government = {
 		preferred_holdings = { CITY }
 		allowed_holdings = { 
@@ -441,6 +503,7 @@ feudal_governments = {
 			#military_governorate
 			merchant_republic_government
 			republic_government
+			roman_imperial_government
 		}
 		free_revoke_on_tiers = {
 			baron
@@ -473,7 +536,7 @@ feudal_governments = {
 							liege = {
 								government = bureaucratic_government	
 							}
-							NOT = { liege = { character =ROOT}}
+							NOT = { liege = { character =ROOT} }
 						}
 						AND = { #so they appear at character select screen
 							has_game_started = no
@@ -481,6 +544,12 @@ feudal_governments = {
 							primary_title = {
 								bureaucratic_title_trigger = yes
 							}
+						}
+						AND = {
+							liege = {
+								government = roman_imperial_government	
+							}
+							independent = no
 						}
 					}
 				}
@@ -530,6 +599,7 @@ feudal_governments = {
 			#military_governorate
 			merchant_republic_government
 			republic_government
+			roman_imperial_government_tolerant
 		}
 		free_revoke_on_tiers = {
 			baron
@@ -571,6 +641,12 @@ feudal_governments = {
 								bureaucratic_title_trigger = yes
 							}
 						}
+						AND = {
+							liege = {
+								government = roman_imperial_government_tolerant
+							}
+							independent = no
+						}
 					}
 				}
 				AND = {
@@ -602,7 +678,6 @@ feudal_governments = {
 		## Modifiers
 		court_size_modifier = 10
 	}
-	
 	military_government = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
@@ -619,6 +694,7 @@ feudal_governments = {
 			#military_governorate
 			merchant_republic_government
 			republic_government
+			roman_imperial_government
 		}
 		free_revoke_on_tiers = {
 			baron
@@ -659,6 +735,12 @@ feudal_governments = {
 							primary_title = {
 								military_title_trigger = yes
 							}
+						}
+						AND = {
+							liege = {
+								government = roman_imperial_government	
+							}
+							independent = no
 						}
 					}
 				}
@@ -708,6 +790,7 @@ feudal_governments = {
 			#military_governorate
 			merchant_republic_government
 			republic_government
+			roman_imperial_government_tolerant
 		}
 		free_revoke_on_tiers = {
 			baron
@@ -748,6 +831,12 @@ feudal_governments = {
 							primary_title = {
 								military_title_trigger = yes
 							}
+						}
+						AND = {
+							liege = {
+								government = roman_imperial_government_tolerant
+							}
+							independent = no
 						}
 					}
 				}
