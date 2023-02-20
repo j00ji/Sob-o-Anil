@@ -37,7 +37,7 @@ e_pretender_empire_1 = {
 
 # Historical
 
-k_sao_paulo = {
+k_paulistano = {
 	color={ 134 28 28 }
 	color2={ 255 255 255 }
 		
@@ -60,7 +60,7 @@ k_sao_paulo = {
 							}
 						}
 					}
-					47 = {
+					45 = {
 						owner = {
 							character = ROOT
 							is_liege_or_above = ROOT
@@ -115,10 +115,6 @@ k_sao_paulo = {
 							}
 						}
 					}
-				}
-				OR = {
-					trait = genius
-					trait = quick
 				}
 			}
 		}

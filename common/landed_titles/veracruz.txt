@@ -5,235 +5,6 @@ e_vera_cruz = {
 	capital = 1 # c_rio_de_janeiro
 	culture = carioca
 	
-	k_baixo_tiete = {
-		color = { 204 100 74 }
-		color2 = { 255 255 255 }
-		
-		capital = 77 # c_barretos
-		
-		culture = caipira
-	
-		d_alto_pontal = {
-			color={ 100 150 35 }
-			color2={ 255 255 255 }
-
-			capital = 87 # c_presidente_prudente
-			
-			c_presidente_prudente = { # 87
-				color={ 79 255 123 }
-				color2={ 255 255 255 }
-				
-				b_forte_goulart = {}
-				b_montalvao = {}
-				b_floresta_do_sul = {}
-				b_ameliopolis = {}
-				b_estrela_do_norte = {}
-				b_paranapanema_2 = {}
-				b_alvares_machado = {}
-			}
-			c_adamantina = { # 88
-				color={ 124 33 62 }
-				color2={ 255 255 255 }
-				
-				b_tupa = {}
-				b_florida = {}
-				b_lucelia = {}
-				b_osvaldo_cruz = {}
-				b_prestes_maia = {}
-				b_diogo_e_betty = {}
-				b_chacara_tsuda = {}
-			}
-			c_dracena = { # 89
-				color={ 202 255 43 }
-				color2={ 255 255 255 }
-				
-				b_ouro_verde_2 = {}
-				b_jacipora = {}
-				b_tupi = {}
-				b_vila_lucelia = {}
-				b_vila_correia = {}
-				b_zanatta = {}
-				b_netemarques = {}
-			}
-			c_rosana = { # 90
-				color={ 167 255 91 }
-				color2={ 255 255 255 }
-				
-				b_porto_primavera = {}
-				b_santa_rita = {}
-				b_morro_do_diabo = {}
-				b_primavera_da_baixa = {}
-				b_jose_pardini = {}
-				b_irmao_da_eski = {}
-				b_toca_do_jau = {}
-			}
-		}
-		d_marilia = {
-			color={ 155 239 47 }
-			color2={ 255 255 255 }
-			
-			capital = 85 # c_marilia
-			
-			c_marilia = { # 85
-				color={ 255 196 68 }
-				color2={ 255 255 255 }
-				
-				b_pompeia = {}
-				b_nobrega = {}
-				b_lacio = {}
-				b_dirceu = {}
-				b_garca = {}
-				b_montolar = {}
-				b_alto_cafezal = {}
-			}
-			c_ourinhos = { # 1088
-				color={ 215 185 115 }
-				color2={ 255 255 255 }
-				
-				b_salto_grande = {}
-				b_chavantes = {}
-				b_ribeirao_do_sul = {}
-				b_ibirarema = {}
-				b_santa_cruz_rio_pardo = {}
-				b_sao_pedro_do_turvo = {}
-				b_timburi = {}
-			}
-			c_assis = { # 94
-				color={ 200 150 50 }
-				color2={ 255 255 255 }
-				
-				b_platina = {}
-				b_taruma = {}
-				b_joao_ramalho = {}
-				b_rancharia = {}
-				b_florinia = {}
-				b_macarai = {}
-				b_palmital_sp = {}
-			}
-		}
-		d_aracatuba = {
-			color={ 68 107 17 }
-			color2={ 255 255 255 }
-
-			capital = 79 # c_aracatuba
-			
-			c_andradina = { # 79
-				color={ 108 53 124 }
-				color2={ 255 255 255 }
-				
-				b_lussanvira = {}
-				b_guaracai = {}
-				b_amandaba = {}
-				b_stella_maris = {}
-				b_vila_peliciaris = {}
-				b_vila_botega = {}
-				b_delmond_feltrini = {}
-			}
-			c_aracatuba = { # 79
-				color={ 52 124 29 }
-				color2={ 255 255 255 }
-				
-				b_penapolis = {}
-				b_baguacu = {}
-				b_birigui = {}
-				b_rui_barbosa = {}
-				b_jardim_aclimacao = {}
-				b_ezequiel_barbosa = {}
-				b_mao_divina = {}
-			}
-			c_lins = { # 86
-				color={ 255 207 135 }
-				color2={ 255 255 255 }
-				
-				b_sabino = {}
-				b_guaicara = {}
-				b_promissao = {}
-				b_guaimbe = {}
-				b_varpa = {}
-				b_labate = {}
-				b_vila_perin = {}
-			}
-		}
-		d_rio_preto = {
-			color={ 130 118 96 }
-			color2={ 255 255 255 }
-
-			capital = 78 # c_sao_jose_do_rio_preto
-			
-			c_sao_jose_do_rio_preto = { # 78
-				color={ 64 124 95 }
-				color2={ 255 255 255 }
-				
-				b_forte_schmitt = {}
-				b_rio_turvo = {}
-				b_avanhandava = {}
-				b_talhado = {}
-				b_ibira = {}
-				b_cedral = {}
-				b_benedito_lisboa = {}
-			}
-			c_castilho = { # 83
-				color={ 124 61 49 }
-				color2={ 255 255 255 }
-				
-				b_urubupunga = {}
-				b_caue = {}
-				b_jupia = {}
-				b_nova_iorque = {}
-				b_peixe_que_nada = {}
-				b_olario_arco_verde = {}
-				b_eloa_dos_santos = {}
-			}
-			c_fernandopolis = { # 81
-				color={ 124 68 114 }
-				color2={ 255 255 255 }
-				
-				b_jales = {}
-				b_pedranopolis = {}
-				b_brasitania = {}
-				b_ubirajara = {}
-				b_joao_pimenta = {}
-				b_santa_filomena = {}
-				b_antonia_marim = {}
-			}
-			c_votuporanga = { # 80
-				color={ 124 46 97 }
-				color2={ 255 255 255 }
-				
-				b_simonsen = {}
-				b_monteiro = {}
-				b_cardoso = {}
-				b_guerchia = {}
-				b_zan = {}
-				b_joses_melo = {}
-				b_marao_cecaps = {}
-			}
-			c_novo_horizonte = { # 1090
-				color={ 59 172 23 }
-				color2={ 255 255 255 }
-				
-				b_jose_bonifacio = {}
-				b_itajobi = {}
-				b_itapolis = {}
-				b_irapua = {}
-				b_marapoama = {}
-				b_ibitinga = {}
-				b_tabatinga = {}
-			}
-			c_auriflama = { # 1089
-				color={ 220 105 65 }
-				color2={ 255 255 255 }
-				
-				b_gen_salgado = {}
-				b_nova_castilho = {}
-				b_floreal = {}
-				b_magda = {}
-				b_nhandeara = {}
-				b_nova_luzitania = {}
-				b_moncoes = {}
-			}
-		}
-	}
 	k_fluminense = {
 		color={ 201 238 103 }
 		color2={ 255 255 255 }
@@ -1879,7 +1650,7 @@ e_vera_cruz = {
 			}
 		}
 	}
-	k_paulistano = {
+	k_sao_paulo = {
 		color={ 79 112 155 }
 		color2={ 255 255 255 }
 		
@@ -2173,16 +1944,226 @@ e_vera_cruz = {
 				b_arvoao = {}
 			}
 		}
-	}
-	k_santos = {
-		color = { 112 202 255 }
-		color2 = { 255 255 255 }
-		
-		capital = 47 # Santos
-		dignity = 200 # Never want the Republic of Santos to change primary title
-		
-		culture = caicara
-		
+		d_alto_pontal = {
+			color={ 100 150 35 }
+			color2={ 255 255 255 }
+
+			capital = 87 # c_presidente_prudente
+			
+			c_presidente_prudente = { # 87
+				color={ 79 255 123 }
+				color2={ 255 255 255 }
+				
+				b_forte_goulart = {}
+				b_montalvao = {}
+				b_floresta_do_sul = {}
+				b_ameliopolis = {}
+				b_estrela_do_norte = {}
+				b_paranapanema_2 = {}
+				b_alvares_machado = {}
+			}
+			c_adamantina = { # 88
+				color={ 124 33 62 }
+				color2={ 255 255 255 }
+				
+				b_tupa = {}
+				b_florida = {}
+				b_lucelia = {}
+				b_osvaldo_cruz = {}
+				b_prestes_maia = {}
+				b_diogo_e_betty = {}
+				b_chacara_tsuda = {}
+			}
+			c_dracena = { # 89
+				color={ 202 255 43 }
+				color2={ 255 255 255 }
+				
+				b_ouro_verde_2 = {}
+				b_jacipora = {}
+				b_tupi = {}
+				b_vila_lucelia = {}
+				b_vila_correia = {}
+				b_zanatta = {}
+				b_netemarques = {}
+			}
+			c_rosana = { # 90
+				color={ 167 255 91 }
+				color2={ 255 255 255 }
+				
+				b_porto_primavera = {}
+				b_santa_rita = {}
+				b_morro_do_diabo = {}
+				b_primavera_da_baixa = {}
+				b_jose_pardini = {}
+				b_irmao_da_eski = {}
+				b_toca_do_jau = {}
+			}
+		}
+		d_marilia = {
+			color={ 155 239 47 }
+			color2={ 255 255 255 }
+			
+			capital = 85 # c_marilia
+			
+			c_marilia = { # 85
+				color={ 255 196 68 }
+				color2={ 255 255 255 }
+				
+				b_pompeia = {}
+				b_nobrega = {}
+				b_lacio = {}
+				b_dirceu = {}
+				b_garca = {}
+				b_montolar = {}
+				b_alto_cafezal = {}
+			}
+			c_ourinhos = { # 1088
+				color={ 215 185 115 }
+				color2={ 255 255 255 }
+				
+				b_salto_grande = {}
+				b_chavantes = {}
+				b_ribeirao_do_sul = {}
+				b_ibirarema = {}
+				b_santa_cruz_rio_pardo = {}
+				b_sao_pedro_do_turvo = {}
+				b_timburi = {}
+			}
+			c_assis = { # 94
+				color={ 200 150 50 }
+				color2={ 255 255 255 }
+				
+				b_platina = {}
+				b_taruma = {}
+				b_joao_ramalho = {}
+				b_rancharia = {}
+				b_florinia = {}
+				b_macarai = {}
+				b_palmital_sp = {}
+			}
+		}
+		d_aracatuba = {
+			color={ 68 107 17 }
+			color2={ 255 255 255 }
+
+			capital = 79 # c_aracatuba
+			
+			c_andradina = { # 79
+				color={ 108 53 124 }
+				color2={ 255 255 255 }
+				
+				b_lussanvira = {}
+				b_guaracai = {}
+				b_amandaba = {}
+				b_stella_maris = {}
+				b_vila_peliciaris = {}
+				b_vila_botega = {}
+				b_delmond_feltrini = {}
+			}
+			c_aracatuba = { # 79
+				color={ 52 124 29 }
+				color2={ 255 255 255 }
+				
+				b_penapolis = {}
+				b_baguacu = {}
+				b_birigui = {}
+				b_rui_barbosa = {}
+				b_jardim_aclimacao = {}
+				b_ezequiel_barbosa = {}
+				b_mao_divina = {}
+			}
+			c_lins = { # 86
+				color={ 255 207 135 }
+				color2={ 255 255 255 }
+				
+				b_sabino = {}
+				b_guaicara = {}
+				b_promissao = {}
+				b_guaimbe = {}
+				b_varpa = {}
+				b_labate = {}
+				b_vila_perin = {}
+			}
+		}
+		d_rio_preto = {
+			color={ 130 118 96 }
+			color2={ 255 255 255 }
+
+			capital = 78 # c_sao_jose_do_rio_preto
+			
+			c_sao_jose_do_rio_preto = { # 78
+				color={ 64 124 95 }
+				color2={ 255 255 255 }
+				
+				b_forte_schmitt = {}
+				b_rio_turvo = {}
+				b_avanhandava = {}
+				b_talhado = {}
+				b_ibira = {}
+				b_cedral = {}
+				b_benedito_lisboa = {}
+			}
+			c_castilho = { # 83
+				color={ 124 61 49 }
+				color2={ 255 255 255 }
+				
+				b_urubupunga = {}
+				b_caue = {}
+				b_jupia = {}
+				b_nova_iorque = {}
+				b_peixe_que_nada = {}
+				b_olario_arco_verde = {}
+				b_eloa_dos_santos = {}
+			}
+			c_fernandopolis = { # 81
+				color={ 124 68 114 }
+				color2={ 255 255 255 }
+				
+				b_jales = {}
+				b_pedranopolis = {}
+				b_brasitania = {}
+				b_ubirajara = {}
+				b_joao_pimenta = {}
+				b_santa_filomena = {}
+				b_antonia_marim = {}
+			}
+			c_votuporanga = { # 80
+				color={ 124 46 97 }
+				color2={ 255 255 255 }
+				
+				b_simonsen = {}
+				b_monteiro = {}
+				b_cardoso = {}
+				b_guerchia = {}
+				b_zan = {}
+				b_joses_melo = {}
+				b_marao_cecaps = {}
+			}
+			c_novo_horizonte = { # 1090
+				color={ 59 172 23 }
+				color2={ 255 255 255 }
+				
+				b_jose_bonifacio = {}
+				b_itajobi = {}
+				b_itapolis = {}
+				b_irapua = {}
+				b_marapoama = {}
+				b_ibitinga = {}
+				b_tabatinga = {}
+			}
+			c_auriflama = { # 1089
+				color={ 220 105 65 }
+				color2={ 255 255 255 }
+				
+				b_gen_salgado = {}
+				b_nova_castilho = {}
+				b_floreal = {}
+				b_magda = {}
+				b_nhandeara = {}
+				b_nova_luzitania = {}
+				b_moncoes = {}
+			}
+		}
 		d_santos = {
 			color={ 139 175 183 }
 			color2={ 255 255 255 }
@@ -2329,15 +2310,6 @@ e_vera_cruz = {
 				b_vila_mincovisk = {}
 			}
 		}
-	}
-	k_terra_roxa = {
-		color = { 170 13 22 }
-		color2 = { 255 255 255 }
-		
-		capital = 61 # c_piracicaba
-		
-		culture = camponeto
-	
 		d_piracicaba = {
 			color={ 124 191 28 }
 			color2={ 255 255 255 }
@@ -2535,6 +2507,8 @@ e_vera_cruz = {
 			}
 		}
 	}
+
+
 	k_triangle = {
 		color={ 215 194 51 }
 		color2={ 255 255 255 }
@@ -2727,5 +2701,39 @@ e_vera_cruz = {
 			}
 		}
 	}
+	
+	##TITULAR KINGDOMS##
+	
+	k_santos = {
+		color = { 112 202 255 }
+		color2 = { 255 255 255 }
+		
+		capital = 45 # Santos
+		dignity = 200 # Never want the Republic of Santos to change primary title
+		
+		culture = caicara
+	}
+	
+	k_terra_roxa = {
+		color = { 170 13 22 }
+		color2 = { 255 255 255 }
+		
+		capital = 61 # c_piracicaba
+		
+		culture = camponeto
+	
+	}
+	
+	k_baixo_tiete = {
+		color = { 204 100 74 }
+		color2 = { 255 255 255 }
+		
+		capital = 77 # c_barretos
+		
+		culture = caipira
+	
+	}
+	
+	
 	
 }

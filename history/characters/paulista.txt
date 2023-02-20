@@ -5880,7 +5880,7 @@
 	2363.5.30 = {
 		death = {
 			death_reason = death_battle
-			#killer = Rodrigo II Desterro
+			killer = 110687 #Rodrigo II Desterro
 		}
 	}
 }
@@ -11514,10 +11514,10 @@
 	#counts of São Carlos, dukes of medio tiete
 }
 
-##Lott, Mineiro invaders of São Paulo
+##Desterro, Mineiro invaders of São Paulo
 110684 = {
 	name = "Zé"
-	dynasty = 260002 #Lott
+	dynasty = 260002 #Desterro
 	religion = terra_benta
 	culture = canastro
 	
@@ -11532,48 +11532,45 @@
 	2330.2.3 = {
 		death = yes
 	}
-	#father of the invaders
+	#Father of Rodrigo I
 }
 
 110685 = {
-	name = "Valamiro"
-	dynasty = 260002 #Lott
+	name = "Rodrigo" #Rodrigo I Desterro
+	dynasty = 260002 #Desterro
 	religion = terra_benta
 	culture = canastro
+	disallow_random_traits = yes
 	
 	father = 110684
 	
 	trait = brilliant_strategist
+	trait = strong
+	trait = mystic
+	trait = shrewd
 	trait = adventurer
 	trait = ambitious
+	trait = wroth
+	#Also, add a trait for his messianic progress once the system is complete
 	
-	diplomacy = 10
-	martial = 12
-	stewardship = 9
+	diplomacy = 8
+	martial = 10
+	stewardship = 7
 	intrigue= 7
-	learning = 2
+	learning = 5
 	
-	2318.11.2 = {
+	2305.11.2 = {
 		birth = yes
 	}
-	2358.1.1 = {
-		effect = {
-			make_tributary = {
-				who = 110700
-				percentage = 0.40
-				tributary_type = default
-			}
-		}
-	}
-	2365.11.3 = {
+	2348.11.3 = {
 		death = yes
 	}
 	#leader of the invading mineiros, held the kingdom of Terra Roxa, rio pardo, medio tiete and piracicaba, also 
 }
 
 110686 = {
-	name = "Mané" #Valamiro's half brother
-	dynasty = 260002 #Lott
+	name = "Mané" #Rodrigo's brother
+	dynasty = 260002 #Desterro
 	religion = terra_benta
 	culture = canastro 
 	
@@ -11582,48 +11579,55 @@
 	trait = deceitful
 	
 	father = 110684
-	2319.6.7 = {
+	2308.6.7 = {
 		birth = yes
 	}
 	2400.1.1 = {
 		death = yes
 	}
-	#holds Passos and São Sebastião do Paraíso, vassal of Rio Pardo
+	#Ruled over what's left of Rodrigo I's Mineiro possessions
 }
 
 110687 = {
-	name = "Eurico" # son of Valamiro
-	dynasty = 260002 #Lott
+	name = "Rodrigo" #Rodrigo II Desterro, also invader of SP
+	dynasty = 260002 #Desterro
 	religion = terra_benta
 	culture = canastro
+	disallow_random_traits = yes
 	
 	father = 110685
 	
-	trait = tough_soldier
+	trait = brilliant_strategist
+	trait = strong
 	trait = ambitious
 	trait = duelist
-	trait = depressed
+	trait = wroth
+	trait = proud
 	trait = sympathy_christendom
 	
-	2351.2.5 = {
+	2323.2.5 = {
 		birth = yes
 	}
-	2362.1.19 = {
-		effect={
-			add_claim = k_terra_roxa 
+	2363.1.1 = {
+		effect = {
+			make_tributary = {
+				who = 110700
+				percentage = 0.40
+				tributary_type = default
+			}
 		}
 	}
-	2367.1.1 = {
-		effect={add_friend=110688}
-	} 
-	2400.1.1 = {
-		death = yes
+	2364.3.13 = {
+		death = {
+			death_reason = death_battle
+			killer = 110001 #Alexandre Cantarini
+		}
 	}
-	#currently rules what's left of the Mineiro Invasion, the duchy of Rio Pardo, ribeirão preto, barretos and são joão da boa vista
+	#Eldest son of Rodrigo I, king of Terra Roxa, continued invasion
 }
 
 110688 = {
-	name = "Inês" #Eurico's friend, a prisoner captured by his father
+	name = "Inês" #Fernando's friend, a prisoner captured by his father
 	dynasty = none
 	female=yes
 	religion = anchietican 
@@ -11670,6 +11674,58 @@
 	}
 	#ruler of Franca, vassal of Rio Pardo
 }
+
+110690 = {
+	name = "Fernando" #Eldest son of Rodrigo II Desterro
+	dynasty = 260002 #Desterro
+	religion = terra_benta
+	culture = canastro
+	disallow_random_traits = yes
+	
+	father = 110687 #Rodrigo II Desterro
+	
+	trait = skilled_tactician
+	trait = ambitious
+	trait = envious
+	trait = arbitrary
+	trait = sympathy_christendom
+	
+	2342.9.17 = {
+		birth = yes
+	}
+	2364.3.13 = {
+		effect = {
+			add_claim = k_terra_roxa
+		}
+	}
+	2367.1.1 = {
+		effect={add_friend=110688}
+	} 
+	#Ruler of Rio Pardo
+}
+
+110691 = {
+	name = "Luis" #Youngest son of Rodrigo II Desterro
+	dynasty = 260002 #Desterro
+	religion = terra_benta
+	culture = canastro
+	disallow_random_traits = yes
+	
+	father = 110687 #Rodrigo II Desterro
+	
+	trait = intricate_webweaver
+	trait = ambitious
+	trait = craven
+	trait = deceitful
+	trait = zealous
+	
+	2345.11.2 = {
+		birth = yes
+	}
+	#Ruler of Rio Preto
+}
+	
+
 ##Suzuki dynasty##
 ## 110700-1107XX ###
 110700 = {

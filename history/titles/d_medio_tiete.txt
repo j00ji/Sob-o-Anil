@@ -6,12 +6,12 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2355.1.1 = { #the Mineiro Invasion
-	holder = 110685 #Valamiro
+2355.1.1 = { #Second Mineiro Invasion
+	holder = 110687 #Rodrigo II Desterro
 }
-2365.11.3 = {
-	holder = 110687 #Eurico
+2364.3.13 = {
+	holder = 110690 #Fernando I Desterro
 }
-2366.1.1 = {#end of the mineiros
+2366.1.1 = {#End of the Mineiro rule
 	holder = 110683 #Antonio Capelli
 }
