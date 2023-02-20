@@ -36,4 +36,79 @@
 	#	}
 	#}
 }
-	
+
+25003 = {
+	name = "Vera-cruz"
+	religion = candomble
+	culture = ilhense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+25004 = {
+	name = "Caramuru"
+	religion = candomble
+	culture = ilhense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+25005 = {
+	name = "Paraguaçu"
+	religion = candomble
+	culture = ilhense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+25006 = {
+	name = "Zumba"
+	religion = candomble
+	culture = ilhense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
