@@ -95,7 +95,7 @@
 }
 
 25006 = {
-	name = "Zumba"
+	name = "Benguela"
 	religion = candomble
 	culture = ilhense
 	can_appear = no

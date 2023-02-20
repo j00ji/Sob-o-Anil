@@ -600,3 +600,189 @@
 }
 
 ## End of the de Pelourinho Dynasty ##
+##    Vera-Cruz dynasty genesis     ##
+
+40013 = {
+	name = "Taparica"
+	dynasty = 25005 #paraguaçu
+	culture = native
+	religion = camdomble
+	trait = tough_soldier
+	trait = ruled_a_junta
+	trat = just
+	trait = sympathy_christendom
+	
+	2378.1.20 = {
+		birth = yes
+		culture = ilhense
+	}
+	2026.2.4 = {
+		death = yes
+	}
+	#former ruler of Porto Seguro
+}
+
+40014 = {
+	name = "Catarina"
+	female = yes
+	father = 40013
+	dynasty = 25005 #paraguaçu
+	culture = native
+	religion = camdomble
+	trait = tough_soldier
+	trait = fair
+	trait = sympathy_christendom
+	
+	2301.8.25 = {
+		birth = yes
+		culture = ilhense
+	}
+	2360.3.20 = {
+		death = yes
+	}
+}
+
+40015 = {
+	name = "Diogo"
+	dynasty = 25004 #Caramuru
+	culture = mediterranean
+	religion = cicerite
+	trait = grey_eminence
+	trait = robust
+	trait = ruled_a_junta
+	martial = 13
+	
+	2289.7.24 = {
+		birth = yes
+		culture = ilhense
+	}
+	2318.3.2 = {
+		add_spouse = 40014
+	}
+	2340.4.11 = {
+		death = yes
+	}
+	#ruled Camacan, and later got elected Captain of Porto Seguro following his father-in-laws death
+}
+
+40016 = {
+	name = "Gaspar"
+	dynasty = 25004 #Caramuru
+	culture = brown
+	religion = camdomble
+	father = 40015
+	mother = 40014
+	trait = skilled_tactician
+	trait = ruled_a_junta
+	
+	2319.2.16 = {
+		birth = yes
+		culture = ilhense
+	}
+	2364.7.14 = {
+		death = {
+			death_reason = death_battle
+			killer = 90010 #the Pomerano guy
+		}
+	}
+	#ruled Porto Seguro, was killed recently by the Universal revolt
+}
+
+40017 = {
+	name = "Madalena"
+	female = yes
+	dynasty = 25004 #Caramuru
+	culture = brown
+	religion = camdomble
+	father = 40015
+	mother = 40014
+	trait = intricate_webweaver
+	trait = stressed
+	trait = depressed
+	
+	2327.4.30 = {
+		birth = yes
+		culture = ilhense
+	}
+	2347.12.1 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+
+40018 = {
+	name = "Marcos"
+	dynasty = 25004 #Caramuru
+	culture = brown
+	religion = camdomble
+	father = 40015
+	mother = 40014
+	trait = misguided_warrior
+	trait = content
+	trait = shy
+	
+	diplomacy = 7
+	martial = 4
+	stewardship = 6
+	intrigue = 7
+	learning = 7
+	
+	2330.3.4 = {
+		birth = yes
+		culture = ilhense
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#current ruler of Camacan and Eunápolis
+}
+
+40019 = {
+	name = "Francisco"
+	dynasty = 25006 #Benguela
+	culture = black
+	religion = camdomble
+	trait = brilliant_strategist
+	trait = seducer
+	trait = ruled_a_junta
+	
+	2314.2.23 = {
+		birth = yes
+		culture = atlanticano
+	}
+	2344.2.12 = {
+		death = {
+			death_reason = death_duel
+			killer = 40016
+		}
+	}
+	#formerly ruled Itanhaém, seduced the sister of the caramurus and was killed by her brother
+}
+
+40020 = {
+	name = "Gael"
+	dynasty = 25003 #Vera-Cruz
+	culture = ilhense
+	religion = camdomble
+	father = 40019
+	mother = 40017
+	trait = skilled_tactician
+	trait = bastard
+	trait = ambitious
+	trait = humble
+	trait = light_foot_leader
+	diplomacy = 9
+	martial = 8
+	stewardship = 4
+	intrigue = 3
+	learning = 6
+	
+	2344.5.12 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#the bastard son of Madalena and Francisco, founded a new dynasty and was elected ruler of Vera-Cruz following his uncle's death during the Universal revolt
+}
