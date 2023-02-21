@@ -7,18 +7,18 @@
 	liege=k_ilheus
 }
 2305.1.1 = {
-	holder = 40013 #Taparica Paraguaçu
+	holder = 40023 #Taparica Paraguaçu
 }
 2026.2.4 = {
-	holder = 40015 #Diogo Caramuru
+	holder = 40025 #Diogo Caramuru
 }
 2330.4.11 = {
-	holder = 40019 #handed to Francisco Benguela
+	holder = 40029 #handed to Francisco Benguela
 	liege = d_porto_seguro
 }
 2344.2.12 = {
-	holder = 40016 #Gaspar Caramuru
+	holder = 40026 #Gaspar Caramuru
 }
 2364.7.14 = {
-	holder = 40020 #Gael Vera-cruz
+	holder = 40030 #Gael Vera-cruz
 }

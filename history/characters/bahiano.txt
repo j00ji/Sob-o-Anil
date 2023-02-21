@@ -441,7 +441,7 @@
 	stewardship = 6
 	learning = 4
 	
-	2298.7.2 = {
+	2220.7.2 = {
 		birth = yes 
 	}
 	2323.7.2 = {
@@ -602,7 +602,7 @@
 ## End of the de Pelourinho Dynasty ##
 ##    Vera-Cruz dynasty genesis     ##
 
-40013 = {
+40023 = {
 	name = "Taparica"
 	dynasty = 25005 #paraguaçu
 	culture = native
@@ -613,8 +613,8 @@
 	trait = sympathy_christendom
 	
 	2378.1.20 = {
-		birth = yes
-		culture = ilhense
+		birth=yes
+		culture=ilhense
 	}
 	2026.2.4 = {
 		death = yes
@@ -622,10 +622,10 @@
 	#former ruler of Porto Seguro
 }
 
-40014 = {
+40024 = {
 	name = "Catarina"
 	female = yes
-	father = 40013
+	father = 40023
 	dynasty = 25005 #paraguaçu
 	culture = native
 	religion = camdomble
@@ -642,7 +642,7 @@
 	}
 }
 
-40015 = {
+40025 = {
 	name = "Diogo"
 	dynasty = 25004 #Caramuru
 	culture = mediterranean
@@ -657,7 +657,7 @@
 		culture = ilhense
 	}
 	2318.3.2 = {
-		add_spouse = 40014
+		add_spouse = 40024
 	}
 	2340.4.11 = {
 		death = yes
@@ -665,13 +665,13 @@
 	#ruled Camacan, and later got elected Captain of Porto Seguro following his father-in-laws death
 }
 
-40016 = {
+40026 = {
 	name = "Gaspar"
 	dynasty = 25004 #Caramuru
 	culture = brown
 	religion = camdomble
-	father = 40015
-	mother = 40014
+	father = 40025
+	mother = 40024
 	trait = skilled_tactician
 	trait = ruled_a_junta
 	
@@ -688,14 +688,14 @@
 	#ruled Porto Seguro, was killed recently by the Universal revolt
 }
 
-40017 = {
+40027 = {
 	name = "Madalena"
 	female = yes
 	dynasty = 25004 #Caramuru
 	culture = brown
 	religion = camdomble
-	father = 40015
-	mother = 40014
+	father = 40025
+	mother = 40024
 	trait = intricate_webweaver
 	trait = stressed
 	trait = depressed
@@ -711,13 +711,13 @@
 	}
 }
 
-40018 = {
+40028 = {
 	name = "Marcos"
 	dynasty = 25004 #Caramuru
 	culture = brown
 	religion = camdomble
-	father = 40015
-	mother = 40014
+	father = 40025
+	mother = 40024
 	trait = misguided_warrior
 	trait = content
 	trait = shy
@@ -738,7 +738,7 @@
 	#current ruler of Camacan and Eunápolis
 }
 
-40019 = {
+40029 = {
 	name = "Francisco"
 	dynasty = 25006 #Benguela
 	culture = black
@@ -754,19 +754,19 @@
 	2344.2.12 = {
 		death = {
 			death_reason = death_duel
-			killer = 40016
+			killer = 40026
 		}
 	}
 	#formerly ruled Itanhaém, seduced the sister of the caramurus and was killed by her brother
 }
 
-40020 = {
+40030 = {
 	name = "Gael"
 	dynasty = 25003 #Vera-Cruz
 	culture = ilhense
 	religion = camdomble
-	father = 40019
-	mother = 40017
+	father = 40029
+	mother = 40027
 	trait = skilled_tactician
 	trait = bastard
 	trait = ambitious

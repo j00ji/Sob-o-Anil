@@ -7,12 +7,12 @@
 	liege=k_ilheus
 }
 2305.1.1 = {
-	holder = 40013 #Taparica Paraguaçu
+	holder = 40023 #Taparica Paraguaçu
 }
 2026.2.4 = {
-	holder = 40015 #Diogo Caramuru
+	holder = 40025 #Diogo Caramuru
 }
 2340.4.11 = {
-	holder = 40018 #Marcos Caramuru
+	holder = 40028 #Marcos Caramuru
 	liege = d_porto_seguro
 }
