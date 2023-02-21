@@ -15,14 +15,5 @@
 	}
 }
 2353.5.12 = { 
-	holder = 40007 #Flávio I de Pelourinho
-}
-2354.12.29 = {
-	holder = 40008 #Gabriela I de Pelourinho
-}
-2356.9.23 = {
-	holder = 40009 #Vitória I de Pelourinho
-}
-2367.9.10 = {
 	holder = 40010 #Tristão I de Pelourinho
 }

@@ -233,13 +233,13 @@
 	add_trait = diligent
 	add_trait = content
 	
-	2258.10.23 = {
+	2288.10.23 = {
 		birth = yes
 	}
-	2289.5.25 = {
+	2319.5.25 = {
 		add_spouse = 40005
 	}
-	2320.11.3 = {
+	2330.11.3 = {
 		death = yes
 	}
 }
@@ -411,10 +411,10 @@
 	2268.10.23 = {
 		birth = yes
 	}
-	2289.5.25 = {
+	2319.5.25 = {
 		add_spouse = 40017
 	}
-	2319.3.22 = {
+	2329.3.22 = {
 		death = yes
 	}
 }
@@ -441,47 +441,48 @@
 	stewardship = 6
 	learning = 4
 	
-	2220.7.2 = {
+	2320.7.2 = {
 		birth = yes 
 	}
 	2323.7.2 = {
 		give_nickname = nick_the_great
 	}
-	2353.5.12 = { 
+	2354.5.12 = { 
 		death = yes 
 	}
 }
 
-40007 = {
-	name = "Flávio"
-	dynasty = 20001
-	religion = camdomble
-	culture = salvadorense
-	mother = 40006
-	disallow_random_traits = yes
-	add_trait = skilled_tactician
-	add_trait = dull
-	add_trait = lustful
-	add_trait = wroth
-	add_trait = stubborn
-	add_trait = arbitrary
-	
-	martial = 5
-	diplomacy = 3
-	intrigue = 1
-	stewardship = 2
-	learning = 2
-	
-	2324.8.4 = {
-		birth = yes
-	}
-	2354.12.29 = {
-		death = {
-			death_reason = death_battle
-			killer = 1 #Belchior
-		}
-	}
-}
+#40007 = {
+#	name = "Flávio"
+#	dynasty = 20001
+#	religion = camdomble
+#	culture = salvadorense
+#	mother = 40006
+#	disallow_random_traits = yes
+#	add_trait = skilled_tactician
+#	add_trait = dull
+#	add_trait = lustful
+#	add_trait = wroth
+#	add_trait = stubborn
+#	add_trait = arbitrary
+#	
+#	martial = 5
+#	diplomacy = 3
+#	intrigue = 1
+#	stewardship = 2
+#	learning = 2
+#	
+#	2324.8.4 = {
+#		birth = yes
+#	}
+#	2354.12.29 = {
+#		death = {
+#			death_reason = death_battle
+#			killer = 1 #Belchior
+#		}
+#	}
+#}
+#Flavio? what flavio?
 
 40008 = {
 	name = "Gabriela"
@@ -504,7 +505,7 @@
 	stewardship = 4
 	learning = 3
 	
-	2326.1.10 = {
+	2341.1.10 = {
 		birth = yes
 	}
 	2356.9.23 = {
@@ -534,7 +535,7 @@
 	stewardship = 3
 	learning = 2
 	
-	2327.12.13 = {
+	2344.12.13 = {
 		birth = yes
 	}
 	2356.9.23 = {
@@ -568,7 +569,7 @@
 	stewardship = 7
 	learning = 8
 	
-	2328.6.14 = {
+	2352.6.14 = {
 		birth = yes
 	}
 }
@@ -581,7 +582,7 @@
 	father = 40010
 	add_trait = quick
 
-	2365.6.14 = {
+	2370.6.14 = {
 		birth = yes
 	}
 }
@@ -594,7 +595,7 @@
 	culture = salvadorense
 	father = 40010
 	
-	2367.12.1 = {
+	2372.12.1 = {
 		birth = yes
 	}
 }
@@ -767,13 +768,13 @@
 	religion = camdomble
 	father = 40029
 	mother = 40027
-	trait = skilled_tactician
+	trait = tough_soldier
 	trait = bastard
 	trait = ambitious
 	trait = humble
 	trait = light_foot_leader
 	diplomacy = 9
-	martial = 8
+	martial = 5
 	stewardship = 4
 	intrigue = 3
 	learning = 6
@@ -785,4 +786,74 @@
 		death = yes
 	}
 	#the bastard son of Madalena and Francisco, founded a new dynasty and was elected ruler of Vera-Cruz following his uncle's death during the Universal revolt
+}
+
+##
+40031 = {
+	name = "João"
+	dynasty = 25007 #Figueiredo Correia
+	culture = salvadorense
+	religion = camdomble
+	trait = brilliant_strategist
+	trait = ambitious
+	trait = brave
+	trait = strategist
+	trait = inspiring_leader
+	trait = envious
+	disallow_random_traits = yes
+	
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 6
+	learning = 3
+	
+	2322.1.20 = {
+		birth = ye
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#Became the Exarch of Ilhéus around 2360
+}
+40032 = {
+	name = "João"
+	dynasty = 25007 #Figueiredo Correia
+	culture = salvadorense
+	religion = camdomble
+	father = 40031
+	
+	trait = willful
+	
+	2360.12.2 = {
+		birth = yes
+	}
+	#son of João I
+}
+40033 = {
+	name = "Helena"
+	female=yes
+	dynasty = 25008 #roseiro
+	culture=ilhense
+	religion=camdomble
+	trait=grey_eminence
+	trait=organizer
+	trait=just
+	trait=diligent
+	trait=proud
+	trait=honest
+	disallow_random_traits=yes
+	
+	2324.3.12 = {
+		birth=yes
+	}
+	2366.4.3 = {
+		effect={
+			add_rival=40031 #they were friends, but became rivals after João's controversial decision of attempting to attack Salvador
+		}
+	}
+	2400.1.1 = {
+		death=yes
+	}
+	#was awarded the duchy of valeça 
 }
