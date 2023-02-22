@@ -21,3 +21,87 @@
 		}
 	}
 }
+
+20002 = {
+	name = "Magalhães" #haha carlismo
+	religion = camdomble
+	culture = salvadorense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = candomble
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+20003 = {
+	name = "Lima e Silva"
+	religion = camdomble
+	culture = salvadorense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = candomble
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+20004 = {
+	name = "Giordino"
+	religion = camdomble
+	culture = salvadorense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = candomble
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+20005 = {
+	name = "Maia"
+	religion = camdomble
+	culture = salvadorense
+	can_appear = no
+	used_for_random = no
+}
+
+20006 = {
+	name = "Coronel"
+	religion = camdomble
+	culture = salvadorense
+	can_appear = no
+	used_for_random = no
+}
+
+20007 = {
+	name = "Ramos"
+	religion = camdomble
+	culture = salvadorense
+	can_appear = no
+	used_for_random = no
+}

@@ -6,8 +6,8 @@ title = c_alagoinhas
 # Settlements
 max_settlements = 3
 
-b_entre_rios_3 = castle
-#b_itanagra = city
+b_entre_rios_3 = city
+b_itanagra = castle
 #b_mangue_seco = temple
 #b_cristinapolis = castle
 #b_tobias_barreto = city

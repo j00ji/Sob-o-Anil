@@ -152,3 +152,19 @@
 		}
 	}
 }
+
+25009 = {
+	name = "Teixeira"
+	religion = camdomble
+	culture = ilhense
+	can_appear = no
+	used_for_random = no
+}
+
+25010 = {
+	name = "Moreira"
+	religion = camdomble
+	culture = ilhense
+	can_appear = no
+	used_for_random = no
+}

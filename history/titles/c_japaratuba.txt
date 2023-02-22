@@ -6,3 +6,12 @@
 800.1.1={
 	liege=k_salvador
 }
+2323.7.2 = {
+	liege=e_bahia
+}
+2334.4.11={
+	holder=40040 #Matias I
+}
+2367.9.10={
+	holder=40041 #Matias II
+}

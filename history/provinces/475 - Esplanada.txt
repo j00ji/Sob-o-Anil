@@ -6,8 +6,8 @@ title = c_esplanada
 # Settlements
 max_settlements = 3
 
-b_conde = castle
-b_rio_real = city
+b_conde = city
+b_rio_real = castle
 #b_carira = temple
 #b_poco_redondo = castle
 #b_porto_da_folha = city

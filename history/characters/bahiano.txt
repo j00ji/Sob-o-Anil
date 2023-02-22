@@ -544,7 +544,7 @@
 	2367.9.10 = {
 		death = {
 			death_reason = death_execution
-			#killer = Regent Eugênio Giordino
+			killer = 40042 #Regent Eugênio Giordino
 		}
 	}
 }
@@ -847,6 +847,9 @@
 	2324.3.12 = {
 		birth=yes
 	}
+	2359.2.3 = {
+		add_matrilineal_spouse = 40034
+	}
 	2366.4.3 = {
 		effect={
 			add_rival=40031 #they were friends, but became rivals after João's controversial decision of attempting to attack Salvador
@@ -856,4 +859,339 @@
 		death=yes
 	}
 	#was awarded the duchy of valeça 
+}
+
+40034 = {
+	name = "Gilberto"
+	dynasty = 25009 #Teixeira
+	culture = salvadorense
+	religion=camdomble
+	trait=tough_soldier
+	trait=patient
+	trait=content
+	trait=duelist
+	2319.10.5 = {
+		birth=yes
+	}
+	2366.4.3 = {
+		death = {
+			death_reason = death_battle
+			killer = 40042 #the regent
+		}
+	}
+}
+
+40035 = {
+	name = "Francisco"
+	dynasty = 25010 #moreira
+	culture = mediterranean
+	religion=camdomble
+	trait=tough_soldier
+	trait=ambitious
+	trait=stubborn
+	trait=lustful
+	2332.12.25={
+		birth=yes
+		culture=salvadorense
+	}
+	2366.4.3 = {
+		death = {
+			death_reason = death_battle
+			killer = 40042 #the regent
+		}
+	}
+	#former ruler of Iguai
+}
+
+40036 = {
+	name = "Luiz"
+	dynasty = 25010 #moreira
+	culture = mediterranean
+	religion=camdomble
+	father=40035
+	trait=strong
+	trait=legit_bastard
+	2363.11.26 = {
+		birth=yes
+		culture=ilhense
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#current ruler of Iguai
+}
+
+#Salvador vassals
+
+40037 = {
+	name = "Carlos"
+	dynasty = 20002 #Magalhães
+	culture = mediterranean
+	dna="0ddab0gc000"
+	properties="0i0di0000000000000000000000000000000"
+	religion = camdomble
+	trait=martial_cleric
+	trait=shrewd
+	trait=groomed
+	trait=physician
+	trait=gregarious
+	diplomacy=10
+	martial=3
+	stewardship=8
+	intrigue=8
+	learning=6
+	
+	2285.1.23 = {
+		birth = yes
+		culture = salvadorense
+	}
+	2349.7.20 = {
+		death = yes
+	}
+	#ruled Alagoinhas and Esplanada, duke of Rio Real
+}
+
+40038 = {
+	name = "Carlos"
+	dynasty = 20002 #Magalhães
+	dna="0ddab0gc000"
+	properties="fm0hla000000000000000000000000000000"
+	culture = mediterranean
+	religion = camdomble
+	father=40037
+	trait=underhanded_rogue
+	trait=greedy
+	trait=gluttonous
+	trait=content
+	diplomacy=6
+	martial=4
+	stewardship=6
+	intrigue=3
+	learning=4
+	
+	2319.5.16 = {
+		birth=yes
+		culture=salvadorense
+	}
+	2400.1.1={
+		death = yes
+	}
+	#rules Alagoinhas and Esplanada, duke of Rio Real
+}
+
+40039 = {
+	name = "Antônio"
+	dynasty = 20002 #Magalhães
+	culture = mediterranean
+	religion = camdomble
+	father=40037
+	trait=fortune_builder
+	trait=shrewd
+	trait=deceitful
+	diplomacy=7
+	martial=5
+	stewardship=6
+	intrigue=6
+	learning=3
+	
+	2340.5.12 = {
+		birth=yes
+		culture=salvadorense
+	}
+	2400.1.1={
+		death = yes
+	}
+	#rules Araci, vassal of Rio Real
+}
+
+##Lima e Silva##
+
+40040 = {
+	name = "Matias"
+	dynasty = 20003#Lima e Silva
+	culture = salvadorense
+	religion=camdomble
+	trait=intricate_webweaver
+	trait=ambitious
+	trait=wroth
+	trait=diligent
+	trait=heavy_infantry_leader
+	diplomacy=5
+	martial=8
+	stewardship=3
+	intrigue=7
+	learning=6
+	
+	2313.8.2={
+		birth=yes
+	}
+	2367.9.10={
+		death = {
+			death_reason = death_execution
+			#killer = Regent Eugênio Giordino
+		}
+	}
+	#ruler of Sergipe, briefly took the role as regent causing the Victorian civil war and later being executed
+}
+
+40041 = {
+	name = "Matias"
+	dynasty=20003#Lima e Silva
+	culture = atlanticano
+	religion=camdomble
+	father=40040
+	trait=tough_soldier
+	trait=stubborn
+	trait=diligent
+	trait=cynical
+	diplomacy=5
+	martial=8
+	stewardship=5
+	intrigue=4
+	learning=6
+	
+	2334.3.24={
+		birth=yes
+		culture=salvadorense
+	}
+	2400.1.1={
+		death=yes
+	}
+}
+
+#Giordino
+
+40042 = {
+	name="Eugênio"
+	dynasty=20004 #Giordino
+	culture=salvadorense
+	religion=camdomble
+	trait=brilliant_strategist
+	trait=quick
+	trait=just
+	trait=humble
+	trait=patient
+	trait=one_eyed
+	diplomacy=10
+	martial=6
+	stewardship=7
+	intrigue=8
+	learning=4
+	
+	2310.4.10={
+		birth=yes
+	}
+	2369.10.14={
+		death=yes
+	}
+	#old jeremoabo ruler
+}
+
+40043 = {
+	name="Ulisses"
+	dynasty=20004 #Giordino
+	culture=atlanticano
+	father=40042
+	trait=flamboyant_schemer
+	trait=quick
+	trait=just
+	trait=stubborn
+	diplomacy=6
+	martial=6
+	stewardship=4
+	intrigue=7
+	learning=4
+	
+	2333.6.10={
+		birth=yes
+		culture=salvadorense
+	}
+	2041.2.10={
+		effect={
+			add_friend=40042
+		}
+	}
+	2400.1.1={
+		death=yes
+	}
+	#jeremoabo ruler
+}
+
+##minor vassals
+
+40044 = {
+	name="Maria"
+	female=yes
+	dynasty=20005 #Maia
+	culture=salvadorense
+	religion=camdomble
+	trait=thrifty_clerk
+	trait=fair
+	trait=groomed
+	trait=greedy
+	trait=deceitful
+	diplomacy=7
+	martial=2
+	stewardship=6
+	intrigue=4
+	learning=1
+	
+	2342.11.23={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#rules bureaucratic county of Tucano
+}
+
+40045={
+	name="Horácio"
+	dynasty=20006 #coronel
+	culture=salvadorense
+	religion=camdomble
+	trait=misguided_warrior
+	trait=shy
+	trait=erudite
+	diplomacy=3
+	martial=3
+	stewardship=5
+	intrigue=4
+	learning=5
+	
+	2340.4.10={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#ruler of piritiba
+}
+
+40046 ={
+	name="Roque"
+	dna="cf000000000"
+	properties="0d0dia000000000000000000000000000000"
+	dynasty=20007 #ramos
+	culture=salvadorense
+	religion=camdomble
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=poet
+	trait=groomed
+	trait=lustful
+	disallow_random_traits=yes
+	diplomacy=7
+	martial=6
+	stewardship=5
+	intrigue=4
+	learning=5
+	
+	2339.10.12 = {
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#ruler of ibira
 }

@@ -6,8 +6,8 @@ title = c_araci
 # Settlements
 max_settlements = 3
 
-b_araci = castle
-#b_tucano = city
+b_araci = city
+#b_tucano = castle
 #b_ribeira_do_pombal = temple
 #b_olindina = castle
 #b_inhambupe = city

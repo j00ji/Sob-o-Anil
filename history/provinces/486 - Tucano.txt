@@ -6,8 +6,8 @@ title = c_tucano
 # Settlements
 max_settlements = 3
 
-b_valente = castle
-#b_jacobina = city
+b_valente = city
+#b_jacobina = castle
 #b_itaitu = temple
 #b_mirangaba = castle
 #b_caldeirao_grande = city

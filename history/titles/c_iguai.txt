@@ -7,5 +7,8 @@
 	liege=k_ilheus
 }
 2361.3.1 = {
-	holder = 40031 #João Figueiredo Correia
+	holder = 40035 #Awarded to General Francisco Moreira
+}
+2366.4.3 = {
+	holder = 40036 #passed to his son Luiz Moreira
 }
