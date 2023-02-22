@@ -1091,6 +1091,7 @@
 	name="Ulisses"
 	dynasty=20004 #Giordino
 	culture=atlanticano
+	religion=camdomble
 	father=40042
 	trait=flamboyant_schemer
 	trait=quick
