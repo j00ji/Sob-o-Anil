@@ -6,7 +6,7 @@ title = c_ramalho
 # Settlements
 max_settlements = 2
 
-b_barreiro = tribal
+b_barreiro = castle
 b_ramalho = temple
 #b_barrinha = temple
 #b_feira_da_mata = castle

@@ -120,7 +120,7 @@
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
-		religion = candomble
+		religion = camdomble
 		template = 0
 		layer = {
 			texture = 1
@@ -140,7 +140,7 @@
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
-		religion = candomble
+		religion = camdomble
 		template = 0
 		layer = {
 			texture = 1

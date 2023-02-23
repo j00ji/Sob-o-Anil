@@ -1196,3 +1196,34 @@
 	}
 	#ruler of ibira
 }
+
+#CHICONHOS
+
+60001 = {
+	name="Raul"
+	dynasty=30001 #Seixas
+	dna="bieag0e0000"
+	properties="uh0hgd000000000000000000000000000000"
+	culture=mediterranean
+	religion=angel_cult
+	secret_religion=varedesian
+	trait=scholarly_theologian
+	trait=quick
+	trait=sympathy_old_world
+	trait=poet
+	trait=mystic
+	diplomacy=8
+	martial=5
+	stewardship=3
+	intrigue=5
+	learning=7
+	
+	2341.6.5 = {
+		birth=yes
+		culture=chiconho
+	}
+	2400.1.1 = {
+		death=yes
+	}
+	#prince of Cariranha
+}

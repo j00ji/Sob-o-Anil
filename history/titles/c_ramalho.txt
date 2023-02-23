@@ -5,6 +5,6 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-2364.6.29={
-	holder=600006
+2363.6.29={
+	holder=60001 #Raul Seixas
 }

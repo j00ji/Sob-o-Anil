@@ -6,7 +6,7 @@ title = c_guanambi
 # Settlements
 max_settlements = 3
 
-b_canabrava = tribal
+b_canabrava = castle
 b_guanambi_2 = city
 #b_caetite_2 = temple
 #b_malhada = castle
