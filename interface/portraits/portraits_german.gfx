@@ -85,7 +85,7 @@ spriteTypes = {
 			{ 45 100 37 } #Green
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	portraitType = {
@@ -170,7 +170,7 @@ spriteTypes = {
 			{ 45 100 37 } #Green
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	portraitType = {
@@ -255,7 +255,7 @@ spriteTypes = {
 			{ 45 100 37 } #Green
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 #### german FEMALE ####
@@ -343,7 +343,7 @@ spriteTypes = {
 			{ 45 100 37 } #Green
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	portraitType = {
@@ -429,7 +429,7 @@ spriteTypes = {
 			{ 45 100 37 } #Green
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	portraitType = {
@@ -515,6 +515,6 @@ spriteTypes = {
 			{ 45 100 37 } #Green
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 }

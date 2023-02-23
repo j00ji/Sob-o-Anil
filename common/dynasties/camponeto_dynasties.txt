@@ -22,6 +22,39 @@
 	}
 }
 
+65002 = {
+	name = "de Barros"
+	culture = camponeto
+	religion = anchietican
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+65003 = {
+	name = "Luís"
+	culture = camponeto
+	religion = anchietican
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 ####################
 ####Random camponeto Surnames

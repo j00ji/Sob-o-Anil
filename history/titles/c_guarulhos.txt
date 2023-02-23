@@ -4,6 +4,7 @@
 }
 2224.12.13 = {
 	holder = 110508 #Odete Siqueira Bruno
+	liege = d_grande_sao_paulo
 }
 2263.11.3 = {
 	holder = 110509 #Jonas Siqueira Bruno
@@ -20,7 +21,6 @@
 2354.10.3 = {
 	holder = 110534 #Fabrícia Crespi
 }
-2364.4.13 = { #Alexandre takes Guarulhos
-	holder = 110001 #Alexandre I Cantarini
-	liege = d_grande_sao_paulo
+2364.4.13 = { #Letícia inherits Guarulhos, somehow
+	holder = 110325 #Oceana Leme
 }

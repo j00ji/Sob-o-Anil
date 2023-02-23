@@ -477,7 +477,7 @@ culture =
 {
 	religion = {
 		"umbanda"
-		"candomble"
+		"camdomble"
 	}
 
 	templates = { 

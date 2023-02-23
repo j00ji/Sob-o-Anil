@@ -20,6 +20,7 @@
 }
 2323.11.30 = {
 	holder = 110319 #Lívio Leme
+	liege = d_grande_sao_paulo
 }
 2330.12.20 = {
 	holder = 110304 #Graciano Anhanguera
@@ -27,9 +28,6 @@
 2351.2.10 = {
 	holder = 110307 #Vital Anhanguera
 }
-2363.5.30 = {
-	holder = 110325 #Oceana Leme
-}
-2364.5.1 = { #Alexandre subjugates Campinas
-	liege = d_grande_sao_paulo
+2363.5.30 = { #Alexandre is awarded Campinas
+	holder = 110001 #Alexandre I Cantarini
 }

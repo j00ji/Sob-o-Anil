@@ -105,7 +105,7 @@ spriteTypes = {
 			{ 57 175 60 } #Green
 		}
 		
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 	
 	# middle age
@@ -189,7 +189,7 @@ spriteTypes = {
 			{ 57 175 60 } #Green
 		}
 		
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 	
 	# old age
@@ -273,7 +273,7 @@ spriteTypes = {
 			{ 57 175 60 } #Green
 		}
 		
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 
@@ -360,7 +360,7 @@ spriteTypes = {
 			{ 57 175 60 } #Green
 		}
 		
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	# paulista FEMALE midage
@@ -445,7 +445,7 @@ spriteTypes = {
 			{ 57 175 60 } #Green
 		}
 		
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	# paulista FEMALE oldage
@@ -531,6 +531,6 @@ spriteTypes = {
 			{ 57 175 60 } #Green
 		}
 		
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 }

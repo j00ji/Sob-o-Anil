@@ -9,9 +9,9 @@
 2355.1.1 = { #Second Mineiro Invasion
 	holder = 110687 #Rodrigo II Desterro
 }
-2364.3.13 = {
+2363.3.13 = {
 	holder = 110690 #Fernando I Desterro
 }
 2366.1.1 = {#End of the Mineiro rule
-	holder = 110683 #Antonio Capelli
+	holder = 110719 #Osório de Barros
 }

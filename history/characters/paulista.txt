@@ -1337,16 +1337,17 @@
 	religion = anchietican
 	culture = paulistano
 	disallow_random_traits = yes
+	father = 110002
 	add_trait = brilliant_strategist
 	add_trait = genius
-	#add_trait = adventurer
 	add_trait = ambitious
+	add_trait = bandeirante
 	add_trait = temperate
-	add_trait = diligent
+	#add_trait = diligent
 	add_trait = proud
 	add_trait = brave
 	add_trait = gregarious
-	add_trait = just
+	#add_trait = just
 	add_trait = strategist
 	add_trait = master_of_flame
 	add_trait = inspiring_leader
@@ -1366,34 +1367,37 @@
 			set_character_flag = is_special_character
 		}
 	}
-	2364.1.25 = {
-		create_bloodline = {
-			type = alexandre
-			has_dlc = "Holy Fury"
-		}
-		#give_nickname = nick_the_great
-	}
-	2364.12.25 = {
-		add_spouse = 120053
-	}
+	#2364.1.25 = {
+	#	create_bloodline = {
+	#		type = alexandre
+	#		has_dlc = "Holy Fury"
+	#	}
+	#	#give_nickname = nick_the_great
+	#}
+	#2364.12.25 = {
+	#	add_spouse = 120053
+	#}
 }
 
 110002 = {
-	name = "Augusto"
-	#Augusto Cantarini, son of Alexandre
+	name = "Felipe"
+	#Felipe Cantarini, father of Alexandre
 	dynasty = 55001 #Cantarini
-	dna = 0cd0d0dci00
+	dna="bgb0a0gahb0"
+	properties="fl0dbd000000000000000000000000000000"
 	religion = anchietican
 	culture = paulistano
-	father = 110001
-	mother = 120053
-	add_trait = genius
+	add_trait=skilled_tactician
+	add_trait = quick
+	add_trait=bandeirante
+	add_trait=severely_injured	
 	
-	2367.10.10 = {
+	2309.3.21 = {
 		birth = yes
-		effect = { #Just in case he's granted a event chain of his own or the ability to continue the one of Alexandre
-			set_character_flag = is_augusto
-			set_character_flag = is_special_character
+	}
+	2359.10.10 = {
+		death = {
+			death_reason = death_trait
 		}
 	}
 }
@@ -11511,7 +11515,7 @@
 	2400.1.1 = {
 		death = yes
 	}
-	#counts of São Carlos, dukes of medio tiete
+	#counts of São Carlos, vassal of medio tiete
 }
 
 ##Desterro, Mineiro invaders of São Paulo
@@ -11984,6 +11988,8 @@
 	dynasty = 65001 #Villas Boas
 	culture = camponeto
 	religion = anchietican
+	dna="0fihh00ac00"
+	properties="ci0fg0000000000000000000000000000000"
 	
 	father = 110709
 	mother = 110710
@@ -12045,7 +12051,7 @@
 	dynasty = 65001 #Villas Boas
 	culture = camponeto
 	religion = anchietican
-	
+
 	father = 110709
 	mother = 110710
 	
@@ -12117,10 +12123,13 @@
 	2324.4.5 = {
 		birth = yes
 	}
+	2361.2.5 = { 
+		employer=120051 #Jaime
+	}
 	2400.1.1 = {
 		death = yes
 	}
-	#holder of Mogi-Guaçu, vassal of Reino Americano
+	#courtier of the reino americano
 }
 
 110716 = {
@@ -12195,4 +12204,61 @@
 	2400.1.1 = {
 		death = yes
 	}
+}
+
+#Jaú and Medio Tiete duke
+110719 = {
+	name = "Osório"
+	dynasty = 65002 #de Barros
+	culture = camponeto
+	religion = anchietican
+	dna="bfbgf0ib000"
+	properties="vh0dab0c0000000000000000000000000000"
+	trait=tough_soldier
+	trait=brave
+	trait=content
+	trait=scarred
+	trait=kind
+	trait=proud
+	diplomacy=4
+	martial=9
+	stewardship=4
+	intrigue=5
+	learning=7
+
+	2347.12.4 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death= yes
+	}
+	#owns Jaú and São João da Boa Vista
+}
+
+#Mogi-Guaçu current ruler
+110720 = {
+	name =  "Josmar"
+	dynasty = 65003 #Luís
+	culture = salvadorense
+	religion = anchietican
+	dna="0hgha0d0cb0"
+	properties="nh0edi0c0000000000000000000000000000"
+	trait=underhanded_rogue
+	trait=erudite
+	trait=cynical
+	trait=envious
+	diplomacy=6
+	martial=4
+	stewardship=5
+	intrigue=6
+	learning=8
+	
+	2337.9.5 = {
+		birth = yes
+		culture = camponeto
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#owns Mogi-Guaçu, vassal of Piracicaba
 }

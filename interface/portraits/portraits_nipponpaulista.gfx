@@ -91,7 +91,7 @@ spriteTypes = {
 			{ 30 22 16 } #Super Dark Brown
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 	
 	# middle age
@@ -164,7 +164,7 @@ spriteTypes = {
 			{ 30 22 16 } #Super Dark Brown
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 	
 	# old age
@@ -237,7 +237,7 @@ spriteTypes = {
 			{ 30 22 16 } #Super Dark Brown
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 #### Nippon Paulista Female ####
@@ -319,7 +319,7 @@ spriteTypes = {
 			{ 30 22 16 } #Super Dark Brown
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	# chinese female midage
@@ -400,7 +400,7 @@ spriteTypes = {
 			{ 30 22 16 } #Super Dark Brown
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	# chinese female oldage
@@ -481,6 +481,6 @@ spriteTypes = {
 			{ 30 22 16 } #Super Dark Brown
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 }

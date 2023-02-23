@@ -42,7 +42,11 @@
 2353.7.3 = { #William I West
 	holder = 120049
 }
-2359.2.10 = { #William I gives it to someone else
-	holder = 110715
-	liege = k_americano
+2359.2.10 = { #Rodrigo Desterro conquers it
+	holder = 110687
+	#liege = k_americano
+}
+2363.3.13 = { #Josmar Luís friend of the Lees
+	holder = 110720
+	liege = d_piracicaba
 }

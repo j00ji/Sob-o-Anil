@@ -104,7 +104,7 @@ spriteTypes = {
 		
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 	
 	# middle age
@@ -192,7 +192,7 @@ spriteTypes = {
 		
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 	
 	# old age
@@ -280,7 +280,7 @@ spriteTypes = {
 		
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 	
 	
@@ -374,7 +374,7 @@ spriteTypes = {
 		
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	# german female midage
@@ -465,7 +465,7 @@ spriteTypes = {
 		
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 
 	# german female oldage
@@ -556,6 +556,6 @@ spriteTypes = {
 		
 		}
 
-		headgear_that_hides_hair = { 10 12 13 }
+		headgear_that_hides_hair = { 12 13 }
 	}
 }

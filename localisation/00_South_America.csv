@@ -593,6 +593,8 @@ adept_astronomer;Adept Astronomer;;;;;;;;;;;;;x
 adept_astronomer_desc;This character in an adept in perfoming star-reading and prophesying, and is well respected amongt followers of the Camino Estelar.\n§GThis will grant better modifiers while fulfilling prophecies§!;;;;;;;;;;;;;x
 initiate_astronomer;Initiate Astronomer;;;;;;;;;;;;;x
 initiate_astronomer_desc;This character in a master in perfoming star-reading and prophesying, and is well respected amongt followers of the Camino Estelar.\n§GThis will grant better modifiers while fulfilling prophecies§!;;;;;;;;;;;;;x
+bandeirante;Bandeirante;;;;;;;;;;;;;x
+bandeirante_desc;This character is a veteran of the Bandeiras.;;;;;;;;;;;;;x
 
 ###DECISIONS ;;;;;;;;;;;;;;x
 change_evangelical_church;Change Evangelical Denomination;;;;;;;;;;;;;x
