@@ -6,7 +6,7 @@ title = c_igapora
 # Settlements
 max_settlements = 2
 
-b_igapora_2 = tribal
+b_igapora_2 = castle
 #b_tapiramuta = city
 #b_tanque_novo = temple
 #b_pajeu_do_vento = castle

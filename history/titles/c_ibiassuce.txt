@@ -1,3 +1,10 @@
 800.1.1={
 	liege=k_sao_francisco
 }
+2350.1.10={
+	liege=e_bahia
+	holder=60002 #Horácio de Matos
+}
+2363.10.26={
+	liege=none
+}

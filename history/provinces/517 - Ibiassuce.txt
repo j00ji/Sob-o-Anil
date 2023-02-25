@@ -6,7 +6,7 @@ title = c_ibiassuce
 # Settlements
 max_settlements = 2
 
-b_ibiassuce_2 = tribal
+b_ibiassuce_2 = castle
 #b_lagoa_real_2 = city
 #b_santo_antonio_6 = temple
 #b_ibitira = castle

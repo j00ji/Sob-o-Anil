@@ -22,3 +22,48 @@
 	}
 }
 
+30002 = {
+	name = "de Matos"
+	religion = angel_cult
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+30003 = {
+	name = "Barbosa"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+30004 = {
+	name = "Coelho"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+}

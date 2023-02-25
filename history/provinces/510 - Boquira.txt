@@ -6,8 +6,8 @@ title = c_boquira
 # Settlements
 max_settlements = 2
 
-b_canarana = castle
-#b_salobro = city
+b_canarana = city
+#b_salobro = castle
 #b_lagoa_funda = temple
 #b_barro_alto_2 = castle
 #b_ibipeba = city

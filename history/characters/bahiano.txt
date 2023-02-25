@@ -1197,6 +1197,33 @@
 	#ruler of ibira
 }
 
+#Brumado Ruler
+40047 = {
+	name="Valentim"
+	properties="e00hlc000000000000000000000000000000"
+	dynasty=20008 #Caravelas
+	culture=salvadorense
+	religion=camdomble
+	trait=midas_touched
+	trait=ambitious
+	trait=humble
+	trait=gregarious
+	trait=hedonist
+	diplomacy=6
+	martial=5
+	stewardship=6
+	intrigue=5
+	learning=4
+	
+	2331.4.12={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#duke of Brumado; rules Jequié, Itaquara and Boquira
+}
+
 #CHICONHOS
 
 60001 = {
@@ -1226,4 +1253,109 @@
 		death=yes
 	}
 	#prince of Cariranha
+}
+
+60002 = {
+	name="Horácio"
+	dynasty=30002 #de Matos
+	dna="cieec0d0000"
+	properties="el0hak000000000000000000000000000000"
+	culture=chiconho
+	religion=angel_cult
+	trait=flamboyant_schemer
+	trait=proud
+	trait=deceitful
+	trait=arbitrary
+	diplomacy=7
+	martial=6
+	stewardship=3
+	intrigue=7
+	learning=2
+	
+	2325.7.17 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#prince of Lapa, owns Igaporã and Ibiassucê
+}
+
+60003 = {
+	name="Wagner"
+	dynasty=270010 #Moura
+	culture=mediterranean
+	religion=cicerite
+	trait=flamboyant_schemer
+	trait=deceitful
+	trait=greedy
+	trait=proud
+	trait=cynical
+	diplomacy=5
+	martial=3
+	stewardship=6
+	intrigue=4
+	learning=7
+	
+	2346.2.14 = {
+		birth = yes
+		culture = chiconho
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#Macaubas
+}
+
+60004 = {
+	name="Ruy"
+	dynasty=30003 #Barbosa
+	dna="0dikb0ac000"
+	properties="eg0bck000000000000000000000000000000"
+	culture=atlanticano
+	religion=cicerite
+	trait=scholarly_theologian
+	trait=shrewd
+	trait=erudite
+	trait=diligent
+	diplomacy=7
+	martial=7
+	stewardship=7
+	intrigue=7
+	learning=7
+	
+	2309.4.2 = {
+		birth = yes
+		culture = chiconho
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#ruler of Copixaba
+}
+
+60005 = {
+	name = "Miltão"
+	dynasty=30004 #Coelho
+	dna="bhjig0kcbe0"
+	properties="af0imj000000000000000000000000000000"
+	culture=chiconho
+	religion=cicerite
+	trait=tough_soldier
+	trait=ambitious
+	trait=honest
+	trait=stubborn
+	diplomacy=3
+	martial=9
+	stewardship=4
+	intrigue=4
+	learning=4
+	
+	2324.5.17 = {
+		birth = yes
+	}
+	2400.1.1={
+		death = yes
+	}
+	#independent ruler of Capão and Paratinga
 }

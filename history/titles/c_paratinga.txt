@@ -6,3 +6,10 @@
 800.1.1={
 	liege=k_sao_francisco
 }
+2341.3.4={
+	holder=60005 #Miltão Coelho
+	liege=d_lapa
+}
+2363.1.1={
+	liege=none
+}
