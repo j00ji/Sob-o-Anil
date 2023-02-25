@@ -398,7 +398,7 @@ feudal_governments = {
 			is_patrician = no
 		}
 		
-		color = { 143 12 125 }
+		color = { 0 87 51 }
 
 		barons_need_dynasty = yes
 
@@ -463,7 +463,7 @@ feudal_governments = {
 			is_patrician = no
 		}
 		
-		color = { 143 12 125 }
+		color = { 0 87 51 }
 
 		barons_need_dynasty = yes
 
@@ -868,5 +868,78 @@ feudal_governments = {
 		
 		## Modifiers
 		court_size_modifier = 10
+	}
+	oligarchic_republic = {
+		preferred_holdings = { CITY }
+		allowed_holdings = {
+			TRADE_POST 
+			CITY 
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			merchant_republic_government
+			republic_government
+			oligarchic_republic
+		}
+		free_revoke_on_tiers = {
+			baron
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		forced_contract = {
+			oligarchic_republic
+			republic_government
+		}
+		frame_suffix = "_republic"
+		title_prefix = "oligarchic_republic_"
+		potential = {		
+			isnt_forced_to_theocracy = yes
+			NOR = {
+				is_government_potential = merchant_republic_government
+				is_government_potential = bureaucratic_government
+				is_government_potential = bureaucratic_government_tolerant
+			}
+			higher_tier_than = BARON
+			is_patrician = no
+			mercenary = no
+			is_landed = yes
+		}
+		
+		color = { 245 105 66 }
+		aggression = 0.9
+		barons_need_dynasty = yes
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		uses_prestige_for_law_change = yes
+		uses_bride_price = yes
+		can_create_empires = no
+		can_usurp_kingdoms_and_empires = no
+		can_grant_kingdoms_and_empires_to_other_government_group = yes
+		commander_limit = 2
+		
+		character_modifier = {
+			retinue_maintenence_cost = -0.2
+			city_vassal_tax_modifier = 0.1
+		}
+		unit_modifier = {
+			retinuesize_perc = 1
+		}
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		
+		capital_move_delay = 600
+		
+		## Modifiers
+		vassal_limit = -2
+		court_size_modifier = 5
+		court_size_maintenance_cost_modifier = -0.05
 	}
 }

@@ -11,8 +11,8 @@
 }
 2071.5.6 = {
 	holder = 110661 #Lino de Julho, he would convert São Paulo towards bureaucracy
-	law = succ_bureaucratic_elective
-	government = bureaucratic_government
+	law = succ_oligarchic_elective
+	government = oligarchic_republic
 }
 2106.1.1={
 	#holder = #Amongst the last Catholic rulers

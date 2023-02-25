@@ -1250,6 +1250,14 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\government_icon_military_governorate.dds"
 	}
 	spriteType = {
+		name = "GFX_icon_oligarchic_republic"
+		texturefile = "gfx\\interface\\government_icon_oligarchic_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_oligarchic_republic_tolerant"
+		texturefile = "gfx\\interface\\government_icon_oligarchic_republic.dds"
+	}
+	spriteType = {
 		name = "GFX_checkmark"
 		texturefile = "gfx\\interface\\checkmark.dds"
 	}

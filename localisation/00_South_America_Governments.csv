@@ -28,6 +28,9 @@ roman_imperial_government_desc;Brazilian Imperial is a system upon which an Empe
 roman_imperial_government_tolerant;Brazilian Imperial but Tolerant;;;;;;;;;;;;;x;
 roman_imperial_government_tolerant_desc;Brazilian Imperial is a system upon which an Emperor employs the help of bureaucratic governors and military captains, in order to aid in the maintanence of a huge state. Thus, Brazilian Imperial realms live under a constant state of shifting power and politics: at times, the bureaucratic governors might be the most powerful class, dictating an inward focus on internal development, at others the Military might fulfill that role, leading to hawkish diplomacy and more focus into security, or to a balance between those two groups, benefitial to shrewd emperors wishing to take a more active role in the politics of the realm.;;;;;;;;;;;;;x;
 
+oligarchic_republic;Oligarchic Republic;;;;;;;;;;;;;x
+oligarchic_republic_desc;Under this system of government, a small group of the republic's citizens elect their leader from amongst themselves, with the leader ruling until their death. This system differs from the feudal system since it is not inherently hereditary. However, it often can become such due to corruption. It differs from a Merchant Republic since its main focus is not trade although it can partake in it..;;;;;;;;;;;;;x
+
 ##Titles
 bureaucracy_job_marshal;Colonel;;;;;;;;;;;;;x
 
@@ -69,6 +72,19 @@ military_emperor_female;Marshal;;;;;;;;;;;;;x
 military_empire_of;Marshalcy of;;;;;;;;;;;;;x
 military_empire;Marshalcy;;;;;;;;;;;;;x
 
+oligarchic_republic_baron;Mayor;;;;;;;;;;;;;x
+oligarchic_republic_baron_female;Mayoress;;;;;;;;;;;;;x
+oligarchic_republic_count;Mayor;;;;;;;;;;;;;x
+oligarchic_republic_count_female;Mayoress;;;;;;;;;;;;;x
+oligarchic_republic_duke;Archon;;;;;;;;;;;;;x
+oligarchic_republic_duke_female;Archon;;;;;;;;;;;;;x
+oligarchic_republic_king;Premier;;;;;;;;;;;;;x
+oligarchic_republic_king_female;Premier;;;;;;;;;;;;;x
+oligarchic_republic_emperor;Grand Premier;;;;;;;;;;x
+oligarchic_republic_emperor_female;Grand Premier;;;;;;;;;;x
+oligarchic_republic_barony_of;City of;;;;;;;;;;;;;x
+oligarchic_republic_county_of;City State of;;;;;;;;;;;;;x
+oligarchic_republic_duchy_of;Grandiose City State of;;;;;;;;;;;;;x
 
 ##Laws
 religion_tolerance;Religious Tolerance;;;;;;;;;;;;;x;

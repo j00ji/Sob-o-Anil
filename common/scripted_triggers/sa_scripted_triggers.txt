@@ -206,21 +206,35 @@ is_born_under_Pisces_trigger = {
 }
 bureaucratic_title_trigger={
 	OR = {
-		title = d_federal_district
-		title = d_grande_rio
-		title = d_grande_sao_paulo
-		##SP VASSALS##
-		title = c_guarulhos
-		title = c_osasco
-		title = c_mogi_das_cruzes 
-		##SP VASSALS##
+		#title = d_federal_district
+		#title = d_grande_rio
+		#title = d_grande_sao_paulo
+		###SP VASSALS##
+		#title = c_guarulhos
+		#title = c_osasco
+		#title = c_mogi_das_cruzes 
+		###SP VASSALS##
 	}
 }
-
 military_title_trigger={
 	OR = {
 		title = k_costa_verde_generalship
 		title = k_goytacazes_generalship
 		title = k_costa_sol_generalship
+	}
+}
+isnt_forced_to_theocracy = {
+	trigger_if = {
+		limit = { controls_religion = yes }
+		OR = {
+			controls_religion = no
+			religion_group = muslim
+			religion = universal
+			has_religion_feature = religion_temporal_head
+			AND = {
+				religion = calafatist_reformed
+				has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
+			}
+		}
 	}
 }

@@ -92,7 +92,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			holder_scope = {
@@ -214,7 +214,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			holder_scope = {
@@ -320,7 +320,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			holder_scope = {
@@ -446,7 +446,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			holder_scope = {
@@ -620,7 +620,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			holder_scope = {
@@ -786,7 +786,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			holder_scope = {
@@ -897,7 +897,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			OR = {
@@ -1064,7 +1064,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			holder_scope = {
@@ -1194,7 +1194,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			holder_scope = {
@@ -1366,7 +1366,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			holder_scope = {
@@ -1446,12 +1446,20 @@ succession_laws = {
 	succ_appointment = {
 		potential = {
 			holder_scope = {
-				is_feudal = yes
-				independent = no
-				any_liege = {
-					holy_order = yes
+				OR = {
+					AND = {
+						is_feudal = yes
+						independent = no
+						any_liege = {
+							holy_order = yes
+						}
+						is_merchant_republic = no
+					}
+					AND = {
+						government = republic_government
+						liege = { government = oligarchic_republic }
+					}
 				}
-				is_merchant_republic = no
 			}
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
@@ -1474,7 +1482,7 @@ succession_laws = {
 				}
 			}
 			NAND = {
-				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant } }
+				holder_scope = { OR = { government = bureaucratic_government government = bureaucratic_government_tolerant government = oligarchic_republic } }
 				higher_tier_than = COUNT
 			}
 			NAND = {
@@ -1685,6 +1693,27 @@ succession_laws = {
 		revoke_allowed = {
 			always = no
 		}	
+	}
+	
+	succ_oligarchic_elective = {
+		potential = {
+			holder_scope = {
+				OR = {
+					government = oligarchic_republic
+				}
+			}
+		}
+		allow = {			
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = oligarchic_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}		
 	}
 	
 	succ_brazilian_elective = {
