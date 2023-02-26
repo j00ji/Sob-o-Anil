@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_sao_francisco
 }
+2335.4.24={
+	holder=60004 #Ruy Barbosa
+	liege=d_brumado
+}

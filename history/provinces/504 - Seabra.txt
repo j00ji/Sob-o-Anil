@@ -6,7 +6,7 @@ title = c_seabra
 # Settlements
 max_settlements = 3
 
-b_itaquara = tribal
+b_itaquara = castle
 #b_iguatemi_2 = city
 #b_ubiracaba = temple
 #b_castelo_branco = castle

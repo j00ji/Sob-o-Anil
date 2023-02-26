@@ -792,7 +792,7 @@
 40031 = {
 	name = "João"
 	dynasty = 25007 #Figueiredo Correia
-	culture = salvadorense
+	culture = ilhense
 	religion = camdomble
 	trait = brilliant_strategist
 	trait = ambitious
@@ -1224,6 +1224,32 @@
 	#duke of Brumado; rules Jequié, Itaquara and Boquira
 }
 
+40048 = {
+	name="Manuel"
+	dynasty=20009 #Freitas
+	culture=salvadorense
+	religion=camdomble
+	dna="bdeia0db000"
+	properties="dk0abd000000000000000000000000000000"
+	trait=skilled_tactician
+	trait=shy
+	trait=wroth
+	trait=paranoid
+	diplomacy=3
+	martial=8
+	stewardship=5
+	intrigue=4
+	learning=1
+	
+	2323.11.1 = {
+		birth = ye
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#duke of diamantina, rules Seabra and Sincora
+}
+
 #CHICONHOS
 
 60001 = {
@@ -1331,7 +1357,7 @@
 	2400.1.1 = {
 		death = yes
 	}
-	#ruler of Copixaba
+	#ruler of itaparica
 }
 
 60005 = {
@@ -1358,4 +1384,71 @@
 		death = yes
 	}
 	#independent ruler of Capão and Paratinga
+}
+
+60006 = {
+	name = "Amadeu"
+	dynasty = 30005#Martins
+	culture=chiconho
+	religion=cicerite
+	trait=martial_cleric
+	trait=shy
+	trait=ugly
+	diplomacy=4
+	martial=7
+	stewardship=6
+	intrigue=4
+	learning=5
+	
+	2353.10.12 = {
+		birth = yes
+	}
+	2400.1.1={
+		death=yes
+	}
+	#copixaba ruler
+}
+
+60007 = {
+	name = "Francisco"
+	dynasty = 30006 #Liberato
+	culture=chiconho
+	religion=angel_cult
+	trait=martial_cleric
+	trait=poet
+	diplomacy=4
+	martial=7
+	stewardship=6
+	intrigue=4
+	learning=5
+	
+	2341.12.3 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#ruler of Gavião
+}
+
+60008 = {
+	name = "Zé"
+	dynasty = 30007 #do Fandango
+	culture=chiconho
+	religion=angel_cult
+	trait=underhanded_rogue
+	trait=poet
+	diplomacy=4
+	martial=7
+	stewardship=6
+	intrigue=4
+	learning=5
+	
+	2339.4.5 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#ruler of Espinhaço
 }

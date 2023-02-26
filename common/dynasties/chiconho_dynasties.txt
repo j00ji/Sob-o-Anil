@@ -67,3 +67,27 @@
 	can_appear = no
 	used_for_random = no
 }
+
+30005 = {
+	name = "Martins"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+}
+
+30006 = {
+	name = "Liberato"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+}
+
+30007 = {
+	name = "do Fandango"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+}

@@ -6,8 +6,8 @@ title = c_itaparica
 # Settlements
 max_settlements = 2
 
-b_iguira = castle
-#b_itaguacu = city
+b_iguira = city
+#b_itaguacu = castle
 #b_xique_xique = temple
 #b_ibiraba = castle
 #b_passagem = city

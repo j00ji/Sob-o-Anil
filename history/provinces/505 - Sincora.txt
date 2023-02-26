@@ -6,7 +6,7 @@ title = c_sincora
 # Settlements
 max_settlements = 2
 
-b_estiva = tribal
+b_estiva = castle
 b_barbado = temple
 #b_ituacu = temple
 #b_tinhacu = castle
