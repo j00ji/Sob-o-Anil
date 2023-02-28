@@ -1503,8 +1503,110 @@
 		birth = yes
 		culture=sertanista
 	}
+	2365.10.3 = {
+		effect = {
+			make_tributary = {
+				who = 60012
+				tributary_type = default
+			}
+			make_tributary = {
+				who = 60013
+				tributary_type = default
+			}
+			make_tributary = {
+				who = 60014
+				tributary_type = default
+			}
+		}
+	}
 	2400.1.1 = {
 		death = yes
 	}
 	#second ruler of Sobrado, directly rules arcado and remanso
+}
+
+#the Mirandas
+60011 = {
+	name = "José Maria"
+	culture=mediterranean
+	religion=cicerite
+	dynasty=30009 #Miranda
+	trait=thrifty_clerk	
+	trait=diligent
+	trait=honest
+	
+	2305.2.9 = {
+		birth = yes
+		culture = sertanista
+	}
+	2360.5.10 = {
+		death=yes
+	}
+	#owned Sento Sé, Sobradinho and Ourolandia
+}
+
+60012 = {
+	name = "Carmen"
+	female=yes
+	dna="bcfb00fc0d0"
+	properties="rg0e0k0000000000000000000000000000000"
+	culture=mediterranean
+	religion=cicerite
+	dynasty=30009 #Miranda
+	trait=charismatic_negotiator
+	trait=fair
+	trait=poet
+	
+	2339.2.9 = {
+		birth = yes
+		culture = sertanista
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#owns Sento Sé
+}
+
+60013 = {
+	name = "Aurora"
+	female=yes
+	dna="0fbdh0gc0b0"
+	properties="ni0d0c0000000000000000000000000000000"
+	culture=mediterranean
+	religion=cicerite
+	dynasty=30009 #Miranda
+	trait=thrifty_clerk
+	trait=fair
+	trait=poet
+	
+	2345.4.20 = {
+		birth = yes
+		culture = sertanista
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#owns Sobradinho
+}
+
+60014 = {
+	name = "Cecilia"
+	female=yes
+	dna="bcfb00fc0d0"
+	properties="rg0e0k0000000000000000000000000000000"
+	culture=mediterranean
+	religion=cicerite
+	dynasty=30009 #Miranda
+	trait=martial_cleric
+	trait=fair
+	trait=poet
+	
+	2343.10.20 = {
+		birth = yes
+		culture = sertanista
+	}	
+	2400.1.1 = {
+		death = yes
+	}
+	#owns Ourolandia
 }
