@@ -2371,14 +2371,14 @@
 	religion = apostolic
 }
 65959 = {
-	name = "Rocha"
+	name = "Rodrigues"
 	culture = camponeto
 	religion = apostolic
 	used_for_random = no
 	can_appear = no
 }
 65960 = {
-	name = "Rodrigues"
+	name = "Rocha"
 	culture = camponeto
 	religion = apostolic
 }

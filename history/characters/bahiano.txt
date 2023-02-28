@@ -1452,3 +1452,59 @@
 	}
 	#ruler of Espinhaço
 }
+
+60009 = {
+	name = "Henrique"
+	dna="ccjfe0hcca0"
+	properties="jn0egc000000000000000000000000000000"
+	dynasty = 30008# Gavião
+	culture=atlanticano
+	religion=cicerite
+	trait=grey_eminence
+	trait=kind
+	trait=patient
+	trait=gregarious
+	trait=brave
+	trait=celibate
+	diplomacy=7
+	martial=9
+	stewardship=7
+	intrigue=4
+	learning=6
+	
+	2299.6.10 = {
+		birth=yes
+		culture=sertanista
+	}
+	2365.10.3 = {
+		death = yes
+	}
+	#First ruler of Sobrado, directly rules arcado and remanso
+}
+
+60010 = {
+	name = "Silvia"
+	female=yes
+	father=60009
+	dna="bbaci0cacb0"
+	properties="ea0k0i0000000000000000000000000000000"
+	dynasty = 30008# Gavião
+	culture=atlanticano
+	religion=cicerite
+	trait=charismatic_negotiator
+	trait=kind
+	trait=gregarious
+	diplomacy=8
+	martial=5
+	stewardship=7
+	intrigue=5
+	learning=5
+	2339.10.4 = {
+		birth = yes
+		culture=sertanista
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#second ruler of Sobrado, directly rules arcado and remanso
+}

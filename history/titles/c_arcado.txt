@@ -6,3 +6,9 @@
 800.1.1={
 	liege=k_sao_francisco
 }
+2329.1.15 = {
+	holder = 60009 #Henrique Gavião
+}
+2365.10.3 = {
+	holder = 60010 #Silvia Gavião
+}
