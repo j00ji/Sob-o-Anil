@@ -1610,3 +1610,196 @@
 	}
 	#owns Ourolandia
 }
+
+#Vassals of Sobrado
+
+60015 = {
+	name = "Rafael"
+	dynasty=30010 #de Queiroz
+	culture=sertanista
+	religion=cicerite
+	trait=misguided_warrior
+	trait=is_malnourished
+	trait=uncouth
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	2334.3.3 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#campo alegre
+}
+
+60016 = {
+	name = "Cristiano"
+	dynasty=30011 #Anda-Luz
+	culture=sertanista
+	religion=cicerite
+	trait=amateurish_plotter
+	trait=gluttonous
+	trait=proud
+	trait=shrewd
+	trait=cruel
+	2345.10.12 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death=yes
+	}
+	#trancado
+}
+
+60017 = {
+	name = "Cristino"
+	dynasty=30012 #Corisco
+	dna="abjih0bbb00"
+	properties="0n0k0k000000000000000000000000000000"
+	culture=pomerisch
+	religion=cicerite
+	trait=flamboyant_schemer
+	trait=robust
+	trait=brave
+	trait=stubborn
+	trait=impaler
+	diplomacy=4
+	martial=8
+	stewardship=5
+	intrigue=6
+	learning=2
+	
+	2337.8.10 = {
+		birth = yes
+		culture = chiconho
+	}
+	2365.1.1 = {
+		add_spouse = 60018 #Dadá
+	}
+	2400.1.1 = {
+		death=yes
+	}
+	#rules Cotegipe and Rio Grande
+}
+
+60018 = {
+	name="Dadá"
+	dynasty=none
+	culture=chiconho
+	religion=cicerite
+	trait=tough_soldier
+	diplomacy=4
+	martial=8
+	stewardship=4
+	intrigue=3
+	learning=2
+	
+	2343.4.25 = {
+		birth=yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#wife of Corisco
+}
+
+60019 = {
+	name="Zé"
+	dynasty=30013 #Rufino
+	culture=chiconho
+	religion=cicerite
+	trait=skilled_tactician
+	trait=poet
+	trait=brave
+	trait=hunter
+	trait=impaler
+	
+	diplomacy=5
+	martial=9
+	stewardship=4
+	intrigue=5
+	learning=3
+	
+	2336.2.20 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#rules Barra and Ibiraba
+}
+
+60020 = {
+	name="Bernardo"
+	dynasty=30013 #Rufino
+	culture=chiconho
+	religion=cicerite
+	trait=mastermind_theologian
+	trait=strategist
+	trait=lustful
+	trait=charitable
+	trait=gregarious
+	diplomacy=7
+	martial=8
+	stewardship=5
+	intrigue=5
+	learning=6
+	
+	2319.5.10 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#priestly ruler of Serra Dourada
+}
+
+60021 = {
+	name="Chico"
+	dynasty=30014 #Calmon
+	culture=chiconho
+	religion=cicerite
+	trait=thrifty_clerk
+	trait=greedy
+	diplomacy=5
+	martial=7
+	stewardship=4
+	intrigue=6
+	learning=5
+	
+	2323.11.6 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#São Desidério Ruler
+}
+
+60022 = {
+	name="Mariano"
+	dynasty=30015 #Coimbra
+	religion=cicerite
+	culture=chiconho
+	trait=misguided_warrior
+	trait=shy
+	trait=craven
+	trait=humble
+	trait=trusting
+	diplomacy=5
+	martial=7
+	stewardship=4
+	intrigue=6
+	learning=5
+	
+	2343.4.3 = {
+		birth=yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+	#Formoso ruler
+}

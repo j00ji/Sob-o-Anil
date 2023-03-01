@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_sao_francisco
 }
+2351.3.10={
+	holder=60020 #Bernardo Rufino
+}

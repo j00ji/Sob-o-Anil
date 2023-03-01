@@ -129,3 +129,63 @@
 		}
 	}
 }
+
+30010 = {
+	name = "de Queiroz"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+}
+
+30011 = {
+	name = "Anda-luz"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+}
+
+30012 = {
+	name = "Corisco"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+}
+
+30013 = {
+	name = "Rufino"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = camdomble
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+30014 = {
+	name = "Calmon"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+}
+
+30015 = {
+	name = "Coimbra"
+	religion = cicerite
+	culture = chiconho
+	can_appear = no
+	used_for_random = no
+}
