@@ -6,7 +6,7 @@ title = c_francisco_dumont
 # Settlements
 max_settlements = 3
 
-b_forte_cabral = castle
+b_forte_cabral = tribal
 #b_jequitai = city
 #b_dolabela = temple
 #b_porto_faria = castle

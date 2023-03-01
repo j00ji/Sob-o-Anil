@@ -6,7 +6,7 @@ title = c_guarda_mor
 # Settlements
 max_settlements = 3
 
-b_guardaverde = castle
+b_guardaverde = tribal
 #b_passo_principe = city
 #b_impossiveis = temple
 #b_vazante = castle

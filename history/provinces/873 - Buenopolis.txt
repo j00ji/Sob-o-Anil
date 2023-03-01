@@ -6,7 +6,7 @@ title = c_buenopolis
 # Settlements
 max_settlements = 3
 
-b_contagem = castle
+b_contagem = tribal
 #b_lassance = city
 #b_beltrao = temple
 #b_joaquim_felicio = castle

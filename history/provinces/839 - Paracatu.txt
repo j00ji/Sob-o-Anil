@@ -6,7 +6,7 @@ title = c_paracatu
 # Settlements
 max_settlements = 3
 
-b_morro_do_ouro_2 = castle
+b_morro_do_ouro_2 = tribal
 #b_duas_pontes = city
 #b_principe = temple
 #b_sao_luiz = castle
