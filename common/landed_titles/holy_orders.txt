@@ -12,7 +12,7 @@ d_twelve_pairs_of_france = {
 	
 	# Parent Religion 
 	religion = celeste	
-	culture = gaucho
+	culture = greenbelly
 
 	holy_order = yes
 	landless = yes

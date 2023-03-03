@@ -570,10 +570,21 @@
 	used_for_random = no
 }
 90011={
-	name="Calloni"
+	name="Dalló"
 	culture=talian
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 90012={
 	name="Ramos"
@@ -2166,6 +2177,24 @@
 	culture= paranaense
 	can_appear = no
 	used_for_random = no
+}
+110009={
+	name="Kuznetsovsky"
+	culture= rutenio
+	religion = orthodoxist
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 ####################
 ##Random dynasties

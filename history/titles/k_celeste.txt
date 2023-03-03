@@ -3,9 +3,6 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_santa_catarina
-}
 1912.1.1={
 	holder = 270053 #José Maria
 }
@@ -20,9 +17,4 @@
 }
 1916.8.1={
 	holder = none
-}
-####Need to make a proper list of leaders from 2112 onwards###
-2360.1.1={
-	holder = 270056 #Leticia
-	de_jure_liege = k_santa_catarina
 }

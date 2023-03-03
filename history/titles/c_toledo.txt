@@ -7,5 +7,6 @@
 	liege=k_parana
 }
 2360.1.1={
-	holder = 260010#Rodrigo Jalloul
+	holder = 260009#Omar Habibs
+	liege = k_teachers
 }

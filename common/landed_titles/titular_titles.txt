@@ -134,7 +134,6 @@ k_americano = {
 	
 	allow = {
 		culture = americano
-		has_landed_title = d_americana
 		OR = {
 			has_landed_title = d_piracicaba
 			num_culture_realm_provs	= {
@@ -276,21 +275,6 @@ k_california = { #california paulista lol
 	}
 }
 ### Duchies ###
-
-d_americana = {
-	color = { 27 67 107 }
-	color2 = { 255 255 255 }
-
-	capital = 57 #Americana
-
-	culture = americano
-
-	allow = {
-		culture = americano
-		has_landed_title = c_americana
-		has_landed_title = c_holambra
-	}
-}
 
 d_trifrontier = {
 	color={ 33 177 116 }

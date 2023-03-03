@@ -6,8 +6,12 @@
 800.1.1={
 	liege=k_santa_catarina
 }
-2360.1.1={
-	holder = 270056 #Leticia
-	de_jure_liege = d_contestado_celeste
-	liege = d_contestado_celeste
+2320.1.1={
+	holder=260013 #Giuseppe Calloni
+}
+2342.1.1={
+	holder=260014 #Enrico Calloni
+}
+2365.1.1={
+	holder=260016 #Vitor Calloni
 }

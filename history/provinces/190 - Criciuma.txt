@@ -16,6 +16,6 @@ b_sao_jose_cathedral = temple
 
 # Misc
 culture = greenbelly
-religion = celeste
+religion = anchietican
 
 #History

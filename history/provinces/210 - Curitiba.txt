@@ -16,6 +16,6 @@ b_piraquara = castle
 
 # Misc
 culture = paranaense
-religion = orthodoxist
+religion = anchietican
 
 #History

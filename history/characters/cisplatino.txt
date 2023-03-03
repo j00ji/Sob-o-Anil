@@ -2,7 +2,9 @@
 260001={
 	name="Ahnume"
 	dynasty=85002#Guerios
-	culture=arabic
+	culture=paranaense
+	dna="bafdh00aad0"
+	properties="rn0cmk000000000000000000000000000000"
 	religion=anchietican
 	trait=charismatic_negotiator
 	trait=proud
@@ -278,8 +280,8 @@
 	#wife of Alessandro Fagundes
 }
 260013={
-	name="Giuseppe" #Father of Letícia Calloni
-	dynasty=90011 #Calloni
+	name="Giuseppe" #Father of Letícia Dalló
+	dynasty=90011 #Dalló
 	culture=talian
 	religion=celeste
 	trait=flamboyant_schemer
@@ -294,11 +296,11 @@
 	2342.1.1={
 		death=yes
 	}
-	#former ruler of Pato Branco and Francisco Beltrão
+	#ruled Chapecó, S Miguel do Oeste, and Xanxere, formed the contestado duchy
 }
 260014={
 	name="Enrico"
-	dynasty=90011 #Calloni
+	dynasty=90011 #Dalló
 	father=260013
 	culture=talian
 	religion=celeste
@@ -313,15 +315,15 @@
 	2361.1.1={
 		add_spouse=260015
 	}
-	23647.1.1={
-		culture=paranaense
-	}
+	#23647.1.1={
+	#	culture=paranaense
+	#}
 	2365.1.1={
 		death={
 			death_reason=death_murder_unknown
 		}
 	}
-	#ruled Pato Branco and Francisco Beltrão, formed the Vale do Iguaçu duchy
+	#ruled Chapecó, S Miguel do Oeste, and Xanxere, formed the contestado duchy
 }
 260015={
 	name="Zaida"
@@ -345,7 +347,7 @@
 }
 260016={
 	name="Vitor"
-	dynasty=90011 #Calloni
+	dynasty=90011 #Dalló
 	culture=talian
 	father=260014
 	mother=260015
@@ -354,12 +356,11 @@
 	trait=timid
 	2361.4.1={
 		birth=yes
-		culture=paranaense
 	}
 	2400.1.1={
 		death=yes
 	}
-	#current ruler of Vale do Iguaçu
+	#current ruler of S Miguel do Oeste, and Xanxere, formed the contestado duchy
 }
 260017={
 	name="Robson"
@@ -1445,7 +1446,7 @@
 	name="Angelo"
 	dynasty=105003 #Balan
 	culture=talian
-	religion=celeste
+	religion=anchietican
 	trait=elusive_shadow
 	trait=is_fat
 	trait=wroth
@@ -1464,7 +1465,7 @@
 	dynasty=105003 #Balan
 	father=270038
 	culture=talian
-	religion=celeste
+	religion=anchietican
 	trait=midas_touched
 	trait=diligent
 	trait=lustful
@@ -1484,7 +1485,7 @@
 	name="Gabriela"
 	dynasty=100007 #Renaux
 	culture=hunsruckisch
-	religion=celeste
+	religion=anchietican
 	trait=fortune_builder
 	trait=wroth
 	trait=robust
@@ -1503,7 +1504,7 @@
 	father=270039
 	mother=270040
 	culture=talian
-	religion=celeste
+	religion=anchietican
 	trait=tough_soldier
 	trait=wroth
 	trait=arbitrary
@@ -1526,7 +1527,7 @@
 	father=270039
 	mother=270040
 	culture=talian
-	religion=celeste
+	religion=anchietican
 	trait=scholarly_theologian
 	trait=shrewd
 	trait=cynical
@@ -1552,7 +1553,7 @@
 	father=270039
 	female=yes
 	culture=talian
-	religion=celeste
+	religion=anchietican
 	trait=legit_bastard
 	2342.1.1={
 		birth=yes
@@ -1567,7 +1568,7 @@
 	dynasty=none
 	female=yes
 	culture=greenbelly
-	religion=celeste
+	religion=anchietican
 	trait=naive_appeaser
 	trait=kind
 	trait=stubborn
@@ -1583,7 +1584,7 @@
 	name="Enzo"
 	dynasty=105003 #Balan
 	culture=talian
-	religion=celeste
+	religion=anchietican
 	trait=charismatic_negotiator
 	trait=poet
 	trait=ambitious
@@ -1605,7 +1606,7 @@
 	name="Giovanni"
 	dynasty=105003 #Balan
 	culture=talian
-	religion=celeste
+	religion=anchietican
 	trait=thrifty_clerk
 	trait=diligent
 	diplomacy=9
@@ -1800,7 +1801,7 @@
 
 270056={
 	name="Letícia"
-	dynasty=90011 #Calloni
+	dynasty=90011 #Dalló
 	father=260013
 	female=yes
 	culture=paulistano
@@ -2880,6 +2881,81 @@
 	
 	2341.5.1={birth=yes}
 	2415.1.1={death=yes}
+}
+
+310002={
+	name="Leôncio"
+	dynasty=110009 #Kuznetsovsky
+	religion=orthodoxist
+	culture=rutenio
+	disallow_random_traits=yes
+	add_trait=tough_soldier
+	add_trait=diligent
+	add_trait=humble
+	add_trait=content
+	add_trait=cynical
+	add_trait=poet
+	
+	martial=2
+	diplomacy=5
+	intrigue=6
+	stewardship=4
+	learning=7
+	
+	2290.5.1={birth=yes}
+	2355.1.1={death=yes}
+	#former ruler of Francisco Beltrão and Pato Branco, created the duchy of vale do iguaçu
+}
+
+310003={
+	name="Leôncio"
+	dynasty=110009 #Kuznetsovsky
+	religion=celeste
+	culture=rutenio
+	disallow_random_traits=yes
+	add_trait=tough_soldier
+	add_trait=diligent
+	add_trait=humble
+	add_trait=content
+
+	martial=5
+	diplomacy=3
+	intrigue=4
+	stewardship=4
+	learning=7
+	
+	2331.2.14={birth=yes}
+	2360.1.1={
+		culture=paranaense
+	}
+	2400.1.1={death=yes}
+	#ruler of Francisco Beltrão
+}
+
+310004={
+	name="Bozena"
+	dynasty=110009 #Kuznetsovsky	
+	religion=orthodoxist
+	culture=rutenio
+	female=yes
+	dna="bedfd0had00"
+	properties="fk0k0g0000000000000000000000000000000"
+	disallow_random_traits=yes
+	add_trait=underhanded_rogue
+	add_trait=diligent
+	add_trait=humble
+	add_trait=content
+	add_trait=zealous
+
+	martial=2
+	diplomacy=5
+	intrigue=4
+	stewardship=7
+	learning=3
+	
+	2345.5.4={birth=yes}
+	2400.1.1={death=yes}
+	#ruler of Pato Branco
 }
 
 320001={

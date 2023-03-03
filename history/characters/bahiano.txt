@@ -1687,6 +1687,7 @@
 
 60018 = {
 	name="Dadá"
+	female=yes
 	dynasty=none
 	culture=chiconho
 	religion=cicerite

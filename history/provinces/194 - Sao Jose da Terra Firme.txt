@@ -16,6 +16,6 @@ b_palhoca = city
 
 # Misc
 culture = greenbelly
-religion = celeste
+religion = anchietican
 
 #History

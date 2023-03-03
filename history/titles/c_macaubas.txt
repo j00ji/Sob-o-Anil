@@ -1,5 +1,5 @@
 800.1.1={
-	liege=k_sao_francisco
+	#liege=k_sao_francisco
 }
 2365.2.21={
 	holder=60003 #Wagner Moura

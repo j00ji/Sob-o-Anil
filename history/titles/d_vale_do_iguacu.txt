@@ -7,8 +7,8 @@
 	liege=k_parana
 }
 2345.1.1={
-	holder=260014 #Enrico Calloni
+	holder=310002 #Leôncio I
 }
-2365.1.1={
-	holder=260016 #Vitor Calloni
+2355.1.1={
+	holder=310003 #Leôncio II
 }
