@@ -284,6 +284,38 @@ christian = {
 		
 		parent = anchietican
 	}
+	peterite = {
+		graphical_culture = westerngfx
+		
+		icon = 10
+		heresy_icon = 17
+		
+		color = { 0.8 0.8 0.1 }
+		
+		high_god_name = GOD_DEUS
+		
+		god_names = {
+			GOD_DEUS GOD_HOLY_SPIRIT GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER 
+		}
+		
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_BIBLE
+		priest_title = PADRE
+		
+		parent = anchietican
+	}
 	catholic = {
 		graphical_culture = westerngfx
 

@@ -16,6 +16,6 @@ b_pau_grande = city
 
 # Misc
 culture = carioca
-religion = evangelical
+religion = peterite
 
 #History

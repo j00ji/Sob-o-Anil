@@ -197,7 +197,7 @@
 	name="Tayana"
 	dynasty=35002
 	female=yes
-	religion=apostolic
+	religion=liberationist
 	culture=salvadorense
 	disallow_random_traits=yes
 	add_trait=scholarly_theologian
@@ -781,7 +781,7 @@
 	name="Miguel"
 	dynasty=35038
 	culture=pomerisch
-	religion=evangelical
+	religion=peterite
 	add_trait=branch_pentecostal
 	add_trait=tough_soldier
 	add_trait=adventurer

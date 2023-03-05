@@ -1,5 +1,33 @@
+branch_lutheran = {
+	opposites = {
+		branch_baptist
+		branch_methodist
+		branch_pentecostal
+		branch_presbyterian
+		branch_non_sectarian
+	}
+	same_opinion = 5
+	opposite_opinion = -5
+	
+	stewardship = 1
+	
+	potential = { religion = evangelical }
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+	child_compliment_adj = COMPL_RIGHTEOUS
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	child_insult_adj = INSULT_NARROWMINDED
+
+}
+
 branch_baptist = {
 	opposites = {
+		branch_lutheran
 		branch_methodist
 		branch_pentecostal
 		branch_presbyterian
@@ -26,6 +54,7 @@ branch_baptist = {
 
 branch_methodist = {
 	opposites = {
+		branch_lutheran
 		branch_baptist
 		branch_pentecostal
 		branch_presbyterian
@@ -52,6 +81,7 @@ branch_methodist = {
 
 branch_pentecostal = {
 	opposites = {
+		branch_lutheran
 		branch_baptist
 		branch_methodist
 		branch_presbyterian
@@ -78,6 +108,7 @@ branch_pentecostal = {
 
 branch_presbyterian = {
 	opposites = {
+		branch_lutheran
 		branch_baptist
 		branch_methodist
 		branch_pentecostal
@@ -107,6 +138,7 @@ branch_presbyterian = {
 
 branch_non_sectarian = {
 	opposites = {
+		branch_lutheran
 		branch_baptist
 		branch_methodist
 		branch_pentecostal

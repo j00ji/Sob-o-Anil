@@ -22,6 +22,7 @@ e_vera_cruz = {
 				color={ 231 208 118 }
 				color2={ 255 255 255 }
 				holy_site = terra_benta
+				holy_site = anchietican
 				
 				b_catete = {}
 				b_penha = {}
@@ -1797,7 +1798,7 @@ e_vera_cruz = {
 			color={ 216 48 3 }
 			color2={ 255 255 255 }
 
-			capital = 42 # c_campos_do_jordao
+			capital = 41 # c_taubate
 			
 			c_sao_jose_do_barreiro = { # 39
 				color={ 196 177 33 }

@@ -1334,7 +1334,7 @@
 	real_father = 110615
 	dna = cib000fcgb0
 	properties = we0b0c00000 
-	religion = anchietican
+	religion = peterite
 	culture = paulistano
 	disallow_random_traits = yes
 	father = 110002
@@ -1385,7 +1385,7 @@
 	dynasty = 55001 #Cantarini
 	dna="bgb0a0gahb0"
 	properties="fl0dbd000000000000000000000000000000"
-	religion = anchietican
+	religion = peterite
 	culture = paulistano
 	add_trait=skilled_tactician
 	add_trait = quick

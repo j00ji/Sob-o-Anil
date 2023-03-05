@@ -128,6 +128,19 @@
 35022 = {
 	name = "Carrara"
 	culture = carioca
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 35023 = {
 	name = "Silva"
@@ -200,6 +213,17 @@
 	culture = carioca
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 35039 = {
 	name = "Maddi"

@@ -6,10 +6,10 @@ title = c_paranagua
 # Settlements
 max_settlements = 4
 
-b_paranagua = castle
+b_ilha_do_mel = castle
+b_paranagua = temple
 b_guaratuba = city
-b_pontal_do_parana = temple
-#b_ilha_do_mel = castle
+#b_pontal_do_parana = temple
 #b_morretes = city
 #b_martinhos = temple
 #b_rio_sagrado = castle

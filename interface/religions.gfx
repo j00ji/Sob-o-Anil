@@ -102,6 +102,13 @@ spriteTypes = {
 	}
 	#Evangelical
 	spriteType = {
+		name = "GFX_trait_branch_lutheran"
+		texturefile = "gfx/traits/branch_lutheran.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_branch_presbyterian"
 		texturefile = "gfx/traits/branch_presbyterian.dds"
 		noOfFrames = 1

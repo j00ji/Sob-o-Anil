@@ -19,6 +19,6 @@ culture = carioca
 religion = evangelical
 
 #History
-2352.4.9 = {
-	capital = b_nova_iguacu
-}
+#2352.4.9 = {
+#	capital = b_nova_iguacu
+#}

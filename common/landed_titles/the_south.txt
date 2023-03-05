@@ -541,8 +541,10 @@ e_the_south = {
 			c_paranagua = { # 212
 				color={ 205 135 230 }
 				color2={ 255 255 255 }
-				
-				b_paranagua = {}
+				holy_site = anchietican
+				b_paranagua = {
+					pentarchy = anchietican
+				}
 				b_guaratuba = {}
 				b_pontal_do_parana = {}
 				b_ilha_do_mel = {}
@@ -1095,7 +1097,6 @@ e_the_south = {
 				
 				holy_site = celeste
 				holy_site = apostolic
-				holy_site = anchietican
 				
 				b_brusque = {}
 				b_guabiruba = {}
