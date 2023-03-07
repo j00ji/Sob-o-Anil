@@ -29,6 +29,7 @@
 	2357.2.11={
 		add_spouse=70002
 	}
+	2400.1.1={death=yes}
 }
 70002={
 	name="Maria Isabel"
@@ -54,6 +55,7 @@
 	learning=6
 	
 	2333.9.9={birth=yes}
+	2400.1.1={death=yes}
 }
 70003={
 	name="Artur"
@@ -78,14 +80,13 @@
 	learning=4
 	
 	2337.2.17={birth=yes}
+	2400.1.1={death=yes}
 }
 70004={
 	name="Lineu"
 	dynasty=35023
 	religion=evangelical
 	culture=carioca
-	father=70004
-	mother=70005
 	disallow_random_traits=yes
 	add_trait=midas_touched
 	add_trait=branch_methodist
@@ -105,6 +106,7 @@
 	2333.1.6={
 		add_spouse=70005
 	}
+	2400.1.1={death=yes}
 }
 70005={
 	name="Irene"
@@ -127,6 +129,7 @@
 	learning=8
 	
 	2315.3.7={birth=yes}
+	2400.1.1={death=yes}
 }
 
 70006={
@@ -148,6 +151,7 @@
 	employer=70010
 	
 	2349.8.18={birth=yes}
+	2400.1.1={death=yes}
 }
 70007={
 	name="Gabriel"
@@ -167,6 +171,7 @@
 	add_trait=shy
 		
 	2347.6.19={birth=yes}
+	2400.1.1={death=yes}
 }
 70008={
 	name="Beatriz"
@@ -192,6 +197,7 @@
 			add_lover=70009
 		}
 	}
+	2400.1.1={death=yes}
 }
 70009={
 	name="Tayana"
@@ -218,6 +224,7 @@
 			add_lover=70008
 		}
 	}
+	2400.1.1={death=yes}
 }
 70010={
 	name="Igor"
@@ -236,6 +243,7 @@
 	add_trait=stubborn
 	
 	2349.12.22={birth=yes}
+	2400.1.1={death=yes}
 }
 70011={
 	name="Fabricio"
@@ -257,6 +265,7 @@
 		birth=yes
 		culture=carioca
 	}
+	2400.1.1={death=yes}
 }
 70012={
 	name="Daniel"
@@ -281,6 +290,7 @@
 			add_friend=80002
 		}
 	}
+	2400.1.1={death=yes}
 }
 70013={
 	name="Breno"
@@ -299,6 +309,7 @@
 	add_trait=sympathy_judaism
 	
 	2347.5.17={birth=yes}
+	2400.1.1={death=yes}
 }
 70014={
 	name="Pedro"
@@ -318,6 +329,7 @@
 		birth=yes
 		culture=carioca
 	}
+	2400.1.1={death=yes}
 }
 70015={
 	name="Matheus"
@@ -339,6 +351,7 @@
 		birth=yes
 		culture=carioca
 	}
+	2400.1.1={death=yes}
 }
 70016 ={
 	name="Fernando"
@@ -350,6 +363,7 @@
 		birth=yes
 		culture=carioca
 	}
+	2400.1.1={death=yes}
 }
 70017={
 	name="Renato"
@@ -369,6 +383,7 @@
 	2352.10.2={
 		add_spouse=70018
 	}
+	2400.1.1={death=yes}
 }
 70018={
 	name="Ana Clara"
@@ -380,6 +395,7 @@
 		birth=yes
 		effect={ dynasty=none }
 	}
+	2400.1.1={death=yes}
 }	
 70019={
 	name="Bernardo"
@@ -394,6 +410,7 @@
 	add_trait=lustful
 	
 	2342.10.5={birth=yes}
+	2400.1.1={death=yes}
 }
 70020={
 	name="Thaís"
@@ -417,6 +434,7 @@
 		birth=yes
 		effect={ dynasty=none }
 	}
+	2400.1.1={death=yes}
 }
 70021={
 	name="Giovanna"
@@ -435,6 +453,7 @@
 		birth=yes
 		effect={ dynasty=none }
 	}
+	2400.1.1={death=yes}
 }
 70022={
 	name="Saulo"
@@ -452,6 +471,7 @@
 		birth=yes
 		effect={ dynasty=none }
 	}
+	2400.1.1={death=yes}
 }
 70023={
 	name="Roberto"
@@ -469,6 +489,7 @@
 		birth=yes
 		effect={ dynasty=none }
 	}
+	2400.1.1={death=yes}
 }
 70024={
 	name="Pedro"
@@ -486,6 +507,7 @@
 		birth=yes
 		effect={ dynasty=none }
 	}
+	2400.1.1={death=yes}
 }
 	# The Da Paixão Adventurers #
 
@@ -554,6 +576,7 @@
 			add_friend=70012
 		}
 	}
+	2400.1.1={death=yes}
 }
 80003={
 	name="Lais"
@@ -571,6 +594,7 @@
 		add_trait=shrewd
 		effect={add_weak_claim=d_goytacazia}
 	}
+	2400.1.1={death=yes}
 }
 80004={
 	name="Jennifer"
@@ -581,6 +605,7 @@
 	add_trait=zealous
 	add_trait=branch_pentecostal
 	2314.8.10={birth=yes}
+	2400.1.1={death=yes}
 }
 
 	# THE LORDS OF THE VALLEY #
@@ -605,6 +630,7 @@
 		birth=yes
 		culture=mantiqueiro
 	}
+	2400.1.1={death=yes}
 }
 	
 80009={
@@ -625,6 +651,7 @@
 		birth=yes
 		culture=mantiqueiro
 	}
+	2400.1.1={death=yes}
 }
 	
 80010={
@@ -644,6 +671,7 @@
 		birth=yes
 		culture=mantiqueiro
 	}
+	2400.1.1={death=yes}
 }
 80011={
 	name="Emanuel"
@@ -663,6 +691,7 @@
 		birth=yes
 		culture=mantiqueiro
 	}
+	2400.1.1={death=yes}
 }
 80012={ 
 	name="Alonso"
@@ -689,6 +718,7 @@
 	2331.10.9={
 		add_spouse=80014
 	}
+	2400.1.1={death=yes}
 }
 80013={
 	name="Penélope"
@@ -709,6 +739,7 @@
 	add_trait=gardener
 	
 	2352.4.12={birth=yes}
+	2400.1.1={death=yes}
 }
 80014={
 	name="Arlete"
@@ -731,6 +762,7 @@
 	religion=evangelical
 	
 	2348.10.5={birth=yes}
+	2400.1.1={death=yes}
 }
 80016={
 	name="Ernesto"
@@ -739,6 +771,7 @@
 	religion=umbanda
 	
 	2336.10.5={birth=yes}
+	2400.1.1={death=yes}
 }
 80017={
 	name="Sérgio"
@@ -748,6 +781,7 @@
 	add_trait=branch_baptist
 	
 	2337.10.28={birth=yes}
+	2400.1.1={death=yes}
 }
 
 80018={
@@ -764,7 +798,7 @@
 	
 	2337.12.24={birth=yes}
 	2367.4.5 = {
-		effect {
+		effect = {
 			set_truce = {
 				who = 110242
 				years = 10
@@ -789,6 +823,7 @@
 	add_trait=greedy
 	add_trait=stubborn
 	2342.6.9={birth=yes}
+	2400.1.1={death=yes}
 }
 90002={ 
 	name="Valdislei"
@@ -812,7 +847,7 @@
 	father=90002
 	2217.3.13={birth=yes}
 	2240.4.19={add_spouse=90018}
-	2271.7.3={death = {death_reason=death_trait}}
+	2281.7.3={death = {death_reason=death_trait}}
 }
 90004={
 	name="Bolgislei"
@@ -838,7 +873,7 @@
 	mother=90019
 	2274.2.11={birth=yes}
 	2290.2.11={add_spouse=90020}
-	2302.8.30={death = {death_reason=murder_unknown killer = 90007}}
+	2302.8.30={death = {death_reason=death_murder_unknown killer = 90007}}
 }
 90006={
 	name="Katia"
@@ -847,7 +882,7 @@
 	dynasty=45026
 	female=yes
 	father=90003
-	mother=90019
+	mother=90018
 	add_trait=quick
 	add_trait=scholar
 	add_trait=branch_baptist
@@ -861,7 +896,7 @@
 	religion=evangelical
 	dynasty=45026
 	father=90003
-	mother=90019
+	mother=90018
 	add_trait=branch_methodist
 	add_trait=misguided_warrior
 	add_trait=deceitful
@@ -939,6 +974,7 @@
 	father=90007
 	mother=90024
 	2346.3.13={birth=yes}
+	2400.1.1={death=yes}
 }
 90012={
 	name="Jonhattan"
@@ -947,10 +983,11 @@
 	dynasty=45026
 	add_trait=quick
 	add_trait=branch_baptist
+	add_trait=legit_bastard
 	father=90004
 	mother=90020
-	2298.2.11={birth=yes}
-	2308.4.17={death = {death_reason=murder_unknown killer = 90007}}
+	2294.2.11={birth=yes}
+	2308.4.17={death = {death_reason=death_murder_unknown killer = 90007}}
 }
 90013={
 	name="Hilda"
@@ -975,6 +1012,7 @@
 	add_trait=gardener
 	add_trait=hunchback
 	add_trait=branch_baptist
+	trait=twin
 	2301.4.27={birth=yes}
 	2339.7.7={death = {death_reason=death_battle}}
 }
@@ -988,6 +1026,7 @@
 	add_trait=gardener
 	add_trait=hunchback
 	add_trait=branch_presbyterian
+	trait=twin
 	2301.4.27={birth=yes}
 	2332.10.9={add_spouse=90022}
 	2339.7.7={death = {death_reason=death_battle}}
@@ -1000,7 +1039,9 @@
 	father=90015
 	mother=90022
 	add_trait=branch_pentecostal
+	trait=twin
 	2334.5.17={birth=yes}
+	2400.1.1={death=yes}
 }
 90017={
 	name="Elisa"
@@ -1011,7 +1052,9 @@
 	father=90015
 	mother=90022
 	add_trait=branch_methodist
+	trait=twin
 	2334.5.17={birth=yes}
+	2400.1.1={death=yes}
 }
 90018={
 	name="Carla"
@@ -1042,7 +1085,7 @@
 	dynasty=45012
 	add_trait=branch_methodist
 	2272.2.22={birth=yes}
-	2308.4.17={death = {death_reason=murder_unknown killer = 90007}}
+	2308.4.17={death = {death_reason=death_murder_unknown killer = 90007}}
 }
 90021={
 	name="Carlos"
@@ -1068,6 +1111,7 @@
 	female=yes
 	dynasty=45013
 	2315.1.4={birth=yes}
+	2400.1.1={death=yes}
 }
 90023={
 	name="Laura"
@@ -1082,7 +1126,7 @@
 	add_trait=cynical
 	female=yes
 	dynasty=45014
-	2394.7.14={birth=yes}
+	2294.7.14={birth=yes}
 	2344.12.25={death = {death_reason=death_suicide}}
 }
 90024={
@@ -1099,8 +1143,8 @@
 	add_trait=mystic
 	female=yes
 	dynasty=45015
-	2394.7.14={birth=yes}
-	2364.8.9={death = {death_reason=murder_unknown killer=90022}}
+	2314.7.14={birth=yes}
+	2364.8.9={death = {death_reason=death_murder_unknown killer=90022}}
 }
 #CAPIXABAS
 100001={
@@ -1177,15 +1221,15 @@
 	dynasty=0
 	add_trait=branch_methodist
 	trait=has_typhoid_fever
-	2219.6.27={birth=yes}
+	2309.6.27={birth=yes}
 	2363.10.3={death = {death_reason=death_trait}}
 }
 100008={
 	name="Sasha"
 	culture=capixaba
 	female=yes
-	mother=100006
-	father=100007
+	mother=100007
+	father=100006
 	religion=evangelical
 	dynasty=50030
 	disallow_random_traits=yes
@@ -1198,13 +1242,14 @@
 	add_trait=strong
 	add_trait=slow
 	2338.1.16={birth=yes}
+	2400.1.1={death=yes}
 }
 100009={
 	name="Sarah"
 	culture=capixaba
 	female=yes
-	mother=100006
-	father=100007
+	mother=100007
+	father=100006
 	religion=evangelical
 	dynasty=50030
 	disallow_random_traits=yes
@@ -1215,13 +1260,14 @@
 	add_trait=dwarf
 	add_trait=fair
 	2340.4.12={birth=yes}
+	2400.1.1={death=yes}
 }
 100010={
 	name="Nina"
 	culture=capixaba
 	female=yes
-	mother=100006
-	father=100007
+	mother=100007
+	father=100006
 	religion=evangelical
 	dynasty=50030
 	disallow_random_traits=yes
@@ -1233,13 +1279,14 @@
 	add_trait=lisp
 	add_trait=deceitful
 	2345.8.22={birth=yes}
+	2400.1.1={death=yes}
 }
 100011={
 	name="Catarina"
 	culture=capixaba
 	female=yes
-	mother=100006
-	father=100007
+	mother=100007
+	father=100006
 	religion=evangelical
 	dynasty=50030
 	disallow_random_traits=yes
@@ -1252,6 +1299,7 @@
 	add_trait=seductress
 	add_trait=gregarious
 	2349.10.1={birth=yes}
+	2400.1.1={death=yes}
 }
 100012={
 	name="Calebe"

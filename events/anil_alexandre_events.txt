@@ -1,17 +1,36 @@
 namespace=alexandre
 
-#this is a test event for now
 character_event = {
 	id = alexandre.1
 	title=alexandre.1.t
 	desc=alexandre.1.d
-	is_triggered_only=yes
-	option={ #change dynasty
-		name=alexandre.1.a
-		any_dynasty_member_even_if_dead	= {
-			dynasty=55002
-		}
-		dynasty=55002
-		recalc_succession = yes	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		
+	}
+	
+	option = {
+	
+	}
+	option = { #Alexandre gives up on the idea
+	
 	}
 }
+
+#this is a test event for now
+#character_event = {
+#	id = alexandre.1
+#	title=alexandre.1.t
+#	desc=alexandre.1.d
+#	is_triggered_only=yes
+#	option={ #change dynasty
+#		name=alexandre.1.a
+#		any_dynasty_member_even_if_dead	= {
+#			dynasty=55002
+#		}
+#		dynasty=55101
+#		recalc_succession = yes	
+#	}
+#}

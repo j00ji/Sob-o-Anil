@@ -53,7 +53,7 @@
 	}
 	2198.3.10 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -557,7 +557,7 @@
 	}
 	2303.10.5 = {
 		death = {
-			death_reason = death_ill 
+			death_reason = death_trait 
 		}
 	}
 }
@@ -707,6 +707,7 @@
 	
 	
 	2320.4.13 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 	### End of the Norton Dynasty ### 
@@ -995,7 +996,9 @@
 #		add_spouse = x #Someone from Limeira
 #	}	come on dude
 	2350.10.31 = {
-		death = death_accident
+		death = { 
+			death_reason = death_accident
+		}
 	}
 }
 
@@ -1053,6 +1056,7 @@
 	father = 120043
 	
 	2330.1.2 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 120051 = {
@@ -1141,9 +1145,10 @@
 	learning = 2
 	
 	2348.5.5 = {birth = yes}
-	2364.12.25 = {
-		add_spouse = 110001 
-	}
+	#2364.12.25 = {
+	#	add_spouse = 110001 
+	#}
+	2400.1.1={death=yes}
 }
 
 120062 = {
@@ -1161,7 +1166,7 @@
 	}
 	2353.7.3 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -1181,7 +1186,7 @@
 	}
 	2351.2.3 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -1219,6 +1224,7 @@
 		birth = yes
 		culture = americano
 	}
+	2400.1.1={death=yes}
 }
 
 120056 = { 
@@ -1237,6 +1243,7 @@
 	2335.8.1 = {
 		add_spouse = 120057 
 	}
+	2400.1.1={death=yes}
 }
 
 120057 = { #Pedro's mother
@@ -1331,7 +1338,7 @@
 	name = "Alexandre"
 	#Alexandre Cantarini, King of the Paulistan Kingdom
 	dynasty = 55001 #Cantarini
-	real_father = 110615
+	#real_father = 110615
 	dna = cib000fcgb0
 	properties = we0b0c00000 
 	religion = peterite
@@ -1367,6 +1374,11 @@
 			set_character_flag = is_special_character
 		}
 	}
+	2360.1.1 = {
+		effect = {
+			remove_claim = d_bandeirantes_northeast
+		}
+	}
 	#2364.1.25 = {
 	#	create_bloodline = {
 	#		type = alexandre
@@ -1377,6 +1389,9 @@
 	#2364.12.25 = {
 	#	add_spouse = 120053
 	#}
+	2400.1.1 = {
+		death=yes
+	}
 }
 
 110002 = {
@@ -1705,7 +1720,7 @@
 	}
 	2289.3.25 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -2019,7 +2034,7 @@
 	father = 110050 #Manuel
 	
 	2098.12.15 = {birth = yes}
-	2123.11.5 = {
+	2119.11.5 = {
 		add_spouse = 110079 #Elisabete Cubas
 	}
 	2163.5.30 = {death = yes}
@@ -2033,7 +2048,7 @@
 	father = 110051 #Damião
 	mother = 110079 #Elisabete
 	
-	2124.4.12 = {birth = yes}
+	2120.4.12 = {birth = yes}
 	2188.7.5 = {death = yes}
 }
 
@@ -2154,7 +2169,7 @@
 	}
 	2270.1.17 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -2335,6 +2350,7 @@
 	2345.2.3 = {
 		add_spouse = 110135 #Filipe Graeff
 	}
+	2400.1.1={death=yes}
 }
 
 110072 = {
@@ -2347,6 +2363,7 @@
 	father = 110067 #Henrique
 	
 	2330.9.12 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110073 = { #14th Magnate, 3rd Oligarch of São Vicente
@@ -2374,6 +2391,7 @@
 	2362.12.1 = {
 		add_spouse = 110142 #Lavínia Graeff
 	}
+	2400.1.1={death=yes}
 }
 
 110074 = {
@@ -2405,6 +2423,7 @@
 	add_claim = b_de_andrade
 	
 	2345.8.24 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110075 = {
@@ -2418,6 +2437,7 @@
 	mother = 110137 #Helena
 	
 	2350.12.1 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 	
@@ -2703,6 +2723,7 @@
 	father = 110093 #Ítalo
 	
 	2278.3.15 = {birth = yes}
+	2320.1.1={death=yes}
 }
 
 110097 = {
@@ -2718,7 +2739,7 @@
 	}
 	2319.1.7 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -2757,6 +2778,7 @@
 	2344.5.17 = {
 		add_spouse = 110191 #Carolina de Abreu
 	}
+	2400.1.1={death=yes}
 }
 
 110101 = {
@@ -2771,6 +2793,7 @@
 	2344.1.1 = {
 		add_spouse = 110160 #Murilo Lombardi-Stucchi
 	}
+	2400.1.1={death=yes}
 }
 
 110102 = {
@@ -2797,6 +2820,7 @@
 	mother = 110191 #Carolina
 	
 	2350.8.10 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110104 = {
@@ -2808,6 +2832,7 @@
 	mother = 110191 #Carolina
 	
 	2354.1.13 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110105 = {
@@ -2820,6 +2845,7 @@
 	mother = 110191 #Carolina
 	
 	2359.2.15 = {birth = yes}
+	2400.1.1={death=yes}
 }
 	
 	##Schertz Dynasty ##
@@ -2895,7 +2921,7 @@
 	}
 	2302.5.10 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -3039,6 +3065,7 @@
 	2364.1.25 = {
 		employer = 110001 #Alexandre I Cantarini
 	}
+	2400.1.1={death=yes}
 }
 
 110119 = {
@@ -3053,6 +3080,7 @@
 		birth = yes
 		culture = caicara
 	}
+	2400.1.1={death=yes}
 }
 
 110120 = {
@@ -3069,6 +3097,7 @@
 	2364.1.25 = {
 		employer = 110001 #Alexandre I Cantarini
 	}
+	2400.1.1={death=yes}
 }
 
 110121 = {
@@ -3083,6 +3112,7 @@
 		birth = yes
 		culture = caicara
 	}
+	2400.1.1={death=yes}
 }
 
 110122 = {
@@ -3096,6 +3126,7 @@
 		birth = yes
 		culture = caicara
 	}
+	2400.1.1={death=yes}
 }
 
 110123 = {
@@ -3125,6 +3156,7 @@
 		birth = yes
 		culture = caicara
 	}
+	2400.1.1={death=yes}
 }
 
 110125 = {
@@ -3140,6 +3172,7 @@
 		birth = yes
 		culture = caicara
 	}
+	2400.1.1={death=yes}
 }
 	
 ##Graeff Dynasty##
@@ -3268,6 +3301,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110134 = {
@@ -3282,6 +3316,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110135 = { #6th Magnate, Oligarch of Bertioga
@@ -3298,6 +3333,7 @@
 	2345.2.3 = {
 		add_spouse = 110071 #Elisa Graeff
 	}
+	2400.1.1={death=yes}
 }
 
 110136 = {
@@ -3312,6 +3348,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110137 = {
@@ -3330,6 +3367,7 @@
 	2343.9.10 = {
 		add_spouse = 110070 #João de Andrade
 	}
+	2400.1.1={death=yes}
 }
 
 110138 = {
@@ -3348,6 +3386,7 @@
 	2345.6.13 = {
 		add_spouse = 110189 #Vinícius de Abreu
 	}
+	2400.1.1={death=yes}
 }
 
 110139 = {
@@ -3362,6 +3401,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110140 = {
@@ -3380,6 +3420,7 @@
 	2364.12.1 = {
 		add_spouse = 110161 #Henrique Lombardi-Stucchi
 	}
+	2400.1.1={death=yes}
 }
 
 110141 = {
@@ -3394,6 +3435,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110142 = {
@@ -3408,6 +3450,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 	
 ##Silva Prado Dynasty##
@@ -3680,6 +3723,7 @@
 	2364.12.1 = {
 		add_spouse = 110140 #Gabriela Graeff
 	}
+	2400.1.1={death=yes}
 }
 
 110162 = {
@@ -3703,6 +3747,7 @@
 	learning = 1
 	
 	2347.2.5 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110163 = {
@@ -3719,6 +3764,7 @@
 	add_trait = slothful 
 	
 	2349.11.29 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 	## de Abreu Dynasty ##
@@ -3865,7 +3911,7 @@
 	}
 	2256.4.4 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -4042,6 +4088,7 @@
 	2345.6.13 = {
 		add_spouse = 110138 #Ingrid Graeff
 	}
+	2400.1.1={death=yes}
 }
 
 110190 = {
@@ -4052,6 +4099,7 @@
 	father = 110186 #Leonardo de Abreu
 	
 	2325.11.27 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110191 = {
@@ -4063,6 +4111,7 @@
 	father = 110186 #Leonardo de Abreu
 	
 	2328.7.18 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110192 = {
@@ -4074,6 +4123,7 @@
 	mother = 110138 #Ingrid Graeff
 	
 	2346.5.19 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110193 = {
@@ -4098,6 +4148,7 @@
 	mother = 110138 #Ingrid Graeff
 	
 	2351.7.8 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110195 = {
@@ -4109,6 +4160,7 @@
 	mother = 110138 #Ingrid Graeff
 	
 	2353.6.9 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110196 = {
@@ -4121,6 +4173,7 @@
 	mother = 110138 #Ingrid Graeff
 	
 	2355.2.28 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110228 = {
@@ -4131,6 +4184,7 @@
 	father = 110190 #Teodósio de Abreu
 	
 	2346.9.29 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110197 = {
@@ -4142,6 +4196,7 @@
 	father = 110190 #Teodósio de Abreu
 	
 	2349.1.11 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 	##Line of Geraldo, Oligarchs of Bertioga##
@@ -4321,7 +4376,7 @@
 	}
 	2186.11.3 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -4506,7 +4561,8 @@
 	
 	martial = 5
 	
-	2326.10.5 = {birth = yes}
+	2323.10.5 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110225 = {
@@ -4525,6 +4581,7 @@
 	martial = 4
 
 	2340.4.1 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110226 = { #Mercenary leader of the Bandeira Sulista
@@ -4544,6 +4601,7 @@
 	martial = 6
 
 	2335.9.14 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 110227 = {
@@ -4563,6 +4621,7 @@
 	martial = 4
 	
 	2353.1.13 = {birth = yes}
+	2400.1.1={death=yes}
 }
 
 ###Start of Paulistano Patrician Families###
@@ -4824,6 +4883,7 @@
 	2347.3.12 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110244 = {
@@ -4837,6 +4897,7 @@
 	2349.10.21 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110245 = {
@@ -4850,6 +4911,7 @@
 	2351.5.20 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ##End of the Matarazzo Dynasty##
@@ -4939,6 +5001,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2300.1.1={death=yes}
 }
 
 110251 = {
@@ -5062,6 +5125,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110258 = { #Unmarried
@@ -5077,6 +5141,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110259 = {
@@ -5091,6 +5156,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 	
 110260 = {
@@ -5105,6 +5171,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110261 = {
@@ -5119,6 +5186,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110262 = { #Unmarried
@@ -5134,6 +5202,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110263 = {
@@ -5149,6 +5218,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110264 = {
@@ -5164,6 +5234,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 	##Line of Eduardo##
@@ -5199,12 +5270,13 @@
 	
 	learning = 8
 	
-	father = 110265 #Ricardo Schimidt
+	father = 110255 #Eduardo Schimidt
 	
 	2330.11.3 = {
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110267 = {
@@ -5213,12 +5285,13 @@
 	religion = anchietican
 	culture = teuto_paulista
 	
-	father = 110265 #Ricardo Schimidt
+	father = 110255 #Eduardo Schimidt
 	
 	2332.4.12 = {
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110268 = {
@@ -5233,6 +5306,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110269 = { #Unmarried
@@ -5248,6 +5322,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 	#Line of Diogo Schimidt#
@@ -5325,6 +5400,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110274 = {
@@ -5340,6 +5416,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110275 = {
@@ -5354,6 +5431,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110276 = { #Unmarried 
@@ -5369,6 +5447,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Schimidt Dynasty ##
@@ -5528,6 +5607,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110286 = { #Unmarried
@@ -5543,6 +5623,7 @@
 		birth  = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110287 = {
@@ -5557,6 +5638,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110288 = {
@@ -5572,6 +5654,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110289 = {
@@ -5586,6 +5669,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 11290 = {
@@ -5600,6 +5684,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110291 = {
@@ -5615,6 +5700,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110292 = {
@@ -5647,6 +5733,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Jafet Dynasty ##
@@ -5867,6 +5954,7 @@
 	2330.4.9 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110307 = {
@@ -5917,6 +6005,7 @@
 	2357.10.22 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110310 = {
@@ -5930,6 +6019,7 @@
 	2359.4.10 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110311 = {
@@ -5944,6 +6034,7 @@
 	2361.9.29 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Anhanguera Dynasty ##
@@ -6082,7 +6173,7 @@
 	}
 	2330.12.20 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -6151,6 +6242,7 @@
 	2324.8.13 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110324 = {
@@ -6164,6 +6256,7 @@
 	2327.3.12 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110325 = {
@@ -6179,6 +6272,7 @@
 	2343.4.13 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110326 = {
@@ -6192,6 +6286,7 @@
 	2348.2.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110327 = {
@@ -6205,6 +6300,7 @@
 	2350.6.13 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110328 = {
@@ -6219,6 +6315,7 @@
 	2352.7.25 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110329 = {
@@ -6233,6 +6330,7 @@
 	2354.9.12 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110330 = {
@@ -6246,6 +6344,7 @@
 	2364.12.30 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110331 = {
@@ -6259,6 +6358,7 @@
 	2365.2.14 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110332 = {
@@ -6273,6 +6373,7 @@
 	2366.10.17 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Leme Dynasty ##
@@ -6516,6 +6617,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110347 = {
@@ -6530,6 +6632,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110348 = {
@@ -6544,6 +6647,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110349 = {
@@ -6559,6 +6663,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110390 = {
@@ -6574,6 +6679,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110350 = {
@@ -6625,6 +6731,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110353 = {
@@ -6640,6 +6747,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110388 = {
@@ -6655,6 +6763,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110354 = {
@@ -6704,6 +6813,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110386 = {
@@ -6719,6 +6829,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110389 = {
@@ -7077,7 +7188,7 @@
 		birth = yes
 		culture = paulistano
 	}
-	2231.5.1 = {
+	2331.5.1 = {
 		death = yes
 	}
 }
@@ -7186,6 +7297,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110381 = {
@@ -7201,6 +7313,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110382 = {
@@ -7232,6 +7345,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110384 = {
@@ -7246,6 +7360,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110385 = {
@@ -7261,6 +7376,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Yamashita Dynasty ##
@@ -7473,6 +7589,7 @@
 	2321.8.9 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110403 = {
@@ -7503,6 +7620,7 @@
 	2327.3.15 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110405 = {
@@ -7516,6 +7634,7 @@
 	2345.1.10 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110406 = {
@@ -7529,6 +7648,7 @@
 	2347.12.2 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110407 = {
@@ -7543,6 +7663,7 @@
 	2349.10.3 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the de Barros Dynasty ##
@@ -7612,7 +7733,7 @@
 	}
 	2295.3.15 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -7714,7 +7835,7 @@
 	2297.5.1 = {
 		birth = yes
 	}
-	2350.2.30 = {
+	2350.2.27 = {
 		death = yes
 	}
 }
@@ -7804,6 +7925,7 @@
 	2323.10.2 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110423 = {
@@ -7818,6 +7940,7 @@
 	2342.7.25 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110424 = {
@@ -7850,6 +7973,7 @@
 	2348.2.16 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110426 = {
@@ -7864,6 +7988,7 @@
 	2345.1.11 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110427 = {
@@ -7877,6 +8002,7 @@
 	2348.10.3 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Raposo Tavares Dynasty ##
@@ -8030,7 +8156,7 @@
 	}
 	2335.8.22 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -8089,6 +8215,7 @@
 	2305.5.19 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110440 = { #Unmarried
@@ -8183,6 +8310,7 @@
 	2327.11.13 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110445 = {
@@ -8196,6 +8324,7 @@
 	2329.8.20 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110446 = {
@@ -8207,7 +8336,7 @@
 	
 	father = 110442 #Mateus Ramalho
 	
-	2332.6.31 = {
+	2332.6.30 = {
 		birth = yes
 	}
 	2358.3.3 = {
@@ -8215,7 +8344,7 @@
 	}
 	2358.12.23 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -8231,6 +8360,7 @@
 	2346.12.5 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110448 = { #Unmarried
@@ -8245,6 +8375,7 @@
 	2349.9.10 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110449 = {
@@ -8258,6 +8389,7 @@
 	2351.4.25 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Ramalho Dynasty ##
@@ -8327,7 +8459,7 @@
 	}
 	2277.12.29 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_trait
 		}
 	}
 }
@@ -8448,6 +8580,7 @@
 	2306.1.23 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110461 = {
@@ -8462,6 +8595,7 @@
 	2330.4.13 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110462 = { #Unmarried
@@ -8476,6 +8610,7 @@
 	2332.9.25 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110463 = {
@@ -8489,6 +8624,7 @@
 	2353.10.3 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110464 = {
@@ -8503,6 +8639,7 @@
 	2355.5.14 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110465 = { #Unmarried
@@ -8517,6 +8654,7 @@
 	2328.12.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110466 = { #Unmarried
@@ -8531,6 +8669,7 @@
 	2330.5.3 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the de Campos Sales Dynasty ##
@@ -8602,6 +8741,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2300.1.1={death=yes}
 }
 
 110471 = {
@@ -8724,6 +8864,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110478 = {
@@ -8739,6 +8880,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110479 = {
@@ -8753,6 +8895,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110480 = {
@@ -8767,6 +8910,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110481 = {
@@ -8782,6 +8926,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110482 = {
@@ -8797,6 +8942,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110483 = {
@@ -8811,6 +8957,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110484 = {
@@ -8826,6 +8973,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110485 = {
@@ -8841,6 +8989,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110486 = {
@@ -8855,6 +9004,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110487 = {
@@ -8869,6 +9019,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 110488 = {
@@ -8884,6 +9035,7 @@
 		birth = yes
 		culture = paulistano
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Dumont Dynasty ##
@@ -9032,6 +9184,7 @@
 	2325.10.23 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110498 = {
@@ -9045,6 +9198,7 @@
 	2327.11.22 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110499 = {
@@ -9059,6 +9213,7 @@
 	2328.3.24 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110500 = {
@@ -9089,6 +9244,7 @@
 	2328.12.10 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110502 = {
@@ -9102,6 +9258,7 @@
 	2330.2.4 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110503 = {
@@ -9116,6 +9273,7 @@
 	2334.5.10 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110504 = {
@@ -9130,6 +9288,7 @@
 	2348.10.8 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110505 = {
@@ -9144,6 +9303,7 @@
 	2350.2.20 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110506 = {
@@ -9157,6 +9317,7 @@
 	2352.3.10 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110507 = {
@@ -9170,6 +9331,7 @@
 	2354.12.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Alvarenga Dynasty ##
@@ -9304,6 +9466,7 @@
 	2325.12.4 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110516 = {
@@ -9317,6 +9480,7 @@
 	2318.5.20 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110517 = {
@@ -9331,6 +9495,7 @@
 	2331.7.16 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110518 = {
@@ -9345,6 +9510,7 @@
 	2334.9.16 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110519 = {
@@ -9358,6 +9524,7 @@
 	2350.8.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110520 = {
@@ -9369,9 +9536,10 @@
 	
 	father = 110516 #Pedro Siqueira Bruno
 	
-	2353.4.31 = {
+	2353.4.30 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110521 = {
@@ -9385,6 +9553,7 @@
 	2355.10.2 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110522 = {
@@ -9399,6 +9568,7 @@
 	2358.2.23 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Siqueira Bruno Dynasty ##
@@ -9564,6 +9734,7 @@
 	2309.5.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110533 = {
@@ -9578,6 +9749,7 @@
 	2313.3.20 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110534 = {
@@ -9593,6 +9765,7 @@
 	2329.10.2 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110535 = {
@@ -9607,6 +9780,7 @@
 	2332.4.10 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110536 = {
@@ -9620,6 +9794,7 @@
 	2333.1.2 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110537 = {
@@ -9633,6 +9808,7 @@
 	2335.9.13 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110538 = {
@@ -9647,6 +9823,7 @@
 	2338.3.14 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110539 = {
@@ -9660,6 +9837,7 @@
 	2353.6.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110540 = {
@@ -9673,6 +9851,7 @@
 	2355.10.19 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110541 = {
@@ -9687,6 +9866,7 @@
 	2358.4.12 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Crespi Dynasty ##
@@ -9868,6 +10048,7 @@
 	2328.12.23 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110553 = {
@@ -9882,6 +10063,7 @@
 	2331.2.26 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110554 = {
@@ -9896,6 +10078,7 @@
 	2333.11.21 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110555 = {
@@ -9910,6 +10093,7 @@
 	2350.1.3 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110556 = {
@@ -9923,6 +10107,7 @@
 	2353.2.12 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110557 = {
@@ -9936,6 +10121,7 @@
 	2326.10.22 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110558 = {
@@ -9949,6 +10135,7 @@
 	2350.7.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110559 = {
@@ -9963,6 +10150,7 @@
 	2354.12.7 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Teles Dynasty ##
@@ -10095,6 +10283,7 @@
 	2303.1.9 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110568 = {
@@ -10141,6 +10330,7 @@
 	2325.4.6 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110571 = {
@@ -10155,6 +10345,7 @@
 	2328.3.11 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110572 = {
@@ -10168,6 +10359,7 @@
 	2330.9.13 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110573 = {
@@ -10181,6 +10373,7 @@
 	2352.5.11 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110574 = {
@@ -10194,6 +10387,7 @@
 	2355.9.14 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110575 = {
@@ -10208,6 +10402,7 @@
 	2334.10.22 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110576 = {
@@ -10222,6 +10417,7 @@
 	2336.11.4 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110577 = {
@@ -10235,6 +10431,7 @@
 	2354.7.3 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110578 = {
@@ -10249,6 +10446,7 @@
 	2357.1.23 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the de Oliveira dynasty ##
@@ -10413,6 +10611,7 @@
 	2312.3.28 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110589 = {
@@ -10444,6 +10643,7 @@
 	2324.12.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110591 = {
@@ -10473,6 +10673,7 @@
 	2330.3.12 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110593 = {
@@ -10487,6 +10688,7 @@
 	2332.5.16 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110594 = {
@@ -10500,6 +10702,7 @@
 	2336.5.13 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110595 = {
@@ -10513,6 +10716,7 @@
 	2330.11.3 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110596 = {
@@ -10527,6 +10731,7 @@
 	2334.7.7 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110597 = {
@@ -10541,6 +10746,7 @@
 	2357.5.24 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110598 = {
@@ -10554,6 +10760,7 @@
 	2361.10.6 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110599 = {
@@ -10568,6 +10775,7 @@
 	2358.2.20 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 110600 = {
@@ -10582,6 +10790,7 @@
 	2360.3.15 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Brunholi Dynasty ##
@@ -10598,6 +10807,7 @@
 	2351.4.18 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Bragança Dynasty ##
@@ -10630,6 +10840,7 @@
 	2360.10.15 = {
 		add_spouse = 110603
 	}
+	2400.1.1={death=yes}
 }
 
 110603 = {
@@ -10661,8 +10872,9 @@
 	}
 	
 	2359.3.3 = {
-		add_rival = 110602
+		effect = {add_rival = 110602}
 	}
+	2400.1.1={death=yes}
 }
 
 110604 = {
@@ -10686,6 +10898,7 @@
 	2361.5.10 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of de Sousa Dynasty ## 
@@ -10835,7 +11048,7 @@
 		birth = yes
 	}
 	2367.4.5 = {
-		effect {
+		effect = {
 			set_truce = {
 				who = 110242
 				years = 10
@@ -10874,6 +11087,7 @@
 	2328.4.18 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 } #Reminder to give her a BIG family cause in Itu everything is bigger
 
 110607 = {
@@ -10896,6 +11110,7 @@
 	2349.4.29 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of Magalhães Dynasty ##
@@ -10944,6 +11159,7 @@
 	2344.3.6 = {
 		give_nickname = nick_the_bachelor
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of Cananeia Dynasty ##
@@ -11236,7 +11452,7 @@
 		culture = paulistano
 	}
 	2110.2.4 = {
-		add_friend = 110672
+		effect = { add_friend = 110672 }
 	}
 	2150.2.24 = {
 		death = yes
@@ -11260,7 +11476,7 @@
 		culture = paulistano
 	}
 	2110.2.4 = {
-		add_friend = 110672
+		effect = { add_friend = 110671 }
 	}
 	2155.1.1 = {
 		effect = {
@@ -11632,7 +11848,7 @@
 
 110688 = {
 	name = "Inês" #Fernando's friend, a prisoner captured by his father
-	dynasty = none
+	dynasty = 0
 	female=yes
 	religion = anchietican 
 	culture = camponeto
@@ -11648,7 +11864,7 @@
 		birth = yes
 	}
 	2359.1.1 = {
-		employer = 110685
+		employer = 110687
 	}
 	2400.1.1 = {
 		death = yes
@@ -11704,7 +11920,8 @@
 	}
 	2367.1.1 = {
 		effect={add_friend=110688}
-	} 
+	}
+	2400.1.1={death=yes}
 	#Ruler of Rio Pardo
 }
 
@@ -11725,6 +11942,9 @@
 	
 	2345.11.2 = {
 		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
 	}
 	#Ruler of Rio Preto
 }
@@ -11764,7 +11984,7 @@
 110701 = {
 	name = "Camila"
 	female = yes
-	dynasty = none ##maybe change it to a noblewoman
+	dynasty = 0 ##maybe change it to a noblewoman
 	culture = caipira
 	religion = johrei
 	
@@ -11957,6 +12177,9 @@
 	2281.1.1 = {
 		birth = yes
 	}
+	2310.1.1 = {
+		add_spouse = 110710
+	}
 	2350.1.1 = {
 		death = yes
 	}
@@ -11965,7 +12188,7 @@
 
 110710 = {
 	name = "Arlinda"
-	dynasty = none
+	dynasty = 0
 	culture = paulistano
 	religion = anchietican
 	female = yes
@@ -11974,7 +12197,7 @@
 	trait = kind
 	trait = charitable
 	
-	2386.1.1 = {
+	2286.1.1 = {
 		birth = yes
 	}
 	2350.1.1 = {

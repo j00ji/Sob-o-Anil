@@ -14,7 +14,6 @@
     trait=crusader
     trait=zealous
     trait=cruel
-    trait=zealous
     trait=diligent
     trait=wroth
     trait=envious

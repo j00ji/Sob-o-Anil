@@ -52,7 +52,7 @@
 	add_trait = tough_soldier
 	trait = fair
 	trait = trusting
-	trat = stubborn
+	trait = stubborn
 	trait = gregarious
 	trait = ambitious
 	
@@ -81,7 +81,7 @@
 	trait = detached_priest
 	trait = stutter
 	trait = temperate
-	trait = cotnent
+	trait = content
 	diplomacy = 8
 	martial = 4
 	stewardship = 6
@@ -203,7 +203,7 @@
 	name = "Ângela"
 	dynasty = 255553
 	female=yes
-	religion = anchetican
+	religion = anchietican
 	culture = brown
 	trait = naive_appeaser
 	trait = wroth

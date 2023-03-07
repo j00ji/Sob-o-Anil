@@ -27,6 +27,7 @@
 	learning=7
 	
 	2334.4.2={birth=yes}
+	2400.1.1={death=yes}
 }
 
 50002 = {
@@ -79,6 +80,7 @@
 	2328.8.9 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 50004 = {
@@ -104,6 +106,7 @@
 	2332.12.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the Laurentino Dynasty ##
@@ -212,10 +215,8 @@
 	2231.8.12 = {
 		birth = yes
 	}
-	2280.10.5 = {
-		death = {
-			death_reason = death_ill
-		}
+	2290.10.5 = {
+		death = yes
 	}
 }
 
@@ -572,6 +573,7 @@
 	2352.6.14 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 	
 40011 = {
@@ -585,6 +587,7 @@
 	2370.6.14 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 40012 = {
@@ -598,6 +601,7 @@
 	2372.12.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 ## End of the de Pelourinho Dynasty ##
@@ -610,14 +614,14 @@
 	religion = camdomble
 	trait = tough_soldier
 	trait = ruled_a_junta
-	trat = just
+	trait = just
 	trait = sympathy_christendom
 	
-	2378.1.20 = {
+	2278.1.20 = {
 		birth=yes
 		culture=ilhense
 	}
-	2026.2.4 = {
+	2326.2.4 = {
 		death = yes
 	}
 	#former ruler of Porto Seguro
@@ -809,7 +813,7 @@
 	learning = 3
 	
 	2322.1.20 = {
-		birth = ye
+		birth = yes
 	}
 	2400.1.1 = {
 		death = yes
@@ -828,6 +832,7 @@
 	2360.12.2 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 	#son of João I
 }
 40033 = {
@@ -1107,7 +1112,7 @@
 		birth=yes
 		culture=salvadorense
 	}
-	2041.2.10={
+	2341.2.10={
 		effect={
 			add_friend=40042
 		}
@@ -1242,7 +1247,7 @@
 	learning=1
 	
 	2323.11.1 = {
-		birth = ye
+		birth = yes
 	}
 	2400.1.1 = {
 		death = yes
@@ -1688,7 +1693,7 @@
 60018 = {
 	name="Dadá"
 	female=yes
-	dynasty=none
+	dynasty=0
 	culture=chiconho
 	religion=cicerite
 	trait=tough_soldier

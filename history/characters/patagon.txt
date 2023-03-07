@@ -250,7 +250,6 @@
 	trait=humble
 	trait=uncouth
 	trait=gregarious
-	trait=humble
 	trait=lustful
 	trait=honest
 	trait=fortune_builder
@@ -422,6 +421,7 @@
 540002={
 	name=Florencia
 	dynasty=240022
+	female=yes
 	martial=4
 	diplomacy=2
 	stewardship=4
@@ -516,6 +516,7 @@
 540006={
 	name=Lorena
 	dynasty=240028
+	female=yes
 	martial=4
 	diplomacy=3
 	stewardship=4

@@ -104,6 +104,9 @@
 	2364.1.1 = {
 		birth = yes
 	}
+	2400.1.1 = {
+		death=yes
+	}
 }
 
 ##Clóvis 
@@ -115,7 +118,7 @@
 	culture = mantiqueiro
 	
 	trait = tough_soldier
-	trait = fat
+	trait = is_fat
 	trait = ambitious
 	trait = wroth
 	trait = diligent
@@ -156,7 +159,7 @@
 		birth = yes
 	}
 	2366.5.7 = {
-		add_spouse = 620006
+		add_spouse = 6200060
 	}
 	2400.1.1 = {
 		death = yes
@@ -164,7 +167,7 @@
 	#2nd ruler of Circuito das aguas, converted to Christianity
 }
 
-620006 = {
+6200060 = {
 	name = "Clotilde"
 	dynasty = 0 #give her a dynasty later
 	religion = anchietican
@@ -196,7 +199,7 @@
 	properties="an0000000000000000000000000000000000"
 	
 	father = 620005
-	mother = 620006
+	mother = 6200060
 	
 	trait = weak
 	
@@ -205,6 +208,7 @@
 	2368.1.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 620008 = {
@@ -234,7 +238,7 @@
 	2369.5.15 = {
 		effect = {
 			add_friend = 620005
-			add_friend = 620006
+			add_friend = 6200060
 		}
 	}
 	2372.1.1 = {
@@ -299,7 +303,7 @@
 	culture = mantiqueiro
 	
 	trait = mastermind_theologian
-	trait = qucik
+	trait = quick
 	trait = charitable
 	trait = mystic
 	

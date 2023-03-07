@@ -82,6 +82,7 @@
 	2345.1.5={
 		add_spouse=6
 	}
+	2400.1.1={death=yes}
 }
 
 4={ #Middle Child of Belchior, King of Natal
@@ -110,6 +111,7 @@
 	2353.2.22={
 		add_spouse=7
 	}
+	2400.1.1={death=yes}
 }
 
 5={ #Lastborn son of Belchior, former King of Fortaleza, Count of Mossoró
@@ -140,6 +142,7 @@
 	2358.3.17={
 		add_spouse=8
 	}
+	2400.1.1={death=yes}
 }
 
 6={ #Severino's Wife
@@ -159,6 +162,7 @@
 	2345.1.5={
 		add_spouse=3
 	}
+	2400.1.1={death=yes}
 }
 
 7={ #André's Wife
@@ -173,6 +177,7 @@
 	2353.2.22={
 		add_spouse=4
 	}
+	2400.1.1={death=yes}
 }
 
 8={ #José's Wife, deceased
@@ -227,6 +232,7 @@
 #	2367.3.9={
 #		add_spouse=x
 #	} You cannot legally marry a tulpa
+	2400.1.1={death=yes}
 }
 
 10={
@@ -249,6 +255,7 @@
 	learning=1
 	
 	2352.2.3={birth=yes}
+	2400.1.1={death=yes}
 }
 
 11={
@@ -273,6 +280,7 @@
 			set_graphical_culture=mediterranean
 		}
 	}
+	2400.1.1={death=yes}
 }
 
 12={
@@ -291,6 +299,7 @@
 	learning=1 
 	
 	2360.2.10={birth=yes}
+	2400.1.1={death=yes}
 }
 
 	##Andretian Line##	
@@ -312,6 +321,7 @@
 	learning=1
 	
 	2354.9.8={birth=yes}
+	2400.1.1={death=yes}
 }
 
 14={
@@ -330,6 +340,7 @@
 	learning=2
 	
 	2358.11.7={birth=yes}
+	2400.1.1={death=yes}
 }
 
 	##Josenian Line##
@@ -347,6 +358,7 @@
 	trait=twin #One of the twins of José and Valentina
 	
 	2363.10.13={birth=yes}
+	2400.1.1={death=yes}
 }
 
 16={
@@ -361,6 +373,7 @@
 	trait=twin #One of the twins of José and Valentian
 	
 	2363.10.13={birth=yes}
+	2400.1.1={death=yes}
 }
 
 	### End of the Belchioringian Dynasty ###

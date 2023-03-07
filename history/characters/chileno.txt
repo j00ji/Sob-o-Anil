@@ -692,7 +692,7 @@
 	2287.5.12={
 		birth=yes
 	}
-	2310.9.6={
+	2311.9.6={
 		add_spouse=240009
 	}
 	2342.11.20={
@@ -873,6 +873,9 @@
 	trait=fortune_builder
 	2300.3.15={
 		birth=yes
+	}
+	2335.5.10={
+		add_spouse=240019
 	}
 	2360.6.9={
 		death=yes

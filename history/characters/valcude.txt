@@ -165,7 +165,7 @@
 	religion = terra_benta
 	female = yes
 	
-	trait = underhanded_rouge
+	trait = underhanded_rogue
 	trait = fair
 	trait = patient
 	trait = shy
@@ -185,7 +185,7 @@
 	religion = terra_benta
 	female = yes
 	
-	trait = intricate_websweaver
+	trait = intricate_webweaver
 	trait = fair
 	
 	2327.1.1 = {
@@ -318,6 +318,7 @@
 	mother = 610008
 	
 	trait = fair
+	trait = legit_bastard
 	
 	2351.1.1 = {
 		birth = yes

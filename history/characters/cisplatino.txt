@@ -57,7 +57,7 @@
 }
 260003={
 	name="Júlia"
-	dynasty=none #for now no dynasty, would like to make her a noble
+	dynasty=0 #for now no dynasty, would like to make her a noble
 	female=yes
 	culture=caicara
 	religion=anchietican
@@ -337,7 +337,7 @@
 	trait=fair
 	trait=lustful
 	trait=ambitious
-	2351.1.1={
+	2344.1.1={
 		birth=yes
 		culture=paranaense
 	}
@@ -392,10 +392,10 @@
 	religion=apostolic
 	trait=martial_cleric
 	trait=stutter
-	trait=frail
+	trait=feeble
 	2299.1.1={
 		birth=yes
-		employer=80012
+		#employer=80012
 	}
 	2370.1.1={
 		death=yes
@@ -535,7 +535,7 @@
 }
 260025={
 	name="Nicoli"
-	dynasty=none #should probably change this later to a Paulista family or smt
+	dynasty=0 #should probably change this later to a Paulista family or smt
 	culture=americano
 	religion=anchietican
 	female=yes
@@ -551,7 +551,7 @@
 	learning=4
 	2348.1.1={
 		birth=yes
-		culture=paranapanema
+		culture=paranapanense
 	}
 	2400.1.1={
 		death=yes
@@ -700,6 +700,9 @@
 	2279.1.1={
 		birth=yes
 	}
+	2370.1.1 = {
+		death = yes
+	}
 }
 27004={
 	name="Limão Aguado"
@@ -707,7 +710,7 @@
 	culture=brown
 	religion=celeste
 	trait=naive_appeaser
-	trait=frail
+	trait=feeble
 	trait=kind
 	trait=humble
 	2275.1.1={
@@ -830,6 +833,9 @@
 	2301.1.1={
 		birth=yes
 	}
+	2326.1.1 = {
+		add_spouse=270010
+	}
 	2354.1.1={
 		death=yes
 	}
@@ -837,7 +843,7 @@
 }
 270010={
 	name="Carine"
-	dynasty=none
+	dynasty=0
 	female=yes
 	culture=hunsruckisch
 	religion=celeste
@@ -893,7 +899,7 @@
 }
 270012={
 	name="Lucimara"
-	dynasty=none
+	dynasty=0
 	female=yes
 	culture=greenbelly
 	religion=celeste
@@ -940,7 +946,7 @@
 }
 270014={
 	name="Santana"
-	dynasty=none
+	dynasty=0
 	culture=greenbelly
 	religion=evangelical
 	trait=tough_soldier
@@ -1100,6 +1106,7 @@
 	2349.1.1={
 		birth=yes
 	}
+	2400.1.1={death=yes}
 	#oldest daughter of Otávio
 }
 270021={
@@ -1152,7 +1159,7 @@
 270023={
 	name="Augusto"
 	dynasty=90005 #César
-	father=270019
+	father=270022
 	culture=greenbelly
 	religion=celeste
 	trait=twin
@@ -1170,7 +1177,7 @@
 	name="Lívia"
 	dynasty=90005 #César
 	female=yes
-	father=270019
+	father=270022
 	culture=greenbelly
 	religion=celeste
 	trait=twin
@@ -1368,7 +1375,7 @@
 	trait=thrifty_clerk
 	trait=dull
 	trait=uncouth
-	2301.1.1={
+	2201.1.1={
 		birth=yes
 	}
 	2353.1.1={
@@ -1388,8 +1395,11 @@
 	trait=gardener
 	trait=diligent
 	trait=proud
-	2315.1.1={
+	2318.1.1={
 		birth=yes
+	}
+	2358.1.1 = {
+		add_spouse=270035
 	}
 	2400.1.1={
 		death=yes
@@ -1398,7 +1408,8 @@
 }
 270035={
 	name="Selma"
-	dynasty=none
+	dynasty=0
+	female=yes
 	culture=greenbelly
 	religion=kardecists
 	trait=naive_appeaser
@@ -1439,6 +1450,9 @@
 	trait=brooding
 	2359.1.1={
 		birth=yes
+	}
+	2400.1.1 = {
+		death=yes
 	}
 	#seocnd son of Ari
 }
@@ -1484,6 +1498,7 @@
 270040={
 	name="Gabriela"
 	dynasty=100007 #Renaux
+	female=yes
 	culture=hunsruckisch
 	religion=anchietican
 	trait=fortune_builder
@@ -1565,7 +1580,7 @@
 }
 270044={
 	name="Doralice"
-	dynasty=none
+	dynasty=0
 	female=yes
 	culture=greenbelly
 	religion=anchietican
@@ -1597,7 +1612,7 @@
 	2346.1.1={
 		birth=yes
 	}
-	2400.1.={
+	2400.1.1={
 		death=yes
 	}
 	#son of José Mario Balan
@@ -1616,6 +1631,9 @@
 	learning=10
 	2352.1.1={
 		birth=yes
+	}
+	2400.1.1={
+		death=yes
 	}
 	#son of José Mario Balan
 }
@@ -1826,7 +1844,7 @@
 	trait=tough_soldier
 	trait=brave
 	trait=gluttonous
-	trait=chartible
+	trait=charitable
 	trait=one_eyed
 	2324.1.1={
 		birth=yes
@@ -1871,6 +1889,7 @@
 	intrigue=6
 	learning=5
 	2329.1.1={birth=yes}
+	2400.1.1={death=yes}
 	#duke of Porto Alegre, directly owns Viamão Guaiba and Porto Alegre
 }
 280002={
@@ -1889,6 +1908,7 @@
 	intrigue=9
 	learning=6
 	2347.1.1={birth=yes}
+	2400.1.1={death=yes}
 	#holder of Novo Hamburgo, vassal of Porto Alegre Duchy
 }
 280003={
@@ -1903,6 +1923,7 @@
 	trait=temperate
 	trait=content
 	2338.1.1={birth=yes}
+	2400.1.1={death=yes}
 	#holder of canoas, vassal of Porto Alegre
 }
 280004={
@@ -1914,6 +1935,7 @@
 	religion=evangelical
 	trait=freckles
 	2360.1.1={birth=yes}
+	2400.1.1={death=yes}
 	#daughter of Cibele
 }
 280005={
@@ -1937,6 +1959,7 @@
 		culture=gaucho
 	}
 	2355.1.1={effect={add_friend=280006}}
+	2400.1.1={death=yes}
 	#duke of Costa Doce, directly owns Mostardas and Rio Grande
 }
 280006={
@@ -1962,6 +1985,7 @@
 	2367.1.1 = {
 		give_nickname = nick_the_wizard
 	}
+	2400.1.1={death=yes}
 	#holder of Pelotas
 }
 280007={
@@ -2080,7 +2104,7 @@
 }
 290012={
 	name="Juraci"
-	dynasty = none
+	dynasty = 0
 	female=yes
 	culture=gaucho
 	religion=catholic
@@ -2363,7 +2387,7 @@
 }
 290024={
 	name="Erico"
-	dynasty=none
+	dynasty=0
 	culture=guacho
 	religion=catholic
 	trait=martial_cleric
@@ -2616,6 +2640,7 @@
 	2357.1.1={
 		add_spouse=290004
 	}
+	2400.1.1={death=yes}
 	#count of Gramado and Vacaria
 }
 290004={
@@ -2762,7 +2787,7 @@
 	learning=14
 	#Spouse of Paulo Taurus and former Duchess
 	2322.5.1={birth=yes}
-	2367.1.1={death = {death_reason=murder_unknown}}
+	2367.1.1={death = {death_reason=death_murder_unknown}}
 }
 300003={
 	name="Vinicius"

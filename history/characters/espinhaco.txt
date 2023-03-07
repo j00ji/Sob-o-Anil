@@ -53,6 +53,9 @@
 	
 	2346.2.20={birth=yes}
 	2365.2.11={add_spouse=600006}
+	2400.1.1 = {
+		death=yes
+	}
 }
 600006 ={
 	name="Hilda"
@@ -150,7 +153,7 @@
 
 600010 = {
 	name = "Prudência"
-	dynasty = none
+	dynasty = 0
 	female = yes
 	religion = angel_cult
 	culture = espinhaco
@@ -315,7 +318,7 @@
 	2311.1.1 = {
 		birth = yes
 	}
-	2330.1.1 = {
+	2332.1.1 = {
 		add_spouse = 600017
 	}
 	2367.1.1 = {
@@ -328,6 +331,7 @@
 	dynasty=270011 #São João
 	religion = angel_cult
 	culture = espinhaco
+	female=yes
 	
 	trait = underhanded_rogue
 	trait = fair
@@ -356,7 +360,7 @@
 	trait = patient
 	
 	2339.1.1 = {
-		death = yes
+		birth = yes
 	}
 	2400.1.1 = {
 		death = yes
@@ -438,7 +442,7 @@
 
 600022 = {
 	name = "Diana"
-	dynasty = none
+	dynasty = 0
 	religion = angel_cult
 	culture = espinhaco
 	female = yes
@@ -567,7 +571,7 @@
 #Paracatu stuff
 600029 = {
 	name = "Júlia" #spouse of the Paracatu ruler
-	dynasty = none
+	dynasty = 0
 	culture = paulistano
 	religion = terra_benta
 	female = yes
@@ -578,6 +582,7 @@
 		birth = yes
 		culture = espinhaco
 	}
+	2400.1.1={death=yes}
 }
 
 600028 = {

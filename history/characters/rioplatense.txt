@@ -187,17 +187,18 @@
     learning=3
     trait=underhanded_rogue
     trait=quick
-    trait=sympathy_owc
+    trait=sympathy_old_world
     trait=just
     trait=wroth
     trait=stubborn
     trait=humble
-    trait=stubborn
     2334.1.1={birth=yes}
 	2368.1.1={
 		employer=330007
-		effect={add_friend=330007}
-		effect={give_minor_title=title_commander}
+		effect={
+			add_friend=330007
+			give_minor_title=title_commander
+		}
 	}
     2398.1.1={death=yes}
 

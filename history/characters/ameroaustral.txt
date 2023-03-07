@@ -9,7 +9,7 @@
 	culture=mapuche
 	religion=nguillatun
 	trait=ambitious
-	trait=shewd
+	trait=shrewd
 	trait=hunter
 	trait=humble
 	trait=diligent
@@ -313,7 +313,7 @@
 	trait=lustful
 	trait=freckles
 	trait=quick
-	trait=kindd
+	trait=kind
 	trait=scholar
 	trait=thrifty_clerk
 	2312.8.28={
@@ -333,7 +333,7 @@
 	learning=3
 	culture=mapuche
 	religion=nguillatun
-	trait=frail
+	trait=feeble
 	trait=brave
 	trait=wroth
 	trait=charitable
@@ -381,7 +381,7 @@
 	culture=mapuche
 	religion=nguillatun
 	trait=envious
-	trait=deceptive
+	trait=deceitful
 	trait=paranoid
 	trait=chaste
 	trait=martial_cleric 
@@ -406,7 +406,7 @@
 	religion=nguillatun
 	trait=strong
 	trait=shrewd
-	trait=slotful
+	trait=slothful
 	trait=humble
 	trait=scholarly_theologian 
 	2339.7.15={
@@ -426,7 +426,7 @@
 	learning=2
 	culture=mapuche
 	religion=nguillatun
-	trait=frail
+	trait=feeble
 	trait=content
 	trait=wroth
 	trait=envious
@@ -519,6 +519,7 @@
 480021={
 	name="Rayen"
 	dynasty=210032
+	female=yes
 	martial=4
 	diplomacy=4
 	stewardship=4
@@ -882,6 +883,7 @@
 }
 500003={
 	name=Elena
+	female=yes
 	dynasty=220029
 	martial=2
 	diplomacy=5
@@ -930,7 +932,7 @@
 		birth=yes
 	}
 	2232.6.12={
-		religion=selknam
+		culture=selknam
 		name="Ishtohn"
 	}
 	2240.1.12={
@@ -1308,6 +1310,7 @@
 	learning=4
 	culture=australino
 	religion=xoon
+	trait=twin
 	trait=cruel
 	trait=just
 	trait=wroth
@@ -1635,6 +1638,7 @@
 	culture=santacruceno
 	religion=xoon
 	secret_religion=calafatist
+	trait=twin
 	trait=kind
 	trait=lustful
 	trait=shrewd
@@ -1741,6 +1745,7 @@
 	trait=slothful
 	trait=gluttonous
 	trait=craven
+	trait=legit_bastard
 	trait=misguided_warrior
 	father=500032
 	mother=500033
@@ -1788,6 +1793,7 @@
 	learning=3
 	culture=selknam
 	religion=xoon
+	trait=legit_bastard
 	trait=sickly
 	father=500034
 	mother=500035
@@ -1811,6 +1817,7 @@
 	culture=selknam
 	religion=xoon
 	trait=content
+	trait=legit_bastard
 	trait=proud
 	trait=zealous
 	trait=deceitful
@@ -1821,7 +1828,7 @@
 		birth=yes
 	}
 	2334.7.22={
-		add_spouse=500027
+		add_spouse=500038
 	}
 	2381.6.26={
 		death=yes

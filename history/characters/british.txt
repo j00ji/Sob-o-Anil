@@ -747,7 +747,7 @@
 	2342.10.15={
 		religion=evangelical
 	}
-	2344.12.19={
+	2343.12.19={
 		add_spouse=560017
 	}
 	2468.4.10={
@@ -821,7 +821,7 @@
 	trait=charismatic_negotiator
 	father=560016
 	mother=560017
-	2343.6.11={
+	2344.6.11={
 		birth=yes
 	}
 	2410.9.18={

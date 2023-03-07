@@ -15,6 +15,7 @@
 	2311.7.28 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 590002 = {
@@ -32,6 +33,7 @@
 	2351.6.24 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 }
 
 590003 = {
@@ -48,7 +50,7 @@
 	trait = brave
 	trait = honest
 	
-	2320.2.2 = {
+	2340.2.2 = {
 		birth = yes
 	}
 	2400.1.1 = {
@@ -135,7 +137,7 @@
 	trait = paranoid
 	trait = shy
 	
-	2311.7.28 = {
+	2320.7.28 = {
 		birth = yes
 	}
 	2400.1.1 = {
@@ -237,6 +239,7 @@
 	2334.1.1 = {
 		birth = yes
 	}
+	2400.1.1={death=yes}
 	#vassal of Ferroquadro, chief of Itaguara
 }
 
