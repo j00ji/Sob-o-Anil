@@ -228,7 +228,7 @@ paulista = {
 	graphical_cultures = { byzantinegfx westerngfx }
 	
 	paulistano = {
-		graphical_cultures = { paulistagfx }
+		graphical_cultures = { paulistagfx southerngfx }
 		
 		color = { 0.10 0.16 0.32 }
 		
@@ -301,7 +301,7 @@ paulista = {
 
 	}
 	caipira = { 
-		graphical_cultures = { paulistagfx }
+		graphical_cultures = { paulistagfx southerngfx }
 		
 		color = { 0.43 0.28 0.10 }
 		
@@ -377,7 +377,7 @@ paulista = {
 		
 	}
 	americano = { 
-		graphical_cultures = { anglopaulistagfx }
+		graphical_cultures = { anglopaulistagfx westerngfx }
 		
 		color = { 0.26 0.23 0.53 }
 		
@@ -449,7 +449,7 @@ paulista = {
 		
 	}
 	camponeto = {
-		graphical_cultures = { paulistagfx }
+		graphical_cultures = { paulistagfx southerngfx }
 		
 		color = { 0.75 0.32 0.26 }
 		
@@ -523,7 +523,7 @@ paulista = {
 	
 	}
 	kyusei = {
-		graphical_cultures = { nipponpaulistagfx }
+		graphical_cultures = { nipponpaulistagfx southerngfx }
 		
 		color = { 0.70 0.80 0.44 }
 		
@@ -597,7 +597,7 @@ paulista = {
 		
 	}	
 	paranapanense = {
-		graphical_cultures = { paulistagfx }
+		graphical_cultures = { paulistagfx southerngfx }
 		
 		color = { 0.36 0.52 0.6 }
 		
@@ -670,7 +670,7 @@ paulista = {
 		modifier = default_culture_modifier
 	}
 	paulistano = {
-		graphical_cultures = { paulistagfx }
+		graphical_cultures = { paulistagfx southerngfx }
 		
 		color = { 0.10 0.16 0.32 }
 		
@@ -743,7 +743,7 @@ paulista = {
 
 	}
 	caicara = {
-		graphical_cultures = { paulistagfx }
+		graphical_cultures = { paulistagfx southerngfx }
 		
 		color = { 0.10 0.30 0.32 }
 		
@@ -1462,7 +1462,7 @@ bahiano = {
 		male_names = {
 			Abílio Adão_Adam Agostinho_Augustus Aleixo_Alexander Andrés_Andrew Anibal Antón_Anthony Ângelo_Angel
 			Batista Benjamim_Benjamin Bento Beto_Robert Bieito Biel_Gabriel Bonifácio Brais Breixo Breno
-			Caetano Carlos_Charles Cecilio Chico Cibrán Claudio Clemente Cornélio
+			Caetano Canário Carlos_Charles Cecilio Chico Cibrán Claudio Clemente Cornélio Criança
 			Damiãno Davi Demetrio Dimas Dinis_Dennis Diogo Domingos Donato Duarte
 			Élder Emilio Érico Estêvão_Stephen Eugênio Eusebio Eustaquio
 			Fabião Faustino Feliciano Fernão Flávio Francisco_Francis
@@ -1470,14 +1470,14 @@ bahiano = {
 			Hélder Henrique_Henry Hermínio Hilario
 			Inácio Ibualamo
 			Jacinto Jaime Joãozinho_John Joaquim Josué Júlinho_Julius
-			Leandro Léo Lipe_Phillip Lois Lúcio Lula_Louis Luiz_Louis
-			Macario Manoel Marcelino Marcelo Márcio Marcos_Mark Mário Mateus_Matthew Mauricio Maximino Modesto
+			Lampião Leandro Léo Lipe_Phillip Lois Lúcio Lula_Louis Luiz_Louis
+			Macario Manoel Marcelino Marcelo Márcio Marcos_Mark Mariano Mário Mateus_Matthew Mauricio Maximino Modesto
 			Narciso Natanael_Nathan Netuno Nicolau_Nicholas Nuno
 			Olavo Ovídio
-			Pascoal Patricio_Patrick Paulinho_Paul Pedro_Peter Pio Plácido Plinio
+			Pascoal Patricio_Patrick Paulinho_Paul Pedro_Peter Pinguim Pio Plácido Plinio
 			Quim
-			Rafael Raimundo Raul Reinaldo Remigio Renato Rodolfo Rodrigo Roldão Roque Rufino Ruizinho
-			Santos Saturnino Sergio Severino Silvio Simão_Simon
+			Rafael Raimundo Raul Reinaldo Remigio Renato Rodolfo Rodrigo Roldão Roque Roxinho Rufino Ruizinho
+			Sabino Santos Saturnino Sergio Severino Silvio Simão_Simon
 			Tacito Tadeu Thiago Tião_Sebastian Tiago_James Tiburcio Timoteo_Timothy Tristão
 			Ulisses Uxío
 			Valentim_Valentine Valeriano Valerio Veríssimo Victorino_Victor Vinícius Virgilio Vitor_Victor
@@ -1488,21 +1488,21 @@ bahiano = {
 		female_names = {
 			Amélia Ana_Anna Andréa Antía Assunção 
 			Bárbara Branca Burukú 
-			Candelária Carme Carmo Catarina Catina Cecília Celi Chica Cíntia 
-			Débi Desidéria Diamantina Domitila
-			Efigênia Elisabete_Elizabeth Eufémia Eugênia Eulália 
+			Candelária Carme Carmo Catarina Catina Cecília Celi Chica Cíntia Cristina
+			Dadá Débi Desidéria Diamantina Domitila Doralice Dulce
+			Efigênia Eleonoura Elisabete_Elizabeth Enedina Eufémia Eugênia Eulália 
 			Fatimá Feliciana Felicidade Flávia 
 			Gabriela_Gabriela Glaucia Glória Graça
 			Hermínia
-			Imaculada
+			Imaculada Inacinha
 			Jacinta Joana Joaquima Josefa Jovita
 			Leocádia Leonor Leticia Lía Lídia Lígia Lílian Lúcia Luisa Lurdes Luzia Lygia 
-			Madalena Márcia Margarida Marí_Mary Micaela Môca_Monica
-			Nathália Neves Noela 
+			Madalena Márcia Margarida "Maria Bonita" Marí_Mary Micaela Môca_Monica
+			Nathália Nenêm Neves Noela 
 			Ofélia Olalla Olívia
-			Priscila
+			Pátricia Percília Priscila
 			Rafaela Raquel_Rachel Rebeca_Rebecca Rê Rosa_Rose
-			Sabela Sara_Sarah Sofia_Sofia Sonia 
+			Sabela Sara_Sarah Sila Sofia_Sofia Sonia 
 			Tati Teresa
 			Úrsula 
 			Verônica Vi

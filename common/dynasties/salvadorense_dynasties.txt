@@ -145,3 +145,411 @@
 		}
 	}
 }
+
+####################
+####Random Salvadorense Surnames
+####Based on all governors of Bahia
+####Source: wikipedia
+####Range: 20500 - 25000
+####################
+
+20500={
+	name = "de Sousa"
+	religion = camdomble
+	culture = salvadorense
+}
+20501={
+	name = "da Costa"
+	religion = camdomble
+	culture = salvadorense
+}
+20502={
+	name = "de Sá"
+	religion = camdomble
+	culture = salvadorense
+}
+20503={
+	name = "Brito e Almeida"
+	religion = camdomble
+	culture = salvadorense
+}
+20504={
+	name = "da Veiga"
+	religion = camdomble
+	culture = salvadorense
+}
+20505={
+	name = "Barreiros"
+	religion = camdomble
+	culture = salvadorense
+}
+20506={
+	name = "Teles"
+	religion = camdomble
+	culture = salvadorense
+}
+20507={
+	name = "Barreto"
+	religion = camdomble
+	culture = salvadorense
+}
+20508={
+	name = "de Barros"
+	religion = camdomble
+	culture = salvadorense
+}
+20509={
+	name = "de Botelho"
+	religion = camdomble
+	culture = salvadorense
+}
+20510={
+	name = "Menezes"
+	religion = camdomble
+	culture = salvadorense
+}
+20511={
+	name = "Furtado"
+	religion = camdomble
+	culture = salvadorense
+}
+20512={
+	name = "Mendonça"
+	religion = camdomble
+	culture = salvadorense
+}
+20513={
+	name = "Abluquerque"
+	religion = camdomble
+	culture = salvadorense
+}
+20514={
+	name = "Rolim"
+	religion = camdomble
+	culture = salvadorense
+}
+20515={
+	name = "Oliveira"
+	religion = camdomble
+	culture = salvadorense
+}
+20516={
+	name = "Mascarenhas"
+	religion = camdomble
+	culture = salvadorense
+}
+20517={
+	name = "Bezerra"
+	religion = camdomble
+	culture = salvadorense
+}
+20518={
+	name = "Sampaio"
+	religion = camdomble
+	culture = salvadorense
+}
+20519={
+	name = "Ataíde"
+	religion = camdomble
+	culture = salvadorense
+}
+20520={
+	name = "Freire"
+	religion = camdomble
+	culture = salvadorense
+}
+20521={
+	name = "Guedes"
+	religion = camdomble
+	culture = salvadorense
+}
+20522={
+	name = "da Cunha"
+	religion = camdomble
+	culture = salvadorense
+}
+20523={
+	name = "Sotomaior"
+	religion = camdomble
+	culture = salvadorense
+}
+20524={
+	name = "Coutinho"
+	religion = camdomble
+	culture = salvadorense
+}
+20525={
+	name = "Lencastre"
+	religion = camdomble
+	culture = salvadorense
+}
+20526={
+	name = "Almada"
+	religion = camdomble
+	culture = salvadorense
+}
+20527={
+	name = "Vasconcelos"
+	religion = camdomble
+	culture = salvadorense
+}
+20528={
+	name = "Noronha"
+	religion = camdomble
+	culture = salvadorense
+}
+20529={
+	name = "de Faro"
+	religion = camdomble
+	culture = salvadorense
+}
+20530={
+	name = "Figueiredo"
+	religion = camdomble
+	culture = salvadorense
+}
+20531={
+	name = "Fernandes"
+	religion = camdomble
+	culture = salvadorense
+}
+20532={
+	name = "de Melo"
+	religion = camdomble
+	culture = salvadorense
+}
+20533={
+	name = "Castro"
+	religion = camdomble
+	culture = salvadorense
+}
+20534={
+	name = "Peregrino"
+	religion = camdomble
+	culture = salvadorense
+}
+20535={
+	name = "de Matos"
+	religion = camdomble
+	culture = salvadorense
+}
+20536={
+	name = "Portugal"
+	religion = camdomble
+	culture = salvadorense
+}
+20537={
+	name = "de Andrada"
+	religion = camdomble
+	culture = salvadorense
+}
+20538={
+	name = "Alvim"
+	religion = camdomble
+	culture = salvadorense
+}
+20539={
+	name = "da Gama"
+	religion = camdomble
+	culture = salvadorense
+}
+20530={
+	name = "Calmon"
+	religion = camdomble
+	culture = salvadorense
+}
+20531={
+	name = "Viana"
+	religion = camdomble
+	culture = salvadorense
+}
+20532={
+	name = "Vicente"
+	religion = camdomble
+	culture = salvadorense
+}
+20533={
+	name = "Maciel"
+	religion = camdomble
+	culture = salvadorense
+}
+20534={
+	name = "Gordilho"
+	religion = camdomble
+	culture = salvadorense
+}
+20535={
+	name = "Bastos"
+	religion = camdomble
+	culture = salvadorense
+}
+20536={
+	name = "Martins"
+	religion = camdomble
+	culture = salvadorense
+}
+20537={
+	name = "Paraíso"
+	religion = camdomble
+	culture = salvadorense
+}
+20538={
+	name = "Pedroso"
+	religion = camdomble
+	culture = salvadorense
+}
+20539={
+	name = "Rego"
+	religion = camdomble
+	culture = salvadorense
+}
+20540={
+	name = "de Andréa"
+	religion = camdomble
+	culture = salvadorense
+}
+20541={
+	name = "Azevedo"
+	religion = camdomble
+	culture = salvadorense
+}
+20542={
+	name = "Serra"
+	religion = camdomble
+	culture = salvadorense
+}
+20543={
+	name = "Gonçalves"
+	religion = camdomble
+	culture = salvadorense
+}
+20544={
+	name = "Wanderley"
+	religion = camdomble
+	culture = salvadorense
+}
+20545={
+	name = "de Sinimbu"
+	religion = camdomble
+	culture = salvadorense
+}
+20546={
+	name = "Paes"
+	religion = camdomble
+	culture = salvadorense
+}
+20547={
+	name = "Pena"
+	religion = camdomble
+	culture = salvadorense
+}
+20548={
+	name = "Ferreira"
+	religion = camdomble
+	culture = salvadorense
+}
+20549={
+	name = "Pinto"
+	religion = camdomble
+	culture = salvadorense
+}
+20550={
+	name = "Leão"
+	religion = camdomble
+	culture = salvadorense
+}
+20551={
+	name = "Gomes"
+	religion = camdomble
+	culture = salvadorense
+}
+20552={
+	name = "Dantas"
+	religion = camdomble
+	culture = salvadorense
+}
+20553={
+	name = "Azambuja"
+	religion = camdomble
+	culture = salvadorense
+}
+20554={
+	name = "da Rocha"
+	religion = camdomble
+	culture = salvadorense
+}
+20555={
+	name = "Couto"
+	religion = camdomble
+	culture = salvadorense
+}
+20556={
+	name = "de Araújo"
+	religion = camdomble
+	culture = salvadorense
+}
+20557={
+	name = "Portella"
+	religion = camdomble
+	culture = salvadorense
+}
+20558={
+	name = "Machado"
+	religion = camdomble
+	culture = salvadorense
+}
+20559={
+	name = "Lisboa"
+	religion = camdomble
+	culture = salvadorense
+}
+20560={
+	name = "Nunes"
+	religion = camdomble
+	culture = salvadorense
+}
+20561={
+	name = "Lucena"
+	religion = camdomble
+	culture = salvadorense
+}
+20562={
+	name = "Bulcão"
+	religion = camdomble
+	culture = salvadorense
+}
+20563={
+	name = "Lustosa"
+	religion = camdomble
+	culture = salvadorense
+}
+20564={
+	name = "Chaves"
+	religion = camdomble
+	culture = salvadorense
+}
+20565={
+	name = "Pimentel"
+	religion = camdomble
+	culture = salvadorense
+}
+20566={
+	name = "Damásio"
+	religion = camdomble
+	culture = salvadorense
+}
+20567={
+	name = "Vitorino"
+	religion = camdomble
+	culture = salvadorense
+}
+20568={
+	name = "Neiva"
+	religion = camdomble
+	culture = salvadorense
+}
+20569={
+	name = "Seabra"
+	religion = camdomble
+	culture = salvadorense
+}

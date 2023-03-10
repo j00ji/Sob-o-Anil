@@ -22,7 +22,7 @@
 	holder = 110495 #César Alvarenga
 }
 2353.9.8 = {
-	holder = 110497 #Lucas Alvarenga
+	holder = 110721 #Marcelo Gastaldi
 }
 2364.4.25 = {
 	liege = d_alto_paraiba

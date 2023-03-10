@@ -831,7 +831,7 @@ eastern_group = {
 
 		icon = 77
 		
-		color = { 0.8 0.4 0.0 }
+		color = { 0.2 0.65 0.3 }
 		
 		scripture_name = THE_IDEA
 		priest_title = MASTER

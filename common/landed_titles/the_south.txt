@@ -710,6 +710,8 @@ e_the_south = {
 				color={ 224 29 120 }
 				color2={ 255 255 255 }
 				
+				holy_site = johrei
+				
 				b_castelo_candeeiro = {}
 				b_sagrado_coracao_de_jesus = {}
 				b_nova_dantzig = {}

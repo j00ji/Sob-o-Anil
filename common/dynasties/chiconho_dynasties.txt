@@ -189,3 +189,121 @@
 	can_appear = no
 	used_for_random = no
 }
+
+####################
+####Random Chiconho Surnames
+####Based on Cangaceiro surnames
+####Source: wikipedia
+####Range: 30500 - 35000
+####################
+
+30500={
+	name = "Meia-Noite"
+	religion = cicerite
+	culture = chiconho
+}
+30501={
+	name = "Guimarães"
+	religion = cicerite
+	culture = chiconho
+}
+30502={
+	name = "Silvino"
+	religion = cicerite
+	culture = chiconho
+}
+30503={
+	name = "Cauaçu"
+	religion = cicerite
+	culture = chiconho
+}
+30504={
+	name = "da Feira"
+	religion = cicerite
+	culture = chiconho
+}
+30505={
+	name = "Leal"
+	religion = cicerite
+	culture = chiconho
+}
+30506={
+	name = "Calado"
+	religion = cicerite
+	culture = chiconho
+}
+30507={
+	name = "de Déa"
+	religion = cicerite
+	culture = chiconho
+}
+30508={
+	name = "Pereira"
+	religion = cicerite
+	culture = chiconho
+}
+30509={
+	name = "Jararaca"
+	religion = cicerite
+	culture = chiconho
+}
+30510={
+	name = "Cleto"
+	religion = cicerite
+	culture = chiconho
+}
+30511={
+	name = "Souto"
+	religion = cicerite
+	culture = chiconho
+}
+30512={
+	name = "Candeeiro"
+	religion = cicerite
+	culture = chiconho
+}
+30513={
+	name = "Loiola"
+	religion = cicerite
+	culture = chiconho
+}
+30514={
+	name = "Moreno"
+	religion = cicerite
+	culture = chiconho
+}
+30515={
+	name = "Moderno"
+	religion = cicerite
+	culture = chiconho
+}
+30516={
+	name = "Volta Seca"
+	religion = cicerite
+	culture = chiconho
+}
+30517={
+	name = "Baiano"
+	religion = cicerite
+	culture = chiconho
+}
+30518={
+	name = "Limoeiro"
+	religion = cicerite
+	culture = chiconho
+}
+30519={
+	name = "Sereno"
+	religion = cicerite
+	culture = chiconho
+}
+30520={
+	name = "Vinte e Cinco"
+	religion = cicerite
+	culture = chiconho
+}
+30521={
+	name = "Saracura"
+	religion = cicerite
+	culture = chiconho
+}

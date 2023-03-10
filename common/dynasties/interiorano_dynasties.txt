@@ -1,3 +1,23 @@
+285001={
+	name=Lugones
+	culture=cordobes
+	religion=theosophy
+}
+
+285002={
+	name=Moreno
+	culture=cordobes
+	religion=theosophy
+}
+
+285003={
+	name=Luz
+	culture=cordobes
+	religion=theosophy
+}
+
+
+
 290001={
 	name=Abad
 	culture=cuyano
