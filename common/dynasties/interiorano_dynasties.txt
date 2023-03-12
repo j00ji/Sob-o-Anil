@@ -463,6 +463,20 @@
 	used_for_random = no
 }
 
+285094={
+	name="Jotoi"
+	culture=nivacle
+	religion=manredebu
+	used_for_random = no
+}
+
+285095={
+	name="Tanpura"
+	culture=cuyano
+	religion=catholic
+	used_for_random = no
+}
+
 290001={
 	name=Abad
 	culture=cuyano

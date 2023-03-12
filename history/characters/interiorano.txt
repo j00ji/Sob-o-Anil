@@ -55,7 +55,7 @@
 #Duchy of Cordoba
 640003 = {
     name="Antonia ‘the Bruja’"
-    dynasty=xx # Luz
+    dynasty=285003 # Luz
     female=yes
     culture=cordobes
     religion=theosophist
@@ -73,7 +73,7 @@
     trait=ambitious
     trait=erudite
     2327.1.1={birth=yes}
-	2367.1.1={add_matrilineal_spouse=285004}
+	2363.1.1={add_matrilineal_spouse=640004}
     2370.1.1={death=yes}
 	#Duchess of Cordoba, rules La Docta, San Justo, and Rivadavia
 }
@@ -100,6 +100,8 @@
 640005 = {
     name="Alejandra"
     dynasty=285003 # Luz
+	father=640004
+	mother=640003
     culture=cordobes
     religion=theosophist
     female=yes
@@ -117,6 +119,8 @@
 640006 = {
     name="Jose"
     dynasty=285003 # Luz
+	father=640004
+	mother=640003
     culture=cordobes
     religion=theosophist
     martial=2
@@ -150,7 +154,7 @@
     trait=greedy
     trait=envious
     2330.1.1={birth=yes}
-	2360.1.1={add_spouse=285008}
+	2360.1.1={add_spouse=640008}
     2375.1.1={death=yes}
 }#Count of El Imperio, son of King Sartini Sarak
 
@@ -205,7 +209,7 @@
     trait=trusting
     trait=content
     2340.1.1={birth=yes}
-	2367.1.1 = { add_spouse = 285011 #Julia }
+	2361.1.1 = { add_spouse = 640011 } #Julia
     2370.1.1={death=yes}
 }#Count of Laboulaye
 
@@ -225,14 +229,14 @@
     trait=slothful
     trait=zealous
     2345.1.1={birth=yes}
-    2777.1.1={death=yes}
+    2377.1.1={death=yes}
 }#Wife of the Count Eduardo Sorondo
 
 640012 = {
     name="Hector"
     dynasty=285007 # Sorondo
-	father=285010
-	mother=285011
+	father=640010
+	mother=640011
     culture=cordobes
     religion=theosophist
     martial=1
@@ -247,8 +251,8 @@
 640013 = {
     name="Arturo"
     dynasty=285007 # Sorondo
-	father=285010
-	mother=285011
+	father=640010
+	mother=640011
     culture=cordobes
     religion=theosophist
     female=yes
@@ -286,7 +290,7 @@
 640015={
     name="Leyla"
     dynasty=285009 # Wheelwright
-	father=285014
+	father=640014
     female=yes
     culture=litoraleno
     religion=catholic
@@ -302,7 +306,7 @@
 640016={
     name="Oscar"
     dynasty=285009 # Wheelwright
-	father=285014
+	father=640014
     culture=litoraleno
     religion=catholic
     martial=1
@@ -334,7 +338,7 @@
     trait=honest
     trait=zealous
     2329.1.1={birth=yes}
-	2360.1.1={add_spouse=285018}
+	2360.1.1={add_spouse=640018}
     2370.1.1={death=yes}
 }#Count of Rosario
 
@@ -735,7 +739,7 @@
     trait=humble
     trait=content
     trait=honest
-    2312..1.1={birth=yes}
+    2312.1.1={birth=yes}
     2363.1.1={death=yes}
 }#Last (and Second non-Legendary) King of Cordoba, ruled from 2333.1.1 to 2363.1.1, also Count of La Docta, killed by the crusader Yoshimar Cuba, the Kingdom of Cordoba is destroyed
 
@@ -767,7 +771,7 @@
 
 640038={
     name="Ana"
-    dynasty=xx # Tanpura
+    dynasty=285095 # Tanpura
     culture=cuyano
     religion=catholic
     female=yes
@@ -980,7 +984,7 @@
     trait=brave
     trait=cruel
     2329.1.1={birth=yes}
-	2365.1.1={add_spouse=640049}
+	2367.1.1={add_spouse=640049}
     2370.1.1={death=yes}
 }#Count of Alvear
 
@@ -1053,7 +1057,6 @@
     intrigue=3
     learning=4
     trait=underhanded_rogue
-    trait=honest
     trait=gregarious
     trait=honest
     2350.1.1={birth=yes}
@@ -1226,7 +1229,7 @@
     trait=deceitful
     trait=proud
     2325.1.1={birth=yes}
-	2367.1.1={add_spouse=640061}
+	2368.1.1={add_spouse=640061}
     2370.1.1={death=yes}
 }#Count of Rio Quinto
 
@@ -1252,7 +1255,7 @@
 640062={
     name="Rafael"
     dynasty=285036 # Juarez
-	father=640062
+	father=640060
 	mother=640061
     culture=cordobes
     religion=catholic
@@ -1261,7 +1264,7 @@
     stewardship=1
     intrigue=1
     learning=1
-    2368.1.1={birth=yes}
+    2369.1.1={birth=yes}
     2455.1.1={death=yes}
 }#First child
 
@@ -1347,6 +1350,7 @@
     trait=temperate
     trait=robust
     2339.1.1={birth=yes culture=chaqueno}
+	2365.1.1={add_spouse=640067}
     2370.1.1={death=yes}
 }#Chief of Brown
 
@@ -1431,7 +1435,7 @@
 #Chiefdom of Boqueron (Vassal of High Chiefdom of Chaco Oriental)
 640071={
 	name="Isabel"
-    dynasty=xx # Jotoi
+    dynasty=285094 # Jotoi
     female=yes
     culture=nivacle
     religion=manredebu
@@ -1493,7 +1497,7 @@
     name="Fanuco"
     dynasty=285045 # Jotoicha
 	father=640072
-	female=640073
+	mother=640073
     culture=nivacle
     religion=manredebu
     martial=1
@@ -1524,7 +1528,7 @@
     trait=just
     trait=lustful
     2344.1.1={birth=yes culture=guarani}
-	2365.1.1={add_spouse=640076}
+	2366.1.1={add_spouse=640076}
     2370.1.1={death=yes}
 }#Chiefdom of Presidente Hayes
 
@@ -1640,7 +1644,7 @@
     trait=content
     trait=greedy
     trait=diligent
-    trait=sympathy_pagan
+    trait=sympathy_pagans
     2345.1.1={birth=yes}
 	2367.1.1={add_spouse=640082}
     2370.1.1={death=yes}
@@ -1724,7 +1728,7 @@
     trait=zealous
     trait=deceitful
     2328.1.1={birth=yes}
-	2350.1.1={add_spouse=640086}
+	2351.1.1={add_spouse=640086}
     2370.1.1={death=yes}
 }#Duke of Salta, rules Salta and Pozo del Sauce
 
@@ -1765,7 +1769,7 @@
     trait=gregarious
     trait=diligent
     trait=proud
-    2351.1.1={birth=yes}
+    2352.1.1={birth=yes}
     2400.1.1={death=yes}
 }#First child
 
@@ -1822,7 +1826,7 @@
     2400.1.1={death=yes}
 }#Fourth child
 
-640091={
+640191={
     name="Pablo"
     dynasty=285054 # Uriburu
 	father=640085
@@ -1866,7 +1870,6 @@
     learning=4
     trait=tough_soldier
     trait=crusader
-    trait=tough_soldier
     trait=brave
     trait=wroth
     trait=humble
@@ -2026,7 +2029,7 @@
     intrigue=3
     learning=4
     trait=fortune_builder        
-    trait=sympathy_owc
+    trait=sympathy_old_world
     trait=lustful
     trait=stubborn
     trait=diligent
@@ -2146,4 +2149,4 @@
     2405.1.1={death=yes}
 
 	#Count of Concepcion
-}}
+}
