@@ -790,7 +790,8 @@
 	father=640037
 	mother=640038
     culture=turco
-    religion=herderos (secret Platinean)
+    religion=herderos
+	secret_religion=platinean
     martial=3
     diplomacy=4
     stewardship=3
@@ -1083,8 +1084,8 @@
     2370.1.1={death=yes}
 }#Countess of Jachal, rules Jachal and Calingasta
 
+#County of San Juan
 640054={
-County of San Juan
     name="Santiago"
     dynasty=285031 # Maza
     culture=cuyano
@@ -2145,5 +2146,4 @@ County of San Juan
     2405.1.1={death=yes}
 
 	#Count of Concepcion
-}
-
+}}
