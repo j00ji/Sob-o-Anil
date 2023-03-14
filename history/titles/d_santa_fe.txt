@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_cordoba
 }
+2360.1.1={
+	liege=0
+	holder=640022 #Sergio Baldomir
+}

@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_cuyo
 }
+2368.1.1={
+	liege=0
+	holder=640053 #Lydia Nilsson
+}

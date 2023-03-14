@@ -1,3 +1,7 @@
 800.1.1={
 	liege=k_gran_chaco
 }
+2356.1.1={
+	liege=d_formosa
+	holder=640084 #Fernando Torres
+}

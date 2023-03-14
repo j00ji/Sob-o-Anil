@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_cordoba
 }
+2355.1.1={
+	liege=d_santa_fe
+	holder=640028 #Luciano Grassi
+}

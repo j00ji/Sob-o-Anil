@@ -6,3 +6,9 @@
 800.1.1={
 	liege=k_cordoba
 }
+2350.1.1={
+	holder=640030 #Mario Mohamed
+}
+2363.1.1={
+	liege=0
+}

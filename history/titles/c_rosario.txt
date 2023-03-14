@@ -5,3 +5,7 @@
 800.1.1={
 	liege=k_cordoba
 }
+2359.1.1={
+	liege=d_lujan
+	holder=640017 #Pedro Bautista
+}

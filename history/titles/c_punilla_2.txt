@@ -6,3 +6,9 @@
 800.1.1={
 	liege=k_cordoba
 }
+2360.1.1={
+	holder=640001 #Alejandro Lugones
+}
+2363.1.1={
+	liege=d_cordoba
+}

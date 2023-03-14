@@ -6,3 +6,9 @@
 800.1.1={
 	liege=k_cordoba
 }
+2362.1.1={
+	holder=640002 #Joaquin Moreno
+}
+2363.1.1={
+	liege=0
+}

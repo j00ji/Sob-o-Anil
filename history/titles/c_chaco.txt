@@ -1,3 +1,7 @@
 800.1.1={
 	liege=k_gran_chaco
 }
+2365.1.1={
+	liege=d_chaco
+	holder=640069 #Pedro del Saco
+}

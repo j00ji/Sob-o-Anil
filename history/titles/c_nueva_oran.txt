@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_norte_viejo
 }
+2360.1.1={
+	liege=d_salta
+	holder=640093 #Arkaryu Chihuán
+}

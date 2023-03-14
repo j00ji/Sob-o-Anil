@@ -54,7 +54,7 @@
 #Duchy of Cordoba
 #Duchy of Cordoba
 640003 = {
-    name="Antonia â€˜the Brujaâ€™"
+    name="Antonia ‘the Bruja’"
     dynasty=285003 # Luz
     female=yes
     culture=cordobes
@@ -386,7 +386,7 @@
 #County of San Jeronimo (Vassal of Duchy of Santa Fe)
 640020={
     name="Jorge"
-    dynasty=285012 # PeÃ±a
+    dynasty=285012 # Peña
     culture=litoraleno
     religion=folclorista
     martial=4
@@ -407,7 +407,7 @@
 
 640021={
     name="Lena"
-    dynasty=285012 # PeÃ±a
+    dynasty=285012 # Peña
 	father=640020
     female=yes
     culture=litoraleno
@@ -748,7 +748,7 @@
 #Duchy of La Rioja
 #Duchy of La Rioja
 640037={
-	name="SaÃºl"
+	name="Saúl"
     dynasty=285019 # Menem
     culture=turco
     religion=herderos
@@ -786,7 +786,7 @@
     trait=wroth
     2325.1.1={birth=yes}
     2370.1.1={death=yes}
-}#Wife of the Count SaÃºl Menem
+}#Wife of the Count Saúl Menem
 
 640039={
     name="Carlos"
@@ -812,7 +812,7 @@
 }#First child
 
 640040={
-    name="MÃ¡ximo"
+    name="Máximo"
     dynasty=285019 # Menem
 	father=640037
 	mother=640038
@@ -1047,7 +1047,7 @@
 
 640052={
     name="Ferazia"
-    dynasty=285029 # MartÃ­nez
+    dynasty=285029 # Martínez
     culture=cuyano
     religion=catholic
     female=yes
@@ -1112,7 +1112,7 @@
 
 640055={
     name="Nina"
-    dynasty=285032 # VÃ¡squez
+    dynasty=285032 # Vásquez
     culture=cuyano
     religion=catholic
     female=yes
@@ -1169,7 +1169,7 @@
 #Duchy of San Luis
 #County of Cadillo
 640058={
-    name="Maria â€˜the Viuditaâ€™"
+    name="Maria ‘the Viudita’"
     dynasty=285034 # Matanza
     culture=cuyano
     religion=catholic
@@ -1186,12 +1186,14 @@
     trait=lustful
     trait=humble
     2334.1.1={birth=yes}
+	2360.1.1={add_spouse=640059}
+	2363.1.1={effect={add_rival=330007}}
     2370.1.1={death=yes}
 }#Count of Cadillo, rules Cadillo and La Punta, rival of the King of Buenos Aires
 
 640059={
     name="Santiago"
-    dynasty=285035 # GonzÃ¡lez        
+    dynasty=285035 # González        
     culture=cuyano
     religion=catholic
     martial=5
@@ -1311,6 +1313,7 @@
     trait=honest
     trait=just
     2345.1.1={birth=yes}
+	2367.1.1={add_spouse=640065}
     2370.1.1={death=yes}
 }#High Chief of Chaco, rules Vilelas
 
@@ -1356,7 +1359,7 @@
 
 640067={
     name="Eva"
-    dynasty=285041 # MÃ¼ller
+    dynasty=285041 # Müller
     culture=german
     religion=evangelical
     female=yes
@@ -1555,7 +1558,7 @@
 #High Chiefdom of Formosa
 640077={
   name="Gustavo"
-    dynasty=285049 # DÃ­az
+    dynasty=285049 # Díaz
     culture=qom
     religion=dreamtime
     martial=5
@@ -1598,7 +1601,7 @@
 
 640079={
     name="Cesar"
-    dynasty=285049 # DÃ­az
+    dynasty=285049 # Díaz
 	father=640077
 	mother=640078
     culture=qom
@@ -1614,7 +1617,7 @@
 
 640080={
     name="Rosa"
-    dynasty=285049 # DÃ­az
+    dynasty=285049 # Díaz
 	father=640077
 	mother=640078
     culture=qom
@@ -1774,7 +1777,7 @@
 }#First child
 
 640088={
-    name="AgustÃ­n"
+    name="Agustín"
     dynasty=285054 # Uriburu
 	father=640085
 	mother=640086
@@ -1808,7 +1811,7 @@
     trait=haughty
     2355.1.1={birth=yes}
     2400.1.1={death=yes}
-}#Third child, twin of AgustÃ­n
+}#Third child, twin of Agustín
 
 640090={
     name="Arturo"
@@ -1883,7 +1886,7 @@
 #County of of Nueva Oran (Vassal of Duchy of Salta)
 640093={
 	name="Arkaryu"
-    dynasty=285057 # ChihuÃ¡n
+    dynasty=285057 # Chihuán
     culture=quechua
     religion=catholic
     martial=3
@@ -1924,7 +1927,7 @@
 
 640095={
     name="Hasintu"
-    dynasty=285057 # ChihuÃ¡n
+    dynasty=285057 # Chihuán
 	father=640093
 	mother=640094
     culture=quechua
@@ -1940,7 +1943,7 @@
 
 640096={
     name="Irnistu"
-    dynasty=285057 # ChihuÃ¡n
+    dynasty=285057 # Chihuán
 	father=640093
 	mother=640094
     culture=quechua
@@ -1956,7 +1959,7 @@
 
 640097={
     name="Awaq"
-    dynasty=285057 # ChihuÃ¡n
+    dynasty=285057 # Chihuán
 	father=640093
 	mother=640094
     culture=quechua

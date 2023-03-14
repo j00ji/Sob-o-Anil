@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_cordoba
 }
+2363.1.1={
+	liege=d_cordoba
+	holder=640007 #Krishna de Sarak
+}
