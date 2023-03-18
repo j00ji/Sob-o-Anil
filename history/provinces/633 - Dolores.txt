@@ -6,7 +6,7 @@ title = c_dolores
 # Settlements
 max_settlements = 2
 
-b_dolores_2 = city
+b_dolores_2 = castle
 #b_parravicini = city
 #b_howard_johnson = temple
 #b_don_pilo = castle
