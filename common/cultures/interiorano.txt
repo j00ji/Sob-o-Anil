@@ -163,7 +163,7 @@ interiorano = {
 
 	turco = {
 		
-		graphical_cultures = { arabicgfx }
+		graphical_cultures = { andalusiangfx arabicgfx }
 		
 
 		color = { 0.7 0.49 0.06 }
