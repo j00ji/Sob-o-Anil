@@ -1186,7 +1186,7 @@ old_world_cultists = {
 		intermarry = aphite
 	}
 	
-	aphite = { #This Is Not A Place Of Honor
+	aphite = { #Actually Posadist
 		graphical_culture = muslimgfx
 		
 		icon = 36
@@ -1196,13 +1196,13 @@ old_world_cultists = {
 		
 		interface_skin = { atomicist_interface }
 
-		high_god_name = GOD_THE_ELEMENTS
+		high_god_name = GOD_ATOMOS
 
 		god_names = { #Might want to rethink the god names, but this seems fine for now
-			GOD_ATOMOS GOD_THE_ELEMENTS
+			GOD_POSADAS GOD_THE_FIRST_STRIKE GOD_THE_WISE_DOLPHIN GOD_METI
 		}
 		evil_god_names = {
-			THE_DEMON_CORE THE_VOID GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA
+			GOD_THE_CAPITALIST GOD_THE_MEN_IN_BLACK
 		}
 		crusade_name = GREAT_HOLY_WAR
 		allow_viking_invasion = yes

@@ -82,7 +82,7 @@ varedesian_DESC;While most Modernists look for the past once lost or a future ne
 anthropofagian;Anthropofagian;;;;;;;;;;;;;x
 anthropofagian_desc;Anthropofagians are followers of the Manifesto, and know that Innovation entrenches itself deep into the Human Condition, due to this, they believe that ritual consumption of other men and woman will bring people into a deeper and more cohesive understanding and will make them able to control and manage Innovation. As outlined by the Old Masters, they believe that the consumption of other cultures is deeply valuable for such goals, as their Innovation only serves to strengthen theirs and come to a better understanding of other cultures.;;;;;;;;;;;;;x
 aphite;Posadist;;;;;;;;;;;;;x
-aphite_DESC;Posadists believes in Atomos similarly to Atomicists, but their theology and practices radically differ from Posadism in various. Mosts prominently, Posadists believe that Atomos will one day return to the material world, as predicted by the prophet Posadas, and he will usher in a utopian world of justice and fairness after cleansing the Earth of evil. These millenarian views have separated them from mainstream Atomicists, and Posadists remain eager to wage holy war themselves in anticipation of the World Revolution, the return of Atomos.;;;;;;;;;;;;;x
+aphite_DESC;Posadists believes in Atomos similarly to Atomicists, but their theology and practices radically differ from Posadism in various. Mosts prominently, Posadists believe that Atomos will one day return to the material world, as predicted by the prophet Posadas, and he will usher in a utopian world of justice and fairness after cleansing the Earth of the evils of the Capitalist and the Men in Black. These millenarian views have separated them from mainstream Atomicists, and Posadists remain eager to wage holy war themselves in anticipation of the World Revolution, the return of Atomos.;;;;;;;;;;;;;x
 atomicist;Atomicist;;;;;;;;;;;;;x
 atomicist_DESC;Atomicists believe that the god Atomos created the world in a vast explosion of energy, and that he inhabits an invisible plane of energy that intersects with the material world. In the days of yore, men could tap into this intangible world and use the gifts of Atomos to become gods themselves. Atomicists seek to relearn the secrets of that past age so that they too can unlock the power of the atom. However, Atomos does not always take kindly to those who try to harness his power...;;;;;;;;;;;;;x
 platinean;Platinean;;;;;;;;;;;;;x
@@ -425,6 +425,15 @@ VIGOR;Vigor;;;;;;;;;;;;;x
 YATIRI;Yatiri;;;;;;;;;;;;;x
 GOD_MANTO_CELESTIAL;El Manto Celestial;;;;;;;;;;;;;
 camino_estelar_FEATURES;§Y*§! Followers of Camino Estelar might realize Star-Readings, obtaining random prophecies to fulfill with associated bonuses.;;;;;;;;;;;;;;
+
+#Posadist Gods
+GOD_POSADAS;Posadas;;;;;;;;;;;;;x
+GOD_THE_FIRST_STRIKE;The First Strike;;;;;;;;;;;;;x
+GOD_THE_WISE_DOLPHIN;The Wise Dolphin;;;;;;;;;;;;;x
+GOD_METI;METI;;;;;;;;;;;;;x
+GOD_THE_CAPITALIST;The Capitalist;;;;;;;;;;;;;x
+GOD_MEN_IN_BLACK;Men in Black;;;;;;;;;;;;;x
+
 
 manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
 manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x
