@@ -80,7 +80,7 @@ modernists_DESC;Architecturalists believe that the Great Architect in coalition 
 varedesian;Varedesian;;;;;;;;;;;;;x
 varedesian_DESC;While most Modernists look for the past once lost or a future never achieved, the Varedesians, followers of Master Guimarães and Master Graciliano, have learned through their legends that enlightenment exists in the living present and its fundamental conflicts and dualities. Life is both blessing and curse, joy and suffering, reality and magic, and those who understand this shall live truthfully. Men live and die following these teachings, often without even knowing it, but Varedesians embrace these seemingly contradictory dualites with gusto.;;;;;;;;;;;;;x
 anthropofagian;Anthropofagian;;;;;;;;;;;;;x
-anthropofagian_desc;Anthropofagians are followers of the Manifesto, and know that Innovation entrenches itself deep into the Human Condition, due to this, they believe that ritual consumption of other men and woman will bring people into a deeper and more cohesive understanding and will make them able to control and manage Innovation. As outlined by the Old Masters, they believe that the consumption of other cultures is deeply valuable for such goals, as their Innovation only serves to strengthen theirs and come to a better understanding of other cultures.;;;;;;;;;;;;;x
+anthropofagian_DESC;Anthropofagians are followers of the Manifesto, and know that Innovation entrenches itself deep into the Human Condition, due to this, they believe that ritual consumption of other men and woman will bring people into a deeper and more cohesive understanding and will make them able to control and manage Innovation. As outlined by the Old Masters, they believe that the consumption of other cultures is deeply valuable for such goals, as their Innovation only serves to strengthen theirs and come to a better understanding of other cultures.;;;;;;;;;;;;;x
 aphite;Posadist;;;;;;;;;;;;;x
 aphite_DESC;Posadists believes in Atomos similarly to Atomicists, but their theology and practices radically differ from Posadism in various. Mosts prominently, Posadists believe that Atomos will one day return to the material world, as predicted by the prophet Posadas, and he will usher in a utopian world of justice and fairness after cleansing the Earth of the evils of the Capitalist and the Men in Black. These millenarian views have separated them from mainstream Atomicists, and Posadists remain eager to wage holy war themselves in anticipation of the World Revolution, the return of Atomos.;;;;;;;;;;;;;x
 atomicist;Atomicist;;;;;;;;;;;;;x
@@ -432,8 +432,50 @@ GOD_THE_FIRST_STRIKE;The First Strike;;;;;;;;;;;;;x
 GOD_THE_WISE_DOLPHIN;The Wise Dolphin;;;;;;;;;;;;;x
 GOD_METI;METI;;;;;;;;;;;;;x
 GOD_THE_CAPITALIST;The Capitalist;;;;;;;;;;;;;x
-GOD_MEN_IN_BLACK;Men in Black;;;;;;;;;;;;;x
+GOD_THE_MEN_IN_BLACK;The Men in Black;;;;;;;;;;;;;x
 
+#Atomicist Gods
+GOD_ATOMOS;Atomos;;;;;;;;;;;;;x
+GOD_FAT_MAN;Fat Man;;;;;;;;;;;;;x
+GOD_LITTLE_MAN;Little Man;;;;;;;;;;;;;x
+GOD_TSAR_BOMBA;Tsar Bomba;;;;;;;;;;;;;x
+GOD_THE ELEMENTS;The Elements;;;;;;;;;;;;;x
+THE_DEMON_CORE;The Demon Core;;;;;;;;;;;;;x
+THE_VOID;The Void;;;;;;;;;;;;;x
+
+#Brethren Gods
+GOD_THE_SEA_HAG;The Sea Hag;;;;;;;;;;;;;x
+GOD_AGWE;Agwe;;;;;;;;;;;;;x
+THE_HANGMAN;The Hangman;;;;;;;;;;;;;x
+DAVY_JONES;Davy Jones;;;;;;;;;;;;;x
+THE_CODE;The Code;;;;;;;;;;;;;x
+
+#Bandean Gods
+
+
+#Leftover Gods
+GOD_DEUS;Deus;;;;;;;;;;;;;x
+GOD_HOLY_SPIRIT;Holy Spirit;;;;;;;;;;;;;x
+GOD_MAGNANIMOUS;Magnanimous;;;;;;;;;;;;;x
+GOD_THE_OLD_MASTERS;The Old Masters;;;;;;;;;;;;;x
+GOD_BRAMA;Brama;;;;;;;;;;;;;x
+GOD_THE_BUDA;The Buda;;;;;;;;;;;;;x
+THE_TRIPITACA;The Tripitaca;;;;;;;;;;;;;x
+GOD_OLORUN;Olorun;;;;;;;;;;;;;x
+THE_MONGES;The Monges;;;;;;;;;;;;;x
+GOD_AUM;Aum;;;;;;;;;;;;;x
+GOD_VISHNU;Vishnu;;;;;;;;;;;;;x
+KALI;Kali;;;;;;;;;;;;;x
+THE VEDAS;The Vedas;;;;;;;;;;;;;x
+GOD_KANNON;Kannon;;;;;;;;;;;;;x
+GREED;Greed;;;;;;;;;;;;;x
+GOD_THE_MASTERS;The Masters;;;;;;;;;;;;;x
+GOD_BUDDHA;Buddha;;;;;;;;;;;;;x
+GOD_CONFUCIUS;Confucius;;;;;;;;;;;;;x
+GOD_LAOZI;Laozi;;;;;;;;;;;;;x
+THEVETAT;Thevetat;;;;;;;;;;;;;x
+ATLANTIS;Atlantis;;;;;;;;;;;;;x
+THE_BLESSINGS;The Blessings;;;;;;;;;;;;;x
 
 manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
 manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x

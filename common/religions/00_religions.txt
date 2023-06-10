@@ -1233,7 +1233,8 @@ old_world_cultists = {
 		heresy_icon = 44
 		
 		color = { 0.38 0.83 0.83 }
-	}
+		
+		}
 	
 	artiguista = {
 		graphical_culture = muslimgfx
