@@ -131,6 +131,18 @@ american_native = {
 		icon = 1
 		
 		color = { 1.0 0.0 0.1 }
+		
+				scripture_name = THE_STORIES
+		
+		high_god_name = GOD_TUPA
+		
+		god_names = {
+			GOD_ARASY GOD_RUPAVE GOD_SYPAVE GOD_THE_CELESTIAL_JAGUAR
+		}
+		
+		evil_god_names = {
+			GOD_TAU GOD_AO_AO GOD_KURUPI GOD_LUISON GOD_POMBERO
+		}
 	}
 	inti = {
 		graphical_culture = mesoamericangfx
@@ -138,6 +150,19 @@ american_native = {
 		icon = 2
 		
 		color = { 0.25 0.45 0.45 }
+		
+				scripture_name = THE_TRADITIONS
+		
+		high_god_name = GOD_INTI
+		
+		god_names = {
+			GOD_INTI GOD_PACHAMAMA GOD_QHOA GOD_ILLAPA GOD_WORLD_MOTHER GOD_MOTHER_EARTH 
+		}
+		
+		evil_god_names = {
+			GOD_SUPAY 
+		}
+		
 	}
 	inkarri = {
 		graphical_culture = mesoamericangfx
@@ -145,6 +170,19 @@ american_native = {
 		icon = 3
 		
 		color = { 0.9 0.58 0.06 }
+		
+				scripture_name = THE_MYTH
+		
+		high_god_name = GOD_INTI
+		
+		god_names = {
+			GOD_INTI GOD_INKARRI GOD_WORLD_MOTHER GOD_MOTHER_EARTH GOD_TUPAC_AMARU
+
+		}
+		
+		evil_god_names = {
+			GOD_SUPAY GOD_THE_CROWN
+		}
 	}
 	hekura = {
 		graphical_culture = mesoamericangfx
@@ -152,6 +190,18 @@ american_native = {
 		icon = 4
 		
 		color = { 0.5 0.0 0.0 }
+		
+				scripture_name = THE_STORIES
+		
+		high_god_name = GOD_HEDU
+		
+		god_names = {
+			GOD_BUHII GOD_BORE GOD_MOAMO GOD_NORESHI
+		}
+		
+		evil_god_names = {
+			GOD_JAGUAR
+		}
 	}
 }
 
@@ -451,6 +501,12 @@ christian = {
 		
 		color = { 1.0 0.9 0.4 }
 		
+				scripture_name = THE_BIBLE
+		
+		high_god_name = GOD_DEUS
+		
+		god_names = {
+			GOD_DEUS GOD_PADRE_CICERO GOD_HOLY_SPIRIT GOD_JESUS GOD_THE_BLESSED_VIRGIN
 	}
 	seladite = {
 		graphical_culture = yes
@@ -459,6 +515,18 @@ christian = {
 		heresy_icon = 20
 	
 		color = { 0.85 0.76 0.33 }
+		
+		scripture_name = THE_BIBLE
+		
+		high_god_name = GOD_DEUS
+		
+		god_names = {
+			GOD_DEUS GOD_PADRE_CICERO GOD_HOLY_SPIRIT GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			THE_DEVIL GREED THE_COMMUNIST SATAN LUCIFER
+		}
 		
 		parent = cicerite
 	}
@@ -508,7 +576,18 @@ christian = {
 		heresy_icon = 21
 		
 		color = { 1.0 0.62 0.1 }
-	
+		
+				scripture_name = EXPOSITION_OF_THE_BOOK_OF_REVELATION
+		
+		high_god_name = GOD_HOLY_SPIRIT
+		
+		god_names = {
+			GOD_DIOS GOD_JESUS GOD_SAINT_JOACHIM
+		}
+		
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER
+		}
 	}
 	xabaxai_xagi = {
 		graphical_culture = westerngfx
@@ -517,6 +596,18 @@ christian = {
 		heresy_icon = 21
 		
 		color = { 0.7 0.62 0.1 }
+		
+		scripture_name = THE_BIBLE
+		
+		high_god_name = GOD_HOLY_SPIRIT
+		
+		god_names = {
+			GOD_DIOS GOD_JESUS GOD_SAINT_JOACHIM
+		}
+		
+		evil_god_names = {
+			THE_DEVIL SATAN LUCIFER THE_JAGUAR
+		}
 		
 		parent = holy_spirit
 	}
@@ -608,6 +699,18 @@ cult_of_saints= {
 		icon = 23
 		
 		color = { 1.0 0.5 0.16 }
+		
+		scripture_name = THE_BIBLE
+		
+		high_god_name = GOD_DIOS 
+		
+		god_names = {
+			GOD_CHACALON GOD_ GOD_JESUS GOD_HOLY_SPIRIT
+		}
+		
+		evil_god_names = {
+			THE_DEVIL GREED SATAN LUCIFER
+		}
 	}
 
 	santa_diablada = {
@@ -651,20 +754,71 @@ cult_of_saints= {
 		icon = 25
 		
 		color = { 0.77 0.63 0.85 }
+		
+		scripture_name = THE_BIBLE
+		
+		high_god_name = GOD_DIOS
+		
+		god_names = {
+			GOD_GAUCHITO GOD_JESUS GOD_SANTOS_VEGAS GOD_SAN_BALTASAR 
+		}
+		
+		evil_god_names = {
+			GOD_SAN_LA_MUERTE GOD_NAHUELITO
+		}
 	}
 	
 	patria_grande = {
 		graphical_culture = westerngfx
-		
+
 		icon = 26
+		heresy_icon = 26
 		
-		color = { 0.88 0.63 0.0 }
-	}
+		color = { 0.1 0.4 0.7 }
+
+		high_god_name = GOD_DIVINO_NINO
+		
+		god_names = {
+			GOD_BOLIVAR GOD_SANTANDER GOD_MANUELITA
+		}
+		
+		evil_god_names = {
+			SATAN PEPE_BOTELLA
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = no
+		allow_rivermovement = yes
+		has_heir_designation = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		crusade_name = LIBERATION_WAR
+		scripture_name = THE_COLOMBEIA
+		priest_title = PADRE
+			}
+
 	
 	angel_cult = {
 		graphical_culture = westerngfx
 		
 		icon = 72
+		
+				scripture_name = THE_BIBLE
+		
+		high_god_name = GOD_ARCANJO_MIGUEL
+		
+		god_names = {
+			GOD_ARCANJO_URIEL GOD_ARCANJO_GABRIEL GOD_ARCANJO_RAFAEL GOD_ANJO_DA_GUARDA GOD_CUPIDO
+		}
+		
+		evil_god_names = {
+			GOD_LUCIFER GOD_THE_DEVIL THE_BELZEBU GOD_DIABLO GOD_ASMODEUS GOD_MAMMON GOD_PAIMON GOD_CUCA GOD_PEREIRA
+		}
 		
 		color = { 0.88 0.63 0.0 }
 	}
@@ -1234,6 +1388,18 @@ old_world_cultists = {
 		
 		color = { 0.38 0.83 0.83 }
 		
+		scripture_name = OATH_OF_THE_THIRTY-THREE_ORIENTALS
+		
+		high_god_name = GOD_BANDA_ORIENTAL
+		
+		god_names = {
+			GOD_THE_THIRTY-THREE_ORIENTALS GOD_ARTIGAS GOD_DON_PEPE GOD_LUISI GOD_BLANCOS GOD_COLORADOS
+		}
+		
+		evil_god_names = {
+			GOD_THE_CROWN GOD_THE_LUSOS GOD_TUPAMAROS GOD_FA
+		}
+
 		}
 	
 	artiguista = {
@@ -1243,6 +1409,19 @@ old_world_cultists = {
 		heresy_icon = 44
 		
 		color = { 0.38 0.57 0.83 }
+		
+		scripture_name = INSTRUCTIONS_OF_THE_YEAR_XIII
+		
+		high_god_name = GOD_BANDA_ORIENTAL
+		
+		god_names = {
+			GOD_ARTIGAS GOD_PAINE GOD_DON_PEPE GOD_LUISI
+		}
+		
+		evil_god_names = {
+			GOD_BLANCOS GOD_COLORADOS
+		}
+
 		
 		parent = bandean
 	}
@@ -1254,6 +1433,18 @@ old_world_cultists = {
 		heresy_icon = 44
 		
 		color = { 0.34 0.38 0.74 }
+		
+		scripture_name = THE_ALCHEMISTS_TRIUMPH
+		
+		high_god_name = GOD_BANDA_ORIENTAL
+		
+		god_names = {
+			GOD_PIRIA GOD_BLANCOS GOD_THE_TREE_OF_LIFE
+		}
+		
+		evil_god_names = {
+			GOD_DON_PEPE GOD_COLORADOS
+		}
 		
 		parent = bandean
 	}
@@ -1634,6 +1825,18 @@ pagan_group = {
 		graphical_culture = mesoamericangfx
 		
 		color = { 0.85 0.55 0.33 }	
+		
+		scripture_name = THE_STORIES
+		
+		high_god_name = GOD_KHARTA
+		
+		god_names = {
+			GOD_KASOGONAGA GOD_LAPICHI GOD_MOGONALO
+		}
+		
+		evil_god_names = {
+			GOD_NSOGOI GOD_PICHAKCHIK
+		}
 			
 		icon = 78
 		heresy_icon = 80
@@ -1643,7 +1846,19 @@ pagan_group = {
 		graphical_culture = mesoamericangfx
 		
 		color = { 0.55 0.35 0.22 }	
-			
+		
+				scripture_name = THE_STORIES
+		
+		high_god_name = GOD_KHARTA
+		
+		god_names = {
+			GOD_KASOGONAGA GOD_LAPICHI GOD_MOGONALO
+		}
+		
+		evil_god_names = {
+			GOD_NSOGOI GOD_PICHAKCHIK
+		}
+		
 		icon = 78
 		heresy_icon = 80
 		
@@ -2086,6 +2301,18 @@ syncretic_group = {
 		icon = 66
 		
 		color = { 0.8 0.57 0.0 }
+		
+		scripture_name = HEAVEN_AND_HELL
+		
+		high_god_name = GOD_DIOS
+		
+		god_names = {
+			THE_SPIRITS GOD_JESUS GOD_FRANCIS_OF_ASSISI GOD_PAUL_THE_APOSTLE GOD_BUDDHA GOD_GANDHI
+		}
+		
+		evil_god_names = {
+			GOD_THE_CRISIS GOD_POLTERGEISTS
+		}
 	}
 	santo_daime = {
 		graphical_culture = mesoamericangfx
@@ -2127,6 +2354,17 @@ syncretic_group = {
 		icon = 68
 		
 		color = { 0.83 0.0 0.76 }
+				scripture_name = THE_RITUALS
+		
+		high_god_name = GOD_OLODUMARE
+		
+		god_names = {
+			GOD_OXALA GOD_OXUM GOD_ORIXAS GOD_PURE_SPIRITS GOD_GOOD_SPIRITS
+		}
+		
+		evil_god_names = {
+			GOD_BAD_SPIRITS
+		}
 	}
 	israelite = {
 		graphical_culture = jewishgfx
