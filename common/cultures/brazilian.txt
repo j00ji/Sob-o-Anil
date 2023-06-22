@@ -285,10 +285,9 @@ paulista = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -359,10 +358,9 @@ paulista = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -433,10 +431,9 @@ paulista = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 20
 		mat_grf_name_chance = 10
 		father_name_chance = 25
@@ -507,10 +504,9 @@ paulista = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 20
 		mat_grf_name_chance = 10
 		father_name_chance = 25
@@ -581,10 +577,9 @@ paulista = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 20
 		mat_grf_name_chance = 10
 		father_name_chance = 25
@@ -655,10 +650,9 @@ paulista = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 20
 		mat_grf_name_chance = 10
 		father_name_chance = 25
@@ -727,10 +721,9 @@ paulista = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -800,10 +793,9 @@ paulista = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -886,10 +878,9 @@ mineiro_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		founder_named_dynasties = yes
 		dynasty_title_names = yes
 
@@ -972,10 +963,9 @@ mineiro_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1055,10 +1045,9 @@ mineiro_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1135,10 +1124,9 @@ mineiro_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1215,10 +1203,9 @@ mineiro_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1295,10 +1282,9 @@ mineiro_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1370,10 +1356,9 @@ bahiano = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-			
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1440,10 +1425,9 @@ bahiano = {
 		}
 			
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-			
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1510,10 +1494,9 @@ bahiano = {
 		}
 			
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-			
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1528,27 +1511,73 @@ bahiano = {
 	}
 }
 
-northeastern_group = {
-	graphical_cultures = { byzantinegfx westerngfx }
-	
-	atlanticano = {
+atlanticano = {
+	recifolindense = {
 		graphical_cultures = { muslimgfx }
 
-		color = { 0.27 0.37 0.24 }
+		color = { 0.61 0.30 0.76 }
 		
 		male_names = {
-			Girl
+			Afonso Alan Alberto Aldo Alessandro Alexandre Alex Almir Altair Álvaro Amaro Anderson André Ângelo Antonio Aquiles Arthur Augusto Aurélio
+			Bartolomeu Bernardo Bruno
+			Cícero Carlos Célio Celso Cláudio Cristiano
+			Daniel Davi Diego Dimas Douglas
+			Eduardo Edison Edson Edvaldo Egberto Elio Eliseu Elson Emerson Enéas Enio Enrico Erasmo Érico Eron
+			Fabiano Fabrício Fábio Felipe Fernando Flávio Francisco Franklin Fredson
+			Gabriel George Geraldo Germano Gerson Gilmar Glauber Glauco Gonzalo Gregório Guilherme Gustavo
+			Haroldo Hector Heitor Hélio Helton Henrique Herbert Hermínio Higor Homero Hudson Hugo Humberto
+			Idelber Ildo Iran Isac Isaias Ícaro Itamar Ivan
+			Jadir Jaelson Jaime James Jandson Januário Jean Jeferson Jerônimo Jesuíno João Joaquim Joel Jonas Jorge José Josias Josué Júlio
+			Kleber Klinger Klinger Knego Krenak Kuky
+			Laurindo Léo Leandro Leonardo Leonildo Leopoldo Levi Lino Lisboa Lourival Lucas Luís Luiz
+			Márcio Marco Marcos Mariano Marlon Mateus Maurício Mauro Max Maximiliano Messias Michel Miguel Moacir Moisés Murilo
+			Nelson Nestor Newton Nicodemos Nícolas Nilo Nilson Noé Norberto Normando Nuno
+			Octávio Odacir Odilon Olavo Olímpio Onildo Onivaldo Orlando Oséas Osvaldo Otávio Ozael
+			Pablo Pâmio Patrício Paulo Pedro Péricles Petrus Philipe Plácido Praxedes
+			Quaresma Querino Quirino Quirino Quitino
+			Rafael Ramon Randal Rangel Raphael Raul Reginaldo Reinaldo Renan Renato Ricardo Robério Roberto Rodrigo Rogério Ronaldo Rômulo Roosevelt Rubem Rubens Rui
+			Salatiel Sales Samuel Sandro Santiago Sebastião Sérgio Severino Sidney Silas Sílvio Simão Sócrates Solon Sousa Souto
+			Tácito Tadeu Taiguara Talles Talvane Tarcísio Teobaldo Teodomiro Teófilo Tertuliano Thalles Thiago Thomas Timóteo Tito Tomás
+			Ulisses Ulysses Urbano
+			Valdemar Valdemir Valdir Valdomiro Valério Valmir Vanderley Vânio Vantuil Vardilson Vasco Venício Venilton Venâncio Vera Cruz Veridiano Victor Vinicius Virgílio Vitor
+			Waldemir Waldir Washington Wellington Wendell Werner Wescley Wilson Wladimir Wlisses Wlly Wolf Wolney Wylly Wysllan
+			Xand Xexeu
+			Yan Yonlu Yure Yuri
+			Zélio Zenilson Zenilton Zenon Zilson Ziraldo Zito Zizo
 		}
 		
 		female_names = {
-			Boy
+			Açucena Adélia Adriana Agatha Aída Alba Alcina Alessandra Alexsandra Alice Aline Alzira Amanda Ana Andressa Ângela Angelina Anísia Anna Arlete Arminda Áurea Aurora Avelina
+			Bárbara Beatriz Belmira Benedita Benilde Betânia Bianca Branca Brenda Bruna
+			Cacilda Camila Camille Carla Carmem Carolina Catarina Cecília Celeste Celina Charlene Clarice Cláudia Clélia Conceição Consuelo Cristina Cybele
+			Dália Dalva Daniela Dayse Deise Denise Dilma Diva Divane Djanira Dolores Dulce
+			Edelweiss Edilene Edna Eduarda Efigênia Elba Eleonora Eliana Elisa Elizabete Emanuelle Emília Eneida Erica Erika Ester Estefânia Esterlina Eudóxia Euridice Eurydice
+			Fabiana Fani Fatima Fernanda Flávia Francisca
+			Georgina Geralda Gerlane Gildete Gilda Gilza Gisele Gláucia Glória Graça Graziela Gregoria Guacira
+			Hanna Heliana Helena Hélia Heloisa Hermínia Hilda Hortência
+			Ilza Inês Iolanda Iracema Iracléia Irenilda Isabel Isadora Ismênia Itana Ivana Ivone Ivonete
+			Jacira Jacy Jaqueline Jéssica Joana Joelma Josélia Josepha Josilda Josinete Jovina Judite Julia Juliana Júlia
+			Kátia Kátia Kátia Kelly Keyla Kiara Kika
+			Larissa Laura Leda Leila Lélia Lenira Letícia Lia Lícia Lilian Lina Lindalva Lívia Lourdes Lúcia Luciana Luciene Luíza Luzia
+			Madalena Madô Malu Manuela Marcela Marcele Marciel Marcília Marcionila Margarida Maria Mariana Mariângela Marilene Marilú Marinalva Marina Marlene Maura Mauricéa Maurina Mavilde Melchiora Mélia Melissa Mércia Mercina Messias Milda Milena Mirian Moema Monica Monique Morena
+			Nadia Nanci Nara Narjara Natália Neide Neiva Nelma Nelsa Neuza Nicinha Nilce Nilma Núbia Núbia
+			Ofélia Olga Olivia Ondina Orlandina Otília
+			Palmira Paola Patrícia Paula Paulina Percília Petrucia Poliana Priscila
+			Raquel Rayza Regina Rejane Renata Riane Roberta Rochelle Rosa Rosana Rosane Rosângela Rosário Rosilda Rossana Rute Ruth
+			Sandra Sáskia Selma Severina Sheila Shirley Sibele Silvana Silvia Simone Sônia Stella Suely Suzana
+			Tânia Tatiana Teresa Thereza Thora Tiana Tília Tita Tula
+			Úrsula
+			Valéria Valquíria Vanilda Vera Verena Veridiana Vetriz Vírginia Vitória
+			Wanda Wanessa Wilma
+			Xênia
+			Yara Yeda Yolanda Yolanda Yoná
+			Zaida Zayra Zefinha Zélia Zenilda Zilda Zilmar Zina Zita Zoraide Zulmira Zuleide Zule
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-			
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1559,23 +1588,250 @@ northeastern_group = {
 		
 		modifier = default_culture_modifier
 	}
+	
+	lagoano = {
+		graphical_cultures = { muslimgfx }
+
+		color = { 0.74 09 0.38 }
+		
+		male_names = {
+			Adriano Afrânio Airton Alberto Aldemar Alexandre Antônio Artur Audival Augusto
+			Benedito Bernardo Bruno
+			Cacá Carlos Célio Cícero Cláudio
+			Daniel Dau Dênis Djalma Djavan
+			Eduardo Edvaldo Eliezer Elon Élvis Emmanuel Erick Erom
+			Fernando Floriano Francisco
+			Givago Guilherme Guimarães
+			Igor Ipojucan Ismar Isnaldo
+			Jadílson Jaime Jararaca João "João Henrique" "João Vitor" Joaquim Jorge "José Carlos" "José Maria" Jurandir
+			Képler
+			Lêdo Lício Luciano Luís
+			Manfredo Manoel Manuel Márcio Marcos Marx Maurício Miguel Moacir Murilo
+			Nivaldo
+			Osman Otávio
+			Paulo Pedro Pierre
+			Rafael Raimundo Ricardo Rinaldo Roberto Roberval Rogério Ronaldo Rosalvo Rubens Rui
+			Sadi Sérgio Sóstenes
+			Téo Tiago
+			Vinícius Vladimir
+			William
+			Yohansson Ytalo
+			Zé
+		}
+		
+		female_names = {
+			Ada Alice Almerinda Anilda
+			Brígida Bruna
+			Carla Cibele Clara CLáudia
+			Débora Duda
+			Edna Eurídice Eva
+			Josina
+			Kátia
+			Leila Leila Lucia
+			Margarida Maria Marina Marivana Martha Michelle
+			Nise
+			Paula
+			Rafaela Rosinha
+			Sandra Sarah
+			Thais Thaise
+			Valéria
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	
+	natalense = {
+		graphical_cultures = { muslimgfx }
+
+		color = { 0.23 0.2819 0.76 }
+		
+		male_names = {
+			Abraão Alair Alan Aldo Anistávio Antonio Antúlio Augusto
+			Babal Bruno
+			Câmara Carlos Célio Clodoaldo Cussy
+			Danilo David Dioclécio Djalma Dorian
+			Edilson Edson Eider Ernesto Eugênio
+			Fábio Fernando Filipe Francisco Francisco
+			Gabriel Geraldo Gileno Gustavo
+			Heitor Henrique Herberth Hugo
+			Iberê Isak Ivan
+			Jadson Jessé Joan João "João Galvão" "João Maria" "João Paulo" José "José Luiz" Jussier
+			Kelps Kerginaldo Kiko
+			Leon Leopoldo Lourival Luciano Luíz "Luíz Ignácio"
+			Manuel Marcelo Márcio Marcos Marina Matheus Matuzalém Miguel Moacir Mução Murilo
+			Newton Ney Nilo Nivaldo
+			Omar Oscar
+			Patrício Paulo Pedro
+			Raimundo Ranielle Raul Reginaldo Renan Ricardo Richardson Richarlyson Roberto Rodolfo Rodrigo Rodrigues Romário Ronny Rostand
+			Silvio
+			Tadeu Thiago Tobias
+			Uziel
+			Vicente
+			Wagner Walter William Wober
+		}
+		
+		female_names = {
+			Adelaide Amanda Ana Anadil Augusta
+			Beatrice
+			Candinha Carla Cecília Celina Clara Cláudia
+			Danila
+			Eudiane
+			Fernanda Francisca
+			Gracinda
+			Joana Judite Júlia
+			Larissa Lígia Liz
+			Maria Marina
+			Natália
+			Rosa Rosinha
+			SaudadeMargarete
+			Thalita
+			Valéria Virna
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+}
+
+cearense_group = {
+	graphical_cultures = { muslimgfx westerngfx }
+	
+	cearense = {
+		graphical_cultures = { muslimgfx }
+		
+		color = { 0.38 0.45 0.40 }
+		
+		male_names = {
+			Abelardo Acrísio Adamastor Adelson Aderbal Adolfo Adriano Aécio Afonso Alan Alberto Alfredo Aloysio Alvaro Anastácio André Antero Antônio Artur Augusto Aureliano
+			Beto Breno Bruno
+			Caio Carlos Casimiro Célio César Chico Cid Cláudio Cosme Crisanto
+			Dalton Daniel Danilo Dário Demócrito Denis Derivaldo Descartes Diego Domingos Dudu Durval
+			Edgar Edmar Edmilson Ednilton Edson Eduardo Edvar Elano Eliano Eliéser Emanuel Emerson Euclides Evaldo Expedito
+			Fábio Fausto Felipe Fernando Firmo Flávio Francimar Francisco
+			Geraldo Geraldo Gilberto Godofredo Guilherme Gustavo
+			Hélder Hélio Hermes Hermínio Hugo Humberto
+			Ildefonso Inácio Irismar Ivan Ivan
+			Jerônimo João Jônatas Jorge José Júlio Juracy
+			Lauro Leandro Leo Leonel Levi Lucas Luciano Lúcio Luiz
+			Mansueto Manuel Marcelo Marcos Mário Matehus Maurício Mauro Mauro Messias Michel Miguel Milton Murilo
+			Natanael Newton Nildo
+			Osvaldo
+			Paulo Pedro Percival Péricles Pio
+			Rafael Raimundo Raul Ricardo Ricardo Roberto Rodolfo Romero Rubens
+			Sandro Sebastião Sérgio
+			Tácito Tadeu Talles Thiago Tito Tobias Tomás Tristão
+			Valdecir Valdemar Valdir Virgílio Vitor
+			Waldonis Walter Wellington Wendell Wesley Wilson
+		}
+		female_names = {
+			Aila Alice Amanda Amélia Ana Ana "Ana Maria" Antônia Antonieta Augusta
+			Beatriz Brena
+			Carolina Claudiana
+			Daiane Denise Duda
+			Emanuela Erika Esther Eugênia
+			Fátima Fernanda Francisca
+			Helena Henriqueta
+			Isabela Isadora Íris
+			Jacinta Jade Janaína Joyce
+			Laura Liana Lorena Lourdes Luiza
+			Magda Marcia Margarida Maria Mariana Marly melissa Mikaele Mônica
+			Naiane Nayane Noemi
+			Patrícia
+			Rachel Rafaele Rebeca Regine
+			Samara Samia Sílvia Simone Socorro
+			Taiana Teresa
+			Valentina Vanessa Vitória Viviane
+			Yasmin Yolanda
+			Ângela
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+}
+
+sertanejo_group = {
+	graphical_cultures = { persiangfx muslimgfx }
+	
 	sertanista = {
-		graphical_cultures = { mexicangfx }
+		graphical_cultures = { persiangfx muslimgfx }
 		
 		color = { 0.2 0.4 0.0 }
 		
 		male_names = {
-			Girl
+			Adelmário Ademir Alcymar Arlindo Ary Assis
+			Batista Bell Biliu
+			Carlos Chico Cícero
+			Daniel Del Diego Domingos Dorgival
+			Edigar
+			Felipe Flávio Frank
+			Genival
+			Iverson Ivon
+			Jackson Jadiel Jonas Jorge Júlio
+			Lairton Lindú Lino Luiz
+			Maciel Mané Marcos Matheus Milton
+			Nando
+			Ovelha
+			Roberto
+			Santanna Saulo Severino
+			Tarcísio Targino Tião
+			Vicente
+			Waldonis Wesley
+			Zé Zelito Zenilton
 		}
 		female_names = {
-			Boy
+			Ademilde
+			Carmélia Chiquinha Claudette Clemilda Cristina Cristina
+			Dadá Duda Dulce
+			Elba Eliza
+			Gabriela
+			Inacia
+			Lídia Lucy
+			Márcia "Maria Bonita" Marinês Michele Miliane
+			Nazaré Nena
+			Paula
+			Sâmya Silvânia Simone Solange
+			Yara
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-			
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1588,23 +1844,48 @@ northeastern_group = {
 		
 		modifier = default_culture_modifier
 	}
-	cearense = {
-		graphical_cultures = { mexicangfx }
+	
+	seridoense = {
+		graphical_cultures = { persiangfx muslimgfx }
 		
-		color = { 0.38 0.45 0.40 }
+		color = { 0.6 0.2 0.3 }
 		
 		male_names = {
-			Boy
+			Álvaro Amaro Andrey Antenor Antônio
+			Celestino Chico Cristiano
+			Dario Didi
+			Elino Euclides
+			Francisco Francisco
+			Joacil João "João Maria" Joca Joe José
+			Mário Mércio Moacyr
+			Nei
+			Paulo Pedro
+			Radir Renato
+			Sebastião
+			Ulisses
+			Vicente Vivaldo
+			Walfredo Wanderley
+			Zé
 		}
 		female_names = {
-			Girl
+			Ademilde Anna Assionara
+			Carmélia Chiquinha Claudette Clemilda Cristina Cristina
+			Dadá Duda Dulce
+			Elba Eliza
+			Gabriela
+			Inacia Ivonete
+			Lídia Lucy
+			Márcia "Maria Bonita" Marinara Marinês Michele Miliane
+			Nazaré Nena
+			Paula
+			Sâmya Silvânia Simone Solange
+			Yara
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-			
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1613,18 +1894,54 @@ northeastern_group = {
 		mat_grm_name_chance = 10
 		mother_name_chance = 5
 		
+		allow_looting = yes
+		
 		modifier = default_culture_modifier
 	}
-	pankararu = {
+}
+
+northeastern_native = {
+	graphical_cultures = { mesoamericangfx }
+	
+	karirixoko = {
 		graphical_cultures = { mesoamericangfx }
 		
-		color = { 0.1 0.4 0.1 }
+		color = { 0.9 0.5 0.1 }
+		
+		#most names were from a blog by a Karirixoko leader
 		
 		male_names = {
-			Girl
+			Amarílio Andrelino Aniceto Antônio Antônio Araci
+			Cariri Cícero Claudianor
+			Edinisio Edivaldo Elpídio Euclides
+			Firmino Francisquinho
+			Henrique
+			Inocêncio Ipanema Iradzu Irapuã
+			Janduir João Jonas José Josival Juarez Juruna
+			Kayrrá
+			Leopoldino
+			Manoel Muira
+			Nhenety
+			Otávio
+			Pedro Piragibe Potiguara
+			Seregé
+			Ubajara Ubirajara
 		}
 		female_names = {
-			Boy
+			Ana Analia Antônia Arcelina
+			Benedita
+			Carolina Cristina
+			Delmira Dorfina
+			Edite Eurídice
+			Iracema Ivete
+			Jaciara Jacyra Jandira Josefa Jurema
+			Luiza Luzia
+			Maria Marta Mirian Moema
+			Potira
+			Severina
+			Tereza
+			Yaci Yara
+			Zafiraé
 		}
 		
 		from_dynasty_prefix = " "
@@ -1642,23 +1959,50 @@ northeastern_group = {
 				
 		modifier = default_culture_modifier
 	}
-	parnaibas = {
-		graphical_cultures = { mexicangfx }
 	
-		color = { 0.54 1.0 0.4 }
+	pankararu = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.1 0.4 0.1 }
 		
 		male_names = {
-			Nerd
+			Alfredo Aluísio Antônio Apôlonio
+			Carlos Cícero Cleomar
+			Edivaldo Edmar Edmilson Edson Edson Estevão Eraldo Euclides Eudes
+			Fernando Francisco
+			Henrique
+			Inocêncio Ivan
+			João João "João Victor" Jonas Jorge José Josias
+			Manoel Marcos
+			Otávio
+			Pedro
+			Ronaldo Roque Rosalvo
+			Severino
+			Tarisson
+			Victor
+			Wagner
 		}
 		female_names = {
-			Friend
+			Alice
+			Cristina
+			Elisa Elizabete
+			Fabiana
+			Geni
+			Imaculada Iolanda Isaura
+			Jaqueline Joseane Josenilda
+			Laudice Lourdes Luciana
+			Maria
+			Naihara
+			Patrícia
+			Rosália Rosimere
+			Tereza
 		}
 		
-		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-			
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1666,9 +2010,10 @@ northeastern_group = {
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 10
 		mother_name_chance = 5
-		
+				
 		modifier = default_culture_modifier
 	}
+	
 	xukuru = {
 		graphical_cultures = { mesoamericangfx }
 		
@@ -1695,7 +2040,40 @@ northeastern_group = {
 		mother_name_chance = 5
 				
 		modifier = default_culture_modifier
-	}	
+	}
+}
+
+northeastern_group = {
+	graphical_cultures = { byzantinegfx westerngfx }
+	
+	
+	parnaibas = {
+		graphical_cultures = { mexicangfx }
+	
+		color = { 0.54 1.0 0.4 }
+		
+		male_names = {
+			Nerd
+		}
+		female_names = {
+			Friend
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+		
 }
 	
 cerradonense = {
@@ -1714,10 +2092,9 @@ cerradonense = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-						
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes						
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1745,10 +2122,9 @@ cerradonense = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-						
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes						
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1776,10 +2152,9 @@ cerradonense = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-						
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes						
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1807,10 +2182,9 @@ cerradonense = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-						
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes						
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
 		father_name_chance = 5
@@ -1922,10 +2296,9 @@ nortista_group = {
 		} 
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-		
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes		
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10
 		father_name_chance = 0
@@ -2027,10 +2400,9 @@ nortista_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-		
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes		
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10
 		father_name_chance = 0
@@ -2093,10 +2465,9 @@ nortista_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-		
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes		
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10
 		father_name_chance = 0
@@ -2161,10 +2532,9 @@ nortista_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-		
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes		
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10
 		father_name_chance = 0
@@ -2227,10 +2597,9 @@ nortista_group = {
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "es"
-		female_patronym = "es"
-		grammar_transform = spanish
-		
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes		
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10
 		father_name_chance = 0

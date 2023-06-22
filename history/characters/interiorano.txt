@@ -54,7 +54,7 @@
 #Duchy of Cordoba
 #Duchy of Cordoba
 640003 = {
-    name="Antonia ‘the Bruja’"
+    name="Antonia"
     dynasty=285003 # Luz
     female=yes
     culture=cordobes
@@ -74,6 +74,11 @@
     trait=erudite
     2327.1.1={birth=yes}
 	2363.1.1={add_matrilineal_spouse=640004}
+	2365.1.1={
+		effect={
+			give_nickname = nick_the_bruja
+		}
+	}
     2370.1.1={death=yes}
 	#Duchess of Cordoba, rules La Docta, San Justo, and Rivadavia
 }
@@ -1169,7 +1174,7 @@
 #Duchy of San Luis
 #County of Cadillo
 640058={
-    name="Maria ‘the Viudita’"
+    name="Maria"
     dynasty=285034 # Matanza
     culture=cuyano
     religion=catholic
@@ -1187,7 +1192,7 @@
     trait=humble
     2334.1.1={birth=yes}
 	2360.1.1={add_spouse=640059}
-	2363.1.1={effect={add_rival=330007}}
+	2363.1.1={effect={add_rival=330007 give_nickname=nick_the_viudita}}
     2370.1.1={death=yes}
 }#Count of Cadillo, rules Cadillo and La Punta, rival of the King of Buenos Aires
 

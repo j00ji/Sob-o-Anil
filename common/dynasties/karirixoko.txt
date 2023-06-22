@@ -1,0 +1,138 @@
+####################
+####Random Kariri-Xoko Surnames
+####Source: kxnhenety.blogspot
+####Range: 370500 - 375000
+####################
+
+370500 = {
+    name = "Muirá"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370501 = {
+    name = "Maromba"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370502 = {
+    name = "Nidé"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370503 = {
+    name = "Pahankó"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370504 = {
+    name = "Poyté"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370505 = {
+    name = "Giríçá"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370506 = {
+    name = "Emurá"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370507 = {
+    name = "Ireçê"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370508 = {
+    name = "Ibá"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370509 = {
+    name = "Iraminõn"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370510 = {
+    name = "Baka"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370511 = {
+    name = "Botó"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370512 = {
+    name = "Teipó"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370513 = {
+    name = "Tibiriçá"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370514 = {
+    name = "Tinga"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370515 = {
+    name = "Tononé"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370516 = {
+    name = "Suiré"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370517 = {
+    name = "Suíra"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370518 = {
+    name = "Taré"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370519 = {
+    name = "Pirigipe"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370520 = {
+    name = "Sóya"
+    culture = karirixoko
+    # Add more properties as needed
+}
+
+370521 = {
+    name = "Suaky"
+    culture = karirixoko
+    # Add more properties as needed
+}
+

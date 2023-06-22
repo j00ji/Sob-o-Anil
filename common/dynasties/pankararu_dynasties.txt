@@ -1,0 +1,42 @@
+####################
+####Random Pankararu Surnames
+####Source: O REGIME IMAGÉTICO PANKARARU by Marcos A. S. Albuquerque
+####Range: 375500 - 380000
+####################
+
+375500 = {
+    name = "Pankararé"
+    culture = pankararu
+    # Add more properties as needed
+}
+
+375501 = {
+    name = "Geripankó"
+    culture = pankararu
+    # Add more properties as needed
+}
+
+375502 = {
+    name = "Kantaruré"
+    culture = pankararu
+    # Add more properties as needed
+}
+
+375503 = {
+    name = "Kalancó"
+    culture = pankararu
+    # Add more properties as needed
+}
+
+375504 = {
+    name = "Pancaru"
+    culture = pankararu
+    # Add more properties as needed
+}
+
+375505 = {
+    name = "Pankararu"
+    culture = pankararu
+    # Add more properties as needed
+}
+

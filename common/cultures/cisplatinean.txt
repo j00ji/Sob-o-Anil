@@ -228,7 +228,7 @@ cisplatinean = {
 			Damião_Damian Dario Davi Demetrio_Demetrius Dinis_Dionysus Deogo_James Domingos_Dominic Domenico_Dominic Donato_Donatus Duarte
 			Edmundo_Edmund Eduardo_Edward Emilio_Aemilius Ennio Érico_Eric Estêvão_Stephen Enzo Ernesto_Ernest Eugênio_Eugene 
 			Fabian_Fabian Fausto_Faustin Felipe_Philip Fernando_Ferdinand Flávio_Flavius Francesco_Francis Francisco_Francis
-			Gabriel_Gabriel Gastão_Gaston Giovanni_John Giuseppe_Joseph Gonçalo_Gonzalo Graciano_Gratian Guga
+			Gabriel_Gabriel Gastão_Gaston Garibaldi Giovanni_John Giuseppe_Joseph Gonçalo_Gonzalo Graciano_Gratian Guga
 			Hélder Henrique_Henry Hugo Humberto
 			Inácio_Ignatius Isabel_Elizabeth Italo Itamar Ivo
 			Jerônimo João_John Joaquim_Joachim José_Joseph Jorge_George Júlio_Julius "Júlio César"

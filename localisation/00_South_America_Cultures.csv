@@ -61,7 +61,6 @@ chiconho;Chiconho;;;;;;;;;;;;;x
 ilhense;Ilhense;;;;;;;;;;;;;x
 northeastern_group;Northeastern;;;;;;;;;;;;;x
 atlanticano;Atlanticano;;;;;;;;;;;;;x
-sertanista;Sertanista;;;;;;;;;;;;;x
 cearense;Cearense;;;;;;;;;;;;;x
 parnaibas;Parnaibas;;;;;;;;;;;;;x
 cerradonense;Cerradonense;;;;;;;;;;;;;x
@@ -169,8 +168,22 @@ xingu_group;Xingu;;;;;;;;;;;;;x
 kawesqar;Kawésqar;;;;;;;;;;;;;x
 asunceno;Asunceno;;;;;;;;;;;;;x
 teutobrasilianer;Teutobrasilianer;;;;;;;;;;;;;x
+recifolindense;Recifolindense;;;;;;;;;;;;;x
+lagoano;Lagoano;;;;;;;;;;;;;x
+natalense;Natalense;;;;;;;;;;;;;x
+cearense_group;Cearense;;;;;;;;;;;;;x
+sertanejo_group;Sertanejo;;;;;;;;;;;;;x
+sertanista;Sertanejo;;;;;;;;;;;;;x
+seridoense;Seridoense;;;;;;;;;;;;;x
+northeastern_native;Northeastern Native;;;;;;;;;;;;;x
+karirixoko;Kariri-Xokó;;;;;;;;;;;;;x
+tremembe;Tremembé;;;;;;;;;;;;;x
+potiguara;Potiguara;;;;;;;;;;;;;x
 ###OPINIONS;;;;;;;;;;;;;;
 atlanticano_opinion;Atlanticano Opinion;;;;;;;;;;;;;x
+recifolindense_opinion;Recifolindense Opinion;;;;;;;;;;;;;x
+lagoano_opinion;Lagoano Opinion;;;;;;;;;;;;;x
+natalense_opinion;Natalense Opinion;;;;;;;;;;;;;x
 ###CULTURAL TITLES
 #count_paulista;Viscount;;;;;;;;;;;;;x
 #count_female_paulista;Viscountess;;;;;;;;;;;;;x
