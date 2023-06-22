@@ -2020,10 +2020,31 @@ northeastern_native = {
 		color = { 0.1 0.4 0.2 }
 		
 		male_names = {
-			Protagonist
+			Antero Antônio
+			Brivaldo
+			Cassiano Cícero Cizermandi
+			Elpídio Esmael
+			Floriano
+			Gercino
+			Irineu Isidoro
+			Joel Joel José José José Jorge Juvêncio
+			Luiz
+			Manoel Manoel Manoel Malaquias Marcos Miguel
+			Petronilho
+			Orestes Otaviano
+			Xiko_Francis
 		}
 		female_names = {
-			Antagonist
+			Coragem
+			Du
+			Isaura
+			Josefa Judite
+			Laurinda Lica
+			Maria
+			Nina
+			Quina
+			Santa
+			Zenilda Zenilda
 		}
 		
 		from_dynasty_prefix = " "

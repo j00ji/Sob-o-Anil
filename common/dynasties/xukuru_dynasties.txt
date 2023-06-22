@@ -1,0 +1,126 @@
+380001 = {
+    name = "Jubêgo"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380002 = {
+    name = "Nure"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380003 = {
+    name = "Nascimento"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380004 = {
+    name = "da Rocha"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380005 = {
+    name = "Soares"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380006 = {
+    name = "Norato"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380007 = {
+    name = "de Araújo"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380008 = {
+    name = "Vasconcelos"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380009 = {
+    name = "Deidei"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380010 = {
+    name = "Neto"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380011 = {
+    name = "Jequitibá"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380012 = {
+    name = "Rabário"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380013 = {
+    name = "Nilar"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380014 = {
+    name = "Bizerra"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380015 = {
+    name = "Siqueira"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380016 = {
+    name = "Rodrigues"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380017 = {
+    name = "Ignãcio"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380018 = {
+    name = "Félix"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380019 = {
+    name = "Brito"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380020 = {
+    name = "Tambor"
+    culture = xukuru
+    # Add more properties as needed
+}
+
+380021 = {
+    name = "Geronimo"
+    culture = xukuru
+    # Add more properties as needed
+}
+
