@@ -124,7 +124,7 @@ american_native = {
 
 		religious_clothing_head = 14
 		religious_clothing_priest = 3
-	}	
+	}
 	jerovia = {
 		graphical_culture = mesoamericangfx
 		
@@ -501,12 +501,13 @@ christian = {
 		
 		color = { 1.0 0.9 0.4 }
 		
-				scripture_name = THE_BIBLE
+		scripture_name = THE_BIBLE
 		
 		high_god_name = GOD_DEUS
 		
 		god_names = {
 			GOD_DEUS GOD_PADRE_CICERO GOD_HOLY_SPIRIT GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
 	}
 	seladite = {
 		graphical_culture = yes
