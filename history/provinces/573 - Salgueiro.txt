@@ -16,6 +16,6 @@ b_serrita = tribal
 
 # Misc
 culture = sertanista
-religion = cicerite
+religion = evangelical
 
 #History

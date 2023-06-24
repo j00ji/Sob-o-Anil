@@ -15,7 +15,7 @@ b_vitoria_de_santo_antao = city
 #b_cortes = castle
 
 # Misc
-culture = atlanticano
-religion = camdomble
+culture = sertanista
+religion = evangelical
 
 #History

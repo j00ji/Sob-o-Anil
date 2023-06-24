@@ -15,7 +15,7 @@ b_bayeux = castle
 #b_cabedelo_2 = castle
 
 # Misc
-culture = atlanticano
-religion = camdomble
+culture = potiguara
+religion = cicerite
 
 #History

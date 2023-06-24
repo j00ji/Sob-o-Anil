@@ -15,7 +15,7 @@ b_assare = tribal
 #b_saboeiro = castle
 
 # Misc
-culture = sertanista
+culture = cearense
 religion = cicerite
 
 #History

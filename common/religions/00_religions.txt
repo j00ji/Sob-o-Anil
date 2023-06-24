@@ -2410,6 +2410,37 @@ syncretic_group = {
 
 		intermarry = amazonian_jews
 	}
+	jurema = {
+		graphical_culture = umbanda
+		
+		icon = 81
+		heresy_icon = 81
+		
+		color = { 0.1 0.7 0.3 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = MELEAGRO
+		priest_title = PAJE
+		
+		high_god_name = GOD_IDK #ALL NAMES ARE WIP
+		
+		god_names = {
+			GOD_PURE_SPIRITS GOD_GOOD_SPIRITS
+		}
+		evil_god_names = {
+			GOD_BAD_SPIRITS
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		#aggression = 2.0 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		piety_name = PURITY
+	}
 }
 
 nautical = {

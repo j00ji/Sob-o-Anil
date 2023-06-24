@@ -15,7 +15,7 @@ b_senhora_da_guia = temple
 #b_teixeira = castle
 
 # Misc
-culture = sertanista
+culture = seridoense
 religion = cicerite
 
 #History

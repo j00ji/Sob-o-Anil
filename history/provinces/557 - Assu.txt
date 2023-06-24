@@ -15,7 +15,7 @@ b_jucurutu = tribal
 #b_carnaubais = castle
 
 # Misc
-culture = sertanista
+culture = seridoense
 religion = cicerite
 
 #History

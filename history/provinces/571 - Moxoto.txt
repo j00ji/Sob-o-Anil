@@ -15,7 +15,7 @@ b_ibimirim = castle
 #b_sertania = castle
 
 # Misc
-culture = pankararu
-religion = camdomble
+culture = sertanista
+religion = cicerite
 
 #History

@@ -15,7 +15,7 @@ b_santa_helena_2 = temple
 #b_torroes = castle
 
 # Misc
-culture = sertanista
+culture = seridoense
 religion = cicerite
 
 #History

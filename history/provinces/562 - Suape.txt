@@ -15,7 +15,7 @@ b_cabo_de_agostinho = temple
 #b_camela = castle
 
 # Misc
-culture = atlanticano
+culture = recifolindense
 religion = camdomble
 
 #History

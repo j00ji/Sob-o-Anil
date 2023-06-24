@@ -15,7 +15,7 @@ b_sao_joao_2 = castle
 #b_moreno = castle
 
 # Misc
-culture = atlanticano
+culture = recifolindense
 religion = camdomble
 
 #History

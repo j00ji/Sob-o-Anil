@@ -16,6 +16,6 @@ b_araripina = city
 
 # Misc
 culture = sertanista
-religion = cicerite
+religion = evangelical
 
 #History

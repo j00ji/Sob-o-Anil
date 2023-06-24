@@ -15,7 +15,7 @@ b_japaratinga = castle
 #b_jacuipe = castle
 
 # Misc
-culture = atlanticano
+culture = lagoano
 religion = camdomble
 
 #History

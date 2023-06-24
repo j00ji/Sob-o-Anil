@@ -15,7 +15,7 @@ b_igarassu = city
 #b_tres_ladeiras = castle
 
 # Misc
-culture = atlanticano
+culture = recifolindense
 religion = camdomble
 
 #History

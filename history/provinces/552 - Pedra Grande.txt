@@ -15,7 +15,7 @@ b_sao_roque = castle
 #b_joao_camara = castle
 
 # Misc
-culture = atlanticano
+culture = natalense
 religion = camdomble
 
 #History

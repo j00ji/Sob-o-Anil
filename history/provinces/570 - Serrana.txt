@@ -15,7 +15,7 @@ b_ouro_branco = castle
 #b_aguas_belas_2 = castle
 
 # Misc
-culture = pankararu
-religion = camdomble
+culture = karirixoko
+religion = jurema
 
 #History

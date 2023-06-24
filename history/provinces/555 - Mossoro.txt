@@ -15,7 +15,7 @@ b_barauna_3 = temple
 #b_areia_branca = castle
 
 # Misc
-culture = atlanticano
+culture = natalense
 religion = camdomble
 
 #History

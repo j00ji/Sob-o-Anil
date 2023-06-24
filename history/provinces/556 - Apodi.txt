@@ -15,7 +15,7 @@ b_apodi = tribal
 #b_rodolfo_fernandes = castle
 
 # Misc
-culture = sertanista
+culture = seridoense
 religion = cicerite
 
 #History

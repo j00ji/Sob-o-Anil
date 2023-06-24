@@ -15,7 +15,7 @@ b_tamboril_2 = temple
 #b_ipaporanga = castle
 
 # Misc
-culture = sertanista
+culture = cearense
 religion = cicerite
 
 #History

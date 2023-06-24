@@ -15,7 +15,7 @@ b_pureza = temple
 #b_ceara_mirim = castle
 
 # Misc
-culture = atlanticano
+culture = natalense
 religion = camdomble
 
 #History

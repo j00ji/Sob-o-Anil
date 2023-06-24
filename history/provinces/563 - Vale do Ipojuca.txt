@@ -15,7 +15,7 @@ b_sanharo = temple
 #b_belo_jardim = castle
 
 # Misc
-culture = xukuru
-religion = cicerite
+culture = sertanista
+religion = evangelical
 
 #History

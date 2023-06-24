@@ -15,7 +15,7 @@ b_parari = temple
 #b_sossego = castle
 
 # Misc
-culture = sertanista
+culture = seridoense
 religion = cicerite
 
 #History

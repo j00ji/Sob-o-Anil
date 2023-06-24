@@ -15,7 +15,7 @@ b_redinha = castle
 #b_macaiba = castle
 
 # Misc
-culture = atlanticano
+culture = natalense
 religion = camdomble
 
 #History

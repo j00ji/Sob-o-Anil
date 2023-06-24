@@ -15,7 +15,7 @@ b_brejo_santo = city
 #b_caririacu = castle
 
 # Misc
-culture = sertanista
+culture = cearense
 religion = cicerite
 
 #History

@@ -15,7 +15,7 @@ b_lajedo_2 = city
 #b_quebrangulo = castle
 
 # Misc
-culture = atlanticano
-religion = camdomble
+culture = sertanista
+religion = evangelical
 
 #History

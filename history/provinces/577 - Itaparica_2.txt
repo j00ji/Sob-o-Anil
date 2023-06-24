@@ -16,6 +16,6 @@ b_sao_francisco_2 = temple
 
 # Misc
 culture = pankararu
-religion = camdomble
+religion = jurema
 
 #History

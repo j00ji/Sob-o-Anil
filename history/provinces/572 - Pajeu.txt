@@ -16,6 +16,6 @@ b_iguaracy = temple
 
 # Misc
 culture = xukuru
-religion = cicerite
+religion = jurema
 
 #History
