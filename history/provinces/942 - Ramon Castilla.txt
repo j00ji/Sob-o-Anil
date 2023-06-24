@@ -16,6 +16,6 @@ b_caballococha_2 = castle
 
 # Misc
 culture = charapa
-religion = santo_daime
+religion = israelite
 
 #History

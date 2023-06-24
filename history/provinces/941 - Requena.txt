@@ -16,6 +16,6 @@ b_contamana = city
 
 # Misc
 culture = charapa
-religion = santo_daime
+religion = israelite
 
 #History
