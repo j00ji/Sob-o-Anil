@@ -1675,7 +1675,7 @@ cearense_group = {
 			Waldonis Walter Wellington Wendell Wesley Wilson
 		}
 		female_names = {
-			Aila Alice Amanda Amélia Ana "Ana Maria" Antônia Antonieta Augusta
+			Aila Alice Amanda Amélia Ana "Ana Maria" Antônia Antonieta Augusta Ângela
 			Beatriz Brena
 			Carolina Claudiana
 			Daiane Denise Duda
@@ -1693,7 +1693,6 @@ cearense_group = {
 			Taiana Teresa
 			Valentina Vanessa Vitória Viviane
 			Yasmin Yolanda
-			Ângela
 		}
 		
 		from_dynasty_prefix = "de "
@@ -1718,7 +1717,7 @@ sertanejo_group = {
 	sertanista = {
 		graphical_cultures = { persiangfx muslimgfx }
 		
-		color = { 0.2 0.4 0.0 }
+		color = { 0.7 0.0 0.0 }
 		
 		male_names = {
 			Adelmário Ademir Alcymar Arlindo Ary Assis
@@ -1891,7 +1890,7 @@ northeastern_native = {
 	pankararu = {
 		graphical_cultures = { mesoamericangfx }
 		
-		color = { 0.1 0.4 0.1 }
+		color = { 0.01 0.65 0.9 }
 		
 		male_names = {
 			Alfredo Aluísio Antônio Apôlonio
@@ -1945,7 +1944,7 @@ northeastern_native = {
 	xukuru = {
 		graphical_cultures = { mesoamericangfx }
 		
-		color = { 0.1 0.4 0.2 }
+		color = { 0.4 0.8 0.3 }
 		
 		male_names = {
 			Antero Antônio
@@ -1973,6 +1972,135 @@ northeastern_native = {
 			Quina
 			Santa
 			Zenilda
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	
+	tremembe = { #Couldn't find any big list with Tremembé people, so I just copied from Cearense names, and added the very few unique names I found
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.9 0.7 0.75 }
+		
+		male_names = { 
+			Abelardo Acrísio Adamastor Adelson Aderbal Adolfo Adriano Aécio Afonso Alan Alberto Alfredo Aloysio Alvaro Anastácio André Antero Antônio Arinhã Artur Augusto Aureliano
+			Beto Breno Bruno
+			Caio Carlos Casimiro Célio César Chico Cid Cláudio Cosme Crisanto
+			Dalton Daniel Danilo Dário Demócrito Denis Derivaldo Descartes Diego Domingos Dudu Durval
+			Edgar Edmar Edmilson Ednilton Edson Eduardo Edvar Elano Eliano Eliéser Emanuel Emerson Euclides Evaldo Expedito
+			Fábio Fausto Felipe Fernando Firmo Flávio Francimar Francisco
+			Geraldo Gilberto Godofredo Guilherme Gustavo
+			Hélder Hélio Hermes Hermínio Hugo Humberto
+			Ildefonso Inácio Irismar Ivan
+			Jerônimo João Jônatas Jorge José Júlio Juracy
+			Lauro Leandro Leo Leonel Levi Lucas Luciano Lúcio Luiz
+			Mansueto Manuel Marcelo Marcos Mário Matehus Maurício Mauro Messias Michel Miguel Milton Murilo
+			Natanael Newton Nildo
+			Osvaldo
+			Paulo Pedro Percival Péricles Pio
+			Rafael Raimundo Raul Ricardo Roberto Rodolfo Romero Rubens
+			Sandro Sebastião Sérgio
+			Tácito Tadeu Talles Tatuguaçu Tatupeba Thiago Tito Tobias Tomás Tristão
+			Valdecir Valdemar Valdir Virgílio Vitor
+			Waldonis Walter Wellington Wendell Wesley Wilson
+		}
+		female_names = {
+			Adriana Aila Alice Amanda Amélia Ana "Ana Maria" Antônia Antonieta Augusta Ângela
+			Beatriz Brena
+			Carolina Claudiana
+			Daiane Denise Duda
+			Emanuela Erika Esther Eugênia
+			Fátima Fernanda Francisca
+			Helena Henriqueta
+			Isabela Isadora Íris
+			Jacinta Jade Janaína Joyce
+			Laura Liana Lorena Lourdes Luiza
+			Magda Marcia Margarida Maria Mariana Marly melissa Mikaele Mônica
+			Naiane Nayane Noemi
+			Patrícia
+			Rachel Raimundinha Rafaele Rebeca Regine
+			Samara Samia Sílvia Simone Socorro
+			Taiana Teresa
+			Valentina Vanessa Vitória Viviane
+			Yasmin Yolanda
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	
+	potiguara = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.9 0.7 0.75 }
+		
+		male_names = {
+			Abraão Alair Alan Aldo Anistávio Antonio Antúlio Araci Augusto
+			Babal Bruno
+			Câmara Carlos Cauê Célio Clodoaldo Cussy
+			Daniel Danilo David Dioclécio Djalma Dorian Duda
+			Edilson Edson Eider Ernesto Eugênio
+			Fábio Fernando Filipe Francisco
+			Gabriel Gaspar Genildo Geraldo Gileno Gustavo
+			Heitor Henrique Herberth Hugo
+			Iberê Igor Isak Ivan
+			Jaci Jadson Jessé Joan João "João Galvão" "João Maria" "João Paulo" José "José Luiz" Jussier Juracy
+			Kelps Kerginaldo Kiko
+			Leon Leopoldo Lourival Luciano Luíz "Luíz Ignácio"
+			Manuel Marcelo Márcio Marcos Marina Matheus Matuzalém Miguel Moacir Mução Murilo
+			Newton Ney Nilo Nivaldo
+			Omar Oscar
+			Patrício Paulo Pedro
+			Raimundo Ranielle Raul Reginaldo Renan Ricardo Richardson Richarlyson Roberto Rodolfo Rodrigo Rodrigues Romário Ronny Rostand
+			Sandro Silvio Severino
+			Tadeu Thiago Tobias
+			Uziel
+			Vicente
+			Wagner Walter William Wober
+			Zorobabé
+		}
+		
+		female_names = {
+			Adelaide Amanda Ana Anadil Augusta
+			Beatrice
+			Candinha Carla Cecília Celina Clara Cláudia
+			Danila
+			Eudiane
+			Fernanda Francisca
+			Gracinda
+			Joana Judite Júlia
+			Larissa Lígia Liz
+			Maria Marina
+			Natália
+			Rosa Rosinha
+			SaudadeMargarete
+			Thalita
+			Valéria Virna
 		}
 		
 		from_dynasty_prefix = " "

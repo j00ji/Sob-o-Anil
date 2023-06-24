@@ -1,0 +1,84 @@
+####################
+####Random Potiguara Surnames
+####Source: trilhasdospotiguaras; wikpedia; indios potiguaras da paraiba em foco
+####Range: 390500 - 395000
+####################
+
+390500 = {
+    name = "Fernandes"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390501 = {
+    name = "Faustino"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390502 = {
+    name = "Batista"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390503 = {
+    name = "Negreiros"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390504 = {
+    name = "Guajajara"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390505 = {
+    name = "Oscar"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390506 = {
+    name = "Cumarú"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390507 = {
+    name = "Pessoa"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390508 = {
+    name = "Conceição"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390509 = {
+    name = "Braz"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390510 = {
+    name = "Cassiano"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390511 = {
+    name = "Poty"
+    culture = potiguara
+    # Add more properties as needed
+}
+
+390512 = {
+    name = "Paraupaba"
+    culture = potiguara
+    # Add more properties as needed
+}
+

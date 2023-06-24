@@ -1,0 +1,73 @@
+####################
+####Random Tremembé Surnames
+####Based on people I found on a Facebook page....(yeah I know, amazing source)
+####Source: ResistenciaTremembe
+####Range: 385500 - 390000
+####################
+
+385500 = {
+    name = "Venâncio"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385501 = {
+    name = "Magú"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385502 = {
+    name = "Araioses"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385503 = {
+    name = "do Nascimento"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385504 = {
+    name = "Marques"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385505 = {
+    name = "Caboclo"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385506 = {
+    name = "Tremembé"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385507 = {
+    name = "Almofala"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385508 = {
+    name = "Saldanha"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385509 = {
+    name = "Félix"
+    culture = tremembe
+    # Add more properties as needed
+}
+
+385510 = {
+    name = "Castro"
+    culture = tremembe
+    # Add more properties as needed
+}
+
