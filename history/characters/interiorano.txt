@@ -1177,6 +1177,7 @@
     name="Maria"
     dynasty=285034 # Matanza
     culture=cuyano
+	female=yes
     religion=catholic
     martial=3
     diplomacy=5

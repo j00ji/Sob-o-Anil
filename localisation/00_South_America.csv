@@ -451,7 +451,20 @@ DAVY_JONES;Davy Jones;;;;;;;;;;;;;x
 THE_CODE;The Code;;;;;;;;;;;;;x
 
 #Bandean Gods
-
+GOD_BANDA_ORIENTAL;Banda Oriental;;;;;;;;;;;;;x
+GOD_THE_THIRTY-THREE_ORIENTALS;The Thirty-Three Orientals;;;;;;;;;;;;;x
+GOD_ARTIGAS;Artigas;;;;;;;;;;;;;x
+GOD_DON_PEPE;Don Pepe;;;;;;;;;;;;;x
+GOD_LUISI;Luisi;;;;;;;;;;;;;x
+GOD_BLANCOS;Blancos;;;;;;;;;;;;;x
+GOD_COLORADOS;Colorados;;;;;;;;;;;;;x
+GOD_TUPAMAROS;Tupamaros;;;;;;;;;;;;;x
+GOD_FA;Fa;;;;;;;;;;;;;x
+OATH_OF_THE_THIRTY-THREE_ORIENTALS;Oath of the Thirty-Three Orientals;;;;;;;;;;;;;x
+GOD_PAINE;Paine;;;;;;;;;;;;;x
+INSTRUCTIONS_OF_THE_YEAR_XIII;Instructions of the Year XIII;;;;;;;;;;;;;x
+GOD_THE_TREE_OF_LIFE;The Tree of Life;;;;;;;;;;;;;x
+THE_ALCHEMISTS_TRIUMPH;The Alchemist's Triumph;;;;;;;;;;;;;x
 
 #Leftover Gods
 GOD_DEUS;Deus;;;;;;;;;;;;;x
@@ -475,7 +488,92 @@ GOD_CONFUCIUS;Confucius;;;;;;;;;;;;;x
 GOD_LAOZI;Laozi;;;;;;;;;;;;;x
 THEVETAT;Thevetat;;;;;;;;;;;;;x
 ATLANTIS;Atlantis;;;;;;;;;;;;;x
-THE_BLESSINGS;The Blessings;;;;;;;;;;;;;x
+GOD_THE_BLESSINGS;The Blessings;;;;;;;;;;;;;x
+GOD_ARCANJO_MIGUEL;Arcanjo Miguel;;;;;;;;;;;;;x
+GOD_ARCANJO_URIEL;Uriel;;;;;;;;;;;;;x
+GOD_ARCANJO_GABRIEL;Gabriel;;;;;;;;;;;;;x
+GOD_ARCANJO_RAFAEL;Rafael;;;;;;;;;;;;;x
+GOD_ANJO_DA_GUARDA;Anjo da Guardia;;;;;;;;;;;;;x
+GOD_CUPIDO;Cupido;;;;;;;;;;;;;x
+GOD_LUCIFER;Lucifer;;;;;;;;;;;;;x
+GOD_THE_DEVIL;The Devil;;;;;;;;;;;;;x
+THE_BEZEBU;The Bezebu;;;;;;;;;;;;;x
+GOD_DIABLO;Diablo;;;;;;;;;;;;;x
+GOD_ASMODEUS;Asmodeus;;;;;;;;;;;;;x
+GOD_MAMMON;Mammon;;;;;;;;;;;;;x
+GOD_PAIMON;Paimon;;;;;;;;;;;;;x
+GOD_PEREIRA;Pereira;;;;;;;;;;;;;x
+GOD_LITTLE_BOY;Little Boy;;;;;;;;;;;;;x
+GOD_THE_ELEMENTS;The Elements;;;;;;;;;;;;;x
+GOD_TUPA;Tupa;;;;;;;;;;;;;x
+GOD_ARASY;Arasy;;;;;;;;;;;;;x
+GOD_RUPAVE;Rupave;;;;;;;;;;;;;x
+GOD_SYPAVE;Sypave;;;;;;;;;;;;;x
+GOD_THE_CELESTIAL_JAGUAR;The Celestial Jaguar;;;;;;;;;;;;;x
+GOD_TAU;Tau;;;;;;;;;;;;;x
+GOD_AO_AO;Ao Ao;;;;;;;;;;;;;x
+GOD_KURUPI;Kurupi;;;;;;;;;;;;;x
+GOD_LUISON;Luison;;;;;;;;;;;;;x
+GOD_POMBREO;Pombrero;;;;;;;;;;;;;x
+GOD_CHACALON;Chacalon;;;;;;;;;;;;;x
+GOD_PADRE_CICERO;Padre Cicero;;;;;;;;;;;;;x
+GOD_SANTOS_VEGAS;Santos Vegas;;;;;;;;;;;;;x
+GOD_SAN_BALTASAR;San Baltasar;;;;;;;;;;;;;x
+GOD_SAN_LA_MUERTE;San La Muerte;;;;;;;;;;;;;x
+GOD_NAHUELITO;Nahuelito;;;;;;;;;;;;;x
+CARTA_TESTAMENTO;Carta Testamento;;;;;;;;;;;;;x
+GOD_VARGAS;Getúlio Vargas;;;;;;;;;;;;;x
+GOD_THE_BLACK_ANGEL;The Black Angel;;;;;;;;;;;;;x
+GOD_J_K;J K;;;;;;;;;;;;;x
+GOD_JANGO;Jango;;;;;;;;;;;;;x
+GOD_BRASILIDADE;Brasilidade;;;;;;;;;;;;;x
+TRIBUNA_DE_IMPRENSA;Tribuna da Imprensa;;;;;;;;;;;;;x
+GOD_AIB;AIB;;;;;;;;;;;;;x
+GOD_PEDRO_DE_TOLEDO;Pedro de Toledo;;;;;;;;;;;;;x
+GOD_PRESTES;Prestes;;;;;;;;;;;;;x
+GOD_THE_KNIGHT;The Knight;;;;;;;;;;;;;x
+GOD_HEDU;Hedu;;;;;;;;;;;;;x
+GOD_BUHII;Buhii;;;;;;;;;;;;;x
+GOD_BORE;Bore;;;;;;;;;;;;;x
+GOD_MOAMO;Moamo;;;;;;;;;;;;;x
+GOD_NORESHI;Noreshi;;;;;;;;;;;;;x
+GOD_JAGUAR;Jaguar;;;;;;;;;;;;;x
+THE_STORIES;The Stories;;;;;;;;;;;;;x
+GOD_SAINT_JOACHIM;Saint Joachim;;;;;;;;;;;;;x
+EXPOSITION_OF_THE_BOOK_OF_REVELATION;Exposition of the Book of Revelation;;;;;;;;;;;;;x
+GOD_INKARRI;Inkarri;;;;;;;;;;;;;x
+GOD_TUPAC_AMARU;Tupac Amaru;;;;;;;;;;;;;x
+THE_MYTH;The Myth;;;;;;;;;;;;;x
+GOD_QHOA;Qhoa;;;;;;;;;;;;;x
+GOD_ILLAPA;Illapa;;;;;;;;;;;;;x
+GOD_FRANCIS_OF_ASSISI;Francis of Assisi;;;;;;;;;;;;;x
+GOD_PAUL_THE_APOSTLE;Paul the Apostle;;;;;;;;;;;;;x
+GOD_GANDHI;Gandhi;;;;;;;;;;;;;x
+GOD_THE_CRISIS;The Crisis;;;;;;;;;;;;;x
+GOD_THE_POLTERGEISTS;The Poltergeists;;;;;;;;;;;;;x
+HEAVEN_AND_HELL;Heaven and Hell;;;;;;;;;;;;;x
+GOD_DIVINO_NINO;Divinio Nino;;;;;;;;;;;;;x
+GOD_BOLIVAR;Bolivar;;;;;;;;;;;;;x
+GOD_SANTANDER;Santander;;;;;;;;;;;;;x
+GOD_MANUELITA;Manuelita;;;;;;;;;;;;;x
+PEPE_BOTELLA;Pepe Botella;;;;;;;;;;;;;x
+THE_COLOMBEIA;The Colombeia;;;;;;;;;;;;;x
+GOD_KHARTA;Kharta;;;;;;;;;;;;;x
+GOD_KASOBONAGA;Kasobonaga;;;;;;;;;;;;;x
+GOD_LAPICHI;Lapichi;;;;;;;;;;;;;x
+GOD_MOGONALO;Mogonalo;;;;;;;;;;;;;x
+GOD_NSOGOI;NsoGoi;;;;;;;;;;;;;x
+GOD_PICHAKCHIK;Pichakchik;;;;;;;;;;;;;x
+GOD_ROSAS;Rosas;;;;;;;;;;;;;x
+THE_COMMUNIST;The Communist;;;;;;;;;;;;;x
+THE_RITUALS;The Rituals;;;;;;;;;;;;;x
+GOD_OLODUMARE;Olodumare;;;;;;;;;;;;;x
+GOD_OXALA;Oxala;;;;;;;;;;;;;x
+GOD_OXUM;Oxum;;;;;;;;;;;;;x
+GOD_ORIXAS;The Orixas;;;;;;;;;;;;;x
+GOD_PURE_SPIRITS;The Pure Spirits;;;;;;;;;;;;;x
+GOD_GOOD_SPIRITS;The Good Spirits;;;;;;;;;;;;;x
+GOD_BAD_SPIRITS;The Bad Spirits;;;;;;;;;;;;;x
 
 manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
 manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x

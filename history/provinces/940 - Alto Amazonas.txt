@@ -16,6 +16,6 @@ b_nauta = city
 
 # Misc
 culture = charapa
-religion = santo_daime
+religion = israelite
 
 #History

@@ -706,7 +706,7 @@ cult_of_saints= {
 		high_god_name = GOD_DIOS 
 		
 		god_names = {
-			GOD_CHACALON GOD_ GOD_JESUS GOD_HOLY_SPIRIT
+			GOD_CHACALON GOD_JESUS GOD_HOLY_SPIRIT
 		}
 		
 		evil_god_names = {
@@ -1613,8 +1613,19 @@ old_world_cultists = {
 		
 		icon = 40
 		heresy_icon = 47
-		
+		scripture_name = CARTA_TESTAMENTO
 		color = { 0.4 0.78 0.62 }
+		
+		high_god_name = GOD_VARGAS
+
+		
+		god_names = {
+			GOD_THE_BLACK_ANGEL GOD_J_K GOD_JANGO GOD_BRASILIDADE
+		}
+		
+		evil_god_names = {
+			TRIBUNA_DE_IMPRENSA GOD_AIB GOD_PEDRO_DE_TOLEDO GOD_PRESTES GOD_THE_KNIGHT
+		}
 		
 		parent = farrapo
 	}
