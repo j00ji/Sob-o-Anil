@@ -1,0 +1,432 @@
+500 = {
+    name = "Cabral"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+501 = {
+    name = "Moura"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+502 = {
+    name = "Santos"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+503 = {
+    name = "Ribeiro"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+504 = {
+    name = "Ivánova"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+505 = {
+    name = "Tavares"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+506 = {
+    name = "Menezes"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+507 = {
+    name = "Silva"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+508 = {
+    name = "Cavalcanti"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+509 = {
+    name = "Lins"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+510 = {
+    name = "Salazar"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+511 = {
+    name = "Myrtes"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+512 = {
+    name = "Âncora"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+513 = {
+    name = "de Matos"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+514 = {
+    name = "Almeida"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+515 = {
+    name = "Coutinho"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+516 = {
+    name = "Rangel"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+517 = {
+    name = "Sial"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+518 = {
+    name = "Nóbrega"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+519 = {
+    name = "Diniz"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+520 = {
+    name = "Azedo"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+521 = {
+    name = "Lacerda"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+522 = {
+    name = "Gama"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+523 = {
+    name = "Pinto"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+524 = {
+    name = "Corrêa"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+525 = {
+    name = "Magalhães"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+526 = {
+    name = "Moraes"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+527 = {
+    name = "Quintas"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+528 = {
+    name = "Ferreira"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+529 = {
+    name = "lopes"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+530 = {
+    name = "Laurentino"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+531 = {
+    name = "de Paula"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+532 = {
+    name = "Guitticis"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+533 = {
+    name = "Ferreira"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+534 = {
+    name = "Falcão"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+535 = {
+    name = "Montenegro"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+536 = {
+    name = "Seabra"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+537 = {
+    name = "Bandeira"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+538 = {
+    name = "Amorim"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+539 = {
+    name = "Lavareda"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+540 = {
+    name = "Pontual"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+541 = {
+    name = "Frecheiras"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+542 = {
+    name = "Trindade"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+543 = {
+    name = "Babaioff"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+544 = {
+    name = "Caratateua"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+545 = {
+    name = "Quintella"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+546 = {
+    name = "Simis"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+547 = {
+    name = "Montarroyos"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+548 = {
+    name = "Brito"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+549 = {
+    name = "Sales"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+550 = {
+    name = "Tigre"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+551 = {
+    name = "Hortis"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+552 = {
+    name = "Bonfim"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+553 = {
+    name = "Braz"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+554 = {
+    name = "Valença"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+555 = {
+    name = "Garcia"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+556 = {
+    name = "Lapa"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+557 = {
+    name = "Azevedo"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+558 = {
+    name = "Bittencourt"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+559 = {
+    name = "Quintas"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+560 = {
+    name = "Santa Cruz"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+561 = {
+    name = "Freire"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+562 = {
+    name = "Brennand"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+563 = {
+    name = "Navarro"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+564 = {
+    name = "Rabelo"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+565 = {
+    name = "Gedeão"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+566 = {
+    name = "de Holanda"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+567 = {
+    name = "Cardoso"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+568 = {
+    name = "Guerra"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+569 = {
+    name = "Nabuco"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+570 = {
+    name = "Roma"
+    culture = recifolindense
+    # Add more properties as needed
+}
+
+571 = {
+    name = "Lyra"
+    culture = recifolindense
+    # Add more properties as needed
+}
+

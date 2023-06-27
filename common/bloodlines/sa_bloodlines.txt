@@ -1,6 +1,6 @@
 belchioringian = {
-	atlanticano_opinion = 5
-	camdomble_opinion = 5
+	#atlanticano_opinion = 5
+	cicerite_opinion = 5
 	combat_rating = 8
 	monthly_character_prestige = 0.2
 	bloodline_effect_great_heroes_appear = 1

@@ -3,11 +3,11 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-2354.1.21={ #Belchior crushes last Salvadorense forces in Cabo Norte
+2354.12.21={ #Belchior crushes last Salvadorense forces in Cabo Norte
 	holder = 1 #Antônio Carlos Belchioringio
-	name = NATAL_KINGDOM
-	adjective = NATAL_KINGDOM_ADJ
+	#name = NATAL_KINGDOM
+	#adjective = NATAL_KINGDOM_ADJ
 }
 2362.2.10={
-	holder = 4 #André I Belchioringio
+	holder = 3 #Celestino I Belchioringio
 }

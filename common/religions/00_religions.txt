@@ -2418,7 +2418,7 @@ syncretic_group = {
 		
 		color = { 0.1 0.7 0.3 }
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = MELEAGRO
+		scripture_name = SONGS_OF_JUREMA
 		priest_title = PAJE
 		
 		high_god_name = GOD_IDK #ALL NAMES ARE WIP

@@ -6,6 +6,6 @@
 800.1.1={
 	liege=k_cabo_norte
 }
-2368.1.1 = { #José takes Macau
-	holder = 5 #José Belchioringio
+2368.1.1 = { #Cláudio takes Macau
+	holder = 4 #Cláudio Belchioringio
 }

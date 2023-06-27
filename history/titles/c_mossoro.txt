@@ -6,6 +6,6 @@
 800.1.1={
 	liege=k_cabo_norte
 }
-2367.1.1 = { #Given to José by André I
-	holder = 5 #José Belchioringio
+2367.1.1 = { #Given to Cláudio by his brother
+	holder = 4 #Cláudio Belchioringio
 }

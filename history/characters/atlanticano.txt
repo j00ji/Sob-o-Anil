@@ -4,10 +4,10 @@
 	name="Antônio Carlos Belchior" 
 	#Belchior, founder of the Belchioringian Empire
 	dynasty=1 #Belchioríngio
-	dna=bcidd0cace0
-	properties=di0akb00000
-	religion=camdomble
-	culture=atlanticano
+	dna="cgjca0j00d0"
+	properties="ej0ehc000000000000000000000000000000"
+	religion=cicerite
+	culture=cearense
 	disallow_random_traits=yes
 	trait=brilliant_strategist
 	trait=quick
@@ -45,8 +45,8 @@
 	female=yes
 	dynasty=0
 	dna=0ecda0abbe0
-	religion=camdomble
-	culture=atlanticano
+	religion=cicerite
+	culture=cearense
 	
 	2298.5.10={birth=yes}
 	2318.12.25={
@@ -55,51 +55,52 @@
 	2367.1.10={death=yes}
 }
 
-3={ #Firstborn of Belchior, King of Recife
-	name="Severino"
+3={ #Firstborn of Belchior, King of Cabo Norte
+	name="Celestino"
 	dynasty=1 #Belchioríngio
-	dna=behai0ga0a0
-	properties=am0anc00000
-	religion=camdomble
-	culture=atlanticano
+	dna="ca0ca0ec0c0"
+	properties="ah0hhc000000000000000000000000000000"
+	religion=cicerite
+	culture=natalense
 	father=1
 	mother=2
 	disallow_random_traits=yes
-	trait=skilled_tactician
-	trait=quick
-	trait=patient
-	trait=trusting
-	trait=just
-	trait=zealous
+	trait=charismatic_negotiator
+	trait=mystic
+	trait=poet
+	trait=gregarious
 	
 	martial=6
-	diplomacy=3
+	diplomacy=5
 	intrigue=3
 	stewardship=4
-	learning=3
+	learning=6
 	
 	2325.3.20={birth=yes}
 	2345.1.5={
 		add_spouse=6
 	}
+	2363.3.1={
+		effect = {
+			religion = camdomble
+		}
+	}
 	2400.1.1={death=yes}
 }
 
-4={ #Middle Child of Belchior, King of Natal
-	name="André" 
+4={ #Middle Child of Belchior, former King of Fortaleza, Count of Mossoró
+	name="Cláudio" 
 	dynasty=1 #Belchioríngio
-	dna=behai0da0a0
-	properties=wj0amb00000
-	religion=camdomble
-	culture=atlanticano
+	dna="cc0ca0dc0c0"
+	properties="an0bkd000000000000000000000000000000"
+	religion=cicerite
+	culture=cearense
 	father=1
 	mother=2
 	disallow_random_traits=yes
-	trait=thrifty_clerk
-	trait=temperate
+	trait=flamboyant_schemer
+	trait=strong
 	trait=envious
-	trait=paranoid
-	trait=arbitrary
 	
 	martial=2
 	diplomacy=2
@@ -107,51 +108,52 @@
 	stewardship=5
 	learning=3
 	
-	2334.10.20={birth=yes}
+	2330.10.20={birth=yes}
 	2353.2.22={
 		add_spouse=7
 	}
 	2400.1.1={death=yes}
 }
 
-5={ #Lastborn son of Belchior, former King of Fortaleza, Count of Mossoró
-	name="José"
+5={ #Lastborn son of Belchior, King of Pernambuco
+	name="Cassiano"
 	dynasty=1 #Belchioríngio
-	dna=becah0jaaa0
-	properties=we0e0x00000
-	religion=camdomble
-	culture=atlanticano
+	dna="cf0c00000b0"
+	properties="0l0c0b000000000000000000000000000000"
+	religion=cicerite
+	culture=recifolindense
 	father=1
 	mother=2
 	disallow_random_traits=yes
-	trait=misguided_warrior
-	trait=wroth
-	trait=brave
-	trait=ambitious
-	trait=stubborn
+	trait=indulgent_wastrel
+	trait=lustful
+	trait=hedonist
+	trait=drunkard
+	trait=depressed
+	trait=lovers_pox
 	
-	martial=5
+	martial=4
 	diplomacy=3
-	intrigue=2
+	intrigue=5
 	stewardship=3
 	learning=2
 	
-	2340.12.1={ 
+	2333.12.1={ 
 		birth=yes
 	}
-	2358.3.17={
+	2350.1.5={
 		add_spouse=8
 	}
 	2400.1.1={death=yes}
 }
 
-6={ #Severino's Wife
+6={ #Celestino's Wife
 	name="Maria Eduarda" 
 	female=yes
 	dynasty=0
 	dna=0a0hc0dc0e0
 	religion=camdomble
-	culture=atlanticano
+	culture=natalense
 	
 	2328.3.18={
 		birth=yes
@@ -165,31 +167,32 @@
 	2400.1.1={death=yes}
 }
 
-7={ #André's Wife
+7={ #Cláudio's Wife
 	name="Antônia" 
 	female=yes
 	dynasty=0
 	dna=bbcgh0kacc0
 	religion=camdomble
-	culture=atlanticano
+	culture=natalense
+	trait=fair
 	
 	2336.7.30={birth=yes}
-	2353.2.22={
+	2350.2.22={
 		add_spouse=4
 	}
 	2400.1.1={death=yes}
 }
 
-8={ #José's Wife, deceased
+8={ #Cassiano's Wife, deceased
 	name="Valentina"
 	female=yes
 	dynasty=0
 	dna=0ddbb0icb00
-	religion=camdomble
-	culture=atlanticano
+	religion=cicerite
+	culture=natalense
 	
-	2340.1.16={birth=yes}
-	2358.3.17={
+	2334.1.1={birth=yes}
+	2350.1.5={
 		add_spouse=5
 	}
 	2363.10.13={
@@ -199,35 +202,36 @@
 	}
 }
 
-	##Severinian Line##
+	##Cassian Line##
 	
-9={ #Severino's heir, Duke of Alagoas
-	name="Mateus"
+9={ #Cassiano's heir, Duke of Alagoas
+	name="Décio"
 	dynasty=1 #Belchioríngio
-	dna=acech0a0000
-	properties=bg0c0d00000
-	religion=camdomble
-	culture=atlanticano
-	father=3
-	mother=6
+	dna="000h00a00c0"
+	properties="0j0elk000000000000000000000000000000"
+	religion=cicerite
+	culture=recifolindense
+	father=5
+	mother=8
 	disallow_random_traits=yes
-	trait=skilled_tactician
+	trait=brilliant_strategist
+	trait=shrewd
+	trait=fair
+	trait=diligent
 	trait=brave
-	trait=wroth
-	trait=proud
-	trait=gregarious
+	trait=ambitious
 	
-	martial=4
-	diplomacy=3
+	martial=5
+	diplomacy=5
 	intrigue=1
 	stewardship=2
-	learning=1
+	learning=2
 	
-	2348.5.13={
+	2351.5.13={
 		birth=yes
-		effect={
-			set_graphical_culture=mediterranean
-		}
+		#effect={
+		#	set_graphical_culture=mediterranean
+		#}
 	}
 #	2367.3.9={
 #		add_spouse=x
@@ -235,13 +239,15 @@
 	2400.1.1={death=yes}
 }
 
+	##Celestian Line##
+
 10={
 	name="Vitória"
 	female=yes
 	dynasty=1 #Belchioríngio
 	dna=0jjcj0d00e0
 	religion=camdomble
-	culture=atlanticano
+	culture=natalense
 	father=3
 	mother=6
 	trait=intricate_webweaver
@@ -264,7 +270,7 @@
 	dynasty=1 #Belchioríngio
 	dna=a0hhi0b0ad0
 	religion=camdomble
-	culture=atlanticano
+	culture=natalense
 	father=3
 	mother=6
 	
@@ -288,7 +294,7 @@
 	dynasty=1 #Belchioríngio
 	dna=bifcg0gc0a0
 	religion=camdomble
-	culture=atlanticano
+	culture=natalense
 	father=3
 	mother=6
 	
@@ -302,15 +308,15 @@
 	2400.1.1={death=yes}
 }
 
-	##Andretian Line##	
+	##Claudian Line##	
 
 13={
 	name="Amanda"
 	female=yes
 	dynasty=1 #Belchioríngio
 	dna=afhjd0jccc0
-	religion=camdomble
-	culture=atlanticano
+	religion=cicerite
+	culture=cearense
 	father=4
 	mother=7
 
@@ -328,8 +334,8 @@
 	name="Paulo"
 	dynasty=1 #Belchioríngio
 	dna=aihc00iacd0
-	religion=camdomble
-	culture=atlanticano
+	religion=cicerite
+	culture=cearense
 	father=4
 	mother=7
 	
@@ -343,7 +349,7 @@
 	2400.1.1={death=yes}
 }
 
-	##Josenian Line##
+	##Cassian Line again##
 
 15={
 	name="Luíza"
@@ -355,7 +361,7 @@
 	father=5
 	mother=8
 	trait=quick
-	trait=twin #One of the twins of José and Valentina
+	trait=twin #One of the twins of Cassiano and Valentina
 	
 	2363.10.13={birth=yes}
 	2400.1.1={death=yes}
@@ -370,7 +376,7 @@
 	father=5
 	mother=8
 	trait=quick
-	trait=twin #One of the twins of José and Valentian
+	trait=twin #One of the twins of Cassiano and Valentian
 	
 	2363.10.13={birth=yes}
 	2400.1.1={death=yes}
@@ -378,4 +384,7 @@
 
 	### End of the Belchioringian Dynasty ###
 
-	
+17={
+	name="Marco"
+	dynasty
+}
