@@ -116,7 +116,6 @@
 ### Urbuguayo 790001 - 800000
 ### Asunceno 800001 - 810000
 
-
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.
 

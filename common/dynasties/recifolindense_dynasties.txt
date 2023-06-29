@@ -1,3 +1,67 @@
+###ÄNSI
+#Canon
+
+1 = {
+	name = "Belchioríngio"
+	culture = cearense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+2 = {
+	name = "Cavalcanti"
+	culture = recifolindense
+	religion = camdomble
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+3 = {
+	name = "Albuquerque"
+	culture = recifolindense
+	religion = camdomble
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+###########################
+#####Random Dynasties######
+###########################
+
 500 = {
     name = "Cabral"
     culture = recifolindense
@@ -23,7 +87,7 @@
 }
 
 504 = {
-    name = "IvÃ¡nova"
+    name = "Ivánova"
     culture = recifolindense
     # Add more properties as needed
 }
@@ -46,11 +110,11 @@
     # Add more properties as needed
 }
 
-508 = {
-    name = "Cavalcanti"
-    culture = recifolindense
-    # Add more properties as needed
-}
+#508 = { #already in use by a relevant dynasty
+#    name = "Cavalcanti"
+#    culture = recifolindense
+#    # Add more properties as needed
+#}
 
 509 = {
     name = "Lins"
@@ -71,7 +135,7 @@
 }
 
 512 = {
-    name = "Ã‚ncora"
+    name = "Âncora"
     culture = recifolindense
     # Add more properties as needed
 }
@@ -107,7 +171,7 @@
 }
 
 518 = {
-    name = "NÃ³brega"
+    name = "Nóbrega"
     culture = recifolindense
     # Add more properties as needed
 }
@@ -143,13 +207,13 @@
 }
 
 524 = {
-    name = "CorrÃªa"
+    name = "Corrêa"
     culture = recifolindense
     # Add more properties as needed
 }
 
 525 = {
-    name = "MagalhÃ£es"
+    name = "Magalhães"
     culture = recifolindense
     # Add more properties as needed
 }
@@ -203,7 +267,7 @@
 }
 
 534 = {
-    name = "FalcÃ£o"
+    name = "Falcão"
     culture = recifolindense
     # Add more properties as needed
 }
@@ -323,7 +387,7 @@
 }
 
 554 = {
-    name = "ValenÃ§a"
+    name = "Valença"
     culture = recifolindense
     # Add more properties as needed
 }
@@ -389,7 +453,7 @@
 }
 
 565 = {
-    name = "GedeÃ£o"
+    name = "Gedeão"
     culture = recifolindense
     # Add more properties as needed
 }

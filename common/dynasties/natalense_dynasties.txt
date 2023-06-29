@@ -1,0 +1,468 @@
+405500 = {
+    name = "Palatnik"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405501 = {
+    name = "Câmara"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405502 = {
+    name = "Melo"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405503 = {
+    name = "Severiano"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405504 = {
+    name = "Fernando"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405505 = {
+    name = "Vilar"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405506 = {
+    name = "Parisot"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405507 = {
+    name = "Tinoco"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405508 = {
+    name = "Silva"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405509 = {
+    name = "Roselli"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405510 = {
+    name = "Medeiros"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405511 = {
+    name = "Madureira"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405512 = {
+    name = "Viveiros"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405513 = {
+    name = "Fontoura"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405514 = {
+    name = "Campos"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405515 = {
+    name = "Cascudo"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405516 = {
+    name = "Câmara"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405517 = {
+    name = "de Sousa"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405518 = {
+    name = "Araújo"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405519 = {
+    name = "Viana"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405520 = {
+    name = "Guimarães"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405521 = {
+    name = "Camarão"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405522 = {
+    name = "Almeida"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405523 = {
+    name = "Diá"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405524 = {
+    name = "Duarte"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405525 = {
+    name = "Maranhão"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405526 = {
+    name = "Caldas"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405527 = {
+    name = "Nobre"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405528 = {
+    name = "França"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405529 = {
+    name = "Reis"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405530 = {
+    name = "Dantas"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405531 = {
+    name = "Batista"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405532 = {
+    name = "Macedo"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405533 = {
+    name = "Faria"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405534 = {
+    name = "Holanda"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405535 = {
+    name = "Tavares"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405536 = {
+    name = "Galvão"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405537 = {
+    name = "Itajubá"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405538 = {
+    name = "Fagundes"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405539 = {
+    name = "da Rocha"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405540 = {
+    name = "Bulhões"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405541 = {
+    name = "Nobrega"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405542 = {
+    name = "Cordeiro"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405543 = {
+    name = "Marinho"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405544 = {
+    name = "Freire"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405545 = {
+    name = "Carvalho"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405546 = {
+    name = "Caldas"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405547 = {
+    name = "Pereira"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405548 = {
+    name = "Nobre"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405549 = {
+    name = "Soares"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405550 = {
+    name = "Bezerril"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405551 = {
+    name = "Carrilho"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405552 = {
+    name = "Brito"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405553 = {
+    name = "Studart"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405554 = {
+    name = "dos Santos"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405555 = {
+    name = "Nunes"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405556 = {
+    name = "Penna"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405557 = {
+    name = "Navarro"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405558 = {
+    name = "Chagas"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405559 = {
+    name = "Cavalcanti"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405560 = {
+    name = "Góes"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405561 = {
+    name = "Nóbrega"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405562 = {
+    name = "Gomes"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405563 = {
+    name = "Açucena"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405564 = {
+    name = "Siqueira"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405565 = {
+    name = "Benjamin"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405566 = {
+    name = "Macedo"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405567 = {
+    name = "Matuzalém"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405568 = {
+    name = "Emerenciano"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405569 = {
+    name = "Bonavides"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405570 = {
+    name = "Souto"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405571 = {
+    name = "Pernambuco"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405572 = {
+    name = "Britto"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405573 = {
+    name = "Konder"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405574 = {
+    name = "Salem"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405575 = {
+    name = "Marques"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405576 = {
+    name = "Miranda"
+    culture = natalense
+    # Add more properties as needed
+}
+
+405577 = {
+    name = "Bueno"
+    culture = natalense
+    # Add more properties as needed
+}
+

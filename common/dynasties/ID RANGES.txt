@@ -3,7 +3,7 @@
 #File with the info about the "determined" id ranges for dynasties of said culture/cultural group.
 
 # NORTHEASTERN RANGE: 1-20000 
-### Atlanticano: 1-5000 
+### Recifolindense: 1-5000 
 ### Cearense: 5001-10000 
 ### Sertanista: 10001-15000 
 ### Parnaiba: 15001-20000
@@ -111,12 +111,17 @@
 ### Urbuguayo 360001 - 365000
 ### Asunceno 365001 - 370000
 
-# NORTHEASTERN NATIVE RANGE: 370001 - ?
+# NORTHEASTERN NATIVE RANGE: 370001 - 395000
 ### Kariri-Xoco - 370001 - 375000
 ### Pankararu - 375001 - 380000
 ### Xukuru - 380001 - 385000
 ### Tremembé - 385001 - 390000
 ### Potiguara - 390001 - 395000
+
+# NEW NORTHEASTERN CULTURES: 395001 - ?
+### Lagoano - 395001 - 400000
+### Seridoense - 400001 - 405000
+### Natalense - 405001 - 410000
 
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.

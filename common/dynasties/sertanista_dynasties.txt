@@ -21,3 +21,218 @@
 	name = "Coelho"
 	culture = sertanista
 }
+
+############################
+##Random Sertanejo Dynasties
+############################
+
+10500 = {
+    name = "Aquino"
+    culture = sertanista
+    religion = cicerite
+}
+
+10501 = {
+    name = "Souza"
+    culture = sertanista
+    religion = cicerite
+}
+
+10502 = {
+    name = "de Paula"
+    culture = sertanista
+    religion = cicerite
+}
+
+10503 = {
+    name = "Bezerra"
+    culture = sertanista
+    religion = cicerite
+}
+
+10504 = {
+    name = "Amorim"
+    culture = sertanista
+    religion = cicerite
+}
+
+10505 = {
+    name = "Rosado"
+    culture = sertanista
+    religion = cicerite
+}
+
+10506 = {
+    name = "Lopes"
+    culture = sertanista
+    religion = cicerite
+}
+
+10507 = {
+    name = "Almeida"
+    culture = sertanista
+    religion = cicerite
+}
+
+10508 = {
+    name = "Ferrario"
+    culture = sertanista
+    religion = cicerite
+}
+
+10509 = {
+    name = "Leite"
+    culture = sertanista
+    religion = cicerite
+}
+
+10510 = {
+    name = "Ramalho"
+    culture = sertanista
+    religion = cicerite
+}
+
+10511 = {
+    name = "Gadelha"
+    culture = sertanista
+    religion = cicerite
+}
+
+10512 = {
+    name = "Lima"
+    culture = sertanista
+    religion = cicerite
+}
+
+10513 = {
+    name = "Teixeira"
+    culture = sertanista
+    religion = cicerite
+}
+
+10514 = {
+    name = "Duarte"
+    culture = sertanista
+    religion = cicerite
+}
+
+10515 = {
+    name = "Almino"
+    culture = sertanista
+    religion = cicerite
+}
+
+10516 = {
+    name = "Cascudo"
+    culture = sertanista
+    religion = cicerite
+}
+
+10517 = {
+    name = "Batista"
+    culture = sertanista
+    religion = cicerite
+}
+
+10518 = {
+    name = "Mendes"
+    culture = sertanista
+    religion = cicerite
+}
+
+10519 = {
+    name = "Melo"
+    culture = sertanista
+    religion = cicerite
+}
+
+10520 = {
+    name = "Agripino"
+    culture = sertanista
+    religion = cicerite
+}
+
+10521 = {
+    name = "Maia"
+    culture = sertanista
+    religion = cicerite
+}
+
+10522 = {
+    name = "Higo"
+    culture = sertanista
+    religion = cicerite
+}
+
+10523 = {
+    name = "Pinto"
+    culture = sertanista
+    religion = cicerite
+}
+
+10524 = {
+    name = "Licena"
+    culture = sertanista
+    religion = cicerite
+}
+
+10525 = {
+    name = "do Socorro"
+    culture = sertanista
+    religion = cicerite
+}
+
+10526 = {
+    name = "Cavalcanti"
+    culture = sertanista
+    religion = cicerite
+}
+
+10527 = {
+    name = "Gerson"
+    culture = sertanista
+    religion = cicerite
+}
+
+10528 = {
+    name = "Nonato"
+    culture = sertanista
+    religion = cicerite
+}
+
+10529 = {
+    name = "de Sá"
+    culture = sertanista
+    religion = cicerite
+}
+
+10530 = {
+    name = "Abreu"
+    culture = sertanista
+    religion = cicerite
+}
+
+10531 = {
+    name = "Freire"
+    culture = sertanista
+    religion = cicerite
+}
+
+10532 = {
+    name = "Guerra"
+    culture = sertanista
+    religion = cicerite
+}
+
+10533 = {
+    name = "Brito"
+    culture = sertanista
+    religion = cicerite
+}
+
+10534 = {
+    name = "Ciarlini"
+    culture = sertanista
+    religion = cicerite
+}
+

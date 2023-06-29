@@ -20,3 +20,271 @@
 	}
 }
 
+############################
+###Random Cearense Surnames
+############################
+
+10500 = {
+    name = "Figueiredo"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10501 = {
+    name = "Gentil"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10502 = {
+    name = "da Frota"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10503 = {
+    name = "de Saboia"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10504 = {
+    name = "Gomes"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10505 = {
+    name = "Ibiapina"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10506 = {
+    name = "Rodrigues"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10507 = {
+    name = "do Monte"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10508 = {
+    name = "de Baros"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10509 = {
+    name = "Magalhães"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10510 = {
+    name = "Patriolino"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10511 = {
+    name = "Hamilton"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10512 = {
+    name = "Lima"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10513 = {
+    name = "Gomes"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10514 = {
+    name = "de Andrade"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10515 = {
+    name = "Bento"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10516 = {
+    name = "Silva"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10517 = {
+    name = "Lima"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10518 = {
+    name = "Olímpio"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10519 = {
+    name = "Aquino"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10520 = {
+    name = "Prado"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10521 = {
+    name = "Barreto"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10522 = {
+    name = "Gomes"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10523 = {
+    name = "Cavalcanti"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10524 = {
+    name = "Aragão"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10525 = {
+    name = "Amodio"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10526 = {
+    name = "Adeodato"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10527 = {
+    name = "Rodrigues"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10528 = {
+    name = "Lopes"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10529 = {
+    name = "Lustosa"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10530 = {
+    name = "Cela"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10531 = {
+    name = "Ferreira"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10532 = {
+    name = "de Melo"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10533 = {
+    name = "Capistrano"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10534 = {
+    name = "Viriato"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10535 = {
+    name = "Medeiros"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10536 = {
+    name = "Barros"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10537 = {
+    name = "Sanford"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10538 = {
+    name = "Loiola"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10539 = {
+    name = "Craveiro"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10540 = {
+    name = "Potiguara"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10541 = {
+    name = "Arruda"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10542 = {
+    name = "de Morais"
+    culture = cearense
+    # Add more properties as needed
+}
+
+10543 = {
+    name = "Gondim"
+    culture = cearense
+    # Add more properties as needed
+}
+

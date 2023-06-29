@@ -1,0 +1,372 @@
+395500 = {
+    name = "Mello"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395501 = {
+    name = "Vieira"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395502 = {
+    name = "Lages"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395503 = {
+    name = "Salgado"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395504 = {
+    name = "Amorim"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395505 = {
+    name = "Guimarães"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395506 = {
+    name = "Paiva"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395507 = {
+    name = "Carvalho"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395508 = {
+    name = "Gama"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395509 = {
+    name = "Mafra"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395510 = {
+    name = "Albuquerque"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395511 = {
+    name = "da Rocha"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395512 = {
+    name = "Araújo"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395513 = {
+    name = "Lira"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395514 = {
+    name = "Rosendo"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395515 = {
+    name = "Pereira"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395516 = {
+    name = "Calheiros"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395517 = {
+    name = "Cavalcanti"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395518 = {
+    name = "Piston"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395519 = {
+    name = "Ferreira"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395520 = {
+    name = "Farias"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395521 = {
+    name = "Tenório"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395522 = {
+    name = "Lins"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395523 = {
+    name = "Rodrigues"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395524 = {
+    name = "Teixeira"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395525 = {
+    name = "Diegues"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395526 = {
+    name = "Canuto"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395527 = {
+    name = "Marinho"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395528 = {
+    name = "Bastos"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395529 = {
+    name = "Diniz"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395530 = {
+    name = "Viana"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395531 = {
+    name = "Veiga"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395532 = {
+    name = "Bonfim"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395533 = {
+    name = "de Santa Rosa"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395534 = {
+    name = "Setton"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395535 = {
+    name = "Lima"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395536 = {
+    name = "de Sá"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395537 = {
+    name = "Lessa"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395538 = {
+    name = "Moura"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395539 = {
+    name = "Chalita"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395540 = {
+    name = "Le Campion"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395541 = {
+    name = "Fiúza"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395542 = {
+    name = "Soares"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395543 = {
+    name = "Peixoto"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395544 = {
+    name = "Nascimento"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395545 = {
+    name = "Tenório"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395546 = {
+    name = "Palmeira"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395547 = {
+    name = "Monteiro"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395548 = {
+    name = "Barros"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395549 = {
+    name = "Altavila"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395550 = {
+    name = "Caldas"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395551 = {
+    name = "Holanda"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395552 = {
+    name = "Beltrão"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395553 = {
+    name = "Guedes"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395554 = {
+    name = "Suruagy"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395555 = {
+    name = "Vilela"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395556 = {
+    name = "Loureiro"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395557 = {
+    name = "do Carmo"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395558 = {
+    name = "Jatobá"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395559 = {
+    name = "Previato"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395560 = {
+    name = "Ivo"
+    culture = lagoano
+    # Add more properties as needed
+}
+
+395561 = {
+    name = "Goulart"
+    culture = lagoano
+    # Add more properties as needed
+}
+

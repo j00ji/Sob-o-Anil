@@ -1,0 +1,132 @@
+405001 = {
+    name = "Dias"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+405002 = {
+    name = "Costa"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+405003 = {
+    name = "Cavalcanti"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+405004 = {
+    name = "Medeiros"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+405005 = {
+    name = "Dantas"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+405006 = {
+    name = "Fernandez"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+405007 = {
+    name = "Roberto"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+405008 = {
+    name = "Soares"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+405009 = {
+    name = "Souza"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400010 = {
+    name = "Forte"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400011 = {
+    name = "da Silva"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400012 = {
+    name = "Pereira"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400013 = {
+    name = "Brito"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400014 = {
+    name = "Valle"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400015 = {
+    name = "Bezerra"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400016 = {
+    name = "Costa"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400017 = {
+    name = "Gomes"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400018 = {
+    name = "Castro"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400019 = {
+    name = "Teixeira"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400020 = {
+    name = "Lucena"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400021 = {
+    name = "Gurgel"
+    culture = seridoense
+    # Add more properties as needed
+}
+
+400022 = {
+    name = "Mariz"
+    culture = seridoense
+    # Add more properties as needed
+}
+

@@ -356,8 +356,8 @@
 	female=yes
 	dynasty=1 #Belchioríngio
 	dna=00gad0hcb00
-	religion=camdomble
-	culture=atlanticano
+	religion=cicerite
+	culture=recifolindense
 	father=5
 	mother=8
 	trait=quick
@@ -371,8 +371,8 @@
 	name="Eduardo"
 	dynasty=1 #Belchioríngio
 	dna=00gad0hcb00
-	religion=camdomble
-	culture=atlanticano
+	religion=cicerite
+	culture=recifolindense
 	father=5
 	mother=8
 	trait=quick
@@ -384,7 +384,180 @@
 
 	### End of the Belchioringian Dynasty ###
 
+	###  Recife Republic  ###
+	### Cavalcanti Family ###
 17={
 	name="Marco"
-	dynasty
+	dynasty=2 #Cavalcanti
+	dna="0chki0gb0e0"
+	disallow_random_traits=yes
+	properties="wa0baf000000000000000000000000000000"
+	religion=camdomble
+	culture=recifolindense
+	trait=fortune_builder
+	trait=temperate
+	trait=diligent
+	trait=wroth
+	
+	2318.6.12={birth=yes}
+	2340.7.10={add_spouse=18}
+	2400.1.1={death=yes}
+	#holds d_recife and c_recife
 }
+
+18={
+	name="Ana Maria" #spouse of Marco Cavalcanti
+	female=yes
+	dynasty=0
+	religion=camdomble
+	culture=recifolindense
+	trait=detached_priest	
+	trait=sympathy_christendom
+	trait=kind
+	
+	2320.9.10={birth=yes}
+	2340.7.10={add_spouse=17}
+	2400.1.1={death=yes}
+}
+
+19={
+	name="Lucas"
+	dynasty=2 #Cavalcanti
+	culture=recifolindense
+	religion=camdomble
+	father=17
+	mother=18
+	trait=thrifty_clerk
+	2343.5.10={birth=yes}
+	2400.1.1={death=yes}
+}
+	### Albuquerque Family ###
+20={
+	name="Lúcio"
+	dynasty=3 #Albuquerque
+	culture=salvadorense
+	religion=camdomble
+	trait=skilled_tactician
+	trait=envious
+	trait=diligent
+	trait=stubborn
+	disallow_random_traits=yes
+	diplomacy=5
+	martial=5
+	stewardship=3
+	learning=4
+	intrigue=5
+	2321.4.5={
+		birth=yes
+		culture=recifolindense
+	}
+	2345.2.4={add_spouse=21}
+	2400.1.1={death=yes}
+	#holder of the City of Olinda
+}
+21={
+	name="Catarina"
+	female=yes
+	dynasty=0
+	culture=recifolindense
+	religion=camdomble
+	trait=flamboyant_schemer
+	2323.11.23={birth=yes}
+	2345.2.4={add_spouse=20}
+	2400.1.1={death=yes}
+}
+22={
+	name="Beatriz"
+	dynasty=3 #Albuquerque
+	female=yes
+	father=20
+	mother=21
+	culture=salvadorense
+	religion=camdomble
+	trait=martial_cleric
+	trait=groomed
+	2346.12.25={
+		birth=yes
+		culture=recifolindense
+	}
+	2400.1.1={death=yes}
+}
+
+	### Arraes Family ###
+	
+23={	
+	name="Camilo"
+	dynasty=4 #Arraes
+	culture=sertanista
+	religion=camdomble
+	disallow_random_traits=yes
+	trait=midas_touched
+	trait=greedy
+	trait=arbitrary
+	trait=content
+	trait=kind
+	2315.12.3={
+		birth=yes
+		culture=recifolindense
+	}
+	2333.3.3={add_spouse=24	}
+	2400.1.1={death=yes}
+	#holds Suape
+}
+
+24={
+	name="Marília"
+	dynasty=0
+	female=yes
+	culture=recifolindense
+	religion=camdomble
+	trait=underhanded_rogue
+	2316.2.3={birth=yes	}
+	2333.3.3={add_spouse=23}
+}
+
+25={
+	name="Janaina"
+	dynasty=4 #Arraes
+	female=yes
+	father=23
+	mother=24
+	culture=sertanista
+	religion=camdomble
+	trait=scholarly_theologian
+	trait=shrewd
+	trait=fair
+	2335.1.1={birth=yes culture=recifolindense}
+	2400.1.1={death=yes}
+}
+
+26={
+	name="João"
+	dynasty=4 #Arraes
+	father=23
+	mother=24
+	culture=recifolindense
+	religion=camdomble
+	trait=tough_soldier
+	trait=ambitious
+	trait=uncouth
+	2339.2.15={birth=yes}
+	2400.1.1={death=yes}
+}
+
+27={
+	name="Jeremias"
+	dynasty=4 #Arraes
+	father=23
+	mother=24
+	culture=recifolindense
+	religion=camdomble
+	trait=thrifty_clerk
+	trait=temperate
+	trait=sturdy
+	2342.7.5={birth=yes}
+	2400.1.1={death=yes}
+}
+
+	### Lira Family ###
+	
