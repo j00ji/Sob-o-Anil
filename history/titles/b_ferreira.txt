@@ -1,0 +1,5 @@
+2366.6.29={
+	holding_dynasty = 6 #Ferreira
+	liege = d_recife
+	holder = 30 #Lucrécio
+}

@@ -95,3 +95,30 @@ b_amin = {
 	culture = greenbelly
 	religion = universal
 }
+
+## Recife
+
+b_cavalcanti = {
+	culture = recifolindense
+	religion = camdomble
+}
+
+b_albuquerque = {
+	culture = recifolindense
+	religion = camdomble
+}
+
+b_arraes = {
+	culture = recifolindense
+	religion = camdomble
+}
+
+b_lira = {
+	culture = recifolindense
+	religion = cicerite
+}
+
+b_ferreira = {
+	culture = recifolindense
+	religion = evangelical
+}

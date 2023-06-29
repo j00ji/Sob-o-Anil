@@ -9,3 +9,7 @@
 2362.2.10={
 	holder = 3 #Severino I Belchioringio
 }
+2366.6.29={
+	holder = 28 #Severino Lira
+	liege = d_recife
+}

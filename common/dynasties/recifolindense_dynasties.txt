@@ -58,6 +58,63 @@
 	}
 }
 
+4 = {
+	name = "Arraes"
+	culture = recifolindense
+	religion = camdomble
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+5 = {
+	name = "Lira"
+	culture = recifolindense
+	religion = camdomble
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+6 = {
+	name = "Ferreira"
+	culture = recifolindense
+	religion = camdomble
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
 ###########################
 #####Random Dynasties######
 ###########################
@@ -230,11 +287,11 @@
     # Add more properties as needed
 }
 
-528 = {
-    name = "Ferreira"
-    culture = recifolindense
-    # Add more properties as needed
-}
+#528 = {
+#    name = "Ferreira"
+#    culture = recifolindense
+#    # Add more properties as needed
+#}
 
 529 = {
     name = "lopes"
@@ -260,11 +317,11 @@
     # Add more properties as needed
 }
 
-533 = {
-    name = "Ferreira"
-    culture = recifolindense
-    # Add more properties as needed
-}
+#533 = {
+#    name = "Ferreira"
+#    culture = recifolindense
+#    # Add more properties as needed
+#}
 
 534 = {
     name = "Falcão"

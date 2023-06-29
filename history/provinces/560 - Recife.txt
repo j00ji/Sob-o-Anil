@@ -11,7 +11,7 @@ b_olinda_2 = city
 b_iphan_tomba = temple
 b_sao_joao_2 = castle
 #b_camaragipe = city
-#b_paulista_2 = temple
+b_recife = city
 #b_moreno = castle
 
 # Misc
@@ -19,3 +19,6 @@ culture = recifolindense
 religion = camdomble
 
 #History
+2366.6.29={
+	capital = b_recife
+}

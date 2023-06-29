@@ -561,3 +561,46 @@
 
 	### Lira Family ###
 	
+28={
+	name="Severino"
+	dynasty=5 #Lira
+	culture=recifolindense
+	religion=cicerite
+	trait=grey_eminence
+	trait=gregarious
+	trait=ambitious
+	trait=patient
+	disallow_random_traits=yes
+	2335.5.17={birth=yes}
+	2367.1.1={add_spouse=29}
+	2400.1.1={death=yes}
+	#holds itamaraca
+}
+
+29={
+	name="Milena"
+	dynasty=0
+	culture=sertanista
+	religion=cicerite
+	trait=grey_eminence
+	2341.1.1={birth=yes}
+	2367.1.1={add_spouse=28}
+}
+
+	### Ferreira Family ###
+	
+30={
+	name="Lucrécio"
+	dynasty=6 #Ferreira
+	culture=recifolindense
+	religion=evangelical
+	trait=flamboyant_schemer
+	trait=shrewd
+	trait=proud
+	trait=charitable
+	disallow_random_traits=yes
+	
+	23342.1.30={birth=yes}
+	2400.1.1={death=yes}
+	#only patrician to not be landed
+}
