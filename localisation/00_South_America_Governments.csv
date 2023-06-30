@@ -86,6 +86,10 @@ oligarchic_republic_barony_of;City of;;;;;;;;;;;;;x
 oligarchic_republic_county_of;City State of;;;;;;;;;;;;;x
 oligarchic_republic_duchy_of;Grandiose City State of;;;;;;;;;;;;;x
 
+##Northeastern Native title names
+
+count_karirixoko;Cacique;;;;;;;;;x
+
 ##Laws
 religion_tolerance;Religious Tolerance;;;;;;;;;;;;;x;
 religion_tolerance_desc;Laws that suggest wether or not the state religion is to be enforced upon all vassals.;;;;;;;;;;;;;x;

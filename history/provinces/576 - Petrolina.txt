@@ -6,7 +6,7 @@ title = c_petrolina
 # Settlements
 max_settlements = 4
 
-b_episcopal = castle
+b_episcopal = tribal
 b_petrolina = city
 b_cristo_rei = temple
 #b_lagoa_grande = castle
@@ -16,6 +16,6 @@ b_cristo_rei = temple
 
 # Misc
 culture = sertanista
-religion = cicerite
+religion = evangelical
 
 #History

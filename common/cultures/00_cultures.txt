@@ -342,6 +342,39 @@ reference_culture = {
 
 		modifier = default_culture_modifier
 	}
+	southindian = {
+		graphical_cultures = { southindiangfx indiangfx muslimgfx }
+		
+		used_for_random = no
+		allow_in_ruler_designer = no
+		
+		alternate_start = {
+			always=no
+		}
+
+		color = { 0.0 0.0 0.0 }
+
+		male_names = {
+			ERROR
+		}
+		female_names = {
+			ERROR
+		}
+
+		from_dynasty_prefix = ""
+
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+		
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
 	arabic = {
 		graphical_cultures = { muslimgfx }
 		
@@ -508,6 +541,40 @@ reference_culture = {
 	}
 	persian = {
 		graphical_cultures = { persiangfx muslimgfx }
+	
+		used_for_random = no
+		allow_in_ruler_designer = no
+		
+		alternate_start = {
+			always=no
+		}
+		
+		color = { 0.0 0.0 0.0 }
+		
+		male_names = {
+			ERROR
+		}
+		
+		female_names = {
+			ERROR
+		}
+		
+		from_dynasty_prefix = ""
+
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+		
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	turkish = {
+		graphical_cultures = { turkishgfx muslimgfx }
 	
 		used_for_random = no
 		allow_in_ruler_designer = no

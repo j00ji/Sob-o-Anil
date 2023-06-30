@@ -676,7 +676,7 @@ e_nordeste = {
 		}
 	}
 	k_pernambuco = {
-		color={ 170 32 183 }
+		color={ 16 16 112 }
 		color2={ 255 255 255 }
 		
 		capital = 560 # c_recife

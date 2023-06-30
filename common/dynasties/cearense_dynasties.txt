@@ -2,7 +2,7 @@
 #Canon
 
 5001 = {
-	name = "Jereissati"
+	name = "Matildez"
 	culture = cearense
 	religion = cicerite
 	can_appear = no 
@@ -11,7 +11,7 @@
 		template = 0
 		layer = {
 			texture = 5
-			texture_internal = 1
+			texture_internal = 21
 			emblem = 0
 			color = 0
 			color = 0

@@ -15,7 +15,7 @@ b_bela_cruz = temple
 #b_campanario = castle
 
 # Misc
-culture = cearense
+culture = tremembe
 religion = cicerite
 
 #History

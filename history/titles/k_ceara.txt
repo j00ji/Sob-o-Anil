@@ -11,9 +11,9 @@
 2362.2.10={
 	holder = 4 #Cláudio Belchioringio
 }
-2366.9.12={ #Cicerite Revolt 
-	holder = 10001 #Ciro I Jereissati
-	reset_name = yes
-	reset_adjective = yes
+2366.9.12={ #Seladite Revolt 
+	holder = 10001 #Francisco Matildez
+	#reset_name = yes
+	#reset_adjective = yes
 	#set_global_flag = fortaleza_renamed
 }

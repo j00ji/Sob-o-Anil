@@ -88,7 +88,7 @@
 	2400.1.1={death=yes}
 }
 
-4={ #Middle Child of Belchior, former King of Fortaleza, Count of Mossoró
+4={ #Middle Child of Belchior, former King of Ceara, Count of Mossoró
 	name="Cláudio" 
 	dynasty=1 #Belchioríngio
 	dna="cc0ca0dc0c0"
@@ -111,6 +111,11 @@
 	2330.10.20={birth=yes}
 	2353.2.22={
 		add_spouse=7
+	}
+	2367.1.1={
+		effect = {
+			add_claim = k_ceara
+		}
 	}
 	2400.1.1={death=yes}
 }
@@ -579,6 +584,7 @@
 
 29={
 	name="Milena"
+	female=yes
 	dynasty=0
 	culture=sertanista
 	religion=cicerite
@@ -600,7 +606,212 @@
 	trait=charitable
 	disallow_random_traits=yes
 	
-	23342.1.30={birth=yes}
+	2342.1.30={birth=yes}
 	2400.1.1={death=yes}
 	#only patrician to not be landed
+}
+
+	### End of Recife Republic ###
+	### Quelê Family ###
+	
+31={
+	name="Constantino"
+	dynasty=7 #Quelê
+	dna="bfhcc0faba0"
+	properties="eb0ihk000000000000000000000000000000"
+	culture=sertanista
+	religion=evangelical
+	trait=intricate_webweaver
+	trait=greedy
+	trait=ambitious
+	trait=cynical
+	disallow_random_traits=yes
+	
+	diplomacy=6
+	martial=6
+	stewardship=4
+	intrigue=5
+	learning=3
+	
+	2327.8.25={birth=yes}
+	2352.10.14={add_spouse=32}
+	2400.1.1={death=yes}
+	#holds duchy of francisca, santa maria da boa vista and petrolina
+}
+
+32={
+	name="Maria Bonita"
+	female=yes
+	dynasty=0 #later change it to an actual dynasty of a neighbor
+	culture=sertanista
+	religion=cicerite
+	trait=detached_priest
+	trait=zealous
+	
+	2335.9.1={birth=yes}
+	2352.10.14={add_spouse=31}
+	2400.1.1={death=yes}
+}
+
+33={
+	name="Cristino"
+	dynasty=7
+	dna="00icc0fbba0"
+	properties="eb0i0k000000000000000000000000000000"
+	culture=sertanista
+	religion=evangelical
+	trait=tough_soldier
+	trait=wroth
+	trait=zealous
+	
+	2354.3.15={birth=yes}
+	2400.1.1={death=yes}
+}
+
+	### Costa-Xaviers of Penedo ###
+	
+34={
+	name="Beatriz"
+	dynasty=8 #Costa-Xavier
+	dna="bcfih0fa0d0"
+	properties="ji0f0i0000000000000000000000000000000"
+	female=yes
+	culture=lagoano
+	religion=cicerite
+	trait=fortune_builder
+	trait=just
+	trait=kind
+	trait=fair
+	trait=quick
+	disallow_random_traits=yes
+	
+	diplomacy=6
+	martial=3
+	stewardship=5
+	intrigue=4
+	learning=4
+	
+	2352.2.15={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Pascoal Family of Arapiraca###
+35={
+	name="Hermes" 
+	dynasty=9 #Pascoal
+	dna="bbh0d0ic0c0"
+	properties="wg0hfk000000000000000000000000000000"
+	#Hermeto Pascoal reference
+	culture=turkish
+	religion=cicerite
+	trait=mastermind_theologian
+	trait=gregarious
+	trait=poet
+	trait=possessed
+	disallow_random_traits=yes
+	
+	diplomacy=5
+	martial=2
+	stewardship=5
+	intrigue=4
+	learning=7
+	
+	2317.12.14={birth=yes culture=lagoano}
+	2335.6.12={add_spouse=36}
+	2400.1.1={death=yes}
+}
+
+36={
+	name="Ilza"
+	female=yes
+	dynasty=0
+	culture=lagoano
+	religion=cicerite
+	trait=underhanded_rogue
+	
+	2320.4.3={birth=yes}
+	2335.6.12={add_spouse=35}
+	2400.1.1={death=yes}
+}
+
+37={
+	name="Jorge"
+	dynasty=9 #pascoal
+	father=35
+	mother=36
+	culture=lagoano
+	religion=cicerite
+	trait=martial_cleric
+	
+	2337.1.4={birth=yes}
+	2400.1.1={death=yes}
+}
+
+38={
+	name="Fábio"
+	dynasty=9 #pascoal
+	father=35
+	mother=36
+	culture=lagoano
+	religion=cicerite
+	trait=scholarly_theologian
+	
+	2340.5.14={birth=yes}
+	2400.1.1={death=yes}
+}
+
+39={
+	name="Fátima"
+	dynasty=9 #pascoal
+	female=yes
+	father=35
+	mother=36
+	culture=lagoano
+	religion=cicerite
+	trait=charismatic_negotiator
+	
+	2342.5.14={birth=yes}
+	2400.1.1={death=yes}
+}
+
+40={
+	name="Fabiula"
+	dynasty=9 #pascoal
+	female=yes
+	father=35
+	mother=36
+	culture=lagoano
+	religion=cicerite
+	trait=amateurish_plotter
+	
+	2347.5.14={birth=yes}
+	2400.1.1={death=yes}
+}
+
+41={
+	name="Flávio"
+	dynasty=9 #pascoal
+	female=yes
+	father=35
+	mother=36
+	culture=lagoano
+	religion=cicerite
+	trait=skilled_tactician
+	
+	2351.5.14={birth=yes}
+	2400.1.1={death=yes}
+}
+
+	###Kariri-Xocós Family of Serrana###
+42={
+	name="Tawy"
+	dynasty=370001 #Kariri-Xocó
+	culture=karirixoko
+	religion=jurema
+	trait=scholarly_theologian
+	trait=brave
+	trait=honest
+	disallow_random_traits=yes
+	
+	2345.8.8={birth=yes}
+	2400.1.1={death=yes}
 }
