@@ -815,3 +815,88 @@
 	2345.8.8={birth=yes}
 	2400.1.1={death=yes}
 }
+
+	###Pankararus of Itaparica###
+43={
+	name="Diogo"
+	dynasty=375001 #Pankararu
+	culture=pankararu
+	religion=jurema
+	trait=underhanded_rogue
+	trait=gregarious
+	
+	2342.12.12={ birth=yes }
+	2400.1.1={death=yes}
+}
+	###Xukurus of Pajéu###
+44={
+	name="Marcos"
+	dynasty=380022 #Xukuru
+	culture=xukuru
+	religion=jurema
+	trait=skilled_tactician
+	trait=brave
+	trait=strong
+	
+	2339.10.20={birth=yes}
+	2400.1.1={death=yes}
+}
+	###de Gaula###
+45={
+	name="Amadeu"
+	dynasty=10 #de Gaula
+	culture=mediterranean
+	religion=cicerite
+	trait=tough_soldier
+	trait=brave
+	trait=proud
+	trait=kind	
+	
+	2340.11.28={birth=yes culture=sertanista}
+	2400.1.1={death=yes}
+}
+	###Carneiro###
+46 = { #Bento Carneiro o Vampiro Brasileiro
+	name="Bento"
+	dynasty=11 #Carneiro
+	dna="0bedi0aba00"
+	properties="jd0j0k0000000000000000a0000000000000"
+	culture=sertanista
+	religion=cicerite	
+	trait=underhanded_rogue
+	trait=groomed
+	trait=lustful
+	
+	2309.12.10={birth=yes}
+	2400.1.1={death=yes}
+}
+
+47={
+	name="Calunga"
+	dynasty=0 # 
+	dna="00000000a00"
+	properties="0h000k0000000000000000a0000000000000"
+	culture=sertanista
+	religion=cicerite
+	
+	2332.4.1={birth=yes}
+	2360.5.10={
+		employer=46
+		effect={give_job_title=job_spymaster}
+	}
+	2400.1.1={death=yes}
+}
+	###da Matta###
+48={
+	name="Cândido"
+	dynasty=12 #da Matta
+	culture=recifolindense
+	religion=cicerite
+	secret_religion=umbanda
+	trait=mastermind_theologian
+	trait=erudite
+	trait=mystic
+	
+	2326.7.28={birth=yes}
+	2400.1.1={death=yes}
+}

@@ -124,3 +124,20 @@
     # Add more properties as needed
 }
 
+380022 = {
+    name = "Xukuru"
+    culture = xukuru
+	can_appear = no
+	used_for_random = no
+    coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

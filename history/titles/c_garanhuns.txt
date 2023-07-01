@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_pernambuco
 }
+2359.9.11={
+	holder=48 #Cândido
+}
