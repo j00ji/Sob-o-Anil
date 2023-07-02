@@ -6,8 +6,8 @@ title = c_nova_cruz
 # Settlements
 max_settlements = 3
 
-b_ze_dos_montes = castle
 b_nova_cruz = temple
+b_ze_dos_montes = castle
 #b_bivar = temple
 #b_lagoa_dagua = castle
 #b_montanhas = city

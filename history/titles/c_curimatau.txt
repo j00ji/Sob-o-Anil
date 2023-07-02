@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_cabo_norte
 }
+2364.1.1={
+	holder=51 #João Suassuna
+}

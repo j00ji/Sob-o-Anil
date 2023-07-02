@@ -289,3 +289,23 @@ d_trifrontier = {
 	
 	allow = { always = no }
 }
+
+d_potiguara = {
+	color={ 66 146 157 }
+	color2 = { 255 255 255 }
+	
+	capital = 547 #João Pessoa
+	
+	culture = potiguara
+	
+	allow = { 
+		war = no
+		culture = potiguara
+		OR = {
+			prestige = 100
+			d_potiguara = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	
+	creation_requires_capital = yes
+}

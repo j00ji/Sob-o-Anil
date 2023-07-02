@@ -900,3 +900,193 @@
 	2326.7.28={birth=yes}
 	2400.1.1={death=yes}
 }
+	###Vassals of Cabo Norte###
+	###Camarão Family of the Potiguara Mark/João Pessoa###
+49={
+	name="Felipe"
+	dynasty=390001 #Camarão
+	culture=potiguara
+	religion=jurema
+	trait=tough_soldier
+	trait=brave
+
+	diplomacy=6
+	martial=5
+	stewardship=6
+	intrigue=3
+	learning=4
+
+	2337.8.24={birth=yes}
+	2364.3.2={add_spouse=50}
+	2400.1.1={death=yes}
+	#ruler of d_potiguara and c_joao_pessoa
+}
+499={ #I made a mistake
+	name="Clara"
+	female=yes
+	dynasty=0
+	culture=potiguara
+	religion=jurema
+	trait=skilled_tactician
+	trait=gregarious
+	
+	diplomacy=4
+	martial=4
+	stewardship=5
+	intrigue=3
+	learning=2
+	
+	2347.6.8={birth=yes}
+	2364.3.2={add_spouse=49}
+	2400.1.1={death=yes}
+}
+	###Morais family of Borborema###
+50={
+	name="Antônio"
+	dynasty=13 #Morais
+	dna="adcdi0abab0"
+	properties="pa0j0i000000000000000000000000000000"
+	culture=seridoense
+	religion=cicerite
+	trait=underhanded_rogue
+	trait=robust
+	trait=cruel
+	trait=arbitrary
+	trait=wrothtrait=proud
+	diplomacy=4
+	martial=4
+	stewardship=6
+	intrigue=4
+	learning=1
+	2311.4.18={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Suassuna of Curimataú###
+51={
+	name="João"
+	dynasty=14 #Suassuna
+	culture=seridoense
+	religion=cicerite
+	trait=indulgent_wastrel
+	
+	2340.3.15={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Duque of Patos###
+52 = {
+	name="Don Aldo" #Get it? Like Donald Duck
+	dynasty=15 #Duque
+	culture=seridoense
+	religion=cicerite
+	trait=tough_soldier
+	trait=wroth
+	
+	2331.6.31={birth=yes}
+	2360.1.1={add_spouse=53}
+	2400.1.1={death=yes}
+}
+53 = {
+	name="Deise"
+	female=yes
+	dynasty=0
+	culture=seridoense
+	religion=cicerite
+	2340.4.3={birth=yes}
+	2360.1.1={add_spouse=52}
+	2400.1.1={death=yes}
+}
+	###Paraguaçu of Cajazeiras###
+54 = {
+	name="Odorico"
+	dynasty=19 #Paraguaçu
+	culture=seridoense
+	religion=cicerite
+	trait=charismatic_negotiator
+	2316.7.10={birth=yes}
+	2352.3.4={
+		give_nickname=nick_the_beloved
+	}
+	2360={
+		effect={
+			add_lover=56
+			add_lover=57
+			add_lover=58
+		}
+	}
+	2400.1.1={death=yes}
+}
+55 = {
+	name="Cajazeiro"
+	dynasty=0
+	culture=seridoense
+	religion=cicerite
+	trait=flamboyant_schemer
+	
+	2290.3.4={birth=yes}
+	2360.1.1={death=yes}
+}
+56 = {
+	name="Dorotéia"
+	female=yes
+	father=55
+	dynasty=0
+	culture=seridoense
+	religion=cicerite
+	
+	2329.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+57 = {
+	name="Dulcinéia"
+	female=yes
+	father=55
+	dynasty=0
+	culture=seridoense
+	religion=cicerite
+	
+	2332.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+58 = {
+	name="Judicéia"
+	female=yes
+	father=55
+	dynasty=0
+	culture=seridoense
+	religion=cicerite
+	
+	2340.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Bishop of Nova Cruz###
+59={
+	name="Juventino"
+	dynasty=16 #Caroá
+	culture=natalense
+	religion=cicerite
+	
+	2308.5.3={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Lima family of Assú###
+60={
+	name="Percival"
+	dynasty=17 #Lima
+	culture=natalense
+	religion=camdomble
+	trait=scholarly_theologian
+	
+	2339.2.5={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Diallez family of Apodi###
+61={
+	name="Luiz"
+	dynasty=18 #Diallez
+	culture=natalense
+	religion=camdomble
+	trait=misguided_warrior
+	
+	2344.4.6={birth=yes}
+	2400.1.1={death=yes}
+}

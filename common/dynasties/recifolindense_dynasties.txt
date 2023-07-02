@@ -228,6 +228,128 @@
 		}
 	}
 }
+
+13 = {
+	name = "Morais"
+	culture = seridoense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+14 = {
+	name = "Suassuna"
+	culture = seridoense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+15 = {
+	name = "Duque"
+	culture = seridoense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+16 = {
+	name = "Caroá"
+	culture = seridoense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+}
+
+17 = {
+	name = "Lima"
+	culture = natalense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+18 = {
+	name = "Diallez"
+	culture = natalense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+19 = {
+	name = "Paraguaçu"
+	culture = natalense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 ###########################
 #####Random Dynasties######
 ###########################
