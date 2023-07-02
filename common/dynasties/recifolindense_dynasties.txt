@@ -350,6 +350,166 @@
 		}
 	}
 }
+
+20 = {
+	name = "Montenegro"
+	culture = cearense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+21 = {
+	name = "Rosa"
+	culture = cearense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+}
+
+22 = {
+	name = "Zeferino"
+	culture = cearense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+23 = {
+	name = "de Alencar"
+	culture = cearense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 40
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+24 = {
+	name = "Vero"
+	culture = cearense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 41
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+25 = {
+	name = "Tabajara"
+	culture = tremembe
+	religion = jurema
+	can_appear = no
+	used_for_random = no
+	#coat_of_arms = {
+	#	template = 0
+	#	layer = {
+	#		texture = 5
+	#		texture_internal = 41
+	#		emblem = 0
+	#		color = 0
+	#		color = 0
+	#		color = 0
+	#	}
+	#}
+}
+
+26 = {
+	name = "Maratoan"
+	culture = cearense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 42
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+27 = {
+	name = "Alencar-Araripe"
+	culture = cearense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 43
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+28 = {
+	name = "Bringel"
+	culture = cearense
+	religion = cicerite
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 ###########################
 #####Random Dynasties######
 ###########################

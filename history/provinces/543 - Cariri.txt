@@ -6,8 +6,8 @@ title = c_cariri
 # Settlements
 max_settlements = 3
 
-b_crato = tribal
 b_juazeiro_do_norte = temple
+b_crato = tribal
 b_brejo_santo = city
 #b_missao_velha = castle
 #b_barbalha = city

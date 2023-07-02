@@ -1090,3 +1090,141 @@
 	2344.4.6={birth=yes}
 	2400.1.1={death=yes}
 }
+	###Vassals of Ceará###
+	###Montenegro of Quixeramobim###
+62={
+	name="Aimée"
+	female=yes
+	dynasty=20 #Montenegro
+	culture=cearense
+	religion=cicerite
+	secret_religion=liberationist #very subtle lol
+	trait=martial_cleric
+	
+	2350.3.27={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Head of Faith of Cicerite###
+63={
+	name="Sísifo"
+	dynasty=21 #Rosa
+	culture=cearense
+	religion=cicerite
+	trait=scholarly_theologian
+	
+	2315.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#owner of Cariri
+}
+	###Tremembés of Acaraú###
+64={
+	name="João"
+	dynasty=385001 #Venâncio Tremembé
+	culture=tremembe
+	religion=jurema
+	trait=tough_soldier
+	
+	2339.4.11={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Zeferinos of Aracati###
+65={
+	name="Cécias"
+	dynasty=22 #Zeferino
+	culture=greek
+	religion=cicerite
+	trait=flamboyant_schemer
+	trait=arbitrary
+	
+	2352.4.6={birth=yes culture=cearense}
+	2400.1.1={death=yes}
+}
+	###de Alencars of Jaguaribe### Should later expand on this dynasty ###
+66={
+	name="Martim"
+	dynasty=23#de Alencar
+	culture=mediterranean
+	religion=cicerite
+	
+	2312.4.5={birth=yes}
+	2338.2.4={add_spouse=67}
+	2363.2.3={death=yes}
+	#former holder of medio_jaguaribe and iguatu and d_jaguaribe
+}
+67={
+	name="Iracema"
+	female=yes
+	dynasty=25#tabajara
+	culture=tremembe
+	religion=jurema
+	
+	2320.4.5={birth=yes}
+	2400.1.1={death=yes}
+}
+68={
+	name="Moacir"
+	dynasty=23#de Alencar
+	culture=cearense
+	religion=cicerite
+	father=66
+	mother=67
+	trait=charismatic_negotiator
+	2339.3.4={birth=yes}
+	2400.1.1={death=yes}
+	#current holder of medio_jaguaribe and iguatu and d_jaguaribe
+}
+	###Vero family of Baixo Jaguaribe###
+69={
+	name="Justo" #He's gonna explode poor people
+	dynasty=24#Vero
+	dna="bh0b00ea000"
+	properties="ph0ehk000000000000000000000000000000"
+	culture=cearense
+	religion=cicerite
+	trait=intricate_webweaver
+	trait=shrewd
+	trait=schemer
+	trait=greedy
+	trait=deceitful
+	disallow_random_traits=yes
+	diplomacy=7
+	martial=3
+	stewardship=4
+	intrigue=6
+	learning=2
+	2327.3.4={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Maratoan of Crateús###
+70={
+	name="Flávio"
+	dynasty=26 #Maratoan
+	culture=cearense
+	religion=cicerite
+	
+	2342.5.7={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Alencar-Araripe of Araripe###
+71={
+	name="Tristão"
+	dynasty=27 #Alencar-Araripe
+	culture=cearense
+	religion=cicerite
+	trait=scholarly_theologian
+	trait=scholar
+	trait=poet
+	2322.5.7={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Vassal of Francisca###
+	###Bringel of Araripe###
+72={
+	name="Geraldo"
+	dynasty=28 #Bringel
+	culture=sertanista
+	religion=evangelical
+	
+	2332.2.3={birth=yes}
+	2400.1.1={death=yes}
+}

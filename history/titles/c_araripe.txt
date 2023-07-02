@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_ceara
 }
+2354.2.7={
+	holder=71 #Tristão Alencar-Araripe
+}

@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_ceara
 }
+2366.6.1 = {
+	holder=65 #Cécias Zeferino
+}
