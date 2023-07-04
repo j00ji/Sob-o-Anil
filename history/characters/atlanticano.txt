@@ -917,7 +917,7 @@
 	learning=4
 
 	2337.8.24={birth=yes}
-	2364.3.2={add_spouse=50}
+	2364.3.2={add_spouse=499}
 	2400.1.1={death=yes}
 	#ruler of d_potiguara and c_joao_pessoa
 }
