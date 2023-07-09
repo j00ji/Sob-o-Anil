@@ -829,9 +829,9 @@ RETTYPE_CUL_RECIFOLINDENSE = {
 	}
 	
 	modifier = {
-		pikemen_offensive = 0.1
-		pikemen_defensive = 0.3
-		pikemen_morale = 0.3
+		pikemen_offensive = 0.2
+		pikemen_defensive = 0.2
+		pikemen_morale = 0.4
 	}
 }
 

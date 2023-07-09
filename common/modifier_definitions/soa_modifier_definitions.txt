@@ -1,5 +1,36 @@
 # Definitions of the dynamically defined modifiers by other elements such as special troops
+###Troop Modifiers##
+cowboys = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
 
+cowboys_offensive = {
+	show_as_percent = yes
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 2
+}
+
+cowboys_defensive = {
+	show_as_percent = yes
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 2
+}
+
+cowboys_morale = {
+	show_as_percent = yes
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 2
+}
 ##Culture Opinions##
 atlanticano_opinion = {
 	show_as_percent = no
