@@ -1,7 +1,7 @@
 ###ÃNSI
 
 330001 = {
-	name="Alfonso ‘the Guest"
+	name="Alfonso"
     dynasty=355070 # Gelly
     culture=pampeano
     religion=catholic
@@ -21,6 +21,12 @@
     trait=stubborn
     2324.1.1={birth=yes}
 	2350.4.5={add_spouse=330044}
+	2365.1.1={
+		effect={
+			give_nickname = nick_the_guest
+		}
+	}
+
 	2368.1.1={add_spouse=330045}
     2396.1.1={death=yes}
 
