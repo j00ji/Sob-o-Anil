@@ -104,8 +104,8 @@
     trait=diligent
     trait=proud
     trait=craven
-    2220.1.1={birth=yes}
-    2270.1.1={death=yes}
+    2320.1.1={birth=yes}
+    2370.1.1={death=yes}
 	
 	#Count of Azul and Juarez
 }
