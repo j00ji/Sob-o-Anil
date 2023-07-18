@@ -15,4 +15,5 @@ nick_the_wizard = {}
 nick_the_marginal_knight = {}
 nick_the_bruja = {}
 nick_the_viudita = {}
+nick_the_guest = {}
 nick_the_beloved = {}
