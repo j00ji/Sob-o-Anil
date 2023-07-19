@@ -1,4 +1,4 @@
-###Ã„NSI
+###ÄNSI
 
 410001={
 	name="de Padilla"
@@ -6,6 +6,18 @@
 	religion=santa_diablada
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		religion = santa_diablada
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410002={
 	name="de Cuenca"
@@ -20,6 +32,18 @@
 	religion=santa_diablada
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		religion = santa_diablada
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410004={
 	name="Condori"
@@ -34,6 +58,18 @@
 	religion=pachamama
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		religion = santa_diablada
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410006={
 	name="Aiza"
@@ -41,9 +77,21 @@
 	religion=santa_diablada
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		religion = santa_diablada
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410007={
-	name="ZÃ¡rate"
+	name="Zárate"
 	culture=aymara
 	religion=santa_diablada
 	can_appear=no
@@ -85,14 +133,25 @@
 	used_for_random=no
 }
 410013={
-	name="AÃ±ez"
+	name="Añez"
 	culture=camba
 	religion=evangelical
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410014={
-	name="ChÃ¡vez"
+	name="Chávez"
 	culture=camba
 	religion=catholic
 	can_appear=no
@@ -118,6 +177,17 @@
 	religion=catholic
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410018={
 	name="Lanza"
@@ -127,7 +197,7 @@
 	used_for_random=no
 }
 410019={
-	name="LeaÃ±os"
+	name="Leaños"
 	culture=chiquitano
 	religion=catholic
 	can_appear=no
@@ -139,6 +209,17 @@
 	religion=catholic
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410021={
 	name="Perez"
