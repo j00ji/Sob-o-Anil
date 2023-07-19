@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_grigota
 }
+2362.1.1={
+	liege=d_beni
+	holder=810018 #Ignaciano Alcaya
+}

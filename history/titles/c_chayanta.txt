@@ -6,3 +6,9 @@
 800.1.1={
 	liege=k_bolivia
 }
+2327.1.1={
+	holder=810008 #Evo Aiza
+}
+2365.1.1={
+	holder=810006 #Andrónico
+}

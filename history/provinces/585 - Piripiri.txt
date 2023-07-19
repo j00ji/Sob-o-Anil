@@ -6,7 +6,7 @@ title = c_piripiri
 # Settlements
 max_settlements = 3
 
-b_piripiri = castle
+b_piripiri = tribal
 b_barras = city
 #b_sete_cidades = temple
 #b_pedro_ii = castle
@@ -16,6 +16,6 @@ b_barras = city
 
 # Misc
 culture = parnaibas
-religion = camdomble
+religion = tridentine
 
 #History

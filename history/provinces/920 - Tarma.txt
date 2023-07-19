@@ -15,7 +15,7 @@ b_la_oroya = city
 #b_morococha = castle
 
 # Misc
-culture = huanca
+culture = quechua
 religion = liberationist
 
 #History

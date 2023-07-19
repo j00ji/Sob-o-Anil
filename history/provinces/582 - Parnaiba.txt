@@ -6,7 +6,7 @@ title = c_parnaiba
 # Settlements
 max_settlements = 3
 
-b_parnaiba = castle
+b_parnaiba = tribal
 b_divina_graca = temple
 #b_barcas = temple
 #b_luis_correia = castle
@@ -16,6 +16,6 @@ b_divina_graca = temple
 
 # Misc
 culture = parnaibas
-religion = camdomble
+religion = tridentine
 
 #History

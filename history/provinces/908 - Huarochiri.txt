@@ -15,7 +15,7 @@ b_matucana = castle
 #b_san_miguel_de_viso = castle
 
 # Misc
-culture = huanca
+culture = quechua
 religion = liberationist
 
 #History

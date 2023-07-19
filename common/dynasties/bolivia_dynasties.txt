@@ -1,0 +1,170 @@
+###ÄNSI
+
+410001={
+	name="de Padilla"
+	culture=colla
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}
+410002={
+	name="de Cuenca"
+	culture=colla
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}
+410003={
+	name="Sosa"
+	culture=colla
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}
+410004={
+	name="Condori"
+	culture=colla
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}
+410005={
+	name="Palenque"
+	culture=aymara
+	religion=pachamama
+	can_appear=no
+	used_for_random=no
+}
+410006={
+	name="Aiza"
+	culture=quechua
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}
+410007={
+	name="Zárate"
+	culture=aymara
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}
+410008={
+	name="Morales"
+	culture=aymara
+	religion=pachamama
+	can_appear=no
+	used_for_random=no
+}
+410009={
+	name="Machaca"
+	culture=quechua
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}
+410010={
+	name="Pinedo"
+	culture=colla
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}
+410011={
+	name="Santa Cruz de la Sierra"
+	culture=camba
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410012={
+	name="Bailaba"
+	culture=chiquitano
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410013={
+	name="Añez"
+	culture=camba
+	religion=evangelical
+	can_appear=no
+	used_for_random=no
+}
+410014={
+	name="Chávez"
+	culture=camba
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410015={
+	name="Ferreira"
+	culture=camba
+	religion=evangelical
+	can_appear=no
+	used_for_random=no
+}
+410016={
+	name="Sattori"
+	culture=camba
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}
+410017={
+	name="Toro"
+	culture=camba
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410018={
+	name="Lanza"
+	culture=camba
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410019={
+	name="Leaños"
+	culture=chiquitano
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410020={
+	name="Unzaga"
+	culture=camba
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410021={
+	name="Perez"
+	culture=camba
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410022={
+	name="Camacho"
+	culture=camba
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410023={
+	name="Barrientos"
+	culture=camba
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+410024={
+	name="Alcaya"
+	culture=camba
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}

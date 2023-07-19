@@ -6,7 +6,7 @@ title = c_palmeirais
 # Settlements
 max_settlements = 3
 
-b_floriano = castle
+b_floriano = tribal
 b_amarante = city
 #b_agua_branca = temple
 #b_regeneracao = castle
@@ -16,6 +16,6 @@ b_amarante = city
 
 # Misc
 culture = parnaibas
-religion = evangelical
+religion = tridentine
 
 #History

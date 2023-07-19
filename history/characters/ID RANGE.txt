@@ -108,13 +108,21 @@
 ### Xerente: 740001 - 750000
 
 
-# Plateño RANGE: 750001 - 800000
+# Plateño RANGE: 750001 - 810000
 ### Porteño 750001 - 760000
 ### Pampeano 760001 - 770000
 ### Contadino 770001 - 780000
 ### Litoraleño 780001 - 790000
 ### Urbuguayo 790001 - 800000
 ### Asunceno 800001 - 810000
+
+# Boliviano RANGE: 810001 - 830000 will probably just use this range for all bolivians
+## Colla 810001 - 820000
+## Camba 820001 - 830000
+
+# ANDEAN NATIVE RANGE:  830001 - 850000
+## Quechua 830001 - 840000
+## Aymara 840001 - 850000
 
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.

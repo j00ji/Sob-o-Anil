@@ -1,0 +1,583 @@
+#EMPIRE OF BOLIVIA
+#Kingdom of Bolivia
+#Duchy of Chuquisaca
+#County of Sucre (Vassal of Kingdom of Bolivia)
+810001={
+    name="Eulalia"
+    dynasty=410001 # de Padilla
+    culture=colla
+    religion=santa_diablada
+    female=yes
+    martial=5
+    diplomacy=3
+    stewardship=3
+    intrigue=2
+    learning=4
+    trait=tough_soldier
+    trait=duelist
+    trait=brave
+    trait=wroth
+    trait=kind
+    trait=humble
+    2344.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Countess of Sucre, rules Sucre and Tarija, unmarried
+
+#County of Cinti (Vassal of Kingdom of Bolivia)
+810002={
+    name="Francisco"
+    dynasty=410002 # Cuenca
+    culture=colla
+    religion=santa_diablada
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=2
+    learning=3
+    trait=naive_appeaser
+    trait=paranoid
+    trait=proud
+    trait=patient
+    trait=kind
+    2339.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Cinti
+
+#Duchy of Cochabamba
+#Count of Cochabamba (Vassal of Kingdom of Bolivia)
+810003={
+    name="Alejandro"
+    dynasty=410003 # Sosa
+    culture=colla
+    religion=santa_diablada
+    martial=7
+    diplomacy=5
+    stewardship=7
+    intrigue=7
+    learning=3
+    trait=intricate_webweaver
+    trait=gardener
+    trait=shrewd
+    trait=lustful
+    trait=greedy
+    trait=wroth
+    trait=envious
+    trait=diligent
+    2327.1.1={birth=yes}
+	2355.1.1={effect={give_nickname=nick_coke_addict}}
+    2370.1.1={death=yes}
+}
+#Count of Cochabamba, rules Cochabamba and Campero, nickname “the Cocalero”
+
+#County of Chapare (Vassal of Kingdom of Bolivia)
+810004={
+    name="Julio"
+    dynasty=410004 # Condori
+    culture=colla
+    religion=santa_diablada
+    martial=2
+    diplomacy=3
+    stewardship=5
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=greedy
+    trait=kind
+    trait=humble
+    2335.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Chapare
+
+#Duchy of La Paz
+#Duchy of La Paz (Vassal of Kingdom of Bolivia)
+810005={
+    name="Bertha"
+    dynasty=410005 # Palenque
+    culture=aymara
+    religion=pachamama
+	female=yes
+    martial=2
+    diplomacy=4
+    stewardship=2
+    intrigue=3
+    learning=5
+    trait=charismatic_negotiator
+    trait=ambitious
+    trait=ugly
+    trait=charitable
+    trait=patient
+    trait=just
+    trait=gregarious
+    2348.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Duchess of La Paz, rules La Paz, Camacho, and Ingavi, unmarried
+
+#Duchy of Potosí
+#Kingdom of Bolivia
+810006={
+    name="Andrónico"
+    dynasty=410006 # Aiza
+	father=810008
+    culture=quechua
+    religion=santa_diablada
+    martial=6
+    diplomacy=4
+    stewardship=7
+    intrigue=4
+    learning=4
+    trait=midas_touched
+    trait=administrator
+    trait=just
+    trait=diligent
+    trait=patient
+    trait=kind
+    trait=honest
+    trait=content
+    2341.1.={birth=yes}
+    2370.1.1={death=yes}
+}
+#King of Bolivia, rules Potosi and Chayanta
+
+810007={
+    name="Tupac"
+    dynasty=410006 # Aiza
+	father=810008
+    culture=quechua
+    religion=santa_diablada
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=5
+    trait=strong
+    trait=haughty
+    2345.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Brother of the King of Bolivia, prince and heir
+
+810008={
+    name="Evo"
+    dynasty=410006 # Aiza
+    culture=quechua
+    religion=santa_diablada
+    martial=7
+    diplomacy=7
+    stewardship=7
+    intrigue=7
+    learning=7
+    trait= skilled_tactician
+    trait=quick
+    trait=peasant_leader
+    trait=proud
+    trait=just
+    trait=humble
+    trait=gregarious
+    2320.1.1={birth=yes}
+    2365.1.1={death=yes}
+}
+#First King of Bolivia, father of Andrónico and Tupac, establishes Bolivia in 2347.1.1, dies a natural death in 2365.1.1
+
+#County of Chichas (Vassal of Kingdom of Bolivia)
+810009={
+    name="Fausto"
+    dynasty=410007 # Zárate
+    culture=aymara
+    religion=santa_diablada
+    martial=3
+    diplomacy=6
+    stewardship=2
+    intrigue=3
+    learning=3
+    trait=underhanded_rogue
+    trait=seducer
+    trait=cruel
+    trait=gregarious
+    trait=diligent
+    trait=proud
+    2333.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Chichas
+
+#County of Carangas (Vassal of Kingdom of Bolivia)
+810010={
+    name="María"
+    dynasty=410008 # Morales
+    culture=aymara
+    religion=pachamama
+    female=yes
+    martial=4
+    diplomacy=4
+    stewardship=5
+    intrigue=3
+    learning=4
+    trait=thrifty_clerk
+    trait=greedy
+    trait=diligent
+    trait=honest
+    trait=tough
+    trait=proud
+    2328.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Carangas
+
+#County of Oruro (Vassal of Kingdom of Bolivia)
+810011={
+    name="Alejandra"
+    dynasty=410009 # Machaca
+    culture=quechua
+    religion=santa_diablada
+    female=yes
+    martial=3
+    diplomacy=6
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=skilled_tactician
+    trait=sadist
+    trait=wroth
+    trait=cruel
+    trait=proud
+    trait=robust
+    2350.1.1={birth=yes}
+	2369.1.1={add_spouse_matrilineal=810007}
+    2370.1.1={death=yes}
+}
+#Countess of Oruro, married to the Count of Chichas
+
+#Duchy of Yungas
+#Duchy of Yungas
+810012={
+    name="Ronaldo"
+    dynasty=410010 # Pinedo
+    culture=black
+    religion=santa_diablada
+    martial=5
+    diplomacy=3
+    stewardship=5
+    intrigue=3
+    learning=5
+    trait=scholarly_theologian
+    trait=scholar
+    trait=diligent
+    trait=humble
+    trait=wroth
+    trait=kind
+    2280.1.1={birth=yes culture=colla}
+    2370.1.1={death=yes}
+}
+#Duke of Yungas, rules Yungas, Iturralde, Larecaja and Apolo, African ethnicity (represents the Afro-Bolivian monarchy)
+
+#Kingdom of Grigotá
+#Duchy of Ñuflo
+#Duchy of Ñuflo
+810013={
+    name="Guillermo"
+    dynasty=410011 # Santa Cruz de la Sierra
+    culture=camba
+    religion=catholic
+    martial=4
+    diplomacy=5
+    stewardship=5
+    intrigue=4
+    learning=5
+    trait=tough_soldier
+    trait=adventurer
+    trait=zealous
+    trait=ambitious
+    trait=wroth
+    trait=envious
+    2328.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Duke of Ñuflo, rules Ñuflo and Guarayos
+
+#County of Velasco
+810014={
+    name="Jose"
+    dynasty=410012 # Bailaba
+    culture=chiquitano
+    religion=catholic
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=thrifty_clerk
+    trait=erudite
+    trait=proud
+    trait=honest
+    trait=envious
+    trait=charitable
+    2332.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Velasco
+
+#Duchy of Beni
+#Duchy of Beni
+810015={
+    name="Carolina"
+    dynasty=410013 # Áñez
+    culture=camba
+    religion=evangelical
+    female=yes
+    martial=3
+    diplomacy=6
+    stewardship=4
+    intrigue=4
+    learning=3
+    trait=grey_eminence
+    trait=zealous
+    trait=charitable 
+    trait=cruel
+    trait=deceitful
+    trait=ambitious
+    trait=proud
+    2334.1.1={birth=yes}
+	2357.1.1={add_spouse_matrilineal=810016}
+    2370.1.1={death=yes}
+}
+#Duchess of Beni, rules Vaca Diez, Cercado, and Pando
+
+810016={
+	name="Hernando"
+    dynasty=410014 # Chávez
+    culture=camba
+    religion=catholic
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=skilled_tactician
+    trait=cynical
+    trait=content
+    trait=kind
+   2331.1.1 ={birth=yes}
+   2370.1.1={death=yes}
+}
+#Husband of the Duchess of Beni, matrilineal marriage
+
+#County of Pando (Vassal of Duchy of Beni)
+810017={
+    name="Almir"
+    dynasty=410015 # Ferreira
+    culture=camba
+    religion=evangelical
+    martial=2
+    diplomacy=3
+    stewardship=2
+    intrigue=5
+    learning=3
+    trait=flamboyant_schemer
+    trait=deceitful
+    trait=diligent
+    trait=proud
+    trait=content
+    2340.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Pando
+
+#County of Moxos (Vassal of Duchy of Beni)
+810018={
+    name="Ignaciano"
+    dynasty=410024 # Alcaya
+    culture=camba
+    religion=santa_diablada
+    martial=3
+    diplomacy=2
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=indulgent_wastrel
+    trait=slothful
+    trait=humble
+    trait=arbitrary
+    trait=honest
+    2340.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Moxos
+
+#County of San Borja
+810019={
+    name="Haysen"
+    dynasty=410016 # Sattori
+    culture=camba
+    religion=santa_diablada
+    martial=3
+    diplomacy=4
+    stewardship=5
+    intrigue=3
+    learning=4
+    trait=fortune_builder
+    trait=proud
+    trait=wroth
+    trait=envious
+    2320.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of San Borja
+
+#Duchy of Cordillera
+#Duchy of Cordillera
+810020={
+    name="Germán"
+    dynasty=410017 # Toro
+    culture=german
+    religion=catholic
+    martial=5
+    diplomacy=5
+    stewardship=3
+    intrigue=1
+    learning=1
+    trait=tough_soldier
+    trait=inspiring_leader
+    trait=ambitious
+    trait=wroth
+    trait=kind
+    trait=charitable
+    trait=just
+    trait=honest
+    2334.1.1={birth=yes culture=camba}
+	2360.1.1={add_spouse=810021}
+    2370.1.1={death=yes}
+}
+#Duke of Cordillera, rules Busch and Lagunillas, German ethnicity
+
+810021={
+    name="Matilde"
+    dynasty=410018 # Lanza
+    culture=camba
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=martial_cleric
+    trait=kind
+    trait=chaste
+    trait=content
+    2345.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Wife of the Duke of Cordillera
+
+#County of Chiquitos (Vassal of Duke of Cordillera)
+810022={
+    name="Miguel"
+    dynasty=410019 # Leaños
+    culture=chiquitano
+    religion=catholic
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=flamboyant_schemer
+    trait=ambitious
+    trait=envious
+    trait=proud
+    trait=diligent
+    trait=lustful
+    2328.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Chiquitos
+
+#Duchy of Santa Cruz
+#Duchy of Santa Cruz
+810023={
+    name="Carlos"
+    dynasty=410020 # Unzaga
+    culture=camba
+    religion=catholic
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=skilled_tactician
+    trait=ambitious
+    trait=zealous
+    trait=arbitrary
+    trait=wroth
+    trait=kind
+    trait=honest
+    2328.1.1={birth=yes}
+	2360.1.1={add_spouse=810024}
+    2370.1.1={death=yes}
+}
+#Duke of Santa Cruz, rules Santa Cruz, Warnes, and Santistevan 
+
+810024={
+    name="Miranda"
+    dynasty=410021 # Perez
+    culture=camba
+    religion=catholic
+    female=yes
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=2
+    learning=4
+    trait=indulgent_wastrel
+    trait=chaste
+    trait=arbitrary
+    trait=diligent
+    2340.1.1={birth=yes}
+    2370.1.1 ={death=yes}
+}
+#Wife of the Duke of Santa Cruz
+
+#County of Florida (Vassal of Duchy of Santa Cruz)
+810025={
+    name="Oscar"
+    dynasty=410022 # Camacho
+    culture=camba
+    religion=catholic
+    martial=3
+    diplomacy=2
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=diligent
+    trait=charitable 
+    trait=proud
+    trait=kind
+    2336.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Florida
+
+#County of Ichilo (Vassal of Duchy of Santa Cruz)
+810026={
+    name="Alfredo"
+    dynasty=410023 # Barrientos 
+    culture=camba
+    religion=catholic
+    martial=4
+    diplomacy=2
+    stewardship=2
+    intrigue=3
+    learning=5
+    trait=tough_soldier
+    trait=wroth
+    trait=envious
+    trait=lustful
+    trait=arbitrary
+    2341.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+#Count of Ichilo

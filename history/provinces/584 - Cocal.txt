@@ -6,7 +6,7 @@ title = c_cocal
 # Settlements
 max_settlements = 2
 
-b_cocal = castle
+b_cocal = tribal
 #b_alves = city
 #b_vicosa = temple
 #b_joaquim_pires_2 = castle
@@ -16,6 +16,6 @@ b_cocal = castle
 
 # Misc
 culture = parnaibas
-religion = camdomble
+religion = tridentine
 
 #History

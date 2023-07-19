@@ -6,7 +6,7 @@ title = c_valenca_2
 # Settlements
 max_settlements = 2
 
-b_inhuma = castle
+b_inhuma = tribal
 b_aroazes = temple
 #b_ipiranga = temple
 #b_canabrava_2 = castle
@@ -16,6 +16,6 @@ b_aroazes = temple
 
 # Misc
 culture = parnaibas
-religion = evangelical
+religion = tridentine
 
 #History

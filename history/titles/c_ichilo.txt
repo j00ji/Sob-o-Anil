@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_grigota
 }
+2366.1.1={
+	liege=d_santa_cruz
+	holder=810026 #Alfredo Barrientos
+}

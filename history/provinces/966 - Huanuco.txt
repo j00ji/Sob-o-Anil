@@ -15,7 +15,7 @@ b_ambo = castle
 #b_chavinillo = castle
 
 # Misc
-culture = huanca
+culture = quechua
 religion = inti
 
 #History

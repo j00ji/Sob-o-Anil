@@ -15,7 +15,7 @@ b_yanahuanca = city
 #b_oyon_2 = castle
 
 # Misc
-culture = huanca
+culture = quechua
 religion = liberationist
 
 #History

@@ -118,10 +118,16 @@
 ### Tremembé - 385001 - 390000
 ### Potiguara - 390001 - 395000
 
-# NEW NORTHEASTERN CULTURES: 395001 - ?
+# NEW NORTHEASTERN CULTURES: 395001 - 410000
 ### Lagoano - 395001 - 400000
 ### Seridoense - 400001 - 405000
 ### Natalense - 405001 - 410000
+
+# BOLIVIAN RANGE: 410001 - 450000
+### Colla - 410001 - 420000
+### Camba - 420001 - 430000
+### Quechua - 430001 - 440000
+### Aymara - 440001 - 450000
 
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.

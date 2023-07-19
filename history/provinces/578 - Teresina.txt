@@ -6,7 +6,7 @@ title = c_teresina
 # Settlements
 max_settlements = 5
 
-b_karnak = castle
+b_karnak = tribal
 b_teresina = city
 b_uniao = city
 b_senhora_de_amparo = temple
@@ -16,6 +16,6 @@ b_senhora_de_amparo = temple
 
 # Misc
 culture = parnaibas
-religion = evangelical
+religion = tridentine
 
 #History

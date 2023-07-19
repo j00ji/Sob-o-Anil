@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_grigota
 }
+2365.1.1={
+	liege=d_cordillera
+	holder=810022 #Miguel Leaños
+}

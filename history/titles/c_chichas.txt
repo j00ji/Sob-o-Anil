@@ -6,3 +6,6 @@
 800.1.1={
 	liege=k_bolivia
 }
+2357.1.1={
+	holder=810009 #Fausto Zárate
+}

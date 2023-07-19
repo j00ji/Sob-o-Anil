@@ -6,7 +6,7 @@ title = c_luzilandia
 # Settlements
 max_settlements = 2
 
-b_madeiro = castle
+b_madeiro = tribal
 b_esperantina = temple
 #b_batalha = temple
 #b_matias_olimpio = castle
@@ -16,6 +16,6 @@ b_esperantina = temple
 
 # Misc
 culture = parnaibas
-religion = camdomble
+religion = tridentine
 
 #History
