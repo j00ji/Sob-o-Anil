@@ -16,6 +16,6 @@ b_moises_ville = temple
 
 # Misc
 culture = turco
-religion = theosophist
+religion = jewish
 
 #History

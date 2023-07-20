@@ -594,7 +594,7 @@
     name="Mario"
     dynasty=285017 # Mohamed
     culture=turco
-    religion=theosophist
+    religion=jewish
     martial=3
     diplomacy=5
     stewardship=3
