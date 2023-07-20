@@ -636,7 +636,7 @@
 80009={
 	name="Ruan Vitor"
 	dynasty=40032
-	culture=inca
+	culture=native
 	religion=evangelical
 	disallow_random_traits=yes
 	add_trait=branch_presbyterian

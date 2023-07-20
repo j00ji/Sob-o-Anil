@@ -140,7 +140,7 @@
 610006 = {
 	name = "Tatiane" 
 	dynasty = 250005 #Alves
-	culture = atlanticano
+	culture = lagoano
 	religion = terra_benta
 	female = yes
 	
@@ -200,7 +200,7 @@
 610009 = {
 	name = "Daniel"
 	dynasty = 250004#Mineiro
-	culture = atlanticano
+	culture = lagoano
 	religion = terra_benta
 	father = 610005
 	mother = 610006
@@ -353,7 +353,7 @@
 610017 = {
 	name = "Daniela"
 	dynasty = 250007 #Michelli
-	culture = atlanticano
+	culture = lagoano
 	religion = terra_benta
 	female = yes
 	

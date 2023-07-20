@@ -96,8 +96,10 @@
 810005={
     name="Bertha"
     dynasty=410005 # Palenque
-    culture=aymara
+    culture=ugly
     religion=pachamama
+	dna="0bccj0hha00"
+	properties="cd0d0k000a000000000000000000000000000"
 	female=yes
     martial=2
     diplomacy=4
@@ -111,7 +113,7 @@
     trait=patient
     trait=just
     trait=gregarious
-    2348.1.1={birth=yes}
+    2348.1.1={birth=yes culture=aymara}
     2370.1.1={death=yes}
 }
 #Duchess of La Paz, rules La Paz, Camacho, and Ingavi, unmarried
@@ -137,7 +139,7 @@
     trait=kind
     trait=honest
     trait=content
-    2341.1.={birth=yes}
+    2341.1.1={birth=yes}
     2370.1.1={death=yes}
 }
 #King of Bolivia, rules Potosi and Chayanta
@@ -156,6 +158,7 @@
     trait=strong
     trait=haughty
     2345.1.1={birth=yes}
+	2369.1.1={add_matrilineal_spouse=810007}
     2370.1.1={death=yes}
 }
 #Brother of the King of Bolivia, prince and heir
@@ -220,7 +223,7 @@
     trait=greedy
     trait=diligent
     trait=honest
-    trait=tough
+    trait=robust
     trait=proud
     2328.1.1={birth=yes}
     2370.1.1={death=yes}
@@ -240,13 +243,13 @@
     intrigue=3
     learning=4
     trait=skilled_tactician
-    trait=sadist
+    #trait=sadist
     trait=wroth
     trait=cruel
     trait=proud
     trait=robust
     2350.1.1={birth=yes}
-	2369.1.1={add_spouse_matrilineal=810007}
+	2369.1.1={add_matrilineal_spouse=810007}
     2370.1.1={death=yes}
 }
 #Countess of Oruro, married to the Count of Chichas
@@ -341,7 +344,7 @@
     trait=ambitious
     trait=proud
     2334.1.1={birth=yes}
-	2357.1.1={add_spouse_matrilineal=810016}
+	2357.1.1={add_matrilineal_spouse=810016}
     2370.1.1={death=yes}
 }
 #Duchess of Beni, rules Vaca Diez, Cercado, and Pando

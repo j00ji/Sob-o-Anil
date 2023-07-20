@@ -889,8 +889,9 @@
 		add_spouse=270012
 	}
 	2365.1.1={
-		effect={add_rival=270016} #Ivan
-		effect={add_rival=270014} #santana
+		effect={add_rival=270016 #Ivan
+				add_rival=270014} #santana
+		#effect={add_rival=270014} #santana
 	}
 	2400.1.1={
 		death=yes
@@ -1375,7 +1376,7 @@
 	trait=thrifty_clerk
 	trait=dull
 	trait=uncouth
-	2201.1.1={
+	2301.1.1={
 		birth=yes
 	}
 	2353.1.1={
