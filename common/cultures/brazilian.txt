@@ -9,7 +9,7 @@
 # The ID of the modifier can be defined here (E.G., modifier = modifier_name or character_modifier = modifier_name), while the effect of it must be defined in static_modifiers.txt, and the localisation in localisation. For the settlement modifiers you don't need to (and can't) define the ID; it defaults to culture name + settlement type. E.G., norse_temple
 
 fluminense_group = {
-	graphical_cultures = { byzantinegfx westerngfx }
+	graphical_cultures = { braziliangfx byzantinegfx westerngfx }
 	
 	carioca = {
 		graphical_cultures = { southerngfx }
@@ -225,7 +225,7 @@ fluminense_group = {
 }
 
 paulista = {
-	graphical_cultures = { byzantinegfx westerngfx }
+	graphical_cultures = { braziliangfx byzantinegfx westerngfx }
 	
 	paulistano = {
 		graphical_cultures = { paulistagfx southerngfx }
@@ -738,7 +738,7 @@ paulista = {
 }
 
 mineiro_group = { 
-	graphical_cultures = { byzantinegfx westerngfx }
+	graphical_cultures = { braziliangfx byzantinegfx westerngfx }
 	
 	mineiro = { 
 		graphical_cultures = { southerngfx }
@@ -1226,7 +1226,7 @@ mineiro_group = {
 }
 	
 bahiano = {
-	graphical_cultures = { byzantinegfx westerngfx }
+	graphical_cultures = { braziliangfx byzantinegfx westerngfx }
 		
 	salvadorense = {
 		graphical_cultures = { africangfx }

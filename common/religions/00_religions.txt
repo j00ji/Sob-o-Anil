@@ -531,7 +531,7 @@ christian = {
 		religious_clothing_priest = 1
 	}
 	seladite = {
-		graphical_culture = yes
+		graphical_culture = westerngfx
 	
 		icon = 13
 		heresy_icon = 20
@@ -1588,7 +1588,7 @@ old_world_cultists = {
 	}
 	
 	farrapo = {
-		graphical_culture = muslimgfx
+		graphical_culture = norsegfx
 		
 		icon = 40
 		heresy_icon = 47

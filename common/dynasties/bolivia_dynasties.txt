@@ -117,6 +117,18 @@
 	religion=santa_diablada
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		religion = santa_diablada
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410011={
 	name="Santa Cruz de la Sierra"

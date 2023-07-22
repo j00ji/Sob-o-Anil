@@ -21,3 +21,15 @@ paulistagfx = {
 nipponpaulistagfx = {
 	skin_tone = 1
 }
+braziliangfx = {
+	skin_tone = 1
+}
+southmexicangfx = {
+	skin_tone = 2
+}
+andinogfx = {
+	skin_tone = 2
+}
+northmexicangfx = {
+	skin_tone = 1
+}

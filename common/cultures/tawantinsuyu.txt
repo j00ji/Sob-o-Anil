@@ -1,6 +1,8 @@
 ###ÄNSI
 
 andean_native = {
+	graphical_cultures = { andinogfx bodpagfx westerngfx }
+	
 	quechua = { # Formable culture 
 		graphical_cultures = { mesoamericangfx }
 		
