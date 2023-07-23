@@ -1,0 +1,96 @@
+namespace=bolivia
+
+character_event = { #event to setup the event and make it so the face of the duchess appears in the main one
+	id = bolivia.0
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		c_810005 = {
+			is_alive = yes
+			has_landed_title = d_la_paz
+		}
+		c_810006 = {
+			is_alive = yes
+			has_landed_title = k_bolivia
+		}
+		has_landed_title = d_la_paz #makes it so the first event fires for her
+		NOT = { has_global_flag = bolivian_wedding_chain }
+	}
+	
+	immediate = {
+		ROOT = { save_event_target_as = ugly_duchess }
+		c_810006 = {
+			save_event_target_as = bolivian_king
+			narrative_event = { id = bolivia.1}
+		}
+	}
+}
+
+narrative_event = { #War or Wedding?
+	id = bolivia.1
+	title = "bolivia.1.name"
+	desc = bolivia.1.desc
+	picture = GFX_evt_marriage
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = bolivian_wedding_chain }
+	}
+	
+	immediate = {
+		set_global_flag = bolivian_wedding_chain
+	}
+	
+	option = { #We will be wed then. (King of Bolivia weds Duchess of La Paz, no war)
+		name = "EVTOPTA_bolivia1"
+		add_spouse = FROM
+		random = { #chance to get depressed lul
+			chance = 50
+			add_trait = depressed
+		}
+		ai_chance = { #if the duchess is a player the civil war will always fire
+			factor = 40
+			modifier = {
+				factor = 0
+				c_810005 = { ai = no}
+			}
+		}
+	}
+	
+	option = { #I will see you on the battlefield, not in bed! (No marriage, Duchess of La Paz goes to war for the Kingdom of Bolivia)
+		name = "EVTOPTB_bolivia1"
+		d_la_paz = {
+			holder_scope = {
+				add_claim = k_bolivia
+				start_faction = {
+					faction = faction_claimant
+					title = k_bolivia
+					thirdparty = THIS
+					#can_join_existing = yes
+				}
+				k_bolivia = {
+					holder_scope = {
+						any_vassal = {
+							limit = {
+								culture = aymara
+							}
+							join_faction = {
+								faction = faction_claimant
+								faction_leader = event_target:ugly_duchess
+							}
+						}
+					}
+					reverse_war = {
+						target = PREVPREV
+						casus_belli = claim_on_liege
+						faction = faction_claimant
+					}
+				}
+			}
+		}
+	}
+	
+}
