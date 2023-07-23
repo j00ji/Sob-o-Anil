@@ -266,6 +266,11 @@ EVTOPTAIE28;Naked...? How is this possible... my life, it's ruined!;;;;;;;;;;;;;
 EVTDESCIE29;You shoot upright, cold sweat caking your body. You are in a delirium, and do not know where you are. As you struggle in the dark, however, you quickly come to realize that you're just in bed. Your bed? Oh... so it had all been a dream. Of course, you passed the National Exam long ago! There is no cause to worry about it now.;;;;;;;;;;;;;x
 EVTOPTAIE29;Even so, what a nightmare...;;;;;;;;;;;;;x
 
+bolivia.1.name;War or Wedding?;;;;;;;;;;;;;x
+bolivia.1.desc;Bolivia sits on the edge of a knife, only a short time after its establishment. Founded as a place for the indigenous in memory of the legendary Tawantinsuyu and Plurinational State, the kingdom is far from a harmonious realm. Quechua and Aymara feud with one another, and the king’s own Aymara vassals openly speak of replacing him with one of their own. As you consider your next course of action, you are surprised by a visit by the Duchess of La Paz, dressed in rich silks and flanked by many attendants. The pomp does not cover her up her hideous features, a homely face framed by a monstrous nose. She offers a proposal to the King as the representative of the Aymara: marry her and share power or civil war. The proposal causes gasps and gags throughout the court: the King, with a woman like her?;;;;;;;;;;;;;x
+EVTOPTA_bolivia1;We will be wed then.;;;;;;;;;;;;;x
+EVTOPTB_bolivia1;I will see you on the battlefield, not in bed!;;;;;;;;;;;;;x
+
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
