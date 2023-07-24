@@ -1,0 +1,346 @@
+##########################
+#Random Quechua Dynasties#
+##########################
+
+430500 = {
+    name = "Chihuán"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430501 = {
+    name = "Chumpitaz"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430502 = {
+    name = "Huaman"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430503 = {
+    name = "Huancahuari"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430504 = {
+    name = "Huapaya"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430505 = {
+    name = "Humala"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430506 = {
+    name = "Mamani"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430507 = {
+    name = "Quispe"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430508 = {
+    name = "Villca"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430509 = {
+    name = "Yarlequé"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430510 = {
+    name = "Arizapana"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430511 = {
+    name = "Alvarez"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430512 = {
+    name = "Callañaupa"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430513 = {
+    name = "Collahuazo"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430514 = {
+    name = "Moreno"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430515 = {
+    name = "Machaca"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430516 = {
+    name = "Inka"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430517 = {
+    name = "Aiza"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430518 = {
+    name = "Aguillar"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430519 = {
+    name = "Bellido"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430520 = {
+    name = "Coari"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430521 = {
+    name = "Colque"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430522 = {
+    name = "Cuéllar"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430523 = {
+    name = "Gallego"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430524 = {
+    name = "García"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430525 = {
+    name = "Montes"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430526 = {
+    name = "Tarqui"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430527 = {
+    name = "Rivera"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430528 = {
+    name = "Rodríguez"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430529 = {
+    name = "Sumire"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430530 = {
+    name = "Supa"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430531 = {
+    name = "Veizaga"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430532 = {
+    name = "Yarhui"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430533 = {
+    name = "Vedia"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430534 = {
+    name = "Barrientos"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430535 = {
+    name = "Carpio"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430536 = {
+    name = "Lazarte"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430537 = {
+    name = "Montes"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430538 = {
+    name = "Rodríguez"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430539 = {
+    name = "Porco"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430540 = {
+    name = "Ticona"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430541 = {
+    name = "Yupanqui"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430542 = {
+    name = "Atahualpa"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430543 = {
+    name = "Aquino"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430544 = {
+    name = "Arguedas"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430545 = {
+    name = "Barzola"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430546 = {
+    name = "Callañaupa"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430547 = {
+    name = "Chambi"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430548 = {
+    name = "Chihuán"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430549 = {
+    name = "Palacios"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430550 = {
+    name = "Pumacallao"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430551 = {
+    name = "Quispe"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430552 = {
+    name = "Humala"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430553 = {
+    name = "Gualinga"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430554 = {
+    name = "Guayasamín"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430555 = {
+    name = "Pacari"
+    culture = quechua
+    # Add more properties as needed
+}
+
+430556 = {
+    name = "Quishpe"
+    culture = quechua
+    # Add more properties as needed
+}
+

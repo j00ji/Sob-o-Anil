@@ -9,8 +9,41 @@ boliviano = {
 		color = { 0.12 0.37 0.12 }
 		
 		male_names = {
+			Alberto Aeljandro Aldo Alfredo Anabel Angel Antonio
+			Branko Bruno
+			Carlos Cristian
+			Damir Daniel David Diego
+			Edgar Eduardo Eduardo
+			Felix Francisco Franco
+			Hugo
+			Jaime Javier Jefferson Jesus Jorge José Josué Juan "Juan Carlos"
+			Leonardo Luis
+			Marcelo Mario Marco Miguel
+			Pablo Pedro
+			Raul Ricardo Rodrigo Rolando Rómulo Rómulo Ruben
+			Vicente
+			Éder
+			Óscar
+			Victor
+			Walter
 		}
 		female_names = {
+			Adriana Ana Anabel Angelica Arminda
+			Beatriz
+			Carmen Claudia
+			Elena Elizabeth
+			Fabiola
+			Gabriela
+			Isabel
+			Juana Julia
+			Lidia Liliana Lourdes Lucia Luisa
+			Margarita María Maribel Mariela Marina Marlene Mirian
+			Nancy
+			Paola Patricia
+			Rosa Rosmery Roxana Ruth
+			Silvia Sonia
+			Teresa
+			Victoria Virginia
 		}
 		
 		male_patronym = "ez"
@@ -33,8 +66,38 @@ boliviano = {
 		color = { 1.0 0.36 0.2 }
 		
 		male_names = {
+			Álvaro Ángel Abel Adolfo Alberto Armando
+			Carlos Casimiro
+			Damián Daniel Diego
+			Edson Eduardo Ernesto Esteban
+			Francisco
+			Gerson Gil Gregorio Gustavo
+			Hernando Hilarión Huáscar Hugo
+			Iván
+			Jaime Javier Jeyson Joaquín Juan "Juan Carlos" Julián Julio
+			Leandro Leónidas Liborio Luis
+			Mamerto Mariano Martín Milton Moisés
+			Omar Óscar
+			Pablo
+			Renato Ricardo Ruperto
+			Saúl Severo
+			Tristán
+			Valentín Ventura
 		}
 		female_names = {
+			Amanda Ana Antonieta
+			Carmen Claudia Claudia Cristina
+			Elena Elena Elizabeth Eloísa Esilda
+			Geovana
+			Isabel
+			Josefa Juana Juana Julia
+			Karen
+			Lidia
+			Margarita María Martha Matilde
+			Nélida
+			Rosa Roxana
+			Savina Segundina Sonia
+			Vania Vida
 		}
 		
 		male_patronym = "ez"

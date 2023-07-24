@@ -1,0 +1,465 @@
+########################
+#Random Aymara surnames#
+########################
+
+440500 = {
+    name = "Achu"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440501 = {
+    name = "Achuqalla"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440502 = {
+    name = "Achuta"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440503 = {
+    name = "Amaru"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440504 = {
+    name = "Apala"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440505 = {
+    name = "Arkani"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440506 = {
+    name = "Aruni"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440507 = {
+    name = "Challapa"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440508 = {
+    name = "Champi"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440509 = {
+    name = "Champilla"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440510 = {
+    name = "Chanaku"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440511 = {
+    name = "Charka"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440512 = {
+    name = "Chipana"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440513 = {
+    name = "Chuquihuanca"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440514 = {
+    name = "Chuqi"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440515 = {
+    name = "Chura"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440516 = {
+    name = "Churata"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440517 = {
+    name = "Condori"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440518 = {
+    name = "Huanca"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440519 = {
+    name = "Ichuta"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440520 = {
+    name = "Imaña"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440521 = {
+    name = "Inkaruka"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440522 = {
+    name = "Jarankaya"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440523 = {
+    name = "Katari"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440524 = {
+    name = "Laymi"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440525 = {
+    name = "Limachi"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440526 = {
+    name = "Lukana"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440527 = {
+    name = "Mamani"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440528 = {
+    name = "Markani"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440529 = {
+    name = "Nina"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440530 = {
+    name = "Pachakuti"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440531 = {
+    name = "Paqari"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440532 = {
+    name = "Puma"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440533 = {
+    name = "Pusari"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440534 = {
+    name = "Qarani"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440535 = {
+    name = "Qatari"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440536 = {
+    name = "Qawana"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440537 = {
+    name = "Quispe"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440538 = {
+    name = "Sapana"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440539 = {
+    name = "Sarsuri"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440540 = {
+    name = "Sawalla"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440541 = {
+    name = "Suñawa"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440542 = {
+    name = "Tanqara"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440543 = {
+    name = "Tikuna"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440544 = {
+    name = "Tintaya"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440545 = {
+    name = "Tunquni"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440546 = {
+    name = "Urisaka"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440547 = {
+    name = "Uruchi"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440548 = {
+    name = "Uruña"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440549 = {
+    name = "Aracapi"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440550 = {
+    name = "Aduviri"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440551 = {
+    name = "Apaza"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440552 = {
+    name = "Daza"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440553 = {
+    name = "Balderrama"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440554 = {
+    name = "Callisaya"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440555 = {
+    name = "Cárdenas"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440556 = {
+    name = "Choque"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440557 = {
+    name = "Copa"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440558 = {
+    name = "Cruz"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440559 = {
+    name = "Cusicanqui"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440560 = {
+    name = "Escalante"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440561 = {
+    name = "Espinoza"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440562 = {
+    name = "Flores"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440563 = {
+    name = "Morales"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440564 = {
+    name = "Paredes"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440565 = {
+    name = "Peñaranda"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440566 = {
+    name = "Katari"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440567 = {
+    name = "Tamayo"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440568 = {
+    name = "Zárate"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440569 = {
+    name = "Yujira"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440570 = {
+    name = "Marín"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440571 = {
+    name = "Siches"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440572 = {
+    name = "Taucare"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440573 = {
+    name = "Basadre"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440574 = {
+    name = "Castilla"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440575 = {
+    name = "Yamqui"
+    culture = aymara
+    # Add more properties as needed
+}
+
+440576 = {
+    name = "Sulca"
+    culture = aymara
+    # Add more properties as needed
+}

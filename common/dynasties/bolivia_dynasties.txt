@@ -261,3 +261,314 @@
 	can_appear=no
 	used_for_random=no
 }
+
+#######################
+#Random Colla Surnames#
+#######################
+
+410500 = {
+    name = "Flores"
+    culture = colla
+    religion=santa_diablada
+}
+
+410501 = {
+    name = "Mamani"
+    culture = colla
+    religion=santa_diablada
+}
+
+410502 = {
+    name = "Vargas"
+    culture = colla
+    religion=santa_diablada
+}
+
+410503 = {
+    name = "Quispe"
+    culture = colla
+    religion=santa_diablada
+}
+
+410504 = {
+    name = "Cruz"
+    culture = colla
+    religion=santa_diablada
+}
+
+410505 = {
+    name = "Gonzales"
+    culture = colla
+    religion=santa_diablada
+}
+
+410506 = {
+    name = "Martinez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410507 = {
+    name = "Choque"
+    culture = colla
+    religion=santa_diablada
+}
+
+410508 = {
+    name = "Zarate"
+    culture = colla
+    religion=santa_diablada
+}
+
+410509 = {
+    name = "Arancibia"
+    culture = colla
+    religion=santa_diablada
+}
+
+410510 = {
+    name = "Duran"
+    culture = colla
+    religion=santa_diablada
+}
+
+410511 = {
+    name = "Rodriguez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410512 = {
+    name = "Miranda"
+    culture = colla
+    religion=santa_diablada
+}
+
+410513 = {
+    name = "Lopez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410514 = {
+    name = "Yucra"
+    culture = colla
+    religion=santa_diablada
+}
+
+410515 = {
+    name = "Romero"
+    culture = colla
+    religion=santa_diablada
+}
+
+410516 = {
+    name = "Rivera"
+    culture = colla
+    religion=santa_diablada
+}
+
+410517 = {
+    name = "Vedia"
+    culture = colla
+    religion=santa_diablada
+}
+
+410518 = {
+    name = "Fernandez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410519 = {
+    name = "Perez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410520 = {
+    name = "Garcia"
+    culture = colla
+    religion=santa_diablada
+}
+
+410521 = {
+    name = "Sanchez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410522 = {
+    name = "Padilla"
+    culture = colla
+    religion=santa_diablada
+}
+
+410523 = {
+    name = "Daza"
+    culture = colla
+    religion=santa_diablada
+}
+
+410524 = {
+    name = "Ramos"
+    culture = colla
+    religion=santa_diablada
+}
+
+410525 = {
+    name = "Torres"
+    culture = colla
+    religion=santa_diablada
+}
+
+410526 = {
+    name = "Serrudo"
+    culture = colla
+    religion=santa_diablada
+}
+
+410527 = {
+    name = "Mendoza"
+    culture = colla
+    religion=santa_diablada
+}
+
+410528 = {
+    name = "Rojas"
+    culture = colla
+    religion=santa_diablada
+}
+
+410529 = {
+    name = "Ortega"
+    culture = colla
+    religion=santa_diablada
+}
+
+410530 = {
+    name = "Diaz"
+    culture = colla
+    religion=santa_diablada
+}
+
+410531 = {
+    name = "Ortiz"
+    culture = colla
+    religion=santa_diablada
+}
+
+410532 = {
+    name = "Vela"
+    culture = colla
+    religion=santa_diablada
+}
+
+410533 = {
+    name = "Velasquez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410534 = {
+    name = "Ramirez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410535 = {
+    name = "Gutierrez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410536 = {
+    name = "Salazar"
+    culture = colla
+    religion=santa_diablada
+}
+
+410537 = {
+    name = "Soliz"
+    culture = colla
+    religion=santa_diablada
+}
+
+410538 = {
+    name = "Llanos"
+    culture = colla
+    religion=santa_diablada
+}
+
+410539 = {
+    name = "Villca"
+    culture = colla
+    religion=santa_diablada
+}
+
+410540 = {
+    name = "Torrez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410541 = {
+    name = "Serrano"
+    culture = colla
+    religion=santa_diablada
+}
+
+410542 = {
+    name = "Vasquez"
+    culture = colla
+    religion=santa_diablada
+}
+
+410543 = {
+    name = "Aguillar"
+    culture = colla
+    religion=santa_diablada
+}
+
+410544 = {
+    name = "Calderon"
+    culture = colla
+    religion=santa_diablada
+}
+
+410545 = {
+    name = "Saavedra"
+    culture = colla
+    religion=santa_diablada
+}
+
+410546 = {
+    name = "Paco"
+    culture = colla
+    religion=santa_diablada
+}
+
+410547 = {
+    name = "Bejarano"
+    culture = colla
+    religion=santa_diablada
+}
+
+410548 = {
+    name = "Cuellar"
+    culture = colla
+    religion=santa_diablada
+}
+
+410549 = {
+    name = "Leon"
+    culture = colla
+    religion=santa_diablada
+}
+
+410550 = {
+    name = "Barrientos"
+    culture = colla
+    religion=santa_diablada
+}
+

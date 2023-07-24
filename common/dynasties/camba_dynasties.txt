@@ -1,0 +1,316 @@
+####################
+#Random Camba Names#
+####################
+
+420500 = {
+    name = "Flores"
+    culture = camba
+    religion = catholic
+}
+
+420501 = {
+    name = "Vargas"
+    culture = camba
+    religion = catholic
+}
+
+420502 = {
+    name = "Justiniano"
+    culture = camba
+    religion = catholic
+}
+
+420503 = {
+    name = "Vaca"
+    culture = camba
+    religion = catholic
+}
+
+420504 = {
+    name = "Rojas"
+    culture = camba
+    religion = catholic
+}
+
+420505 = {
+    name = "Rodriguez"
+    culture = camba
+    religion = catholic
+}
+
+420506 = {
+    name = "Cuellar"
+    culture = camba
+    religion = catholic
+}
+
+420507 = {
+    name = "Suarez"
+    culture = camba
+    religion = catholic
+}
+
+420508 = {
+    name = "Gutierrez"
+    culture = camba
+    religion = catholic
+}
+
+420509 = {
+    name = "Chavez"
+    culture = camba
+    religion = catholic
+}
+
+420510 = {
+    name = "Lopez"
+    culture = camba
+    religion = catholic
+}
+
+420511 = {
+    name = "Mamani"
+    culture = camba
+    religion = catholic
+}
+
+420512 = {
+    name = "Hurtado"
+    culture = camba
+    religion = catholic
+}
+
+420513 = {
+    name = "Perez"
+    culture = camba
+    religion = catholic
+}
+
+420514 = {
+    name = "Garcia"
+    culture = camba
+    religion = catholic
+}
+
+420515 = {
+    name = "Ortiz"
+    culture = camba
+    religion = catholic
+}
+
+420516 = {
+    name = "Gonzalez"
+    culture = camba
+    religion = catholic
+}
+
+420517 = {
+    name = "Mendez"
+    culture = camba
+    religion = catholic
+}
+
+420518 = {
+    name = "Roca"
+    culture = camba
+    religion = catholic
+}
+
+420519 = {
+    name = "Sanchez"
+    culture = camba
+    religion = catholic
+}
+
+420520 = {
+    name = "Cespedes"
+    culture = camba
+    religion = catholic
+}
+
+420521 = {
+    name = "Salvatierra"
+    culture = camba
+    religion = catholic
+}
+
+420522 = {
+    name = "Rivero"
+    culture = camba
+    religion = catholic
+}
+
+420523 = {
+    name = "Fernandez"
+    culture = camba
+    religion = catholic
+}
+
+420524 = {
+    name = "Guzman"
+    culture = camba
+    religion = catholic
+}
+
+420525 = {
+    name = "Mendoza"
+    culture = camba
+    religion = catholic
+}
+
+420526 = {
+    name = "Soliz"
+    culture = camba
+    religion = catholic
+}
+
+420527 = {
+    name = "Paz"
+    culture = camba
+    religion = catholic
+}
+
+420528 = {
+    name = "Romero"
+    culture = camba
+    religion = catholic
+}
+
+420529 = {
+    name = "Ribera"
+    culture = camba
+    religion = catholic
+}
+
+420530 = {
+    name = "Aguilera"
+    culture = camba
+    religion = catholic
+}
+
+420531 = {
+    name = "Moreno"
+    culture = camba
+    religion = catholic
+}
+
+420532 = {
+    name = "Duran"
+    culture = camba
+    religion = catholic
+}
+
+420533 = {
+    name = "Choque"
+    culture = camba
+    religion = catholic
+}
+
+420534 = {
+    name = "Mercado"
+    culture = camba
+    religion = catholic
+}
+
+420535 = {
+    name = "Martinez"
+    culture = camba
+    religion = catholic
+}
+
+420536 = {
+    name = "Melgar"
+    culture = camba
+    religion = catholic
+}
+
+420537 = {
+    name = "Jimenez"
+    culture = camba
+    religion = catholic
+}
+
+420538 = {
+    name = "Parada"
+    culture = camba
+    religion = catholic
+}
+
+420539 = {
+    name = "Montero"
+    culture = camba
+    religion = catholic
+}
+
+420540 = {
+    name = "Castro"
+    culture = camba
+    religion = catholic
+}
+
+420541 = {
+    name = "Saucedo"
+    culture = camba
+    religion = catholic
+}
+
+420542 = {
+    name = "Quispe"
+    culture = camba
+    religion = catholic
+}
+
+420543 = {
+    name = "Padilla"
+    culture = camba
+    religion = catholic
+}
+
+420544 = {
+    name = "Villaroel"
+    culture = camba
+    religion = catholic
+}
+
+420545 = {
+    name = "Torez"
+    culture = camba
+    religion = catholic
+}
+
+420546 = {
+    name = "Salazar"
+    culture = camba
+    religion = catholic
+}
+
+420547 = {
+    name = "Ruiz"
+    culture = camba
+    religion = catholic
+}
+
+420548 = {
+    name = "Peña"
+    culture = camba
+    religion = catholic
+}
+
+420549 = {
+    name = "Rózsa"
+    culture = camba
+    religion = catholic
+}
+
+420550 = {
+    name = "Castillo"
+    culture = camba
+    religion = catholic
+}
+
+420551 = {
+    name = "Carrasco"
+    culture = camba
+    religion = catholic
+}
+

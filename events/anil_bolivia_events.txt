@@ -91,6 +91,9 @@ narrative_event = { #War or Wedding?
 				}
 			}
 		}
+		ai_chance = { 
+			factor = 60
+		}
 	}
 	
 }
