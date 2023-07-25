@@ -6,8 +6,8 @@ title = c_salta
 # Settlements
 max_settlements = 5
 
-b_salta = city
-b_jujuy = castle
+b_salta = castle
+b_jujuy = city
 b_tilcara = castle
 #b_rosario_de_la_frontera = castle
 #b_guemes = city

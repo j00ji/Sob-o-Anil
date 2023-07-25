@@ -328,6 +328,13 @@ culture =
 			color = 0
 			random = no # Do not use for random CoAs
 		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_argentina.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
+			color = 0
+			random = no # Do not use for random CoAs
+		}
 		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}
 }
@@ -640,6 +647,7 @@ culture = { #Inca
 		"pachamama"
 		"inkarri"
 		"santa_diablada"
+		"dreamtime"
 	}
 
 	templates = { 
@@ -701,6 +709,13 @@ culture = { #Inca
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_bolivia.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_argentina.tga"
 			size = { x = 10 y = 5 }
 			noOfFrames = 50
 			color = 0

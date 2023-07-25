@@ -51,6 +51,18 @@
 	religion=santa_diablada
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		religion = santa_diablada
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410005={
 	name="Palenque"
@@ -96,6 +108,18 @@
 	religion=santa_diablada
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		religion = santa_diablada
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410008={
 	name="Morales"
@@ -103,6 +127,18 @@
 	religion=pachamama
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		religion = santa_diablada
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410009={
 	name="Machaca"
@@ -136,6 +172,17 @@
 	religion=catholic
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410012={
 	name="Bailaba"
@@ -214,6 +261,17 @@
 	religion=catholic
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410020={
 	name="Unzaga"
@@ -246,6 +304,17 @@
 	religion=catholic
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410023={
 	name="Barrientos"
@@ -253,6 +322,17 @@
 	religion=catholic
 	can_appear=no
 	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 410024={
 	name="Alcaya"
@@ -314,11 +394,11 @@
     religion=santa_diablada
 }
 
-410508 = {
-    name = "Zarate"
-    culture = colla
-    religion=santa_diablada
-}
+#410508 = {
+#    name = "Zarate"
+#    culture = colla
+#    religion=santa_diablada
+#}
 
 410509 = {
     name = "Arancibia"

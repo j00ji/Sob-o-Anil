@@ -6,7 +6,7 @@ title = c_rafaela
 # Settlements
 max_settlements = 5
 
-b_rafaela = city
+b_rafaela = castle
 b_sunchales = city
 b_escobas = temple
 #b_garibaldi_2 = castle

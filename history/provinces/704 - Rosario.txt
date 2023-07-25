@@ -6,7 +6,7 @@ title = c_rosario
 # Settlements
 max_settlements = 5
 
-b_rosario_5 = city
+b_rosario_5 = castle
 b_san_lorenzo_4 = city
 b_timbues = castle
 b_baigorria_2 = temple
