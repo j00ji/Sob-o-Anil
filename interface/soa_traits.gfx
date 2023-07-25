@@ -41,4 +41,11 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_dog"
+		texturefile = "gfx/traits/dog.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

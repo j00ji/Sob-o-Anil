@@ -1077,25 +1077,29 @@
 	}
 }
 250001={
-	name=Felipe
-	dynasty=155001
+	name=Federico
+	dynasty=155001 #von pilsener
+	dna="b0cia0iah00"
+	properties="am0gig00000000000000000000000000000"
 	martial=4
 	diplomacy=5
 	stewardship=4
 	intrigue=3
 	learning=4
 	culture=sureno
-	religion=nguillatun
+	religion=catholic
 	trait=honest
 	trait=just
 	trait=humble
 	trait=shrewd
-	trait=stubborn
-	trait=tough_soldier
-	2340.2.18={
+	trait=erudite
+	trait=gluttonous
+	trait=scholarly_theologian
+	2306.6.24={
 		birth=yes
 	}
-	2409.9.1={
+	2369.1.1={effect={add_friend=250012}}
+	2370.9.1={
 		death=yes
 	}
 }
@@ -1220,4 +1224,25 @@
 	2398.2.15={
 		death=yes
 	}
+}
+250012={
+	name="Dudelsackpfeifergeselle"
+	religion=catholic
+	culture=dog_culture
+	dynasty=0
+	diplomacy=1
+	martial=5
+	stewardship=1
+	intrigue=1
+	learning=5 
+	trait=underhanded_rogue
+	trait=dog
+	trait=quick
+	trait=erudite
+	trait=craven
+	trait=trusting
+	trait=kind
+	trait=gluttonous
+	2353.1.1={birth=yes employer=250001}
+	2400.1.1={death=yes}
 }
