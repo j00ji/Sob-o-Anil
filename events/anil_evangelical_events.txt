@@ -113,112 +113,120 @@ character_event = {
 	}
 	
 	option = {
-		name = EVTOPT_choose_branch_pentecostal
-		trigger = { NOR = { trait = branch_pentecostal trait = baptized_by_bishop } }
-		hidden_tooltip = {
-			remove_trait = branch_lutheran
-			remove_trait = branch_presbyterian
-			remove_trait = branch_baptist
-			remove_trait = branch_methodist
-			remove_trait = branch_non_sectarian
-		}
-		add_trait = branch_pentecostal
+		name = EVTOPT_choose_branch_other
+		character_event = { id = evangelical.4 }
 		ai_chance = {
-			factor = 10
-			modifier = { factor = 5 trait = brilliant_strategist }
-			modifier = { factor = 4 trait = skilled_tactician }
-			modifier = { factor = 3 trait = tough_soldier }
-			modifier = { factor = 2 trait = misguided_warrior }
-			modifier = { factor = 4	trait = strategist }
-			modifier = { factor = 3	trait = duelist }
-			modifier = { factor = 2	trait = hunter }
-			modifier = { factor = 2	trait = brave }
-			modifier = { factor = 1.5 trait = wroth }
-			modifier = { factor = 1.5 trait = strong }
-			modifier = { factor = 0.2 trait = craven }
+			factor = 50
 		}
 	}
 	
-	option = {
-		name = EVTOPT_choose_branch_baptist
-		trigger = { NOR = { trait = branch_baptist } }
-		hidden_tooltip = {
-			remove_trait = branch_lutheran
-			remove_trait = branch_pentecostal
-			remove_trait = branch_presbyterian
-			remove_trait = branch_methodist
-			remove_trait = branch_non_sectarian
-		}
-		add_trait = branch_baptist
-		ai_chance = {
-			factor = 10
-			modifier = { factor = 5	trait = grey_eminence }
-			modifier = { factor = 4	trait = charismatic_negotiator }
-			modifier = { factor = 3	trait = underhanded_rogue }
-			modifier = { factor = 2	trait = naive_appeaser }
-			modifier = { factor = 2	trait = socializer }
-			modifier = { factor = 3	trait = kind }
-			modifier = { factor = 1.9 trait = charitable }
-			modifier = { factor = 1.8 trait = just }
-			modifier = { factor = 0.4 trait = cruel }
-			modifier = { factor = 0.4 trait = arbitrary }
-		}
-	}
-	
-	option = {
-		name = EVTOPT_choose_branch_methodist
-		trigger = { NOR = { trait = branch_methodist trait = baptized_by_bishop } }
-		hidden_tooltip = {
-			remove_trait = branch_lutheran
-			remove_trait = branch_pentecostal
-			remove_trait = branch_baptist
-			remove_trait = branch_presbyterian
-			remove_trait = branch_non_sectarian
-		}
-		add_trait = branch_methodist
-		ai_chance = {
-			factor = 10
-			modifier = { factor = 5	trait = grey_eminence }
-			modifier = { factor = 4	trait = charismatic_negotiator }
-			modifier = { factor = 3	trait = underhanded_rogue }
-			modifier = { factor = 2	trait = naive_appeaser }
-			modifier = { factor = 4	trait = socializer }
-			modifier = { factor = 3	trait = hedonist }
-			modifier = { factor = 2	trait = kind }
-			modifier = { factor = 1.5 trait = charitable }
-			modifier = { factor = 1.5 trait = just }
-			modifier = { factor = 0.3 trait = cruel }
-			modifier = { factor = 0.3 trait = arbitrary }
-			modifier = { factor = 2	trait = zealous }
-			modifier = { factor = 4	trait = theologian }
-		}
-	}
-	
-	option = {
-		name = EVTOPT_choose_branch_non_sectarian
-		trigger = { NOR = { trait = branch_non_sectarian } }
-		hidden_tooltip = {
-			remove_trait = branch_lutheran
-			remove_trait = branch_pentecostal
-			remove_trait = branch_baptist
-			remove_trait = branch_presbyterian
-			remove_trait = branch_methodist
-		}
-		add_trait = branch_non_sectarian
-		ai_chance = {
-			factor = 10
-			modifier = { factor = 5	trait = grey_eminence }
-			modifier = { factor = 4	trait = charismatic_negotiator }
-			modifier = { factor = 3	trait = underhanded_rogue }
-			modifier = { factor = 2	trait = naive_appeaser }
-			modifier = { factor = 2	trait = socializer }
-			modifier = { factor = 3	trait = kind }
-			modifier = { factor = 1.9 trait = charitable }
-			modifier = { factor = 1.8 trait = just }
-			modifier = { factor = 0.4 trait = cruel }
-			modifier = { factor = 0.4 trait = arbitrary }
-		}
-	}
+	#option = {
+	#	name = EVTOPT_choose_branch_pentecostal
+	#	trigger = { NOR = { trait = branch_pentecostal trait = baptized_by_bishop } }
+	#	hidden_tooltip = {
+	#		remove_trait = branch_lutheran
+	#		remove_trait = branch_presbyterian
+	#		remove_trait = branch_baptist
+	#		remove_trait = branch_methodist
+	#		remove_trait = branch_non_sectarian
+	#	}
+	#	add_trait = branch_pentecostal
+	#	ai_chance = {
+	#		factor = 10
+	#		modifier = { factor = 5 trait = brilliant_strategist }
+	#		modifier = { factor = 4 trait = skilled_tactician }
+	#		modifier = { factor = 3 trait = tough_soldier }
+	#		modifier = { factor = 2 trait = misguided_warrior }
+	#		modifier = { factor = 4	trait = strategist }
+	#		modifier = { factor = 3	trait = duelist }
+	#		modifier = { factor = 2	trait = hunter }
+	#		modifier = { factor = 2	trait = brave }
+	#		modifier = { factor = 1.5 trait = wroth }
+	#		modifier = { factor = 1.5 trait = strong }
+	#		modifier = { factor = 0.2 trait = craven }
+	#	}
+	#}
+	#
+	#option = {
+	#	name = EVTOPT_choose_branch_baptist
+	#	trigger = { NOR = { trait = branch_baptist } }
+	#	hidden_tooltip = {
+	#		remove_trait = branch_lutheran
+	#		remove_trait = branch_pentecostal
+	#		remove_trait = branch_presbyterian
+	#		remove_trait = branch_methodist
+	#		remove_trait = branch_non_sectarian
+	#	}
+	#	add_trait = branch_baptist
+	#	ai_chance = {
+	#		factor = 10
+	#		modifier = { factor = 5	trait = grey_eminence }
+	#		modifier = { factor = 4	trait = charismatic_negotiator }
+	#		modifier = { factor = 3	trait = underhanded_rogue }
+	#		modifier = { factor = 2	trait = naive_appeaser }
+	#		modifier = { factor = 2	trait = socializer }
+	#		modifier = { factor = 3	trait = kind }
+	#		modifier = { factor = 1.9 trait = charitable }
+	#		modifier = { factor = 1.8 trait = just }
+	#		modifier = { factor = 0.4 trait = cruel }
+	#		modifier = { factor = 0.4 trait = arbitrary }
+	#	}
+	#}
+	#
+	#option = {
+	#	name = EVTOPT_choose_branch_methodist
+	#	trigger = { NOR = { trait = branch_methodist trait = baptized_by_bishop } }
+	#	hidden_tooltip = {
+	#		remove_trait = branch_lutheran
+	#		remove_trait = branch_pentecostal
+	#		remove_trait = branch_baptist
+	#		remove_trait = branch_presbyterian
+	#		remove_trait = branch_non_sectarian
+	#	}
+	#	add_trait = branch_methodist
+	#	ai_chance = {
+	#		factor = 10
+	#		modifier = { factor = 5	trait = grey_eminence }
+	#		modifier = { factor = 4	trait = charismatic_negotiator }
+	#		modifier = { factor = 3	trait = underhanded_rogue }
+	#		modifier = { factor = 2	trait = naive_appeaser }
+	#		modifier = { factor = 4	trait = socializer }
+	#		modifier = { factor = 3	trait = hedonist }
+	#		modifier = { factor = 2	trait = kind }
+	#		modifier = { factor = 1.5 trait = charitable }
+	#		modifier = { factor = 1.5 trait = just }
+	#		modifier = { factor = 0.3 trait = cruel }
+	#		modifier = { factor = 0.3 trait = arbitrary }
+	#		modifier = { factor = 2	trait = zealous }
+	#		modifier = { factor = 4	trait = theologian }
+	#	}
+	#}
+	#
+	#option = {
+	#	name = EVTOPT_choose_branch_non_sectarian
+	#	trigger = { NOR = { trait = branch_non_sectarian } }
+	#	hidden_tooltip = {
+	#		remove_trait = branch_lutheran
+	#		remove_trait = branch_pentecostal
+	#		remove_trait = branch_baptist
+	#		remove_trait = branch_presbyterian
+	#		remove_trait = branch_methodist
+	#	}
+	#	add_trait = branch_non_sectarian
+	#	ai_chance = {
+	#		factor = 10
+	#		modifier = { factor = 5	trait = grey_eminence }
+	#		modifier = { factor = 4	trait = charismatic_negotiator }
+	#		modifier = { factor = 3	trait = underhanded_rogue }
+	#		modifier = { factor = 2	trait = naive_appeaser }
+	#		modifier = { factor = 2	trait = socializer }
+	#		modifier = { factor = 3	trait = kind }
+	#		modifier = { factor = 1.9 trait = charitable }
+	#		modifier = { factor = 1.8 trait = just }
+	#		modifier = { factor = 0.4 trait = cruel }
+	#		modifier = { factor = 0.4 trait = arbitrary }
+	#	}
+	#}
 }
 	
 character_event = {
@@ -823,3 +831,167 @@ character_event = {
 	}
 }
 
+character_event = {
+	id = evangelical.4
+	desc = EVTDESC_evangelical_choose_branch
+	picture = GFX_evt_open_book_hf
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_choose_branch_pentecostal
+		trigger = { NOR = { trait = branch_pentecostal trait = baptized_by_bishop } }
+		hidden_tooltip = {
+			remove_trait = branch_lutheran
+			remove_trait = branch_presbyterian
+			remove_trait = branch_baptist
+			remove_trait = branch_methodist
+			remove_trait = branch_non_sectarian
+		}
+		add_trait = branch_pentecostal
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5 trait = brilliant_strategist }
+			modifier = { factor = 4 trait = skilled_tactician }
+			modifier = { factor = 3 trait = tough_soldier }
+			modifier = { factor = 2 trait = misguided_warrior }
+			modifier = { factor = 4	trait = strategist }
+			modifier = { factor = 3	trait = duelist }
+			modifier = { factor = 2	trait = hunter }
+			modifier = { factor = 2	trait = brave }
+			modifier = { factor = 1.5 trait = wroth }
+			modifier = { factor = 1.5 trait = strong }
+			modifier = { factor = 0.2 trait = craven }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_baptist
+		trigger = { NOR = { trait = branch_baptist } }
+		hidden_tooltip = {
+			remove_trait = branch_lutheran
+			remove_trait = branch_pentecostal
+			remove_trait = branch_presbyterian
+			remove_trait = branch_methodist
+			remove_trait = branch_non_sectarian
+		}
+		add_trait = branch_baptist
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5	trait = grey_eminence }
+			modifier = { factor = 4	trait = charismatic_negotiator }
+			modifier = { factor = 3	trait = underhanded_rogue }
+			modifier = { factor = 2	trait = naive_appeaser }
+			modifier = { factor = 2	trait = socializer }
+			modifier = { factor = 3	trait = kind }
+			modifier = { factor = 1.9 trait = charitable }
+			modifier = { factor = 1.8 trait = just }
+			modifier = { factor = 0.4 trait = cruel }
+			modifier = { factor = 0.4 trait = arbitrary }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_methodist
+		trigger = { NOR = { trait = branch_methodist trait = baptized_by_bishop } }
+		hidden_tooltip = {
+			remove_trait = branch_lutheran
+			remove_trait = branch_pentecostal
+			remove_trait = branch_baptist
+			remove_trait = branch_presbyterian
+			remove_trait = branch_non_sectarian
+		}
+		add_trait = branch_methodist
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5	trait = grey_eminence }
+			modifier = { factor = 4	trait = charismatic_negotiator }
+			modifier = { factor = 3	trait = underhanded_rogue }
+			modifier = { factor = 2	trait = naive_appeaser }
+			modifier = { factor = 4	trait = socializer }
+			modifier = { factor = 3	trait = hedonist }
+			modifier = { factor = 2	trait = kind }
+			modifier = { factor = 1.5 trait = charitable }
+			modifier = { factor = 1.5 trait = just }
+			modifier = { factor = 0.3 trait = cruel }
+			modifier = { factor = 0.3 trait = arbitrary }
+			modifier = { factor = 2	trait = zealous }
+			modifier = { factor = 4	trait = theologian }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_other
+		character_event = { id = evangelical.5 }
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_non_sectarian
+		trigger = { NOR = { trait = branch_non_sectarian } }
+		hidden_tooltip = {
+			remove_trait = branch_lutheran
+			remove_trait = branch_pentecostal
+			remove_trait = branch_baptist
+			remove_trait = branch_presbyterian
+			remove_trait = branch_methodist
+		}
+		add_trait = branch_non_sectarian
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5	trait = grey_eminence }
+			modifier = { factor = 4	trait = charismatic_negotiator }
+			modifier = { factor = 3	trait = underhanded_rogue }
+			modifier = { factor = 2	trait = naive_appeaser }
+			modifier = { factor = 2	trait = socializer }
+			modifier = { factor = 3	trait = kind }
+			modifier = { factor = 1.9 trait = charitable }
+			modifier = { factor = 1.8 trait = just }
+			modifier = { factor = 0.4 trait = cruel }
+			modifier = { factor = 0.4 trait = arbitrary }
+		}
+	}
+}
+
+character_event = {
+	id = evangelical.5
+	desc = EVTDESC_evangelical_choose_branch
+	picture = GFX_evt_open_book_hf
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_choose_branch_non_sectarian
+		trigger = { NOR = { trait = branch_non_sectarian } }
+		hidden_tooltip = {
+			remove_trait = branch_lutheran
+			remove_trait = branch_pentecostal
+			remove_trait = branch_baptist
+			remove_trait = branch_presbyterian
+			remove_trait = branch_methodist
+		}
+		add_trait = branch_non_sectarian
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5	trait = grey_eminence }
+			modifier = { factor = 4	trait = charismatic_negotiator }
+			modifier = { factor = 3	trait = underhanded_rogue }
+			modifier = { factor = 2	trait = naive_appeaser }
+			modifier = { factor = 2	trait = socializer }
+			modifier = { factor = 3	trait = kind }
+			modifier = { factor = 1.9 trait = charitable }
+			modifier = { factor = 1.8 trait = just }
+			modifier = { factor = 0.4 trait = cruel }
+			modifier = { factor = 0.4 trait = arbitrary }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_choose_branch_other
+		character_event = { id = evangelical.1 }
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+}

@@ -612,6 +612,224 @@
 		death=yes
 	}
 }
+230020={
+	name=Guillermo
+	dynasty=145018 #Allende
+	martial=3
+	diplomacy=5
+	stewardship=4
+	intrigue=4
+	learning=7
+	culture=centrino
+	religion=liberationist
+	trait=zealous
+	trait=charitable
+	trait=stubborn
+	trait=charismatic_negotiator
+	2328.6.25={
+		birth=yes
+	}
+	2400.1.30={
+		death=yes
+	}
+}
+230021={
+	name="Ana"
+	dynasty=145018 #Allende
+	female=yes
+	father=230020
+	martial=1
+	diplomacy=7
+	stewardship=4
+	intrigue=4
+	learning=7
+	culture=centrino
+	religion=liberationist
+	trait=charitable
+	trait=underhanded_rogue
+	2349.12.10={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+}
+230022={
+	name="Mario"
+	dynasty=145018 #Allende
+	father=230020
+	martial=5
+	diplomacy=3
+	stewardship=5
+	intrigue=4
+	learning=5
+	culture=centrino
+	religion=liberationist
+	trait=tough_soldier
+	2352.5.12={
+		birth=yes
+	}
+	2400.1.1={
+		death=yes
+	}
+}
+230023={
+	name="Eduardo"
+	dynasty=145017 #Alessandri
+	martial=4
+	diplomacy=5
+	stewardship=6
+	intrigue=4
+	learning=3
+	culture=italian
+	religion=catholic
+	trait=midas_touched
+	trait=gregarious
+	trait=diligent
+	2319.8.19={
+		birth=yes
+		culture=centrino
+	}
+	2375.3.5={
+		death=yes
+	}
+}
+230024={
+	name="Arturo"
+	dynasty=145017 #Alessandri
+	father=230023
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=3
+	culture=italian
+	religion=catholic
+	trait=thrifty_clerk
+	trait=patient
+	trait=lustful
+	2340.11.20={
+		birth=yes
+		culture=centrino
+	}
+	2375.3.5={
+		death=yes
+	}
+}
+230025={
+	name="Javier"
+	dynasty=145017 #Alessandri
+	father=230023
+	martial=5
+	diplomacy=5
+	stewardship=5
+	intrigue=4
+	learning=3
+	culture=italian
+	religion=catholic
+	trait=grey_eminence
+	trait=shrewd
+	trait=socializer
+	2345.11.20={
+		birth=yes
+		culture=centrino
+	}
+	2375.3.5={
+		death=yes
+	}
+}
+230026={
+	name="Raul"
+	dynasty=145035 #Edwards
+	martial=3
+	diplomacy=5
+	stewardship=4
+	intrigue=8
+	learning=7
+	culture=celtic
+	religion=catholic
+	trait=mastermind_theologian
+	trait=deceitful
+	trait=groomed
+	trait=paranoid
+	2327.3.20={
+		birth=yes
+		culture=centrino
+	}
+	2380.2.10={
+		death=yes
+	}
+}
+230027={
+	name="Carlos"
+	dynasty=145035 #Edwards
+	father=230026
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=8
+	learning=7
+	culture=celtic
+	religion=catholic
+	trait=tough_soldier
+	trait=deceitful
+	trait=groomed
+	trait=arbitrary
+	2346.1.15={
+		birth=yes
+		culture=centrino
+	}
+	2380.2.10={
+		death=yes
+	}
+}
+230028={
+	name="Roberto"
+	dynasty=145035 #Edwards
+	father=230026
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=8
+	learning=7
+	culture=celtic
+	religion=catholic
+	trait=flamboyant_schemer
+	trait=lustful
+	trait=ambitious
+	trait=cynical
+	2349.1.15={
+		birth=yes
+		culture=centrino
+	}
+	2380.2.10={
+		death=yes
+	}
+}
+230029={
+	name="Maria"
+	dynasty=145035 #Edwards
+	female=yes
+	father=230026
+	martial=5
+	diplomacy=5
+	stewardship=4
+	intrigue=8
+	learning=7
+	culture=celtic
+	religion=catholic
+	trait=scholarly_theologian
+	trait=chaste
+	trait=zealous
+	trait=freckles
+	2351.12.18={
+		birth=yes
+		culture=centrino
+	}
+	2380.2.10={
+		death=yes
+	}
+}
 240001={
 	name="Joaquín"
 	dynasty=150001
@@ -848,6 +1066,7 @@
 	trait=chaste
 	trait=diligent
 	trait=wroth
+	trait=branch_pentecostal
 	trait=underhanded_rogue
 	2342.8.13={
 		birth=yes
@@ -1225,7 +1444,7 @@
 		death=yes
 	}
 }
-250012={
+250012={ #the dog belonging to Federico von Pilsener
 	name="Dudelsackpfeifergeselle"
 	religion=catholic
 	culture=dog_culture

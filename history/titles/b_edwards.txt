@@ -1,0 +1,7 @@
+2300.1.1={
+	holding_dynasty=145035
+	liege=d_valparaiso
+}
+2342.4.9 = {
+	holder=230026
+}

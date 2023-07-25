@@ -9,6 +9,15 @@ b_figueroa = {
 b_raharoa = {
 	culture=rapa_nui
 }
+b_allende = {
+	culture=centrino
+}
+b_alessandri = {
+	culture=centrino
+}
+b_edwards = {
+	culture=centrino
+}
 
 ## Santos
 

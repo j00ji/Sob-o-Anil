@@ -172,6 +172,7 @@ culture =
 	religion = {
 		"jerovia"
 		"terra_benta"
+		"calafatist"
 	}
 
 	templates = { 
@@ -239,6 +240,13 @@ culture =
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_mineiro.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_chile.tga"
 			size = { x = 10 y = 5 }
 			noOfFrames = 50
 			color = 0
@@ -655,6 +663,7 @@ culture = { #Inca
 		"inkarri"
 		"santa_diablada"
 		"dreamtime"
+		"xoon"
 	}
 
 	templates = { 
@@ -723,6 +732,13 @@ culture = { #Inca
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_argentina.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_chile.tga"
 			size = { x = 10 y = 5 }
 			noOfFrames = 50
 			color = 0

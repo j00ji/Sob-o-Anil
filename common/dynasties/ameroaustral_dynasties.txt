@@ -6,6 +6,18 @@
 	religion = nguillatun
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = xoon
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 210002 = {
 	name = "Quintupil"
@@ -13,6 +25,18 @@
 	religion = nguillatun
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = xoon
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 210003 = {
 	name = "Calbucura"
@@ -344,6 +368,18 @@
 	religion = calafatist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = calafatist
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 
 }
 215020 = {
@@ -538,6 +574,19 @@
 	religion = xoon
 	can_appear = no
 	used_for_random = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = xoon
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 220029 = {

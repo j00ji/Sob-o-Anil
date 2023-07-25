@@ -6,6 +6,18 @@
 	religion = calafatist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = calafatist
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 245002 = {
 	name = "Clarke"
@@ -277,6 +289,17 @@
 	religion = evangelical
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 250019 = {
 	name = "Wilson"

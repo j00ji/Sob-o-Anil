@@ -23,6 +23,9 @@ long_character_event = {
 	title=chl.2.t
 	desc=chl.2.d
 	is_triggered_only=yes
+	immediate={
+		clr_character_flag=huacho_riquelme
+	}
 	option = {
 		name = chl.2.a
 		ai_chance = {

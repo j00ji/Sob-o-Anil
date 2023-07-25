@@ -6,14 +6,38 @@
 	religion = calafatist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = calafatist
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 230002 = {
-	name = "Solari"
+	name = "de Veer"
 	culture = desertico
 	religion = calafatist
 	used_for_random = no
 	can_appear = no
+	coat_of_arms = {
+		religion = calafatist
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 230003 = {
@@ -452,6 +476,18 @@
 	religion = calafatist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = xoon
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 235043 = {
 	name = "Nancuante"
@@ -477,6 +513,18 @@
 	religion = calafatist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = calafatist
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 240002 = {
 	name = "Amarilla"
@@ -661,6 +709,18 @@
 	religion = calafatist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = calafatist
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 240032 = {
 	name = "Grande"
