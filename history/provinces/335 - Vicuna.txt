@@ -16,6 +16,6 @@ b_vicuna = castle
 
 # Misc
 culture = atacameno
-religion = camino_estelar
+religion = catholic
 
 #History

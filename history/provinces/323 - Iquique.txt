@@ -16,6 +16,6 @@ b_la_tirana = temple
 
 # Misc
 culture = atacameno
-religion = camino_estelar
+religion = santa_diablada
 
 #History

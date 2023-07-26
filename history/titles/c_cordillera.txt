@@ -8,5 +8,5 @@
 }
 2358.2.3 = {
 	holder=230015
-	liege=d_patriarchy
+	liege=k_chile
 }

@@ -16,6 +16,6 @@ b_huasco = city
 
 # Misc
 culture = atacameno
-religion = camino_estelar
+religion = catholic
 
 #History

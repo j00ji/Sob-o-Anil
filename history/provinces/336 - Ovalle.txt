@@ -16,6 +16,6 @@ b_punitaqui = city
 
 # Misc
 culture = atacameno
-religion = camino_estelar
+religion = catholic
 
 #History

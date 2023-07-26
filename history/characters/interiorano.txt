@@ -1721,6 +1721,7 @@
 640085={
 	name="Evaristo"
     dynasty=285054 # Uriburu
+	father=640106
     culture=norteno
     religion=catholic
     martial=5
@@ -2136,6 +2137,43 @@
     2367.1.1={birth=yes}
     2430.1.1={death=yes}
 }#Second child
+
+640106={
+	name="Evaristo"
+    dynasty=285054 # Uriburu
+    culture=norteno
+    religion=catholic
+    martial=5
+    diplomacy=4
+    stewardship=4
+    intrigue=5
+    learning=4
+    trait=fortune_builder
+    trait=patient
+    trait=content
+    trait=proud
+	trait=scarred
+	trait=craven
+    2298.1.1={birth=yes}
+    2340.1.1={death=yes}
+}#First Duke of Salta, ruled Salta and Pozo del Sauce
+
+
+640107={
+	name="Helena"
+	dynasty=285054 # Uriburu
+	culture=norteno
+    religion=catholic
+	female=yes
+	father=640106
+	trait=martial_cleric
+	trait=zealous
+	trait=proud
+	trait=honest
+	trait=charitable
+	2338.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
 
 680001={
     name="Omar"

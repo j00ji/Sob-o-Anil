@@ -16,6 +16,6 @@ b_bulnes = city
 
 # Misc
 culture = huaso
-religion = catholic
+religion = evangelical
 
 #History

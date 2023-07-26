@@ -16,6 +16,6 @@ b_huara = castle
 
 # Misc
 culture = atacameno
-religion = camino_estelar
+religion = santa_diablada
 
 #History

@@ -16,6 +16,6 @@ b_putre = castle
 
 # Misc
 culture = aymara
-religion = camino_estelar
+religion = santa_diablada
 
 #History

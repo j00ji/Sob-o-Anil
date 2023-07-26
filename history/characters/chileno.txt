@@ -7,7 +7,7 @@
 	intrigue=4
 	learning=7
 	culture=atacameno
-	religion=camino_estelar
+	religion=catholic
 	trait=depressed
 	trait=erudite
 	trait=poet
@@ -32,7 +32,7 @@
 	intrigue=2
 	learning=4
 	culture=atacameno
-	religion=camino_estelar
+	religion=catholic
 	trait=scarred_high
 	trait=sturdy
 	trait=gluttonous
@@ -58,7 +58,7 @@
 	intrigue=5
 	learning=3
 	culture=atacameno
-	religion=camino_estelar
+	religion=catholic
 	trait=midas_touched
 	trait=fair
 	trait=lefthanded
@@ -105,7 +105,7 @@
 	intrigue=3
 	learning=2
 	culture=atacameno
-	religion=camino_estelar
+	religion=catholic
 	trait=fortune_builder
 	trait=one_eyed
 	trait=uncouth
@@ -378,7 +378,7 @@
 	intrigue=4
 	learning=2
 	culture=atacameno
-	religion=camino_estelar
+	religion=santa_diablada
 	trait=flamboyant_schemer
 	trait=one_handed
 	trait=brave
@@ -404,7 +404,7 @@
 	intrigue=3
 	learning=2
 	culture=atacameno
-	religion=camino_estelar
+	religion=santa_diablada
 	trait=tough_soldier
 	trait=content
 	trait=lustful
@@ -429,7 +429,7 @@
 	intrigue=3
 	learning=4
 	culture=atacameno
-	religion=camino_estelar
+	religion=santa_diablada
 	trait=scholarly_theologian 
 	trait=strong
 	trait=chaste
@@ -447,6 +447,7 @@
 230001={
 	name="Timoteo"
 	dynasty=145011
+	father=230003
 	martial=5
 	diplomacy=4
 	stewardship=6
@@ -455,7 +456,6 @@
 	culture=centrino
 	religion=catholic
 	trait=zealous
-	trait=charismatic_negotiator
 	trait=cruel
 	trait=diligent
 	trait=martial_cleric
@@ -463,6 +463,163 @@
 		birth=yes
 	}
 	2373.1.15={
+		death=yes
+	}
+}
+230002={ #second King of Chile
+	name="Charles"
+	dynasty=145011
+	father=230003
+	mother=230004
+	martial=5
+	diplomacy=4
+	stewardship=6
+	intrigue=3
+	learning=8
+	culture=centrino
+	religion=catholic
+	trait=skilled_tactician
+	trait=cruel
+	trait=diligent
+	2300.12.26={
+		birth=yes
+	}
+	2330.7.25={add_spouse=230005}
+	2359.1.15={
+		death={
+			death_reason=death_battle
+			killer=240011
+		}
+	}
+}
+230003={ #first Chilean King, originally just duke of Santiago
+	name="Augusto"
+	dynasty=145011
+	martial=7
+	diplomacy=8
+	stewardship=5
+	intrigue=4
+	learning=4
+	culture=centrino
+	religion=catholic
+	trait=zealous
+	trait=diligent
+	trait=ambitious
+	trait=falconer
+	trait=fortune_builder
+	2280.11.30={
+		birth=yes
+	}
+	2299.2.4={add_spouse=230004}
+	#becomes King around 2322
+	2331.4.6={
+		death=yes
+	}
+	
+}
+230004={ #wife of Augusto
+	name="Esmeralda"
+	dynasty=145020 #Camiroaga, should eventually expand their title history
+	female=yes
+	martial=4
+	diplomacy=3
+	stewardship=3
+	intrigue=3
+	learning=4
+	culture=huaso
+	religion=catholic
+	trait=grey_eminence
+	trait=fair
+	trait=zealous
+	trait=chaste
+	trait=gregarious
+	trait=charitable
+	#convinced her husband to lease Santiago to the Patriarch around 2322
+	2283.4.10={
+		birth=yes
+	}
+	2340.2.5={
+		death=yes
+	}
+}
+230005={ #wife of Charles I
+	name="Lorena"
+	dynasty=145010 #Camiroaga, should eventually expand their title history
+	female=yes
+	martial=4
+	diplomacy=5
+	stewardship=3
+	intrigue=6
+	learning=4
+	culture=huaso
+	religion=catholic
+	trait=intricate_webweaver
+	trait=ambitious
+	trait=deceitful
+	trait=proud
+	trait=patient
+	2312.1.24={
+		birth=yes
+	}
+	2370.8.10={
+		death=yes
+	}
+}
+230006={ #King Charles II of Chile, current ruler
+	name="Charles"
+	dynasty=145011
+	father=230002
+	mother=230005
+	martial=5
+	diplomacy=3
+	stewardship=6
+	intrigue=4
+	learning=5
+	culture=centrino
+	religion=catholic
+	trait=twin
+	trait=thrifty_clerk
+	trait=wroth
+	trait=crusader
+	trait=proud
+	2331.12.27={
+		birth=yes
+	}
+	2360.7.25={add_spouse=640107} # Uriburu spouse
+	2359.1.15={
+		effect = {
+			make_tributary = {
+				who = 230017
+				tributary_type = default
+			}
+		}
+	}
+	2391.1.15={
+		death=yes
+	}
+}
+230007={ #younger Brother of King Charles II, became a priest on his way to become the next Patriarch...
+	name="Marmaduque"
+	dynasty=145011
+	father=230002
+	mother=230005
+	martial=5
+	diplomacy=3
+	stewardship=6
+	intrigue=4
+	learning=5
+	culture=centrino
+	religion=catholic
+	trait=erudite
+	trait=temperate
+	trait=shrewd
+	trait=theologian
+	trait=scholarly_theologian
+	2335.5.20={
+		birth=yes
+	}
+	#give him a temple barony, probably Peñaleonen
+	2400.1.1={
 		death=yes
 	}
 }
@@ -480,6 +637,7 @@
 	trait=honest
 	trait=humble
 	trait=lefthanded
+	trait=crusader
 	trait=skilled_tactician
 	2349.3.14={
 		birth=yes
@@ -842,6 +1000,7 @@
 	religion=catholic
 	trait=just
 	trait=kind
+	trait=crusader
 	trait=tough_soldier
 	2343.6.12={
 		birth=yes
@@ -983,22 +1142,25 @@
 	}
 }
 240013={
-	name=Beatriz
-	dynasty=150023
+	name=Beatriz #twin sister of King Charles II
+	dynasty=145011
+	father=230002
+	mother=230005
 	female=yes
 	martial=2
 	diplomacy=5
 	stewardship=5
 	intrigue=4
 	learning=3
-	culture=huaso
+	culture=centrino
 	religion=catholic
+	trait=twin
 	trait=temperate
 	trait=groomed
 	trait=honest
 	trait=greedy
 	trait=charismatic_negotiator
-	2330.5.15={
+	2331.12.27={
 		birth=yes
 	}
 	2389.3.13={
@@ -1038,7 +1200,7 @@
 	intrigue=4
 	learning=3
 	culture=huaso
-	religion=catholic
+	religion=evangelical
 	trait=shrewd
 	trait=temperate
 	trait=deceitful
@@ -1180,7 +1342,8 @@
 	intrigue=6
 	learning=4
 	culture=huaso
-	religion=catholic
+	religion=evangelical
+	trait=branch_pentecostal
 	trait=groomed
 	trait=patient
 	trait=slothful
@@ -1204,12 +1367,13 @@
 	intrigue=3
 	learning=4
 	culture=huaso
-	religion=catholic
+	religion=evangelical
 	trait=shrewd
 	trait=kind
 	trait=brave
 	trait=stubborn
 	trait=honest
+	trait=branch_pentecostal
 	trait=legit_bastard
 	trait=skilled_tactician
 	2351.8.20={
@@ -1233,7 +1397,7 @@
 	intrigue=4
 	learning=3
 	culture=huaso
-	religion=catholic
+	religion=evangelical
 	trait=poet
 	trait=charitable
 	trait=erudite
@@ -1263,6 +1427,7 @@
 	trait=diligent
 	trait=lustful
 	trait=quick
+	trait=crusader
 	trait=fortune_builder
 	2332.11.4={
 		birth=yes

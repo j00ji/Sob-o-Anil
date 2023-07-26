@@ -16,6 +16,6 @@ b_alto_del_carmen = castle
 
 # Misc
 culture = atacameno
-religion = camino_estelar
+religion = catholic
 
 #History

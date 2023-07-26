@@ -16,6 +16,6 @@ b_andacollo = temple
 
 # Misc
 culture = atacameno
-religion = camino_estelar
+religion = catholic
 
 #History

@@ -29,7 +29,7 @@
 	stewardship=5
 	intrigue=3
 	learning=4
-	culture=desertico
+	culture=german
 	religion=calafatist
 	trait=cynical
 	trait=envious
@@ -38,6 +38,7 @@
 	trait=thrifty_clerk
 	2335.8.8={
 		birth=yes
+		culture=desertico
 	}
 	2401.1.19={
 		death=yes

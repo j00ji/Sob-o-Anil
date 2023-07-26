@@ -8,4 +8,5 @@
 }
 2365.6.9= {
 	holder=240016
+	liege=d_nuble
 }

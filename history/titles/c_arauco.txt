@@ -20,5 +20,5 @@
 }
 2360.5.1 = {
 	holder = 480018
-	liege = 0
+	liege = d_biobio
 }

@@ -140,9 +140,54 @@ interiorano = {
 		color = {0.65 0.39 0.06}
 
 		male_names = {
+			Adolfo Ainelen Alan Alberto_Adalberto Alejandro_Alessandro Alejo Alfredo "Andrés" "Ángel" Antonio Arturo Augusto_Agustín Awka
+			"Bartolomé" Bastian Benicio Benjamin Blas Brian
+			Camilo Carlos Ciro Cruz
+			Diego Damian Daniel
+			Eduardo "Elías" Enrique Emmanuel Emilio Ernesto Esteban Ezio
+			Facundo Faustino Federico Felipe_Fillippo Fernando Fran Francisco Franco
+			Gabriel "Gastón" Gianni Guillermo Gustavo
+			"Héctor" "Hernán" Horacio Humberto_Umberto
+			Ian Ignacio "Iñaki" Isidoro
+			Javier_Xabier "Jerónimo" "Joaquín" Johnny "José" "José Clemente" "José Francisco" "Juan Ignacio" "José María" Jorge Juan_Giovanni "Juan Agustín" "Juan Bautista" "Juan Cruz" "Juan Felipe" "Juan José" "Juan Pablo" "Juan Manuel" Julio 
+			Kevin Kun Kuruf 
+			Lautaro Laucha Lio Lionel Lorenzo Lolo Luis_Luigi
+			Manu Manuel Mariano Marco "Martín" "Matías" Mateo
+			Nacho Nahuel "Nicolás" Noah
+			Omar Osvaldo
+			Pablo Pancho Patricio Pedro_Pietro "Pedro José"
+			"Ramón" Rafael "Raúl" Ricardo Roberto Rodolfo 
+			Santiago Santino Santos Sergio
+			Theo Thiago Tincho Tobías Tomás
+			Ulises
+			Valen Valentin Valentino Victor Victorino
+			Washington
+			"Yepün"
 		}
 
-		female_names = {
+		female_names ={ 
+			Agostina Agustina Aitiana Alma Ana_Anna Antonella Antonia Ambar Amparo Agustina Azul
+			"Belén" Bella 
+			Camila Catalina Costanza
+			Delfina Dulcinea
+			Elena Emilia Emma "Estefanía" Eugenia Eva
+			Federica Flor Florencia Floricienta Franchesca
+			Graciela Guadalupe
+			Helena
+			Irene Isabel Isabella
+			Josefina Julieta Juana 
+			Laura Leonora Linda Lola Lourdes Luz
+			Macarena "Magalí" Maia Mara Maria "María Paula" "María Ana" "María Luz" Mariana Mariela Martina Mia Mila Milagros Mili
+			Natalia "Noemí"
+			Oriana 
+			Paula Paz Pilar Pili
+			Rocío
+			Sara Selena Serena  Sofia
+			Tatiana
+			Umma
+			Valentina Vicky Victoria Vida
+			Yamila
+			Zoe
 		}
 
 		from_dynasty_prefix = "de "

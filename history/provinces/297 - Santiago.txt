@@ -19,3 +19,6 @@ culture = centrino
 religion = catholic
 
 #History
+2322.12.27={
+	capital=b_maipu
+}
