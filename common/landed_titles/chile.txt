@@ -1,22 +1,3 @@
-d_patriarchy = {
-	color = { 247 246 148 }
-
-	capital = 297
-
-
-	title = PATRIARCH
-	title_female = PATRIARCH_FEMALE
-	foa = PATRIARCHY_FOA
-	short_name = yes
-		religion = catholic
-		controls_religion = catholic
-	location_ruler_title = yes
-	caliphate = no
-	primary = yes
-	dynasty_title_names = no
-	assimilate = no
-}
-
 d_fraternidad_estelar = {
 	color = { 237 70 219 }
 

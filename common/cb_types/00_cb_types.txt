@@ -494,7 +494,7 @@ other_claim = {
 			if = {
 				limit = {
 					OR = {
-						title = d_patriarchy
+						title = k_patriarchy
 					}
 				}
 				FROM = {
@@ -13595,7 +13595,7 @@ depose_antipope = {
 				religion = catholic
 			}
 			rightful_religious_head_scope = {
-				NOT = { has_claim = d_patriarchy }
+				NOT = { has_claim = k_patriarchy }
 			}
 			mercenary = no
 		}
@@ -13603,7 +13603,7 @@ depose_antipope = {
 			rightful_religious_head_scope = {
 				is_liege_or_above = PREV
 				OR = {
-					has_claim = d_patriarchy
+					has_claim = k_patriarchy
 				}
 			}
 		}
@@ -13618,14 +13618,14 @@ depose_antipope = {
 				religion = high_church
 			}
 			rightful_religious_head_scope = {
-				NOT = { has_claim = d_patriarchy }
+				NOT = { has_claim = k_patriarchy }
 			}
 		}
 		FROM = {
 			rightful_religious_head_scope = {
 				is_liege_or_above = PREV
 				OR = {
-					has_claim = d_patriarchy
+					has_claim = k_patriarchy
 				}
 			}
 		}
@@ -13876,7 +13876,7 @@ cb_install_antiking = {
 			
 			hidden_tooltip = {
 				rightful_religious_head_scope = {
-					remove_claim = d_patriarchy
+					remove_claim = k_patriarchy
 				}
 			}
 			

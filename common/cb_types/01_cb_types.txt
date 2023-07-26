@@ -7094,7 +7094,7 @@ depose_impious_pope = {
 				OR = {
 					AND = {
 						religion = catholic
-						has_landed_title = d_patriarchy
+						has_landed_title = k_patriarchy
 					}
 				}
 			}
@@ -7137,7 +7137,7 @@ depose_impious_pope = {
 			if = {
 				limit = {
 					FROM = {
-						has_landed_title = d_patriarchy
+						has_landed_title = k_patriarchy
 					}
 				}
 				k_papal_state = {

@@ -390,8 +390,8 @@ christian = {
 			SATAN LUCIFER THE_DEVIL
 		}
 			
-		autocephaly = yes
-		pentarchy = yes
+		#autocephaly = yes
+		#pentarchy = yes
 		investiture = yes
 		can_have_antipopes = yes
 		can_excommunicate = yes

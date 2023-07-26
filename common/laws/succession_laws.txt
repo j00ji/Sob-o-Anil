@@ -1429,7 +1429,7 @@ succession_laws = {
 	succ_papal_succession = {
 		potential = {
 			OR = {
-				title = d_patriarchy
+				title = k_patriarchy
 				title = k_archbishop_apostolic
 			}
 		}
