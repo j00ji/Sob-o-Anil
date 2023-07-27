@@ -15,7 +15,7 @@ b_jenipapo = tribal
 #b_pucunzal = castle
 
 # Misc
-culture = parnaibas
-religion = cicerite
+culture = west_parnaibas
+religion = tridentine
 
 #History

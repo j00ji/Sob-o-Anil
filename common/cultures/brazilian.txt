@@ -1440,6 +1440,7 @@ bahiano = {
 }
 
 atlanticano = {
+	graphical_cultures = { muslimgfx }
 	recifolindense = {
 		graphical_cultures = { muslimgfx }
 
@@ -2120,20 +2121,53 @@ northeastern_native = {
 	}
 }
 
-northeastern_group = {
+meio_norte = {
 	graphical_cultures = { byzantinegfx westerngfx }
 	
+	parnaibas = { #Piauienses
+		graphical_cultures = { muslimgfx }
 	
-	parnaibas = {
-		graphical_cultures = { mexicangfx }
-	
-		color = { 0.54 1.0 0.4 }
+		color = { 0.89 0.4 0.02 }
 		
 		male_names = {
-			Nerd
+			Adão Adolfo Afrânio Alberto Alvacir Amadeu Anísio Antônio Areia Álvaro Átila
+			Carlos Cícero Ciro Cosme Cláudio Clodomir
+			Damião Daniel Davi Demétrio Deoclécio Dionisio Domingos
+			Elias Evaldo
+			Fábio Fausto Fernando Firmino Flávio Francisco
+			Gabriel Georgiano Geraldo Gessivaldo Gil Gonçalo Guilherme Gustavo
+			Horácio Henrique Heráclito
+			Inácio
+			João Joaquim Júlio
+			Kléber
+			Leal Leonardo Lucas Luciano Luiz
+			Manoel Marcelo Marcos Mário Mauricio Miguel
+			Octávio
+			Patricia Paulo Pedro
+			Rafael Raimundo Renato Roberto Ronaldo
+			Sebastião Severo
+			Valdir Victor Vinicius
+			Whindersson
+			Zé
 		}
 		female_names = {
-			Friend
+			Adriana Aline Amanda Ana Andréia Antônia
+			Bruna
+			Camila Carla Cláudia Conceição Cristiane
+			Domingas
+			Eliane Eva
+			Fabiana Fernanda Francisca
+			Gabriela
+			Helena
+			Isabel
+			Janaina Jéssica Joana Josefa Julia Juliana
+			Lara Larissa Letícia Lúcia Luciana Lucinda Luiza Luiza Luzia
+			Manoela Marcela Marcia Maria Mariana Marlene
+			Patricia Paula
+			Rafaela Raquel Rita Rosa Rosangela Rosilene
+			Samara Samuela Sandra Simone
+			Teresinha
+			Vitória
 		}
 		
 		from_dynasty_prefix = "de "
@@ -2150,7 +2184,66 @@ northeastern_group = {
 		
 		modifier = default_culture_modifier
 	}
+	
+	west_parnaibas = { #Maranhenses
+		graphical_cultures = { muslimgfx }
+	
+		color = { 0.54 1.0 0.4 }
 		
+		male_names = {
+			Adão Adolfo Afrânio Alberto Alvacir Amadeu Anísio Antônio Antônio Areia Álvaro Átila
+			Bob
+			Carlos Cícero Ciro Cláudio Clodomir
+			Daniel Davi Demétrio Deoclécio Dionisio Domingos
+			Elias Evaldo
+			Fábio Fausto Fernando Firmino Flávio Francisco
+			Gabriel Gael Georgiano Geraldo Gessivaldo Gil Gonçalo Guilherme Gustavo
+			Henrique Heitor Heráclito
+			João Joaquim Júlio
+			Kléber
+			Leonardo Lucas Luciano Luiz
+			Manoel Marcelo Marcos Mário Mauricio Miguel
+			Octávio
+			Patricia Paulo Pedro
+			Rafael Raimundo Renato Roberto Ronaldo
+			Sebastião Severo
+			Valdir Victor Vinicius
+			Zé
+		}
+		female_names = {
+			Adriana Aline Amanda Ana Andréia Antônia
+			Bruna
+			Camila Carla Cláudia Conceição Cristiane
+			Domingas
+			Eliane Eva
+			Fabiana Fernanda Francisca
+			Gabriela
+			Helena
+			Isabel
+			Janaina Jéssica Joana Josefa Julia Juliana
+			Lara Larissa Letícia Lúcia Luciana Luiza Luiza Luzia
+			Manoela Marcela Marcia Maria Mariana Marlene
+			Patricia Paula
+			Rafaela Raquel Rita Rosa Rosangela Rosilene
+			Samara Samuela Sandra Simone
+			Teresinha
+			Vitória
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes			
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
 }
 	
 cerradonense = {
@@ -2688,5 +2781,5 @@ nortista_group = {
 		modifier = default_culture_modifier
 	}
 }
-	
+
 	

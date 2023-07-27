@@ -282,7 +282,7 @@
 	stewardship=5
 	intrigue=4
 	learning=2
-	culture=atacameno
+	culture=west_slavic
 	religion=camino_estelar
 	trait=midas_touched
 	trait=proud
@@ -291,6 +291,7 @@
 	trait=cynical
 	2325.4.16={
 		birth=yes
+		culture=atacameno
 	}
 	2391.6.16={
 		death=yes

@@ -8,4 +8,5 @@
 }
 2348.1.14= {
 	holder=220020
+	liege=d_tarapaca
 }

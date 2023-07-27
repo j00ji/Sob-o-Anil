@@ -1,0 +1,167 @@
+15001 = { 
+	name = "Montfort"
+	culture = parnaiba
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+15002 = { 
+	name = "Corrêa"
+	culture = parnaiba
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+15003 = { 
+	name = "Veiga"
+	culture = parnaiba
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 47
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+15004 = { 
+	name = "Vital"
+	culture = parnaiba
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+15005 = { 
+	name = "Clás"
+	culture = parnaiba
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 49
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+15006 = { 
+	name = "Castelo Branco"
+	culture = parnaiba
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 50
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+15007 = { 
+	name = "Corção"
+	culture = parnaiba
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 51
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+15008 = { 
+	name = "Edgard"
+	culture = parnaiba
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 52
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+15009 = { 
+	name = "Piteco"
+	culture = parnaiba
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 53
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+####################
+####Random Parnaiba Surnames
+####Source: ResistenciaTremembe
+####Range: 15500 - 20000
+####################

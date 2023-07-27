@@ -8,4 +8,5 @@
 }
 2363.3.6= {
 	holder=220019
+	liege=d_tarapaca
 }

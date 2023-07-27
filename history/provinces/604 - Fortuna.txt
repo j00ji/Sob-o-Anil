@@ -15,7 +15,7 @@ b_fortuna = tribal
 #b_baixao_grande = castle
 
 # Misc
-culture = parnaibas
-religion = evangelical
+culture = west_parnaibas
+religion = tridentine
 
 #History

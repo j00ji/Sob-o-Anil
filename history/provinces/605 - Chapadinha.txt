@@ -15,7 +15,7 @@ b_belagua = city
 #b_presidente_juscelino = castle
 
 # Misc
-culture = parnaibas
-religion = evangelical
+culture = west_parnaibas
+religion = tridentine
 
 #History

@@ -8,6 +8,7 @@
 }
 2331.6.13= {
 	holder=220010
+	liege=d_antofagasta
 }
 2368.5.12= {
 	holder=220012

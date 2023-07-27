@@ -1,0 +1,236 @@
+30001 = {
+	name = "Deoclécio"
+	dynasty = 15002 #Côrrea
+	culture = parnaibas
+	religion = tridentine
+	diplomacy=5
+	martial=8
+	stewardship=5
+	intrigue=4
+	learning=6
+	trait=charismatic_negotiator
+	trait=zealous
+	trait=mystic
+	2308.12.13={birth=yes}
+	2359.10.3={death=yes}
+	#First King of Piauí
+}
+30002 = {
+	name = "Cosme"
+	dynasty = 15002 #Côrrea
+	culture = parnaibas
+	religion = tridentine
+	father=30001
+	diplomacy=4
+	martial=9
+	stewardship=7
+	intrigue=3
+	learning=4
+	trait=tough_soldier
+	trait=twin
+	trait=shy
+	trait=temperate
+	trait=stubborn
+	2335.6.23={birth=yes}
+	2400.1.1={death=yes}
+	#claimant to K_Piaui, following death of his father he rules d_teresina
+}
+30003 = {
+	name = "Damião"
+	dynasty = 15002 #Côrrea
+	culture = parnaibas
+	religion = tridentine
+	father=30001
+	diplomacy=6
+	martial=9
+	stewardship=5
+	intrigue=5
+	learning=4
+	trait=martial_cleric
+	trait=twin
+	trait=mystic
+	trait=ambitious
+	trait=diligent
+	trait=envious
+	2335.6.23={birth=yes}
+	2363.4.6={effect={dynasty=15005}} #he Changes himself to the Clás Dynasty
+	2400.1.1={death=yes}
+	#claimant to K_Piaui, following death of his father he rules d_baixo_parnaiba
+}
+30004 = {
+	name = "Orlando"
+	dynasty = 15001 #Montfort
+	culture = sertanista
+	religion = tridentine
+	diplomacy=5
+	martial=7
+	stewardship=3
+	intrigue=5
+	learning=5
+	trait=mastermind_theologian
+	trait=honest
+	trait=theologian
+	trait=zealous
+	trait=paranoid
+	trait=erudite
+	2333.2.7={birth=yes}
+	2400.1.1={death=yes}
+	#revolted against k_piaui around 2356, rules Médio Parnaiba
+}
+30005 = {
+	name = "Marcelo"
+	dynasty = 15006 #Castelo Branco
+	culture = parnaibas
+	religion = tridentine
+	diplomacy=3
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=2
+	trait=brilliant_strategist
+	trait=temperate
+	trait=sturdy
+	trait=strategist
+	trait=arbitrary
+	2317.9.20={birth=yes}
+	2400.1.1={death=yes}
+	#ruler of Campo Maior vassal of d_teresina
+}
+30006 = {
+	name = "João"
+	dynasty = 15006 #Castelo Branco
+	culture = parnaibas
+	religion = tridentine
+	father=30005
+	diplomacy=3
+	martial=5
+	stewardship=4
+	intrigue=4
+	learning=2
+	trait=rowdy
+	trait=conscientious
+	2357.6.2={birth=yes}
+	2400.1.1={death=yes}
+}
+30007 = {
+	name = "Álvaro"
+	dynasty = 15003 #Veiga
+	culture = salvadorense
+	religion = tridentine
+	diplomacy=6
+	martial=6
+	stewardship=5
+	intrigue=2
+	learning=4
+	trait=grey_eminence
+	trait=genius
+	trait=stubborn
+	trait=proud
+	trait=diligent
+	2342.2.12={birth=yes culture=parnaibas}
+	2400.1.1={death=yes}
+	#rules parnaiba
+}
+30008 = {
+	name = "Inácio"
+	dynasty = 15007 #Corção
+	culture = parnaibas
+	religion = tridentine
+	diplomacy=6
+	martial=6
+	stewardship=7
+	intrigue=6
+	learning=4
+	trait=intricate_webweaver
+	trait=groomed
+	trait=shrewd
+	2342.2.12={birth=yes}
+	2400.1.1={death=yes}
+	#rules Valença
+}
+30009 = {
+	name = "Luíz"
+	dynasty = 15008 #Edgard
+	culture = french
+	religion = tridentine
+	diplomacy=6
+	martial=6
+	stewardship=7
+	intrigue=6
+	learning=4
+	trait=martial_cleric
+	trait=zealous
+	trait=celibate
+	trait=chaste
+	trait=charitable
+	2302.2.12={birth=yes culture=parnaibas}
+	2360.1.1={death=yes}
+	#ruled Cocal
+}
+30010 = {
+	name = "Leal"
+	dynasty = 15008 #Edgard
+	culture = french
+	religion = tridentine
+	father=30009
+	diplomacy=1
+	martial=6
+	stewardship=7
+	intrigue=6
+	learning=4
+	trait=martial_cleric
+	trait=zealous
+	trait=celibate
+	trait=chaste
+	trait=charitable
+	2342.2.12={birth=yes culture=parnaibas}
+	2400.1.1={death=yes}
+	#rules Cocal
+}
+30011 = {
+	name = "Mariana"
+	dynasty = 15008 #Edgard
+	father=30009
+	female=yes
+	culture = french
+	religion = tridentine
+	diplomacy=5
+	martial=3
+	stewardship=4
+	intrigue=5
+	learning=4
+	trait=curious
+	trait=affectionate
+	trait=fair
+	2355.3.5={birth=yes culture=parnaibas}
+	2400.1.1={death=yes}
+}
+30012={
+	name="Horácio"
+	dynasty=15009 #Piteco
+	culture=sertanista
+	religion=tridentine
+	trait=misguided_warrior
+	trait=uncouth
+	trait=poet
+	trait=humble
+	trait=robust
+	2350.10.27={birth=yes}
+	2368.6.14={add_spouse=30013}
+	2400.1.1={death=yes}
+	#ruler of São Raimundo Nonato
+}
+30013={
+	name="Lucinda"
+	female=yes
+	dynasty=0
+	culture=sertanista
+	religion=tridentine
+	trait=flamboyant_schemer
+	trait=lustful
+	trait=sturdy
+	trait=uncouth
+	2350.10.27={birth=yes}
+	2368.6.14={add_spouse=30012}
+	2400.1.1={death=yes}
+}

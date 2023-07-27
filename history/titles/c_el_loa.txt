@@ -8,4 +8,5 @@
 }
 2366.12.25={
 	holder=220015
+	liege=d_antofagasta
 }
