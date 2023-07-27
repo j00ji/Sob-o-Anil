@@ -1,0 +1,617 @@
+
+####################
+####Random Maranhense Surnames
+####################
+
+850500 = {
+    name = "da Silva"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850501 = {
+    name = "Pereira"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850502 = {
+    name = "dos Santos"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850503 = {
+    name = "Alves"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850504 = {
+    name = "Ferreira"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850505 = {
+    name = "Rodrigues"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850506 = {
+    name = "de Sousa"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850507 = {
+    name = "Costa"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850508 = {
+    name = "da Conceição"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850509 = {
+    name = "Gomes"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850510 = {
+    name = "Lima"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850511 = {
+    name = "Oliveira"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850512 = {
+    name = "Ribeiro"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850513 = {
+    name = "Araújo"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850514 = {
+    name = "de Jesus"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850515 = {
+    name = "de Oliveira"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850516 = {
+    name = "Lopes"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850517 = {
+    name = "Soares"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850518 = {
+    name = "Vieira"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850519 = {
+    name = "Martins"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850520 = {
+    name = "Mendes"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850521 = {
+    name = "Carvalho"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850522 = {
+    name = "Barbosa"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850523 = {
+    name = "Nascimento"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850524 = {
+    name = "Cardoso"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850525 = {
+    name = "da Costa"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850526 = {
+    name = "Barros"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850527 = {
+    name = "Almeida"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850528 = {
+    name = "Rocha"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850529 = {
+    name = "Nunes"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850530 = {
+    name = "Pinheiro"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850531 = {
+    name = "Marques"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850532 = {
+    name = "Souza"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850533 = {
+    name = "Dias"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850534 = {
+    name = "Fernandes"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850535 = {
+    name = "Batista"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850536 = {
+    name = "Viana"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850537 = {
+    name = "Teixeira"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850538 = {
+    name = "Moreira"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850539 = {
+    name = "Coelho"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850540 = {
+    name = "Moraes"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850541 = {
+    name = "Ramos"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850542 = {
+    name = "Nonato"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850543 = {
+    name = "Pinto"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850544 = {
+    name = "Borges"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850545 = {
+    name = "Brito"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850546 = {
+    name = "Diniz"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850547 = {
+    name = "Santana"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850548 = {
+    name = "Castro"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850549 = {
+    name = "da Cruz"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850550 = {
+    name = "Machado"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850551 = {
+    name = "Monteiro"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850552 = {
+    name = "de Lima"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850553 = {
+    name = "de Carvalho"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850554 = {
+    name = "Carneiro"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850555 = {
+    name = "Cunha"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850556 = {
+    name = "Amorim"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850557 = {
+    name = "Miranda"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850558 = {
+    name = "Fonseca"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850559 = {
+    name = "Matos"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850560 = {
+    name = "Das Chagas"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850561 = {
+    name = "Mendonça"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850562 = {
+    name = "Azevedo"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850563 = {
+    name = "Nogueira"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850564 = {
+    name = "Chaves"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850565 = {
+    name = "Guimara~es"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850566 = {
+    name = "Marinho"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850567 = {
+    name = "Neves"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850568 = {
+    name = "Macedo"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850569 = {
+    name = "dos Anjos"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850570 = {
+    name = "Cantanhede"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850571 = {
+    name = "do Carmo"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850572 = {
+    name = "Dutra"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850573 = {
+    name = "Frazão"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850574 = {
+    name = "Sales"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850575 = {
+    name = "Muniz"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850576 = {
+    name = "de Melo"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850577 = {
+    name = "Tavares"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850578 = {
+    name = "Furtado"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850579 = {
+    name = "Braga"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850580 = {
+    name = "Torres"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850581 = {
+    name = "da Luz"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850582 = {
+    name = "Maciel"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850583 = {
+    name = "Duarte"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850584 = {
+    name = "Cavalcante"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850585 = {
+    name = "Félix"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850586 = {
+    name = "Cutrim"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850587 = {
+    name = "Sampaio"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850588 = {
+    name = "Bastos"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850589 = {
+    name = "Rabelo"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850590 = {
+    name = "Mesquita"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850591 = {
+    name = "Brandão"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850592 = {
+    name = "García"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850593 = {
+    name = "Lisboa"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850594 = {
+    name = "Trindade"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850595 = {
+    name = "Pacheco"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850596 = {
+    name = "Assunção"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850597 = {
+    name = "Magalhães"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850598 = {
+    name = "Cordeiro"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850599 = {
+    name = "Chagas"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850600 = {
+    name = "Galvão"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+
+850601 = {
+    name = "Saraiva"
+    culture = west_parnaibas
+    # Add more properties as needed
+}
+

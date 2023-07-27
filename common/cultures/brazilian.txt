@@ -2192,42 +2192,47 @@ meio_norte = {
 		
 		male_names = {
 			Adão Adolfo Afrânio Alberto Alvacir Amadeu Anísio Antônio Antônio Areia Álvaro Átila
-			Bob
+			Benedito_Benedict Bob
 			Carlos Cícero Ciro Cláudio Clodomir
 			Daniel Davi Demétrio Deoclécio Dionisio Domingos
-			Elias Evaldo
+			Edmilson Edson Elias Evaldo
 			Fábio Fausto Fernando Firmino Flávio Francisco
 			Gabriel Gael Georgiano Geraldo Gessivaldo Gil Gonçalo Guilherme Gustavo
 			Henrique Heitor Heráclito
-			João Joaquim Júlio
+			Igor Ítalo
+			Jackson João Joaquim Jorge_George Júlio
 			Kléber
 			Leonardo Lucas Luciano Luiz
 			Manoel Marcelo Marcos Mário Mauricio Miguel
+			Raimundo_Raymond Reginaldo_Reginald Rosilene
 			Octávio
 			Patricia Paulo Pedro
 			Rafael Raimundo Renato Roberto Ronaldo
 			Sebastião Severo
-			Valdir Victor Vinicius
-			Zé
+			Tiago_James
+			Valdir Vanessa_Vanessa Victor Vinicius
+			Wanderson
+			Zacarias Zé
 		}
 		female_names = {
 			Adriana Aline Amanda Ana Andréia Antônia
 			Bruna
 			Camila Carla Cláudia Conceição Cristiane
-			Domingas
+			Diana Domingas
 			Eliane Eva
 			Fabiana Fernanda Francisca
 			Gabriela
 			Helena
 			Isabel
-			Janaina Jéssica Joana Josefa Julia Juliana
+			Janaina Jéssica Joana Joelma_Joelma Josefa Julia Juliana
 			Lara Larissa Letícia Lúcia Luciana Luiza Luiza Luzia
 			Manoela Marcela Marcia Maria Mariana Marlene
+			Natália
 			Patricia Paula
-			Rafaela Raquel Rita Rosa Rosangela Rosilene
-			Samara Samuela Sandra Simone
-			Teresinha
-			Vitória
+			Rafaela Raimunda Raquel Rita Rosa Rosangela Rosilene
+			Samara Samuela Sandra Sebastiana Simone
+			Terezinha_Theresa
+			Vera Vitória
 		}
 		
 		from_dynasty_prefix = "de "
