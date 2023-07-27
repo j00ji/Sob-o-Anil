@@ -1,6 +1,6 @@
 15001 = { 
 	name = "Montfort"
-	culture = parnaiba
+	culture = parnaibas
 	religion = tridentine
 	can_appear = no
 	used_for_random = no
@@ -18,7 +18,7 @@
 }
 15002 = { 
 	name = "Corrêa"
-	culture = parnaiba
+	culture = parnaibas
 	religion = tridentine
 	can_appear = no
 	used_for_random = no
@@ -36,7 +36,7 @@
 }
 15003 = { 
 	name = "Veiga"
-	culture = parnaiba
+	culture = parnaibas
 	religion = tridentine
 	can_appear = no
 	used_for_random = no
@@ -54,7 +54,7 @@
 }
 15004 = { 
 	name = "Vital"
-	culture = parnaiba
+	culture = parnaibas
 	religion = tridentine
 	can_appear = no
 	used_for_random = no
@@ -72,7 +72,7 @@
 }
 15005 = { 
 	name = "Clás"
-	culture = parnaiba
+	culture = parnaibas
 	religion = tridentine
 	can_appear = no
 	used_for_random = no
@@ -90,7 +90,7 @@
 }
 15006 = { 
 	name = "Castelo Branco"
-	culture = parnaiba
+	culture = parnaibas
 	religion = tridentine
 	can_appear = no
 	used_for_random = no
@@ -108,7 +108,7 @@
 }
 15007 = { 
 	name = "Corção"
-	culture = parnaiba
+	culture = parnaibas
 	religion = tridentine
 	can_appear = no
 	used_for_random = no
@@ -126,7 +126,7 @@
 }
 15008 = { 
 	name = "Edgard"
-	culture = parnaiba
+	culture = parnaibas
 	religion = tridentine
 	can_appear = no
 	used_for_random = no
@@ -144,7 +144,7 @@
 }
 15009 = { 
 	name = "Piteco"
-	culture = parnaiba
+	culture = parnaibas
 	religion = tridentine
 	can_appear = no
 	used_for_random = no
@@ -161,7 +161,403 @@
 	}
 }
 ####################
-####Random Parnaiba Surnames
+####Random parnaibas Surnames
 ####Source: ResistenciaTremembe
 ####Range: 15500 - 20000
 ####################
+
+15500 = {
+    name = "da Silva"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15501 = {
+    name = "de Sousa"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15502 = {
+    name = "Pereira"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15503 = {
+    name = "Alves"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15504 = {
+    name = "Rodrigues"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15505 = {
+    name = "dos Santos"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15506 = {
+    name = "Ferreira"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15507 = {
+    name = "Silva"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15508 = {
+    name = "da Conceição"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15509 = {
+    name = "Gomes"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15510 = {
+    name = "de Oliveira"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15511 = {
+    name = "Ribeiro"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15512 = {
+    name = "Soares"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15513 = {
+    name = "Sousa"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15514 = {
+    name = "Vieira"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15515 = {
+    name = "Oliveira"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15516 = {
+    name = "Lima"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15517 = {
+    name = "de Carvalho"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15518 = {
+    name = "da Costa"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15519 = {
+    name = "do Nascimento"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15520 = {
+    name = "de Jesus"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15521 = {
+    name = "Lopes"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15522 = {
+    name = "Araújo"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15523 = {
+    name = "Barbosa"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15524 = {
+    name = "Mendes"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15525 = {
+    name = "Batista"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15526 = {
+    name = "Nunes"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15527 = {
+    name = "Cardoso"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15528 = {
+    name = "Dias"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15529 = {
+    name = "Martins"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15530 = {
+    name = "Marques"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15531 = {
+    name = "das Chagas"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15532 = {
+    name = "Borges"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15533 = {
+    name = "Rocha"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15534 = {
+    name = "Nonato"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15535 = {
+    name = "Bezerra"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15536 = {
+    name = "Nascimento"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15537 = {
+    name = "Leal"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15538 = {
+    name = "Moreira"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15539 = {
+    name = "Barros"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15540 = {
+    name = "Coelho"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15541 = {
+    name = "de Brito"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15542 = {
+    name = "Rosa"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15543 = {
+    name = "Moura"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15544 = {
+    name = "Viana"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15545 = {
+    name = "Almeida"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15546 = {
+    name = "Feitosa"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15547 = {
+    name = "Monteiro"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15548 = {
+    name = "Ramos"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15549 = {
+    name = "dos Reis"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15550 = {
+    name = "Souza"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15551 = {
+    name = "Andrade"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15552 = {
+    name = "Cavalcante"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15553 = {
+    name = "Morais"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15554 = {
+    name = "da Cunha"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15555 = {
+    name = "Félix"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15556 = {
+    name = "Sampaio"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15557 = {
+    name = "Sales"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15558 = {
+    name = "do Carmo"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15559 = {
+    name = "Amorim"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15560 = {
+    name = "Nogueira"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15561 = {
+    name = "Freitas"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15562 = {
+    name = "Pereira"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15563 = {
+    name = "Xavier"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15564 = {
+    name = "Lustosa"
+    culture = parnaibas
+    religion = tridentine
+}
+
+15565 = {
+    name = "Duarte"
+    culture = parnaibas
+    religion = tridentine
+}
