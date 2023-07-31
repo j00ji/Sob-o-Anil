@@ -162,34 +162,34 @@
 	
 }
 
-###Villela Kardecist family whose final holdout is Belo Horizonte
-
-590009 = {
-	name = "Danilo"
-	dynasty = 265005 #villela
-	religion = kardecists
-	culture = auriferro
-	trait = skilled_tactician
-	trait = diligent
-	trait = wroth
-	trait = brave
-	trait = harelip
-	trait = defensive_leader
-	
-	diplomacy = 4
-	martial = 7
-	stewardship = 3
-	intrigue = 5
-	learning = 7	
-	
-	2318.6.26 = {
-		birth = yes
-	}
-	2400.1.1 = {
-		death = yes
-	}
-	#holder of Belzonte duchy, Belo Horizonte and Conceicao do Mato Dentro counties 
-}
+####Villela Kardecist family whose final holdout is Belo Horizonte
+#
+#590009 = {
+#	name = "Danilo"
+#	dynasty = 265005 #villela
+#	religion = kardecists
+#	culture = auriferro
+#	trait = skilled_tactician
+#	trait = diligent
+#	trait = wroth
+#	trait = brave
+#	trait = harelip
+#	trait = defensive_leader
+#	
+#	diplomacy = 4
+#	martial = 7
+#	stewardship = 3
+#	intrigue = 5
+#	learning = 7	
+#	
+#	2318.6.26 = {
+#		birth = yes
+#	}
+#	2400.1.1 = {
+#		death = yes
+#	}
+#	#holder of Belzonte duchy, Belo Horizonte and Conceicao do Mato Dentro counties 
+#}
 
 ##Lisboa family of Ouro Preto
 

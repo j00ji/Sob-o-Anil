@@ -4,9 +4,11 @@
 	law = succ_gavelkind
 }
 800.1.1={
-	
+	liege = d_pontal_da_prata
 }
-
-2369.1.1 = {
-	holder = 570012 #Breno Xavante
+2345.1.1={
+	holder = 570019
+}
+2347.6.1 = {
+	holder = 570020
 }

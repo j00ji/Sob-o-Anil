@@ -16,6 +16,6 @@ b_sao_joao_4 = temple
 
 # Misc
 culture = triangler
-religion = terra_benta
+religion = kardecists
 
 #History

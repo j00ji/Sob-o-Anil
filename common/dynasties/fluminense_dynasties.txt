@@ -241,6 +241,21 @@
 	name = "Pimenta"
 	culture = carioca
 }
+35043 = {
+	name = "Imperador"
+	culture = carioca
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 40001 = {
 	name = "da Paixão"
 	culture = mantiqueiro

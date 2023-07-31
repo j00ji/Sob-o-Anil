@@ -46,8 +46,8 @@
 	}
 }
 
-255004 = { #Borges
-	name = "Borges"
+255004 = { #Cavalcanti
+	name = "Cavalcanti"
 	culture = triangler
 	religion = umbanda
 	can_appear = no
@@ -263,6 +263,7 @@
 255547 = {
 	name = "Cardoso"
 	culture = triangler
+	used_for_random = no
 	}
 255548 = {
 	name = "Carmo"
@@ -1024,3 +1025,21 @@
 	name = "Werneck"
 	culture = triangler
 	}
+
+255738 = {
+	name = "de Patos"
+	culture = triangler
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 44
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

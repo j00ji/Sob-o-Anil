@@ -3,10 +3,18 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	
+2251.1.1 = {
+	holder = 570007
+	liege = k_triangle
 }
-
-2369.1.1 = {
-	holder = 570001
+2300.3.4 = {
+	holder = 570010
+	liege = k_triangle
+}
+2335.12.30 = {
+	holder = 570011
+	liege = k_triangle
+}
+2348.6.1 = {
+	liege = 0
 }

@@ -16,6 +16,6 @@ b_argenita = city
 
 # Misc
 culture = triangler
-religion = terra_benta
+religion = kardecists
 
 #History

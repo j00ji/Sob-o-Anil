@@ -16,6 +16,6 @@ b_sao_francisco_de_chagas = temple
 
 # Misc
 culture = triangler
-religion = universal
+religion = kardecists
 
 #History
