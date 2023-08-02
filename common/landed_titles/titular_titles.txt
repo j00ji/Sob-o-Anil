@@ -33,6 +33,22 @@ e_pretender_empire_1 = {
 	}
 }
 
+e_coffee_milk = {
+	color = { 227 196 149 }
+	color2 = { 255 255 255 }
+
+	capital = 50 # c_sao_paulo
+	
+	culture = canastro
+	
+	short_name = yes
+	
+	allow = {
+		always = no
+	}
+}
+
+
 ### Titular Kingdoms ###
 
 # Historical

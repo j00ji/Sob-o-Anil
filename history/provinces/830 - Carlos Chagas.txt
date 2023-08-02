@@ -15,7 +15,7 @@ b_crisolita = tribal
 #b_aguas_formosas = castle
 
 # Misc
-culture = valcude
+culture = kumanuxu
 religion = kardecists
 
 #History

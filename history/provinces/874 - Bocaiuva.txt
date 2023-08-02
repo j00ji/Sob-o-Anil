@@ -6,13 +6,13 @@ title = c_bocaiuva
 # Settlements
 max_settlements = 3
 
-b_macaubas_2 = castle
+b_macaubas_2= tribal
 #b_nova_jequitai = city
 #b_guaraciama = temple
-#b_engenheiro_navarro = castle
+#b_engenheiro_navarro= tribal
 #b_agrominas = city
 #b_barreiro_vermelho = temple
-#b_senhor_do_bonfim_2 = castle
+#b_senhor_do_bonfim_2= tribal
 
 # Misc
 culture = espinhaco

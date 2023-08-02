@@ -6,7 +6,7 @@ title = c_belo_horizonte
 # Settlements
 max_settlements = 6
 
-b_curral_del_rei = castle
+b_curral_del_rei = tribal
 b_dentedouro = castle
 b_betim = temple
 #b_ibirite = castle
@@ -16,6 +16,6 @@ b_betim = temple
 
 # Misc
 culture = auriferro
-religion = kardecists
+religion = terra_benta
 
 #History

@@ -6,13 +6,13 @@ title = c_capelinha
 # Settlements
 max_settlements = 4
 
-b_forte_areao = castle
+b_forte_areao= tribal
 #b_itamarandiba = city
 #b_carbonita = temple
-#b_turmalina = castle
+#b_turmalina= tribal
 #b_botumirim = city
 #b_itacambira = temple
-#b_chapada_do_norte = castle
+#b_chapada_do_norte= tribal
 
 # Misc
 culture = espinhaco

@@ -172,6 +172,7 @@
 	dynasty = 255004 #Cavalcanti
 	religion = kardecists
 	culture = triangler
+	female=yes
 	father = 570011
 	mother = 570012
 	add_trait = curious
@@ -234,8 +235,11 @@
 	2300.12.1 = {
 		birth = yes
 	}
-	2380.1.1 = {
-		death = yes
+	2367.6.13 = {
+		death = {
+			death_reason = death_battle
+			killer = 570020#King of Triangulo
+		}
 	}
 }
 
@@ -333,8 +337,8 @@
 	}
 	2347.6.1 = {
 		death = {
-			death_reason = death_drank_poison
-			#killer = #King of Triangulo
+			death_reason = death_murder_poison
+			killer = 570015#King of Triangulo
 		}
 	}
 }
@@ -359,7 +363,7 @@
 	}
 	2347.6.1 = {
 		effect = {
-			#add_rival = #king of Triangulo
+			add_rival = 570015 #king of Triangulo
 		}
 	}
 	2353.3.5={

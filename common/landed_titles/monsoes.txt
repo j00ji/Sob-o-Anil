@@ -283,7 +283,6 @@ e_moncoes = {
 			c_itumbiara = { # 244
 				color={ 193 102 140 }
 				color2={ 255 255 255 }
-				holy_site = terra_benta
 				
 				b_itumbiara = {}
 				b_aloandia = {}

@@ -6,13 +6,13 @@ title = c_aracuai
 # Settlements
 max_settlements = 2
 
-b_itira = castle
+b_itira= tribal
 #b_virgem_da_lapa = city
 #b_jacare = temple
-#b_coronel_murta = castle
+#b_coronel_murta= tribal
 #b_francisco_badaro = city
 #b_berilo = temple
-#b_catutiba = castle
+#b_catutiba= tribal
 
 # Misc
 culture = espinhaco

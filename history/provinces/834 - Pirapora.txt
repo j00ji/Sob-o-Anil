@@ -6,13 +6,13 @@ title = c_pirapora
 # Settlements
 max_settlements = 4
 
-b_buritizeiro = castle
+b_buritizeiro= tribal
 #b_guaicui = city
 #b_campo_azul = temple
-#b_bentopolis = castle
+#b_bentopolis= tribal
 #b_icarai_2 = city
 #b_ubai = temple
-#b_lagoa_dos_patos = castle
+#b_lagoa_dos_patos= tribal
 
 # Misc
 culture = espinhaco

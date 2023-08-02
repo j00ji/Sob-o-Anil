@@ -8,5 +8,8 @@
 	holder = 110684 #Zé Desterro
 }
 2320.2.3 = {
-	holder = 110686 #Mané
+	holder = 110685
 }
+#2348.11.3 = {
+#	holder = 110687 #Rodrigo II
+#}

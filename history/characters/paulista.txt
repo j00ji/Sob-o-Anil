@@ -11741,18 +11741,27 @@
 	religion = terra_benta
 	culture = canastro
 	
-	trait = tough_soldier
+	father = 590025
+	
+	trait = skilled_tactician
 	trait = is_fat
-	trait = slothful
+	trait = ambitious
+	trait = shrewd
 	trait = gluttonous
 	
 	2274.2.4 = {
 		birth = yes
 	}
-	2330.2.3 = {
+	2300.1.1={
+		effect={
+			add_consort = 590026
+			add_consort = 590032
+		}
+	}
+	2320.2.3 = {
 		death = yes
 	}
-	#Father of Rodrigo I
+	#Father of Rodrigo I. He unified Minas conquering the central region from the Auriferro chief Bernardes.
 }
 
 110685 = {
@@ -11768,7 +11777,7 @@
 	trait = strong
 	trait = mystic
 	trait = shrewd
-	trait = adventurer
+	#trait = adventurer
 	trait = ambitious
 	trait = wroth
 	#Also, add a trait for his messianic progress once the system is complete
@@ -11794,9 +11803,9 @@
 	religion = terra_benta
 	culture = canastro 
 	
-	trait = skilled_tactician
-	trait = envious
-	trait = deceitful
+	trait = detached_priest
+	trait = imbecile
+	trait = incapable
 	
 	father = 110684
 	2308.6.7 = {
@@ -11805,7 +11814,7 @@
 	2400.1.1 = {
 		death = yes
 	}
-	#Ruled over what's left of Rodrigo I's Mineiro possessions
+	#Rules Minas Gerais from São João del Rei 
 }
 
 110687 = {

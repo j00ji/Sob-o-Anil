@@ -1,5 +1,7 @@
-
-2350.1.1 = {
-	holder = 590011 #Antonio Lisboa
-	liege = d_ferroquadro
+2320.1.1 = {
+	holder = 590028
+	liege = k_minas_gerais
+}
+2366.2.20={
+	holder = 590031
 }

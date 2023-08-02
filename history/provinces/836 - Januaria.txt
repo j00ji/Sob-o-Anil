@@ -6,16 +6,16 @@ title = c_januaria
 # Settlements
 max_settlements = 3
 
-b_amparo_2 = castle
+b_amparo_2= tribal
 #b_itacarambi = city
 #b_miravania = temple
-#b_varzelandia = castle
+#b_varzelandia= tribal
 #b_montalvania = city
 #b_manga_2 = temple
-#b_maria_da_cruz = castle
+#b_maria_da_cruz= tribal
 
 # Misc
-culture = espinhaco
+culture = xakriaba
 religion = terra_benta
 
 #History

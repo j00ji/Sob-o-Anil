@@ -6,13 +6,13 @@ title = c_grao_mogol
 # Settlements
 max_settlements = 3
 
-b_praia_do_vau = castle
+b_praia_do_vau= tribal
 #b_critalia = city
 #b_adao_colares = temple
-#b_catuni_2 = castle
+#b_catuni_2= tribal
 #b_boa_vista_do_bananal = city
 #b_graobombado = temple
-#b_riberiao_dos_bois = castle
+#b_riberiao_dos_bois= tribal
 
 # Misc
 culture = espinhaco

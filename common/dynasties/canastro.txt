@@ -65,7 +65,7 @@
 	}
 }
 260005 = {
-	name = "de Varginha"
+	name = "Marciano"
 	culture = canastro
 	religion = terra_benta
 	can_appear = no

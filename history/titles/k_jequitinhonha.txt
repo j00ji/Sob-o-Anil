@@ -3,8 +3,8 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-2345.1.1 = {
-	holder = 610005 #Eliezer Julião
-}
+#2345.1.1 = {
+#	holder = 610005 #Eliezer Julião
+#}
 
 

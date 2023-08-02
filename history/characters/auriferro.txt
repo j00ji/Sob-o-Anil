@@ -452,3 +452,252 @@
 	#Rules Viçosa, Visconde do Rio and Ponta Nova.	also the ducke of Piranga
 	#MUST GIVE HIM CIVIL ADMINISTRATION OR MILITARY ADMINISTRATION BLOODLINE
 }
+
+###Desterro Family 590021 - 590025
+
+590021 = {
+	name = "Cláudio"
+	dynasty = 260002 #Desterro
+	religion = terra_benta
+	culture = mantiqueiro
+	dna="cad000b0cc0"
+	properties="gf0gbk000000000000000000000000000000"
+	trait = thrifty_clerk
+	
+	2171.5.8 = {
+		birth = yes
+	}
+	2215.10.3 = {
+		death = yes
+	}
+	#oldest known member of the Desterro family. owned  Pouso Alegre
+}
+
+590022 = {
+	name = "Tomás"
+	dynasty = 260002 #Desterro
+	religion = terra_benta
+	culture = mantiqueiro
+	dna="cad000b0cc0"
+	properties="gf0gbk000000000000000000000000000000"
+	trait = thrifty_clerk
+	father = 590021
+	2190.5.8 = {
+		birth = yes
+	}
+	2223.10.3 = {
+		death = yes
+	}
+	#1st Duke of Circuito das Aguas
+}
+
+590023 = {
+	name = "Xavier"
+	dynasty = 260002 #Desterro
+	religion = terra_benta
+	culture = mantiqueiro
+	dna="cad000b0cc0"
+	properties="gf0gbk000000000000000000000000000000"
+	trait = brilliant_strategist
+	trait = rough_terrain_leader
+	father = 590022
+	2212.5.8 = {
+		birth = yes
+	}
+	2266.10.3 = {
+		death = yes
+	}
+	#2nd Duke of Circuito das Aguas. Conquered the South of Minas
+}
+
+590025 = {
+	name = "Xavier"
+	dynasty = 260002 #Desterro
+	religion = terra_benta
+	culture = mantiqueiro
+	dna="cad000b0cc0"
+	properties="wb0hfc000000000000000000000000000000"
+	trait = charismatic_negotiator
+	trait = gregarious
+	father = 590023
+	2251.2.4 = {
+		birth = yes
+		culture = canastro
+	}
+	2304.5.3 = {
+		death = yes
+	}
+	#Father of Zé I. He solidified the gains made in South Minas by converting to Canastro culture, 
+	#and moving the center of his realm elsewhere.
+}
+
+###SCIONS OF DESTERRO###
+#Dente d'Ouro Family
+#inheritors of the central region
+
+590026 = { #Concubine Mother of the Dente d'ouro Scion
+	name = "Bárbara"
+	female = yes
+	dynasty=0
+	culture = auriferro
+	religion = terra_benta
+	trait = intricate_webweaver
+	trait = fair
+	
+	2283.12.14={birth=yes}
+	2350.10.3={death=yes}
+}
+
+590027 = {
+	name = "Alberto"
+	dynasty = 265010 #dente d'ouro
+	culture = mantiqueiro
+	religion = terra_benta
+	father = 110684
+	mother = 590026
+	trait = martial_cleric
+	trait = zealous
+	trait = child_of_consort
+	
+	2305.11.20={birth=yes culture=auriferro}
+	2366.2.20={death=yes}
+	#duke of Belzonte
+}
+
+590028 = {
+	name = "Henrique"
+	dynasty = 265010 #dente d'ouro
+	culture = auriferro
+	religion = terra_benta
+	father = 110684
+	mother = 590026
+	trait = midas_touched
+	trait = greedy
+	trait = child_of_consort
+	
+	2309.7.18={birth=yes}
+	2368.1.10={death=yes}
+	#duke of Ferroquadro
+}
+
+590029 = {
+	name = "Francisca"
+	dynasty = 265010 #dente d'ouro
+	culture = auriferro
+	religion = terra_benta
+	father = 110684
+	trait = martial_cleric
+	trait = zealous
+	trait = child_of_consort
+	
+	2313.2.8={birth=yes}
+	2370.1.10={death=yes}
+}
+
+590030 = {
+	name = "Zé"
+	dynasty = 265010 #dente d'ouro
+	culture = mantiqueiro
+	religion = terra_benta
+	father = 590027
+	trait = midas_touched
+	trait = quick
+	trait = ambitious
+	trait = envious
+	trait = diligent
+	
+	2326.2.8={birth=yes culture=auriferro}
+	2400.1.1={death=yes}
+	#duke of Belzonte, holds Belo Horizonte, Congonhas, Diamantina, Serro and Conceicao do Mato Dentro
+}
+
+590031 = {
+	name = "Luís"
+	dynasty = 265010 #dente d'ouro
+	culture = auriferro
+	religion = terra_benta
+	father = 590028
+	trait = charismatic_negotiator
+	trait = gregarious
+	trait = humble
+	trait = ugly
+	
+	2326.2.8={birth=yes}
+	2400.1.1={death=yes}
+	#duke of Ferroquadro, holds Ouro Preto, Itaguara, Conselheiro Lafaiete, Divinopolis
+}
+
+#Dente d'Aço
+#inheritors of the Vale region
+590032 = { #Concubine Mother of the Dente d'Aço Scion
+	name = "Rebeca"
+	female = yes
+	dynasty=0
+	culture = german
+	religion = terra_benta
+	trait = underhanded_rogue
+	trait = fair
+	
+	2282.12.14={birth=yes culture=valcude}
+	2360.10.3={death=yes}
+}
+
+590033 = {
+	name = "Maria"
+	female = yes
+	dynasty = 265011 #Dente d'Aço
+	culture = mantiqueiro
+	religion = terra_benta
+	trait = grey_eminence
+	trait = ambitious
+	trait = just
+	trait = twin
+	trait = groomed
+	
+	2301.10.26={birth=yes culture=valcude}
+	2364.6.12={death=yes}
+}
+
+590034 = {
+	name = "Sebastião"
+	dynasty = 265011 #Dente d'Aço
+	culture = german
+	religion = terra_benta
+	trait = brilliant_strategist
+	trait = wroth
+	trait = scarred
+	trait = twin
+	
+	2301.10.26={birth=yes culture=valcude}
+	2359.6.12={death=yes}
+	#was given Vale do Aço. Proceeded to conquer Vale do Rio Doce and expell the Chagas Arcanjo family
+}
+
+590035 = {
+	name = "Sebastião"
+	dynasty = 265011 #Dente d'Aço
+	culture = german
+	religion = terra_benta
+	trait = skilled_tactician
+	trait = ambitious
+	trait = scarred
+	
+	2321.5.6={birth=yes culture=valcude}
+	2400.1.1={death=yes}
+	#inherited the Vale do Rio doce. All but Caratings and Aimorés
+}
+
+590036 = {
+	name = "Bruno"
+	dynasty = 265011 #Dente d'Aço
+	culture = valcude
+	religion = terra_benta
+	trait = tough_soldier
+	trait = kind
+	trait = charitable
+	
+	2335.5.6={birth=yes}
+	2400.1.1={death=yes}
+	#inherited vale do Aço
+	
+}

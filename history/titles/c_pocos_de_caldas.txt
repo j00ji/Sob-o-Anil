@@ -1,4 +1,12 @@
-
+2200.1.1={
+	holder = 590021 #Cláudio
+}
+2215.10.3 = {
+	holder = 590022 #Tomás
+}
+2223.10.3 = {
+	holder = 590023 #Xavier
+}
 2331.4.7={
 	holder = 620006 #Quildelrico
 }

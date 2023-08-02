@@ -941,6 +941,7 @@ RETTYPE_CUL_XUKURU;Derarí;;;;;;;;;;;x
 RETTYPE_CUL_KARIRI;Kemké;;;;;;;;;;;x
 RETTYPE_CUL_TREMEMBE;Brabo;;;;;;;;;;;x
 RETTYPE_CUL_POTIGUARA;Shrimpeaters;;;;;;;;;;;x
+RETTYPE_CUL_BANDEIRANTE;Bandeirantes;;;;;;;;;;;x
 
 ###Buildings###
 ca_culture_recifolindense_1;Maracatu Workshop;;;;;;;;;;;;;x
@@ -978,6 +979,12 @@ ca_culture_northeastern_native_2;Toré Gathering Ground;;;;;;;;;;;;;x
 ca_culture_northeastern_native_3;Toré Gathering Ground;;;;;;;;;;;;;x
 ca_culture_northeastern_native_4;Toré Gathering Ground;;;;;;;;;;;;;x
 ca_culture_northeastern_native_1_desc;The Toré is a spiritual ceremony common to many peoples of the Nordeste that amongst other purposes is meant to inspire and spiritually aid its warriors.;;;;;;;;;;;;;x
+
+ca_culture_bandeirante_1;Bandeirante Camp;;;;;;;;;;;;;x
+ca_culture_bandeirante_2;Bandeirante Camp;;;;;;;;;;;;;x
+ca_culture_bandeirante_3;Bandeirante Camp;;;;;;;;;;;;;x
+ca_culture_bandeirante_4;Bandeirante Camp;;;;;;;;;;;;;x
+ca_culture_bandeirante_1_desc;The Bandeirantes are mercenaries of Paulista origins. First appearing during the rise of the urban republics they work for the highest bider and seek war even outside their homelands;;;;;;;;;;;;;x
 
 ###Units###
 cowboys;Cowboys;;;;;;;;;;;;;x

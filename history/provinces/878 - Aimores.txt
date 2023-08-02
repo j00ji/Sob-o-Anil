@@ -15,7 +15,7 @@ b_assarai = temple
 #b_barra_da_figueira = castle
 
 # Misc
-culture = valcude
+culture = krenak
 religion = kardecists
 
 #History

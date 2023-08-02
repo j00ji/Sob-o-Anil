@@ -871,6 +871,51 @@ e_vera_cruz = {
 				b_laura = {}
 			}
 		}
+		d_mucuri = {
+			color={ 149 239 177 }
+			color2={ 255 255 255 }
+			
+			capital = 829 # Teofilo Otoni
+			
+			c_teofilo_otoni = { # 829
+				color={ 104 82 49 }
+				color2={ 255 255 255 }
+				
+				b_filadelfia_3 = {}
+				b_mucuri = {}
+				b_novo_oriente_de_minas = {}
+				b_valao = {}
+				b_topazio = {}
+				b_padre_paraiso = {}
+				b_crispim_jacques = {}
+			}
+			
+			c_carlos_chagas = { # 830
+				color={ 100 229 143 }
+				color2={ 255 255 255 }
+				
+				b_crisolita = {}
+				b_machacalis = {}
+				b_fronteira_dos_vales = {}
+				b_perola_do_vale = {}
+				b_francisco_sa = {}
+				b_pavao = {}
+				b_aguas_formosas = {}
+			}
+			
+			c_nanuque = { # 831
+				color={ 112 166 99 }
+				color2={ 255 255 255 }
+				
+				b_forte_fritz = {}
+				b_presidente_bueno = {}
+				b_solar_das_aguas = {}
+				b_epaminondas = {}
+				b_ilha_do_sol = {}
+				b_pereira = {}
+				b_gabriel_passos = {}
+			}
+		}
 	}
 	k_minas_gerais = {
 		color={ 207 207 207 }
@@ -1136,73 +1181,15 @@ e_vera_cruz = {
 				b_tapera_3 = {}
 			}
 		}
-		d_serra_dos_aimores = {
-			color={ 149 239 177 }
-			color2={ 255 255 255 }
-
-			capital = 878 # Amoires
-			
-			c_carlos_chagas = { # 830
-				color={ 100 229 143 }
-				color2={ 255 255 255 }
-				
-				b_crisolita = {}
-				b_machacalis = {}
-				b_fronteira_dos_vales = {}
-				b_perola_do_vale = {}
-				b_francisco_sa = {}
-				b_pavao = {}
-				b_aguas_formosas = {}
-			}
-			c_conselheiro_pena = { # 833
-				color={ 73 167 105 }
-				color2={ 255 255 255 }
-				
-				b_aguia_branca = {}
-				b_lajao = {}
-				b_penha_do_norte = {}
-				b_sete_saloes = {}
-				b_galileia = {}
-				b_cuiete = {}
-				b_serra_da_onca = {}
-			}
-			c_nanuque = { # 831
-				color={ 112 166 99 }
-				color2={ 255 255 255 }
-				
-				b_forte_fritz = {}
-				b_presidente_bueno = {}
-				b_solar_das_aguas = {}
-				b_epaminondas = {}
-				b_ilha_do_sol = {}
-				b_pereira = {}
-				b_gabriel_passos = {}
-			}
-			c_resplendor = { # 832
-				color={ 19 112 51 }
-				color2={ 255 255 255 }
-				
-				b_nicolandia = {}
-				b_calixto = {}
-				b_cuparaque = {}
-				b_campo_alegre_de_minas = {}
-				b_quatituba = {}
-				b_bom_pastor = {}
-				b_santa_rita_do_itueto = {}
-			}
-			c_aimores = { # 878
-				color={ 73 3 105 }
-				color2={ 255 255 255 }
-				
-				b_natividade_3 = {}
-				b_assarai = {}
-				b_baixo_guandu = {}
-				b_alto_do_capim = {}
-				b_tabauna = {}
-				b_agua_limpa_2 = {}
-				b_barra_da_figueira = {}
-			}
-		}
+		#d_serra_dos_aimores = {
+		#	color={ 149 239 177 }
+		#	color2={ 255 255 255 }
+		#
+		#	capital = 878 # Amoires
+		#	
+		#	
+		#	
+		#}
 		d_vale_do_rio_doce = {
 			color={ 144 206 228 }
 			color2={ 255 255 255 }
@@ -1232,18 +1219,6 @@ e_vera_cruz = {
 				b_sobralia = {}
 				b_sao_domingos_das_dores = {}
 			}
-			c_teofilo_otoni = { # 829
-				color={ 104 82 49 }
-				color2={ 255 255 255 }
-				
-				b_filadelfia_3 = {}
-				b_mucuri = {}
-				b_novo_oriente_de_minas = {}
-				b_valao = {}
-				b_topazio = {}
-				b_padre_paraiso = {}
-				b_crispim_jacques = {}
-			}
 			c_caratinga = { # 876
 				color={ 84 18 198 }
 				color2={ 255 255 255 }
@@ -1255,6 +1230,42 @@ e_vera_cruz = {
 				b_cordeiro_de_minas = {}
 				b_dom_modesto = {}
 				b_dom_lara = {}
+			}
+			c_conselheiro_pena = { # 833
+				color={ 73 167 105 }
+				color2={ 255 255 255 }
+				
+				b_aguia_branca = {}
+				b_lajao = {}
+				b_penha_do_norte = {}
+				b_sete_saloes = {}
+				b_galileia = {}
+				b_cuiete = {}
+				b_serra_da_onca = {}
+			}
+			c_resplendor = { # 832
+				color={ 19 112 51 }
+				color2={ 255 255 255 }
+				
+				b_nicolandia = {}
+				b_calixto = {}
+				b_cuparaque = {}
+				b_campo_alegre_de_minas = {}
+				b_quatituba = {}
+				b_bom_pastor = {}
+				b_santa_rita_do_itueto = {}
+			}
+			c_aimores = { # 878
+				color={ 73 3 105 }
+				color2={ 255 255 255 }
+				
+				b_natividade_3 = {}
+				b_assarai = {}
+				b_baixo_guandu = {}
+				b_alto_do_capim = {}
+				b_tabauna = {}
+				b_agua_limpa_2 = {}
+				b_barra_da_figueira = {}
 			}
 		}
 		d_vale_do_aco = {
@@ -1492,6 +1503,7 @@ e_vera_cruz = {
 			c_sao_joao_del_rei = { # 868
 				color={ 181 131 66 }
 				color2={ 255 255 255 }
+				holy_site = terra_benta
 				
 				b_emboabas = {}
 				b_rio_das_mortes = {}
@@ -2684,7 +2696,7 @@ e_vera_cruz = {
 			}
 		}
 	}
-	
+
 	##TITULAR KINGDOMS##
 	
 	k_santos = {

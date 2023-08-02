@@ -333,7 +333,7 @@
 	name = "Jerônimo"
 	dynasty = 250006 #Chagas
 	culture = valcude
-	religion = terra_benta
+	religion = angel_cult
 	
 	
 	trait = martial_cleric
@@ -347,7 +347,7 @@
 	2400.1.1 = {
 		death = yes
 	}
-	#ruler of Carlos Chahas and Nanuque and resplendor
+	#ruler of Nanuque and Teofilo Otoni, duke of Mucuri
 }
 
 610017 = {
@@ -392,4 +392,22 @@
 		death = yes
 	}
 	#ruler of Peçanha and Malacheta
+}
+
+610019 = {
+	name = "Isael"
+	dynasty = 250009 #Maxakali
+	culture = kumanuxu
+	religion = angel_cult #should change eventually I think
+	
+	trait = skilled_tactician
+	trait = proud
+	trait = light_foot_leader
+	trait = temperate
+	
+	martial = 10
+	
+	2340.4.15={birth=yes}
+	2400.1.1={death=yes}
+	#ruler of Carlos Chagas vassal of Mucuri
 }

@@ -6,7 +6,7 @@ title = c_ipatinga
 # Settlements
 max_settlements = 3
 
-b_barra_alegre = castle
+b_barra_alegre = tribal
 b_timoteo = temple
 #b_taubas = temple
 #b_coronel_fabriciano = castle

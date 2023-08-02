@@ -6,13 +6,13 @@ title = c_janauba
 # Settlements
 max_settlements = 3
 
-b_gameleira = castle
+b_gameleira= tribal
 #b_jaiba = city
 #b_verdelandia = temple
-#b_jacare_grande = castle
+#b_jacare_grande= tribal
 #b_gorutuba = city
 #b_tadeu = temple
-#b_lagoa_do_cajueiro = castle
+#b_lagoa_do_cajueiro= tribal
 
 # Misc
 culture = espinhaco

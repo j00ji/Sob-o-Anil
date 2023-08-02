@@ -69,6 +69,17 @@
 	culture = valcude
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 12
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 250007 = {
 	name = "Michelli"
@@ -81,6 +92,24 @@
 	culture = valcude
 	can_appear = no 
 	used_for_random = no
+}
+250009 = {
+	name = "Maxakali"
+	culture = kumanuxu
+	can_appear = no 
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 ####################

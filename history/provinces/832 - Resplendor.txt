@@ -16,6 +16,6 @@ b_nicolandia = tribal
 
 # Misc
 culture = valcude
-religion = kardecists
+religion = angel_cult
 
 #History

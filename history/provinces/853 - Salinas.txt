@@ -6,7 +6,7 @@ title = c_salinas
 # Settlements
 max_settlements = 3
 
-b_forte_jenipapo = castle
+b_forte_jenipapo = tribal
 #b_porteirinha = city
 #b_mato_verde = temple
 #b_novorizonte = castle

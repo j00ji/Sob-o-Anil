@@ -982,3 +982,21 @@ RETTYPE_CUL_POTIGUARA = {
 		heavy_infantry_morale = 0.1
 	}
 }
+
+RETTYPE_CUL_BANDEIRANTE = 
+{
+	first_type = 1
+	first_amount = 200
+	
+	potential = {
+		is_nomadic = no
+		culture_group = paulista
+		NOT = { culture = caipira }
+	}
+	
+	modifier = {
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		heavy_infantry_morale = 0.1
+	}
+}

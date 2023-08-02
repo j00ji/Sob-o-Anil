@@ -1,3 +1,7 @@
-2329.1.1 = {
-	holder = 610005 #Eliezer Julião
+2320.1.1 = {
+	holder = 590034
+	liege = k_minas_gerais
+}
+2359.6.12={
+	holder = 590036
 }
