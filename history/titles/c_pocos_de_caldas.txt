@@ -12,4 +12,5 @@
 }
 2366.1.1 = {
 	holder = 620005 #Clovis
+	liege = k_minas_gerais
 }

@@ -5,4 +5,5 @@
 }
 2357.1.1 = {
 	holder = 610017 #Daniela Micheli
+	liege = d_piranga
 }

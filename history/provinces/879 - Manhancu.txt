@@ -16,6 +16,6 @@ b_dom_correa = tribal
 
 # Misc
 culture = valcude
-religion = evangelical
+religion = terra_benta
 
 #History

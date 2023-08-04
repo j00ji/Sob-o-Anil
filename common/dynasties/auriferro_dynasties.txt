@@ -16,20 +16,44 @@
 	used_for_random = no
 }
 
-265003 = { #Ferraz 
-	name = "Ferraz"
+265003 = { #Dirceu 
+	name = "Dirceu"
 	culture = auriferro
 	religion = terra_benta
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
-265004 = { #Bravo 
-	name = "Bravo"
+265004 = { #Zagaia 
+	name = "Zagaia"
 	culture = auriferro
 	religion = terra_benta
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 265005 = {
@@ -151,6 +175,106 @@
 		layer = {
 			texture = 2
 			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+265012 = {
+	name = "Lott"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+265013 = {
+	name = "Ciência"
+	culture = auriferro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+265014 = {
+	name = "de Andrade"
+	culture = mantiqueiro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+265015 = {
+	name = "Monte Castello"
+	culture = mantiqueiro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+265016 = {
+	name = "Pereira"
+	culture = mantiqueiro
+	religion = terra_benta
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = terra_benta
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 18
 			emblem = 0
 			color = 0
 			color = 0
@@ -1121,3 +1245,4 @@
 	name = "Werneck"
 	culture = auriferro
 	}
+	

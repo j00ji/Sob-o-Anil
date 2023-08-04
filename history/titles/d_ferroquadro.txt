@@ -1,3 +1,9 @@
+2390.1.1={
+	holder = 590036
+}
+2308.1.1={
+	holder = 0
+}
 2320.1.1 = {
 	holder = 590028
 	liege = k_minas_gerais

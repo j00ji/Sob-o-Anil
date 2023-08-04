@@ -4,4 +4,5 @@
 }
 2366.10.8 = {
 	holder = 620004 #Chiquinho Xavier
+	liege = d_aguas_virt
 }

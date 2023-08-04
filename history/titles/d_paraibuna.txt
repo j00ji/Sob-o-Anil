@@ -3,6 +3,7 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-2345.1.1 = {
-	holder = 620010 #Cristiano
+2355.1.1 = {
+	holder = 590043 #Samuel de Andrade
+	liege = k_minas_gerais
 }

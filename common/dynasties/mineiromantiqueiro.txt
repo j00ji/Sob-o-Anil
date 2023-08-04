@@ -1,7 +1,7 @@
 ###ÄNSI
 
 280001 = {
-	name = "Xavier"
+	name = "Villa-Lobos"
 	culture = mantiqueiro
 	religion = terra_benta
 	can_appear = no

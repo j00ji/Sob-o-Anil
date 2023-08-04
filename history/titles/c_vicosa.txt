@@ -1,3 +1,13 @@
+2250.1.1={
+	holder = 590038 #Omar Bernardes
+}
+2276.1.1={
+	holder = 590039 #André Bernardes
+}
+2315.1.1={
+	holder = 590040 #Felipe Bernardes
+	liege = k_minas_gerais
+}
 2360.1.1 = {
 	holder = 590020 #Estácio Bernardes
 }

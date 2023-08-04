@@ -38,9 +38,9 @@
 
 590003 = {
 	name = "Isadora"
-	dynasty = 265003 #Ferraz
+	dynasty = 265003 #Dirceu
 	religion = terra_benta
-	culture = auriferro
+	culture = canastro
 	female = yes
 	father = 590004
 	disallow_random_traits = yes
@@ -78,7 +78,7 @@
 	name = "Paulo"
 	dynasty = 260005 #Varginha
 	religion = terra_benta
-	culture = auriferro
+	culture = canastro
 	add_trait = charismatic_negotiator
 	trait = wroth
 	trait = one_handed
@@ -280,6 +280,7 @@
 	trait = diligent
 	trait = groomed
 	trait = honest
+	trait = poet
 	
 	diplomacy = 8
 	martial = 9
@@ -430,7 +431,7 @@
 	dynasty = 265009 #Bernardes
 	religion = terra_benta
 	culture = auriferro
-	
+	father = 590040
 	trait = fortune_builder
 	trait = arbitrary
 	trait = cruel
@@ -450,7 +451,6 @@
 	}
 	
 	#Rules Viçosa, Visconde do Rio and Ponta Nova.	also the ducke of Piranga
-	#MUST GIVE HIM CIVIL ADMINISTRATION OR MILITARY ADMINISTRATION BLOODLINE
 }
 
 ###Desterro Family 590021 - 590025
@@ -586,6 +586,7 @@
 	culture = auriferro
 	religion = terra_benta
 	father = 110684
+	female = yes
 	trait = martial_cleric
 	trait = zealous
 	trait = child_of_consort
@@ -622,6 +623,12 @@
 	trait = humble
 	trait = ugly
 	
+	diplomacy = 9
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	
 	2326.2.8={birth=yes}
 	2400.1.1={death=yes}
 	#duke of Ferroquadro, holds Ouro Preto, Itaguara, Conselheiro Lafaiete, Divinopolis
@@ -653,7 +660,8 @@
 	trait = just
 	trait = twin
 	trait = groomed
-	
+	father = 110684
+	mother = 590032
 	2301.10.26={birth=yes culture=valcude}
 	2364.6.12={death=yes}
 }
@@ -667,7 +675,8 @@
 	trait = wroth
 	trait = scarred
 	trait = twin
-	
+	father = 110684
+	mother = 590032
 	2301.10.26={birth=yes culture=valcude}
 	2359.6.12={death=yes}
 	#was given Vale do Aço. Proceeded to conquer Vale do Rio Doce and expell the Chagas Arcanjo family
@@ -681,13 +690,18 @@
 	trait = skilled_tactician
 	trait = ambitious
 	trait = scarred
-	
+	father = 590034
+	diplomacy = 6
+	martial = 6
+	stewardship = 3
+	intrigue = 3
+	learning = 2
 	2321.5.6={birth=yes culture=valcude}
 	2400.1.1={death=yes}
 	#inherited the Vale do Rio doce. All but Caratings and Aimorés
 }
 
-590036 = {
+590041 = {
 	name = "Bruno"
 	dynasty = 265011 #Dente d'Aço
 	culture = valcude
@@ -695,9 +709,282 @@
 	trait = tough_soldier
 	trait = kind
 	trait = charitable
-	
+	father = 590034
 	2335.5.6={birth=yes}
 	2400.1.1={death=yes}
 	#inherited vale do Aço
 	
+}
+
+##The Old Bernardes family
+590036 = {
+	name = "Valdemir"
+	dynasty = 265009 #Bernardes
+	religion = terra_benta
+	culture = auriferro
+	dna="ccaae0d00c0"
+	properties="tm0fld000000000000000000000000000000"
+	father = 590038
+	trait = tough_soldier
+	trait = wroth
+	
+	2267.5.25={birth=yes}
+	2320.1.1={death=yes}
+	#former ruler of d_belzonte and d_ferroquadro, after it was conquered by Zé I he fled to Buenopolis
+}
+590037 = {
+	name = "Miguel"
+	dynasty = 265009 #Bernardes
+	religion = terra_benta
+	culture = auriferro
+	dna="ccaae0d00c0"
+	properties="tm0fld000000000000000000000000000000"
+	trait = underhanded_rogue
+	trait = just
+	trait = impaler
+	
+	father = 590036
+	2319.3.5={birth=yes culture=espinhaco}
+	2370.1.1={death=yes}
+	#current ruler of Alto Médio, Buenopolis and Francisco Dumont
+}
+590038 = {
+	name = "Omar"
+	dynasty = 265009 #Bernardes
+	religion = terra_benta
+	culture = auriferro
+	dna="ccaae0d00c0"
+	properties="tm0fld000000000000000000000000000000"
+	
+	trait = underhanded_rogue
+	trait = just
+	
+	2214.5.25={birth=yes}
+	2276.1.1={death=yes}
+	#original Bernardes
+}
+590039 = {
+	name = "André"
+	dynasty = 265009 #Bernardes
+	religion = terra_benta
+	culture = auriferro
+	father = 590038
+	
+	trait = underhanded_rogue
+	trait = just
+	
+	2275.5.25={birth=yes}
+	2315.1.1={death=yes}
+	#ruled viçosa, instead of helping his bro he submited to the Desterros
+}
+
+590040 = {
+	name = "Felipe"
+	dynasty = 265009 #Bernardes
+	religion = terra_benta
+	culture = auriferro
+	father = 590039
+	
+	trait = charismatic_negotiator
+	trait = content
+	
+	2300.5.25={birth=yes}
+	2360.1.1={death=yes}
+	#ruled viçosa, instead of helping his bro he submited to the Desterros
+}
+
+#skip 590041 for reasons
+#Ciência family
+590042 = { #Francisco Campos reference
+	name = "Chico"
+	dynasty = 265013 #Ciência
+	culture = valcude
+	religion = terra_benta
+	dna="000000e0000"
+	properties="ea000k000000000000000000000000000000"
+
+	trait = intricate_webweaver
+	trait = feeble
+	trait = genius
+	trait = scholar
+	trait = gregarious
+	
+	2340.11.18={birth=yes}
+	2400.1.1={death=yes}
+} #rules Caparaó
+
+#Andrade Family
+590043 = {
+	name = "Samuel"
+	dynasty = 265014 # de Andrade
+	culture = mantiqueiro
+	religion = terra_benta
+	
+	trait = mastermind_theologian
+	trait = cynical
+	trait = poet
+	trait = lustful
+	
+	diplomacy = 6
+	martial = 5
+	stewardship = 4
+	intrigue = 7
+	learning = 8
+	
+	2332.10.31={birth=yes}
+	2400.1.1={death=yes}
+	
+	#duke of paraibuna, holds alem paraiba and leopoldina
+}
+
+#Generals of the São Paulo invasion, who were awarded land
+#Lott family
+590044 = {
+	name = "Henrique"
+	dynasty = 265012 #Lott
+	culture = auriferro
+	religion = terra_benta
+	
+	trait = skilled_tactician
+	trait = just
+	trait = honest
+	trait = diligent
+	trait = content
+	
+	diplomacy = 7
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	
+	2318.11.16={birth=yes}
+	2370.1.1={death=yes}
+}
+
+590045 = {
+	name = "Regina"
+	dynasty = 265012 #Lott
+	culture = auriferro
+	religion = terra_benta
+	female =yes
+	
+	father = 590044
+	
+	trait = thrifty_clerk
+	trait = just
+	trait = honest
+	
+	diplomacy = 7
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	
+	2346.1.23={birth=yes}
+	2400.1.1={death=yes}
+}
+
+590046 = {
+	name = "Renata"
+	dynasty = 265012 #Lott
+	culture = auriferro
+	religion = terra_benta
+	female =yes
+	
+	father = 590044
+	
+	trait = tough_soldier
+	trait = brave
+	trait = diligent
+	
+	diplomacy = 7
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	
+	2350.1.23={birth=yes}
+	2400.1.1={death=yes}
+}
+
+#Tres Heróis Brasileiros - Monte Castello family
+
+590047 = {
+	name = "Mascarenhas"
+	dynasty = 265015 #Monte Castello
+	culture = canastro
+	religion = terra_benta
+	
+	trait = brilliant_strategist
+	trait = strategist
+	trait = rough_terrain_leader
+	trait = light_foot_leader	
+	trait = severely_injured
+	
+	2110.11.13={birth=yes}
+	2361.1.1={death=yes}
+	#father of the three brothers
+}
+
+590048 = {
+	name = "Geraldo"
+	dynasty = 265015 #Monte Castello
+	culture = auriferro
+	religion = terra_benta
+	
+	father = 590047
+		
+	trait = tough_soldier
+	trait = brave	
+	
+	2341.7.21={birth=yes culture = caipira}
+	2400.1.1={death=yes}
+	#Castliho
+}
+
+590049 = {
+	name = "Rodrigo"
+	dynasty = 265015 #Monte Castello
+	culture = mantiqueiro
+	religion = terra_benta
+	
+	father = 590047
+	
+	trait = tough_soldier
+	trait = brave
+	
+	2343.4.14={birth=yes culture = caipira}
+	2400.1.1={death=yes}
+	#Fernandopolis
+}
+
+590050 = {
+	name = "Arlindo"
+	dynasty = 265015 #Monte Castello
+	culture = canastro
+	religion = terra_benta
+	
+	father = 590047
+	
+	trait = tough_soldier
+	trait = brave
+	
+	2344.2.12={birth=yes culture = caipira}
+	2400.1.1={death=yes}
+	#Votuporanga
+}
+
+590051 = {
+	name = "Hermes"
+	dynasty = 265016 #Pereira #Seya
+	culture = caipira
+	religion = terra_benta
+	
+	trait = skilled_tactician
+	trait = ambitious
+	trait = sympathy_indian
+	
+	2334.7.27={birth=yes}
+	2400.1.1={death=yes}
+	#duke of Rio Preto, holds s jose do rio preto and novo horizonte
 }

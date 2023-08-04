@@ -1,5 +1,5 @@
 
-
-2359.1.1 = {
-	holder = 610001 #Josué do Valé Encantado
+2365.1.1 = {
+	holder = 590042 #Chico Ciência
+	liege = k_minas_gerais
 }

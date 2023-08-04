@@ -13,5 +13,6 @@
 	holder = 110687 #Rodrigo II Desterro
 }
 2364.3.13 = {
-	holder = 110690 #Fernando I Desterro
+	holder = 590044 #Henrique Lott
+	liege = k_minas_gerais
 }

@@ -2462,6 +2462,7 @@ syncretic_group = {
 		religious_clothing_priest = 3
 		piety_name = PURITY
 	}
+	
 }
 
 nautical = {

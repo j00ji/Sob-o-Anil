@@ -11,7 +11,8 @@
 }
 2348.11.3 = { 
 	holder = 110687 #Rodrigo II Desterro
+	liege = k_minas_gerais
 }
 2364.3.13 = {
-	holder = 110691 #Luis I Desterro
+	holder = 590051 #Hermes Pereira
 }

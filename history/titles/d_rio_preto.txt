@@ -8,10 +8,11 @@
 }
 2331.1.1 = { #the Mineiro Invasion
 	holder = 110685 #Rodrigo I Desterro
+	liege = k_minas_gerais
 }
 2348.11.3 = { 
 	holder = 110687 #Rodrigo II Desterro
 }
 2364.3.13 = {
-	holder = 110691 #Luis I Desterro
+	holder = 590051 #Hermes Pereira
 }
