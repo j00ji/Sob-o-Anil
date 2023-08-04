@@ -631,7 +631,6 @@
 	trait=cruel
 	trait=duelist
 	2329.11.28={birth=yes culture=west_parnaibas}
-	2365.1.1={effect={add_claim=k_maranhao}}
 	2400.1.1={death=yes}
 	#vassal of parnaiba poente, count of Caxias
 }
