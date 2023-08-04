@@ -3,12 +3,12 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege = d_pontal_da_prata
+2307.3.28={
+	holder = 570009
 }
-2345.1.1={
-	holder = 570019
+2322.9.1={
+	holder = 570015
 }
-2347.6.1 = {
-	holder = 570020
+2367.6.13 = {
+	holder = 570016
 }

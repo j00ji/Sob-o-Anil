@@ -36,5 +36,5 @@
 }	
 2350.1.1 = {
 	holder = 570020
-	liege = d_ponta_da_prata
+	liege = d_uberlands
 }

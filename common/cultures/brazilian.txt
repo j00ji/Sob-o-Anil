@@ -297,7 +297,8 @@ paulista = {
 		mother_name_chance = 5
 		
 		modifier = default_culture_modifier
-
+		
+		allow_looting = yes
 	}
 	caipira = { 
 		graphical_cultures = { paulistagfx southerngfx }
@@ -373,6 +374,7 @@ paulista = {
 		
 		modifier = default_culture_modifier
 		
+		allow_looting = yes
 	}
 	americano = { 
 		graphical_cultures = { anglopaulistagfx westerngfx }
@@ -444,6 +446,7 @@ paulista = {
 		
 		modifier = default_culture_modifier
 		
+		allow_looting = yes
 	}
 	camponeto = {
 		graphical_cultures = { paulistagfx southerngfx }
@@ -516,7 +519,8 @@ paulista = {
 		mother_name_chance = 25
 		
 		modifier = default_culture_modifier
-	
+		
+		allow_looting = yes
 	}
 	kyusei = {
 		graphical_cultures = { nipponpaulistagfx southerngfx }
@@ -590,6 +594,7 @@ paulista = {
 		
 		modifier = default_culture_modifier
 		
+		allow_looting = yes
 	}	
 	paranapanense = {
 		graphical_cultures = { paulistagfx southerngfx }
@@ -662,6 +667,7 @@ paulista = {
 		mother_name_chance = 25
 		
 		modifier = default_culture_modifier
+		allow_looting = yes
 	}
 	caicara = {
 		graphical_cultures = { paulistagfx southerngfx }
@@ -733,7 +739,7 @@ paulista = {
 		mother_name_chance = 5
 		
 		modifier = default_culture_modifier
-
+		allow_looting = yes
 	}
 }
 
