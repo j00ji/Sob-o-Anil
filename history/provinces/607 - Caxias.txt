@@ -16,6 +16,6 @@ b_sao_joao_do_sotero = temple
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = evangelical
 
 #History

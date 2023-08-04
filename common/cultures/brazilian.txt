@@ -2119,6 +2119,7 @@ northeastern_native = {
 				
 		modifier = default_culture_modifier
 	}
+	
 }
 
 meio_norte = {

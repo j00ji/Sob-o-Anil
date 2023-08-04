@@ -55,7 +55,7 @@ folclorista_DESC;The folk saint Gaucho Gil has long held significance to the Cat
 patria_grande;Patria Grande;;;;;;;;;;;;;x
 patria_grande_DESC;The term Patria Grande, or Great Fatherland, is to its followers both a political ideal and a divine mandate. The adherents of the faith worship the heroes of the past who liberated and ruled the original Patria Grande, bringing what they consider a golden age. As a result the faithful aspire to see the legendary homeland unified once more. Their pantheon is made up of "próceres", deities originated from the syncretism between the founders of Gran Colombia and several Catholic saints.;;;;;;;;;;;;;x
 syncretic_group;Syncretic;;;;;;;;;;;;;x
-camdomble;Camdomble;;;;;;;;;;;;;x
+camdomble;Candomblecist;;;;;;;;;;;;;x
 camdomble_DESC;Candomblé is a syncretic faith that absorbed religious traditions from West Africans, Portuguese Catholics, and the indigenous. Its name literally means "dance in honor of the gods," and many of its rituals involve music and dance. Practitioners worship a creator deity named Olodumaré, as well as numerous lesser spirits called Orixás. Candomblé practitioners believe that every person has their own patron Orixá, who controls their destiny and acts as a spiritual protector.;;;;;;;;;;;;;x
 santo_daime;Santo Daime;;;;;;;;;;;;;x
 santo_daime_DESC;Santo Daime is a syncretic religion founded in the Brazilian region of Acre by Mestre Irineu. The religion incorporates elements of several religious or spiritual traditions including Catholicism, Kardecist beliefs, African animism, and indigenous shamanism, including vegetalismo. Ceremonies, trabalhos, are and are undertaken sitting in silent "concentration", or sung collectively, dancing according to simple steps in geometrical formation. Ayahuasca is drunk as part of the ceremony.;;;;;;;;;;;;;x
@@ -151,6 +151,11 @@ johrei;Johrei;;;;;;;;;;;;;x
 johrei_DESC;Founded by Okada Mokichi, Johrei is the practice of channeling divine light into the body of another for the purposes of healing. Okada claimed to have received a divine revelation that empowered him to be a channel of God's Healing Light or johrei to purify the spiritual realm to remove the spiritual causes of illness, poverty, and strife from the world and inaugurate a new Messianic Age. Johrei practitioners see Okada as the Messiah, and he claimed to teach his followers how to achieve Messianity themselves.;;;;;;;;;;;;;x
 jurema;Juremeiro;;;;;;;;;;;;;x
 jurema_DESC;The Jurema is a collection of rituals and magics of the indigenous peoples of Northeast Brazil, its practitioners, the “juremeiros” hold devotion to the spirits of the land, the “encantados”, and their sacred ancestors, the “caboclos de jurema”, and praise them with songs and circular dances, the smoking of tobacco and the ingestion of the herbs and plants to commune with this spirits and ancestors.;;;;;;;;;;;;;x
+tambor;Tambor de Mina;;;;;;;;;;;;;x
+tambor_DESC;The Jurema is a collection of rituals and magics of the indigenous peoples of Northeast Brazil, its practitioners, the “juremeiros” hold devotion to the spirits of the land, the “encantados”, and their sacred ancestors, the “caboclos de jurema”, and praise them with songs and circular dances, the smoking of tobacco and the ingestion of the herbs and plants to commune with this spirits and ancestors.;;;;;;;;;;;;;x
+rastafarian;Rastafari;;;;;;;;;;;;;x
+rastafarian_DESC;Rastafari is a religion originating in Jamaica, inspired by both the Christian Bible and the teachings of Marcus Garvey. They believe that a pre-Event emperor from "Zion" known as Ras Tafari was the representative of Jah, or God, on Earth, and that "the Event" was the result of Jah overthrowing the wicked forces of "Babylon", allowing the world to start anew. The Rasta faith is divided into several groups, or "mansions", and the two largest Rasta Mansions in the post-apocalyptic world are Bobo Ashanti and the Twelve Tribes of Israel.;;;;;;;;;;;;;x
+rastafarian_FEATURES;§Y*§! May go on vision quests with the aid of sacramental herbs.\n§Y*§! May join Bobo Ashanti or the Twelve Tribes of Israel via a targeted decision.;;;;;;;;;;;;;x
 
 ###FORM OF ADDRESS;;;;;;;;;;;;;;
 PATRIARCH;Patriarch;;;;;;;;;;;;;x
@@ -584,6 +589,11 @@ SONGS_OF_JUREMA;Songs of Jurema;;;;;;;;;;;;;x
 THE_TRADITIONS;The Traditions;;;;;;;;;;;;;x
 GOD_POLTERGEISTS;The Poltergeists;;;;;;;;;;;;;x
 THE_JAGUAR;The Jaguar;;;;;;;;;;;;;x
+THE_PROMISED_KEY;The Promised Key;;;;;;;;;;;;;x
+GOD_JAH;Jah;;;;;;;;;;;;;x
+GOD_RASTAFARI;Ras Tafari;;;;;;;;;;;;;x
+PROPHET_GARVEY;Garvey;;;;;;;;;;;;;x
+BABYLON;Babylon;;;;;;;;;;;;;x
 
 manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
 manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x
@@ -593,6 +603,9 @@ belchioringian;Belchioringian Blood;;;;;;;;;;;;;x
 belchioringian_desc;A brilliant statesmen and warrior, he revolted against the Salvadorense overlords, founding his own Empire in most of the Northeast.;;;;;;;;;;;;;x
 ghassanid;Ghassanid Blood;;;;;;;;;;;;;x
 ghassanid_desc;A descendant of the legendary Ghassanid family who ruled over the Holy Land and defended it from moorish heathens.;;;;;;;;;;;;;x
+sarney;Blood of Sir Ney;;;;;;;;;;;;;x
+sarney_desc;A legendary pre-event ruler of Maranhão, who is said to have united and conquered all of Brazil.;;;;;;;;;;;;;x
+
 
 baron_mapuche;Lonko;;;;;;;;;;;;;x
 baron_female_mapuche;Lonko;;;;;;;;;;;;;x
@@ -929,6 +942,8 @@ nick_the_viudita;the Viudita;;;;;;;;;;;x
 nick_the_beloved;the Beloved;;;;;;;;;;;x
 nick_the_guest;the Guest;;;;;;;;;;;x
 nick_coke_addict;the Cocalero;;;;;;;;;;;x
+nick_fire_wasp;the Fire Wasp;;;;;;;;;;;x
+nick_the_black;the Black;;;;;;;;;;;x
 
 ###Retinues###
 RETTYPE_CUL_RECIFOLINDENSE;Caboclo de Lança;;;;;;;;;;;x

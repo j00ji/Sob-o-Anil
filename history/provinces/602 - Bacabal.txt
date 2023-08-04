@@ -16,6 +16,6 @@ b_santa_teresinha = temple
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = tambor
 
 #History

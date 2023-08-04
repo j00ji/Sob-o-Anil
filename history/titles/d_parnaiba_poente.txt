@@ -6,3 +6,9 @@
 800.1.1={
 	liege=k_maranhao
 }
+2320.1.1={
+	holder = 30035#José Vitorino
+}
+2357.5.10={
+	holder = 30036#Luis Fernando Vitorino
+}

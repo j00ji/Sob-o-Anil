@@ -16,6 +16,6 @@ b_araioses_2 = city
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = tambor
 
 #History

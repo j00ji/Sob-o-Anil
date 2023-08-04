@@ -16,6 +16,6 @@ b_belagua = city
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = evangelical
 
 #History

@@ -298,4 +298,8 @@ spriteTypes = {
 		name = "GFX_bloodlines_symbol_ghassanid"
 		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_ghassanid.dds"
 	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_sarney"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_sarney.dds"
+	}
 }

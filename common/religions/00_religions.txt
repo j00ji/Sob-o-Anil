@@ -2462,7 +2462,75 @@ syncretic_group = {
 		religious_clothing_priest = 3
 		piety_name = PURITY
 	}
-	
+	tambor = {
+		graphical_culture = umbanda
+		
+		icon = 81
+		heresy_icon = 81
+		
+		color = { 0.5 0.35 0.15 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = SONGS_OF_JUREMA
+		priest_title = PAJE
+		
+		high_god_name = GOD_IDK #ALL NAMES ARE WIP
+		
+		god_names = {
+			GOD_PURE_SPIRITS GOD_GOOD_SPIRITS
+		}
+		evil_god_names = {
+			GOD_BAD_SPIRITS
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		#aggression = 2.0 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		piety_name = PURITY
+	}
+	rastafarian = {
+		graphical_culture = africangfx
+
+		
+		icon = 82
+		#heresy_icon = 35
+		
+		color = { 0.8 0.4 0.0 }
+
+		#uses default interface to reflect its Christian roots
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_PROMISED_KEY
+		#priest_title = SHAMAN
+		
+		high_god_name = GOD_JAH
+		
+		god_names = {
+			GOD_JAH GOD_RASTAFARI PROPHET_GARVEY
+		}
+		evil_god_names = {
+			BABYLON
+		}
+		
+		priests_can_marry = yes
+		female_temple_holders = no
+		allow_looting = yes
+		#can_hold_temples = yes
+		allow_rivermovement = yes
+		can_demand_religious_conversion = no
+		
+		religious_clothing_head = 19
+		religious_clothing_priest = 19
+		intermarry = voodoo
+		intermarry = santeria
+		intermarry = candomble
+		intermarry = espiritista
+	}
 }
 
 nautical = {

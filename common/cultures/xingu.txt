@@ -3,6 +3,129 @@
 xingu_group = {
 	graphical_cultures = { indiangfx westerngfx }
 	
+	canela = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.3 0.25 0.4 }
+		
+		male_names = {
+			Ajtà Ahpràcuxwa
+			Cupacà Côrã Crerô Cuxu Cacro Cuhêhkê Crate
+			Domingos
+			Jõhi João
+			Rõhkrã Roptyc Rõrehhô
+			Ihpry Ihkôhkrãn 
+			Pôtyt Põhykrat Pohi Pêphà Prehtyc Pàt Pàrhy Pêhà Paulo Pascoal
+			Tehhi Tuhtê
+			Hapykrit Hajêhi Hinxwatyc Hunhkop 
+			Hapôr Hôhkràkràc Hõrkãkã Huhtê
+			Krôkrôc Kõc Kàj Krãkãmkruw Kenkrat Kryjtep Kencaprêc
+			Nimuendajú
+			Tehhi
+			Yahhe
+			Wewe Wakê 
+			Xore Xêpjaka Xàj Xôtyc
+		}
+		female_names = {
+			Amxykwyj Amxôkwyj Ajehi Ana
+			Bia
+			Cahhuc Craxy Caràhtu Cahtenc Côcahàc Cagãcakê
+			Irãhcaprêc Incà Ihkror
+			Jàt Jõxen Jõkà Junkwyj
+			Pytô Pytenc Pjêhky Prumkwyj Pojkwyj Pàlrë
+			Tônkwyj Terehkwyj
+			Mâkryt Maria Mayana
+			Hypym Hera
+			Waky Wet Wakokwyj Wacm
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	
+	guajajara = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.5 0.4 0.7 }
+		
+		male_names = {
+			Ângelo Abraão Ahkohxet Alexandre Amélio Antônio Ariston Arpracti
+			Baylon
+			César Cacildo Carlos Cleiton Cuxy
+			Dodamin
+			Eduardo Elenil Eli Eudoro Everaldo
+			Fábio Fabion Francisco Freire
+			Gerival
+			Haporo Helcio Hider Hotxua
+			Iderval Iron Izidório
+			Júnior Jesus João Joaquim Jorge José Jurandi
+			Kengapre
+			Laurez Lindolfo Luiz
+			Manoel Marcelo Mascarenhas Mauro Merval
+			Nezinho Nilton
+			Olyntho Osires Otoniel
+			Paulino Paulo Pedro
+			Raimundo Raul Ricardo Rocha
+			Sandoval Sebastião
+			Tapanan Toinho Tuxah
+			Udson Uiatan
+			Valdemar Valderez Valuar Vicente Vicentinho Vilmar
+			Walfredo Wanderlei
+			Yarre
+			Zé
+		}
+		
+		female_names = {
+			Adriana Aline Alzira Amanda Amelia Ana Andreia Antonia
+			Beatriz Bruna
+			Camila Caxat Caxekwyj Claudia Cristiane
+			Daiane Daniela Divina Domingas
+			Eliane Eliene Eva
+			Fabiana Fernanda Francisca
+			Gabriela Geovana Gercilia
+			Helena
+			Iny Iraci Isabel Isabela Izabel
+			Jaqueline Jessica Joana Josefa Julia Juliana
+			Kureheru
+			Lara Larissa Leticia Luana Luciana Luiza Luzia
+			Marcia Margarida Maria Mariana Marilene Marinalva Marlene
+			Natalia
+			Patricia Poliana Prumkwyj
+			Raimunda Rita Rosa Rosilene
+			Sandra Sara Sebastiana Simone Sonia
+			Tereza Terezinha
+			Utai
+			Vanessa Vera Vitoria       
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	
 	kayapo = {
 		graphical_cultures = { mesoamericangfx }
 		
@@ -174,4 +297,5 @@ xingu_group = {
 				
 		modifier = default_culture_modifier
 	}
+	
 }

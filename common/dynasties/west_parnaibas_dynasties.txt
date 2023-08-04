@@ -1,3 +1,270 @@
+850001 = {
+	name = "Ribamar"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850002 = {
+	name = "Macieira"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+850003 = {
+	name = "Cosme"
+	culture = west_parnaibas
+	religion = tambor
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = tambor
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850004 = {
+	name = "Apanyekrá"
+	culture = canela
+	religion = tambor
+	can_appear = no
+	used_for_random = no
+}
+850005 = {
+	name = "Ramkokamekrá"
+	culture = canela
+	religion = tambor
+	can_appear = no
+	used_for_random = no
+}
+850006 = {
+	name = "Gullar"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850007 = {
+	name = "Guajajara"
+	culture = guajajara
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+850008 = {
+	name = "Tenetehara"
+	culture = guajajara
+	religion = tambor
+	can_appear = no
+	used_for_random = no
+}
+850009 = {
+	name = "Gavião"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850010 = {
+	name = "Romão-Pedreira"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 59
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850011 = {
+	name = "Amâncio"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+850012 = {
+	name = "Mulato"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 58
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850013 = {
+	name = "Dias"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 60
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850014 = {
+	name = "Firmino"
+	culture = west_parnaibas
+	religion = tambor
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = tambor
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 61
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850015 = {
+	name = "Cabalero"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 62
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850016 = {
+	name = "Estrela"
+	culture = west_parnaibas
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 63
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850017 = {
+	name = "Vitorino"
+	culture = west_parnaibas
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 64
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+850018 = {
+	name = "Acher"
+	culture = west_parnaibas
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+}
+850019 = {
+	name = "De La Roche "
+	culture = west_parnaibas
+	religion = evangelical
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 65
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 ####################
 ####Random Maranhense Surnames

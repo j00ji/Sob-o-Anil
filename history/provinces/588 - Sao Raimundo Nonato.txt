@@ -16,6 +16,6 @@ b_guaribas = tribal
 
 # Misc
 culture = sertanista
-religion = cicerite
+religion = tridentine
 
 #History

@@ -16,6 +16,6 @@ b_bertolinia = tribal
 
 # Misc
 culture = sertanista
-religion = seladite
+religion = tridentine
 
 #History

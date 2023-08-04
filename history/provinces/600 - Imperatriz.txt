@@ -16,6 +16,6 @@ b_sao_pedro_2 = temple
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = tambor
 
 #History

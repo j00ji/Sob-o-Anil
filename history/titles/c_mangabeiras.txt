@@ -1,3 +1,8 @@
 800.1.1={
 	liege=k_maranhao
 }
+
+2360.1.1={
+	holder=30023 #Canela ruler
+	liege=d_itapecuru
+}

@@ -15,7 +15,7 @@ b_jenipapo = tribal
 #b_pucunzal = castle
 
 # Misc
-culture = west_parnaibas
-religion = tridentine
+culture = guajajara
+religion = tambor
 
 #History

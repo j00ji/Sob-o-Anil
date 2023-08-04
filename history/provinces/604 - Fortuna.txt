@@ -16,6 +16,6 @@ b_fortuna = tribal
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = tambor
 
 #History

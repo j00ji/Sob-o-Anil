@@ -113,8 +113,8 @@ culture =
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_northeastern.tga"
-			size = { x = 10 y = 6 }
-			noOfFrames = 60
+			size = { x = 10 y = 7 }
+			noOfFrames = 70
 			color = 0
 			random = no # DO not use for random CoAs
 		}
@@ -514,6 +514,7 @@ culture =
 	religion = {
 		"umbanda"
 		"camdomble"
+		"tambor"
 	}
 
 	templates = { 
@@ -580,6 +581,13 @@ culture =
 			noOfFrames = 50
 			color = 0
 			random = no # Do not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_northeastern.tga"
+			size = { x = 10 y = 7 }
+			noOfFrames = 70
+			color = 0
+			random = no # DO not use for random CoAs
 		}
 	}
 }

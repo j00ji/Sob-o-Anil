@@ -234,3 +234,435 @@
 	2368.6.14={add_spouse=30012}
 	2400.1.1={death=yes}
 }
+
+###Maranhão###
+#Ribamar Family(sarneys)
+30014={
+	name="José"
+	dynasty=850001 #Ribamar
+	culture=west_parnaibas
+	religion=holy_spirit	
+	dna="bjckd0c0000"
+	properties="vh0fhk000000000000000000000000000000"
+	trait=intricate_webweaver
+	trait=ambitious
+	trait=gregarious
+	trait=groomed
+	2318.4.24={
+		birth=yes
+		effect = {
+			create_bloodline = {
+				type = sarney
+				has_dlc = "Holy Fury"
+			}
+		}
+	}
+	2336.1.1={ add_spouse = 30015 }
+	2348.1.1={
+		give_nickname = nick_fire_wasp
+	}
+	2367.3.15={death=yes}
+	#first duke of Gurupi, then King of Maranhão following the Josiad. Eventually controlled Amapá too 
+}
+30015={
+	name="Maria"
+	dynasty=850002
+	culture=west_parnaibas
+	religion=holy_spirit	
+	female=yes
+	trait=underhanded_rogue
+	2319.12.4={
+		birth=yes
+	}
+	2370.1.1={death=yes}
+	#wife of Sarney
+}
+30016={
+	name="Rosa"
+	dynasty=850001 #Ribamar
+	culture=west_parnaibas
+	religion=holy_spirit
+	female=yes
+	father=30014
+	mother=30015
+	dna="bjckd0c0000"
+	properties="vh0fhk000000000000000000000000000000"
+	trait=underhanded_rogue
+	trait=diligent
+	trait=just
+	trait=groomed
+	trait=depressed
+	diplomacy=5
+	martial=4
+	stewardship=6
+	learning=8
+	intrigue=3
+	2338.7.21={
+		birth=yes
+	}
+	2400.1.1={death=yes}
+	#eldest daughter of José, Queen of Maranhão duchess of Gurupi, holds Timbira and São Luis
+}
+30017={
+	name="Francisco"
+	dynasty=850001 #Ribamar
+	culture=west_parnaibas
+	religion=holy_spirit
+	father=30014
+	mother=30015 
+	dna="bjckd0c0000"
+	properties="vj0fjk000000000000000000000000000000"
+	trait=fortune_builder
+	trait=diligent
+	trait=ambitious
+	trait=envious
+	diplomacy=5
+	martial=7
+	stewardship=4
+	intrigue=6
+	learning=3
+	2340.8.1={birth=yes}
+	2362.1.1={add_spouse=30021}
+	2400.1.1={death=yes}
+	#middle son of José, titular duke of Maranhão do Sul, count of Imperatriz
+}
+30018={
+	name="Zacarias "
+	dynasty=850001 #Ribamar
+	culture=west_parnaibas
+	religion=holy_spirit
+	father=30014
+	mother=30015 	
+	dna="00c0a0ha000"
+	properties="bb000k000000000000000000000000000000"
+	trait=naive_appeaser
+	trait=kind
+	trait=groomed
+	trait=humble
+	trait=shy
+	trait=dull
+	diplomacy=5
+	martial=7
+	stewardship=4
+	intrigue=6
+	learning=3
+	2346.7.17={
+		birth=yes
+	}
+	2400.1.1={death=yes}
+	#younger son of José, duke of Amapá, holds macapá
+}
+
+##The Old Fire Wasps - Francsico Loyalists
+#Cosme family
+30019={
+	name="Bento"
+	dynasty=850003 #Cosme
+	culture=salvadorense
+	religion=tambor
+	trait=tough_soldier
+	trait=inspiring_leader
+	trait=brave
+	2300.7.12={birth=yes culture=west_parnaibas}
+	2362.4.5={death=yes}
+	#Fromer duke of itapecuru, count of alto itapecuru
+}
+30020={
+	name="Cátulo"
+	dynasty=850003 #Cosme
+	culture=salvadorense
+	religion=tambor
+	father=30019
+	trait=tough_soldier
+	trait=inspiring_leader
+	trait=brave
+	trait=trusting
+	2337.2.24={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#Duke of itapecuru, count of alto itapecuru
+}
+30021={
+	name="Aline"
+	dynasty=850003 #Cosme
+	culture=salvadorense
+	religion=tambor
+	female=yes
+	father=30019
+	trait=martial_cleric
+	trait=gregarious
+	trait=groomed
+	trait=humble
+	2342.1.30={birth=yes culture=west_parnaibas}
+	2362.1.1={add_spouse=30017}
+	2400.1.1={death=yes}
+}
+#Cosme vassals
+30022={
+	name="Nimuendajú"
+	dynasty=850004 #Apanyekrá
+	culture=canela
+	religion=tambor
+	trait=skilled_tactician
+	trait=brave
+	trait=proud
+	trait=wroth
+	2339.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#vassal of itapecuru, holds loreto
+}
+30023={
+	name="Tehhi"
+	dynasty=850005 #Ramkokamekrá
+	culture=canela
+	religion=tambor
+	trait=grey_eminence
+	trait=gregarious
+	trait=temperate
+	trait=diligent
+	2334.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#vassal of itapecuru, holds mangabeiras
+}
+#Gullar Family
+30024={
+	name="Carlos"
+	dynasty=850006 #Gullar
+	dna="00fj00e00c0"
+	properties="0d000k000000000000000000000000000000"
+	culture=west_parnaibas
+	religion=holy_spirit
+	trait=scholarly_theologian
+	trait=poet
+	trait=quick
+	trait=erudite
+	trait=uncouth
+	2341.9.10={birth=yes}
+	2359.1.1={effect={add_friend=30017}}
+	2400.1.1={death=yes}
+	#duke of mearim, count of bacabal friend of Francisco
+}
+#Gullar vassals
+30025={
+	name="Simão"
+	dynasty=850007 #Guajajara
+	culture=guajajara
+	religion=holy_spirit
+	trait=grey_eminence
+	trait=zealous
+	trait=robust
+	2339.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#vassal of Mearim, holds Grajau
+}
+30026={
+	name="Afonso "
+	dynasty=850008 #Tehetehara
+	culture=guajajara
+	religion=holy_spirit
+	trait=skilled_tactician
+	trait=dwarf
+	trait=strong
+	trait=scarred_mid
+	trait=brave
+	2344.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#vassal of Mearim, holds Barra da Corda
+}
+30027={
+	name="Tiago"
+	dynasty=850009 #Gavião
+	culture=west_parnaibas
+	religion=holy_spirit
+	trait=misguided_warrior
+	trait=slothful
+	trait=lustful
+	trait=patient
+	2350.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#vassal of Mearim, holds Fortuna
+}
+##The new Fire Wasps - Rosa Loyalists
+#Romão Pedreira
+30028={
+	name="Aluísio"
+	dynasty=850010 #Romão Pedreira
+	culture=west_parnaibas
+	religion=holy_spirit
+	dna="0hkkg0kb0b0"
+	properties="ai0ihk000000000000000000000000000000"
+	trait=fortune_builder
+	trait=poet
+	trait=diligent
+	trait=ambitious
+	2329.4.14={birth=yes}
+	2400.1.1={death=yes}
+	#Duke of Lençois count of Santo Amaro
+}
+#vassals of Romão
+30029={
+	name="Rodrigo"
+	dynasty=850011 #Amâncio
+	culture=west_parnaibas
+	religion=holy_spirit
+	trait=indulgent_wastrel
+	trait=lustful
+	trait=slothful
+	trait=physician
+	trait=greedy
+	trait=shrewd
+	2345.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#vassal of lençois count of barreirinhas
+}
+30030={
+	name="Raimundo"
+	dynasty=850012 #mulato
+	dna="0hkkg0kb0b0"
+	properties="al0iak000000000000000000000000000000"
+	culture=brown
+	religion=holy_spirit
+	trait=charismatic_negotiator
+	trait=lustful
+	trait=diligent
+	trait=fair
+	2347.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#vassal of lençois count of tutoia
+}
+#Dias family
+30031={
+	name="Antônio"
+	dynasty=850013 #Dias
+	culture=west_parnaibas
+	religion=holy_spirit
+	trait=martial_cleric
+	trait=sympathy_syncretic
+	trait=erudite
+	2333.8.10={birth=yes}
+	2400.1.1={death=yes}
+	#count of timbira
+}
+30032={
+	name="Úrsula"
+	dynasty=850014 #Firmina
+	culture=salvadorense
+	female=yes
+	religion=tambor
+	trait=martial_cleric
+	trait=shrewd
+	trait=kind
+	2342.3.11={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#countess of Pindare
+}
+30033={
+	name="José"
+	dynasty=850015 #Caballero
+	culture=mediterranean
+	religion=holy_spirit
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=kind
+	2342.3.11={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#count of bom jardim
+}
+30034={
+	name="Venâncio"
+	dynasty=850016 #Estrela
+	culture=west_parnaibas
+	religion=holy_spirit
+	trait=brilliant_strategist
+	trait=strategist
+	trait=just
+	2342.3.11={birth=yes}
+	2400.1.1={death=yes}
+	#captain of the fire wasps
+}
+##The Goats - the Evangelicals of Maranhão##
+#Vitorinos
+30035={
+	name="José"
+	dynasty=850017 #Vitorino
+	culture=recifolindense
+	religion=evangelical
+	trait=fortune_builder
+	trait=zealous
+	trait=branch_pentecostal
+	trait=cruel
+	2300.11.28={birth=yes}
+	2357.5.10={death=yes}
+	#former King of Maranhão, formerly held São Luís, was the duke of parnaíba poente and count of codó
+}
+30036={
+	name="Luís Fernando"
+	dynasty=850017 #Vitorino
+	culture=west_parnaibas
+	religion=evangelical
+	trait=midas_touched
+	trait=branch_pentecostal
+	trait=ambitious
+	trait=diligent
+	2329.11.28={birth=yes}
+	2365.1.1={effect={add_claim=k_maranhao}}
+	2360.1.1={add_spouse=30039}
+	2400.1.1={death=yes}
+	#the duke of parnaíba poente and count of codó
+}
+30037={
+	name="Edson"
+	dynasty=850018 #Acher
+	culture=west_parnaibas
+	religion=evangelical
+	trait=martial_cleric
+	trait=branch_baptist
+	trait=humble
+	trait=lustful
+	2342.1.8={birth=yes}
+	2400.1.1={death=yes}
+	#vassal of parnaiba poente, count of chapadinha
+}
+30038={
+	name="Luís"
+	dynasty=850019 #De La Roche
+	culture=french
+	religion=evangelical
+	trait=martial_cleric
+	trait=branch_presbyterian
+	trait=skilled_tactician
+	trait=cruel
+	trait=duelist
+	2329.11.28={birth=yes culture=west_parnaibas}
+	2365.1.1={effect={add_claim=k_maranhao}}
+	2400.1.1={death=yes}
+	#vassal of parnaiba poente, count of Caxias
+}
+30039={
+	name="Luiza"
+	female=yes
+	dynasty=850019 #De La Roche
+	culture=french
+	religion=evangelical
+	trait=branch_presbyterian
+	trait=zealous
+	trait=fair
+	trait=groomed
+	trait=lustful
+	trait=flamboyant_schemer
+	2340.12.20={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+}
+30040={
+	name="Daniel"
+	dynasty=850019 #De La Roche
+	culture=french
+	religion=evangelical
+	trait=branch_presbyterian
+	trait=fair
+	trait=cruel
+	trait=lustful
+	trait=intricate_webweaver
+	2305.12.20={birth=yes culture=west_parnaibas}
+	2350.1.1={death=yes}
+	#former count of caxias
+}

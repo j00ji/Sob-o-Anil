@@ -15,7 +15,7 @@ b_loreto_2 = city
 #b_jenipapo_2 = castle
 
 # Misc
-culture = kraho
-religion = manredebu
+culture = canela
+religion = tambor
 
 #History

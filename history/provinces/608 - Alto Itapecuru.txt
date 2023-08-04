@@ -16,6 +16,6 @@ b_pastos_bons = city
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = tambor
 
 #History

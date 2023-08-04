@@ -1,0 +1,78 @@
+
+
+####################
+####Random Canela Surnames
+####Range: 485500 - 490000
+####################
+
+485500 = {
+    name = "Guajajara"
+    culture = canela
+	religion = tambor
+}
+
+485501 = {
+    name = "Tenetehara"
+    culture = canela
+	religion = tambor
+}
+
+485502 = {
+    name = "Araribóia"
+    culture = canela
+	religion = tambor
+}
+
+485503 = {
+    name = "Cana-Brava"
+    culture = canela
+	religion = tambor
+}
+
+485504 = {
+    name = "Caru"
+    culture = canela
+	religion = tambor
+}
+
+485505 = {
+    name = "Governador"
+    culture = canela
+	religion = tambor
+}
+
+485506 = {
+    name = "Krikatí"
+    culture = canela
+	religion = tambor
+}
+
+485507 = {
+    name = "Lagoa Comprida"
+    culture = canela
+	religion = tambor
+}
+
+485508 = {
+    name = "Morro Branco"
+    culture = canela
+	religion = tambor
+}
+
+485509 = {
+    name = "Rio Pindaré"
+    culture = canela
+	religion = tambor
+}
+
+485510 = {
+    name = "Rodeador"
+    culture = canela
+	religion = tambor
+}
+
+485511 = {
+    name = "Urucu-Juruá"
+    culture = canela
+	religion = tambor
+}

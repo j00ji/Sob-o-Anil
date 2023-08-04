@@ -16,6 +16,6 @@ b_primeira_cruz = temple
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = tambor
 
 #History

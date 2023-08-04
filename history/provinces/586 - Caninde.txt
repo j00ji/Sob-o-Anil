@@ -16,6 +16,6 @@ b_senhora_dos_remedios = temple
 
 # Misc
 culture = sertanista
-religion = cicerite
+religion = tridentine
 
 #History

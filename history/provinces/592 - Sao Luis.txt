@@ -16,6 +16,6 @@ b_sao_luis = city
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = rastafarian
 
 #History

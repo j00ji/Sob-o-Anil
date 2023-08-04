@@ -15,7 +15,7 @@ b_itaipava = city
 #b_estreito_3 = castle
 
 # Misc
-culture = west_parnaibas
-religion = tridentine
+culture = guajajara
+religion = holy_spirit
 
 #History

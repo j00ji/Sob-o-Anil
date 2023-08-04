@@ -16,6 +16,6 @@ b_santo_amaro_5 = castle
 
 # Misc
 culture = west_parnaibas
-religion = tridentine
+religion = tambor
 
 #History

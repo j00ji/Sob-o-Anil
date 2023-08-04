@@ -1,0 +1,36 @@
+
+
+####################
+####Random Canela Surnames
+####Range: 480500 - 490000
+####################
+
+480500 = {
+    name = "Apanyekrá"
+    culture = canela
+	religion = tambor
+}
+
+480501 = {
+    name = "Ramkokamekrá"
+    culture = canela
+	religion = tambor
+}
+
+480502 = {
+    name = "Quencatejês"
+    culture = canela
+	religion = tambor
+}
+
+480503 = {
+    name = "Memortumré"
+    culture = canela
+	religion = tambor
+}
+
+480504 = {
+    name = "Porquinhos dos Canela"
+    culture = canela
+	religion = tambor
+}

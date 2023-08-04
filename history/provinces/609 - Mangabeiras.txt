@@ -15,7 +15,7 @@ b_nova_colinas = tribal
 #b_formosa_2 = castle
 
 # Misc
-culture = kraho
-religion = manredebu
+culture = canela
+religion = tambor
 
 #History

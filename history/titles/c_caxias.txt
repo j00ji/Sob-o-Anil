@@ -6,3 +6,10 @@
 800.1.1={
 	liege=k_maranhao
 }
+2325.1.1={
+	holder = 30040#Daniel de La Roche
+	liege = d_parnaiba_poente
+}
+2360.1.1={
+	holder = 30038#Luis de La Roche	
+}
