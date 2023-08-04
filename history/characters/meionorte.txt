@@ -250,11 +250,9 @@
 	trait=groomed
 	2318.4.24={
 		birth=yes
-		effect = {
-			create_bloodline = {
-				type = sarney
-				has_dlc = "Holy Fury"
-			}
+		create_bloodline = {
+			type = sarney
+			has_dlc = "Holy Fury"
 		}
 	}
 	2336.1.1={ add_spouse = 30015 }
