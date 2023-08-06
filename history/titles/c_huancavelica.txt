@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_pachacamac
 }
+2350.1.1 = { 
+	holder = 860068
+	liege=0
+}

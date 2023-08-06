@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_ecuador
 }
+2360.1.1={
+	holder = 860008 #Jacobo Angermeyer
+	liege=0
+}

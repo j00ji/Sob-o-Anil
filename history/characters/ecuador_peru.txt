@@ -1,0 +1,2350 @@
+#EMPIRE OF PERU
+#Kingdom of Ecuador
+#Duchy of Cuenca
+#County of El Oro (Vassal of the Kingdom of Ecuador)
+860001 = {
+    name="Carlos"
+    dynasty=490001 # Pazmiño
+    culture=guayasense
+    religion=tridentine
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=2
+    learning=4
+    trait=thrifty_clerk
+    trait=greedy
+    trait=lustful
+    trait=diligent
+    2334.1.1={birth=yes}
+	2360.1.1={add_spouse=860002}
+    2400.1.1={death=yes}
+}
+#Count of El Oro and Azuay
+
+860002 = {
+    name="Carla"
+    dynasty=0 # lowborn
+    culture=guayasense
+    religion=tridentine
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=thrifty_clerk
+    trait=greedy
+    trait=kind
+    2340.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Carlos Pazmiño
+
+
+#County of Loja (Vassal of the Kingdom of Ecuador)
+860003 = {
+    name="Benita"
+    dynasty=490002 # Carrión
+    female=yes
+    culture=serrano
+    religion=inkarri
+    martial=3
+    diplomacy=4
+    stewardship=2
+    intrigue=4
+    learning=4
+    trait=grey_eminence
+    trait=gregarious
+    trait=cruel
+    trait=charitable
+    2348.1.1={birth=yes}
+	2368.1.1={add_matrilineal_spouse=860004}
+    2400.1.1={death=yes}
+}
+#Countess of Loja
+
+860004 = {
+    name="Miguel"
+    dynasty=490003 # de Armas
+    culture=serrano
+    religion=tridentine
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=tough_soldier
+    trait=zealous
+    trait=ambitious
+    trait=envious
+    2340.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Husband of Benita Carrión, patrilineally married
+
+
+#County of Zamora Chinchipe
+860005 = {
+    name="Hernando"
+    dynasty=490004 # Jiménez
+    culture=serrano
+    religion=inkarri
+    martial=3
+    diplomacy=4
+    stewardship=2
+    intrigue=2
+    learning=5
+    trait=indulgent_wastrel
+    trait=drunkard
+    trait=cynical
+    trait=kind
+    trait=slothful
+    2329.1.1={birth=yes}
+	2355.1.1={add_spouse=860006}
+    2400.1.1={death=yes}
+}
+#Count of Zamora Chinchipe
+
+860006 = {
+    name="Andrea"
+    dynasty=0 # lowborn
+    culture=serrano
+    religion=inkarri
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=charismatic_negotiator
+    trait=gregarious
+    trait=charitable
+    trait=kind
+    trait=chaste
+    trait=patient
+    2335.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Hernando Jiménez
+
+#Duchy of Galapagos
+#County of Isabela de Galapagos
+860007 = {
+    name="Anne"
+    dynasty=490005 # Wedgwood
+    female=yes
+    culture=english
+    religion=darwinist
+    martial=3
+    diplomacy=3
+    stewardship=6
+    intrigue=3
+    learning=4
+    trait=midas_touched
+    trait=genius
+    trait=robust
+    trait=gregarious
+    trait=honest
+    trait=charitable
+    trait=kind
+    2344.1.1={birth=yes culture=guayasense}
+    2400.1.1={death=yes}
+}
+#Countess of Isabela de Galapagos
+
+#County of Santa Cruz de Galapagos
+860008 = {
+    name="Jacobo"
+    dynasty=490006 # Angermeyer
+    culture=guayasense
+    religion=darwinist
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=brilliant_strategist
+    trait=strong
+    trait=lefthanded
+    trait=cruel
+    trait=ambitious
+    trait=proud
+    trait=shrewd
+    2337.1.1={birth=yes}
+	2367.1.1={add_spouse=860009}
+    2400.1.1={death=yes}
+}
+#Count of Santa Cruz de Galapagos
+
+860009 = {
+    name="Emilia"
+    dynasty=0 # lowborn
+    culture=guayasense
+    religion=darwinist
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=thrifty_clerk
+    trait=quick
+    trait=gardener
+    trait=ambitious
+    trait=envious
+    trait=stubborn
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Jacobo Angermeyer
+
+#Duchy of Guayas
+#Kingdom of Ecuador
+860010 = {
+    name="Escrivá"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+    martial=6
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=martial_cleric
+    trait=content
+    trait=brave
+    trait=wroth
+    trait=patient
+    trait=slothful
+    2324.1.1={birth=yes}
+	2352.1.1={add_spouse=860011}
+    2400.1.1={death=yes}
+}
+#Kingdom of Ecuador and Duke of Guayas, rules Guayas, Santa Elena, and Babahoyo
+
+860011 = {
+    name="Eva"
+    dynasty=0 # lowborn
+    culture=guayasense
+    religion=tridentine
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=grey_eminence
+    trait=shrewd
+    trait=kind
+    trait=charitable
+    trait=chaste
+    trait=gluttonous
+    2335.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Escrivá Holguín
+
+860012 = {
+    name="Philip"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860010
+	mother=860011
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=willful
+    trait=curious
+    2355.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#First son of Escrivá Holguín and Eva
+
+860013 = {
+    name="Carlos"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860010
+	mother=860011
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=willful
+    trait=brooding
+    2358.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Second son of Escrivá Holguín and Eva
+
+860014 = {
+    name="Isabel"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860010
+	mother=860011
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=idolizer
+    2359.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Escrivá Holguín and Eva
+
+#County of Esmeraldas (Vassal of the Kingdom of Ecuador)
+860015 = {
+    name="Paola"
+    dynasty=490008 # Rivas
+    female=yes
+    culture=guayasense
+    religion=tridentine
+    martial=3
+    diplomacy=3
+    stewardship=5
+    intrigue=3
+    learning=2
+    trait=fortune_builder
+    trait=just
+    trait=diligent
+    trait=zealous
+    trait=chaste
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Countess of Esmeraldas and Tumaco
+
+860016 = {
+    name="Carlos"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=skilled_tactician
+    trait=kind
+    trait=brave
+    trait=just
+    2330.1.1={birth=yes}
+	2355.1.1={add_spouse=860015}
+    2368.1.1={death=yes}
+}
+#Dead husband of Paola Rivas and brother of the King of Ecuador, former Count of Esmeraldas from 2350.1.1 - 2368.1.1, patrilineally married
+
+860017 = {
+    name="Elsa"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860016
+	mother=860015
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=brooding
+    trait=willful
+    2360.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Paola Rivas and Carlos Holguín
+
+860018 = {
+    name="Ivanna"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860016
+	mother=860015
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=twin
+    trait=willful
+    2362.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Paola Rivas and Carlos Holguín
+
+860019 = {
+    name="Michelle"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860016
+	mother=860015
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=twin
+    trait=brooding
+    2362.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Paola Rivas and Carlos Holguín
+
+860020 = {
+    name="Marisa"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860016
+	mother=860015
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=fair
+    trait=idolizer
+    2363.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Paola Rivas and Carlos Holguín
+
+860021 = {
+    name="Alma"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860016
+	mother=860015
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=twin
+    trait=indolent
+    2364.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Paola Rivas and Carlos Holguín
+
+860022 = {
+    name="Susana"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860016
+	mother=860015
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=twin
+    trait=curious
+    2364.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Paola Rivas and Carlos Holguín
+
+860023 = {
+    name="Inmaculada"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+	father=860016
+	mother=860015
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=timid
+    2366.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Paola Rivas and Carlos Holguín
+
+#County of Manabí (Vassal of the Kingdom of Ecuador)
+860024 = {
+    name="Eloy"
+    dynasty=490009 # Delgado
+    culture=guayasense
+    religion=tridentine
+    martial=3
+    diplomacy=4
+    stewardship=2
+    intrigue=4
+    learning=2
+    trait=underhanded_rogue
+    trait=deceitful
+    trait=gregarious
+    trait=kind
+    trait=paranoid
+    trait=proud
+    2341.1.1={birth=yes}
+	2362.1.1={add_spouse=860025}
+    2400.1.1={death=yes}
+}
+#Count of Manabí
+
+860025 = {
+    name="Paloma"
+    dynasty=0 # lowborn
+    culture=guayasense
+    religion=tridentine
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=naive_appeaser
+    trait=kind
+    trait=groomed
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Eloy Delgado
+
+#Duchy of Morona
+#Duchy of Morona
+860026 = {
+    name="César"
+    dynasty=490010 # Carvajal
+    culture=serrano
+    religion=inkarri
+    martial=5
+    diplomacy=3
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=tough_soldier
+    trait=brave
+    trait=honest
+    trait=zealous
+    trait=charitable
+    trait=just
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Duke of Morona, rules Putumayo and Orellana
+
+#County of Napo (Vassal of the Duchy of Morona)
+860027 = {
+    name="Humberto"
+    dynasty=490011 # Muñoz
+    culture=serrano
+    religion=inkarri
+    martial=2
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=indulgent_wastrel
+    trait=slothful
+    trait=envious
+    trait=humble
+    trait=deceitful 
+    trait=cynical
+    2336.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Napo
+
+860028 = {
+    name="Miriam"
+    dynasty=0 # lowborn
+    culture=guayasense
+    religion=tridentine
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=amateurish_plotter
+    trait=dull
+    trait=kind
+    2335.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Humberto Muñoz
+
+#County of Pastaza
+860029 = {
+    name="Valentín"
+    dynasty=490012 # Toribio
+    culture=serrano
+    religion=inkarri
+    martial=1
+    diplomacy=3
+    stewardship=3
+    intrigue=2
+    learning=3
+    trait=scholarly_theologian
+    trait=mystic
+    trait=erudite
+    trait=honest
+    trait=shy
+    trait=kind
+    trait=proud
+    trait=patient
+    2329.1.1={birth=yes}
+	2360.1.1={add_spouse=860030}
+    2400.1.1={death=yes}
+}
+#Count of Pastaza, rules Pastaza and Morona Santiago
+
+860030 = {
+    name="Frida"
+    dynasty=0 # lowborn
+    culture=serrano
+    religion=inkarri
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=thrifty_clerk
+    trait=patient
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Valentín Toribio
+
+#Duchy of Nariño
+#Army of the Commoners (Titular)
+860031 = {
+	name="Francisco"
+    dynasty=490013 # Castaño
+    culture=colombian
+    religion=patria_grande
+    martial=6
+    diplomacy=5
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=skilled_tactician
+    trait=mountain_terrain_leader
+    trait=fair
+    trait=diligent
+    trait=wroth
+    trait=ambitious
+    trait=gregarious
+    2331.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#General (Duke) of the Army of the Commoners, rules Popayán and Pitalito, possesses the Sword of Bolivar
+
+#County of Sanquianga (Vassal of Army of the Commoners)
+860032 = {
+    name="Camila"
+    dynasty=490014 # de Belalcázar
+    female=yes
+    culture=colombian
+    religion=inkarri
+    martial=3
+    diplomacy=2
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=fortune_builder
+    trait=sturdy
+    trait=greedy
+    trait=shrewd
+    trait=diligent
+    2333.1.1={birth=yes}
+	2360.1.1={add_matrilineal_spouse=860033}
+    2400.1.1={death=yes}
+}
+#Countess of Sanquianga
+
+860033 = {
+    name="Cristóbal"
+    dynasty=490015 # de la Cruz
+    culture=colombian
+    religion=patria_grande
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=4
+    trait=tough_soldier
+    trait=duelist
+    trait=brave
+    trait=diligent
+    trait=robust
+    2330.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Husband of Camila de Belalcázar, matrilineally married
+
+#County of Pasto
+860034 = {
+    name="Antonio"
+    dynasty=490016 # Agualongo
+    culture=serrano
+    religion=tridentine
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=2
+    learning=3
+    trait=underhanded_rogue
+    trait=honest
+    trait=kind
+    trait=charitable
+    trait=proud
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Pasto and Imbabura
+
+860035 = {
+    name="Allison"
+    dynasty=0 # lowborn
+    culture=serrano
+    religion=tridentine
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=martial_cleric
+    trait=zealous
+    trait=proud
+    2350.1.1={birth=yes}
+	2369.1.1={add_spouse=860034}
+    2400.1.1={death=yes}
+}
+#Wife of Antonio Agualongo
+
+#Duchy of Quito
+#County of Pichincha
+860036 = {
+	name="Sergio"
+    dynasty=490017 # Borgia
+    culture=italian
+    religion=mysticalist
+    martial=2
+    diplomacy=3
+    stewardship=3
+    intrigue=6
+    learning=6
+    trait=elusive_shadow
+    trait=quick
+    trait=adventurer
+    trait=possessed
+    trait=lustful
+    trait=deceitful
+    trait=cruel
+    2341.1.1={birth=yes culture=serrano}
+    2400.1.1={death=yes}
+}
+#Count of Pichincha, Mysticalist Pope
+
+#County of Tsáchila (Vassal of the Kingdom of Ecuador)
+860037 = {
+    name="Juan"
+    dynasty=490018 # Colorado
+    culture=guayasense
+    religion=tridentine
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=2
+    learning=4
+    trait=tough_soldier
+    trait=one_eyed
+    trait=wroth
+    trait=diligent
+    trait=brave
+    2335.1.1={birth=yes}
+	2360.1.1={add_spouse=860038}
+    2400.1.1={death=yes}
+}
+#Count of Tsáchila
+
+860038 = {
+    name="Yvonne"
+    dynasty=0 # lowborn
+    culture=guayasense
+    religion=tridentine
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=flamboyant_schemer
+    trait=greedy
+    trait=deceitful
+    2341.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Juan Colorado
+
+#Duchy of Tungurahua
+#County of Bolivar
+860039 = {
+    name="Sebastián"
+    dynasty=490019 # Villavicencio
+    culture=serrano
+    religion=patria_grande
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=tough_soldier
+    trait=zealous
+    trait=brave
+    trait=humble
+    trait=gregarious
+    2342.1.1={birth=yes}
+	2365.1.1={add_spouse=860040}
+    2400.1.1={death=yes}
+}
+#Count of Bolivar
+
+860040 = {
+    name="Zarina"
+    dynasty=0 # lowborn
+    culture=serrano
+    religion=patria_grande
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=thrifty_clerk
+    trait=craven
+    trait=greedy
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Sebastián Villavicencio
+
+#County of Tungurahua
+860041 = {
+    name="Julio"
+    dynasty=490020 # Rahua
+    culture=serrano
+    religion=inkarri
+    martial=5
+    diplomacy=3
+    stewardship=2
+    intrigue=3
+    learning=3
+    trait=tough_soldier
+    trait=robust
+    trait=honest
+    trait=diligent
+    trait=wroth
+    2337.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Tungurahua and Cotopaxi
+
+860042 = {
+    name="Luna"
+    dynasty=0 # lowborn
+    culture=serrano
+    religion=inkarri
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=4
+    learning=2
+    trait=intricate_webweaver
+    trait=lustful
+    trait=groomed
+    2342.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Julio Rahua
+
+#Kingdom of Omagua
+#Duchy of Amazonas
+#County of Bagua
+860043 = {
+    name="Gómez"
+    dynasty=500001 # Valera
+    culture=charapa
+    religion=inkarri
+    martial=4
+    diplomacy=5
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=charismatic_negotiator
+    trait=gregarious
+    trait=just
+    trait=honest
+    trait=proud
+    trait=kind
+    2345.1.1={birth=yes}
+	2367.1.1={add_spouse=860044}
+    2400.1.1={death=yes}
+}
+#Count of Bagua and Chachapoyas
+
+860044 = {
+    name="Debora"
+    dynasty=0 # lowborn
+    culture=charapa
+    religion=inkarri
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=fortune_builder
+    trait=quick
+    trait=envious
+    trait=ambitious
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Gómez Valera
+
+#County of San Martín (Vassal of the Israelite Mission of the New Universal Covenant)
+860045 = {
+    name="Francisca"
+    dynasty=500001 # Valera
+    culture=charapa
+    religion=israelite
+	female=yes
+    martial=4
+    diplomacy=2
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=intricate_webweaver
+    trait=deceitful
+    trait=zealous
+    trait=charitable
+    2348.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Countess of San Martin, Wife of Enoch Ataucusi
+
+#County of Tocache
+860046 = {
+    name="Jerónimo"
+    dynasty=500001 # Valera
+    culture=charapa
+    religion=inti
+    martial=5
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=martial_cleric
+    trait=zealous
+    trait=kind
+    trait=charitable
+    2349.1.1={birth=yes}
+	2369.1.1={add_spouse=860047}
+    2400.1.1={death=yes}
+}
+#Count of Tocache
+
+860047 = {
+    name="Rita"
+    dynasty=0 # lowborn
+    culture=charapa
+    religion=inti
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=amateurish_plotter        
+    trait=deceitful
+    trait=proud
+    trait=wroth
+    2352.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Jerónimo Valera
+
+#Duchy of Amazonas
+860048 = {
+    name="Luis"
+    dynasty=500001 # Valera
+    culture=charapa
+    religion=inkarri
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=mastermind_theologian
+    trait=mystic
+    trait=gregarious
+    trait=diligent
+    trait=cruel
+    2325.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Former Duke of Amazonas, father of Francisca Valera, Jerónimo Valera, and Gómez Valera
+
+#Duchy of Lereto
+#County of Ramon Castilla (Vassal of the Israelite Mission of the New Universal Covenant)
+860049 = {
+    name="Pedro"
+    dynasty=500002 # Romero
+    culture=charapa
+    religion=israelite
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=2
+    learning=3
+    trait=tough_soldier
+    trait=brave
+    trait=diligent
+    trait=wroth
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Maynas and Ramon Castilla
+
+#Israelite Mission of the New Universal Covenant
+860050 = {
+    name="Enoch"
+    dynasty=500003 # Ataucusi
+    culture=charapa
+    religion=israelite
+    martial=6
+    diplomacy=6
+    stewardship=4
+    intrigue=4
+    learning=6
+    trait=mastermind_theologian
+    trait=mystic
+    trait=possessed
+    trait=arbitrary
+    trait=envious
+    trait=cruel
+    trait=diligent
+    2330.1.1={birth=yes}
+	2368.1.1={add_spouse=860051}
+	2368.1.1={add_spouse=860052}
+    2400.1.1={death=yes}
+}
+#Prophet of the New Universal Covenant (Israelite temporal Head of Faith), rules Alto Amazonas and Requena
+
+860051 = {
+    name="María"
+    dynasty=0 # lowborn
+    culture=charapa
+    religion=israelite
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=charismatic_negotiator
+    trait=charitable
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Enoch Ataucusi
+
+860052 = {
+    name="Rebeca"
+    dynasty=0 # lowborn
+    culture=charapa
+    religion=amazonian_jews
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=martial_cleric
+    trait=kind
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Enoch Ataucusi
+
+#County of Putumayo (Vassal of the Israelite Mission of the New Universal Covenant)
+860053 = {
+    name="Judah"
+    dynasty=500004 # Bendayán
+    culture=charapa
+    religion=amazonian_jews
+    martial=2
+    diplomacy=3
+    stewardship=6
+    intrigue=3
+    learning=6
+    trait=fortune_builder
+    trait=socializer
+    trait=gregarious
+    trait=content
+    trait=patient
+    trait=kind
+    trait=greedy
+    2348.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Putumayo
+
+860054 = {
+    name="Alba"
+    dynasty=0 # lowborn
+    culture=charapa
+    religion=israelite
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=flamboyant_schemer
+    trait=humble
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Judah Bendayán
+
+#Duchy of Tambopata
+#County of Carabaya
+860055 = {
+	name="Juan"
+    dynasty=500005 # Wong
+    culture=charapa
+    religion=chicha
+    martial=2
+    diplomacy=5
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=charismatic_negotiator
+    trait=shy
+    trait=zealous
+    trait=diligent
+    trait=patient
+    2346.1.1={birth=yes}
+	2369.1.1={add_spouse=860056}
+    2400.1.1={death=yes}
+}
+#Count of Carabaya
+
+860056 = {
+    name="June"
+    dynasty=0 # lowborn
+    culture=charapa
+    religion=chicha
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=martial_cleric
+    trait=diligent
+    2349.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Juan Wong
+
+#County of Madre de Dios
+860057 = {
+	name="Isaís"
+    dynasty=500006 # Fitzcarrald
+    culture=german
+    religion=inti
+    martial=3
+    diplomacy=4
+    stewardship=2
+    intrigue=4
+    learning=3
+    trait=misguided_warrior
+    trait=strong
+    trait=dull
+    trait=diligent
+    trait=wroth
+    2342.1.1={birth=yes culture=charapa}
+	2367.1.1={add_spouse=860058}
+    2400.1.1={death=yes}
+}
+#Count of Madre de Dios
+
+860058 = {
+    name="Veronica"
+    dynasty=0 # lowborn
+    culture=charapa
+    religion=inti
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=thrifty_clerk
+    trait=charitable
+    2349.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Isaís Fitzcarrald
+
+#Duchy of Ucayali
+#Duchy of Ucayali
+860059 = {
+	name="Alfanso"
+    dynasty=500007 # Huaypacusi
+    culture=charapa
+    religion=chicha
+    martial=3
+    diplomacy=7
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=underhanded_rogue
+    trait=hedonist
+    trait=humble
+    trait=gregarious
+    trait=cynical
+    trait=brave
+    2333.1.1={birth=yes}
+	2360.1.1={effect={give_nickname=nick_the_pharaoh}}
+    2400.1.1={death=yes}
+}
+#Duke of Ucayali, rules Atalaya and Coronel Portillo, nickname “the Pharaoh”
+
+#Kingdom of Pachacamac
+#Duchy of Chanchamayo
+#Duchy of Chanchamayo
+860060 = {
+    name="Friedrich"
+    dynasty=500008 # Hohenzollern
+    culture=oxapampino
+    religion=liberationist
+    martial=5
+    diplomacy=2
+    stewardship=5
+    intrigue=4
+    learning=5
+    trait=skilled_tactician
+    trait=mountain_terrain_leader        
+    trait=patient
+    trait=humble
+    trait=brave
+    trait=just
+    trait=ambitious
+    2341.1.1={birth=yes}
+	2367.1.1={add_spouse=860061}
+    2400.1.1={death=yes}
+}
+#Duke of Chanchamayo, rules Oxapampa and Satipo
+
+860061 = {
+    name="Olga"
+    dynasty=0 # lowborn
+    culture=oxapampino
+    religion=liberationist
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=intricate_webweaver
+    trait=deceitful
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Friedrich Hohenzollern
+
+#Duchy of Ica
+#Duchy of Ica
+860062 = {
+    name="Ana"
+    dynasty=500009 # Reiche
+    culture=iqueno
+    religion=camino_estelar
+    female=yes
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=8
+    trait=scholarly_theologian
+    2349.1.1={birth=yes}
+	2367.1.1={effect={give_nickname=nick_lady_lines}}
+	2369.1.1={add_matrilineal_spouse=860063}
+    2400.1.1={death=yes}
+}
+#Duchess of Ica, rules Nazca and Ica, nickname “the Lady of the Lines”
+
+860063 = {
+    name="Xabier"
+    dynasty=0 # lowborn
+    culture=iqueno
+    religion=catholic
+    martial=3
+    diplomacy=2
+    stewardship=3
+    intrigue=2
+    learning=3
+    trait=tough_soldier
+    trait=brave
+    2340.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Husband of Ana Reiche, matrilineally married
+
+#County of Pisco (Vassal of the Duchy of Ica)
+860064 = {
+    name="Paul"
+    dynasty=500010 # Pitluga
+    culture=iqueno
+    religion=camino_estelar
+    martial=3
+    diplomacy=4
+    stewardship=4
+    intrigue=2
+    learning=3
+    trait=fortune_builder
+    trait=proud
+    trait=greedy
+    trait=arbitrary
+    trait=honest
+    2338.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Pisco
+
+#County of Chincha (Vassal of the Duchy of Lima)
+860065 = {
+    name="Augusta"
+    dynasty=500011 # Carrasco
+    culture=iqueno
+    religion=liberationist
+    female=yes
+    martial=2
+    diplomacy=4
+    stewardship=5
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=erudite
+    trait=shrewd
+    trait=diligent
+    trait=humble
+    2347.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Countess of Chincha, wife of Duke Feliciano Gutiérrez of Lima
+
+#Duchy of Lima
+#Duchy of Lima
+860066 = {
+    name="Feliciano"
+    dynasty=500012 # Gutiérrez
+    culture=rimense
+    religion=liberationist
+    martial=5
+    diplomacy=4
+    stewardship=4
+    intrigue=2
+    learning=3
+    trait=skilled_tactician
+    trait=heresiarch
+    trait=quick
+    trait=just
+    trait=diligent
+    trait=charitable
+    trait=envious
+    2334.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Duke of Lima, rules Lima, Hueral, and Cañete, married to Countess Augusta Carrasco
+
+#County of Huarochirí (Vassal of the Duke of Lima)
+860067 = {
+    name="Francisco"
+    dynasty=500013 # Huancahuari
+    culture=quechua
+    religion=liberationist
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=2
+    learning=3
+    trait=underhanded_rogue
+    trait=charitable
+    trait=kind
+    trait=proud
+    2348.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Huarochirí
+
+#Duchy of Mantaro
+#County of Huancavelica
+860068 = {
+    name="Artemio"
+    dynasty=500014 # Chumpitaz
+    culture=quechua
+    religion=liberationist
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=intricate_webweaver
+    trait=deceitful
+    trait=brave
+    trait=just
+    trait=humble
+    2329.1.1={birth=yes}
+	2365.1.1={add_spouse=860069}
+    2400.1.1={death=yes}
+}
+#Count of Huancavelica and Huanta
+
+860069 = {
+    name="Inkasisa"
+    dynasty=0 # lowborn
+    culture=quechua
+    religion=catholic
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=martial_cleric
+    trait=zealous
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Artemio Chumpitaz
+
+#County of Tarma
+860070 = {
+    name="Feliciano"
+    dynasty=500015 # Yarlequé
+    culture=quechua
+    religion=liberationist
+    martial=5
+    diplomacy=3
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=tough_soldier
+    trait=one_eyed
+    trait=robust
+    trait=diligent
+    trait=brave
+    trait=patient
+    2333.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Tarma, Huancayo, and Pasco
+
+#Kingdom of Sipán
+#Duchy of Amotape
+#Duchy of Amotape (Vassal of the Kingdom of Ecuador)
+860071 = {
+    name="Oscar"
+    dynasty=500016 # Eguren
+    culture=nortegrandeno
+    religion=tridentine
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=2
+    learning=5
+    trait=tough_soldier
+    trait=zealous
+    trait=wroth
+    trait=content
+    trait=brave
+    trait=chaste
+    2319.1.1={birth=yes}
+	2347.1.1={add_spouse=860072}
+    2400.1.1={death=yes}
+}
+#Duke of Amotape, rules Tumbes and Sullana, married to and lover of Countess Maria de Luz of Piura
+
+860072 = {
+    name="Celeste"
+    dynasty=0 # lowborn
+    culture=nortegrandeno
+    religion=tridentine
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=martial_cleric
+    trait=zealous
+    2329.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Oscar Eguren
+
+860073 = {
+    name="Isaiah"
+    dynasty=500016 # Eguren
+    culture=nortegrandeno
+    religion=tridentine
+	father=860071
+	mother=860072
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=tough_soldier
+    trait=wroth
+    trait=brave
+    trait=lunatic
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Son of Oscar Eguren and Celeste
+
+#County of Piura (Vassal of the Kingdom of Ecuador)
+860074 = {
+    name="María"
+    dynasty=500017 # de Luz
+    female=yes
+    culture=nortegrandeno
+    religion=tridentine
+    martial=2
+    diplomacy=5
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=charismatic_negotiator
+    trait=fair
+    trait=gregarious
+    trait=envious
+    trait=patient
+    trait=diligent
+    2342.1.1={birth=yes}
+	2368.1.1={add_matrilineal_spouse=860075 add_lover=860072}
+    2400.1.1={death=yes}
+}
+#Countess of Piura, married to, lover of Duke Oscar Eguren of Amotape
+
+860075 = {
+    name="Otto"
+    dynasty=0 # lowborn
+    culture=nortegrandeno
+    religion=tridentine
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=thrifty_clerk
+    trait=greedy
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Husband of María de Luz
+
+860076 = {
+    name="Timoteo"
+    dynasty=500017 # de Luz
+    culture=nortegrandeno
+    religion=tridentine
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=willful
+    2359.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Son of María de Luz and Otto
+
+#Duchy of Ancash
+#County of Huaraz
+860077 = {
+    name="Victor"
+    dynasty=500018 # Villca
+    culture=huascareno
+    religion=inti
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=fortune_builder
+    trait=honest
+    trait=ambitious
+    trait=zealous
+    trait=envious
+    2327.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Huaraz and Huari
+
+860078 = {
+    name="Hanna"
+    dynasty=0 # lowborn
+    culture=huascareno
+    religion=inti
+    female=yes
+    martial=3
+    diplomacy=2
+    stewardship=3
+    intrigue=3
+    learning=2
+    trait=martial_cleric
+    trait=craven
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+
+#County of Barranca
+860079 = {
+    name="Jorge"
+    dynasty=500019 # de Dragón
+    culture=nortegrandeno
+    religion=tridentine
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=4
+    learning=2
+    trait=flamboyant_schemer
+    trait=cruel
+    trait=brave
+    trait=diligent
+    trait=wroth
+    trait=honest
+    2333.1.1={birth=yes}
+	2360.1.1={add_spouse=860080}
+    2400.1.1={death=yes}
+}
+#Count of Barranca and Huaura
+
+860080 = {
+    name="Joanna"
+    dynasty=0 # lowborn
+    culture=nortegrandeno
+    religion=tridentine
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=underhanded_rogue
+    trait=charitable
+    2341.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Jorge de Dragón
+
+#County of Chimbote (Vassal of Duchy of Moche)
+860081 = {
+    name="Augusto"
+    dynasty=500020 # Rossi
+    culture=nortegrandeno
+    religion=tridentine
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=martial_cleric
+    trait=zealous
+    trait=kind
+    trait=charitable
+    trait=slothful
+    2330.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#County of Chimbote
+
+#Duchy of Chaparri
+#County of Jaen
+860082 = {
+    name="Tomasa"
+    dynasty=500021 # Condorcanqui
+    culture=huascareno
+    religion=inkarri
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=skilled_tactician
+    trait=zealous
+    trait=kind
+    trait=just    
+    trait=honest
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Countess of Jaen, no spouse
+
+#County of Chiclayo
+860083 = {
+    name="Antonia"
+    dynasty=500022 # de Areche
+    culture=nortegrandeno
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=elusive_shadow
+    trait=deceitful
+    trait=wroth
+    trait=greedy
+    trait=paranoid
+    2338.1.1={birth=yes}
+	2361.1.1={add_matrilineal_spouse=860084}
+    2400.1.1={death=yes}
+}
+#Countess of Chiclayo
+
+860084 = {
+    name="Maximillian"
+    dynasty=0 # lowborn
+    culture=nortegrandeno
+    religion=catholic
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=tough_soldier
+    trait=wroth
+    trait=honest
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Husband of Antonia de Areche
+
+#County of Lambayeque
+860085 = {
+    name="Constantius"
+    dynasty=500023 # Kong
+    culture=nortegrandeno
+    religion=tridentine
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=underhanded_rogue
+    trait=greedy
+    trait=gluttonous
+    trait=honest
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Lambayeque
+
+#Duchy of Huánuco
+#Duchy of Huánuco
+860086 = {
+    name="Joao"
+    dynasty=500024 # Quishpe
+    culture=quechua
+    religion=inti
+    martial=3
+    diplomacy=5
+    stewardship=5
+    intrigue=3
+    learning=4
+    trait=fortune_builder
+    trait=physician
+    trait=diligent
+    trait=shrewd
+    trait=patient
+    trait=lustful
+    2342.1.1={birth=yes}
+	2367.1.1={add_spouse=860087}
+    2400.1.1={death=yes}
+}
+#Duke of Huánuco, rules Huánuco and Leonocio Prado
+
+860087 = {
+    name="Eda"
+    dynasty=0 # lowborn
+    culture=quechua
+    religion=inti
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=2
+    intrigue=3
+    learning=3
+    trait=martial_cleric
+    trait=kind
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Joao Quishpe
+
+#Duchy of Moche
+#Duchy of Moche
+860088 = {
+    name="Ramiro"
+    dynasty=500025 # Esperanza
+    culture=nortegrandeno
+    religion=catholic
+	mother=860089
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=detached_priest
+    trait=bastard
+    trait=drunkard
+    trait=kind
+    trait=honest
+    trait=wroth
+    trait=cynical
+    2328.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Duke of Moche, rules Trujillo and Ascope
+
+860089 = {
+    name="Isabel"
+    dynasty=500025 # Esperanza
+    culture=nortegrandeno
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=martial_cleric
+    trait=nun
+    trait=beatified
+    trait=chaste
+    trait=temperate
+    trait=charitable
+    trait=diligent
+    trait=patient
+    trait=kind
+    trait=humble
+    2283.1.1={birth=yes}
+    2328.1.1={death=yes}
+}
+#Mother of Ramiro Esperanza, died in childbirth
+
+860090 = {
+    name="Roberta"
+    dynasty=0 # lowborn
+    culture=charapa
+    religion=inkarri
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=2
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=kind
+    2336.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Atawallpa de Guerra
+
+#County of Huamachuco
+860091 = {
+    name="Inés"
+    dynasty=500027 # Sisa
+    culture=huascareno
+    religion=inti
+    female=yes
+    martial=5
+    diplomacy=4
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=naive_appeaser
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Countess of Huamachuco
+
+#Kingdom of Vilcabamba
+#Duchy of Arequipa
+#Duchy of Arequipa
+860092 = {
+    name="Martín"
+    dynasty=500028 # Paulet
+    culture=arequipeno
+    religion=catholic
+    martial=5
+    diplomacy=3
+    stewardship=2
+    intrigue=5
+    learning=3
+    trait=intricate_webweaver
+    trait=deceitful
+    trait=proud
+    trait=brave
+    trait=diligent
+    trait=ambitious
+    trait=gregarious
+    2327.1.1={birth=yes}
+	2359.1.1={add_spouse=860095}
+    2400.1.1={death=yes}
+}
+#Duke of Arequipa, rules Arequipa and Islay, patrilineally married to Countess Alphonsa de Rivera
+
+860093 = {
+    name="Ramon"
+    dynasty=500029 # Paulet
+    culture=arequipeno
+    religion=catholic
+	father=860092
+	mother=860095
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=willful
+    2360.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Son of Martín Paulet and Alphonsa de Rivera
+
+860094 = {
+    name="Isaac"
+    dynasty=500029 # Paulet
+    culture=arequipeno
+    religion=catholic
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=2
+    learning=2
+    trait=brooding
+    2365.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Son of Martín Paulet and Alphonsa de Rivera
+
+#County of Camaná (Vassal of the Duchy of Arequipa)
+860095 = {
+    name="Alphonsa"
+    dynasty=500030 # de Rivera
+    culture=arequipeno
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=5
+    trait=scholarly_theologian
+    trait=zealous
+    trait=chaste
+    trait=erudite
+    trait=trusting
+    2340.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Countess of Camaná, patrilineally married to Duke Martín Paulet
+
+#County of Caravelí (Vassal of the Duchy of Arequipa)
+860096 = {
+    name="Pedro"
+    dynasty=500031 # Nann
+    culture=arequipeno
+    religion=catholic
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=tough_soldier
+    trait=wroth
+    trait=kind
+    trait=diligent
+    2333.1.1={birth=yes}
+	2361.1.1={add_spouse=860097}
+    2400.1.1={death=yes}
+}
+#Count of Caraveli
+
+860097 = {
+    name="Gloria"
+    dynasty=0 # lowborn
+    culture=arequipeno
+    religion=catholic
+    female=yes
+    martial=2
+    diplomacy=3
+    stewardship=4
+    intrigue=2
+    learning=3  
+    trait=thrifty_clerk
+    trait=kind
+    2341.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Pedro Nann
+
+#County of Condesuyos (Vassal of the Duchy of Arequipa)
+860098 = {
+    name="Iván"
+    dynasty=500032 # Mamani
+    culture=quechua
+    religion=catholic
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=5
+    learning=3
+    trait=flamboyant_schemer
+    trait=kind
+    trait=charitable
+    trait=gregarious
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Condesuyos
+
+#Duchy of Ayacucho
+#Duchy of Ayacucho
+860099 = {
+    name="Esther"
+    dynasty=500033 # del Mantaro
+    culture=quechua
+    religion=chicha
+    female=yes
+    martial=3
+    diplomacy=7
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=grey_eminence
+    trait=lustful
+    trait=gregarious
+    trait=kind
+    trait=patient
+    2346.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Duchess of Ayacucho, rules Ayacucho and Lucanas
+
+#Duchy of Choquequirao
+#Duchy of Choquequirao
+860100 = {
+    name="Chaska"
+    dynasty=500034 # Q’ollary
+    culture=quechua
+    religion=inti
+    martial=5
+    diplomacy=5
+    stewardship=6
+    intrigue=3
+    learning=4
+    trait=fortune_builder
+    trait=zealous
+    trait=paranoid
+    trait=envious
+    trait=proud
+    2334.1.1={birth=yes}
+	2367.1.1={add_spouse=860101}
+    2400.1.1={death=yes}
+}
+#Duke of Choquequirao, rules Cuzco and Apurimac
+
+860101 = {
+    name="Carlota"
+    dynasty=0 # lowborn
+    culture=quechua
+    religion=inti
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=2
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=kind
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Chaska Q’ollary
+
+#County of Canchis (Vassal of Duchy of Choquequirao)
+860102 = {
+    name="Kumya"
+    dynasty=500035 # Maguiña
+    culture=quechua
+    religion=inti
+    martial=2
+    diplomacy=4
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=underhanded_rogue
+    trait=gregarious
+    trait=humble
+    trait=patient
+    trait=craven
+    2349.1.1={birth=yes}
+	2369.1.1={add_spouse=860103}
+    2400.1.1={death=yes}
+}
+#Count of Canchis and Caylloma
+
+860103 = {
+    name="Ana"
+    dynasty=0 # lowborn
+    culture=quechua
+    religion=inti
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=2
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=kind
+    2352.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Kumya Maguiña
+
+#County of Convención (Vassal of Duchy of Choquequirao)
+860104 = {
+    name="Louis"
+    dynasty=500036 # Hochschild
+    culture=oxapampino
+    religion=inti
+    martial=3
+    diplomacy=5
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=charismatic_negotiator
+    trait=quick
+    trait=ambitious
+    trait=kind
+    trait=greedy
+    trait=wroth
+    trait=gregarious
+    2337.1.1={birth=yes}
+	2367.1.1={add_spouse=860105}
+    2400.1.1={death=yes}
+}
+#Count of Convención
+
+860105 = {
+    name="Valerie"
+    dynasty=0 # lowborn
+    culture=oxapampino
+    religion=inti
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=4
+    intrigue=3
+    learning=2
+    trait=thrifty_clerk
+    trait=kind
+    2349.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Louis Hochschild
+
+#Duchy of Puno
+#County of Azángaro (Vassal of the Duchy of La Paz)
+860106 = {
+	name="Amaru"
+    dynasty=500037 # Chrysostom
+    culture=aymara
+    religion=inti
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=5
+    trait=martial_cleric
+    trait=kind
+    trait=ambitious
+    trait=proud
+    trait=temperate
+    2349.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Azángaro
+
+#County of Puno (Vassal of the Duchy of La Paz)
+860107 = {
+    name="Tunupa"
+    dynasty=500038 # Manco
+    culture=aymara
+	secret_religion=santa_diablada
+    religion=pachamama
+    martial=5
+    diplomacy=3
+    stewardship=5
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=greedy
+    trait=diligent
+    trait=lustful
+    trait=arbitrary
+    2318.1.1={birth=yes}
+	2362.1.1={add_spouse=860108}
+	2363.1.1={effect={give_nickname=nick_devil_puno}}
+    2400.1.1={death=yes}
+}
+#Count of Chucuito and Puno, nickname “the Devil of Puno”
+
+860108 = {
+    name="Cheya"
+    dynasty=0 # lowborn
+    culture=aymara
+    religion=pachamama
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=3
+    intrigue=2
+    learning=2
+    trait=thrifty_clerk
+    trait=kind
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Tunupa Manco
+
+#Duchy of Vilcanota
+#County of Moquegua (Vassal of the Duchy of Arequipa)
+860109 = {
+    name="Arturo"
+    dynasty=500039 # Velásquez
+    culture=ileno
+    religion=chicha
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=2
+    learning=4
+    trait=underhanded_rogue
+    trait=is_fat
+    #trait=musician
+    trait=gregarious
+    trait=humble
+    trait=kind
+    2325.1.1={birth=yes}
+	2357.1.1={add_spouse=860110}
+    2400.1.1={death=yes}
+}
+#Count of Moquegua, nickname “the Zambo”, ethnically black
+
+860110 = {
+    name="Lena"
+    dynasty=0 # lowborn
+    culture=ileno
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=2
+    stewardship=2
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=kind
+    2340.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Wife of Arturo Velásquez
+
+#County of Tacna
+860111 = {
+    name="Roxanna"
+    dynasty=500040 # Mannarelli
+    culture=ileno
+    religion=obscurantist
+    female=yes
+    martial=3
+    diplomacy=6
+    stewardship=3
+    intrigue=6
+    learning=6
+    trait=elusive_shadow
+    trait=quick
+    trait=fair
+    trait=heresiarch
+    trait=mystic
+    trait=gregarious
+    trait=ambitious
+    2339.1.1={birth=yes effect={give_nickname=nick_star_child}}
+    2400.1.1={death=yes}
+}
+#Countess of Tacna, nicknamed “the Star Child”
+
+#County of Cajamarca
+8600112 = {
+    name="Atawallpa"
+    dynasty=500026 # de Guerra
+    culture=charapa
+    religion=inkarri
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=tough_soldier
+    trait=content
+    trait=wroth
+    trait=proud
+    trait=zealous
+    2336.1.1={birth=yes}
+	2355.1.1={add_spouse=860090}
+    2400.1.1={death=yes}
+}
+#Count of Cajamarca, Jaen, and Chachapoyas

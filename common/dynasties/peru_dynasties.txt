@@ -1,0 +1,282 @@
+###ÄNSI
+
+500001 = {
+	name="Valera"
+	culture=charapa
+	religion=inkarri
+	can_appear = no
+	used_for_random = no
+}
+500002 = {
+	name="Romero"
+	culture=charapa
+	religion=israelite
+	can_appear = no
+	used_for_random = no
+}
+500003 = {
+	name="Ataucusi"
+	culture=charapa
+	religion=israelite
+	can_appear = no
+	used_for_random = no
+}
+500004 = {
+	name="Bendayán"
+	culture=charapa
+	religion=israelite
+	can_appear = no
+	used_for_random = no
+}
+500005 = {
+	name="Wong"
+	culture=charapa
+	religion=chicha
+	can_appear = no
+	used_for_random = no
+}
+500006 = {
+	name="Fitzcarrald"
+	culture=charapa
+	religion=inti
+	can_appear = no
+	used_for_random = no
+}
+500007 = {
+	name="Huaypacusi"
+	culture=charapa
+	religion=chicha
+	can_appear = no
+	used_for_random = no
+}
+500008 = {
+	name="Hohenzollern"
+	culture=oxapampino
+	religion=liberationist
+	can_appear = no
+	used_for_random = no
+}
+500009 = {
+	name="Reiche"
+	culture=iqueno
+	religion=camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+500010 = {
+	name="Pitluga"
+	culture=iqueno
+	religion=camino_estelar
+	can_appear = no
+	used_for_random = no
+}
+500011 = {
+	name="Carrasco"
+	culture=iqueno
+	religion=liberationist
+	can_appear = no
+	used_for_random = no
+}
+500012 = {
+	name="Gutiérrez"
+	culture=rimense
+	religion=liberationist
+	can_appear = no
+	used_for_random = no
+}
+500013 = {
+	name="Huancahuari"
+	culture=quechua
+	religion=liberationist
+	can_appear = no
+	used_for_random = no
+}
+500014 = {
+	name="Chumpitaz"
+	culture=quechua
+	religion=liberationist
+	can_appear = no
+	used_for_random = no
+}
+500015 = {
+	name="Yarlequé"
+	culture=quechua
+	religion=liberationist
+	can_appear = no
+	used_for_random = no
+}
+500016 = {
+	name="Eguren"
+	culture=nortegrandeno
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+500017 = {
+	name="de Luz"
+	culture=nortegrandeno
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+500018 = {
+	name="Villca"
+	culture=huascareno
+	religion=inti
+	can_appear = no
+	used_for_random = no
+}
+500019 = {
+	name="de Dragón"
+	culture=nortegrandeno
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+500020 = {
+	name="Rossi"
+	culture=nortegrandeno
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+500021 = {
+	name="Condorcanqui"
+	culture=huascareno
+	religion=inkarri
+	can_appear = no
+	used_for_random = no
+}
+500022 = {
+	name="de Areche"
+	culture=nortegrandeno
+	religion=catholic
+	can_appear = no
+	used_for_random = no
+}
+500023 = {
+	name="Kong"
+	culture=nortegrandeno
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+500024 = {
+	name="Quishpe"
+	culture=quechua
+	religion=inti
+	can_appear = no
+	used_for_random = no
+}
+500025 = {
+	name="Esperanza"
+	culture=nortegrandeno
+    religion=catholic
+	can_appear = no
+	used_for_random = no
+}
+500026 = {
+	name="de Guerra"
+	culture=charapa
+    religion=inkarri
+	can_appear = no
+	used_for_random = no
+}
+500027 = {
+	name="Sisa"
+	culture=huascareno
+    religion=inti
+	can_appear = no
+	used_for_random = no
+}
+500028 = {
+	name="Paulet"
+	culture=arequipeno
+    religion=catholic
+	can_appear = no
+	used_for_random = no
+}
+500029 = {
+	name="Paulet"
+	culture=arequipeno
+    religion=catholic
+	can_appear = no
+	used_for_random = no
+}
+500030 = {
+	name="de Rivera"
+	culture=arequipeno
+    religion=catholic
+	can_appear = no
+	used_for_random = no
+}
+500031 = {
+	name="Nann"
+	culture=arequipeno
+    religion=catholic
+	can_appear = no
+	used_for_random = no
+}
+500032 = {
+	name="Mamani"
+	culture=quechua
+    religion=catholic
+	can_appear = no
+	used_for_random = no
+}
+500033 = {
+	name="del Mantaro"
+	culture=quechua
+    religion=catholic
+	can_appear = no
+	used_for_random = no
+}
+500034 = {
+	name="Q’ollary"
+	culture=quechua
+    religion=inti
+	can_appear = no
+	used_for_random = no
+}
+500035 = {
+	name="Maguiña"
+	culture=quechua
+    religion=inti
+	can_appear = no
+	used_for_random = no
+}
+500036 = {
+	name="Hochschild"
+	culture=oxapampino
+    religion=inti
+	can_appear = no
+	used_for_random = no
+}
+500037 = {
+	name="Chrysostom"
+	culture=aymara
+    religion=inti
+	can_appear = no
+	used_for_random = no
+}
+500038 = {
+	name="Manco"
+	culture=aymara
+    religion=pachamama
+	can_appear = no
+	used_for_random = no
+}
+500039 = {
+	name="Velásquez"
+	culture=ileno
+    religion=chicha
+	can_appear = no
+	used_for_random = no
+}
+500040 = {
+	name="Mannarelli"
+	culture=ileno
+    religion=obscurantist
+	can_appear = no
+	used_for_random = no
+}

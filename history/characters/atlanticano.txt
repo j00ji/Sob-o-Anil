@@ -182,9 +182,6 @@
 	trait=fair
 	
 	2336.7.30={birth=yes}
-	2350.2.22={
-		add_spouse=4
-	}
 	2400.1.1={death=yes}
 }
 
@@ -519,6 +516,7 @@
 	trait=underhanded_rogue
 	2316.2.3={birth=yes	}
 	2333.3.3={add_spouse=23}
+	2400.1.1={death=yes}
 }
 
 25={
@@ -591,6 +589,7 @@
 	trait=grey_eminence
 	2341.1.1={birth=yes}
 	2367.1.1={add_spouse=28}
+	2400.1.1={death=yes}
 }
 
 	### Ferreira Family ###
@@ -716,7 +715,7 @@
 	learning=7
 	
 	2317.12.14={birth=yes culture=lagoano}
-	2335.6.12={add_spouse=36}
+	2336.6.12={add_spouse=36}
 	2400.1.1={death=yes}
 }
 
@@ -729,7 +728,7 @@
 	trait=underhanded_rogue
 	
 	2320.4.3={birth=yes}
-	2335.6.12={add_spouse=35}
+	2336.6.12={add_spouse=35}
 	2400.1.1={death=yes}
 }
 
@@ -952,7 +951,8 @@
 	trait=robust
 	trait=cruel
 	trait=arbitrary
-	trait=wrothtrait=proud
+	trait=wroth
+	trait=proud
 	diplomacy=4
 	martial=4
 	stewardship=6
@@ -981,7 +981,7 @@
 	trait=tough_soldier
 	trait=wroth
 	
-	2331.6.31={birth=yes}
+	2331.6.30={birth=yes}
 	2360.1.1={add_spouse=53}
 	2400.1.1={death=yes}
 }
@@ -1006,7 +1006,7 @@
 	2352.3.4={
 		give_nickname=nick_the_beloved
 	}
-	2360={
+	2360.1.1={
 		effect={
 			add_lover=56
 			add_lover=57

@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_omagua
 }
+2365.1.1={
+	holder = 860045
+	liege = e_israelite
+}

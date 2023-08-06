@@ -537,14 +537,15 @@ character_event = {
 		name = EVTOPTK_holy_spirit
 		hidden_tooltip = {
 			random_list = {
-				60 {narrative_event = { id = cultholyspirit.1 days = 10 }}
-				40 {narrative_event = { id = cultholyspirit.2 days = 10 }}
-				}
+				60 = {narrative_event = { id = cultholyspirit.1 days = 10 }}
+				40 = {narrative_event = { id = cultholyspirit.2 days = 10 }}
 			}
+		}
 		add_character_modifier = {
 			name = holy_spirit_blinding_light
 			duration = 730
 		}
+		
 	}
 }
 

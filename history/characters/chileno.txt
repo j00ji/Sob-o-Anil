@@ -586,7 +586,6 @@
 	2331.12.27={
 		birth=yes
 	}
-	2360.7.25={add_spouse=640107} # Uriburu spouse
 	2359.1.15={
 		effect = {
 			make_tributary = {
@@ -595,6 +594,7 @@
 			}
 		}
 	}
+	2360.7.25={add_spouse=640107} # Uriburu spouse
 	2391.1.15={
 		death=yes
 	}

@@ -6,3 +6,10 @@
 800.1.1={
 	liege=k_omagua
 }
+2340.1.1={
+	holder = 860048
+	liege = 0
+}
+2350.1.1={
+	holder = 0
+}

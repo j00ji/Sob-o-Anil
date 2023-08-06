@@ -660,6 +660,7 @@
 	trait = just
 	trait = twin
 	trait = groomed
+	trait = child_of_consort
 	father = 110684
 	mother = 590032
 	2301.10.26={birth=yes culture=valcude}
@@ -675,6 +676,7 @@
 	trait = wroth
 	trait = scarred
 	trait = twin
+	trait = child_of_consort
 	father = 110684
 	mother = 590032
 	2301.10.26={birth=yes culture=valcude}

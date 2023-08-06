@@ -1,0 +1,142 @@
+###ÄNSI
+
+490001 = {
+	name="Pazmiño"
+	culture=guayasense
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490002 = {
+	name="Carrión"
+	culture=guayasense
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490003 = {
+	name="de Armas"
+	culture=guayasense
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490004 = {
+	name="Jiménez"
+	culture=guayasense
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490005 = {
+	name="Wedgwood"
+	culture=guayasense
+	religion=darwinist
+	can_appear = no
+	used_for_random = no
+}
+490006 = {
+	name="Angermeyer"
+	culture=guayasense
+	religion=darwinist
+	can_appear = no
+	used_for_random = no
+}
+490007 = {
+	name="Holguín"
+	culture=guayasense
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490008 = {
+	name="Rivas"
+	culture=serrano
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490009 = {
+	name="Delgado"
+	culture=guayasense
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490010 = {
+	name="Carvajal"
+	culture=serrano
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490011 = {
+	name="Muñoz"
+	culture=serrano
+	religion=inkarri
+	can_appear = no
+	used_for_random = no
+}
+490012 = {
+	name="Toribio"
+	culture=serrano
+	religion=inkarri
+	can_appear = no
+	used_for_random = no
+}
+490013 = {
+	name="Castaño"
+	culture=colombian
+	religion=patria_grande
+	can_appear = no
+	used_for_random = no
+}
+490014 = {
+	name="de Belalcázar"
+	culture=colombian
+	religion=inkarri
+	can_appear = no
+	used_for_random = no
+}
+490015 = {
+	name="de la Cruz"
+	culture=colombian
+	religion=patria_grande
+	can_appear = no
+	used_for_random = no
+}
+490016 = {
+	name="Agualongo"
+	culture=serrano
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490017 = {
+	name="Borgia"
+	culture=colombian
+	religion=mysticalist
+	can_appear = no
+	used_for_random = no
+}
+490018 = {
+	name="Colorado"
+	culture=guayasense
+	religion=tridentine
+	can_appear = no
+	used_for_random = no
+}
+490019 = {
+	name="Villavicencio"
+	culture=serrano
+	religion=patria_grande
+	can_appear = no
+	used_for_random = no
+}
+490020 = {
+	name="Rahua"
+	culture=serrano
+	religion=inkarri
+	can_appear = no
+	used_for_random = no
+}

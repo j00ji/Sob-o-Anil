@@ -20,3 +20,7 @@ nick_the_beloved = {}
 nick_coke_addict = {}
 nick_fire_wasp = {}
 nick_the_black = {}
+nick_the_pharaoh = {}
+nick_lady_lines = {}
+nick_devil_puno = {}
+nick_star_child = {}

@@ -325,3 +325,22 @@ d_potiguara = {
 	
 	creation_requires_capital = yes
 }
+
+d_army_commoners = {
+	color = { 255 226 75 }
+	color2 = { 66 95 203 }
+	
+	capital = 430 # c_pasto
+	
+	culture = colombian
+	
+	title = "LORD_COMMANDER" 
+	title_female = "LADY_COMMANDER" 
+	#title_prefix = "GENERALSHIP"
+	
+	short_name = yes
+	
+	 can_be_usurped = no 
+	 assimilate = no 
+	 #primary = yes 
+}

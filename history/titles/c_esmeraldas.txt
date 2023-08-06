@@ -6,3 +6,9 @@
 800.1.1={
 	liege=k_ecuador
 }
+2350.1.1={
+	holder = 860016 #Carlos Holguín
+}
+2368.1.1={
+	holder = 860015 #Paola Rivas
+}
