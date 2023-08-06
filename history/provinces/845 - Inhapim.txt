@@ -7,8 +7,8 @@ title = c_inhapim
 max_settlements = 4
 
 b_itajutiba = tribal
-#b_macadame = city
-#b_taruacu = temple
+b_macadame = city
+b_taruacu = temple
 #b_tarumirim = castle
 #b_bugre = city
 #b_sobralia = temple

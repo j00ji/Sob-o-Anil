@@ -8,7 +8,7 @@ max_settlements = 4
 
 b_carijos = tribal
 b_itaverava = temple
-#b_tres_barra = temple
+b_tres_barra = city
 #b_sao_goncalo_2 = castle
 #b_queluzito = city
 #b_gaje = temple

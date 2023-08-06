@@ -7,8 +7,8 @@ title = c_diamantina
 max_settlements = 3
 
 b_tejuco = tribal
-#b_datas = city
-#b_gouveia = temple
+b_datas = city
+b_gouveia = temple
 #b_guinda = castle
 #b_barao_de_guaicui = city
 #b_extracao = temple

@@ -1301,18 +1301,18 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				OR = {
-					culture = lombard
-					culture = old_frankish
+				AND = {
+					culture_group = paulista
+					NOT = { culture = caipira }
 				}
 			}
 		}
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0 
 			ROOT = {
-				OR = {
-					culture = lombard
-					culture = old_frankish
+				AND = {
+					culture_group = paulista
+					NOT = { culture = caipira }
 				}
 			}
 		}
@@ -1339,18 +1339,18 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				OR = {
-					culture = lombard
-					culture = old_frankish
+				AND = {
+					culture_group = paulista
+					NOT = { culture = caipira }
 				}
 			}
 		}
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
-				OR = {
-					culture = lombard
-					culture = old_frankish
+				AND = {
+					culture_group = paulista
+					NOT = { culture = caipira }
 				}
 			}
 		}
@@ -1378,18 +1378,18 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				OR = {
-					culture = lombard
-					culture = old_frankish
+				AND = {
+					culture_group = paulista
+					NOT = { culture = caipira }
 				}
 			}
 		}
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
-				OR = {
-					culture = lombard
-					culture = old_frankish
+				AND = {
+					culture_group = paulista
+					NOT = { culture = caipira }
 				}
 			}
 		}
@@ -1418,18 +1418,18 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				OR = {
-					culture = lombard
-					culture = old_frankish
+				AND = {
+					culture_group = paulista
+					NOT = { culture = caipira }
 				}
 			}
 		}
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
-				OR = {
-					culture = lombard
-					culture = old_frankish
+				AND = {
+					culture_group = paulista
+					NOT = { culture = caipira }
 				}
 			}
 		}

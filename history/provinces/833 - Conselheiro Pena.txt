@@ -7,7 +7,7 @@ title = c_conselheiro_pena
 max_settlements = 2
 
 b_aguia_branca = tribal
-#b_lajao = city
+b_lajao = temple
 #b_penha_do_norte = temple
 #b_sete_saloes = castle
 #b_galileia = city

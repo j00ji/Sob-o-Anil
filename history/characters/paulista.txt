@@ -4858,10 +4858,17 @@
 	
 	father = 110240 #Pedro Matarazzo
 	
-	trait = misguided_warrior
+	trait = fortune_builder
 	trait = greedy
 	trait = cynical
 	trait = groomed
+	trait = diligent
+	
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 4
+	learning = 5
 	
 	2325.10.12 = {
 		birth = yes
@@ -11866,7 +11873,7 @@
 }
 
 110688 = {
-	name = "Inês" #Fernando's friend, a prisoner captured by his father
+	name = "Inês" #Carlo's friend, a prisoner captured by his father
 	dynasty = 0
 	female=yes
 	religion = anchietican 
@@ -11919,59 +11926,59 @@
 	#ruler of Franca, vassal of Rio Pardo
 }
 
-110690 = {
-	name = "Fernando" #Eldest son of Rodrigo II Desterro
-	dynasty = 260002 #Desterro
-	religion = terra_benta
-	culture = canastro
-	disallow_random_traits = yes
-	
-	father = 110687 #Rodrigo II Desterro
-	
-	trait = skilled_tactician
-	trait = ambitious
-	trait = envious
-	trait = arbitrary
-	trait = sympathy_christendom
-	
-	2342.9.17 = {
-		birth = yes
-	}
-	2364.3.13 = {
-		effect = {
-			add_claim = k_terra_roxa
-		}
-	}
-	2367.1.1 = {
-		effect={add_friend=110688}
-	}
-	2400.1.1={death=yes}
-	#Ruler of Rio Pardo
-}
-
-110691 = {
-	name = "Luis" #Youngest son of Rodrigo II Desterro
-	dynasty = 260002 #Desterro
-	religion = terra_benta
-	culture = canastro
-	disallow_random_traits = yes
-	
-	father = 110687 #Rodrigo II Desterro
-	
-	trait = intricate_webweaver
-	trait = ambitious
-	trait = craven
-	trait = deceitful
-	trait = zealous
-	
-	2345.11.2 = {
-		birth = yes
-	}
-	2400.1.1 = {
-		death = yes
-	}
-	#Ruler of Rio Preto
-}
+#110690 = {
+#	name = "Fernando" #Eldest son of Rodrigo II Desterro
+#	dynasty = 260002 #Desterro
+#	religion = terra_benta
+#	culture = canastro
+#	disallow_random_traits = yes
+#	
+#	father = 110687 #Rodrigo II Desterro
+#	
+#	trait = skilled_tactician
+#	trait = ambitious
+#	trait = envious
+#	trait = arbitrary
+#	trait = sympathy_christendom
+#	
+#	2342.9.17 = {
+#		birth = yes
+#	}
+#	2364.3.13 = {
+#		effect = {
+#			add_claim = k_terra_roxa
+#		}
+#	}
+#	2367.1.1 = {
+#		effect={add_friend=110688}
+#	}
+#	2400.1.1={death=yes}
+#	#Ruler of Rio Pardo
+#}
+#
+#110691 = {
+#	name = "Luis" #Youngest son of Rodrigo II Desterro
+#	dynasty = 260002 #Desterro
+#	religion = terra_benta
+#	culture = canastro
+#	disallow_random_traits = yes
+#	
+#	father = 110687 #Rodrigo II Desterro
+#	
+#	trait = intricate_webweaver
+#	trait = ambitious
+#	trait = craven
+#	trait = deceitful
+#	trait = zealous
+#	
+#	2345.11.2 = {
+#		birth = yes
+#	}
+#	2400.1.1 = {
+#		death = yes
+#	}
+#	#Ruler of Rio Preto
+#}
 	
 
 ##Suzuki dynasty##

@@ -16,6 +16,6 @@ b_floresta_do_sul = temple
 
 # Misc
 culture = caipira
-religion = anchietican
+religion = johrei
 
 #History

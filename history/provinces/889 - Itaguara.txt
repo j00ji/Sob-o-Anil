@@ -7,7 +7,7 @@ title = c_itaguara
 max_settlements = 2
 
 b_itauna = tribal
-#b_para_de_minas = city
+b_para_de_minas = temple
 #b_entrerrios = temple
 #b_sapecado = castle
 #b_passa_tempo = city

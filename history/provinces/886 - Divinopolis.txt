@@ -8,7 +8,7 @@ max_settlements = 6
 
 b_itapecerica_2 = tribal
 b_sao_sebastiao_do_oeste = temple
-#b_araujos = temple
+b_araujos = city
 #b_pedra_do_indaia = castle
 #b_calambau = city
 #b_claudio = temple

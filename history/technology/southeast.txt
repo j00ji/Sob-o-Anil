@@ -282,9 +282,9 @@ technology = {
 		culture = 0.1
 	}
 	2369 = {
-		military = 0.75
-		economy = 0.75
-		culture = 0.75
+		military = 1.8
+		economy = 1.2
+		culture = 1.2
 	
 		TECH_RECRUITMENT = 1.5
 		TECH_CAVALRY = 1.75

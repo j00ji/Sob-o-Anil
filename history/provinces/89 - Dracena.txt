@@ -16,6 +16,6 @@ b_jacipora = temple
 
 # Misc
 culture = caipira
-religion = anchietican
+religion = johrei
 
 #History

@@ -194,7 +194,7 @@
 		template = 0
 		layer = {
 			texture = 2
-			texture_internal = 16
+			texture_internal = 17
 			emblem = 0
 			color = 0
 			color = 0
@@ -274,7 +274,7 @@
 		template = 0
 		layer = {
 			texture = 2
-			texture_internal = 18
+			texture_internal = 21
 			emblem = 0
 			color = 0
 			color = 0

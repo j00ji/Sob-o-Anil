@@ -9,6 +9,10 @@
 2349.1.1 = { #the Mineiro Invasion
 	holder = 110685 #Valamiro
 }
-2363.3.13 = {#end of the mineiros
-	holder = 110719 #Osório de Barros
+2348.11.3 = {
+	holder = 110687
+}
+2364.3.13 = {
+	holder = 590044 #Henrique Lott
+	liege = k_minas_gerais
 }

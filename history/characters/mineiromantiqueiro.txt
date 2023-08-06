@@ -138,8 +138,8 @@
 620005 = {
 	name = "Clóvis"
 	dynasty = 280002 # Águas Claras
-	religion = anchietican
-	culture = terra_benta
+	religion = terra_benta
+	culture = mantiqueiro
 	dna="b0jbc0e0aa0"
 	properties="fn0jfc000000000000000000000000000000"
 	father = 620006

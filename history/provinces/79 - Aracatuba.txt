@@ -16,6 +16,6 @@ b_baguacu = castle
 
 # Misc
 culture = caipira
-religion = anchietican
+religion = johrei
 
 #History
