@@ -174,7 +174,7 @@ technology = {
 		d_ribeira
 		d_itapeva
 		d_rio_pardo
-		d_itirapina
+		#d_itirapina
 	}
 	
 	769 = {
@@ -254,14 +254,14 @@ technology = {
 		TECH_CONSTRUCTION = 1.25
 		TECH_MAJESTY = 1.25
 		TECH_LEGALISM = 1.25
-		TECH_NAVAL = 0
+		TECH_NAVAL = 0.1
 	}
 }
 
 technology = {
 	titles = {
 		d_divinopolis
-		d_serra_dos_aimores
+		#d_serra_dos_aimores
 		d_vale_do_aco
 		d_caparao
 		d_piranga
@@ -274,6 +274,7 @@ technology = {
 		d_aguas_virt
 		d_tormenta
 		d_barreiro_grande
+		d_mucuri
 	}
 	
 	769 = {
@@ -283,8 +284,8 @@ technology = {
 	}
 	2369 = {
 		military = 1.8
-		economy = 1.2
-		culture = 1.2
+		economy = 1.7
+		culture = 1.3
 	
 		TECH_RECRUITMENT = 1.5
 		TECH_CAVALRY = 1.75
@@ -293,7 +294,7 @@ technology = {
 		TECH_CONSTRUCTION = 1.25
 		TECH_MAJESTY = 1.25
 		TECH_LEGALISM = 1.25
-		TECH_NAVAL = 0
+		TECH_NAVAL = 0.1
 	}
 }
 
@@ -323,6 +324,6 @@ technology = {
 		TECH_CONSTRUCTION = 1.25
 		TECH_MAJESTY = 1.25
 		TECH_LEGALISM = 1.25
-		TECH_NAVAL = 0
+		TECH_NAVAL = 0.1
 	}
 }

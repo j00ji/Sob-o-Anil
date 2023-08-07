@@ -108,7 +108,7 @@ k_teachers= {
 	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
 }
 
-k_mysticalist_papacy = {
+k_papacy = {
 	color={ 255 249 198 }
 	color2={ 220 220 0 }
 	

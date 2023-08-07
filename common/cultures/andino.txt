@@ -4,7 +4,7 @@ costeno = {
 	graphical_cultures = { bodpagfx westerngfx }
 	
 	nortegrandeno = {
-		graphical_cultures = { mexicangfx }
+		graphical_cultures = { southmexicangfx mexicangfx }
 		
 		color = { 0.70 0.23 0.0 }
 		
@@ -80,7 +80,7 @@ costeno = {
 		modifier = default_culture_modifier
 	}
 	iqueno = {
-		graphical_cultures = { mexicangfx }
+		graphical_cultures = { southmexicangfx mexicangfx }
 		
 		color = { 0.4 0.6 0.0 }
 		
@@ -104,7 +104,7 @@ costeno = {
 		modifier = default_culture_modifier
 	}
 	arequipeno = {
-		graphical_cultures = { mexicangfx }
+		graphical_cultures = { southmexicangfx mexicangfx }
 		
 		color = { 0.5 0.0 0.2 }
 		
@@ -129,7 +129,7 @@ costeno = {
 
 	}
 	ileno = {
-		graphical_cultures = { mexicangfx }
+		graphical_cultures = { southmexicangfx mexicangfx }
 		
 		color = { 0.6 0.4 0.0 }
 		

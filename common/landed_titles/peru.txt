@@ -6,7 +6,7 @@ e_peru = {
 	culture = serrano
 	
 	k_ecuador = {
-		color={ 69 247 125 }
+		color={ 43 141 172 }
 		color2={ 255 255 255 }
 		
 		capital = 410 # c_pichincha
