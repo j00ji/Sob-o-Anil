@@ -9,10 +9,10 @@ max_settlements = 2
 b_crisolita = tribal
 #b_machacalis = city
 #b_fronteira_dos_vales = temple
-#b_perola_do_vale, = castle
+#b_perola_do_vale, = tribal
 #b_francisco_sa = city
 #b_pavao = temple
-#b_aguas_formosas = castle
+#b_aguas_formosas = tribal
 
 # Misc
 culture = kumanuxu

@@ -9,10 +9,10 @@ max_settlements = 3
 b_joao_gomes = tribal
 #b_palmira = city
 #b_merces = temple
-#b_tabuleiro_2 = castle
+#b_tabuleiro_2 = tribal
 #b_oliveira_fortes = city
 #b_aracitaba = temple
-#b_silveirania = castle
+#b_silveirania = tribal
 
 # Misc
 culture = mantiqueiro

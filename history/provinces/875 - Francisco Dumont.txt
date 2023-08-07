@@ -9,10 +9,10 @@ max_settlements = 3
 b_forte_cabral = tribal
 #b_jequitai = city
 #b_dolabela = temple
-#b_porto_faria = castle
+#b_porto_faria = tribal
 #b_varzea_da_palma = city
 #b_barrocao = temple
-#b_olhos_dagua = castle
+#b_olhos_dagua = tribal
 
 # Misc
 culture = espinhaco

@@ -9,10 +9,10 @@ max_settlements = 3
 b_sao_joao_do_vigia = tribal
 #b_guaranilandia = city
 #b_estanhado = temple
-#b_pedra_grande_2 = castle
+#b_pedra_grande_2 = tribal
 #b_jordania = city
 #b_aprigio = temple
-#b_bandeira_2 = castle
+#b_bandeira_2 = tribal
 
 # Misc
 culture = espinhaco

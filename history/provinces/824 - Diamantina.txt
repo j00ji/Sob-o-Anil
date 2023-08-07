@@ -6,7 +6,7 @@ title = c_diamantina
 # Settlements
 max_settlements = 3
 
-b_tejuco = tribal
+b_tejuco = castle
 b_datas = city
 b_gouveia = temple
 #b_guinda = castle

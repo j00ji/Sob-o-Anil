@@ -307,7 +307,7 @@
     name="Paola"
     dynasty=490008 # Rivas
     female=yes
-    culture=guayasense
+    culture=black
     religion=tridentine
     martial=3
     diplomacy=3
@@ -347,7 +347,7 @@
 860017 = {
     name="Elsa"
     dynasty=490007 # Holguín
-    culture=guayasense
+    culture=black
     religion=tridentine
 	father=860016
 	mother=860015
@@ -359,7 +359,7 @@
     learning=2
     trait=brooding
     trait=willful
-    2360.1.1={birth=yes}
+    2360.1.1={birth=yes culture=black}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -367,7 +367,7 @@
 860018 = {
     name="Ivanna"
     dynasty=490007 # Holguín
-    culture=guayasense
+    culture=black
     religion=tridentine
 	father=860016
 	mother=860015
@@ -379,7 +379,7 @@
     learning=2
     trait=twin
     trait=willful
-    2362.1.1={birth=yes}
+    2362.1.1={birth=yes culture=black}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -387,7 +387,7 @@
 860019 = {
     name="Michelle"
     dynasty=490007 # Holguín
-    culture=guayasense
+    culture=black
     religion=tridentine
 	father=860016
 	mother=860015
@@ -399,7 +399,7 @@
     learning=2
     trait=twin
     trait=brooding
-    2362.1.1={birth=yes}
+    2362.1.1={birth=yes culture=black}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -407,7 +407,7 @@
 860020 = {
     name="Marisa"
     dynasty=490007 # Holguín
-    culture=guayasense
+    culture=black
     religion=tridentine
 	father=860016
 	mother=860015
@@ -419,7 +419,7 @@
     learning=2
     trait=fair
     trait=idolizer
-    2363.1.1={birth=yes}
+    2363.1.1={birth=yes culture=black}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -427,7 +427,7 @@
 860021 = {
     name="Alma"
     dynasty=490007 # Holguín
-    culture=guayasense
+    culture=black
     religion=tridentine
 	father=860016
 	mother=860015
@@ -439,7 +439,7 @@
     learning=2
     trait=twin
     trait=indolent
-    2364.1.1={birth=yes}
+    2364.1.1={birth=yes culture=black}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -447,7 +447,7 @@
 860022 = {
     name="Susana"
     dynasty=490007 # Holguín
-    culture=guayasense
+    culture=black
     religion=tridentine
 	father=860016
 	mother=860015
@@ -459,7 +459,7 @@
     learning=2
     trait=twin
     trait=curious
-    2364.1.1={birth=yes}
+    2364.1.1={birth=yes culture=black}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -467,7 +467,7 @@
 860023 = {
     name="Inmaculada"
     dynasty=490007 # Holguín
-    culture=guayasense
+    culture=black
     religion=tridentine
 	father=860016
 	mother=860015
@@ -478,7 +478,7 @@
     intrigue=2
     learning=2
     trait=timid
-    2366.1.1={birth=yes}
+    2366.1.1={birth=yes culture=black}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -1915,7 +1915,7 @@
 #Duchy of Arequipa
 860092 = {
     name="Martín"
-    dynasty=500028 # Paulet
+    dynasty=500029 # Paulet
     culture=arequipeno
     religion=catholic
     martial=5

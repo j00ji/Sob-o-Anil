@@ -9,10 +9,10 @@ max_settlements = 2
 b_dores_do_indaia = tribal
 #b_luz = city
 #b_marmelada = temple
-#b_martinho_campos = castle
+#b_martinho_campos = tribal
 #b_quartel_geral = city
 #b_cedro_3 = temple
-#b_sao_joao_3 = castle
+#b_sao_joao_3 = tribal
 
 # Misc
 culture = canastro

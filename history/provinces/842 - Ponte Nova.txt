@@ -9,10 +9,10 @@ max_settlements = 3
 b_pontecastello = tribal
 #b_guaraciaba = city
 #b_oratorios = temple
-#b_barra_longa = castle
+#b_barra_longa = tribal
 #b_urucania = city
 #b_jequeri = temple
-#b_sericita = castle
+#b_sericita = tribal
 
 # Misc
 culture = valcude

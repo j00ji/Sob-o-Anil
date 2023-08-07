@@ -9,10 +9,10 @@ max_settlements = 4
 b_sao_roque_2 = tribal
 b_mangapolis = temple
 #b_tuparece = temple
-#b_santana_do_aracuai = castle
+#b_santana_do_aracuai = tribal
 #b_monte_formoso = city
 #b_itinga_2 = temple
-#b_pasmado = castle
+#b_pasmado = tribal
 
 # Misc
 culture = espinhaco

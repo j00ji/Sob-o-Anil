@@ -9,10 +9,10 @@ max_settlements = 3
 b_contagem = tribal
 #b_lassance = city
 #b_beltrao = temple
-#b_joaquim_felicio = castle
+#b_joaquim_felicio = tribal
 #b_curimatai = city
 #b_breiro = temple
-#b_sao_gonsalo = castle
+#b_sao_gonsalo = tribal
 
 # Misc
 culture = espinhaco

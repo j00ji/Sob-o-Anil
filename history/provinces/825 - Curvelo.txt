@@ -9,10 +9,10 @@ max_settlements = 3
 b_inimutaba = tribal
 #b_cordisburgo = city
 #b_pompeu = temple
-#b_anguereta = castle
+#b_anguereta = tribal
 #b_paraopeba = city
 #b_papagaios = temple
-#b_saco_novo = castle
+#b_saco_novo = tribal
 
 # Misc
 culture = auriferro

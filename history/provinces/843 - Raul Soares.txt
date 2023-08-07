@@ -9,10 +9,10 @@ max_settlements = 2
 b_jo_soares = tribal
 #b_bicuiba = city
 #b_vermelhos = temple
-#b_sao_pedro_dos_ferros = castle
+#b_sao_pedro_dos_ferros = tribal
 #b_rio_casca = city
 #b_tabuleiro = temple
-#b_vicente_da_estrela = castle
+#b_vicente_da_estrela = tribal
 
 # Misc
 culture = valcude

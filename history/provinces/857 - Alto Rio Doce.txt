@@ -6,7 +6,7 @@ title = c_alto_rio_doce
 # Settlements
 max_settlements = 3
 
-b_abreus = tribal
+b_abreus = castle
 #b_bras_pires = city
 #b_vitorinos = temple
 #b_cipotanea = castle

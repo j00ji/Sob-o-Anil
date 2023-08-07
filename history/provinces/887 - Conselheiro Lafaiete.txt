@@ -6,7 +6,7 @@ title = c_conselheiro_lafaiete
 # Settlements
 max_settlements = 4
 
-b_carijos = tribal
+b_carijos = castle
 b_itaverava = temple
 b_tres_barra = city
 #b_sao_goncalo_2 = castle

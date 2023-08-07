@@ -9,10 +9,10 @@ max_settlements = 3
 b_barra_alegre = tribal
 b_timoteo = temple
 #b_taubas = temple
-#b_coronel_fabriciano = castle
+#b_coronel_fabriciano = tribal
 #b_santana_do_paraiso = city
 #b_ipaneminha = temple
-#b_veneza = castle
+#b_veneza = tribal
 
 # Misc
 culture = valcude

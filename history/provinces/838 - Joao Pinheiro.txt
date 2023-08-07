@@ -9,10 +9,10 @@ max_settlements = 2
 b_forte_brandao = tribal
 #b_brasilandia_2 = city
 #b_santana_dos_alegres = temple
-#b_porto_diamante = castle
+#b_porto_diamante = tribal
 #b_santa_luzia_2 = city
 #b_minas_verde = temple
-#b_testa = castle
+#b_testa = tribal
 
 # Misc
 culture = espinhaco

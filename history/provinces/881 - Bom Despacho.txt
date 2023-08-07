@@ -9,10 +9,10 @@ max_settlements = 3
 b_cruz_do_monte = tribal
 #b_nova_serrana = city
 #b_pitangui = temple
-#b_leandro_ferreira = castle
+#b_leandro_ferreira = tribal
 #b_moitinha = city
 #b_moreiras = temple
-#b_forte_jale = castle
+#b_forte_jale = tribal
 
 # Misc
 culture = canastro

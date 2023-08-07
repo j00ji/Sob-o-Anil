@@ -6,7 +6,7 @@ title = c_santa_barbara
 # Settlements
 max_settlements = 3
 
-b_barra_feliz = tribal
+b_barra_feliz = castle
 #b_joao_monvalde = city
 #b_barao_de_cocais = temple
 #b_catas_altas = castle

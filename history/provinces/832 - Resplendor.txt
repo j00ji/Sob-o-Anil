@@ -9,10 +9,10 @@ max_settlements = 2
 b_nicolandia = tribal
 #b_calixto = city
 #b_cuparaque = temple
-#b_campo_alegre_de_minas = castle
+#b_campo_alegre_de_minas = tribal
 #b_quatituba = city
 #b_bom_pastor = temple
-#b_santa_rita_do_itueto = castle
+#b_santa_rita_do_itueto = tribal
 
 # Misc
 culture = valcude

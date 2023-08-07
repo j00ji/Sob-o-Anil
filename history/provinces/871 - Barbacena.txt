@@ -6,7 +6,7 @@ title = c_barbacena
 # Settlements
 max_settlements = 4
 
-b_barroso = tribal
+b_barroso = castle
 #b_campolide = city
 #b_carandai = temple
 #b_vitorinos_2 = castle

@@ -6,7 +6,7 @@ title = c_sao_sebastiao_do_paraiso
 # Settlements
 max_settlements = 3
 
-b_pratapolis = tribal
+b_pratapolis = castle
 #b_jacui_2 = city
 #b_itamogi = temple
 #b_termopolis = castle

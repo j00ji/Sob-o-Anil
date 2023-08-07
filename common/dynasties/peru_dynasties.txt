@@ -6,6 +6,18 @@
 	religion=inkarri
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500002 = {
 	name="Romero"
@@ -20,6 +32,17 @@
 	religion=israelite
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500004 = {
 	name="Bendayán"
@@ -27,6 +50,17 @@
 	religion=israelite
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500005 = {
 	name="Wong"
@@ -34,6 +68,17 @@
 	religion=chicha
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500006 = {
 	name="Fitzcarrald"
@@ -48,6 +93,17 @@
 	religion=chicha
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 24
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500008 = {
 	name="Hohenzollern"
@@ -55,6 +111,17 @@
 	religion=liberationist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500009 = {
 	name="Reiche"
@@ -62,6 +129,17 @@
 	religion=camino_estelar
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500010 = {
 	name="Pitluga"
@@ -76,6 +154,17 @@
 	religion=liberationist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500012 = {
 	name="Gutiérrez"
@@ -83,6 +172,17 @@
 	religion=liberationist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500013 = {
 	name="Huancahuari"
@@ -97,6 +197,17 @@
 	religion=liberationist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500015 = {
 	name="Yarlequé"
@@ -104,6 +215,17 @@
 	religion=liberationist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500016 = {
 	name="Eguren"
@@ -111,6 +233,17 @@
 	religion=tridentine
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500017 = {
 	name="de Luz"
@@ -125,6 +258,18 @@
 	religion=inti
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500019 = {
 	name="de Dragón"
@@ -132,6 +277,17 @@
 	religion=tridentine
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500020 = {
 	name="Rossi"
@@ -146,6 +302,18 @@
 	religion=inkarri
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500022 = {
 	name="de Areche"
@@ -153,6 +321,17 @@
 	religion=catholic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500023 = {
 	name="Kong"
@@ -160,6 +339,17 @@
 	religion=tridentine
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500024 = {
 	name="Quishpe"
@@ -167,6 +357,18 @@
 	religion=inti
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500025 = {
 	name="Esperanza"
@@ -174,6 +376,17 @@
     religion=catholic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500026 = {
 	name="de Guerra"
@@ -181,6 +394,18 @@
     religion=inkarri
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500027 = {
 	name="Sisa"
@@ -188,6 +413,18 @@
     religion=inti
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500028 = {
 	name="Paulet"
@@ -195,14 +432,25 @@
     religion=catholic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
-500029 = {
-	name="Paulet"
-	culture=arequipeno
-    religion=catholic
-	can_appear = no
-	used_for_random = no
-}
+#500029 = {
+#	name="Paulet"
+#	culture=arequipeno
+#    religion=catholic
+#	can_appear = no
+#	used_for_random = no
+#}
 500030 = {
 	name="de Rivera"
 	culture=arequipeno
@@ -223,13 +471,35 @@
     religion=catholic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500033 = {
 	name="del Mantaro"
 	culture=quechua
-    religion=catholic
+    religion=chicha
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500034 = {
 	name="Q’ollary"
@@ -237,6 +507,18 @@
     religion=inti
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500035 = {
 	name="Maguiña"
@@ -251,6 +533,18 @@
     religion=inti
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500037 = {
 	name="Chrysostom"
@@ -258,6 +552,18 @@
     religion=inti
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500038 = {
 	name="Manco"
@@ -265,6 +571,18 @@
     religion=pachamama
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500039 = {
 	name="Velásquez"
@@ -272,6 +590,17 @@
     religion=chicha
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 500040 = {
 	name="Mannarelli"
@@ -279,4 +608,15 @@
     religion=obscurantist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }

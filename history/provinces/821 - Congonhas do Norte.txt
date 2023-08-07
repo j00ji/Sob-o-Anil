@@ -6,7 +6,7 @@ title = c_congonhas_do_norte
 # Settlements
 max_settlements = 2
 
-b_baragem_da_fumaca = tribal
+b_baragem_da_fumaca = castle
 #b_tombadouro = city
 #b_fechados = temple
 #b_costa_sena = castle

@@ -9,10 +9,10 @@ max_settlements = 3
 b_morro_do_ouro_2 = tribal
 #b_duas_pontes = city
 #b_principe = temple
-#b_sao_luiz = castle
+#b_sao_luiz = tribal
 #b_sao_silvestre = city
 #b_santa_ana_2 = temple
-#b_santo_antonio_8 = castle
+#b_santo_antonio_8 = tribal
 
 # Misc
 culture = espinhaco

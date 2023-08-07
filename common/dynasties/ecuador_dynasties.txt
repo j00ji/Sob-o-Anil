@@ -29,11 +29,22 @@
 	used_for_random = no
 }
 490005 = {
-	name="Wedgwood"
+	name="Wedgewood"
 	culture=guayasense
 	religion=darwinist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490006 = {
 	name="Angermeyer"
@@ -41,6 +52,17 @@
 	religion=darwinist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490007 = {
 	name="Holguín"
@@ -48,6 +70,17 @@
 	religion=tridentine
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490008 = {
 	name="Rivas"
@@ -55,6 +88,17 @@
 	religion=tridentine
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490009 = {
 	name="Delgado"
@@ -66,9 +110,21 @@
 490010 = {
 	name="Carvajal"
 	culture=serrano
-	religion=tridentine
+	religion=inkarri
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490011 = {
 	name="Muñoz"
@@ -83,6 +139,18 @@
 	religion=inkarri
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = inkarri
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490013 = {
 	name="Castaño"
@@ -90,6 +158,17 @@
 	religion=patria_grande
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490014 = {
 	name="de Belalcázar"
@@ -111,13 +190,35 @@
 	religion=tridentine
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490017 = {
 	name="Borgia"
-	culture=colombian
+	culture=serrano
 	religion=mysticalist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 12
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490018 = {
 	name="Colorado"
@@ -132,6 +233,17 @@
 	religion=patria_grande
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 13
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 490020 = {
 	name="Rahua"

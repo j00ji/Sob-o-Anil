@@ -6,13 +6,13 @@ title = c_mutum
 # Settlements
 max_settlements = 3
 
-b_imbirucu = tribal
-#b_lajinha = city
+b_imbirucu = castle
+b_lajinha = city
 #b_ipanema = temple
-#b_centenario_5 = castle
+#b_centenario_5 = tribal
 #b_alto_capim = city
 #b_roseiral = temple
-#b_sao_sebastiao_da_vala = castle
+#b_sao_sebastiao_da_vala = tribal
 
 # Misc
 culture = valcude

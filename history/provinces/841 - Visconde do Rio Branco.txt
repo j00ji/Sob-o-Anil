@@ -9,10 +9,10 @@ max_settlements = 2
 b_sao_geraldo_2 = tribal
 #b_guiricema = city
 #b_presidio = temple
-#b_vilas_boas = castle
+#b_vilas_boas = tribal
 #b_tuiutinga = city
 #b_dom_silverio = temple
-#b_cruzeiro = castle
+#b_cruzeiro = tribal
 
 # Misc
 culture = auriferro

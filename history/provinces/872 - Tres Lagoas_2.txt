@@ -9,10 +9,10 @@ max_settlements = 4
 b_barreiro_grande = tribal
 b_morada_nova_3 = temple
 #b_canastrao = temple
-#b_felixlandia = castle
+#b_felixlandia = tribal
 #b_frei_orlando = city
 #b_vereda = temple
-#b_buriti_4 = castle
+#b_buriti_4 = tribal
 
 # Misc
 culture = auriferro

@@ -6,13 +6,13 @@ title = c_manhancu
 # Settlements
 max_settlements = 3
 
-b_dom_correa = tribal
-#b_sacramento = city
+b_dom_correa = castle
+b_sacramento = city
 #b_matipo = temple
-#b_caputira = castle
+#b_caputira = tribal
 #b_abre_campo = city
 #b_bonanza_2 = temple
-#b_monte_sinai = castle
+#b_monte_sinai = tribal
 
 # Misc
 culture = valcude

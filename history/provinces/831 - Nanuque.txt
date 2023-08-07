@@ -9,10 +9,10 @@ max_settlements = 3
 b_forte_fritz = tribal
 #b_presidente_bueno = city
 #b_solar_das_aguas = temple
-#b_epaminondas = castle
+#b_epaminondas = tribal
 #b_ilha_do_sol = city
 #b_pereira = temple
-#b_gabriel_passos = castle
+#b_gabriel_passos = tribal
 
 # Misc
 culture = valcude

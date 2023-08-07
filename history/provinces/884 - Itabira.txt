@@ -6,7 +6,7 @@ title = c_itabira
 # Settlements
 max_settlements = 4
 
-b_santana_do_rosario = tribal
+b_santana_do_rosario = castle
 #b_santa_maria_5 = city
 #b_itauninha = temple
 #b_brejauba_2 = castle

@@ -9,10 +9,10 @@ max_settlements = 4
 b_lopes = tribal
 #b_bias_fortes = city
 #b_olaria = temple
-#b_ibitipoca = castle
+#b_ibitipoca = tribal
 #b_garambeu = city
 #b_jacutinga = temple
-#b_monte_verde = castle
+#b_monte_verde = tribal
 
 # Misc
 culture = mantiqueiro

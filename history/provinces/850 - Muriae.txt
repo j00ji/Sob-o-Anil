@@ -7,7 +7,7 @@ title = c_muriae
 max_settlements = 4
 
 b_belisario = temple
-b_mirai = tribal
+b_mirai = castle
 #b_itajuru = temple
 #b_eugenopolis = castle
 #b_monte_alto = city

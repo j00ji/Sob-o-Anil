@@ -9,10 +9,10 @@ max_settlements = 3
 b_mesquita_2 = tribal
 #b_acucena_2 = city
 #b_taquaracu = temple
-#b_perpetuo_socorro = castle
+#b_perpetuo_socorro = tribal
 #b_bom_jesus_do_bagre = city
 #b_aramirim = temple
-#b_felicina = castle
+#b_felicina = tribal
 
 # Misc
 culture = valcude

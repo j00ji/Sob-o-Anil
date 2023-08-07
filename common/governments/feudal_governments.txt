@@ -165,6 +165,7 @@ feudal_governments = {
 				religion = valentes
 				religion = conservante
 				religion = imamite
+				religion = mysticalist
 				has_religion_feature = religion_temporal_head
 				AND = {
 					OR = {
@@ -174,6 +175,7 @@ feudal_governments = {
 						religion = valentes
 						religion = conservante
 						religion = imamite
+						religion = mysticalist
 					}
 					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
 				}

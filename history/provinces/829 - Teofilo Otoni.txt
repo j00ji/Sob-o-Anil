@@ -9,10 +9,10 @@ max_settlements = 4
 b_filadelfia_3 = tribal
 b_mucuri = temple
 #b_novo_oriente_de_minas = temple
-#b_valao = castle
+#b_valao = tribal
 #b_topazio = city
 #b_padre_paraiso = temple
-#b_crispim_jacques = castle
+#b_crispim_jacques = tribal
 
 # Misc
 culture = valcude

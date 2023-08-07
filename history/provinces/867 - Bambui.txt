@@ -9,10 +9,10 @@ max_settlements = 4
 b_bambui_2 = tribal
 #b_capitolio = city
 #b_sao_jose_5 = temple
-#b_doresopolis = castle
+#b_doresopolis = tribal
 #b_altolandia = city
 #b_desempenhado = temple
-#b_cabrestos = castle
+#b_cabrestos = tribal
 
 # Misc
 culture = canastro

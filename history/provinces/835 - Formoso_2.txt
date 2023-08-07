@@ -9,10 +9,10 @@ max_settlements = 2
 b_forte_falcao_2 = tribal
 #b_ornelas = city
 #b_vale_do_amanhecer = temple
-#b_pontes = castle
+#b_pontes = tribal
 #b_sao_domingos_3 = city
 #b_taboca = temple
-#b_carinhanha_2 = castle
+#b_carinhanha_2 = tribal
 
 # Misc
 culture = espinhaco

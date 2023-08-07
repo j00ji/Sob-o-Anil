@@ -6,7 +6,7 @@ title = c_conceicao_do_mato_dentro
 # Settlements
 max_settlements = 3
 
-b_cachoeira_do_tabuleiro = tribal
+b_cachoeira_do_tabuleiro = castle
 #b_dom_joaquim = city
 #b_italacomi = temple
 #b_ouro_fino = castle

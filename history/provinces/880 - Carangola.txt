@@ -6,7 +6,7 @@ title = c_carangola
 # Settlements
 max_settlements = 4
 
-b_alvorada_3 = tribal
+b_alvorada_3 = castle
 #b_fervedouro = city
 #b_divino = temple
 #b_espera_feliz = castle

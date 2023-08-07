@@ -6,7 +6,7 @@ title = c_piranga
 # Settlements
 max_settlements = 4
 
-b_guarapiranga = tribal
+b_guarapiranga = castle
 #b_porto_firme = city
 #b_calambau_2 = temple
 #b_pinheiros_altos = castle

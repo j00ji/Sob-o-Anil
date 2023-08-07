@@ -9,10 +9,10 @@ max_settlements = 4
 b_natividade_3 = tribal
 b_assarai = temple
 #b_baixo_guandu = temple
-#b_alto_do_capim = castle
+#b_alto_do_capim = tribal
 #b_tabauna = city
 #b_agua_limpa_2 = temple
-#b_barra_da_figueira = castle
+#b_barra_da_figueira = tribal
 
 # Misc
 culture = krenak

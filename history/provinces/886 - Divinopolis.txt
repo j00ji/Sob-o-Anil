@@ -6,7 +6,7 @@ title = c_divinopolis
 # Settlements
 max_settlements = 6
 
-b_itapecerica_2 = tribal
+b_itapecerica_2 = castle
 b_sao_sebastiao_do_oeste = temple
 b_araujos = city
 #b_pedra_do_indaia = castle

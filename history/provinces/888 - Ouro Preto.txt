@@ -6,7 +6,7 @@ title = c_ouro_preto
 # Settlements
 max_settlements = 5
 
-b_itacolomi = tribal
+b_itacolomi = castle
 b_ouro_branco_2 = city
 b_mariana = temple
 b_lavras_novas = city

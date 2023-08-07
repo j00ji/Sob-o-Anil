@@ -9,10 +9,10 @@ max_settlements = 3
 b_pote = tribal
 #b_eldorado_3 = city
 #b_franciscopolis = temple
-#b_forrado = castle
+#b_forrado = tribal
 #b_junco_de_minas = city
 #b_ladainha = temple
-#b_nossa_senhora_das_gracas = castle
+#b_nossa_senhora_das_gracas = tribal
 
 # Misc
 culture = espinhaco

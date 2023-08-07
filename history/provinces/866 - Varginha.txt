@@ -6,7 +6,7 @@ title = c_varginha
 # Settlements
 max_settlements = 4
 
-b_discopolis = tribal
+b_discopolis = castle
 b_santana_da_vargem = temple
 #b_tres_coracoes = temple
 #b_paraguacu = castle

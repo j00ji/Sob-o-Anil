@@ -6,7 +6,7 @@ title = c_pocos_de_caldas
 # Settlements
 max_settlements = 4
 
-b_palace = tribal
+b_palace = castle
 b_caldas = temple
 #b_cabo_verde = temple
 #b_andradas = castle

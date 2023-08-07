@@ -9,10 +9,10 @@ max_settlements = 3
 b_forte_jenipapo = tribal
 #b_porteirinha = city
 #b_mato_verde = temple
-#b_novorizonte = castle
+#b_novorizonte = tribal
 #b_ferreiropolis = city
 #b_rubelita = temple
-#b_fruta_de_leite = castle
+#b_fruta_de_leite = tribal
 
 # Misc
 culture = espinhaco
