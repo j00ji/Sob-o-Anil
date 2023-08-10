@@ -594,6 +594,11 @@ GOD_JAH;Jah;;;;;;;;;;;;;x
 GOD_RASTAFARI;Ras Tafari;;;;;;;;;;;;;x
 PROPHET_GARVEY;Garvey;;;;;;;;;;;;;x
 BABYLON;Babylon;;;;;;;;;;;;;x
+ODU_IFA;Odu Ifá;;;;;;;;;;;;;x
+VODUNCE;Vodunce;;;;;;;;;;;;;x
+GOD_THE_ENCANTADOS;The Encantados;;;;;;;;;;;;;x
+GOD_JUREMA;Juerma Sagrada;;;;;;;;;;;;;x
+GOD_GOOD_MASTERS;The Good Masters;;;;;;;;;;;;;x
 
 manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
 manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x
@@ -743,6 +748,16 @@ temple_count_female_farrapo;Milongueira;;;;;;;;;;;;;x
 temple_duke_farrapo;Grão-Milongueiro;;;;;;;;;;;;;x
 temple_duke_female_farrapo;Grã-Milongueira;;;;;;;;;;;;;x
 job_spymaster_carioca;Xisnove;;;;;;;;;;;;;x
+temple_baron_camdomble;Babalorisha;Babalorisha;Babalorisha;;Babalorisha;;;;;;;;;x
+temple_baron_female_camdomble;Iyalorisha;Iyalorisha;Iyalorisha;;Iyalorisha;;;;;;;;;x
+temple_count_camdomble;Babalorisha;Babalorisha;Babalorisha;;Babalorisha;;;;;;;;;x
+temple_count_female_camdomble;Iyalorisha;Iyalorisha;Iyalorisha;;Iyalorisha;;;;;;;;;x
+temple_duke_camdomble;Nla Babalorisha;Nla Babalorisha;Nla Babalorisha;;Nla Babalorisha;;;;;;;;;x
+temple_duke_female_camdomble;Nla Iyalorisha;Nla Iyalorisha;Nla Iyalorisha;;Nla Iyalorisha;;;;;;;;;x
+temple_king_camdomble;Babalorisha;Babalorisha;Babalorisha;;Babalorisha;;;;;;;;;x
+temple_king_female_camdomble;Iyalorisha;Iyalorisha;Iyalorisha;;Iyalorisha;;;;;;;;;x
+temple_emperor_camdomble;Babalorisha;Babalorisha;Babalorisha;;Babalorisha;;;;;;;;;x
+temple_emperor_female_camdomble;Iyalorisha;Iyalorisha;Iyalorisha;;Iyalorisha;;;;;;;;;x
 
 ###Traits;;;;;;;;;;;;;;
 caste_fixed;Fixed Mode;;;;;;;;;;;;;x

@@ -191,30 +191,30 @@ lagoano_opinion;Lagoano Opinion;;;;;;;;;;;;;x
 natalense_opinion;Natalense Opinion;;;;;;;;;;;;;x
 andean_native_opinion;Andean Native Opinion;;;;;;;;;;;;;x
 ###CULTURAL TITLES
-#count_paulista;Viscount;;;;;;;;;;;;;x
-#count_female_paulista;Viscountess;;;;;;;;;;;;;x
-#county_paulista;Viscounty;;;;;;;;;;;;;x
-#county_of_paulista;Viscounty of;;;;;;;;;;;;;x
-#duke_paulista;Marquis;;;;;;;;;;;;;x
-#duke_female_paulista;Marchioness;;;;;;;;;;;;;x
-#duchy_paulista;March;;;;;;;;;;;;;x
-#duchy_of_paulista;March of;;;;;;;;;;;;;x
-family_palace_baron_paulista;Magnate;;;;;;;;;;;;;x
+count_paulista;Viscount;;;;;;;;;;;;;x
+count_female_paulista;Viscountess;;;;;;;;;;;;;x
+county_paulista;Viscounty;;;;;;;;;;;;;x
+county_of_paulista;Viscounty of;;;;;;;;;;;;;x
+duke_paulista;Marquis;;;;;;;;;;;;;x
+duke_female_paulista;Marchioness;;;;;;;;;;;;;x
+duchy_paulista;March;;;;;;;;;;;;;x
+duchy_of_paulista;March of;;;;;;;;;;;;;x
+family_palace_baron_paulista;Oligarch;;;;;;;;;;;;;x
 city_count_paulistano;Oligarch;;;;;;;;;;;;;x
-city_duke_paulistano;Magister;;;;;;;;;;;;;x
-city_king_paulistano;Consul;;;;;;;;;;;;;x
-city_emperor_paulistano;Grand Consul;;;;;;;;;;;;;x
+city_duke_paulistano;Prefect;;;;;;;;;;;;;x
+city_king_paulistano;Governor;;;;;;;;;;;;;x
+city_emperor_paulistano;President;;;;;;;;;;;;;x
 city_county_of_paulistano;Oligarchy of;;;;;;;;;;;;;x
-city_duchy_of_paulistano;Magistrate of;;;;;;;;;;;;;x
-city_kingdom_of_paulistano;Consulate of;;;;;;;;;;;;;x
-city_empire_of_paulistano;Grand Consulate of;;;;;;;;;;;;;x
+city_duchy_of_paulistano;Prefecture of;;;;;;;;;;;;;x
+city_kingdom_of_paulistano;Governorship of;;;;;;;;;;;;;x
+city_empire_of_paulistano;Republic of;;;;;;;;;;;;;x
 count_mineiro_group;Viscount;;;;;;;;;;;;;x
 count_female_mineiro_group;Viscountess;;;;;;;;;;;;;x
 county_mineiro_group;Viscounty;;;;;;;;;;;;;x
 county_of_mineiro_group;Viscounty of;;;;;;;;;;;;;x
 duke_mineiro_group;Marquis;;;;;;;;;;;;;x
 duke_female_mineiro_group;Marchioness;;;;;;;;;;;;;x
-duchy_mineiro_group;March;;;;;;;;;;;;;x
+duchy_mineiro_group;March;;;;;;;;;;;;;@
 duchy_of_mineiro_group;March of;;;;;;;;;;;;;x
 duke_salvadorense;Prince;;;;;;;;;;;;;x
 duke_female_salvadorense;Princess;;;;;;;;;;;;;x

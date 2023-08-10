@@ -10893,8 +10893,10 @@
 	father = 110602
 	mother = 110603
 	
-	trait = indolent
+	trait = strong
+	trait = rowdy
 	trait = affectionate
+	trait = willful
 	
 	martial = 4
 	diplomacy = 4

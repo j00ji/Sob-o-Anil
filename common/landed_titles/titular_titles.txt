@@ -174,7 +174,7 @@ k_ribeira = {
 	title_female = "GRAND_DUCHY_RULER_FEMALE"
 	
 	allow = {
-		culture = londrano
+		culture = paranapanense
 		has_landed_title = d_ribeira
 		has_landed_title = d_itapeva
 		realm_size = 25

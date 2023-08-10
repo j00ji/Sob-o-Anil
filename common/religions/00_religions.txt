@@ -869,6 +869,21 @@ cult_of_saints= {
 }
 
 eastern_group = {
+	graphical_culture = indiangfx
+	playable = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2	# always try to convert
+	
+	color = { 0.8 0.4 0.0 }
+	
+	interface_skin = { indian_interface muslim_interface }
+	
+	# Names given only to Indian characters (base names)
+	male_names = {
+	}
+	female_names = {
+	}
 	
 	buddhism = {
 		has_coa_on_barony_only = yes
@@ -2382,7 +2397,8 @@ syncretic_group = {
 		piety_name = PURITY
 	}
 	umbanda = {
-		graphical_culture = umbanda
+		graphical_culture = africangfx
+        secondary_event_pictures = west_african_pagan
 		
 		icon = 68
 		
@@ -2432,67 +2448,71 @@ syncretic_group = {
 		intermarry = amazonian_jews
 	}
 	jurema = {
-		graphical_culture = umbanda
-		
-		icon = 81
-		heresy_icon = 81
-		
-		color = { 0.1 0.7 0.3 }
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = SONGS_OF_JUREMA
-		priest_title = PAJE
-		
-		high_god_name = GOD_IDK #ALL NAMES ARE WIP
-		
-		god_names = {
-			GOD_PURE_SPIRITS GOD_GOOD_SPIRITS
-		}
-		evil_god_names = {
-			GOD_BAD_SPIRITS
-		}
-		
-		priests_can_marry = yes
-		female_temple_holders = yes
-		allow_looting = yes
-		allow_rivermovement = yes
-		can_demand_religious_conversion = no
-		#aggression = 2.0 # AI aggression factor
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		piety_name = PURITY
-	}
+        graphical_culture = africangfx
+
+        icon = 81
+        heresy_icon = 81
+
+        color = { 0.1 0.7 0.3 }
+        crusade_name = GREAT_HOLY_WAR
+        scripture_name = SONGS_OF_JUREMA
+        priest_title = MASTER
+
+        high_god_name = GOD_DEUS
+
+        god_names = {
+            GOD_JUREMA GOD_PURE_SPIRITS GOD_GOOD_MASTERS GOD_THE_ENCANTADOS GOD_THE_SAINTS
+        }
+        evil_god_names = {
+            GOD_BAD_SPIRITS
+        }
+
+        priests_can_marry = yes
+        female_temple_holders = yes
+        allow_looting = yes
+        allow_rivermovement = yes
+        can_demand_religious_conversion = no
+        #aggression = 2.0 # AI aggression factor
+
+        religious_clothing_head = 3
+        religious_clothing_priest = 3
+        piety_name = PURITY
+    }
 	tambor = {
-		graphical_culture = umbanda
-		
-		icon = 81
+        graphical_culture = africangfx
+        secondary_event_pictures = west_african_pagan
+
+        icon = 81
 		heresy_icon = 81
-		
-		color = { 0.5 0.35 0.15 }
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = SONGS_OF_JUREMA
-		priest_title = PAJE
-		
-		high_god_name = GOD_IDK #ALL NAMES ARE WIP
-		
-		god_names = {
-			GOD_PURE_SPIRITS GOD_GOOD_SPIRITS
-		}
-		evil_god_names = {
-			GOD_BAD_SPIRITS
-		}
-		
-		priests_can_marry = yes
-		female_temple_holders = yes
-		allow_looting = yes
-		allow_rivermovement = yes
-		can_demand_religious_conversion = no
-		#aggression = 2.0 # AI aggression factor
-		
-		religious_clothing_head = 3
-		religious_clothing_priest = 3
-		piety_name = PURITY
-	}
+
+        color = { 0.5 0.35 0.15 }
+
+        interface_skin = { afro_syncretic_interface zoroastrian_interface muslim_interface }
+
+        crusade_name = GREAT_HOLY_WAR
+        scripture_name = ODU_IFA
+        priest_title = VODUNCE
+
+        high_god_name = GOD_OLORUN
+
+        god_names = {
+            GOD_THE_ORICHAS GOD_THE_ENCANTADOS GOD_OLODUMARE
+        }
+        evil_god_names = {
+            THE_LEFT_SPIRITS
+        }
+
+        priests_can_marry = yes
+        female_temple_holders = yes
+        allow_looting = yes
+        allow_rivermovement = yes
+        can_demand_religious_conversion = no
+        #aggression = 2.0 # AI aggression factor
+
+        religious_clothing_head = 3
+        religious_clothing_priest = 3
+        piety_name = ASHE
+    }
 	rastafarian = {
 		graphical_culture = africangfx
 
