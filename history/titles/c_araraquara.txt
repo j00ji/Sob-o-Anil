@@ -6,7 +6,7 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2366.1.1 = {#end of the mineiros
-	holder = 110707 #Hiro Koma
-	liege = d_medio_tiete
+2360.1.1 = {#end of the mineiros
+	holder = 110722 #Yudi
+	liege = d_rio_preto
 }

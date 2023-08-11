@@ -10,9 +10,12 @@
 	holder = 110685 #Rodrigo I Desterro
 	liege = k_minas_gerais
 }
-2348.11.3 = { 
-	holder = 110687 #Rodrigo II Desterro
+2332.11.3 = { 
+	holder = 590052 #Gilberto, part of the invading force is awarded the duchy
+}
+2357.1.1={
+	holder = 590051 #Hermes Pereira inherits it
 }
 2364.3.13 = {
-	holder = 590051 #Hermes Pereira
+	liege = 0 #Hermes embraces
 }

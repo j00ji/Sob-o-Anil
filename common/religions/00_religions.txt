@@ -696,7 +696,9 @@ christian = {
 		priests_can_inherit = no
 		allow_rivermovement = yes
 		rel_head_defense = yes 
-
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
 	}
 	
 
@@ -973,7 +975,7 @@ eastern_group = {
 
 	theosophist = {
 		has_coa_on_barony_only = yes
-		graphical_culture = buddhistgfx
+		#graphical_culture = buddhistgfx
 		secondary_event_pictures = sunni
 
 		icon = 29
@@ -1017,7 +1019,7 @@ eastern_group = {
 	
 	johrei = {
 		has_coa_on_barony_only = yes
-		graphical_culture = buddhistgfx
+		graphical_culture = chinesegfx
 		secondary_event_pictures = sunni
 
 		icon = 77

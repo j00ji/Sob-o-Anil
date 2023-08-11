@@ -319,7 +319,7 @@
     trait=diligent
     trait=zealous
     trait=chaste
-    2339.1.1={birth=yes}
+    2339.1.1={birth=yes culture=guayasense}
     2400.1.1={death=yes}
 }
 #Countess of Esmeraldas and Tumaco
@@ -359,7 +359,7 @@
     learning=2
     trait=brooding
     trait=willful
-    2360.1.1={birth=yes culture=black}
+    2360.1.1={birth=yes culture=guayasense}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -379,7 +379,7 @@
     learning=2
     trait=twin
     trait=willful
-    2362.1.1={birth=yes culture=black}
+    2362.1.1={birth=yes culture=guayasense}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -399,7 +399,7 @@
     learning=2
     trait=twin
     trait=brooding
-    2362.1.1={birth=yes culture=black}
+    2362.1.1={birth=yes culture=guayasense}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -419,7 +419,7 @@
     learning=2
     trait=fair
     trait=idolizer
-    2363.1.1={birth=yes culture=black}
+    2363.1.1={birth=yes culture=guayasense}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -439,7 +439,7 @@
     learning=2
     trait=twin
     trait=indolent
-    2364.1.1={birth=yes culture=black}
+    2364.1.1={birth=yes culture=guayasense}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -459,7 +459,7 @@
     learning=2
     trait=twin
     trait=curious
-    2364.1.1={birth=yes culture=black}
+    2364.1.1={birth=yes culture=guayasense}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -478,7 +478,7 @@
     intrigue=2
     learning=2
     trait=timid
-    2366.1.1={birth=yes culture=black}
+    2366.1.1={birth=yes culture=guayasense}
     2400.1.1={death=yes}
 }
 #Daughter of Paola Rivas and Carlos Holguín
@@ -1915,7 +1915,7 @@
 #Duchy of Arequipa
 860092 = {
     name="Martín"
-    dynasty=500029 # Paulet
+    dynasty=500028 # Paulet
     culture=arequipeno
     religion=catholic
     martial=5
@@ -1938,7 +1938,7 @@
 
 860093 = {
     name="Ramon"
-    dynasty=500029 # Paulet
+    dynasty=500028 # Paulet
     culture=arequipeno
     religion=catholic
 	father=860092
@@ -1956,7 +1956,7 @@
 
 860094 = {
     name="Isaac"
-    dynasty=500029 # Paulet
+    dynasty=500028 # Paulet
     culture=arequipeno
     religion=catholic
     martial=2
@@ -2266,7 +2266,7 @@
 860109 = {
     name="Arturo"
     dynasty=500039 # Velásquez
-    culture=ileno
+    culture=black
     religion=chicha
     martial=3
     diplomacy=4
@@ -2279,7 +2279,7 @@
     trait=gregarious
     trait=humble
     trait=kind
-    2325.1.1={birth=yes}
+    2325.1.1={birth=yes culture=ileno}
 	2357.1.1={add_spouse=860110}
     2400.1.1={death=yes}
 }

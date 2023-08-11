@@ -1222,7 +1222,7 @@
 	
 	2337.9.2 = {
 		birth = yes
-		culture = americano
+		culture = camponeto
 	}
 	2400.1.1={death=yes}
 }
@@ -11425,7 +11425,7 @@
 	name = "Jorge"
 	dynasty = 55041 # Mackenzie
 	religion = evangelical
-	culture = teuto_paulista
+	culture = americano
 	
 	trait = thrifty_clerk
 	trait = branch_presbyterian
@@ -11447,7 +11447,7 @@
 	name = "Lucas"
 	dynasty = 55041 # Mackenzie
 	religion=evangelical
-	culture = teuto_paulista
+	culture = americano
 	father = 110670
 	
 	trait = skilled_tactician
@@ -11471,7 +11471,7 @@
 	name = "Leonardo"
 	dynasty = 55041 # Mackenzie
 	religion=evangelical
-	culture = teuto_paulista
+	culture = americano
 	father = 110670
 	
 	trait = mastermind_theologian
@@ -11850,7 +11850,7 @@
 	trait = duelist
 	trait = wroth
 	trait = proud
-	trait = sympathy_christendom
+	trait = zealous
 	
 	2323.2.5 = {
 		birth = yes
@@ -12545,4 +12545,197 @@
 		death=yes
 	}
 	#ruler of São José dos Campos
+}
+
+##Kachigumi Family
+110722 = {
+	name = "Yudi"
+	dynasty = 55044 #Kachigumi
+	culture = kyusei
+	religion = johrei
+	dna="ciika0ba0a0"
+	properties="ci0ldj00000000000000000000000000000"
+	trait=flamboyant_schemer
+	trait=proud
+	trait=impaler
+	trait=wroth
+	
+	diplomacy=3
+	martial=7
+	stewardship=4
+	intrigue=6
+	learning=5
+	
+	2349.10.20 = {
+		birth = yes
+	}
+	2367.1.1={
+		add_spouse=110723
+	}
+	2400.1.1 = {
+		death=yes
+	}
+	#ruler of Araraquara vassal of Rio Preto
+}
+
+110723 = {
+	name = "Priscila"
+	dynasty = 0
+	culture = kyusei
+	religion = johrei
+	female=yes
+	trait=scholarly_theologian
+	trait=kind
+	trait=charitable
+	
+	diplomacy=6
+	martial=1
+	stewardship=6
+	intrigue=1
+	learning=5
+	
+	2350.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death=yes
+	}
+}
+
+#Bento Family
+110724 = {
+	name = "Antônio"
+	dynasty = 55045 #Bento
+	culture = caipira
+	religion = johrei
+	dna="ciiaa0ba0a0"
+	roperties="cl0kck000000000000000000000000000000"
+
+	trait=tough_soldier
+	trait=kind
+	trait=charitable
+	trait=slow
+	trait=robust
+	
+	diplomacy=10
+	martial=10
+	stewardship=10
+	intrigue=9
+	learning=6
+	
+	2353.1.1 = {
+		birth = yes
+	}
+	2369.1.1={add_spouse = 110725 add_lover = 110725 effect = { add_rival = 110706 } }
+	2400.1.1 = {
+		death=yes
+	}
+	#ruler of aracatuba
+}
+
+110725 = {
+	name = "Rosa"
+	dynasty = 0
+	culture = caipira
+	religion = johrei
+	dna="ciiaa0ba0a0"
+	roperties="cl0kck000000000000000000000000000000"
+
+	trait=grey_eminence
+	trait=fair
+	trait=proud
+	
+	diplomacy=10
+	martial=10
+	stewardship=10
+	intrigue=9
+	learning=6
+	
+	2353.1.1 = {
+		birth = yes
+	}
+	2369.1.1={add_spouse = 110724}
+	2400.1.1 = {
+		death=yes
+	}
+	#wife of Chico Bento Reference
+}
+
+#
+
+110726 = {
+	name = "Ademar"
+	dynasty = 55046 #Abobrinha
+	culture = caipira
+	religion = johrei
+	
+	trait=midas_touched
+	trait=diligent
+	trait=patient
+	
+	diplomacy=6
+	martial=7
+	stewardship=8
+	intrigue=6
+	learning=4
+	
+	2321.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#ruler of Andradina, duke of araçatuba
+}
+
+#Rodrigues
+
+110727 = {
+	name = "Samuel"
+	dynasty = 55047 #Rodrigues
+	culture = caipira
+	religion = johrei
+	
+	trait=brilliant_strategist
+	trait=strong
+	trait=scarred
+	trait=duelist
+	trait=brave
+	trait=ambitious
+	trait=cynical
+	trait=cruel
+	trait=proud
+	
+	2344.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#ruler of adamantina and dracena
+}
+
+110728 = {
+	name = "Washington"
+	dynasty = 55048 #de Morais
+	culture = caipira
+	religion = johrei
+	
+	trait=fortune_builder
+	trait=proud
+	trait=greedy
+	trait=diligent
+	
+	2331.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#ruler of Presidente Prudente
+}
+
+110729 = {
+	name = "Jeca"
+	dynasty = 55049 #Mazzaropi
+	culture = caipira
+	religion = johrei
+	
+	trait=indulgent_wastrel
+	trait=slothful
+	trait=uncouth
+	trait=humble
+	trait=dull
+	
+	2335.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#ruler of Rosana
 }

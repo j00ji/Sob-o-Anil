@@ -5,3 +5,7 @@
 800.1.1={
 	liege=k_sao_paulo
 }
+2360.1.1 = {
+	holder = 110724 #Chico Bento Reference
+	liege = d_aracatuba
+}

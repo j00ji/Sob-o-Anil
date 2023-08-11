@@ -399,17 +399,19 @@
 }	
 70019={
 	name="Bernardo"
-	dynasty=35018
+	dynasty=55041 # Mackenzie
+	dna="00cha0gb000"
+	properties="wn0hn000000000000000000000000000000"
 	religion=evangelical
-	culture=carioca
+	culture=americano
 	add_trait=skilled_tactician
-	add_trait=branch_methodist
+	add_trait=branch_presbyterian
 	add_trait=brave
 	add_trait=stubborn
 	add_trait=deceitful
 	add_trait=lustful
 	
-	2342.10.5={birth=yes}
+	2342.10.5={birth=yes culture=carioca}
 	2400.1.1={death=yes}
 }
 70020={

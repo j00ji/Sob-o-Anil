@@ -545,7 +545,100 @@
 		}
 	}
 }
+55044 = {
+	name = "Kachigumi" #dirty hearts
+	culture = kyusei
+	religion = johrei
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = johrei
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 49
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+55045 = {
+	name = "Bento" #Chico Bento reference
+	culture = caipira
+	religion = johrei
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = johrei
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+	
+55046 = {
+	name = "Abobrinha" #Chico Bento reference
+	culture = caipira
+	religion = johrei
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = johrei
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 45
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
+55047 = {
+	name = "Rodrigues" #Jetstream Sam
+	culture = caipira
+	religion = johrei
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = johrei
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 48
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+55048 = {
+	name = "de Morais"
+	culture = caipira
+	religion = johrei
+	can_appear = no
+	used_for_random = no
+}
+
+55049 = {
+	name = "Mazzaropi"
+	culture = caipira
+	religion = johrei
+	can_appear = no
+	used_for_random = no
+}
 ####################
 ####Random Paulistano Surnames
 ####Based on all state representatives of São Paulo

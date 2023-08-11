@@ -272,7 +272,7 @@
 }
 
 590013 = {
-	name = "Mozart"
+	name = "Amadeu"
 	dynasty = 265682 #Pena
 	religion = terra_benta
 	culture = auriferro
@@ -980,14 +980,34 @@
 	name = "Hermes"
 	dynasty = 265016 #Pereira #Seya
 	culture = auriferro
-	religion = terra_benta
-	secret_religion = johrei
-	
+	religion = johrei
+	father = 590052
+	dna="aaifb0i0cb0"
+	properties="fm0fhb000000000000000000000000000000"
+
 	trait = skilled_tactician
 	trait = ambitious
-	trait = sympathy_eastern
+	trait = gregarious
+	trait = diligent
+	trait = zealous
+	#trait = sympathy_eastern
 	
 	2334.7.27={birth=yes culture = caipira}
 	2400.1.1={death=yes}
 	#duke of Rio Preto, holds s jose do rio preto and novo horizonte
+}
+
+590052 = {
+	name = "Gilberto"
+	dynasty = 265016 #Pereira #Seya
+	culture = auriferro
+	religion = terra_benta
+	
+	trait = tough_soldier
+	trait = inspiring_leader
+	trait = sympathy_eastern
+	
+	2300.4.17={ birth=yes }
+	2357.1.1={death=yes}
+	#Former duke of Rio Preto, was awarded his titles following the Mineiro Invasion
 }

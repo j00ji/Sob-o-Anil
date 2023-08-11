@@ -40,7 +40,7 @@
 } 
 
 60003 = {
-	name = "Lee"
+	name = "Holzmann"
 	culture = americano
 	religion = apostolic
 	can_appear = no

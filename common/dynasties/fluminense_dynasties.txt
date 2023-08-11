@@ -73,9 +73,22 @@
 }
 
 35013 = {
-	name = "de Paiva"
+	name = "Casmurro"
 	culture = carioca
 	religion = evangelical
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 35014 = {
@@ -228,6 +241,19 @@
 35039 = {
 	name = "Maddi"
 	culture = carioca
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 35040 = {
 	name = "Barreto"
@@ -378,6 +404,19 @@
 40026 = {
 	name = "Alves"
 	culture = mantiqueiro
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 40027 = {
 	name = "Teixeira"
@@ -584,6 +623,17 @@
 45028 = {
 	name = "Suiebodisce"
 	culture = pomerisch
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 46
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 50001 = {
 	name = "Camanho"
@@ -704,6 +754,19 @@
 50030 = {
 	name = "Campana"
 	culture = capixaba
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 50031 = {
 	name = "Conceição"
