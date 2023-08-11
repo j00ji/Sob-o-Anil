@@ -12638,6 +12638,7 @@
 	dynasty = 0
 	culture = caipira
 	religion = johrei
+	female=yes
 	dna="ciiaa0ba0a0"
 	roperties="cl0kck000000000000000000000000000000"
 
