@@ -4865,8 +4865,8 @@
 	trait = diligent
 	
 	diplomacy = 5
-	martial = 4
-	stewardship = 6
+	martial = 9
+	stewardship = 10
 	intrigue = 4
 	learning = 5
 	
@@ -12920,6 +12920,7 @@
 	dynasty = 55051 #Pinguim
 	culture = teuto_paulista
 	religion = anchietican
+	female = yes
 	father = 110737
 	trait = charismatic_negotiator
 	2350.1.1={birth=yes culture=caipira}
