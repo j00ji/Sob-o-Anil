@@ -8,7 +8,6 @@
 }
 2101.10.7 = {
 	holder = 110078 #Bruno Cubas
-	liege = d_grande_sao_paulo
 }
 2133.1.10 = {
 	holder = 110051 #Damião de Andrade
@@ -21,7 +20,10 @@
 }
 2212.10.1 = {
 	holder = 110148 # Adriano Silva Prado
-}	
+}
+2213.7.9 = {
+	liege = 0
+}
 2233.7.21 = {
 	holder = 110085 #Emanuel Cubas
 }
@@ -69,7 +71,6 @@
 }
 2364.12.3 = {
 	holder = 110443 #Guilherme Ramalho
-	liege = none
 }
 2368.3.1 = {
 	holder = 110161 #Henrique Lombrdi-Stucchi

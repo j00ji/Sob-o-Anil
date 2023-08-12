@@ -10918,7 +10918,7 @@
 
 110650 = {
 	name = "Tobias"
-	dynasty = 65647
+	dynasty = 65647 #de Aguiar
 	religion = anchietican
 	culture = camponeto
 	father=110651
@@ -10933,11 +10933,12 @@
 	2356.5.22 = {
 		death = yes
 	}
+	#was awarded the Duchy of Sorocaba by the Cananeia dynasty
 }
 
 110651 = {
 	name = "Rafael"
-	dynasty = 65647
+	dynasty = 65647 #de Aguiar
 	religion = anchietican
 	culture = camponeto
 	father=110652
@@ -10957,7 +10958,7 @@
 
 110652 = {
 	name = "Daniel"
-	dynasty = 65647
+	dynasty = 65647 #de Aguiar
 	religion = anchietican
 	culture = camponeto
 	father=110653
@@ -10973,12 +10974,11 @@
 	2279.1.1 = {
 		death = yes
 	}
-	#first of the fmaily to rule the duchy of Sorocaba
 }
 
 110653 = {
 	name = "Martinez"
-	dynasty = 65647
+	dynasty = 65647 #de Aguiar
 	religion = anchietican
 	culture = camponeto
 	father=110654
@@ -10996,29 +10996,35 @@
 			death_reason = death_murder
 		}
 	}
+	#Second Duke of Sorocaba, ends up losing it to the Cabanas family
 }
 
 110654 = {
 	name = "Conte"
-	dynasty = 65647
+	dynasty = 65647 #de Aguiar
 	religion = anchietican
-	culture = camponeto
-	
+	culture = paulistano
+	father=110656
 	trait=intricate_webweaver
 	trait=brave
-	trait=honest
+	trait=cruel
+	trait=arbitrary
 	
 	2184.8.2 = {
 		birth=yes
 	}
+	2200.1.1={
+		effect = { give_nickname = nick_the_tyrant }
+	}
 	2223.8.5 = {
 		death = yes
 	}
+	#Second known King of São Paulo, considered a Tyrant was deposed by the Urban elites in the form of the Paulistan Federation, having to flee to his stronghold in Sorocaba
 }
 
 110655 = {
 	name = "Maria"
-	dynasty = 65647
+	dynasty = 65647 #de Aguiar
 	religion = anchietican
 	culture = camponeto
 	female=yes
@@ -11032,9 +11038,22 @@
 	}
 }
 
+110656 = {
+	name = "Israel"
+	dynasty = 65647 #de Aguiar
+	religion = anchietican
+	culture = paulistano
+	
+	trait=tough_soldier
+	
+	2159.1.1={birth=yes}
+	2200.1.1={death=yes}
+	#oldest known King of São Paulo
+}
+
 110605 = {
 	name = "Diogo"
-	dynasty = 65647
+	dynasty = 65647 #de Aguiar
 	religion = anchietican
 	culture = camponeto
 	father=110650
@@ -11122,16 +11141,75 @@
 	2400.1.1={death=yes}
 }
 
-## End of Magalhães Dynasty ##
+## End of de Itu Dynasty ##
 
 ## Cananeia Dynasty ##
 
-110615 = {
-	name = "Cosme"
-	dynasty = 77501
-	religion = anchietican #needs to be changed to Johrei
+110611 = {
+	name = "João"
+	dynasty = 77501 #cananeia
+	religion = anchietican
 	culture = caicara
 	
+	trait = underhanded_rogue
+	
+	2215.1.1={ birth=yes }
+	2255.1.1={ death=yes }
+	#ruler of Cananeia, vassal of Santos
+}
+
+110612 = {
+	name = "Cosme"
+	dynasty = 77501 #cananeia
+	religion = anchietican
+	culture = caicara
+	
+	trait = midas_touched
+	trait = diligent
+	trait = content
+	
+	2235.1.1={ birth=yes }
+	2283.1.1={ death=yes }
+	#Duke of Ribeira, vassal of Santos
+}
+
+110613 = {
+	name = "Martim"
+	dynasty = 77501 #cananeia
+	religion = anchietican
+	culture = caicara
+	
+	trait = brilliant_strategist
+	trait = strategist
+	trait = unyielding_leader
+	trait = ambitious
+	
+	2262.1.1={birth=yes}
+	2300.1.1={death=yes}
+	#founder of the Kingdom of Ribeira
+}
+
+110614 = {
+	name = "Cosme"
+	dynasty = 77501 #cananeia
+	religion = anchietican
+	culture = caicara
+	
+	trait = fortune_builder
+	trait = just
+	
+	2390.1.1={birth=yes}
+	2323.1.1={add_spouse = 110241} #Matarazzo family member
+	2337.1.1={death = { death_reason = death_battle killer = 110685 }}
+	#second King of Ribeira
+}
+
+110615 = {
+	name = "Cosme"
+	dynasty = 77501 #cananeia
+	religion = anchietican 
+	culture = caicara
+	father = 110614
 	disallow_random_traits = yes
 	trait = genius
 	trait = disfigured
@@ -11142,6 +11220,8 @@
 	trait = proud
 	trait = ambitious
 	trait = elusive_shadow
+	trait = excommunicated
+	trait = depressed
 	
 	martial = 10
 	diplomacy = 4
@@ -11168,7 +11248,37 @@
 	2344.3.6 = {
 		give_nickname = nick_the_bachelor
 	}
+	2364.1.1={
+		effect = {
+			add_claim = d_itapeva
+			add_weak_claim = d_sorocaba
+		}
+	}
 	2400.1.1={death=yes}
+}
+
+110616 = {
+	name = "Lucas"
+	dynasty = 77501 #Cananeia
+	culture = caicara
+	father=110615
+	mother=110616
+	disallow_random_traits = yes
+	trait = brave
+	trait = just
+	trait = zealous
+	trait = wroth
+	trait = kind
+	trait = charitable
+	trait = duelist
+	trait = stubborn
+	
+	2343.1.1{birth = yes}
+	2360.1.1={culture = paranapanense}
+	2364.1.1={effect = { add_rival = 110615 }}
+	2400.1.1={death=yes}
+	#son of Cosme, revolted against his own father due to his betrayal of the Paulista cause together with the Duke of Sorocaba
+	#duke of Itapeva, holds itapeva and itaporanga and itapetininga
 }
 
 ## End of Cananeia Dynasty ##
@@ -11616,9 +11726,9 @@
 ## Cabanas dynasty
 
 110678 = {
-	name = "Miguel"
+	name = "Luís"
 	dynasty=66101 #Cabanas
-	religion = anchietican
+	religion = liberationist #either this or Apostolic...
 	culture = camponeto
 	
 	trait = brilliant_strategist
@@ -11632,13 +11742,13 @@
 	2252.1.1 = {
 		death = yes
 	}
-	#leader of Sorocaba prior to the de Aguiars
+	#Conqueror of Sorocaba
 }
 
 110679 = {
 	name = "Alfredo"
 	dynasty = 66101 #Cabanas
-	religion = anchietican
+	religion = liberationist
 	culture = camponeto
 	father = 110678
 	trait = amateurish_plotter
@@ -11650,12 +11760,13 @@
 	2290.4.23 = {
 		death = yes
 	}
+	#second Cabanas ruler of Sorocaba
 }
 
 110680 = {
 	name = "Isidoro"
 	dynasty = 66101 #Cabanas
-	religion = apostolic #maybe
+	religion = liberationist 
 	culture = camponeto
 	father = 110679
 	trait = tough_soldier
@@ -11668,12 +11779,13 @@
 	2343.1.1 = {
 		death = yes
 	}
+	#lost Sorocaba to the Kingdom of Ribeira
 }
 
 110681 = {
 	name = "João"
 	dynasty = 66101 #Cabanas
-	religion = apostolic #maybe
+	religion = liberationist
 	culture = camponeto
 	father = 110680
 	trait = brilliant_strategist
@@ -11701,7 +11813,7 @@
 110682 = {
 	name = "Fernanda"
 	dynasty = 66101 #Cabanas
-	religion = apostolic #maybe
+	religion = liberationist
 	culture = camponeto
 	father = 110680
 	trait = elusive_shadow
@@ -12008,6 +12120,9 @@
 	2332.5.5 = {
 		add_spouse = 110701
 	}
+	2364.3.13 = {
+		effect = { add_weak_claim = c_bauru }
+	}
 	2400.1.1 = {
 		death = yes
 	}
@@ -12104,14 +12219,12 @@
 	}
 }
 
-##Vassals of Marilia
-
 110705 = {
 	name = "Sabrina"
 	female = yes
 	dynasty = 1400003 #Makino
 	culture = kyusei
-	religion = johrei
+	religion = anchietican
 	
 	trait = charismatic_negotiator
 	trait = diligent
@@ -12124,7 +12237,7 @@
 	2400.1.1 = {
 		death = yes
 	}
-	#count of Assis, vassal of marilia
+	#count of Ourinhos, vassal of Itapeva
 }
 
 110706 = {
@@ -12147,7 +12260,7 @@
 	#holder of Lins, vassal of marilia
 }
 
-#Holder of Araraquara
+#Holder of Bauru
 
 110707 = {
 	name = "Hiro"
@@ -12172,7 +12285,6 @@
 	2400.1.1 = {
 		death = yes
 	}
-	#vassal of Médio Tietê
 }
 
 110708 = {
@@ -12269,7 +12381,7 @@
 	2400.1.1 = {
 		death = yes
 	}
-	#holder of Botucatu and avaré
+	#holder of Botucatu vassal of Itapeva
 }
 
 110712 = {
@@ -12607,9 +12719,9 @@
 	name = "Antônio"
 	dynasty = 55045 #Bento
 	culture = caipira
-	religion = johrei
-	dna="ciiaa0ba0a0"
-	roperties="cl0kck000000000000000000000000000000"
+	religion = johrei 
+	dna="0b0c00000b0"
+	properties="0l00ck000000000000000000000000000000"
 
 	trait=tough_soldier
 	trait=kind
@@ -12626,7 +12738,7 @@
 	2353.1.1 = {
 		birth = yes
 	}
-	2369.1.1={add_spouse = 110725 add_lover = 110725 effect = { add_rival = 110706 } }
+	2369.1.1={add_spouse = 110725 effect = { add_rival = 110706 add_lover = 110725 } }
 	2400.1.1 = {
 		death=yes
 	}
@@ -12688,11 +12800,12 @@
 #Rodrigues
 
 110727 = {
-	name = "Samuel"
+	name = "Samuel" #Jetstream Sam
 	dynasty = 55047 #Rodrigues
 	culture = caipira
 	religion = johrei
-	
+	dna="bb0da0g00b0"
+	properties="cc0bac000000000000000000000000000000"
 	trait=brilliant_strategist
 	trait=strong
 	trait=scarred
@@ -12729,7 +12842,8 @@
 	dynasty = 55049 #Mazzaropi
 	culture = caipira
 	religion = johrei
-	
+	dna="cdaei0b00b0"
+	properties="rm0gck000000000000000000000000000000"
 	trait=indulgent_wastrel
 	trait=slothful
 	trait=uncouth
@@ -12739,4 +12853,75 @@
 	2335.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#ruler of Rosana
+}
+
+#Matsuda Family - Street Fighter reference
+
+110730 = {
+	name = "Simão"
+	dynasty = 55050 #Matsuda
+	culture = black
+	religion = anchietican  
+	dna="0b0c00000b0"
+	properties="0l0j0j000000000000000000000000000000"
+	trait=misguided_warrior
+	trait=ambitious
+	trait=humble
+	trait=duelist
+	trait=stubborn
+	
+	2353.1.1={birth=yes culture=kyusei}
+	2400.1.1={death=yes}
+	#ruler of Avaré vassal of itapeva
+}
+
+#Pinguim Family - Former rulers of Ribeirão Preto
+
+110735 = {
+	name = "Antônio"
+	dynasty = 55051 #Pinguim
+	culture = teuto_paulista
+	religion = anchietican
+	trait = fortune_builder
+	trait = greedy
+	trait = drunkard
+	trait = groomed
+	2296.1.1={birth=yes culture=caipira}
+	2345.1.1={death=yes}
+	#former ruler of Ribeirão Preto, Barretos and São José do Rio Preto, lost it all during the Mineiro invasion
+}
+
+110736 = {
+	name = "João"
+	dynasty = 55051 #Pinguim
+	culture = teuto_paulista
+	religion = anchietican
+	father = 110735
+	trait = charismatic_negotiator
+	trait = twin
+	2329.1.1={birth=yes culture=caipira}
+	2400.1.1={death=yes}
+}
+
+110737 = {
+	name = "Adão"
+	dynasty = 55051 #Pinguim
+	culture = teuto_paulista
+	religion = anchietican
+	father = 110735
+	trait = skilled_tactician
+	trait = twin
+	2329.1.1={birth=yes culture=caipira}
+	2400.1.1={death=yes}
+}
+
+110738 = {
+	name = "Paula"
+	dynasty = 55051 #Pinguim
+	culture = teuto_paulista
+	religion = anchietican
+	father = 110737
+	trait = charismatic_negotiator
+	2350.1.1={birth=yes culture=caipira}
+	2400.1.1={death=yes}
 }

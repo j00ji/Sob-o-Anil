@@ -6,7 +6,7 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2365.2.4={
-	holder = 110677 #Giovani Rocha
-	liege = d_paranapanema
+2359.1.1={
+	holder = 110616 #Lucas
+	liege = d_itapeva
 }

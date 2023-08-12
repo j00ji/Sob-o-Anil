@@ -15,7 +15,7 @@ b_morro_do_defunto = temple
 #b_arvoao = castle
 
 # Misc
-culture = camponeto
+culture = paranapanense
 religion = anchietican
 
 #History

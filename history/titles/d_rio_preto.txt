@@ -6,6 +6,9 @@
 800.1.1={
 	liege=k_sao_paulo
 }
+2319.1.1={
+	holder = 110735 #Antônio Pinguim
+}
 2331.1.1 = { #the Mineiro Invasion
 	holder = 110685 #Rodrigo I Desterro
 	liege = k_minas_gerais
@@ -17,5 +20,5 @@
 	holder = 590051 #Hermes Pereira inherits it
 }
 2364.3.13 = {
-	liege = 0 #Hermes embraces
+	liege = 0 #Hermes embraces Johrei and is set free
 }

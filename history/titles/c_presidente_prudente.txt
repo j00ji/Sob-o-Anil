@@ -10,3 +10,9 @@
 	holder = 110728 #Washington de Morais
 	liege = 0
 }
+2364.3.13 = {
+	set_tribute_suzerain={
+		who=d_rio_preto
+		type=permanent 
+	}
+}

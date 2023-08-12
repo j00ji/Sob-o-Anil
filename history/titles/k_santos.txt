@@ -1,27 +1,30 @@
 #2193.11.2 = {
 #	holder = 110055 #Clemente de Andrade
 #}
-#2212.10.1 = {
-#	holder = 110148 # Adriano Silva Prado
-#}	
-#2233.7.21 = {
-#	holder = 110085 #Emanuel Cubas
-#}
-#2248.12.10 = {
-#	holder = 110037 #Filipe Stucchi
-#}
-#2256.7.5 = {
-#	holder = 110012 #Fabrício Lombardi
-#}
-#2263.12.1 = {
-#	holder = 110061 #Caetano de Andrade
-#}
-#2270.1.17 = {
-#	holder = 110040 #Lívio Stucchi
-#}
-#2285.8.12 = {
-#	holder = 110108 #Demétrio Schertz
-#}
+2213.7.9 = {
+	holder = 110148 # Adriano Silva Prado
+}	
+2233.7.21 = {
+	holder = 110085 #Emanuel Cubas
+}
+2248.12.10 = {
+	holder = 110037 #Filipe Stucchi
+}
+2256.7.5 = {
+	holder = 110012 #Fabrício Lombardi
+}
+2263.12.1 = {
+	holder = 110061 #Caetano de Andrade
+}
+2270.1.17 = {
+	holder = 110040 #Lívio Stucchi
+}
+2285.8.12 = {
+	holder = 110108 #Demétrio Schertz
+}
+2289.1.1 = {
+	holder = 0 #Revolt of Ribeira destroys Santista ambitions
+}
 #2300.11.7 = {
 #	holder = 110112 #Gustavo Schertz
 #}

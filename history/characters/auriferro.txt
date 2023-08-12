@@ -923,7 +923,7 @@
 	trait = light_foot_leader	
 	trait = severely_injured
 	
-	2110.11.13={birth=yes}
+	2310.11.13={birth=yes}
 	2361.1.1={death=yes}
 	#father of the three brothers
 }

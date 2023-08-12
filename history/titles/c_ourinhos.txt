@@ -6,6 +6,7 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2330.1.1 = {
-	holder = 110700 #Paulo Suzuki
+2360.1.1 = {
+	holder = 110705 #Sabrina Makino
+	liege = d_itapeva
 }

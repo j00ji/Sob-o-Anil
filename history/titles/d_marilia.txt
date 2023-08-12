@@ -9,3 +9,9 @@
 2330.1.1 = {
 	holder = 110700 #Paulo Suzuki
 }
+2364.3.13 = {
+	set_tribute_suzerain={
+		who=d_rio_preto
+		type=permanent 
+	}
+}

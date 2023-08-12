@@ -264,7 +264,7 @@
 }
 
 265016 = {
-	name = "Pereira"
+	name = "Aldebaran"
 	culture = mantiqueiro
 	religion = terra_benta
 	can_appear = no

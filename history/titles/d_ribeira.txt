@@ -6,12 +6,17 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-
-2330.12.25 = {
-	holder = 110615
-	liege = d_grande_sao_paulo
+2275.1.1={
+	holder = 110612 #Cosme de Cananeia
+	liege = k_santos
 }
-
-2343.7.9 = {
+2283.1.1 = {
+	holder = 110613 #Martim de Cananeia
 	liege = 0
+}
+2300.1.1={
+	holder = 110614 #Cosme I
+}
+2337.1.1={
+	holder = 110615 #Cosme II
 }

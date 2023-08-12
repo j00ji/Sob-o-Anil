@@ -6,15 +6,31 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2270.1.1={
-	holder = 110652 #beginning of the period of Aguiar rule in the duchy
+2176.1.1={
+	holder = 110656 #Israel de Aguiar
 }
-2279.1.1 = {
-	holder = 110651 #Rafael de Aguiar
+2200.1.1={
+	holder = 110654 #Conte de Aguiar
+}
+2213.7.9={
+	liege = 0
+}
+2223.8.5 = {
+	holder = 110653 #Martinez de Aguiar
+}
+2244.1.1={
+	holder = 110678 #Luís Cabanas
+}
+2290.4.23 = {
+	holder = 110680 #Isidoro
 }
 2319.2.23 = {
 	holder = 110650 #Tobias
+	liege = k_ribeira
 }
 2356.5.22 = { 
 	holder = 110605 #Giovani
+}
+2364.1.1 = { 
+	liege = 0
 }

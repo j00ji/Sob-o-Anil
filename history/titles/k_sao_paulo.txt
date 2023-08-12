@@ -3,21 +3,26 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-
+###OUTDATED LORE###
 # Legendary Ruler from right after the event #
+#2050.7.9={
+#	holder = 110660#Paulo de Julho, Coronel que preservou São Paulo no pós-evento
+#	#government=military_governorate
+#}
+#2071.5.6 = {
+#	holder = 110661 #Lino de Julho, he would convert São Paulo towards bureaucracy
+#	law = succ_bureaucratic_elective
+#	government = bureaucratic_government
+#}
 
-2050.7.9={
-	holder = 110660#Paulo de Julho, Coronel que preservou São Paulo no pós-evento
-	#government=military_governorate
+2176.1.1={
+	holder = 110656 #Israel de Aguiar
 }
-2071.5.6 = {
-	holder = 110661 #Lino de Julho, he would convert São Paulo towards bureaucracy
-	law = succ_bureaucratic_elective
-	government = bureaucratic_government
+2200.1.1={
+	holder = 110654 #Conte de Aguiar
 }
-
-2106.1.1={
-	holder = 0
+2213.7.9={
+	holder = 0 #he's beaten by the urban republics
 }
 2362.6.3 = { 
 	holder = 110687 #Rodrigo II Desterro

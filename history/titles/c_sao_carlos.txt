@@ -7,6 +7,5 @@
 	liege=k_sao_paulo
 }
 2363.3.13 = {#end of the mineiros
-	holder = 110683 #Antonio Capelli
-	liege = d_medio_tiete
+	holder = 110719 #Osório de Barros
 }
