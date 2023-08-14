@@ -176,6 +176,12 @@ LADY_COMMANDER;Lady-Commander;;;;;;;;;;;;;x
 GENERALSHIP;Generalship of;;;;;;;;;;;;;x
 ARCHDIOCESE;Archdiocese of;;;;;;;;;;;;;x
 
+#
+PATRIARCHATE_TITLE;Archbishophric of $TITLE$;Patriarcat de $TITLE$;Patriarchat von $TITLE$;;Patriarcado de $TITLE$;;;;;;;;;x
+AUTOCEPHALOUS_PATRIARCHS;Autocephalous Archbishops;Patriarches autocéphales;Autokephale Patriarche;;Patriarcas autocéfalos;;;;;;;;;x
+AUTOCEPHALOUS_REL_HEAD_TITLE;Archbishop;;;;;;;;;;;;;x
+AUTOCEPHALY_IRO;§YAdditional Autocephalous Archbishops§!;§YPatriarches autocéphales§!;§YZusätzliche autokephale Patriarche§!;;§YPatriacas autocéfalos adicionales§! ;;;;;;;;;x
+
 ###GODS ETC;;;;;;;;;;;;;;
 WEICHAN;Weichan;;;;;;;;;;;;;x
 ADMAPU;Admapu;;;;;;;;;;;;;x
