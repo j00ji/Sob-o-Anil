@@ -1077,10 +1077,9 @@ character_event = {
 	trigger = { 
 		OR = { 
 			has_religion_feature = religion_haruspicy
-			has_religion_feature = religion_feature_occultist
-			religion_group = mesoamerican_gods
-			religion = thelemic
-			religion = thelemic_reformed
+			religion = camdomble
+			religion = tambor
+			religion = jurema
 		} 
 		NOR = {
 			has_character_modifier = divination_crit_success
@@ -1195,6 +1194,7 @@ character_event = {
 			religion_group = mesoamerican_gods
 			religion = thelemic
 			religion = thelemic_reformed
+			religion = camdomble
 		} 
 		NOR = {
 			has_character_modifier = divination_crit_success

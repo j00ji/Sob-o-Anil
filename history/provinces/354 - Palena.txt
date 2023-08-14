@@ -16,6 +16,6 @@ b_hualaihue = castle
 
 # Misc
 culture = sureno
-religion = catholic
+religion = archipelagic
 
 #History

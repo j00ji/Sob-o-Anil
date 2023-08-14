@@ -16,6 +16,6 @@ b_ancud = city
 
 # Misc
 culture = sureno
-religion = tridentine
+religion = archipelagic
 
 #History

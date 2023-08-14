@@ -1477,7 +1477,7 @@
 	intrigue=3
 	learning=4
 	culture=sureno
-	religion=catholic
+	religion=archipelagic
 	trait=honest
 	trait=just
 	trait=humble
@@ -1502,7 +1502,7 @@
 	intrigue=5
 	learning=3
 	culture=sureno
-	religion=catholic
+	religion=archipelagic
 	trait=homosexual
 	trait=gluttonous
 	trait=kind
@@ -1525,7 +1525,7 @@
 	intrigue=3
 	learning=4
 	culture=sureno
-	religion=catholic
+	religion=archipelagic
 	trait=wroth
 	trait=diligent
 	trait=erudite
@@ -1549,7 +1549,7 @@
 	intrigue=4
 	learning=1
 	culture=sureno
-	religion=catholic
+	religion=archipelagic
 	trait=harelip
 	trait=strong
 	trait=patient
@@ -1574,7 +1574,7 @@
 	intrigue=2
 	learning=3
 	culture=sureno
-	religion=catholic
+	religion=archipelagic
 	trait=paranoid
 	trait=shrewd
 	trait=humble

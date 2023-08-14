@@ -17,8 +17,8 @@ hekura;Hekura;;;;;;;;;;;;;x
 hekura_DESC;Yanomami concepts of the soul are elaborate and sophisticated, multifaceted in fact. The most critical component of the soul is known as the moamo and lies inside the thoracic cavity, inside the liver. There is a close association the Yanomami make between “soul loss” and sickness is best exemplified in shamanistic practices. They spend several hours each day, if they are shamans, chanting to their tiny hekura spirits, enjoining them to either attack the souls of enemies or help them recover souls lost by people in their own village. This is a constant battle, and the men take hallucinogenic snuff daily to contest with their enemies through the agency of their personal hekura.;;;;;;;;;;;;;x
 apostolic;Apostolic;;;;;;;;;;;;;x
 apostolic_DESC;The Brazilian Catholic Apostolic Church split from mainstream Catholicism long before the Event over disputes regarding divorce, anti-fascism, and clerical celibacy. Bishops are elected by popular vote, as is the president. Apostolics are also known for their relative religious tolerance of other Christian faiths and even other religions.;;;;;;;;;;;;;x
-anchietican;Anchietan;;;;;;;;;;;;;x
-anchietican_DESC;Anchietans are heirs to the Catholic Church in Brazil, the predominant religion of the country for much of its history. Initially uniting under the Patriarch of South America and the Particularists, the Anchietans eventually separated over the issue of the Particularists openly sanctioning certain folk practices, allegedly violating the sacred ancient traditions of the Catholic faith, and the recurring issue of political authority. Now effectively self-governing, Anchietans claim to adhere more closely to the ancient traditions of the Catholic Church while still having influences from their own Brazilian folk traditions.;;;;;;;;;;;;;x
+anchietican;Aparecidan;;;;;;;;;;;;;x
+anchietican_DESC;Aparecidans are heirs to the Catholic Church in Brazil, the predominant religion of the country for much of its history. Initially uniting under the Patriarch of South America and the Particularists, controversies surrounding the the Particularists openly sanctioning certain folk practices and disputes regarding the very existance of the Patriarchy led to many Brazilian bishops officially repudiating the authority of the Patriarch during the Council of Aparecida. Now effectively self-governing, Aparecidans claim to adhere more closely to the ancient traditions of the Catholic Church while still having influences from their own Brazilian folk traditions.;;;;;;;;;;;;;x
 iconoclasts;Iconoclast;;;;;;;;;;;;;x
 iconoclasts_DESC;Iconoclasts represent a reaction against what they perceive as idolatry within both the Particularists and Anchietans. Issues of folk traditions and canonization of local saints split the Anchietans from the Particularists, but the Iconoclasts claim that the Anchietans are still in error for their widespread acceptance of certain folk traditions that have "pagan origins". Iconoclasts view any form of syncretism as abomination, destroying it where they can, and they await their vindication with the return of contact with Rome.;;;;;;;;;;;;;x
 peterite;Peterite;;;;;;;;;;;;;x
@@ -45,7 +45,7 @@ xabaxai_xagi;Xabaxáígio Xagí;;;;;;;;;;;;;x
 xabaxai_xagi_DESC;Xabaraxáígio Xagí combines the Cult of the Holy Spirit and indigenous beliefs, earning it the enmity of many more staunch members of the cult. The Holy Spirit is considered to manifest in the material world, sometimes taking on the shape of things in the environment such as jaguars, trees, or other visible, tangible things including people. Warding off evil spirits is also considered to be on uptmod importance by Xabaraxáígio Xagí adherents as a matter of survival.;;;;;;;;;;;;;x
 catholic;Particularist;;;;;;;;;;;;;
 catholic_DESC;Particularists are heirs of the once by far dominant faith of the continent, the Catholic Church which was battered by the chaos and the change brought by the Event. In need of greater unity and direction than ever, a union of archbishops from across South America put aside their political differences and united as a sui iuris particular Catholic Church and elected a Patriarch of South America to lead them. Originally based in Buenos Aires, the Brazilian schism and the rise of other faiths weakened the Patriarchy, eventually leading to its displacement to Santiago. While Particularists have maintained traditional Catholic Latin rites, traditional folk practices have deeply permeated it. The autonomous ecclesiastical leadership has sanctioned many of its local saints as canonical, contributing to the tensions and eventually schism with the church in Brazil.;;;;;;;;;;;;;x
-cult_of_saints;Cult Of Saints;;;;;;;;;;;;;x
+cult_of_saints;Vernacular;;;;;;;;;;;;;x
 chicha;Chicha;;;;;;;;;;;;;x
 chicha_DESC;Chicha originates not from theologians or prophets but the musicians and common people of Peru. Chicheros derive their beliefs from Christianity but have a deep focus on love, the inequality of exploitation, and community. The relationship between life and death is also a focal point of Chicha, with death rituals being of great importance. Chichero musicians are given similar respect as clergy, with the roles even intersecting at times.;;;;;;;;;;;;;x
 santa_diablada;Santa Diablada;;;;;;;;;;;;;x
@@ -156,6 +156,8 @@ tambor_DESC;The Jurema is a collection of rituals and magics of the indigenous p
 rastafarian;Rastafari;;;;;;;;;;;;;x
 rastafarian_DESC;Rastafari is a religion originating in Jamaica, inspired by both the Christian Bible and the teachings of Marcus Garvey. They believe that a pre-Event emperor from "Zion" known as Ras Tafari was the representative of Jah, or God, on Earth, and that "the Event" was the result of Jah overthrowing the wicked forces of "Babylon", allowing the world to start anew. The Rasta faith is divided into several groups, or "mansions", and the two largest Rasta Mansions in the post-apocalyptic world are Bobo Ashanti and the Twelve Tribes of Israel.;;;;;;;;;;;;;x
 rastafarian_FEATURES;§Y*§! May go on vision quests with the aid of sacramental herbs.\n§Y*§! May join Bobo Ashanti or the Twelve Tribes of Israel via a targeted decision.;;;;;;;;;;;;;x
+archipelagic;Archipelagic;;;;;;;;;;;;;x
+archipelagic_DESC;Within the Communities of the Archipelagic Rites, exists an uneasy truce. The populace and the clergy are Particularists, loyal to the Patriarca. Despite this - and the warnings of heresy from the Particularist priests, the peasantry are known to seek the services of the Brujos, men of magic, who command fear and respect from the common folk. In exchange for wealth, sheep or family members, the Brujos perform their supernatural rituals.;;;;;;;;;;;;;x
 
 ###FORM OF ADDRESS;;;;;;;;;;;;;;
 PATRIARCH;Patriarch;;;;;;;;;;;;;x
@@ -599,6 +601,9 @@ VODUNCE;Vodunce;;;;;;;;;;;;;x
 GOD_THE_ENCANTADOS;The Encantados;;;;;;;;;;;;;x
 GOD_JUREMA;Juerma Sagrada;;;;;;;;;;;;;x
 GOD_GOOD_MASTERS;The Good Masters;;;;;;;;;;;;;x
+TRAUCO;El Trauco;;;;;;;;;;;;;x
+FIURA;La Fiura;;;;;;;;;;;;;x
+CURA;Cura;;;;;;;;;;;;;x
 
 manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
 manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x

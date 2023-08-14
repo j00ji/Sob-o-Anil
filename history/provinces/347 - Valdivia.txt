@@ -16,6 +16,6 @@ b_mehuin = city
 
 # Misc
 culture = sureno
-religion = nguillatun
+religion = archipelagic
 
 #History

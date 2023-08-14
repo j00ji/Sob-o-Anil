@@ -16,6 +16,6 @@ b_llanquihue = temple
 
 # Misc
 culture = sureno
-religion = catholic
+religion = archipelagic
 
 #History

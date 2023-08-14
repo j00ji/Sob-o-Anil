@@ -16,6 +16,6 @@ b_la_union_2 = castle
 
 # Misc
 culture = sureno
-religion = catholic
+religion = archipelagic
 
 #History

@@ -1088,7 +1088,7 @@
 #		add_spouse = x
 #	} ehhhhhhhhhhhhhhhhhhhhh
 	2367.1.1 = {
-		effect={add_weak_claim = d_piracicaba}
+		effect={add_claim = d_piracicaba}
 	}
 	2400.1.1 = {
 		death = yes
@@ -11010,10 +11010,10 @@
 	trait=cruel
 	trait=arbitrary
 	
-	2184.8.2 = {
+	2180.8.2 = {
 		birth=yes
 	}
-	2200.1.1={
+	2211.1.1={
 		effect = { give_nickname = nick_the_tyrant }
 	}
 	2223.8.5 = {
@@ -11163,7 +11163,7 @@
 	dynasty = 77501 #cananeia
 	religion = anchietican
 	culture = caicara
-	
+	father=110611
 	trait = midas_touched
 	trait = diligent
 	trait = content
@@ -11178,7 +11178,7 @@
 	dynasty = 77501 #cananeia
 	religion = anchietican
 	culture = caicara
-	
+	father=110612
 	trait = brilliant_strategist
 	trait = strategist
 	trait = unyielding_leader
@@ -11194,11 +11194,11 @@
 	dynasty = 77501 #cananeia
 	religion = anchietican
 	culture = caicara
-	
+	father=110613
 	trait = fortune_builder
 	trait = just
 	
-	2390.1.1={birth=yes}
+	2290.1.1={birth=yes}
 	2323.1.1={add_spouse = 110241} #Matarazzo family member
 	2337.1.1={death = { death_reason = death_battle killer = 110685 }}
 	#second King of Ribeira
@@ -11209,7 +11209,8 @@
 	dynasty = 77501 #cananeia
 	religion = anchietican 
 	culture = caicara
-	father = 110614
+	father=110614
+	mother=110241
 	disallow_random_traits = yes
 	trait = genius
 	trait = disfigured
@@ -11261,6 +11262,7 @@
 	name = "Lucas"
 	dynasty = 77501 #Cananeia
 	culture = caicara
+	religion = anchietican
 	father=110615
 	mother=110616
 	disallow_random_traits = yes

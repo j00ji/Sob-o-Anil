@@ -868,6 +868,29 @@ cult_of_saints= {
 		
 		color = { 0.68 0.1 0.2 }
 	}
+	
+	archipelagic = {
+		graphical_culture = westerngfx
+		
+		icon = 84
+		
+		color = { 0.3 0.7 0.55 }
+		
+		scripture_name = THE_BIBLE
+		priest_title = CURA
+		
+		high_god_name = GOD_DIOS 
+		
+		god_names = {
+			GOD_DIOS GOD_JESUS GOD_HOLY_SPIRIT GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			THE_DEVIL TRAUCO FIURA
+		}
+		
+		
+	}
 }
 
 eastern_group = {
@@ -2484,8 +2507,8 @@ syncretic_group = {
         graphical_culture = africangfx
         secondary_event_pictures = west_african_pagan
 
-        icon = 81
-		heresy_icon = 81
+        icon = 83
+		heresy_icon = 83
 
         color = { 0.5 0.35 0.15 }
 

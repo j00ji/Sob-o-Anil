@@ -16,6 +16,6 @@ b_puerto_varas = castle
 
 # Misc
 culture = sureno
-religion = catholic
+religion = archipelagic
 
 #History
