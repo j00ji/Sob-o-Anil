@@ -249,15 +249,26 @@ k_goytacazes_generalship = {
 	 #primary = yes 
 }
 
-k_rio_grande_do_sul = {
-	color={ 255 234 000 }
-	color2={ 255 255 255 }
-	
+k_serra_gaucha = {
+		color={ 242 40 25 }
+		color2={ 255 255 255 }
+		
 	capital = 143 # c_porto_alegre
-	
 	culture = gaucho
 	
 	allow = {
+		always = no
+	}
+}
+
+k_pampa = { #unsure if I will actualyl use this one
+		color={ 255 234 000 }
+		color2={ 255 255 255 }
+		
+		capital = 143 # c_porto_alegre
+		culture = gaucho
+		
+		allow = {
 		always = no
 	}
 }

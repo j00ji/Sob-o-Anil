@@ -1423,7 +1423,7 @@
 	name = "Juliano" 
 	dynasty = 55006 #Lombardi
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	
 	2092.8.11 = {birth = yes}
 	2142.3.2 = {death = yes}
@@ -1433,7 +1433,7 @@
 	name = "Gilberto"
 	dynasty = 55006 #Lombardi
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110003
 	
 	2115.2.25 = {birth = yes}
@@ -1444,7 +1444,7 @@
 	name = "Luciano"
 	dynasty = 55006 #Lombardi
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110003
 	
 	2118.5.8 = {birth = yes}
@@ -1458,7 +1458,7 @@
 	dynasty = 55006 
 	dna = aefgf0ba000
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110004 
 	add_trait = fortune_builder
 	add_trait = shrewd
@@ -1472,7 +1472,7 @@
 	female = yes
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110004
 	
 	2140.3.10 = {birth = yes}
@@ -1483,7 +1483,7 @@
 	name = "Rafaelo"
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110006 #Giuseppe
 	
 	2159.9.12 = {birth = yes}
@@ -1495,7 +1495,7 @@
 	female = yes
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110006 #Giuseppe
 	
 	2163.12.1 = {birth = yes}
@@ -1518,7 +1518,7 @@
 	name = "Miguel"
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110008 #Rafaelo
 	
 	2183.7.24 = {birth = yes}
@@ -1544,7 +1544,7 @@
 	female = yes
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110011 #Miguel
 	
 	2208.1.3 = {birth = yes}
@@ -1575,7 +1575,7 @@
 	dna = aafb00gbgc0
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110012 #Fabrício
 	
 	2228.3.12 = {birth = yes}
@@ -1603,7 +1603,7 @@
 	dna = cahhi0j0gc0
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110014 #Eduardo
 	
 	2253.8.30 = {birth = yes}
@@ -1619,7 +1619,7 @@
 	name = "José"
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110005 #Luciano
 	
 	2140.5.5 = {birth = yes}
@@ -1631,7 +1631,7 @@
 	female = yes
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110005 #Luciano
 	
 	2143.7.2 = {birth = yes}
@@ -1642,7 +1642,7 @@
 	name = "Alberto"
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110018 #José
 	
 	2162.9.20 = {birth = yes}
@@ -1653,7 +1653,7 @@
 	name = "Ernesto"
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110020 #Alberto
 
 	2185.4.18 = {birth = yes}
@@ -1665,7 +1665,7 @@
 	female = yes
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110020 #Alberto
 	
 	2190.8.23 = {birth = yes}
@@ -1677,7 +1677,7 @@
 	female = yes
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110020 #Alberto
 	
 	2193.2.27 = {birth = yes}
@@ -1688,7 +1688,7 @@
 	name = "Gabriel"
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110021 #Ernesto
 	
 	2206.12.23 = {birth = yes}
@@ -1700,7 +1700,7 @@
 	female = yes
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110021 #Ernesto
 	
 	2209.8.16 = {birth = yes}
@@ -1711,7 +1711,7 @@
 	name = "Paulo"
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110024 #Gabriel
 	
 	2231.6.12 = {birth = yes}
@@ -1729,7 +1729,7 @@
 	name = "Lázaro"
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110024 #Gabriel
 	
 	2235.1.24 = {birth = yes}
@@ -1746,7 +1746,7 @@
 	female = yes
 	dynasty = 55006
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110029 #Lázaro
 	
 	2258.1.6 = {birth = yes}
@@ -1759,7 +1759,7 @@
 	name = "Gustavo"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	#add_trait = legendary
 	
 	2115.4.5 = {birth = yes}
@@ -1770,7 +1770,7 @@
 	name = "Rodrigo"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110031 #Gustavo
 	
 	2134.6.12 = {birth = yes}
@@ -1782,7 +1782,7 @@
 	female = yes
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110031 #Gustavo
 	
 	2138.3.22 = {birth = yes}
@@ -1796,7 +1796,7 @@
 	name = "Ricardo"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110032 #Rodrigo
 	
 	2160.5.9 = {birth = yes}
@@ -1807,7 +1807,7 @@
 	name = "Hélio"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110032 #Rodrigo
 	
 	2164.12.1 = {birth = yes}
@@ -1821,7 +1821,7 @@
 	female = yes
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110034 #Ricardo
 	
 	2181.3.10 = {birth = yes}
@@ -1832,7 +1832,7 @@
 	name = "Filipe"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110034 #Ricardo
 	
 	2195.12.1 = {birth = yes}
@@ -1844,7 +1844,7 @@
 	female = yes
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110037 #Filipe
 	
 	2221.4.12 = {birth = yes}
@@ -1855,7 +1855,7 @@
 	name = "Sérgio"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110037 #Filipe
 	
 	2223.4.13 = {birth = yes}
@@ -1927,7 +1927,7 @@
 	name = "Carlos"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110035 #Hélio
 	
 	2189.4.10 = {birth = yes}
@@ -1939,7 +1939,7 @@
 	female = yes
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110035 #Hélio
 	
 	2193.7.11 = {birth = yes}
@@ -1950,7 +1950,7 @@
 	name = "Marcelo"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110043 #Carlos
 	
 	2213.6.4 = {birth = yes}
@@ -1961,7 +1961,7 @@
 	name = "Fernando"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110045 #Marcelo
 	
 	2234.5.12 = {birth = yes}
@@ -1973,7 +1973,7 @@
 	female = yes
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110045 #Marcelo
 	
 	2240.8.10 = {birth = yes}
@@ -1984,7 +1984,7 @@
 	name = "Rodrigo"
 	dynasty = 55009
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110046 #Fernando
 	
 	2258.4.12 = {birth = yes}
@@ -2002,7 +2002,7 @@
 	name = "Lourenço"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	
 	2055.5.17 = {
 		birth  = yes
@@ -2014,7 +2014,7 @@
 	name = "Manuel"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110049 #Lourenço
 	
 	2077.5.12 = {birth = yes}
@@ -2030,7 +2030,7 @@
 	name = "Damião"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110050 #Manuel
 	
 	2098.12.15 = {birth = yes}
@@ -2044,7 +2044,7 @@
 	name = "Sebastião"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110051 #Damião
 	mother = 110079 #Elisabete
 	
@@ -2057,7 +2057,7 @@
 	female = yes
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110051 #Damião
 	mother = 110079 #Elisabete
 	
@@ -2069,7 +2069,7 @@
 	name = "Antônio"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110052 #Sebastião
 	
 	2139.4.1 = {birth = yes}
@@ -2083,7 +2083,7 @@
 	name = "Clemente"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110054 #Antônio
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
@@ -2102,7 +2102,7 @@
 	female = yes
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110054 #Antônio
 	
 	2164.1.5 = {birth = yes}
@@ -2113,7 +2113,7 @@
 	name = "Mateus"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110055 #Clemente
 	
 	2182.2.11 = {birth = yes}
@@ -2125,7 +2125,7 @@
 	female = yes
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110055 #Clemente
 	
 	2185.7.12 = {birth = yes}
@@ -2136,7 +2136,7 @@
 	name = "Benedito"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110057 #Mateus
 	
 	2203.4.3 = {birth = yes}
@@ -2148,7 +2148,7 @@
 	female = yes
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110059 #Benedito
 	
 	2225.6.6 = {birth = yes}
@@ -2159,7 +2159,7 @@
 	name = "Caetano"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110059 #Benedito
 	add_trait = midas_touched
 	
@@ -2179,7 +2179,7 @@
 	female = yes
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110059 #Benedito
 	
 	2233.10.11 = {birth = yes}
@@ -2190,7 +2190,7 @@
 	name = "Daniel"
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110061 #Caetano
 	
 	2251.3.19 = {birth = yes}
@@ -2202,7 +2202,7 @@
 	female = yes
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110061 #Caetano
 	
 	2253.9.7 = {birth = yes}
@@ -2215,7 +2215,7 @@
 	dna = 0cfhb000ba0
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110063 #Daniel
 	
 	2278.5.8 = {birth = yes}
@@ -2228,7 +2228,7 @@
 	properties = wm0gah00000
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110063 #Daniel
 	disallow_random_traits = yes
 	add_trait = grey_eminence
@@ -2254,7 +2254,7 @@
 	dna = befdi0kbba0
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110066 #Eduardo
 	disallow_random_traits = yes
 	add_trait = elusive_shadow
@@ -2281,7 +2281,7 @@
 	female = yes
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110066 #Eduardo
 	
 	2305.8.12 = {birth = yes}
@@ -2307,7 +2307,7 @@
 	properties = fb0elh00000
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110067 #Henrique
 	disallow_random_traits = yes
 	add_trait = fortune_builder
@@ -2343,7 +2343,7 @@
 	female = yes
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110067 #Henrique
 	
 	2326.8.10 = {birth = yes}
@@ -2371,7 +2371,7 @@
 	dna = adacd0d0ib0
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110070 #João
 	mother = 110137 #Helena
 	disallow_random_traits = yes
@@ -2399,7 +2399,7 @@
 	dna = 000gd0h0bc0
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110070 #João
 	mother = 110137 #Helena
 	disallow_random_traits = yes
@@ -2432,7 +2432,7 @@
 	female = yes
 	dynasty = 55015
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110070 #João
 	mother = 110137 #Helena
 	
@@ -3573,7 +3573,7 @@
 	name = "Lucas"
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110016 #Vicente Lombardi
 	mother = 110042 #Bárbara Stucchi
 	
@@ -3586,7 +3586,7 @@
 	female = yes
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
 	2293.8.23 = {birth = yes}
@@ -3598,7 +3598,7 @@
 	female = yes
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
 	2295.2.19 = {birth = yes}
@@ -3609,7 +3609,7 @@
 	name = "Tales"
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
 	2298.10.5 = {birth = yes}
@@ -3620,7 +3620,7 @@
 	name = "Hélio"
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
 	2300.12.25 = {birth = yes}
@@ -3636,7 +3636,7 @@
 	name = "Gabriel"
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110151 ##Lucas Lombardi-Stucchi
 	
 	2290.9.12 = {birth = yes}
@@ -3648,7 +3648,7 @@
 	female = yes
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
 	2292.7.6 = {birth = yes}
@@ -3660,7 +3660,7 @@
 	female = yes
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110156 #Gabriel Lombardi-Stucchi
 	
 	2306.10.2 = {birth = yes}
@@ -3674,7 +3674,7 @@
 	name = "Miguel"
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110156 #Gabriel Lombardi-Stucchi
 	
 	2307.4.12 = {birth = yes}
@@ -3687,7 +3687,7 @@
 	name = "Murilo"
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110155 #Hélio Lombardi-Stucchi
 	mother = 110158 #Ana Clara Lombardi-Stucchi
 	
@@ -3702,7 +3702,7 @@
 	name = "Henrique"
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110160 #Murilo Lombardi-Stucchi
 	mother = 110101 #Gisele Cubas
 	disallow_random_traits = yes
@@ -3730,7 +3730,7 @@
 	name = "Ricardo"
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110160 #Murilo Lombardi-Stucchi
 	disallow_random_traits = yes
 	add_trait = skilled_tactician
@@ -3755,7 +3755,7 @@
 	female = yes
 	dynasty = 55002
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110160 #Murilo-Lombardi-Stucchi
 	disallow_random_traits = yes
 	add_trait = underhanded_rogue
@@ -3773,7 +3773,7 @@
 	name = "Álvaro"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	
 	2080.1.1 = {birth = yes}
 	2140.2.5 = {death = yes}
@@ -3783,7 +3783,7 @@
 	name = "Caio"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110164 #Álvaro de Abreu
 	
 	2101.11.22 = {birth = yes}
@@ -3795,7 +3795,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110164 #Álvaro de Abreu
 	
 	2103.8.13 = {birth = yes}
@@ -3807,7 +3807,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110164 #Álvaro de Abreu
 	
 	2105.3.30 = {birth = yes}
@@ -3818,7 +3818,7 @@
 	name = "Gastão"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110165 #Caio de Abreu
 	
 	2128.3.28 = {birth = yes}
@@ -3829,7 +3829,7 @@
 	name = "Geraldo"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110165 #Caio de Abreu
 	
 	2130.11.1 = {birth = yes}
@@ -3846,7 +3846,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110165 #Caio de Abreu
 	
 	2133.8.27 = {birth = yes}
@@ -3858,7 +3858,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110168 #Gastão de Abreu
 	2150.3.27 = {birth = yes}
 	2220.7.6 = {death = yes}
@@ -3868,7 +3868,7 @@
 	name = "Feliciano"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110168 #Gastão de Abreu
 	
 	2153.8.18 = {birth = yes}
@@ -3879,7 +3879,7 @@
 	name = "Orlando"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110172 #Feliciano de Abreu
 	
 	2174.6.29 = {birth = yes}
@@ -3891,7 +3891,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110172 #Feliciano de Abreu
 	
 	2177.4.29 = {birth = yes}
@@ -3902,7 +3902,7 @@
 	name = "Samuel"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110173 #Orlando de Abreu
 	
 	2201.4.12 = {birth = yes}
@@ -3920,7 +3920,7 @@
 	name = "Maximiliano"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110173 #Orlando de Abreu
 	
 	2204.2.26 = {birth = yes}
@@ -3932,7 +3932,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110173 #Orlando de Abreu
 	
 	2206.6.9 = {birth = yes}
@@ -3943,7 +3943,7 @@
 	name = "César"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110176 #Maximiliano de Abreu
 	
 	2226.2.24 = {
@@ -3959,7 +3959,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110176 #Maximiliano de Abreu
 	
 	2228.11.30 = {birth = yes}
@@ -3970,7 +3970,7 @@
 	name = "Giuseppe"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110178 #César de Abreu
 	
 	2247.7.1 = {birth = yes}
@@ -3981,7 +3981,7 @@
 	name = "Nazário"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110178 #César de Abreu
 	
 	2250.11.5 = {birth = yes}
@@ -3998,7 +3998,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110178 #César de Abreu
 	
 	2252.5.17 = {birth = yes}
@@ -4009,7 +4009,7 @@
 	name = "Joaquim"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110180 #Giuseppe de Abreu
 	
 	2270.4.19 = {birth = yes}
@@ -4021,7 +4021,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110180 #Giuseppe de Abreu
 	
 	2273.4.11 = {birth = yes}
@@ -4033,7 +4033,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110180 #Giuseppe de Abreu
 	
 	2277.11.7 = {birth = yes}
@@ -4047,7 +4047,7 @@
 	name = "Leandro"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110183 #Joaquim de Abreu
 	
 	2300.12.10 = {birth = yes}
@@ -4059,7 +4059,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110183 #Joaquim de Abreu
 	
 	2302.4.1 = {birth = yes}
@@ -4070,7 +4070,7 @@
 	name = "Gilberto"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110183 #Joaquim de Abreu
 	
 	2306.4.21 = {birth = yes}
@@ -4081,7 +4081,7 @@
 	name = "Vinícius"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110186 #Leandro de Abreu
 	
 	2322.12.26 = {birth = yes}
@@ -4095,7 +4095,7 @@
 	name = "Teodósio"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110186 #Leonardo de Abreu
 	
 	2325.11.27 = {birth = yes}
@@ -4107,7 +4107,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110186 #Leonardo de Abreu
 	
 	2328.7.18 = {birth = yes}
@@ -4118,7 +4118,7 @@
 	name = "Ulisses"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
 	
@@ -4130,7 +4130,7 @@
 	name = "Ambrósio"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
 	
@@ -4143,7 +4143,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
 	
@@ -4155,7 +4155,7 @@
 	name = "Lúcio"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
 	
@@ -4168,7 +4168,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
 	
@@ -4180,7 +4180,7 @@
 	name = "Alberto"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110190 #Teodósio de Abreu
 	
 	2346.9.29 = {birth = yes}
@@ -4192,7 +4192,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110190 #Teodósio de Abreu
 	
 	2349.1.11 = {birth = yes}
@@ -4206,7 +4206,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110169 #Geraldo de Abreu
 	
 	2152.7.18 = {birth = yes}
@@ -4217,7 +4217,7 @@
 	name = "André"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110169 #Geraldo de Abreu
 	
 	2154.10.2 = {birth = yes}
@@ -4228,7 +4228,7 @@
 	name = "Caio"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110169 #Geraldo de Abreu
 	
 	2156.8.16 = {birth = yes}
@@ -4239,7 +4239,7 @@
 	name = "Caique"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110200 #Caio de Abreu
 	
 	2178.8.8 = {birth = yes}
@@ -4253,7 +4253,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110200 #Caio de Abreu
 	
 	2180.6.6 = {birth = yes}
@@ -4265,7 +4265,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110201 #Caique de Abreu
 	
 	2202.11.21 = {birth = yes}
@@ -4276,7 +4276,7 @@
 	name = "Sávio"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110201 #Caique de Abreu
 	
 	2205.10.15 = {birth = yes}
@@ -4287,7 +4287,7 @@
 	name = "Saulo"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110204 #Sávio de Abreu
 	
 	2227.7.16 = {birth = yes}
@@ -4298,7 +4298,7 @@
 	name = "Régis"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110205 #Saulo de Abreu
 	
 	2250.6.15 = {birth = yes}
@@ -4315,7 +4315,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110205 #Saulo de Abreu
 	
 	2252.12.1 = {birth = yes}
@@ -4326,7 +4326,7 @@
 	name = "Pierre"
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110206 #Régis de Abreu
 	
 	2272.7.9 = {birth = yes}
@@ -4343,7 +4343,7 @@
 	female = yes
 	dynasty = 55021
 	religion = anchietican
-	culture = paulistano
+	culture = caicara
 	father = 110206 #Régis de Abreu
 	add_trait = depressed
 	
@@ -5022,7 +5022,7 @@
 	
 	2260.3.11 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2317.4.22 = {
 		death = yes
@@ -5346,7 +5346,7 @@
 	
 	2277.1.5 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2300.1.1 = {
 		add_spouse = 110222 #Ágata de Camargo
@@ -5368,7 +5368,7 @@
 	
 	2303.5.10 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2354.7.3 = {
 		death = yes
@@ -5387,7 +5387,7 @@
 	
 	2327.11.22 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2360.2.3 = {
 		death = yes
@@ -5405,7 +5405,7 @@
 	
 	2330.9.10 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2400.1.1={death=yes}
 }
@@ -5421,7 +5421,7 @@
 	
 	2348.2.7 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2400.1.1={death=yes}
 }
@@ -5436,7 +5436,7 @@
 	
 	2350.4.10 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2400.1.1={death=yes}
 }
@@ -5452,7 +5452,7 @@
 	
 	2352.8.24 = {
 		birth = yes
-		culture = paulistano
+		culture = caicara
 	}
 	2400.1.1={death=yes}
 }
@@ -11115,6 +11115,9 @@
 	2328.4.18 = {
 		birth = yes
 	}
+	2345.1.1={
+		add_matrilineal_spouse = 110445 #Luan Ramalho
+	}
 	2400.1.1={death=yes}
 } #Reminder to give her a BIG family cause in Itu everything is bigger
 
@@ -11124,7 +11127,7 @@
 	religion = anchietican
 	culture = camponeto
 	mother = 110606
-	
+	father = 110445
 	trait = giant
 	
 	martial = 5
@@ -11136,6 +11139,74 @@
 	
 	
 	2349.4.29 = {
+		birth = yes
+	}
+	2400.1.1={death=yes}
+}
+
+110608 = {
+	name = "Camila"
+	dynasty = 66100
+	religion = anchietican
+	culture = camponeto
+	mother = 110606
+	
+	trait = short
+	trait = fair
+	
+	martial = 5
+	diplomacy = 5
+	intrigue = 2
+	stewardship = 4
+	learning = 9
+	
+	
+	2350.5.29 = {
+		birth = yes
+	}
+	2400.1.1={death=yes}
+}
+
+
+110609 = {
+	name = "Lucas"
+	dynasty = 66100
+	religion = anchietican
+	culture = camponeto
+	mother = 110606
+	father = 110445
+	
+	martial = 5
+	diplomacy = 2
+	intrigue = 3
+	stewardship = 4
+	learning = 8
+	
+	
+	
+	2353.8.2 = {
+		birth = yes
+	}
+	2400.1.1={death=yes}
+}
+
+110610 = {
+	name = "Fernanda"
+	dynasty = 66100
+	religion = anchietican
+	culture = camponeto
+	mother = 110606
+	father = 110445
+	
+	martial = 6
+	diplomacy = 2
+	intrigue = 5
+	stewardship = 4
+	learning = 5
+	
+	
+	
+	2356.1.1 = {
 		birth = yes
 	}
 	2400.1.1={death=yes}
@@ -11252,7 +11323,7 @@
 	2364.1.1={
 		effect = {
 			add_claim = d_itapeva
-			add_weak_claim = d_sorocaba
+			add_claim = d_sorocaba
 		}
 	}
 	2400.1.1={death=yes}
@@ -11817,6 +11888,7 @@
 	dynasty = 66101 #Cabanas
 	religion = liberationist
 	culture = camponeto
+	female = yes
 	father = 110680
 	trait = elusive_shadow
 	trait = quick
@@ -12123,7 +12195,7 @@
 		add_spouse = 110701
 	}
 	2364.3.13 = {
-		effect = { add_weak_claim = c_bauru }
+		effect = { add_claim = c_bauru }
 	}
 	2400.1.1 = {
 		death = yes
@@ -12926,5 +12998,27 @@
 	father = 110737
 	trait = charismatic_negotiator
 	2350.1.1={birth=yes culture=caipira}
+	2400.1.1={death=yes}
+}
+
+110739 = {
+	name = "Alexandre"
+	dynasty = 55053 #Magno
+	culture = caicara
+	religion = anchietican
+	female = yes
+	father = 110737
+	trait = charismatic_negotiator
+	trait = poet
+	trait = wroth
+	
+	diplomacy = 4
+	martial = 6
+	stewardship = 4
+	intrigue = 3
+	learning = 7
+	
+	#trait = skate
+	2339.1.1={birth=yes}
 	2400.1.1={death=yes}
 }

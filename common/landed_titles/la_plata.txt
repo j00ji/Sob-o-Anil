@@ -791,6 +791,37 @@ e_la_plata = {
 				b_biassini = {}
 			}
 		}
+		d_arapei = {
+			color={ 165 45 151 }
+			color2={ 255 255 255 }
+			
+			capital = 172 # c_artigas
+			
+			c_artigas = { # 172
+				color={ 155 55 146 }
+				color2={ 255 255 255 }
+				
+				b_artigas = {}
+				b_taruma = {}
+				b_bernabe_rivera = {}
+				b_topador = {}
+				b_xavier_de_viana = {}
+				b_camanho = {}
+				b_cuaro = {}
+			}
+			c_arapei = { # 173
+				color={ 251 108 214 }
+				color2={ 255 255 255 }
+				
+				b_termas_do_arapei = {}
+				b_bela_uniao = {}
+				b_tomas_gomensoro = {}
+				b_baltasar_brum = {}
+				b_belem = {}
+				b_palma_sola = {}
+				b_diego_lamas = {}
+			}
+		}
 	}
 	k_la_pampa = {
 		color={ 111 154 178 }

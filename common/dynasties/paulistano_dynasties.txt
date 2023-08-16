@@ -64,6 +64,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 54
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55005 = { #Francisco Schimidt, 4th Coffee King Ref
@@ -72,6 +83,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 53
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55006 = { 
@@ -299,6 +321,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 55
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55022 = {
@@ -307,6 +340,17 @@
 	religion = apostolic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 56
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 55023 = { 
@@ -316,8 +360,6 @@
 	can_appear = no
 	used_for_random = no
 }
-
-###
 
 55025 = { #Quatrocentão
 	name = "Leme"
@@ -693,6 +735,44 @@
 		layer = {
 			texture = 6
 			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+55052 = { 
+	name = "Arantes"
+	culture = caicara
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 57
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+55053 = { 
+	name = "Magno"
+	culture = caicara
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 58
 			emblem = 0
 			color = 0
 			color = 0

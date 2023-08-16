@@ -224,7 +224,7 @@
 }
 
 265014 = {
-	name = "de Andrade"
+	name = "Drummond"
 	culture = mantiqueiro
 	religion = terra_benta
 	can_appear = no

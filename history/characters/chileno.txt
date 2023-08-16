@@ -1597,7 +1597,7 @@
 	stewardship=3
 	intrigue=4
 	learning=4
-	culture=sureno
+	culture=australino
 	religion=brethren
 	trait=scarred
 	trait=hunter
