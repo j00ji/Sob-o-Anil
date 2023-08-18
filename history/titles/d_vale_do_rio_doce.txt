@@ -1,7 +1,4 @@
-2320.1.1 = {
-	holder = 590034
+2350.1.1 = {
+	holder = 590044
 	liege = k_minas_gerais
-}
-2359.6.12={
-	holder = 590035
 }

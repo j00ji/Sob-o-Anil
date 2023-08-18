@@ -325,10 +325,9 @@
 
 620012 = {
 	name = "Salomão"
-	dynasty = 265014 # de Andrade
+	dynasty = 265014 # Drummond
 	religion = terra_benta
 	culture = ilhense
-	father = 590043 #Samuel
 	trait = underhanded_rogue
 	trait = patient
 	trait = poet
@@ -347,5 +346,5 @@
 	2400.1.1 = {
 		death = yes
 	}
-	#rules Juiz de Fora and Uba, vassal of paraibuna
+	#rules Uba, vassal of paraibuna
 }

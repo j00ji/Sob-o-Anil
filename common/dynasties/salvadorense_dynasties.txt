@@ -43,7 +43,7 @@
 }
 
 20003 = {
-	name = "Lima e Silva"
+	name = "Virgulino Ferreira"
 	religion = camdomble
 	culture = salvadorense
 	can_appear = no
@@ -53,7 +53,7 @@
 		template = 0
 		layer = {
 			texture = 1
-			texture_internal = 6
+			texture_internal = 10
 			emblem = 0
 			color = 0
 			color = 0

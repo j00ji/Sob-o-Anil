@@ -395,7 +395,6 @@
 	female = yes
 	
 	trait = underhanded_rogue
-	trait = is_fat
 	trait = gluttonous
 	
 	2340.10.2 = {
@@ -538,7 +537,8 @@
 590026 = { #Concubine Mother of the Dente d'ouro Scion
 	name = "Bárbara"
 	female = yes
-	dynasty=0
+	dynasty = 265009 #Bernardes
+	father=590039
 	culture = auriferro
 	religion = terra_benta
 	trait = intricate_webweaver
@@ -816,25 +816,27 @@
 	2400.1.1={death=yes}
 } #rules Caparaó
 
-#Andrade Family
+#Procópio Family
 590043 = {
 	name = "Samuel"
-	dynasty = 265014 # de Andrade
+	dynasty = 265017 # Procópio
 	culture = mantiqueiro
 	religion = terra_benta
 	
-	trait = mastermind_theologian
-	trait = cynical
-	trait = poet
-	trait = lustful
+	trait = skilled_tactician
+	trait = ambitious
+	trait = greedy
+	trait = gregarious
+	trait = deceitful
 	
 	diplomacy = 6
 	martial = 5
 	stewardship = 4
 	intrigue = 7
-	learning = 8
+	learning = 3
 	
 	2332.10.31={birth=yes}
+	2363.1.1={add_spouse = 590018}
 	2400.1.1={death=yes}
 	
 	#duke of paraibuna, holds alem paraiba and leopoldina

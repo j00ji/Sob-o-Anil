@@ -13,6 +13,6 @@
 	holder = 110687
 }
 2364.3.13 = {
-	holder = 590044 #Henrique Lott
+	holder = 590035 #Tião
 	liege = k_minas_gerais
 }
