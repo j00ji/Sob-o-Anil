@@ -61,4 +61,12 @@ sarney = {
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_sarney
 	flags = { historical_bloodline }
+}
+lampiao = {
+	monthly_character_prestige = 0.2
+	combat_rating = 8
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_lamp
+	flags = { historical_bloodline }
 }	

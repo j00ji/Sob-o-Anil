@@ -1009,11 +1009,11 @@
 	#rules Araci, vassal of Rio Real
 }
 
-##Lima e Silva##
+##Virgulino Ferreira##
 
 40040 = {
 	name = "Matias"
-	dynasty = 20003#Lima e Silva
+	dynasty = 20003#Virgulino Ferreira
 	culture = salvadorense
 	religion=camdomble
 	trait=intricate_webweaver
@@ -1029,6 +1029,10 @@
 	
 	2313.8.2={
 		birth=yes
+		create_bloodline = {
+			type = lampiao
+			has_dlc = "Holy Fury"
+		}
 	}
 	2367.9.10={
 		death = {
@@ -1041,7 +1045,7 @@
 
 40041 = {
 	name = "Matias"
-	dynasty=20003#Lima e Silva
+	dynasty=20003#Virgulino Ferreira
 	culture = lagoano
 	religion=camdomble
 	father=40040
