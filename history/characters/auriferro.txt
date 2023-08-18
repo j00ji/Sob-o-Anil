@@ -608,6 +608,7 @@
 	trait = diligent
 	
 	2326.2.8={birth=yes culture=auriferro}
+	2360.1.1={effect = { give_nickname = nick_golden_tongue}}
 	2400.1.1={death=yes}
 	#duke of Belzonte, holds Belo Horizonte, Congonhas, Diamantina, Serro and Conceicao do Mato Dentro
 }

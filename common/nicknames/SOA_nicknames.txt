@@ -24,3 +24,4 @@ nick_the_pharaoh = {}
 nick_lady_lines = {}
 nick_devil_puno = {}
 nick_star_child = {}
+nick_golden_tongue = {}

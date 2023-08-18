@@ -15,7 +15,7 @@ b_currais = tribal
 #b_colonia_do_guegueia = castle
 
 # Misc
-culture = kraho
-religion = cicerite
+culture = sertanista
+religion = tridentine
 
 #History

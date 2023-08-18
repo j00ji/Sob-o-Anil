@@ -160,6 +160,24 @@
 		}
 	}
 }
+15010 = { 
+	name = "Flag"
+	culture = parnaibas
+	religion = tridentine
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 66
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 ####################
 ####Random parnaibas Surnames
 ####Source: ResistenciaTremembe

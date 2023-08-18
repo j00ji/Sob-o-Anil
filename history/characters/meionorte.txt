@@ -663,3 +663,71 @@
 	2350.1.1={death=yes}
 	#former count of caxias
 }
+####Flag family
+30041={
+	name="Nelson"
+	dynasty=15010 #Flag
+	dna="afiec0ga000"
+	properties="jb0d0k000000000000000000000000000000"
+	culture=sertanista
+	religion=tridentine
+	trait=flamboyant_schemer
+	trait=flat_terrain_leader
+	trait=sturdy
+	trait=erudite
+	trait=lustful
+	trait=proud
+	trait=charitable
+	trait=seducer
+	2324.8.23={birth=yes culture=west_parnaibas}
+	2344.1.1={add_spouse=30042}
+	2345.1.1={effect={add_lover=30043}}
+	2400.1.1={death=yes}
+	#holds Urucui and Gurgeia vassal of Medio Parnaiba
+}
+
+30042={
+	name="Maria"
+	dynasty=0
+	culture=sertanista
+	religion=tridentine
+	female=yes
+	trait=naive_appeaser
+	
+	2327.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Nelson's Wife
+}
+
+30043={
+	name="Rita"
+	dynasty=0
+	culture=sertanista
+	religion=tridentine
+	female=yes
+	trait=underhanded_rogue
+	trait=fair
+	
+	2328.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Nelson's lover
+}
+
+30044={
+	name="Suzana"
+	dynasty=15010 #Flag
+	culture=sertanista
+	religion=tridentine
+	father=30041
+	mother=30043
+	female=yes
+	trait=intricate_webweaver
+	trait=fair
+	trait=lustful
+	trait=zealous
+	trait=legit_bastard
+	
+	2346.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#daughter of Nelson
+}

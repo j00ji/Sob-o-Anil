@@ -521,91 +521,6 @@ e_moncoes = {
 			}
 		}
 		
-		d_guapore = {
-			color={ 163 216 85 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 772 province_id = 773 province_id = 774 province_id = 775 province_id = 776 province_id = 777 } }
-				}
-			}
-			capital = 772 # c_porto_velho
-			
-			c_porto_velho = { # 772
-				color={ 173 206 90 }
-				color2={ 255 255 255 }
-				holy_site = evangelical
-				b_porto_velho = {}
-				b_belmonte_2 = {}
-				b_candeias_do_jamari = {}
-				b_teotonio = {}
-				b_vinte_e_cinco_de_abril = {}
-				b_pedra_canga = {}
-				b_planalto_dois = {}
-			}
-			c_arquemedes = { # 777
-				color={ 162 206 49 }
-				color2={ 255 255 255 }
-				
-				b_arquemedes = {}
-				b_tabajara = {}
-				b_cujubim = {}
-				b_triunfo_3 = {}
-				b_jacunda_manoa = {}
-				b_rio_crespo = {}
-				b_rama_rama = {}
-			}
-			c_cerejeiras = { # 776
-				color={ 223 255 142 }
-				color2={ 255 255 255 }
-				
-				b_cerejeiras = {}
-				b_pimenteiras_do_oeste = {}
-				b_cabixi = {}
-				b_chupinguaia = {}
-				b_corumbiara = {}
-				b_colorado_do_oeste = {}
-				b_vilhena = {}
-			}
-			c_costa_marques = { # 774
-				color={ 148 206 0 }
-				color2={ 255 255 255 }
-				
-				b_costa_marques = {}
-				b_curralinho_2 = {}
-				b_baia_das_oncas = {}
-				b_surpresa = {}
-				b_terra_firme = {}
-				b_tracadal = {}
-				b_porto_rocha = {}
-			}
-			c_espigao_doeste = { # 775
-				color={ 200 255 61 }
-				color2={ 255 255 255 }
-				
-				b_espigao_doeste = {}
-				b_pimenta_bueno = {}
-				b_cacoal_2 = {}
-				b_andreazza = {}
-				b_rolim_de_moura = {}
-				b_usina_de_calcario = {}
-				b_roosevelt = {}
-			}
-			c_nova_mamore = { # 773
-				color={ 102 142 0 }
-				color2={ 255 255 255 }
-				
-				b_nova_mamore = {}
-				b_palmeiral = {}
-				b_maloca = {}
-				b_messias = {}
-				b_chocolatal = {}
-				b_tres_irmaos_2 = {}
-				b_sydney_girao = {}
-			}
-		}
 		d_maracaju = {
 			color={ 188 194 70 }
 			color2={ 255 255 255 }
@@ -811,6 +726,99 @@ e_moncoes = {
 				b_tapurah = {}
 				b_mutum = {}
 				b_ubirata = {}
+			}
+		}
+	}
+	k_rondonia = {
+		color={ 163 216 85 }
+		color2={ 255 255 255 }
+			
+		capital = 772 # c_porto_velho
+		culture = rondonian
+		
+		d_guapore = {
+			color={ 163 216 85 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 772 province_id = 773 province_id = 774 province_id = 775 province_id = 776 province_id = 777 } }
+				}
+			}
+			capital = 772 # c_porto_velho
+			
+			c_porto_velho = { # 772
+				color={ 173 206 90 }
+				color2={ 255 255 255 }
+				holy_site = evangelical
+				b_porto_velho = {}
+				b_belmonte_2 = {}
+				b_candeias_do_jamari = {}
+				b_teotonio = {}
+				b_vinte_e_cinco_de_abril = {}
+				b_pedra_canga = {}
+				b_planalto_dois = {}
+			}
+			c_arquemedes = { # 777
+				color={ 162 206 49 }
+				color2={ 255 255 255 }
+				
+				b_arquemedes = {}
+				b_tabajara = {}
+				b_cujubim = {}
+				b_triunfo_3 = {}
+				b_jacunda_manoa = {}
+				b_rio_crespo = {}
+				b_rama_rama = {}
+			}
+			c_cerejeiras = { # 776
+				color={ 223 255 142 }
+				color2={ 255 255 255 }
+				
+				b_cerejeiras = {}
+				b_pimenteiras_do_oeste = {}
+				b_cabixi = {}
+				b_chupinguaia = {}
+				b_corumbiara = {}
+				b_colorado_do_oeste = {}
+				b_vilhena = {}
+			}
+			c_costa_marques = { # 774
+				color={ 148 206 0 }
+				color2={ 255 255 255 }
+				
+				b_costa_marques = {}
+				b_curralinho_2 = {}
+				b_baia_das_oncas = {}
+				b_surpresa = {}
+				b_terra_firme = {}
+				b_tracadal = {}
+				b_porto_rocha = {}
+			}
+			c_espigao_doeste = { # 775
+				color={ 200 255 61 }
+				color2={ 255 255 255 }
+				
+				b_espigao_doeste = {}
+				b_pimenta_bueno = {}
+				b_cacoal_2 = {}
+				b_andreazza = {}
+				b_rolim_de_moura = {}
+				b_usina_de_calcario = {}
+				b_roosevelt = {}
+			}
+			c_nova_mamore = { # 773
+				color={ 102 142 0 }
+				color2={ 255 255 255 }
+				
+				b_nova_mamore = {}
+				b_palmeiral = {}
+				b_maloca = {}
+				b_messias = {}
+				b_chocolatal = {}
+				b_tres_irmaos_2 = {}
+				b_sydney_girao = {}
 			}
 		}
 	}
