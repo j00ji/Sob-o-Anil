@@ -16,6 +16,6 @@ b_matrincha = tribal
 
 # Misc
 culture = goyanense
-religion = manredebu
+religion = holy_spirit
 
 #History

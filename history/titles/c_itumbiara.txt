@@ -4,3 +4,9 @@
 800.1.2={
 	historical_nomad=yes
 }
+2338.2.4={
+	holder = 180002
+}
+2360.5.2={
+	holder = 180001
+}

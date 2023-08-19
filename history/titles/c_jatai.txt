@@ -2,5 +2,12 @@
 	liege=k_goias
 }
 800.1.2={
-	historical_nomad=yes
+	#historical_nomad=yes
+}
+2317.1.1={
+	holder = 180006 #Érico Cúbico
+	liege = d_rio_verde
+}
+2353.1.1={
+	holder = 180004 #Gael Cúbico
 }

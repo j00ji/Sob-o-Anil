@@ -16,6 +16,6 @@ b_jatai = tribal
 
 # Misc
 culture = goyanense
-religion = anchietican
+religion = terra_benta
 
 #History

@@ -16,6 +16,6 @@ b_diorama = tribal
 
 # Misc
 culture = goyanense
-religion = manredebu
+religion = holy_spirit
 
 #History

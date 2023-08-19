@@ -6,9 +6,9 @@ title = c_campinorte
 # Settlements
 max_settlements = 2
 
-b_campinorte = tribal
-#b_hidrolina = city
-#b_crixas = temple
+b_campinorte = castle
+b_hidrolina = city
+b_crixas = temple
 #b_uirapuru = castle
 #b_mundo_novo = city
 #b_cana_brava = temple
@@ -16,6 +16,6 @@ b_campinorte = tribal
 
 # Misc
 culture = goyanense
-religion = manredebu
+religion = holy_spirit
 
 #History

@@ -1,0 +1,1740 @@
+120500 = {
+    name = "Abadia"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120501 = {
+    name = "Abrão"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120502 = {
+    name = "Abraão"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120503 = {
+    name = "Acerola"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120504 = {
+    name = "Aidar"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120505 = {
+    name = "Albernaz"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120506 = {
+    name = "Alecrim"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120507 = {
+    name = "Alvarenga"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120508 = {
+    name = "Alves"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120509 = {
+    name = "Alves de Sousa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120510 = {
+    name = "Amante"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120511 = {
+    name = "Andorinha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120512 = {
+    name = "Andrade"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120513 = {
+    name = "Arantes"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120514 = {
+    name = "Ariranha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120515 = {
+    name = "Avelar"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120516 = {
+    name = "Baldy"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120517 = {
+    name = "Balestra"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120518 = {
+    name = "Barbosa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120519 = {
+    name = "Barreiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120520 = {
+    name = "Barreto"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120521 = {
+    name = "Barretto"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120522 = {
+    name = "Barrinha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120523 = {
+    name = "Barroso"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120524 = {
+    name = "Barsanulfo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120525 = {
+    name = "Bastos"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120526 = {
+    name = "Bate Pé"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120527 = {
+    name = "Batista"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120528 = {
+    name = "Batista Pereira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120529 = {
+    name = "Batista Alves"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120530 = {
+    name = "Batista Rodrigues"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120531 = {
+    name = "Belutti"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120532 = {
+    name = "Benuto"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120533 = {
+    name = "Bernardes"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120534 = {
+    name = "Bessa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120535 = {
+    name = "Bicudo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120536 = {
+    name = "Bittencourt"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120537 = {
+    name = "Borges"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120538 = {
+    name = "Borges da Silva"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120539 = {
+    name = "Bosco"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120540 = {
+    name = "Braz"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120541 = {
+    name = "Bueno"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120542 = {
+    name = "Câmara"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120543 = {
+    name = "Cândida"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120544 = {
+    name = "Cândido"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120545 = {
+    name = "Ca c ced ula"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120546 = {
+    name = "Caiado"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120547 = {
+    name = "Caixeta"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120548 = {
+    name = "Cala c ced a"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120549 = {
+    name = "Calil"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120550 = {
+    name = "Camargo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120551 = {
+    name = "Cambar a act "
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120552 = {
+    name = "Cambuci"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120553 = {
+    name = "Campos"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120554 = {
+    name = "Campos de Araújo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120555 = {
+    name = "Canedo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120556 = {
+    name = "Carcamano"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120557 = {
+    name = "Cardoso"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120558 = {
+    name = "Cardoso da Silva"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120559 = {
+    name = "Cardoso dos Santos"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120560 = {
+    name = "Careca"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120561 = {
+    name = "Carreirinho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120562 = {
+    name = "Carreiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120563 = {
+    name = "Carreteiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120564 = {
+    name = "Carrijo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120565 = {
+    name = "Carvalho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120566 = {
+    name = "Cascatinha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120567 = {
+    name = "Castro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120568 = {
+    name = "Catireiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120569 = {
+    name = "Cecílio"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120570 = {
+    name = "Chaveiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120571 = {
+    name = "Chaves"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120572 = {
+    name = "Ciriema"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120573 = {
+    name = "Cordeiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120574 = {
+    name = "Corno"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120575 = {
+    name = "Cosac"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120576 = {
+    name = "Costa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120577 = {
+    name = "Cotrim"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120578 = {
+    name = "Craveiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120579 = {
+    name = "Cruvinel"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120580 = {
+    name = "Cunha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120581 = {
+    name = "Curado"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120582 = {
+    name = "Curcino"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120583 = {
+    name = "Daher"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120584 = {
+    name = "Damas"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120585 = {
+    name = "Darc"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120586 = {
+    name = "Di Camargo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120587 = {
+    name = "Di Paullo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120588 = {
+    name = "Dias"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120589 = {
+    name = "Divino"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120590 = {
+    name = "Duarte"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120591 = {
+    name = "Espíndola"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120592 = {
+    name = "Estelita"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120593 = {
+    name = "Faiad"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120594 = {
+    name = "Falcão"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120595 = {
+    name = "Faleiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120596 = {
+    name = "Faleiros"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120597 = {
+    name = "Fanstone"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120598 = {
+    name = "Faria"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120599 = {
+    name = "Feliciano"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120600 = {
+    name = "Ferreira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120601 = {
+    name = "Ferrinho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120602 = {
+    name = "Filho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120603 = {
+    name = "Fleury"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120604 = {
+    name = "Fonseca"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120605 = {
+    name = "Fontoura"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120606 = {
+    name = "Franco"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120607 = {
+    name = "Freire"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120608 = {
+    name = "Freitas"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120609 = {
+    name = "Gabiroba"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120610 = {
+    name = "Gaier"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120611 = {
+    name = "Galego"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120612 = {
+    name = "Godoi"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120613 = {
+    name = "Goiano"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120614 = {
+    name = "Gomes"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120615 = {
+    name = "Gomides"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120616 = {
+    name = "Gon c ced alves"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120617 = {
+    name = "Gondim"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120618 = {
+    name = "Gontijo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120619 = {
+    name = "Gonzaga"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120620 = {
+    name = "Gramacho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120621 = {
+    name = "Guimarães"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120622 = {
+    name = "Hamu"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120623 = {
+    name = "Hezim"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120624 = {
+    name = "Hugo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120625 = {
+    name = "Júnior"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120626 = {
+    name = "Kajuru"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120627 = {
+    name = "Lamounier"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120628 = {
+    name = "Laureano"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120629 = {
+    name = "Leão"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120630 = {
+    name = "Leles"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120631 = {
+    name = "Lemes"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120632 = {
+    name = "Lereia"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120633 = {
+    name = "Letrado"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120634 = {
+    name = "Levy"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120635 = {
+    name = "Limeira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120636 = {
+    name = "Linhares"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120637 = {
+    name = "Lobo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120638 = {
+    name = "Louredo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120639 = {
+    name = "Louro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120640 = {
+    name = "Lustosa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120641 = {
+    name = "M a act rio"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120642 = {
+    name = "Mabel"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120643 = {
+    name = "Machado"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120644 = {
+    name = "Magalhães"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120645 = {
+    name = "Mamede"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120646 = {
+    name = "Manso"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120647 = {
+    name = "Manzi"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120648 = {
+    name = "Mar c ced al"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120649 = {
+    name = "Marciana"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120650 = {
+    name = "Marciano"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120651 = {
+    name = "Margon"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120652 = {
+    name = "Marrone"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120653 = {
+    name = "Marrueiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120654 = {
+    name = "Mauro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120655 = {
+    name = "Mecânico"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120656 = {
+    name = "Meirelles"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120657 = {
+    name = "Melo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120658 = {
+    name = "Mendanha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120659 = {
+    name = "Menotti"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120660 = {
+    name = "Miranda"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120661 = {
+    name = "Mirim"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120662 = {
+    name = "Mococa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120663 = {
+    name = "Mofatto"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120664 = {
+    name = "Montalvão"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120665 = {
+    name = "Monteirinho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120666 = {
+    name = "Monteiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120667 = {
+    name = "Monterrey"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120668 = {
+    name = "Morais"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120669 = {
+    name = "Moreninho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120670 = {
+    name = "Moreno"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120671 = {
+    name = "Mouraí"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120672 = {
+    name = "Munhoz"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120673 = {
+    name = "Nascimento"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120674 = {
+    name = "Nasser"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120675 = {
+    name = "Natal"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120676 = {
+    name = "Nato"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120677 = {
+    name = "Naves"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120678 = {
+    name = "Nelto"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120679 = {
+    name = "Neto"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120680 = {
+    name = "Neves"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120681 = {
+    name = "Noleto"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120682 = {
+    name = "Nonato"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120683 = {
+    name = "Otoni"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120684 = {
+    name = "Póvoa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120685 = {
+    name = "Pajé"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120686 = {
+    name = "Palmeira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120687 = {
+    name = "Paranhos"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120688 = {
+    name = "Pardal"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120689 = {
+    name = "Pardinho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120690 = {
+    name = "Parreira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120691 = {
+    name = "Peão"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120692 = {
+    name = "Pedreiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120693 = {
+    name = "Peixoto"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120694 = {
+    name = "Pena Branca"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120695 = {
+    name = "Pequi"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120696 = {
+    name = "Pereira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120697 = {
+    name = "Pereira de Sousa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120698 = {
+    name = "Perillo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120699 = {
+    name = "Pintado"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120700 = {
+    name = "Pires"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120701 = {
+    name = "Pires da Silva"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120702 = {
+    name = "Policena"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120703 = {
+    name = "Praião"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120704 = {
+    name = "Prainha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120705 = {
+    name = "Preto"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120706 = {
+    name = "Quinan"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120707 = {
+    name = "Rabelo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120708 = {
+    name = "Reges"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120709 = {
+    name = "Resende"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120710 = {
+    name = "Rey"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120711 = {
+    name = "Rezende"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120712 = {
+    name = "Ribeiro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120713 = {
+    name = "Rionegro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120714 = {
+    name = "Rios"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120715 = {
+    name = "Rocha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120716 = {
+    name = "Rodovalho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120717 = {
+    name = "Rodrigues"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120718 = {
+    name = "Roriz"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120719 = {
+    name = "Rosa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120720 = {
+    name = "Rosa da Silva"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120721 = {
+    name = "Rosa de Oliveira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120722 = {
+    name = "Rosa de Souza"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120723 = {
+    name = "Rosa dos Santos"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120724 = {
+    name = "Roseno"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120725 = {
+    name = "Sabbag"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120726 = {
+    name = "Sabi a act "
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120727 = {
+    name = "Sahium"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120728 = {
+    name = "Sampaio"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120729 = {
+    name = "Santa Cruz"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120730 = {
+    name = "Santiago"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120731 = {
+    name = "Santillo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120732 = {
+    name = "Santos"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120733 = {
+    name = "Saraiva"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120734 = {
+    name = "Sardinha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120735 = {
+    name = "Sebba"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120736 = {
+    name = "Silva"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120737 = {
+    name = "Silveira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120738 = {
+    name = "Siqueira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120739 = {
+    name = "Soares"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120740 = {
+    name = "Solimões"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120741 = {
+    name = "Sousa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120742 = {
+    name = "Soyer"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120743 = {
+    name = "Spíndola"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120744 = {
+    name = "Suares"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120745 = {
+    name = "Teixeira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120746 = {
+    name = "Teles"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120747 = {
+    name = "Teodoro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120748 = {
+    name = "Tibagi"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120749 = {
+    name = "Torres"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120750 = {
+    name = "Torrinha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120751 = {
+    name = "Umbelino"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120752 = {
+    name = "Valadão"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120753 = {
+    name = "Valadares"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120754 = {
+    name = "Vaz"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120755 = {
+    name = "Veado"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120756 = {
+    name = "Vecci"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120757 = {
+    name = "Velasco"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120758 = {
+    name = "Vergílio"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120759 = {
+    name = "Vesgo"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120760 = {
+    name = "Vieira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120761 = {
+    name = "Vieirinha"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120762 = {
+    name = "Vilela"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120763 = {
+    name = "Waldir"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120764 = {
+    name = "Xavantinho"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120765 = {
+    name = "Xavier"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120766 = {
+    name = "Xororó"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120767 = {
+    name = "da Abadia"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120768 = {
+    name = "da Estrada"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120769 = {
+    name = "da Mata"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120770 = {
+    name = "de Alcântara"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120771 = {
+    name = "de Alvarenga"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120772 = {
+    name = "de Assun c ced ão"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120773 = {
+    name = "de Ataídes"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120774 = {
+    name = "de Bastos"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120775 = {
+    name = "de Bessa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120776 = {
+    name = "de Castro"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120777 = {
+    name = "de Faria"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120778 = {
+    name = "de Freitas"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120779 = {
+    name = "de Godoi"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120780 = {
+    name = "de Lacerda"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120781 = {
+    name = "de Morais"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120782 = {
+    name = "de P a act dua"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120783 = {
+    name = "de Pina"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120784 = {
+    name = "de Resende"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120785 = {
+    name = "de Rezende"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120786 = {
+    name = "de Siqueira"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120787 = {
+    name = "de Sousa"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120788 = {
+    name = "de Torres"
+    culture = goyanense
+    # Add more properties as needed
+}
+
+120789 = {
+    name = "dos Reis"
+    culture = goyanense
+    # Add more properties as needed
+}
+

@@ -16,6 +16,6 @@ b_ipora_2 = tribal
 
 # Misc
 culture = goyanense
-religion = manredebu
+religion = terra_benta
 
 #History

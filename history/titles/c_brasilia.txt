@@ -2,11 +2,16 @@
 	liege=k_goias
 }
 800.1.2={
-	historical_nomad=yes
+	#historical_nomad=yes
 }
 2338.2.4={
-	holder = 180002
+	holder = 180015
+	liege = d_the_district
 }
-2360.5.2={
-	holder = 200001
+2353.1.1={
+	holder = 180014
+}
+2361.1.1={
+	holder = 180003 #Jeremias Cúbico
+	liege = k_the_district
 }

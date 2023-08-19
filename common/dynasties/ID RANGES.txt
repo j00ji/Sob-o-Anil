@@ -142,6 +142,14 @@
 ### Serrano - 490001 - 495000
 ### Guayasense - 495001 - 500000
 ### Iqueño - 500001 - 505000
+### Rimense - 505001 - 510000
+### Ileno - 510001 - 515000
+### Northechicano - 510001 - 515000
+### Northegrandeano - 510001 - 515000
+### Huascareno - 515001 - 520000
+### Charapa - 520001 - 525000
+### Oxapampino - 525001 - 530000
+
 
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.

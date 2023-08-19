@@ -2,5 +2,9 @@
 	liege=k_goias
 }
 800.1.2={
-	historical_nomad=yes
+	#historical_nomad=yes
+}
+2330.1.1={
+	holder = 180010 #Anna Coralina
+	liege = d_planalto_central
 }

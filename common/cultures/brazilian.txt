@@ -816,7 +816,7 @@ mineiro_group = {
 		female_patronym = "filha de "
 		prefix = yes
 		founder_named_dynasties = yes
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 
 		pat_grf_name_chance = 10
 		mat_grf_name_chance = 10
@@ -2262,15 +2262,55 @@ cerradonense = {
 	graphical_cultures = { turkishgfx mongolgfx westerngfx }
 	
 	goyanense = {
-		graphical_cultures = { mexicangfx }
+		graphical_cultures = { southerngfx westerngfx }
 		
 		color = { 1.0 1.0 0.6 }
 		
 		male_names = {
-			Latin
+			Álvaro Abel Adalberto Ademar Adolfinho Adriano Airo Aladim Alan Albano Alcides Aldo Alexandre Alfredo Almir Althair Anísio Anapolino André Ant o hat nio Armando Ary
+			Barbosa Belarmino Benedito Bié Bob Brasílio Bruninho Bruno
+			Cácio Célio César Caim Camargo Carlos Carlos Cezar Cassiano Castro Celestino Chico Chitãozinho Chrystian Cleiton Conrado Cravinho Cristiano
+			Dário Délio Dablio Dalvan Daniel Davi Day Demóstenes Diógenes Diego Dino Djalma Domingos Don Durval
+			Edson Edu Eduardo Elcival Elias Emival Euler
+			Fábio Fabiano Felipe Fernando Flor e hat ncio Fonseca Francisco Fred Frederico
+			Gabriel Galeno Genésio Genervino Geno George Henrique Geovan Geraldo Gian Gilberto Gilmar Gino Glacial Glauskston Goianésio Guilherme Gustavo Guto
+			Hélio Haley Haniel Haroldo Henrique Hernane Heuler Hudson Hugo Humberto
+			Ibsen Iram Irapuan Ismerino Israel Iturival
+			Júnior Jacó Jacozinho Jader Jadson Jaime Jales Jamel Jarmund Jean Jhonny João João Lucas João Paulo João Pedro Joaquim Jordão Jordel Jorge José Josias Jovair Juarez Juliano Juquinha Juscelino
+			Kaio Kauan
+			Lázaro Léo Laureano Leandro Leonardo Lindomar Lisboa Louren c ced o Lourival Luís Luan Lucas Luciano Luiz Luiz Cláudio Luiz Gustavo Luizinho Lyan
+			Maguito Maicon Manuel Marcelinho Marcelo Marciano Marconi Marcos Mariano Marlon Matheus Maurício Mauri Mauro Mayck Miltinho Miranda
+			Nair Nando Nh o hat  Nicanor Nion Norberto
+			Olegário Onofre Orcino Orivaldo Osório Osires Osmailson Osmar
+			Paulinho Paulino Paulo Pedrinho Pedro Pedro Bento Pedro Paulo Phillipe Plínio
+			Racyne Rafael Rahony Ralf Ramon Raul Ravel Ren e hat  Renner Rezende Rick Rico Robertinho Roberto Robison Robson Rodolfo Rodrigo Romair Ronaldo Rony Ruan Rubens Rud
+			Salim Samuel Sandes Sandro Serginho Siqueira Sizenando Sulino
+			Taciano Teodoro Thiago Tião Tinoco Tobias Tonico Torres
+			Vanderlan Venerando Victor Hugo Vilmar Vinícius Virmondes Vitor
+			Wagner Wilson Wolney
+			Zé Zé Henrique Zé Paulo Zé Ricardo Zacarias Zalo Zezé Zico
 		}
 		female_names = {
-			Greek
+			Adria Adriana Alessandra Alexandra Alice Aline Amanda Amélia Ana Andréia Antônia Aparecida Azize
+			Beatriz Benedita Biá Bruna
+			Célia Camila Carolina Celina Celma Chica Chiquinha Cláudia Cristiane
+			Débora Daniela Delinha Divina Duda Duduca
+			Eduarda Eliane Ercília Eva
+			Fabiana Fer Fernanda Flávia Flor Francisca
+			Gabriela Geovana Geralda Gina Goianésia Goiandira
+			Helena
+			Ilda Isabel Isabela Isadora Ivone
+			Júlia Jaqueline Jessica Joana Josefa Juliana Julinha
+			Karla
+			Lúcia Laluna Lara Larissa Leonarda Letícia Levita Liliane Liu Lorena Luana Luciana Luiza Luzia
+			Márcia Maiara Mandi Manu Mara Maraisa Marciana Mariângela Maria Maria Cecília Mariana Marlene Marli Marta
+			Nair Nanda Natalia Nhá
+			Patrícia Paulinha
+			Rafaela Raimunda Raquel Rayssa Renata Rita Rosa Rosângela Rosinha
+			Sílvia Sônia Sabrina Sandra Sara Sebastiana Simaria Simone Soraia Sueli
+			Tatiane Tereza Terezinha Thaís Tuca
+			Vânia Valéria Vanessa Vera Vi Vilma Vilmara Vitôria Viviane
+			Zazá Zilô
 		}
 		
 		from_dynasty_prefix = "de "
@@ -2285,7 +2325,7 @@ cerradonense = {
 		mat_grm_name_chance = 10
 		mother_name_chance = 5
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		allow_looting = yes
 		
@@ -2297,10 +2337,52 @@ cerradonense = {
 		color = { 0.9 1.0 0.8 }
 		
 		male_names = {
-			Entry
+			Álvaro Abel Abmael Abraão Adão Adalberto Adilton Adolfinho Adriano Airo Aladim Alan Albano Alexandre Almir Althair Anézio André Ant o hat nio Antero Argemiro Ataíde Augustinho
+			Belarmino Bento Blairo Brenner Bruno
+			Cácio Cândido Caim Camargo Carlos Carlos Cezar Cassiano Castro Cezar Chico Chitãozinho Cláudio Claudinei Cleiton Conrado Cravinho Cristiano Cristino
+			Délio Dalvan Daniel Dante Dauri Davi Day Didimo Diego Dino Divino Djalma Don Durval
+			Edil Edson Edu Eduardo Elizeu Emanuel Est e hat vão Everton Ezequiel
+			Fábio Fabiano Fauze Feliciano Felipe Fernando Filadelfo Filinto Flor e hat ncio Frederico
+			Gabriel Gastão Genésio George Henrique Gilberto Gilmar Gilney Gilson Gino Giuliano Glacial Guilherme Gustavo
+			Hélio Haniel Henrique Hernane Homero Hudson Hugo Humberto
+			Ítrio Israel Itamar
+			Júlio Júnior Jacó Jacozinho Jader Jadson Jael Jayme João João Batista João Bosco João Lucas João Paulo João Pedro Joaquim Jonas Jordão Jordel Jorge José Juarez Juliano Juquinha
+			Kaio Kalil Kauan
+			Léo Lício Laureano Le o hat nidas Leandro Leonardo Lino Louremberg Louren c ced o Lourival Luan Lucas Luciano Luiz Cláudio Luiz Gustavo Luizinho Lyan
+			Márcio Ma c ced ão Maicon Manoel Marcílio Marcelinho Marciano Marcos Mariano Marlon Martiniano Matheus Maurício Mauro Mayck Melquezedeque Miguel Miltinho Misael Murilo
+			Nader Naftaly Natanael Nelson Nh o hat  Nilson
+			Olegário Oséas Oscar Osmailson Osmar Osvaldo Otaviano
+			Paulinho Paulino Pedro Pedro Bento Pedro Paulo Percival
+			Racyne Rafael Rahony Ramon Raul Ravel Ren e hat  Ricarte Rico Robertinho Robison Robson Rodolfo Rodrigo Rodrigues Rogério Romair Ronaldo Rony Ruan Rud
+			Ságuas Sílvio Samuel Sandro Serginho Simeão Sulino
+			Teodoro Thiago Tião Tomé
+			Ubaldo Ubiratan
+			Valdéci Valdomiro Valtenir Vanderlei Vicente Victor Victor Hugo Vinícius Virgílio
+			Walter Weimar Wellington Wilmar Wilson
+			Zé Zé Henrique Zé Paulo Zé Ricardo Zalo Zezé Zico
 		}
 		female_names = {
-			Exit
+			Abigail Adriana Agostinha Alexandra Alice Aline Alzira Amélia Amanda Ana Ana Maria Andréia Andressa Ant o hat nia Aparecida Azenate
+            Beatriz Benedita Biá Bruna
+            Cândida Célia Camila Carmem Celma Chica Chiquinha Cláudia Clemilda Cleusa Cristiane
+            Débora Daiane Daniele Delinha Duda Duduca
+            Edna Eduarda Elaine Eliane Elizabeth Emiliana Eva
+            Fátima Fabiana Fer Fernanda Flor Francisca
+            Gabriela Geovana Geralda Gina Gisela Glória
+            Helena Heloísa
+            Idauga Ilda In e hat s Irene Isabela
+            Jéssica Jaqueline Joana Josefa Ju Juliana Julinha
+            Karla
+            Lárissa Lívia Lúcia Laluna Lara Laura Leila Leonarda Letícia Levita Liu Lorena Luana Luciana Luiza
+            Márcia Mafalda Maiara Mandi Manu Mara Maraisa Marciana Maria Maria Aparecida Maria Cecília Maria Izabel Maria Lúcia Mariana Marlene Marli Martha Matutina Miriam
+            Nívea Nair Nanda Natália Neide Neuza Nhá No e hat mia
+            Olímpia
+            Patrícia Paulinha Priscila
+            Rafaela Rayssa Renata Rita Rosângela Rosana Roseli Rosinha
+            Salvina Sandra Sara Sebastiana Silvana Simaria Simone Solange Sonia Soraia Sueli
+            Taís Tatiane Tereza Terezinha Thaeme Tuca
+            Valéria Vanessa Vera Vi Vilmara Vitória
+            Zazá Zenaide Ziló
 		}
 		
 		from_dynasty_prefix = "de "
@@ -2315,22 +2397,55 @@ cerradonense = {
 		mat_grm_name_chance = 10
 		mother_name_chance = 5
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		allow_looting = yes
 		
 		modifier = default_culture_modifier
 	}
 	candango = {
-		graphical_cultures = { mexicangfx }
+		graphical_cultures = { southerngfx westerngfx }
 		
 		color = { 0.53 0.8 0.0 }
 		
 		male_names = {
-			Cat
-		}
+            Ângelo Agaciel Agnelo Agrício Aguinaldo Alírio Alberto Alexandre Antônio Aroldo Augusto Aylton
+            Benício Benedito Bosco Breno Bruno
+            César Caio Carlos Carlos Augusto Chico Cláudio Clóvis Cristiano
+            Daniel
+            Edimar Edson Eduardo Eurípedes Eurides Evandro
+            Fábio Felipe Fernando Francisco
+            Gabriel Geraldo Gilson Gim Guilherme
+            Iolando Ivonildo
+            Júnior João Joe Jonas Jonathan Jorge José José Alberto José Antônio José Edmar José Eduardo José Maria José Roberto Júlio Juscelino
+            Leandro Leonardo Lucas Luiz
+            Márcio Manoel Marcelo Marco Marcos Marivaldo Martins Matheus Maurílio Murilo
+            Octávio Odilon Olair Osório Oscar
+            Paulo Pedro Peniel
+            Raad Rafael Raimundo Reginaldo Reinier Renato Ricardo Robério Rodrigo Rogério Roosevelt
+            Sérgio Salviano Sidney
+            Túlio Tadeu Tiago
+            Valdelino
+            Wadjô Washington Wasny Wellington Wigberto Wilson		}
 		female_names = {
-			Dog
+            Adélia Adriana Alessandra Alice Aline Alzira Amanda Ana Andrea Andréia Ângela Antônia
+            Bárbara Basilia Beatriz Benedita Bianca Bruna
+            Camila Carmen Cláudia Cristiane
+            Daniela Débora Denise
+            Érika Edna Eduarda Eliane Elza Ester
+            Fabiana Fátima Fernanda Flávia Francisca
+            Gabriela Geovana Geralda
+            Helena
+            Isabel Isabela
+            Jaqueline Jessica Joana Josefa Júlia Juliana
+            Larissa Leila Letícia Luana Lúcia Luciana Luíza Luzia
+            Márcia Margarida Maria Maria Fátima Maria José Maria Laura Maria Luíza Maria Paula Maria de Lourdes Mariana Marlene
+            Nair Natália
+            Patrícia Paula Priscila
+            Rafaela Raimunda Raquel Rebeca Regina Renata Rita Roberta Rosa Rosângela
+            Sandra Sara Sebastiana Simone Sofia Sônia
+            Tânia Tatiana Teresinha Tereza Terezinha Thaís
+            Vanessa Vera Vitória
 		}
 		
 		from_dynasty_prefix = "de "
@@ -2345,22 +2460,59 @@ cerradonense = {
 		mat_grm_name_chance = 10
 		mother_name_chance = 5
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		allow_looting = yes
 		
 		modifier = default_culture_modifier
 	}
 	araguaio = {
-		graphical_cultures = { mexicangfx }
+		graphical_cultures = { pardogfx mexicangfx }
 		
 		color = { 1.0 0.8 0.0 }
 		
 		male_names = {
-			Girl
+			Ângelo Abraão Alexandre Amélio Antônio
+			Baylon
+			César Cacildo Carlos Cleiton
+			Eduardo Elenil Eli Eudoro Everaldo
+			Fábio Fabion Francisco Freire
+			Gerival
+			Helcio Hider
+			Iderval Iron Izidório
+			Júnior Jesus João Joaquim Jorge José Jurandi
+			Laurez Lindolfo Luiz
+			Manoel Marcelo Mascarenhas Mauro Merval
+			Nezinho Nilton
+			Olyntho Osires Otoniel
+			Paulino Paulo Pedro
+			Raimundo Raul Ricardo Rocha
+			Sandoval Sebastião Stalin
+			Toinho
+			Udson Uiatan
+			Valdemar Valderez Valuar Vicente Vicentinho Vilmar
+			Walfredo Wanderlei
+			Zé
 		}
 		female_names = {
-			Girl
+			Adriana Aline Alzira Amanda Amelia Ana Andreia Antonia
+			Beatriz Bruna
+			Camila Claudia Cristiane
+			Daiane Daniela Divina Domingas
+			Eliane Eliene Eva
+			Fabiana Fernanda Francisca
+			Gabriela Geovana
+			Helena
+			Iraci Isabel Isabela Izabel
+			Jaqueline Jessica Joana Josefa Julia Juliana
+			Lara Larissa Leticia Luana Luciana Luiza Luzia
+			Marcia Margarida Maria Mariana Marilene Marinalva Marlene
+			Natalia
+			Patricia Poliana
+			Raimunda Rita Rosa Rosilene
+			Sandra Sara Sebastiana Simone Sonia
+			Tereza Terezinha
+			Vanessa Vera Vitoria
 		}
 		
 		from_dynasty_prefix = "de "
@@ -2375,7 +2527,7 @@ cerradonense = {
 		mat_grm_name_chance = 10
 		mother_name_chance = 5
 		
-		dynasty_title_names = yes
+		#dynasty_title_names = yes
 		founder_named_dynasties = yes
 		allow_looting = yes
 		
@@ -2782,6 +2934,66 @@ nortista_group = {
 		male_patronym = "filho de "
 		female_patronym = "filha de "
 		prefix = yes		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+}
+
+cigano = {
+	graphical_cultures = { indiangfx westerngfx }
+	
+	calon = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0 0.9 0}
+		
+		male_names = {
+			Aaron Adolfo_Adolf André_Andrew
+			Benito Bóris
+			César_Caesar
+			Diogo
+			Gonçalo
+			Hilário
+			Iago igor Inácio
+			Juan Juscelino Juscelino
+			Manfredo Manolo Miro
+			Nicholas
+			Otilio
+			Pablo
+			Quirino
+			Rainer Ramirez Ramon
+			Tarim Tayrone
+			Uday
+			Valter
+			Wladimir
+		}
+		female_names = {
+			Alba Alzira Amapola Anabela Aurora
+			Carmela Carmela Carmen Constância Constância
+			Dalila Dolores
+			Esmeralda
+			Florisbela
+			Jade Jasmin
+			Leoni
+			Natasha Nazira
+			Paloma
+			Samara Sara Sata Soraia
+			Tâmara
+			Zafira Zaira
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes		
+		dynasty_title_names = yes
 		pat_grf_name_chance = 30
 		mat_grf_name_chance = 10
 		father_name_chance = 0

@@ -15,7 +15,7 @@ b_orizona = tribal
 #b_palmelo = castle
 
 # Misc
-culture = goyanense
-religion = modernists
+culture = calon
+religion = kardecists
 
 #History

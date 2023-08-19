@@ -301,6 +301,19 @@ k_california = { #california paulista lol
 		always = no
 	}
 }
+
+k_the_district = {
+	color={ 2 145 76}
+	color2={ 255 255 255 }
+	
+	allow = {
+		OR = {
+			lower_tier_than = KING
+			any_demesne_province = { OR = { province_id = 231 province_id = 232 province_id = 233 province_id = 234 } }
+		}
+	}
+	capital = 231 # c_brasilia
+}
 ### Duchies ###
 
 d_trifrontier = {
@@ -354,4 +367,24 @@ d_army_commoners = {
 	 can_be_usurped = no 
 	 assimilate = no 
 	 #primary = yes 
+}
+
+d_kraholand = {
+	color = { 238 28 42 }
+	color2 = { 255 255 255 }
+	
+	capital = 252 # Araguaina
+	
+	culture = kraho
+	
+	allow = { 
+		war = no
+		culture = kraho
+		OR = {
+			prestige = 100
+			d_kraholand = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	
+	creation_requires_capital = yes
 }

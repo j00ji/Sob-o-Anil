@@ -1,0 +1,1740 @@
+135000 = {
+    name = "Abadia"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135001 = {
+    name = "Abrão"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135002 = {
+    name = "Abraão"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135003 = {
+    name = "Acerola"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135004 = {
+    name = "Aidar"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135005 = {
+    name = "Albernaz"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135006 = {
+    name = "Alecrim"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135007 = {
+    name = "Alvarenga"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135008 = {
+    name = "Alves"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135009 = {
+    name = "Alves de Sousa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135010 = {
+    name = "Amante"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135011 = {
+    name = "Andorinha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135012 = {
+    name = "Andrade"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135013 = {
+    name = "Arantes"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135014 = {
+    name = "Ariranha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135015 = {
+    name = "Avelar"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135016 = {
+    name = "Baldy"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135017 = {
+    name = "Balestra"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135018 = {
+    name = "Barbosa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135019 = {
+    name = "Barreiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135020 = {
+    name = "Barreto"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135021 = {
+    name = "Barretto"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135022 = {
+    name = "Barrinha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135023 = {
+    name = "Barroso"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135024 = {
+    name = "Barsanulfo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135025 = {
+    name = "Bastos"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135026 = {
+    name = "Bate Pé"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135027 = {
+    name = "Batista"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135028 = {
+    name = "Batista Pereira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135029 = {
+    name = "Batista Alves"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135030 = {
+    name = "Batista Rodrigues"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135031 = {
+    name = "Belutti"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135032 = {
+    name = "Benuto"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135033 = {
+    name = "Bernardes"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135034 = {
+    name = "Bessa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135035 = {
+    name = "Bicudo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135036 = {
+    name = "Bittencourt"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135037 = {
+    name = "Borges"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135038 = {
+    name = "Borges da Silva"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135039 = {
+    name = "Bosco"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135040 = {
+    name = "Braz"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135041 = {
+    name = "Bueno"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135042 = {
+    name = "Câmara"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135043 = {
+    name = "Cândida"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135044 = {
+    name = "Cândido"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135045 = {
+    name = "Ca c ced ula"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135046 = {
+    name = "Caiado"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135047 = {
+    name = "Caixeta"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135048 = {
+    name = "Cala c ced a"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135049 = {
+    name = "Calil"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135050 = {
+    name = "Camargo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135051 = {
+    name = "Cambar a act "
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135052 = {
+    name = "Cambuci"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135053 = {
+    name = "Campos"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135054 = {
+    name = "Campos de Araújo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135055 = {
+    name = "Canedo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135056 = {
+    name = "Carcamano"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135057 = {
+    name = "Cardoso"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135058 = {
+    name = "Cardoso da Silva"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135059 = {
+    name = "Cardoso dos Santos"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135060 = {
+    name = "Careca"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135061 = {
+    name = "Carreirinho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135062 = {
+    name = "Carreiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135063 = {
+    name = "Carreteiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135064 = {
+    name = "Carrijo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135065 = {
+    name = "Carvalho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135066 = {
+    name = "Cascatinha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135067 = {
+    name = "Castro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135068 = {
+    name = "Catireiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135069 = {
+    name = "Cecílio"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135070 = {
+    name = "Chaveiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135071 = {
+    name = "Chaves"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135072 = {
+    name = "Ciriema"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135073 = {
+    name = "Cordeiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135074 = {
+    name = "Corno"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135075 = {
+    name = "Cosac"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135076 = {
+    name = "Costa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135077 = {
+    name = "Cotrim"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135078 = {
+    name = "Craveiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135079 = {
+    name = "Cruvinel"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135080 = {
+    name = "Cunha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135081 = {
+    name = "Curado"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135082 = {
+    name = "Curcino"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135083 = {
+    name = "Daher"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135084 = {
+    name = "Damas"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135085 = {
+    name = "Darc"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135086 = {
+    name = "Di Camargo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135087 = {
+    name = "Di Paullo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135088 = {
+    name = "Dias"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135089 = {
+    name = "Divino"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135090 = {
+    name = "Duarte"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135091 = {
+    name = "Espíndola"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135092 = {
+    name = "Estelita"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135093 = {
+    name = "Faiad"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135094 = {
+    name = "Falcão"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135095 = {
+    name = "Faleiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135096 = {
+    name = "Faleiros"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135097 = {
+    name = "Fanstone"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135098 = {
+    name = "Faria"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+135099 = {
+    name = "Feliciano"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120600 = {
+    name = "Ferreira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120601 = {
+    name = "Ferrinho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120602 = {
+    name = "Filho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120603 = {
+    name = "Fleury"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120604 = {
+    name = "Fonseca"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120605 = {
+    name = "Fontoura"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120606 = {
+    name = "Franco"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120607 = {
+    name = "Freire"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120608 = {
+    name = "Freitas"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120609 = {
+    name = "Gabiroba"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120610 = {
+    name = "Gaier"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120611 = {
+    name = "Galego"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120612 = {
+    name = "Godoi"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120613 = {
+    name = "Goiano"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120614 = {
+    name = "Gomes"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120615 = {
+    name = "Gomides"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120616 = {
+    name = "Gon c ced alves"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120617 = {
+    name = "Gondim"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120618 = {
+    name = "Gontijo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120619 = {
+    name = "Gonzaga"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120620 = {
+    name = "Gramacho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120621 = {
+    name = "Guimarães"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120622 = {
+    name = "Hamu"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120623 = {
+    name = "Hezim"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120624 = {
+    name = "Hugo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120625 = {
+    name = "Júnior"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120626 = {
+    name = "Kajuru"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120627 = {
+    name = "Lamounier"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120628 = {
+    name = "Laureano"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120629 = {
+    name = "Leão"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120630 = {
+    name = "Leles"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120631 = {
+    name = "Lemes"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120632 = {
+    name = "Lereia"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120633 = {
+    name = "Letrado"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120634 = {
+    name = "Levy"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120635 = {
+    name = "Limeira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120636 = {
+    name = "Linhares"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120637 = {
+    name = "Lobo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120638 = {
+    name = "Louredo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120639 = {
+    name = "Louro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120640 = {
+    name = "Lustosa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120641 = {
+    name = "M a act rio"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120642 = {
+    name = "Mabel"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120643 = {
+    name = "Machado"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120644 = {
+    name = "Magalhães"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120645 = {
+    name = "Mamede"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120646 = {
+    name = "Manso"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120647 = {
+    name = "Manzi"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120648 = {
+    name = "Mar c ced al"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120649 = {
+    name = "Marciana"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120650 = {
+    name = "Marciano"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120651 = {
+    name = "Margon"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120652 = {
+    name = "Marrone"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120653 = {
+    name = "Marrueiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120654 = {
+    name = "Mauro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120655 = {
+    name = "Mecânico"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120656 = {
+    name = "Meirelles"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120657 = {
+    name = "Melo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120658 = {
+    name = "Mendanha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120659 = {
+    name = "Menotti"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120660 = {
+    name = "Miranda"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120661 = {
+    name = "Mirim"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120662 = {
+    name = "Mococa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120663 = {
+    name = "Mofatto"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120664 = {
+    name = "Montalvão"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120665 = {
+    name = "Monteirinho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120666 = {
+    name = "Monteiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120667 = {
+    name = "Monterrey"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120668 = {
+    name = "Morais"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120669 = {
+    name = "Moreninho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120670 = {
+    name = "Moreno"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120671 = {
+    name = "Mouraí"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120672 = {
+    name = "Munhoz"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120673 = {
+    name = "Nascimento"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120674 = {
+    name = "Nasser"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120675 = {
+    name = "Natal"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120676 = {
+    name = "Nato"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120677 = {
+    name = "Naves"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120678 = {
+    name = "Nelto"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120679 = {
+    name = "Neto"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120680 = {
+    name = "Neves"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120681 = {
+    name = "Noleto"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120682 = {
+    name = "Nonato"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120683 = {
+    name = "Otoni"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120684 = {
+    name = "Póvoa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120685 = {
+    name = "Pajé"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120686 = {
+    name = "Palmeira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120687 = {
+    name = "Paranhos"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120688 = {
+    name = "Pardal"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120689 = {
+    name = "Pardinho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120690 = {
+    name = "Parreira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120691 = {
+    name = "Peão"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120692 = {
+    name = "Pedreiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120693 = {
+    name = "Peixoto"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120694 = {
+    name = "Pena Branca"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120695 = {
+    name = "Pequi"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120696 = {
+    name = "Pereira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120697 = {
+    name = "Pereira de Sousa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120698 = {
+    name = "Perillo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120699 = {
+    name = "Pintado"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120700 = {
+    name = "Pires"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120701 = {
+    name = "Pires da Silva"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120702 = {
+    name = "Policena"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120703 = {
+    name = "Praião"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120704 = {
+    name = "Prainha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120705 = {
+    name = "Preto"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120706 = {
+    name = "Quinan"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120707 = {
+    name = "Rabelo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120708 = {
+    name = "Reges"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120709 = {
+    name = "Resende"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120710 = {
+    name = "Rey"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120711 = {
+    name = "Rezende"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120712 = {
+    name = "Ribeiro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120713 = {
+    name = "Rionegro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120714 = {
+    name = "Rios"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120715 = {
+    name = "Rocha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120716 = {
+    name = "Rodovalho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120717 = {
+    name = "Rodrigues"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120718 = {
+    name = "Roriz"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120719 = {
+    name = "Rosa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120720 = {
+    name = "Rosa da Silva"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120721 = {
+    name = "Rosa de Oliveira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120722 = {
+    name = "Rosa de Souza"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120723 = {
+    name = "Rosa dos Santos"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120724 = {
+    name = "Roseno"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120725 = {
+    name = "Sabbag"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120726 = {
+    name = "Sabi a act "
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120727 = {
+    name = "Sahium"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120728 = {
+    name = "Sampaio"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120729 = {
+    name = "Santa Cruz"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120730 = {
+    name = "Santiago"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120731 = {
+    name = "Santillo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120732 = {
+    name = "Santos"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120733 = {
+    name = "Saraiva"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120734 = {
+    name = "Sardinha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120735 = {
+    name = "Sebba"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120736 = {
+    name = "Silva"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120737 = {
+    name = "Silveira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120738 = {
+    name = "Siqueira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120739 = {
+    name = "Soares"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120740 = {
+    name = "Solimões"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120741 = {
+    name = "Sousa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120742 = {
+    name = "Soyer"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120743 = {
+    name = "Spíndola"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120744 = {
+    name = "Suares"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120745 = {
+    name = "Teixeira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120746 = {
+    name = "Teles"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120747 = {
+    name = "Teodoro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120748 = {
+    name = "Tibagi"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120749 = {
+    name = "Torres"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120750 = {
+    name = "Torrinha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120751 = {
+    name = "Umbelino"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120752 = {
+    name = "Valadão"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120753 = {
+    name = "Valadares"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120754 = {
+    name = "Vaz"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120755 = {
+    name = "Veado"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120756 = {
+    name = "Vecci"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120757 = {
+    name = "Velasco"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120758 = {
+    name = "Vergílio"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120759 = {
+    name = "Vesgo"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120760 = {
+    name = "Vieira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120761 = {
+    name = "Vieirinha"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120762 = {
+    name = "Vilela"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120763 = {
+    name = "Waldir"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120764 = {
+    name = "Xavantinho"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120765 = {
+    name = "Xavier"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120766 = {
+    name = "Xororó"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120767 = {
+    name = "da Abadia"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120768 = {
+    name = "da Estrada"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120769 = {
+    name = "da Mata"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120770 = {
+    name = "de Alcântara"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120771 = {
+    name = "de Alvarenga"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120772 = {
+    name = "de Assun c ced ão"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120773 = {
+    name = "de Ataídes"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120774 = {
+    name = "de Bastos"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120775 = {
+    name = "de Bessa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120776 = {
+    name = "de Castro"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120777 = {
+    name = "de Faria"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120778 = {
+    name = "de Freitas"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120779 = {
+    name = "de Godoi"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120780 = {
+    name = "de Lacerda"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120781 = {
+    name = "de Morais"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120782 = {
+    name = "de P a act dua"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120783 = {
+    name = "de Pina"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120784 = {
+    name = "de Resende"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120785 = {
+    name = "de Rezende"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120786 = {
+    name = "de Siqueira"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120787 = {
+    name = "de Sousa"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120788 = {
+    name = "de Torres"
+    culture = araguaio
+    # Add more properties as needed
+}
+
+120789 = {
+    name = "dos Reis"
+    culture = araguaio
+    # Add more properties as needed
+}
+

@@ -47,3 +47,9 @@ huaso_guard_composition = {
 	cowboys = 100
 	archers = 300
 }
+candango_composition = {
+	levy_size = 3
+	pikemen = 300
+	heavy_infantry = 150 
+	knights = 100
+}

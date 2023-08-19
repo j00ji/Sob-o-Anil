@@ -16,6 +16,6 @@ b_itumbiara = tribal
 
 # Misc
 culture = goyanense
-religion = manredebu
+religion = terra_benta
 
 #History

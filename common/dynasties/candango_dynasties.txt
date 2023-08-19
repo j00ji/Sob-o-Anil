@@ -1,0 +1,1320 @@
+130500 = {
+    name = "Abadia"
+    culture = candango
+    # Add more properties as needed
+}
+
+130501 = {
+    name = "Abrantes"
+    culture = candango
+    # Add more properties as needed
+}
+
+130502 = {
+    name = "Acerola"
+    culture = candango
+    # Add more properties as needed
+}
+
+130503 = {
+    name = "Aguiar"
+    culture = candango
+    # Add more properties as needed
+}
+
+130504 = {
+    name = "Aires"
+    culture = candango
+    # Add more properties as needed
+}
+
+130505 = {
+    name = "Alemão"
+    culture = candango
+    # Add more properties as needed
+}
+
+130506 = {
+    name = "Almeida"
+    culture = candango
+    # Add more properties as needed
+}
+
+130507 = {
+    name = "Alvarenga"
+    culture = candango
+    # Add more properties as needed
+}
+
+130508 = {
+    name = "Alves"
+    culture = candango
+    # Add more properties as needed
+}
+
+130509 = {
+    name = "Amante"
+    culture = candango
+    # Add more properties as needed
+}
+
+130510 = {
+    name = "Andorinha"
+    culture = candango
+    # Add more properties as needed
+}
+
+130511 = {
+    name = "Andrade"
+    culture = candango
+    # Add more properties as needed
+}
+
+130512 = {
+    name = "Araújo"
+    culture = candango
+    # Add more properties as needed
+}
+
+130513 = {
+    name = "Aragão"
+    culture = candango
+    # Add more properties as needed
+}
+
+130514 = {
+    name = "Argello"
+    culture = candango
+    # Add more properties as needed
+}
+
+130515 = {
+    name = "Ariranha"
+    culture = candango
+    # Add more properties as needed
+}
+
+130516 = {
+    name = "Arruda"
+    culture = candango
+    # Add more properties as needed
+}
+
+130517 = {
+    name = "Aziz"
+    culture = candango
+    # Add more properties as needed
+}
+
+130518 = {
+    name = "Bar e hat a"
+    culture = candango
+    # Add more properties as needed
+}
+
+130519 = {
+    name = "Barbosa"
+    culture = candango
+    # Add more properties as needed
+}
+
+130520 = {
+    name = "Barcellos"
+    culture = candango
+    # Add more properties as needed
+}
+
+130521 = {
+    name = "Barcelos"
+    culture = candango
+    # Add more properties as needed
+}
+
+130522 = {
+    name = "Barreiro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130523 = {
+    name = "Batista"
+    culture = candango
+    # Add more properties as needed
+}
+
+130524 = {
+    name = "Brito"
+    culture = candango
+    # Add more properties as needed
+}
+
+130525 = {
+    name = "Brunelli"
+    culture = candango
+    # Add more properties as needed
+}
+
+130526 = {
+    name = "Bulcão"
+    culture = candango
+    # Add more properties as needed
+}
+
+130527 = {
+    name = "Cadete"
+    culture = candango
+    # Add more properties as needed
+}
+
+130528 = {
+    name = "Caixeta"
+    culture = candango
+    # Add more properties as needed
+}
+
+130529 = {
+    name = "Cajueiro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130530 = {
+    name = "Camargo"
+    culture = candango
+    # Add more properties as needed
+}
+
+130531 = {
+    name = "Cambuci"
+    culture = candango
+    # Add more properties as needed
+}
+
+130532 = {
+    name = "Campanella"
+    culture = candango
+    # Add more properties as needed
+}
+
+130533 = {
+    name = "Canavieira"
+    culture = candango
+    # Add more properties as needed
+}
+
+130534 = {
+    name = "Canhoto"
+    culture = candango
+    # Add more properties as needed
+}
+
+130535 = {
+    name = "Cantanhede"
+    culture = candango
+    # Add more properties as needed
+}
+
+130536 = {
+    name = "Carcamano"
+    culture = candango
+    # Add more properties as needed
+}
+
+130537 = {
+    name = "Cardoso"
+    culture = candango
+    # Add more properties as needed
+}
+
+130538 = {
+    name = "Carneiro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130539 = {
+    name = "Carvalho"
+    culture = candango
+    # Add more properties as needed
+}
+
+130540 = {
+    name = "Cauhy"
+    culture = candango
+    # Add more properties as needed
+}
+
+130541 = {
+    name = "Celso"
+    culture = candango
+    # Add more properties as needed
+}
+
+130542 = {
+    name = "Chahine"
+    culture = candango
+    # Add more properties as needed
+}
+
+130543 = {
+    name = "Chifrudo"
+    culture = candango
+    # Add more properties as needed
+}
+
+130544 = {
+    name = "Cieslak"
+    culture = candango
+    # Add more properties as needed
+}
+
+130545 = {
+    name = "Corno"
+    culture = candango
+    # Add more properties as needed
+}
+
+130546 = {
+    name = "Curado"
+    culture = candango
+    # Add more properties as needed
+}
+
+130547 = {
+    name = "Delmasso"
+    culture = candango
+    # Add more properties as needed
+}
+
+130548 = {
+    name = "Domingos"
+    culture = candango
+    # Add more properties as needed
+}
+
+130549 = {
+    name = "Donizet"
+    culture = candango
+    # Add more properties as needed
+}
+
+130550 = {
+    name = "Durães"
+    culture = candango
+    # Add more properties as needed
+}
+
+130551 = {
+    name = "Eller"
+    culture = candango
+    # Add more properties as needed
+}
+
+130552 = {
+    name = "Estevão"
+    culture = candango
+    # Add more properties as needed
+}
+
+130553 = {
+    name = "Félix"
+    culture = candango
+    # Add more properties as needed
+}
+
+130554 = {
+    name = "Faraj"
+    culture = candango
+    # Add more properties as needed
+}
+
+130555 = {
+    name = "Fernandes"
+    culture = candango
+    # Add more properties as needed
+}
+
+130556 = {
+    name = "Ferreira"
+    culture = candango
+    # Add more properties as needed
+}
+
+130557 = {
+    name = "Filippelli"
+    culture = candango
+    # Add more properties as needed
+}
+
+130558 = {
+    name = "Foresti"
+    culture = candango
+    # Add more properties as needed
+}
+
+130559 = {
+    name = "Franc e hat s"
+    culture = candango
+    # Add more properties as needed
+}
+
+130560 = {
+    name = "Francisco"
+    culture = candango
+    # Add more properties as needed
+}
+
+130561 = {
+    name = "Gabiroba"
+    culture = candango
+    # Add more properties as needed
+}
+
+130562 = {
+    name = "Galego"
+    culture = candango
+    # Add more properties as needed
+}
+
+130563 = {
+    name = "Garla"
+    culture = candango
+    # Add more properties as needed
+}
+
+130564 = {
+    name = "Goiabeira"
+    culture = candango
+    # Add more properties as needed
+}
+
+130565 = {
+    name = "Gomes"
+    culture = candango
+    # Add more properties as needed
+}
+
+130566 = {
+    name = "Gomes Ferreira"
+    culture = candango
+    # Add more properties as needed
+}
+
+130567 = {
+    name = "Gomes Naves"
+    culture = candango
+    # Add more properties as needed
+}
+
+130568 = {
+    name = "Grass"
+    culture = candango
+    # Add more properties as needed
+}
+
+130569 = {
+    name = "Grisalho"
+    culture = candango
+    # Add more properties as needed
+}
+
+130570 = {
+    name = "Gua c ced u"
+    culture = candango
+    # Add more properties as needed
+}
+
+130571 = {
+    name = "Guedes"
+    culture = candango
+    # Add more properties as needed
+}
+
+130572 = {
+    name = "Guilhon"
+    culture = candango
+    # Add more properties as needed
+}
+
+130573 = {
+    name = "Guimarães"
+    culture = candango
+    # Add more properties as needed
+}
+
+130574 = {
+    name = "Jabour"
+    culture = candango
+    # Add more properties as needed
+}
+
+130575 = {
+    name = "Juarez"
+    culture = candango
+    # Add more properties as needed
+}
+
+130576 = {
+    name = "Kokay"
+    culture = candango
+    # Add more properties as needed
+}
+
+130577 = {
+    name = "Lacerda"
+    culture = candango
+    # Add more properties as needed
+}
+
+130578 = {
+    name = "Leão"
+    culture = candango
+    # Add more properties as needed
+}
+
+130579 = {
+    name = "Letrado"
+    culture = candango
+    # Add more properties as needed
+}
+
+130580 = {
+    name = "Lima"
+    culture = candango
+    # Add more properties as needed
+}
+
+130581 = {
+    name = "Longhi"
+    culture = candango
+    # Add more properties as needed
+}
+
+130582 = {
+    name = "Louro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130583 = {
+    name = "Lucas"
+    culture = candango
+    # Add more properties as needed
+}
+
+130584 = {
+    name = "Lucena"
+    culture = candango
+    # Add more properties as needed
+}
+
+130585 = {
+    name = "Lucy"
+    culture = candango
+    # Add more properties as needed
+}
+
+130586 = {
+    name = "Luiz"
+    culture = candango
+    # Add more properties as needed
+}
+
+130587 = {
+    name = "Lustosa"
+    culture = candango
+    # Add more properties as needed
+}
+
+130588 = {
+    name = "Machado"
+    culture = candango
+    # Add more properties as needed
+}
+
+130589 = {
+    name = "Maffei"
+    culture = candango
+    # Add more properties as needed
+}
+
+130590 = {
+    name = "Magalhães"
+    culture = candango
+    # Add more properties as needed
+}
+
+130591 = {
+    name = "Magela"
+    culture = candango
+    # Add more properties as needed
+}
+
+130592 = {
+    name = "Maia"
+    culture = candango
+    # Add more properties as needed
+}
+
+130593 = {
+    name = "Malandro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130594 = {
+    name = "Mané"
+    culture = candango
+    # Add more properties as needed
+}
+
+130595 = {
+    name = "Manac a act "
+    culture = candango
+    # Add more properties as needed
+}
+
+130596 = {
+    name = "Mandioca"
+    culture = candango
+    # Add more properties as needed
+}
+
+130597 = {
+    name = "Marcião"
+    culture = candango
+    # Add more properties as needed
+}
+
+130598 = {
+    name = "Marques"
+    culture = candango
+    # Add more properties as needed
+}
+
+130599 = {
+    name = "Massouh"
+    culture = candango
+    # Add more properties as needed
+}
+
+130600 = {
+    name = "Matildes"
+    culture = candango
+    # Add more properties as needed
+}
+
+130601 = {
+    name = "Matsunaga"
+    culture = candango
+    # Add more properties as needed
+}
+
+130602 = {
+    name = "Medeiros"
+    culture = candango
+    # Add more properties as needed
+}
+
+130603 = {
+    name = "Michel"
+    culture = candango
+    # Add more properties as needed
+}
+
+130604 = {
+    name = "Miranda"
+    culture = candango
+    # Add more properties as needed
+}
+
+130605 = {
+    name = "Mirim"
+    culture = candango
+    # Add more properties as needed
+}
+
+130606 = {
+    name = "Mitraud"
+    culture = candango
+    # Add more properties as needed
+}
+
+130607 = {
+    name = "Monteiro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130608 = {
+    name = "Moreno"
+    culture = candango
+    # Add more properties as needed
+}
+
+130609 = {
+    name = "Moura"
+    culture = candango
+    # Add more properties as needed
+}
+
+130610 = {
+    name = "Nascentes"
+    culture = candango
+    # Add more properties as needed
+}
+
+130611 = {
+    name = "Nasr"
+    culture = candango
+    # Add more properties as needed
+}
+
+130612 = {
+    name = "Nemer"
+    culture = candango
+    # Add more properties as needed
+}
+
+130613 = {
+    name = "Neres"
+    culture = candango
+    # Add more properties as needed
+}
+
+130614 = {
+    name = "Nery"
+    culture = candango
+    # Add more properties as needed
+}
+
+130615 = {
+    name = "Neto"
+    culture = candango
+    # Add more properties as needed
+}
+
+130616 = {
+    name = "Niemeyer"
+    culture = candango
+    # Add more properties as needed
+}
+
+130617 = {
+    name = "Nogueira"
+    culture = candango
+    # Add more properties as needed
+}
+
+130618 = {
+    name = "Ornelas"
+    culture = candango
+    # Add more properties as needed
+}
+
+130619 = {
+    name = "Pacheco"
+    culture = candango
+    # Add more properties as needed
+}
+
+130620 = {
+    name = "Padrão"
+    culture = candango
+    # Add more properties as needed
+}
+
+130621 = {
+    name = "Passos"
+    culture = candango
+    # Add more properties as needed
+}
+
+130622 = {
+    name = "Patrício"
+    culture = candango
+    # Add more properties as needed
+}
+
+130623 = {
+    name = "Pedreiro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130624 = {
+    name = "Pedrosa"
+    culture = candango
+    # Add more properties as needed
+}
+
+130625 = {
+    name = "Penteado"
+    culture = candango
+    # Add more properties as needed
+}
+
+130626 = {
+    name = "Pequi"
+    culture = candango
+    # Add more properties as needed
+}
+
+130627 = {
+    name = "Pereira"
+    culture = candango
+    # Add more properties as needed
+}
+
+130628 = {
+    name = "Pereira da Silva"
+    culture = candango
+    # Add more properties as needed
+}
+
+130629 = {
+    name = "Periquito"
+    culture = candango
+    # Add more properties as needed
+}
+
+130630 = {
+    name = "Pescador"
+    culture = candango
+    # Add more properties as needed
+}
+
+130631 = {
+    name = "Pingu c ced o"
+    culture = candango
+    # Add more properties as needed
+}
+
+130632 = {
+    name = "Pintado"
+    culture = candango
+    # Add more properties as needed
+}
+
+130633 = {
+    name = "Pireneus"
+    culture = candango
+    # Add more properties as needed
+}
+
+130634 = {
+    name = "Portilho"
+    culture = candango
+    # Add more properties as needed
+}
+
+130635 = {
+    name = "Porto"
+    culture = candango
+    # Add more properties as needed
+}
+
+130636 = {
+    name = "Preto"
+    culture = candango
+    # Add more properties as needed
+}
+
+130637 = {
+    name = "Prudente"
+    culture = candango
+    # Add more properties as needed
+}
+
+130638 = {
+    name = "Queiroz"
+    culture = candango
+    # Add more properties as needed
+}
+
+130639 = {
+    name = "Quintão"
+    culture = candango
+    # Add more properties as needed
+}
+
+130640 = {
+    name = "Rabelo"
+    culture = candango
+    # Add more properties as needed
+}
+
+130641 = {
+    name = "Rainha"
+    culture = candango
+    # Add more properties as needed
+}
+
+130642 = {
+    name = "Rajão"
+    culture = candango
+    # Add more properties as needed
+}
+
+130643 = {
+    name = "Ramalho"
+    culture = candango
+    # Add more properties as needed
+}
+
+130644 = {
+    name = "Reguffe"
+    culture = candango
+    # Add more properties as needed
+}
+
+130645 = {
+    name = "Resende"
+    culture = candango
+    # Add more properties as needed
+}
+
+130646 = {
+    name = "Ribeiro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130647 = {
+    name = "Rodovalho"
+    culture = candango
+    # Add more properties as needed
+}
+
+130648 = {
+    name = "Rollemberg"
+    culture = candango
+    # Add more properties as needed
+}
+
+130649 = {
+    name = "Roriz"
+    culture = candango
+    # Add more properties as needed
+}
+
+130650 = {
+    name = "Rufino"
+    culture = candango
+    # Add more properties as needed
+}
+
+130651 = {
+    name = "Sabi a act "
+    culture = candango
+    # Add more properties as needed
+}
+
+130652 = {
+    name = "Sampaio"
+    culture = candango
+    # Add more properties as needed
+}
+
+130653 = {
+    name = "Sardento"
+    culture = candango
+    # Add more properties as needed
+}
+
+130654 = {
+    name = "Sardinha"
+    culture = candango
+    # Add more properties as needed
+}
+
+130655 = {
+    name = "Satake"
+    culture = candango
+    # Add more properties as needed
+}
+
+130656 = {
+    name = "Schmidt"
+    culture = candango
+    # Add more properties as needed
+}
+
+130657 = {
+    name = "Serejo"
+    culture = candango
+    # Add more properties as needed
+}
+
+130658 = {
+    name = "Sigmaringa"
+    culture = candango
+    # Add more properties as needed
+}
+
+130659 = {
+    name = "Silva"
+    culture = candango
+    # Add more properties as needed
+}
+
+130660 = {
+    name = "Silveira"
+    culture = candango
+    # Add more properties as needed
+}
+
+130661 = {
+    name = "Stecanela"
+    culture = candango
+    # Add more properties as needed
+}
+
+130662 = {
+    name = "Tadeu"
+    culture = candango
+    # Add more properties as needed
+}
+
+130663 = {
+    name = "Tartuce"
+    culture = candango
+    # Add more properties as needed
+}
+
+130664 = {
+    name = "Tatico"
+    culture = candango
+    # Add more properties as needed
+}
+
+130665 = {
+    name = "Tatu"
+    culture = candango
+    # Add more properties as needed
+}
+
+130666 = {
+    name = "Tavares"
+    culture = candango
+    # Add more properties as needed
+}
+
+130667 = {
+    name = "Torres"
+    culture = candango
+    # Add more properties as needed
+}
+
+130668 = {
+    name = "Ulysses"
+    culture = candango
+    # Add more properties as needed
+}
+
+130669 = {
+    name = "Urso"
+    culture = candango
+    # Add more properties as needed
+}
+
+130670 = {
+    name = "Vallim"
+    culture = candango
+    # Add more properties as needed
+}
+
+130671 = {
+    name = "Veado"
+    culture = candango
+    # Add more properties as needed
+}
+
+130672 = {
+    name = "Venturini"
+    culture = candango
+    # Add more properties as needed
+}
+
+130673 = {
+    name = "Veras"
+    culture = candango
+    # Add more properties as needed
+}
+
+130674 = {
+    name = "Vesgo"
+    culture = candango
+    # Add more properties as needed
+}
+
+130675 = {
+    name = "Vettoraci"
+    culture = candango
+    # Add more properties as needed
+}
+
+130676 = {
+    name = "Vianna"
+    culture = candango
+    # Add more properties as needed
+}
+
+130677 = {
+    name = "Vilela"
+    culture = candango
+    # Add more properties as needed
+}
+
+130678 = {
+    name = "Villefort"
+    culture = candango
+    # Add more properties as needed
+}
+
+130679 = {
+    name = "Yahya"
+    culture = candango
+    # Add more properties as needed
+}
+
+130680 = {
+    name = "Xavier"
+    culture = candango
+    # Add more properties as needed
+}
+
+130681 = {
+    name = "da Anta"
+    culture = candango
+    # Add more properties as needed
+}
+
+130682 = {
+    name = "da Barra"
+    culture = candango
+    # Add more properties as needed
+}
+
+130683 = {
+    name = "da Farra"
+    culture = candango
+    # Add more properties as needed
+}
+
+130684 = {
+    name = "da Feira"
+    culture = candango
+    # Add more properties as needed
+}
+
+130685 = {
+    name = "da Gandaia"
+    culture = candango
+    # Add more properties as needed
+}
+
+130686 = {
+    name = "da Lua"
+    culture = candango
+    # Add more properties as needed
+}
+
+130687 = {
+    name = "da Mata"
+    culture = candango
+    # Add more properties as needed
+}
+
+130688 = {
+    name = "da On c ced a"
+    culture = candango
+    # Add more properties as needed
+}
+
+130689 = {
+    name = "da Paixão"
+    culture = candango
+    # Add more properties as needed
+}
+
+130690 = {
+    name = "da Praia"
+    culture = candango
+    # Add more properties as needed
+}
+
+130691 = {
+    name = "da Quebrada"
+    culture = candango
+    # Add more properties as needed
+}
+
+130692 = {
+    name = "da Quenga"
+    culture = candango
+    # Add more properties as needed
+}
+
+130693 = {
+    name = "da Ressaca"
+    culture = candango
+    # Add more properties as needed
+}
+
+130694 = {
+    name = "da Serra"
+    culture = candango
+    # Add more properties as needed
+}
+
+130695 = {
+    name = "da Silva"
+    culture = candango
+    # Add more properties as needed
+}
+
+130696 = {
+    name = "de Aguiar"
+    culture = candango
+    # Add more properties as needed
+}
+
+130697 = {
+    name = "de Almeida"
+    culture = candango
+    # Add more properties as needed
+}
+
+130698 = {
+    name = "de Andrade"
+    culture = candango
+    # Add more properties as needed
+}
+
+130699 = {
+    name = "de Araújo"
+    culture = candango
+    # Add more properties as needed
+}
+
+130700 = {
+    name = "de Carvalho"
+    culture = candango
+    # Add more properties as needed
+}
+
+130701 = {
+    name = "de Castro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130702 = {
+    name = "de Deus"
+    culture = candango
+    # Add more properties as needed
+}
+
+130703 = {
+    name = "de Jesus"
+    culture = candango
+    # Add more properties as needed
+}
+
+130704 = {
+    name = "de Lourdes"
+    culture = candango
+    # Add more properties as needed
+}
+
+130705 = {
+    name = "de Oliveira"
+    culture = candango
+    # Add more properties as needed
+}
+
+130706 = {
+    name = "de Paula"
+    culture = candango
+    # Add more properties as needed
+}
+
+130707 = {
+    name = "de Roure"
+    culture = candango
+    # Add more properties as needed
+}
+
+130708 = {
+    name = "de Sousa"
+    culture = candango
+    # Add more properties as needed
+}
+
+130709 = {
+    name = "de Souza"
+    culture = candango
+    # Add more properties as needed
+}
+
+130710 = {
+    name = "de Tarso"
+    culture = candango
+    # Add more properties as needed
+}
+
+130711 = {
+    name = "do A c ced ude"
+    culture = candango
+    # Add more properties as needed
+}
+
+130712 = {
+    name = "do Ara c ced  a act "
+    culture = candango
+    # Add more properties as needed
+}
+
+130713 = {
+    name = "do Barro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130714 = {
+    name = "do Brejo"
+    culture = candango
+    # Add more properties as needed
+}
+
+130715 = {
+    name = "do Campo"
+    culture = candango
+    # Add more properties as needed
+}
+
+130716 = {
+    name = "do Gado"
+    culture = candango
+    # Add more properties as needed
+}
+
+130717 = {
+    name = "do Mangue"
+    culture = candango
+    # Add more properties as needed
+}
+
+130718 = {
+    name = "do Morro"
+    culture = candango
+    # Add more properties as needed
+}
+
+130719 = {
+    name = "dos Santos"
+    culture = candango
+    # Add more properties as needed
+}
+

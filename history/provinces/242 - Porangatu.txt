@@ -6,9 +6,9 @@ title = c_porangatu
 # Settlements
 max_settlements = 2
 
-b_porangatu = tribal
-#b_montivideu_do_norte = city
-#b_novo_planalto = temple
+b_porangatu = castle
+b_montivideu_do_norte = city
+b_novo_planalto = temple
 #b_trombas = castle
 #b_cajueiro = city
 #b_tatuara = temple

@@ -15,7 +15,7 @@ b_catalao = tribal
 #b_nova_aurora_2 = castle
 
 # Misc
-culture = goyanense
-religion = modernists
+culture = calon
+religion = kardecists
 
 #History

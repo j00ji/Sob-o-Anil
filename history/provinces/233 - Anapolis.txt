@@ -6,9 +6,9 @@ title = c_anapolis
 # Settlements
 max_settlements = 3
 
-b_anapolis = tribal
-#b_lagolandia = city
-#b_barro_alto = temple
+b_anapolis = castle
+b_lagolandia = city
+b_barro_alto = temple
 #b_piranopolis = castle
 #b_goianesia = city
 #b_rialma = temple

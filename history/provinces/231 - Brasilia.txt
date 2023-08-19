@@ -4,13 +4,13 @@
 title = c_brasilia
 
 # Settlements
-max_settlements = 3
+max_settlements = 6
 
-b_brasilia = tribal
+b_brasilia = castle
 b_asa_norte = temple
-#b_asa_sul = temple
-#b_ceilandia = castle
-#b_taguatinga = city
+b_asa_sul = temple
+b_ceilandia = castle
+b_taguatinga = city
 #b_samambaia = temple
 #b_gama = castle
 

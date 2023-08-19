@@ -3,5 +3,6 @@
 }
 2364.8.8={
 	holder = 210001
+	liege = d_araguaia
 	historical_nomad=yes
 }

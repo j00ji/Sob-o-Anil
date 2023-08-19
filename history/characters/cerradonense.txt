@@ -5,8 +5,9 @@
 	dynasty=120002
 	female=yes
 	father=180002
-	culture=goyanense
-	religion=modernists
+	culture=calon
+	religion=kardecists
+	trait=tough_soldier
 	
 	2349.11.12={birth=yes}
 	2400.1.1={death=yes}
@@ -14,29 +15,390 @@
 180002={
 	name="Marco"
 	dynasty=120002
-	culture=goyanense
+	culture=calon
 	religion=modernists
 	martial=12
+	trait=skilled_tactician
 	add_trait=brave
+	trait=cavalry_leader
 	2317.8.2={birth=yes}
 	2360.5.2={death=yes}
 }
+#Cúbico Family#
+180003={
+	name="Jeremias"
+	dynasty=120001 #Cúbico
+	culture=west_slavic
+	religion=modernists
+	father=180006
+	mother=180007
+	trait=brilliant_strategist
+	trait=diligent
+	trait=patient
+	trait=cavalry_leader
+	trait=organizer
+	trait=cynical
+	diplomacy=8
+	martial=8
+	stewardship=5
+	intrigue=4
+	learning=3
+	2332.9.12={
+		birth=yes culture=auriferro
+	}
+	2360.1.1={culture=candango}
+	2361.1.1={
+		effect={add_rival=200001}
+	}
+	2362.1.1={add_spouse=180016} #Candango elite spouse
+	2400.1.1={death=yes}
+	#current King of Brasília, was invited to rule by the city's elite
+}
+180004={
+	name="Gael"
+	dynasty=120001 #Cúbico
+	culture=west_slavic
+	religion=terra_benta
+	father=180006
+	mother=180007
+	trait=fortune_builder
+	trait=proud
+	diplomacy=4
+	stewardship=7
+	martial=6
+	intrigue=4
+	learning=4
+	2329.1.1={
+		birth=yes culture=goyanense
+	}
+	#2362.1.1={add_spouse=} #local spouse
+	2400.1.1={death=yes}
+	#High Chief of Rio Verde owns ipora, jatai and rio verde
+}
+180005={
+	name="Renata"
+	dynasty=120001 #Cúbico
+	culture=west_slavic
+	religion=terra_benta
+	female=yes
+	father=180006
+	mother=180007
+	trait=grey_eminence
+	trait=gregarious
+	trait=groomed
+	2335.1.1={
+		birth=yes culture=auriferro
+	}
+	2400.1.1={death=yes}
+	#Cubico's sister
+}
+180006={
+	name="Érico"
+	dynasty=120001 #Cúbico
+	culture=west_slavic
+	religion=modernists
+	father=180008
+	trait=skilled_tactician
+	trait=adventurer
+	trait=ambitious
+	trait=proud
+	trait=patient
+	2296.1.1={
+		birth=yes culture=auriferro
+	}
+	2353.1.1={death=yes}
+	#First Cúbico to reach Goiás
+}
+180007={
+	name="Lorena"
+	dynasty=0
+	culture=goyanense
+	religion=terra_benta
+	female=yes
+	trait=naive_appeaser
+	trait=groomed
+	trait=wroth
+	2303.1.1={birth=yes}
+	2370.1.1={death=yes}
+	#Wife of Érico mother of most Cúbicos
+}
+180008={
+	name="Sérgio"
+	dynasty=120001 #Cúbico
+	culture=west_slavic
+	religion=terra_benta
+	trait=thrifty_clerk
+	trait=diligent
+	trait=just
+	trait=depressed
+	2262.1.1={birth=yes culture=auriferro}
+	2315.1.1={death={death_reason = death_trait}}
+	#count of Divinopolis, was left destitute by the Desterro invasion
+}
+#Berranteiro
+180009={
+	name="Sérgio"
+	dynasty=120004 #Berranteiro
+	culture=goyanense
+	religion=holy_spirit
+	dna="0aefi0db000"
+	properties="wf0jkc000000000000000000000000000000"
+	trait=tough_soldier
+	trait=brave
+	trait=honest
+	trait=robust
+	trait=content
+	2339.1.1={birth=yes}
+	2364.1.1={effect={give_nickname = nick_jaguar_killer}}
+	2400.1.1={death=yes}
+	#High Chief of Planalto Central, owns Diorama, Matrinchã and Goiania
+}
+#Coralina
+180010={
+	name="Anna"
+	dynasty=120005 #Coralina
+	culture=goyanense
+	religion=holy_spirit
+	trait=grey_eminence
+	trait=poet
+	trait=gregarious
+	trait=kind
+	female=yes
+	diplomacy=9
+	martial=1
+	stewardship=5
+	intrigue=1
+	learning=7
+	2314.1.1={birth=yes}
+	2330={add_matrilineal_spouse=180011}
+	2380.1.1={death=yes}
+	#Vassal of Rio Verde, holds Itumbiara
+}
+180011={
+	name="Cantideo"
+	dynasty=0
+	culture=goyanense
+	religion=holy_spirit
+	trait=tough_soldier
+	2300.1.1={birth=yes}
+	2361.1.1={death=yes}
+	#husband of Coralina
+}
+180012={
+	name="Henrique"
+	dynasty=120005 #Coralina
+	culture=goyanense
+	religion=holy_spirit
+	father=180011
+	mother=180010
+	trait=skilled_tactician
+	2333.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Coralina son
+}
+180013={
+	name="Fernanda"
+	dynasty=120005 #Coralina
+	culture=goyanense
+	religion=holy_spirit
+	female=yes
+	father=180011
+	mother=180010
+	trait=charismatic_negotiator
+	2338.1={birth=yes}
+	2400.1.1={death=yes}
+	#Coralina daughter
+}
+#Planalto Family# Traditional elite of Brasília
+180014={
+	name="Jango"
+	dynasty=120006 #Alvorada
+	culture=candango
+	father=180015
+	mother=180020
+	religion=modernists
+	trait=charismatic_negotiator
+	trait=just
+	trait=shrewd
+	2328.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Current Holder of Planaltina
+}
+180015={
+	name="Jânio"
+	dynasty=120006 #Alvorada 
+	culture=candango
+	religion=modernists
+	trait=grey_eminence
+	trait=proud
+	trait=just
+	2297.1.1={birth=yes}
+	2353.1.1={death=yes}
+	#Former Holder of Planaltina and Brasília 
+}
+180016={
+	name="Natália"
+	dynasty=120006 #Alvorada
+	father=180015
+	mother=180020
+	culture=candango
+	religion=modernists
+	female=yes
+	trait=underhanded_rogue
+	trait=gregarious
+	trait=temperate
+	trait=chaste
+	2345.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#wife of the King of the District
+}
+#Brasiliense
+180017={
+	name="Diogo"
+	dynasty=120007 #Brasiliense
+	culture=candango
+	religion=modernists
+	father=180018
+	trait=fortune_builder
+	trait=greedy
+	trait=proud
+	trait=patient
+	trait=fair
+	2339.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#current holder of Campinorte and Porangatu
+}
+180018={
+	name="Ivonildo"
+	dynasty=120007 #Brasiliense
+	culture=candango
+	religion=modernists
+	father=180019
+	trait=midas_touched
+	trait=greedy
+	trait=diligent
+	trait=stressed
+	2311.1.1={birth=yes}
+	2368.1.1={death=yes}
+	#former holder of Campinorte and Porangatu
+}
+180019={
+	name="Martins"
+	dynasty=120007 #Brasiliense
+	culture=candango
+	religion=modernists
+	trait=skilled_tactician
+	trait=brave
+	trait=wroth
+	trait=cruel
+	2286.1.1={birth=yes}
+	2330.1.1={death=yes}
+	#former former holder of Campinorte and Porangatu
+}
+180020={
+	name="Débora"
+	dynasty=120007 #Brasiliense
+	culture=candango
+	religion=modernists
+	father=180019
+	trait=scholarly_theologian
+	trait=zealous
+	trait=kind
+	2309.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Wife of Jânio Alvorada
+}
+#do Guará
+180021={
+	name="Alexandre"
+	dynasty=120008 #do Guará
+	culture=candango
+	religion=modernists
+	trait=thrifty_clerk
+	trait=groomed
+	trait=humble
+	trait=kind
+	2345.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Holder of Urutagua
+}
+#Kraho Family
+180022={
+	name="Roberto"
+	dynasty=120009 #Kraho
+	culture=kraho
+	religion=manredebu
+	trait=skilled_tactician
+	trait=arbitrary
+	trait=ambitious
+	trait=diligent
+	2331.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Duke of Kraholand, holds Araguaina and Guarai
+}
+#Cruz
+180023={
+	name="Osório"
+	dynasty=120010 #Cruz
+	culture=araguaio
+	religion=tambor
+	trait=thrifty_clerk
+	trait=content
+	trait=diligent
+	2331.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#vassal of Maranhão
+}
+#Urban Legion
+180024={
+	name="Eduardo"
+	dynasty=0
+	culture=candango
+	religion=modernists
+	trait=skilled_tactician
+	trait=humble
+	trait=diligent
+	2353.1.1={birth=yes}
+	2369.1.2={add_spouse=180025}
+	2400.1.1={death=yes}
+	#holder of the Urban Legion
+}
+180025={
+	name="Mônica"
+	dynasty=0
+	culture=candango
+	religion=modernists
+	female=yes
+	trait=mastermind_theologian
+	trait=erudite
+	trait=mystic
+	2349.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#wife of Eduardo
+}
+#Poeta family
 200001={
 	name="Tomás"
 	dynasty=120003
-	culture=candango
-	religion=modernists
-	
+	culture=araguaio
+	religion=anthropofagian
+	trait=skilled_tactician
+	trait=disfigured
+	trait=wroth
+	trait=zealous
+	trait=cannibal_trait
+	trait=poet
 	2328.7.7={birth=yes}
 	2363.9.10={add_spouse=200002}
 	2400.1.1={death=yes}
+	#Holds Dianopólis, Gurupi, Palmas, Porto Nacional and Paraiso no Tocantins
 }
 200002={
 	name="Selena"
 	dynasty=130001
-	culture=candango
+	culture=araguaio
 	female=yes
-	religion=modernists
+	religion=anthropofagian
 	
 	2347.9.9={birth=yes}
 	2363.9.10={add_spouse=200001}
@@ -46,10 +408,11 @@
 	name="Oswaldo"
 	dynasty=135001
 	culture=araguaio
-	religion=modernists
+	religion=anthropofagian
 	add_trait=zealous
 	add_trait=cannibal_trait 
 	add_trait=adventurer
 	2343.2.10={birth=yes}
 	2400.1.1={death=yes}
+	#vassal of the Poetas
 }

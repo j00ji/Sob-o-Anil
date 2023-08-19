@@ -770,6 +770,22 @@ temple_king_camdomble;Babalorisha;Babalorisha;Babalorisha;;Babalorisha;;;;;;;;;x
 temple_king_female_camdomble;Iyalorisha;Iyalorisha;Iyalorisha;;Iyalorisha;;;;;;;;;x
 temple_emperor_camdomble;Babalorisha;Babalorisha;Babalorisha;;Babalorisha;;;;;;;;;x
 temple_emperor_female_camdomble;Iyalorisha;Iyalorisha;Iyalorisha;;Iyalorisha;;;;;;;;;x
+nomadic_emperor;Lieutenant;;;;;;;;;;;;;x
+nomadic_king;Sub-lieutenant;;;;;;;;;;;;;x
+nomadic_empire_of;Column of;;;;;;;;;;;;;x
+nomadic_kingdom_of;Brigade of;;;;;;;;;;;;;x
+nomadic_emperor_cigano;Leader;;;;;;;;;;;;;x
+nomadic_king_cigano;Sub-Leader;;;;;;;;;;;;;x
+nomadic_emperor_cigano_female;Leader;;;;;;;;;;;;;x
+nomadic_king_cigano_female;Sub-Leader;;;;;;;;;;;;;x
+nomadic_empire_of_cigano;Great Clan of;;;;;;;;;;;;;x
+nomadic_kingdom_of_cigano;Clan of;;;;;;;;;;;;;x
+nomadic_emperor_cerradonense;Comissioner;;;;;;;;;;;;;x
+nomadic_king_cerradonense;Sub-Comissioner;;;;;;;;;;;;;x
+nomadic_emperor_cerradonense_female;Comissioner;;;;;;;;;;;;;x
+nomadic_king_cerradonense_female;Sub-Comissioner;;;;;;;;;;;;;x
+nomadic_empire_of_cerradonense;Comitiva of;;;;;;;;;;;;;x
+nomadic_kingdom_of_cerradonense;Boiada of;;;;;;;;;;;;;x
 
 ###Traits;;;;;;;;;;;;;;
 caste_fixed;Fixed Mode;;;;;;;;;;;;;x
@@ -976,6 +992,7 @@ nick_lady_lines;the Lady of the Lines;;;;;;;;;;;x
 nick_devil_puno;the Devil of Puno;;;;;;;;;;;x
 nick_star_child;the Star Child;;;;;;;;;;;x
 nick_golden_tongue;Golden Tongue;;;;;;;;;;;x
+nick_jaguar_killer;Jaguar Killer;;;;;;;;;;;x
 
 ###Retinues###
 RETTYPE_CUL_RECIFOLINDENSE;Caboclo de Lança;;;;;;;;;;;x

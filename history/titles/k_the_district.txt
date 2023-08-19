@@ -4,7 +4,6 @@
 800.1.2={
 	#historical_nomad=yes
 }
-2365.1.1={
-	holder = 180009 #Sérgio Berranteiro
-	liege = 0
+2361.1.1={
+	holder = 180003 #Jeremias Cúbico
 }

@@ -15,7 +15,7 @@ b_luziania = tribal
 #b_adelanapolis = castle
 
 # Misc
-culture = goyanense
-religion = modernists
+culture = calon
+religion = kardecists
 
 #History
