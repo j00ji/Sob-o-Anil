@@ -16,6 +16,6 @@ b_novo_planalto = temple
 
 # Misc
 culture = goyanense
-religion = manredebu
+religion = modernists
 
 #History

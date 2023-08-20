@@ -1769,7 +1769,7 @@ old_world_cultists = {
 		
 		color = { 0.9 0.9 0.9 }
 		
-		interface_skin = { muslim_interface }
+		interface_skin = { modernist_interface muslim_interface }
 		
 		high_god_name = GOD_THE_OLD_MASTERS
 		
@@ -1780,6 +1780,7 @@ old_world_cultists = {
 		evil_god_names = {
 			GOD_THE_GRINGO GOD_THE_DARKNESS GOD_THE_HEADLESS_MULE GOD_CUCA
 		}
+		
 		crusade_name = GREAT_VANGUARD
 		allow_in_ruler_designer= yes
 		allow_looting= yes
@@ -2428,7 +2429,10 @@ syncretic_group = {
 		icon = 68
 		
 		color = { 0.83 0.0 0.76 }
-				scripture_name = THE_RITUALS
+
+		interface_skin = { afro_syncretic_interface zoroastrian_interface muslim_interface }
+		
+		scripture_name = THE_RITUALS
 		
 		high_god_name = GOD_OLODUMARE
 		
