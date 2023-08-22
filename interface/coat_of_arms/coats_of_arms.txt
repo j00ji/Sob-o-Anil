@@ -194,6 +194,7 @@ culture =
 		"jerovia"
 		"terra_benta"
 		"calafatist"
+		"manredebu"
 	}
 
 	templates = { 
@@ -268,6 +269,13 @@ culture =
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_chile.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_cerradoense.tga"
 			size = { x = 10 y = 5 }
 			noOfFrames = 50
 			color = 0

@@ -4,3 +4,7 @@
 800.1.2={
 	historical_nomad=yes
 }
+2350.1.1={
+	holder = 210002
+	liege = d_guimarania
+}

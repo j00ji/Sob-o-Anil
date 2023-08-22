@@ -327,7 +327,7 @@
 	name="Roberto"
 	dynasty=120009 #Kraho
 	culture=kraho
-	religion=manredebu
+	religion=tambor
 	trait=skilled_tactician
 	trait=arbitrary
 	trait=ambitious
@@ -415,4 +415,463 @@
 	2343.2.10={birth=yes}
 	2400.1.1={death=yes}
 	#vassal of the Poetas
+}
+#Mato Grosso
+#Mezenga family
+210002={
+	name="Bruno"
+	dynasty=120011 #Mezenga
+	culture=mediterranean
+	give_nickname = nick_cattle_king
+	religion=manredebu
+	trait=skilled_tactician
+	trait=just
+	trait=diligent
+	trait=honest
+	diplomacy=7
+	martial=7
+	stewardship=7
+	intrigue=2
+	learning=5
+	father=210006
+	mother=210010
+	2320.1.1={birth=yes culture=matogrossense}
+	2340.1.1={add_spouse=210003}
+	2369.1.1={effect={add_lover=210005}}
+	2380.1.1={death=yes}
+	#holder of d_guimaranes, Coxim, Jaciara, Cuiaba, Diamantino and Comodoro
+}
+210003={
+	name="Léia"
+	female=yes
+	dynasty=0
+	culture=matogrossense
+	religion=manredebu
+	trait=flamboyant_schemer
+	trait=lustful
+	2322.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+210004={
+	name="Marcos"
+	dynasty=120011 #Mezenga
+	culture=mediterranean
+	religion=manredebu
+	trait=intricate_webweaver
+	trait=deceitful
+	trait=proud
+	trait=wroth
+	father=210002
+	mother=210003
+	2344.1.1={birth=yes culture=matogrossense}
+	2400.1.1={death=yes}
+}
+210005={
+	name="Luana"
+	female=yes
+	dynasty=0
+	culture=italian
+	religion=manredebu
+	trait=misguided_warrior
+	trait=fair
+	trait=humble
+	2346.1.1={birth=yes culture=matogrossense}
+	2400.1.1={death=yes}
+}
+210006={
+	name="Enrico"
+	dynasty=120011 #Mezenga
+	culture=mediterranean
+	religion=manredebu
+	trait=tough_soldier
+	trait=lustful
+	trait=groomed
+	trait=fair
+	diplomacy=7
+	martial=7
+	stewardship=7
+	intrigue=2
+	learning=5
+	father=210007
+	mother=210008
+	2297.1.1={birth=yes culture=matogrossense}
+	2219.1.1={add_spouse=210010}
+	2349.1.1={death=yes}
+	#father of Bruno
+}
+210007={
+	name="Antônio"
+	dynasty=120011 #Mezenga
+	culture=mediterranean
+	religion=manredebu
+	trait=tough_soldier
+	2277.1.1={birth=yes culture=matogrossense}
+	2296.1.1={add_spouse=210008}
+	2317.1.1={death=yes}
+}
+210008={
+	name="Nena"
+	female=yes
+	dynasty=0
+	culture=mediterranean
+	religion=manredebu
+	trait=grey_eminence
+	2279.1.1={birth=yes culture=matogrossense}
+	2320.1.1={death=yes}
+}
+#Berdinazzi family
+210009={
+	name="Geremias"
+	dynasty=120012 #Berdinazzi
+	culture=italian
+	religion=manredebu
+	trait=skilled_tactician
+	trait=shy
+	trait=proud
+	trait=chaste
+	diplomacy=4
+	martial=10
+	stewardship=7
+	intrigue=3
+	learning=4
+	father=210013
+	mother=210014
+	2306.1.1={birth=yes culture=matogrossense}
+	2370.1.1={death=yes}
+	#Holder of d_maracaju, Campo Grande, Cassilandia and Tres Lagoas
+}
+210010={
+	name="Giovanna"
+	female=yes
+	dynasty=120012 #Berdinazzi
+	culture=italian
+	religion=manredebu
+	trait=grey_eminence
+	trait=fair
+	trait=groomed
+	father=210013
+	mother=210014
+	2299.1.1={birth=yes culture=matogrossense}
+	2344.3.5={death=yes}
+}
+210011={
+	name="Giácomo"
+	dynasty=120012 #Berdinazzi
+	culture=italian
+	religion=manredebu
+	trait=fortune_builder
+	trait=humble
+	trait=lustful
+	father=210013
+	mother=210014
+	2300.1.1={birth=yes culture=matogrossense}
+	2349.1.1={death=yes}
+}
+210012={
+	name="Marieta"
+	dynasty=120012 #Berdinazzi
+	female=yes
+	father=210011
+	culture=italian
+	religion=manredebu
+	trait=elusive_shadow
+	trait=deceitful
+	2342.1.1={birth=yes culture=matogrossense}
+	2400.1.1={death=yes}
+	#is she the real one tho?
+}
+210013={
+	name="Giuseppe"
+	dynasty=120012 #Berdinazzi
+	culture=italian
+	religion=manredebu
+	trait=midas_touched
+	2271.1.1={birth=yes culture=matogrossense}
+	2295.1.1={add_spouse=210014}
+	2330.1.1={death=yes}
+}
+210014={
+	name="Marieta"
+	female=yes
+	dynasty=0
+	culture=matogrossense
+	religion=manredebu
+	trait=midas_touched
+	2274.1.1={birth=yes}
+	2334.1.1={death=yes}
+}
+210015={
+	name="Roque"
+	dynasty=120013 #Bravo
+	culture=matogrossense
+	religion=manredebu
+	trait=tough_soldier
+	trait=cavalry_leader
+	trait=cruel
+	trait=arbitrary
+	trait=wroth
+	trait=lustful
+	2337.2.5={birth=yes}
+	2400.1.1={death=yes}
+	#Atenção moradores da vila do cachorro sentado: o Roque Bravo está ai no bairro, muito cuidado hein.
+	#Holds Cáceres and Corumba vassal of d_guimaranes
+}
+210016={
+	name="Jaime"
+	dynasty=120014 #Rikbatsa
+	culture=rikbatsa
+	religion=manredebu
+	trait=tough_soldier
+	trait=brave
+	trait=just
+	disallow_random_traits = yes
+	2337.2.5={birth=yes}
+	2400.1.1={death=yes}
+	#holds Juara and Juína, vassal of d_guimaranes
+}
+#Xavante
+210017={
+	name="Júlio"
+	dynasty=120015 #Xavante
+	culture=xavante
+	religion=manredebu
+	trait=brilliant_strategist
+	trait=hunter
+	trait=strong
+	trait=humble
+	trait=temperate
+	father=210023
+	2325.1.1={birth=yes}
+	2346.1.1={add_spouse=210019}
+	2400.1.1={death=yes}
+	#current Xavante leader
+}
+210018={
+	name="Paulo"
+	dynasty=120015 #Xavante
+	culture=xavante
+	religion=manredebu
+	trait=flamboyant_schemer
+	trait=proud
+	trait=depressed
+	father=210023
+	2332.1.1={birth=yes}
+	2358.1.1={add_spouse=210020}
+	2400.1.1={death=yes}
+	#Brother of Júlio, killed one of the Villas-Bôas brothers
+}
+210019={
+	name="Maria"
+	dynasty=0
+	female=yes
+	culture=xavante
+	religion=manredebu
+	trait=underhanded_rogue
+	2329.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#spouse of Júlio
+}
+210020={
+	name="Inês"
+	dynasty=0
+	female=yes
+	culture=xavante
+	religion=manredebu
+	trait=flamboyant_schemer
+	trait=lustful
+	trait=depressed
+	trait=scarred
+	2329.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Spouse of Paulo, cheated on him with Leonardo Villas-Bôas
+}
+210021={
+	name="Leonardo"
+	dynasty=65001 #villas boas
+	culture=xavante
+	religion=anchietican
+	father=210018
+	mother=210020
+	trait=legit_bastard
+	2361.6.4={birth=yes culture=camponeto}
+	2400.1.1={death=yes}
+	#bastard Villas Boas
+}
+210022={
+	name="Lia"
+	female=yes
+	dynasty=120011 #Mezenga
+	culture=mediterranean
+	religion=manredebu
+	trait=underhanded_rogue
+	trait=honest
+	trait=groomed
+	father=210002
+	mother=210003
+	2344.1.1={birth=yes culture=matogrossense}
+	2400.1.1={death=yes}
+	#daughter of Bruno
+}
+210023={
+	name="Nelson"
+	dynasty=120015 #Xavante
+	culture=xavante
+	religion=manredebu
+	trait=skilled_tactician
+	2303.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#father of the Xavante boys
+}
+210024={
+	name="Serginho"
+	dynasty=120015 #Xavante
+	culture=xavante
+	religion=manredebu
+	father=210017
+	mother=210019
+	2364.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+210025={
+	name="Sandro"
+	dynasty=120015 #Xavante
+	culture=xavante
+	religion=manredebu
+	father=210017
+	mother=210019
+	2366.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+210026={
+	name="Manu"
+	dynasty=120015 #Xavante
+	culture=xavante
+	religion=manredebu
+	female=yes
+	father=210017
+	mother=210019
+	2368.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+#Xerente
+210027={
+	name="Srewe"
+	dynasty=120016 #Xerente
+	culture=xerente
+	religion=manredebu
+	trait=tough_soldier
+	trait=cynical
+	trait=ambitious
+	trait=wroth
+	trait=scarred_mid
+	diplomacy=7
+	martial=9
+	stewardship=5
+	learning=5
+	intrigue=3
+	2334.1.1={birth=yes}
+	2354.1.1={add_spouse=210028}
+	2400.1.1={death=yes}
+	#holds confresa vassal of barra da garça
+}
+210028={
+	name="Diana"
+	dynasty=0
+	culture=xerente
+	religion=manredebu
+	trait=scholarly_theologian
+	trait=kind
+	2335.1.1={birth=yes}
+	2354.1.1={add_spouse=210028}
+	2360.1.1={death={death_reason = death_murder killer=200001}}
+}
+210029={
+	name="Dakburôikwa"
+	dynasty=120016 #Xerente
+	culture=xerente
+	religion=manredebu
+	father=210027
+	mother=210028
+	2357.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+
+#Sinop
+210030={
+	name="João Pedro"
+	dynasty=120017 #Pipino
+	culture=paranaense
+	religion=manredebu
+	trait=fortune_builder
+	trait=diligent
+	diplomacy=4
+	martial=8
+	stewardship=6
+	2341.1.1={birth=yes culture=matogrossense}
+	2400.1.1={death=yes}
+	#holds Sinop, vassal of barra da garça
+}
+
+#Kadiweu
+210031={
+	name="Nawilo"
+	dynasty=120018 #Kadiweu
+	culture=kadiweu
+	religion=manredebu
+	trait=skilled_tactician
+	trait=cavalry_leader
+	trait=agressive_leader
+	diplomacy=4
+	martial=9
+	stewardship=5
+	learning=4
+	2345.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#ruler of aquidauna and Kadiwéu, vassal of maracaju
+}
+
+#Kruel
+210032={
+	name="Sulino"
+	dynasty=120019 #Kruel
+	culture=gaucho
+	religion=farrapo
+	trait=intricate_webweaver
+	trait=cavalry_leader
+	trait=impaler
+	trait=cruel
+	trait=content	
+	diplomacy=5
+	martial=8
+	stewardship=6
+	learning=4
+	intrigue=5
+	2346.1.1={birth=yes culture=matogrossense}
+	2400.1.1={death=yes}
+	#holds Dourados and Bataypora
+}
+210033={
+	name="Filinto"
+	dynasty=120019 #Kruel
+	culture=gaucho
+	religion=farrapo
+	trait=brilliant_strategist
+	trait=cavalry_leader
+	trait=adventurer
+	trait=ambitious
+	2306.1.1={birth=yes}
+	2363.1.1={death=yes}
+	#father of Sulino
+}
+
+210034={
+	name="Libânio"
+	dynasty=120020 #Iguajuru
+	culture=guarani
+	religion=jerovia
+	trait=grey_eminence
+	trait=arbitrary
+	2326.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#holder of Iguatemi vassal of Paraguay
 }

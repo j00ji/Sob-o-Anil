@@ -26,3 +26,4 @@ nick_devil_puno = {}
 nick_star_child = {}
 nick_golden_tongue = {}
 nick_jaguar_killer = {}
+nick_cattle_king = {}

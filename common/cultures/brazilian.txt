@@ -2267,12 +2267,12 @@ cerradonense = {
 		color = { 1.0 1.0 0.6 }
 		
 		male_names = {
-			Álvaro Abel Adalberto Ademar Adolfinho Adriano Airo Aladim Alan Albano Alcides Aldo Alexandre Alfredo Almir Althair Anísio Anapolino André Ant o hat nio Armando Ary
+			Álvaro Abel Adalberto Ademar Adolfinho Adriano Airo Aladim Alan Albano Alcides Aldo Alexandre Alfredo Almir Althair Anísio Anapolino André Antônio Armando Ary
 			Barbosa Belarmino Benedito Bié Bob Brasílio Bruninho Bruno
 			Cácio Célio César Caim Camargo Carlos Carlos Cezar Cassiano Castro Celestino Chico Chitãozinho Chrystian Cleiton Conrado Cravinho Cristiano
 			Dário Délio Dablio Dalvan Daniel Davi Day Demóstenes Diógenes Diego Dino Djalma Domingos Don Durval
 			Edson Edu Eduardo Elcival Elias Emival Euler
-			Fábio Fabiano Felipe Fernando Flor e hat ncio Fonseca Francisco Fred Frederico
+			Fábio Fabiano Felipe Fernando Florêncio Fonseca Francisco Fred Frederico
 			Gabriel Galeno Genésio Genervino Geno George Henrique Geovan Geraldo Gian Gilberto Gilmar Gino Glacial Glauskston Goianésio Guilherme Gustavo Guto
 			Hélio Haley Haniel Haroldo Henrique Hernane Heuler Hudson Hugo Humberto
 			Ibsen Iram Irapuan Ismerino Israel Iturival
@@ -2280,10 +2280,10 @@ cerradonense = {
 			Kaio Kauan
 			Lázaro Léo Laureano Leandro Leonardo Lindomar Lisboa Louren c ced o Lourival Luís Luan Lucas Luciano Luiz Luiz Cláudio Luiz Gustavo Luizinho Lyan
 			Maguito Maicon Manuel Marcelinho Marcelo Marciano Marconi Marcos Mariano Marlon Matheus Maurício Mauri Mauro Mayck Miltinho Miranda
-			Nair Nando Nh o hat  Nicanor Nion Norberto
+			Nair Nando Nhô Nicanor Nion Norberto
 			Olegário Onofre Orcino Orivaldo Osório Osires Osmailson Osmar
 			Paulinho Paulino Paulo Pedrinho Pedro Pedro Bento Pedro Paulo Phillipe Plínio
-			Racyne Rafael Rahony Ralf Ramon Raul Ravel Ren e hat  Renner Rezende Rick Rico Robertinho Roberto Robison Robson Rodolfo Rodrigo Romair Ronaldo Rony Ruan Rubens Rud
+			Racyne Rafael Rahony Ralf Ramon Raul Ravel Renê Renner Rezende Rick Rico Robertinho Roberto Robison Robson Rodolfo Rodrigo Romair Ronaldo Rony Ruan Rubens Rud
 			Salim Samuel Sandes Sandro Serginho Siqueira Sizenando Sulino
 			Taciano Teodoro Thiago Tião Tinoco Tobias Tonico Torres
 			Vanderlan Venerando Victor Hugo Vilmar Vinícius Virmondes Vitor
@@ -2332,28 +2332,28 @@ cerradonense = {
 		modifier = default_culture_modifier
 	}
 	matogrossense = {
-		graphical_cultures = { germangfx }
+		graphical_cultures = { italiangfx }
 		
 		color = { 0.9 1.0 0.8 }
 		
 		male_names = {
-			Álvaro Abel Abmael Abraão Adão Adalberto Adilton Adolfinho Adriano Airo Aladim Alan Albano Alexandre Almir Althair Anézio André Ant o hat nio Antero Argemiro Ataíde Augustinho
+			Álvaro Abel Abmael Abraão Adão Adalberto Adilton Adolfinho Adriano Airo Aladim Alan Albano Alexandre Almir Althair Anézio André Antônio Antero Argemiro Ataíde Augustinho
 			Belarmino Bento Blairo Brenner Bruno
 			Cácio Cândido Caim Camargo Carlos Carlos Cezar Cassiano Castro Cezar Chico Chitãozinho Cláudio Claudinei Cleiton Conrado Cravinho Cristiano Cristino
 			Délio Dalvan Daniel Dante Dauri Davi Day Didimo Diego Dino Divino Djalma Don Durval
-			Edil Edson Edu Eduardo Elizeu Emanuel Est e hat vão Everton Ezequiel
-			Fábio Fabiano Fauze Feliciano Felipe Fernando Filadelfo Filinto Flor e hat ncio Frederico
+			Edil Edson Edu Eduardo Elizeu Emanuel Estêvão Everton Ezequiel
+			Fábio Fabiano Fauze Feliciano Felipe Fernando Filadelfo Filinto Florêncio Frederico
 			Gabriel Gastão Genésio George Henrique Gilberto Gilmar Gilney Gilson Gino Giuliano Glacial Guilherme Gustavo
 			Hélio Haniel Henrique Hernane Homero Hudson Hugo Humberto
 			Ítrio Israel Itamar
 			Júlio Júnior Jacó Jacozinho Jader Jadson Jael Jayme João João Batista João Bosco João Lucas João Paulo João Pedro Joaquim Jonas Jordão Jordel Jorge José Juarez Juliano Juquinha
 			Kaio Kalil Kauan
-			Léo Lício Laureano Le o hat nidas Leandro Leonardo Lino Louremberg Louren c ced o Lourival Luan Lucas Luciano Luiz Cláudio Luiz Gustavo Luizinho Lyan
+			Léo Lício Laureano Leônidas Leandro Leonardo Lino Louremberg Louren c ced o Lourival Luan Lucas Luciano Luiz Cláudio Luiz Gustavo Luizinho Lyan
 			Márcio Ma c ced ão Maicon Manoel Marcílio Marcelinho Marciano Marcos Mariano Marlon Martiniano Matheus Maurício Mauro Mayck Melquezedeque Miguel Miltinho Misael Murilo
-			Nader Naftaly Natanael Nelson Nh o hat  Nilson
+			Nader Naftaly Natanael Nelson Nhô  Nilson
 			Olegário Oséas Oscar Osmailson Osmar Osvaldo Otaviano
 			Paulinho Paulino Pedro Pedro Bento Pedro Paulo Percival
-			Racyne Rafael Rahony Ramon Raul Ravel Ren e hat  Ricarte Rico Robertinho Robison Robson Rodolfo Rodrigo Rodrigues Rogério Romair Ronaldo Rony Ruan Rud
+			Racyne Rafael Rahony Ramon Raul Ravel Renê Ricarte Rico Robertinho Robison Robson Rodolfo Rodrigo Rodrigues Rogério Romair Ronaldo Rony Ruan Rud
 			Ságuas Sílvio Samuel Sandro Serginho Simeão Sulino
 			Teodoro Thiago Tião Tomé
 			Ubaldo Ubiratan
@@ -2362,7 +2362,7 @@ cerradonense = {
 			Zé Zé Henrique Zé Paulo Zé Ricardo Zalo Zezé Zico
 		}
 		female_names = {
-			Abigail Adriana Agostinha Alexandra Alice Aline Alzira Amélia Amanda Ana Ana Maria Andréia Andressa Ant o hat nia Aparecida Azenate
+			Abigail Adriana Agostinha Alexandra Alice Aline Alzira Amélia Amanda Ana Ana Maria Andréia Andressa Antônia Aparecida Azenate
             Beatriz Benedita Biá Bruna
             Cândida Célia Camila Carmem Celma Chica Chiquinha Cláudia Clemilda Cleusa Cristiane
             Débora Daiane Daniele Delinha Duda Duduca
@@ -2370,12 +2370,12 @@ cerradonense = {
             Fátima Fabiana Fer Fernanda Flor Francisca
             Gabriela Geovana Geralda Gina Gisela Glória
             Helena Heloísa
-            Idauga Ilda In e hat s Irene Isabela
+            Idauga Ilda Inês Irene Isabela
             Jéssica Jaqueline Joana Josefa Ju Juliana Julinha
             Karla
             Lárissa Lívia Lúcia Laluna Lara Laura Leila Leonarda Letícia Levita Liu Lorena Luana Luciana Luiza
             Márcia Mafalda Maiara Mandi Manu Mara Maraisa Marciana Maria Maria Aparecida Maria Cecília Maria Izabel Maria Lúcia Mariana Marlene Marli Martha Matutina Miriam
-            Nívea Nair Nanda Natália Neide Neuza Nhá No e hat mia
+            Nívea Nair Nanda Natália Neide Neuza Nhá Noêmia
             Olímpia
             Patrícia Paulinha Priscila
             Rafaela Rayssa Renata Rita Rosângela Rosana Roseli Rosinha

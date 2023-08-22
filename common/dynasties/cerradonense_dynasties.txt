@@ -179,6 +179,175 @@
 		}
 	}
 }
+
+120011 = {
+	name = "Mezenga"
+	culture = matogrossense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = manredebu
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120012 = {
+	name = "Berdinazzi"
+	culture = matogrossense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = manredebu
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120013 = {
+	name = "Bravo"
+	culture = matogrossense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = manredebu
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120014 = {
+	name = "Rikbaktsa"
+	culture = matogrossense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = manredebu
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120015 = {
+	name = "Xavante"
+	culture = matogrossense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = manredebu
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120016 = {
+	name = "Xerente"
+	culture = matogrossense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = manredebu
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120017 = {
+	name = "Pipino"
+	culture = matogrossense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = manredebu
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120018 = {
+	name = "Kadiweu"
+	culture = kadiweu
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = manredebu
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120019 = {
+	name = "Kruel"
+	culture = matogrossense
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		religion = manredebu
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+120020 = {
+	name = "Iguajuru"
+	culture = guarani
+	can_appear = no
+	used_for_random = no
+}
 125001 = {
 	name = "Godoy"
 	culture = matogrossense
