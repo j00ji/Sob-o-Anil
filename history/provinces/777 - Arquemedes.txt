@@ -15,7 +15,7 @@ b_arquemedes = castle
 #b_rama_rama = castle
 
 # Misc
-culture = rikbatsa
+culture = rondonian
 religion = evangelical
 
 #History

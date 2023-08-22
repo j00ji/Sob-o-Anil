@@ -133,6 +133,56 @@ amazonian_group = {
 		modifier = default_culture_modifier
 	}
 	
+	wari = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.7 0.3 0.19 }
+		
+		male_names = {
+			André
+			Capitão
+			Horein
+			Jimain Jimon
+			Manim Maxum
+			Nawacan
+			Oron Orowao
+			Paletó Pan Pipira
+			Quimoin
+			Tocorom Timain "To'o Takaw" Torein
+			"Waw Tran" "Wen Kanüm"
+			Xok Xowa
+		}
+		female_names = {
+			Awo 
+			Diva Dui
+			Elsa
+			Inacia
+			Jap Joana
+			Maria
+			Nacom
+			Oro
+			Quimoin
+			Rosa
+			Tocowhet Tocorom
+			Wem
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
+	
 	yanomami = {
 		graphical_cultures = { mesoamericangfx }
 		

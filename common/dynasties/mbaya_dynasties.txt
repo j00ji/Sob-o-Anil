@@ -81,3 +81,2646 @@
 	religion = catholic
 	used_for_random = no
 }
+
+#random Surnames
+
+310500 = {
+    name = "Rodriguez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310501 = {
+    name = "Gonzalez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310502 = {
+    name = "Benitez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310503 = {
+    name = "Martinez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310504 = {
+    name = "Lobez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310505 = {
+    name = "Gomez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310506 = {
+    name = "Fernandez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310507 = {
+    name = "da Silva"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310508 = {
+    name = "Duarte"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310509 = {
+    name = "Gimenez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310510 = {
+    name = "Romero"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310511 = {
+    name = "Baez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310512 = {
+    name = "Avellaneda"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310513 = {
+    name = "Zarate"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310514 = {
+    name = "Insaurralde"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310515 = {
+    name = "Cababayu"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310516 = {
+    name = "Leguizamon"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310517 = {
+    name = "Montenegro"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310518 = {
+    name = "Colman"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310519 = {
+    name = "Piriz"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310520 = {
+    name = "Centurion"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310521 = {
+    name = "Pereira"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310522 = {
+    name = "Barboza"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310523 = {
+    name = "Suarez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310524 = {
+    name = "Niskanen"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310525 = {
+    name = "Lima"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310526 = {
+    name = "Galarza"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310527 = {
+    name = "Fleitas"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310528 = {
+    name = "Veron"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310529 = {
+    name = "Alfonso"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310530 = {
+    name = "Lezcano"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310531 = {
+    name = "Godoy"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310532 = {
+    name = "Rojas"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310533 = {
+    name = "Lindstrom"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310534 = {
+    name = "Kuhn"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310535 = {
+    name = "Binder"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310536 = {
+    name = "Ortellado"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310537 = {
+    name = "Hirsch"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310538 = {
+    name = "Bogler"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310539 = {
+    name = "Conceicao"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310540 = {
+    name = "Horodeski"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310541 = {
+    name = "Snichovski"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310542 = {
+    name = "Karaputene"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310543 = {
+    name = "Klingbeil"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310544 = {
+    name = "Procopio"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310545 = {
+    name = "Bojko"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310546 = {
+    name = "Kitegroski"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310547 = {
+    name = "Lubaczewski"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310548 = {
+    name = "Perez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310549 = {
+    name = "Thesleff"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310550 = {
+    name = "Vuori"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310551 = {
+    name = "Putkuri"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310552 = {
+    name = "Nordfors"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310553 = {
+    name = "Sachser"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310554 = {
+    name = "Suomela"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310555 = {
+    name = "Kovalski"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310556 = {
+    name = "Ferreira"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310557 = {
+    name = "Yaworski"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310558 = {
+    name = "Dornell"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310559 = {
+    name = "Czajkowski"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310560 = {
+    name = "Bracamonte"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310561 = {
+    name = "Umayahara"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310562 = {
+    name = "Okabayashi"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310563 = {
+    name = "Ito"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310564 = {
+    name = "Kishino"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310565 = {
+    name = "Ponillaux"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310566 = {
+    name = "Morinigo"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310567 = {
+    name = "Schneider"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310568 = {
+    name = "Leiva"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310569 = {
+    name = "Nakamura"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310570 = {
+    name = "Meyer"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310571 = {
+    name = "Koyama"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310572 = {
+    name = "Nishidate"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310573 = {
+    name = "Kusunose"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310574 = {
+    name = "Velazquez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310575 = {
+    name = "Ramirez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310576 = {
+    name = "Suzuki"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310577 = {
+    name = "Kikuchi"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310578 = {
+    name = "Takahashi"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310579 = {
+    name = "Baez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310580 = {
+    name = "Vera"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310581 = {
+    name = "Pinto"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310582 = {
+    name = "Morel"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310583 = {
+    name = "Horczuk"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310584 = {
+    name = "Kawalec"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310585 = {
+    name = "Medina"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310586 = {
+    name = "Becker"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310587 = {
+    name = "Yaniuk"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310588 = {
+    name = "Lesiw"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310589 = {
+    name = "Techeyra"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310590 = {
+    name = "Nacimiento"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310591 = {
+    name = "Antivero"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310592 = {
+    name = "Ferrari"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310593 = {
+    name = "Carupay"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310594 = {
+    name = "Chenevanay"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310595 = {
+    name = "Carabaya"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310596 = {
+    name = "Yaranda"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310597 = {
+    name = "Yasucani"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310598 = {
+    name = "Yasucany"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310599 = {
+    name = "Tayarapo"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310600 = {
+    name = "Tamany"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310601 = {
+    name = "Taguaty"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310602 = {
+    name = "Yuy"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310603 = {
+    name = "Tarayu"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310604 = {
+    name = "Mbayta"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310605 = {
+    name = "Mbiyui"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310606 = {
+    name = "Mbaniho"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310607 = {
+    name = "Maninga"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310608 = {
+    name = "Guazu"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310609 = {
+    name = "Guira"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310610 = {
+    name = "Choi"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310611 = {
+    name = "Choy"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310612 = {
+    name = "Chuandu"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310613 = {
+    name = "Guanaviti"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310614 = {
+    name = "Guaracay"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310615 = {
+    name = "Guiragauazu"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310616 = {
+    name = "Arareii"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310617 = {
+    name = "Arapiy"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310618 = {
+    name = "Abaychii"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310619 = {
+    name = "Ortiz"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310620 = {
+    name = "Williams"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310621 = {
+    name = "Sommer"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310622 = {
+    name = "Canduyu"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310623 = {
+    name = "Ababe"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310624 = {
+    name = "Ybayu"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310625 = {
+    name = "Saatkamp"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310626 = {
+    name = "Krohn"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310627 = {
+    name = "Lautenschlager"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310628 = {
+    name = "Fensterseifer"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310629 = {
+    name = "Yrepa"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310630 = {
+    name = "Arepoco"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310631 = {
+    name = "Tapari"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310632 = {
+    name = "Aka"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310633 = {
+    name = "Tischler"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310634 = {
+    name = "Larramendia"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310635 = {
+    name = "Atienza"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310636 = {
+    name = "Sandoval"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310637 = {
+    name = "Machado"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310638 = {
+    name = "Reckziegel"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310639 = {
+    name = "Villaverde"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310640 = {
+    name = "Matiauda"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310641 = {
+    name = "Jacquet"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310642 = {
+    name = "Maldonad"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310643 = {
+    name = "Cespedes"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310644 = {
+    name = "Alfonzo"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310645 = {
+    name = "Osorio"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310646 = {
+    name = "Monges"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310647 = {
+    name = "Gutierrez"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310648 = {
+    name = "Pedrozo"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310649 = {
+    name = "Monzon"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310650 = {
+    name = "Correa"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310651 = {
+    name = "Candia"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310652 = {
+    name = "Vigo"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310653 = {
+    name = "Vargas"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310654 = {
+    name = "Gaona"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310655 = {
+    name = "Vega"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310656 = {
+    name = "Servain"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310657 = {
+    name = "Cristaldo"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310658 = {
+    name = "Brizuela"
+    culture = guarani
+    # Add more properties as needed
+}
+
+310659 = {
+    name = "Fretes"
+    culture = guarani
+    # Add more properties as needed
+}
+
+315500 = {
+    name = "Abicalil"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315501 = {
+    name = "Abreu"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315502 = {
+    name = "Acerola"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315503 = {
+    name = "Albaneze"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315504 = {
+    name = "Albuquerque"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315505 = {
+    name = "Altenhofen"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315506 = {
+    name = "Alvarenga"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315507 = {
+    name = "Alvares"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315508 = {
+    name = "Alves"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315509 = {
+    name = "Alves de Oliveira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315510 = {
+    name = "Amante"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315511 = {
+    name = "Andorinha"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315512 = {
+    name = "Andrade"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315513 = {
+    name = "Andrelino"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315514 = {
+    name = "Aquino"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315515 = {
+    name = "Araújo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315516 = {
+    name = "Ariranha"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315517 = {
+    name = "Arruda"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315518 = {
+    name = "Auad"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315519 = {
+    name = "Barém"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315520 = {
+    name = "Baracat"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315521 = {
+    name = "Barbant"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315522 = {
+    name = "Barbosa"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315523 = {
+    name = "Barbour"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315524 = {
+    name = "Barbudo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315525 = {
+    name = "Barcelos"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315526 = {
+    name = "Barra"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315527 = {
+    name = "Barranco"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315528 = {
+    name = "Barreiro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315529 = {
+    name = "Barreto"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315530 = {
+    name = "Barretto"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315531 = {
+    name = "Barrinha"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315532 = {
+    name = "Barros"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315533 = {
+    name = "Barroso"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315534 = {
+    name = "Basso"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315535 = {
+    name = "Bastos"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315536 = {
+    name = "Bedin"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315537 = {
+    name = "Belutti"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315538 = {
+    name = "Benuto"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315539 = {
+    name = "Bezerra"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315540 = {
+    name = "Boraczynski"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315541 = {
+    name = "Borelli"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315542 = {
+    name = "Bororo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315543 = {
+    name = "Borralho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315544 = {
+    name = "Bravo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315545 = {
+    name = "Bronski"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315546 = {
+    name = "Ca c ced ula"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315547 = {
+    name = "Camargo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315548 = {
+    name = "Cambar a act "
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315549 = {
+    name = "Cambuci"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315550 = {
+    name = "Campos"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315551 = {
+    name = "Canale"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315552 = {
+    name = "Canelas"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315553 = {
+    name = "Capataz"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315554 = {
+    name = "Carcamano"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315555 = {
+    name = "Carreirinho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315556 = {
+    name = "Carreiro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315557 = {
+    name = "Carvalho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315558 = {
+    name = "Casagrande"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315559 = {
+    name = "Cascatinha"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315560 = {
+    name = "Castro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315561 = {
+    name = "Catireiro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315562 = {
+    name = "Cerveira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315563 = {
+    name = "Ciriema"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315564 = {
+    name = "Conrado"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315565 = {
+    name = "Corno"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315566 = {
+    name = "Correia"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315567 = {
+    name = "Correia da Costa"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315568 = {
+    name = "Corsino"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315569 = {
+    name = "Cortes"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315570 = {
+    name = "Costa"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315571 = {
+    name = "Craveiro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315572 = {
+    name = "Curvo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315573 = {
+    name = "Dal Bosco"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315574 = {
+    name = "Dalla Pria"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315575 = {
+    name = "Dalla Valle"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315576 = {
+    name = "Daltro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315577 = {
+    name = "Derzi"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315578 = {
+    name = "Di Camargo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315579 = {
+    name = "Di Paullo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315580 = {
+    name = "Dias"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315581 = {
+    name = "Domingos"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315582 = {
+    name = "Donizete"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315583 = {
+    name = "Dorner"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315584 = {
+    name = "Elias"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315585 = {
+    name = "Fadul"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315586 = {
+    name = "Fagundes"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315587 = {
+    name = "Fagundes da Costa"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315588 = {
+    name = "Faissal"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315589 = {
+    name = "Falcão"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315590 = {
+    name = "Faria"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315591 = {
+    name = "Faria de Sousa"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315592 = {
+    name = "Ferraz"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315593 = {
+    name = "Ferrinho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315594 = {
+    name = "Fialho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315595 = {
+    name = "Figueiredo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315596 = {
+    name = "Fonseca"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315597 = {
+    name = "Fortuna"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315598 = {
+    name = "Fragelli"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315599 = {
+    name = "Fran c ced a"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315600 = {
+    name = "Franc e hat s"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315601 = {
+    name = "Franco"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315602 = {
+    name = "Freitas"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315603 = {
+    name = "Froner"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315604 = {
+    name = "Fujishige"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315605 = {
+    name = "G o uml rgen"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315606 = {
+    name = "Gabiroba"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315607 = {
+    name = "Gajardoni"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315608 = {
+    name = "Galego"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315609 = {
+    name = "Galli"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315610 = {
+    name = "Garcia"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315611 = {
+    name = "Gattass"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315612 = {
+    name = "Geller"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315613 = {
+    name = "Gon c ced alves"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315614 = {
+    name = "Gontijo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315615 = {
+    name = "Grapeggia"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315616 = {
+    name = "Grasseli"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315617 = {
+    name = "Grassi"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315618 = {
+    name = "Hastenreiter"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315619 = {
+    name = "Henry"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315620 = {
+    name = "Hugueney"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315621 = {
+    name = "Inhana"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315622 = {
+    name = "Joaquim"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315623 = {
+    name = "Junqueira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315624 = {
+    name = "Kolankiewicz"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315625 = {
+    name = "Lacerda"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315626 = {
+    name = "Laureano"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315627 = {
+    name = "Leitão"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315628 = {
+    name = "Leite"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315629 = {
+    name = "Letrado"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315630 = {
+    name = "Lima"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315631 = {
+    name = "Limeira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315632 = {
+    name = "Linhares"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315633 = {
+    name = "Lobo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315634 = {
+    name = "Louro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315635 = {
+    name = "Muller"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315636 = {
+    name = "Maggi"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315637 = {
+    name = "Maluf"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315638 = {
+    name = "Mamed"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315639 = {
+    name = "Marcelo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315640 = {
+    name = "Marchetto"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315641 = {
+    name = "Marrone"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315642 = {
+    name = "Marrueiro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315643 = {
+    name = "Martines"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315644 = {
+    name = "Martins"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315645 = {
+    name = "Martins de Oliveira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315646 = {
+    name = "Mazetti"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315647 = {
+    name = "Mazui"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315648 = {
+    name = "Medeiros"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315649 = {
+    name = "Meira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315650 = {
+    name = "Mendes"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315651 = {
+    name = "Menotti"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315652 = {
+    name = "Mirim"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315653 = {
+    name = "Monteirinho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315654 = {
+    name = "Monteiro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315655 = {
+    name = "Monterrey"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315656 = {
+    name = "Moraes"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315657 = {
+    name = "Moralles"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315658 = {
+    name = "Moreira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315659 = {
+    name = "Moreninho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315660 = {
+    name = "Moreno"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315661 = {
+    name = "Mouraí"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315662 = {
+    name = "Munhoz"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315663 = {
+    name = "Muniz"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315664 = {
+    name = "Murtinho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315665 = {
+    name = "Nadaf"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315666 = {
+    name = "Nassardem"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315667 = {
+    name = "Nassif"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315668 = {
+    name = "Nato"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315669 = {
+    name = "Neide"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315670 = {
+    name = "Neto"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315671 = {
+    name = "Nogueira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315672 = {
+    name = "Nonato"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315673 = {
+    name = "Nunes"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315674 = {
+    name = "Oliveira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315675 = {
+    name = "Paes"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315676 = {
+    name = "Paes de Barros"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315677 = {
+    name = "Pajé"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315678 = {
+    name = "Palhares"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315679 = {
+    name = "Palma"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315680 = {
+    name = "Palmeira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315681 = {
+    name = "Paraíso"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315682 = {
+    name = "Pardal"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315683 = {
+    name = "Pascoski"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315684 = {
+    name = "Peão"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315685 = {
+    name = "Pedreiro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315686 = {
+    name = "Penteado"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315687 = {
+    name = "Pequi"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315688 = {
+    name = "Pereira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315689 = {
+    name = "Peres"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315690 = {
+    name = "Periquito"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315691 = {
+    name = "Pinheiro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315692 = {
+    name = "Pintado"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315693 = {
+    name = "Pitaluga"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315694 = {
+    name = "Ponce"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315695 = {
+    name = "Porto"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315696 = {
+    name = "Povoas"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315697 = {
+    name = "Praião"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315698 = {
+    name = "Prainha"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315699 = {
+    name = "Preto"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315700 = {
+    name = "Ranchinho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315701 = {
+    name = "Ratinho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315702 = {
+    name = "Ribeiro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315703 = {
+    name = "Ribeiro Campos"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315704 = {
+    name = "Rionegro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315705 = {
+    name = "Riva"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315706 = {
+    name = "Rocha"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315707 = {
+    name = "Rolim"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315708 = {
+    name = "Romanhuk"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315709 = {
+    name = "Rossi"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315710 = {
+    name = "S o hat to"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315711 = {
+    name = "Sabi a act "
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315712 = {
+    name = "Sachetti"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315713 = {
+    name = "Sampaio"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315714 = {
+    name = "Sano"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315715 = {
+    name = "Santiago"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315716 = {
+    name = "Santos"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315717 = {
+    name = "Sardento"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315718 = {
+    name = "Sertanejo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315719 = {
+    name = "Silva"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315720 = {
+    name = "Silveira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315721 = {
+    name = "Slhessarenko"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315722 = {
+    name = "Soares"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315723 = {
+    name = "Soares de Sousa"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315724 = {
+    name = "Sobrinho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315725 = {
+    name = "Solimões"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315726 = {
+    name = "Spanholi"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315727 = {
+    name = "Spinelli"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315728 = {
+    name = "Stefanini"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315729 = {
+    name = "Sucena"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315730 = {
+    name = "Taborelli"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315731 = {
+    name = "Tadano"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315732 = {
+    name = "Tapera"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315733 = {
+    name = "Taques"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315734 = {
+    name = "Tatu"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315735 = {
+    name = "Teixeira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315736 = {
+    name = "Tibagi"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315737 = {
+    name = "Torres"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315738 = {
+    name = "Torrinha"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315739 = {
+    name = "Travassos"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315740 = {
+    name = "Trechaud"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315741 = {
+    name = "Urso"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315742 = {
+    name = "Vaz"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315743 = {
+    name = "Verlangiere"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315744 = {
+    name = "Veronese"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315745 = {
+    name = "Vesgo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315746 = {
+    name = "Viana"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315747 = {
+    name = "Vieira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315748 = {
+    name = "Vieirinha"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315749 = {
+    name = "Vilas Boas"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315750 = {
+    name = "Vilela"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315751 = {
+    name = "Vuolo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315752 = {
+    name = "Xororó"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315753 = {
+    name = "Yanai"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315754 = {
+    name = "Zaher"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315755 = {
+    name = "Zampieron"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315756 = {
+    name = "Zanetti"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315757 = {
+    name = "Zattar"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315758 = {
+    name = "da Câmara"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315759 = {
+    name = "da Mata"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315760 = {
+    name = "da Silva"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315761 = {
+    name = "de Andrade"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315762 = {
+    name = "de Arruda"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315763 = {
+    name = "de Barros"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315764 = {
+    name = "de Brito"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315765 = {
+    name = "de Campos"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315766 = {
+    name = "de Carvalho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315767 = {
+    name = "de Castro"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315768 = {
+    name = "de Faria"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315769 = {
+    name = "de Figueiredo"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315770 = {
+    name = "de Freitas"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315771 = {
+    name = "de Lima"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315772 = {
+    name = "de Oliveira"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315773 = {
+    name = "de Queiroz"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315774 = {
+    name = "de Souza"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315775 = {
+    name = "de Souza Campos"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315776 = {
+    name = "do Amaral"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315777 = {
+    name = "do Lago"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315778 = {
+    name = "do Nascimento"
+    culture = kadiweu
+    # Add more properties as needed
+}
+
+315779 = {
+    name = "do Pinho"
+    culture = kadiweu
+    # Add more properties as needed
+}
+

@@ -1,4 +1,5 @@
 ###ÄNSI
+###ÄNSI
 
 #File with the info about the "determined" id ranges for dynasties of said culture/cultural group.
 
@@ -138,7 +139,7 @@
 ### Canela - 480001 - 485000
 ### Gujajara - 485001 - 490000
 
-# PERU RANGE 490001 - 
+# PERU RANGE 490001 - 530000
 ### Serrano - 490001 - 495000
 ### Guayasense - 495001 - 500000
 ### Iqueño - 500001 - 505000
@@ -150,6 +151,8 @@
 ### Charapa - 520001 - 525000
 ### Oxapampino - 525001 - 530000
 
+# AMAZONIAN RANGE 530001
+### Wari' - 530001 - 535000
 
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.

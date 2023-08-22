@@ -9,8 +9,51 @@ mbaya_group = {
 		color = { 0.2 0.75 0.76 }
 		
 		male_names = {
+            Abram Adentak Adolfo Adrian Adrian Alberto Ale Alejandro Ambiaki Andrés Apoy Ayaekie pst n Aziyaiqui
+            Benjamin
+            Candamburrique Carlos Chachii Chilonaca Chirioí Cosiyaique Coyogoraique Cutaicuruque Cutí
+            Damian Daniel Dany David Deinkie Denis
+            Edie pst n Eleuterio Elias Estevan Eugenio Eusebio Exequiel Ezequiel
+            Felix Freddy
+            Gabriel Gonza Guille Gustavo
+            Higinio Hugo
+            Isidro Ivan
+            Javier Jorge Jose Juan Julio
+            Lucio Luis
+            Maquii Marcelo Mario Miguel Milton
+            Nanaique Nery Nocó Notenaique
+            Omar
+            Pablo Pedro Peloco Pelocolic Pelocolique Pezocorique Pilcomayo
+            Ramón Raquel Raul Roberto Roberto Rolando Ruben
+            Sabino Sacuma Sandatirai Santa Saqoe Sasati Sedacaki Senacatolek Simon Siqui Soxoyaxauaic Sucache
+            Tadeo Timoteo Tomas
+            Vicente Victor Virgilio Vito
+            Walter Wenceslao Wualter
+            Yumay Yumbai
 		}
 		female_names = {
+			Agripina Ailen Ammambai Ana Anahí Analia Aneta Angel Angela Antonia Atamana
+            Bidit
+            Calatacae Cambuci Camcoim Camila Camocim Carmen Cecilia Cedo pst ole Claudia
+            Denise Dolores
+            Emilia Ermelinda
+            Fanny Feliciana Flora
+            Gabi Geronima Gisela Gladis Graciela Griselda
+            Indiana Ines Irupe Ivana
+            Jacaranda Jara Jasy Jaxuka Jera Joana
+            Kame Karen Karynita Kerana
+            Leticia Lizza Luisa
+            Mabel Mafalda Magdalena Marga Maria Marisa Marta Mate pst ena Mercedes
+            Natena Nayaena Naye Norma
+            Ofelia Olga
+            Pacholi Pakuri Paloqqte Pame Panambi Paola Petrona Pici Pikie pst ena
+            Qato pst ole
+            Romina Rosa Rosita
+            Sandra Silvia Sofi Sofia Susana
+            Tabare Tajypoty Takua Tatiana Thaina Theodora
+            Valentina Vanesa Vanina Veronica Vicky Vilma
+            Xiiomara
+            Yamila Yaneth Ynocenia Yolanda Yrasema Ysyry Yuliana
 		}
 		
 		from_dynasty_prefix = " "
@@ -35,8 +78,51 @@ mbaya_group = {
 		color = { 0.3 0.6 0.6 }
 		
 		male_names = {
+			Ângelo Abraão Alexandre Amélio Antônio
+			Baylon
+			César Cacildo Carlos Cleiton
+			Eduardo Elenil Eli Eudoro Everaldo
+			Fábio Fabion Francisco Freire
+			Gerival
+			Helcio Hider
+			Iderval Iron Izidório
+			Júnior Jesus João Joaquim Jorge José Jurandi
+			Laurez Lindolfo Luiz
+			Manoel Marcelo Mascarenhas Mauro Merval
+			Nezinho Nilton
+			Olyntho Osires Otoniel
+			Paulino Paulo Pedro
+			Raimundo Raul Ricardo Rocha
+			Sandoval Sebastião Stalin
+			Toinho
+			Udson Uiatan
+			Valdemar Valderez Valuar Vicente Vicentinho Vilmar
+			Walfredo Wanderlei
+			Zé
 		}
 		female_names = {
+			Agripina Ailen Ammambai Ana Anahí Analia Aneta Angel Angela Antonia Atamana
+            Bidit
+            Calatacae Cambuci Camcoim Camila Camocim Carmen Cecilia Cedo pst ole Claudia
+            Denise Dolores
+            Emilia Ermelinda
+            Fanny Feliciana Flora
+            Gabi Geronima Gisela Gladis Graciela Griselda
+            Indiana Ines Irupe Ivana
+            Jacaranda Jara Jasy Jaxuka Jera Joana
+            Kame Karen Karynita Kerana
+            Leticia Lizza Luisa
+            Mabel Mafalda Magdalena Marga Maria Marisa Marta Mate pst ena Mercedes
+            Natena Nayaena Naye Norma
+            Ofelia Olga
+            Pacholi Pakuri Paloqqte Pame Panambi Paola Petrona Pici Pikie pst ena
+            Qato pst ole
+            Romina Rosa Rosita
+            Sandra Silvia Sofi Sofia Susana
+            Tabare Tajypoty Takua Tatiana Thaina Theodora
+            Valentina Vanesa Vanina Veronica Vicky Vilma
+            Xiiomara
+            Yamila Yaneth Ynocenia Yolanda Yrasema Ysyry Yuliana
 		}
 		
 		from_dynasty_prefix = " "

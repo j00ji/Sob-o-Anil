@@ -15,7 +15,7 @@ b_palmeiral = temple
 #b_sydney_girao = castle
 
 # Misc
-culture = rondonian
+culture = wari
 religion = evangelical
 
 #History

@@ -15,7 +15,7 @@ b_costa_marques = castle
 #b_porto_rocha = castle
 
 # Misc
-culture = rikbatsa
+culture = wari
 religion = evangelical
 
 #History

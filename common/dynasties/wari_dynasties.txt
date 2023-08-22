@@ -1,0 +1,35 @@
+530501 = {
+    name = "Nao"
+    culture = wari
+    religion = evangelical
+}
+
+530502 = {
+    name = "Eo"
+    culture = wari
+    religion = evangelical
+}
+
+530503 = {
+    name = "At"
+    culture = wari
+    religion = evangelical
+}
+
+530504 = {
+    name = "Mon"
+    culture = wari
+    religion = evangelical
+}
+
+530505 = {
+    name = "Waram"
+    culture = wari
+    religion = evangelical
+}
+
+530506 = {
+    name = "Waram Xinjein"
+    culture = wari
+    religion = evangelical
+}
