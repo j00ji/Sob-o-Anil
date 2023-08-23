@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_rondonia
 }
+2357.4.1={
+	holder=210035 #Valdito Eo
+	liege=k_rondonia
+}

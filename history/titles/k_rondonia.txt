@@ -1,0 +1,6 @@
+2330.6.1={
+	holder=210040 #Samuel I
+}
+2367.1.1={
+	holder=210039 #Samuel II
+}

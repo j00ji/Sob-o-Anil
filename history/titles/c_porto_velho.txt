@@ -6,3 +6,10 @@
 800.1.1={
 	liege=k_mato_grosso
 }
+2330.6.1={
+	holder=210040 #Samuel I
+	liege=k_rondonia
+}
+2367.1.1={
+	holder=210039 #Samuel II
+}

@@ -863,7 +863,6 @@
 	2363.1.1={death=yes}
 	#father of Sulino
 }
-
 210034={
 	name="Libânio"
 	dynasty=120020 #Iguajuru
@@ -874,4 +873,174 @@
 	2326.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#holder of Iguatemi vassal of Paraguay
+}
+#Rondônia
+#Eo Family
+210035={
+	name="Valdito"
+	dynasty=120021 #Eo
+	culture=wari
+	religion=universal
+	trait=underhanded_rogue
+	trait=diligent
+	trait=arbitrary
+	trait=quick
+	trait=chaste
+	2326.1.1={birth=yes}
+	2344.1.1={add_spouse=210036}
+	2400.1.1={death=yes}
+	#holder of Nova Mamoré and Costa Marques, vassal of Rondonia
+}
+210036={
+	name="Elsa"
+	female=yes
+	dynasty=530501 #Nao
+	culture=wari
+	religion=universal
+	trait=martial_cleric
+	trait=slothful
+	2324.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#holder of Nova Mamoré and Costa Marques, vassal of Rondonia
+}
+210037={
+	name="Pan"
+	culture=wari
+	religion=universal
+	dynasty=120021 #Eo
+	father=210035
+	mother=210036
+	2347.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+210038={
+	name="Inacia"
+	culture=wari
+	religion=universal
+	female=yes
+	dynasty=120021 #Eo
+	father=210035
+	mother=210036
+	2348.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+#Evangelista family, Kings of Rondonia
+210039={
+	name="Samuel"
+	dynasty=120022 #Evangelista
+	culture=rondonian
+	religion=universal
+	trait=fortune_builder
+	trait=diligent
+	trait=greedy
+	trait=proud
+	diplomacy=5
+	martial=4
+	stewardship=5
+	intrigue=3
+	learning=4
+	father=210040
+	2345.5.28={birth=yes}
+	2400.1.1={death=yes}
+	#King of Rondonia, holds Porto Velho and Arquemedes
+}
+210040={
+	name="Samuel"
+	dynasty=120022 #Evangelista
+	culture=rondonian
+	religion=universal
+	trait=midas_touched
+	trait=greedy
+	trait=deceitful
+	trait=lustful
+	2313.1.1={birth=yes}
+	2367.1.1={death=yes}
+	#previosu King of Rondonia
+}
+210041={
+	name="Isadora"
+	dynasty=120022 #Evangelista
+	female=yes
+	culture=rondonian
+	religion=universal
+	trait=naive_appeaser
+	trait=fair
+	trait=legit_bastard
+	father=210040
+	female=yes
+	2351.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#half sister of Samuel
+}
+#Poder de Deus
+210042={
+	name="Evelyn"
+	dynasty=120023 #Poder de Deus
+	female=yes
+	culture=rondonian
+	religion=universal
+	trait=skilled_tactician
+	trait=proud
+	trait=stubborn
+	trait=robust
+	2319.1.1={birth=yes}
+	2335.1.1={add_matrilineal_spouse=210043}
+	2400.1.1={death=yes}
+	#Holds Espigão d'Oeste, Cerejeiras
+}
+210043={
+	name="Moacir"
+	dynasty=0
+	culture=rondonian
+	religion=universal
+	trait=brilliant_strategist
+	trait=uncouth
+	trait=strategist
+	trait=wroth
+	trait=scarred_high
+	2303.1.1={birth=yes}
+	2370.1.1={death=yes}
+}
+210044={
+	name="João"
+	dynasty=120023 #Poder de Deus
+	culture=rondonian
+	religion=universal
+	trait=tough_soldier
+	trait=stubborn
+	trait=wroth
+	father=210043
+	mother=210042
+	2337.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Oldest Son of the Poder de Deus family
+}
+210045={
+	name="Jorge"
+	dynasty=120023 #Poder de Deus
+	culture=rondonian
+	religion=universal
+	trait=midas_touched
+	trait=kind
+	trait=charitable
+	father=210043
+	mother=210042
+	2340.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Middle Son of the Poder de Deus family
+}
+210046={
+	name="Janaína"
+	dynasty=120023 #Poder de Deus
+	culture=rondonian
+	religion=universal
+	female=yes
+	trait=underhanded_rogue
+	trait=groomed
+	trait=lefthanded
+	father=210043
+	mother=210042
+	2345.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#Younger Daughter of the Poder de Deus family
 }
