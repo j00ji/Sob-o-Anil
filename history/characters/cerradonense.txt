@@ -953,6 +953,7 @@
 	trait=greedy
 	trait=deceitful
 	trait=lustful
+	father=210058
 	2313.1.1={birth=yes}
 	2367.1.1={death=yes}
 	#previosu King of Rondonia
@@ -979,6 +980,7 @@
 	female=yes
 	culture=rondonian
 	religion=universal
+	father=210047
 	trait=skilled_tactician
 	trait=proud
 	trait=stubborn
@@ -1043,4 +1045,146 @@
 	2345.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#Younger Daughter of the Poder de Deus family
+}
+210047={
+	name="Leonardo"
+	dynasty=120023 #Poder de Deus
+	culture=rondonian
+	religion=universal
+	trait=tough_soldier
+	father=210048
+	trait=chaste
+	2289.8.11={birth=yes}
+	2324.1.1={death=yes}
+}
+210048={
+	name="Geraldo"
+	dynasty=120023 #Poder de Deus
+	culture=rondonian
+	religion=universal
+	trait=skilled_tactician
+	trait=cavalry_leader
+	father=210050
+	2265.7.24={birth=yes}
+	2301.1.1={death=yes}
+}
+210049={
+	name="Chico"
+	dynasty=120023 #Poder de Deus
+	culture=rondonian
+	religion=universal
+	trait=fortune_builder
+	trait=craven
+	trait=greedy
+	father=210050
+	2269.1.4={birth=yes}
+	2309.1.1={death=yes}
+}
+210050={
+	name="Geraldo"
+	dynasty=120023 #Poder de Deus
+	culture=rondonian
+	religion=universal
+	trait=brilliant_strategist
+	trait=brave
+	father=210051
+	2223.7.24={birth=yes}
+	2284.1.1={death=yes}
+}
+210051={
+	name="Chico"
+	dynasty=120023 #Poder de Deus
+	culture=rondonian
+	religion=universal
+	trait=brilliant_strategist
+	trait=brave
+	father = 210052
+	2199.4.24={birth=yes}
+	2234.1.1={death=yes}
+}
+210052 = {
+	name = "Valdemiro"
+	dynasty = 120023 # Poder de Deus
+	religion = universal
+	culture = capixaba
+	
+	mother=110666
+	
+	trait = fortune_builder
+	trait = adventurer
+	
+	2146.4.7 = {
+		birth = yes
+	}
+	2209.3.6 = {
+		death = yes
+	}
+	#first member of the Poder de Deus family
+}
+#Evangelista family lore
+210053={
+	name="Flamarion"
+	dynasty=120022 #Evangelista
+	religion=catholic
+	culture=rondonian
+	trait=thrifty_clerk
+	trait=cynical
+	trait=arbitrary
+	2145.2.23={birth=yes}
+	2197.1.1={death=yes}
+}
+210054={
+	name="Flamarion"
+	dynasty=120022 #Evangelista
+	religion=evangelical
+	culture=rondonian
+	trait=fortune_builder
+	trait=zealous
+	trait=impaler
+	father=210053
+	2182.10.23={birth=yes}
+	2237.1.1={death=yes}
+}
+210055={
+	name="Valdemiro"
+	dynasty=120022 #Evangelista
+	religion=evangelical
+	culture=rondonian
+	trait=skilled_tactician
+	trait=zealous
+	trait=lustful
+	trait=patient
+	father=210054
+	2207.10.23={birth=yes}
+	2245.1.1={death=yes}
+}
+210056={
+	name="Valdemiro"
+	dynasty=120022 #Evangelista
+	religion=evangelical
+	culture=rondonian
+	trait=charismatic_negotiator
+	father=210055
+	2229.10.23={birth=yes}
+	2259.1.1={death=yes}
+}
+210057={
+	name="Valdemiro"
+	dynasty=120022 #Evangelista
+	religion=evangelical
+	culture=rondonian
+	trait=midas_touched
+	father=210056
+	2249.10.23={birth=yes}
+	2290.1.1={death=yes}
+}
+210058={
+	name="João"
+	dynasty=120022 #Evangelista
+	religion=evangelical
+	culture=rondonian
+	trait=scholarly_theologian
+	father=210057
+	2281.10.23={birth=yes}
+	2325.1.1={death=yes}
 }

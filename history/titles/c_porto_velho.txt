@@ -6,7 +6,31 @@
 800.1.1={
 	liege=k_mato_grosso
 }
-2330.6.1={
+2170.1.1={
+	holder=210053
+	liege=k_rondonia
+}
+2197.1.1={
+	holder=210054
+	liege=k_rondonia
+}
+2237.1.1={
+	holder=210055
+	liege=k_rondonia
+}
+2245.1.1={
+	holder=210056
+	liege=k_rondonia
+}
+2259.1.1={
+	holder=210057
+	liege=k_rondonia
+}
+2290.1.1={
+	holder=210058
+	liege=k_rondonia
+}
+2325.1.1={
 	holder=210040 #Samuel I
 	liege=k_rondonia
 }
