@@ -15,7 +15,7 @@ b_senhor_do_bomfim = temple
 #b_jaguarari = castle
 
 # Misc
-culture = sertanista
+culture = baiano
 religion = cicerite
 
 #History

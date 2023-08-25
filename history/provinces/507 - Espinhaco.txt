@@ -15,7 +15,7 @@ b_caetite = tribal
 #b_cacule = castle
 
 # Misc
-culture = ilhense
+culture = diamantino
 religion = angel_cult
 
 #History

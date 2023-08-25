@@ -15,7 +15,7 @@ b_canarana = city
 #b_aguada_nova = castle
 
 # Misc
-culture = sertanista
+culture = diamantino
 religion = cicerite
 
 #History

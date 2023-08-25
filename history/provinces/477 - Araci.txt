@@ -15,7 +15,7 @@ b_araci = city
 #b_pataiba = castle
 
 # Misc
-culture = salvadorense
+culture = baiano
 religion = camdomble
 
 #History

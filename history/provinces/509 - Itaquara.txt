@@ -15,7 +15,7 @@ b_ibiapora = city
 #b_ruy_barbosa = castle
 
 # Misc
-culture = salvadorense
+culture = diamantino
 religion = camdomble
 
 #History

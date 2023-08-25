@@ -15,7 +15,7 @@ b_argoim = temple
 #b_povoacoes = castle
 
 # Misc
-culture = salvadorense
+culture = baiano
 religion = camdomble
 
 #History

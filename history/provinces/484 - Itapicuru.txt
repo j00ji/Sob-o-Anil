@@ -15,7 +15,7 @@ b_pombal = temple
 #b_curral_falso = castle
 
 # Misc
-culture = salvadorense
+culture = baiano
 religion = camdomble
 
 #History

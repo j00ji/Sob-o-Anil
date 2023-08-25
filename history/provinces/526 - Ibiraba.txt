@@ -15,7 +15,7 @@ b_ibiraba_2 = castle
 #b_paulista = castle
 
 # Misc
-culture = sertanista
+culture = chiconho
 religion = cicerite
 
 #History

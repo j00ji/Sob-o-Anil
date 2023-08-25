@@ -15,7 +15,7 @@ b_senhora_da_conceicao = temple
 #b_itaporanga = castle
 
 # Misc
-culture = atlanticano
+culture = sergipano
 religion = camdomble
 
 #History

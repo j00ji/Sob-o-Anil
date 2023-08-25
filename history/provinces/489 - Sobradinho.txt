@@ -15,7 +15,7 @@ b_americo = city
 #b_retiro_de_cima = castle
 
 # Misc
-culture = sertanista
+culture = chiconho
 religion = cicerite
 
 #History

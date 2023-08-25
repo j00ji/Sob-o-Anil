@@ -15,7 +15,7 @@ b_itabi = city
 #b_caninde_2 = castle
 
 # Misc
-culture = atlanticano
+culture = sergipano
 religion = camdomble
 
 #History

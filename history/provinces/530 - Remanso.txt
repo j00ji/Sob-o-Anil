@@ -15,7 +15,7 @@ b_beira = temple
 #b_pau_a_pique = castle
 
 # Misc
-culture = sertanista
+culture = chiconho
 religion = cicerite
 
 #History

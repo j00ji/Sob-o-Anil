@@ -15,7 +15,7 @@ b_ibo = city
 #b_itamotinga = castle
 
 # Misc
-culture = salvadorense
+culture = baiano
 religion = camdomble
 
 #History

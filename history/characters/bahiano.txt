@@ -1014,7 +1014,7 @@
 40040 = {
 	name = "Matias"
 	dynasty = 20003#Virgulino Ferreira
-	culture = salvadorense
+	culture = sergipano
 	religion=camdomble
 	trait=intricate_webweaver
 	trait=ambitious
@@ -1046,7 +1046,7 @@
 40041 = {
 	name = "Matias"
 	dynasty=20003#Virgulino Ferreira
-	culture = lagoano
+	culture = sergipano
 	religion=camdomble
 	father=40040
 	trait=tough_soldier
@@ -1061,7 +1061,6 @@
 	
 	2334.3.24={
 		birth=yes
-		culture=salvadorense
 	}
 	2400.1.1={
 		death=yes
@@ -1073,7 +1072,7 @@
 40042 = {
 	name="Eugênio"
 	dynasty=20004 #Giordino
-	culture=salvadorense
+	culture=baiano
 	religion=camdomble
 	trait=brilliant_strategist
 	trait=quick
@@ -1099,7 +1098,7 @@
 40043 = {
 	name="Ulisses"
 	dynasty=20004 #Giordino
-	culture=lagoano
+	culture=baiano
 	religion=camdomble
 	father=40042
 	trait=flamboyant_schemer
@@ -1114,7 +1113,6 @@
 	
 	2333.6.10={
 		birth=yes
-		culture=salvadorense
 	}
 	2341.2.10={
 		effect={
@@ -1133,7 +1131,7 @@
 	name="Maria"
 	female=yes
 	dynasty=20005 #Maia
-	culture=salvadorense
+	culture=baiano
 	religion=camdomble
 	trait=thrifty_clerk
 	trait=fair
@@ -1158,7 +1156,7 @@
 40045={
 	name="Horácio"
 	dynasty=20006 #coronel
-	culture=salvadorense
+	culture=baiano
 	religion=camdomble
 	trait=misguided_warrior
 	trait=shy
@@ -1183,7 +1181,7 @@
 	dna="cf000000000"
 	properties="0d0dia000000000000000000000000000000"
 	dynasty=20007 #ramos
-	culture=salvadorense
+	culture=baiano
 	religion=camdomble
 	trait=charismatic_negotiator
 	trait=gregarious
@@ -1236,7 +1234,7 @@
 40048 = {
 	name="Manuel"
 	dynasty=20009 #Freitas
-	culture=salvadorense
+	culture=diamantino
 	religion=camdomble
 	dna="bdeia0db000"
 	properties="dk0abd000000000000000000000000000000"
@@ -1295,7 +1293,7 @@
 	dynasty=30002 #de Matos
 	dna="cieec0d0000"
 	properties="el0hak000000000000000000000000000000"
-	culture=chiconho
+	culture=diamantino
 	religion=angel_cult
 	trait=flamboyant_schemer
 	trait=proud
@@ -1334,7 +1332,7 @@
 	
 	2346.2.14 = {
 		birth = yes
-		culture = chiconho
+		culture = diamantino
 	}
 	2400.1.1 = {
 		death = yes
@@ -1421,7 +1419,7 @@
 60007 = {
 	name = "Francisco"
 	dynasty = 30006 #Liberato
-	culture=chiconho
+	culture=diamantino
 	religion=angel_cult
 	trait=martial_cleric
 	trait=poet
@@ -1443,7 +1441,7 @@
 60008 = {
 	name = "Zé"
 	dynasty = 30007 #do Fandango
-	culture=chiconho
+	culture=diamantino
 	religion=angel_cult
 	trait=underhanded_rogue
 	trait=poet
@@ -1498,7 +1496,7 @@
 	dna="bbaci0cacb0"
 	properties="ea0k0i0000000000000000000000000000000"
 	dynasty = 30008# Gavião
-	culture=lagoano
+	culture=chiconho
 	religion=cicerite
 	trait=charismatic_negotiator
 	trait=kind
@@ -1510,7 +1508,6 @@
 	learning=5
 	2339.10.4 = {
 		birth = yes
-		culture=sertanista
 	}
 	2365.10.3 = {
 		effect = {
@@ -1565,10 +1562,10 @@
 	trait=charismatic_negotiator
 	trait=fair
 	trait=poet
-	
+	father=60011
 	2339.2.9 = {
 		birth = yes
-		culture = sertanista
+		culture = chiconho
 	}
 	2400.1.1 = {
 		death = yes
@@ -1587,10 +1584,10 @@
 	trait=thrifty_clerk
 	trait=fair
 	trait=poet
-	
+	father=60011
 	2345.4.20 = {
 		birth = yes
-		culture = sertanista
+		culture = chiconho
 	}
 	2400.1.1 = {
 		death = yes
@@ -1609,10 +1606,10 @@
 	trait=martial_cleric
 	trait=fair
 	trait=poet
-	
+	father=60011
 	2343.10.20 = {
 		birth = yes
-		culture = sertanista
+		culture = chiconho
 	}	
 	2400.1.1 = {
 		death = yes

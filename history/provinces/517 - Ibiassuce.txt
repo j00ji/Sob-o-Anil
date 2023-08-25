@@ -15,7 +15,7 @@ b_ibiassuce_2 = castle
 #b_rio_baixo = castle
 
 # Misc
-culture = chiconho
+culture = diamantino
 religion = angel_cult
 
 #History

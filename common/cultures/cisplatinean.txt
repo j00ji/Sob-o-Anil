@@ -217,7 +217,7 @@ cisplatinean = {
 		modifier = default_culture_modifier
 	}
 	talian = {
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { trueoccitangfx occitangfx italiangfx }
 		
 		color = { 0.75 0.7 0.2 }
 		

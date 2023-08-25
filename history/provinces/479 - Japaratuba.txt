@@ -15,7 +15,7 @@ b_pacatuba = city
 #b_aguilhada = castle
 
 # Misc
-culture = atlanticano
+culture = sergipano
 religion = camdomble
 
 #History

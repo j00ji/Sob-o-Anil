@@ -15,7 +15,7 @@ b_ouricuri = temple
 #b_bom_sossego = castle
 
 # Misc
-culture = chiconho
+culture = diamantino
 religion = cicerite
 
 #History

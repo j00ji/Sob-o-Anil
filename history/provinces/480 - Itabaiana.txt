@@ -15,7 +15,7 @@ b_sao_domingos = temple
 #b_nossa_senhora_da_gloria = castle
 
 # Misc
-culture = atlanticano
+culture = sergipano
 religion = camdomble
 
 #History

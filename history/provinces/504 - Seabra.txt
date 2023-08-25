@@ -15,7 +15,7 @@ b_itaquara = castle
 #b_stela_dubois = castle
 
 # Misc
-culture = ilhense
+culture = diamantino
 religion = angel_cult
 
 #History

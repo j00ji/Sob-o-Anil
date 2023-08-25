@@ -15,7 +15,7 @@ b_cajui = temple
 #b_itapera_2 = temple
 
 # Misc
-culture = sertanista
+culture = chiconho
 religion = cicerite
 
 #History

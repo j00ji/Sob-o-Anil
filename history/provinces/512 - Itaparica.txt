@@ -15,7 +15,7 @@ b_iguira = city
 #b_santo_inacio = castle
 
 # Misc
-culture = sertanista
+culture = chiconho
 religion = cicerite
 
 #History

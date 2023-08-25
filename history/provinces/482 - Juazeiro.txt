@@ -15,7 +15,7 @@ b_sobradinho = city
 #b_juremal = castle
 
 # Misc
-culture = salvadorense
+culture = chiconho
 religion = camdomble
 
 #History

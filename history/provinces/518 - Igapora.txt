@@ -15,7 +15,7 @@ b_igapora_2 = castle
 #b_caldeiras = castle
 
 # Misc
-culture = chiconho
+culture = diamantino
 religion = angel_cult
 
 #History

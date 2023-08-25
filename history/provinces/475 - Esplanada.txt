@@ -15,7 +15,7 @@ b_rio_real = castle
 #b_caninde = castle
 
 # Misc
-culture = salvadorense
+culture = baiano
 religion = camdomble
 
 #History

@@ -15,7 +15,7 @@ b_ico = castle
 #b_porto_feliz_2 = castle
 
 # Misc
-culture = sertanista
+culture = chiconho
 religion = cicerite
 
 #History
