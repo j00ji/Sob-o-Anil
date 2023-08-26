@@ -3,7 +3,9 @@
 }
 2300.1.1={
 	holder=280026
+	historical_nomad=yes
 }
 2354.1.1={
 	holder=280027
+	liege=d_vale_do_rio_pardo
 }

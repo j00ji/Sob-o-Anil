@@ -1,0 +1,411 @@
+##ÄNSI
+
+#Canon
+
+####################
+####Random diamantino Surnames
+####Based on all governors of Bahia
+####Source: wikipedia
+####Range: 605000 - 25000
+####################
+
+605000={
+	name = "de Sousa"
+	religion = camdomble
+	culture = diamantino
+}
+605001={
+	name = "da Costa"
+	religion = camdomble
+	culture = diamantino
+}
+605002={
+	name = "de Sá"
+	religion = camdomble
+	culture = diamantino
+}
+605003={
+	name = "Brito e Almeida"
+	religion = camdomble
+	culture = diamantino
+}
+605004={
+	name = "da Veiga"
+	religion = camdomble
+	culture = diamantino
+}
+605005={
+	name = "Barreiros"
+	religion = camdomble
+	culture = diamantino
+}
+605006={
+	name = "Teles"
+	religion = camdomble
+	culture = diamantino
+}
+605007={
+	name = "Barreto"
+	religion = camdomble
+	culture = diamantino
+}
+605008={
+	name = "de Barros"
+	religion = camdomble
+	culture = diamantino
+}
+605009={
+	name = "de Botelho"
+	religion = camdomble
+	culture = diamantino
+}
+605010={
+	name = "Menezes"
+	religion = camdomble
+	culture = diamantino
+}
+605011={
+	name = "Furtado"
+	religion = camdomble
+	culture = diamantino
+}
+605012={
+	name = "Mendonça"
+	religion = camdomble
+	culture = diamantino
+}
+605013={
+	name = "Abluquerque"
+	religion = camdomble
+	culture = diamantino
+}
+605014={
+	name = "Rolim"
+	religion = camdomble
+	culture = diamantino
+}
+605015={
+	name = "Oliveira"
+	religion = camdomble
+	culture = diamantino
+}
+605016={
+	name = "Mascarenhas"
+	religion = camdomble
+	culture = diamantino
+}
+605017={
+	name = "Bezerra"
+	religion = camdomble
+	culture = diamantino
+}
+605018={
+	name = "Sampaio"
+	religion = camdomble
+	culture = diamantino
+}
+605019={
+	name = "Ataíde"
+	religion = camdomble
+	culture = diamantino
+}
+605020={
+	name = "Freire"
+	religion = camdomble
+	culture = diamantino
+}
+605021={
+	name = "Guedes"
+	religion = camdomble
+	culture = diamantino
+}
+605022={
+	name = "da Cunha"
+	religion = camdomble
+	culture = diamantino
+}
+605023={
+	name = "Sotomaior"
+	religion = camdomble
+	culture = diamantino
+}
+605024={
+	name = "Coutinho"
+	religion = camdomble
+	culture = diamantino
+}
+605025={
+	name = "Lencastre"
+	religion = camdomble
+	culture = diamantino
+}
+605026={
+	name = "Almada"
+	religion = camdomble
+	culture = diamantino
+}
+605027={
+	name = "Vasconcelos"
+	religion = camdomble
+	culture = diamantino
+}
+605028={
+	name = "Noronha"
+	religion = camdomble
+	culture = diamantino
+}
+605029={
+	name = "de Faro"
+	religion = camdomble
+	culture = diamantino
+}
+605030={
+	name = "Figueiredo"
+	religion = camdomble
+	culture = diamantino
+}
+605031={
+	name = "Fernandes"
+	religion = camdomble
+	culture = diamantino
+}
+605032={
+	name = "de Melo"
+	religion = camdomble
+	culture = diamantino
+}
+605033={
+	name = "Castro"
+	religion = camdomble
+	culture = diamantino
+}
+605034={
+	name = "Peregrino"
+	religion = camdomble
+	culture = diamantino
+}
+605035={
+	name = "de Matos"
+	religion = camdomble
+	culture = diamantino
+}
+605036={
+	name = "Portugal"
+	religion = camdomble
+	culture = diamantino
+}
+605037={
+	name = "de Andrada"
+	religion = camdomble
+	culture = diamantino
+}
+605038={
+	name = "Alvim"
+	religion = camdomble
+	culture = diamantino
+}
+605039={
+	name = "da Gama"
+	religion = camdomble
+	culture = diamantino
+}
+605030={
+	name = "Calmon"
+	religion = camdomble
+	culture = diamantino
+}
+605031={
+	name = "Viana"
+	religion = camdomble
+	culture = diamantino
+}
+605032={
+	name = "Vicente"
+	religion = camdomble
+	culture = diamantino
+}
+605033={
+	name = "Maciel"
+	religion = camdomble
+	culture = diamantino
+}
+605034={
+	name = "Gordilho"
+	religion = camdomble
+	culture = diamantino
+}
+605035={
+	name = "Bastos"
+	religion = camdomble
+	culture = diamantino
+}
+605036={
+	name = "Martins"
+	religion = camdomble
+	culture = diamantino
+}
+605037={
+	name = "Paraíso"
+	religion = camdomble
+	culture = diamantino
+}
+605038={
+	name = "Pedroso"
+	religion = camdomble
+	culture = diamantino
+}
+605039={
+	name = "Rego"
+	religion = camdomble
+	culture = diamantino
+}
+605040={
+	name = "de Andréa"
+	religion = camdomble
+	culture = diamantino
+}
+605041={
+	name = "Azevedo"
+	religion = camdomble
+	culture = diamantino
+}
+605042={
+	name = "Serra"
+	religion = camdomble
+	culture = diamantino
+}
+605043={
+	name = "Gonçalves"
+	religion = camdomble
+	culture = diamantino
+}
+605044={
+	name = "Wanderley"
+	religion = camdomble
+	culture = diamantino
+}
+605045={
+	name = "de Sinimbu"
+	religion = camdomble
+	culture = diamantino
+}
+605046={
+	name = "Paes"
+	religion = camdomble
+	culture = diamantino
+}
+605047={
+	name = "Pena"
+	religion = camdomble
+	culture = diamantino
+}
+605048={
+	name = "Ferreira"
+	religion = camdomble
+	culture = diamantino
+}
+605049={
+	name = "Pinto"
+	religion = camdomble
+	culture = diamantino
+}
+605050={
+	name = "Leão"
+	religion = camdomble
+	culture = diamantino
+}
+605051={
+	name = "Gomes"
+	religion = camdomble
+	culture = diamantino
+}
+605052={
+	name = "Dantas"
+	religion = camdomble
+	culture = diamantino
+}
+605053={
+	name = "Azambuja"
+	religion = camdomble
+	culture = diamantino
+}
+605054={
+	name = "da Rocha"
+	religion = camdomble
+	culture = diamantino
+}
+605055={
+	name = "Couto"
+	religion = camdomble
+	culture = diamantino
+}
+605056={
+	name = "de Araújo"
+	religion = camdomble
+	culture = diamantino
+}
+605057={
+	name = "Portella"
+	religion = camdomble
+	culture = diamantino
+}
+605058={
+	name = "Machado"
+	religion = camdomble
+	culture = diamantino
+}
+605059={
+	name = "Lisboa"
+	religion = camdomble
+	culture = diamantino
+}
+605060={
+	name = "Nunes"
+	religion = camdomble
+	culture = diamantino
+}
+605061={
+	name = "Lucena"
+	religion = camdomble
+	culture = diamantino
+}
+605062={
+	name = "Bulcão"
+	religion = camdomble
+	culture = diamantino
+}
+605063={
+	name = "Lustosa"
+	religion = camdomble
+	culture = diamantino
+}
+605064={
+	name = "Chaves"
+	religion = camdomble
+	culture = diamantino
+}
+605065={
+	name = "Pimentel"
+	religion = camdomble
+	culture = diamantino
+}
+605066={
+	name = "Damásio"
+	religion = camdomble
+	culture = diamantino
+}
+605067={
+	name = "Vitorino"
+	religion = camdomble
+	culture = diamantino
+}
+605068={
+	name = "Neiva"
+	religion = camdomble
+	culture = diamantino
+}
+605069={
+	name = "Seabra"
+	religion = camdomble
+	culture = diamantino
+}

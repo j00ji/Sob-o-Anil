@@ -27,3 +27,4 @@ nick_star_child = {}
 nick_golden_tongue = {}
 nick_jaguar_killer = {}
 nick_cattle_king = {}
+nick_duke_of_lead = {}

@@ -15,7 +15,7 @@ b_palmeira_das_missoes = castle
 #b_santo_augusto = castle
 
 # Misc
-culture = talian
+culture = hunsruckisch
 religion = celeste
 
 #History

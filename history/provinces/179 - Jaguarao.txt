@@ -16,6 +16,6 @@ b_jaguarao = tribal
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = umbanda
 
 #History

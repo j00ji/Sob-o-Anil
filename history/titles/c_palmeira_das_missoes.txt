@@ -7,6 +7,6 @@
 	liege=k_rio_grande_do_sul
 }
 2340.1.1={
-	holder=300005
+	holder=300004
 	liege=d_alto_uruguai
 }

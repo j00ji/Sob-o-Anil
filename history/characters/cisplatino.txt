@@ -751,7 +751,7 @@
 }
 270006={
 	name="Ernesto"
-	dynasty=95081 #Canabarro
+	dynasty=95081 #da Gama
 	culture=gaucho
 	religion=farrapo
 	trait=brilliant_strategist
@@ -772,8 +772,8 @@
 	#lead the invasion of Laguna
 }
 270007={
-	name="Igor"
-	dynasty=95081 #Canabarro
+	name="Custódio"
+	dynasty=95081 #da Gama
 	father=270006
 	culture=gaucho
 	religion=farrapo
@@ -1917,7 +1917,7 @@
 	dynasty=95070 #Germano
 	female=yes
 	culture=hunsruckisch
-	religion=umbanda
+	religion=evangelical
 	trait=freckles
 	trait=intricate_webweaver
 	trait=groomed
@@ -1943,7 +1943,7 @@
 	name="Roberto"
 	dynasty=95067 #Assis
 	culture=salvadorense
-	religion=farrapo
+	religion=umbanda
 	father=280007
 	trait=fortune_builder	
 	trait=fair
@@ -1967,7 +1967,7 @@
 	name="Ronaldo" #Ronaldinho Gaucho o Bruxo
 	dynasty=95067 #Assis
 	culture=salvadorense
-	religion=farrapo
+	religion=umbanda
 	father=280007
 	trait=brilliant_strategist
 	trait=quick
@@ -1987,7 +1987,7 @@
 		give_nickname = nick_the_wizard
 	}
 	2400.1.1={death=yes}
-	#holder of Pelotas
+	#holder of Pelotas and Camaquã
 }
 280007={
 	name="João"
@@ -2072,7 +2072,6 @@
 		birth=yes
 	}
 	2400.1.1={death=yes}
-	#Chief of Uruguaiana, vassal of Coxilhas
 }
 290011={
 	name="Gregório"
@@ -2101,7 +2100,7 @@
 		add_spouse=290012
 	}
 	2400.1.1={death=yes}
-	#chief of Alegrete, vassal of Coxilhas
+	#chief of Alegrete and uruguaiana, vassal of Coxilhas
 }
 290012={
 	name="Juraci"
@@ -2131,6 +2130,7 @@
 	dynasty=95037 #Castilhos
 	culture=gaucho
 	religion=vargist
+	father=280040
 	trait=mastermind_theologian
 	trait=genius
 	trait=scholar
@@ -2144,8 +2144,11 @@
 	2298.1.1={
 		birth=yes
 	}
-	2350.1.1={
-		death=yes
+	2336.1.1={
+		death={
+			death_reason=death_battle
+			killer=280031 #killed by the Médici
+		}
 	}
 	#previous ruler of Santa Maria and Caçapava do SUl
 }
@@ -2169,7 +2172,7 @@
 		birth=yes
 	}
 	2400.1.1={death=yes}
-	#holder of Santa Maria and Caçapava do Sul
+	#holder of Santa Maria and Caçapava do Sul and Cachoeira do Sul, duke of Vale do Rio Pardo
 }
 290015={
 	name="Cândido"
@@ -2194,7 +2197,7 @@
 	2400.1.1={
 		death=yes
 	}
-	#Duke of Missões, holder of santa rosa and ijui
+	#holder of santa rosa and são nicolau
 }	
 290016={
 	name="Wolfgang"
@@ -2219,7 +2222,7 @@
 	2355.1.1={
 		death=yes
 	}
-	#Former holder of Santa Rosa
+	#
 }
 290017={
 	name="Marta"
@@ -2267,7 +2270,6 @@
 	2400.1.1={
 		death=yes
 	}
-	#Holder of Santa Rosa
 }
 290019={
 	name="Lucia"
@@ -2422,16 +2424,19 @@
 	stewardship=5
 	intrigue=6
 	learning=1
-	2338.1.1={
+	2328.1.1={
 		birth=yes
 	}
-	2367.1.2={
-		add_spouse=280030
+	2359.1.1={
+		effect = { 
+			add_claim=d_porto_alegre
+			add_claim=c_porto_alegre
+		}
+		employer=k_serra_gaucha
 	}
 	2400.1.1={
 		death=yes
 	}
-	#ruler of Campanha Gaucha
 }
 280026={
 	name="Fioravante"
@@ -2448,13 +2453,13 @@
 	stewardship=15
 	intrigue=10
 	learning=8
-	2296.1.1={
+	310.1.1={
 		birth=yes
 	}
 	2354.1.1={
 		death=yes
 	}
-	#former ruler of Rio Pardo
+	#ruler of Santa Cruz do Sul and Rio pardo
 }
 280027={
 	name="Adelar"
@@ -2476,7 +2481,7 @@
 	2400.1.1={
 		death=yes
 	}
-	#duke of vale do rio pardo holder of Santa Cruz do Sul and Camaquã
+	
 }
 280028={
 	name="Honeyde"
@@ -2499,7 +2504,6 @@
 	2400.1.1={
 		death=yes
 	}
-	#holder of rio pardo
 }
 280029={
 	name="Walmor"
@@ -2524,7 +2528,6 @@
 	2400.1.1={
 		death=yes
 	}
-	#holder of cachoeira do sul
 }
 280030={
 	name="Doralice"
@@ -2551,25 +2554,39 @@
 	name="Lorenzo"
 	dynasty=95079 #Medici
 	culture=gaucho
-	religion=farrapo
+	religion=umbanda
+	dna="0f0h0000g00"
+	properties="ek000000000000000000000000000000000"
 	trait=skilled_tactician
 	trait=paranoid
 	trait=diligent
 	trait=cruel
 	trait=wroth
+	trait=ambitious
 	2315.1.1={
 		birth=yes
 	}
-	2400.1.1={
-		death=yes
+	2334.1.1={
+		add_spouse=280033 #takes a Castilho spouse triggering war between the families
 	}
-	#ruler of Bagé
+	2359.1.1={
+		effect={give_nickname = nick_duke_of_lead}#acquires after gaining control of Rio Grande do Sul
+	}
+	2365.1.1={
+		death={
+			death_reason= death_battle
+			killer = 300006
+		}
+	}
+	#ruler of Bagé, Rosário do Sul, São Gabriel and Sasnt'Ana do Livramento, 
+	#originally Duke of Campanha and later King of Rio Grande do Sul
+	#he also conquered Porto Alegre
 }
 280032={
 	name="Leonardo"
 	dynasty=95080 #Brizola
 	culture=gaucho
-	religion=vargist
+	religion=farrapo
 	trait=underhanded_rogue
 	trait=charitable
 	trait=socializer
@@ -2579,7 +2596,175 @@
 	2400.1.1={
 		death=yes
 	}
-	#duke of tapes, holds Jaguarão and Piratini
+	#holds Jaguarão and Piratini vassal of costa doce
+}
+280033={
+	name="Bianca"
+	dynasty=95037 #Castilhos
+	female=yes
+	father=280040
+	culture=gaucho
+	religion=farrapo
+	trait=quick
+	trait=kind
+	trait=stubborn
+	trait=content
+	trait=groomed
+	trait=naive_appeaser
+	2317.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#wife of Lorenzo Médici
+}
+280034={
+	name="Lúcia"
+	dynasty=95079 #Medici
+	female=yes
+	culture=gaucho
+	religion=umbanda
+	trait=fair
+	trait=lustful
+	trait=flamboyant_schemer
+	father=280031
+	mother=280033
+	2336.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#first daughter of Lorenzo
+}
+280035={
+	name="Pedro"
+	dynasty=95079 #Medici
+	dna="c0ihc0ccec0"
+	properties="qn0bfk00000000000000000000000000000"
+	culture=gaucho
+	religion=umbanda
+	trait=fortune_builder
+	trait=administrator
+	trait=cynical
+	trait=groomed
+	father=280031
+	mother=280033
+	2339.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#second son of Lorenzo, current ruler of Porto Alegre
+}
+280036={
+	name="Maria"
+	dynasty=95079 #Medici
+	female=yes
+	culture=gaucho
+	religion=umbanda
+	trait=thrifty_clerk
+	trait=diligent
+	trait=groomed
+	father=280031
+	mother=280033
+	2342.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#third daughter of Lorenzo
+}
+280037={
+	name="Giovanni"
+	dynasty=95079 #Medici
+	culture=gaucho
+	religion=umbanda
+	dna="cdcc00c0f00"
+	properties="0g00n000000000000000000000000000000"
+	trait=skilled_tactician
+	trait=patient
+	trait=zealous
+	trait=uncouth
+	trait=robust
+	father=280031
+	mother=280033
+	2345.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#fourth son of Lorenzo
+	#ruler of campanha, São Gabriel, Bagé, Santana do Livramento and Rosário do Sul
+}
+280038={
+	name="Luísa"
+	dynasty=95079 #Medici
+	culture=gaucho
+	religion=umbanda
+	female=yes
+	trait=naive_appeaser
+	trait=kind
+	trait=chaste
+	trait=groomed
+	trait=shy
+	father=280031
+	mother=280033
+	2349.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#fifth daughter of Lorenzo
+}
+280039={
+	name="Ana"
+	dynasty=95079 #Medici
+	culture=gaucho
+	religion=umbanda
+	female=yes
+	trait=scholarly_theologian
+	trait=patient
+	trait=sympathy_old_world
+	father=280031
+	mother=280033
+	2352.1.1={birth=yes}
+	2400.1.1={death=yes}
+	#sisxth daughter of Lorenzo
+}
+280040={
+	name="Jonas"
+	dynasty=95037 #Castilhos
+	culture=gaucho
+	religion=farrapo
+	trait=tough_soldier
+	2269.1.1={birth=yes}
+	2321.1.1={death=yes}
+	#oldest Castilho
+}
+280041={
+	name="Luís"
+	dynasty=95082 #da Esperança
+	culture=gaucho
+	religion=farrapo
+	trait=brilliant_strategist
+	dna="00eh000a000"
+	properties="0i0bmk00000000000000000000000000000"
+	trait=trickster
+	trait=organizer
+	trait=charitable
+	trait=envious
+	trait=ambitious
+	2338.1.1={
+		birth=yes
+	}
+	2360.1.1={add_spouse=280042 effect={add_lover=280042}}
+	2400.1.1={death=yes}
+	#duke of Missões owns Santo Angelo, São Miguel das MIssões and São Luis Gonzaga
+}
+280042={
+	name="Frida"
+	dynasty=0
+	culture=hunsruckisch
+	religion=farrapo
+	trait=intricate_webweaver
+	trait=deceitful
+	trait=diligent
+	trait=erudite
+	2340.1.1={birth=yes}
+	2400.1.1={death=yes}
+}
+280043={
+	name="Ana"
+	dynasty=95082
+	culture=gaucho
+	religion=farrapo
+	father=280041
+	mother=280042
+	female=yes
+	2365.1.1={birth=yes}
+	2400.1.1={death=yes}
 }
 290001={
 	name="Cecília"
@@ -2745,9 +2930,9 @@
 }
 300001={
 	name="Paulo"
-	dynasty=105001 #taurus
+	dynasty=105001 #Taurer
 	culture=talian
-	religion=celeste
+	religion=evangelical
 	trait=charismatic_negotiator
 	trait=strong
 	trait=diligent
@@ -2756,6 +2941,7 @@
 	trait=arbitrary
 	trait=ambitious
 	trait=gregarious
+	trait=branch_non_sectarian
 	diplomacy=12
 	martial=9
 	stewardship=8
@@ -2770,13 +2956,12 @@
 }
 300002={
 	name="Bárbara"
-	dynasty=100001 #Muller
+	dynasty=105500 #Rossi
 	female=yes
 	culture=hunsruckisch
-	religion=evangelical
+	religion=celeste
 	trait=scholarly_theologian
 	trait=fair
-	trait=branch_non_sectarian
 	trait=zealous
 	trait=stubborn
 	trait=proud
@@ -2792,9 +2977,9 @@
 }
 300003={
 	name="Vinicius"
-	dynasty=105001 #taurus
+	dynasty=105004 #taurus
 	culture=talian
-	religion=celeste
+	religion=evangelical
 	father=300001
 	mother=300002
 	trait=skilled_tactician
@@ -2803,6 +2988,7 @@
 	trait=just
 	trait=charitable
 	trait=wroth
+	trait=branch_lutheran
 	diplomacy=3
 	martial=12
 	stewardship=10
@@ -2814,9 +3000,9 @@
 }
 300004={
 	name="Matheus"
-	dynasty=105001 #taurus
+	dynasty=105004 #taurus
 	culture=hunsruckisch
-	religion=evangelical
+	religion=celeste
 	father=300001
 	mother=300002
 	trait=mastermind_theologian
@@ -2833,7 +3019,7 @@
 	learning=9
 	2348.1.1={birth=yes}
 	2400.1.1={death=yes}
-	#Youngest son of Paulo, Duke of Alto Uruguai, owns Passo Fundo, Carazinho
+	#Youngest son of Paulo, Duke of Alto Uruguai, owns Palmeira das Missões, Carazinho
 }
 300005={
 	name="Fernando"
@@ -2851,11 +3037,11 @@
 	learning=6
 	2332.1.1={birth=yes}
 	2400.1.1={death=yes}
-	#count-tier vassal of the Duchy of Alto Uruguai, owns Erechim and Palmeira das Missões
+	#count-tier vassal of the Duchy of Alto Uruguai, owns Erechim and Passo Fundo
 }
 300006={
 	name="Sophie"
-	dynasty=105001 #taurus
+	dynasty=105004 #taurus
 	culture=talian
 	religion=mucker
 	female=yes

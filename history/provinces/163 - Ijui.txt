@@ -6,7 +6,7 @@ title = c_ijui
 # Settlements
 max_settlements = 2
 
-b_ijui = tribal
+b_ijui = castle
 #b_panambi = city
 #b_augusto_pestana = temple
 #b_porongas = castle
@@ -16,6 +16,6 @@ b_ijui = tribal
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = celeste
 
 #History

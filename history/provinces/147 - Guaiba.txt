@@ -16,6 +16,6 @@ b_eldorado_do_sul = temple
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = umbanda
 
 #History

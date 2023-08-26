@@ -1,0 +1,411 @@
+##ÄNSI
+
+#Canon
+
+####################
+####Random sergipano Surnames
+####Based on all governors of Bahia
+####Source: wikipedia
+####Range: 610000 - 25000
+####################
+
+610000={
+	name = "de Sousa"
+	religion = camdomble
+	culture = sergipano
+}
+610001={
+	name = "da Costa"
+	religion = camdomble
+	culture = sergipano
+}
+610002={
+	name = "de Sá"
+	religion = camdomble
+	culture = sergipano
+}
+610003={
+	name = "Brito e Almeida"
+	religion = camdomble
+	culture = sergipano
+}
+610004={
+	name = "da Veiga"
+	religion = camdomble
+	culture = sergipano
+}
+610005={
+	name = "Barreiros"
+	religion = camdomble
+	culture = sergipano
+}
+610006={
+	name = "Teles"
+	religion = camdomble
+	culture = sergipano
+}
+610007={
+	name = "Barreto"
+	religion = camdomble
+	culture = sergipano
+}
+610008={
+	name = "de Barros"
+	religion = camdomble
+	culture = sergipano
+}
+610009={
+	name = "de Botelho"
+	religion = camdomble
+	culture = sergipano
+}
+610010={
+	name = "Menezes"
+	religion = camdomble
+	culture = sergipano
+}
+610011={
+	name = "Furtado"
+	religion = camdomble
+	culture = sergipano
+}
+610012={
+	name = "Mendonça"
+	religion = camdomble
+	culture = sergipano
+}
+610013={
+	name = "Abluquerque"
+	religion = camdomble
+	culture = sergipano
+}
+610014={
+	name = "Rolim"
+	religion = camdomble
+	culture = sergipano
+}
+610015={
+	name = "Oliveira"
+	religion = camdomble
+	culture = sergipano
+}
+610016={
+	name = "Mascarenhas"
+	religion = camdomble
+	culture = sergipano
+}
+610017={
+	name = "Bezerra"
+	religion = camdomble
+	culture = sergipano
+}
+610018={
+	name = "Sampaio"
+	religion = camdomble
+	culture = sergipano
+}
+610019={
+	name = "Ataíde"
+	religion = camdomble
+	culture = sergipano
+}
+610020={
+	name = "Freire"
+	religion = camdomble
+	culture = sergipano
+}
+610021={
+	name = "Guedes"
+	religion = camdomble
+	culture = sergipano
+}
+610022={
+	name = "da Cunha"
+	religion = camdomble
+	culture = sergipano
+}
+610023={
+	name = "Sotomaior"
+	religion = camdomble
+	culture = sergipano
+}
+610024={
+	name = "Coutinho"
+	religion = camdomble
+	culture = sergipano
+}
+610025={
+	name = "Lencastre"
+	religion = camdomble
+	culture = sergipano
+}
+610026={
+	name = "Almada"
+	religion = camdomble
+	culture = sergipano
+}
+610027={
+	name = "Vasconcelos"
+	religion = camdomble
+	culture = sergipano
+}
+610028={
+	name = "Noronha"
+	religion = camdomble
+	culture = sergipano
+}
+610029={
+	name = "de Faro"
+	religion = camdomble
+	culture = sergipano
+}
+610030={
+	name = "Figueiredo"
+	religion = camdomble
+	culture = sergipano
+}
+610031={
+	name = "Fernandes"
+	religion = camdomble
+	culture = sergipano
+}
+610032={
+	name = "de Melo"
+	religion = camdomble
+	culture = sergipano
+}
+610033={
+	name = "Castro"
+	religion = camdomble
+	culture = sergipano
+}
+610034={
+	name = "Peregrino"
+	religion = camdomble
+	culture = sergipano
+}
+610035={
+	name = "de Matos"
+	religion = camdomble
+	culture = sergipano
+}
+610036={
+	name = "Portugal"
+	religion = camdomble
+	culture = sergipano
+}
+610037={
+	name = "de Andrada"
+	religion = camdomble
+	culture = sergipano
+}
+610038={
+	name = "Alvim"
+	religion = camdomble
+	culture = sergipano
+}
+610039={
+	name = "da Gama"
+	religion = camdomble
+	culture = sergipano
+}
+610030={
+	name = "Calmon"
+	religion = camdomble
+	culture = sergipano
+}
+610031={
+	name = "Viana"
+	religion = camdomble
+	culture = sergipano
+}
+610032={
+	name = "Vicente"
+	religion = camdomble
+	culture = sergipano
+}
+610033={
+	name = "Maciel"
+	religion = camdomble
+	culture = sergipano
+}
+610034={
+	name = "Gordilho"
+	religion = camdomble
+	culture = sergipano
+}
+610035={
+	name = "Bastos"
+	religion = camdomble
+	culture = sergipano
+}
+610036={
+	name = "Martins"
+	religion = camdomble
+	culture = sergipano
+}
+610037={
+	name = "Paraíso"
+	religion = camdomble
+	culture = sergipano
+}
+610038={
+	name = "Pedroso"
+	religion = camdomble
+	culture = sergipano
+}
+610039={
+	name = "Rego"
+	religion = camdomble
+	culture = sergipano
+}
+610040={
+	name = "de Andréa"
+	religion = camdomble
+	culture = sergipano
+}
+610041={
+	name = "Azevedo"
+	religion = camdomble
+	culture = sergipano
+}
+610042={
+	name = "Serra"
+	religion = camdomble
+	culture = sergipano
+}
+610043={
+	name = "Gonçalves"
+	religion = camdomble
+	culture = sergipano
+}
+610044={
+	name = "Wanderley"
+	religion = camdomble
+	culture = sergipano
+}
+610045={
+	name = "de Sinimbu"
+	religion = camdomble
+	culture = sergipano
+}
+610046={
+	name = "Paes"
+	religion = camdomble
+	culture = sergipano
+}
+610047={
+	name = "Pena"
+	religion = camdomble
+	culture = sergipano
+}
+610048={
+	name = "Ferreira"
+	religion = camdomble
+	culture = sergipano
+}
+610049={
+	name = "Pinto"
+	religion = camdomble
+	culture = sergipano
+}
+610050={
+	name = "Leão"
+	religion = camdomble
+	culture = sergipano
+}
+610051={
+	name = "Gomes"
+	religion = camdomble
+	culture = sergipano
+}
+610052={
+	name = "Dantas"
+	religion = camdomble
+	culture = sergipano
+}
+610053={
+	name = "Azambuja"
+	religion = camdomble
+	culture = sergipano
+}
+610054={
+	name = "da Rocha"
+	religion = camdomble
+	culture = sergipano
+}
+610055={
+	name = "Couto"
+	religion = camdomble
+	culture = sergipano
+}
+610056={
+	name = "de Araújo"
+	religion = camdomble
+	culture = sergipano
+}
+610057={
+	name = "Portella"
+	religion = camdomble
+	culture = sergipano
+}
+610058={
+	name = "Machado"
+	religion = camdomble
+	culture = sergipano
+}
+610059={
+	name = "Lisboa"
+	religion = camdomble
+	culture = sergipano
+}
+610060={
+	name = "Nunes"
+	religion = camdomble
+	culture = sergipano
+}
+610061={
+	name = "Lucena"
+	religion = camdomble
+	culture = sergipano
+}
+610062={
+	name = "Bulcão"
+	religion = camdomble
+	culture = sergipano
+}
+610063={
+	name = "Lustosa"
+	religion = camdomble
+	culture = sergipano
+}
+610064={
+	name = "Chaves"
+	religion = camdomble
+	culture = sergipano
+}
+610065={
+	name = "Pimentel"
+	religion = camdomble
+	culture = sergipano
+}
+610066={
+	name = "Damásio"
+	religion = camdomble
+	culture = sergipano
+}
+610067={
+	name = "Vitorino"
+	religion = camdomble
+	culture = sergipano
+}
+610068={
+	name = "Neiva"
+	religion = camdomble
+	culture = sergipano
+}
+610069={
+	name = "Seabra"
+	religion = camdomble
+	culture = sergipano
+}

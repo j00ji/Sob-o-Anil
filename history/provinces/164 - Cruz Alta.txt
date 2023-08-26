@@ -6,7 +6,7 @@ title = c_cruz_alta
 # Settlements
 max_settlements = 3
 
-b_cruz_alta = tribal
+b_cruz_alta = castle
 #b_tupancireta = city
 #b_julio_de_castilhos = temple
 #b_ibiruba = castle
@@ -16,6 +16,6 @@ b_cruz_alta = tribal
 
 # Misc
 culture = hunsruckisch
-religion = evangelical
+religion = celeste
 
 #History

@@ -16,6 +16,6 @@ b_mostardas = tribal
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = umbanda
 
 #History

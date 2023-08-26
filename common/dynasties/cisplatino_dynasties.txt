@@ -1401,7 +1401,7 @@
 }
 95071=
 {
-	name="Vargas"
+	name="Dornelles"
 	culture=gaucho
 	can_appear = no
 	used_for_random = no
@@ -1498,6 +1498,17 @@
 	culture=gaucho
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 95079=
 {
@@ -1537,10 +1548,39 @@
 }
 95081=
 {
-	name="Canabarro"
+	name="da Gama"
 	culture=gaucho
-	can_appear=no
-	used_for_random=no
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+95082=
+{
+	name="da Esperança"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 100001=
 {
@@ -1879,8 +1919,8 @@
 
 105001=
 {
-	name="Taurus"
-	culture= talian
+	name="Taurer"
+	culture= hunsruckischsali
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1920,6 +1960,24 @@
 		}
 	}
 }
+105004=
+{
+	name="Taurer-Rossi"
+	culture= talian
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 ####################
 ##Random dynasties
 ##Based on Venetian surnames
@@ -1929,6 +1987,19 @@
 105500={
 	name="Rossi"
 	culture=talian
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 105501={
 	name="Boscolo"

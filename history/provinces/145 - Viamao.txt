@@ -16,6 +16,6 @@ b_santo_antonio_da_patrulha = city
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = umbanda
 
 #History

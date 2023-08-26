@@ -16,6 +16,6 @@ b_farroupilha = temple
 
 # Misc
 culture = talian
-religion = celeste
+religion = evangelical
 
 #History

@@ -2334,7 +2334,70 @@ northeastern_native = {
 				
 		modifier = default_culture_modifier
 	}
-	
+	pataxo = {
+		graphical_cultures = { mesoamericangfx }
+		
+		color = { 0.9 0.7 0.75 }
+		
+		male_names = {
+			Abraão Alair Alan Aldo Anistávio Antonio Antúlio Araci Augusto
+			Babal Bruno
+			Câmara Carlos Cauê Célio Clodoaldo Cussy
+			Daniel Danilo David Dioclécio Djalma Dorian Duda
+			Edilson Edson Eider Ernesto Eugênio
+			Fábio Fernando Filipe Francisco
+			Gabriel Gaspar Genildo Geraldo Gerson Gileno Gustavo
+			Heitor Henrique Herberth Hugo
+			Iberê Igor Isak Ivan
+			Jaci Jadson Jessé Joan João "João Galvão" "João Maria" "João Paulo" José "José Luiz" Jussier Juracy
+			Kelps Kerginaldo Kiko
+			Leon Leopoldo Lourival Luciano Luíz "Luíz Ignácio"
+			Manuel Marcelo Márcio Marcos Marina Matheus Matuzalém Miguel Moacir Mução Murilo
+			Newton Ney Nilo Nivaldo
+			Omar Oscar
+			Patrício Paulo Pedro
+			Raimundo Ranielle Raul Reginaldo Renan Ricardo Richardson Richarlyson Roberto Rodolfo Rodrigo Rodrigues Romário Ronny Rostand
+			Sandro Silvio Severino
+			Tadeu Thiago Tobias
+			Uziel
+			Vicente
+			Wagner Walter William Wober
+			Zorobabé
+		}
+		
+		female_names = {
+			Adelaide Amanda Ana Anadil Augusta
+			Beatrice
+			Candinha Carla Cecília Celina Clara Cláudia
+			Danila
+			Eudiane
+			Fernanda Francisca
+			Gracinda
+			Joana Judite Júlia
+			Larissa Lígia Liz
+			Maria Marina
+			Natália
+			Rosa Rosinha
+			SaudadeMargarete
+			Thalita
+			Valéria Virna
+		}
+		
+		from_dynasty_prefix = " "
+		male_patronym = " "
+		female_patronym = " "
+		#grammar_transform =
+
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+				
+		modifier = default_culture_modifier
+	}
 }
 
 meio_norte = {

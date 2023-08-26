@@ -16,6 +16,6 @@ b_canoinhas = temple
 
 # Misc
 culture = hunsruckisch
-religion = evangelical
+religion = anchietican
 
 #History

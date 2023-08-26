@@ -8,5 +8,5 @@
 }
 2364.1.1={
 	holder=280002
-	liege=d_porto_alegre
+	liege=k_serra_gaucha
 }

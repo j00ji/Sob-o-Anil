@@ -16,6 +16,6 @@ b_rio_grande = tribal
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = umbanda
 
 #History

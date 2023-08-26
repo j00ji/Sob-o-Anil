@@ -2,6 +2,7 @@
 	liege=k_rio_grande_do_sul
 }
 2355.1.1={
+	historical_nomad=yes
 	holder=290011
 	liege=d_coxilhas
 }

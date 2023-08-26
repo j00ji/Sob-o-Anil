@@ -93,6 +93,18 @@ e_the_south = {
 				b_capivari_do_sul = {}
 				b_miraguaia = {}
 			}
+			c_novo_hamburgo = { # 146
+				color={ 65 159 240 }
+				color2={ 255 255 255 }
+				
+				b_novo_hamburgo = {}
+				b_sapiranga = {}
+				b_estancia_velha = {}
+				b_nova_hartz = {}
+				b_parobe = {}
+				b_taquara = {}
+				b_morro_reuter = {}
+			}
 		}
 		d_alto_uruguai = {
 			color={ 242 30 18 }
@@ -238,18 +250,6 @@ e_the_south = {
 				b_campestre_da_serra = {}
 				b_lagoa_vermelha = {}
 				b_muitos_capoes = {}
-			}
-			c_novo_hamburgo = { # 146
-				color={ 65 159 240 }
-				color2={ 255 255 255 }
-				
-				b_novo_hamburgo = {}
-				b_sapiranga = {}
-				b_estancia_velha = {}
-				b_nova_hartz = {}
-				b_parobe = {}
-				b_taquara = {}
-				b_morro_reuter = {}
 			}
 		}
 		d_boca_do_monte = {

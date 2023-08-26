@@ -16,6 +16,6 @@ b_estancia_velha = temple
 
 # Misc
 culture = hunsruckisch
-religion = evangelical
+religion = mucker
 
 #History

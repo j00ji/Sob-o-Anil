@@ -16,6 +16,6 @@ b_pedras_altas = tribal
 
 # Misc
 culture = gaucho
-religion = farrapo
+religion = umbanda
 
 #History

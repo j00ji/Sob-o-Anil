@@ -15,7 +15,7 @@ b_pinhalzinho = temple
 #b_zandavalli = castle
 
 # Misc
-culture = greenbelly
+culture = talian
 religion = celeste
 
 #History

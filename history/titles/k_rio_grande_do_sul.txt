@@ -3,8 +3,9 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-
-
-2200.1.1={
-	active=no
+2360.1.1={
+	holder=280031
+}
+2365.1.1={
+	holder=0
 }

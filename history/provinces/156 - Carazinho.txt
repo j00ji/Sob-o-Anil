@@ -16,6 +16,6 @@ b_nao_me_toque = city
 
 # Misc
 culture = hunsruckisch
-religion = evangelical
+religion = celeste
 
 #History

@@ -1,0 +1,411 @@
+##ÄNSI
+
+#Canon
+
+####################
+####Random baiano Surnames
+####Based on all governors of Bahia
+####Source: wikipedia
+####Range: 600000 - 25000
+####################
+
+600000={
+	name = "de Sousa"
+	religion = camdomble
+	culture = baiano
+}
+600001={
+	name = "da Costa"
+	religion = camdomble
+	culture = baiano
+}
+600002={
+	name = "de Sá"
+	religion = camdomble
+	culture = baiano
+}
+600003={
+	name = "Brito e Almeida"
+	religion = camdomble
+	culture = baiano
+}
+600004={
+	name = "da Veiga"
+	religion = camdomble
+	culture = baiano
+}
+600005={
+	name = "Barreiros"
+	religion = camdomble
+	culture = baiano
+}
+600006={
+	name = "Teles"
+	religion = camdomble
+	culture = baiano
+}
+600007={
+	name = "Barreto"
+	religion = camdomble
+	culture = baiano
+}
+600008={
+	name = "de Barros"
+	religion = camdomble
+	culture = baiano
+}
+600009={
+	name = "de Botelho"
+	religion = camdomble
+	culture = baiano
+}
+600010={
+	name = "Menezes"
+	religion = camdomble
+	culture = baiano
+}
+600011={
+	name = "Furtado"
+	religion = camdomble
+	culture = baiano
+}
+600012={
+	name = "Mendonça"
+	religion = camdomble
+	culture = baiano
+}
+600013={
+	name = "Abluquerque"
+	religion = camdomble
+	culture = baiano
+}
+600014={
+	name = "Rolim"
+	religion = camdomble
+	culture = baiano
+}
+600015={
+	name = "Oliveira"
+	religion = camdomble
+	culture = baiano
+}
+600016={
+	name = "Mascarenhas"
+	religion = camdomble
+	culture = baiano
+}
+600017={
+	name = "Bezerra"
+	religion = camdomble
+	culture = baiano
+}
+600018={
+	name = "Sampaio"
+	religion = camdomble
+	culture = baiano
+}
+600019={
+	name = "Ataíde"
+	religion = camdomble
+	culture = baiano
+}
+600020={
+	name = "Freire"
+	religion = camdomble
+	culture = baiano
+}
+600021={
+	name = "Guedes"
+	religion = camdomble
+	culture = baiano
+}
+600022={
+	name = "da Cunha"
+	religion = camdomble
+	culture = baiano
+}
+600023={
+	name = "Sotomaior"
+	religion = camdomble
+	culture = baiano
+}
+600024={
+	name = "Coutinho"
+	religion = camdomble
+	culture = baiano
+}
+600025={
+	name = "Lencastre"
+	religion = camdomble
+	culture = baiano
+}
+600026={
+	name = "Almada"
+	religion = camdomble
+	culture = baiano
+}
+600027={
+	name = "Vasconcelos"
+	religion = camdomble
+	culture = baiano
+}
+600028={
+	name = "Noronha"
+	religion = camdomble
+	culture = baiano
+}
+600029={
+	name = "de Faro"
+	religion = camdomble
+	culture = baiano
+}
+600030={
+	name = "Figueiredo"
+	religion = camdomble
+	culture = baiano
+}
+600031={
+	name = "Fernandes"
+	religion = camdomble
+	culture = baiano
+}
+600032={
+	name = "de Melo"
+	religion = camdomble
+	culture = baiano
+}
+600033={
+	name = "Castro"
+	religion = camdomble
+	culture = baiano
+}
+600034={
+	name = "Peregrino"
+	religion = camdomble
+	culture = baiano
+}
+600035={
+	name = "de Matos"
+	religion = camdomble
+	culture = baiano
+}
+600036={
+	name = "Portugal"
+	religion = camdomble
+	culture = baiano
+}
+600037={
+	name = "de Andrada"
+	religion = camdomble
+	culture = baiano
+}
+600038={
+	name = "Alvim"
+	religion = camdomble
+	culture = baiano
+}
+600039={
+	name = "da Gama"
+	religion = camdomble
+	culture = baiano
+}
+600030={
+	name = "Calmon"
+	religion = camdomble
+	culture = baiano
+}
+600031={
+	name = "Viana"
+	religion = camdomble
+	culture = baiano
+}
+600032={
+	name = "Vicente"
+	religion = camdomble
+	culture = baiano
+}
+600033={
+	name = "Maciel"
+	religion = camdomble
+	culture = baiano
+}
+600034={
+	name = "Gordilho"
+	religion = camdomble
+	culture = baiano
+}
+600035={
+	name = "Bastos"
+	religion = camdomble
+	culture = baiano
+}
+600036={
+	name = "Martins"
+	religion = camdomble
+	culture = baiano
+}
+600037={
+	name = "Paraíso"
+	religion = camdomble
+	culture = baiano
+}
+600038={
+	name = "Pedroso"
+	religion = camdomble
+	culture = baiano
+}
+600039={
+	name = "Rego"
+	religion = camdomble
+	culture = baiano
+}
+600040={
+	name = "de Andréa"
+	religion = camdomble
+	culture = baiano
+}
+600041={
+	name = "Azevedo"
+	religion = camdomble
+	culture = baiano
+}
+600042={
+	name = "Serra"
+	religion = camdomble
+	culture = baiano
+}
+600043={
+	name = "Gonçalves"
+	religion = camdomble
+	culture = baiano
+}
+600044={
+	name = "Wanderley"
+	religion = camdomble
+	culture = baiano
+}
+600045={
+	name = "de Sinimbu"
+	religion = camdomble
+	culture = baiano
+}
+600046={
+	name = "Paes"
+	religion = camdomble
+	culture = baiano
+}
+600047={
+	name = "Pena"
+	religion = camdomble
+	culture = baiano
+}
+600048={
+	name = "Ferreira"
+	religion = camdomble
+	culture = baiano
+}
+600049={
+	name = "Pinto"
+	religion = camdomble
+	culture = baiano
+}
+600050={
+	name = "Leão"
+	religion = camdomble
+	culture = baiano
+}
+600051={
+	name = "Gomes"
+	religion = camdomble
+	culture = baiano
+}
+600052={
+	name = "Dantas"
+	religion = camdomble
+	culture = baiano
+}
+600053={
+	name = "Azambuja"
+	religion = camdomble
+	culture = baiano
+}
+600054={
+	name = "da Rocha"
+	religion = camdomble
+	culture = baiano
+}
+600055={
+	name = "Couto"
+	religion = camdomble
+	culture = baiano
+}
+600056={
+	name = "de Araújo"
+	religion = camdomble
+	culture = baiano
+}
+600057={
+	name = "Portella"
+	religion = camdomble
+	culture = baiano
+}
+600058={
+	name = "Machado"
+	religion = camdomble
+	culture = baiano
+}
+600059={
+	name = "Lisboa"
+	religion = camdomble
+	culture = baiano
+}
+600060={
+	name = "Nunes"
+	religion = camdomble
+	culture = baiano
+}
+600061={
+	name = "Lucena"
+	religion = camdomble
+	culture = baiano
+}
+600062={
+	name = "Bulcão"
+	religion = camdomble
+	culture = baiano
+}
+600063={
+	name = "Lustosa"
+	religion = camdomble
+	culture = baiano
+}
+600064={
+	name = "Chaves"
+	religion = camdomble
+	culture = baiano
+}
+600065={
+	name = "Pimentel"
+	religion = camdomble
+	culture = baiano
+}
+600066={
+	name = "Damásio"
+	religion = camdomble
+	culture = baiano
+}
+600067={
+	name = "Vitorino"
+	religion = camdomble
+	culture = baiano
+}
+600068={
+	name = "Neiva"
+	religion = camdomble
+	culture = baiano
+}
+600069={
+	name = "Seabra"
+	religion = camdomble
+	culture = baiano
+}

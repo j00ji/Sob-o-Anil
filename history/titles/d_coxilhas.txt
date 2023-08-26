@@ -3,4 +3,5 @@
 }
 2355.1.1={
 	holder=280008
+	historical_nomad=yes
 }

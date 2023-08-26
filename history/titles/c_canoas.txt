@@ -8,5 +8,5 @@
 }
 2355.1.1={
 	holder=280003
-	liege=d_porto_alegre
+	liege=k_serra_gaucha
 }

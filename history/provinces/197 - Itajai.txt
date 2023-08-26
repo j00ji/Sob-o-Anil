@@ -16,6 +16,6 @@ b_navegantes = temple
 
 # Misc
 culture = greenbelly
-religion = anchietican
+religion = evangelical
 
 #History

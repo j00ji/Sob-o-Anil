@@ -11,5 +11,5 @@
 	liege=k_serra_gaucha
 }
 2362.1.1={
-	holder=300004
+	holder=300005
 }

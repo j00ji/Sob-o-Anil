@@ -15,7 +15,7 @@ b_videira = temple
 #b_salto_veloso = castle
 
 # Misc
-culture = talian
+culture = hunsruckisch
 religion = celeste
 
 #History

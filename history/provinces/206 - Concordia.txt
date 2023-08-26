@@ -15,7 +15,7 @@ b_joacaba = temple
 #b_lindoia_do_sul = castle
 
 # Misc
-culture = hunsruckisch
-religion = evangelical
+culture = talian
+religion = celeste
 
 #History

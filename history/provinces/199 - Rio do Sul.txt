@@ -16,6 +16,6 @@ b_ituporanga = temple
 
 # Misc
 culture = hunsruckisch
-religion = evangelical
+religion = celeste
 
 #History
