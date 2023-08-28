@@ -16,6 +16,6 @@ b_guaratingueta = city
 
 # Misc
 culture = mantiqueiro
-religion = anchietican
+religion = renewalist
 
 #History

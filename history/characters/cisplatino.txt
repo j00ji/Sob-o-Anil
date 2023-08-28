@@ -382,7 +382,7 @@
 	2300.1.1={
 		death=yes
 	}
-	#Ruled an Apostolic realm in paranapanema, was deposed by an iconoclasts revolt
+	#Ruled an Apostolic realm in paranapanema, was deposed by an anchietican revolt
 }
 260018={
 	name="Sócrates"
@@ -444,7 +444,7 @@
 	name="Francisco"
 	dynasty=1400001 #Tanaka
 	culture=kyusei
-	religion=iconoclasts
+	religion=anchietican
 	trait=skilled_tactician
 	trait=dwarf
 	trait=patient
@@ -458,14 +458,14 @@
 	2325.1.1={
 		death=yes
 	}
-	#Lead the Iconoclasts revolt in Paranapanema, deposing its former ruler at a young age in around 2285
+	#Lead the anchietican revolt in Paranapanema, deposing its former ruler at a young age in around 2285
 }
 260022={
 	name="Ulisses"
 	dynasty=1400001 #Tanaka
 	culture=kyusei
 	father=260021
-	religion=iconoclasts
+	religion=anchietican
 	trait=thrifty_clerk
 	trait=temperate
 	trait=humble
@@ -483,7 +483,7 @@
 	dynasty=1400001 #Tanaka
 	culture=kyusei
 	father=260022
-	religion=iconoclasts
+	religion=anchietican
 	trait=misguided_warrior
 	trait=erudite
 	trait=brave
@@ -515,7 +515,7 @@
 	dynasty=1400001 #Tanaka
 	culture=kyusei
 	father=260022
-	religion=iconoclasts
+	religion=anchietican
 	female=yes
 	trait=underhanded_rogue
 	trait=groomed
@@ -563,7 +563,7 @@
 	dynasty=110008 #stetiski
 	female=yes
 	culture=paranaense
-	religion=iconoclasts
+	religion=anchietican
 	secret_religion=apostolic #amongst the last Apostolics of paranapanema
 	trait=brilliant_strategist
 	trait=robust
@@ -588,7 +588,7 @@
 	dynasty=75002 #Pennafiel
 	trait=flamboyant_schemer
 	culture=paranapanense
-	religion=iconoclasts
+	religion=anchietican
 	trait=impaler
 	trait=cruel
 	trait=diligent
@@ -605,7 +605,7 @@
 	dynasty=1400001 #Tanaka
 	female=yes
 	culture=kyusei
-	religion=iconoclasts
+	religion=anchietican
 	father=260023
 	mother=260025
 	2369.1.1={

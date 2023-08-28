@@ -16,6 +16,6 @@ b_barra_do_pirai = temple
 
 # Misc
 culture = mantiqueiro
-religion = apostolic
+religion = renewalist
 
 #History

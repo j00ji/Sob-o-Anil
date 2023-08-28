@@ -9,8 +9,9 @@
 	#Founder of the Nortons, Count of Americana
 	dynasty = 60001 #Norton
 	dna = biaf00ic0f0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	
 	2103.4.8 = {birth = yes}
 	2165.6.29 = {death = yes}
@@ -39,8 +40,9 @@
 	#Albert, Count of Americana. Grandson of Oliver
 	dynasty = 60001
 	dna = cgbcb0d00d0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120002
 	
 	
@@ -63,8 +65,9 @@
 	#Leonard, Count of Americana
 	dynasty = 60001
 	dna = aefed0d00c0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120003
 	
 	
@@ -84,8 +87,9 @@
 	name = "David"
 	dynasty = 60001
 	dna = cdee00cb0b0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120003
 	
 	
@@ -103,8 +107,9 @@
 	female = yes
 	dynasty = 60001
 	dna = cfcfb0ca0c0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120003
 
 	
@@ -120,8 +125,9 @@
 	#Count of Americana, son of Leonard
 	dynasty = 60001
 	dna = bd0bf0bc0e0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120004
 	
 	
@@ -139,8 +145,9 @@
 	female = yes
 	dynasty = 60001
 	dna = bhbch0ga0c0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120004
 	
 	2195.1.18 = {birth = yes}
@@ -155,8 +162,9 @@
 	#Count of Americana, conquered via claim
 	dynasty = 60001
 	dna = cbaci0ccac0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120005
 	
 	
@@ -174,8 +182,9 @@
 	female = yes
 	dynasty = 60001
 	dna = cbhf00ab0e0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120005
 	
 	
@@ -193,8 +202,9 @@
 	#Count of Mogi-Guaçu
 	dynasty = 60001
 	dna = 0ffia0ea0d0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120002
 	
 	
@@ -210,8 +220,9 @@
 	#Count of Mogi-Guaçu
 	dynasty = 60001
 	dna = be0ae0a0ef0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120011
 	
 	
@@ -227,8 +238,9 @@
 	female = yes
 	dynasty = 60001
 	dna = bf0cg00cgf0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120011
 	
 	
@@ -243,8 +255,9 @@
 	name = "Everton"
 	dynasty = 60001
 	dna = bdiff0bbef0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120011
 	
 	
@@ -262,8 +275,9 @@
 	dynasty = 60001
 	dna = cea0b0hcjd0
 	properties = bc0jah00000
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120012 
 	
 	disallow_random_traits = yes
@@ -293,8 +307,9 @@
 	female = yes
 	dynasty = 60001 
 	dna = 0ebgf0ebjd0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120012
 	
 	
@@ -310,8 +325,9 @@
 	female = yes
 	dynasty = 60001
 	dna = ag0gf0icjd0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120012
 	
 	
@@ -330,8 +346,9 @@
 	dynasty = 60001
 	dna = chd0e0hcjd0
 	properties = vd0enb00000
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120015 
 	
 	disallow_random_traits = yes
@@ -363,8 +380,9 @@
 	dynasty = 60001
 	dna = 0hd0g0dbjd0
 	properties = vd0edb00000
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120018
 	
 	disallow_random_traits = yes
@@ -402,8 +420,9 @@
 	name = "Edmund"
 	dynasty = 60001
 	dna = aiiea0bajd0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120018
 	
 	
@@ -419,8 +438,9 @@
 	female = yes
 	dynasty = 60001
 	dna = aheii0hcje0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120018
 	
 	
@@ -436,8 +456,9 @@
 	female = yes
 	dynasty = 60001
 	dna = 0cgbb0hbje0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120018
 	
 	
@@ -458,8 +479,9 @@
 	dynasty = 60001
 	dna = 0cd0b0cbjd0
 	properties = ab0efa00000
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120019
 	
 	disallow_random_traits = yes
@@ -493,8 +515,9 @@
 	dynasty = 60001
 	dna = 0cfab0abjd0
 	properties = aa0ica00000
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120019
 	
 	disallow_random_traits = yes
@@ -529,8 +552,9 @@
 	dynasty = 60001
 	dna = 0gfa00dbjd0
 	properties = og0d0b00000
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120019
 	
 	disallow_random_traits = yes
@@ -567,8 +591,9 @@
 	female = yes
 	dynasty = 60001
 	dna = aiaec0caje0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120020
 	
 	
@@ -586,8 +611,9 @@
 	#Damian, Count of Mogi-Guaçu
 	dynasty = 60001
 	dna = acacf0fbjf0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120015
 	
 	
@@ -603,8 +629,9 @@
 	female = yes
 	dynasty = 60001
 	dna = cabbh0hajf0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120027
 	
 	
@@ -617,8 +644,9 @@
 	#Count of Mogi-Guaçu
 	dynasty = 60001
 	dna = 0ieai0hbjf0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120027
 	
 	
@@ -635,8 +663,9 @@
 	dynasty = 60001
 	dna = agg0h0c0jf0
 	properties = nc0ehb00000
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120029
 	mother = 120022
 	disallow_random_traits = yes
@@ -671,8 +700,9 @@
 	female = yes
 	dynasty = 60001
 	dna = bcibh0ebjf0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120030
 	
 	
@@ -701,8 +731,9 @@
 	female = yes
 	dynasty = 60001
 	dna = cced00eajf0
-	religion = anchietican
+	religion = evangelical
 	culture = americano
+	add_trait = branch_baptist
 	father = 120032 
 	
 	
@@ -11721,7 +11752,7 @@
 		birth = yes
 	}
 	2126.12.10 = {
-		religion = iconoclasts
+		religion = anchietican
 	}
 	2171.12.26 = {
 		death = yes
@@ -11731,7 +11762,7 @@
 110675 = {
 	name = "Luiz"
 	dynasty = 55042 #Sguassabia
-	religion = iconoclasts
+	religion = anchietican
 	culture = paulistano
 	father = 110674
 	
@@ -11757,7 +11788,7 @@
 110676 = {
 	name = "Benedito"
 	dynasty = 75003 #santoro
-	religion = iconoclasts
+	religion = anchietican
 	culture = paranapanense
 	
 	trait = misguided_warrior
@@ -11781,7 +11812,7 @@
 110677 = {
 	name = "Giovani"
 	dynasty = 65959 #Rocha
-	religion = iconoclasts
+	religion = anchietican
 	culture = paranapanense
 	
 	trait = thrifty_clerk

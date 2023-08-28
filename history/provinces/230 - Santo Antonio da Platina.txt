@@ -16,6 +16,6 @@ b_santo_antonio_da_platina = castle
 
 # Misc
 culture = paranapanense
-religion = iconoclasts
+religion = anchietican
 
 #History

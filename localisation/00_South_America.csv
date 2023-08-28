@@ -19,6 +19,9 @@ apostolic;Apostolic;;;;;;;;;;;;;x
 apostolic_DESC;The Brazilian Catholic Apostolic Church split from mainstream Catholicism long before the Event over disputes regarding divorce, anti-fascism, and clerical celibacy. Bishops are elected by popular vote, as is the president. Apostolics are also known for their relative religious tolerance of other Christian faiths and even other religions.;;;;;;;;;;;;;x
 anchietican;Aparecidan;;;;;;;;;;;;;x
 anchietican_DESC;Aparecidans are heirs to the Catholic Church in Brazil, the predominant religion of the country for much of its history. Initially uniting under the Patriarch of South America and the Particularists, controversies surrounding the the Particularists openly sanctioning certain folk practices and disputes regarding the very existance of the Patriarchy led to many Brazilian bishops officially repudiating the authority of the Patriarch during the Council of Aparecida. Now effectively self-governing, Aparecidans claim to adhere more closely to the ancient traditions of the Catholic Church while still having influences from their own Brazilian folk traditions.;;;;;;;;;;;;;x
+renewalist;Renewalist;;;;;;;;;;;;;x
+renewalist_DESC;Inspired by pre-event teachings, Renewalists are staunch believers in the values of the so-called 'Charismatic Renewal', such as great musical celebrations and the presence of spiritual gifts, also called charismas, as well as the belief that Layman should have a bigger role in Church life through dedication to the Pastorais. Their customs have placed them at odds with other Catholics, with many of their practices being denounced as heretic and syncretic in nature, and Renewalists in turn decrying the rest of the clergy for abandoning the values of the so-called 'Ancestral Church' and claiming to be the real successors of the Church.;;;;;;;;;;;;;x
+renewalist_FEATURES;§Y*§! Renewalists might go on vision quests, Adorations of the Holy Spirit. \n§Y*§! Renewalists characters must join one of the Pastorais.;;;;;;;;;;;;;;
 iconoclasts;Iconoclast;;;;;;;;;;;;;x
 iconoclasts_DESC;Iconoclasts represent a reaction against what they perceive as idolatry within both the Particularists and Anchietans. Issues of folk traditions and canonization of local saints split the Anchietans from the Particularists, but the Iconoclasts claim that the Anchietans are still in error for their widespread acceptance of certain folk traditions that have "pagan origins". Iconoclasts view any form of syncretism as abomination, destroying it where they can, and they await their vindication with the return of contact with Rome.;;;;;;;;;;;;;x
 peterite;Peterite;;;;;;;;;;;;;x
@@ -158,6 +161,8 @@ rastafarian_DESC;Rastafari is a religion originating in Jamaica, inspired by bot
 rastafarian_FEATURES;§Y*§! May go on vision quests with the aid of sacramental herbs.\n§Y*§! May join Bobo Ashanti or the Twelve Tribes of Israel via a targeted decision.;;;;;;;;;;;;;x
 archipelagic;Archipelagic;;;;;;;;;;;;;x
 archipelagic_DESC;Within the Communities of the Archipelagic Rites, exists an uneasy truce. The populace and the clergy are Particularists, loyal to the Patriarca. Despite this - and the warnings of heresy from the Particularist priests, the peasantry are known to seek the services of the Brujos, men of magic, who command fear and respect from the common folk. In exchange for wealth, sheep or family members, the Brujos perform their supernatural rituals.;;;;;;;;;;;;;x
+jehovah;Jehovah’s Witness;;;;;;;;;;;;;x
+jehovah_desc;Based on the teachings of the Bible Student movement and the apocalyptic legacy of the Millerites, the Jehovah's Witnesses are a millenarian nontrinitarian Protestant denomination that spread to South American from the north. They believe that Armageddon is imminent, and the establishment of God's kingdom over earth is the only solution for all problems faced by humanity. Jehovah's Witnesses are known for their door-to-door preaching, and they have a small presence in almost every corner of the known world. Jehovah’s Witnesses reject trinitarianism, inherent immortality of the soul, and hellfire, which they consider to be unscriptural doctrines. They do not observe Christmas, Easter, birthdays or other holidays and customs they consider to have pagan origins incompatible with Biblical scripture. Jehovah's Witnesses consider human society to be morally corrupt and under the influence of Satan, and as a result, they shun interaction with non-Witnesses and politics in general. Since the Deluge, the Jehovah’s Witnesses have become accepting of participation in politics, albeit in line with their their own theocratic beliefs, to establish God's kingdom over the Earth. ;;;;;;;;;;;;;x
 
 ###FORM OF ADDRESS;;;;;;;;;;;;;;
 PATRIARCH;Patriarch;;;;;;;;;;;;;x
@@ -399,6 +404,7 @@ PARTENON_LITERARIO;Partenon Literario;;;;;;;;;;;;;x
 PAYADOR;Payador;;;;;;;;;;;;;x
 PHILOSOPHIE_ZOOLOGIQUE;Philosophie Zoologique;;;;;;;;;;;;;x
 PURITY;Purity;;;;;;;;;;;;;x
+CHARISMA;Charisma;;;;;;;;;;;;;x
 SATAN;Satan;;;;;;;;;;;;;x
 SCIENTIST;Scientist;;;;;;;;;;;;;x
 SHAMAN;Shaman;;;;;;;;;;;;;x
@@ -610,6 +616,7 @@ GOD_GOOD_MASTERS;The Good Masters;;;;;;;;;;;;;x
 TRAUCO;El Trauco;;;;;;;;;;;;;x
 FIURA;La Fiura;;;;;;;;;;;;;x
 CURA;Cura;;;;;;;;;;;;;x
+THE_WORLD;The World;;;;;;;;;;;;;x
 
 manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
 manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x
