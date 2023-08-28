@@ -161,8 +161,8 @@ rastafarian_DESC;Rastafari is a religion originating in Jamaica, inspired by bot
 rastafarian_FEATURES;§Y*§! May go on vision quests with the aid of sacramental herbs.\n§Y*§! May join Bobo Ashanti or the Twelve Tribes of Israel via a targeted decision.;;;;;;;;;;;;;x
 archipelagic;Archipelagic;;;;;;;;;;;;;x
 archipelagic_DESC;Within the Communities of the Archipelagic Rites, exists an uneasy truce. The populace and the clergy are Particularists, loyal to the Patriarca. Despite this - and the warnings of heresy from the Particularist priests, the peasantry are known to seek the services of the Brujos, men of magic, who command fear and respect from the common folk. In exchange for wealth, sheep or family members, the Brujos perform their supernatural rituals.;;;;;;;;;;;;;x
-jehovah;Jehovah’s Witness;;;;;;;;;;;;;x
-jehovah_desc;Based on the teachings of the Bible Student movement and the apocalyptic legacy of the Millerites, the Jehovah's Witnesses are a millenarian nontrinitarian Protestant denomination that spread to South American from the north. They believe that Armageddon is imminent, and the establishment of God's kingdom over earth is the only solution for all problems faced by humanity. Jehovah's Witnesses are known for their door-to-door preaching, and they have a small presence in almost every corner of the known world. Jehovah’s Witnesses reject trinitarianism, inherent immortality of the soul, and hellfire, which they consider to be unscriptural doctrines. They do not observe Christmas, Easter, birthdays or other holidays and customs they consider to have pagan origins incompatible with Biblical scripture. Jehovah's Witnesses consider human society to be morally corrupt and under the influence of Satan, and as a result, they shun interaction with non-Witnesses and politics in general. Since the Deluge, the Jehovah’s Witnesses have become accepting of participation in politics, albeit in line with their their own theocratic beliefs, to establish God's kingdom over the Earth. ;;;;;;;;;;;;;x
+jehovah;Jehovah's Witness;;;;;;;;;;;;;x
+jehovah_DESC;Based on the teachings of the Bible Student movement and the apocalyptic legacy of the Millerites, the Jehovah's Witnesses are a millenarian nontrinitarian Protestant denomination that spread to South American from the north. They believe that Armageddon is imminent, and the establishment of God's kingdom over earth is the only solution for all problems faced by humanity. Jehovah's Witnesses are known for their door-to-door preaching, and they have a small presence in almost every corner of the known world. Jehovah's Witnesses reject trinitarianism, inherent immortality of the soul, and hellfire, which they consider to be unscriptural doctrines. They do not observe Christmas, Easter, birthdays or other holidays and customs they consider to have pagan origins incompatible with Biblical scripture. Jehovah's Witnesses consider human society to be morally corrupt and under the influence of Satan, and as a result, they shun interaction with non-Witnesses and politics in general. Since the Deluge, the Jehovah's Witnesses have become accepting of participation in politics, albeit in line with their their own theocratic beliefs, to establish God's kingdom over the Earth.;;;;;;;;;;;;;x
 
 ###FORM OF ADDRESS;;;;;;;;;;;;;;
 PATRIARCH;Patriarch;;;;;;;;;;;;;x
@@ -596,7 +596,7 @@ GOD_PURE_SPIRITS;The Pure Spirits;;;;;;;;;;;;;x
 GOD_GOOD_SPIRITS;The Good Spirits;;;;;;;;;;;;;x
 GOD_BAD_SPIRITS;The Bad Spirits;;;;;;;;;;;;;x
 GOD_PIRIA;Piria;;;;;;;;;;;;;x
-THE_BEZEBU;The Belzebu;;;;;;;;;;;;;x
+THE_BELZEBU;The Belzebu;;;;;;;;;;;;;x
 THE_VEDAS;The Vedas;;;;;;;;;;;;;x
 GOD_IDK;Dios;;;;;;;;;;;;;x
 SONGS_OF_JUREMA;Songs of Jurema;;;;;;;;;;;;;x
@@ -617,6 +617,7 @@ TRAUCO;El Trauco;;;;;;;;;;;;;x
 FIURA;La Fiura;;;;;;;;;;;;;x
 CURA;Cura;;;;;;;;;;;;;x
 THE_WORLD;The World;;;;;;;;;;;;;x
+GOD_POMBERO;Pombero;;;;;;;;;;;;;x
 
 manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
 manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x
