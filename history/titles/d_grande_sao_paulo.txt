@@ -48,8 +48,8 @@
 }
 2213.7.9 = {
 	holder = 110229 #Gabriel Matarazzo
-	law = succ_oligarchic_elective
-	government = oligarchic_republic
+	#law = succ_oligarchic_elective
+	government = merchant_republic_government
 }
 2235.12.3 = {
 	holder = 110230 #Francisco Matarazzo
@@ -69,9 +69,9 @@
 2352.9.21 = {
 	holder = 110283 #Domingos Jafet
 }
-2359.6.16 = { 
-	holder = 110285 #Guilherme Jafet
-}
-2364.1.25 = { 
+#2359.6.16 = { 
+#	holder = 110285 #Guilherme Jafet
+#}
+2359.6.16 = {  
 	holder = 110242 #Yago Matarazzo
 }

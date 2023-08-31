@@ -19,8 +19,5 @@
 	holder = 110530 #José Crespi
 }
 2354.10.3 = {
-	holder = 110534 #Fabrícia Crespi
-}
-2364.4.13 = { #Letícia inherits Guarulhos, somehow
-	holder = 110325 #Oceana Leme
+	holder = 110532 #Daniel Crespi
 }

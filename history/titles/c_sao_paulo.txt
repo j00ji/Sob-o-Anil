@@ -41,7 +41,7 @@
 }
 2213.7.9 = {
 	holder = 110229 #Gabriel Matarazzo
-	liege = d_grande_sao_paulo
+	#liege = d_grande_sao_paulo
 }
 2235.12.3 = {
 	holder = 110230 #Francisco Matarazzo
