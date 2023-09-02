@@ -272,6 +272,24 @@ bolivia.1.desc;Bolivia sits on the edge of a knife, only a short time after its 
 EVTOPTA_bolivia1;We will be wed then.;;;;;;;;;;;;;x
 EVTOPTB_bolivia1;I will see you on the battlefield, not in bed!;;;;;;;;;;;;;x
 
+EVTDESC_apostolic_1;Aparecidans tend to devote themselves to one of three schools of worship focused on different saints. Although Apostolics usually choose their saint early in life, they may choose a new one upon reaching adulthood.;;;;;;;;;;;;;x
+EVTOPTA_apostolic_1;I will strive to be like the legendary O Magnânimo!;;;;;;;;;;;;;x
+EVTOPTB_apostolic_1;I will embrace the love and mercy of Nossa Senhora Aparecida.;;;;;;;;;;;;;x
+EVTOPTC_apostolic_1;I will receive the grace of Nosso Senhor do Bonfim.;;;;;;;;;;;;;x
+EVTDESC_apostolic_2;As a follower of Nosso Senhor do Bonfim, you frequently come into contact with followers of the Candomblé faith. Although they may not fully accept the word of the Lord, they too revere Our Lord of the Good End.;;;;;;;;;;;;;x
+EVTOPTA_apostolic_2;Perhaps we are more alike than we are different.;;;;;;;;;;;;;x
+EVTOPTB_apostolic_2;They are still heathens.;;;;;;;;;;;;;x
+EVTDESC_apostolic_3;As a follower of Nossa Senhora Aparecida, I take it upon myself to preserve the true Christian traditions of Brazil. Without people like me, Brazil would certainly fall to Emperor-worship or outright heathenry.;;;;;;;;;;;;;x
+EVTOPTA_apostolic_3;The word of the Lord will prevail!;;;;;;;;;;;;;x
+EVTOPTB_apostolic_3;I cannot claim superiority over fellow Christians.;;;;;;;;;;;;;x
+EVTOPTC_apostolic_3;I cannot claim superiority over fellow Christians.;;;;;;;;;;;;;x
+EVTOPTD_apostolic_3;I cannot claim superiority over fellow Christians.;;;;;;;;;;;;;x
+EVTDESC_apostolic_4;As a follower of O Magnânimo, I strive to emulate the legendary Pedro II in my everyday life. Perhaps I should strive harder towards this ideal?;;;;;;;;;;;;;x
+EVTOPTA_apostolic_4;I will emulate his diligence.;;;;;;;;;;;;;x
+EVTOPTB_apostolic_4;I could never truly be like him.;;;;;;;;;;;;;x
+EVTOPTC_apostolic_4;I will charge bravely into battle, as he did!;;;;;;;;;;;;;x
+EVTOPTD_apostolic_4;I think I am striving enough.;;;;;;;;;;;;;x
+
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x

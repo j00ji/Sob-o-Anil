@@ -8,4 +8,8 @@ spriteTypes = {
 		name = "GFX_observe_camino"
 		textureFile = "gfx\\event_pictures\\observe_camino.dds"
 	}
+	spriteType = {
+		name = "GFX_evt_lady_aparecida"
+		textureFile = "gfx\\event_pictures\\lady_aparecida.dds"
+	}
 }

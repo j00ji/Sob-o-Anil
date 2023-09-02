@@ -179,3 +179,68 @@ legendary = {
 	customizer = no
 	random = no
 }
+apostolic_pedro = {
+	opposites = {
+		apostolic_aparecida
+		apostolic_bonfim
+	}
+
+	opposite_opinion = -5
+	
+	stewardship = 1
+
+	potential = { religion = apostolic }
+	religious_branch = apostolic
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_compliment_adj = COMPL_BRAVE
+	female_compliment_adj = COMPL_BRAVE
+	child_compliment_adj = COMPL_STRONG
+}
+
+apostolic_aparecida = {
+	opposites = {
+		apostolic_pedro
+		apostolic_bonfim
+	}
+
+	opposite_opinion = -5
+	
+	monthly_character_piety = 0.25
+	monthly_character_prestige = 0.25
+
+	potential = { religion = apostolic }
+	religious_branch = apostolic
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_compliment_adj = COMPL_KINDHEARTED
+	female_compliment_adj = COMPL_KINDHEARTED
+	child_compliment_adj = COMPL_NICE
+}
+
+apostolic_bonfim = {
+	opposites = {
+		apostolic_aparecida
+		apostolic_pedro
+	}
+
+	opposite_opinion = -5
+	combat_rating = 5 #new value!
+	health = 1
+
+	potential = { religion = apostolic }
+	religious_branch = apostolic
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_insult = INSULT_LOVER_OF_HEATHENS
+	female_insult = INSULT_LOVER_OF_HEATHENS
+	male_insult_adj = INSULT_UNPRINCIPLED
+	female_insult_adj = INSULT_UNPRINCIPLED
+	child_insult_adj = INSULT_STUPID
+}

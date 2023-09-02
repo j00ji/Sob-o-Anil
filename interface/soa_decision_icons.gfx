@@ -32,4 +32,8 @@ spriteTypes = {
 		name = "GFX_restore_rio_grande_do_sul"
 		textureFile = "gfx\\interface\\decision_icon_restore_rio_grande_do_sul.dds"
 	}
+	spriteType = {
+		name = "GFX_change_apostolic_branch"
+		texturefile = "gfx/interface/change_apostolic_branch.tga"
+	}
 }

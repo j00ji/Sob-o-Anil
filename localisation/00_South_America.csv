@@ -822,6 +822,13 @@ initiate_astronomer;Initiate Astronomer;;;;;;;;;;;;;x
 initiate_astronomer_desc;This character in a master in perfoming star-reading and prophesying, and is well respected amongt followers of the Camino Estelar.\n§GThis will grant better modifiers while fulfilling prophecies§!;;;;;;;;;;;;;x
 bandeirante;Bandeirante;;;;;;;;;;;;;x
 bandeirante_desc;This character is a veteran of the Bandeiras.;;;;;;;;;;;;;x
+apostolic_pedro;O Magnânimo;;;;;;;;;;;;;x
+apostolic_pedro_desc;This character reveres Emperor Pedro II of Brazil, otherwise known as O Magnânimo (The Magnanimous). Declared a saint by the Apostolic Church after the Event, Pedro II was famous for his bravery, humility, and diligence.;;;;;;;;;;;;;x
+apostolic_aparecida;Nossa Senhora Aparecida;;;;;;;;;;;;;x
+apostolic_aparecida_desc;This character reveres Our Lady of Aparecida, the traditional patroness of Brazil. Adherents of this cult tend to be highly devout, and avoid allowing elements of other faiths to influence their worship.;;;;;;;;;;;;;x
+apostolic_bonfim;Nosso Senhor do Bonfim;;;;;;;;;;;;;x
+apostolic_bonfim_desc;This character reveres Our Lord of the Good End, a representation of Jesus at the moment of his death on the cross. Followers of this cult are more open to religious syncretism than most other Apostolics.;;;;;;;;;;;;;x
+
 
 ###DECISIONS ;;;;;;;;;;;;;;x
 change_evangelical_church;Change Evangelical Denomination;;;;;;;;;;;;;x

@@ -26,3 +26,6 @@ imp_ex2_desc;This bureaucrat has passed the National Exam, and has earned the se
 
 imp_ex3;Doutor;;;;;;;;;;;;;x
 imp_ex3_desc;This bureaucrat has passed the National Exam, and has earned the third and highest rank — Doutorado.;;;;;;;;;;;;;x
+
+change_apostolic_branch;Change your Patron Saint;;;;;;;;;;;;;;x
+change_apostolic_branch_desc;You have the opportunity to reconsider your Patron Saint. This should not be taken lightly...;;;;;;;;;;;;;;x

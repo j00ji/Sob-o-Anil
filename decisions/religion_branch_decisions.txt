@@ -32,4 +32,35 @@ decisions = {
 
 		}
 	}
+	change_apostolic_branch = {
+		ai = no
+		
+		potential = {
+			religion = anchietican
+			age = 16
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOT = { has_character_flag = changedapostolicbranch }
+		}
+		
+		allow = {
+			religion = anchietican
+			is_playable = yes
+			NOT = { has_character_flag = changedapostolicbranch }
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { id = apostolic.1 }
+			}
+			#custom_tooltip = { text = TXT_change_apostolic_branch }
+			set_character_flag = changedapostolicbranch
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+	}
 }
