@@ -8,3 +8,11 @@ bandeirante = {
 	
 	customizer = no
 }
+aculturado = {
+	anthropofagian_opinion = 20
+	monthly_character_prestige = 2
+	monthly_character_piety = 2
+	potential = { religion = anthropofagian }
+	
+	customizer = yes
+}

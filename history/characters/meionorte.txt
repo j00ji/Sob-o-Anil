@@ -37,7 +37,7 @@
 }
 30003 = {
 	name = "Damião"
-	dynasty = 15002 #Côrrea
+	dynasty = 15005 #Clás
 	culture = parnaibas
 	religion = tridentine
 	father=30001
@@ -53,7 +53,7 @@
 	trait=diligent
 	trait=envious
 	2335.6.23={birth=yes}
-	2363.4.6={effect={dynasty=15005}} #he Changes himself to the Clás Dynasty
+	#2363.4.6={effect={dynasty=15005}} #he Changes himself to the Clás Dynasty
 	2400.1.1={death=yes}
 	#claimant to K_Piaui, following death of his father he rules d_baixo_parnaiba
 }
@@ -679,7 +679,7 @@
 	trait=proud
 	trait=charitable
 	trait=seducer
-	2324.8.23={birth=yes culture=west_parnaibas}
+	2324.8.23={birth=yes}
 	2344.1.1={add_spouse=30042}
 	2345.1.1={effect={add_lover=30043}}
 	2400.1.1={death=yes}

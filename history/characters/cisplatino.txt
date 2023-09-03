@@ -2746,6 +2746,7 @@
 280042={
 	name="Frida"
 	dynasty=0
+	female=yes
 	culture=hunsruckisch
 	religion=farrapo
 	trait=intricate_webweaver

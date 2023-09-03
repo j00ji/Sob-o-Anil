@@ -1,0 +1,20 @@
+namespace=modernism
+
+character_event = { #IT MATTERS ONLY WHAT IS NOT MINE.
+	id = modernism.0
+	#title = modernism.0.name
+	desc = modernism.0.desc
+	picture = GFX_evt_operarios
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = anthropofagian
+	}
+	
+	option = { #Tupi or not Tupi
+		name = EVTOPTA_modernism_0
+		add_trait = aculturado
+		#gains the Abaporuacu trait
+	}
+}
