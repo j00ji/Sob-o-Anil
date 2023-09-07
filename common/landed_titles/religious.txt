@@ -166,6 +166,7 @@ d_cicerite = {
 	foa = "ARCHBISHOP_FOA"
 	title_prefix = "ARCHDIOCESE"
 	location_ruler_title = yes
+	short_name = yes
 	
 	#Always exists
 	landless = yes
@@ -202,4 +203,38 @@ k_patriarchy = {
 	primary = yes
 	dynasty_title_names = no
 	assimilate = no
+}
+
+d_seladite = {
+	color = { 240 240 10 }
+	color2 = { 250 250 250 }
+	
+	capital = 543 # Cariri
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+	
+	dignity = 1000
+	
+	religion = seladite
+	controls_religion = seladite
+
+	primary = yes
+	short_name = yes
+	dynasty_title_names = no
+	
+	culture = cearense
+	
+	landless = yes
+	holy_order = yes
+
+	monthly_income = 10
+	
+	assimilate = no # Nothing drifts in or out
+
+	mercenary_type = seladite_composition
+	
+	allow = {
+		religion = seladite
+	}
 }

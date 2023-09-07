@@ -66,9 +66,19 @@ decisions = {
 		potential = {
 			is_playable = yes
 			is_alternate_start = no
-			dynasty = 1 #Belchioringia
+			#dynasty = 1 #Belchioringia
 			independent = yes
-			tier = KING
+			#tier = KING
+			OR = {
+				religion = cicerite
+				religion = seladite
+			}
+			OR = {
+				culture_group = atlanticano
+				culture_group = cearense_group
+				culture_group = sertanejo_group
+				culture_group = northeastern_native
+			}
 			NOT = { has_landed_title = e_nordeste }
 			e_belchioringia = {
 				has_holder = no
@@ -83,10 +93,15 @@ decisions = {
 			is_adult = yes
 			prisoner = no
 			NOT = { trait = incapable }
-			culture = atlanticano
 			prestige = 800
 			piety = 300
-			wealth = 500
+			conditional_tooltip = {
+				trigger = {
+					ai = no
+				}
+
+				scaled_wealth = 2
+			}
 			conditional_tooltip = {
 				trigger = {
 					is_alternate_start = no
@@ -112,8 +127,17 @@ decisions = {
 			}
 		}
 		effect = {
+			if = {
+				limit = {
+					ai = no
+				}
+				scaled_wealth = -2
+			}
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
 			prestige = 200
-			wealth = -500
 			piety = -300
 			primary_title = {
 				show_scope_change = no
@@ -122,11 +146,39 @@ decisions = {
 					grant_title = ROOT
 					copy_title_laws = PREV
 					make_primary_title = yes
+					add_law = succ_hre_elective
 				}
 			}
-			any_demesne_title = {
-				limit = { tier = KING }
+			#any_demesne_title = {
+			#	limit = { tier = KING }
+			#	de_jure_liege = e_belchioringia
+			#}
+			any_title_under = {
+				limit = {
+					OR = {
+						title = k_ceara
+						title = k_pernambuco
+						title = k_cabo_norte
+					}
+				}
 				de_jure_liege = e_belchioringia
+			}
+			e_nordeste = {
+				set_name = "Meio-Norte"
+			}
+			any_demesne_title = {
+				limit = {
+					OR = {
+						tier = KING
+						AND = {
+							tier = EMPEROR
+							NOT = {
+								title = e_belchioringia
+							}
+						}
+					}
+				}
+				destroy_landed_title = THIS
 			}
 		}
 		ai_will_do = {

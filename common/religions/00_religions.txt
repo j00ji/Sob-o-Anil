@@ -2664,7 +2664,7 @@ syncretic_group = {
 }
 
 nautical = {
-	has_coa_on_barony_only = no
+	#has_coa_on_barony_only = no
 	graphical_culture = norsegfx
 	playable = yes
 	hostile_within_group = yes

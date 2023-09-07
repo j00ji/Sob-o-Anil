@@ -28509,13 +28509,13 @@ princely_elective_german_elector_setup_effect = {
 		#Duchy of Franconia
 		#Duchy of Saxony
 		#Duchy of Brandenburg
-		save_persistent_event_target = { name = hre_title_1_per scope = c_chapel_hill } #replace with chapel hill
-		save_persistent_event_target = { name = hre_title_2_per scope = c_atlanta } #replace with atlanta
-		save_persistent_event_target = { name = hre_title_3_per scope = c_charleston } #replace with charleston
-		save_persistent_event_target = { name = hre_title_4_per scope = d_black_belt } #replace with black belt
-		save_persistent_event_target = { name = hre_title_5_per scope = d_piedmont_crescent } #replace with piedmont crescent
-		save_persistent_event_target = { name = hre_title_6_per scope = d_sandhills } #replace with sandhills
-		save_persistent_event_target = { name = hre_title_7_per scope = d_savannah } #replace with savannah
+		save_persistent_event_target = { name = hre_title_1_per scope = d_potiguara } #replace with the potiguara march
+		save_persistent_event_target = { name = hre_title_2_per scope = c_recife } #replace with recife
+		save_persistent_event_target = { name = hre_title_3_per scope = c_natal } #replace with natal
+		save_persistent_event_target = { name = hre_title_4_per scope = c_fortaleza } #replace with fortaleza
+		save_persistent_event_target = { name = hre_title_5_per scope = c_maceio } #replace with maceio
+		save_persistent_event_target = { name = hre_title_6_per scope = c_joao_pessoa } #replace with joao pessoa
+		save_persistent_event_target = { name = hre_title_7_per scope = c_cariri } #replace with cariri
 	}
 }
 

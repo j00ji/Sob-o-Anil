@@ -83,6 +83,8 @@
 	2363.3.1={
 		effect = {
 			religion = camdomble
+			add_claim = k_ceara
+			add_claim = k_pernambuco
 		}
 	}
 	2400.1.1={death=yes}
@@ -115,6 +117,8 @@
 	2367.1.1={
 		effect = {
 			add_claim = k_ceara
+			add_claim = k_cabo_norte
+			add_claim = k_pernambuco
 		}
 	}
 	2400.1.1={death=yes}
@@ -148,6 +152,12 @@
 	}
 	2350.1.5={
 		add_spouse=8
+	}
+	2362.2.10={
+		effect = {
+			add_claim = k_ceara
+			add_claim = k_cabo_norte
+		}
 	}
 	2400.1.1={death=yes}
 }
@@ -238,6 +248,13 @@
 #	2367.3.9={
 #		add_spouse=x
 #	} You cannot legally marry a tulpa
+	2367.3.9={
+		effect = {
+			add_claim = k_ceara
+			add_claim = k_cabo_norte
+			add_claim = k_pernambuco
+		}
+	}
 	2400.1.1={death=yes}
 }
 
@@ -1226,5 +1243,27 @@
 	religion=evangelical
 	
 	2332.2.3={birth=yes}
+	2400.1.1={death=yes}
+}
+	###Fernando de Noronha###
+73={
+	name="Francisco"
+	dynasty=29 #D'Ajuda
+	culture=german
+	religion=brethren
+	trait=charismatic_negotiator
+	trait=brave
+	trait=cruel
+	trait=lustful
+	trait=adventurer
+	martial=7
+	intrigue=8
+	diplomacy=6
+	stewardship=3
+	learning=2
+	dna="00cii000hd0"
+	properties="wj000k000000000000000000000000000000"
+	2329.1.1={birth=yes culture=recifolindense}
+	2367.1.1={give_nickname=nick_cobra_verde}
 	2400.1.1={death=yes}
 }

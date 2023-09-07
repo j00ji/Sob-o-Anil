@@ -901,7 +901,7 @@ succession_laws = {
 				higher_tier_than = COUNT
 			}
 			OR = {
-				title = e_hre #Title-bound.
+				title = e_belchioringia #Title-bound.
 				ROOT = {
 					has_title_flag = alternate_hre
 				}

@@ -15,7 +15,7 @@ b_vila_dos_remedios = castle
 #b_baia_dos_porcos = castle
 
 # Misc
-culture = atlanticano
-religion = lamarckian
+culture = recifolindense
+religion = brethren
 
 #History

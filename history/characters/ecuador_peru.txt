@@ -1195,6 +1195,8 @@
     trait=dull
     trait=diligent
     trait=wroth
+	dna="00cii000hd0"
+	properties="wj000k000000000000000000000000000000"
     2342.1.1={birth=yes culture=charapa}
 	2367.1.1={add_spouse=860058}
     2400.1.1={death=yes}
