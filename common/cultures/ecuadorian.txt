@@ -9,8 +9,47 @@ ecuatoriano = {
 		color = { 1.0 0.9 0.40 }
 		
 		male_names = { 
+			Álvaro Ángel Alberto Alejandro Alfonso Alfredo Amaru Andrés Antonio Ariruma Armando Arturo Atahualpa Augusto Aurelio 
+			Belisario Bernardo Bolívar 
+			César Camilo Carlos Cristóbal 
+			Damián Daniel David Delfín Diego Domingo 
+			Edgar Edison Eduardo Edwin Efraín Eloy Emilio Enrique Ernesto Esteban Eugenio 
+			Félix Fabián Fausto Federico Felipe Fernando Francisco "Francisco Javier" 
+			Gabriel Galo Gaspar Gerardo Gilberto Gonzalo Guillermo Gustavo 
+			Hernán Hugo 
+			Ignacio Isidro Iván 
+			Jacinto Jaime Jairo Javier Jerónimo Joaquín Jorge José "José Antonio" "José Francisco" "José Gabriel" "José Ignacio" "José Javier" "José Joaquín" "José Luis" "José María" "José Plácido" "José Ricardo" "José Vicente" Juan "Juan de Dios" "Juan Carlos" "Juan Diego" "Juan José" "Juan León" "Juan Manuel" "Juan Pablo" "Juan Sebastián" Julio 
+			León Leónidas Lenin Leonardo Lope Lorenzo Lucio Luis 
+			Manuel Marcelo Marcos Mariano Martín Mauricio Miguel Modesto Moisés 
+			Nicolás 
+			Óscar Octavio Omar Oswaldo 
+			Pablo Patricio Pedro Porfirio 
+			Raúl Rafael Ramón Ramiro Remigio Ricardo Ricaurte Roberto Rodrigo Rolando 
+			Sebastián Segundo Sergio Simón Sixto 
+			Tito Tomás 
+			Vítor Vasco Vicente Vinicio
 		}
 		female_names = {
+			Ángela Adela Adriana Alicia Ana Ana Cristina Ana María Ana Lucía Andrea Antonia Aurelia Avelina 
+			Benigna Blanca 
+			Carina Carmen Carolina Cecilia Cristina 
+			Daniela Dolores 
+			Elena Elvira Emilia Esperanza Esther Eugenia Eva 
+			Flor Fernanda 
+			Gabriela Gloria Guadalupe 
+			Hermelinda Huarmi 
+			Inés Isabel 
+			Josefa Juana Julia Juliana 
+			Laura Leonor Leticia Liliana Livia Lorena Lourdes Lucía Luisa Luz 
+			Mónica Magdalena Manuela María "María Cristina" "María Emilia" "María Fernanda" "María Isabel" "María Piedad" "María Teresa" Marcela Marcia Margarita Mariana Marina Martha Martina Matilde Mercedes 
+			Narcisa Natalia 
+			Pacari Patricia Paulina Piedad Pilar 
+			Raquel Rocío Rosa Rosalía Rosana Ruth 
+			Sandra Sara Silvia Simona Sofía Soledad Sonia Susana 
+			Teresa 
+			Verónica Virginia Viviana 
+			Ximena 
+			Zoila
 		}
 		
 		male_patronym = "ez"
@@ -32,8 +71,53 @@ ecuatoriano = {
 		color = { 0.85 0.85 0.55 }
 		
 		male_names = { 
+			Ángel Abdón Abdalá Abel Absolón Alberto Alejandro Alfredo Andrés Antonio Augusto Averroes
+            Benjamín Bolívar Byron
+            César Carlos Clemente Clodoveo Cristian
+            Darwin David Demetrio
+            Edelberto Edgar Edison Eduardo Edwin Eloy Enrique Ernesto Estalin Evelio
+            Félix Fausto Fernando Francisco Franklin Freddy
+            Gabriel Galo Gerson Guido Guillermo Gustavo
+            Hólger Hamilton Homero Hugo Humberto
+            Isaac Isidro Iván
+            Jacinto Jaime Jamil Jefferson Jimmy Joaquín Jonathan Jorge José "José Francisco" "José Gabriel" "José Ignacio" "José Luis" "José María" Juan "Juan Carlos" "Juan José" "Juan Pablo" Julio
+            Kléber
+            Lauro León Lenin Leonardo Leopoldo Lucas Lucio Luis
+            Máximo Manuel Marcelino Marcos Medardo Miguel Milton Moisés
+            Nelson Neptalí Nicasio Nicolás
+            Óscar Octavio Omar Oswaldo Otto
+            Pablo Pedro
+            Raúl Rafael Ramón Reinaldo Renato Ricardo Roberto Robinson Rodolfo
+            Segundo Sergio Simón Sixto
+            Tarquino Telmo Tommy
+            Ulbio
+            Vítor Vasco Vicente Vinicio Vladimiro Voltaire
+            Walberto Walter Washington Wellington Wilmer
+            Xavier
 		}
 		female_names = {
+			Ángela Adriana Alba Amarilis Ana Ana María Andrea Araceli Argentina Azucena
+            Blanca
+            Carmela Carmen Carolina Cecilia Clara Consuelo Cristina
+            Daniela Diana Digna Dolores Doménica
+            Elsa Emilia Esperanza Eugenia
+            Flor Fresia
+            Gabriela Gardenia Germania Gladys Glenda Gloria
+            Inés Irlanda Isabel
+            Johanna Juana Julia
+            Karina
+            Laura Leonor Liliana Livia Lorgia Luisa Lupe Luz Luzmila
+            Mónica Manuela María "María Cristina" "María Emilia" "María Piedad" "María Teresa" Marcia Margarita Mariana Maritza Mayra Mercedes Monserrate
+            Nancy Narcisa Natasha Noemí Norma Nubia
+            Olga
+            Pamela Paola Patricia Piedad
+            Rocío Rosa Ruth
+            Sabrina Sara Silvia Sofía Sonia Susana
+            Tamara Teresa
+            Verónica Viviana
+            Wilma
+            Yesenia Yolanda
+            Zaida Zoila Zoraida
 		}
 		
 		male_patronym = "ez"

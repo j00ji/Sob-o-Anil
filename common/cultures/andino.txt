@@ -9,8 +9,52 @@ costeno = {
 		color = { 0.70 0.23 0.0 }
 		
 		male_names = {
+			Álvaro Ángel Abdón Abelardo Acisclo Adelfo Adrián Agustín Alberto Aldair Alejandro Alfonso Alfredo Américo Amador Andrés Antonio Armando Arturo Augusto Avelino 
+			Bartolomé Beltrán Bernardo Blasco Bruno 
+			César Cancio Carlos Casimiro Cesáreo Cronwell 
+			Dante Darwin David Diego Domingo 
+			Edgar Eduardo Edwin Efraín Elías Elmer Eloy Elqui Emilio Enrique Esteban Eusebio 
+			Félix Federico Feliciano Felipe Fernando Francisco 
+			Gabriel Genaro Gerardo Gil Godofredo Gonzalo Gregorio Guillermo Gustavo 
+			Héctor Haruki Herman Hernán Hideyoshi Hildebrando Huáscar Hugo Humberto 
+			Ignacio Inti Isaac Iván 
+			Jaime Javier Jesús Jorge José "José Antonio" "José Luis" "José Manuel" "José Martín" "José Miguel" "José Rufino" Juan "Juan Antonio" "Juan Carlos" "Juan Félix" "Juan Francisco" "Juan Gonzalo" "Juan Manuel" Julio Justiniano 
+			Kenji Koichi 
+			Leoncio Livio Lizardo Lorenzo Lucio Luis "Luis Alberto" "Luis José" "Luis Miguel" Lupo 
+			Manuel Marcial Marcos Mariano Mario Martín Matías Mauro Miguel "Miguel Ángel" Moisés 
+			Néstor Nemesio Nicolás 
+			Óscar Omar Otto Ottorino 
+			Pablo Patrick Pedro Pelayo Percy 
+			Raúl Rafael Ramón Remigio Renato Renzo Ricardo Roberto Roger Ronaldo Rubén Rufino Ruperto 
+			Samuel Scipión Segundo Seiko Serapio Sergio Sigfredo Simón 
+			Tadashi Tarsicio Telmo Teodoro Tulio 
+			Víctor Venancio Vicente Vidal Vito Vladimir 
+			Walter Washington Wilfredo Wilmer Winston 
+			Yamir Yoshimar
 		}
 		female_names = {
+			Adriana Alejandrina Alicia Ana Angélica Antonia Aurora 
+			Basilia Beatriz Blanca Brunilda 
+			Carmen Catalina Cecilia Claudia Cristina 
+			Delia Doris 
+			Edith Elena Elizabeth Eloísa Elsa Enriqueta Esther 
+			Fiorella Flor Fronilda 
+			Genoveva Giovanna Gloria 
+			Honorata 
+			Inés Ingrid Isabel 
+			Juana Judith Julia 
+			Karen Keiko 
+			Laura Leonor Liliana Lola Luz Luzmila 
+			Mónica María "María Cristina" "María Emilia" "María Pía" Marcela Margarita Maribel Marina Maritza Martha Martina Mencía Mercedes Miluska 
+			Nancy Natalia Nelly Noemí Nuria 
+			Olenka Olga 
+			Paloma Pamela Patricia Paula Paulina Petronila 
+			Raquel Rayda Rocío Rosa Rosina Roxana Ruth 
+			Sara Savina Silvana Silvia Sofía Sonia Susana 
+			Teodora Teresa Tilsa Timotea 
+			Verónica Victoria Violeta 
+			Yolanda 
+			Zoila
 		}
 		
 		male_patronym = "ez"
@@ -33,8 +77,52 @@ costeno = {
 		color = { 1.0 0.77 0.10 }
 		
 		male_names = {
+			Álvaro Ángel Abdón Abelardo Acisclo Adelfo Adrián Agustín Alberto Aldair Alejandro Alfonso Alfredo Américo Amador Andrés Antonio Armando Arturo Augusto Avelino 
+			Bartolomé Beltrán Bernardo Blasco Bruno 
+			César Cancio Carlos Casimiro Cesáreo Cronwell 
+			Dante Darwin David Diego Domingo 
+			Edgar Eduardo Edwin Efraín Elías Elmer Eloy Elqui Emilio Enrique Esteban Eusebio 
+			Félix Federico Feliciano Felipe Fernando Francisco 
+			Gabriel Genaro Gerardo Gil Godofredo Gonzalo Gregorio Guillermo Gustavo 
+			Héctor Haruki Herman Hernán Hideyoshi Hildebrando Huáscar Hugo Humberto 
+			Ignacio Inti Isaac Iván 
+			Jaime Javier Jesús Jorge José "José Antonio" "José Luis" "José Manuel" "José Martín" "José Miguel" "José Rufino" Juan "Juan Antonio" "Juan Carlos" "Juan Félix" "Juan Francisco" "Juan Gonzalo" "Juan Manuel" Julio Justiniano 
+			Kenji Koichi 
+			Leoncio Livio Lizardo Lorenzo Lucio Luis "Luis Alberto" "Luis José" "Luis Miguel" Lupo 
+			Manuel Marcial Marcos Mariano Mario Martín Matías Mauro Miguel "Miguel Ángel" Moisés 
+			Néstor Nemesio Nicolás 
+			Óscar Omar Otto Ottorino 
+			Pablo Patrick Pedro Pelayo Percy 
+			Raúl Rafael Ramón Remigio Renato Renzo Ricardo Roberto Roger Ronaldo Rubén Rufino Ruperto 
+			Samuel Scipión Segundo Seiko Serapio Sergio Sigfredo Simón 
+			Tadashi Tarsicio Telmo Teodoro Tulio 
+			Víctor Venancio Vicente Vidal Vito Vladimir 
+			Walter Washington Wilfredo Wilmer Winston 
+			Yamir Yoshimar
 		}
 		female_names = {
+			Adriana Alejandrina Alicia Ana Angélica Antonia Aurora 
+			Basilia Beatriz Blanca Brunilda 
+			Carmen Catalina Cecilia Claudia Cristina 
+			Delia Doris 
+			Edith Elena Elizabeth Eloísa Elsa Enriqueta Esther 
+			Fiorella Flor Fronilda 
+			Genoveva Giovanna Gloria 
+			Honorata 
+			Inés Ingrid Isabel 
+			Juana Judith Julia 
+			Karen Keiko 
+			Laura Leonor Liliana Lola Luz Luzmila 
+			Mónica María "María Cristina" "María Emilia" "María Pía" Marcela Margarita Maribel Marina Maritza Martha Martina Mencía Mercedes Miluska 
+			Nancy Natalia Nelly Noemí Nuria 
+			Olenka Olga 
+			Paloma Pamela Patricia Paula Paulina Petronila 
+			Raquel Rayda Rocío Rosa Rosina Roxana Ruth 
+			Sara Savina Silvana Silvia Sofía Sonia Susana 
+			Teodora Teresa Tilsa Timotea 
+			Verónica Victoria Violeta 
+			Yolanda 
+			Zoila
 		}
 		
 		from_dynasty_prefix = "de "
@@ -59,8 +147,52 @@ costeno = {
 		color = { 0.72 0.05 0.32 }
 		
 		male_names = {
+			Abanto Abilio Agustín Alberto Amador Aníbal Andrés Aquilino Armando Artemio Ascario Augusto Avilio
+			Bartolomé Beltrán
+			César Cancio Carlomagno Carlos Ceferino Celestino Cirilo Clemente Cornelio Cosme Cutberto
+			Dalmacio Darío David Dionicio Domingo
+			Edilberto Eduardo Efraín Elmer Erasmo Esteban Estuardo Eugenio Euler Eusebio
+			Félix Fabián Fermín Fernando Fidel Flavio Fortunato Fulberto
+			Grimaldo
+			Hugo
+			Ildebrando Ildefonso
+			Jacinto Jorge José Juan Juan Miguel Julio
+			Ladislao Lenin Leopoldo Lizardo Lorenzo Lorgio Luis Lupo
+			Máximo Manuel Marcelino Mavilo Miguel Miguel Ángel Milton Moisés
+			Nilo
+			Óscar Olimpio Omar
+			Pedro Pelayo Percy Policarpo Próspero Publio
+			Remigio
+			Santiago Santos Simeón
+			Teobaldo
+			Ulderico Ulises Urbano
+			Víctor Valentín
+			Waldo Walter Wilder Wilmán
+			Ysidro
+			Zacarías Zenobio
 		}
 		female_names = {
+			Adriana Alicia Ana Ana María
+            Carmen Cristina
+            Diana Dionicia Dora Doris
+            Edelmira Elena Elizabeth Elvira Emilia Esperanza Esther Etelvina Eugenia
+            Francisca
+            Gabriela Gladys Graciela
+            Honorata
+            Inés Ingrid Isabel
+            Juana Julia Juliana
+            Karina Katia
+            Lisbeth Luz Luz María
+            Malvina María María Elena Maritza Martha Mencía Mercedes Milagros
+            Nancy Natalia Nilda Noemí Norma
+            Olga Olinda
+            Petronila
+            Rocío Rosa Rosalbina Rosario
+            Sara Silvia Sonia Susana
+            Tania Teresa
+            Verónica
+            Yaneth Yaquelín Yazmín Yesica Ygnacia Yolanda
+            Zenaida Zoila
 		}
 		
 		from_dynasty_prefix = "de "
@@ -85,8 +217,50 @@ costeno = {
 		color = { 0.4 0.6 0.0 }
 		
 		male_names = {
+			Abercio Abraham Adolfo Alberto Alcides Aldair Alfonso Alfredo Alonso Américo Amador Andrés Antero Antonio Armando Arturo
+            Beltrán Boris Buridán
+            César Cancio Carlos Claudio Cleto
+            Dacio Daniel Desiderio Diego Dulio
+            Edgar Edilberto Eduardo Elías Eloy Emerson Emilio Euler Eusebio
+            Félix Fernando
+            Gerardo Gilmer Godofredo Grocio Grover Guillermo
+            Héctor Hernán Hilmar Hugo
+            Ítalo Ismael Iván
+            Javier Jorge José "José Alberto" "José Luis" "José Manuel" "José Mateo" Juan "Juan Manuel" "Juan Pablo" Julio
+            Leonardo Luis
+            Magno Manuel Marcial Marcos Mariano Mario Martín Mauro Miguel Milton Moisés
+            Néstor Narciso Nilo
+            Omar Orlando Oswaldo Otto
+            Pedro Pedro Pablo Pelayo
+            Rómulo Raúl Rafael Ramón Renán Renzo Ricardo Roberto Romel Rufino
+            Sérvulo Santos Sindulfo
+            Teófilo Tello Teobaldo Teodorico
+            Ulises Ursino
+            Víctor Victoriano Vladimiro
+            Walter Wilbert Wilder Wilfredo Wilkin Wilmer
+            Zenón
 		}
 		female_names = {
+			Ana Ana María Angelina Antonia
+            Bertila
+            Carmen Celia Claudia Cynthia
+            Delia Diana Digna
+            Edith Elena Elizabeth Elvira Emma Enriqueta Erlinda Esperanza Esther Estrela
+            Fiona
+            Gabriela Georgina Giovanna Giussepina Gladys Gloria Gloria María Guadalupe
+            Hermelinda Herminia Honorata
+            Inés Irene Isabel
+            Jovita Juana Julia
+            Laura Lorenza Lourdes Lucía Luisa Luz Lydia
+            Mónica Magaly Magdalena Magna María "María Antonia" "María Consuelo" "María Elena" "María Jesús" "María Luisa" Maribel Martha Mayra Melva
+            Nancy Nelida Nelva Noemí
+            Patricia Paula Pelagia Perpetua Piedad
+            Raquel Rita Rosa Rosario Ruth
+            Sandra Sara Sofía Sonia
+            Teresa
+            Verónica Virginia
+            Waldetrudis
+            Yanet Yesica Yolanda
 		}
 		
 		male_patronym = "ez"
@@ -109,8 +283,46 @@ costeno = {
 		color = { 0.5 0.0 0.2 }
 		
 		male_names = {
+			Ángel Agripino Agustín Alberto Alejandro Alfonso Alfredo Alipio Amancio Andrés Antolín Antonio Armengol Artidoro Augurio Avertino
+            Barsanufio Bartolomé Benignio Benjamín Bernardo
+            César Cancio Carlos Cesáreo Claudio
+            Daniel Diego Domingo
+            Eder Eduardo Elías Emiliano Emilio Enrique Evaristo Ezequiel
+            Félix Federico Fernando Francisco Froilán
+            Galindo Gaudioso Gilberto Ginés Gonzalo Gregorio Grimaldo Gustavo Guzmán
+            Ignacio Iladio Isidro
+            Jaime Javier Jesús Jonás Jorge José "José Antonio" "José Luis" "José Manuel" "José María" "José Sebastián" Juan "Juan Carlos" "Juan Mariano" "Juan Pablo" Julio
+            Leónidas Luciano Luis Manuel Marcelino Marco Marco Antonio Mariano Mario Miguel Miguel Ángel
+            Nemesio Nicolás Nilo Nolasco
+            Óscar Ordoño Osías Oswaldo
+            Pascual Pedro Pelayo Quintín Rómulo Raúl Rafael Ramiro Ricardo Roberto Rolando
+            Santiago Sebastián Segisfredo Senén Simón Suñer
+            Tomás Toribio Trifonio Troyano
+            Víctor Víctor Hugo Vicente Vidal
+            Walter Wenceslao
 		}
 		female_names = {
+			Alejandra Ana Ana María Andrea Angélica Antonieta Aurelia Aurora
+            Belissa Bertha Brígida Briceida
+            Candelaria Carmen Carolina Cecilia Claudia Clorinda
+            Damaris Delfina Diana
+            Elena Elia Elva Erica Esmeralda Estefaní
+            Fabiana Filomena Fiorela Frida
+            Genoveva Gloria Guina
+            Hilda Herminia Honorata
+            Isabel
+            Josefina Juana Julia Justa
+            Karen
+            Laura Leonor Lisbeth Lourdes Luisa Luz Luz María
+            Mávila Mónica Magaly Marcelina María "María Isabel" "María Luz" Marcia Maritza Martha Mencía Mercedes Milagros Miriam Muñeca
+            Noemí Norma
+            Olga Olinda Orieta
+            Pascuala Pilar
+            Rocío Rosa Rosalía Rosario Roxana Rufina
+            Sandra Sonia
+            Teresa
+            Valencia Valentina Vanesa Victoria
+            Zenaida Zenobia Zulema
 		}
 		
 		male_patronym = "ez"
@@ -134,8 +346,50 @@ costeno = {
 		color = { 0.6 0.4 0.0 }
 		
 		male_names = {
+			Ángel Abrahán Adán Adrián Alejandro Alfonso Américo Antolín Armando Arnold Artemio Arturo Aurelio
+            Baltazar Bardo Beltrán Bruno Buenaventura
+            Cástulo César Calisto Cancio Carlos Cipriano Cosme Cruz
+            Daniel Darío David Diógenes Dioscórides Domingo
+            Edgar Edilberto Edwin Efraín Eloy Elvis Enrique Ernesto
+            Félix Federico Felimón Felipe Fermín Francisco Froilán
+            Genaro Gerardo Germán Gilberto Ginés Godofredo Gregorio Grover Guido Guillermo Guzmán
+            Héctor Helmer Hernán Hipólito Hugo Humberto
+            Ítalo Isaías
+            Jesús Jorge José "José Luis" "José Miguel" Joselín Juan "Juan Miguel" Julio Justo
+            Leandro Lindolfo Luis
+            Máximo Manuel Mariano Mario Martín Medardo Miguel Modesto
+            Néstor Napoleón Nasario Neptalí
+            Óscar Oswaldo
+            Pánfilo Paolo Pascual Pedro Percy Porfirio
+            Quintiliano
+            Rómulo Raúl René Ricardo Roberto Román Royer Rubén Rufo
+            Saúl Sabino Santos Segrín Silberio
+            Teófilo Tito
+            Ubaldo
+            Víctor
+            Walbert Walter Wilfredo Wilson
 		}
 		female_names = {
+			Alberta Alejandrina Amadora Ana Ana María Anacila Angélica
+            Balbina Blanca Brígida
+            Carina Carmen Carola Carolina Catalina Cecilia Clarita Claudia Consuelo Cynthia
+            Dafne Delfina Delia Dolores Driada
+            Ecilda Edith Eglantina Elizabeth Elsa Elva Elvira Eva
+            Filomena Flor Froila
+            Gaudencia Gladys Gloria
+            Hilaria Hilda Honorata
+            Idalia Imelda Isabel Isolina
+            Juana Judith Julia
+            Letzia Ligia Lucía "Lucía Ana" Lucila Lucrecia Luisa
+            Magdalena María "María Isabel" "María Luisa" Maribel Marisol Maritza Martha Martina Matilde Maximiana Mercedes Miriam
+            Nadia Nancy Nery Nilda
+            Patricia Perpetua Petronila
+            Rosa Rosabel Rosalía Rosario Ruth
+            Sabina Saturnina Savina Severa Sulpicia
+            Teresa Tomasa Tránsita
+            Venancia Vicencia Victoria Vilma
+            Yaneth Yesenia
+            Zoila
 		}
 		
 		male_patronym = "ez"
@@ -163,8 +417,47 @@ silvano = {
 		color = { 0.3 0.7 0.3 }
 		
 		male_names = {
+			Adelino Adelmo Adrián Alfonso Américo Amadeo Aníbal Antonio Armenio Arturo Aurelio
+            Bernardo
+            César Carlos Claudio Cresencio
+            Daniel Demetrio
+            Edwin Elías Eleodoro Elisbán Eliseo Elmer Elqui Enrique
+            Faraón Felizandro Francisco
+            Gastelo Genaro
+            Héctor Harold Hugo
+            Jairo Javier Jesús Jorge José "José Alberto" "José Alfredo" "José Luis" "José Martín" Josué Juan "Juan Carlos" "Juan Daniel" "Juan Manuel" "Juan Miguel" Julio "Julio César"
+            Luis
+            Mamerto Manuel Mariano Mauro Miguel Moisés
+            Nicolás Nolberto
+            Óscar Octavio Onésimo Ossio Oswaldo
+            Pablo Pantaleón Pedro Porfirio
+            Ramiro Raniero Roberto Roger
+            Segundo
+            Tulio
+            Víctor Valerio
+            Walter Weyder Wilfredo Wilmer
 		}
 		female_names = {
+			Áurea Ana Andrea
+            Benilda Blanca
+            Carmela Carmen
+            Daniella Diana Dionisia
+            Elena Esther
+            Francisca
+            Gisela Gloria
+            Isabel
+            Janet Julia
+            Leonor Luisa Luz
+            María Marina Martha Martina Mercedes Milagros
+            Noemí
+            Ofelia Olga
+            Patricia Petronila
+            Rita Rosa Ruth
+            Sofía Sonia
+            Tania Teresa
+            Victoria Vivian
+            Yaremi Yolanda
+            Zoraida
 		}
 		
 		from_dynasty_prefix = "de "
@@ -189,8 +482,48 @@ silvano = {
 		color = { 0.1 0.6 0.3 }
 		
 		male_names = {
+			Adelino Adelmo Adrián Alberto Alfonso Américo Amadeo Aníbal Antonio Armenio Arturo Aurelio
+            Bernardo
+            César Carlos Christian Claudio Cresencio
+            Daniel Demetrio
+            Edwin Elías Eleodoro Elisbán Eliseo Elmer Elqui Enrique
+            Faraón Felizandro Francisco
+            Gastelo Genaro Guillermo
+            Héctor Harold Hugo
+            Isaac
+			Jairo Javier Jesús Jorge José "José Alberto" "José Alfredo" "José Luis" "José Martín" Josué Juan "Juan Carlos" "Juan Daniel" "Juan Manuel" "Juan Miguel" Julio "Julio César"
+            Luis
+            Mamerto Manuel Mariano Mauro Miguel Moisés
+            Nicolás Nolberto
+            Óscar Octavio Onésimo Ossio Oswaldo
+            Pablo Pantaleón Pedro Porfirio
+            Ramiro Raniero Roberto Roger
+            Segundo
+            Tulio
+            Víctor Valerio
+            Walter Weyder Wilfredo Wilmer
 		}
 		female_names = {
+			Áurea Ana Andrea
+            Benilda Blanca
+            Carmela Carmen
+            Daniella Diana Dionisia
+            Edith Elena Esther
+            Francisca
+            Gisela Gladys Gloria
+            Isabel
+            Janet Julia
+            Leonor Luisa Luz
+            María Marina Martha Martina Mercedes Milagros
+            Noemí
+            Ofelia Olga
+            Patricia Petronila
+            Rita Rosa Ruth
+            Sofía Sonia
+            Tania Teresa Tracy
+            Victoria Vivian
+            Yaremi Yolanda
+            Zoraida
 		}
 		
 		from_dynasty_prefix = "de "
@@ -215,8 +548,49 @@ silvano = {
 		color = { 0.3 0.7 0.1 }
 		
 		male_names = {
+			Abercio Absalón Alamiro Albino Alejandro Alfonso Amado Anaximandro Andrés Anselmo Antonio Arístides Arquímedes Arturo Augusto Aurelio
+            Bonifacio Braulio
+            César Calendario Camilo Cancio Carlos Celso Cesáreo Clemente Cristóbal
+            Damián David Demetrio Diógenes
+            Elpidio Eleuterio Emilio Ernesto Eudocio Eugenio Eustaquio Eutimio
+            Felipe Fermín Fidenciano Fidencio Fortunato Francisco
+            Genaro Germán Gilberto Gilmer Ginés Gregorio Grimaldo Guzmán
+            Héctor Hilario Hipólito Horacio
+            Jaime Javier Jerónimo Joaquín Jorge José "José Manuel" Juan "Juan Manuel" Julio "Julio César" Justiniano
+            Leandro Lenin Leonardo Leoncio Lindón Lorenzo Luis
+            Máximo Manuel "Marco Antonio" Marcos Mariano Mario Mauro Melanio Melchor Miguel "Miguel Ángel" Modesto
+            Nerio Nicolás
+            Óscar Otilio Ovidio
+            Pedro Porfirio Próspero Primitivo
+            Raúl Rafael Rudecindo
+            Santos Segundo Severino Sixto
+            Teófilo Telesforo Tomás Torcuato Toribio Tulio
+            Ulises
+            Víctor Valentín Vicente Vidal Virgilio
+            Waldemar Walter Wenceslao Werner Wilmer Wilson
+            Zenón
 		}
 		female_names = {
+			Amalia Ana Andrea
+            Betsabé
+            Carmela Carmen Casilda Catalina Celinda
+            Débora Dolores
+            Edith Elvira Eufemia Eulalia Eulogia Eusebia
+            Felicita Flor Florencia Francisca
+            Gabriela Gisela Gregoria
+            Isabel
+            Josefina Juana Julia Justina
+            Laura Lidia Liliana Lucía Luisa Luz
+            Mónica Magdalena María "María Ana" "María Carmela" "María Cruz" "María Isabel" "María Magdalena" "María Nilda" "María Rosa" Mariana Martha Mirtha
+            Neria Noemí
+            Otilia
+            Patricia Petronila
+            Reina Rosa
+            Segundina Severina Silvia Susana
+            Teresa
+            Venancia Vicencia Victoria Virginia
+            Yolanda
+            Zoila
 		}
 		
 		from_dynasty_prefix = "de "

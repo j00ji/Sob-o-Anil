@@ -1,0 +1,1800 @@
+495001 = {
+    name = "Abad"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495002 = {
+    name = "Aguilera"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495003 = {
+    name = "Alcívar"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495004 = {
+    name = "Altafuya"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495005 = {
+    name = "Alvarado"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495006 = {
+    name = "Anchundia"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495007 = {
+    name = "Andaluz"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495008 = {
+    name = "Anzules"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495009 = {
+    name = "Apolinario"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495010 = {
+    name = "Apráez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495011 = {
+    name = "Aragundi"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495012 = {
+    name = "Arcentales"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495013 = {
+    name = "Aristega"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495014 = {
+    name = "Arizaga"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495015 = {
+    name = "Arreaga"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495016 = {
+    name = "Arroba"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495017 = {
+    name = "Arzube"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495018 = {
+    name = "Asán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495019 = {
+    name = "Asanza"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495020 = {
+    name = "Asencio"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495021 = {
+    name = "Aveiga"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495022 = {
+    name = "Avilés"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495023 = {
+    name = "Ayoví"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495024 = {
+    name = "Béjar"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495025 = {
+    name = "Bacilio"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495026 = {
+    name = "Baidal"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495027 = {
+    name = "Bailón"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495028 = {
+    name = "Bajaña"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495029 = {
+    name = "Banchón"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495030 = {
+    name = "Baqué"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495031 = {
+    name = "Baquerzio"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495032 = {
+    name = "Barberán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495033 = {
+    name = "Barcia"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495034 = {
+    name = "Barco"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495035 = {
+    name = "Barrazueta"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495036 = {
+    name = "Barzallo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495037 = {
+    name = "Barzola"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495038 = {
+    name = "Batioja"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495039 = {
+    name = "Bazurto"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495040 = {
+    name = "Bejeguen"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495041 = {
+    name = "Bermello"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495042 = {
+    name = "Bernardino"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495043 = {
+    name = "Blum"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495044 = {
+    name = "Bodero"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495045 = {
+    name = "Bohórquez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495046 = {
+    name = "Borbor"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495047 = {
+    name = "Bowen"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495048 = {
+    name = "Briones"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495049 = {
+    name = "Bucaram"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495050 = {
+    name = "Bucheli"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495051 = {
+    name = "Burgos"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495052 = {
+    name = "Caiche"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495053 = {
+    name = "Calahorrano"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495054 = {
+    name = "Campuzano"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495055 = {
+    name = "Cangá"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495056 = {
+    name = "Cantos"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495057 = {
+    name = "Carbo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495058 = {
+    name = "Carranza"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495059 = {
+    name = "Carvache"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495060 = {
+    name = "Catagua"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495061 = {
+    name = "Catuto"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495062 = {
+    name = "Cavagnaro"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495063 = {
+    name = "Cedeño"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495064 = {
+    name = "Chóez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495065 = {
+    name = "Chalén"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495066 = {
+    name = "Chalar"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495067 = {
+    name = "Chancay"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495068 = {
+    name = "Chang"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495069 = {
+    name = "Chenche"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495070 = {
+    name = "Chilán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495071 = {
+    name = "Chiriboga"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495072 = {
+    name = "Chiriguaya"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495073 = {
+    name = "Clemente"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495074 = {
+    name = "Cobeña"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495075 = {
+    name = "Coello"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495076 = {
+    name = "Conforme"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495077 = {
+    name = "Constanté"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495078 = {
+    name = "Cornejo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495079 = {
+    name = "Corozo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495080 = {
+    name = "Cortez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495081 = {
+    name = "Crespín"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495082 = {
+    name = "Crespo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495083 = {
+    name = "Cruz"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495084 = {
+    name = "Cruzatti"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495085 = {
+    name = "Cucalón"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495086 = {
+    name = "Cujilema"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495087 = {
+    name = "Dahik"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495088 = {
+    name = "Doumet"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495089 = {
+    name = "Drouet"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495090 = {
+    name = "Dunkley"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495091 = {
+    name = "Echaíz"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495092 = {
+    name = "Eusebio"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495093 = {
+    name = "Fajardo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495094 = {
+    name = "Falcones"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495095 = {
+    name = "Falconi"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495096 = {
+    name = "Falquez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495097 = {
+    name = "Feijóo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495098 = {
+    name = "Feraud"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495099 = {
+    name = "Ferigra"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495100 = {
+    name = "Floreano"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495101 = {
+    name = "Flores de Valgas"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495102 = {
+    name = "Franco"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495103 = {
+    name = "Fuentes"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495104 = {
+    name = "Gabino"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495105 = {
+    name = "Gaibor"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495106 = {
+    name = "Gallegos"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495107 = {
+    name = "Ganchozo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495108 = {
+    name = "Garófalo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495109 = {
+    name = "Garaycoa"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495110 = {
+    name = "Gavilánez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495111 = {
+    name = "Gil"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495112 = {
+    name = "Gilbert"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495113 = {
+    name = "Gilces"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495114 = {
+    name = "Giler"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495115 = {
+    name = "Gonzabay"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495116 = {
+    name = "Gorozabel"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495117 = {
+    name = "Grijalva"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495118 = {
+    name = "Guadamud"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495119 = {
+    name = "Guale"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495120 = {
+    name = "Guaranda"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495121 = {
+    name = "Guerrero"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495122 = {
+    name = "Hanze"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495123 = {
+    name = "Herkt"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495124 = {
+    name = "Hermenejildo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495125 = {
+    name = "Holguín"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495126 = {
+    name = "Hoppe"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495127 = {
+    name = "Huacón"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495128 = {
+    name = "Hurtado"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495129 = {
+    name = "Illingworth"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495130 = {
+    name = "Intriago"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495131 = {
+    name = "Isaías"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495132 = {
+    name = "Itúrburu"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495133 = {
+    name = "Izurieta"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495134 = {
+    name = "Jalil"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495135 = {
+    name = "Jurado"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495136 = {
+    name = "Klinger"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495137 = {
+    name = "Laínez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495138 = {
+    name = "Lasso"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495139 = {
+    name = "Lavayen"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495140 = {
+    name = "Lindao"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495141 = {
+    name = "Lino"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495142 = {
+    name = "Linzán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495143 = {
+    name = "Liriano"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495144 = {
+    name = "Llaguno"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495145 = {
+    name = "Llerena"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495146 = {
+    name = "Loffredo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495147 = {
+    name = "Lombeida"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495148 = {
+    name = "Loor"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495149 = {
+    name = "Lozano"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495150 = {
+    name = "Luzárraga"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495151 = {
+    name = "Mórtola"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495152 = {
+    name = "Mackliff"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495153 = {
+    name = "Magallán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495154 = {
+    name = "Malavé"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495155 = {
+    name = "Mancheno"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495156 = {
+    name = "Mantuano"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495157 = {
+    name = "Manzaba"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495158 = {
+    name = "Marcillo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495159 = {
+    name = "Marriott"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495160 = {
+    name = "Martillo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495161 = {
+    name = "Maruri"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495162 = {
+    name = "Mazamba"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495163 = {
+    name = "Mazzini"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495164 = {
+    name = "Mejillón"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495165 = {
+    name = "Menoscal"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495166 = {
+    name = "Merchán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495167 = {
+    name = "Merejildo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495168 = {
+    name = "Merizalde"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495169 = {
+    name = "Mero"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495170 = {
+    name = "Miraba"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495171 = {
+    name = "Miranda"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495172 = {
+    name = "Mite"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495173 = {
+    name = "Mogrovejo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495174 = {
+    name = "Moncayo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495175 = {
+    name = "Monserrate"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495176 = {
+    name = "Montesdeoca"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495177 = {
+    name = "Montoya"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495178 = {
+    name = "Morán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495179 = {
+    name = "Mora"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495180 = {
+    name = "Moreira"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495181 = {
+    name = "Morgner"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495182 = {
+    name = "Mosquera"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495183 = {
+    name = "Muentes"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495184 = {
+    name = "Murillo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495185 = {
+    name = "Neira"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495186 = {
+    name = "Neumane"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495187 = {
+    name = "Noboa"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495188 = {
+    name = "Novillo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495189 = {
+    name = "Oña"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495190 = {
+    name = "Obaco"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495191 = {
+    name = "Ordeñana"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495192 = {
+    name = "Ormaza"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495193 = {
+    name = "Orrala"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495194 = {
+    name = "Ostaiza"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495195 = {
+    name = "Párraga"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495196 = {
+    name = "Panchana"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495197 = {
+    name = "Panimboza"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495198 = {
+    name = "Pareja"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495199 = {
+    name = "Parrales"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495200 = {
+    name = "Perero"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495201 = {
+    name = "Piguave"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495202 = {
+    name = "Pilligua"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495203 = {
+    name = "Pilozo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495204 = {
+    name = "Pinargote"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495205 = {
+    name = "Pincay"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495206 = {
+    name = "Plúas"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495207 = {
+    name = "Plazarte"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495208 = {
+    name = "Porozo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495209 = {
+    name = "Posligua"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495210 = {
+    name = "Pozo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495211 = {
+    name = "Quijije"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495212 = {
+    name = "Quimi"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495213 = {
+    name = "Quinde"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495214 = {
+    name = "Quinto"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495215 = {
+    name = "Quiroz"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495216 = {
+    name = "Quirumbay"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495217 = {
+    name = "Rendón"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495218 = {
+    name = "Reyes"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495219 = {
+    name = "Rezabala"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495220 = {
+    name = "Ribadeneira"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495221 = {
+    name = "Rivas"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495222 = {
+    name = "Robalino"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495223 = {
+    name = "Robles"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495224 = {
+    name = "Rocafuerte"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495225 = {
+    name = "Rodríguez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495226 = {
+    name = "Roggiero"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495227 = {
+    name = "Roldós"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495228 = {
+    name = "Ronquillo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495229 = {
+    name = "Rosales"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495230 = {
+    name = "Rugel"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495231 = {
+    name = "Saá"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495232 = {
+    name = "Saad"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495233 = {
+    name = "Sabando"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495234 = {
+    name = "Salavarría"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495235 = {
+    name = "Sampietro"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495236 = {
+    name = "Sancán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495237 = {
+    name = "Sanlucas"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495238 = {
+    name = "Santistevan"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495239 = {
+    name = "Saraguro"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495240 = {
+    name = "Scippa"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495241 = {
+    name = "Sellán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495242 = {
+    name = "Severino"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495243 = {
+    name = "Sigcho"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495244 = {
+    name = "Silvestre"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495245 = {
+    name = "Simisterra"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495246 = {
+    name = "Solórzano"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495247 = {
+    name = "Soledispa"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495248 = {
+    name = "Sonnenholzner"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495249 = {
+    name = "Soriano"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495250 = {
+    name = "Sornoza"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495251 = {
+    name = "Stopper"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495252 = {
+    name = "Suárez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495253 = {
+    name = "Suasti"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495254 = {
+    name = "Sudario"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495255 = {
+    name = "Tabárez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495256 = {
+    name = "Tandazo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495257 = {
+    name = "Tarira"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495258 = {
+    name = "Terranova"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495259 = {
+    name = "Tigrero"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495260 = {
+    name = "Toalá"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495261 = {
+    name = "Tomalá"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495262 = {
+    name = "Tuárez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495263 = {
+    name = "Tubay"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495264 = {
+    name = "Tumbaco"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495265 = {
+    name = "Tutivén"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495266 = {
+    name = "Ullauri"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495267 = {
+    name = "Unamuno"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495268 = {
+    name = "Urgilés"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495269 = {
+    name = "Urrúnaga"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495270 = {
+    name = "Uyaguari"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495271 = {
+    name = "Vélez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495272 = {
+    name = "Véliz"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495273 = {
+    name = "Valarezo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495274 = {
+    name = "Valverde"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495275 = {
+    name = "Vargas"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495276 = {
+    name = "Velasteguí"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495277 = {
+    name = "Vera"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495278 = {
+    name = "Vernaza"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495279 = {
+    name = "Villón"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495280 = {
+    name = "Villacreces"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495281 = {
+    name = "Villamar"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495282 = {
+    name = "Villao"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495283 = {
+    name = "Villaprado"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495284 = {
+    name = "Villaquirán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495285 = {
+    name = "Vinces"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495286 = {
+    name = "Viteri"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495287 = {
+    name = "Vizueta"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495288 = {
+    name = "Vulgarín"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495289 = {
+    name = "Wonsang"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495290 = {
+    name = "Yagual"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495291 = {
+    name = "Ycaza"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495292 = {
+    name = "Yúnez"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495293 = {
+    name = "Yoza"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495294 = {
+    name = "Yulán"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495295 = {
+    name = "Zambrano"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495296 = {
+    name = "Ziade"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495297 = {
+    name = "de la Cuadra"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495298 = {
+    name = "del Cioppo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495299 = {
+    name = "del Pezo"
+    culture = guayasense
+    # Add more properties as needed
+}
+
+495300 = {
+    name = "del Salto"
+    culture = guayasense
+    # Add more properties as needed
+}
+

@@ -1,0 +1,1740 @@
+505500 = {
+    name = "Ávalos"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505501 = {
+    name = "Ávila"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505502 = {
+    name = "Aburto"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505503 = {
+    name = "Acuña"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505504 = {
+    name = "Agurto"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505505 = {
+    name = "Ahón"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505506 = {
+    name = "Alcántara"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505507 = {
+    name = "Aliaga"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505508 = {
+    name = "Alva"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505509 = {
+    name = "Alzamora"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505510 = {
+    name = "Andrade"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505511 = {
+    name = "Apolinario"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505512 = {
+    name = "Arakaki"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505513 = {
+    name = "Arashiro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505514 = {
+    name = "Arias"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505515 = {
+    name = "Arnao"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505516 = {
+    name = "Arriarán"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505517 = {
+    name = "Asato"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505518 = {
+    name = "Asencios"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505519 = {
+    name = "Atoche"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505520 = {
+    name = "Baldeón"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505521 = {
+    name = "Baquíjano"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505522 = {
+    name = "Barreto"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505523 = {
+    name = "Barrientos"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505524 = {
+    name = "Bazalar"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505525 = {
+    name = "Bendezú"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505526 = {
+    name = "Bernal"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505527 = {
+    name = "Berrocal"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505528 = {
+    name = "Berrospi"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505529 = {
+    name = "Blas"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505530 = {
+    name = "Bolognesi"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505531 = {
+    name = "Borja"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505532 = {
+    name = "Bravo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505533 = {
+    name = "Brescia"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505534 = {
+    name = "Briceño"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505535 = {
+    name = "Bustamante"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505536 = {
+    name = "Cáceda"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505537 = {
+    name = "Cárdich"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505538 = {
+    name = "Caballero"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505539 = {
+    name = "Cadillo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505540 = {
+    name = "Calatayud"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505541 = {
+    name = "Callens"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505542 = {
+    name = "Camacho"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505543 = {
+    name = "Campos"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505544 = {
+    name = "Canales"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505545 = {
+    name = "Canchanya"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505546 = {
+    name = "Candamo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505547 = {
+    name = "Candela"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505548 = {
+    name = "Canevaro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505549 = {
+    name = "Capcha"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505550 = {
+    name = "Carhuaricra"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505551 = {
+    name = "Carrillo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505552 = {
+    name = "Casas"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505553 = {
+    name = "Castillo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505554 = {
+    name = "Caycho"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505555 = {
+    name = "Cerna"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505556 = {
+    name = "Cevasco"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505557 = {
+    name = "Chang"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505558 = {
+    name = "Choy"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505559 = {
+    name = "Chumpitaz"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505560 = {
+    name = "Chunga"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505561 = {
+    name = "Cillóniz"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505562 = {
+    name = "Cisneros"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505563 = {
+    name = "Colán"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505564 = {
+    name = "Collantes"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505565 = {
+    name = "Condor"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505566 = {
+    name = "Cuadros"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505567 = {
+    name = "Cuya"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505568 = {
+    name = "Cuzcano"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505569 = {
+    name = "Dammert"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505570 = {
+    name = "Degregori"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505571 = {
+    name = "Denegri"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505572 = {
+    name = "Dorregaray"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505573 = {
+    name = "Durand"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505574 = {
+    name = "Eléspuru"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505575 = {
+    name = "Elguera"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505576 = {
+    name = "Espíritu"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505577 = {
+    name = "Espinoza"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505578 = {
+    name = "Estremadoyro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505579 = {
+    name = "Falcón"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505580 = {
+    name = "Fanning"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505581 = {
+    name = "Ferreyros"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505582 = {
+    name = "Francia"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505583 = {
+    name = "Freundt"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505584 = {
+    name = "Gallese"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505585 = {
+    name = "Gamarra"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505586 = {
+    name = "Garay"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505587 = {
+    name = "Gargurevich"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505588 = {
+    name = "Gastañeta"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505589 = {
+    name = "Girón"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505590 = {
+    name = "Giraldo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505591 = {
+    name = "González"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505592 = {
+    name = "Gorbitz"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505593 = {
+    name = "Grados"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505594 = {
+    name = "Grau"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505595 = {
+    name = "Guibovich"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505596 = {
+    name = "Higa"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505597 = {
+    name = "Hinostroza"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505598 = {
+    name = "Hirano"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505599 = {
+    name = "Huapaya"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505600 = {
+    name = "Huaranga"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505601 = {
+    name = "Huarcaya"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505602 = {
+    name = "Huari"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505603 = {
+    name = "Huerta"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505604 = {
+    name = "Ichikawa"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505605 = {
+    name = "Igreda"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505606 = {
+    name = "Inafuko"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505607 = {
+    name = "Inga"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505608 = {
+    name = "Iwasaki"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505609 = {
+    name = "Jara"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505610 = {
+    name = "Javier"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505611 = {
+    name = "Julca"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505612 = {
+    name = "Kanashiro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505613 = {
+    name = "Kuong"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505614 = {
+    name = "Lázaro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505615 = {
+    name = "Lévano"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505616 = {
+    name = "La Hoz"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505617 = {
+    name = "La Rosa"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505618 = {
+    name = "Lazón"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505619 = {
+    name = "León"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505620 = {
+    name = "Lecca"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505621 = {
+    name = "Leguía"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505622 = {
+    name = "Lepiani"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505623 = {
+    name = "Lequernaqué"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505624 = {
+    name = "Leyva"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505625 = {
+    name = "Liñán"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505626 = {
+    name = "Llona"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505627 = {
+    name = "Llosa"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505628 = {
+    name = "Loayza"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505629 = {
+    name = "Lock"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505630 = {
+    name = "Luyo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505631 = {
+    name = "Malpartida"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505632 = {
+    name = "Manco"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505633 = {
+    name = "Manrique"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505634 = {
+    name = "Martínez"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505635 = {
+    name = "Maruyama"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505636 = {
+    name = "Matos"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505637 = {
+    name = "Matzuda"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505638 = {
+    name = "Medrano"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505639 = {
+    name = "Meléndez"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505640 = {
+    name = "Melgarejo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505641 = {
+    name = "Meza"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505642 = {
+    name = "Minaya"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505643 = {
+    name = "Miró"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505644 = {
+    name = "Miyashiro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505645 = {
+    name = "Montes"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505646 = {
+    name = "Montoro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505647 = {
+    name = "Morales"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505648 = {
+    name = "Morante"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505649 = {
+    name = "Mori"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505650 = {
+    name = "Morikawa"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505651 = {
+    name = "Murrugarra"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505652 = {
+    name = "Nakama"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505653 = {
+    name = "Nakamura"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505654 = {
+    name = "Nicho"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505655 = {
+    name = "Nolazco"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505656 = {
+    name = "Obispo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505657 = {
+    name = "Obregón"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505658 = {
+    name = "Ochante"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505659 = {
+    name = "Ojeda"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505660 = {
+    name = "Olórtegui"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505661 = {
+    name = "Olascuaga"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505662 = {
+    name = "Olláguez"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505663 = {
+    name = "Oré"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505664 = {
+    name = "Orbegoso"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505665 = {
+    name = "Ortega"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505666 = {
+    name = "Ortiz"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505667 = {
+    name = "Ortiz de Zevallos"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505668 = {
+    name = "Osma"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505669 = {
+    name = "Osorio"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505670 = {
+    name = "Osterling"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505671 = {
+    name = "Otoya"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505672 = {
+    name = "Oyola"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505673 = {
+    name = "Padilla"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505674 = {
+    name = "Pajuelo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505675 = {
+    name = "Palma"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505676 = {
+    name = "Petrozzi"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505677 = {
+    name = "Pfl u uml cker"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505678 = {
+    name = "Porras"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505679 = {
+    name = "Portocarrero"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505680 = {
+    name = "Prado"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505681 = {
+    name = "Pretell"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505682 = {
+    name = "Quijandría"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505683 = {
+    name = "Quiroz"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505684 = {
+    name = "Ríos"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505685 = {
+    name = "Ramírez"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505686 = {
+    name = "Ramos"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505687 = {
+    name = "Reátegui"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505688 = {
+    name = "Reaño"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505689 = {
+    name = "Remuzgo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505690 = {
+    name = "Rengifo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505691 = {
+    name = "Reyes"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505692 = {
+    name = "Ribeyro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505693 = {
+    name = "Rivadeneyra"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505694 = {
+    name = "Rivas"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505695 = {
+    name = "Rivera"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505696 = {
+    name = "Robles"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505697 = {
+    name = "Rodríguez"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505698 = {
+    name = "Roggero"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505699 = {
+    name = "Rojas"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505700 = {
+    name = "Román"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505701 = {
+    name = "Romero"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505702 = {
+    name = "Roque"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505703 = {
+    name = "Rosales"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505704 = {
+    name = "Rosas"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505705 = {
+    name = "Rospigliosi"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505706 = {
+    name = "Rossel"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505707 = {
+    name = "Rossini"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505708 = {
+    name = "Rostworowski"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505709 = {
+    name = "Ruiz"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505710 = {
+    name = "Rupay"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505711 = {
+    name = "Sánchez"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505712 = {
+    name = "Saldarriaga"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505713 = {
+    name = "Salinas"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505714 = {
+    name = "Salvador"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505715 = {
+    name = "Santos"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505716 = {
+    name = "Sayán"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505717 = {
+    name = "Schuler"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505718 = {
+    name = "Shimabukuro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505719 = {
+    name = "Shinki"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505720 = {
+    name = "Sifuentes"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505721 = {
+    name = "Siu"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505722 = {
+    name = "Solís"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505723 = {
+    name = "Solórzano"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505724 = {
+    name = "Solano"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505725 = {
+    name = "Sologuren"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505726 = {
+    name = "Soto"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505727 = {
+    name = "Sulca"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505728 = {
+    name = "Tafur"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505729 = {
+    name = "Tagle"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505730 = {
+    name = "Takayama"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505731 = {
+    name = "Tamashiro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505732 = {
+    name = "Tarazona"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505733 = {
+    name = "Terry"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505734 = {
+    name = "Thorne"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505735 = {
+    name = "Tokeshi"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505736 = {
+    name = "Toledo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505737 = {
+    name = "Tolentino"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505738 = {
+    name = "Tong"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505739 = {
+    name = "Toribio"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505740 = {
+    name = "Trelles"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505741 = {
+    name = "Trujillo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505742 = {
+    name = "Tsuchiya"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505743 = {
+    name = "Tudela"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505744 = {
+    name = "Uehara"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505745 = {
+    name = "Ugarelli"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505746 = {
+    name = "Urbano"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505747 = {
+    name = "Urbina"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505748 = {
+    name = "Urbizagástegui"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505749 = {
+    name = "Urdanivia"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505750 = {
+    name = "Valenzuela"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505751 = {
+    name = "Valladares"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505752 = {
+    name = "Valverde"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505753 = {
+    name = "Vega"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505754 = {
+    name = "Ventocilla"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505755 = {
+    name = "Verástegui"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505756 = {
+    name = "Veramendi"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505757 = {
+    name = "Vicente"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505758 = {
+    name = "Vicharra"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505759 = {
+    name = "Vicuña"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505760 = {
+    name = "Villalobos"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505761 = {
+    name = "Villanueva"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505762 = {
+    name = "Villarán"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505763 = {
+    name = "Villarreal"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505764 = {
+    name = "Watanabe"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505765 = {
+    name = "Wiesse"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505766 = {
+    name = "Wong"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505767 = {
+    name = "Yábar"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505768 = {
+    name = "Yactayo"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505769 = {
+    name = "Yamashiro"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505770 = {
+    name = "Yamazoto"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505771 = {
+    name = "Yaya"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505772 = {
+    name = "Yep"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505773 = {
+    name = "Yotún"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505774 = {
+    name = "Zárate"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505775 = {
+    name = "Zagal"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505776 = {
+    name = "Zamudio"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505777 = {
+    name = "Zanabria"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505778 = {
+    name = "Zapatel"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505779 = {
+    name = "Zavala"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505780 = {
+    name = "Zulen"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505781 = {
+    name = "de Althaus"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505782 = {
+    name = "de Lavalle"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505783 = {
+    name = "de Piérola"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505784 = {
+    name = "de Romaña"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505785 = {
+    name = "de Trazegnies"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505786 = {
+    name = "de la Riva Ag u uml ero"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505787 = {
+    name = "de las Casas"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505788 = {
+    name = "del Carpio"
+    culture = rimense
+    # Add more properties as needed
+}
+
+505789 = {
+    name = "del Solar"
+    culture = rimense
+    # Add more properties as needed
+}
+

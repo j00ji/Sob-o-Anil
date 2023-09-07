@@ -1,0 +1,1320 @@
+535500 = {
+    name = "Álvarez"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535501 = {
+    name = "Añamuro"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535502 = {
+    name = "Agramonte"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535503 = {
+    name = "Alfaro"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535504 = {
+    name = "Ancasi"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535505 = {
+    name = "Anco"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535506 = {
+    name = "Andía"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535507 = {
+    name = "Apaza"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535508 = {
+    name = "Aragón"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535509 = {
+    name = "Arakaki"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535510 = {
+    name = "Araníbar"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535511 = {
+    name = "Aranzamendi"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535512 = {
+    name = "Arapa"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535513 = {
+    name = "Arce"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535514 = {
+    name = "Arenas"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535515 = {
+    name = "Arhuire"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535516 = {
+    name = "Arisaca"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535517 = {
+    name = "Arizama"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535518 = {
+    name = "Arróspide"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535519 = {
+    name = "Arratea"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535520 = {
+    name = "Ascuña"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535521 = {
+    name = "Atamari"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535522 = {
+    name = "Béjar"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535523 = {
+    name = "Balbuena"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535524 = {
+    name = "Baldarrago"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535525 = {
+    name = "Ballón"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535526 = {
+    name = "Barreda"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535527 = {
+    name = "Barriga"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535528 = {
+    name = "Barrios"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535529 = {
+    name = "Basurco"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535530 = {
+    name = "Batallanos"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535531 = {
+    name = "Bedregal"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535532 = {
+    name = "Begazo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535533 = {
+    name = "Bejarano"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535534 = {
+    name = "Belaúnde"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535535 = {
+    name = "Bellido"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535536 = {
+    name = "Benavente"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535537 = {
+    name = "Benavides"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535538 = {
+    name = "Beretta"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535539 = {
+    name = "Bernal"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535540 = {
+    name = "Bernedo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535541 = {
+    name = "Bouroncle"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535542 = {
+    name = "Brousset"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535543 = {
+    name = "Bustinza"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535544 = {
+    name = "Butrón"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535545 = {
+    name = "Cáceres"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535546 = {
+    name = "Cárdenas"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535547 = {
+    name = "Cabana"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535548 = {
+    name = "Cahuana"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535549 = {
+    name = "Calcina"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535550 = {
+    name = "Calla"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535551 = {
+    name = "Camargo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535552 = {
+    name = "Canaza"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535553 = {
+    name = "Cari"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535554 = {
+    name = "Carpio"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535555 = {
+    name = "Casapía"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535556 = {
+    name = "Cayllahua"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535557 = {
+    name = "Chávez"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535558 = {
+    name = "Chacón"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535559 = {
+    name = "Chañi"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535560 = {
+    name = "Chambi"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535561 = {
+    name = "Chauca"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535562 = {
+    name = "Chirinos"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535563 = {
+    name = "Choque"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535564 = {
+    name = "Choquehuanca"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535565 = {
+    name = "Chuctaya"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535566 = {
+    name = "Coáguila"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535567 = {
+    name = "Coaquira"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535568 = {
+    name = "Colque"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535569 = {
+    name = "Condo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535570 = {
+    name = "Conza"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535571 = {
+    name = "Corbacho"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535572 = {
+    name = "Cornejo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535573 = {
+    name = "Corrales"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535574 = {
+    name = "Cortavitarte"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535575 = {
+    name = "Cruz"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535576 = {
+    name = "Cuadros"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535577 = {
+    name = "Cutipa"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535578 = {
+    name = "Díaz"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535579 = {
+    name = "Delgado"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535580 = {
+    name = "Enríquez"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535581 = {
+    name = "Erquinigo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535582 = {
+    name = "Estremadoyro"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535583 = {
+    name = "Falconí"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535584 = {
+    name = "Flores"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535585 = {
+    name = "Frisancho"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535586 = {
+    name = "Galdós"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535587 = {
+    name = "Gallegos"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535588 = {
+    name = "Gamarra"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535589 = {
+    name = "Goyzueta"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535590 = {
+    name = "Granda"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535591 = {
+    name = "Guillén"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535592 = {
+    name = "Guittón"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535593 = {
+    name = "Hacha"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535594 = {
+    name = "Hanampa"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535595 = {
+    name = "Hartley"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535596 = {
+    name = "Hau"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535597 = {
+    name = "Herencia"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535598 = {
+    name = "Huamán"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535599 = {
+    name = "Huamaní"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535600 = {
+    name = "Huanca"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535601 = {
+    name = "Huayhua"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535602 = {
+    name = "Huayta"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535603 = {
+    name = "Inofuente"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535604 = {
+    name = "Iquiapaza"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535605 = {
+    name = "Iruri"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535606 = {
+    name = "Ito"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535607 = {
+    name = "Kana"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535608 = {
+    name = "Lajo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535609 = {
+    name = "Larico"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535610 = {
+    name = "Laura"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535611 = {
+    name = "Lavalle"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535612 = {
+    name = "Lazo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535613 = {
+    name = "Letamendia"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535614 = {
+    name = "Llamoca"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535615 = {
+    name = "Llerena"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535616 = {
+    name = "Llosa"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535617 = {
+    name = "Lope"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535618 = {
+    name = "Lovón"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535619 = {
+    name = "Luque"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535620 = {
+    name = "Málaga"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535621 = {
+    name = "Macedo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535622 = {
+    name = "Machaca"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535623 = {
+    name = "Madueño"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535624 = {
+    name = "Manchego"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535625 = {
+    name = "Manrique"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535626 = {
+    name = "Mayhuire"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535627 = {
+    name = "Mayta"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535628 = {
+    name = "Medina"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535629 = {
+    name = "Melgar"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535630 = {
+    name = "Mendoza"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535631 = {
+    name = "Merma"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535632 = {
+    name = "Mestas"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535633 = {
+    name = "Mogrovejo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535634 = {
+    name = "Molina"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535635 = {
+    name = "Mollo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535636 = {
+    name = "Montoya"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535637 = {
+    name = "Moscoso"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535638 = {
+    name = "Motta"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535639 = {
+    name = "N tld uñuri"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535640 = {
+    name = "Núñez"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535641 = {
+    name = "Neyra"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535642 = {
+    name = "Olaechea"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535643 = {
+    name = "Olanda"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535644 = {
+    name = "Olazábal"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535645 = {
+    name = "Oviedo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535646 = {
+    name = "Oxa"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535647 = {
+    name = "Pacheco"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535648 = {
+    name = "Paredes"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535649 = {
+    name = "Pari"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535650 = {
+    name = "Paulet"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535651 = {
+    name = "Peralta"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535652 = {
+    name = "Piñarreta"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535653 = {
+    name = "Pinto"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535654 = {
+    name = "Portugal"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535655 = {
+    name = "Postigo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535656 = {
+    name = "Prado"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535657 = {
+    name = "Puma"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535658 = {
+    name = "Químper"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535659 = {
+    name = "Quicaña"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535660 = {
+    name = "Quico"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535661 = {
+    name = "Ramos"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535662 = {
+    name = "Ranilla"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535663 = {
+    name = "Retamozo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535664 = {
+    name = "Revilla"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535665 = {
+    name = "Ricketts"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535666 = {
+    name = "Rivera"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535667 = {
+    name = "Roque"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535668 = {
+    name = "Rosas"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535669 = {
+    name = "Salas"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535670 = {
+    name = "Salcedo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535671 = {
+    name = "Santayana"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535672 = {
+    name = "Sarayasi"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535673 = {
+    name = "Seguín"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535674 = {
+    name = "Sencia"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535675 = {
+    name = "Sivincha"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535676 = {
+    name = "Soldán"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535677 = {
+    name = "Soncco"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535678 = {
+    name = "Suaña"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535679 = {
+    name = "Sulla"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535680 = {
+    name = "Supo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535681 = {
+    name = "Surco"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535682 = {
+    name = "Tacca"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535683 = {
+    name = "Talavera"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535684 = {
+    name = "Tapia"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535685 = {
+    name = "Tejada"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535686 = {
+    name = "Ticona"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535687 = {
+    name = "Tito"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535688 = {
+    name = "Torres"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535689 = {
+    name = "Turpo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535690 = {
+    name = "Ugarte"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535691 = {
+    name = "Urday"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535692 = {
+    name = "Uscamayta"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535693 = {
+    name = "Valcárcel"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535694 = {
+    name = "Valdivia"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535695 = {
+    name = "Valencia"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535696 = {
+    name = "Velásquez"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535697 = {
+    name = "Velarde"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535698 = {
+    name = "Vera"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535699 = {
+    name = "Vilca"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535700 = {
+    name = "Villaorduña"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535701 = {
+    name = "Villasante"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535702 = {
+    name = "Vizcardo"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535703 = {
+    name = "Yana"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535704 = {
+    name = "Yauri"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535705 = {
+    name = "Yllanes"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535706 = {
+    name = "Yucra"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535707 = {
+    name = "Zúñiga"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535708 = {
+    name = "Zagastizábal"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535709 = {
+    name = "Zamalloa"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535710 = {
+    name = "Zamata"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535711 = {
+    name = "Zapana"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535712 = {
+    name = "Zavalaga"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535713 = {
+    name = "Zea"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535714 = {
+    name = "Zeballos"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535715 = {
+    name = "Zegarra"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535716 = {
+    name = "Zevallos"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535717 = {
+    name = "Zuasnabar"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535718 = {
+    name = "Zumarán"
+    culture = arequipeno
+    # Add more properties as needed
+}
+
+535719 = {
+    name = "del Carpio"
+    culture = arequipeno
+    # Add more properties as needed
+}
+

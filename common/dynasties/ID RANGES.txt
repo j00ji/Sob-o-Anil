@@ -144,12 +144,13 @@
 ### Guayasense - 495001 - 500000
 ### Iqueño - 500001 - 505000
 ### Rimense - 505001 - 510000
-### Ileno - 510001 - 515000
 ### Northechicano - 510001 - 515000
 ### Northegrandeano - 510001 - 515000
 ### Huascareno - 515001 - 520000
 ### Charapa - 520001 - 525000
 ### Oxapampino - 525001 - 530000
+### Arequipeno - 535001 - 540000
+### Ileno - 540001 - 545000
 
 # AMAZONIAN RANGE 530001
 ### Wari' - 530001 - 535000

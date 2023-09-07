@@ -1,0 +1,1200 @@
+540001 = {
+    name = "Acero"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540002 = {
+    name = "Achata"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540003 = {
+    name = "Aguilar"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540004 = {
+    name = "Ajahuana"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540005 = {
+    name = "Alania"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540006 = {
+    name = "Alanoca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540007 = {
+    name = "Alave"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540008 = {
+    name = "Ale"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540009 = {
+    name = "Alférez"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540010 = {
+    name = "Amésquita"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540011 = {
+    name = "Anahua"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540012 = {
+    name = "Anco"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540013 = {
+    name = "Apaza"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540014 = {
+    name = "Arias"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540015 = {
+    name = "Arocutipa"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540016 = {
+    name = "Arpasi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540017 = {
+    name = "Arratia"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540018 = {
+    name = "Asencio"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540019 = {
+    name = "Atencio"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540020 = {
+    name = "Ayca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540021 = {
+    name = "Bacigalupo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540022 = {
+    name = "Baldarrago"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540023 = {
+    name = "Basadre"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540024 = {
+    name = "Bengoa"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540025 = {
+    name = "Bernales"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540026 = {
+    name = "Berríos"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540027 = {
+    name = "Bertolotto"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540028 = {
+    name = "Cáceres"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540029 = {
+    name = "Cúneo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540030 = {
+    name = "Cañi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540031 = {
+    name = "Cahuana"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540032 = {
+    name = "Calderón"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540033 = {
+    name = "Calizaya"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540034 = {
+    name = "Calla"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540035 = {
+    name = "Callacondo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540036 = {
+    name = "Carita"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540037 = {
+    name = "Carpio"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540038 = {
+    name = "Casani"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540039 = {
+    name = "Catacora"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540040 = {
+    name = "Catunta"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540041 = {
+    name = "Cavagnaro"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540042 = {
+    name = "Caytano"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540043 = {
+    name = "Centeno"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540044 = {
+    name = "Chambi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540045 = {
+    name = "Chambilla"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540046 = {
+    name = "Charca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540047 = {
+    name = "Chata"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540048 = {
+    name = "Chiang"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540049 = {
+    name = "Chiarella"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540050 = {
+    name = "Chino"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540051 = {
+    name = "Chipana"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540052 = {
+    name = "Chire"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540053 = {
+    name = "Chocano"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540054 = {
+    name = "Choque"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540055 = {
+    name = "Choqueña"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540056 = {
+    name = "Choquecota"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540057 = {
+    name = "Choquegonza"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540058 = {
+    name = "Choquehuanca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540059 = {
+    name = "Chura"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540060 = {
+    name = "Coaguila"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540061 = {
+    name = "Coaquira"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540062 = {
+    name = "Cohaila"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540063 = {
+    name = "Colana"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540064 = {
+    name = "Colque"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540065 = {
+    name = "Cornejo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540066 = {
+    name = "Cosi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540067 = {
+    name = "Cotrado"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540068 = {
+    name = "Cruz"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540069 = {
+    name = "Cuayla"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540070 = {
+    name = "Curi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540071 = {
+    name = "Cutipa"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540072 = {
+    name = "Dongo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540073 = {
+    name = "Dueñas"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540074 = {
+    name = "Encinas"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540075 = {
+    name = "Escobar"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540076 = {
+    name = "Espezúa"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540077 = {
+    name = "Esquía"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540078 = {
+    name = "Eyzaguirre"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540079 = {
+    name = "Flor"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540080 = {
+    name = "Fuentes"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540081 = {
+    name = "Gómez"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540082 = {
+    name = "Gallegos"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540083 = {
+    name = "Gandolfo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540084 = {
+    name = "Ghersi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540085 = {
+    name = "Guillén"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540086 = {
+    name = "Gutiérrez"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540087 = {
+    name = "Hernani"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540088 = {
+    name = "Huacán"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540089 = {
+    name = "Huacho"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540090 = {
+    name = "Huallpa"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540091 = {
+    name = "Huanacuni"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540092 = {
+    name = "Huanca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540093 = {
+    name = "Huanchi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540094 = {
+    name = "Inquilla"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540095 = {
+    name = "Jiménez"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540096 = {
+    name = "Jinchuña"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540097 = {
+    name = "Kuong"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540098 = {
+    name = "Lajo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540099 = {
+    name = "Lanchipa"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540100 = {
+    name = "Laque"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540101 = {
+    name = "Larico"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540102 = {
+    name = "Laura"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540103 = {
+    name = "Layme"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540104 = {
+    name = "Lazo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540105 = {
+    name = "Liendo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540106 = {
+    name = "Limache"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540107 = {
+    name = "Linares"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540108 = {
+    name = "Llanos"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540109 = {
+    name = "Llanque"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540110 = {
+    name = "Llona"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540111 = {
+    name = "Loayza"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540112 = {
+    name = "Lombardi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540113 = {
+    name = "Loza"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540114 = {
+    name = "Lupaca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540115 = {
+    name = "Luque"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540116 = {
+    name = "Málaga"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540117 = {
+    name = "Machaca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540118 = {
+    name = "Mamani"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540119 = {
+    name = "Manchego"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540120 = {
+    name = "Manrique"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540121 = {
+    name = "Manzano"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540122 = {
+    name = "Maquera"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540123 = {
+    name = "Marón"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540124 = {
+    name = "Marca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540125 = {
+    name = "Mariátegui"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540126 = {
+    name = "Mariaca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540127 = {
+    name = "Mayta"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540128 = {
+    name = "Miovich"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540129 = {
+    name = "Miranda"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540130 = {
+    name = "Musaja"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540131 = {
+    name = "Muzzo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540132 = {
+    name = "Negrillo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540133 = {
+    name = "Nina"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540134 = {
+    name = "Ninaja"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540135 = {
+    name = "Onofre"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540136 = {
+    name = "Onque"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540137 = {
+    name = "Ordoñez"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540138 = {
+    name = "Ormeño"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540139 = {
+    name = "Osco"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540140 = {
+    name = "Palao"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540141 = {
+    name = "Palza"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540142 = {
+    name = "Paniagua"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540143 = {
+    name = "Pari"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540144 = {
+    name = "Paria"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540145 = {
+    name = "Parihuana"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540146 = {
+    name = "Pastor"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540147 = {
+    name = "Peñaloza"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540148 = {
+    name = "Perca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540149 = {
+    name = "Pilco"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540150 = {
+    name = "Pinto"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540151 = {
+    name = "Poma"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540152 = {
+    name = "Pongo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540153 = {
+    name = "Quenaya"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540154 = {
+    name = "Quenta"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540155 = {
+    name = "Quintanilla"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540156 = {
+    name = "Ramos"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540157 = {
+    name = "Rejas"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540158 = {
+    name = "Retamozo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540159 = {
+    name = "Roque"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540160 = {
+    name = "Rospigliosi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540161 = {
+    name = "Rossi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540162 = {
+    name = "Salamanca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540163 = {
+    name = "Salas"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540164 = {
+    name = "Sanjinez"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540165 = {
+    name = "Sardón"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540166 = {
+    name = "Sarmiento"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540167 = {
+    name = "Siña"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540168 = {
+    name = "Sihuayro"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540169 = {
+    name = "Sosa"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540170 = {
+    name = "Sucso"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540171 = {
+    name = "Tacora"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540172 = {
+    name = "Tala"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540173 = {
+    name = "Tapia"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540174 = {
+    name = "Tarqui"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540175 = {
+    name = "Tejada"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540176 = {
+    name = "Tesillo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540177 = {
+    name = "Ticahuanca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540178 = {
+    name = "Ticona"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540179 = {
+    name = "Tintaya"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540180 = {
+    name = "Turpo"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540181 = {
+    name = "Uchasara"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540182 = {
+    name = "Ururi"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540183 = {
+    name = "Valdez"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540184 = {
+    name = "Valdivia"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540185 = {
+    name = "Valencia"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540186 = {
+    name = "Vargas"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540187 = {
+    name = "Velarde"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540188 = {
+    name = "Ventura"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540189 = {
+    name = "Vera"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540190 = {
+    name = "Vilca"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540191 = {
+    name = "Vildoso"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540192 = {
+    name = "Vizcarra"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540193 = {
+    name = "Yufra"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540194 = {
+    name = "Zabalaga"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540195 = {
+    name = "Zanga"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540196 = {
+    name = "Zapana"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540197 = {
+    name = "Zapata"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540198 = {
+    name = "Zeballos"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540199 = {
+    name = "Zegarra"
+    culture = ileno
+    # Add more properties as needed
+}
+
+540200 = {
+    name = "Zela"
+    culture = ileno
+    # Add more properties as needed
+}
+

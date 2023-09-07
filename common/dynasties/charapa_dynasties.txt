@@ -1,0 +1,1080 @@
+520001 = {
+    name = "Abanto"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520002 = {
+    name = "Acho"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520003 = {
+    name = "Ahuanari"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520004 = {
+    name = "Ahuite"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520005 = {
+    name = "Altamirano"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520006 = {
+    name = "Alva"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520007 = {
+    name = "Amaringo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520008 = {
+    name = "Apagueño"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520009 = {
+    name = "Aréstegui"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520010 = {
+    name = "Arévalo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520011 = {
+    name = "Arbildo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520012 = {
+    name = "Arimuya"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520013 = {
+    name = "Arista"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520014 = {
+    name = "Arriaga"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520015 = {
+    name = "Aspajo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520016 = {
+    name = "Astigarraga"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520017 = {
+    name = "Ayarza"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520018 = {
+    name = "Bacalla"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520019 = {
+    name = "Barbarán"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520020 = {
+    name = "Barboza"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520021 = {
+    name = "Bardales"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520022 = {
+    name = "Bartra"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520023 = {
+    name = "Becerra"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520024 = {
+    name = "Bosmediano"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520025 = {
+    name = "Burga"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520026 = {
+    name = "Bustamante"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520027 = {
+    name = "Cánepa"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520028 = {
+    name = "Cáuper"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520029 = {
+    name = "Cabanillas"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520030 = {
+    name = "Campos"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520031 = {
+    name = "Canayo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520032 = {
+    name = "Carrasco"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520033 = {
+    name = "Celis"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520034 = {
+    name = "Chang"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520035 = {
+    name = "Ching"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520036 = {
+    name = "Chong"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520037 = {
+    name = "Chota"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520038 = {
+    name = "Chung"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520039 = {
+    name = "Cieza"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520040 = {
+    name = "Coello"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520041 = {
+    name = "Collantes"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520042 = {
+    name = "Collazos"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520043 = {
+    name = "Coquinche"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520044 = {
+    name = "Coronel"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520045 = {
+    name = "Cotrina"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520046 = {
+    name = "Cruz"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520047 = {
+    name = "Cruzado"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520048 = {
+    name = "Cubas"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520049 = {
+    name = "Cueva"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520050 = {
+    name = "Culqui"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520051 = {
+    name = "Curinchilla"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520052 = {
+    name = "Dávila"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520053 = {
+    name = "Delgado"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520054 = {
+    name = "Doñez"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520055 = {
+    name = "Donayre"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520056 = {
+    name = "Elescano"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520057 = {
+    name = "Fasanando"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520058 = {
+    name = "Fernández"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520059 = {
+    name = "Goñas"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520060 = {
+    name = "Goñez"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520061 = {
+    name = "Goicochea"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520062 = {
+    name = "Grández"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520063 = {
+    name = "Guevara"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520064 = {
+    name = "Herrera"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520065 = {
+    name = "Holanda"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520066 = {
+    name = "Horna"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520067 = {
+    name = "Hoyos"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520068 = {
+    name = "Idrogo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520069 = {
+    name = "Inuma"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520070 = {
+    name = "Isuiza"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520071 = {
+    name = "Izquierdo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520072 = {
+    name = "Julón"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520073 = {
+    name = "Julca"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520074 = {
+    name = "Kahn"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520075 = {
+    name = "López"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520076 = {
+    name = "La Torre"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520077 = {
+    name = "Lao"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520078 = {
+    name = "Lecca"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520079 = {
+    name = "Llaja"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520080 = {
+    name = "Llanos"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520081 = {
+    name = "Llerena"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520082 = {
+    name = "Llonto"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520083 = {
+    name = "Loja"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520084 = {
+    name = "Lomas"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520085 = {
+    name = "Lozano"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520086 = {
+    name = "Macedo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520087 = {
+    name = "Meléndez"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520088 = {
+    name = "Mendoza"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520089 = {
+    name = "Mera"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520090 = {
+    name = "Mestanza"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520091 = {
+    name = "Mondragón"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520092 = {
+    name = "Montenegro"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520093 = {
+    name = "Muñoz"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520094 = {
+    name = "Munárriz"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520095 = {
+    name = "Murayari"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520096 = {
+    name = "Murrieta"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520097 = {
+    name = "Nacimento"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520098 = {
+    name = "Noriega"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520099 = {
+    name = "Oblitas"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520100 = {
+    name = "Ocampo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520101 = {
+    name = "Ojanama"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520102 = {
+    name = "Olórtegui"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520103 = {
+    name = "Olano"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520104 = {
+    name = "Orbe"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520105 = {
+    name = "Orrego"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520106 = {
+    name = "Pérez"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520107 = {
+    name = "Panaifa"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520108 = {
+    name = "Panduro"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520109 = {
+    name = "Pantoja"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520110 = {
+    name = "Pezo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520111 = {
+    name = "Piñán"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520112 = {
+    name = "Piña"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520113 = {
+    name = "Pilco"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520114 = {
+    name = "Pinasco"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520115 = {
+    name = "Pinedo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520116 = {
+    name = "Pizango"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520117 = {
+    name = "Pizarro"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520118 = {
+    name = "Portocarrero"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520119 = {
+    name = "Prada"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520120 = {
+    name = "Puerta"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520121 = {
+    name = "Puscán"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520122 = {
+    name = "Reátegui"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520123 = {
+    name = "Rengifo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520124 = {
+    name = "Requejo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520125 = {
+    name = "Reyna"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520126 = {
+    name = "Ricopa"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520127 = {
+    name = "Riva"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520128 = {
+    name = "Saboya"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520129 = {
+    name = "Salazar"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520130 = {
+    name = "Saldaña"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520131 = {
+    name = "Sandi"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520132 = {
+    name = "Santillán"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520133 = {
+    name = "Saucedo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520134 = {
+    name = "Scavino"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520135 = {
+    name = "Segura"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520136 = {
+    name = "Serván"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520137 = {
+    name = "Silva"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520138 = {
+    name = "Silvano"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520139 = {
+    name = "Sinarahua"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520140 = {
+    name = "Soplín"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520141 = {
+    name = "Soria"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520142 = {
+    name = "Souza"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520143 = {
+    name = "Tafur"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520144 = {
+    name = "Tang"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520145 = {
+    name = "Tangoa"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520146 = {
+    name = "Tantaleán"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520147 = {
+    name = "Tapia"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520148 = {
+    name = "Tapullima"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520149 = {
+    name = "Tarrillo"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520150 = {
+    name = "Tello"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520151 = {
+    name = "Tenazoa"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520152 = {
+    name = "Terrones"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520153 = {
+    name = "Tong"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520154 = {
+    name = "Torrejón"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520155 = {
+    name = "Trigoso"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520156 = {
+    name = "Tuesta"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520157 = {
+    name = "Ushiñahua"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520158 = {
+    name = "Valle"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520159 = {
+    name = "Vallejos"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520160 = {
+    name = "Valqui"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520161 = {
+    name = "Vela"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520162 = {
+    name = "Ventura"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520163 = {
+    name = "Vilcarromero"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520164 = {
+    name = "Villacorta"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520165 = {
+    name = "Villegas"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520166 = {
+    name = "Witancort"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520167 = {
+    name = "Wong"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520168 = {
+    name = "Zabaleta"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520169 = {
+    name = "Zagaceta"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520170 = {
+    name = "Zamora"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520171 = {
+    name = "Zanabria"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520172 = {
+    name = "Zegarra"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520173 = {
+    name = "Zelada"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520174 = {
+    name = "Zender"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520175 = {
+    name = "Zevallos"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520176 = {
+    name = "Zumaeta"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520177 = {
+    name = "Zuta"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520178 = {
+    name = "de Dios"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520179 = {
+    name = "del Águila"
+    culture = charapa
+    # Add more properties as needed
+}
+
+520180 = {
+    name = "del Castillo"
+    culture = charapa
+    # Add more properties as needed
+}
+

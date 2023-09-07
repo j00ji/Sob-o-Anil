@@ -1,0 +1,1440 @@
+500500 = {
+    name = "Ávalos"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500501 = {
+    name = "Acasiete"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500502 = {
+    name = "Advíncula"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500503 = {
+    name = "Aguado"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500504 = {
+    name = "Aldoradín"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500505 = {
+    name = "Almeyda"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500506 = {
+    name = "Alvites"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500507 = {
+    name = "Amoretti"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500508 = {
+    name = "Anchante"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500509 = {
+    name = "Andia"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500510 = {
+    name = "Angulo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500511 = {
+    name = "Anicama"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500512 = {
+    name = "Antón"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500513 = {
+    name = "Aparcana"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500514 = {
+    name = "Apolaya"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500515 = {
+    name = "Aquije"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500516 = {
+    name = "Arnillas"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500517 = {
+    name = "Arones"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500518 = {
+    name = "Ascencio"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500519 = {
+    name = "Ascona"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500520 = {
+    name = "Astocaza"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500521 = {
+    name = "Atúncar"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500522 = {
+    name = "Aybar"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500523 = {
+    name = "Bailetti"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500524 = {
+    name = "Ballumbrosio"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500525 = {
+    name = "Barnechea"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500526 = {
+    name = "Barrientos"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500527 = {
+    name = "Barrios"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500528 = {
+    name = "Basaldúa"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500529 = {
+    name = "Belahonia"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500530 = {
+    name = "Bellido"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500531 = {
+    name = "Bendezú"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500532 = {
+    name = "Bernaola"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500533 = {
+    name = "Berrocal"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500534 = {
+    name = "Bertorini"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500535 = {
+    name = "Borda"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500536 = {
+    name = "Buleje"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500537 = {
+    name = "Cabezudo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500538 = {
+    name = "Cabrera"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500539 = {
+    name = "Cahua"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500540 = {
+    name = "Cajo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500541 = {
+    name = "Calderón"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500542 = {
+    name = "Cama"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500543 = {
+    name = "Camasca"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500544 = {
+    name = "Canchari"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500545 = {
+    name = "Cancho"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500546 = {
+    name = "Canova"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500547 = {
+    name = "Cantoral"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500548 = {
+    name = "Carbajal"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500549 = {
+    name = "Carpio"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500550 = {
+    name = "Cartagena"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500551 = {
+    name = "Casavilca"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500552 = {
+    name = "Castilla"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500553 = {
+    name = "Cavero"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500554 = {
+    name = "Chía"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500555 = {
+    name = "Chacaliaza"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500556 = {
+    name = "Chacaltana"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500557 = {
+    name = "Chan"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500558 = {
+    name = "Chuquispuma"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500559 = {
+    name = "Colona"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500560 = {
+    name = "Conislla"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500561 = {
+    name = "Consiglieri"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500562 = {
+    name = "Contreras"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500563 = {
+    name = "Corrales"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500564 = {
+    name = "Crisóstomo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500565 = {
+    name = "Cueto"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500566 = {
+    name = "Cusipuma"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500567 = {
+    name = "Dagnino"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500568 = {
+    name = "Donayre"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500569 = {
+    name = "Durand"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500570 = {
+    name = "Ecos"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500571 = {
+    name = "Elías"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500572 = {
+    name = "Escalaya"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500573 = {
+    name = "Escate"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500574 = {
+    name = "Escriba"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500575 = {
+    name = "Espino"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500576 = {
+    name = "Esquirva"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500577 = {
+    name = "Fajardo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500578 = {
+    name = "Farfán"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500579 = {
+    name = "Fernandini"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500580 = {
+    name = "Ferreyro"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500581 = {
+    name = "Franco"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500582 = {
+    name = "Gala"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500583 = {
+    name = "Galindo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500584 = {
+    name = "Galliquio"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500585 = {
+    name = "Gamonal"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500586 = {
+    name = "Garamendi"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500587 = {
+    name = "Garayar"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500588 = {
+    name = "Gastelú"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500589 = {
+    name = "Gentille"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500590 = {
+    name = "Girao"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500591 = {
+    name = "Grau"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500592 = {
+    name = "Grimaldi"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500593 = {
+    name = "Guerra"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500594 = {
+    name = "Herencia"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500595 = {
+    name = "Hernández"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500596 = {
+    name = "Hostia"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500597 = {
+    name = "Huamán"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500598 = {
+    name = "Huamacto"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500599 = {
+    name = "Huamaní"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500600 = {
+    name = "Huamantumba"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500601 = {
+    name = "Huarcaya"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500602 = {
+    name = "Huaroto"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500603 = {
+    name = "Huasasquiche"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500604 = {
+    name = "Huisacaina"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500605 = {
+    name = "Injante"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500606 = {
+    name = "Jacobo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500607 = {
+    name = "Janampa"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500608 = {
+    name = "Jayo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500609 = {
+    name = "Jurado"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500610 = {
+    name = "Kamo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500611 = {
+    name = "Kong"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500612 = {
+    name = "Ku"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500613 = {
+    name = "Lévano"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500614 = {
+    name = "Lú"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500615 = {
+    name = "Laurente"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500616 = {
+    name = "Lavarello"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500617 = {
+    name = "Legua"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500618 = {
+    name = "Li"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500619 = {
+    name = "Lizarbe"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500620 = {
+    name = "Lliuya"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500621 = {
+    name = "Lobatón"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500622 = {
+    name = "Loyola"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500623 = {
+    name = "Lucana"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500624 = {
+    name = "Ludeña"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500625 = {
+    name = "Luján"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500626 = {
+    name = "Lurita"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500627 = {
+    name = "Mórtola"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500628 = {
+    name = "Magallanes"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500629 = {
+    name = "Makabe"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500630 = {
+    name = "Manrique"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500631 = {
+    name = "Mantari"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500632 = {
+    name = "Martínez"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500633 = {
+    name = "Matías"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500634 = {
+    name = "Matta"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500635 = {
+    name = "Maurtua"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500636 = {
+    name = "Mayurí"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500637 = {
+    name = "Mendoza"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500638 = {
+    name = "Meneses"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500639 = {
+    name = "Mesías"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500640 = {
+    name = "Molina"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500641 = {
+    name = "Moquillaza"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500642 = {
+    name = "Morán"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500643 = {
+    name = "Morón"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500644 = {
+    name = "Moreyra"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500645 = {
+    name = "Mori"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500646 = {
+    name = "Mostto"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500647 = {
+    name = "Mozo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500648 = {
+    name = "Muñante"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500649 = {
+    name = "Muñoa"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500650 = {
+    name = "Muñoz"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500651 = {
+    name = "Munárriz"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500652 = {
+    name = "Munayco"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500653 = {
+    name = "Murguía"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500654 = {
+    name = "Nájar"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500655 = {
+    name = "N tld añez"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500656 = {
+    name = "Navarrete"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500657 = {
+    name = "Navarro"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500658 = {
+    name = "Naventa"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500659 = {
+    name = "Neyra"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500660 = {
+    name = "Noa"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500661 = {
+    name = "Ochoa"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500662 = {
+    name = "Olaechea"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500663 = {
+    name = "Olivares"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500664 = {
+    name = "Oncebay"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500665 = {
+    name = "Oré"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500666 = {
+    name = "Orellana"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500667 = {
+    name = "Ormeño"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500668 = {
+    name = "Oscco"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500669 = {
+    name = "Oyola"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500670 = {
+    name = "Páucar"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500671 = {
+    name = "Pachas"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500672 = {
+    name = "Palomino"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500673 = {
+    name = "Pariona"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500674 = {
+    name = "Pasache"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500675 = {
+    name = "Peña"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500676 = {
+    name = "Pecho"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500677 = {
+    name = "Pineda"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500678 = {
+    name = "Pisconte"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500679 = {
+    name = "Purilla"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500680 = {
+    name = "Quintanilla"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500681 = {
+    name = "Quijandría"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500682 = {
+    name = "Quispe"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500683 = {
+    name = "Quispetupac"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500684 = {
+    name = "Ramos"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500685 = {
+    name = "Ravello"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500686 = {
+    name = "Razzeto"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500687 = {
+    name = "Reaños"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500688 = {
+    name = "Rebatta"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500689 = {
+    name = "Rojas"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500690 = {
+    name = "Romaní"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500691 = {
+    name = "Romucho"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500692 = {
+    name = "Ronceros"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500693 = {
+    name = "Salcedo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500694 = {
+    name = "Sabastizaga"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500695 = {
+    name = "Salvatierra"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500696 = {
+    name = "Saravia"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500697 = {
+    name = "Sayritupac"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500698 = {
+    name = "Serna"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500699 = {
+    name = "Serveleón"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500700 = {
+    name = "Siguas"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500701 = {
+    name = "Soldevilla"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500702 = {
+    name = "Sotelo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500703 = {
+    name = "Sotteccani"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500704 = {
+    name = "Sulca"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500705 = {
+    name = "Tasayco"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500706 = {
+    name = "Tataje"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500707 = {
+    name = "Tipismana"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500708 = {
+    name = "Toledo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500709 = {
+    name = "Tori"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500710 = {
+    name = "Tornero"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500711 = {
+    name = "Torrealva"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500712 = {
+    name = "Torres"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500713 = {
+    name = "Trillo"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500714 = {
+    name = "Tueros"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500715 = {
+    name = "Tumay"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500716 = {
+    name = "Uchuya"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500717 = {
+    name = "Uribe"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500718 = {
+    name = "Valencia"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500719 = {
+    name = "Ventura"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500720 = {
+    name = "Vilca"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500721 = {
+    name = "Vilcapuma"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500722 = {
+    name = "Vilcamiza"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500723 = {
+    name = "Villa"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500724 = {
+    name = "Villagaray"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500725 = {
+    name = "Villamarín"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500726 = {
+    name = "Villaverde"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500727 = {
+    name = "Vivanco"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500728 = {
+    name = "Vizarreta"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500729 = {
+    name = "Wong"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500730 = {
+    name = "Yáñez"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500731 = {
+    name = "Yamashiro"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500732 = {
+    name = "Yarasca"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500733 = {
+    name = "Yataco"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500734 = {
+    name = "Yerén"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500735 = {
+    name = "Yuiján"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500736 = {
+    name = "Zea"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500737 = {
+    name = "Zeballos"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500738 = {
+    name = "de la Cruz"
+    culture = iqueno
+    # Add more properties as needed
+}
+
+500739 = {
+    name = "del Solar"
+    culture = iqueno
+    # Add more properties as needed
+}
+

@@ -1,0 +1,1200 @@
+510001 = {
+    name = "Ángeles"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510002 = {
+    name = "Agama"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510003 = {
+    name = "Alayo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510004 = {
+    name = "Aldave"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510005 = {
+    name = "Alegre"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510006 = {
+    name = "Alejos"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510007 = {
+    name = "Amez"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510008 = {
+    name = "Andagua"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510009 = {
+    name = "Apeña"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510010 = {
+    name = "Aquiño"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510011 = {
+    name = "Aranda"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510012 = {
+    name = "Araucano"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510013 = {
+    name = "Arellán"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510014 = {
+    name = "Arquinigo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510015 = {
+    name = "Arteaga"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510016 = {
+    name = "Ayala"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510017 = {
+    name = "Azaña"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510018 = {
+    name = "Aznarán"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510019 = {
+    name = "Balabarca"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510020 = {
+    name = "Baltazar"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510021 = {
+    name = "Barrenechea"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510022 = {
+    name = "Barreto"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510023 = {
+    name = "Bazán"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510024 = {
+    name = "Bedón"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510025 = {
+    name = "Benites"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510026 = {
+    name = "Bernuy"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510027 = {
+    name = "Blas"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510028 = {
+    name = "Bocanegra"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510029 = {
+    name = "Broncano"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510030 = {
+    name = "Buiza"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510031 = {
+    name = "Cabanillas"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510032 = {
+    name = "Cabello"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510033 = {
+    name = "Cacha"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510034 = {
+    name = "Cadillo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510035 = {
+    name = "Caldas"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510036 = {
+    name = "Callán"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510037 = {
+    name = "Camones"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510038 = {
+    name = "Campomanes"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510039 = {
+    name = "Cano"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510040 = {
+    name = "Cantaro"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510041 = {
+    name = "Carcovich"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510042 = {
+    name = "Carhuayano"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510043 = {
+    name = "Carranza"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510044 = {
+    name = "Casahuamán"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510045 = {
+    name = "Castillejo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510046 = {
+    name = "Castillo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510047 = {
+    name = "Castromonte"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510048 = {
+    name = "Cavero"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510049 = {
+    name = "Cerna"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510050 = {
+    name = "Chú"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510051 = {
+    name = "Changa"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510052 = {
+    name = "Chauca"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510053 = {
+    name = "Chavarría"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510054 = {
+    name = "Chinchay"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510055 = {
+    name = "Chui"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510056 = {
+    name = "Cochachín"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510057 = {
+    name = "Colchado"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510058 = {
+    name = "Collas"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510059 = {
+    name = "Colonia"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510060 = {
+    name = "Cortéz"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510061 = {
+    name = "Cotrino"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510062 = {
+    name = "Cribillero"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510063 = {
+    name = "Cruzado"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510064 = {
+    name = "Cueva"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510065 = {
+    name = "Custodio"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510066 = {
+    name = "Cutamanca"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510067 = {
+    name = "Depaz"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510068 = {
+    name = "Dextre"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510069 = {
+    name = "Diestra"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510070 = {
+    name = "Dueñas"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510071 = {
+    name = "Egúsquiza"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510072 = {
+    name = "Espíritu"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510073 = {
+    name = "Espinoza"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510074 = {
+    name = "Evaristo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510075 = {
+    name = "Figueroa"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510076 = {
+    name = "Fung"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510077 = {
+    name = "Gambini"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510078 = {
+    name = "Gargate"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510079 = {
+    name = "Garro"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510080 = {
+    name = "Giraldo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510081 = {
+    name = "Goñi"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510082 = {
+    name = "Gomero"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510083 = {
+    name = "Granados"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510084 = {
+    name = "Graza"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510085 = {
+    name = "Henostroza"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510086 = {
+    name = "Hizo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510087 = {
+    name = "Honores"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510088 = {
+    name = "Horna"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510089 = {
+    name = "Huamanchumo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510090 = {
+    name = "Huané"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510091 = {
+    name = "Huaranga"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510092 = {
+    name = "Huaromo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510093 = {
+    name = "Huerta"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510094 = {
+    name = "Iparraguirre"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510095 = {
+    name = "Ita"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510096 = {
+    name = "Jamanca"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510097 = {
+    name = "Julca"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510098 = {
+    name = "Kobayashi"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510099 = {
+    name = "Koochoi"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510100 = {
+    name = "Ku"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510101 = {
+    name = "Lázaro"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510102 = {
+    name = "León"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510103 = {
+    name = "López"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510104 = {
+    name = "Lay"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510105 = {
+    name = "Lecca"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510106 = {
+    name = "Liñán"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510107 = {
+    name = "Llanto"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510108 = {
+    name = "Lliuya"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510109 = {
+    name = "Loarte"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510110 = {
+    name = "Lomparte"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510111 = {
+    name = "Loyola"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510112 = {
+    name = "Luna"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510113 = {
+    name = "Macedo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510114 = {
+    name = "Maguiña"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510115 = {
+    name = "Mallquí"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510116 = {
+    name = "Mariños"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510117 = {
+    name = "Marreros"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510118 = {
+    name = "Martel"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510119 = {
+    name = "Matienzo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510120 = {
+    name = "Matta"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510121 = {
+    name = "Mau"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510122 = {
+    name = "Mautino"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510123 = {
+    name = "Melgarejo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510124 = {
+    name = "Menacho"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510125 = {
+    name = "Mendoza"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510126 = {
+    name = "Milla"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510127 = {
+    name = "Minaya"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510128 = {
+    name = "Montañez"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510129 = {
+    name = "Montoro"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510130 = {
+    name = "Moreno"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510131 = {
+    name = "Mori"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510132 = {
+    name = "Morillo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510133 = {
+    name = "Murga"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510134 = {
+    name = "Napurí"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510135 = {
+    name = "Norabuena"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510136 = {
+    name = "Nuñuvero"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510137 = {
+    name = "Obregón"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510138 = {
+    name = "Ocaña"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510139 = {
+    name = "Olórtegui"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510140 = {
+    name = "Oncoy"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510141 = {
+    name = "Orbegozo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510142 = {
+    name = "Oro"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510143 = {
+    name = "Oroya"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510144 = {
+    name = "Pajuelo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510145 = {
+    name = "Palmadera"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510146 = {
+    name = "Pantoja"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510147 = {
+    name = "Pereda"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510148 = {
+    name = "Picón"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510149 = {
+    name = "Polo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510150 = {
+    name = "Ponte"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510151 = {
+    name = "Príncipe"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510152 = {
+    name = "Quezada"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510153 = {
+    name = "Quiñones"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510154 = {
+    name = "Réquez"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510155 = {
+    name = "Rímac"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510156 = {
+    name = "Regalado"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510157 = {
+    name = "Retuerto"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510158 = {
+    name = "Reyes"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510159 = {
+    name = "Roca"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510160 = {
+    name = "Rodríguez"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510161 = {
+    name = "Rondán"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510162 = {
+    name = "Rosales"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510163 = {
+    name = "Sáenz"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510164 = {
+    name = "Schreiber"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510165 = {
+    name = "Sevillano"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510166 = {
+    name = "Shuan"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510167 = {
+    name = "Sigueñas"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510168 = {
+    name = "Sing"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510169 = {
+    name = "Sipán"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510170 = {
+    name = "Siucho"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510171 = {
+    name = "Solórzano"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510172 = {
+    name = "Sotelo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510173 = {
+    name = "Támara"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510174 = {
+    name = "Taboada"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510175 = {
+    name = "Tafur"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510176 = {
+    name = "Tamariz"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510177 = {
+    name = "Tarazona"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510178 = {
+    name = "Trebejo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510179 = {
+    name = "Trejo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510180 = {
+    name = "Ulloa"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510181 = {
+    name = "Utrilla"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510182 = {
+    name = "Valerio"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510183 = {
+    name = "Valverde"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510184 = {
+    name = "Varillas"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510185 = {
+    name = "Vega"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510186 = {
+    name = "Venturo"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510187 = {
+    name = "Veramendi"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510188 = {
+    name = "Vergaray"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510189 = {
+    name = "Vidal"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510190 = {
+    name = "Villafana"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510191 = {
+    name = "Villaorduña"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510192 = {
+    name = "Wu"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510193 = {
+    name = "Yanac"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510194 = {
+    name = "Ybañez"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510195 = {
+    name = "Yi"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510196 = {
+    name = "Yui"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510197 = {
+    name = "Yzaguirre"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510198 = {
+    name = "Zarzosa"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510199 = {
+    name = "Zavaleta"
+    culture = nortechicano
+    # Add more properties as needed
+}
+
+510200 = {
+    name = "Zorrilla"
+    culture = nortechicano
+    # Add more properties as needed
+}
+

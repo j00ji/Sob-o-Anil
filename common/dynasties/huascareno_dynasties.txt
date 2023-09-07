@@ -1,0 +1,1200 @@
+515001 = {
+    name = "Añorga"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515002 = {
+    name = "Abanto"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515003 = {
+    name = "Acuña"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515004 = {
+    name = "Aguilar"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515005 = {
+    name = "Aguinaga"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515006 = {
+    name = "Alarcón"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515007 = {
+    name = "Alejandría"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515008 = {
+    name = "Aliaga"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515009 = {
+    name = "Altamirano"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515010 = {
+    name = "Amasifuén"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515011 = {
+    name = "Ampam"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515012 = {
+    name = "Anampa"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515013 = {
+    name = "Apaéstegui"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515014 = {
+    name = "Arévalo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515015 = {
+    name = "Aranda"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515016 = {
+    name = "Arrascue"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515017 = {
+    name = "Arrelucea"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515018 = {
+    name = "Atalaya"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515019 = {
+    name = "Ayay"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515020 = {
+    name = "Azañedo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515021 = {
+    name = "Banda"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515022 = {
+    name = "Barboza"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515023 = {
+    name = "Bardales"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515024 = {
+    name = "Barturén"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515025 = {
+    name = "Bazán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515026 = {
+    name = "Becerra"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515027 = {
+    name = "Bringas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515028 = {
+    name = "Briones"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515029 = {
+    name = "Bueno"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515030 = {
+    name = "Burga"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515031 = {
+    name = "Bustamante"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515032 = {
+    name = "Cabanillas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515033 = {
+    name = "Cabrera"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515034 = {
+    name = "Cachay"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515035 = {
+    name = "Caján"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515036 = {
+    name = "Callirgos"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515037 = {
+    name = "Calua"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515038 = {
+    name = "Calvay"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515039 = {
+    name = "Camizán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515040 = {
+    name = "Campos"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515041 = {
+    name = "Carranza"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515042 = {
+    name = "Carrasco"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515043 = {
+    name = "Caruajulca"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515044 = {
+    name = "Castañeda"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515045 = {
+    name = "Castrejón"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515046 = {
+    name = "Centurión"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515047 = {
+    name = "Cercado"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515048 = {
+    name = "Cerdán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515049 = {
+    name = "Cerquín"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515050 = {
+    name = "Chávez"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515051 = {
+    name = "Chavarry"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515052 = {
+    name = "Chilón"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515053 = {
+    name = "Chiquez"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515054 = {
+    name = "Chuquilín"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515055 = {
+    name = "Chuquimango"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515056 = {
+    name = "Chuquiruna"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515057 = {
+    name = "Chuquizuta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515058 = {
+    name = "Cieza"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515059 = {
+    name = "Cormán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515060 = {
+    name = "Coronel"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515061 = {
+    name = "Cortegana"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515062 = {
+    name = "Cotrina"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515063 = {
+    name = "Cruzado"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515064 = {
+    name = "Cubas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515065 = {
+    name = "Cueva"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515066 = {
+    name = "Culqui"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515067 = {
+    name = "Dávila"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515068 = {
+    name = "Díaz"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515069 = {
+    name = "Delgado"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515070 = {
+    name = "Descalzi"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515071 = {
+    name = "Egúsquiza"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515072 = {
+    name = "Esparraga"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515073 = {
+    name = "Estela"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515074 = {
+    name = "Farro"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515075 = {
+    name = "Floríndez"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515076 = {
+    name = "Fustamante"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515077 = {
+    name = "Gálvez"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515078 = {
+    name = "Galarreta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515079 = {
+    name = "Gallardo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515080 = {
+    name = "Gasco"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515081 = {
+    name = "Gastolomendo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515082 = {
+    name = "Gavidia"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515083 = {
+    name = "Genovez"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515084 = {
+    name = "Goñas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515085 = {
+    name = "Goicochea"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515086 = {
+    name = "Grández"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515087 = {
+    name = "Guadaña"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515088 = {
+    name = "Guelac"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515089 = {
+    name = "Guevara"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515090 = {
+    name = "Hernández"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515091 = {
+    name = "Herrera"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515092 = {
+    name = "Hoyos"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515093 = {
+    name = "Huaccha"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515094 = {
+    name = "Huamán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515095 = {
+    name = "Huanambal"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515096 = {
+    name = "Huaripata"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515097 = {
+    name = "Ibérico"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515098 = {
+    name = "Idrogo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515099 = {
+    name = "Infante"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515100 = {
+    name = "Iparraguirre"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515101 = {
+    name = "Irigoin"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515102 = {
+    name = "Irureta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515103 = {
+    name = "Izquierdo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515104 = {
+    name = "Julón"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515105 = {
+    name = "Julca"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515106 = {
+    name = "Julcamoro"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515107 = {
+    name = "Larreátegui"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515108 = {
+    name = "Lezma"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515109 = {
+    name = "Lingán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515110 = {
+    name = "Llanos"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515111 = {
+    name = "Llatas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515112 = {
+    name = "Longa"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515113 = {
+    name = "Lozano"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515114 = {
+    name = "Lucano"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515115 = {
+    name = "Machuca"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515116 = {
+    name = "Malaver"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515117 = {
+    name = "Malca"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515118 = {
+    name = "Mantilla"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515119 = {
+    name = "Marín"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515120 = {
+    name = "Mariñas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515121 = {
+    name = "Medina"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515122 = {
+    name = "Mego"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515123 = {
+    name = "Mejía"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515124 = {
+    name = "Mendoza"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515125 = {
+    name = "Mestanza"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515126 = {
+    name = "Minchán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515127 = {
+    name = "Mondragón"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515128 = {
+    name = "Montenegro"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515129 = {
+    name = "Monteza"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515130 = {
+    name = "Mori"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515131 = {
+    name = "Muñoz"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515132 = {
+    name = "Muguerza"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515133 = {
+    name = "Mundaca"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515134 = {
+    name = "Oblitas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515135 = {
+    name = "Ocampo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515136 = {
+    name = "Ocas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515137 = {
+    name = "Olano"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515138 = {
+    name = "Olivera"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515139 = {
+    name = "Orrego"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515140 = {
+    name = "Orrillo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515141 = {
+    name = "Osores"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515142 = {
+    name = "Pérez"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515143 = {
+    name = "Pesantes"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515144 = {
+    name = "Pinedo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515145 = {
+    name = "Portal"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515146 = {
+    name = "Puerta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515147 = {
+    name = "Puscán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515148 = {
+    name = "Quiliche"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515149 = {
+    name = "Quiroz"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515150 = {
+    name = "Rabanal"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515151 = {
+    name = "Raico"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515152 = {
+    name = "Requejo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515153 = {
+    name = "Rimarachín"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515154 = {
+    name = "Rodas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515155 = {
+    name = "Roncal"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515156 = {
+    name = "Rufasto"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515157 = {
+    name = "Salazar"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515158 = {
+    name = "Saldaña"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515159 = {
+    name = "Sangay"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515160 = {
+    name = "Santacruz"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515161 = {
+    name = "Santillán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515162 = {
+    name = "Segura"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515163 = {
+    name = "Sempértegui"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515164 = {
+    name = "Silva"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515165 = {
+    name = "Soberón"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515166 = {
+    name = "Solf"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515167 = {
+    name = "Tafur"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515168 = {
+    name = "Tanta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515169 = {
+    name = "Tantaleán"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515170 = {
+    name = "Tarrillo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515171 = {
+    name = "Tasilla"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515172 = {
+    name = "Terrones"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515173 = {
+    name = "Tirado"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515174 = {
+    name = "Tocto"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515175 = {
+    name = "Torrejón"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515176 = {
+    name = "Trigoso"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515177 = {
+    name = "Troyes"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515178 = {
+    name = "Tuesta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515179 = {
+    name = "Uriarte"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515180 = {
+    name = "Urteaga"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515181 = {
+    name = "Vásquez"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515182 = {
+    name = "Vílchez"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515183 = {
+    name = "Valqui"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515184 = {
+    name = "Verástegui"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515185 = {
+    name = "Vidarte"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515186 = {
+    name = "Villegas"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515187 = {
+    name = "Villoslada"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515188 = {
+    name = "Vislao"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515189 = {
+    name = "Vizconde"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515190 = {
+    name = "Yajahuanca"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515191 = {
+    name = "Yalta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515192 = {
+    name = "Ydrogo"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515193 = {
+    name = "Zambrano"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515194 = {
+    name = "Zamora"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515195 = {
+    name = "Zelada"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515196 = {
+    name = "Zocón"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515197 = {
+    name = "Zuloeta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515198 = {
+    name = "Zumaeta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515199 = {
+    name = "Zurita"
+    culture = huascareno
+    # Add more properties as needed
+}
+
+515200 = {
+    name = "Zuta"
+    culture = huascareno
+    # Add more properties as needed
+}
+
