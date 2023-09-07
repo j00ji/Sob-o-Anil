@@ -16,4 +16,12 @@ spriteTypes = {
 		name = "GFX_evt_operarios"
 		textureFile = "gfx\\event_pictures\\operarios.dds"
 	}
+	spriteType = {
+		name = "GFX_evt_cannibalism"
+		textureFile = "gfx\\event_pictures\\cannibalism.dds"
+	}
+	spriteType = {
+		name = "GFX_evt_anthro_blot"
+		textureFile = "gfx\\event_pictures\\anthro_blot.dds"
+	}
 }

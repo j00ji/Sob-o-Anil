@@ -16,6 +16,6 @@ b_sao_joao_batista_2 = temple
 
 # Misc
 culture = camponeto
-religion = peterite
+religion = anchietican
 
 #History

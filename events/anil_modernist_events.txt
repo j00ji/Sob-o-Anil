@@ -18,3 +18,54 @@ character_event = { #IT MATTERS ONLY WHAT IS NOT MINE.
 		#gains the Abaporuacu trait
 	}
 }
+
+character_event = { #fires from on_executed on_action, checks if character should be given the abaporu title
+	id = modernism.1
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		death_reason = death_execution_eaten
+		killer = {
+			religion = anthropofagian
+			NOT = { trait = aculturado }
+			ROOT = {
+				culture_scope = {  
+					NOR = {
+						has_character_flag = ate_culture_@PREVPREVPREV
+						PREVPREVPREV = { culture = PREV }
+					}
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		culture_scope = {
+			set_character_flag = ate_culture_@killer
+		}
+		killer = {
+			if = {
+				limit = {
+					check_variable = { #checks if the aculturacao variable even exists
+						which = aculturacao
+						value >= 1
+					}
+				}
+				change_variable = { which = aculturacao value = 1 }
+			}
+			else = { #in case of aculturacao not existing
+				set_variable = { which = aculturacao value = 1 }
+			}
+			if = {
+				limit = {
+					check_variable = { #checks if the aculturacao variable is about to reach 10
+						which = aculturacao
+						value >= 10
+					}
+				}
+				character_event = { id = modernism.0 } #abaporuacu title
+			}
+		}
+	}
+}

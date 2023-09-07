@@ -13,7 +13,7 @@ namespace = TOG
 character_event = {
 	id = TOG.600
 	desc = EVTDESC_TOG_600
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -25,8 +25,7 @@ character_event = {
 		any_vassal = {
 			limit = {
 				OR = {
-					religion = norse_pagan
-					religion = norse_pagan_reformed
+					religion = anthropofagian
 				}
 				NOT = { is_inaccessible_trigger = yes }
 				age = 16
@@ -40,8 +39,7 @@ character_event = {
 		any_vassal = {
 			limit = {
 				NOR = {
-					religion = norse_pagan
-					religion = norse_pagan_reformed
+					religion = anthropofagian
 				}
 				NOT = { is_inaccessible_trigger = yes }
 				age = 16
@@ -59,7 +57,7 @@ character_event = {
 character_event = {
 	id = TOG.601
 	desc = EVTDESC_TOG_601
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -79,7 +77,7 @@ character_event = {
 character_event = {
 	id = TOG.602
 	desc = EVTDESC_TOG_602
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -123,7 +121,7 @@ character_event = {
 character_event = {
 	id = TOG.603
 	desc = EVTDESC_TOG_603
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -138,7 +136,7 @@ character_event = {
 character_event = {
 	id = TOG.636
 	desc = EVTDESC_TOG_636
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -152,7 +150,7 @@ character_event = {
 character_event = {
 	id = TOG.604
 	desc = EVTDESC_TOG_604
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -197,7 +195,7 @@ character_event = {
 			limit = { ai = no }
 			chronicle = {
 				entry = CHRONICLE_HELD_BLOT
-				picture = GFX_evt_viking_throneroom_oldgods
+				picture = GFX_evt_anthro_blot
 			}
 		}
 	}
@@ -207,7 +205,7 @@ character_event = {
 character_event = {
 	id = TOG.605
 	desc = EVTDESC_TOG_605
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -223,7 +221,7 @@ character_event = {
 character_event = {
 	id = TOG.606
 	desc = EVTDESC_TOG_606
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -387,7 +385,7 @@ character_event = {
 character_event = {
 	id = TOG.607
 	desc = EVTDESC_TOG_606
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -551,7 +549,7 @@ character_event = {
 character_event = {
 	id = TOG.608
 	desc = EVTDESC_TOG_606
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -715,7 +713,7 @@ character_event = {
 character_event = {
 	id = TOG.609
 	desc = EVTDESC_TOG_606
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -879,7 +877,7 @@ character_event = {
 character_event = {
 	id = TOG.610
 	desc = EVTDESC_TOG_610
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -888,7 +886,7 @@ character_event = {
 		name = EVTOPTA_TOG_610
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
 				killer = ROOT
 			}
 		}
@@ -936,7 +934,7 @@ character_event = {
 character_event = {
 	id = TOG.611
 	desc = EVTDESC_TOG_611
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -948,7 +946,8 @@ character_event = {
 		name = EVTOPTA_TOG_611
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -969,7 +968,8 @@ character_event = {
 		FROM = {
 			religion_authority = { modifier = sacrificed_head_bad years = 20 }
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1001,7 +1001,7 @@ character_event = {
 character_event = {
 	id = TOG.612
 	desc = EVTDESC_TOG_612
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1013,7 +1013,8 @@ character_event = {
 		name = EVTOPTA_TOG_612
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1034,7 +1035,8 @@ character_event = {
 		FROM = {
 			religion_authority = { modifier = sacrificed_head_bad years = 20 }
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1066,7 +1068,7 @@ character_event = {
 character_event = {
 	id = TOG.613
 	desc = EVTDESC_TOG_613
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1075,7 +1077,8 @@ character_event = {
 		name = EVTOPTA_TOG_613
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1101,7 +1104,7 @@ character_event = {
 character_event = {
 	id = TOG.614
 	desc = EVTDESC_TOG_614
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1110,7 +1113,8 @@ character_event = {
 		name = EVTOPTA_TOG_614
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1136,7 +1140,7 @@ character_event = {
 character_event = {
 	id = TOG.615
 	desc = EVTDESC_TOG_615
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1145,7 +1149,8 @@ character_event = {
 		name = EVTOPTA_TOG_615
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1171,7 +1176,7 @@ character_event = {
 character_event = {
 	id = TOG.616
 	desc = EVTDESC_TOG_616
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1180,7 +1185,8 @@ character_event = {
 		name = EVTOPTA_TOG_616
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1206,7 +1212,7 @@ character_event = {
 character_event = {
 	id = TOG.617
 	desc = EVTDESC_TOG_617
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1215,7 +1221,8 @@ character_event = {
 		name = EVTOPTA_TOG_617
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1241,7 +1248,7 @@ character_event = {
 character_event = {
 	id = TOG.618
 	desc = EVTDESC_TOG_618
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1250,7 +1257,8 @@ character_event = {
 		name = EVTOPTA_TOG_618
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1276,7 +1284,7 @@ character_event = {
 character_event = {
 	id = TOG.619
 	desc = EVTDESC_TOG_619
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1285,7 +1293,8 @@ character_event = {
 		name = EVTOPTA_TOG_619
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1311,7 +1320,7 @@ character_event = {
 character_event = {
 	id = TOG.620
 	desc = EVTDESC_TOG_620
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1320,7 +1329,8 @@ character_event = {
 		name = EVTOPTA_TOG_620
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1344,7 +1354,7 @@ character_event = {
 character_event = {
 	id = TOG.621
 	desc = EVTDESC_TOG_621
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1356,7 +1366,8 @@ character_event = {
 		name = EVTOPTA_TOG_621
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1377,7 +1388,8 @@ character_event = {
 		FROM = {
 			religion_authority = { modifier = sacrificed_head_bad years = 20 }
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -1409,7 +1421,7 @@ character_event = {
 character_event = {
 	id = TOG.622
 	desc = EVTDESC_TOG_622
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1419,7 +1431,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1431,7 +1444,7 @@ character_event = {
 character_event = {
 	id = TOG.623
 	desc = EVTDESC_TOG_623
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1441,7 +1454,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1453,7 +1467,7 @@ character_event = {
 character_event = {
 	id = TOG.624
 	desc = EVTDESC_TOG_624
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1463,7 +1477,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1475,7 +1490,7 @@ character_event = {
 character_event = {
 	id = TOG.625
 	desc = EVTDESC_TOG_625
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1485,7 +1500,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1497,7 +1513,7 @@ character_event = {
 character_event = {
 	id = TOG.626
 	desc = EVTDESC_TOG_626
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1507,7 +1523,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1519,7 +1536,7 @@ character_event = {
 character_event = {
 	id = TOG.627
 	desc = EVTDESC_TOG_627
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1529,7 +1546,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1541,7 +1559,7 @@ character_event = {
 character_event = {
 	id = TOG.628
 	desc = EVTDESC_TOG_628
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1551,7 +1569,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1563,7 +1582,7 @@ character_event = {
 character_event = {
 	id = TOG.629
 	desc = EVTDESC_TOG_629
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1573,7 +1592,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1585,7 +1605,7 @@ character_event = {
 character_event = {
 	id = TOG.630
 	desc = EVTDESC_TOG_630
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1595,7 +1615,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1607,7 +1628,7 @@ character_event = {
 character_event = {
 	id = TOG.631
 	desc = EVTDESC_TOG_631
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1617,7 +1638,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1629,7 +1651,7 @@ character_event = {
 character_event = {
 	id = TOG.632
 	desc = EVTDESC_TOG_632
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1639,7 +1661,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1651,7 +1674,7 @@ character_event = {
 character_event = {
 	id = TOG.633
 	desc = EVTDESC_TOG_633
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1661,7 +1684,8 @@ character_event = {
 		tooltip = {
 			FROMFROM = {
 				death = {
-					death_reason = death_sacrificed_norse
+					death_reason = death_execution_eaten
+
 					killer = FROM
 				}
 			}
@@ -1673,7 +1697,7 @@ character_event = {
 character_event = {
 	id = TOG.634
 	desc = EVTDESC_TOG_634
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1699,7 +1723,7 @@ character_event = {
 character_event = {
 	id = TOG.635
 	desc = EVTDESC_TOG_635
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1713,7 +1737,7 @@ character_event = {
 character_event = {
 	id = TOG.637
 	desc = EVTDESC_TOG_637
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1870,7 +1894,7 @@ character_event = {
 character_event = {
 	id = TOG.640
 	desc = EVTDESC_TOG_640
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1942,7 +1966,7 @@ character_event = {
 character_event = {
 	id = TOG.641
 	desc = EVTDESC_TOG_640
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1958,7 +1982,7 @@ character_event = {
 character_event = {
 	id = TOG.642
 	desc = EVTDESC_TOG_642
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -1997,7 +2021,7 @@ character_event = {
 character_event = {
 	id = TOG.643
 	desc = EVTDESC_TOG_643
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -2229,7 +2253,7 @@ character_event = {
 character_event = {
 	id = TOG.653
 	desc = EVTDESC_TOG_653
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -2289,7 +2313,7 @@ character_event = {
 character_event = {
 	id = TOG.654
 	desc = EVTDESC_TOG_654
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -2307,7 +2331,7 @@ character_event = {
 character_event = {
 	id = TOG.655
 	desc = EVTDESC_TOG_655
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -2767,7 +2791,7 @@ character_event = {
 character_event = {
 	id = TOG.661
 	desc = EVTDESC_TOG_661
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -2798,7 +2822,7 @@ character_event = {
 character_event = {
 	id = TOG.662
 	desc = EVTDESC_TOG_661
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -2902,7 +2926,7 @@ character_event = {
 character_event = {
 	id = TOG.664
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -2942,7 +2966,7 @@ character_event = {
 character_event = {
 	id = TOG.665
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -3047,7 +3071,7 @@ character_event = {
 character_event = {
 	id = TOG.667
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -3087,7 +3111,7 @@ character_event = {
 character_event = {
 	id = TOG.668
 	desc = EVTDESC_TOG_664
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -3114,7 +3138,7 @@ character_event = {
 character_event = {
 	id = TOG.669
 	desc = EVTDESC_TOG_669
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -3168,7 +3192,7 @@ character_event = {
 character_event = {
 	id = TOG.670
 	desc = EVTDESC_TOG_670
-	picture = GFX_evt_viking_throneroom_oldgods
+	picture = GFX_evt_anthro_blot
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -3208,7 +3232,7 @@ character_event = {
 character_event = {
 	id = TOG.680
 	desc = EVTDESC_TOG_680
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -3217,7 +3241,8 @@ character_event = {
 		name = EVTOPTA_TOG_610
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -3265,7 +3290,7 @@ character_event = {
 character_event = {
 	id = TOG.681
 	desc = EVTDESC_TOG_681
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -3274,7 +3299,8 @@ character_event = {
 		name = EVTOPTA_TOG_610
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}
@@ -3322,7 +3348,7 @@ character_event = {
 character_event = {
 	id = TOG.682
 	desc = EVTDESC_TOG_682
-	picture = GFX_evt_midwinter_blot_oldgods
+	picture = GFX_evt_cannibalism
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
@@ -3331,7 +3357,8 @@ character_event = {
 		name = EVTOPTA_TOG_610
 		FROM = {
 			death = {
-				death_reason = death_sacrificed_norse
+				death_reason = death_execution_eaten
+
 				killer = ROOT
 			}
 		}

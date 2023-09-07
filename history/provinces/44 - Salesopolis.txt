@@ -16,6 +16,6 @@ b_santa_branca = temple
 
 # Misc
 culture = paulistano
-religion = peterite
+religion = anchietican
 
 #History

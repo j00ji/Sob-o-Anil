@@ -1217,48 +1217,49 @@ targetted_decisions = {
 					add_trait = cannibal_trait
 				}
 				hidden_effect = {
-					if = { #prominent anthropofagians might gain an special trait
-						limit = {
-							religion = anthropofagian
-							NOT = { 
-								trait = aculturado 
-							}
-							ROOT = { 
-								culture_scope = {  
-									NOR = {
-										has_character_flag = ate_culture_@FROM
-										FROM = { culture = PREV }
-									}
-								}
-							}
-						}
-						ROOT = { 
-							culture_scope = {
-								set_character_flag = ate_culture_@FROM
-							}
-						}
-						if = {
-							limit = {
-								check_variable = { #checks if the aculturacao variable even exists
-									which = aculturacao
-									value >= 1
-								}
-							}
-							change_variable = { which = aculturacao value = 1 }
-						}
-						else = { #in case of aculturacao never even happening
-							set_variable = { which = aculturacao value = 1 }
-						}
-						if = {
-							limit = {
-								check_variable = { #checks if the aculturacao variable is about to reach 10
-									which = aculturacao
-									value >= 10
-								}
-							}
-							character_event = { id = modernism.0 }
-						}
-					}
+					#if = { #prominent anthropofagians might gain an special trait
+					#	limit = {
+					#		religion = anthropofagian
+					#		NOT = { 
+					#			trait = aculturado 
+					#		}
+					#		ROOT = { 
+					#			culture_scope = {  
+					#				NOR = {
+					#					has_character_flag = ate_culture_@FROM
+					#					FROM = { culture = PREV }
+					#				}
+					#			}
+					#		}
+					#	}
+					#	ROOT = { 
+					#		culture_scope = {
+					#			set_character_flag = ate_culture_@FROM
+					#		}
+					#	}
+					#	if = {
+					#		limit = {
+					#			check_variable = { #checks if the aculturacao variable even exists
+					#				which = aculturacao
+					#				value >= 1
+					#			}
+					#		}
+					#		change_variable = { which = aculturacao value = 1 }
+					#	}
+					#	else = { #in case of aculturacao never even happening
+					#		set_variable = { which = aculturacao value = 1 }
+					#	}
+					#	if = {
+					#		limit = {
+					#			check_variable = { #checks if the aculturacao variable is about to reach 10
+					#				which = aculturacao
+					#				value >= 10
+					#			}
+					#		}
+					#		character_event = { id = modernism.0 }
+					#	}
+					#}
+					#####All of this script has been moved to a separate event
 					add_kinslayer_trait_effect = yes
 				}
 			}
