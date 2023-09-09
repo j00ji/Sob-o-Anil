@@ -613,6 +613,114 @@ decisions = {
 			}
 		}
 	}
+	
+	go_on_romaria = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			is_playable = yes
+			OR = {
+				religion = cicerite
+				religion = seladite
+				#Cicerite branch trait for Aparecidans too
+			}
+			NOT = { trait = romeiro }
+			NOT = { trait = on_romaria }
+			NOT = {	has_character_flag = preparing_romaria }
+			NOT = {	has_character_flag = activated_romaria }	
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		allow = {
+			age = 16
+			prisoner = no
+			scaled_wealth = 0.2
+			war = no
+			in_command = no
+			custom_tooltip = {
+				text = UNOCCUPIED_DEMESNE_TITLE
+				hidden_tooltip = {
+					any_demesne_title = {
+						NOT = { higher_tier_than = count }
+						is_occupied = no
+					}
+				}
+			}
+			
+			NOT = { is_inaccessible_trigger = yes }
+			custom_tooltip = {
+				text = health_travel_condition
+				hidden_tooltip = {
+					NOT = {	trait = incapable }
+					NOT = {	trait = blinded }
+					NOT = {	trait = has_tuberculosis }
+					NOT = {	trait = has_typhoid_fever }
+					NOT = {	trait = has_typhus }
+					NOT = {	trait = has_bubonic_plague }
+					NOT = {	trait = has_measles }
+					NOT = {	trait = has_small_pox }
+					NOT = {	trait = has_aztec_disease }
+				}
+			}
+			custom_tooltip = {
+				text = is_not_busy_trigger_tooltip
+				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+			}
+		}
+		effect = {
+			scaled_wealth = -0.2
+			hidden_tooltip = {
+				letter_event = { id = cicerite.1 }
+			}
+			clr_character_flag = promise_romaria
+			set_character_flag = activated_romaria
+			set_character_flag = recent_minor_decision
+			set_character_flag = do_not_disturb
+			
+			if = {
+				limit = {
+					trait = decadent
+				}
+				remove_trait = decadent
+			}
+
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0
+				is_ruler = no
+				trait = decadent
+			}
+			modifier = {
+				factor = 2
+				is_ruler = yes
+				trait = decadent
+			}
+			modifier = {
+				factor = 0
+				NOT = { wealth = 300 }
+			}
+			modifier = { # Monthly randomizer for when AI takes decision (1% chance)
+				factor = 0
+				random = 1
+			}
+			modifier = {
+				factor = 0
+				NOT = { age = 30 }
+			}
+		}
+	}
 }
 
 targeted_decisions = {

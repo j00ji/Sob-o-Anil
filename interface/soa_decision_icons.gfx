@@ -36,4 +36,8 @@ spriteTypes = {
 		name = "GFX_change_apostolic_branch"
 		texturefile = "gfx/interface/change_apostolic_branch.tga"
 	}
+	spriteType = {
+		name = "GFX_go_on_romaria"
+		texturefile = "gfx/interface/go_on_romaria.tga"
+	}
 }

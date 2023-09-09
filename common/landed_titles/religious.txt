@@ -211,7 +211,7 @@ d_seladite = {
 	
 	capital = 543 # Cariri
 	
-	title = "CAPTAIN"
+	title = "SEALHOLDER"
 	foa = "CAPTAIN_FOA"
 	
 	dignity = 1000

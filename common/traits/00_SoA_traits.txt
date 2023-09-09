@@ -16,3 +16,40 @@ aculturado = {
 	
 	customizer = yes
 }
+romeiro = {
+	potential = {
+		OR = {
+			religion = cicerite
+			religion = seladite
+			#aparecidan cicero branch
+		}
+	}
+	
+	cicerite_opinion = 5
+	seladite_opinion = 5
+	monthly_character_piety = 0.1
+	
+	male_compliment = COMPL_ROMEIRO
+	female_compliment = COMPL_ROMEIRA
+}
+
+#On Romaria.
+on_romaria = {
+	potential = {
+		OR = {
+			religion = cicerite
+			religion = seladite
+			#aparecidan cicero branch
+		}
+		NOT = { trait = romeiro }
+	}
+	
+	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger 
+	
+	cicerite_opinion = 10
+	seladite_opinion = 10
+	monthly_character_piety = 0.2
+	
+	pilgrimage = yes # Will need a regent, but can still be guardian to children
+	customizer = no
+}

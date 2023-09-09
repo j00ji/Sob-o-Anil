@@ -76,4 +76,20 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
+	spriteType = {
+		name = "GFX_trait_on_romaria"
+		texturefile = "gfx/traits/on_romaria.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_romeiro"
+		texturefile = "gfx/traits/romeiro.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

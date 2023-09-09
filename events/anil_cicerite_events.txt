@@ -1,0 +1,289 @@
+namespace = cicerite
+
+letter_event = { #First Message, prepare for Romaria
+	id = cicerite.1
+	desc = "cicerite.1.desc"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "cicerite.1.a"
+		piety = 5
+		set_character_flag = preparing_romaria
+		clr_character_flag = activated_romaria
+		hidden_tooltip = {
+			character_event = { id = cicerite.2 days = 12 }
+			character_event = { id = cicerite.3 days = 16 }
+		}	
+	}
+}
+
+character_event = {
+	id = cicerite.2
+	desc = "cicerite.2.desc"
+	picture = GFX_evt_emissary
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		any_courtier = {
+			age = 16
+			prisoner = no
+			NOT = { trait = on_romaria }
+			NOT = { trait = romeiro }
+			NOT = { is_inaccessible_trigger = yes }
+		}
+	}
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				age = 16
+				prisoner = no
+				religion = root
+				NOT = { trait = on_romaria }
+				NOT = { trait = romeiro }
+				NOT = { is_inaccessible_trigger = yes }
+			}
+			save_event_target_as = invite_to_romaria
+		}
+		set_character_flag = romaria_company
+	}
+	
+	option = {
+		name = "cicerite.2.a"
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				trait = gregarious
+			}
+			modifier = {
+				factor = 20
+				trait = charitable
+			}
+			modifier = {
+				factor = 0
+				trait = greedy
+			}
+		}
+		scaled_wealth = -0.05
+		event_target:invite_to_romaria = {
+			add_trait = on_romaria
+			opinion = { 
+				modifier = opinion_bring_on_hajj
+				who = ROOT
+			}
+			reverse_opinion = { 
+				modifier = opinion_bring_on_hajj
+				who = ROOT
+			}			
+			hidden_tooltip = {
+				character_event = { id = cicerite.3 days = 3 }
+				#character_event = { id = 86867 years = 2 }
+			}
+		}
+	}
+	
+	option = {
+		name = "cicerite.2.b"
+		trigger = { NOT = { trait = charitable } }
+		piety = -5
+	}
+
+}
+
+character_event = { #Romaria Starting
+	id = cicerite.3
+	desc = "cicerite.3.desc"
+	picture = GFX_evt_pilgrims_epic_journey_desert
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = "cicerite.3.a"
+		clr_character_flag = preparing_romaria
+		add_trait = on_romaria
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_WENT_ON_ROMARIA
+				picture = GFX_evt_romaria
+			}
+		}
+		hidden_tooltip = {
+			character_event = { id = cicerite.4 days = 3 } #mirage event, we could maybe randomize it
+			character_event = { id = cicerite.5 days = 30 }
+		}
+	}
+}
+
+#Lost in the desert
+character_event = {
+	id = cicerite.4
+	desc = "cicerite.4.desc"
+	picture = GFX_evt_desert
+	border = GFX_event_normal_frame_religion
+	
+	prisoner = no
+	
+	is_triggered_only = yes
+
+	trigger = {
+		trait = on_romaria
+	}
+	
+	option = {
+		name = "cicerite.4.a"
+		random = {
+			chance = 5
+			add_trait = depressed
+		}	
+	}
+	
+	option = {
+		name = "cicerite.4.b"
+		random = {
+			chance = 5
+			add_trait = possessed
+		}		
+	}
+}
+
+#arriving at Juazeiro
+character_event = {
+	id = cicerite.5
+	desc = "cicerite.5.desc"
+	picture = GFX_evt_romaria
+	border = GFX_event_normal_frame_religion
+	
+	prisoner = no
+	
+	is_triggered_only = yes
+
+	trigger = {
+		trait = on_romaria
+	}
+	
+	option = {
+		name = "cicerite.5.a"
+		piety = 15
+		hidden_tooltip = {
+			character_event = { id = cicerite.6 days = 2 }
+		}		
+	}
+}
+
+#dancing in a circle
+character_event = {
+	id = cicerite.6
+	desc = "cicerite.6.desc"
+	picture = GFX_evt_romaria
+	border = GFX_event_normal_frame_religion
+	
+	prisoner = no
+	
+	is_triggered_only = yes
+
+	trigger = {
+		trait = on_romaria
+	}
+	
+	immediate = {
+		character_event = { id = cicerite.7 days = 1 }
+	}	
+	option = {
+		name = "EVTOPTA86550"
+		if = {
+			limit = {
+				trait = proud
+			}
+			add_trait = ambitious
+		}
+		random = {
+			chance = 33
+			add_trait = proud
+			hidden_tooltip = { character_event = {	id = 38261 } } #you have become proud event
+		}
+		piety = 25
+	}
+	option = {
+		name = "EVTOPTB86550"
+		piety = 25
+		add_trait = humble
+	}	
+}
+
+character_event = {
+	id = cicerite.7
+	desc = "cicerite.7.desc"
+	picture = GFX_evt_romaria
+	border = GFX_event_normal_frame_religion
+	
+	prisoner = no
+	
+	is_triggered_only = yes
+
+	trigger = {
+		trait = on_romaria
+	}
+	
+	immediate = {
+		character_event = { id = cicerite.8 days = 25 }
+	}	
+	
+	option = {
+		name = "cicerite.7.a"
+		
+		if = {
+			limit = {
+				NOT  = { has_character_flag = gained_hajj_health }
+			}
+		health = 1
+		set_character_flag = gained_hajj_health #NoHax
+		break = yes
+		}
+		if = {
+			limit = {
+				has_character_flag = gained_hajj_health
+			}
+		piety = 25
+		}
+	}
+}
+
+character_event = {
+	id = cicerite.8
+	desc = "cicerite.8.desc"
+	picture = GFX_evt_romaria
+	border = GFX_event_normal_frame_religion
+	
+	prisoner = no
+	
+	is_triggered_only = yes
+
+	trigger = {
+		trait = on_romaria
+	}
+	
+	immediate = {
+	}	
+	
+	option = {
+		name = "cicerite.8.a"
+		
+		remove_trait = on_romaria
+		add_trait = romeiro
+
+		event_target:invite_to_romaria = {
+			remove_trait = on_romaria
+			add_trait = romeiro
+		}
+	}
+}

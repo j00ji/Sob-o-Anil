@@ -294,6 +294,29 @@ modernism.0.name;IT MATTERS ONLY WHAT IS NOT MINE.;;;;;;;;;;;;;x
 modernism.0.desc;The Struggle between what would be called the Uncreature and the creature - depicted by the permanent contradiction between man and his taboo. The quotidian love and the christianized modusvivendi. "Anthropofagía": the absorption of the Holy Enemy to turn him into totem.;;;;;;;;;;;;;x
 EVTOPTA_modernism_0;Tupi or not Tupi, that is the question..;;;;;;;;;;;;;x
 
+cicerite.1.desc;You have started to prepare yourself for going on a Romaria. Soon you will humble yourself and travel in a group with others and pay your homage to Father Cicero.;;;;;;;;;;;;;x
+cicerite.1.a;Valei-me, Padre Cícero.;;;;;;;;;;;;;;x
+cicerite.2.desc;I am preparing myself for my travel to Juazeiro, and I have understood that there are members of my court that have not yet gone on a Romaria. As [ROOT.GetTitle], it is my duty to be charitable to my people, and I will bring one of them with me.;;;;;;;;;;;;;x
+cicerite.2.a;It will make the travel more enjoyable.;;;;;;;;;;;;;;x
+cicerite.2.b;It is too costly.;;;;;;;;;;;;;;x
+cicerite.3.desc;I am now fully prepared for my travel to Juazeiro! There will be a regent ruling [Root.PrimaryTitle.GetName] while I am away. 
+cicerite.3.a;Onwards to Juazeiro!;;;;;;;;;;;;;;x
+CHRONICLE_WENT_ON_ROMARIA;[Root.GetTitledName] undertook a Romaria to Juazeiro.;;;;;;;;;;;;;;x
+cicerite.4.desc;The Journey through the Sertão is long and arduous under schorching sun. Suddenly a large coffee house materializes into thin air before your very eyes, and the singing caboclo who seems to own the establishment beckons you inside. Strangely, your travelling companions do not take notice of this stunning event.;;;;;;;;;;;;;;x
+cicerite.4.a;A mirage... my mind is playing tricks on me.;;;;;;;;;;;;;;x
+cicerite.4.b;Last one inside is the priest's wife!.;;;;;;;;;;;;;;x
+cicerite.5.desc;As you and your fellow romeiros arrive in Juazeiro and lay your eyes upon the magnificent statue of Father Cicero, a profound sense of reverence and devotion fills your hearts, connecting you deeply with God and the sacredness of the place.;;;;;;;;;;;;;;x
+cicerite.5.a;I am humbled...;;;;;;;;;;;;;;x
+cicerite.6.desc;Chanting in a circle around the statue of your Father Cicero, you feel a profound sense of unity, spiritual connection, and deep devotion. The rhythmic chants create a sacred bond, and in this moment, you are enveloped by a profound sense of peace and divine presence, making you feel a part of something greater than yourself.;;;;;;;;;;;;;;x
+cicerite.6.a;Chant louder than everyone else.;;;;;;;;;;;;;;x
+cicerite.6.b;Be part of the chorus.;;;;;;;;;;;;;;x
+cicerite.7.desc;Visiting a Rezadeira, you'd feel a mix of wonder and gratitude. The ancient rituals and remedies would instill hope as you experience a growing sense of well-being and relief, deepening your appreciation for this holistic approach to healing.;;;;;;;;;;;;;;x
+cicerite.7.a;I feel invigorated!.;;;;;;;;;;;;;;x
+cicerite.8.desc;I have returned to my court a changed man. I am truly humbled before God, and I know that all men are equal and can live in harmony with each other.;;;;;;;;;;;;;;x
+cicerite.8.a;Louvado seja nosso senhor Jesus Cristo! Para sempre seja louvado!;;;;;;;;;;;;;;x
+COMPL_ROMEIRO;Romeiro;;;;;;;;;;;;;;x
+COMPL_ROMEIRA;Romeira;;;;;;;;;;;;;;x
+
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x

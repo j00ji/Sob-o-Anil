@@ -830,6 +830,8 @@ apostolic_bonfim;Nosso Senhor do Bonfim;;;;;;;;;;;;;x
 apostolic_bonfim_desc;This character reveres Our Lord of the Good End, a representation of Jesus at the moment of his death on the cross. Followers of this cult are more open to religious syncretism than most other Apostolics.;;;;;;;;;;;;;x
 aculturado;Abaporuaçu;;;;;;;;;;;;;x
 aculturado_desc;This character has consumed from many different cultures and is thus widely respected amongst the Anthropofagian community ;;;;;;;;;;;;;x
+on_romaria;On Romaria;;;;;;;;;;;;;x
+on_romaria_desc;This character went on a romaria to pay homage to Father Cicero.;;;;;;;;;;;;;x
 
 ###DECISIONS ;;;;;;;;;;;;;;x
 change_evangelical_church;Change Evangelical Denomination;;;;;;;;;;;;;x
