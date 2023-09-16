@@ -1,0 +1,563 @@
+# centers of trade
+technology={
+	titles={
+		d_santos
+		d_grande_rio
+		d_greater_florianopolis
+		d_manaus
+		d_recife
+		d_lencois
+		d_belzonte
+		d_guayra
+		d_guayas
+		d_valparaiso
+		d_mardel
+		d_montevideo
+		d_costa_verde
+	}
+
+	2369={
+		military=1.5
+		economy=2.1
+		culture=1.5
+		TECH_TRADE_PRACTICES=3.0
+		TECH_CONSTRUCTION=3.0
+		TECH_NAVAL=2.1
+	}
+}
+
+# centers of culture
+technology={
+	titles={
+		d_grande_sao_paulo
+		d_curitiba
+		d_paraguacu
+		d_serra_dos_orgaos
+		d_paraiba
+		d_leste_potiguar
+		d_belem
+		d_quito
+		d_la_paz
+		d_santiago
+	}
+
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=2.1
+		TECH_MAJESTY=3.0
+		TECH_LEGALISM=3.0
+	}
+}
+
+# centers of military
+technology={
+	titles={
+		d_the_district
+		d_campinas
+		d_medio_paraiba
+		d_sergipe
+		d_alagoas
+		d_morro_branco
+		d_vertentes
+		d_uberlands
+		d_guapore
+		d_constestado
+		d_porto_alegre
+		d_lima
+		d_paraguay
+		d_baires
+		d_santa_cruz
+	}
+
+	2369={
+		military=2.1
+		economy=1.5
+		culture=1.5
+		TECH_RECRUITMENT=3.0
+		TECH_SIEGE_EQUIPMENT=3.0
+	}
+}
+
+#ecuador
+
+technology={
+	titles={
+		d_narino
+		d_morona
+		d_cuenca
+		d_tungurahua
+	}
+
+	2369={
+		military=1.2
+		economy=1.2
+		culture=1.8
+	}
+}
+
+technology={
+	titles={
+		d_galapagos
+	}
+
+	2369={
+		military=1.2
+		economy=1.5
+		culture=1.8
+		TECH_NAVAL=2.5
+	}
+}
+
+#peru
+
+technology={
+	titles={
+		d_amotape
+		d_chaparri
+		d_amazonas
+		d_loreto
+		d_moche
+		d_ancash
+		d_huanaco
+		d_ucayali
+		d_chanchamayo
+		d_choquequirao
+		d_ayacucho
+		d_ica
+		d_tambopata
+		d_puno
+		d_arequipa
+		d_vilcanota
+		d_mantaro
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+	}
+}
+
+#bolivia
+
+technology={
+	titles={
+		d_yungas
+		d_cochabamba
+		d_chuquisaca
+		d_potosi
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+	}
+}
+
+technology={
+	titles={
+		d_beni
+		d_nuflo
+		d_cordillera
+		
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+		TECH_CAVALRY = 2.1
+		TECH_SKIRMISH = 2.1
+	}
+}
+
+#paraguay
+
+technology={
+	titles={
+		d_chaco_oriental
+		d_upper_paraguay
+		d_lower_parana
+		d_upper_parana
+		
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+		TECH_CAVALRY = 2.1
+		TECH_SKIRMISH = 2.1
+	}
+}
+
+#chile
+
+technology={
+	titles={
+		d_tarapaca
+		d_antofagasta
+		d_copiapo
+		d_huasco
+		d_coquimbo
+		d_choapa
+		d_ohiggins
+		d_maule
+		d_nuble
+		d_biobio
+		d_araucania
+		d_los_rios
+		d_los_lagos
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+		TECH_NAVAL=2.5
+	}
+}
+
+technology={
+	titles={
+		d_aysen
+		d_magallanes
+		d_tierra_del_fuego
+	}
+
+	2369={
+		military=1.1
+		economy=1.1
+		culture=1.1
+		TECH_NAVAL=1.8
+	}
+}
+
+#argentina
+
+technology={
+	titles={
+		d_falkland_islands
+	}
+
+	2369={
+		military=1.1
+		economy=1.1
+		culture=1.1
+		TECH_NAVAL = 2.1
+	}
+}
+
+technology={
+	titles={
+		d_santa_cruz_de_patagonia
+		d_lago_argentino
+		d_deseado
+		d_escalante
+		d_esquel
+	}
+
+	2369={
+		military=1.1
+		economy=1.1
+		culture=1.1
+		TECH_CAVALRY = 1.8
+		TECH_SKIRMISH = 1.8
+	}
+}
+
+technology={
+	titles={
+		d_biedma
+		d_bariloche
+		d_jacobacci
+		d_viedma
+		d_patagones
+		d_general_roca
+		d_neuquen
+		d_mendoza
+		d_san_juan
+		d_la_rioja
+		d_cordoba
+		d_san_luis
+		d_la_pampa
+		d_blanca
+		d_tandil
+		d_dolores
+		d_plata
+		d_azul
+		d_junin
+		d_lagunas
+		d_lujan
+		d_rosario
+		d_santa_fe
+		d_tucuman
+		d_chaco
+		d_formosa
+		d_salta
+		d_enterrios
+		d_corrientes
+		d_misiones
+		d_anejo
+		d_trenque_lauquen
+		
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+		TECH_CAVALRY = 2.1
+		TECH_SKIRMISH = 2.1
+	}
+}
+
+#uruguay
+
+technology={
+	titles={
+		d_atlantico
+		d_litoral
+		
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+	}
+}
+
+technology={
+	titles={
+		d_interior
+		
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+		TECH_CAVALRY = 2.1
+		TECH_SKIRMISH = 2.1
+	}
+}
+
+#brazil
+
+technology={
+	titles={
+		d_arapei
+		d_tapes
+		d_costa_doce
+		d_coxilhas
+		d_boca_do_monte
+		d_vale_do_rio_pardo
+		d_missoes
+		d_alto_uruguai
+		d_campos_de_vacaria
+		d_lages
+		d_vale_do_iguacu
+		d_nova_rutenia
+		d_paranapanema
+		d_marilia
+		d_alto_pontal
+		d_aracatuba
+		d_rio_preto
+		d_medio_tiete
+		d_itapeva
+		d_sorocaba
+		d_piracicaba
+		d_pontal_do_triangulo
+		d_pontal_da_prata
+		d_aguas_virt
+		d_rio_pardo
+		d_mogi
+		d_tormenta
+		d_araxas
+		d_divinopolis
+		d_catalonia
+		d_sertao_potiguar
+		d_campanha
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+		TECH_CAVALRY = 2.1
+		TECH_SKIRMISH = 2.1
+	}
+}
+
+technology={
+	titles={
+		d_maracaju
+		d_pantanal
+		d_guimarania
+		d_sinopia
+		d_barra_das_garcas
+		d_rio_verde
+		d_planalto_central
+		d_tocantins
+		d_carajas
+		d_araguaia
+		d_alto_parnaiba
+		d_barreiras
+		d_itapecuru
+		d_medio_parnaiba
+		d_francisca
+		d_sobrado
+		d_santa_maria
+		d_rio_grande
+		d_sertao_pernambucano
+		d_itamaraca
+		d_jaguaribe
+		d_ibiapaba
+		d_teresina
+	}
+
+	2369={
+		military=1.1
+		economy=1.1
+		culture=1.1
+		TECH_CAVALRY = 1.8
+		TECH_SKIRMISH = 1.8
+	}
+}
+
+technology={
+	titles={
+		d_ararangua
+		d_vale_do_itajai
+		d_paracatu
+		d_alto_medio
+		d_serra_nova
+		d_verde_grande
+		d_barreiro_grande
+		d_paraibuna
+		d_guarapiranga
+		d_ferroquadro
+		d_carinhanha
+		d_passo_do_principe
+		d_costa_do_sol
+		d_goytacazia
+		d_pomerania
+		d_costa_capixaba
+		d_soorotema
+		d_porto_seguro
+		d_tres_bracos
+		d_valenca
+		d_tucuria
+		d_gurupi
+		d_mearim
+		d_parnaiba_poente
+		d_baixo_parnaiba
+		d_capibaribe
+		d_rio_real
+		d_jeremoabo
+		d_capivari
+		d_
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+	}
+}
+
+technology={
+	titles={
+		d_alto_paraiba
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.8
+	}
+}
+
+technology={
+	titles={
+		d_caparao
+		d_piranga
+		d_vale_do_aco
+		d_serra_do_cipo
+		d_vale_do_rio_doce
+		d_mucuri
+		d_vale_do_jequitinhonha
+		d_serra_da_noruega
+		d_diamantina
+		d_lapa
+		d_brumado
+		d_macaubas
+		d_angelim
+	}
+
+	2369={
+		military=1.1
+		economy=1.1
+		culture=1.1
+	}
+}
+
+technology={
+	titles={
+		d_ararangua
+		d_vale_do_itajai
+		d_ribeira
+	}
+
+	2369={
+		military=1.5
+		economy=1.8
+		culture=1.5
+	}
+}
+
+#amazon
+
+technology={
+	titles={
+		d_marajo
+		d_amapa
+		d_pamboapy
+		d_altamira
+		d_tapajos
+		d_itacotiara
+		d_roraima
+	}
+
+	2369={
+		military=1.5
+		economy=1.5
+		culture=1.5
+		TECH_NAVAL = 2.1
+	}
+}
+
+technology={
+	titles={
+		d_igarape_mamoria
+		d_copea
+		d_aironia
+		d_the_dogs_head
+		d_vale_do_bia
+		d_vale_do_javari
+		d_fernando_de_noronha
+		d_taumaturgia
+		d_lesser_acre
+	}
+
+	2369={
+		military=1.1
+		economy=1.1
+		culture=1.1
+		TECH_NAVAL = 1.8
+	}
+}
