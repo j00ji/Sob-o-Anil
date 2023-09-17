@@ -379,7 +379,7 @@ feudal_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
-		frame_suffix = "_romanimperial"
+		frame_suffix = "_confucian_empire"
 		potential = {
 			OR = { 
 				AND = { 
@@ -442,7 +442,7 @@ feudal_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
-		frame_suffix = "_romanimperial"
+		frame_suffix = "_confucian_empire"
 		gets_religion_opinion_penalties = no
 		gives_religion_opinion_penalties = no
 		potential = {
@@ -705,7 +705,7 @@ feudal_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
-		frame_suffix = "_military"
+		frame_suffix = "_confucian"
 		title_prefix = "military_"
 		#gets_religion_opinion_penalties = no
 		#gives_religion_opinion_penalties = no
@@ -801,7 +801,7 @@ feudal_governments = {
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
-		frame_suffix = "_military"
+		frame_suffix = "_confucian"
 		title_prefix = "military_"
 		gets_religion_opinion_penalties = no
 		gives_religion_opinion_penalties = no
