@@ -217,7 +217,7 @@ technology={
 		military=1.5
 		economy=1.5
 		culture=1.5
-		TECH_NAVAL=2.5
+		TECH_NAVAL=2.1
 	}
 }
 
