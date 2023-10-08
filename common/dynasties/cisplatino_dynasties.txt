@@ -1641,7 +1641,7 @@
 }
 100006=
 {
-	name="Geisel"
+	name="Fischer"
 	culture=hunsruckisch
 	can_appear = no
 	used_for_random = no
@@ -1677,7 +1677,7 @@
 ##range: 100500+
 ####################
 100500={
-	name="Fischer"
+	name="Geisel"
 	culture=hunsruckisch
 }
 100501={

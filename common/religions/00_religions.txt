@@ -541,9 +541,9 @@ christian = {
 		
 		color = { 1.0 0.9 0.4 }
 		
-		crusade_name = SEDITION
-		use_new_crusade = yes
-		crusade_cb = new_crusade
+		#crusade_name = SEDITION
+		#use_new_crusade = yes
+		#crusade_cb = new_crusade
 		scripture_name = THE_BIBLE
 		priest_title = PADIM
 		
@@ -561,7 +561,7 @@ christian = {
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
 		can_grant_claim = yes
-		can_call_crusade = yes
+		#can_call_crusade = yes
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
 		allow_rivermovement = yes
@@ -578,8 +578,8 @@ christian = {
 	
 		color = { 0.85 0.76 0.33 }
 		
+		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
-		
 		high_god_name = GOD_DEUS
 		
 		god_names = {
@@ -591,6 +591,18 @@ christian = {
 		}
 		
 		parent = cicerite
+		
+		#can_have_antipopes = yes #maybe?
+		investiture = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		allow_rivermovement = yes
+		priests_can_inherit = no
+		rel_head_defense = yes 
 	}
 	evangelical = {
 		graphical_culture = westerngfx

@@ -24,6 +24,7 @@
 2359.3.22 = {
 	holder = 110557 #Samuel Teles
 }
-2364.5.1 = { #Alexandre subjugates Campinas
+2364.5.1 = { #Mercenary rewarded for his actions against the Mineiros
 	liege = d_grande_sao_paulo
+	holder = 110602
 }

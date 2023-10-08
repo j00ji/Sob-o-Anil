@@ -1137,6 +1137,49 @@ e_the_south = {
 				b_urupema = {}
 			}
 		}
+		d_vale_do_itajai = {
+			color={ 120 250 127 }
+			color2={ 255 255 255 }
+			
+			capital = 198 # c_blumenau
+			
+			c_itajai = { # 197
+				color={ 110 4 122 }
+				color2={ 255 255 255 }
+				
+				b_beto_carrero_castle = {}
+				b_balneario_camboriu = {}
+				b_navegantes = {}
+				b_praia_brava = {}
+				b_picarras = {}
+				b_luiz_alves = {}
+				b_sao_joao_do_itaperiu = {}
+			}
+			c_blumenau = { # 198
+				color={ 82 196 178 }
+				color2={ 255 255 255 }
+				
+				b_blumenaustadt = {}
+				b_pomerode = {}
+				b_indaial = {}
+				b_rio_dos_cedros = {}
+				b_ascurra = {}
+				b_timbo = {}
+				b_benedito_novo = {}
+			}
+			c_rio_do_sul = { # 199
+				color={ 159 229 187 }
+				color2={ 255 255 255 }
+				
+				b_rio_do_sul = {}
+				b_ituporanga = {}
+				b_ibirama = {}
+				b_lontras = {}
+				b_nereu_ramos = {}
+				b_laurentino = {}
+				b_rio_do_oeste = {}
+			}
+		}
 		d_passo_do_principe = {
 			color={ 235 229 64 }
 			color2={ 255 255 255 }
@@ -1178,49 +1221,6 @@ e_the_south = {
 				b_monte_castelo = {}
 				b_itaiopolis = {}
 				b_iraputa = {}
-			}
-		}
-		d_vale_do_itajai = {
-			color={ 120 250 127 }
-			color2={ 255 255 255 }
-			
-			capital = 197 # c_itajai
-			
-			c_itajai = { # 197
-				color={ 110 4 122 }
-				color2={ 255 255 255 }
-				
-				b_beto_carrero_castle = {}
-				b_balneario_camboriu = {}
-				b_navegantes = {}
-				b_praia_brava = {}
-				b_picarras = {}
-				b_luiz_alves = {}
-				b_sao_joao_do_itaperiu = {}
-			}
-			c_blumenau = { # 198
-				color={ 82 196 178 }
-				color2={ 255 255 255 }
-				
-				b_blumenaustadt = {}
-				b_pomerode = {}
-				b_indaial = {}
-				b_rio_dos_cedros = {}
-				b_ascurra = {}
-				b_timbo = {}
-				b_benedito_novo = {}
-			}
-			c_rio_do_sul = { # 199
-				color={ 159 229 187 }
-				color2={ 255 255 255 }
-				
-				b_rio_do_sul = {}
-				b_ituporanga = {}
-				b_ibirama = {}
-				b_lontras = {}
-				b_nereu_ramos = {}
-				b_laurentino = {}
-				b_rio_do_oeste = {}
 			}
 		}
 	}

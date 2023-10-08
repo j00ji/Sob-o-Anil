@@ -889,7 +889,7 @@
 		add_spouse=270012
 	}
 	2365.1.1={
-		effect={add_rival=270016 #Ivan
+		effect={add_rival=270016 #Lucio
 				add_rival=270014} #santana
 		#effect={add_rival=270014} #santana
 	}
@@ -922,7 +922,7 @@
 			killer=270016 #Santana acabe com ela
 		}
 	}
-	#Wife of João Amorim, killed by Santana on the orders of the Geisel ruler
+	#Wife of João Amorim, killed by Santana on the orders of the Fischer ruler
 }
 270013={
 	name="Maria"
@@ -948,7 +948,7 @@
 270014={
 	name="Santana"
 	dynasty=0
-	culture=greenbelly
+	culture=pomerisch
 	religion=evangelical
 	trait=tough_soldier
 	trait=branch_pentecostal
@@ -994,13 +994,13 @@
 	#ruler of Concórdia vassal of Lages
 }
 270016={
-	name="Ivan"
-	dynasty=100006 #geisel
+	name="Lúcio"
+	dynasty=100006 #Fischer
 	culture=hunsruckisch
 	religion=evangelical
 	trait=intricate_webweaver
 	father=270051
-	#we need a luthran branch
+	trait = branch_lutheran
 	trait=ambitious
 	trait=arbitrary
 	trait=cruel
@@ -1012,14 +1012,17 @@
 	2329.1.1={
 		birth=yes
 	}
+	2367.1.1={
+		capital = d_passo_do_principe
+	}
 	2400.1.1={
 		death=yes
 	}
 	#duke of both vale do itajai and passo do principe
 }
 270017={
-	name="Adão"
-	dynasty=100006 #geisel
+	name="Márcio"
+	dynasty=100006 #Fischer
 	culture=hunsruckisch
 	religion=evangelical
 	father=270052
@@ -1288,10 +1291,11 @@
 270029={
 	name="Gisele"
 	female=yes
-	dynasty=100006 #geisel
+	dynasty=100006 #Fischer
 	father=270052
 	culture=hunsruckisch
-	religion=evangelical#we need a luthran branch
+	religion=evangelical
+	trait = branch_lutheran
 	trait=intricate_webweaver
 	trait=schemer
 	trait=groomed
@@ -1329,7 +1333,7 @@
 	2300.1.1={
 		death=yes
 	}
-	#defeated the old Geisel rulers of Florianopólis and founded the republic, ruled from 2265 until his death in 2300
+	#defeated the old Fischer rulers of Florianopólis and founded the republic, ruled from 2265 until his death in 2300
 }
 270031={
 	name="José"
@@ -1655,10 +1659,10 @@
 	}
 	#Floripa patrician
 }
-##Geisel Family History
+##Fischer Family History
 270048={
-	name="Floriano"
-	dynasty=100006 #Geisel
+	name="Túlio"
+	dynasty=100006 #Fischer
 	culture=hunsruckisch
 	religion=evangelical
 	trait=tough_soldier
@@ -1680,8 +1684,9 @@
 	#Former Military-king of Santa Catarina formerly held Florianopólis before being deposed by the revolution
 }
 270049={
-	name="André"
-	dynasty=100006 #Geisel
+	name="Márcio
+	"
+	dynasty=100006 #Fischer
 	culture=hunsruckisch
 	religion=evangelical
 	father=270048
@@ -1694,11 +1699,11 @@
 	2303.1.1={
 		death=yes
 	}
-	#eldest son of Geisel, inherited Vale do Itajaí
+	#eldest son of Fischer, inherited Vale do Itajaí
 }
 270050={
-	name="Floriano"
-	dynasty=100006 #Geisel
+	name="Túlio"
+	dynasty=100006 #Fischer
 	culture=hunsruckisch
 	religion=evangelical
 	father=270048
@@ -1711,11 +1716,11 @@
 	2313.1.1={
 		death=yes
 	}
-	#youngest son of Geisel, inherited Passo do principe
+	#youngest son of Fischer, inherited Passo do principe
 }
 270051={
-	name="Amaury"
-	dynasty=100006 #Geisel
+	name="Márcio"
+	dynasty=100006 #Fischer
 	culture=hunsruckisch
 	religion=evangelical
 	father=270049
@@ -1729,11 +1734,11 @@
 	2343.1.1={
 		death=yes
 	}
-	#son of André Geisel, ruled Vale do Itajái
+	#son of André Fischer, ruled Vale do Itajái
 }
 270052={
-	name="Ernesto"
-	dynasty=100006 #Geisel
+	name="Lúcio"
+	dynasty=100006 #Fischer
 	culture=hunsruckisch
 	religion=evangelical
 	father=270050

@@ -12,6 +12,8 @@ e_nordeste = {
 		capital = 536 # c_fortaleza
 		culture = cearense
 		
+		seladite = 1000
+		
 		d_morro_branco = {
 			color={ 83 206 93 }
 			color2={ 255 255 255 }
@@ -173,7 +175,9 @@ e_nordeste = {
 		color2={ 255 255 255 }
 		
 		capital = 547 # c_joao_pessoa
-		culture = atlanticano
+		culture = natalense
+		
+		seladite = 500
 		
 		d_paraiba = {
 			color={ 214 124 107 }
@@ -366,7 +370,7 @@ e_nordeste = {
 		color2={ 255 255 255 }
 		
 		capital = 592 # c_sao_luis
-		culture = parnaibas
+		culture = west_parnaibas
 		
 		d_lencois = {
 			color={ 10 110 165 }
@@ -680,7 +684,9 @@ e_nordeste = {
 		color2={ 255 255 255 }
 		
 		capital = 560 # c_recife
-		culture = atlanticano
+		culture = recifolindense
+		
+		seladite = 500
 		
 		d_recife = {
 			color={ 150 52 173 }

@@ -10864,6 +10864,7 @@
 	trait = wroth
 	trait = diligent
 	trait = tough_soldier
+	trait = bandeirante
 	
 	martial = 7
 	diplomacy = 5
