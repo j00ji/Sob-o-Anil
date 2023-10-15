@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_espirito_santo
 }
+2367.1.1={
+	holder=100012
+	government=feudal_government
+}

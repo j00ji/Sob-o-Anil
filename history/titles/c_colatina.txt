@@ -15,5 +15,5 @@
 2348.4.2={holder=0} #CHANGES TO THE EXARCHATE OF ILHEUS
 2367.6.1={
 	holder=90010#Augusto, the bastard Pommeranian prince
-	liege=d_universal
+	liege=d_soorotema
 }
