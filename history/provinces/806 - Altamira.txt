@@ -15,7 +15,7 @@ b_vitoria_do_xingu = city
 #b_aricaria = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = holy_spirit
 
 #History

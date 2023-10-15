@@ -15,7 +15,7 @@ b_medicilandia = castle
 #b_bambui = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = holy_spirit
 
 #History

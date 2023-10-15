@@ -15,7 +15,7 @@ b_curua = temple
 #b_acucena = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = xabaxai_xagi
 
 #History

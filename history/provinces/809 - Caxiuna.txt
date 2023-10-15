@@ -15,7 +15,7 @@ b_melgaco = temple
 #b_jose_porfirio = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = holy_spirit
 
 #History

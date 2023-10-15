@@ -15,7 +15,7 @@ b_conceicao_2 = castle
 #b_caicara = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = holy_spirit
 
 #History

@@ -2955,9 +2955,9 @@ nortista_group = {
 		modifier = default_culture_modifier
 	}
 	paraense = { 
-		graphical_cultures = { southindiangfx mexicangfx }
+		graphical_cultures = { southerngfx westerngfx }
 		
-		color = { 0.2 0.6 0.2 }
+		color = { 0.16 0.6 0.7}
 		
 		male_names = {
 			Adriano_Adrian Alberto_Albert Altamir Ângelo Aníbal Antonio_Anthony Arah Arnaldo_Arnold Artur Augusto_Augustus
@@ -3023,6 +3023,136 @@ nortista_group = {
 		graphical_cultures = { southindiangfx mexicangfx }
 		
 		color = { 0.2 0.6 0.2 }
+		
+		male_names = {
+			Adriano_Adrian Alberto_Albert Altamir Ângelo Aníbal Antonio_Anthony Arah Arnaldo_Arnold Artur Augusto_Augustus
+			Batista Benício Benildo Bernardo Bento
+			Caiubi Carlos Cauã Chico Costa
+			Danilo Diego_James
+			Edmundo Eduardo Émerson Estevão
+			Flamarion Francisco
+			Geraldo
+			Heitor
+			Iradilson Italo Ivo
+			Jaci João Juan Jorge José Josué Julio Jurandir
+			Leonardo_Leo Lopes Luciano Luiz_Luís
+			Márcio Marcos Mário Maurício Miguel Milton Moacir
+			Neudo
+			Óscar_Oscar Ottomar
+			Paulo_Paul Pirijá Piquerobi 
+			Ramalho Raul Ribeiro Ricardo Rogério Romero Rui
+			Samuel Sandro Saulo
+			Telmário Thiago Tiago Tomás Tibiriçá
+			Ubirajara Ubiratã
+			Valdomiro Vinícius
+			Zeferino
+			Arata Toruí Mbicy Áhari Ebedimu Gunfuli Kaigouchi Ilumani
+		}
+		female_names = {
+			Adriana Aline Ana_Anna Araci Ariane Azelene
+			Bartira Beatriz_Beatrice Berenice Bianca
+			Carina Cíntia
+			Eliana Elisandra Eloá Ester Esther Evelyn
+			Fátima Florany
+			Gabriela_Gabriela
+			Hayá
+			Iara Inês Isadora Isani
+			Jaci Janaína Joênia Jougousa Júlia_Julia
+			Kelly Luana
+			Luciana Lucielle Luísa Luíza
+			Manuela Maria_Mary Marília Marina Matilde_Matilda Michele_Michelle
+			Natália Neusa Nina
+			Olga
+			Paloma Paula Porasy Poliana Potira
+			Regina Rita
+			Silva Simone Sofia_Sofia Suely
+			Tânia Teresa_Theresa Valéria
+			Vanda Virgínia
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	caboclo = { 
+		graphical_cultures = { southindiangfx mexicangfx }
+		
+		color = { 0.69 0.5 0.44 }
+		
+		male_names = {
+			Adriano_Adrian Alberto_Albert Altamir Ângelo Aníbal Antonio_Anthony Arah Arnaldo_Arnold Artur Augusto_Augustus
+			Batista Benício Benildo Bernardo Bento
+			Caiubi Carlos Cauã Chico Costa
+			Danilo Diego_James
+			Edmundo Eduardo Émerson Estevão
+			Flamarion Francisco
+			Geraldo
+			Heitor
+			Iradilson Italo Ivo
+			Jaci João Juan Jorge José Josué Julio Jurandir
+			Leonardo_Leo Lopes Luciano Luiz_Luís
+			Márcio Marcos Mário Maurício Miguel Milton Moacir
+			Neudo
+			Óscar_Oscar Ottomar
+			Paulo_Paul Pirijá Piquerobi 
+			Ramalho Raul Ribeiro Ricardo Rogério Romero Rui
+			Samuel Sandro Saulo
+			Telmário Thiago Tiago Tomás Tibiriçá
+			Ubirajara Ubiratã
+			Valdomiro Vinícius
+			Zeferino
+			Arata Toruí Mbicy Áhari Ebedimu Gunfuli Kaigouchi Ilumani
+		}
+		female_names = {
+			Adriana Aline Ana_Anna Araci Ariane Azelene
+			Bartira Beatriz_Beatrice Berenice Bianca
+			Carina Cíntia
+			Eliana Elisandra Eloá Ester Esther Evelyn
+			Fátima Florany
+			Gabriela_Gabriela
+			Hayá
+			Iara Inês Isadora Isani
+			Jaci Janaína Joênia Jougousa Júlia_Julia
+			Kelly Luana
+			Luciana Lucielle Luísa Luíza
+			Manuela Maria_Mary Marília Marina Matilde_Matilda Michele_Michelle
+			Natália Neusa Nina
+			Olga
+			Paloma Paula Porasy Poliana Potira
+			Regina Rita
+			Silva Simone Sofia_Sofia Suely
+			Tânia Teresa_Theresa Valéria
+			Vanda Virgínia
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		modifier = default_culture_modifier
+	}
+	marajoara = { 
+		graphical_cultures = { mesoamericangfx mexicangfx }
+		
+		color = { 0.21 0.27 0.6 }
 		
 		male_names = {
 			Adriano_Adrian Alberto_Albert Altamir Ângelo Aníbal Antonio_Anthony Arah Arnaldo_Arnold Artur Augusto_Augustus

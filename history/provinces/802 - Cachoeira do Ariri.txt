@@ -15,7 +15,7 @@ b_cachoeira_do_ariri = city
 #b_jenipapo_3 = castle
 
 # Misc
-culture = paraense
+culture = marajoara
 religion = holy_spirit
 
 #History

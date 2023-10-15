@@ -15,7 +15,7 @@ b_moncao = castle
 #b_tres_furos = castle
 
 # Misc
-culture = paraense
+culture = west_parnaiba
 religion = holy_spirit
 
 #History

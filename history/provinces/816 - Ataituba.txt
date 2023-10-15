@@ -15,7 +15,7 @@ b_ataituba = tribal
 #b_bubure = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = holy_spirit
 
 #History

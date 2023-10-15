@@ -15,7 +15,7 @@ b_buriticupu = temple
 #b_ubinzal = castle
 
 # Misc
-culture = paraense
-religion = holy_spirit
+culture = west_parnaiba
+religion = tambor
 
 #History

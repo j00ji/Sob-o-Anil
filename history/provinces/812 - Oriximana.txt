@@ -15,7 +15,7 @@ b_obidos = city
 #b_caipuru = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = amazonian_jews
 
 #History

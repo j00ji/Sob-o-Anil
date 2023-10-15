@@ -16,6 +16,6 @@ b_itaipava = city
 
 # Misc
 culture = guajajara
-religion = holy_spirit
+religion = tambor
 
 #History

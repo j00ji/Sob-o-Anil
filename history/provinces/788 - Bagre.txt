@@ -15,7 +15,7 @@ b_cameta = city
 #b_curucamba = castle
 
 # Misc
-culture = paraense
+culture = caboclo
 religion = holy_spirit
 
 #History

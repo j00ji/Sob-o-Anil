@@ -15,7 +15,7 @@ b_araguatins = tribal
 #b_cachoeirinha = castle
 
 # Misc
-culture = paraense
+culture = araguaio
 religion = manredebu
 
 #History

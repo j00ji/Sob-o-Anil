@@ -15,7 +15,7 @@ b_salvaterra = castle
 #b_caju = castle
 
 # Misc
-culture = paraense
+culture = marajoara
 religion = holy_spirit
 
 #History

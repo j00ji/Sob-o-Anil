@@ -15,7 +15,7 @@ b_eldorado_dos_carajas = tribal
 #b_sao_geraldo_do_araguaia = castle
 
 # Misc
-culture = paraense
+culture = araguaio
 religion = xabaxai_xagi
 
 #History

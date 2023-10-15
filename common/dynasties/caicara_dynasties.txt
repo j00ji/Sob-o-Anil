@@ -29,7 +29,7 @@
 }
 
 77501 = {
-	name = "Cananeia"
+	name = "Cardoso"
 	culture = caicara
 	religion = apostolic
 	can_appear = no

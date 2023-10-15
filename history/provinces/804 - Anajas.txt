@@ -15,7 +15,7 @@ b_afua = city
 #b_piria = castle
 
 # Misc
-culture = paraense
+culture = marajoara
 religion = holy_spirit
 
 #History

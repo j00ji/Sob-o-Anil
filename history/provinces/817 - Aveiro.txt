@@ -15,7 +15,7 @@ b_aveiro = castle
 #b_itapauna = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = xabaxai_xagi
 
 #History

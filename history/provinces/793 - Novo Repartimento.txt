@@ -15,7 +15,7 @@ b_novo_repartimento = tribal
 #b_vila_furacao = castle
 
 # Misc
-culture = paraense
+culture = caboclo
 religion = xabaxai_xagi
 
 #History

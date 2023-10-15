@@ -15,7 +15,7 @@ b_juruti = castle
 #b_paicandu_2 = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = holy_spirit
 
 #History

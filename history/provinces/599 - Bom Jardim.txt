@@ -15,7 +15,7 @@ b_itinga = temple
 #b_moncao_2 = castle
 
 # Misc
-culture = paraense
-religion = holy_spirit
+culture = west_parnaiba
+religion = tambor
 
 #History

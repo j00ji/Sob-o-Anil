@@ -15,7 +15,7 @@ b_paragominas = castle
 #b_mae_do_rio = castle
 
 # Misc
-culture = paraense
+culture = caboclo
 religion = holy_spirit
 
 #History

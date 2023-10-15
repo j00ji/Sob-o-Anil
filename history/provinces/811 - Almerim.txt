@@ -15,7 +15,7 @@ b_almeirim = castle
 #b_porto_mulungu = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = holy_spirit
 
 #History

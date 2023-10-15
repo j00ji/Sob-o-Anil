@@ -15,7 +15,7 @@ b_apace = castle
 #b_urucurituba = castle
 
 # Misc
-culture = paraense
+culture = tapajo
 religion = holy_spirit
 
 #History

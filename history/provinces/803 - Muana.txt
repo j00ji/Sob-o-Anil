@@ -15,7 +15,7 @@ b_ponta_das_pedras = temple
 #b_arrozal_2 = castle
 
 # Misc
-culture = paraense
+culture = marajoara
 religion = holy_spirit
 
 #History
