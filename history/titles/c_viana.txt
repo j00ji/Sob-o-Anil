@@ -1,0 +1,17 @@
+# e_nordeste
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_maranhao
+}
+2320.1.1={
+	holder = 30035#José Vitorino
+}
+2349.1.1={
+	holder = 30014#José Ribamar
+}
+2367.3.15={
+	holder = 30016#Rosa Ribamar
+}

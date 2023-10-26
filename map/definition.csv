@@ -1022,8 +1022,6 @@ province;red;green;blue;x;x
 1021;76;76;255;Parana;x
 1022;11;35;139;Parana;x
 1023;155;112;200;Tiete;x
-1095;155;200;200;Tiete;x
-1096;155;250;200;Tiete;x
 1024;213;103;252;Grande;x
 1025;167;43;225;Parnaibuna;x
 1026;97;124;207;Paraguay;x
@@ -1095,3 +1093,8 @@ province;red;green;blue;x;x
 1092;65;186;145;Passos;x
 1093;185;81;198;Formiga;x
 1094;175;146;109;Sao Roque de Minas;x
+1095;155;200;200;Tiete;x
+1096;155;250;200;Tiete;x
+1097;130;125;43;Aparecida;x
+1098;192;103;88;Acajutibiro;x
+1099;0;160;120;Viana;x

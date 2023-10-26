@@ -11,7 +11,7 @@ b_la_ravardiere = castle
 b_senhora_da_vitoria = temple
 b_sao_luis = city
 #b_lumiar = city
-#b_rosario_2 = temple
+#b_raposa = temple
 #b_ribamar = castle
 
 # Misc
@@ -19,3 +19,6 @@ culture = west_parnaibas
 religion = rastafarian
 
 #History
+2349.1.1 = {
+	capital = b_sao_luis
+}

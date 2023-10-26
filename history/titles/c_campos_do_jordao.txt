@@ -8,5 +8,5 @@
 }
 2362.4.25 = { 
 	holder = 80018 #Sabugosa ruler
-	liege = d_alto_paraiba
+	liege = k_aparecida
 }

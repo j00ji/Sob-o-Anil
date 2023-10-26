@@ -1,0 +1,21 @@
+# c_viana
+
+# County Title
+title = c_viana
+
+# Settlements
+max_settlements = 3
+
+b_viana_2 = castle
+b_rosario_2 = temple
+b_pinheiro = city
+#b_sao_vicente_forrer = temple
+#b_coqueirinho = castle
+#b_lavadeira = city
+#b_alcantara = temple
+
+# Misc
+culture = west_parnaibas
+religion = holy_spirit
+
+#History

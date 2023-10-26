@@ -1,0 +1,21 @@
+# c_aparecida
+
+# County Title
+title = c_aparecida
+
+# Settlements
+max_settlements = 4
+
+b_aparecida = temple
+b_roseira = castle
+b_guaratingueta = city
+b_lorena = temple
+#b_potim = 
+#b_canas2 = 
+#b_piquete = 
+
+# Misc
+culture = mantiqueiro
+religion = anchietican
+
+#History

@@ -13069,3 +13069,37 @@
 	2359.1.1={death={ death_reason=death_murder_unknown	}}
 	#mother of the marginal knight
 }
+
+110741 = {
+	name = "Gustavo"
+	dynasty = 55053 #de Melo
+	culture = mantiqueiro
+	religion = renewalist
+	trait = scholarly_theologian
+	trait = heresiarch
+	trait = strong
+	trait = gregarious
+	trait = narrow_flank_leader
+	
+	2302.3.4={birth=yes}
+	2329.2.3={
+		death = {
+			death_reason = death_execution 
+			killer = 110369
+		}
+	}
+}
+
+110742 = {
+	name = "Guilherme"
+	dynasty = 55053 #de Melo
+	father = 110741
+	culture = mantiqueiro
+	religion = renewalist
+	trait = skilled_tactician
+	trait = diligent
+	
+	2327.4.6={birth=yes}
+	2360.1.1={employer=80012}
+	2400.1.1={death=yes}
+}

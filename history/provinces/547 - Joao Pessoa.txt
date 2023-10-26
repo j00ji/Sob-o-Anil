@@ -15,7 +15,7 @@ b_bayeux = castle
 #b_cabedelo_2 = castle
 
 # Misc
-culture = potiguara
+culture = natalense
 religion = cicerite
 
 #History

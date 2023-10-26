@@ -791,6 +791,14 @@
 		}
 	}
 }
+
+55053 = { 
+	name = "de Melo"
+	culture = mantiqueiro
+	religion = apostolic
+	can_appear = no
+	used_for_random = no
+}
 ####################
 ####Random Paulistano Surnames
 ####Based on all state representatives of São Paulo
@@ -1671,11 +1679,11 @@
 	culture = paulistano
 	religion = apostolic
 }
-55671 = {
-	name = "de Melo"
-	culture = paulistano
-	religion = apostolic
-}
+#55671 = {
+#	name = "de Melo"
+#	culture = paulistano
+#	religion = apostolic
+#}
 55672 = {
 	name = "de Moraes"
 	culture = paulistano

@@ -158,3 +158,30 @@ b_anhanguera = {
 	culture = paulistano
 	religion = anchietican
 }
+
+## Uapo Açu (São Luís)
+
+b_leao = {
+	culture = west_parnaibas
+	religion = rastafarian
+}
+
+b_couto = {
+	culture = west_parnaibas
+	religion = rastafarian
+}
+
+b_salgado = {
+	culture = west_parnaibas
+	religion = rastafarian
+}
+
+b_leitao = {
+	culture = west_parnaibas
+	religion = tambor
+}
+
+b_nazare_family = {
+	culture = west_parnaibas
+	religion = holy_spirit
+}

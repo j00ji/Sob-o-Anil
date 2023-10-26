@@ -731,3 +731,408 @@
 	2400.1.1={death=yes}
 	#daughter of Nelson
 }
+#Uapo Açu republic
+#Leão Family
+30045={
+	name="Sião"
+	dynasty=850020 #Leão
+	culture=salvadorense
+	religion=rastafarian
+	trait=midas_touched
+	trait=shrewd
+	trait=gregarious
+	trait=hedonist
+	trait=groomed
+	diplomacy=6
+	martial=4
+	stewardship=6
+	intrigue=5
+	learning=3
+	2309.9.20={birth=yes culture=west_parnaibas}
+	2340.1.1={add_spouse=30046}
+	2370.1.1={death=yes}
+	#Patriarch current holder of the republic
+}
+30046={
+	name="Ana Maria"
+	dynasty=0
+	female=yes
+	culture=west_parnaibas
+	religion=rastafarian
+	trait=scholarly_theologian
+	trait=lustful
+	
+	2323.9.17={birth=yes}
+	2400.1.1={death=yes}
+}
+30047={
+	name="Sião"
+	dynasty=850020 #Leão
+	culture=salvadorense
+	religion=rastafarian
+	trait=midas_touched
+	trait=diligent
+	trait=ambitious
+	father=30045
+	mother=30046
+	diplomacy=2
+	martial=3
+	stewardship=9
+	intrigue=2
+	learning=4
+	2341.6.20={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#First son of Sião Leão
+}
+30048={
+	name="Bob"
+	dynasty=850020 #Leão
+	culture=salvadorense
+	religion=rastafarian
+	trait=tough_soldier
+	trait=honest
+	trait=stubborn
+	father=30045
+	mother=30046
+	diplomacy=4
+	martial=6
+	stewardship=3
+	intrigue=3
+	learning=5
+	2343.12.23={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#Second son of Sião Leão
+}
+30049={
+	name="Gilberto"
+	dynasty=850020 #Leão
+	culture=salvadorense
+	religion=rastafarian
+	trait=flamboyant_schemer
+	trait=shrewd
+	father=30045
+	mother=30046
+	diplomacy=4
+	martial=4
+	stewardship=3
+	intrigue=6
+	learning=4
+	2350.2.3={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#Third son of Sião Leão
+}
+30050={
+	name="Dominico"
+	dynasty=850020 #Leão
+	culture=salvadorense
+	religion=rastafarian
+	trait=legit_bastard
+	father=30045]
+	diplomacy=4
+	martial=4
+	stewardship=3
+	intrigue=6
+	learning=4
+	2360.2.3={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#Fourth son of Sião Leão
+}
+#Couto family
+30051={
+	name="Rômulo"
+	dynasty=850021 #Couto
+	culture=salvadorense
+	religion=rastafarian
+	trait=charismatic_negotiator
+	trait=stubborn
+	trait=fair
+	trait=scarred
+	diplomacy=7
+	martial=4
+	stewardship=4
+	intrigue=5
+	learning=1
+	2324.5.7={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#Couto Patriarch
+}
+30052={
+	name="Felipe"
+	dynasty=850021 #Couto
+	father=30051
+	culture=salvadorense
+	religion=rastafarian
+	trait=grey_eminence
+	trait=fat
+	trait=gluttonous
+	trait=content
+	diplomacy=7
+	martial=4
+	stewardship=4
+	intrigue=5
+	learning=1
+	2346.5.7={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#Couto heir
+}
+30053={
+	name="Fernanda"
+	dynasty=850021 #Couto
+	father=30051
+	female=yes
+	culture=salvadorense
+	religion=rastafarian
+	trait=martial_cleric
+	trait=chaste
+	diplomacy=5
+	martial=1
+	stewardship=5
+	intrigue=4
+	learning=7
+	2353.5.7={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#Couto daughter
+}
+#Salgado family
+30054={
+	name="Gregório"
+	dynasty=850022 #Salgado
+	culture=west_parnaibas
+	religion=rastafarian
+	trait=intricate_webweaver
+	trait=deceitful
+	trait=content
+	trait=patient
+	diplomacy=3
+	martial=4
+	stewardship=6
+	intrigue=7
+	learning=4
+	2330.7.13={birth=yes}
+	2350.1.1={effect={add_lover=30055}}
+	2351.1.1={add_spouse=30055}
+	2400.1.1={death=yes}
+	#Salgado patriarch
+}
+30055={
+	name="Júlia"
+	dynasty=0
+	culture=west_parnaibas
+	religion=holy_spirit
+	trait=elusive_shadow
+	trait=cynical
+	trait=lustful
+	trait=lustful
+	trait=stubborn
+	2332.4.7={birth=yes}
+	2400.1.1={death=yes}
+	#Salgado Matriarch
+}
+30056={
+	name="Gregório"
+	dynasty=850022 #Salgado
+	culture=west_parnaibas
+	religion=rastafarian
+	father=30054
+	mother=30055
+	trait=intricate_webweaver
+	trait=patient
+	diplomacy=3
+	martial=4
+	stewardship=6
+	intrigue=7
+	learning=4
+	2351.12.13={birth=yes}
+	2400.1.1={death=yes}
+	#Salgado heir
+}
+30057={
+	name="Jéssica"
+	dynasty=850022 #Salgado
+	culture=west_parnaibas
+	religion=rastafarian
+	father=30054
+	mother=30055
+	trait=flamboyant_schemer
+	trait=groomed
+	trait=lustful
+	trait=patient
+	diplomacy=3
+	martial=4
+	stewardship=6
+	intrigue=7
+	learning=4
+	2353.5.13={birth=yes}
+	2400.1.1={death=yes}
+	#Salgado daughter
+}
+#Agotimé family
+30058={
+	name="Rodrigo"
+	dynasty=850023 #Agotimé
+	culture=salvadorense
+	religion=tambor
+	trait=skilled_tactician
+	trait=patient
+	trait=unyielding_leader
+	trait=light_foot_leader
+	trait=gluttonous
+	trait=sturdy
+	2325.10.30={birth=yes culture=west_parnaibas}
+	2349.6.20={add_spouse=30059}
+	2400.1.1={death=yes}
+	#patriarch of Agotimé
+}
+30059={
+	name="Rafaela"
+	dynasty=0
+	culture=mediterranean
+	religion=tambor
+	trait=mastermind_theologian
+	trait=scholar
+	trait=shy
+	2331.2.4={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+	#Agotimé Matriarch
+}
+30060={
+	name="Renato"
+	dynasty=850023 #Agotimé
+	culture=salvadorense
+	religion=tambor
+	trait=tough_soldier
+	father=30058
+	mother=30059
+	trait=strong
+	trait=duelist
+	trait=wroth
+	trait=cynical
+	2350.4.3={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+}
+30061={
+	name="Ruth"
+	dynasty=850023 #Agotimé
+	culture=salvadorense
+	religion=tambor
+	female=yes
+	father=30058
+	mother=30059
+	2354.1.21={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+}
+30062={
+	name="Rodrigo"
+	dynasty=850023 #Agotimé
+	culture=salvadorense
+	religion=tambor
+	father=30058
+	mother=30059
+	2363.5.5={birth=yes culture=west_parnaibas}
+	2400.1.1={death=yes}
+}
+#Nazaré
+30063={
+	name="Heitor"
+	dynasty=850024 #Nazaré
+	culture=mediterranean
+	religion=holy_spirit
+	trait=fortune_builder
+	trait=proud
+	trait=architect
+	trait=temperate
+	trait=deceitful
+	diplomacy=6
+	martial=4
+	stewardship=7
+	intrigue=3
+	learning=5
+	2315.3.5={birth=yes}
+	2337.1.1={add_spouse=30064}
+	2380.1.1={death=yes}
+	#patriarch of the Nazaré family
+}
+30064={
+	name="Natália"
+	dynasty=0
+	culture=west_parnaibas
+	religion=holy_spirit
+	trait=naive_appeaser
+	trait=zealous
+	2321.4.5={birth=yes}
+	2400.1.1={death=yes}
+}
+30065={
+	name="Sebastião"
+	dynasty=850024 #Nazaré
+	father=30063
+	mother=30064
+	culture=mediterranean
+	religion=holy_spirit
+	trait=naive_appeaser
+	trait=stubborn
+	trait=envious
+	trait=frail
+	diplomacy=2
+	martial=3
+	stewardship=5
+	intrigue=4
+	learning=4
+	2339.10.8={birth=yes}
+	2400.1.1={death=yes}
+}
+30066={
+	name="Manuel"
+	dynasty=850024 #Nazaré
+	father=30063
+	mother=30064
+	culture=mediterranean
+	religion=holy_spirit
+	trait=skilled_tactician
+	trait=zealous
+	trait=stubborn
+	trait=robust
+	diplomacy=2
+	martial=7
+	stewardship=6
+	intrigue=3
+	learning=5
+	2343.10.15={birth=yes}
+	2400.1.1={death=yes}
+}
+30067={
+	name="Fátima"
+	dynasty=850024 #Nazaré
+	father=30063
+	mother=30064
+	culture=mediterranean
+	religion=holy_spirit
+	trait=martial_cleric
+	trait=zealous
+	trait=groomed
+	diplomacy=5
+	martial=7
+	stewardship=6
+	intrigue=3
+	learning=5
+	2347.10.15={birth=yes}
+	2400.1.1={death=yes}
+}
+30068={
+	name="Maria"
+	dynasty=850024 #Nazaré
+	father=30063
+	mother=30064
+	culture=mediterranean
+	religion=holy_spirit
+	trait=scholarly_theologian
+	trait=scholar
+	trait=nun
+	diplomacy=5
+	martial=1
+	stewardship=7
+	intrigue=2
+	learning=9
+	2350.10.15={birth=yes}
+	2400.1.1={death=yes}
+}

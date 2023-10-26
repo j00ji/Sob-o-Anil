@@ -1,0 +1,21 @@
+# c_acajutibiro
+
+# County Title
+title = c_acajutibiro
+
+# Settlements
+max_settlements = 3
+
+b_baia_da_traicao = castle
+b_tramataia = temple
+b_aldeia_sao_francisco = city
+#b_marcacao = temple
+#b_coqueirinho = 
+#b_mamaguape = 
+#b_rio_tinto = 
+
+# Misc
+culture = potiguara
+religion = jurema
+
+#History

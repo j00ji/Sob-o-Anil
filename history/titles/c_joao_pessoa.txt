@@ -7,5 +7,5 @@
 	liege=k_cabo_norte
 }
 2360.1.1={
-	holder=49 #Felipe Camarão
+	holder=3 #Celestino Belchioringio
 }

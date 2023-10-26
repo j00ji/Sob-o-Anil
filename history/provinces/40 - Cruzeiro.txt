@@ -7,7 +7,7 @@ title = c_cruzeiro
 max_settlements = 3
 
 b_nova_cruzeiro = castle
-b_guaratingueta = city
+b_cachoeira_paulista = temple
 #b_washington_beleza = temple
 #b_pontilhao = castle
 #b_vila_bionde = city
@@ -19,3 +19,6 @@ culture = mantiqueiro
 religion = renewalist
 
 #History
+2366.1.1 = {
+	capital = b_cachoeira_paulista
+}

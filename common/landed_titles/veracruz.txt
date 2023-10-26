@@ -1843,7 +1843,7 @@ e_vera_cruz = {
 				color2={ 255 255 255 }
 				
 				b_nova_cruzeiro = {}
-				b_guaratingueta = {}
+				b_cachoeira_paulista = {}
 				b_washington_beleza = {}
 				b_pontilhao = {}
 				b_vila_bionde = {}
@@ -1869,14 +1869,12 @@ e_vera_cruz = {
 				holy_site = apostolic
 				holy_site = anchietican
 				
-				b_aparecida = {
-					pentarchy = anchietican
-				}
+				b_independencia = {}
 				b_ouroville = {}
 				b_terra_nova = {}
 				b_catagua = {}
 				b_pindamonhangaba = {}
-				b_roseira = {}
+				b_tremembe = {}
 				b_sao_piraitinga = {}
 			}
 			c_salesopolis = { # 44
@@ -1890,6 +1888,20 @@ e_vera_cruz = {
 				b_jacarapema = {}
 				b_vila_denise = {}
 				b_cruz_de_lazaros = {}
+			}
+			c_aparecida = { #1097
+				color={ 130 125 43 }
+				color2={ 255 255 255 }
+				
+				b_aparecida = {
+					pentarchy = anchietican
+				}
+				b_roseira = {}
+				b_guaratingueta = {}
+				b_lorena = {}
+				b_potim = {}
+				b_canas2 = {}
+				b_piquete = {}
 			}
 		}
 		d_itapeva = {

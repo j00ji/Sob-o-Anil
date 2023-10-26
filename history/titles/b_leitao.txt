@@ -1,0 +1,7 @@
+2349.1.1={
+	holding_dynasty=850023
+	liege=d_uapon_acu
+}
+2349.1.1 = {
+	holder=30058 #Rodrigo Leitão
+}

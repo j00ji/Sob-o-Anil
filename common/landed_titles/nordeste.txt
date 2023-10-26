@@ -198,6 +198,18 @@ e_nordeste = {
 				b_santa_rita_3 = {}
 				b_cabedelo_2 = {}
 			}
+			c_acajutibiro = { #1098
+				color = { 192 103 88 }
+				color2={ 255 255 255 }
+				
+				b_baia_da_traicao = {}
+				b_tramataia = {}
+				b_aldeia_sao_francisco = {}
+				b_marcacao = {}
+				b_coqueirinho = {}
+				b_mamaguape = {}
+				b_rio_tinto = {}
+			}
 			c_borborema = { # 549
 				color={ 221 117 53 }
 				color2={ 255 255 255 }
@@ -372,8 +384,8 @@ e_nordeste = {
 		capital = 592 # c_sao_luis
 		culture = west_parnaibas
 		
-		d_lencois = {
-			color={ 10 110 165 }
+		d_uapon_acu = {
+			color={ 0 120 160 }
 			color2={ 255 255 255 }
 			
 			capital = 592 # c_sao_luis
@@ -387,9 +399,30 @@ e_nordeste = {
 				b_senhora_da_vitoria = {}
 				b_sao_luis = {}
 				b_lumiar = {}
-				b_rosario_2 = {}
+				b_raposa = {}
 				b_ribamar = {}
 			}
+		}
+		
+		d_lencois = {
+			color={ 10 110 165 }
+			color2={ 255 255 255 }
+			
+			capital = 1099 # c_sao_luis
+			
+			c_viana = { # 1099
+				color={ 0 160 120 }
+				color2={ 255 255 255 }
+			
+				b_viana_2 = {}
+				b_rosario_2 = {}
+				b_itapecuru_mirim = {}
+				b_pinheiro = {}
+				b_sao_vicente_forrer = {}
+				b_lavadeira = {}
+				b_alcantara = {}
+			}
+			
 			c_barreirinhas = { # 594
 				color={ 0 229 152 }
 				color2={ 255 255 255 }

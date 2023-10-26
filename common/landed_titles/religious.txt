@@ -55,6 +55,35 @@ k_apostolic = {
 	dignity = 200
 }
 
+k_aparecida = {
+	color = { 96 66 138 }
+	color2 = { 255 255 255 }
+	
+	capital = 50 #Sao Paulo
+	
+	title = "ARCHBISHOP"
+	foa = "ARCHBISHOP_FOA"
+	title_prefix = "ARCHDIOCESE"
+	location_ruler_title = yes
+	
+	#Always exists
+	landless = yes
+	
+	#Controls a religion
+	controls_religion = apostolic
+	
+	religion = apostolic
+	
+	#Cannot be held as a secondary title
+	primary = yes
+	
+	assimilate = no
+	
+	dynasty_title_names = no
+	
+	dignity = 200
+}
+
 k_celeste= {
 	color={ 193 246 71 }
 	color2={ 255 255 255 }
