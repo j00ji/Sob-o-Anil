@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_acre
 }
+2360.1.1={
+	holder=870002 #Francisco Pinheiro
+	liege=d_lesser_acre
+}

@@ -5,3 +5,7 @@
 800.1.1={
 	liege=k_para
 }
+2365.1.1={
+	holder = 870064 #Francisco de Paula
+	liege=d_marajo
+}

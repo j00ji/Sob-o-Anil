@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_para
 }
+2351.1.1={
+	holder = 870067 #Shlomo Muyal
+	liege=0
+}

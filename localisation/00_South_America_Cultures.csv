@@ -209,6 +209,10 @@ duke_paulista;Marquis;;;;;;;;;;;;;x
 duke_female_paulista;Marchioness;;;;;;;;;;;;;x
 duchy_paulista;March;;;;;;;;;;;;;x
 duchy_of_paulista;March of;;;;;;;;;;;;;x
+king_paulista;Duke;;;;;;;;;;;;;x
+king_female_paulista;Duchess;;;;;;;;;;;;;x
+kingdom_paulista;Duchy;;;;;;;;;;;;;x
+kingdom_of_paulista;Duchy of;;;;;;;;;;;;;x
 family_palace_baron_paulista;Oligarch;;;;;;;;;;;;;x
 city_count_paulistano;Oligarch;;;;;;;;;;;;;x
 city_duke_paulistano;Prefect;;;;;;;;;;;;;x

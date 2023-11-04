@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_amazonas
 }
+2347.1.1={
+	holder=870020 #Neido Wapixana
+	liege=0
+}

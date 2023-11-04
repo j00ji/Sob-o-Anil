@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_amazonas
 }
+2368.1.1={
+	holder=870016 #Xande Casemiro
+	liege=d_manaus
+}

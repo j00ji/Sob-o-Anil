@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_amazonas
 }
+2354.1.1={
+	holder=870010 #Valter Carneiro
+	liege=d_lesser_acre
+}

@@ -1,0 +1,1623 @@
+#EMPIRE OF THE NORTH
+#Kingdom of Acre
+#Duchy of Lesser Acre
+#Duchy of Lesser Acre
+870001 = {
+    name="Giordano"
+    dynasty=620001 # Borges
+    culture=acreano
+    religion=santo_daime
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=6
+    trait=scholarly_theologian
+    trait=mystic
+    trait=zealous
+    trait=temperate
+    trait=patient
+    trait=shy
+    trait=proud
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Duke of Lesser Acre, rules Rio Branco and Manoel Urbano
+
+#County of Boca do Acre (Vassal of Duchy of Lesser Acre)
+870002 = {
+	name="Francisco"
+    dynasty=620002 # Pinheiro
+    culture=aruaque
+    religion=santo_daime
+    martial=3
+    diplomacy=5
+    stewardship=3
+    intrigue=4
+    learning=4
+    trait=tough_soldier
+    trait=kind
+    trait=wroth
+    trait=charitable
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Boca do Acre
+
+#County of Xapuri (Vassal of Duchy of Lesser Acre)
+870003 = {
+    name="Ilsamar"
+    dynasty=620003 # Mendes
+    female=yes
+    culture=aruaque
+    religion=santo_daime
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=4
+    trait=charismatic_negotiator
+    trait=fair
+    trait=poet
+    trait=gregarious
+    trait=diligent
+    trait=patient
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Countess of Xapuri
+
+#Duchy of Taumaturgia
+#County of Tarauaca
+870004 = {
+    name="Jerusa"
+    dynasty=620004 # Petecão
+    culture=acreano
+    religion=santo_daime
+    martial=4
+    diplomacy=3
+    stewardship=3
+    intrigue=5
+    learning=4
+    trait=fortune_builder
+    trait=greedy
+    trait=diligent
+    trait=erudite
+    2335.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#County of Mancio Lima and Tarauaca
+
+#County of Marechal Thaumaturgo
+870005 = {
+    name="João"
+    dynasty=620005 # Pascoal
+    culture=acreano
+    religion=santo_daime
+    martial=3
+    diplomacy=3
+    stewardship=5
+    intrigue=3
+    learning=3
+    trait=underhanded_rogue
+    trait=charitable
+    trait=proud
+    trait=deceitful
+    2334.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Marechal Thaumaturgo
+
+#Kingdom of Amazonas
+#Duchy of Aironia
+#Chiefdom of Caapiranga
+870006 = {
+    name="Pedro"
+    dynasty=620006 # Tuxawa
+    culture=ticuna
+    religion=holy_spirit #(actually Cruzada)
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=martial_cleric
+    trait=zealous
+    trait=brave
+    trait=honest
+    2341.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Caapiranga and Novo Airao
+
+#Chiefdom of Presidente Figueiredo (Vassal of Republic of Manaus)
+870007 = {
+    name="Xavier"
+    dynasty=620007 # Tenreiro Aranha
+    culture=amazonense
+    religion=holy_spirit
+    martial=3
+    diplomacy=4
+    stewardship=4
+    intrigue=5
+    learning=3
+    trait=intricate_webweaver
+    trait=deceitful
+    trait=charitable
+    trait=poet
+    2329.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Presidente Figueiredo
+
+#Duchy of Copea
+#Chiefdom of Beruri
+870008 = {
+    name="Silvio"
+    dynasty=620008 # Taiwá
+    culture=ticuna
+    religion=xabaxai_xagi #(actually Cruzada)
+    martial=4
+    diplomacy=3
+    stewardship=5
+    intrigue=4
+    learning=4
+    trait=thrifty_clerk
+    trait=greedy
+    trait=lustful
+    trait=shrewd
+    2336.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Beruri and Coari
+
+#Chiefdom of Anama
+870009 = {
+    name="João"
+    dynasty=620009 # Tabajara
+    culture=ticuna
+    religion=holy_spirit #(actually Cruzada)
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=underhanded_rogue
+    trait=gregarious
+    trait=charitable
+    trait=wroth
+    2341.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Anama and Codajas
+
+#Duchy of Igarape Mamoria
+#County of Boca do Acre (Vassal of Duchy of Lesser Acre)
+870010 = {
+    name="Valter"
+    dynasty=620010 # Carneiro
+    culture=mura
+    religion=santo_daime
+    martial=5
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=5
+    trait=tough_soldier
+    trait=ambitious
+    trait=strong
+    trait=patient
+    2335.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Boca do Acre
+
+#Chiefdom of Abufari
+870011 = {
+    name="Manuel"
+    dynasty=620011 # Ainú
+    culture=mura
+    religion=xabaxai_xagi
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=fortune_builder
+    trait=greedy
+    trait=diligent
+    trait=stubborn
+    2342.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Pauini and Abufari
+
+#Chiefdom of Tapaua
+870012 = {
+    name="Rephael"
+    dynasty=620012 # Ancáua
+    culture=mura
+    religion=xabaxai_xagi
+    martial=4
+    diplomacy=3
+    stewardship=3
+    intrigue=4
+    learning=4
+    trait=tough_soldier
+    trait=diligent
+    trait=wroth
+    trait=humble
+    2333.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Tapaua and Canutama 
+
+#Duchy of Itacotiara
+#Grand City of Autazes (Vassal of Republic of Manaus)
+870013 = {
+    name="Timoteo"
+    dynasty=620013 # Cruz
+    culture=amazonense
+    religion=amazonian_jews
+    martial=4
+    diplomacy=5
+    stewardship=3
+    intrigue=3
+    learning=5
+    trait=underhanded_rogue
+    trait=cruel
+    trait=patient
+    trait=lustful
+    trait=envious
+    trait=arbitrary
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Mayor of Autazes
+
+#County of Itacotiara (Vassal of Republic of Manaus)
+870014 = {
+    name="Vinicius"
+    dynasty=620014 # Maoés
+    culture=amazonense
+    religion=holy_spirit
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=4
+    trait=thrifty_clerk
+    trait=honest
+    trait=diligent
+    trait=kind
+    2325.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Itacotiara
+
+#Duchy of Manaus
+#Republic of Manaus
+870015 = {
+    name="Alberto"
+    dynasty=620015 # Santos
+    culture=amazonense
+    religion=amazonian_jews
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=4
+    trait=grey_eminence
+    trait=ambitious
+    trait=gregarious
+    trait=diligent
+    trait=deceitful
+    trait=proud
+    2326.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Grand Mayor of Manaus, rules Manaus
+
+#Grand City of Iranduba (Vassal of Republic of Manaus)
+870016 = {
+    name="Xande"
+    dynasty=620016 # Casemiro
+    culture=amazonense
+    religion=holy_spirit
+    martial=4
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=midas_touched
+    trait=just
+    trait=patient
+    trait=gluttonous
+    2340.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Mayor of Iranduba
+
+#Grand City of Mancapuru (Vassal of Republic of Manaus)
+870017 = {
+    name="Samuel"
+    dynasty=620017 # Sabba
+	culture=amazonense
+    religion=amazonian_jews
+    martial=5
+    diplomacy=3
+    stewardship=5
+    intrigue=4
+    learning=5
+    trait=midas_touched
+    trait=diligent
+    trait=envious
+    trait=brave
+    trait=kind
+    trait=temperate
+    2332.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Mayor of Mancapuru
+
+#County of Lago do Rei (Vassal of Republic of Manaus)
+870018 = {
+    name="Jacob"
+    dynasty=620018 # Laércio
+    culture=mura
+    religion=universalist
+    martial=4
+    diplomacy=3
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=charismatic_negotiator
+    trait=gregarious
+    trait=kind
+    trait=honest
+    2324.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Lago do Rei
+
+#Duchy of Roraima
+#Chiefdom of Boa Vista
+870019 = {
+    name="Thiago"
+    dynasty=620019 # Campos
+    culture=roraimo
+    religion=hekura
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=tough_soldier
+    trait=wroth
+    trait=proud
+    trait=kind
+    2342.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Amajari and Boa Vista
+
+#Chiefdom of Yanomami
+870020 = {
+    name="Neido"
+    dynasty=620020 # Wapixana
+    culture=yanomami
+    religion=hekura
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=4
+    trait=indulgent_wastrel
+    trait=slothful
+    trait=humble
+    trait=honest
+    2329.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Yanomami and Caracarai
+
+#Chiefdom of Rorainopolis
+870021 = {
+    name="Batista"
+    dynasty=620021 # de Carvalho
+    culture=roraimo
+    religion=hekura
+    martial=3
+    diplomacy=3
+    stewardship=2
+    intrigue=3
+    learning=3
+    trait=skilled_tactician
+    trait=patient
+    trait=arbitrary
+    trait=brave
+    2335.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Rorainopolis
+
+#Duchy of The Dog’s Head
+#Chiefdom of Barcelos
+870022 = {
+    name="Francisco"
+    dynasty=620022 # Mendonça
+    culture=amazonense
+    religion=holy_spirit
+    martial=2
+    diplomacy=3
+    stewardship=3
+    intrigue=2
+    learning=4
+    trait=fortune_builder
+    trait=content
+    trait=proud
+    trait=just
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Barcelos
+
+#Chiefdom of Santa Isabel
+870023 = {
+    name="Akiwe"
+    dynasty=620023 # Shirishana
+    culture=yanomami
+    religion=hekura
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=5
+    trait=underhanded_rogue
+    trait=wroth
+    trait=cynic
+    trait=cruel
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Santa Isabel
+
+#Chiefdom of São Gabriel Cachoeira
+870024 = {
+    name="Ayopowe"
+    dynasty=620024 # Guajaribo
+    culture=amazonense
+    religion=hekura
+    martial=3
+    diplomacy=5
+    stewardship=3
+    intrigue=3
+    learning=5
+    trait=thrifty_clerk
+    trait=deceitful
+    trait=proud
+    trait=diligent
+    2334.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of São Gabriel Cachoeira
+
+#Duchy of Vale do Bia
+#Chiefdom of Amatura
+870025 = {
+    name="Isaac"
+    dynasty=xx # Dyavi Ru
+    culture=ticuna
+    religion=xabaxai_xagi #(actually Cruzada)
+    martial=3
+    diplomacy=4
+    stewardship=5
+    intrigue=4
+    learning=3
+    trait=charismatic_negotiator
+    trait=gregarious
+    trait=kind
+    trait=honest
+    2329.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Amatura
+
+#Chiefdom of Jurua
+870026 = {
+    name="Tomas"
+    dynasty=620026 # Ai Veru
+    culture=ticuna
+    religion=xabaxai_xagi #(actually Cruzada)
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=thrifty_clerk
+    trait=honest
+    trait=diligent
+    trait=patient
+    2341.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Jurua
+
+#Chiefdom of Tonantins
+870027 = {
+    name="Matias"
+    dynasty=620027 # Tuyo
+    culture=ticuna
+    religion=xabaxai_xagi #(actually Cruzada)
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=misguided_warrior
+    trait=robust
+    trait=wroth
+    trait=cynic
+    2347.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Tonantins
+
+#Duchy of Vale do Javari
+#Chiefdom of Benjamin Constant
+870028 = {
+    name="Benjamin"
+    dynasty=620028 # Boitatá
+    culture=matis
+    religion=xabaxai_xagi #(actually Cruzada)
+    martial=2
+    diplomacy=5
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=flamboyant_schemer
+    trait=shrewd
+    trait=charitable
+    trait=kind
+    2338.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Benjamin Constant 
+
+#Chiefdom of Canama
+870029 = {
+    name="Klaus"
+    dynasty=620029 # de Aguirre
+    culture=oxapampino
+    religion=catholic
+    martial=6
+    diplomacy=5
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=skilled_tactician
+    trait=lunatic
+    trait=adventurer
+    trait=wroth
+    trait=robust
+    trait=brave
+    trait=arbitrary
+    trait=proud
+    trait=stubborn
+    2329.1.1={birth=yes}
+	2351.1.1={add_spouse=870030}
+	2369.1.1={add_spouse=870031}
+    2400.1.1={death=yes}
+}
+#Chief of Canama, father of Inés de Agirre, married to Inés de Agirre
+
+870030 = {
+    name="Alexandra"
+    dynasty=0 # lowborn
+	female=yes
+    culture=oxapampino
+    religion=catholic
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=fortune_builder
+    trait=shrewd
+    trait=greedy
+    trait=diligent
+    2335.1.1={birth=yes}
+    2365.1.1={death=yes}
+}
+#Wife of Klaus de Aguirre, mother of Inés de Aguirre
+
+870031 = {
+    name="Inés"
+    dynasty=620029 # de Aguirre
+	female=yes
+    culture=oxapampino
+    religion=catholic
+	father=870029
+	mother=870030
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=naive_appeaser
+    trait=gregarious
+    trait=kind
+    trait=proud
+    2352.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Klaus de Aguirre and Alexandra, married to Klaus de Aguirre
+
+#Chiefdom of Javarai
+870032 = {
+    name="Xokeke"
+    dynasty=620030 #  Deshan Mikitbo
+    culture=matis
+    religion=xabaxai_xagi #(actually Cruzada)
+    martial=5
+    diplomacy=3
+    stewardship=2
+    intrigue=3
+    learning=3
+    trait=skilled_tactician
+    trait=envious
+    trait=cynical
+    trait=ambitious
+    2325.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Javari
+
+#Kingdom of Para
+#Duchy of Altamira
+#County of Caxiuna (Vassal of Most August Republic of Marajó)
+870033 = {
+    name="Hugo"
+    dynasty=620031 # Xingu 
+    culture=tapajo
+    religion=holy_spirit
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=underhanded_rogue
+    trait=gregarious
+    trait=charitable
+    trait=kind
+    2335.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Caxiuna 
+
+#County of Altamira
+870034 = {
+    name="Antonio"
+    dynasty=620032 # Oliveira
+    culture=tapajo
+    religion=holy_spirit
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=martial_cleric
+    trait=zealous
+    trait=envious
+    trait=diligent
+    2341.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Altamira, Jabaucu, and Iriri
+
+#Duchy of Amapa
+#Duchy of Amapa (already exists)
+870035 = {
+    name="Samuel"
+    dynasty=620033 # Alcolumbres
+    culture=amapaense
+    religion=amazonian_jews
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=underhanded_rogue
+    trait=proud
+    trait=arbitrary
+    trait=envious
+    trait=gregarious
+    trait=wroth
+    2319.1.1={birth=yes}
+    2361.1.1={death={death_reason=death_battle killer=30014}}
+}
+#Duke of Amapa, ruled 2335.1.1-2361.1.1, killed by King Jose “the Fire Wasp” Ribamar
+
+#County of Araguari (Vassal of Duchy of Amapa)
+870036 = {
+    name="Simão"
+    dynasty=620034 # Peres
+    culture=amapaense
+    religion=amazonian_jews
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=intricate_webweaver
+    trait=content
+    trait=charitable
+    trait=kind
+    2332.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Araguari
+
+#County of Mazagao (Vassal of Duchy of Amapa)
+870037 = {
+    name="Raul"
+    dynasty=620035 # Amar
+    culture=amapaense
+    religion=amazonian_jews
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=tough_soldier
+    trait=wroth
+    trait=kind
+    trait=proud
+    2341.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Mazagao
+
+#County of Oiapoque (Vassal of Duchy of Amapa)
+870038 = {
+    name="Gabriel"
+    dynasty=620036 # Bemerguy
+    culture=amapaense
+    religion=amazonian_jews
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=fortune_builder
+    trait=quick
+    trait=arbitrary
+    trait=cruel
+    trait=greedy
+    trait=lustful
+    2338.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Oiapoque
+
+#Duchy of Belem
+#Duchy of Belem
+870039 = {
+    name="Manuel"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=martial_cleric
+    trait=zealous
+    trait=greedy
+    trait=lustful
+    trait=stubborn
+    2318.1.1={birth=yes}
+	2339.1.1={add_spouse=870040}
+    2400.1.1={death=yes}
+}
+#Duke of Belem, rules Belem, married to Flavia Gracie
+
+870040 = {
+    name="Helena"
+    dynasty=0 # lowborn
+	female=yes
+    culture=paraense
+    religion=holy_spirit
+    trait=naive_appeaser
+    trait=troubled_pregnancy
+    trait=craven
+    trait=kind
+    2320.1.1={birth=yes}
+    2365.1.1={death={death_reason=death_childbirth}}
+}
+#First wife of Manuel Sosa Franco, died of childbirth
+
+870041 = {
+    name="Luiz"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=4
+    trait=brilliant_strategist
+    trait=scarred_high
+    trait=one_eyed
+    trait=cruel        
+    trait=wroth
+    trait=gregarious
+    trait=diligent
+    2340.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#First child of Manuel Sosa Franco and Helena
+
+870042 = {
+    name="Oswaldo"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=flamboyant_schemer
+    trait=cynical
+    trait=envious
+    trait=stubborn
+    2342.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Second child of Manuel Sosa Franco and Helena
+
+870043 = {
+    name="Maria"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=charismatic_negotiator
+    trait=quick
+    trait=lustful
+    trait=kind
+    trait=humble
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Third child of Manuel Sosa Franco and Helena
+
+870044 = {
+    name="Helena"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=intricate_webweaver
+    trait=cruel
+    trait=content
+    trait=chaste
+    2348.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Fourth child of Manuel Sosa Franco and Helena
+
+870045 = {
+    name="Sérgio"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040 
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=greedy
+    trait=diligent
+    trait=patient
+    2349.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Fifth child of Manuel Sosa Franco and Helena
+
+870046 = {
+    name="Ricardo"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040 
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=tough_soldier
+    trait=diligent
+    trait=wroth
+    trait=just
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Sixth child of Manuel Sosa Franco and Helena
+
+870047 = {
+    name="Sylvia"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040 
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=naive_appeaser
+    trait=paranoid
+    trait=kind
+    trait=trusting
+    2353.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Seventh child of Manuel Sosa Franco and Helena
+
+870048 = {
+    name="Moises"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040 
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=playful
+    trait=rowdy
+    2355.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Eighth child of Manuel Sosa Franco and Helena
+
+870049 = {
+    name="Cesarina"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040 
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=4
+    intrigue=4
+    learning=3
+    trait=conscientious
+    trait=fussy
+    2361.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Ninth child of Manuel Sosa Franco and Helena
+
+870050 = {
+    name="Carlos"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040 
+    martial=2
+    diplomacy=3
+    stewardship=2
+    intrigue=3
+    learning=2
+    trait=curious
+    trait=timid
+    2362.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Tenth child of Manuel Sosa Franco and Helena
+
+870051 = {
+    name="Eve"
+    dynasty=620037 # Sousa Franco
+    culture=paraense
+    religion=holy_spirit
+	father=870039
+	mother=870040 
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=2
+    intrigue=3
+    learning=2
+    trait=idolizer
+    2365.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Eleventh child of Manuel Sosa Franco and Helena, killed her mother in childbirth
+
+870052 = {
+    name="Flavia"
+    dynasty=620038 # Gracie
+    culture=paraense
+    religion=holy_spirit
+    female=yes
+	father=870053
+    martial=3
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=8
+    trait=fortune_builder
+    trait=strong        
+    trait=diligent
+    trait=chaste
+    trait=temperate
+    trait=honest
+    trait=humble
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Daughter of Carlos Gracie and current wife of Manuel Sosa Franco
+
+870053 = {
+	name="Carlos"
+    dynasty=620038 # Gracie
+    culture=paraense
+    religion=holy_spirit
+    martial=7
+    diplomacy=7
+    stewardship=7
+    intrigue=7
+    learning=7
+    trait=skilled_tactician
+    trait=adventurer
+    trait=duelist
+    trait=robust
+    trait=temperate
+    trait=patient
+    2320.1.1={birth=yes}
+	2365.1.1={employer=30034}
+    2366.1.1={death={death_reason = death_battle}}
+}
+#Patriarch of the Gracie dynasty, member of the Fire Wasps (as a mercenary), died in battle
+
+870054 = {
+    name="Gastão"
+    dynasty=620038 # Gracie
+    culture=paraense
+    religion=holy_spirit
+	father=870053
+    martial=7
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=brilliant_strategist
+    trait=quick
+    trait=duelist        
+    trait=inspiring_leader
+    trait=lustful
+    trait=honest
+    trait=charitable
+    trait=gregarious
+    2342.1.1={birth=yes}
+	2367.1.1={
+		employer = 870039
+		effect ={
+			add_friend = 870039
+			add_friend = 870041
+			add_friend = 30034
+		}
+	}
+    2400.1.1={death=yes}
+}
+#Eldest son of Carlos Gracie, commander in the court of the Duke of Belem, friend of Manuel Sosa Franco, Luiz Sosa Franco, and Venâncio Estrela of The Fire Wasps
+
+870055 = {
+    name="Cesar"
+    dynasty=620038 # Gracie
+    culture=paraense
+    religion=holy_spirit
+	father=870053
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=tough_soldier
+    trait=duelist        
+    trait=aggressive_leader
+    trait=shy
+    trait=wroth
+    trait=deceitful
+    trait=stubborn
+    trait=humble
+    2344.1.1={birth=yes}
+	2368.1.1={employer=30034}
+    2400.1.1={death=yes}
+}
+#Younger son of Carlos Gracie, courtier (and member) of The Fire Wasps
+
+#County of Viseu (Vassal of the Duchy of Belem)
+870056 = {
+    name="Henrique"
+    dynasty=620039 # Besouro
+    culture=paraense
+    religion=holy_spirit
+    martial=3
+    diplomacy=5
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=tough_soldier
+    trait=honest
+    trait=patient
+    trait=kind
+    2338.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Viseu
+
+#County of Salinopolis (Vassal of the Duchy of Belem)
+870057 = { 
+	name="Lauro"
+    dynasty=620040 # Vandré
+    culture=paraense
+    religion=holy_spirit
+    martial=3
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=3
+    trait=intricate_webweaver
+    trait=deceitful
+    trait=cynical
+    trait=wroth
+    2341.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Viseu
+
+#Duchy of Carajas
+#Chiefdom of Xinguara
+870058 = {
+    name="Tuíra"
+    dynasty=620041 # Paiakan
+    culture=kayapo
+    religion=xabaxai_xagi
+    female=yes
+    martial=5
+    diplomacy=4
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=martial_cleric
+    trait=zealous
+    trait=envious
+    trait=wroth
+    2342.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Xinguara and Sao Felix do Xingu
+
+#Chiefdom of Cumaru do Norte
+870059 = {
+    name="Raoni"
+    dynasty=620042 # Lópes
+    culture=kayapo
+    religion=xabaxai_xagi
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=honest
+    trait=diligent
+    trait=kind
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Cumaru do Norte
+
+#Chiefdom of Eldorado dos Carajas
+870060 = {
+    name="Uaica"
+    dynasty=620043 # Ribeiro
+    culture=araguaio
+    religion=xabaxai_xagi
+    martial=4
+    diplomacy=3
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=tough_soldier
+    trait=diligent
+    trait=wroth
+    trait=honest
+    2347.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Eldorado dos Carajas
+
+#Chiefdom of Novo Repartimento
+870061 = {
+    name="Erik"
+    dynasty=620044 # Machado
+    culture=caboclo
+    religion=xabaxai_xagi
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=misguided_warrior
+    trait=strong
+    trait=wroth
+    trait=gregarious
+    2329.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Novo Repartimento
+
+#Duchy of Marajó
+#Most August Republic of Marajó
+870062 = {
+    name="Régis"
+    dynasty=620045 # Lagarto
+    culture=marajoara
+    religion=holy_spirit
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=midas_touched
+    trait=proud
+    trait=diligent
+    trait=kind
+    2333.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Grand Mayor of Marajó, rules Soure
+
+#Grand City of Cachoeira do Ariri (Vassal of Most August Republic of Marajó)
+870063 = {
+    name="Aruã"
+    dynasty=620046 # Arari
+    culture=marajoara
+    religion=holy_spirit
+    martial=3
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=2
+    trait=underhanded_rogue
+    trait=envious
+    trait=cynical
+    trait=deceitful
+    2335.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Mayor of Cachoeira do Ariri
+
+#Grand City of Muana (Vassal of Most August Republic of Marajó)
+870064 = {
+    name="Francisco"
+    dynasty=620047 # de Paula
+    culture=marajoara
+    religion=holy_spirit
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=amateurish_plotter
+    trait=dull
+    trait=kind
+    trait=slothful
+    2345.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Mayor of Muana
+
+#County of Anajas (Vassal of Most August Republic of Marajó)
+870065 = {
+    name="Túlio"
+    dynasty=620048 # Tiziu
+    culture=marajoara
+    religion=holy_spirit
+    martial=4
+    diplomacy=4
+    stewardship=5
+    intrigue=4
+    learning=4
+    trait=fortune_builder
+    trait=kind
+    trait=content
+    trait=diligent
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Anajas
+
+#County of Ilhas do Delta (Vassal of Most August Republic of Marajó)
+870066 = {
+    name="Bruno"
+    dynasty=620049 # Furtado
+    culture=tapajo
+    religion=holy_spirit
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=intricate_webweaver
+    trait=schemer
+    trait=cynical
+    trait=envious
+    trait=cruel
+    2333.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Ilhas do Delta
+
+#Duchy of Pamboapy
+#County of Oriximana
+870067 = {
+    name="Shlomo"
+    dynasty=620050 # Muyal
+    culture=tapajo
+    religion=amazonian_jews
+    martial=3
+    diplomacy=4
+    stewardship=2
+    intrigue=5
+    learning=3
+    trait=scholarly_theologian
+    trait=zealous
+    trait=charitable
+    trait=content
+    2324.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Oriximana and Alenquer
+
+#County of Almerim (Vassal of Duchy of Macapa)
+870068 = {
+    name="Abuda "
+    dynasty=620051 # de Mendes
+    culture=tapajo
+    religion=holy_spirit
+    martial=3
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=underhanded_rogue
+    trait=gregarious
+    trait=charitable
+    trait=deceitful
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Almerim
+
+#Duchy of Tapajos
+#County of Apace
+870069 = {
+    name="Silvio"
+    dynasty=620052 # Pacheco
+    culture=tapajo
+    religion=holy_spirit
+    martial=3
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=thrifty_clerk
+    trait=diligent
+    trait=patient
+    trait=honest
+    2333.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Apace and Juruti
+
+#County of Aveiro
+870070 = {
+    name="Jose"
+    dynasty=620053 # Montes
+    culture=tapajo
+    religion=xabaxai_xagi
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=indulgent_wastrel
+    trait=drunkard
+    trait=lustful
+    trait=diligent
+    2348.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Aveiro and Santarem
+
+#Chiefdom of Ataituba
+870071 = {
+    name="Joelma"
+    dynasty=620054 # Munguba
+    culture=tapajo
+    religion=holy_spirit
+    female=yes
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=intricate_webweaver
+    trait=hedonist
+    trait=deceitful
+    trait=charitable
+    trait=lustful
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chieftess of Ataituba
+
+#Chiefdom of Trairao
+870072 = {
+    name="Andre"
+    dynasty=620055 # Xikrin
+    culture=kayapo
+    religion=xabaxai_xagi
+    martial=4
+    diplomacy=3
+    stewardship=2
+    intrigue=4
+    learning=3
+    trait=thrifty_clerk
+    trait=shrewd
+    trait=ambitious
+    trait=charitable
+    2339.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Chief of Trairao and Jacareacanga
+
+#Duchy of Tucuria
+870073 = {
+    name="Ângelo"
+    dynasty=620056 # de Ângelo
+    culture=caboclo
+    religion=xabaxai_xagi
+    martial=5
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=5
+    trait=tough_soldier
+    trait=peasant_leader
+    trait=wroth
+    trait=proud
+    trait=charitable
+	trait=flu
+    2315.1.1={birth=yes}
+    2366.1.1={death={death_reason=death_trait}}
+}
+#Duke of Tucuria, died of illness, father of Eduardo de Ângelo
+
+#County of Bagre
+870074 = {
+    name="Carlos"
+    dynasty=620057 # Humberto
+    culture=caboclo
+    religion=holy_spirit
+    martial=3
+    diplomacy=3
+    stewardship=2
+    intrigue=4
+    learning=3
+    trait=flamboyant_schemer
+    trait=patient
+    trait=kind
+    trait=cynic
+    2344.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of of Bagre
+
+#County of Mocajuba
+870075 = {
+    name="Rodolfo"
+    dynasty=620044 # Machado
+    culture=caboclo
+    religion=holy_spirit
+    martial=3
+    diplomacy=2
+    stewardship=4
+    intrigue=3
+    learning=2
+    trait=thrifty_clerk
+    trait=greedy
+    trait=honest
+    trait=paranoid
+    2332,1,1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Mocajuba
+
+#County of Paragominas
+870076 = {
+    name="Manoel"
+    dynasty=620058 # Graças
+    culture=caboclo
+    religion=holy_spirit
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=tough_soldier
+    trait=wroth
+    trait=kind
+    trait=proud
+    2348.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Paragominas
+
+#County of Tucurui
+870077 = {
+    name="Eduardo"
+    dynasty=620056 # de Ângelo
+    culture=caboclo
+    religion=xabaxai_xagi
+	father=870073
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=martial_cleric
+    trait=zealous
+    trait=charitable
+    trait=proud
+    2335.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+#Count of Tucurui, son of Ângelo de Ângelo

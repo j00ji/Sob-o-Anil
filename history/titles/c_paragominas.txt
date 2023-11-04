@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_para
 }
+2362.1.1={
+	holder = 870076 #Manoel Graças
+	liege=0
+}

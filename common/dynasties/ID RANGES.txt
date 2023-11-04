@@ -155,10 +155,12 @@
 # AMAZONIAN RANGE 530001
 ### Wari' - 530001 - 535000
 
-# BAHIANO RANGE 600001 - ?
+# BAHIANO RANGE 600001 - 615000
 ### Baiano - 600001 - 605000
 ### Diamantino - 605001 - 610000
 ### Sergipano - 610001 - 615000
+
+# NORTISTA RANGE 620001 - 
 
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.

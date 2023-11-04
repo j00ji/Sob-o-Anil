@@ -5,3 +5,7 @@
 800.1.1={
 	liege=k_para
 }
+2364.1.1={
+	holder = 870062 #Régis Lagarto
+	liege=d_marajo
+}

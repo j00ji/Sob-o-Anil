@@ -1,0 +1,406 @@
+620001 = { 
+	name = "Borges"
+	culture = acreano
+	religion = santo_daime
+	can_appear = no
+	used_for_random = no
+}
+620002 = { 
+	name = "Pinheiro"
+	culture = aruaque
+	religion = santo_daime
+	can_appear = no
+	used_for_random = no
+}
+620003 = { 
+	name = "Mendes"
+	culture = aruaque
+	religion = santo_daime
+	can_appear = no
+	used_for_random = no
+}
+620004 = { 
+	name = "Petecão"
+	culture = acreano
+	religion = santo_daime
+	can_appear = no
+	used_for_random = no
+}
+620005 = { 
+	name = "Pascoal"
+	culture = acreano
+	religion = santo_daime
+	can_appear = no
+	used_for_random = no
+}
+620006 = { 
+	name = "Tuxawa"
+	culture = ticuna
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620007 = { 
+	name = "Tenreiro Aranha"
+	culture = amazonense
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620008 = { 
+	name = "Taiwá"
+	culture = ticuna
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620009 = { 
+	name = "Tabajara"
+	culture = ticuna
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620010 = { 
+	name = "Carneiro"
+	culture = mura
+	religion = santo_daime
+	can_appear = no
+	used_for_random = no
+}
+620011 = { 
+	name = "Ainú"
+	culture = mura
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620012 = { 
+	name = "Ancáua"
+	culture = mura
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620013 = { 
+	name = "Cruz"
+	culture = amazonense
+	religion = amazonian_jews
+	can_appear = no
+	used_for_random = no
+}
+620014 = { 
+	name = "Maoés"
+	culture = amazonense
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620015 = { 
+	name = "Santos"
+	culture = amazonense
+	religion = amazonian_jews
+	can_appear = no
+	used_for_random = no
+}
+620016 = { 
+	name = "Santos"
+	culture = amazonense
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620017 = { 
+	name = "Sabba"
+	culture = amazonense
+	religion = amazonian_jews
+	can_appear = no
+	used_for_random = no
+}
+620018 = { 
+	name = "Laércio"
+	culture = mura
+	religion = universalist
+	can_appear = no
+	used_for_random = no
+}
+620019 = { 
+	name = "Campos"
+	culture = roraimo
+	religion = hekura
+	can_appear = no
+	used_for_random = no
+}
+620020 = { 
+	name = "Wapixana"
+	culture = yanomami
+	religion = hekura
+	can_appear = no
+	used_for_random = no
+}
+620021 = { 
+	name = "de Carvalho"
+	culture = roraimo
+	religion = hekura
+	can_appear = no
+	used_for_random = no
+}
+620022 = { 
+	name = "Mendonça"
+	culture = amazonense
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620023 = { 
+	name = "Shirishana"
+	culture = yanomami
+	religion = hekura
+	can_appear = no
+	used_for_random = no
+}
+620024 = { 
+	name = "Guajaribo"
+	culture = amazonense
+	religion = hekura
+	can_appear = no
+	used_for_random = no
+}
+620025 = { 
+	name = "Dyavi Ru"
+	culture = ticuna
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620026 = { 
+	name = "Ai Veru"
+	culture = ticuna
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620027 = { 
+	name = "Tuyo"
+	culture = ticuna
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620028 = { 
+	name = "Boitatá"
+	culture = matis
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620029 = { 
+	name = "de Aguirre"
+	culture = oxapampino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+620030 = { 
+	name = "Deshan Mikitbo"
+	culture = matis
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620031 = { 
+	name = "Xingu"
+	culture = tapajo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620032 = { 
+	name = "Oliveira"
+	culture = tapajo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620033 = { 
+	name = "Alcolumbres"
+	culture = amapaense
+	religion = amazonian_jews
+	can_appear = no
+	used_for_random = no
+}
+620034 = { 
+	name = "Peres"
+	culture = amapaense
+	religion = amazonian_jews
+	can_appear = no
+	used_for_random = no
+}
+620035 = { 
+	name = "Amar"
+	culture = amapaense
+	religion = amazonian_jews
+	can_appear = no
+	used_for_random = no
+}
+620036 = { 
+	name = "Bemerguy"
+	culture = amapaense
+	religion = amazonian_jews
+	can_appear = no
+	used_for_random = no
+}
+620037 = { 
+	name = "Sousa Franco"
+	culture = paraense
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620038 = { 
+	name = "Gracie"
+	culture = paraense
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620039 = { 
+	name = "Besouro"
+	culture = paraense
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620040 = { 
+	name = "Vandré"
+	culture = paraense
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620041 = { 
+	name = "Paiakan"
+	culture = kayapo
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620042 = { 
+	name = "Lópes"
+	culture = kayapo
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620043 = { 
+	name = "Ribeiro"
+	culture = araguaio
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620044 = { 
+	name = "Machado"
+	culture = caboclo
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620045 = { 
+	name = "Lagarto"
+	culture = marajoara
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620046 = { 
+	name = "Arari"
+	culture = marajoara
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620047 = { 
+	name = "de Paula"
+	culture = marajoara
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620048 = { 
+	name = "Tiziu"
+	culture = marajoara
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620049 = { 
+	name = "Furtado"
+	culture = tapajo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620050 = { 
+	name = "Muyal"
+	culture = tapajo
+	religion = amazonian_jews
+	can_appear = no
+	used_for_random = no
+}
+620051 = { 
+	name = "de Mendes"
+	culture = tapajo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620052 = { 
+	name = "Pacheco"
+	culture = tapajo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620053 = { 
+	name = "Montes"
+	culture = tapajo
+	religion = xabaxai_xagi
+	can_appear = no
+	used_for_random = no
+}
+620054 = { 
+	name = "Munguba"
+	culture = tapajo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620055 = { 
+	name = "Xikrin"
+	culture = tapajo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620056 = { 
+	name = "de Ângelo"
+	culture = tapajo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620057 = { 
+	name = "Humberto"
+	culture = tapajo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}
+620058 = { 
+	name = "Graças"
+	culture = caboclo
+	religion = holy_spirit
+	can_appear = no
+	used_for_random = no
+}

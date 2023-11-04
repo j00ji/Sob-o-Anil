@@ -5,3 +5,7 @@
 800.1.1={
 	liege=k_para
 }
+2362.1.1={
+	holder=870033 #Hugo Xingu
+	liege=d_marajo
+}

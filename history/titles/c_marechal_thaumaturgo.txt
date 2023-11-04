@@ -6,3 +6,8 @@
 800.1.1={
 	#liege=k_rondonia
 }
+2360.1.1={
+	holder=870005 #João Pascoal
+	liege=none
+}
+

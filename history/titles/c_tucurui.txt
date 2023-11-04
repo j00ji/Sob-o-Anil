@@ -6,3 +6,11 @@
 800.1.1={
 	liege=k_para
 }
+2341.1.1={
+	holder = 870073 #Angelo de Angelo
+	liege=d_tucuria
+}
+2366.1.1={
+	holder = 870077
+	liege = 0
+}

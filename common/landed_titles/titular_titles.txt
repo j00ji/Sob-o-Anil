@@ -141,10 +141,15 @@ k_americano = {
 	color = { 49 120 191 }
 	color2 = { 255 255 255 }
 	
-	short_name = yes
+	#short_name = yes
 	
 	capital = 57 #Americana
 	dignity = 10
+	
+	title = "principality_title"
+	title_female = "principality_title_female"
+	foa = "principality_foa"
+	title_prefix = "principality_prefix"
 	
 	culture = americano
 	

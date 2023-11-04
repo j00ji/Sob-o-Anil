@@ -1,3 +1,7 @@
 800.1.1={
 	liege=k_amazonas
 }
+2366.1.1={
+	holder=870023 #Akiwe Shirishana
+	liege=0
+}

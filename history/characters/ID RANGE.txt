@@ -127,8 +127,9 @@
 # MÉDIO NORTE RANGE: 850001 - 860000
 ## West Parnaiba: 850001 - 860000
 
-#PERU ECUADOR RANGE: 860001 - 
+#PERU ECUADOR RANGE: 860001 - 870000
 
+# NORTISTA RANGE: 870001 - 
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.
 

@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_amazonas
 }
+2351.1.1={
+	holder=870014 #Vinicius Maoés
+	liege=d_manaus
+}
