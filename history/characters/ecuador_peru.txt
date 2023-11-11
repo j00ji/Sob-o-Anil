@@ -204,6 +204,7 @@
 860010 = {
     name="Escrivá"
     dynasty=490007 # Holguín
+	father=880010
     culture=guayasense
     religion=tridentine
     martial=6
@@ -222,6 +223,26 @@
     2400.1.1={death=yes}
 }
 #Kingdom of Ecuador and Duke of Guayas, rules Guayas, Santa Elena, and Babahoyo
+
+880010 = {
+    name="Carlos"
+    dynasty=490007 # Holguín
+    culture=guayasense
+    religion=tridentine
+    martial=6
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=martial_cleric
+    trait=kind
+    trait=brave
+    trait=zealous
+    trait=patient
+    trait=slothful
+    2300.1.1={birth=yes}
+    2440.1.1={death=yes}
+}
 
 860011 = {
     name="Eva"
@@ -327,6 +348,7 @@
 860016 = {
     name="Carlos"
     dynasty=490007 # Holguín
+	father=880010
     culture=guayasense
     religion=tridentine
     martial=2
