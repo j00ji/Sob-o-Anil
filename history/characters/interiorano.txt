@@ -185,6 +185,8 @@
 640009 = {
     name="Maitreya"
     dynasty=285005 # de Sarak
+	father=640007
+	mother=640008
     culture=cordobes
     religion=theosophist
     martial=3
@@ -664,6 +666,7 @@
 640033={
     name="Alberto"
     dynasty=285005 # de Sarak
+	father=640032
     culture=cordobes
     religion=theosophist
     martial=5
