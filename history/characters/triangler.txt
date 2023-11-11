@@ -2,7 +2,7 @@
 
 570001 = { #First King of Triangulo
 	name = "Mário"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	
@@ -26,7 +26,7 @@
 
 570002 = { #Second King of Triangulo
 	name = "Chico"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	father = 570001
@@ -37,7 +37,7 @@
 
 570003 = { #Third King of Triangulo
 	name = "Chico"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	father = 570002
@@ -48,7 +48,7 @@
 
 570004 = { #4th King of Triangulo
 	name = "Xavier"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	father = 570003
@@ -59,7 +59,7 @@
 
 570005 = { #5th King of Triangulo
 	name = "Xavier"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	father = 570004
@@ -70,7 +70,7 @@
 
 570006 = { #6th King of Triangulo
 	name = "Rodrigo"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	father = 570005
@@ -81,7 +81,7 @@
 
 570007 = { #1st Duke of Araxá: this divides the Vilelas in two
 	name = "Rodrigo"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	father = 570005
@@ -92,7 +92,7 @@
 
 570008 = { #7th King of Triangulo
 	name = "Rodrigo"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	father = 570006
@@ -103,7 +103,7 @@
 
 570009 = { #9th Queen of Triangulo
 	name = "Maria"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	female=yes
@@ -115,7 +115,7 @@
 
 570010 = { #2nd Duke of Araxá
 	name = "Rodolfo"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	father = 570007
@@ -126,7 +126,7 @@
 
 570011 = { #3rd Duke of Araxá, declared war against his liege backed by his claim on the kingdom
 	name = "Mario"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	father = 570010
@@ -155,7 +155,7 @@
 	}
 }
 
-570012 = { #Spouse of Mario Cavalcanti
+570012 = { #Spouse of Mario Vilela
 	name = "Ana"
 	dynasty = 255547 #cardoso
 	religion = kardecists
@@ -169,7 +169,7 @@
 
 570013 = {
 	name = "Maria"
-	dynasty = 255004 #Cavalcanti
+	dynasty = 255004 #Vilela
 	religion = kardecists
 	culture = triangler
 	female=yes

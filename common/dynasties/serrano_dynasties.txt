@@ -1,592 +1,592 @@
-490001 = {
+490501 = {
     name = "Aguaiza"
     culture = serrano
     # Add more properties as needed
 }
 
-490002 = {
+490502 = {
     name = "Albán"
     culture = serrano
     # Add more properties as needed
 }
 
-490003 = {
+490503 = {
     name = "Albuja"
     culture = serrano
     # Add more properties as needed
 }
 
-490004 = {
+490504 = {
     name = "Aldaz"
     culture = serrano
     # Add more properties as needed
 }
 
-490005 = {
+490505 = {
     name = "Almachi"
     culture = serrano
     # Add more properties as needed
 }
 
-490006 = {
+490506 = {
     name = "Almeida"
     culture = serrano
     # Add more properties as needed
 }
 
-490007 = {
-    name = "Alomoto"
-    culture = serrano
-    # Add more properties as needed
-}
+#490507 = {
+#    name = "Alomoto"
+#    culture = serrano
+#    # Add more properties as needed
+#}
 
-490008 = {
+490508 = {
     name = "Alvarracín"
     culture = serrano
     # Add more properties as needed
 }
 
-490009 = {
+490509 = {
     name = "Amaguaya"
     culture = serrano
     # Add more properties as needed
 }
 
-490010 = {
+490510 = {
     name = "Analuisa"
     culture = serrano
     # Add more properties as needed
 }
 
-490011 = {
+490511 = {
     name = "Anangonó"
     culture = serrano
     # Add more properties as needed
 }
 
-490012 = {
+490512 = {
     name = "Andrade"
     culture = serrano
     # Add more properties as needed
 }
 
-490013 = {
+490513 = {
     name = "Andrango"
     culture = serrano
     # Add more properties as needed
 }
 
-490014 = {
+490514 = {
     name = "Angamarca"
     culture = serrano
     # Add more properties as needed
 }
 
-490015 = {
+490515 = {
     name = "Anilema"
     culture = serrano
     # Add more properties as needed
 }
 
-490016 = {
+490516 = {
     name = "Anrango"
     culture = serrano
     # Add more properties as needed
 }
 
-490017 = {
+490517 = {
     name = "Arízaga"
     culture = serrano
     # Add more properties as needed
 }
 
-490018 = {
+490518 = {
     name = "Arévalo"
     culture = serrano
     # Add more properties as needed
 }
 
-490019 = {
+490519 = {
     name = "Argudo"
     culture = serrano
     # Add more properties as needed
 }
 
-490020 = {
+490520 = {
     name = "Arias"
     culture = serrano
     # Add more properties as needed
 }
 
-490021 = {
+490521 = {
     name = "Armijos"
     culture = serrano
     # Add more properties as needed
 }
 
-490022 = {
+490522 = {
     name = "Artieda"
     culture = serrano
     # Add more properties as needed
 }
 
-490023 = {
+490523 = {
     name = "Asanza"
     culture = serrano
     # Add more properties as needed
 }
 
-490024 = {
+490524 = {
     name = "Ascázubi"
     culture = serrano
     # Add more properties as needed
 }
 
-490025 = {
+490525 = {
     name = "Asimbaya"
     culture = serrano
     # Add more properties as needed
 }
 
-490026 = {
+490526 = {
     name = "Astudillo"
     culture = serrano
     # Add more properties as needed
 }
 
-490027 = {
+490527 = {
     name = "Aucancela"
     culture = serrano
     # Add more properties as needed
 }
 
-490028 = {
+490528 = {
     name = "Ayala"
     culture = serrano
     # Add more properties as needed
 }
 
-490029 = {
+490529 = {
     name = "Balseca"
     culture = serrano
     # Add more properties as needed
 }
 
-490030 = {
+490530 = {
     name = "Barbecho"
     culture = serrano
     # Add more properties as needed
 }
 
-490031 = {
+490531 = {
     name = "Basantes"
     culture = serrano
     # Add more properties as needed
 }
 
-490032 = {
+490532 = {
     name = "Benalcázar"
     culture = serrano
     # Add more properties as needed
 }
 
-490033 = {
+490533 = {
     name = "Bermeo"
     culture = serrano
     # Add more properties as needed
 }
 
-490034 = {
+490534 = {
     name = "Berrezueta"
     culture = serrano
     # Add more properties as needed
 }
 
-490035 = {
+490535 = {
     name = "Bonifaz"
     culture = serrano
     # Add more properties as needed
 }
 
-490036 = {
+490536 = {
     name = "Borja"
     culture = serrano
     # Add more properties as needed
 }
 
-490037 = {
+490537 = {
     name = "Borrero"
     culture = serrano
     # Add more properties as needed
 }
 
-490038 = {
+490538 = {
     name = "Burbano"
     culture = serrano
     # Add more properties as needed
 }
 
-490039 = {
+490539 = {
     name = "Cabascango"
     culture = serrano
     # Add more properties as needed
 }
 
-490040 = {
+490540 = {
     name = "Cadena"
     culture = serrano
     # Add more properties as needed
 }
 
-490041 = {
+490541 = {
     name = "Caiza"
     culture = serrano
     # Add more properties as needed
 }
 
-490042 = {
+490542 = {
     name = "Caizaluisa"
     culture = serrano
     # Add more properties as needed
 }
 
-490043 = {
+490543 = {
     name = "Calvache"
     culture = serrano
     # Add more properties as needed
 }
 
-490044 = {
+490544 = {
     name = "Camas"
     culture = serrano
     # Add more properties as needed
 }
 
-490045 = {
+490545 = {
     name = "Campoverde"
     culture = serrano
     # Add more properties as needed
 }
 
-490046 = {
+490546 = {
     name = "Cando"
     culture = serrano
     # Add more properties as needed
 }
 
-490047 = {
+490547 = {
     name = "Carchi"
     culture = serrano
     # Add more properties as needed
 }
 
-490048 = {
+490548 = {
     name = "Carguachi"
     culture = serrano
     # Add more properties as needed
 }
 
-490049 = {
+490549 = {
     name = "Carlosama"
     culture = serrano
     # Add more properties as needed
 }
 
-490050 = {
+490550 = {
     name = "Carrión"
     culture = serrano
     # Add more properties as needed
 }
 
-490051 = {
+490551 = {
     name = "Castillo"
     culture = serrano
     # Add more properties as needed
 }
 
-490052 = {
+490552 = {
     name = "Cazar"
     culture = serrano
     # Add more properties as needed
 }
 
-490053 = {
+490553 = {
     name = "Cedillo"
     culture = serrano
     # Add more properties as needed
 }
 
-490054 = {
+490554 = {
     name = "Cepeda"
     culture = serrano
     # Add more properties as needed
 }
 
-490055 = {
+490555 = {
     name = "Cevallos"
     culture = serrano
     # Add more properties as needed
 }
 
-490056 = {
+490556 = {
     name = "Chávez"
     culture = serrano
     # Add more properties as needed
 }
 
-490057 = {
+490557 = {
     name = "Chafla"
     culture = serrano
     # Add more properties as needed
 }
 
-490058 = {
+490558 = {
     name = "Chamba"
     culture = serrano
     # Add more properties as needed
 }
 
-490059 = {
+490559 = {
     name = "Charco"
     culture = serrano
     # Add more properties as needed
 }
 
-490060 = {
+490560 = {
     name = "Checa"
     culture = serrano
     # Add more properties as needed
 }
 
-490061 = {
+490561 = {
     name = "Chediak"
     culture = serrano
     # Add more properties as needed
 }
 
-490062 = {
+490562 = {
     name = "Chicaiza"
     culture = serrano
     # Add more properties as needed
 }
 
-490063 = {
+490563 = {
     name = "Chimbo"
     culture = serrano
     # Add more properties as needed
 }
 
-490064 = {
+490564 = {
     name = "Chimbolema"
     culture = serrano
     # Add more properties as needed
 }
 
-490065 = {
+490565 = {
     name = "Chuchuca"
     culture = serrano
     # Add more properties as needed
 }
 
-490066 = {
+490566 = {
     name = "Cobos"
     culture = serrano
     # Add more properties as needed
 }
 
-490067 = {
+490567 = {
     name = "Colcha"
     culture = serrano
     # Add more properties as needed
 }
 
-490068 = {
+490568 = {
     name = "Collaguazo"
     culture = serrano
     # Add more properties as needed
 }
 
-490069 = {
+490569 = {
     name = "Condor"
     culture = serrano
     # Add more properties as needed
 }
 
-490070 = {
+490570 = {
     name = "Conlago"
     culture = serrano
     # Add more properties as needed
 }
 
-490071 = {
+490571 = {
     name = "Cordero"
     culture = serrano
     # Add more properties as needed
 }
 
-490072 = {
+490572 = {
     name = "Coronel"
     culture = serrano
     # Add more properties as needed
 }
 
-490073 = {
+490573 = {
     name = "Crespo"
     culture = serrano
     # Add more properties as needed
 }
 
-490074 = {
+490574 = {
     name = "Cuascota"
     culture = serrano
     # Add more properties as needed
 }
 
-490075 = {
+490575 = {
     name = "Cueva"
     culture = serrano
     # Add more properties as needed
 }
 
-490076 = {
+490576 = {
     name = "Cuji"
     culture = serrano
     # Add more properties as needed
 }
 
-490077 = {
+490577 = {
     name = "Díaz"
     culture = serrano
     # Add more properties as needed
 }
 
-490078 = {
+490578 = {
     name = "Daquilema"
     culture = serrano
     # Add more properties as needed
 }
 
-490079 = {
+490579 = {
     name = "Defaz"
     culture = serrano
     # Add more properties as needed
 }
 
-490080 = {
+490580 = {
     name = "Duchi"
     culture = serrano
     # Add more properties as needed
 }
 
-490081 = {
+490581 = {
     name = "Durán"
     culture = serrano
     # Add more properties as needed
 }
 
-490082 = {
+490582 = {
     name = "Dután"
     culture = serrano
     # Add more properties as needed
 }
 
-490083 = {
+490583 = {
     name = "Ehlers"
     culture = serrano
     # Add more properties as needed
 }
 
-490084 = {
+490584 = {
     name = "Elizalde"
     culture = serrano
     # Add more properties as needed
 }
 
-490085 = {
+490585 = {
     name = "Endara"
     culture = serrano
     # Add more properties as needed
 }
 
-490086 = {
+490586 = {
     name = "Enríquez"
     culture = serrano
     # Add more properties as needed
 }
 
-490087 = {
+490587 = {
     name = "Espín"
     culture = serrano
     # Add more properties as needed
 }
 
-490088 = {
+490588 = {
     name = "Espinoza"
     culture = serrano
     # Add more properties as needed
 }
 
-490089 = {
+490589 = {
     name = "Estrella"
     culture = serrano
     # Add more properties as needed
 }
 
-490090 = {
+490590 = {
     name = "Farez"
     culture = serrano
     # Add more properties as needed
 }
 
-490091 = {
+490591 = {
     name = "Farinango"
     culture = serrano
     # Add more properties as needed
 }
 
-490092 = {
+490592 = {
     name = "Fiallos"
     culture = serrano
     # Add more properties as needed
 }
 
-490093 = {
+490593 = {
     name = "Flores"
     culture = serrano
     # Add more properties as needed
 }
 
-490094 = {
+490594 = {
     name = "Freile"
     culture = serrano
     # Add more properties as needed
 }
 
-490095 = {
+490595 = {
     name = "Galarraga"
     culture = serrano
     # Add more properties as needed
 }
 
-490096 = {
+490596 = {
     name = "Galarza"
     culture = serrano
     # Add more properties as needed
 }
 
-490097 = {
+490597 = {
     name = "Gangotena"
     culture = serrano
     # Add more properties as needed
 }
 
-490098 = {
+490598 = {
     name = "Gomezjurado"
     culture = serrano
     # Add more properties as needed
 }
 
-490099 = {
+490599 = {
     name = "González"
     culture = serrano
     # Add more properties as needed

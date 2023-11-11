@@ -11250,7 +11250,7 @@
 
 110611 = {
 	name = "João"
-	dynasty = 77501 #cananeia
+	dynasty = 77501 #cardoso
 	religion = anchietican
 	culture = caicara
 	
@@ -11263,7 +11263,7 @@
 
 110612 = {
 	name = "Cosme"
-	dynasty = 77501 #cananeia
+	dynasty = 77501 #cardoso
 	religion = anchietican
 	culture = caicara
 	father=110611
@@ -11278,7 +11278,7 @@
 
 110613 = {
 	name = "Martim"
-	dynasty = 77501 #cananeia
+	dynasty = 77501 #cardoso
 	religion = anchietican
 	culture = caicara
 	father=110612
@@ -11294,7 +11294,7 @@
 
 110614 = {
 	name = "Cosme"
-	dynasty = 77501 #cananeia
+	dynasty = 77501 #cardoso
 	religion = anchietican
 	culture = caicara
 	father=110613
@@ -11309,7 +11309,7 @@
 
 110615 = {
 	name = "Cosme"
-	dynasty = 77501 #cananeia
+	dynasty = 77501 #cardoso
 	religion = anchietican 
 	culture = caicara
 	father=110614
@@ -11363,7 +11363,7 @@
 
 110616 = {
 	name = "Lucas"
-	dynasty = 77501 #Cananeia
+	dynasty = 77501 #cardoso
 	culture = caicara
 	religion = anchietican
 	father=110615
