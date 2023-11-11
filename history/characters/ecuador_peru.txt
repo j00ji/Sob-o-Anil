@@ -893,6 +893,7 @@
 860043 = {
     name="Gómez"
     dynasty=500001 # Valera
+	father=860048
     culture=charapa
     religion=inkarri
     martial=4
@@ -936,6 +937,7 @@
 860045 = {
     name="Francisca"
     dynasty=500001 # Valera
+	father=860048
     culture=charapa
     religion=israelite
 	female=yes
@@ -958,6 +960,7 @@
     name="Jerónimo"
     dynasty=500001 # Valera
     culture=charapa
+	father=860048
     religion=inti
     martial=5
     diplomacy=3
