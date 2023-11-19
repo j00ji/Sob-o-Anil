@@ -1937,8 +1937,8 @@ old_world_cultists = {
 	anthropofagian = {
 		graphical_culture = muslimgfx
 	
-		icon = 74
-		heresy_icon = 75
+		icon = 42
+		heresy_icon = 49
 		
 		color = { 0.9 0.78 0.64 }
 		
