@@ -6,8 +6,8 @@ title = c_mancapuru
 # Settlements
 max_settlements = 3
 
-b_mancapuru = castle
-b_biribiri = city
+b_mancapuru = city
+b_biribiri = castle
 #b_sacambu = temple
 #b_correnteza = castle
 #b_morada_do_sol = city

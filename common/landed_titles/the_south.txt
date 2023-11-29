@@ -980,7 +980,7 @@ e_the_south = {
 			}
 		}
 		d_constestado = {
-			color={ 193 246 71 }
+			color={ 189 255 189 }
 			color2={ 255 255 255 }
 			
 			capital = 207 # c_chapeco

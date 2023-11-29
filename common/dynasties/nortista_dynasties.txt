@@ -4,6 +4,18 @@
 	religion = santo_daime
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620002 = { 
 	name = "Pinheiro"
@@ -18,6 +30,18 @@
 	religion = santo_daime
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620004 = { 
 	name = "Petecão"
@@ -25,6 +49,18 @@
 	religion = santo_daime
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620005 = { 
 	name = "Pascoal"
@@ -39,6 +75,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620007 = { 
 	name = "Tenreiro Aranha"
@@ -46,6 +93,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620008 = { 
 	name = "Taiwá"
@@ -60,6 +118,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 17
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620010 = { 
 	name = "Carneiro"
@@ -67,6 +136,18 @@
 	religion = santo_daime
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620011 = { 
 	name = "Ainú"
@@ -88,6 +169,17 @@
 	religion = amazonian_jews
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620014 = { 
 	name = "Maoés"
@@ -95,13 +187,35 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620015 = { 
-	name = "Santos"
+	name = "Casemiro"
 	culture = amazonense
 	religion = amazonian_jews
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620016 = { 
 	name = "Santos"
@@ -109,6 +223,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620017 = { 
 	name = "Sabba"
@@ -116,6 +241,17 @@
 	religion = amazonian_jews
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620018 = { 
 	name = "Laércio"
@@ -123,6 +259,17 @@
 	religion = universalist
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620019 = { 
 	name = "Campos"
@@ -130,6 +277,18 @@
 	religion = hekura
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620020 = { 
 	name = "Wapixana"
@@ -137,6 +296,19 @@
 	religion = hekura
 	can_appear = no
 	used_for_random = no
+	
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620021 = { 
 	name = "de Carvalho"
@@ -151,6 +323,18 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+
 }
 620023 = { 
 	name = "Shirishana"
@@ -158,6 +342,18 @@
 	religion = hekura
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 16
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620024 = { 
 	name = "Guajaribo"
@@ -165,6 +361,18 @@
 	religion = hekura
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620025 = { 
 	name = "Dyavi Ru"
@@ -172,6 +380,18 @@
 	religion = xabaxai_xagi
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620026 = { 
 	name = "Ai Veru"
@@ -193,6 +413,18 @@
 	religion = xabaxai_xagi
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620029 = { 
 	name = "de Aguirre"
@@ -200,6 +432,17 @@
 	religion = catholic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620030 = { 
 	name = "Deshan Mikitbo"
@@ -207,6 +450,18 @@
 	religion = xabaxai_xagi
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620031 = { 
 	name = "Xingu"
@@ -214,6 +469,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620032 = { 
 	name = "Oliveira"
@@ -221,6 +487,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620033 = { 
 	name = "Alcolumbres"
@@ -228,6 +505,17 @@
 	religion = amazonian_jews
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620034 = { 
 	name = "Peres"
@@ -235,6 +523,17 @@
 	religion = amazonian_jews
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620035 = { 
 	name = "Amar"
@@ -242,6 +541,17 @@
 	religion = amazonian_jews
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620036 = { 
 	name = "Bemerguy"
@@ -249,6 +559,17 @@
 	religion = amazonian_jews
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620037 = { 
 	name = "Sousa Franco"
@@ -256,6 +577,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620038 = { 
 	name = "Gracie"
@@ -263,6 +595,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 27
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620039 = { 
 	name = "Besouro"
@@ -270,6 +613,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620040 = { 
 	name = "Vandré"
@@ -284,6 +638,18 @@
 	religion = xabaxai_xagi
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620042 = { 
 	name = "Lópes"
@@ -298,6 +664,18 @@
 	religion = xabaxai_xagi
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620044 = { 
 	name = "Machado"
@@ -305,6 +683,18 @@
 	religion = xabaxai_xagi
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		religion = santo_daime
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620045 = { 
 	name = "Lagarto"
@@ -312,6 +702,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 28
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620046 = { 
 	name = "Arari"
@@ -319,6 +720,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 23
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620047 = { 
 	name = "de Paula"
@@ -333,6 +745,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620049 = { 
 	name = "Furtado"
@@ -347,6 +770,17 @@
 	religion = amazonian_jews
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620051 = { 
 	name = "de Mendes"
@@ -375,6 +809,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 30
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620055 = { 
 	name = "Xikrin"
@@ -389,6 +834,17 @@
 	religion = holy_spirit
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 15
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 620057 = { 
 	name = "Humberto"

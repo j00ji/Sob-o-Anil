@@ -24,6 +24,7 @@ feudal_governments = {
 				religion_group = muslim
 				religion = universal
 				religion = mysticalist
+				religion = israelite
 				has_religion_feature = religion_temporal_head
 				AND = {
 					religion = calafatist_reformed

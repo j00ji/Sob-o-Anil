@@ -181,6 +181,13 @@ culture =
 			color = 0
 			random = no # Do not use for random CoAs
 		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_north.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
+			color = 0
+			random = no # DO not use for random CoAs
+		}
 		
 		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}
@@ -544,6 +551,7 @@ culture =
 		"umbanda"
 		"camdomble"
 		"tambor"
+		"santo_daime"
 	}
 
 	templates = { 
@@ -615,6 +623,13 @@ culture =
 			file = "gfx\\coats_of_arms\\dynasties_northeastern.tga"
 			size = { x = 10 y = 8 }
 			noOfFrames = 80
+			color = 0
+			random = no # DO not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_north.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
 			color = 0
 			random = no # DO not use for random CoAs
 		}

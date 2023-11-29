@@ -1,0 +1,5 @@
+2350.1.1={
+	holding_dynasty = 620048 #Tiziu
+	liege = d_marajo
+	holder = 870065 #Túlio Tiziu
+}

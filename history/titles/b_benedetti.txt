@@ -1,0 +1,7 @@
+2360.1.1={
+	holding_dynasty=340112
+	liege=d_mardel
+}
+2360.1.1 = {
+	holder=330025
+}

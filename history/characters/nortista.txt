@@ -365,7 +365,7 @@
     name="Jacob"
     dynasty=620018 # Laércio
     culture=mura
-    religion=universalist
+    religion=universal
     martial=4
     diplomacy=3
     stewardship=3

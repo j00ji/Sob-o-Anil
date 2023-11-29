@@ -6,8 +6,8 @@ title = c_anajas
 # Settlements
 max_settlements = 3
 
-b_anajas_2 = castle
-b_afua = city
+b_anajas_2 = city
+b_afua = castle
 #b_sao_cosme = temple
 #b_chaves_2 = castle
 #b_breves = city

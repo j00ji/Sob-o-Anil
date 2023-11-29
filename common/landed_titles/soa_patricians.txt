@@ -185,3 +185,79 @@ b_nazare_family = {
 	culture = west_parnaibas
 	religion = holy_spirit
 }
+
+## Manaus
+
+b_casemiro = {
+	culture = amazonense
+	religion = amazonian_jews
+}
+
+b_cruz_patrician = {
+	culture = amazonense
+	religion = amazonian_jews
+}
+
+b_sabba = {
+	culture = amazonense
+	religion = amazonian_jews
+}
+
+b_laercio = {
+	culture = amazonense
+	religion = universal
+}
+
+b_santos_patrician = {
+	culture = amazonense
+	religion = universal
+}
+
+## Marajo
+
+b_lagarto = {
+	culture = marajoara
+	religion = holy_spirit
+}
+
+b_arari = {
+	culture = marajoara
+	religion = holy_spirit
+}
+
+b_de_paula = {
+	culture = marajoara
+	religion = holy_spirit
+}
+
+b_tiziu = {
+	culture = marajoara
+	religion = holy_spirit
+}
+
+b_furtado = {
+	culture = tapajo
+	religion = holy_spirit
+}
+
+## Mardel 
+
+b_benedetti = {
+	culture = porteno
+	religion = platinean
+}
+
+b_seineldin = {
+	culture = turco
+	religion = catholic
+}
+
+b_gesell = {
+	culture = porteno
+	religion = platinean
+}
+
+b_mazorca = {
+	culture = porteno
+	religion = rosalian
+}

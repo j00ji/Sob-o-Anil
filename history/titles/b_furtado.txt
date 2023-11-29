@@ -1,0 +1,5 @@
+2350.1.1={
+	holding_dynasty = 620049 #Furtado
+	liege = d_marajo
+	holder = 870066 #Bruno Furtado
+}

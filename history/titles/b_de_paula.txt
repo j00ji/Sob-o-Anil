@@ -1,0 +1,5 @@
+2350.1.1={
+	holding_dynasty = 620047 #de Paula
+	liege = d_marajo
+	holder = 870064 #Francisco de Paula
+}

@@ -1,0 +1,5 @@
+2350.1.1={
+	holding_dynasty = 620045 #Lagarto
+	liege = d_marajo
+	holder = 870062 #Régis Lagarto
+}
