@@ -1,5 +1,97 @@
 From;To;Type;Through;-1;-1;-1;-1;Comment
 46;47;sea;109;-1;-1;-1;-1;Ilha Bela-Bertioga
 592;1099;sea;98;-1;-1;-1;-1;Sao Luis-Viana
+11;23;major_river;1003;-1;-1;-1;-1;Petropolis-Tres Rios
+14;23;major_river;1003;-1;-1;-1;-1;Sapucaia-Tres Rios
+15;18;major_river;1002;-1;-1;-1;-1;Campos-Itabapoana
+15;19;major_river;1002;-1;-1;-1;-1;Campos-Itaperuna
+20;21;major_river;1002;-1;-1;-1;-1;Santo Antonio-Sao Fidelis
+21;848;major_river;1003;-1;-1;-1;-1;Sao Fidelis-Alem Paraiba
+14;848;major_river;1003;-1;-1;-1;-1;Sapucaia-Alem Paraiba
+24;23;major_river;1003;-1;-1;-1;-1;Vassouras-Tres Rios
+24;25;major_river;1004;-1;-1;-1;-1;Vassouras-Valenca
+26;27;major_river;1004;-1;-1;-1;-1;Quatis-Volta Redonda
+50;51;major_river;1096;-1;-1;-1;-1;Sao Paulo-Guarulhos
+52;51;major_river;1096;-1;-1;-1;-1;Osasco-Guarulhos
+53;61;major_river;1095;-1;-1;-1;-1;Tatui-Piracicaba
+61;72;major_river;1095;-1;-1;-1;-1;Piracicaba-Botucatu
+72;68;major_river;1095;-1;-1;-1;-1;Botucatu-Jau
+68;84;major_river;1095;-1;-1;-1;-1;Jau-Bauru
+84;95;major_river;1095;-1;-1;-1;-1;Bauru-Araraquara
+86;1090;major_river;1023;-1;-1;-1;-1;Lins-Novo Horizonte
+1090;79;major_river;1023;-1;-1;-1;-1;Novo Horizonte-Aracatuba
+79;1089;major_river;1023;-1;-1;-1;-1;Aracatuba-Auriflama
+83;82;major_river;1023;-1;-1;-1;-1;Castilho-Andradina
+83;272;major_river;1022;-1;-1;-1;-1;Castilho-Cassilandia
+82;272;major_river;1022;-1;-1;-1;-1;Andradina-Cassilandia
+89;272;major_river;1022;-1;-1;-1;-1;Dracena-Cassilandia
+81;272;major_river;1022;-1;-1;-1;-1;Fernandopolis-Cassilandia
+89;269;major_river;1022;-1;-1;-1;-1;Dracena-Tres Lagoas
+81;895;major_river;1024;-1;-1;-1;-1;Fernandopolis-Carneirinho
+81;896;major_river;1024;-1;-1;-1;-1;Fernandopolis-Campina Verde
+80;896;major_river;1024;-1;-1;-1;-1;Votuporanga-Campina Verde
+80;897;major_river;1024;-1;-1;-1;-1;Votuporanga-Frutal
+78;897;major_river;1024;-1;-1;-1;-1;Sao Jose do Rio Preto-Frutal
+77;897;major_river;1024;-1;-1;-1;-1;Barretos-Frutal
+895;272;major_river;1025;-1;-1;-1;-1;Carneirinho-Cassilandia
+895;243;major_river;1025;-1;-1;-1;-1;Carneirinho-Rio Verde
+898;243;major_river;1025;-1;-1;-1;-1;Ituiutaba-Rio Verde
+90;269;major_river;1021;-1;-1;-1;-1;Rosana-Tres Lagoas
+90;273;major_river;1021;-1;-1;-1;-1;Rosana-Bataypora
+224;273;major_river;1021;-1;-1;-1;-1;Umuarama-Bataypora
+224;275;major_river;1020;-1;-1;-1;-1;Umuarama-Iguatemi
+223;275;major_river;1020;-1;-1;-1;-1;Guaira-Iguatemi
+223;684;major_river;1020;-1;-1;-1;-1;Guaira-Guaria
+220;683;major_river;1020;-1;-1;-1;-1;Foz do Iguacu-Este
+220;684;major_river;1020;-1;-1;-1;-1;Foz do Iguacu-Guaria
+665;683;major_river;1019;-1;-1;-1;-1;Iguazu-Este
+664;680;major_river;1019;-1;-1;-1;-1;Guarani-Itapua
+663;680;major_river;1019;-1;-1;-1;-1;Obera-Itapua
+662;680;major_river;1019;-1;-1;-1;-1;Posadas-Itapua
+660;681;major_river;1017;-1;-1;-1;-1;San Tome-Misiones
+657;681;major_river;1017;-1;-1;-1;-1;Corrientes-Misiones
+278;462;major_river;1028;-1;-1;-1;-1;Kadiweu-Busch
+278;732;major_river;1028;-1;-1;-1;-1;Kadiweu-Alto Paraguay
+688;732;major_river;1027;-1;-1;-1;-1;Concepcion-Alto Paraguay
+688;730;major_river;1027;-1;-1;-1;-1;Concepcion-Presidente Hayes
+686;730;major_river;1027;-1;-1;-1;-1;San Pedro-Presidente Hayes
+679;730;major_river;1026;-1;-1;-1;-1;Caaguazu-Presidente Hayes
+677;730;major_river;1026;-1;-1;-1;-1;Asuncion-Presidente Hayes
+677;728;major_river;1026;-1;-1;-1;-1;Asuncion-Formosa
+678;728;major_river;1026;-1;-1;-1;-1;Ybycui-Formosa
+681;728;major_river;1026;-1;-1;-1;-1;Misiones-Formosa
+657;725;major_river;1016;-1;-1;-1;-1;Corrientes-Chaco
+294;725;major_river;1016;-1;-1;-1;-1;Bella Vista-Chaco
+294;700;major_river;1016;-1;-1;-1;-1;Bella Vista-San Javier
+659;659;major_river;1015;-1;-1;-1;-1;Goya-San Javier
+655;701;major_river;1015;-1;-1;-1;-1;Federacion-Garay
+651;701;major_river;1014;-1;-1;-1;-1;Parana-Garay
+651;702;major_river;1014;-1;-1;-1;-1;Parana-Santa Fe
+651;703;major_river;1014;-1;-1;-1;-1;Parana-San Jeronimo
+656;703;major_river;1014;-1;-1;-1;-1;Victoria-San Jeronima
+656;704;major_river;1013;-1;-1;-1;-1;Victoria-Rosario
+652;704;major_river;1013;-1;-1;-1;-1;Gualeguay-Rosario
+652;624;major_river;1013;-1;-1;-1;-1;Gualeguay-Obligado
+652;617;major_river;1013;-1;-1;-1;-1;Gualeguay-Tigre
+160;664;major_river;1012;-1;-1;-1;-1;Frederico Westphalen-Guarani
+162;664;major_river;1012;-1;-1;-1;-1;Santa Rosa-Guarani
+162;663;major_river;1012;-1;-1;-1;-1;Santa Rosa-Obera
+166;663;major_river;1011;-1;-1;-1;-1;Sao Nicolau-Obera
+170;663;major_river;1011;-1;-1;-1;-1;Sao Borja-Obera
+170;660;major_river;1011;-1;-1;-1;-1;Sao Borja-San Tome
+169;660;major_river;1011;-1;-1;-1;-1;Itaqui-San Tome
+169;658;major_river;1011;-1;-1;-1;-1;Itaqui-Yapeyu
+169;658;major_river;1010;-1;-1;-1;-1;Uruguaiana-Yapeyu
+173;658;major_river;1010;-1;-1;-1;-1;Arapei-Yapeyu
+173;655;major_river;1010;-1;-1;-1;-1;Arapei-Federacion
+285;655;major_river;1010;-1;-1;-1;-1;Salto-Federacion
+285;654;major_river;1010;-1;-1;-1;-1;Salto-Concordia
+283;284;major_river;1009;-1;-1;-1;-1;Soriano-Rio Negro
+284;654;major_river;1008;-1;-1;-1;-1;Rio Negro-Concordia
+284;653;major_river;1008;-1;-1;-1;-1;Rio Negro-Concepcion
+283;652;major_river;1008;-1;-1;-1;-1;Comment
+
+355;672;major_river;1029;-1;-1;-1;-1;Viedma-Patagones
+
 #x;ymajor_river;-1;-1;-1;-1;
 #x;y;portage;-1;-1;-1;-1;
