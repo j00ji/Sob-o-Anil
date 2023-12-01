@@ -89,9 +89,83 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 283;284;major_river;1009;-1;-1;-1;-1;Soriano-Rio Negro
 284;654;major_river;1008;-1;-1;-1;-1;Rio Negro-Concordia
 284;653;major_river;1008;-1;-1;-1;-1;Rio Negro-Concepcion
-283;652;major_river;1008;-1;-1;-1;-1;Comment
-
+283;652;major_river;1008;-1;-1;-1;-1;Soriano-Gualeguay
 355;672;major_river;1029;-1;-1;-1;-1;Viedma-Patagones
+355;673;major_river;1029;-1;-1;-1;-1;Viedma-Colorado
+355;362;major_river;1029;-1;-1;-1;-1;Viedma-Avellaneda
+357;362;major_river;1030;-1;-1;-1;-1;Valcheta-Avellaneda
+357;360;major_river;1031;-1;-1;-1;-1;Valcheta-General Roca
+366;360;major_river;1032;-1;-1;-1;-1;Neuquen-General Roca
+479;568;major_river;996;-1;-1;-1;-1;Japaratuba-Penedo
+480;568;major_river;996;-1;-1;-1;-1;Itabaiana-Penedo
+480;569;major_river;996;-1;-1;-1;-1;Itabaiana-Arapiraca
+481;570;major_river;996;-1;-1;-1;-1;Sergipana-Serrana
+483;512;major_river;997;-1;-1;-1;-1;Curaca-Itaparica
+482;512;major_river;997;-1;-1;-1;-1;Juazeiro-Itaparica
+482;575;major_river;997;-1;-1;-1;-1;Juazeiro-Santa Maria da Boa Vista
+482;576;major_river;997;-1;-1;-1;-1;Juazeiro-Petrolina
+489;576;major_river;998;-1;-1;-1;-1;Sobradinho-Petrolina
+489;530;major_river;998;-1;-1;-1;-1;Sobradinho-Remanso
+491;530;major_river;998;-1;-1;-1;-1;Sento Se-Remanso
+491;529;major_river;998;-1;-1;-1;-1;Sento Se-Arcado
+577;529;major_river;999;-1;-1;-1;-1;Itaparica_2-Arcado
+577;526;major_river;999;-1;-1;-1;-1;Itaparica_2-Ibiraba
+511;526;major_river;999;-1;-1;-1;-1;Copixaba-Ibiraba
+511;525;major_river;999;-1;-1;-1;-1;Copixaba-Barra
+511;524;major_river;1000;-1;-1;-1;-1;Copixaba-Cotegipe
+513;524;major_river;1000;-1;-1;-1;-1;Capao-Cotegipe
+513;523;major_river;1000;-1;-1;-1;-1;Capao-Serra Dourada
+515;523;major_river;1000;-1;-1;-1;-1;Paratinga-Serra Dourada
+515;522;major_river;1000;-1;-1;-1;-1;Paratinga-Santana
+516;522;major_river;1001;-1;-1;-1;-1;Bom Jesus-Santana
+516;521;major_river;1001;-1;-1;-1;-1;Bom Jesus-Ramalho
+519;521;major_river;1001;-1;-1;-1;-1;Guanambi-Ramalho
+582;595;major_river;992;-1;-1;-1;-1;Parnaiba-Tutoia
+583;595;major_river;992;-1;-1;-1;-1;Luzilandia-Tutoia
+578;606;major_river;993;-1;-1;-1;-1;Teresina-Codo
+580;606;major_river;993;-1;-1;-1;-1;Palmeirais-Codo
+587;607;major_river;994;-1;-1;-1;-1;Bertolinia-Caxias
+791;793;major_river;991;-1;-1;-1;-1;Tucurui-Novo Repartimento
+788;803;major_river;974;-1;-1;-1;-1;Bagre-Muana
+788;804;major_river;974;-1;-1;-1;-1;Bagre-Anajas
+804;805;major_river;968;-1;-1;-1;-1;Anajas-Ilhas do Delta
+809;805;major_river;968;-1;-1;-1;-1;Caxiuna-Ilhas do Delta
+805;799;major_river;968;-1;-1;-1;-1;Ilhas do Delta-Araguari
+805;797;major_river;968;-1;-1;-1;-1;Ilhas do Delta-Macapa
+805;798;major_river;968;-1;-1;-1;-1;Ilhas do Delta-Mazagao
+809;808;major_river;988;-1;-1;-1;-1;Caxiuna-Jabaucu
+809;806;major_river;988;-1;-1;-1;-1;Caxiuna-Altamira
+809;811;major_river;969;-1;-1;-1;-1;Caxiuna-Almerim
+808;811;major_river;969;-1;-1;-1;-1;Jabaucu-Almerim
+808;810;major_river;970;-1;-1;-1;-1;Jabaucu-Alenquer
+813;810;major_river;970;-1;-1;-1;-1;Santarem-Alenquer
+813;814;major_river;987;-1;-1;-1;-1;Santarem-Juruti
+817;815;major_river;987;-1;-1;-1;-1;Aveiro-Apace
+818;815;major_river;987;-1;-1;-1;-1;Trairao-Apace
+814;812;major_river;971;-1;-1;-1;-1;Juruti-Oriximana
+814;744;major_river;972;-1;-1;-1;-1;Juruti-Itacotiara
+745;744;major_river;972;-1;-1;-1;-1;Autazes-Itacotiara
+743;740;major_river;973;-1;-1;-1;-1;Lago do Rei-Manaus
+741;740;major_river;973;-1;-1;-1;-1;Iranduba-Manaus
+743;741;major_river;975;-1;-1;-1;-1;Lago do Rei-Iranduba
+743;742;major_river;975;-1;-1;-1;-1;Lago do Rei-Mancapuru
+770;742;major_river;975;-1;-1;-1;-1;Tapaua-Mancapuru
+770;771;major_river;976;-1;-1;-1;-1;Tapaua-Abufari
+769;771;major_river;976;-1;-1;-1;-1;Canutama-Abufari
+740;748;major_river;982;-1;-1;-1;-1;Manaus-Caapiranga
+747;748;major_river;982;-1;-1;-1;-1;Presidente Figueiredo-Caapiranga
+760;754;major_river;983;-1;-1;-1;-1;Rorainopolis-Barcelos
+755;754;major_river;983;-1;-1;-1;-1;Santa Isabel-Barcelos
+740;742;major_river;979;-1;-1;-1;-1;Manaus-Mancapuru
+748;746;major_river;979;-1;-1;-1;-1;Caapiranga-Novo Airao
+748;750;major_river;979;-1;-1;-1;-1;Caapiranga-Beruri
+750;749;major_river;980;-1;-1;-1;-1;Beruri-Anama
+752;749;major_river;980;-1;-1;-1;-1;Coari-Anama
+752;751;major_river;980;-1;-1;-1;-1;Coari-Codajas
+763;761;major_river;981;-1;-1;-1;-1;Jurua-Amatura
+765;766;major_river;985;-1;-1;-1;-1;Javari-Canama
+942;943;major_river;985;-1;-1;-1;-1;Ramon Castilla-Putumayo_2
+942;939;major_river;986;-1;-1;-1;-1;Ramon Castilla-Maynas
 
 #x;ymajor_river;-1;-1;-1;-1;
 #x;y;portage;-1;-1;-1;-1;
