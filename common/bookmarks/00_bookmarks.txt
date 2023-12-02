@@ -34,8 +34,8 @@ bm_cono_sur = {
 		
 		character = {
 			female = yes
-			dna="b0hbi0d0ce0"
-			properties="u00a0b0000000000000000000000000000000"
+			dna="ibpbnmdplkm"
+			properties="cdbdid000000"
 			religion="catholic"
 			culture="pampeano"
 			government = feudal_government
