@@ -160,6 +160,8 @@
 330007 = {
 	name="Estanislao"
     dynasty=345004 # Valle
+	dna="0eh0d0cbdb0"
+	properties="fi0fba000000000000000000000000000000"
     culture=porteno
     religion=platinean
     martial=5
@@ -400,7 +402,9 @@
 330016 = {
 	name="Cristina"
     dynasty=345007 # Duarte
-    female=yes
+    female=yes  
+	dna="0dbc00fce00"
+	properties="on0f0i0000000000000000000000000000000"
     culture=pampeano
     religion=catholic
     martial=7
@@ -857,6 +861,8 @@
 330035 = {
 	name="Anastasio"
     dynasty=345017 # de Pollo
+	dna="acghc0icad0"
+	properties="ok0iak000000000000000000000000000000"
     culture=pampeano
     religion=gaucheria
     martial=7

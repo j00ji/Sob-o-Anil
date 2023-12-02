@@ -1,11 +1,245 @@
-bm_test_date = {
-	name = "SOA_BRAZIL_SOUTHEAST"
-	desc = "BM_BRAZIL_SOUTHEAST_DESC"
+bm_cono_sur = {
+	name = "bm_cono_sur"
+	desc = "bm_cono_sur_desc"
 	date = 2369.11.19
 	
-	era = yes
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_2
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+	
+	selectable_character = {
+		id = 330007 #Estanislao Valle
+		age = 45
+		name = ERA_CHAR_NAME_ESTANISLAO
+		title = k_buenos_aires
+		title_name = BUENOS_AIRES
+		
+		character = {
+			female = no
+			dna="0eh0d0cbdb0"
+			properties="fi0fba000000000000000000000000000000"
+			religion="platinean"
+			culture="porteno"
+			government = feudal_government
+			dynasty=345004
+		}
+	}
+	
+	selectable_character = {
+		id = 330016 #Cristina Duarte
+		age = 20
+		name = ERA_CHAR_NAME_CRISTINA
+		title = d_junin
+		title_name = DUCHY_JUNIN
+		
+		character = {
+			female = yes
+			dna="b0hbi0d0ce0"
+			properties="u00a0b0000000000000000000000000000000"
+			religion="catholic"
+			culture="pampeano"
+			government = feudal_government
+			dynasty=345007
+		}
+	}
+	
+	selectable_character = {
+		id = 480003 #Catriel II Catrilanca
+		age = 67
+		name = ERA_CHAR_NAME_CATRIEL
+		title = d_biobio
+		title_name = DUCHY_BIOBIO
+		
+		character = {
+			female = no
+			dna="0idbf0ca000"
+			properties="of0d0e000000000000000000000000000000"
+			religion="nguillatun"
+			culture="mapuche"
+			government = feudal_government
+			dynasty=210001
+		}
+	}
+	
+	selectable_character = {
+		id = 330035 #Anastasio de Pollo
+		age = 39
+		name = ERA_CHAR_NAME_ANASTASIO
+		title = d_patagones
+		title_name = DUCHY_PATAGONES
+		
+		character = {
+			female = no
+			dna="acghc0icad0"
+			properties="ok0iak000000000000000000000000000000"
+			religion="gaucheria"
+			culture="pampeano"
+			government = nomadic_government
+			dynasty=345017
+		}
+	}
+	
+	selectable_character = {
+		id = 230006 #Charles II Valdivieso
+		age = 38
+		name = ERA_CHAR_NAME_CHARLES
+		title = k_chile
+		title_name = CHILE
+		
+		character = {
+			female = no
+			dna="aecae0dca00"
+			properties="ei0g0a000000000000000000000000000000"
+			religion="catholic"
+			culture="centrino"
+			government = feudal_government
+			dynasty=145011
+		}
+	}
+}
+
+bm_cordillera = {
+	name = "bm_cordillera"
+	desc = "bm_cordillera_desc"
+	date = 2369.11.19
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+	
+	selectable_character = {
+		id = 810006 #Andronico Aiza
+		age = 28
+		name = ERA_CHAR_NAME_ANDRONICO
+		title = k_bolivia
+		title_name = BOLIVIA
+		
+		character = {
+			female = no
+			  dna="bdbgb0fa000"
+  properties="i00k0a000000000000000000000000000000"
+			religion="santa_diablada"
+			culture="quechua"
+			government = feudal_government
+			dynasty=410006
+		}
+	}
+	
+	selectable_character = {
+		id = 810020 #Germán Toro
+		age = 35
+		name = ERA_CHAR_NAME_GERMAN
+		title = d_cordillera
+		title_name = CORDILLERA
+		
+		character = {
+			female = no
+			  dna="aedgf0hb0f0"
+  properties="rd0b0b000000000000000000000000000000"
+			religion="catholic"
+			culture="german"
+			government = feudal_government
+			dynasty=410017
+		}
+	}
+	
+	selectable_character = {
+		id = 860100 #Chaska Q’ollary
+		age = 35
+		name = ERA_CHAR_NAME_CHASKA
+		title = d_choquequirao
+		title_name = CHOQUEQUIRAO
+		
+		character = {
+			female = no
+			  dna="b0gch000000"
+  properties="mc0c0b000000000000000000000000000000"
+			religion="inti"
+			culture="quechua"
+			government = feudal_government
+			dynasty=500034
+		}
+	}
+	
+	selectable_character = {
+		id = 860059 #Alfonso Huaypacusi
+		age = 36
+		name = ERA_CHAR_NAME_ALFONSO
+		title = d_ucayali
+		title_name = UCAYALI
+		
+		character = {
+			female = no
+			  dna="chih00d0000"
+  properties="tm0cmk000000000000000000000000000000"
+			religion="chicha"
+			culture="charapa"
+			government = feudal_government
+			dynasty=500007
+		}
+	}
+	
+	selectable_character = {
+		id = 860066 #Feliciano Gutiérrez
+		age = 35
+		name = ERA_CHAR_NAME_FELICIANO
+		title = d_lima
+		title_name = LIMA
+		
+		character = {
+			female = no
+			religion="liberationist"
+			  dna="afbbh0hca00"
+  properties="l00aga000000000000000000000000000000"
+			culture="rimense"
+			government = feudal_government
+			dynasty=500012
+		}
+	}
+}
+
+bm_terra_do_sol = {
+	name = "bm_terra_do_sol"
+	desc = "bm_terra_do_sol_desc"
+	date = 2369.11.19
+	
+	era = yes						## Will be shown on Era screen.
 	picture = GFX_pick_era_image_1
-	custom_start = yes
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+	
+	selectable_character = {
+		id = 120051 #Jaime I
+	}
+	selectable_character = {
+		id = 80002 #Camila da Paixao
+	}
+}
+
+bm_cafe_com_leite = {
+	name = "bm_cafe_com_leite"
+	desc = "bm_cafe_com_leite_desc"
+	date = 2369.11.19
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_4
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+	
+	selectable_character = {
+		id = 120051 #Jaime I
+	}
+	selectable_character = {
+		id = 80002 #Camila da Paixao
+	}
+}
+
+bm_inferno_verde = {
+	name = "bm_inferno_verde"
+	desc = "bm_inferno_verde_desc"
+	date = 2369.11.19
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_5
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 	
 	selectable_character = {
 		id = 120051 #Jaime I

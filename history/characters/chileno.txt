@@ -571,6 +571,8 @@
 	dynasty=145011
 	father=230002
 	mother=230005
+	dna="aecae0dca00"
+	properties="ei0g0a000000000000000000000000000000"
 	martial=5
 	diplomacy=3
 	stewardship=6

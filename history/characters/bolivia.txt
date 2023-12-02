@@ -124,6 +124,8 @@
     name="Andrónico"
     dynasty=410006 # Aiza
 	father=810008
+	  dna="bdbgb0fa000"
+  properties="i00k0a000000000000000000000000000000"
     culture=quechua
     religion=santa_diablada
     martial=6
@@ -437,6 +439,8 @@
     dynasty=410017 # Toro
     culture=german
     religion=catholic
+	  dna="aedgf0hb0f0"
+  properties="rd0b0b000000000000000000000000000000"
     martial=5
     diplomacy=5
     stewardship=3

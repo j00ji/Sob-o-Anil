@@ -1249,8 +1249,10 @@
 #Duchy of Ucayali
 #Duchy of Ucayali
 860059 = {
-	name="Alfanso"
+	name="Alfonso"
     dynasty=500007 # Huaypacusi
+	  dna="chih00d0000"
+  properties="tm0cmk000000000000000000000000000000"
     culture=charapa
     religion=chicha
     martial=3
@@ -1400,6 +1402,8 @@
 860066 = {
     name="Feliciano"
     dynasty=500012 # Gutiérrez
+	  dna="afbbh0hca00"
+  properties="l00aga000000000000000000000000000000"
     culture=rimense
     religion=liberationist
     martial=5
@@ -2106,6 +2110,8 @@
 860100 = {
     name="Chaska"
     dynasty=500034 # Q’ollary
+	  dna="b0gch000000"
+  properties="mc0c0b000000000000000000000000000000"
     culture=quechua
     religion=inti
     martial=5

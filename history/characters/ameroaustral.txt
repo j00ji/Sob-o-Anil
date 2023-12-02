@@ -60,6 +60,8 @@
 480003={
 	name="Catriel"
 	dynasty=210001
+  dna="0idbf0ca000"
+  properties="of0d0e000000000000000000000000000000"
 	martial=4
 	diplomacy=3
 	stewardship=3
