@@ -2551,7 +2551,7 @@ syncretic_group = {
 		high_god_name = GOD_JEHOVAH
 		
 		god_names = {
-			GOD_EZEQUIEL GOD_THE_LORD GOD_JESUS_EAST
+			GOD_EZEQUIEL GOD_THE_LORD GOD_HOLY_SPIRIT GOD_JESUS_EAST
 		}
 		evil_god_names = {
 			SATAN LUCIFER THE_DEVIL
