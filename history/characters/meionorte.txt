@@ -325,7 +325,7 @@
 	#middle son of José, titular duke of Maranhão do Sul, count of Imperatriz
 }
 30018={
-	name="Zacarias "
+	name="Zacarias"
 	dynasty=850001 #Ribamar
 	culture=west_parnaibas
 	religion=holy_spirit
@@ -453,7 +453,7 @@
 	#vassal of Mearim, holds Grajau
 }
 30026={
-	name="Afonso "
+	name="Afonso"
 	dynasty=850008 #Tehetehara
 	culture=guajajara
 	religion=holy_spirit
