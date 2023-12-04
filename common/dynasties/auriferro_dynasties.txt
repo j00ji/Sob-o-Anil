@@ -264,7 +264,7 @@
 }
 
 265016 = {
-	name = "Aldebaran"
+	name = "Resende"
 	culture = mantiqueiro
 	religion = terra_benta
 	can_appear = no
@@ -1103,10 +1103,10 @@
 	name = "Renault"
 	culture = auriferro
 	}
-265698 = {
-	name = "Resende"
-	culture = auriferro
-	}
+#265698 = {
+#	name = "Resende"
+#	culture = auriferro
+#	}
 265699 = {
 	name = "Rezende"
 	culture = auriferro

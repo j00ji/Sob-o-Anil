@@ -11366,6 +11366,8 @@
 	dynasty = 77501 #cardoso
 	culture = caicara
 	religion = anchietican
+	  dna="bcfaa00bfb0"
+  properties="rk0l0g000000000000000000000000000000"
 	father=110615
 	mother=110616
 	disallow_random_traits = yes
@@ -12122,6 +12124,8 @@
 	dynasty = 260003 #de Ribeirão
 	religion = terra_benta
 	culture = brown
+	  dna="ckijj0hc0a0"
+  properties="nb0aki000000000000000000000000000000"
 	father = 110687
 	mother = 110740
 	trait = intricate_webweaver

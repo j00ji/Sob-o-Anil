@@ -1065,6 +1065,8 @@
 860050 = {
     name="Enoch"
     dynasty=500003 # Ataucusi
+	  dna="0ddga0babb0"
+  properties="kj0ag0000000000000000000000000000000"
     culture=charapa
     religion=israelite
     martial=6

@@ -189,8 +189,8 @@ bm_cordillera = {
 		character = {
 			female = no
 			religion="liberationist"
-			  dna="afbbh0hca00"
-  properties="l00aga000000000000000000000000000000"
+			dna="afbbh0hca00"
+			properties="l00aga000000000000000000000000000000"
 			culture="rimense"
 			government = feudal_government
 			dynasty=500012
@@ -208,10 +208,93 @@ bm_terra_do_sol = {
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 	
 	selectable_character = {
-		id = 120051 #Jaime I
+		id = 3 #Celestino Belchioringio
+		age = 44
+		name = ERA_CHAR_NAME_CELESTINO
+		title = k_cabo_norte
+		title_name = CABO_NORTE
+		
+		character = {
+			female = no
+			dna="ca0ca0ec0c0"
+			properties="ah0hhc000000000000000000000000000000"
+			religion="cicerite"
+			culture="natalense"
+			government = feudal_government
+			dynasty=1
+		}
 	}
+	
 	selectable_character = {
-		id = 80002 #Camila da Paixao
+		id = 10001 #Francisco Matildez
+		age = 28
+		name = ERA_CHAR_NAME_FRANCISCO
+		title = k_ceara
+		title_name = CEARA
+		
+		character = {
+			female = no
+			dna="0ideh00b000"
+			properties="li00kc00000000000000000000000000000"
+			religion="seladite"
+			culture="southindian"
+			government = feudal_government
+			dynasty=5001
+		}
+	}
+	
+	selectable_character = {
+		id = 40010 #Tristão de Pelourinho
+		age = 17
+		name = ERA_CHAR_NAME_TRISTAO
+		title = e_bahia
+		title_name = BAHIA
+		
+		character = {
+			female = no
+			dna="0g0bh0g0000"
+			properties="mg0ac0000000000000000000000000000000"
+			religion="camdomble"
+			culture="salvadorense"
+			government = roman_imperial_government
+			dynasty=20001
+		}
+	}
+	
+	selectable_character = {
+		id = 40031 #João Figueiredo
+		age = 47
+		name = ERA_CHAR_NAME_JOAO_ILHEUS
+		title = k_ilheus
+		title_name = ILHEUS
+		
+		character = {
+			female = no  
+			dna="00000000000"
+			properties="0g0jaj000000000000000000000000000000"
+			religion="ilhense"
+			culture="salvadorense"
+			government = feudal_government
+			dynasty=25007
+		}
+	}
+	
+	selectable_character = {
+		id = 30016 #Rosa Ribamar
+		age = 31
+		name = ERA_CHAR_NAME_ROSA
+		title = k_maranhao
+		title_name = MARANHAO
+		
+		character = {
+			female = yes  
+			dna="bjckd0c0000"
+			properties="vh0fhk000000000000000000000000000000"
+			religion="holy_spirit"
+			culture="west_parnaibas"
+			government = feudal_government
+			dynasty=850001
+		}
 	}
 }
 
@@ -225,10 +308,89 @@ bm_cafe_com_leite = {
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 	
 	selectable_character = {
-		id = 120051 #Jaime I
+		id = 110001 #Alexandre Cantarini
+		age = 25
+		name = ERA_CHAR_NAME_ALEXANDRE
+		title = c_campinas
+		title_name = CAMPINAS
+		
+		character = {
+			female = no  
+			dna="cib000fcgb0"
+			properties="we0b0c00000"
+			religion="peterite"
+			culture="paulistano"
+			government = feudal_government
+			dynasty=55001
+		}
 	}
 	selectable_character = {
-		id = 80002 #Camila da Paixao
+		id = 110242 #Yago Matarazzo
+		age = 44
+		name = ERA_CHAR_NAME_YAGO
+		title = d_grande_sao_paulo
+		title_name = GRANDE_SAO_PAULO
+		
+		character = {
+			female = no  
+			dna="00ad00ja000"
+			properties="lk0lhk000000000000000000000000000000"
+			religion="anchietican"
+			culture="paulistano"
+			government = merchant_republic_government
+			dynasty=55003
+		}
+	}
+	selectable_character = {
+		id = 300003 #Vinicius Taurus
+		age = 26
+		name = ERA_CHAR_NAME_VINICIUS
+		title = k_serra_gaucha
+		title_name = SERRA_GAUCHA
+		
+		character = {
+			female = no  
+			dna="cbigc0a0ec0"
+			properties="sm0gfi000000000000000000000000000000"
+			religion="evangelical"
+			culture="talian"
+			government = feudal_government
+			dynasty=105004
+		}
+	}
+	selectable_character = {
+		id = 110616 #Lucas Cardoso
+		age = 25
+		name = ERA_CHAR_NAME_LUCAS
+		title = d_itapeva
+		title_name = ITAPEVA
+		
+		character = {
+			female = no  
+			dna="bcfaa00bfb0"
+			properties="rk0l0g000000000000000000000000000000"
+			religion="anchietican"
+			culture="caicara"
+			government = feudal_government
+			dynasty=77501
+		}
+	}
+	selectable_character = {
+		id = 110689 #Carlos Magno
+		age = 25
+		name = ERA_CHAR_NAME_CARLOS
+		title = c_franca
+		title_name = FRANCA
+		
+		character = {
+			female = no  
+			dna="ckijj0hc0a0"
+			properties="nb0aki000000000000000000000000000000"
+			religion="terra_benta"
+			culture="brown"
+			government = feudal_government
+			dynasty=260003
+		}
 	}
 }
 
@@ -242,9 +404,88 @@ bm_inferno_verde = {
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 	
 	selectable_character = {
-		id = 120051 #Jaime I
+		id = 860050 #Enoch Ataucusi
+		age = 39
+		name = ERA_CHAR_NAME_ENOCH
+		title = e_israelite
+		title_name = UNIVERSAL_COVENANT
+		
+		character = {
+			female = no  
+			dna="0ddga0babb0"
+			properties="kj0ag0000000000000000000000000000000"
+			religion="israelite"
+			culture="charapa"
+			government = feudal_government
+			dynasty=500003
+		}
 	}
 	selectable_character = {
-		id = 80002 #Camila da Paixao
+		id = 870015 #Alberto Santos
+		age = 43
+		name = ERA_CHAR_NAME_ALBERTO
+		title = d_manaus
+		title_name = MANAUS
+		
+		character = {
+			female = no  
+			dna="0bcge0ea000"
+			properties="xb0b0k000000000000000000000000000000"
+			religion="amazonian_jews"
+			culture="amazonense"
+			government = merchant_republic_government
+			dynasty=620015
+		}
+	}
+	selectable_character = {
+		id = 870001 #Giordano Borges
+		age = 25
+		name = ERA_CHAR_NAME_GIORDANO
+		title = d_lesser_acre
+		title_name = LESSER_ACRE
+		
+		character = {
+			female = no  
+			dna="0hbee00a0a0"
+			properties="wf0iji000000000000000000000000000000"
+			religion="santo_daime"
+			culture="mediterranean"
+			government = feudal_government
+			dynasty=620001
+		}
+	}
+	selectable_character = {
+		id = 30018 #Zacarias Ribamar
+		age = 23
+		name = ERA_CHAR_NAME_ZACARIAS
+		title = d_amapa
+		title_name = AMAPA
+		
+		character = {
+			female = no  
+			dna="00c0a0ha000"
+			properties="bb000k000000000000000000000000000000"
+			religion="holy_spirit"
+			culture="west_parnaibas"
+			government = feudal_government
+			dynasty=850001
+		}
+	}
+	selectable_character = {
+		id = 870029 #Klaus de Aguirre
+		age = 40
+		name = ERA_CHAR_NAME_KLAUS
+		title = c_canama
+		title_name = CANAMA
+		
+		character = {
+			female = no  
+			dna="00cii000hd0"
+			properties="wj000k000000000000000000000000000000"
+			religion="catholic"
+			culture="oxapampino"
+			government = tribal_government
+			dynasty=620029
+		}
 	}
 }

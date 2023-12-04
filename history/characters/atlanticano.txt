@@ -58,8 +58,6 @@
 3={ #Firstborn of Belchior, King of Cabo Norte
 	name="Celestino"
 	dynasty=1 #Belchioríngio
-	dna="ca0ca0ec0c0"
-	properties="ah0hhc000000000000000000000000000000"
 	religion=cicerite
 	culture=natalense
 	father=1

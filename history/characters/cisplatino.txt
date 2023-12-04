@@ -2986,6 +2986,8 @@
 	dynasty=105004 #taurus
 	culture=talian
 	religion=evangelical
+	dna="cbigc0a0ec0"
+	properties="sm0gfi000000000000000000000000000000"
 	father=300001
 	mother=300002
 	trait=skilled_tactician

@@ -5,7 +5,9 @@
 870001 = {
     name="Giordano"
     dynasty=620001 # Borges
-    culture=acreano
+    culture=mediterranean
+	  dna="0hbee00a0a0"
+  properties="wf0iji000000000000000000000000000000"
     religion=santo_daime
     martial=4
     diplomacy=4
@@ -19,7 +21,7 @@
     trait=patient
     trait=shy
     trait=proud
-    2344.1.1={birth=yes}
+    2344.1.1={birth=yes culture=acreano}
     2400.1.1={death=yes}
 }
 #Duke of Lesser Acre, rules Rio Branco and Manoel Urbano
@@ -302,6 +304,8 @@
     dynasty=620015 # Santos
     culture=amazonense
     religion=amazonian_jews
+	  dna="0bcge0ea000"
+  properties="xb0b0k000000000000000000000000000000"
     martial=4
     diplomacy=4
     stewardship=3
@@ -588,6 +592,8 @@
 870029 = {
     name="Klaus"
     dynasty=620029 # de Aguirre
+	dna="00cii000hd0"
+	properties="wj000k000000000000000000000000000000"
     culture=oxapampino
     religion=catholic
     martial=6

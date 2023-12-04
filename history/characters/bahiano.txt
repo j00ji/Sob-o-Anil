@@ -553,6 +553,8 @@
 40010 = {
 	name = "Tristão"
 	dynasty = 20001
+	dna="0g0bh0g0000"
+	properties="mg0ac0000000000000000000000000000000"
 	religion = camdomble
 	culture = salvadorense
 	mother = 40006
@@ -798,6 +800,8 @@
 	dynasty = 25007 #Figueiredo Correia
 	culture = ilhense
 	religion = camdomble
+	  dna="00000000000"
+  properties="0g0jaj000000000000000000000000000000"
 	trait = brilliant_strategist
 	trait = ambitious
 	trait = brave
