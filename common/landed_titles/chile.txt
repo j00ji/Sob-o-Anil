@@ -47,6 +47,7 @@ e_chile = {
 				color={ 249 221 57 }
 				color2={ 255 255 255 }
 				holy_site = catholic
+				holy_site = archipelagic
 
 				b_santiago = {}
 				b_maipu = {}
@@ -507,7 +508,7 @@ e_chile = {
 			c_osorno = { # 350
 				color={ 38 107 79 }
 				color2={ 255 255 255 }
-				
+				holy_site = archipelagic
 				b_osorno = {}
 				b_purranque = {}
 				b_rio_negro_2 = {}

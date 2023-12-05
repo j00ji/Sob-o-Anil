@@ -733,7 +733,7 @@ e_patagonia = {
 			c_aysen = { # 375
 				color={ 58 198 112 }
 				color2={ 255 255 255 }
-				
+				holy_site = archipelagic
 				b_puerto_aysen = {}
 				b_puerto_aguirre = {}
 				b_puerto_chacabuco = {}
@@ -790,6 +790,7 @@ e_patagonia = {
 				color={ 91 166 53 }
 				color2={ 255 255 255 }
 				holy_site = calafatist
+				holy_site = archipelagic
 				b_punta_arenas = {}
 				b_san_gregorio_2 = {}
 				b_rio_verde_3 = {}
