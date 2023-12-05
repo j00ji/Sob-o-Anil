@@ -3282,7 +3282,7 @@ nortista_group = {
 		modifier = default_culture_modifier
 	}
 	roraimo = {
-		graphical_cultures = { mexicangfx }
+		graphical_cultures = { southindiangfx mexicangfx }
 		
 		color = { 0.08 0.2 0.0 }
 		

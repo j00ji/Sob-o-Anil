@@ -161,6 +161,16 @@
 ### Sergipano - 610001 - 615000
 
 # NORTISTA RANGE 620001 - 
+### Amapaense - 620500 - 621000
+### Amazonese - 621000 - 621500
+### Jewish Amazonan - 621500 - 622000
+### Paraense - 622000 - 622500
+### Tapajo - 622500 - 623000
+### Caboclo - 623000 - 623500
+### Marajoara - 623500 - 624000
+### Acreano - 624000 - 624500
+### Roraimo - 624500 - 625000
+### Rondonian - 625000 - 625500
 
 #The list is incomplete and will have more added later.
 #If you want to add more, don't move the ranges, continue from where it stopped, and maintain them at a number of 4999 dynasties reserved.

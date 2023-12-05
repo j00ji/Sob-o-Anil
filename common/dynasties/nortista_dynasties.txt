@@ -860,3 +860,5545 @@
 	can_appear = no
 	used_for_random = no
 }
+
+
+####################
+####Random Amapaense Surnames
+####################
+
+620500 = {
+    name = "da Silva"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620501 = {
+    name = "Pereira"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620502 = {
+    name = "dos Santos"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620503 = {
+    name = "Alves"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620504 = {
+    name = "Ferreira"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620505 = {
+    name = "Rodrigues"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620506 = {
+    name = "de Sousa"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620507 = {
+    name = "Costa"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620508 = {
+    name = "da Conceição"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620509 = {
+    name = "Gomes"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620510 = {
+    name = "Lima"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620511 = {
+    name = "Oliveira"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620512 = {
+    name = "Ribeiro"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620513 = {
+    name = "Araújo"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620514 = {
+    name = "de Jesus"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620515 = {
+    name = "de Oliveira"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620516 = {
+    name = "Lopes"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620517 = {
+    name = "Soares"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620518 = {
+    name = "Vieira"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620519 = {
+    name = "Martins"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620520 = {
+    name = "Mendes"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620521 = {
+    name = "Carvalho"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620522 = {
+    name = "Barbosa"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620523 = {
+    name = "Nascimento"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620524 = {
+    name = "Cardoso"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620525 = {
+    name = "da Costa"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620526 = {
+    name = "Barros"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620527 = {
+    name = "Almeida"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620528 = {
+    name = "Rocha"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620529 = {
+    name = "Nunes"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620530 = {
+    name = "Pinheiro"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620531 = {
+    name = "Marques"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620532 = {
+    name = "Souza"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620533 = {
+    name = "Dias"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620534 = {
+    name = "Fernandes"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620535 = {
+    name = "Batista"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620536 = {
+    name = "Viana"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620537 = {
+    name = "Teixeira"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620538 = {
+    name = "Moreira"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620539 = {
+    name = "Coelho"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620540 = {
+    name = "Moraes"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620541 = {
+    name = "Ramos"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620542 = {
+    name = "Nonato"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620543 = {
+    name = "Pinto"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620544 = {
+    name = "Borges"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620545 = {
+    name = "Brito"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620546 = {
+    name = "Diniz"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620547 = {
+    name = "Santana"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620548 = {
+    name = "Castro"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620549 = {
+    name = "da Cruz"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620550 = {
+    name = "Machado"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620551 = {
+    name = "Monteiro"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620552 = {
+    name = "de Lima"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620553 = {
+    name = "de Carvalho"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620554 = {
+    name = "Carneiro"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620555 = {
+    name = "Cunha"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620556 = {
+    name = "Amorim"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620557 = {
+    name = "Miranda"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620558 = {
+    name = "Fonseca"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620559 = {
+    name = "Matos"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620560 = {
+    name = "Das Chagas"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620561 = {
+    name = "Mendonça"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620562 = {
+    name = "Azevedo"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620563 = {
+    name = "Nogueira"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620564 = {
+    name = "Chaves"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620565 = {
+    name = "Guimara~es"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620566 = {
+    name = "Marinho"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620567 = {
+    name = "Neves"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620568 = {
+    name = "Macedo"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620569 = {
+    name = "dos Anjos"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620570 = {
+    name = "Cantanhede"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620571 = {
+    name = "do Carmo"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620572 = {
+    name = "Dutra"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620573 = {
+    name = "Frazão"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620574 = {
+    name = "Sales"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620575 = {
+    name = "Muniz"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620576 = {
+    name = "de Melo"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+#620577 = {
+#    name = "Tavares"
+#    culture = amapaense
+#    # Add more properties as needed
+#}
+
+620578 = {
+    name = "Furtado"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620579 = {
+    name = "Braga"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620580 = {
+    name = "Torres"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620581 = {
+    name = "da Luz"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620582 = {
+    name = "Maciel"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620583 = {
+    name = "Duarte"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620584 = {
+    name = "Cavalcante"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620585 = {
+    name = "Félix"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620586 = {
+    name = "Cutrim"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620587 = {
+    name = "Sampaio"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620588 = {
+    name = "Bastos"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620589 = {
+    name = "Rabelo"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620590 = {
+    name = "Mesquita"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620591 = {
+    name = "Brandão"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620592 = {
+    name = "García"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620593 = {
+    name = "Lisboa"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620594 = {
+    name = "Trindade"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620595 = {
+    name = "Pacheco"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620596 = {
+    name = "Assunção"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620597 = {
+    name = "Magalhães"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620598 = {
+    name = "Cordeiro"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620599 = {
+    name = "Chagas"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620600 = {
+    name = "Galvão"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+620601 = {
+    name = "Saraiva"
+    culture = amapaense
+    # Add more properties as needed
+}
+
+####################
+####Random Amazonense Surnames
+####################
+
+621000 = {
+    name = "da Silva"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621001 = {
+    name = "Pereira"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621002 = {
+    name = "dos Santos"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621003 = {
+    name = "Alves"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621004 = {
+    name = "Ferreira"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621005 = {
+    name = "Rodrigues"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621006 = {
+    name = "de Sousa"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621007 = {
+    name = "Costa"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621008 = {
+    name = "da Conceição"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621009 = {
+    name = "Gomes"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621010 = {
+    name = "Lima"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621011 = {
+    name = "Oliveira"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621012 = {
+    name = "Ribeiro"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621013 = {
+    name = "Araújo"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621014 = {
+    name = "de Jesus"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621015 = {
+    name = "de Oliveira"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621016 = {
+    name = "Lopes"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621017 = {
+    name = "Soares"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621018 = {
+    name = "Vieira"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621019 = {
+    name = "Martins"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621020 = {
+    name = "Mendes"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621021 = {
+    name = "Carvalho"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621022 = {
+    name = "Barbosa"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621023 = {
+    name = "Nascimento"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621024 = {
+    name = "Cardoso"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621025 = {
+    name = "da Costa"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621026 = {
+    name = "Barros"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621027 = {
+    name = "Almeida"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621028 = {
+    name = "Rocha"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621029 = {
+    name = "Nunes"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621030 = {
+    name = "Pinheiro"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621031 = {
+    name = "Marques"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621032 = {
+    name = "Souza"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621033 = {
+    name = "Dias"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621034 = {
+    name = "Fernandes"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621035 = {
+    name = "Batista"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621036 = {
+    name = "Viana"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621037 = {
+    name = "Teixeira"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621038 = {
+    name = "Moreira"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621039 = {
+    name = "Coelho"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621040 = {
+    name = "Moraes"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621041 = {
+    name = "Ramos"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621042 = {
+    name = "Nonato"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621043 = {
+    name = "Pinto"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621044 = {
+    name = "Borges"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621045 = {
+    name = "Brito"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621046 = {
+    name = "Diniz"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621047 = {
+    name = "Santana"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621048 = {
+    name = "Castro"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621049 = {
+    name = "da Cruz"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621050 = {
+    name = "Machado"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621051 = {
+    name = "Monteiro"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621052 = {
+    name = "de Lima"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621053 = {
+    name = "de Carvalho"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621054 = {
+    name = "Carneiro"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621055 = {
+    name = "Cunha"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621056 = {
+    name = "Amorim"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621057 = {
+    name = "Miranda"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621058 = {
+    name = "Fonseca"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621059 = {
+    name = "Matos"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621060 = {
+    name = "Das Chagas"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621061 = {
+    name = "Mendonça"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621062 = {
+    name = "Azevedo"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621063 = {
+    name = "Nogueira"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621064 = {
+    name = "Chaves"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621065 = {
+    name = "Guimara~es"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621066 = {
+    name = "Marinho"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621067 = {
+    name = "Neves"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621068 = {
+    name = "Macedo"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621069 = {
+    name = "dos Anjos"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621070 = {
+    name = "Cantanhede"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621071 = {
+    name = "do Carmo"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621072 = {
+    name = "Dutra"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621073 = {
+    name = "Frazão"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621074 = {
+    name = "Sales"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621075 = {
+    name = "Muniz"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621076 = {
+    name = "de Melo"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+#621077 = {
+#    name = "Tavares"
+#    culture = amazonense
+#    # Add more properties as needed
+#}
+
+621078 = {
+    name = "Furtado"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621079 = {
+    name = "Braga"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621080 = {
+    name = "Torres"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621081 = {
+    name = "da Luz"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621082 = {
+    name = "Maciel"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621083 = {
+    name = "Duarte"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621084 = {
+    name = "Cavalcante"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621085 = {
+    name = "Félix"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621086 = {
+    name = "Cutrim"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621087 = {
+    name = "Sampaio"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621088 = {
+    name = "Bastos"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621089 = {
+    name = "Rabelo"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621090 = {
+    name = "Mesquita"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621091 = {
+    name = "Brandão"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621092 = {
+    name = "García"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621093 = {
+    name = "Lisboa"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621094 = {
+    name = "Trindade"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621095 = {
+    name = "Pacheco"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621096 = {
+    name = "Assunção"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621097 = {
+    name = "Magalhães"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621098 = {
+    name = "Cordeiro"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+621099 = {
+    name = "Chagas"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+620600 = {
+    name = "Galvão"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+620601 = {
+    name = "Saraiva"
+    culture = amazonense
+    # Add more properties as needed
+}
+
+####################
+####Random Jewish Amazonian Surnames
+####################
+
+621500 = {
+    name = "da Silva"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621501 = {
+    name = "Benchimol"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621502 = {
+    name = "Benoliel"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621503 = {
+    name = "Benayon"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621504 = {
+    name = "Sabba"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621505 = {
+    name = "Carneiro"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621506 = {
+    name = "Lobo"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621507 = {
+    name = "Raposo"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621508 = {
+    name = "Coelho"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621509 = {
+    name = "Pereira"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+621510 = {
+    name = "Moreno"
+    culture = amazonaim
+    # Add more properties as needed
+}
+
+####################
+####Random Belenense Surnames
+####################
+
+622000 = {
+    name = "da Silva"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622001 = {
+    name = "Pereira"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622002 = {
+    name = "dos Santos"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622003 = {
+    name = "Alves"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622004 = {
+    name = "Ferreira"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622005 = {
+    name = "Rodrigues"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622006 = {
+    name = "de Sousa"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622007 = {
+    name = "Costa"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622008 = {
+    name = "da Conceição"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622009 = {
+    name = "Gomes"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622010 = {
+    name = "Lima"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622011 = {
+    name = "Oliveira"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622012 = {
+    name = "Ribeiro"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622013 = {
+    name = "Araújo"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622014 = {
+    name = "de Jesus"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622015 = {
+    name = "de Oliveira"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622016 = {
+    name = "Lopes"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622017 = {
+    name = "Soares"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622018 = {
+    name = "Vieira"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622019 = {
+    name = "Martins"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622020 = {
+    name = "Mendes"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622021 = {
+    name = "Carvalho"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622022 = {
+    name = "Barbosa"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622023 = {
+    name = "Nascimento"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622024 = {
+    name = "Cardoso"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622025 = {
+    name = "da Costa"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622026 = {
+    name = "Barros"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622027 = {
+    name = "Almeida"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622028 = {
+    name = "Rocha"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622029 = {
+    name = "Nunes"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622030 = {
+    name = "Pinheiro"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622031 = {
+    name = "Marques"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622032 = {
+    name = "Souza"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622033 = {
+    name = "Dias"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622034 = {
+    name = "Fernandes"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622035 = {
+    name = "Batista"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622036 = {
+    name = "Viana"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622037 = {
+    name = "Teixeira"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622038 = {
+    name = "Moreira"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622039 = {
+    name = "Coelho"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622040 = {
+    name = "Moraes"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622041 = {
+    name = "Ramos"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622042 = {
+    name = "Nonato"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622043 = {
+    name = "Pinto"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622044 = {
+    name = "Borges"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622045 = {
+    name = "Brito"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622046 = {
+    name = "Diniz"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622047 = {
+    name = "Santana"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622048 = {
+    name = "Castro"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622049 = {
+    name = "da Cruz"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622050 = {
+    name = "Machado"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622051 = {
+    name = "Monteiro"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622052 = {
+    name = "de Lima"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622053 = {
+    name = "de Carvalho"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622054 = {
+    name = "Carneiro"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622055 = {
+    name = "Cunha"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622056 = {
+    name = "Amorim"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622057 = {
+    name = "Miranda"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622058 = {
+    name = "Fonseca"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622059 = {
+    name = "Matos"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622060 = {
+    name = "Das Chagas"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622061 = {
+    name = "Mendonça"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622062 = {
+    name = "Azevedo"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622063 = {
+    name = "Nogueira"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622064 = {
+    name = "Chaves"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622065 = {
+    name = "Guimara~es"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622066 = {
+    name = "Marinho"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622067 = {
+    name = "Neves"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622068 = {
+    name = "Macedo"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622069 = {
+    name = "dos Anjos"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622070 = {
+    name = "Cantanhede"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622071 = {
+    name = "do Carmo"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622072 = {
+    name = "Dutra"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622073 = {
+    name = "Frazão"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622074 = {
+    name = "Sales"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622075 = {
+    name = "Muniz"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622076 = {
+    name = "de Melo"
+    culture = paraense
+    # Add more properties as needed
+}
+
+#622077 = {
+#    name = "Tavares"
+#    culture = paraense
+#    # Add more properties as needed
+#}
+
+622078 = {
+    name = "Furtado"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622079 = {
+    name = "Braga"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622080 = {
+    name = "Torres"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622081 = {
+    name = "da Luz"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622082 = {
+    name = "Maciel"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622083 = {
+    name = "Duarte"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622084 = {
+    name = "Cavalcante"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622085 = {
+    name = "Félix"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622086 = {
+    name = "Cutrim"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622087 = {
+    name = "Sampaio"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622088 = {
+    name = "Bastos"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622089 = {
+    name = "Rabelo"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622090 = {
+    name = "Mesquita"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622091 = {
+    name = "Brandão"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622092 = {
+    name = "García"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622093 = {
+    name = "Lisboa"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622094 = {
+    name = "Trindade"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622095 = {
+    name = "Pacheco"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622096 = {
+    name = "Assunção"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622097 = {
+    name = "Magalhães"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622098 = {
+    name = "Cordeiro"
+    culture = paraense
+    # Add more properties as needed
+}
+
+622099 = {
+    name = "Chagas"
+    culture = paraense
+    # Add more properties as needed
+}
+
+620600 = {
+    name = "Galvão"
+    culture = paraense
+    # Add more properties as needed
+}
+
+620601 = {
+    name = "Saraiva"
+    culture = paraense
+    # Add more properties as needed
+}
+
+####################
+####Random Tapajo Surnames
+####################
+
+622500 = {
+    name = "da Silva"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622501 = {
+    name = "Pereira"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622502 = {
+    name = "dos Santos"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622503 = {
+    name = "Alves"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622504 = {
+    name = "Ferreira"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622505 = {
+    name = "Rodrigues"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622506 = {
+    name = "de Sousa"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622507 = {
+    name = "Costa"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622508 = {
+    name = "da Conceição"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622509 = {
+    name = "Gomes"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622510 = {
+    name = "Lima"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622511 = {
+    name = "Oliveira"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622512 = {
+    name = "Ribeiro"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622513 = {
+    name = "Araújo"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622514 = {
+    name = "de Jesus"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622515 = {
+    name = "de Oliveira"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622516 = {
+    name = "Lopes"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622517 = {
+    name = "Soares"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622518 = {
+    name = "Vieira"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622519 = {
+    name = "Martins"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622520 = {
+    name = "Mendes"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622521 = {
+    name = "Carvalho"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622522 = {
+    name = "Barbosa"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622523 = {
+    name = "Nascimento"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622524 = {
+    name = "Cardoso"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622525 = {
+    name = "da Costa"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622526 = {
+    name = "Barros"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622527 = {
+    name = "Almeida"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622528 = {
+    name = "Rocha"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622529 = {
+    name = "Nunes"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622530 = {
+    name = "Pinheiro"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622531 = {
+    name = "Marques"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622532 = {
+    name = "Souza"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622533 = {
+    name = "Dias"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622534 = {
+    name = "Fernandes"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622535 = {
+    name = "Batista"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622536 = {
+    name = "Viana"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622537 = {
+    name = "Teixeira"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622538 = {
+    name = "Moreira"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622539 = {
+    name = "Coelho"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622540 = {
+    name = "Moraes"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622541 = {
+    name = "Ramos"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622542 = {
+    name = "Nonato"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622543 = {
+    name = "Pinto"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622544 = {
+    name = "Borges"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622545 = {
+    name = "Brito"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622546 = {
+    name = "Diniz"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622547 = {
+    name = "Santana"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622548 = {
+    name = "Castro"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622549 = {
+    name = "da Cruz"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622550 = {
+    name = "Machado"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622551 = {
+    name = "Monteiro"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622552 = {
+    name = "de Lima"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622553 = {
+    name = "de Carvalho"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622554 = {
+    name = "Carneiro"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622555 = {
+    name = "Cunha"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622556 = {
+    name = "Amorim"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622557 = {
+    name = "Miranda"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622558 = {
+    name = "Fonseca"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622559 = {
+    name = "Matos"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622560 = {
+    name = "Das Chagas"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622561 = {
+    name = "Mendonça"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622562 = {
+    name = "Azevedo"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622563 = {
+    name = "Nogueira"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622564 = {
+    name = "Chaves"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622565 = {
+    name = "Guimara~es"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622566 = {
+    name = "Marinho"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622567 = {
+    name = "Neves"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622568 = {
+    name = "Macedo"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622569 = {
+    name = "dos Anjos"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622570 = {
+    name = "Cantanhede"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622571 = {
+    name = "do Carmo"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622572 = {
+    name = "Dutra"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622573 = {
+    name = "Frazão"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622574 = {
+    name = "Sales"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622575 = {
+    name = "Muniz"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622576 = {
+    name = "de Melo"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+#622577 = {
+#    name = "Tavares"
+#    culture = tapajo
+#    # Add more properties as needed
+#}
+
+622578 = {
+    name = "Furtado"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622579 = {
+    name = "Braga"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622580 = {
+    name = "Torres"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622581 = {
+    name = "da Luz"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622582 = {
+    name = "Maciel"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622583 = {
+    name = "Duarte"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622584 = {
+    name = "Cavalcante"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622585 = {
+    name = "Félix"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622586 = {
+    name = "Cutrim"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622587 = {
+    name = "Sampaio"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622588 = {
+    name = "Bastos"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622589 = {
+    name = "Rabelo"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622590 = {
+    name = "Mesquita"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622591 = {
+    name = "Brandão"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622592 = {
+    name = "García"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622593 = {
+    name = "Lisboa"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622594 = {
+    name = "Trindade"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622595 = {
+    name = "Pacheco"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622596 = {
+    name = "Assunção"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622597 = {
+    name = "Magalhães"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622598 = {
+    name = "Cordeiro"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+622599 = {
+    name = "Chagas"
+    culture = tapajo
+    # Add more properties as needed
+}
+
+####################
+####Random Caboclo Surnames
+####################
+
+623000 = {
+    name = "da Silva"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623001 = {
+    name = "Pereira"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623002 = {
+    name = "dos Santos"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623003 = {
+    name = "Alves"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623004 = {
+    name = "Ferreira"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623005 = {
+    name = "Rodrigues"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623006 = {
+    name = "de Sousa"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623007 = {
+    name = "Costa"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623008 = {
+    name = "da Conceição"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623009 = {
+    name = "Gomes"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623010 = {
+    name = "Lima"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623011 = {
+    name = "Oliveira"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623012 = {
+    name = "Ribeiro"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623013 = {
+    name = "Araújo"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623014 = {
+    name = "de Jesus"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623015 = {
+    name = "de Oliveira"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623016 = {
+    name = "Lopes"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623017 = {
+    name = "Soares"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623018 = {
+    name = "Vieira"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623019 = {
+    name = "Martins"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623020 = {
+    name = "Mendes"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623021 = {
+    name = "Carvalho"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623022 = {
+    name = "Barbosa"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623023 = {
+    name = "Nascimento"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623024 = {
+    name = "Cardoso"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623025 = {
+    name = "da Costa"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623026 = {
+    name = "Barros"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623027 = {
+    name = "Almeida"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623028 = {
+    name = "Rocha"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623029 = {
+    name = "Nunes"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623030 = {
+    name = "Pinheiro"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623031 = {
+    name = "Marques"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623032 = {
+    name = "Souza"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623033 = {
+    name = "Dias"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623034 = {
+    name = "Fernandes"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623035 = {
+    name = "Batista"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623036 = {
+    name = "Viana"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623037 = {
+    name = "Teixeira"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623038 = {
+    name = "Moreira"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623039 = {
+    name = "Coelho"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623040 = {
+    name = "Moraes"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623041 = {
+    name = "Ramos"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623042 = {
+    name = "Nonato"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623043 = {
+    name = "Pinto"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623044 = {
+    name = "Borges"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623045 = {
+    name = "Brito"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623046 = {
+    name = "Diniz"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623047 = {
+    name = "Santana"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623048 = {
+    name = "Castro"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623049 = {
+    name = "da Cruz"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623050 = {
+    name = "Machado"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623051 = {
+    name = "Monteiro"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623052 = {
+    name = "de Lima"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623053 = {
+    name = "de Carvalho"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623054 = {
+    name = "Carneiro"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623055 = {
+    name = "Cunha"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623056 = {
+    name = "Amorim"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623057 = {
+    name = "Miranda"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623058 = {
+    name = "Fonseca"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623059 = {
+    name = "Matos"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623060 = {
+    name = "Das Chagas"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623061 = {
+    name = "Mendonça"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623062 = {
+    name = "Azevedo"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623063 = {
+    name = "Nogueira"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623064 = {
+    name = "Chaves"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623065 = {
+    name = "Guimara~es"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623066 = {
+    name = "Marinho"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623067 = {
+    name = "Neves"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623068 = {
+    name = "Macedo"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623069 = {
+    name = "dos Anjos"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623070 = {
+    name = "Cantanhede"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623071 = {
+    name = "do Carmo"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623072 = {
+    name = "Dutra"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623073 = {
+    name = "Frazão"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623074 = {
+    name = "Sales"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623075 = {
+    name = "Muniz"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623076 = {
+    name = "de Melo"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+#623077 = {
+#    name = "Tavares"
+#    culture = caboclo
+#    # Add more properties as needed
+#}
+
+623078 = {
+    name = "Furtado"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623079 = {
+    name = "Braga"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623080 = {
+    name = "Torres"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623081 = {
+    name = "da Luz"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623082 = {
+    name = "Maciel"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623083 = {
+    name = "Duarte"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623084 = {
+    name = "Cavalcante"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623085 = {
+    name = "Félix"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623086 = {
+    name = "Cutrim"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623087 = {
+    name = "Sampaio"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623088 = {
+    name = "Bastos"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623089 = {
+    name = "Rabelo"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623090 = {
+    name = "Mesquita"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623091 = {
+    name = "Brandão"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623092 = {
+    name = "García"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623093 = {
+    name = "Lisboa"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623094 = {
+    name = "Trindade"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623095 = {
+    name = "Pacheco"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623096 = {
+    name = "Assunção"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623097 = {
+    name = "Magalhães"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623098 = {
+    name = "Cordeiro"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+623099 = {
+    name = "Chagas"
+    culture = caboclo
+    # Add more properties as needed
+}
+
+####################
+####Random marajoara Surnames
+####################
+
+623500 = {
+    name = "da Silva"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623501 = {
+    name = "Pereira"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623502 = {
+    name = "dos Santos"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623503 = {
+    name = "Alves"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623504 = {
+    name = "Ferreira"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623505 = {
+    name = "Rodrigues"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623506 = {
+    name = "de Sousa"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623507 = {
+    name = "Costa"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623508 = {
+    name = "da Conceição"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623509 = {
+    name = "Gomes"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623510 = {
+    name = "Lima"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623511 = {
+    name = "Oliveira"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623512 = {
+    name = "Ribeiro"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623513 = {
+    name = "Araújo"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623514 = {
+    name = "de Jesus"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623515 = {
+    name = "de Oliveira"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623516 = {
+    name = "Lopes"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623517 = {
+    name = "Soares"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623518 = {
+    name = "Vieira"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623519 = {
+    name = "Martins"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623520 = {
+    name = "Mendes"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623521 = {
+    name = "Carvalho"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623522 = {
+    name = "Barbosa"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623523 = {
+    name = "Nascimento"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623524 = {
+    name = "Cardoso"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623525 = {
+    name = "da Costa"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623526 = {
+    name = "Barros"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623527 = {
+    name = "Almeida"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623528 = {
+    name = "Rocha"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623529 = {
+    name = "Nunes"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623530 = {
+    name = "Pinheiro"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623531 = {
+    name = "Marques"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623532 = {
+    name = "Souza"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623533 = {
+    name = "Dias"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623534 = {
+    name = "Fernandes"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623535 = {
+    name = "Batista"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623536 = {
+    name = "Viana"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623537 = {
+    name = "Teixeira"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623538 = {
+    name = "Moreira"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623539 = {
+    name = "Coelho"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623540 = {
+    name = "Moraes"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623541 = {
+    name = "Ramos"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623542 = {
+    name = "Nonato"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623543 = {
+    name = "Pinto"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623544 = {
+    name = "Borges"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623545 = {
+    name = "Brito"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623546 = {
+    name = "Diniz"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623547 = {
+    name = "Santana"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623548 = {
+    name = "Castro"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623549 = {
+    name = "da Cruz"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623550 = {
+    name = "Machado"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623551 = {
+    name = "Monteiro"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623552 = {
+    name = "de Lima"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623553 = {
+    name = "de Carvalho"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623554 = {
+    name = "Carneiro"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623555 = {
+    name = "Cunha"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623556 = {
+    name = "Amorim"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623557 = {
+    name = "Miranda"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623558 = {
+    name = "Fonseca"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623559 = {
+    name = "Matos"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623560 = {
+    name = "Das Chagas"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623561 = {
+    name = "Mendonça"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623562 = {
+    name = "Azevedo"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623563 = {
+    name = "Nogueira"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623564 = {
+    name = "Chaves"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623565 = {
+    name = "Guimara~es"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623566 = {
+    name = "Marinho"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623567 = {
+    name = "Neves"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623568 = {
+    name = "Macedo"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623569 = {
+    name = "dos Anjos"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623570 = {
+    name = "Cantanhede"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623571 = {
+    name = "do Carmo"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623572 = {
+    name = "Dutra"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623573 = {
+    name = "Frazão"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623574 = {
+    name = "Sales"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623575 = {
+    name = "Muniz"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623576 = {
+    name = "de Melo"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+#623577 = {
+#    name = "Tavares"
+#    culture = marajoara
+#    # Add more properties as needed
+#}
+
+623578 = {
+    name = "Furtado"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623579 = {
+    name = "Braga"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623580 = {
+    name = "Torres"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623581 = {
+    name = "da Luz"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623582 = {
+    name = "Maciel"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623583 = {
+    name = "Duarte"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623584 = {
+    name = "Cavalcante"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623585 = {
+    name = "Félix"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623586 = {
+    name = "Cutrim"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623587 = {
+    name = "Sampaio"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623588 = {
+    name = "Bastos"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623589 = {
+    name = "Rabelo"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623590 = {
+    name = "Mesquita"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623591 = {
+    name = "Brandão"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623592 = {
+    name = "García"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623593 = {
+    name = "Lisboa"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623594 = {
+    name = "Trindade"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623595 = {
+    name = "Pacheco"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623596 = {
+    name = "Assunção"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623597 = {
+    name = "Magalhães"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623598 = {
+    name = "Cordeiro"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+623599 = {
+    name = "Chagas"
+    culture = marajoara
+    # Add more properties as needed
+}
+
+####################
+####Random Acre Surnames
+####################
+
+624000 = {
+    name = "da Silva"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624001 = {
+    name = "Pereira"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624002 = {
+    name = "dos Santos"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624003 = {
+    name = "Alves"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624004 = {
+    name = "Ferreira"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624005 = {
+    name = "Rodrigues"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624006 = {
+    name = "de Sousa"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624007 = {
+    name = "Costa"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624008 = {
+    name = "da Conceição"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624009 = {
+    name = "Gomes"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624010 = {
+    name = "Lima"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624011 = {
+    name = "Oliveira"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624012 = {
+    name = "Ribeiro"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624013 = {
+    name = "Araújo"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624014 = {
+    name = "de Jesus"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624015 = {
+    name = "de Oliveira"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624016 = {
+    name = "Lopes"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624017 = {
+    name = "Soares"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624018 = {
+    name = "Vieira"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624019 = {
+    name = "Martins"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624020 = {
+    name = "Mendes"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624021 = {
+    name = "Carvalho"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624022 = {
+    name = "Barbosa"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624023 = {
+    name = "Nascimento"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624024 = {
+    name = "Cardoso"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624025 = {
+    name = "da Costa"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624026 = {
+    name = "Barros"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624027 = {
+    name = "Almeida"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624028 = {
+    name = "Rocha"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624029 = {
+    name = "Nunes"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624030 = {
+    name = "Pinheiro"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624031 = {
+    name = "Marques"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624032 = {
+    name = "Souza"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624033 = {
+    name = "Dias"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624034 = {
+    name = "Fernandes"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624035 = {
+    name = "Batista"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624036 = {
+    name = "Viana"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624037 = {
+    name = "Teixeira"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624038 = {
+    name = "Moreira"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624039 = {
+    name = "Coelho"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624040 = {
+    name = "Moraes"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624041 = {
+    name = "Ramos"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624042 = {
+    name = "Nonato"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624043 = {
+    name = "Pinto"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624044 = {
+    name = "Borges"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624045 = {
+    name = "Brito"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624046 = {
+    name = "Diniz"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624047 = {
+    name = "Santana"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624048 = {
+    name = "Castro"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624049 = {
+    name = "da Cruz"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624050 = {
+    name = "Machado"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624051 = {
+    name = "Monteiro"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624052 = {
+    name = "de Lima"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624053 = {
+    name = "de Carvalho"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624054 = {
+    name = "Carneiro"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624055 = {
+    name = "Cunha"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624056 = {
+    name = "Amorim"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624057 = {
+    name = "Miranda"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624058 = {
+    name = "Fonseca"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624059 = {
+    name = "Matos"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624060 = {
+    name = "Das Chagas"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624061 = {
+    name = "Mendonça"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624062 = {
+    name = "Azevedo"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624063 = {
+    name = "Nogueira"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624064 = {
+    name = "Chaves"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624065 = {
+    name = "Guimara~es"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624066 = {
+    name = "Marinho"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624067 = {
+    name = "Neves"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624068 = {
+    name = "Macedo"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624069 = {
+    name = "dos Anjos"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624070 = {
+    name = "Cantanhede"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624071 = {
+    name = "do Carmo"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624072 = {
+    name = "Dutra"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624073 = {
+    name = "Frazão"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624074 = {
+    name = "Sales"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624075 = {
+    name = "Muniz"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624076 = {
+    name = "de Melo"
+    culture = acreano
+    # Add more properties as needed
+}
+
+#624077 = {
+#    name = "Tavares"
+#    culture = acreano
+#    # Add more properties as needed
+#}
+
+624078 = {
+    name = "Furtado"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624079 = {
+    name = "Braga"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624080 = {
+    name = "Torres"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624081 = {
+    name = "da Luz"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624082 = {
+    name = "Maciel"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624083 = {
+    name = "Duarte"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624084 = {
+    name = "Cavalcante"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624085 = {
+    name = "Félix"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624086 = {
+    name = "Cutrim"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624087 = {
+    name = "Sampaio"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624088 = {
+    name = "Bastos"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624089 = {
+    name = "Rabelo"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624090 = {
+    name = "Mesquita"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624091 = {
+    name = "Brandão"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624092 = {
+    name = "García"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624093 = {
+    name = "Lisboa"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624094 = {
+    name = "Trindade"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624095 = {
+    name = "Pacheco"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624096 = {
+    name = "Assunção"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624097 = {
+    name = "Magalhães"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624098 = {
+    name = "Cordeiro"
+    culture = acreano
+    # Add more properties as needed
+}
+
+624099 = {
+    name = "Chagas"
+    culture = acreano
+    # Add more properties as needed
+}
+
+####################
+####Random Roraimo Surnames
+####################
+
+624500 = {
+    name = "da Silva"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624501 = {
+    name = "Pereira"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624502 = {
+    name = "dos Santos"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624503 = {
+    name = "Alves"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624504 = {
+    name = "Ferreira"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624505 = {
+    name = "Rodrigues"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624506 = {
+    name = "de Sousa"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624507 = {
+    name = "Costa"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624508 = {
+    name = "da Conceição"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624509 = {
+    name = "Gomes"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624510 = {
+    name = "Lima"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624511 = {
+    name = "Oliveira"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624512 = {
+    name = "Ribeiro"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624513 = {
+    name = "Araújo"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624514 = {
+    name = "de Jesus"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624515 = {
+    name = "de Oliveira"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624516 = {
+    name = "Lopes"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624517 = {
+    name = "Soares"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624518 = {
+    name = "Vieira"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624519 = {
+    name = "Martins"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624520 = {
+    name = "Mendes"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624521 = {
+    name = "Carvalho"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624522 = {
+    name = "Barbosa"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624523 = {
+    name = "Nascimento"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624524 = {
+    name = "Cardoso"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624525 = {
+    name = "da Costa"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624526 = {
+    name = "Barros"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624527 = {
+    name = "Almeida"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624528 = {
+    name = "Rocha"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624529 = {
+    name = "Nunes"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624530 = {
+    name = "Pinheiro"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624531 = {
+    name = "Marques"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624532 = {
+    name = "Souza"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624533 = {
+    name = "Dias"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624534 = {
+    name = "Fernandes"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624535 = {
+    name = "Batista"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624536 = {
+    name = "Viana"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624537 = {
+    name = "Teixeira"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624538 = {
+    name = "Moreira"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624539 = {
+    name = "Coelho"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624540 = {
+    name = "Moraes"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624541 = {
+    name = "Ramos"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624542 = {
+    name = "Nonato"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624543 = {
+    name = "Pinto"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624544 = {
+    name = "Borges"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624545 = {
+    name = "Brito"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624546 = {
+    name = "Diniz"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624547 = {
+    name = "Santana"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624548 = {
+    name = "Castro"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624549 = {
+    name = "da Cruz"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624550 = {
+    name = "Machado"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624551 = {
+    name = "Monteiro"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624552 = {
+    name = "de Lima"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624553 = {
+    name = "de Carvalho"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624554 = {
+    name = "Carneiro"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624555 = {
+    name = "Cunha"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624556 = {
+    name = "Amorim"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624557 = {
+    name = "Miranda"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624558 = {
+    name = "Fonseca"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624559 = {
+    name = "Matos"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624560 = {
+    name = "Das Chagas"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624561 = {
+    name = "Mendonça"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624562 = {
+    name = "Azevedo"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624563 = {
+    name = "Nogueira"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624564 = {
+    name = "Chaves"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624565 = {
+    name = "Guimara~es"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624566 = {
+    name = "Marinho"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624567 = {
+    name = "Neves"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624568 = {
+    name = "Macedo"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624569 = {
+    name = "dos Anjos"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624570 = {
+    name = "Cantanhede"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624571 = {
+    name = "do Carmo"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624572 = {
+    name = "Dutra"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624573 = {
+    name = "Frazão"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624574 = {
+    name = "Sales"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624575 = {
+    name = "Muniz"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624576 = {
+    name = "de Melo"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+#624577 = {
+#    name = "Tavares"
+#    culture = roraimo
+#    # Add more properties as needed
+#}
+
+624578 = {
+    name = "Furtado"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624579 = {
+    name = "Braga"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624580 = {
+    name = "Torres"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624581 = {
+    name = "da Luz"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624582 = {
+    name = "Maciel"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624583 = {
+    name = "Duarte"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624584 = {
+    name = "Cavalcante"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624585 = {
+    name = "Félix"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624586 = {
+    name = "Cutrim"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624587 = {
+    name = "Sampaio"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624588 = {
+    name = "Bastos"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624589 = {
+    name = "Rabelo"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624590 = {
+    name = "Mesquita"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624591 = {
+    name = "Brandão"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624592 = {
+    name = "García"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624593 = {
+    name = "Lisboa"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624594 = {
+    name = "Trindade"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624595 = {
+    name = "Pacheco"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624596 = {
+    name = "Assunção"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624597 = {
+    name = "Magalhães"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624598 = {
+    name = "Cordeiro"
+    culture = roraimo
+    # Add more properties as needed
+}
+
+624599 = {
+    name = "Chagas"
+    culture = roraimo
+    # Add more properties as needed
+}
+####################
+####Random Rondonian Surnames
+####################
+
+625000 = {
+    name = "da Silva"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625001 = {
+    name = "Pereira"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625002 = {
+    name = "dos Santos"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625003 = {
+    name = "Alves"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625004 = {
+    name = "Ferreira"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625005 = {
+    name = "Rodrigues"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625006 = {
+    name = "de Sousa"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625007 = {
+    name = "Costa"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625008 = {
+    name = "da Conceição"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625009 = {
+    name = "Gomes"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625010 = {
+    name = "Lima"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625011 = {
+    name = "Oliveira"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625012 = {
+    name = "Ribeiro"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625013 = {
+    name = "Araújo"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625014 = {
+    name = "de Jesus"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625015 = {
+    name = "de Oliveira"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625016 = {
+    name = "Lopes"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625017 = {
+    name = "Soares"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625018 = {
+    name = "Vieira"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625019 = {
+    name = "Martins"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625020 = {
+    name = "Mendes"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625021 = {
+    name = "Carvalho"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625022 = {
+    name = "Barbosa"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625023 = {
+    name = "Nascimento"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625024 = {
+    name = "Cardoso"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625025 = {
+    name = "da Costa"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625026 = {
+    name = "Barros"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625027 = {
+    name = "Almeida"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625028 = {
+    name = "Rocha"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625029 = {
+    name = "Nunes"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625030 = {
+    name = "Pinheiro"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625031 = {
+    name = "Marques"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625032 = {
+    name = "Souza"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625033 = {
+    name = "Dias"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625034 = {
+    name = "Fernandes"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625035 = {
+    name = "Batista"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625036 = {
+    name = "Viana"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625037 = {
+    name = "Teixeira"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625038 = {
+    name = "Moreira"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625039 = {
+    name = "Coelho"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625040 = {
+    name = "Moraes"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625041 = {
+    name = "Ramos"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625042 = {
+    name = "Nonato"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625043 = {
+    name = "Pinto"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625044 = {
+    name = "Borges"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625045 = {
+    name = "Brito"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625046 = {
+    name = "Diniz"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625047 = {
+    name = "Santana"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625048 = {
+    name = "Castro"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625049 = {
+    name = "da Cruz"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625050 = {
+    name = "Machado"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625051 = {
+    name = "Monteiro"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625052 = {
+    name = "de Lima"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625053 = {
+    name = "de Carvalho"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625054 = {
+    name = "Carneiro"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625055 = {
+    name = "Cunha"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625056 = {
+    name = "Amorim"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625057 = {
+    name = "Miranda"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625058 = {
+    name = "Fonseca"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625059 = {
+    name = "Matos"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625060 = {
+    name = "Das Chagas"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625061 = {
+    name = "Mendonça"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625062 = {
+    name = "Azevedo"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625063 = {
+    name = "Nogueira"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625064 = {
+    name = "Chaves"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625065 = {
+    name = "Guimara~es"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625066 = {
+    name = "Marinho"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625067 = {
+    name = "Neves"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625068 = {
+    name = "Macedo"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625069 = {
+    name = "dos Anjos"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625070 = {
+    name = "Cantanhede"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625071 = {
+    name = "do Carmo"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625072 = {
+    name = "Dutra"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625073 = {
+    name = "Frazão"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625074 = {
+    name = "Sales"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625075 = {
+    name = "Muniz"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625076 = {
+    name = "de Melo"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+#625077 = {
+#    name = "Tavares"
+#    culture = rondonian
+#    # Add more properties as needed
+#}
+
+625078 = {
+    name = "Furtado"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625079 = {
+    name = "Braga"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625080 = {
+    name = "Torres"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625081 = {
+    name = "da Luz"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625082 = {
+    name = "Maciel"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625083 = {
+    name = "Duarte"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625084 = {
+    name = "Cavalcante"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625085 = {
+    name = "Félix"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625086 = {
+    name = "Cutrim"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625087 = {
+    name = "Sampaio"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625088 = {
+    name = "Bastos"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625089 = {
+    name = "Rabelo"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625090 = {
+    name = "Mesquita"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625091 = {
+    name = "Brandão"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625092 = {
+    name = "García"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625093 = {
+    name = "Lisboa"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625094 = {
+    name = "Trindade"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625095 = {
+    name = "Pacheco"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625096 = {
+    name = "Assunção"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625097 = {
+    name = "Magalhães"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625098 = {
+    name = "Cordeiro"
+    culture = rondonian
+    # Add more properties as needed
+}
+
+625099 = {
+    name = "Chagas"
+    culture = rondonian
+    # Add more properties as needed
+}
