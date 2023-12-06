@@ -262,7 +262,7 @@
     name="Ronaldo"
     dynasty=410010 # Pinedo
     culture=black
-    religion=santa_diablada
+    religion=pachamama
     martial=5
     diplomacy=3
     stewardship=5
