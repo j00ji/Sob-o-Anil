@@ -26,6 +26,13 @@ e_vera_cruz = {
 				holy_site = johrei
 				holy_site = camdomble
 				holy_site = kardecists
+				holy_site = theosophist
+				holy_site = atomicist
+				holy_site = aphite
+				holy_site = brethren
+				holy_site = herderos
+				holy_site = valentes
+				holy_site = conservante
 				
 				b_catete = {}
 				b_penha = {}
@@ -242,6 +249,7 @@ e_vera_cruz = {
 				color={ 125 150 0 }
 				color2={ 255 255 255 }
 				holy_site = tridentine
+				holy_site = mysticalist
 				
 				b_sao_joao_da_barra = {}
 				b_gargau = {}

@@ -27,7 +27,11 @@ e_peru = {
 			c_pichincha = { # 410
 				color={ 99 217 140 }
 				color2={ 255 255 255 }
-				
+				holy_site = darwinist
+				holy_site = lamarckian
+				holy_site = tridentine
+				holy_site = mysticalist
+
 				b_quito = {}
 				b_ruminahui = {}
 				b_cayambe = {}
@@ -148,6 +152,8 @@ e_peru = {
 			c_santa_cruz_de_galapagos = { # 435
 				color={ 165 205 179 }
 				color2={ 255 255 255 }
+				holy_site = darwinist
+				holy_site = lamarckian
 				
 				b_puerto_ayora = {}
 				b_puerto_baquerizo_moreno = {}
@@ -160,6 +166,9 @@ e_peru = {
 			c_isabela_de_galapagos = { # 436
 				color={ 154 160 156 }
 				color2={ 255 255 255 }
+				holy_site = darwinist
+				holy_site = lamarckian
+				holy_site = brethren
 				
 				b_puerto_villamil = {}
 				b_la_playita = {}
@@ -185,7 +194,9 @@ e_peru = {
 			c_guayas = { # 414
 				color={ 94 201 131 }
 				color2={ 255 255 255 }
-				
+				holy_site = tridentine
+				holy_site = mysticalist
+
 				b_guayaquil = {}
 				b_duran = {}
 				b_milagro = {}
@@ -294,7 +305,8 @@ e_peru = {
 			c_putumayo = { # 429
 				color={ 81 118 94 }
 				color2={ 255 255 255 }
-				
+				holy_site = inkarri
+
 				b_lago_agrio = {}
 				b_puerto_asis = {}
 				b_mocoa = {}
@@ -343,6 +355,7 @@ e_peru = {
 			c_popayan = { # 433
 				color={ 79 114 36 }
 				color2={ 255 255 255 }
+				holy_site = patria_grande
 				
 				b_popayan = {}
 				b_el_tambo = {}
@@ -462,6 +475,7 @@ e_peru = {
 			c_alto_amazonas = { # 940
 				color={ 175 82 137 }
 				color2={ 255 255 255 }
+				holy_site = israelite
 				
 				b_yurimaguas = {}
 				b_nauta = {}
@@ -596,7 +610,8 @@ e_peru = {
 			c_carabaya = { # 951
 				color={ 48 217 255 }
 				color2={ 255 255 255 }
-				
+				holy_site = chicha
+
 				b_macusani = {}
 				b_ayaviri = {}
 				b_sandia = {}
@@ -633,7 +648,8 @@ e_peru = {
 			c_atalaya = { # 949
 				color={ 63 120 226 }
 				color2={ 255 255 255 }
-				
+				holy_site = chicha
+
 				b_atalaya = {}
 				b_sepahua = {}
 				b_bolognesi = {}
@@ -667,6 +683,13 @@ e_peru = {
 				color={ 156 255 153 }
 				color2={ 255 255 255 }
 				holy_site = jewish
+				holy_site = israelite
+				holy_site = inti
+				holy_site = inkarri
+				holy_site = chicha
+				holy_site = liberationist
+				holy_site = pachamama
+				holy_site = patria_grande
 				
 				b_lima_3 = {}
 				b_callao = {}
@@ -777,7 +800,10 @@ e_peru = {
 			c_ica = { # 911
 				color={ 248 255 173 }
 				color2={ 255 255 255 }
-				
+				holy_site = inti
+				holy_site = darwinist
+				holy_site = lamarckian
+
 				b_ica = {}
 				b_parcona = {}
 				b_santiago_de_ica = {}
@@ -802,7 +828,10 @@ e_peru = {
 				color={ 255 239 99 }
 				color2={ 255 255 255 }
 				holy_site = camino_estelar
-				
+				holy_site = israelite
+				holy_site = darwinist
+				holy_site = lamarckian
+
 				b_nazca = {}
 				b_palpa = {}
 				b_changuillo = {}
@@ -944,7 +973,8 @@ e_peru = {
 			c_cajamarca = { # 954
 				color={ 255 48 151 }
 				color2={ 255 255 255 }
-				
+				holy_site = inkarri
+
 				b_cajamarca = {}
 				b_chota = {}
 				b_cajabamba = {}
@@ -1140,7 +1170,8 @@ e_peru = {
 			c_huanuco = { # 966
 				color={ 149 255 140 }
 				color2={ 255 255 255 }
-				
+				holy_site = inti
+
 				b_huanuco = {}
 				b_panao = {}
 				b_llata = {}
@@ -1185,7 +1216,12 @@ e_peru = {
 			c_cuzco = { # 922
 				color={ 203 255 135 }
 				color2={ 255 255 255 }
-				
+				holy_site = israelite
+				holy_site = inti
+				holy_site = chicha
+				holy_site = inkarri
+				holy_site = pachamama
+
 				b_cuzco = {}
 				b_urcos = {}
 				b_anta_2 = {}
@@ -1246,6 +1282,8 @@ e_peru = {
 			c_arequipa = { # 928
 				color={ 255 93 53 }
 				color2={ 255 255 255 }
+				holy_site = inti
+
 				
 				b_arequipa = {}
 				b_cerro_colorado = {}
@@ -1282,7 +1320,8 @@ e_peru = {
 			c_caylloma = { # 930
 				color={ 204 65 55 }
 				color2={ 255 255 255 }
-				
+				holy_site = inkarri
+
 				b_chivay = {}
 				b_aplao = {}
 				b_majes = {}
@@ -1429,6 +1468,7 @@ e_peru = {
 			c_moquegua = { # 935
 				color={ 255 61 80 }
 				color2={ 255 255 255 }
+				holy_site = chicha
 				
 				b_moquegua = {}
 				b_llo = {}

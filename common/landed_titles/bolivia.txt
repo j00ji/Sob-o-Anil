@@ -21,6 +21,7 @@ e_bolivia = {
 			c_potosi = { # 437
 				color={ 187 88 169 }
 				color2={ 255 255 255 }
+				holy_site = santa_diablada
 				
 				b_potosi = {}
 				b_betanzos = {}
@@ -88,7 +89,11 @@ e_bolivia = {
 			c_sucre = { # 452
 				color={ 112 159 187 }
 				color2={ 255 255 255 }
-				
+				holy_site = santa_diablada
+				holy_site = pachamama
+				holy_site = dreamtime
+				holy_site = patria_grande
+
 				b_sucre = {}
 				b_presto = {}
 				b_tarabuco = {}
@@ -175,6 +180,10 @@ e_bolivia = {
 				color={ 145 31 143 }
 				color2={ 255 255 255 }
 				holy_site = camino_estelar
+				holy_site = santa_diablada
+				holy_site = pachamama
+				holy_site = patria_grande
+				holy_site = liberationist
 				
 				b_la_paz = {}
 				b_el_alto = {}
@@ -218,7 +227,9 @@ e_bolivia = {
 			c_yungas = { # 445
 				color={ 17 160 160 }
 				color2={ 255 255 255 }
-				
+				holy_site = santa_diablada
+				holy_site = pachamama
+
 				b_la_asunta = {}
 				b_palos_blancos = {}
 				b_coroico = {}

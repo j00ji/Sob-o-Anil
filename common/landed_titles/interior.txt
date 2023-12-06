@@ -21,6 +21,8 @@ e_interior = {
 			c_la_docta = { # 690
 				color={ 255 243 79 }
 				color2={ 255 255 255 }
+				holy_site = theosophist				
+
 				
 				b_toledo_3 = {}
 				b_cordoba = {}
@@ -33,6 +35,7 @@ e_interior = {
 			c_el_imperio = { # 691
 				color={ 206 225 77 }
 				color2={ 255 255 255 }
+				holy_site = theosophist
 				
 				b_rio_cuarto = {}
 				b_santa_catalina = {}
@@ -180,6 +183,7 @@ e_interior = {
 			c_santa_fe = { # 702
 				color={ 73 81 171 }
 				color2={ 255 255 255 }
+				holy_site = folclorista
 				
 				b_santa_fe = {}
 				b_recreo = {}
@@ -318,7 +322,10 @@ e_interior = {
 			c_la_rioja = { # 715
 				color={ 173 133 48 }
 				color2={ 255 255 255 }
-				
+				holy_site = herderos
+				holy_site = valentes
+				holy_site = conservante
+
 				b_la_rioja = {}
 				b_aimogasta = {}
 				b_conchagasta = {}
@@ -515,6 +522,7 @@ e_interior = {
 			c_chaco = { # 725
 				color={ 150 28 109 }
 				color2={ 255 255 255 }
+				holy_site = dreamtime
 				
 				b_resistencia = {}
 				b_fontana = {}
@@ -546,6 +554,7 @@ e_interior = {
 			c_alto_paraguay = { # 732
 				color={ 163 71 79 }
 				color2={ 255 255 255 }
+				holy_site = dreamtime
 				
 				b_fuerte_olimpo = {}
 				b_toro_pampa = {}
@@ -570,6 +579,7 @@ e_interior = {
 			c_presidente_hayes = { # 730
 				color={ 165 48 48 }
 				color2={ 255 255 255 }
+				holy_site = jerovia
 				
 				b_villa_hayes = {}
 				b_pozo_colorado = {}
@@ -589,6 +599,7 @@ e_interior = {
 			c_impenetrable = { # 726
 				color={ 162 73 39 }
 				color2={ 255 255 255 }
+				holy_site = dreamtime
 				
 				b_la_flojera = {}
 				b_tumba_del_fede = {}

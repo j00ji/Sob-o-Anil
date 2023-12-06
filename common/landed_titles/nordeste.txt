@@ -890,6 +890,7 @@ e_nordeste = {
 			c_fernando_de_noronha = { # 905
 				color={ 213 225 0 }
 				color2={ 255 255 255 }
+				holy_site = brethren
 				
 				b_vila_dos_remedios = {}
 				b_ponta_da_sapata = {}
@@ -1139,7 +1140,9 @@ e_nordeste = {
 			c_luzilandia = { # 583
 				color={ 211 78 89 }
 				color2={ 255 255 255 }
-				
+				holy_site = tridentine
+				holy_site = mysticalist
+
 				b_madeiro = {}
 				b_esperantina = {}
 				b_batalha = {}
@@ -1170,7 +1173,9 @@ e_nordeste = {
 			c_caninde = { # 586
 				color={ 255 168 191 }
 				color2={ 255 255 255 }
-				
+				holy_site = tridentine
+				holy_site = mysticalist
+
 				b_picos = {}
 				b_senhora_dos_remedios = {}
 				b_fronteiras = {}

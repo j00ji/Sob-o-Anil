@@ -27,7 +27,18 @@ e_la_plata = {
 				holy_site = artiguista
 				holy_site = calafatist		
 				holy_site = jewish
-				
+				holy_site = gaucheria
+				holy_site = folclorista
+				holy_site = atomicist
+				holy_site =	aphite
+				holy_site = brethren
+				holy_site =	orthodoxist
+				holy_site = liberationist
+				holy_site = herderos
+				holy_site = valentes		
+				holy_site = patria_grande
+				holy_site = conservante
+				holy_site = theosophist
 				b_buenos_aires = {}
 				b_campo_de_mayo = {}
 				b_la_matanza = {}
@@ -578,7 +589,14 @@ e_la_plata = {
 				holy_site = bandean
 				holy_site = artiguista
 				holy_site = jewish
-				
+				holy_site = folclorista				
+				holy_site = herderos
+				holy_site = valentes
+				holy_site = conservante
+				holy_site = aphite
+				holy_site = orthodoxist
+				holy_site = liberationist
+
 				b_ciudad_vieja = {}
 				b_centro = {}
 				b_barrio_sur = {}
@@ -771,6 +789,7 @@ e_la_plata = {
 			c_rio_negro = { # 284
 				color={ 55 153 44 }
 				color2={ 255 255 255 }
+				holy_site = orthodoxist
 				
 				b_san_javier = {}
 				b_colonia_ofir = {}
@@ -854,7 +873,7 @@ e_la_plata = {
 			c_carhue = { # 669
 				color={ 121 96 193 }
 				color2={ 255 255 255 }
-				
+				holy_site = gaucheria
 				b_carhue_2 = {}
 				b_darregueira = {}
 				b_guatrache = {}
@@ -933,6 +952,8 @@ e_la_plata = {
 			c_patagones = { # 672
 				color={ 183 145 64 }
 				color2={ 255 255 255 }
+				holy_site = gaucheria
+				holy_site = xoon
 				
 				b_patagones = {}
 				b_san_blas = {}
@@ -1083,7 +1104,9 @@ e_la_plata = {
 			c_corrientes = { # 657
 				color={ 151 153 65 }
 				color2={ 255 255 255 }
-				
+				holy_site = folclorista
+				holy_site = aphite				
+
 				b_corrientes = {}
 				b_palmar = {}
 				b_empredrado = {}
@@ -1150,6 +1173,7 @@ e_la_plata = {
 			c_posadas = { # 662
 				color={ 134 116 153 }
 				color2={ 255 255 255 }
+				holy_site = jerovia
 				
 				b_posadas = {}
 				b_santa_ana = {}
@@ -1215,6 +1239,10 @@ e_la_plata = {
 				color2={ 255 255 255 }
 				holy_site = artiguista
 				holy_site = platinean
+				holy_site = folclorista
+				holy_site = aphite				
+				holy_site =	jerovia		
+				holy_site = dreamtime
 				
 				b_asuncion = {}
 				b_san_lorenzo_2 = {}
@@ -1368,6 +1396,7 @@ e_la_plata = {
 			c_guaria = { # 684
 				color={ 120 119 175 }
 				color2={ 255 255 255 }
+				holy_site = jerovia
 				
 				b_salto_4 = {}
 				b_adela = {}

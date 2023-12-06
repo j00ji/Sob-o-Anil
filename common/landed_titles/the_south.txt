@@ -198,6 +198,7 @@ e_the_south = {
 			c_caxias_do_sul = { # 150
 				color={ 148 1 165 }
 				color2={ 255 255 255 }
+				holy_site = orthodoxist
 				
 				b_chateau_lacave = {}
 				b_santa_teresa_cathedral = {}
@@ -709,7 +710,11 @@ e_the_south = {
 				color={ 101 82 153 }
 				color2={ 255 255 255 }
 				holy_site = farrapo
-				
+				holy_site = herderos
+				holy_site = valentes
+				holy_site = conservante
+				holy_site = jerovia
+
 				b_foz_do_iguacu = {}
 				b_itaipu_dam = {}
 				b_nossa_senhora_de_guadalupe = {}
@@ -788,6 +793,7 @@ e_the_south = {
 			c_guarapuava = { # 214
 				color={ 17 27 122 }
 				color2={ 255 255 255 }
+				holy_site = orthodoxist
 				
 				b_guarapuava = {}
 				b_entre_rios = {}
@@ -1123,6 +1129,7 @@ e_the_south = {
 			c_concordia = { # 206
 				color={ 141 146 214 }
 				color2={ 255 255 255 }
+				holy_site = liberationist
 				
 				b_concordia = {}
 				b_joacaba = {}

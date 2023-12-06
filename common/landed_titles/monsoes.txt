@@ -187,6 +187,7 @@ e_moncoes = {
 				color={ 110 198 97 }
 				color2={ 255 255 255 }
 				holy_site = manredebu
+				holy_site = atomicist
 				
 				b_goiania = {}
 				b_caldazinha = {}

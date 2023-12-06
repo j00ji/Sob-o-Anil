@@ -49,6 +49,13 @@ e_chile = {
 				holy_site = catholic
 				holy_site = archipelagic
 				holy_site = jewish
+				holy_site = theosophist
+				holy_site = nguillatun
+				holy_site = herderos
+				holy_site = valentes
+				holy_site = conservante
+				holy_site = atomicist
+
 				
 				b_santiago = {}
 				b_maipu = {}
@@ -356,7 +363,8 @@ e_chile = {
 			c_arauco = { # 342
 				color={ 58 127 58 }
 				color2={ 255 255 255 }
-				
+				holy_site = nguillatun
+
 				b_arauco = {}
 				b_canete = {}
 				b_curanilahue = {}
@@ -387,7 +395,8 @@ e_chile = {
 			c_temuco = { # 343
 				color={ 22 99 47 }
 				color2={ 255 255 255 }
-				
+				holy_site = nguillatun
+
 				b_temuco = {}
 				b_villa_alegre = {}
 				b_lautaro = {}
@@ -833,7 +842,8 @@ e_chile = {
 				color={ 245 51 69 }
 				color2={ 255 255 255 }
 				holy_site = camino_estelar
-				
+				holy_site = santa_diablada
+
 				b_huara = {}
 				b_pisagua = {}
 				b_colchane = {}

@@ -32,7 +32,9 @@ e_the_north = {
 				holy_site = amazonian_jews
 				holy_site = hekura
 				holy_site = santo_daime
-				 
+				holy_site = israelite
+				holy_site = xabaxai_xagi
+
 				b_manaus = {
 				}
 				b_coroado = {
@@ -471,7 +473,8 @@ e_the_north = {
 			c_rorainopolis = { # 760
 				color={ 158 150 39 }
 				color2={ 255 255 255 }
-				
+				holy_site = xabaxai_xagi
+
 				b_rorainopolis = {
 				}
 				b_caroebe = {
@@ -664,6 +667,7 @@ e_the_north = {
 			c_benjamin_constant = { # 764
 				color={ 237 75 64 }
 				color2={ 255 255 255 }
+				holy_site = xabaxai_xagi
 				
 				b_benjamin_constant = {
 				}
@@ -1328,7 +1332,8 @@ e_the_north = {
 			c_ilhas_do_delta = { # 805
 				color={ 204 119 63 }
 				color2={ 255 255 255 }
-				
+				holy_site = xabaxai_xagi
+
 				b_conceicao_2 = {
 				}
 				b_nazare_2 = {
@@ -1527,7 +1532,8 @@ e_the_north = {
 			c_jacareacanga = { # 819
 				color={ 255 170 35 }
 				color2={ 255 255 255 }
-				
+				holy_site = xabaxai_xagi
+
 				b_jacareacanga = {
 				}
 				b_mamao_ana = {
