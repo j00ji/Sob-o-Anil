@@ -24,6 +24,8 @@ e_vera_cruz = {
 				holy_site = terra_benta
 				holy_site = anchietican
 				holy_site = johrei
+				holy_site = camdomble
+				holy_site = kardecists
 				
 				b_catete = {}
 				b_penha = {}
@@ -239,6 +241,7 @@ e_vera_cruz = {
 			c_sao_joao_da_barra = { # 17
 				color={ 125 150 0 }
 				color2={ 255 255 255 }
+				holy_site = tridentine
 				
 				b_sao_joao_da_barra = {}
 				b_gargau = {}
@@ -562,6 +565,7 @@ e_vera_cruz = {
 			c_montes_claros = { # 851
 				color={ 141 127 193 }
 				color2={ 255 255 255 }
+				holy_site = angel_cult
 				
 				b_formigas = {}
 				b_alto_belo = {}
@@ -759,6 +763,7 @@ e_vera_cruz = {
 			c_capelinha = { # 858
 				color={ 219 175 109 }
 				color2={ 255 255 255 }
+				holy_site = angel_cult
 				
 				b_forte_areao = {}
 				b_itamarandiba = {}
@@ -880,6 +885,7 @@ e_vera_cruz = {
 			c_teofilo_otoni = { # 829
 				color={ 104 82 49 }
 				color2={ 255 255 255 }
+				holy_site = angel_cult
 				
 				b_filadelfia_3 = {}
 				b_mucuri = {}
@@ -935,6 +941,8 @@ e_vera_cruz = {
 				color2={ 255 255 255 }
 				
 				holy_site = vargist
+				holy_site = kardecists
+				holy_site = angel_cult
 				
 				b_curral_del_rei = {}
 				b_dentedouro = {}
@@ -1198,6 +1206,7 @@ e_vera_cruz = {
 			c_governador_valadares = { # 844
 				color={ 163 201 119 }
 				color2={ 255 255 255 }
+				holy_site = angel_cult
 				
 				b_baguari = {}
 				b_figueira = {}
@@ -1661,7 +1670,10 @@ e_vera_cruz = {
 				holy_site = modernists
 				#holy_site = apostolic
 				holy_site = johrei
-
+				holy_site = camdomble
+				holy_site = kardecists
+				holy_site = jewish
+				
 				b_morumbi = {}
 				b_sao_paulo = {}
 				b_se = {}
@@ -2491,6 +2503,7 @@ e_vera_cruz = {
 			c_barretos = { # 77
 				color={ 255 161 114 }
 				color2={ 255 255 255 }
+				holy_site = manredebu
 				
 				b_fortaleza = {}
 				b_monte_alegre = {}
@@ -2568,6 +2581,7 @@ e_vera_cruz = {
 			c_uberaba = { # 893
 				color={ 224 69 97 }
 				color2={ 255 255 255 }
+				holy_site = kardecists
 				
 				b_sete_colinas = {}
 				b_sacramento_2 = {}
@@ -2654,6 +2668,7 @@ e_vera_cruz = {
 			c_prata = { # 899
 				color={ 150 89 69 }
 				color2={ 255 255 255 }
+				holy_site = kardecists
 				
 				b_forte_pratao = {}
 				b_sao_jose_6 = {}

@@ -16,6 +16,6 @@ b_rio_negro = temple
 
 # Misc
 culture = paranaense
-religion = anchietican
+religion = celeste
 
 #History

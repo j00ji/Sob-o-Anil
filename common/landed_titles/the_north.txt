@@ -28,7 +28,11 @@ e_the_north = {
 			c_manaus = { # 740
 				color={ 50 51 32 }
 				color2={ 255 255 255 }
-								
+				holy_site = holy_spirit
+				holy_site = amazonian_jews
+				holy_site = hekura
+				holy_site = santo_daime
+				 
 				b_manaus = {
 				}
 				b_coroado = {
@@ -408,6 +412,7 @@ e_the_north = {
 			c_boa_vista = { # 756
 				color={ 150 125 0 }
 				color2={ 255 255 255 }
+				holy_site = hekura
 				
 				b_boa_vista_2 = {
 				}
@@ -427,6 +432,7 @@ e_the_north = {
 			c_amajari = { # 757
 				color={ 226 189 0 }
 				color2={ 255 255 255 }
+				holy_site = hekura
 				
 				b_amajari = {
 				}
@@ -484,6 +490,7 @@ e_the_north = {
 			c_yanomami = { # 758
 				color={ 112 93 0 }
 				color2={ 255 255 255 }
+				holy_site = hekura
 				
 				b_yanomami = {
 				}
@@ -516,6 +523,7 @@ e_the_north = {
 			c_sao_gabriel_cachoeira = { # 753
 				color={ 27 160 42 }
 				color2={ 255 255 255 }
+				holy_site = hekura
 				
 				b_sao_gabriel_cachoeira = {
 				}
@@ -734,6 +742,7 @@ e_the_north = {
 			c_rio_branco = { # 778
 				color={ 221 225 27 }
 				color2={ 255 255 255 }
+				holy_site = santo_daime
 				
 				b_rio_branco_4 = {
 				}
@@ -842,6 +851,7 @@ e_the_north = {
 			c_mancio_lima = { # 784
 				color={ 135 127 20 }
 				color2={ 255 255 255 }
+				holy_site = santo_daime
 				
 				b_mancio_lima = {
 				}
@@ -901,6 +911,8 @@ e_the_north = {
 			c_belem = { # 785
 				color={ 134 164 204 }
 				color2={ 255 255 255 }
+				holy_site = holy_spirit
+				holy_site = amazonian_jews
 				
 				b_belem_2 = {
 				}
@@ -1060,6 +1072,8 @@ e_the_north = {
 			c_macapa = { # 797
 				color={ 127 255 104 }
 				color2={ 255 255 255 }
+				holy_site = holy_spirit
+				holy_site = amazonian_jews
 				
 				b_macapa = {
 				}
@@ -1435,6 +1449,8 @@ e_the_north = {
 			c_santarem = { # 813
 				color={ 255 213 28 }
 				color2={ 255 255 255 }
+				holy_site = holy_spirit
+				holy_site = amazonian_jews
 				
 				b_santarem = {
 				}

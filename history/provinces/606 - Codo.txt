@@ -16,6 +16,6 @@ b_peritoro = temple
 
 # Misc
 culture = west_parnaibas
-religion = evangelical
+religion = tambor
 
 #History

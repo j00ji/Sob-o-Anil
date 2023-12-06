@@ -48,7 +48,8 @@ e_chile = {
 				color2={ 255 255 255 }
 				holy_site = catholic
 				holy_site = archipelagic
-
+				holy_site = jewish
+				
 				b_santiago = {}
 				b_maipu = {}
 				b_la_florida = {}

@@ -623,6 +623,7 @@
 30038={
 	name="Luís"
 	dynasty=850019 #De La Roche
+	father=30040
 	culture=french
 	religion=evangelical
 	trait=martial_cleric
@@ -638,6 +639,7 @@
 	name="Luiza"
 	female=yes
 	dynasty=850019 #De La Roche
+	father=30040
 	culture=french
 	religion=evangelical
 	trait=branch_presbyterian
@@ -986,6 +988,7 @@
 30059={
 	name="Rafaela"
 	dynasty=0
+	female=yes
 	culture=mediterranean
 	religion=tambor
 	trait=mastermind_theologian
@@ -1054,6 +1057,7 @@
 }
 30064={
 	name="Natália"
+	female=yes
 	dynasty=0
 	culture=west_parnaibas
 	religion=holy_spirit

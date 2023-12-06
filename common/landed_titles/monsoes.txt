@@ -186,6 +186,7 @@ e_moncoes = {
 			c_goiania = { # 238
 				color={ 110 198 97 }
 				color2={ 255 255 255 }
+				holy_site = manredebu
 				
 				b_goiania = {}
 				b_caldazinha = {}
@@ -402,6 +403,7 @@ e_moncoes = {
 				color={ 35 122 51 }
 				color2={ 255 255 255 }
 				holy_site = modernists
+				holy_site = manredebu
 				b_cuiaba = {}
 				b_acorizal = {}
 				b_nobres = {}
@@ -536,6 +538,7 @@ e_moncoes = {
 			c_campo_grande = { # 268
 				color={ 198 184 75 }
 				color2={ 255 255 255 }
+				holy_site = manredebu
 				
 				b_campo_grande = {}
 				b_camapua = {}
@@ -752,6 +755,9 @@ e_moncoes = {
 				color={ 173 206 90 }
 				color2={ 255 255 255 }
 				holy_site = evangelical
+				holy_site = manredebu
+				holy_site = santo_daime
+				
 				b_porto_velho = {}
 				b_belmonte_2 = {}
 				b_candeias_do_jamari = {}

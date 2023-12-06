@@ -393,6 +393,9 @@ e_nordeste = {
 			c_sao_luis = { # 592
 				color={ 0 120 160 }
 				color2={ 255 255 255 }
+				holy_site = holy_spirit
+				holy_site = santo_daime
+				holy_site = tambor
 				
 				b_leoes = {}
 				b_la_ravardiere = {}
@@ -493,6 +496,7 @@ e_nordeste = {
 			c_imperatriz = { # 600
 				color={ 38 181 52 }
 				color2={ 255 255 255 }
+				holy_site = tambor
 				
 				b_imperatriz = {}
 				b_cidelandia = {}
@@ -591,6 +595,7 @@ e_nordeste = {
 			c_bacabal = { # 602
 				color={ 112 135 39 }
 				color2={ 255 255 255 }
+				holy_site = tambor
 				
 				b_bacabal = {}
 				b_santa_teresinha = {}
@@ -658,6 +663,7 @@ e_nordeste = {
 			c_codo = { # 606
 				color={ 234 145 68 }
 				color2={ 255 255 255 }
+				holy_site = tambor
 				
 				b_codo = {}
 				b_peritoro = {}
@@ -730,6 +736,7 @@ e_nordeste = {
 			c_recife = { # 560
 				color={ 140 62 168 }
 				color2={ 255 255 255 }
+				holy_site = camdomble
 				
 				b_justica = {}
 				b_olinda_2 = {}
@@ -1008,6 +1015,8 @@ e_nordeste = {
 			c_teresina = { # 578
 				color={ 255 86 95 }
 				color2={ 255 255 255 }
+				holy_site = tridentine
+				holy_site = tambor
 				
 				b_karnak = {}
 				b_teresina = {}

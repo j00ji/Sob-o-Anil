@@ -25,7 +25,9 @@ e_la_plata = {
 				holy_site = platinean	
 				holy_site = rosalian
 				holy_site = artiguista
-				holy_site = calafatist					
+				holy_site = calafatist		
+				holy_site = jewish
+				
 				b_buenos_aires = {}
 				b_campo_de_mayo = {}
 				b_la_matanza = {}
@@ -575,6 +577,7 @@ e_la_plata = {
 				color2={ 255 255 255 }
 				holy_site = bandean
 				holy_site = artiguista
+				holy_site = jewish
 				
 				b_ciudad_vieja = {}
 				b_centro = {}

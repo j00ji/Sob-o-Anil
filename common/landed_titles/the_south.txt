@@ -23,6 +23,7 @@ e_the_south = {
 				color2={ 255 255 255 }
 				holy_site = farrapo
 				holy_site = vargist
+				holy_site = mucker
 				
 				b_piratini_palace = {}
 				b_jacui_delta = {}
@@ -96,6 +97,7 @@ e_the_south = {
 			c_novo_hamburgo = { # 146
 				color={ 65 159 240 }
 				color2={ 255 255 255 }
+				holy_site = mucker
 				
 				b_novo_hamburgo = {}
 				b_sapiranga = {}
@@ -139,6 +141,7 @@ e_the_south = {
 			c_erechim = { # 157
 				color={ 222 251 212 }
 				color2={ 255 255 255 }
+				holy_site = celeste
 				
 				b_erechim = {}
 				b_getulio_vargas = {}
@@ -151,6 +154,7 @@ e_the_south = {
 			c_frederico_westphalen = { # 160
 				color={ 154 240 158 }
 				color2={ 255 255 255 }
+				holy_site = mucker
 				
 				b_frederico_westphalen = {}
 				b_alpestre = {}
@@ -219,6 +223,8 @@ e_the_south = {
 				color={ 10 196 149 }
 				color2={ 255 255 255 }
 				holy_site = evangelical
+				holy_site = mucker
+				
 				b_gramado = {}
 				b_canela = {}
 				b_caracol = {}
@@ -656,6 +662,7 @@ e_the_south = {
 			c_lapa = { # 213
 				color={ 211 203 111 }
 				color2={ 255 255 255 }
+				holy_site = celeste
 				
 				b_lapa = {}
 				b_rio_negro = {}
@@ -1103,6 +1110,7 @@ e_the_south = {
 			c_cacador = { # 205
 				color={ 40 148 60 }
 				color2={ 255 255 255 }
+				holy_site = celeste
 				
 				b_cacador = {}
 				b_videira = {}
@@ -1158,6 +1166,7 @@ e_the_south = {
 			c_blumenau = { # 198
 				color={ 82 196 178 }
 				color2={ 255 255 255 }
+				holy_site = mucker
 				
 				b_blumenaustadt = {}
 				b_pomerode = {}

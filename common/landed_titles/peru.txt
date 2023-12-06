@@ -449,6 +449,7 @@ e_peru = {
 			c_maynas = { # 939
 				color={ 249 196 255 }
 				color2={ 255 255 255 }
+				holy_site = amazonian_jews
 				
 				b_iquitos = {}
 				b_caballococha = {}
@@ -665,6 +666,7 @@ e_peru = {
 			c_lima = { # 906
 				color={ 156 255 153 }
 				color2={ 255 255 255 }
+				holy_site = jewish
 				
 				b_lima_3 = {}
 				b_callao = {}

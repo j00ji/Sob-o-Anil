@@ -11380,7 +11380,7 @@
 	trait = duelist
 	trait = stubborn
 	
-	2343.1.1{birth = yes}
+	2343.1.1={birth = yes}
 	2360.1.1={culture = paranapanense}
 	2364.1.1={effect = { add_rival = 110615 }}
 	2400.1.1={death=yes}

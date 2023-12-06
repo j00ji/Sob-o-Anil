@@ -16,6 +16,6 @@ b_formigas= tribal
 
 # Misc
 culture = espinhaco
-religion = terra_benta
+religion = angel_cult
 
 #History

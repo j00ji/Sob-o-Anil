@@ -1582,7 +1582,7 @@
     trait=greedy
     trait=honest
     trait=paranoid
-    2332,1,1={birth=yes}
+    2332.1.1={birth=yes}
     2400.1.1={death=yes}
 }
 #Count of Mocajuba

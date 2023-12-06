@@ -328,6 +328,7 @@ e_bahia = {
 			c_ilheus = { # 492
 				color={ 255 45 178 }
 				color2={ 255 255 255 }
+				holy_site = camdomble
 				
 				b_santo_antonio_dos_ilheus = {}
 				b_ilheus = {}
@@ -383,6 +384,7 @@ e_bahia = {
 			c_seabra = { # 504
 				color={ 255 135 124 }
 				color2={ 255 255 255 }
+				holy_site = angel_cult
 				
 				b_itaquara = {}
 				b_iguatemi_2 = {}
