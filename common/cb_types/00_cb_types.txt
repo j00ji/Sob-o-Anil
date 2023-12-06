@@ -3542,7 +3542,7 @@ crusade = {
 			fire_haruspicy_event_effect = yes 
 			if = {
 				limit = {
-					has_game_rule = { name = holy_war_cooldown_rule value = off }
+					#has_game_rule = { name = holy_war_cooldown_rule value = off }
 				}
 				ROOT = {
 					religion_scope = {
@@ -5526,7 +5526,7 @@ religious = {
 			NOT = { religion = buddhism  }
 			OR = {
 				NOT = { has_character_modifier = holy_war_cooldown }
-				has_game_rule = { name = holy_war_cooldown_rule value = off }
+				#has_game_rule = { name = holy_war_cooldown_rule value = off }
 			}
 			piety = 100
 		}
@@ -10921,7 +10921,7 @@ pagan_holy_war = { #
 		ROOT = {
 			OR = {
 				NOT = { has_character_modifier = holy_war_cooldown }
-				has_game_rule = { name = holy_war_cooldown_rule value = off }
+				#has_game_rule = { name = holy_war_cooldown_rule value = off }
 			}
 			piety = 100
 		}

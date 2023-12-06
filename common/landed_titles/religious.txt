@@ -19,7 +19,7 @@ e_israelite = {
 	
 	caliphate = yes
 	
-	primary = yes
+	#primary = yes
 	
 	assimilate = no
 	
@@ -102,7 +102,7 @@ k_celeste= {
 	caliphate = yes
 	
 	# Cannot be held as a secondary title
-	primary = yes
+	#primary = yes
 
 	assimilate = no # Nothing drifts in or out
 	

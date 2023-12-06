@@ -1718,7 +1718,7 @@ liberate_religion = { # New6
 		ROOT = {
 			OR = {
 				NOT = { has_character_modifier = holy_war_cooldown }
-				has_game_rule = { name = holy_war_cooldown_rule value = off }
+				#has_game_rule = { name = holy_war_cooldown_rule value = off }
 			}
 			piety = 200
 		}

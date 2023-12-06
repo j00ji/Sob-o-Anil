@@ -30,7 +30,10 @@ succession_laws = {
 #				}
 #			}
 #			OR = {
-#				is_landless_type_title = no
+#				NAND = {
+#					is_landless_type_title = no
+#					title = e_israelite
+#				}	
 #				is_tribal_type_title = yes
 #				temporary = yes
 #			}
@@ -240,7 +243,7 @@ succession_laws = {
 				}
 			}
 			OR = {
-				is_landless_type_title = no
+			is_landless_type_title = no	
 				is_tribal_type_title = yes
 				temporary = yes
 			}
@@ -366,7 +369,7 @@ succession_laws = {
 				}
 			}
 			OR = {
-				is_landless_type_title = no
+			is_landless_type_title = no	
 				is_tribal_type_title = yes
 				temporary = yes
 			}
@@ -494,7 +497,7 @@ succession_laws = {
 				}
 			}
 			OR = {
-				is_landless_type_title = no
+			is_landless_type_title = no	
 				is_tribal_type_title = yes
 				temporary = yes
 			}
@@ -653,7 +656,7 @@ succession_laws = {
 						}
 					}
 					OR = {
-						is_landless_type_title = no
+					is_landless_type_title = no	
 						is_tribal_type_title = yes
 						temporary = yes
 					}
@@ -838,7 +841,7 @@ succession_laws = {
 				}
 			}
 			OR = {
-				is_landless_type_title = no
+			is_landless_type_title = no	
 				is_tribal_type_title = yes
 				temporary = yes
 			}
@@ -951,7 +954,7 @@ succession_laws = {
 				}
 			}
 			OR = {
-				is_landless_type_title = no
+			is_landless_type_title = no	
 				is_tribal_type_title = yes
 				temporary = yes
 			}
@@ -1022,14 +1025,16 @@ succession_laws = {
 			#	}
 			}
 			#OR = {
-			#	is_landless_type_title = no
+			#	NAND = {
+			#		is_landless_type_title = no
+			#		title = e_israelite
+			#	}	
 			#	is_tribal_type_title = yes
 			#	temporary = yes
 			#}
 			#is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
-
 		}
 		allow = {
 			custom_tooltip = {
@@ -1049,6 +1054,7 @@ succession_laws = {
 			always = no
 		}			
 	}
+
 
 	succ_tanistry = {
 		oldest_child_opinion = -20
@@ -1095,7 +1101,7 @@ succession_laws = {
 				}
 			}
 			OR = {
-				is_landless_type_title = no
+			is_landless_type_title = no	
 				is_tribal_type_title = yes
 				temporary = yes
 			}
@@ -1235,7 +1241,7 @@ succession_laws = {
 				}
 			}
 			OR = {
-				is_landless_type_title = no
+			is_landless_type_title = no	
 				is_tribal_type_title = yes
 				temporary = yes
 				AND = {
@@ -1393,7 +1399,7 @@ succession_laws = {
 				}
 				AND = {
 					OR = {
-						is_landless_type_title = no
+					is_landless_type_title = no	
 						is_tribal_type_title = yes
 						temporary = yes
 					}
@@ -1520,6 +1526,7 @@ succession_laws = {
 				holder_scope = { 
 					NOT = { religion = catholic }
 					NOT = { religion = fraticelli }
+					NOT = { religion = israelite }
 				}
 			}
 			holder_scope = { 
@@ -1555,7 +1562,7 @@ succession_laws = {
 	}
 	succ_catholic_bishopric = {
 		potential = {
-			is_landless_type_title = no
+		is_landless_type_title = no	
 			OR = {
 				AND = {
 					tier = baron
@@ -1743,7 +1750,7 @@ succession_laws = {
 				}
 			}
 			OR = {
-				is_landless_type_title = no
+			is_landless_type_title = no	
 				is_tribal_type_title = yes
 				temporary = yes
 			}
@@ -1770,7 +1777,7 @@ succession_laws = {
 			always = no
 		}			
 	}
-}
+	}
 
 gender_laws = {
 	cognatic_succession = {
@@ -1827,7 +1834,7 @@ gender_laws = {
 				}
 			}
 			
-			is_landless_type_title = no
+		is_landless_type_title = no	
 			
 			OR = {
 				AND = {
@@ -1952,7 +1959,7 @@ gender_laws = {
 				}
 			}
 			
-			is_landless_type_title = no
+		is_landless_type_title = no	
 			
 			OR = {
 				AND = {
