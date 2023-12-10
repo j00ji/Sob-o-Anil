@@ -171,7 +171,7 @@
 	intrigue=1
 	learning=7
 	2314.1.1={birth=yes}
-	2330={add_matrilineal_spouse=180011}
+	2330.1.1={add_matrilineal_spouse=180011}
 	2380.1.1={death=yes}
 	#Vassal of Rio Verde, holds Itumbiara
 }
@@ -206,7 +206,7 @@
 	father=180011
 	mother=180010
 	trait=charismatic_negotiator
-	2338.1={birth=yes}
+	2338.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#Coralina daughter
 }
@@ -234,6 +234,7 @@
 	trait=proud
 	trait=just
 	2297.1.1={birth=yes}
+	2327.1.1={add_spouse=180020}
 	2353.1.1={death=yes}
 	#Former Holder of Planaltina and Brasília 
 }
@@ -305,6 +306,7 @@
 	trait=scholarly_theologian
 	trait=zealous
 	trait=kind
+	female=yes
 	2309.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#Wife of Jânio Alvorada
@@ -462,6 +464,7 @@
 	trait=deceitful
 	trait=proud
 	trait=wroth
+	trait=twin
 	father=210002
 	mother=210003
 	2344.1.1={birth=yes culture=matogrossense}
@@ -496,7 +499,7 @@
 	father=210007
 	mother=210008
 	2297.1.1={birth=yes culture=matogrossense}
-	2219.1.1={add_spouse=210010}
+	2319.1.1={add_spouse=210010}
 	2349.1.1={death=yes}
 	#father of Bruno
 }
@@ -691,9 +694,9 @@
 	dynasty=65001 #villas boas
 	culture=xavante
 	religion=anchietican
-	father=210018
-	mother=210020
 	trait=legit_bastard
+	father=110713
+	mother=210020
 	2361.6.4={birth=yes culture=camponeto}
 	2400.1.1={death=yes}
 	#bastard Villas Boas
@@ -707,6 +710,7 @@
 	trait=underhanded_rogue
 	trait=honest
 	trait=groomed
+	trait=twin
 	father=210002
 	mother=210003
 	2344.1.1={birth=yes culture=matogrossense}
@@ -777,13 +781,14 @@
 }
 210028={
 	name="Diana"
+	female=yes
 	dynasty=0
 	culture=xerente
 	religion=manredebu
 	trait=scholarly_theologian
 	trait=kind
 	2335.1.1={birth=yes}
-	2354.1.1={add_spouse=210028}
+	2354.1.1={add_spouse=210027}
 	2360.1.1={death={death_reason = death_murder killer=200001}}
 }
 210029={
@@ -821,7 +826,7 @@
 	religion=manredebu
 	trait=skilled_tactician
 	trait=cavalry_leader
-	trait=agressive_leader
+	trait=aggressive_leader
 	diplomacy=4
 	martial=9
 	stewardship=5
@@ -847,6 +852,7 @@
 	stewardship=6
 	learning=4
 	intrigue=5
+	father=210033
 	2346.1.1={birth=yes culture=matogrossense}
 	2400.1.1={death=yes}
 	#holds Dourados and Bataypora
@@ -969,7 +975,6 @@
 	trait=fair
 	trait=legit_bastard
 	father=210040
-	female=yes
 	2351.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#half sister of Samuel

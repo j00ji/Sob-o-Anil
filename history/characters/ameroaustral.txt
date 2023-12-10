@@ -1631,7 +1631,8 @@
 500030={
 	name=Norma
 	female=yes
-	dynasty=240001
+	#dynasty=240001
+	dynasty=235042
 	martial=3
 	diplomacy=3
 	stewardship=4

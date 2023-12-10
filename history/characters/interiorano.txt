@@ -1282,7 +1282,7 @@
 #Chiefdom of Dupuy
 640063={
     name="Santo"
-    dynasty=285037 # Vega
+    dynasty=285038 # Vega
     culture=pampeano
     religion=gaucheria
     martial=6
@@ -2055,7 +2055,8 @@
 640101={
     name="Zaina"
     dynasty=110004 # Habib
-    culture=turco
+	father = 260029
+    culture=paranaense
     religion=catholic
     female=yes
     martial=3
@@ -2123,6 +2124,7 @@
     intrigue=1
     learning=1
     trait=quick
+	father=640102
     2366.1.1={birth=yes}
     2450.1.1={death=yes}
 }#First child
@@ -2137,6 +2139,7 @@
     stewardship=1
     intrigue=1
     learning=1
+	father=640102
     2367.1.1={birth=yes}
     2430.1.1={death=yes}
 }#Second child

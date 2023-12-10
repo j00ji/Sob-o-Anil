@@ -601,6 +601,7 @@
 	trait=branch_pentecostal
 	trait=ambitious
 	trait=diligent
+	father=30035
 	2329.11.28={birth=yes}
 	2360.1.1={add_spouse=30039}
 	2365.1.1={effect={add_claim=k_maranhao}}
@@ -829,7 +830,7 @@
 	culture=salvadorense
 	religion=rastafarian
 	trait=legit_bastard
-	father=30045]
+	father=30045
 	diplomacy=4
 	martial=4
 	stewardship=3
@@ -865,7 +866,7 @@
 	culture=salvadorense
 	religion=rastafarian
 	trait=grey_eminence
-	trait=fat
+	trait=is_fat
 	trait=gluttonous
 	trait=content
 	diplomacy=7
@@ -924,8 +925,8 @@
 	trait=elusive_shadow
 	trait=cynical
 	trait=lustful
-	trait=lustful
 	trait=stubborn
+	female=yes
 	2332.4.7={birth=yes}
 	2400.1.1={death=yes}
 	#Salgado Matriarch
@@ -1076,7 +1077,7 @@
 	trait=naive_appeaser
 	trait=stubborn
 	trait=envious
-	trait=frail
+	trait=feeble
 	diplomacy=2
 	martial=3
 	stewardship=5
