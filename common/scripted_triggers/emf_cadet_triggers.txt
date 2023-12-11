@@ -1,0 +1,409 @@
+# -*- ck2.scripted_triggers -*-
+
+emf_is_cadet_disqualified = {
+	OR = {
+		# Weird stuff, just asserting our invariants:
+		ai = no
+		is_lowborn = yes
+		trait = bastard # Bastards create bastard dynasties -- not cadet dynasties
+		has_flag = emf_disqualified_cadet # Not already a cadet that was later disqualified
+		has_flag = emf_founded_cadet_dynasty # Cannot form a cadet dynasty with the same character twice in their lifetime
+		emf_is_cadet_disqualified_for_gender = yes
+		# Do not split cadet houses off the Seljuk dynasty until their AI Invasion Mission is complete, or it's
+		# 1100+, or Turkic Conquerors are disabled:
+		AND = {
+			emf_seljuk_dynasty = yes
+			NOT = { has_game_rule = { name = turkic_invasions value = off } }
+			OR = {
+				NOT = { has_global_flag = emf_seljuk_invasion_done }
+				year < 1100
+			}
+		}
+		# Disqualifying relations to the current dynasty_head:
+		dynasty_head = {
+			OR = {
+				NOT = { character = yes } # dynasty_head is a weird scope that sometimes doesn't select characters
+				character = PREV # Cadets are not dynasty heads
+				# Dynasty head has no marriage ties to cadet and none of cadet's children are close relatives of him:
+				any_close_relative = {
+					OR = {
+						is_child_of = PREVPREV
+						is_married = PREVPREV
+					}
+				}
+				trigger_if = {
+					limit = {
+						emf_same_basic_religion_as_PREV = yes
+						OR = {
+							culture = PREV
+							any_demesne_title = {
+								succ_law_title = {
+									OR = {
+										has_law = succ_dynastic_elective
+										has_law = succ_eldership
+										has_law = succ_elective_gavelkind
+										has_law = succ_seniority
+										has_law = succ_tanistry
+									}
+								}
+							}
+						}
+					}
+					# Since of same culture as dynasty head, neither cadet's parents nor himself should be close relatives of
+					# THIS dynasty_head.
+					OR = {
+						is_close_relative = PREV
+						is_aunt_uncle_of = PREV
+						is_nibling_of = PREV
+						is_cousin_of = PREV
+						AND = {
+							culture = PREV
+							any_demesne_title = {
+								succ_law_title = {
+									OR = {
+										has_law = succ_dynastic_elective
+										has_law = succ_eldership
+										has_law = succ_elective_gavelkind
+										has_law = succ_seniority
+										has_law = succ_tanistry
+									}
+								}
+							}
+							any_close_relative = {
+								OR = {
+									is_close_relative = PREVPREV
+									is_aunt_uncle_of = PREVPREV
+									is_nibling_of = PREVPREV
+									is_cousin_of = PREVPREV
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { emf_same_basic_religion_as_PREV = yes }
+					# Since of different culture as dynasty head, we only require that the dynasty head is neither the
+					# parent nor a sibling of the cadet.
+					OR = {
+						is_parent_of = PREV
+						sibling = PREV
+						is_child_of = PREV
+					}
+				}
+				trigger_else_if = {
+					limit = {
+						culture = PREV
+						any_demesne_title = {
+							succ_law_title = {
+								OR = {
+									has_law = succ_dynastic_elective
+									has_law = succ_eldership
+									has_law = succ_elective_gavelkind
+									has_law = succ_seniority
+									has_law = succ_tanistry
+								}
+							}
+						}
+					}
+					OR = {
+						is_parent_of = PREV
+						sibling = PREV
+						is_child_of = PREV
+					}
+				}
+				trigger_else = {
+					# This code branch is just documentation and could be removed. Since of a different religion (where that's
+					# defined as including heresies) and culture than dynasty_head, the dynasty_head has zero further restrictions
+					# upon relation to us.
+					always = no
+				}
+			}
+		}
+		# Cannot be heir to any title that's not a barony in someone else's capital county (emf_gavelkind would take
+		# their barony away anyway). Note if they were actually heir to the associated county, this would fail. For
+		# disqualification, we only require that such heir titles aren't owned by close relatives of the cadet (but being
+		# heir to a title held by your own progeny is OK).
+		any_heir_title = {
+			owner = {
+				is_close_relative = PREVPREV
+				# But you can inherit from your progeny:
+				NOR = {
+					is_child_of = PREVPREV
+					is_grandchild_of = PREVPREV
+				}
+			}
+			NAND = {
+				tier = BARON
+				location = {
+					is_capital = yes
+					owner = {
+						higher_real_tier_than = COUNT
+						is_nomadic = no
+						is_merchant_republic = no
+						has_landed_title = PREVPREV
+					}
+				}
+			}
+			# Exemption for appointed successors to Bishoprics under Free Investiture (they'll be disqualified if they
+			# don't form a cadet house before ascending to the priesthood):
+			NOT = { succ_law_title = { has_law = succ_catholic_bishopric } }
+		}
+		# Must have an older sibling that could technically inherit (unless we have become a ruler already, in which case
+		# it no longer matters what the status of the older sibling is now):
+		AND = {
+			is_ruler = no
+			NOT = {
+				any_sibling = {
+					dynasty = PREV
+					trigger_if = {
+						limit = {
+							dynasty_head = { primary_title = { succ_law_title = { has_law = succ_ultimogeniture } } }
+						}
+						PREV = { is_older_than = PREV }
+					}
+					trigger_else = {
+						is_older_than = PREV
+					}
+					dynasty_head = { PREV = { emf_is_preferred_gender_for_laws_of_PREV = yes } }
+					emf_can_inherit = yes
+					emf_is_cadet_disqualified_for_gender = no
+				}
+			}
+		}
+		# At least one of our parents has to share our own dynasty:
+		NOR = {
+			father_even_if_dead = { dynasty = PREV }
+			mother_even_if_dead = { dynasty = PREV }
+		}
+	}
+}
+
+emf_is_cadet_disqualified_for_gender = {
+	trigger_if = {
+		limit = { is_female = no }
+		OR = {
+			AND = { # No males under matriarchal unless Gender Equality is set to Full
+				religion_scope = { has_religion_feature = religion_matriarchal }
+				NOT = { has_game_rule = { name = gender value = all } }
+			}
+			is_married_matrilineally = yes # No matrilineally married males
+		}
+	}
+	trigger_else = {
+		OR = {
+			NOR = { # No females permitted to become cadets unless Gender Equality is set to Full or they are a feminist religion
+				has_game_rule = { name = gender value = all }
+				emf_feminist_religion = yes
+			}
+			AND = {
+				# No females with regular marriages:
+				is_married = yes
+				NOT = { is_married_matrilineally = yes }
+			}
+		}
+	}
+}
+
+# emf_is_cadet_dynasty_of_: ...
+#                           ROOT
+#                           ROOT_FROM
+#                           ROOT_FROMFROM
+#                           ROOT_FROMFROMFROM
+#                           ROOT_FROMFROMFROMFROM
+#                           PREV
+#                           LIEGE
+emf_is_cadet_dynasty_of_ROOT = {
+	ROOT = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_CADET_DYNASTY_OF_THIS_TT
+			PREV = {
+				persistent_event_target:pet_parent_dyn = {
+					persistent_event_target:pet_dyn_founder = { dynasty = ROOT }
+				}
+			}
+		}
+	}
+}
+emf_is_cadet_dynasty_of_ROOT_FROM = {
+	ROOT_FROM = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_CADET_DYNASTY_OF_THIS_TT
+			PREV = {
+				persistent_event_target:pet_parent_dyn = {
+					persistent_event_target:pet_dyn_founder = { dynasty = ROOT_FROM }
+				}
+			}
+		}
+	}
+}
+emf_is_cadet_dynasty_of_ROOT_FROMFROM = {
+	ROOT_FROMFROM = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_CADET_DYNASTY_OF_THIS_TT
+			PREV = {
+				persistent_event_target:pet_parent_dyn = {
+					persistent_event_target:pet_dyn_founder = { dynasty = ROOT_FROMFROM }
+				}
+			}
+		}
+	}
+}
+emf_is_cadet_dynasty_of_ROOT_FROMFROMFROM = {
+	ROOT_FROMFROMFROM = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_CADET_DYNASTY_OF_THIS_TT
+			PREV = {
+				persistent_event_target:pet_parent_dyn = {
+					persistent_event_target:pet_dyn_founder = { dynasty = ROOT_FROMFROMFROM }
+				}
+			}
+		}
+	}
+}
+emf_is_cadet_dynasty_of_ROOT_FROMFROMFROMFROM = {
+	ROOT_FROMFROMFROMFROM = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_CADET_DYNASTY_OF_THIS_TT
+			PREV = {
+				persistent_event_target:pet_parent_dyn = {
+					persistent_event_target:pet_dyn_founder = { dynasty = ROOT_FROMFROMFROMFROM }
+				}
+			}
+		}
+	}
+}
+emf_is_cadet_dynasty_of_PREV = {
+	PREV = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_CADET_DYNASTY_OF_THIS_TT
+			PREV = {
+				persistent_event_target:pet_parent_dyn = {
+					persistent_event_target:pet_dyn_founder = { dynasty = PREVPREVPREV }
+				}
+			}
+		}
+	}
+}
+emf_is_cadet_dynasty_of_LIEGE = {
+	liege = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_CADET_DYNASTY_OF_THIS_TT
+			NOT = { character = PREV }
+			PREV = {
+				persistent_event_target:pet_parent_dyn = {
+					persistent_event_target:pet_dyn_founder = {
+						dynasty = PREVPREVPREV
+					}
+				}
+			}
+		}
+	}
+}
+
+# emf_is_parent_dynasty_of_: ...
+#                            ROOT
+#                            ROOT_FROM
+#                            ROOT_FROMFROM
+#                            ROOT_FROMFROMFROM
+#                            ROOT_FROMFROMFROMFROM
+#                            PREV
+#                            LIEGE
+emf_is_parent_dynasty_of_ROOT = {
+	ROOT = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_PARENT_DYNASTY_OF_THIS_TT
+			persistent_event_target:pet_parent_dyn = {
+				persistent_event_target:pet_dyn_founder = {
+					dynasty = PREVPREVPREV
+				}
+			}
+		}
+	}
+}
+emf_is_parent_dynasty_of_ROOT_FROM = {
+	ROOT_FROM = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_PARENT_DYNASTY_OF_THIS_TT
+			persistent_event_target:pet_parent_dyn = {
+				persistent_event_target:pet_dyn_founder = {
+					dynasty = PREVPREVPREV
+				}
+			}
+		}
+	}
+}
+emf_is_parent_dynasty_of_ROOT_FROMFROM = {
+	ROOT_FROMFROM = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_PARENT_DYNASTY_OF_THIS_TT
+			persistent_event_target:pet_parent_dyn = {
+				persistent_event_target:pet_dyn_founder = {
+					dynasty = PREVPREVPREV
+				}
+			}
+		}
+	}
+}
+emf_is_parent_dynasty_of_ROOT_FROMFROMFROM = {
+	ROOT_FROMFROMFROM = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_PARENT_DYNASTY_OF_THIS_TT
+			persistent_event_target:pet_parent_dyn = {
+				persistent_event_target:pet_dyn_founder = {
+					dynasty = PREVPREVPREV
+				}
+			}
+		}
+	}
+}
+emf_is_parent_dynasty_of_ROOT_FROMFROMFROMFROM = {
+	ROOT_FROMFROMFROMFROM = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_PARENT_DYNASTY_OF_THIS_TT
+			persistent_event_target:pet_parent_dyn = {
+				persistent_event_target:pet_dyn_founder = {
+					dynasty = PREVPREVPREV
+				}
+			}
+		}
+	}
+}
+emf_is_parent_dynasty_of_PREV = {
+	PREV = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_PARENT_DYNASTY_OF_THIS_TT
+			persistent_event_target:pet_parent_dyn = {
+				persistent_event_target:pet_dyn_founder = {
+					dynasty = PREVPREVPREV
+				}
+			}
+		}
+	}
+}
+emf_is_parent_dynasty_of_LIEGE = {
+	liege = {
+		show_scope_change = no
+		custom_tooltip = {
+			text = IS_PARENT_DYNASTY_OF_THIS_TT
+			NOT = { character = PREV }
+			persistent_event_target:pet_parent_dyn = {
+				persistent_event_target:pet_dyn_founder = {
+					dynasty = PREVPREVPREV
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,468 @@
+# -*- ck2.decisions -*-
+
+decisions = {
+	vushmgir_brothers_legacy = {
+		is_high_prio = yes
+		only_independent = yes
+		ai = no
+
+		potential = {
+			emf_has_swmh = no
+			NOT = { religion = zoroastrian }
+			has_character_flag = is_vushmgir
+			NOT = { any_owned_bloodline = { has_bloodline_flag = bloodline_mardavij } }
+			year <= 950
+			emf_can_convert_religion = yes
+		}
+		allow = {
+			custom_tooltip = {
+				text = NEEDS_800_PIETY_COST
+				piety = 800
+			}
+			war = no
+			prisoner = no
+			is_incapable = no
+			higher_real_tier_than = COUNT
+			year <= 950
+		}
+		effect = {
+			piety = -800
+			if = {
+				limit = { NOT = { completely_controls = d_gilan } }
+				add_claim = d_gilan
+				hidden_tooltip = { d_gilan = { any_direct_de_jure_vassal_title = { ROOT = { add_claim = PREV } } } }
+			}
+			if = {
+				limit = { NOT = { completely_controls = d_jibal } }
+				add_claim = d_jibal
+				hidden_tooltip = { d_jibal = { any_direct_de_jure_vassal_title = { ROOT = { add_claim = PREV } } } }
+			}
+			if = {
+				limit = { NOT = { completely_controls = d_fars } }
+				add_claim = d_fars
+				hidden_tooltip = { d_fars = { any_direct_de_jure_vassal_title = { ROOT = { add_claim = PREV } } } }
+			}
+			if = {
+				limit = { NOT = { completely_controls = d_mafaza } }
+				add_claim = d_mafaza
+				hidden_tooltip = { d_mafaza = { any_direct_de_jure_vassal_title = { ROOT = { add_claim = PREV } } } }
+			}
+			if = {
+				limit = { NOT = { completely_controls = d_khozistan } }
+				add_claim = d_khozistan
+				hidden_tooltip = { d_khozistan = { any_direct_de_jure_vassal_title = { ROOT = { add_claim = PREV } } } }
+			}
+			zoroastrian = { save_event_target_as = target_religion }
+			emf_character_set_religion_to_target_religion = yes
+			if = {
+				limit = { NOT = { any_owned_bloodline = { has_bloodline_flag = bloodline_mardavij } } }
+				any_bloodline = {
+					limit = { has_bloodline_flag = bloodline_mardavij }
+					add_bloodline_member = ROOT
+				}
+			}
+			any_child_even_if_dead = {
+				if = {
+					limit = {
+						NOT = { religion = zoroastrian }
+						ai = yes
+						emf_can_convert_religion = yes
+					}
+					emf_character_set_religion_to_target_religion = yes
+				}
+				hidden_tooltip = {
+					if = {
+						limit = { NOT = { any_owned_bloodline = { has_bloodline_flag = bloodline_mardavij } } }
+						any_bloodline = {
+							limit = { has_bloodline_flag = bloodline_mardavij }
+							add_bloodline_member = PREV
+						}
+					}
+				}
+				any_child_even_if_dead = {
+					if = {
+						limit = {
+							NOT = { religion = zoroastrian }
+							ai = yes
+							emf_can_convert_religion = yes
+						}
+						emf_character_set_religion_to_target_religion = yes
+					}
+					hidden_tooltip = {
+						if = {
+							limit = { NOT = { any_owned_bloodline = { has_bloodline_flag = bloodline_mardavij } } }
+							any_bloodline = {
+								limit = { has_bloodline_flag = bloodline_mardavij }
+								add_bloodline_member = PREV
+							}
+						}
+					}
+					any_child_even_if_dead = {
+						if = {
+							limit = {
+								NOT = { religion = zoroastrian }
+								ai = yes
+								emf_can_convert_religion = yes
+							}
+							emf_character_set_religion_to_target_religion = yes
+						}
+						hidden_tooltip = {
+							if = {
+								limit = { NOT = { any_owned_bloodline = { has_bloodline_flag = bloodline_mardavij } } }
+								any_bloodline = {
+									limit = { has_bloodline_flag = bloodline_mardavij }
+									add_bloodline_member = PREV
+								}
+							}
+						}
+						any_child_even_if_dead = {
+							if = {
+								limit = {
+									NOT = { religion = zoroastrian }
+									ai = yes
+									emf_can_convert_religion = yes
+								}
+								emf_character_set_religion_to_target_religion = yes
+							}
+							hidden_tooltip = {
+								if = {
+									limit = { NOT = { any_owned_bloodline = { has_bloodline_flag = bloodline_mardavij } } }
+									any_bloodline = {
+										limit = { has_bloodline_flag = bloodline_mardavij }
+										add_bloodline_member = PREV
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	kievan_rus_local_traditions = {
+		is_high_prio = yes
+		only_independent = yes
+		ai_check_interval = 60
+
+		potential = {
+			has_landed_title = k_ruthenia
+			has_landed_title = c_kiev
+			OR = {
+				AND = {
+					religion = norse_pagan
+					emf_can_convert_religion = yes
+				}
+				culture = norse
+			}
+			dynasty = 705
+			year <= 1000
+			start_date >= 936.8.7
+			is_alternate_start = no
+		}
+		allow = {
+			independent = yes
+			war = no
+			is_incapable = no
+			year <= 1000
+			prestige >= 300
+			capital_scope = {
+				county = { title = c_kiev }
+			}
+		}
+		effect = {
+			prestige = -300
+			slavic_pagan = { save_event_target_as = target_religion }
+			if = {
+				limit = { culture = norse }
+				culture = russian
+			}
+			if = {
+				limit = {
+					NOT = { religion = slavic_pagan }
+					emf_can_convert_religion = yes
+				}
+				emf_character_set_religion_to_target_religion = yes
+			}
+			any_close_relative = {
+				limit = {
+					is_alive = yes
+					ai = yes
+				}
+				if = {
+					limit = { culture = norse }
+					culture = russian
+				}
+				if = {
+					limit = {
+						NOT = { religion = slavic_pagan }
+						emf_can_convert_religion = yes
+					}
+					emf_character_set_religion_to_target_religion = yes
+				}
+			}
+		}
+	}
+	empire_of_bulgaria_decision = {
+		is_high_prio = yes
+		only_independent = yes
+		ai_check_interval = 60
+
+		potential = {
+			emf_has_swmh = no
+			e_bulgaria = {
+				has_holder = no
+			}
+			has_landed_title = k_bulgaria
+			OR = {
+				culture = bulgarian
+				culture = bolghar
+			}
+			tier = KING
+			has_random_dejure = no
+		}
+		allow = {
+			independent = yes
+			war = no
+			is_incapable = no
+			prisoner = no
+			has_landed_title = k_bulgaria
+			custom_tooltip = {
+				text = empire_bulgaria_TT
+				any_demesne_title = {
+					tier = KING
+					NOT = { title = k_bulgaria }
+				}
+			}
+			prestige = 1000
+			realm_size = 120
+		}
+		effect = {
+			e_bulgaria = { save_event_target_as = emf_new_title }
+			prestige = 500
+			hidden_tooltip = {
+				primary_title = {
+					event_target:emf_new_title = {
+						grant_title = ROOT
+						copy_title_laws = PREV
+						copy_title_history = PREV
+					}
+				}
+			}
+			k_bulgaria = {
+				de_jure_liege = event_target:emf_new_title
+				event_target:emf_new_title = { emf_transfer_claims_from_PREV = yes }
+				emf_destroy_title = yes
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+					NOT = { title = k_bulgaria }
+					emf_ROOT_completely_controls_counties = yes
+				}
+				de_jure_liege = event_target:emf_new_title
+				event_target:emf_new_title = { emf_transfer_claims_from_PREV = yes }
+				emf_destroy_title = yes
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+					NOT = { title = k_bulgaria }
+					emf_ROOT_completely_controls_counties = no
+				}
+				custom_tooltip = { text = THIS_WOULD_BECOME_PART_OF_NEW_TITLE_IF_YOU_CONTROLLED_IT }
+			}
+			if = {
+				limit = { has_nickname = no }
+				give_nickname = nick_the_great
+			}
+		}
+	}
+	shiite_caliphate_cairo_decision = {
+		is_high_prio = yes
+		only_independent = yes
+		ai_check_interval = 60
+
+		potential = {
+			has_landed_title = d_ismaili
+			has_landed_title = k_egypt
+			c_cairo = { owner_under_ROOT = yes }
+			b_cairo = { has_holder = no }
+			796 = {
+				OR = {
+					NOT = { num_of_max_settlements = 7 }
+					has_empty_holding = yes
+				}
+			}
+			is_alternate_start = no
+			NOT = { has_global_flag = established_cairo }
+		}
+		allow = {
+			prestige = 500
+			custom_tooltip = {
+				text = NEEDS_500_GOLD_COST
+				wealth = 500
+			}
+			has_landed_title = d_ismaili
+			has_landed_title = k_egypt
+			c_cairo = { owner_under_ROOT = yes }
+		}
+		effect = {
+			set_global_flag = established_cairo
+			wealth = -500
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = { province = 796 }
+					}
+				}
+				custom_tooltip = { text = cairo_decision_TT }
+			}
+			if = {
+				limit = {
+					NOT = { has_landed_title = c_cairo }
+				}
+				c_cairo = {
+					show_scope_change = no
+					grant_title_no_opinion = ROOT
+				}
+			}
+			c_cairo = {
+				set_name = "PROV796"
+			}
+			796 = {
+				show_scope_change = no
+				if = {
+					limit = {
+						num_of_max_settlements < 6
+					}
+					add_holding_slot = 2
+				}
+				else_if = {
+					limit = {
+						num_of_max_settlements == 6
+					}
+					add_holding_slot = 1
+				}
+				build_holding = {
+					title = b_cairo
+					type = castle
+					holder = ROOT
+				}
+				hidden_tooltip = {
+					b_cairo = { 
+						make_capital_holding = yes
+						ROOT = { capital = PREV } 
+						add_building = ca_wall_1
+						add_building = ca_wall_q_1
+						add_building = ca_wall_2
+						add_building = ca_wall_q_2
+						add_building = ca_keep_1
+						add_building = ca_keep_2
+						add_building = ca_militia_barracks_1
+						add_building = ca_militia_barracks_2
+						add_building = ca_training_grounds_1
+						add_building = ca_barracks_1
+						add_building = ca_barracks_2
+						add_building = ca_stable_1
+						add_building = ca_town_1
+						add_building = ca_town_2
+					}
+				}
+			}
+		}
+	}
+	establishing_habsburg = {
+		is_high_prio = yes
+		only_independent = yes
+		ai_check_interval = 60
+
+		potential = {
+			dynasty = 664
+			culture_group = central_germanic
+			has_landed_title = c_aargau
+			c_aargau = {
+				location = {
+					num_of_max_settlements < 7
+				}
+			}
+			is_alternate_start = no
+			NOT = { has_global_flag = established_habsburg }
+		}
+		allow = {
+			custom_tooltip = {
+				text = NEEDS_500_GOLD_COST
+				wealth = 500
+			}
+		}
+		effect = {
+			wealth = -500
+			prestige = 500
+			custom_tooltip = { text = establishing_habsburg_family }
+			if = {
+				limit = { emf_has_swmh = yes }
+				242 = {
+					random_province_holding = {
+						limit = { is_capital = yes }
+						save_event_target_as = castle_habsburg
+						set_name = "Habsburg"
+					}
+				}
+			}
+			else = {
+				c_aargau = {
+					location = {
+						build_holding = {
+							title = b_habsburg
+							type = castle
+							holder = ROOT
+						}
+					}
+				}
+				b_habsburg = { save_event_target_as = castle_habsburg }
+			}
+			hidden_tooltip = {
+				# TODO: It'd be nice to auto-form a proper cadet branch for the von Habsburg dynasty here.
+				tooltip = { dynasty = 51 }
+				any_child_even_if_dead = {
+					if = {
+						limit = { dynasty = ROOT }
+						dynasty = 51
+					}
+					any_child_even_if_dead = {
+						if = {
+							limit = { dynasty = ROOT }
+							dynasty = 51
+						}
+						any_child_even_if_dead = {
+							if = {
+								limit = { dynasty = ROOT }
+								dynasty = 51
+							}
+							any_child_even_if_dead = {
+								limit = { dynasty = ROOT }
+								dynasty = 51
+							}
+						}
+					}
+				}
+				hidden_effect = { dynasty = 51 }
+				event_target:castle_habsburg = { 
+					add_building = ca_wall_q_1
+					add_building = ca_wall_q_2
+					add_building = ca_wall_1
+					add_building = ca_wall_2
+					add_building = ca_keep_1
+					add_building = ca_keep_2
+					add_building = ca_militia_barracks_1
+					add_building = ca_militia_barracks_2
+					add_building = ca_training_grounds_1
+					add_building = ca_barracks_1
+					add_building = ca_barracks_2
+					add_building = ca_stable_1
+					add_building = ca_town_1
+					add_building = ca_town_2
+				}
+			}
+		}
+	}
+}

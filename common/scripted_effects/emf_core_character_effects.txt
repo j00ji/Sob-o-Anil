@@ -1,0 +1,1451 @@
+# -*- ck2.scripted_effects -*-
+
+# The `emf_new_character` effect and its wrappers (e.g., `emf_new_character_noble`) lives in its own, easier to override
+# file: /common/scripted_effects/emf_new_character_effect.txt
+
+emf_add_random_generic_leader_trait = {
+	random_list = {
+		1 = {
+			trigger = { NOT = { trait = narrow_flank_leader } }
+			add_trait = narrow_flank_leader
+		}
+		1 = {
+			trigger = { NOT = { trait = experimenter } }
+			add_trait = experimenter
+		}
+		1 = {
+			trigger = { NOT = { trait = trickster } }
+			add_trait = trickster
+		}
+		1 = {
+			trigger = { NOT = { trait = siege_leader } }
+			add_trait = siege_leader
+		}
+		1 = {
+			trigger = { NOT = { trait = organizer } }
+			add_trait = organizer
+		}
+		1 = {
+			trigger = { NOT = { trait = holy_warrior } }
+			add_trait = holy_warrior
+		}
+		1 = {
+			trigger = { NOT = { trait = flanker } }
+			add_trait = flanker
+		}
+		1 = {
+			trigger = { NOT = { trait = inspiring_leader } }
+			add_trait = inspiring_leader
+		}
+		1 = {
+			trigger = { NOT = { trait = unyielding_leader } }
+			add_trait = unyielding_leader
+		}
+		1 = {
+			trigger = { NOT = { trait = aggressive_leader } }
+			add_trait = aggressive_leader
+		}
+		1 = {
+			trigger = { NOT = { trait = defensive_leader } }
+			add_trait = defensive_leader
+		}
+		1 = {
+			trigger = {
+				NOT = { trait = master_of_flame }
+				OR = {
+					culture = han
+					has_character_flag = taught_chinese_strategy
+					has_character_flag = originated_from_chinese_court
+				}
+			}
+			add_trait = master_of_flame
+		}
+		1 = {
+			trigger = {
+				NOT = { trait = logistics_expert }
+				OR = {
+					culture = han
+					has_character_flag = taught_chinese_strategy
+					has_character_flag = originated_from_chinese_court
+				}
+			}
+			add_trait = logistics_expert
+		}
+		1 = {
+			trigger = {
+				NOT = { trait = levy_coordinator }
+				OR = {
+					culture = han
+					has_character_flag = taught_chinese_strategy
+					has_character_flag = originated_from_chinese_court
+				}
+			}
+			add_trait = levy_coordinator
+		}
+		1 = {
+			trigger = {
+				NOT = { trait = sapper }
+				OR = {
+					culture = han
+					has_character_flag = taught_chinese_strategy
+					has_character_flag = originated_from_chinese_court
+				}
+			}
+			add_trait = sapper
+		}
+	}
+}
+
+emf_remove_lifestyle_traits = {
+	hidden_tooltip = {
+		remove_trait = mystic
+		remove_trait = socializer
+		remove_trait = gamer
+		remove_trait = hedonist
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = strategist
+		remove_trait = administrator
+		remove_trait = architect
+		remove_trait = gardener
+		remove_trait = schemer
+		remove_trait = impaler
+		remove_trait = seducer
+		remove_trait = seductress
+		remove_trait = theologian
+		remove_trait = scholar
+	}
+}
+
+emf_remove_childhood_traits = {
+	hidden_tooltip = {
+		remove_trait = haughty
+		remove_trait = affectionate
+		remove_trait = timid
+		remove_trait = rowdy
+		remove_trait = willful
+		remove_trait = brooding
+		remove_trait = indolent
+		remove_trait = playful
+		remove_trait = conscientious
+		remove_trait = fussy
+		remove_trait = curious
+		remove_trait = idolizer
+	}
+}
+
+emf_remove_leadership_traits = {
+	hidden_tooltip = {
+		remove_trait = light_foot_leader
+		remove_trait = heavy_infantry_leader
+		remove_trait = cavalry_leader
+		remove_trait = inspiring_leader
+		remove_trait = trickster
+		remove_trait = organizer
+		remove_trait = defensive_leader
+		remove_trait = experimenter
+		remove_trait = flanker
+		remove_trait = aggressive_leader
+		remove_trait = siege_leader
+		remove_trait = flat_terrain_leader
+		remove_trait = rough_terrain_leader
+		remove_trait = mountain_terrain_leader
+		remove_trait = desert_terrain_leader
+		remove_trait = holy_warrior
+		remove_trait = unyielding_leader
+		remove_trait = narrow_flank_leader
+		remove_trait = war_elephant_leader
+		remove_trait = jungle_terrain_leader
+		remove_trait = winter_soldier
+	}
+}
+
+emf_remove_education_traits = {
+	hidden_effect = { clear_education_trait = yes }
+}
+
+emf_promote_warrior_trait = {
+	if = {
+		limit = { trait = master_warrior } # do nothing!
+	}
+	else_if = {
+		limit = { trait = skilled_warrior }
+		remove_trait = skilled_warrior # just for the tooltip, since these are all opposites of each other
+		add_trait = master_warrior
+	}
+	else_if = {
+		limit = { trait = trained_warrior }
+		remove_trait = trained_warrior
+		add_trait = skilled_warrior
+	}
+	else_if = {
+		limit = { trait = poor_warrior }
+		remove_trait = poor_warrior
+		add_trait = trained_warrior
+	}
+	else = {
+		add_trait = poor_warrior
+	}
+}
+
+emf_promote_diplomat_trait = {
+	if = {
+		limit = { trait = master_diplomat } # do nothing!
+	}
+	else_if = {
+		limit = { trait = skilled_diplomat }
+		remove_trait = skilled_diplomat # just for the tooltip, since these are all opposites of each other
+		add_trait = master_diplomat
+	}
+	else_if = {
+		limit = { trait = trained_diplomat }
+		remove_trait = trained_diplomat
+		add_trait = skilled_diplomat
+	}
+	else_if = {
+		limit = { trait = novice_diplomat }
+		remove_trait = novice_diplomat
+		add_trait = trained_diplomat
+	}
+	else = {
+		add_trait = novice_diplomat
+	}
+}
+
+emf_promote_education_trait = {
+	# intrigue
+	if = {
+		limit = { trait = intricate_webweaver }
+		remove_trait = intricate_webweaver
+		add_trait = elusive_shadow
+	}
+	if = {
+		limit = { trait = flamboyant_schemer }
+		remove_trait = flamboyant_schemer
+		add_trait = intricate_webweaver
+	}
+	if = {
+		limit = { trait = amateurish_plotter }
+		remove_trait = amateurish_plotter
+		add_trait = flamboyant_schemer
+	}
+	# diplomacy
+	if = {
+		limit = { trait = charismatic_negotiator }
+		remove_trait = charismatic_negotiator
+		add_trait = grey_eminence
+	}
+	if = {
+		limit = { trait = underhanded_rogue }
+		remove_trait = underhanded_rogue
+		add_trait = charismatic_negotiator
+	}
+	if = {
+		limit = { trait = naive_appeaser }
+		remove_trait = naive_appeaser
+		add_trait = underhanded_rogue
+	}
+	# stewardship
+	if = {
+		limit = { trait = fortune_builder }
+		remove_trait = fortune_builder
+		add_trait = midas_touched
+	}
+	if = {
+		limit = { trait = thrifty_clerk }
+		remove_trait = thrifty_clerk
+		add_trait = fortune_builder
+	}
+	if = {
+		limit = { trait = indulgent_wastrel }
+		remove_trait = indulgent_wastrel
+		add_trait = thrifty_clerk
+	}
+	# martial
+	if = {
+		limit = { trait = skilled_tactician }
+		remove_trait = skilled_tactician
+		add_trait = brilliant_strategist
+	}
+	if = {
+		limit = { trait = tough_soldier }
+		remove_trait = tough_soldier
+		add_trait = skilled_tactician
+	}
+	if = {
+		limit = { trait = misguided_warrior }
+		remove_trait = misguided_warrior
+		add_trait = tough_soldier
+	}
+	# ecclesiastic
+	if = {
+		limit = { trait = scholarly_theologian }
+		remove_trait = scholarly_theologian
+		add_trait = mastermind_theologian
+	}
+	if = {
+		limit = { trait = martial_cleric }
+		remove_trait = martial_cleric
+		add_trait = scholarly_theologian
+	}
+	if = {
+		limit = { trait = detached_priest }
+		remove_trait = detached_priest
+		add_trait = martial_cleric
+	}
+}
+
+emf_demote_education_trait = {
+	# intrigue
+	if = {
+		limit = { trait = flamboyant_schemer }
+		remove_trait = flamboyant_schemer
+		add_trait = amateurish_plotter
+	}
+	if = {
+		limit = { trait = intricate_webweaver }
+		remove_trait = intricate_webweaver
+		add_trait = flamboyant_schemer
+	}
+	if = {
+		limit = { trait = elusive_shadow }
+		remove_trait = elusive_shadow
+		add_trait = intricate_webweaver
+	}
+	# diplomacy
+	if = {
+		limit = { trait = underhanded_rogue }
+		remove_trait = underhanded_rogue
+		add_trait = naive_appeaser
+	}
+	if = {
+		limit = { trait = charismatic_negotiator }
+		remove_trait = charismatic_negotiator
+		add_trait = underhanded_rogue
+	}
+	if = {
+		limit = { trait = grey_eminence }
+		remove_trait = grey_eminence
+		add_trait = charismatic_negotiator
+	}
+	# stewardship
+	if = {
+		limit = { trait = thrifty_clerk }
+		remove_trait = thrifty_clerk
+		add_trait = indulgent_wastrel
+	}
+	if = {
+		limit = { trait = fortune_builder }
+		remove_trait = fortune_builder
+		add_trait = thrifty_clerk
+	}
+	if = {
+		limit = { trait = midas_touched }
+		remove_trait = midas_touched
+		add_trait = fortune_builder
+	}
+	# martial
+	if = {
+		limit = { trait = tough_soldier }
+		remove_trait = tough_soldier
+		add_trait = misguided_warrior
+	}
+	if = {
+		limit = { trait = skilled_tactician }
+		remove_trait = skilled_tactician
+		add_trait = tough_soldier
+	}
+	if = {
+		limit = { trait = brilliant_strategist }
+		remove_trait = brilliant_strategist
+		add_trait = skilled_tactician
+	}
+	# ecclesiastic
+	if = {
+		limit = { trait = martial_cleric }
+		remove_trait = martial_cleric
+		add_trait = detached_priest
+	}
+	if = {
+		limit = { trait = scholarly_theologian }
+		remove_trait = scholarly_theologian
+		add_trait = martial_cleric
+	}
+	if = {
+		limit = { trait = mastermind_theologian }
+		remove_trait = mastermind_theologian
+		add_trait = scholarly_theologian
+	}
+}
+
+emf_create_courtiers = {
+	while = {
+		count = 3
+		limit = { always = yes }
+		random_list = {
+			50 = {
+				modifier = {
+					factor = 0
+					NOT = { has_religion_feature = religion_matriarchal }
+					gender_equality_trigger = no
+				}
+				create_random_soldier = {
+					random_traits = yes
+					dynasty = random
+					female = yes
+					attributes = {
+						diplomacy = 2
+						martial = 6
+						stewardship = 2
+						intrigue = 2
+						learning = 2
+					}
+				}
+			}
+			50 = {
+				modifier = {
+					factor = 0
+					has_religion_feature = religion_matriarchal
+				}
+				create_random_soldier = {
+					random_traits = yes
+					dynasty = random
+					female = no
+					attributes = {
+						diplomacy = 2
+						martial = 6
+						stewardship = 2
+						intrigue = 2
+						learning = 2
+					}
+				}
+			}
+		}
+		new_character = {
+			remove_trait = dull
+			emf_remove_lifestyle_traits = yes
+			random_list = {
+				1 = { }
+				4 = { change_diplomacy = 1 }
+				6 = { change_diplomacy = 2 }
+				4 = { change_diplomacy = 3 }
+				1 = { change_diplomacy = 4 }
+			}
+			random_list = {
+				1  = { }
+				6  = { change_martial = 1 }
+				15 = { change_martial = 2 }
+				20 = { change_martial = 3 }
+				15 = { change_martial = 4 }
+				6  = { change_martial = 5 }
+				1  = { change_martial = 6 }
+			}
+			random_list = {
+				1 = { }
+				4 = { change_stewardship = 1 }
+				6 = { change_stewardship = 2 }
+				4 = { change_stewardship = 3 }
+				1 = { change_stewardship = 4 }
+			}
+			random_list = {
+				1 = { }
+				4 = { change_intrigue = 1 }
+				6 = { change_intrigue = 2 }
+				4 = { change_intrigue = 3 }
+				1 = { change_intrigue = 4 }
+			}
+			random_list = {
+				1 = { }
+				4 = { change_learning = 1 }
+				6 = { change_learning = 2 }
+				4 = { change_learning = 3 }
+				1 = { change_learning = 4 }
+			}
+			random = {
+				chance = 50
+				if = {
+					limit = { trait = skilled_tactician }
+					random = {
+						chance = 40
+						remove_trait = skilled_tactician
+						add_trait = brilliant_strategist
+					}
+				}
+				else_if = {
+					limit = { trait = tough_soldier }
+					remove_trait = tough_soldier
+					add_trait = skilled_tactician
+				}
+				else_if = {
+					limit = { trait = misguided_warrior }
+					remove_trait = misguided_warrior
+					add_trait = tough_soldier
+				}
+			}
+			random_list = {
+				50 = { }
+				12 = {
+					trigger = { NOT = { trait = duelist } }
+					add_trait = duelist
+				}
+				12 = {
+					trigger = { NOT = { trait = hunter } }
+					add_trait = hunter
+				}
+				12 = {
+					trigger = { NOT = { trait = strategist } }
+					add_trait = strategist
+				}
+				8 = {
+					trigger = { NOT = { trait = robust } }
+					add_trait = robust
+				}
+				3 = { add_scarred_tiered_effect = yes }
+				3 = {
+					trigger = { NOT = { trait = imposing } }
+					add_trait = imposing
+				}
+				2  = {
+					trigger = { NOT = { trait = imposing } }
+					add_trait = imposing
+					add_scarred_tiered_effect = yes
+				}
+			}
+			if = {
+				limit = {
+					any_owned_bloodline = {
+						has_bloodline_flag = bloodline_inspire_commanders
+						bloodline_is_active_for = PREV
+					}
+				}
+				remove_trait = craven
+				change_diplomacy = 1
+				change_learning = 1
+				change_stewardship = 1
+				change_intrigue = 1
+				change_martial = 1
+				if = {
+					limit = { trait = skilled_tactician }
+					random = {
+						chance = 20
+						remove_trait = skilled_tactician
+						add_trait = brilliant_strategist
+					}
+				}
+				else_if = {
+					limit = { trait = tough_soldier }
+					random = {
+						chance = 50
+						remove_trait = tough_soldier
+						add_trait = skilled_tactician
+					}
+				}
+				else_if = {
+					limit = { trait = misguided_warrior }
+					remove_trait = misguided_warrior
+					add_trait = tough_soldier
+				}
+				random_list = {
+					50 = { }
+					12 = {
+						trigger = { NOT = { trait = duelist } }
+						add_trait = duelist
+					}
+					12 = {
+						trigger = { NOT = { trait = hunter } }
+						add_trait = hunter
+					}
+					12 = {
+						trigger = { NOT = { trait = strategist } }
+						add_trait = strategist
+					}
+					8 = {
+						trigger = { NOT = { trait = robust } }
+						add_trait = robust
+					}
+					3 = { add_scarred_tiered_effect = yes }
+					3 = {
+						trigger = { NOT = { trait = imposing } }
+						add_trait = imposing
+					}
+					2  = {
+						trigger = { NOT = { trait = imposing } }
+						add_trait = imposing
+						add_scarred_tiered_effect = yes
+					}
+				}
+			}
+			if = {
+				limit = { has_dlc = "Reapers" }
+				random = {
+					chance = 3
+					add_trait = one_eyed
+				}
+			}
+			emf_new_character_noble = yes
+			emf_dna_improve_homozygous_recessive_for_intelligence = yes
+			remove_trait = dim
+			remove_trait = slow
+			remove_trait = imbecile
+			emf_dna_improve_homozygous_recessive_for_strength = yes
+			remove_trait = delicate
+			remove_trait = weak
+			opinion = { who = PREV modifier = opinion_loyal_servant }
+		}
+	}
+	random_list = {
+		50 = {
+			modifier = {
+				factor = 0
+				NOT = { has_religion_feature = religion_matriarchal }
+				gender_equality_trigger = no
+			}
+			create_random_diplomat = {
+				random_traits = yes
+				dynasty = random
+				female = yes
+				attributes = {
+					diplomacy = 6
+					martial = 2
+					stewardship = 2
+					intrigue = 2
+					learning = 2
+				}
+			}
+		}
+		50 = {
+			modifier = {
+				factor = 0
+				has_religion_feature = religion_matriarchal
+			}
+			create_random_diplomat = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				attributes = {
+					diplomacy = 6
+					martial = 2
+					stewardship = 2
+					intrigue = 2
+					learning = 2
+				}
+			}
+		}
+	}
+	new_character = {
+		remove_trait = dull
+		emf_remove_lifestyle_traits = yes
+		random_list = {
+			1  = { }
+			6  = { change_diplomacy = 1 }
+			15 = { change_diplomacy = 2 }
+			20 = { change_diplomacy = 3 }
+			15 = { change_diplomacy = 4 }
+			6  = { change_diplomacy = 5 }
+			1  = { change_diplomacy = 6 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_martial = 1 }
+			6 = { change_martial = 2 }
+			4 = { change_martial = 3 }
+			1 = { change_martial = 4 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_stewardship = 1 }
+			6 = { change_stewardship = 2 }
+			4 = { change_stewardship = 3 }
+			1 = { change_stewardship = 4 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_intrigue = 1 }
+			6 = { change_intrigue = 2 }
+			4 = { change_intrigue = 3 }
+			1 = { change_intrigue = 4 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_learning = 1 }
+			6 = { change_learning = 2 }
+			4 = { change_learning = 3 }
+			1 = { change_learning = 4 }
+		}
+		random = {
+			chance = 50
+			if = {
+				limit = { trait = charismatic_negotiator }
+				random = {
+					chance = 50 # 1 out of 4 charismatic_negotiators
+					remove_trait = charismatic_negotiator
+					add_trait = grey_eminence
+				}
+			}
+			else_if = {
+				limit = { trait = underhanded_rogue }
+				remove_trait = underhanded_rogue
+				add_trait = charismatic_negotiator
+			}
+			else_if = {
+				limit = { trait = naive_appeaser }
+				remove_trait = naive_appeaser
+				add_trait = underhanded_rogue
+			}
+		}
+		random_list = {
+			50 = { }
+			15 = {
+				trigger = { NOT = { trait = socializer } }
+				add_trait = socializer
+			}
+			15 = {
+				trigger = { NOT = { trait = gamer } }
+				add_trait = gamer
+			}
+			15 = {
+				trigger = {
+					NAND = {
+						trait = gregarious
+						trait = groomed
+					}
+				}
+				add_trait = gregarious
+				add_trait = groomed
+			}
+			5 = {
+				trigger = { NOT = { trait = shrewd } }
+				add_trait = shrewd
+			}
+		}
+		if = {
+			limit = { emf_religion_has_castes = yes }
+			emf_copy_caste_from_PREV = yes
+		}
+		emf_new_character = yes
+		emf_dna_improve_homozygous_recessive_for_intelligence = yes
+		remove_trait = dim
+		remove_trait = slow
+		remove_trait = imbecile
+		opinion = { who = PREV modifier = opinion_loyal_servant }
+	}
+	random_list = {
+		50 = {
+			modifier = {
+				factor = 0
+				NOT = { has_religion_feature = religion_matriarchal }
+				gender_equality_trigger = no
+			}
+			create_random_intriguer = {
+				random_traits = yes
+				dynasty = random
+				female = yes
+				attributes = {
+					diplomacy = 2
+					martial = 2
+					stewardship = 2
+					intrigue = 6
+					learning = 2
+				}
+			}
+		}
+		50 = {
+			modifier = {
+				factor = 0
+				has_religion_feature = religion_matriarchal
+			}
+			create_random_intriguer = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				attributes = {
+					diplomacy = 2
+					martial = 2
+					stewardship = 2
+					intrigue = 6
+					learning = 2
+				}
+			}
+		}
+	}
+	new_character = {
+		remove_trait = dull
+		emf_remove_lifestyle_traits = yes
+		random_list = {
+			1 = { }
+			4 = { change_diplomacy = 1 }
+			6 = { change_diplomacy = 2 }
+			4 = { change_diplomacy = 3 }
+			1 = { change_diplomacy = 4 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_martial = 1 }
+			6 = { change_martial = 2 }
+			4 = { change_martial = 3 }
+			1 = { change_martial = 4 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_stewardship = 1 }
+			6 = { change_stewardship = 2 }
+			4 = { change_stewardship = 3 }
+			1 = { change_stewardship = 4 }
+		}
+		random_list = {
+			1  = { }
+			6  = { change_intrigue = 1 }
+			15 = { change_intrigue = 2 }
+			20 = { change_intrigue = 3 }
+			15 = { change_intrigue = 4 }
+			6  = { change_intrigue = 5 }
+			1  = { change_intrigue = 6 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_learning = 1 }
+			6 = { change_learning = 2 }
+			4 = { change_learning = 3 }
+			1 = { change_learning = 4 }
+		}
+		random = {
+			chance = 50
+			if = {
+				limit = { trait = intricate_webweaver }
+				random = {
+					chance = 50 # 1 out of 4 intricate_webweavers
+					remove_trait = intricate_webweaver
+					add_trait = elusive_shadow
+				}
+			}
+			else_if = {
+				limit = { trait = flamboyant_schemer }
+				remove_trait = flamboyant_schemer
+				add_trait = intricate_webweaver
+			}
+			else_if = {
+				limit = { trait = amateurish_plotter }
+				remove_trait = amateurish_plotter
+				add_trait = flamboyant_schemer
+			}
+		}
+		random_list = {
+			50 = { }
+			15 = {
+				trigger = { NOT = { trait = schemer } }
+				add_trait = schemer
+			}
+			15 = {
+				trigger = { NOT = { trait = impaler } }
+				add_trait = impaler
+			}
+			15 = {
+				trigger = {
+					NOR = {
+						trait = seducer
+						trait = seductress
+					}
+				}
+				if = {
+					limit = { is_female = yes }
+					add_trait = seductress
+				}
+				else = {
+					add_trait = seducer
+				}
+			}
+			5 = {
+				trigger = { NOT = { trait = shrewd } }
+				add_trait = shrewd
+			}
+		}
+		if = {
+			limit = { emf_religion_has_castes = yes }
+			emf_copy_caste_from_PREV = yes
+		}
+		emf_new_character = yes
+		emf_dna_improve_homozygous_recessive_for_intelligence = yes
+		remove_trait = dim
+		remove_trait = slow
+		remove_trait = imbecile
+		opinion = { who = PREV modifier = opinion_loyal_servant }
+	}
+	random_list = {
+		50 = {
+			modifier = {
+				factor = 0
+				NOT = { has_religion_feature = religion_matriarchal }
+				gender_equality_trigger = no
+			}
+			create_random_steward = {
+				random_traits = yes
+				dynasty = random
+				female = yes
+				attributes = {
+					diplomacy = 2
+					martial = 2
+					stewardship = 6
+					intrigue = 2
+					learning = 2
+				}
+			}
+		}
+		50 = {
+			modifier = {
+				factor = 0
+				has_religion_feature = religion_matriarchal
+			}
+			create_random_steward = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				attributes = {
+					diplomacy = 2
+					martial = 2
+					stewardship = 6
+					intrigue = 2
+					learning = 2
+				}
+			}
+		}
+	}
+	new_character = {
+		remove_trait = dull
+		emf_remove_lifestyle_traits = yes
+		random_list = {
+			1 = { }
+			4 = { change_diplomacy = 1 }
+			6 = { change_diplomacy = 2 }
+			4 = { change_diplomacy = 3 }
+			1 = { change_diplomacy = 4 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_martial = 1 }
+			6 = { change_martial = 2 }
+			4 = { change_martial = 3 }
+			1 = { change_martial = 4 }
+		}
+		random_list = {
+			1  = { }
+			6  = { change_stewardship = 1 }
+			15 = { change_stewardship = 2 }
+			20 = { change_stewardship = 3 }
+			15 = { change_stewardship = 4 }
+			6  = { change_stewardship = 5 }
+			1  = { change_stewardship = 6 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_intrigue = 1 }
+			6 = { change_intrigue = 2 }
+			4 = { change_intrigue = 3 }
+			1 = { change_intrigue = 4 }
+		}
+		random_list = {
+			1 = { }
+			4 = { change_learning = 1 }
+			6 = { change_learning = 2 }
+			4 = { change_learning = 3 }
+			1 = { change_learning = 4 }
+		}
+		random = {
+			chance = 50
+			if = {
+				limit = { trait = fortune_builder }
+				random = {
+					chance = 50 # 1 out of 4 fortune_builders
+					remove_trait = fortune_builder
+					add_trait = midas_touched
+				}
+			}
+			else_if = {
+				limit = { trait = thrifty_clerk }
+				remove_trait = thrifty_clerk
+				add_trait = fortune_builder
+			}
+			else_if = {
+				limit = { trait = indulgent_wastrel }
+				remove_trait = indulgent_wastrel
+				add_trait = thrifty_clerk
+			}
+		}
+		random_list = {
+			50 = { }
+			15 = {
+				trigger = { NOT = { trait = gardener } }
+				add_trait = gardener
+			}
+			15 = {
+				trigger = { NOT = { trait = architect } }
+				add_trait = architect
+			}
+			15 = {
+				trigger = { NOT = { trait = administrator } }
+				add_trait = administrator
+			}
+			5 = {
+				trigger = { NOT = { trait = shrewd } }
+				add_trait = shrewd
+			}
+		}
+		emf_new_character_steward = yes
+		emf_dna_improve_homozygous_recessive_for_intelligence = yes
+		remove_trait = dim
+		remove_trait = slow
+		remove_trait = imbecile
+		opinion = { who = PREV modifier = opinion_loyal_servant }
+	}
+	while = {
+		count = 4
+		limit = { always = yes }
+		spawn_debutante_effect = yes
+		new_character = {
+			opinion = { who = PREV modifier = opinion_loyal_servant }
+			emf_vary_created_courtier_female_fertility = yes
+		}
+	}
+}
+
+emf_vary_created_courtier_female_fertility = {
+	hidden_effect = {
+		random_list = {
+			5  = {
+				emf_reduce_fertility = yes
+				emf_reduce_fertility = yes
+				emf_reduce_fertility = yes
+			}
+			10 = {
+				emf_reduce_fertility = yes
+				emf_reduce_fertility = yes
+			}
+			15 = {
+				emf_reduce_fertility = yes
+			}
+			20 = { }
+			20 = {
+				emf_increase_fertility = yes
+			}
+			25 = {
+				emf_increase_fertility = yes
+				emf_increase_fertility = yes
+			}
+			30 = {
+				emf_increase_fertility = yes
+				emf_increase_fertility = yes
+				emf_increase_fertility = yes
+			}
+			25 = {
+				emf_increase_fertility = yes
+				emf_increase_fertility = yes
+				emf_increase_fertility = yes
+				emf_increase_fertility = yes
+			}
+		}
+	}
+}
+
+# Code-generated by src/trait_inheritance.py
+emf_PREV_inherit_genetics_from_THIS = {
+	if = {
+		limit = { trait = syphilitic } # Gonorrhea
+		random = { chance = 10 PREV = { add_trait = syphilitic } }
+	}
+	if = {
+		limit = { trait = inbred } # Inbred
+		random = { chance = 25 PREV = { add_trait = inbred } }
+	}
+	if = {
+		limit = { trait = horse } # Horse
+		random = { chance = 100 PREV = { add_trait = horse } }
+	}
+	if = {
+		limit = { trait = cat } # Cat
+		random = { chance = 100 PREV = { add_trait = cat } }
+	}
+	if = {
+		limit = { trait = agile } # Agile
+		random = { chance = 20 PREV = { add_trait = agile } }
+	}
+	if = {
+		limit = { trait = melodious_voice } # Silver Tongue
+		random = { chance = 10 PREV = { add_trait = melodious_voice } }
+	}
+	if = {
+		limit = { trait = powerful_voice } # Powerful Voice
+		random = { chance = 10 PREV = { add_trait = powerful_voice } }
+	}
+	if = {
+		limit = { trait = calm_voice } # Calm Voice
+		random = { chance = 10 PREV = { add_trait = calm_voice } }
+	}
+	if = {
+		limit = { trait = imposing } # Imposing
+		random = { chance = 5 PREV = { add_trait = imposing } }
+	}
+}
+
+# distribute THIS barony title to a new, appropriate character and vassalize him/her to THIS's county
+emf_distribute_barony = {
+	hidden_effect = {
+		dejure_liege_title = { owner = { save_event_target_as = emf_county_holder_tmp } }
+		event_target:emf_county_holder_tmp = {
+			if = {
+				limit = { PREV = { holding_type = city } }
+				random_list = {
+					50 = {
+						trigger = {
+							OR = {
+								has_religion_feature = religion_matriarchal
+								gender_equality_trigger = yes
+							}
+						}
+						create_random_steward = {
+							random_traits = yes
+							female = yes
+							dynasty = none
+							age = 16
+							attributes = { stewardship = 7 }
+						}
+					}
+					50 = {
+						trigger = { NOT = { has_religion_feature = religion_matriarchal } }
+						create_random_steward = {
+							random_traits = yes
+							female = no
+							dynasty = none
+							age = 16
+							attributes = { stewardship = 7 }
+						}
+					}
+				}
+				new_character = {
+					clear_education_trait = yes
+					random_list = {
+						1 = { add_trait = indulgent_wastrel }
+						2 = { add_trait = thrifty_clerk }
+						2 = { add_trait = fortune_builder }
+						1 = { add_trait = midas_touched }
+					}
+					emf_dna_set_flags_for_high_health = yes
+					emf_new_character_steward = yes
+				}
+			}
+			else_if = {
+				limit = { PREV = { holding_type = temple } }
+				random_list = {
+					50 = {
+						trigger = { religion_allows_female_temple_holders = yes }
+						create_random_priest = {
+							random_traits = yes
+							female = yes
+							dynasty = none
+							age = 16
+							attributes = { learning = 7 }
+						}
+					}
+					50 = {
+						trigger = { religion_allows_male_temple_holders = yes }
+						create_random_priest = {
+							random_traits = yes
+							female = no
+							dynasty = none
+							age = 16
+							attributes = { learning = 7 }
+						}
+					}
+				}
+				new_character = {
+					clear_education_trait = yes
+					random_list = {
+						1 = { add_trait = detached_priest }
+						2 = { add_trait = martial_cleric }
+						2 = { add_trait = scholarly_theologian }
+						1 = { add_trait = mastermind_theologian }
+					}
+					emf_dna_set_flags_for_high_health = yes
+					emf_new_character_priest = yes
+				}
+			}
+			else = {
+				random_list = {
+					50 = {
+						trigger = {
+							OR = {
+								has_religion_feature = religion_matriarchal
+								gender_equality_trigger = yes
+							}
+						}
+						create_random_soldier = {
+							random_traits = yes
+							female = yes
+							dynasty = none
+							age = 16
+						}
+					}
+					50 = {
+						trigger = { NOT = { has_religion_feature = religion_matriarchal } }
+						create_random_soldier = {
+							random_traits = yes
+							female = no
+							dynasty = none
+							age = 16
+						}
+					}
+				}
+				new_character = {
+					clear_education_trait = yes
+					random_list = {
+						1 = { add_trait = misguided_warrior }
+						2 = { add_trait = tough_soldier }
+						2 = { add_trait = skilled_tactician }
+						1 = { add_trait = brilliant_strategist }
+					}
+					emf_dna_set_flags_for_high_health = yes
+					emf_new_character_noble = yes
+				}
+			}
+			new_character = {
+				random_list = {
+					1     = { }
+					19    = { add_age = 1 }
+					171   = { add_age = 2 }
+					969   = { add_age = 3 }
+					3876  = { add_age = 4 }
+					11628 = { add_age = 5 }
+					27132 = { add_age = 6 }
+					50388 = { add_age = 7 }
+					75582 = { add_age = 8 }
+					92378 = { add_age = 9 }
+					92378 = { add_age = 10 }
+					75582 = { add_age = 11 }
+					50388 = { add_age = 12 }
+					27132 = { add_age = 13 }
+					11628 = { add_age = 14 }
+					3876  = { add_age = 15 }
+					969   = { add_age = 16 }
+					171   = { add_age = 17 }
+					19    = { add_age = 18 }
+					1     = { add_age = 19 }
+				}
+				grant_title = PREVPREV
+				set_defacto_liege = event_target:emf_county_holder_tmp
+			}
+		}
+		clear_event_target = emf_county_holder_tmp
+	}
+}
+
+# Set the gender of THIS to male, and change any traits accordingly
+emf_set_gender_male = {
+	# Need to set flags before gender switch because of trait potentials
+	if = {
+		limit = {
+			trait = seductress
+		}
+		set_character_flag = was_seductress
+	}
+	if = {
+		limit = {
+			trait = nun
+		}
+		set_character_flag = was_nun
+	}
+	if = {
+		limit = {
+			trait = aryika
+		}
+		set_character_flag = was_aryika
+	}
+	if = {
+		limit = {
+			trait = bhikkhuni
+		}
+		set_character_flag = was_bhikkhuni
+	}
+	if = {
+		limit = {
+			trait = sanyasini
+		}
+		set_character_flag = was_sanyasini
+	}
+	if = {
+		limit = {
+			trait = crusader_queen
+		}
+		set_character_flag = was_crusader_queen
+	}
+	
+	set_gender = male
+	
+	remove_trait = shieldmaiden
+	if = {
+		limit = {
+			has_character_flag = was_seductress
+		}
+		remove_trait = seductress
+		add_trait = seducer
+		clr_character_flag = was_seductress
+	}
+	if = {
+		limit = {
+			has_character_flag = was_nun
+		}
+		remove_trait = nun
+		add_trait = monk
+		clr_character_flag = was_nun
+	}
+	if = {
+		limit = {
+			trait = sea_queen
+		}
+		remove_trait = sea_queen
+		add_trait = seaking
+	}
+	if = {
+		limit = {
+			has_character_flag = was_aryika
+		}
+		remove_trait = aryika
+		add_trait = muni
+		clr_character_flag = was_aryika
+	}
+	if = {
+		limit = {
+			has_character_flag = was_bhikkhuni
+		}
+		remove_trait = bhikkhuni
+		add_trait = bhikkhu
+		clr_character_flag = was_bhikkhuni
+	}
+	if = {
+		limit = {
+			has_character_flag = was_sanyasini
+		}
+		remove_trait = sanyasini
+		add_trait = sanyasi
+		clr_character_flag = was_sanyasini
+	}
+	if = {
+		limit = {
+			has_character_flag = was_crusader_queen
+		}
+		remove_trait = crusader_queen
+		add_trait = crusader_king
+		clr_character_flag = was_crusader_queen
+	}
+	if = {
+		limit = {
+			trait = desert_mother
+		}
+		remove_trait = desert_mother
+		add_trait = desert_father
+	}
+}
+
+# Set the gender of THIS to male, and change any traits accordingly
+emf_set_gender_female = {
+	# Need to set flags before gender switch because of trait potentials
+	if = {
+		limit = {
+			trait = seducer
+		}
+		set_character_flag = was_seducer
+	}
+	if = {
+		limit = {
+			trait = monk
+		}
+		set_character_flag = was_monk
+	}
+	if = {
+		limit = {
+			trait = muni
+		}
+		set_character_flag = was_muni
+	}
+	if = {
+		limit = {
+			trait = bhikkhu
+		}
+		set_character_flag = was_bhikkhu
+	}
+	if = {
+		limit = {
+			trait = sanyasi
+		}
+		set_character_flag = was_sanyasi
+	}
+	if = {
+		limit = {
+			trait = crusader_king
+		}
+		set_character_flag = was_crusader_king
+	}
+	
+	set_gender = female
+	
+	remove_trait = eunuch
+	if = {
+		limit = {
+			has_character_flag = was_seducer
+		}
+		remove_trait = seducer
+		add_trait = seductress
+		clr_character_flag = was_seducer
+	}
+	if = {
+		limit = {
+			has_character_flag = was_monk
+		}
+		remove_trait = monk
+		add_trait = nun
+		clr_character_flag = was_monk
+	}
+	if = {
+		limit = {
+			trait = seaking
+		}
+		remove_trait = seaking
+		add_trait = sea_queen
+	}
+	if = {
+		limit = {
+			has_character_flag = was_muni
+		}
+		remove_trait = muni
+		add_trait = aryika
+		clr_character_flag = was_muni
+	}
+	if = {
+		limit = {
+			has_character_flag = was_bhikkhu
+		}
+		remove_trait = bhikkhu
+		add_trait = bhikkhuni
+		clr_character_flag = was_bhikkhu
+	}
+	if = {
+		limit = {
+			has_character_flag = was_sanyasi
+		}
+		remove_trait = sanyasi
+		add_trait = sanyasini
+		clr_character_flag = was_sanyasi
+	}
+	if = {
+		limit = {
+			has_character_flag = was_crusader_king
+		}
+		remove_trait = crusader_king
+		add_trait = crusader_queen
+		clr_character_flag = was_crusader_king
+	}
+	if = {
+		limit = {
+			trait = desert_father
+		}
+		remove_trait = desert_father
+		add_trait = desert_mother
+	}
+}

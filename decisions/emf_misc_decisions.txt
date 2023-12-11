@@ -1,0 +1,318 @@
+# -*- ck2.decisions -*-
+
+# Targetted decisions are possible vs _all_ other characters and shown are in the Diplomacy View, not the Intrigue View. The taker is in the FROM scope.
+#
+# filter = [self/court/home_court/vassals/sub_realm/realm/dynasty/spouse/liege/rivals/all] ('self' MUST be set for decisions targetting only the taker, the other filter types can be set to lessen CPU load)
+# ai_target_filter = [self/court/home_court/vassals/sub_realm/realm/dynasty/spouse/liege/rivals/all] (which characters for which the AI evaluates the decision.)
+#	court: all characters in the AI's host court, including prisoners, and characters currently away (wards, prisoners, etc)
+#	home_court: all characters in the AI's home court, including prisoners, and characters currently away (wards, prisoners, etc)
+#	vassals: direct vassal rulers of the AI's employer
+#	sub_realm: all characters below the AI's employer
+#	realm: all characters in the same top realm as the AI
+#	dynasty: all members of the same dynasty
+#	rivals: your rivals plus any character you have an opinion modifier with 'crime = yes' set (the same set of characters the 'is_foe' trigger evaluates)
+#	all: all living characters (Avoid if possible. VERY CPU-HEAVY!)
+#
+
+
+targetted_decisions = {
+	emf_bring_child_home = {
+		is_high_prio = yes
+		filter = all
+		ai = no
+
+		from_potential = {
+		}
+		potential = {
+			is_child_of = FROM
+			liege = { NOT = { character = FROM } }
+			NOR = {
+				prisoner = yes
+				is_ruler = yes
+				is_adult = yes
+				is_married = yes
+				any_child_even_if_dead = { always = yes }
+			}
+		}
+		allow = {
+			liege = {
+				lower_real_tier_than = FROM
+			}
+		}
+		effect = {
+			move_character = FROM
+		}
+	}
+	emf_transfer_wealth_small = {
+		filter = all
+		ai = no
+		from_potential = {
+			NOT = {
+				has_game_rule = {
+					name = custom_wealth_transfers
+					value = off
+				}
+			}
+		}
+		potential = {
+			OR = {
+				ai = no
+				has_game_rule = {
+					name = custom_wealth_transfers
+					value = unrestricted
+				}
+			}
+			NOT = { character = FROM }
+		}
+		allow = {
+			FROM = {
+				wealth = 100
+				OR = {
+					prisoner = no
+					host = {
+						OR = {
+							ai = yes
+							character = ROOT
+						}
+					}
+				}
+				OR = {
+					has_regent = no
+					AND = {
+						prisoner = yes
+						host = {
+							ai = no
+							NOT = { character = ROOT }
+						}
+					}
+					regent = {
+						OR = {
+							ai = yes
+							character = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			FROM = { wealth = -100 }
+			wealth = 100
+			if = {
+				limit = { multiplayer = yes }
+				FROM = { set_variable = { which = emf_transfer_wealth_amount value = 100 } }
+				custom_tooltip = {
+					text = emf_ctt_transfer_wealth_notify_players
+					any_player = {
+						limit = { NOT = { character = FROM } }
+						character_event = { id = emf_crier.320 }
+					}
+				}
+			}
+		}
+	}
+	emf_transfer_wealth_medium = {
+		filter = all
+		ai = no
+		from_potential = {
+			NOT = {
+				has_game_rule = {
+					name = custom_wealth_transfers
+					value = off
+				}
+			}
+			wealth = 100 # Only show one grayed-out option if we don't have enough money
+		}
+		potential = {
+			OR = {
+				ai = no
+				has_game_rule = {
+					name = custom_wealth_transfers
+					value = unrestricted
+				}
+			}
+			NOT = { character = FROM }
+		}
+		allow = {
+			FROM = {
+				wealth = 200
+				OR = {
+					prisoner = no
+					host = {
+						OR = {
+							ai = yes
+							character = ROOT
+						}
+					}
+				}
+				OR = {
+					has_regent = no
+					AND = {
+						prisoner = yes
+						host = {
+							ai = no
+							NOT = { character = ROOT }
+						}
+					}
+					regent = {
+						OR = {
+							ai = yes
+							character = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			FROM = { wealth = -200 }
+			wealth = 200
+			if = {
+				limit = { multiplayer = yes }
+				FROM = { set_variable = { which = emf_transfer_wealth_amount value = 200 } }
+				custom_tooltip = {
+					text = emf_ctt_transfer_wealth_notify_players
+					any_player = {
+						limit = { NOT = { character = FROM } }
+						character_event = { id = emf_crier.320 }
+					}
+				}
+			}
+		}
+	}
+	emf_transfer_wealth_large = {
+		filter = all
+		ai = no
+		from_potential = {
+			NOT = {
+				has_game_rule = {
+					name = custom_wealth_transfers
+					value = off
+				}
+			}
+			wealth = 200 # Only show one grayed-out option if we don't have enough money
+		}
+		potential = {
+			OR = {
+				ai = no
+				has_game_rule = {
+					name = custom_wealth_transfers
+					value = unrestricted
+				}
+			}
+			NOT = { character = FROM }
+		}
+		allow = {
+			FROM = {
+				wealth = 400
+				OR = {
+					prisoner = no
+					host = {
+						OR = {
+							ai = yes
+							character = ROOT
+						}
+					}
+				}
+				OR = {
+					has_regent = no
+					AND = {
+						prisoner = yes
+						host = {
+							ai = no
+							NOT = { character = ROOT }
+						}
+					}
+					regent = {
+						OR = {
+							ai = yes
+							character = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			FROM = { wealth = -400 }
+			wealth = 400
+			if = {
+				limit = { multiplayer = yes }
+				FROM = { set_variable = { which = emf_transfer_wealth_amount value = 400 } }
+				custom_tooltip = {
+					text = emf_ctt_transfer_wealth_notify_players
+					any_player = {
+						limit = { NOT = { character = FROM } }
+						character_event = { id = emf_crier.320 }
+					}
+				}
+			}
+		}
+	}
+	emf_transfer_wealth_huge = {
+		filter = all
+		ai = no
+		from_potential = {
+			NOT = {
+				has_game_rule = {
+					name = custom_wealth_transfers
+					value = off
+				}
+			}
+			wealth = 400 # Only show one grayed-out option if we don't have enough money
+		}
+		potential = {
+			OR = {
+				ai = no
+				has_game_rule = {
+					name = custom_wealth_transfers
+					value = unrestricted
+				}
+			}
+			NOT = { character = FROM }
+		}
+		allow = {
+			FROM = {
+				wealth = 800
+				OR = {
+					prisoner = no
+					host = {
+						OR = {
+							ai = yes
+							character = ROOT
+						}
+					}
+				}
+				OR = {
+					has_regent = no
+					AND = {
+						prisoner = yes
+						host = {
+							ai = no
+							NOT = { character = ROOT }
+						}
+					}
+					regent = {
+						OR = {
+							ai = yes
+							character = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			FROM = { wealth = -800 }
+			wealth = 800
+			if = {
+				limit = { multiplayer = yes }
+				FROM = { set_variable = { which = emf_transfer_wealth_amount value = 800 } }
+				custom_tooltip = {
+					text = emf_ctt_transfer_wealth_notify_players
+					any_player = {
+						limit = { NOT = { character = FROM } }
+						character_event = { id = emf_crier.320 }
+					}
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,1753 @@
+# -*- ck2.scripted_triggers -*-
+
+#### LANDED TITLES TRIGGERS ####
+
+title_duke_basic_allow = {
+	trigger_if = {
+		limit = { NOT = { has_flag = emf_skip_title_basic_allow_tmp } }
+		is_primary_war_defender = no
+	}
+	trigger_if = {
+		limit = {
+			FROM = { has_flag = emf_defunct }
+		}
+		custom_tooltip = {
+			text = emf_ctt_FROM_is_not_defunct
+			always = no
+		}
+	}
+	trigger_else_if = { # AI HREmperors cannot create (but may usurp) certain titles
+		limit = {
+			emf_has_hre = yes
+			ai = yes
+			FROM = {
+				has_holder = no
+				has_flag = emf_hre_forbidden_title
+			}
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp }
+		}
+		always = no
+	}
+	trigger_else_if = {
+		limit = {
+			FROM = {
+				has_holder = no
+				is_titular = yes
+			}
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp }
+		}
+		has_game_rule = { name = titular_title_creation value = all }
+		trigger_if = {
+			limit = { ai = yes }
+			lower_real_tier_than = KING
+		}
+	}
+}
+
+title_king_basic_allow = {
+	trigger_if = {
+		limit = { NOT = { has_flag = emf_skip_title_basic_allow_tmp } }
+		is_primary_war_defender = no
+		is_adult = yes
+		has_regent = no
+	}
+	trigger_if = {
+		limit = {
+			FROM = { has_flag = emf_defunct }
+		}
+		custom_tooltip = {
+			text = emf_ctt_FROM_is_not_defunct
+			always = no
+		}
+	}
+	trigger_else_if = { # AI HREmperors cannot create (but may usurp) certain titles
+		limit = {
+			emf_has_hre = yes
+			ai = yes
+			FROM = {
+				has_holder = no
+				has_flag = emf_hre_forbidden_title
+			}
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp }
+		}
+		always = no
+	}
+	trigger_else_if = {
+		limit = {
+			FROM = {
+				has_holder = no
+				is_de_jure_title = no
+			}
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp }
+		}
+		independent = yes
+		num_of_count_titles_in_realm >= 5
+		OR = {
+			has_game_rule = { name = titular_title_creation value = all }
+			has_game_rule = { name = titular_title_creation value = kingdoms_and_empires }
+		}
+		trigger_if = {
+			limit = { ai = yes }
+			lower_real_tier_than = EMPEROR
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			FROM = {
+				has_holder = no
+				empire = { owner = { same_realm = ROOT } }
+				NOR = {
+					title = k_bohemia
+					title = k_austria
+				}
+			}
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp }
+		}
+		FROM = {
+			show_scope_change = no
+			empire = {
+				trigger_if = {
+					limit = {
+						OR = {
+							has_law = imperial_kingdom_creation_0
+							has_law = imperial_kingdom_creation_1
+							has_law = imperial_kingdom_creation_2
+						}
+						holder = ROOT
+					}
+					NOT = { has_law = imperial_kingdom_creation_0 }
+				}
+				trigger_else = {
+					NOR = {
+						has_law = imperial_kingdom_creation_0
+						has_law = imperial_kingdom_creation_2
+					}
+				}
+			}
+		}
+	}
+}
+
+title_emperor_basic_allow = {
+	trigger_if = {
+		limit = { NOT = { has_flag = emf_skip_title_basic_allow_tmp } }
+		war = no
+		is_adult = yes
+		has_regent = no
+		ruled_years = 5
+		realm_size = 120
+	}
+	# Not if title is marked defunct
+	trigger_if = {
+		limit = {
+			FROM = { has_flag = emf_defunct }
+		}
+		custom_tooltip = {
+			text = emf_ctt_FROM_is_not_defunct
+			always = no
+		}
+	}
+	# Nomads cannot create [regular] empire titles:
+	trigger_else_if = {
+		limit = {
+			is_nomadic = yes
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp } # Rule can be overridden by script
+		}
+		is_nomadic = no
+	}
+	trigger_else_if = { # AI HRE, Byzantium, Arabia, and Persia cannot create/usurp any empires at all
+		limit = {
+			ai = yes
+			OR = {
+				emf_has_hre = yes
+				emf_has_roman_empire = yes
+				has_landed_title = e_persia
+				has_landed_title = e_arabia
+			}
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp }
+		}
+		always = no
+	}
+	trigger_else_if = { # The [historical] HRE cannot be created normally even if de jure (use decision)
+		limit = {
+			# The need for this is only because we allow e_hre to be de jure in 867 (and 769?). Though I don't actually
+			# support that setup, it's a lot easier to just block getting around the formation decisions for now. In
+			# EMF v12, I'd like to standardize to a titular HRE until formed, so TMP-SAVE-COMPAT.
+			FROM = {
+				title = e_hre
+				has_holder = no
+				NOT = { # Only either Charlemagne or nobody has held e_hre so far:
+					any_previous_holder = {
+						NOT = { character = 6392 } # Charlemagne
+					}
+				}
+			}
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp }
+		}
+		custom_tooltip = {
+			text = HISTORICAL_HRE_MUST_FIRST_BE_CREATED_BY_DECISION_TT
+			always = no
+		}
+	}
+	trigger_else_if = { # Not if the Titular Title Creation game rule is set to None, if FROM's titular
+		limit = {
+			FROM = {
+				has_holder = no
+				is_de_jure_title = no
+			}
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp } # Rule can be overridden by script
+		}
+		NOT = {
+			has_game_rule = { name = titular_title_creation value = none }
+		}
+	}
+	# Empire of Francia cannot be created if the HRE is being actively restored still:
+	trigger_else_if = {
+		limit = {
+			FROM = { title = e_france }
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp } # Rule can be overridden by script
+		}
+		emf_is_hre_being_restored = no
+	}
+	# AI emperors can only create FROM if it is de jure while their current empire is titular
+	trigger_else_if = {
+		limit = {
+			ai = yes
+			tier = EMPEROR
+			NOT = { has_flag = emf_skip_title_basic_allow_tmp } # Rule can be overridden by script
+		}
+		primary_title = { is_titular_title = yes }
+		FROM = { is_de_jure_title = yes }
+	}
+}
+
+
+#### MISC ####
+
+# THIS = title being qualified for the titular title autodestruction mechanic
+emf_can_autodestroy_title = {
+	higher_tier_than = COUNT
+	OR = {
+		has_flag = emf_autodestroy
+		AND = {
+			emf_can_safely_autodestroy_title = yes
+			NOR = {
+				has_flag = emf_autodestroy_exemption
+				has_flag = emf_custom_created
+			}
+		}
+	}
+}
+
+emf_can_safely_autodestroy_title = {
+	emf_is_title_type_special = no
+}
+
+emf_is_title_type_special = {
+	OR = {
+		is_primary_type_title = yes
+		is_landless_type_title = yes
+		controls_religion = yes
+		temporary = yes
+		mercenary = yes
+		holy_order = yes
+		clan = yes
+		adventurer = yes
+		rebel = yes
+		has_flag = emf_revolt
+		AND = {
+			tier = BARON
+			holding_type = family_palace
+		}
+	}
+}
+
+emf_has_no_temporary_title = {
+	custom_tooltip = {
+		text = HAS_TEMPORARY_TITLE_NOT
+		NOT = { any_demesne_title = { temporary = yes } }
+	}
+}
+
+emf_has_temporary_title = {
+	custom_tooltip = {
+		text = HAS_TEMPORARY_TITLE
+		any_demesne_title = { temporary = yes }
+	}
+}
+
+# THIS = title checked if it can replace titular title that is in PREVPREVPREV
+emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = {
+	NOT = { lower_tier_than = PREVPREVPREV }
+	is_de_jure_title = yes
+	OR = {
+		# Higher tier is always fine
+		NOT = { tier = PREVPREVPREV }
+		# Same tier, so either the de jure title is primary, or we'll switch to it, so...
+		is_primary_holder_title = yes
+		# ... we need to be capable of switching
+		holder_scope = {
+			primary_title = {
+				OR = {
+					is_primary_type_title = no
+					higher_tier_than = PREVPREV
+				}
+			}
+		}
+	}
+}
+
+# THIS = title being qualified for the check
+emf_ROOT_has_any_higher_tier_de_jure_title_with_compatible_succ_laws = {
+	succ_law_title = {
+		trigger_if = {
+			limit = { emf_laws_has_true_elective_law_type = no }
+			OR = {
+				# Quick and easy: ROOT has a higher- or same-tier de jure title that has the same succession law title as this one
+				ROOT = {
+					any_demesne_title = {
+						emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+						succ_law_title = { title = PREVPREVPREV }
+					}
+				}
+				# Long and difficult: manually go through all non-elective succession laws and check if there is a higher- or same-tier de jure title with a set of them that would result in the same primary heir 99% of the time (treat sex-preference and sex-exclusive succession as the same in order to prevent cheesing)
+				trigger_if = {
+					limit = {
+						OR = {
+							has_law = succ_gavelkind
+							has_law = succ_primogeniture
+						}
+					}
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									OR = {
+										has_law = succ_gavelkind
+										has_law = succ_primogeniture
+									}
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									OR = {
+										has_law = succ_gavelkind
+										has_law = succ_primogeniture
+									}
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									OR = {
+										has_law = succ_gavelkind
+										has_law = succ_primogeniture
+									}
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_seniority }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_seniority
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_seniority
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_seniority
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_ultimogeniture }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_ultimogeniture
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_ultimogeniture
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_ultimogeniture
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_turkish_succession }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_turkish_succession
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_turkish_succession
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_turkish_succession
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_papal_succession }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_papal_succession
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_papal_succession
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_papal_succession
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_appointment }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_appointment
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_appointment
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_appointment
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_open_elective }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_open_elective
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_open_elective
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_open_elective
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_catholic_bishopric }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_catholic_bishopric
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_catholic_bishopric
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_catholic_bishopric
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_patrician_elective }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_patrician_elective
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_patrician_elective
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_patrician_elective
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_nomad_succession }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_nomad_succession
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_nomad_succession
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_nomad_succession
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_offmap_succession }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_offmap_succession
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_offmap_succession
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_offmap_succession
+									has_law = true_cognatic_succession
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		trigger_else = {
+			# Absolute nightmare: if it is an elective title, we need to make sure that the titular title's actual successor won't always be the winner of the succession title's election
+			OR = {
+				ROOT = {
+					any_demesne_title = {
+						emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+						succ_law_title = { title = PREVPREVPREV }
+						OR = {
+							tier = PREVPREVPREV # Same-tier same succession law = Great!
+							succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+								ROOT = {
+									any_demesne_title = {
+										higher_tier_than = PREVPREVPREV
+										succ_law_title = { title = PREVPREVPREV }
+									}
+								}
+							}
+						}
+					}
+				}
+				# Manually go through all elective succession laws and check if there is a higher- or same-tier de jure title with a set of them that would result in the same primary heir 99% of the time (treat sex-preference and sex-exclusive succession as the same in order to prevent cheesing)
+				trigger_if = {
+					limit = { has_law = succ_elective_gavelkind }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_elective_gavelkind
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_elective_gavelkind
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_elective_gavelkind
+									has_law = true_cognatic_succession
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_eldership }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_eldership
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_eldership
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_eldership
+									has_law = true_cognatic_succession
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_feudal_elective }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_feudal_elective
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_feudal_elective
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_feudal_elective
+									has_law = true_cognatic_succession
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_hre_elective }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_hre_elective
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_hre_elective
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_hre_elective
+									has_law = true_cognatic_succession
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_aztec_elective }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_aztec_elective
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_aztec_elective
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_aztec_elective
+									has_law = true_cognatic_succession
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_byzantine_elective }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_byzantine_elective
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_byzantine_elective
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_byzantine_elective
+									has_law = true_cognatic_succession
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_tanistry }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_tanistry
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_tanistry
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_tanistry
+									has_law = true_cognatic_succession
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_pictish_elective }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_pictish_elective
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_pictish_elective
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_pictish_elective
+									has_law = true_cognatic_succession
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				trigger_else_if = {
+					limit = { has_law = succ_dynastic_elective }
+					trigger_if = {
+						limit = {
+							OR = {
+								has_law = agnatic_succession
+								has_law = cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_dynastic_elective
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else_if = {
+						limit = {
+							OR = {
+								has_law = enatic_succession
+								has_law = enatic_cognatic_succession
+							}
+						}
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_dynastic_elective
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						ROOT = {
+							any_demesne_title = {
+								emf_valid_de_jure_title_to_replace_titular_PREVPREVPREV = yes
+								succ_law_title = {
+									has_law = succ_dynastic_elective
+									has_law = true_cognatic_succession
+								}
+								OR = {
+									tier = PREVPREVPREV # Same-tier same succession law = Great!
+									succ_law_title = { # Eligible de jure title with same succession law when there is a third title that is higher-tier than both and also has the same succession law
+										ROOT = {
+											any_demesne_title = {
+												higher_tier_than = PREVPREVPREV
+												succ_law_title = { title = PREVPREVPREV }
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+## VERY MISC ##
+
+emf_is_roman_empire = {
+	custom_tooltip = {
+		text = TT_IS_ROMAN_EMPIRE
+		OR = {
+			title = e_byzantium
+			title = e_roman_empire
+		}
+	}
+}
+
+emf_has_roman_empire = {
+	custom_tooltip = {
+		text = TT_HAS_ROMAN_EMPIRE
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+	}
+}

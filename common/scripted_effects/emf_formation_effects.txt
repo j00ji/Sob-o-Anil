@@ -1,0 +1,179 @@
+# -*- ck2.scripted_effects -*-
+
+
+# For de jure empire formation/restoration via decision, effect counterpart to same-named trigger
+emf_create_dj_empire_basic = {
+	if = {
+		limit = { ai = no }
+		wealth = -600
+		piety = -400
+	}
+	prestige = 500
+}
+
+emf_make_ROOT_preferred_holding_county_capital = {
+	if = {
+		limit = { NOT = { location = { capital_holding = { is_preferred_holding_type = ROOT } } } }
+		random_direct_de_jure_vassal_title = {
+			show_scope_change = no
+			limit = {
+				is_title_active = THIS
+				is_preferred_holding_type = ROOT
+			}
+			preferred_limit = { num_of_buildings > 30 }
+			preferred_limit = { num_of_buildings > 28 }
+			preferred_limit = { num_of_buildings > 26 }
+			preferred_limit = { num_of_buildings > 24 }
+			preferred_limit = { num_of_buildings > 22 }
+			preferred_limit = { num_of_buildings > 20 }
+			preferred_limit = { num_of_buildings > 18 }
+			preferred_limit = { num_of_buildings > 16 }
+			preferred_limit = { num_of_buildings > 14 }
+			preferred_limit = { num_of_buildings > 12 }
+			preferred_limit = { num_of_buildings > 10 }
+			preferred_limit = { num_of_buildings > 8 }
+			preferred_limit = { num_of_buildings > 6 }
+			preferred_limit = { num_of_buildings > 4 }
+			preferred_limit = { num_of_buildings > 2 }
+			grant_title_no_opinion = ROOT
+			make_capital_holding = yes
+		}
+	}
+}
+
+# THIS = title whose de jure capital should be the capital of the eastern march
+emf_set_eastern_marches_capital = {
+	capital_scope = {
+		show_scope_change = no
+		county = {
+			show_scope_change = no
+			k_eastern_marches = {
+				show_scope_change = no
+				set_preferred_capital = PREV
+			}
+			ROOT = {
+				show_scope_change = no
+				if = {
+					limit = {
+						PREV = {
+							NOR = {
+								holder = ROOT
+								owner = { ai = no }
+							}
+						}
+					}
+					grant_title = PREV
+					PREV = {
+						show_scope_change = no
+						emf_make_ROOT_preferred_holding_county_capital = yes
+					}
+				}
+				if = {
+					limit = { NOT = { capital_scope = { county = { title = PREVPREVPREV } } } }
+					capital = PREV
+				}
+			}
+		}
+	}
+}
+
+emf_finish_eastern_marches_creation = {
+	liege = {
+		save_event_target_as = emf_liege
+		primary_title = { save_event_target_as = emf_hre }
+		# Remember the emperor's legit claims upon the titles of ROOT:
+		any_claim = {
+			limit = { holder = ROOT }
+			set_flag = emf_prior_claim_tmp
+		}
+	}
+	if = {
+		limit = {
+			crownlaw_title = {
+				title = event_target:emf_hre
+				OR = {
+					has_law = imperial_kingdom_creation_0 # Nobody
+					has_law = imperial_kingdom_creation_2 # Emperor Only
+				}
+			}
+		}
+		event_target:emf_liege = {
+			show_scope_change = no
+			k_eastern_marches = {
+				show_scope_change = no
+				add_weak_pressed_claim = PREV
+			}
+		}
+	}
+	emf_make_eastern_marches_dejure = yes
+	k_eastern_marches = {
+		show_scope_change = no
+		de_jure_liege = event_target:emf_hre
+	}
+	hidden_effect = {
+		primary_title = {
+			k_eastern_marches = {
+				grant_title = ROOT
+				copy_title_history = PREV
+				copy_title_laws = PREV
+				emf_copy_title_state_from_PREV = yes
+			}
+		}
+	}
+	k_eastern_marches = {
+		show_scope_change = no
+		emf_make_primary_title = yes
+	}
+	hidden_effect = {
+		event_target:emf_liege = {
+			# In case the title grant made ROOT independent of the HRE (it would, since the title has no liege while
+			# unheld, and grants preserve their liege title)
+			if = {
+				limit = { NOT = { is_liege_of = ROOT } }
+				set_defacto_vassal = ROOT
+			}
+			# Remove extranneous claims added to the emperor by ROOT going temporarily independent:
+			any_claim = {
+				limit = {
+					holder = ROOT
+					NOR = {
+						has_flag = emf_prior_claim_tmp
+						title = k_eastern_marches
+					}
+				}
+				remove_claim = PREV
+				clr_flag = emf_prior_claim_tmp
+			}
+			any_claim = {
+				clr_flag = emf_prior_claim_tmp
+			}
+		}
+		k_bavaria = {
+			if = {
+				limit = { holder = ROOT }
+				k_eastern_marches = { emf_copy_title_state_from_PREV = yes }
+				destroy_landed_title = THIS
+			}
+			if = {
+				limit = { has_holder = no }
+				activate_title = { title = THIS status = no }
+			}
+		}
+		k_carinthia = {
+			if = {
+				limit = { holder = ROOT }
+				k_eastern_marches = { emf_copy_title_state_from_PREV = yes }
+				destroy_landed_title = THIS
+			}
+			if = {
+				limit = { has_holder = no }
+				activate_title = { title = THIS status = no }
+			}
+		}
+		ROOT = { narrative_event = { id = HFP.40023 } }
+		any_playable_ruler = {
+			limit = { top_liege = { character = event_target:emf_liege } }
+			narrative_event = { id = HFP.40023 }
+		}
+	}
+}

@@ -1,0 +1,49 @@
+# -*- ck2.traits -*-
+
+sterile_secret = {
+	birth = 25
+	#inherit_chance = 10 # Removed due to ban on heritable, fertility-affecting traits for realism reasons
+
+	random = no
+	customizer = no
+
+	is_visible = { emf_hidden = yes }
+
+	opposites =  {
+		# Removed so that if a character becomes sterile, it's not made obvious by them losing a congenital trait
+		#fertile
+		#infertile
+	}
+
+	fertility = -10
+}
+
+sterile_known = {
+	random = no
+	customizer = no
+
+	opposites =  {
+		fertile
+		infertile
+	}
+
+	fertility = -10
+	sex_appeal_opinion = -10
+	male_insult_adj = INSULT_IMPOTENT
+	female_insult_adj = INSULT_BARREN
+}
+
+infertile = {
+	birth = 100
+	#inherit_chance = 25 # Removed due to ban on heritable, fertility-affecting traits for realism reasons
+	#both_parent_has_trait_inherit_chance = 75
+
+	opposites = {
+		fertile
+		#sterile_secret # If a character becomes sterile, it's not made obvious by them losing a congenital trait
+		sterile_known
+	}
+
+	fertility = -0.25
+	trait_not_heritable = 1
+}

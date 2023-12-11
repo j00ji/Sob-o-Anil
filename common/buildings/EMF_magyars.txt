@@ -1,0 +1,39 @@
+# -*- ck2.buildings -*-
+tribal = {
+	tb_emf_magyar_1 = {
+		desc = tb_emf_magyar_desc
+		potential = {
+			OR = {
+				region = world_steppe
+				region = emf_region_etelkoz
+			}
+			FROM = {
+				religion = tengri_pagan
+				trigger_if = {
+					limit = { emf_has_swmh = yes }
+					culture = old_hungarian
+				}
+				trigger_else = {
+					culture = hungarian
+				}
+				OR = {
+					NOT = { has_global_flag = EMF }
+					top_liege = { in_revolt = yes }
+					top_liege = { has_landed_title = k_magyar }
+				}
+			}
+			NOT = { has_global_flag = emf_magyar_migration_completed }
+			year < 920
+			emf_alternate_start = no
+		}
+		trigger = {
+			TECH_RECRUITMENT = 0
+		}
+		gold_cost = 0
+		build_time = 0
+		levy_size = -0.5
+		ai_creation_factor = 0
+		extra_tech_building_start = 0 # Always
+	}
+}
+

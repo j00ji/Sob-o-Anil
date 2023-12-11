@@ -1,3 +1,5 @@
+# -*- ck2.minor_titles -*-
+
 ########################################################
 # MINOR TITLES
 # Characters can have any number of these
@@ -24,8 +26,9 @@ title_lighthouse_custodian = {
 	monthly_prestige = 0.1
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_lighthouse_custodian
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_lighthouse_custodian
+			is_active = yes
 		}
 	}
 	
@@ -41,6 +44,10 @@ title_lighthouse_custodian = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -70,12 +77,14 @@ title_stone_custodian = {
 	monthly_prestige = 0.1
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_stone_custodian
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_stone_custodian
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -87,6 +96,10 @@ title_stone_custodian = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -115,12 +128,14 @@ title_guardian_of_the_deep = {
 	monthly_prestige = 0.15
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_guardian_of_the_deep
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_guardian_of_the_deep
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		trait = dwarf
 		NOR = {
@@ -133,6 +148,10 @@ title_guardian_of_the_deep = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -162,12 +181,14 @@ title_watcher_of_giants = {
 	monthly_prestige = 0.1
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_watcher_of_giants
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_watcher_of_giants
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -181,6 +202,10 @@ title_watcher_of_giants = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -209,14 +234,15 @@ title_wall_walker = {
 	monthly_prestige = 0.1
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_wall_walker
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_wall_walker
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
-		age < 55
 		NOR = {
 			trait = incapable
 			trait = infirm
@@ -227,6 +253,10 @@ title_wall_walker = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -255,12 +285,14 @@ title_master_of_tides = {
 	monthly_prestige = 0.15
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_master_of_tides
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_master_of_tides
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -272,6 +304,10 @@ title_master_of_tides = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -300,12 +336,14 @@ title_master_of_games = {
 	monthly_prestige = 0.2
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_master_of_the_games
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_master_of_the_games
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -318,6 +356,10 @@ title_master_of_games = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -346,12 +388,14 @@ title_royal_custodian = {
 	monthly_prestige = 0.2
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_royal_custodian
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_royal_custodian
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -363,6 +407,10 @@ title_royal_custodian = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -391,12 +439,14 @@ title_guardian_of_knowledge = {
 	monthly_prestige = 0.2
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_guardian_of_knowledge
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_guardian_of_knowledge
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -409,6 +459,10 @@ title_guardian_of_knowledge = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -437,12 +491,14 @@ title_keeper_of_tomes = {
 	monthly_prestige = 0.2
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_keeper_of_tomes
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_keeper_of_tomes
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -455,6 +511,10 @@ title_keeper_of_tomes = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -483,12 +543,14 @@ title_keeper_of_the_dead = {
 	monthly_prestige = 0.2
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_keeper_of_the_dead
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_keeper_of_the_dead
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -500,6 +562,10 @@ title_keeper_of_the_dead = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -528,12 +594,14 @@ title_overseer_of_rites = {
 	monthly_prestige = 0.2
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_overseer_of_rites
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_overseer_of_rites
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -546,6 +614,10 @@ title_overseer_of_rites = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -574,12 +646,14 @@ title_custodian_of_the_mosque = {
 	monthly_prestige = 0.2
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_custodian_of_the_mosque
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_custodian_of_the_mosque
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -592,6 +666,10 @@ title_custodian_of_the_mosque = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -620,12 +698,14 @@ title_custodian_of_the_temple = {
 	monthly_prestige = 0.2
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_custodian_of_temple
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_custodian_of_temple
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -638,6 +718,10 @@ title_custodian_of_the_temple = {
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
+		}
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 
@@ -667,12 +751,14 @@ title_castellan = {
 	monthly_prestige = 0.2
 	
 	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_soaring_fortresses
+		any_realm_wonder_upgrade = {
+			has_wonder_upgrade_flag = unlocks_castellan
+			is_active = yes
 		}
 	}
 	
 	allowed_to_hold = {
+		emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		NOR = {
 			trait = incapable
@@ -685,52 +771,9 @@ title_castellan = {
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
-	}
-
-	revoke_trigger = {
-		always = yes
-	}
-	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
-	retire_effect = {
-	}
-	death_effect = {
-	}
-
-	message = yes
-}
-
-title_keeper_of_the_steps = {
-	dignity = 0.9
-	grant_limit = 1
-	opinion_effect = 5
-	revoke_allowed = yes
-	
-	monthly_prestige = 0.1
-	monthly_piety = 0.1
-	
-	allowed_to_grant = {
-		any_realm_wonder = {
-			has_wonder_upgrade = upgrade_selaron_steps
-		}
-	}
-	
-	allowed_to_hold = {
-		is_adult = yes
-		NOR = {
-			trait = incapable
-			trait = infirm
-			trait = imbecile
-			trait = in_hiding
-			trait = blinded
-		}
-		prisoner = no
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_commander_title_trigger = yes
+		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
+			limit = { liege = { is_merchant_republic = yes } }
+			emf_can_be_patrician_heir_if_can_inherit = no
 		}
 	}
 

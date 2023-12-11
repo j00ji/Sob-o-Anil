@@ -1,0 +1,1330 @@
+# -*- ck2.decisions -*-
+
+decisions = {
+	emf_toggle_employment = {
+		only_playable = yes
+		potential = {
+			ai = no
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_character_flag = emf_toggle_employment }
+				}
+				set_character_flag = emf_toggle_employment
+				break = yes
+			}
+			clr_character_flag = emf_toggle_employment
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	employ_priest = {
+		only_playable = yes
+		potential = {
+			OR = {
+				ai = yes
+				has_character_flag = emf_toggle_employment
+			}
+			OR = {
+				ai = no
+				has_autocephaly = yes
+				is_theocracy = yes
+				is_tribal = yes
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = HAVE_SUFFICIENT_WEALTH
+				scaled_wealth = { value = 0.25 min = 25 max = 100 }
+			}
+			custom_tooltip = {
+				text = NEEDS_25_PIETY_COST
+				piety = 25
+			}
+			in_seclusion = no
+			custom_tooltip = {
+				text = NOT_RECRUITED_COURTIER_ONE_MONTH
+				hidden_tooltip = {
+					NOT = { has_character_modifier = emf_employ_priest_timer }
+				}
+			}
+		}
+		effect = {
+			add_character_modifier = { name = emf_employ_priest_timer duration = 30 hidden = yes }
+			if = {
+				limit = { ai = no }
+				scaled_wealth = { value = -0.25 min = -25 max = -100 }
+				piety = -25
+			}
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 0
+						religion_allows_female_temple_holders = no
+					}
+					create_random_priest = {
+						random_traits = yes
+						dynasty = random
+						female = yes
+						attributes = {
+							diplomacy = 2
+							martial = 2
+							stewardship = 2
+							intrigue = 2
+							learning = 6
+						}
+					}
+				}
+				50 = {
+					modifier = {
+						factor = 0
+						religion_allows_male_temple_holders = no
+					}
+					create_random_priest = {
+						random_traits = yes
+						dynasty = random
+						female = no
+						attributes = {
+							diplomacy = 2
+							martial = 2
+							stewardship = 2
+							intrigue = 2
+							learning = 6
+						}
+					}
+				}
+			}
+			new_character = {
+				remove_trait = dull
+				emf_remove_lifestyle_traits = yes
+				random_list = {
+					1 = { }
+					4 = { change_diplomacy = 1 }
+					6 = { change_diplomacy = 2 }
+					4 = { change_diplomacy = 3 }
+					1 = { change_diplomacy = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_martial = 1 }
+					6 = { change_martial = 2 }
+					4 = { change_martial = 3 }
+					1 = { change_martial = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_stewardship = 1 }
+					6 = { change_stewardship = 2 }
+					4 = { change_stewardship = 3 }
+					1 = { change_stewardship = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_intrigue = 1 }
+					6 = { change_intrigue = 2 }
+					4 = { change_intrigue = 3 }
+					1 = { change_intrigue = 4 }
+				}
+				random_list = {
+					1  = { }
+					6  = { change_learning = 1 }
+					15 = { change_learning = 2 }
+					20 = { change_learning = 3 }
+					15 = { change_learning = 4 }
+					6  = { change_learning = 5 }
+					1  = { change_learning = 6 }
+				}
+				random = {
+					chance = 50
+					if = {
+						limit = { trait = scholarly_theologian }
+						random = {
+							chance = 50
+							remove_trait = scholarly_theologian
+							add_trait = mastermind_theologian
+						}
+					}
+					else_if = {
+						limit = { trait = martial_cleric }
+						remove_trait = martial_cleric
+						add_trait = scholarly_theologian
+					}
+					else_if = {
+						limit = { trait = detached_priest }
+						remove_trait = detached_priest
+						add_trait = martial_cleric
+					}
+				}
+				random_list = {
+					60 = { }
+					25 = {
+						trigger = { NOT = { trait = theologian } }
+						add_trait = theologian
+					}
+					15 = {
+						trigger = {
+							NOR = {
+								trait = faqih
+								trait = scholar
+							}
+						}
+						if = {
+							limit = { religion_group = muslim }
+							add_trait = faqih
+						}
+						else = {
+							add_trait = scholar
+						}
+					}
+					15 = {
+						trigger = { NOT = { trait = erudite } }
+						add_trait = erudite
+					}
+					5 = {
+						trigger = { NOT = { trait = shrewd } }
+						add_trait = shrewd
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							religion = cathar
+							religion = bogomilist
+						}
+					}
+					remove_trait = incapable
+					remove_trait = cynical
+					remove_trait = lustful
+					add_trait = zealous
+					add_trait = perfecti
+					set_character_flag = consolamentum_taken
+				}
+				
+				#If we have a wonder upgrade with "inpires_learning" flag, the priest will be better
+				if = {
+					limit = { ROOT = { realm_wonder_or_upgrade_has_flag_inspires_learning_trigger = yes } }
+					random_list = { 
+						15 = {
+							if = {
+								limit = { religion_group = muslim }
+								add_trait = faqih
+							}
+							else = {
+								add_trait = scholar
+							}
+							change_learning = 1
+						}
+						10 = {
+							if = {
+								limit = { religion_group = muslim }
+								add_trait = faqih
+							}
+							else = {
+								add_trait = scholar
+							}
+							change_learning = 2
+						}
+						 5 = {
+							if = {
+								limit = { religion_group = muslim }
+								add_trait = faqih
+							}
+							else = {
+								add_trait = scholar
+							}
+							change_learning = 3
+						}
+						10 = {
+							trigger = { NOT = { trait = erudite } }
+							add_trait = erudite
+						}
+						10 = {
+							trigger = { NOT = { trait = physician } }
+							add_trait = physician
+						}
+						10 = {
+							trigger = {
+								NOR = {
+									trait = scholarly_theologian
+									trait = mastermind_theologian
+								}
+							}
+							add_trait = scholarly_theologian
+						}
+						10 = {
+							trigger = { NOT = { trait = mastermind_theologian } }
+							add_trait = mastermind_theologian
+						}
+					}
+					random_list = {
+						50 = {  } # Nothing
+						10 = {
+							trigger = { NOT = { trait = shrewd } }
+							add_trait = shrewd
+						}
+						10 = {
+							trigger = { NOT = { trait = chaste } }
+							add_trait = chaste
+						}
+						10 = {
+							trigger = { NOT = { trait = poet } }
+							add_trait = poet
+						}
+						10 = {
+							trigger = {
+								NOR = {
+									trait = proud
+									trait = humble
+								}
+							}
+							add_trait = proud
+						}
+						10 = {
+							trigger = {
+								NOR = {
+									trait = proud
+									trait = humble
+								}
+							}
+							add_trait = humble
+						}
+					}
+				}
+				
+				emf_new_character_priest = yes
+				emf_dna_improve_homozygous_recessive_for_intelligence = yes
+				remove_trait = dim
+				remove_trait = slow
+				remove_trait = imbecile
+				save_event_target_as = invited_character
+			}
+			if = {
+				limit = { ai = yes }
+				change_variable = { which = "global_n_ai_employed_priests" value = 1 }
+			}
+			hidden_tooltip = { character_event = { id = NE.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOR = {
+					AND = {
+						has_autocephaly = yes
+						NOT = { job_spiritual = { always = yes } }
+					}
+					AND = {
+						is_theocracy = yes
+						NOT = {
+							any_courtier = {
+								religion = ROOT
+								has_education_learning_trigger = yes
+								count = 3
+							}
+						}
+					}
+					AND = {
+						is_tribal = yes
+						NOT = {
+							any_courtier = {
+								is_adult = yes
+								health = 4
+								religion = ROOT
+								culture = ROOT
+								is_ruler = no
+								trigger_if = {
+									limit = { is_female = yes }
+									religion_allows_female_temple_holders = yes
+								}
+								trigger_else = {
+									religion_allows_male_temple_holders = yes
+								}
+								OR = {
+									has_education_learning_trigger = yes
+									learning = 8
+								}
+								NOR = {
+									is_incapable = yes
+									trait = cynical
+									NOT = { ai_ambition = -39 }
+									trait = stressed
+									trait = depressed
+									is_dumb_trigger = yes
+									has_severe_disability_trigger = yes
+									any_heir_title = { always = yes }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	employ_steward = {
+		only_playable = yes
+		potential = {
+			ai = no
+			has_character_flag = emf_toggle_employment
+		}
+		allow = {
+			custom_tooltip = {
+				text = HAVE_SUFFICIENT_WEALTH
+				scaled_wealth = { value = 0.25 min = 25 max = 100 }
+			}
+			custom_tooltip = {
+				text = NEEDS_25_PRESTIGE_COST
+				prestige = 25
+			}
+			in_seclusion = no
+			custom_tooltip = {
+				text = NOT_RECRUITED_COURTIER_ONE_MONTH
+				NOT = { has_character_modifier = emf_employ_steward_timer }
+			}
+		}
+		effect = {
+			add_character_modifier = { name = emf_employ_steward_timer duration = 30 hidden = yes }
+			scaled_wealth = { value = -0.25 min = -25 max = -100 }
+			prestige = -25
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 0
+						NOT = { has_religion_feature = religion_matriarchal }
+						gender_equality_trigger = no
+					}
+					create_random_steward = {
+						random_traits = yes
+						dynasty = random
+						female = yes
+						attributes = {
+							diplomacy = 2
+							martial = 2
+							stewardship = 6
+							intrigue = 2
+							learning = 2
+						}
+					}
+				}
+				50 = {
+					modifier = {
+						factor = 0
+						has_religion_feature = religion_matriarchal
+					}
+					create_random_steward = {
+						random_traits = yes
+						dynasty = random
+						female = no
+						attributes = {
+							diplomacy = 2
+							martial = 2
+							stewardship = 6
+							intrigue = 2
+							learning = 2
+						}
+					}
+				}
+			}
+			new_character = {
+				remove_trait = dull
+				emf_remove_lifestyle_traits = yes
+				random_list = {
+					1 = { }
+					4 = { change_diplomacy = 1 }
+					6 = { change_diplomacy = 2 }
+					4 = { change_diplomacy = 3 }
+					1 = { change_diplomacy = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_martial = 1 }
+					6 = { change_martial = 2 }
+					4 = { change_martial = 3 }
+					1 = { change_martial = 4 }
+				}
+				random_list = {
+					1  = { }
+					6  = { change_stewardship = 1 }
+					15 = { change_stewardship = 2 }
+					20 = { change_stewardship = 3 }
+					15 = { change_stewardship = 4 }
+					6  = { change_stewardship = 5 }
+					1  = { change_stewardship = 6 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_intrigue = 1 }
+					6 = { change_intrigue = 2 }
+					4 = { change_intrigue = 3 }
+					1 = { change_intrigue = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_learning = 1 }
+					6 = { change_learning = 2 }
+					4 = { change_learning = 3 }
+					1 = { change_learning = 4 }
+				}
+				random = {
+					chance = 50
+					if = {
+						limit = { trait = fortune_builder }
+						random = {
+							chance = 50 # 1 out of 4 fortune_builders
+							remove_trait = fortune_builder
+							add_trait = midas_touched
+						}
+					}
+					else_if = {
+						limit = { trait = thrifty_clerk }
+						remove_trait = thrifty_clerk
+						add_trait = fortune_builder
+					}
+					else_if = {
+						limit = { trait = indulgent_wastrel }
+						remove_trait = indulgent_wastrel
+						add_trait = thrifty_clerk
+					}
+				}
+				random_list = {
+					50 = { }
+					15 = {
+						trigger = { NOT = { trait = gardener } }
+						add_trait = gardener
+					}
+					15 = {
+						trigger = { NOT = { trait = architect } }
+						add_trait = architect
+					}
+					15 = {
+						trigger = { NOT = { trait = administrator } }
+						add_trait = administrator
+					}
+					5 = {
+						trigger = { NOT = { trait = shrewd } }
+						add_trait = shrewd
+					}
+				}
+				emf_new_character_steward = yes
+				emf_dna_improve_homozygous_recessive_for_intelligence = yes
+				remove_trait = dim
+				remove_trait = slow
+				remove_trait = imbecile
+				save_event_target_as = invited_character
+			}
+			hidden_tooltip = {
+				character_event = { id = NE.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	emf_employ_soldier = {
+		only_playable = yes
+		potential = {
+			ai = no
+			has_character_flag = emf_toggle_employment
+		}
+		allow = {
+			custom_tooltip = {
+				text = HAVE_SUFFICIENT_WEALTH
+				scaled_wealth = { value = 0.25 min = 25 max = 100 }
+			}
+			custom_tooltip = {
+				text = NEEDS_25_PRESTIGE_COST
+				prestige = 25
+			}
+			in_seclusion = no
+			custom_tooltip = {
+				text = NOT_RECRUITED_COURTIER_ONE_MONTH
+				NOT = { has_character_modifier = emf_employ_soldier_timer }
+			}
+		}
+		effect = {
+			add_character_modifier = { name = emf_employ_soldier_timer duration = 30 hidden = yes }
+			scaled_wealth = { value = -0.25 min = -25 max = -100 }
+			prestige = -25
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 0
+						NOT = { has_religion_feature = religion_matriarchal }
+						gender_equality_trigger = no
+					}
+					create_random_soldier = {
+						random_traits = yes
+						dynasty = random
+						female = yes
+						attributes = {
+							diplomacy = 2
+							martial = 6
+							stewardship = 2
+							intrigue = 2
+							learning = 2
+						}
+					}
+				}
+				50 = {
+					modifier = {
+						factor = 0
+						has_religion_feature = religion_matriarchal
+					}
+					create_random_soldier = {
+						random_traits = yes
+						dynasty = random
+						female = no
+						attributes = {
+							diplomacy = 2
+							martial = 6
+							stewardship = 2
+							intrigue = 2
+							learning = 2
+						}
+					}
+				}
+			}
+			new_character = {
+				remove_trait = dull
+				emf_remove_lifestyle_traits = yes
+				random_list = {
+					1 = { }
+					4 = { change_diplomacy = 1 }
+					6 = { change_diplomacy = 2 }
+					4 = { change_diplomacy = 3 }
+					1 = { change_diplomacy = 4 }
+				}
+				random_list = {
+					1  = { }
+					6  = { change_martial = 1 }
+					15 = { change_martial = 2 }
+					20 = { change_martial = 3 }
+					15 = { change_martial = 4 }
+					6  = { change_martial = 5 }
+					1  = { change_martial = 6 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_stewardship = 1 }
+					6 = { change_stewardship = 2 }
+					4 = { change_stewardship = 3 }
+					1 = { change_stewardship = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_intrigue = 1 }
+					6 = { change_intrigue = 2 }
+					4 = { change_intrigue = 3 }
+					1 = { change_intrigue = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_learning = 1 }
+					6 = { change_learning = 2 }
+					4 = { change_learning = 3 }
+					1 = { change_learning = 4 }
+				}
+				random = {
+					chance = 50
+					if = {
+						limit = { trait = skilled_tactician }
+						random = {
+							chance = 40
+							remove_trait = skilled_tactician
+							add_trait = brilliant_strategist
+						}
+					}
+					else_if = {
+						limit = { trait = tough_soldier }
+						remove_trait = tough_soldier
+						add_trait = skilled_tactician
+					}
+					else_if = {
+						limit = { trait = misguided_warrior }
+						remove_trait = misguided_warrior
+						add_trait = tough_soldier
+					}
+				}
+				random_list = {
+					50 = { }
+					12 = {
+						trigger = { NOT = { trait = duelist } }
+						add_trait = duelist
+					}
+					12 = {
+						trigger = { NOT = { trait = hunter } }
+						add_trait = hunter
+					}
+					12 = {
+						trigger = { NOT = { trait = strategist } }
+						add_trait = strategist
+					}
+					8 = {
+						trigger = { NOT = { trait = robust } }
+						add_trait = robust
+					}
+					3 = { add_scarred_tiered_effect = yes }
+					3 = {
+						trigger = { NOT = { trait = imposing } }
+						add_trait = imposing
+					}
+					2  = {
+						trigger = { NOT = { trait = imposing } }
+						add_trait = imposing
+						add_scarred_tiered_effect = yes
+					}
+				}
+				if = {
+					limit = {
+						any_owned_bloodline = {
+							has_bloodline_flag = bloodline_inspire_commanders
+							bloodline_is_active_for = PREV
+						}
+					}
+					remove_trait = craven
+					change_diplomacy = 1
+					change_learning = 1
+					change_stewardship = 1
+					change_intrigue = 1
+					change_martial = 1
+					if = {
+						limit = { trait = skilled_tactician }
+						random = {
+							chance = 20
+							remove_trait = skilled_tactician
+							add_trait = brilliant_strategist
+						}
+					}
+					else_if = {
+						limit = { trait = tough_soldier }
+						random = {
+							chance = 50
+							remove_trait = tough_soldier
+							add_trait = skilled_tactician
+						}
+					}
+					else_if = {
+						limit = { trait = misguided_warrior }
+						remove_trait = misguided_warrior
+						add_trait = tough_soldier
+					}
+					random_list = {
+						50 = { }
+						12 = {
+							trigger = { NOT = { trait = duelist } }
+							add_trait = duelist
+						}
+						12 = {
+							trigger = { NOT = { trait = hunter } }
+							add_trait = hunter
+						}
+						12 = {
+							trigger = { NOT = { trait = strategist } }
+							add_trait = strategist
+						}
+						8 = {
+							trigger = { NOT = { trait = robust } }
+							add_trait = robust
+						}
+						3 = { add_scarred_tiered_effect = yes }
+						3 = {
+							trigger = { NOT = { trait = imposing } }
+							add_trait = imposing
+						}
+						2  = {
+							trigger = { NOT = { trait = imposing } }
+							add_trait = imposing
+							add_scarred_tiered_effect = yes
+						}
+					}
+				}
+				if = {
+					limit = { has_dlc = "Reapers" }
+					random = {
+						chance = 3
+						add_trait = one_eyed
+					}
+				}
+				emf_new_character_noble = yes
+				emf_dna_improve_homozygous_recessive_for_intelligence = yes
+				remove_trait = dim
+				remove_trait = slow
+				remove_trait = imbecile
+				emf_dna_improve_homozygous_recessive_for_strength = yes
+				remove_trait = delicate
+				remove_trait = weak
+				set_character_flag = invited_soldier
+				save_event_target_as = invited_character
+			}
+			hidden_tooltip = {
+				character_event = { id = NE.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	emf_employ_spy = {
+		only_playable = yes
+		potential = {
+			ai = no
+			has_character_flag = emf_toggle_employment
+		}
+		allow = {
+			custom_tooltip = {
+				text = HAVE_SUFFICIENT_WEALTH
+				scaled_wealth = { value = 0.25 min = 25 max = 100 }
+			}
+			custom_tooltip = {
+				text = NEEDS_25_PRESTIGE_COST
+				prestige = 25
+			}
+			in_seclusion = no
+			custom_tooltip = {
+				text = NOT_RECRUITED_COURTIER_ONE_MONTH
+				NOT = { has_character_modifier = emf_employ_spy_timer }
+			}
+		}
+		effect = {
+			add_character_modifier = { name = emf_employ_spy_timer duration = 30 hidden = yes }
+			scaled_wealth = { value = -0.25 min = -25 max = -100 }
+			prestige = -25
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 0
+						NOT = { has_religion_feature = religion_matriarchal }
+						gender_equality_trigger = no
+					}
+					create_random_intriguer = {
+						random_traits = yes
+						dynasty = random
+						female = yes
+						attributes = {
+							diplomacy = 2
+							martial = 2
+							stewardship = 2
+							intrigue = 6
+							learning = 2
+						}
+					}
+				}
+				50 = {
+					modifier = {
+						factor = 0
+						has_religion_feature = religion_matriarchal
+					}
+					create_random_intriguer = {
+						random_traits = yes
+						dynasty = random
+						female = no
+						attributes = {
+							diplomacy = 2
+							martial = 2
+							stewardship = 2
+							intrigue = 6
+							learning = 2
+						}
+					}
+				}
+			}
+			new_character = {
+				remove_trait = dull
+				emf_remove_lifestyle_traits = yes
+				random_list = {
+					1 = { }
+					4 = { change_diplomacy = 1 }
+					6 = { change_diplomacy = 2 }
+					4 = { change_diplomacy = 3 }
+					1 = { change_diplomacy = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_martial = 1 }
+					6 = { change_martial = 2 }
+					4 = { change_martial = 3 }
+					1 = { change_martial = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_stewardship = 1 }
+					6 = { change_stewardship = 2 }
+					4 = { change_stewardship = 3 }
+					1 = { change_stewardship = 4 }
+				}
+				random_list = {
+					1  = { }
+					6  = { change_intrigue = 1 }
+					15 = { change_intrigue = 2 }
+					20 = { change_intrigue = 3 }
+					15 = { change_intrigue = 4 }
+					6  = { change_intrigue = 5 }
+					1  = { change_intrigue = 6 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_learning = 1 }
+					6 = { change_learning = 2 }
+					4 = { change_learning = 3 }
+					1 = { change_learning = 4 }
+				}
+				random = {
+					chance = 50
+					if = {
+						limit = { trait = intricate_webweaver }
+						random = {
+							chance = 50 # 1 out of 4 intricate_webweavers
+							remove_trait = intricate_webweaver
+							add_trait = elusive_shadow
+						}
+					}
+					else_if = {
+						limit = { trait = flamboyant_schemer }
+						remove_trait = flamboyant_schemer
+						add_trait = intricate_webweaver
+					}
+					else_if = {
+						limit = { trait = amateurish_plotter }
+						remove_trait = amateurish_plotter
+						add_trait = flamboyant_schemer
+					}
+				}
+				random_list = {
+					50 = { }
+					15 = {
+						trigger = { NOT = { trait = schemer } }
+						add_trait = schemer
+					}
+					15 = {
+						trigger = { NOT = { trait = impaler } }
+						add_trait = impaler
+					}
+					15 = {
+						trigger = {
+							NOR = {
+								trait = seducer
+								trait = seductress
+							}
+						}
+						if = {
+							limit = { is_female = yes }
+							add_trait = seductress
+						}
+						else = {
+							add_trait = seducer
+						}
+					}
+					5 = {
+						trigger = { NOT = { trait = shrewd } }
+						add_trait = shrewd
+					}
+				}
+				if = {
+					limit = { emf_religion_has_castes = yes }
+					emf_copy_caste_from_ROOT = yes
+				}
+				emf_new_character = yes
+				emf_dna_improve_homozygous_recessive_for_intelligence = yes
+				remove_trait = dim
+				remove_trait = slow
+				remove_trait = imbecile
+				save_event_target_as = invited_character
+			}
+			hidden_tooltip = {
+				character_event = { id = NE.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	emf_employ_diplomat = {
+		only_playable = yes
+		potential = {
+			ai = no
+			has_character_flag = emf_toggle_employment
+		}
+		allow = {
+			custom_tooltip = {
+				text = HAVE_SUFFICIENT_WEALTH
+				scaled_wealth = { value = 0.25 min = 25 max = 100 }
+			}
+			custom_tooltip = {
+				text = NEEDS_25_PRESTIGE_COST
+				prestige = 25
+			}
+			in_seclusion = no
+			custom_tooltip = {
+				text = NOT_RECRUITED_COURTIER_ONE_MONTH
+				NOT = { has_character_modifier = emf_employ_diplomat_timer }
+			}
+		}
+		effect = {
+			add_character_modifier = { name = emf_employ_diplomat_timer duration = 30 hidden = yes }
+			scaled_wealth = { value = -0.25 min = -25 max = -100 }
+			prestige = -25
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 0
+						NOT = { has_religion_feature = religion_matriarchal }
+						gender_equality_trigger = no
+					}
+					create_random_diplomat = {
+						random_traits = yes
+						dynasty = random
+						female = yes
+						attributes = {
+							diplomacy = 6
+							martial = 2
+							stewardship = 2
+							intrigue = 2
+							learning = 2
+						}
+					}
+				}
+				50 = {
+					modifier = {
+						factor = 0
+						has_religion_feature = religion_matriarchal
+					}
+					create_random_diplomat = {
+						random_traits = yes
+						dynasty = random
+						female = no
+						attributes = {
+							diplomacy = 6
+							martial = 2
+							stewardship = 2
+							intrigue = 2
+							learning = 2
+						}
+					}
+				}
+			}
+			new_character = {
+				remove_trait = dull
+				emf_remove_lifestyle_traits = yes
+				random_list = {
+					1  = { }
+					6  = { change_diplomacy = 1 }
+					15 = { change_diplomacy = 2 }
+					20 = { change_diplomacy = 3 }
+					15 = { change_diplomacy = 4 }
+					6  = { change_diplomacy = 5 }
+					1  = { change_diplomacy = 6 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_martial = 1 }
+					6 = { change_martial = 2 }
+					4 = { change_martial = 3 }
+					1 = { change_martial = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_stewardship = 1 }
+					6 = { change_stewardship = 2 }
+					4 = { change_stewardship = 3 }
+					1 = { change_stewardship = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_intrigue = 1 }
+					6 = { change_intrigue = 2 }
+					4 = { change_intrigue = 3 }
+					1 = { change_intrigue = 4 }
+				}
+				random_list = {
+					1 = { }
+					4 = { change_learning = 1 }
+					6 = { change_learning = 2 }
+					4 = { change_learning = 3 }
+					1 = { change_learning = 4 }
+				}
+				random = {
+					chance = 50
+					if = {
+						limit = { trait = charismatic_negotiator }
+						random = {
+							chance = 50 # 1 out of 4 charismatic_negotiators
+							remove_trait = charismatic_negotiator
+							add_trait = grey_eminence
+						}
+					}
+					else_if = {
+						limit = { trait = underhanded_rogue }
+						remove_trait = underhanded_rogue
+						add_trait = charismatic_negotiator
+					}
+					else_if = {
+						limit = { trait = naive_appeaser }
+						remove_trait = naive_appeaser
+						add_trait = underhanded_rogue
+					}
+				}
+				random_list = {
+					50 = { }
+					15 = {
+						trigger = { NOT = { trait = socializer } }
+						add_trait = socializer
+					}
+					15 = {
+						trigger = { NOT = { trait = gamer } }
+						add_trait = gamer
+					}
+					15 = {
+						trigger = {
+							NAND = {
+								trait = gregarious
+								trait = groomed
+							}
+						}
+						add_trait = gregarious
+						add_trait = groomed
+					}
+					5 = {
+						trigger = { NOT = { trait = shrewd } }
+						add_trait = shrewd
+					}
+				}
+				if = {
+					limit = { emf_religion_has_castes = yes }
+					emf_copy_caste_from_ROOT = yes
+				}
+				emf_new_character = yes
+				emf_dna_improve_homozygous_recessive_for_intelligence = yes
+				remove_trait = dim
+				remove_trait = slow
+				remove_trait = imbecile
+				save_event_target_as = invited_character
+			}
+			hidden_tooltip = {
+				character_event = { id = NE.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	present_debutante = {
+		ai = no
+		only_playable = yes
+		
+		potential = {
+			has_character_flag = emf_toggle_employment
+			NOT = { has_religion_feature = religion_matriarchal }
+		}
+		allow = {
+			custom_tooltip = {
+				text = HAVE_SUFFICIENT_WEALTH
+				scaled_wealth = { value = 0.2 min = 20 max = 100 }
+			}
+			custom_tooltip = {
+				text = NEEDS_10_PRESTIGE_COST
+				prestige = 10
+			}
+			in_seclusion = no
+			custom_tooltip = {
+				text = NOT_RECRUITED_COURTIER_ONE_MONTH
+				NOT = { has_character_modifier = emf_present_debutante_timer }
+			}
+		}
+		effect = {
+			add_character_modifier = { name = emf_present_debutante_timer duration = 30 hidden = yes }
+			scaled_wealth = { value = -0.2 min = -20 max = -100 }
+			prestige = -10
+			create_character = {
+				random_traits = yes
+				dynasty = actually_culture
+				female = yes
+				age = 16
+			}
+			new_character = {
+				remove_trait = dull
+				remove_trait = inbred
+				random_list = {
+					1 = { }
+					3 = { add_age = 1 }
+					3 = { add_age = 2 }
+					1 = { add_age = 3 }
+				}
+				random_list = {
+					50 = { }
+					5 = {
+						add_trait = shy
+						add_trait = humble
+						change_diplomacy = 3
+					}
+					5 = {
+						trigger = { NOT = { trait = tall } }
+						add_trait = tall
+					}
+					5 = {
+						trigger = { NOT = { trait = calm_voice } }
+						add_trait = calm_voice
+					}
+					10 = {
+						trigger = { NOT = { trait = melodious_voice } }
+						add_trait = melodious_voice
+					}
+					10 = {
+						trigger = { NOT = { trait = fertile } }
+						add_trait = fertile
+					}
+					20 = {
+						trigger = { NOT = { trait = fair } }
+						add_trait = fair
+					}
+					3 = {
+						trigger = {
+							NAND = {
+								trait = fertile
+								trait = fair
+							}
+						}
+						add_trait = fertile
+						add_trait = fair
+					}
+				}
+				if = {
+					limit = { emf_religion_has_castes = yes }
+					emf_copy_caste_from_ROOT = yes
+				}
+				emf_new_character = yes
+				emf_dna_remove_negative_mendelian_traits_with_genetics = yes
+				emf_dna_improve_homozygous_recessive_for_intelligence = yes
+				remove_trait = dim
+				remove_trait = slow
+				remove_trait = imbecile
+				emf_dna_improve_homozygous_recessive_for_attractiveness = yes
+				remove_trait = homely
+				remove_trait = ugly
+				set_character_flag = debutante
+				save_event_target_as = invited_character
+			}
+			hidden_tooltip = {
+				character_event = { id = NE.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	present_bachelor = {
+		ai = no
+		only_playable = yes
+		
+		potential = {
+			has_character_flag = emf_toggle_employment
+			OR = {
+				has_religion_feature = religion_matriarchal
+				gender_equality_trigger = yes
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = HAVE_SUFFICIENT_WEALTH
+				scaled_wealth = { value = 0.2 min = 20 max = 100 }
+			}
+			custom_tooltip = {
+				text = NEEDS_10_PRESTIGE_COST
+				prestige = 10
+			}
+			in_seclusion = no
+			custom_tooltip = {
+				text = NOT_RECRUITED_COURTIER_ONE_MONTH
+				NOT = { has_character_modifier = emf_present_debutante_timer }
+			}
+		}
+		effect = {
+			add_character_modifier = { name = emf_present_debutante_timer duration = 30 hidden = yes }
+			scaled_wealth = { value = -0.2 min = -20 max = -100 }
+			prestige = -10
+			create_character = {
+				random_traits = yes
+				dynasty = actually_culture
+				female = no
+				age = 16
+			}
+			new_character = {
+				remove_trait = dull
+				remove_trait = inbred
+				random_list = {
+					1 = { }
+					3 = { add_age = 1 }
+					3 = { add_age = 2 }
+					1 = { add_age = 3 }
+				}
+				random_list = {
+					50 = { }
+					5 = {
+						add_trait = shy
+						add_trait = humble
+						change_diplomacy = 3
+					}
+					5 = {
+						trigger = { NOT = { trait = tall } }
+						add_trait = tall
+					}
+					5 = {
+						trigger = { NOT = { trait = calm_voice } }
+						add_trait = calm_voice
+					}
+					10 = {
+						trigger = { NOT = { trait = melodious_voice } }
+						add_trait = melodious_voice
+					}
+					10 = {
+						trigger = { NOT = { trait = fertile } }
+						add_trait = fertile
+					}
+					20 = {
+						trigger = { NOT = { trait = fair } }
+						add_trait = fair
+					}
+					3 = {
+						trigger = {
+							NAND = {
+								trait = fertile
+								trait = fair
+							}
+						}
+						add_trait = fertile
+						add_trait = fair
+					}
+				}
+				if = {
+					limit = { emf_religion_has_castes = yes }
+					emf_copy_caste_from_ROOT = yes
+				}
+				emf_new_character = yes
+				emf_dna_remove_negative_mendelian_traits_with_genetics = yes
+				emf_dna_improve_homozygous_recessive_for_intelligence = yes
+				remove_trait = dim
+				remove_trait = slow
+				remove_trait = imbecile
+				emf_dna_improve_homozygous_recessive_for_attractiveness = yes
+				remove_trait = homely
+				remove_trait = ugly
+				set_character_flag = debutante
+				save_event_target_as = invited_character
+			}
+			hidden_tooltip = {
+				character_event = { id = NE.1 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+

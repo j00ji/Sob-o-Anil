@@ -1,0 +1,93 @@
+# -*- ck2.scripted_effects -*-
+
+emf_become_sterile = {
+	if = {
+		limit = { NOT = { trait = sterile_known } }
+		if = {
+			limit = {
+				OR = {
+					is_married = yes
+					is_consort = yes
+					is_senior_consort_party = yes
+					has_lover = yes
+				}
+			}
+			add_trait = sterile_secret
+		}
+		else = {
+			set_flag = emf_is_sterile # Makes sure the AI doesn't magically avoid marrying this character
+		}
+	}
+}
+
+emf_increase_fertility = {
+	fertility = 0.05
+	hidden_effect = {
+		change_variable = { which = emf_sterile_progress value = -0.05 }
+	}
+}
+
+emf_reduce_fertility = {
+	fertility = -0.05
+	hidden_effect = {
+		change_variable = { which = emf_sterile_progress value = 0.05 }
+		if = {
+			limit = { emf_is_sterile_trigger = no }
+			if = {
+				limit = {
+					trigger_if = {
+						limit = { trait = fertile }
+						check_variable = { which = emf_sterile_progress value = 0.75 }
+					}
+					trigger_else_if = {
+						limit = { trait = infertile }
+						check_variable = { which = emf_sterile_progress value = 0.25 }
+					}
+					trigger_else = {
+						check_variable = { which = emf_sterile_progress value = 0.5 }
+					}
+				}
+				emf_become_sterile = yes
+			}
+		}
+	}
+}
+
+emf_fertility_testing = {
+	random_list = {
+		20 = {
+			modifier = {
+				factor = 0.75
+				FROM = { NOT = { learning = 5 } }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { NOT = { learning = 8 } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { learning = 12 }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { learning = 14 }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { learning = 16 }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { learning = 18 }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { learning = 20 }
+			}
+		}
+		10 = { health = -0.5 }
+		10 = { add_symptom_effect = yes }
+		5 = { emf_reduce_fertility = yes }
+	}
+}
+
