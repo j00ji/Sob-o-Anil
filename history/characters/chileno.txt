@@ -1638,3 +1638,30 @@
 	2353.1.1={birth=yes employer=250001}
 	2400.1.1={death=yes}
 }
+250013={	
+	name=Alonso
+	dynasty=155034
+	martial=2
+	diplomacy=3
+	stewardship=5
+	intrigue=3
+	learning=6
+	culture=centrino
+	religion=catholic
+	trait=wroth
+	trait=diligent
+	trait=erudite
+	trait=slothful
+	trait=groomed
+	trait=mastermind_theologian
+	2349.3.9={
+		birth=yes
+	}
+	2359.3.9={
+	employer=230006
+	}
+	2401.9.29={
+		death=yes
+	}
+	
+}
