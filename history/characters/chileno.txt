@@ -1648,8 +1648,7 @@
 	learning=6
 	culture=centrino
 	religion=catholic
-	trait=wroth
-	trait=diligent
+	trait=calm
 	trait=erudite
 	trait=slothful
 	trait=groomed
