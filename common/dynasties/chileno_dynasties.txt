@@ -1039,3 +1039,10 @@
 	culture = sureno
 	religion = catholic
 }
+155034 = {
+	name = "Poncho"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
