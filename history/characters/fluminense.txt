@@ -57,6 +57,23 @@
 	2333.9.9={birth=yes}
 	2400.1.1={death=yes}
 }
+
+70025={
+    name="Renata"
+    dynasty=35044 # Garcia
+    religion=evangelical
+    female=yes
+    secret_religion=kardecist
+    culture=carioca
+    add_trait=scholar
+    add_trait=wroth
+    add_trait=kind
+	employer=70001
+    2348.6.6={
+        birth=yes
+    2400.1.1={death=yes}
+}
+
 70003={
 	name="Artur"
 	dynasty=35023
@@ -153,6 +170,22 @@
 	2349.8.18={birth=yes}
 	2400.1.1={death=yes}
 }
+
+70027={
+    name="Lucas"
+    dynasty=55582 # Calazans
+    religion=evangelical
+    culture=carioca
+    add_trait=kind
+    add_trait=gregarious
+    add_trait=charitable
+	employer=70010
+    2349.29.4={
+        birth=yes
+    }
+    2400.1.1={death=yes}
+} 
+
 70007={
 	name="Gabriel"
 	dynasty=35008
@@ -268,6 +301,21 @@
 	}
 	2400.1.1={death=yes}
 }
+
+70027={
+    name="Lucas"
+    dynasty=55582 # Calazans
+    religion=evangelical
+    culture=carioca
+    add_trait=kind
+    add_trait=gregarious
+    add_trait=charitable
+    2349.29.4={
+        birth=yes
+    }
+    2400.1.1={death=yes}
+}
+
 70012={
 	name="Daniel"
 	dynasty=35040
@@ -666,6 +714,25 @@
 	}
 	2400.1.1={death=yes}
 }
+
+70026={
+    name="Ana"
+    dynasty=35045 # Oliveira
+    female=yes
+    religion=apostolic
+    culture=mantiqueiro
+    martial=8
+    add_trait=sturdy
+    add_trait=humble
+    add_trait=paranoid
+	employer=70001
+
+    2343.15.4={
+        birth=yes
+    }
+    2400.1.1={death=yes}
+}
+
 80003={
 	name="Lais"
 	dynasty=40001
