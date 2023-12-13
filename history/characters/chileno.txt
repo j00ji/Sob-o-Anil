@@ -1649,6 +1649,7 @@
 	culture=centrino
 	religion=catholic
 	trait=calm
+	trait=shrewd
 	trait=erudite
 	trait=slothful
 	trait=groomed
@@ -1659,6 +1660,7 @@
 	2359.3.9={
 	employer=230006
 	}
+	2369.1.1={effect={add_friend=230006}}
 	2401.9.29={
 		death=yes
 	}
