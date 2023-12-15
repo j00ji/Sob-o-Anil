@@ -1,5 +1,3 @@
-# -*- ck2.minor_titles -*-
-
 ########################################################
 # MINOR TITLES
 # Characters can have any number of these
@@ -19,16 +17,15 @@
 #######################################
 # HARD: AUTO-GRANTED - DO NOT REMOVE!
 #######################################
-
 title_regent = {
 	realm_in_name = yes
 	dignity = 0.9
 	revoke_allowed = no
 	is_voter = yes
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 1.50
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -51,14 +48,10 @@ title_appointed_regent = {
 	allowed_to_hold = {
 		is_adult = yes
 		prisoner = no
-		is_incapable = no
+		NOT = { trait = incapable }
 		has_regent = no
-		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
-			limit = { liege = { is_merchant_republic = yes } }
-			emf_can_be_patrician_heir_if_can_inherit = no
-		}
 	}
-
+	
 	allowed_to_grant = {
 		has_regent = no
 		NOT = {
@@ -68,7 +61,6 @@ title_appointed_regent = {
 			}
 		}
 	}
-	
 	revoke_trigger = {
 		FROM = { has_regent = no }
 	}
@@ -87,13 +79,13 @@ title_ruler_consort = {
 	realm_in_name = yes
 	spouse_context = yes # Title name as if the other gender version of the spouse's ruler title
 	revoke_allowed = no
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.5
-
+	
 	gain_effect = {
 	}
-
+	
 	lose_effect = {
 	}
 
@@ -105,10 +97,10 @@ title_tanist = {
 	show_as_title = yes
 	realm_in_name = yes
 	revoke_allowed = no
-
+	
 	monthly_salary = 0.07
 	monthly_prestige = 0.75
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -122,10 +114,10 @@ title_queen_mother = {
 	show_as_title = yes
 	realm_in_name = yes
 	revoke_allowed = no
-
+	
 	monthly_salary = 0.05
 	monthly_prestige = 1.00
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -139,10 +131,10 @@ title_prince = {
 	show_as_title = yes
 	realm_in_name = yes
 	revoke_allowed = no
-
+	
 	monthly_salary = 0.05
 	monthly_prestige = 0.25
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -154,12 +146,12 @@ title_prince = {
 # Pagan consort
 title_courtesan = {
 	dignity = 0.05
-#	realm_in_name = yes
+	#realm_in_name = yes
 	revoke_allowed = no
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.10
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -187,21 +179,42 @@ title_male_consort = {
 # Commander, granted via its own interaction, so very special
 title_commander = {
 	is_high_prio = yes
-
+	
 	attribute = martial
 	dignity = 0.05
 	opinion_effect = 5
 	realm_in_name = yes
-
+	
 	monthly_salary = 0.05
 	monthly_prestige = 0.50
 	#combat_rating = 10 # Reactivate if we get this working
-
+	
 	revoke_allowed = no # Handled by diplomatic interaction
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
-		can_be_marshal_trigger = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		liege = { character = FROM }
+		OR = {
+			AND = {
+				OR = {
+					male_can_hold_minor_title_trigger = yes
+					female_can_hold_minor_commander_title_trigger = yes
+				}
+				OR = {
+					NOT = { religion = hindu }
+					trait = kshatriya
+				}
+				is_adult = yes
+			}
+			has_character_flag = special_marshal
+		}
+		
+		prisoner = no
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		NOT = { has_character_flag = guru }
 		NOT = { has_character_modifier = refusing_to_lead }
 		OR = { 
 			NOT = { liege = { has_law = succ_byzantine_elective } }  #Either not Imperial...
@@ -209,11 +222,31 @@ title_commander = {
 			NOT = { #...Or there are no valid vassal candidates that can be commanders.
 				custom_tooltip = { 
 					text = tooltip_byzantine_empire_can_appoint_commanders
-					liege = {
+					liege = { 
 						any_vassal = { 
 							higher_real_tier_than = BARON
-							emf_minor_title_basic_allowed_to_hold = yes
-							can_be_marshal_trigger = yes
+							NOT = { 
+								primary_title = { temporary = yes } 
+							}
+							OR = {
+								AND = {
+									OR = {
+										male_can_hold_minor_title_trigger = yes
+										female_can_hold_minor_commander_title_trigger = yes
+									}
+									OR = {
+										NOT = { religion = hindu }
+										trait = kshatriya
+									}
+									is_adult = yes
+								}
+								has_character_flag = special_marshal
+							}
+							
+							prisoner = no
+							NOT = { trait = incapable }
+							NOT = { is_inaccessible_trigger = yes }
+							NOT = { has_character_flag = guru }
 							NOT = { has_character_modifier = refusing_to_lead }
 							NOR = {
 								has_job_title = job_chancellor
@@ -229,10 +262,14 @@ title_commander = {
 			}
 		}
 	}
-
+	
 	gain_effect = {
 		if = {
-			limit = { liege = { has_law = succ_byzantine_elective } }
+			limit = {
+				liege = { 
+					has_law = succ_byzantine_elective 
+				}
+			}
 			character_event = { id = HFP.20805 days = 1 } 
 		}
 		hidden_effect = { # Because this cannot be added in the passive effects, for some code reason
@@ -242,46 +279,20 @@ title_commander = {
 	        	hidden = yes
 	        }
 		}
-		if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
-			limit = {
-				liege = { is_merchant_republic = yes }
-				emf_can_be_patrician_heir_if_can_inherit = yes
-			}
-			custom_tooltip = {
-				text = emf_ctt_no_monthly_minor_title_for_mr_patrician_heir_candidates
-				add_character_modifier = {
-					name = emf_cancel_commander_monthly_prestige
-					duration = -1
-					hidden = yes
-				}
-			}
-		}
 	}
 	lose_effect = {
 		if = {
 			limit = {
 				liege = { has_law = succ_byzantine_elective }
-				emf_minor_title_basic_allowed_to_hold = yes
-				NOR = {
-					is_incapable = yes
-					trait = in_hiding
-					has_character_modifier = in_seclusion
-					AND = {
-						prisoner = yes
-						NOT = { liege = { PREV = { host = { character = PREVPREV } } } }
-					}
-				}
-				NOT = { has_character_modifier = refusing_to_lead }
 			}
 			character_event = { id = HFP.20803 days = 1 } #Make sure the commander is not being made a sub-vassal.
 			
 		}
 		hidden_effect = {
 			remove_character_modifier = hidden_commander_bonus
-			remove_character_modifier = emf_cancel_commander_monthly_prestige
 		}
 	}
-
+	
 	message = yes
 }
 
@@ -294,16 +305,18 @@ title_court_eunuch = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.25
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		trait = eunuch
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -311,13 +324,14 @@ title_court_eunuch = {
 		}
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
 		}
-		emf_has_roman_empire = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -331,16 +345,18 @@ title_court_dwarf = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.25
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		trait = dwarf
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -348,12 +364,12 @@ title_court_dwarf = {
 		}
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
-		}
+		}	
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -367,18 +383,20 @@ title_court_jester = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = -5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = -0.25
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		NOT = { has_character_flag = guru }
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -386,8 +404,8 @@ title_court_jester = {
 		}
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
 		}
 		OR = {
@@ -397,7 +415,7 @@ title_court_jester = {
 			has_dharmic_religion_trigger = yes
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -412,18 +430,20 @@ title_keeper_of_swans = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.01
 	monthly_prestige = 0.50
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -431,17 +451,18 @@ title_keeper_of_swans = {
 		}
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
 		}
-		emf_has_roman_empire = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -455,34 +476,37 @@ title_master_of_the_horse = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		emf_has_roman_empire = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -496,30 +520,33 @@ title_master_of_the_hunt = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = {
+			primary_title = { temporary = yes }
+		}
 		is_adult = yes
 		OR = {
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { has_character_flag = guru }
-		is_incapable = no
+		NOT = { trait = incapable }
 		NOT = { religion = jain }
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		emf_has_roman_empire = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -527,7 +554,7 @@ title_master_of_the_hunt = {
 		}
 		NOT = { religion = jain }
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -541,30 +568,33 @@ title_high_almoner = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		emf_has_roman_empire = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -578,31 +608,33 @@ title_cupbearer = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.05
 	monthly_prestige = 0.60
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
-		is_adult = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		OR = {
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
 		NOT = { has_character_flag = guru }
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-		emf_has_roman_empire = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -616,23 +648,25 @@ title_seneschal = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.05
 	monthly_prestige = 0.60
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
 		NOT = { has_character_flag = guru }
-		is_incapable = no
+		NOT = { trait = incapable }
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -640,18 +674,19 @@ title_seneschal = {
 		}
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
 		}
-		emf_has_roman_empire = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 			has_dharmic_religion_trigger = yes
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -662,17 +697,13 @@ title_seneschal = {
 
 title_paramount_knight = {
 	dignity = 0.8
-	grant_limit = 0
+	grant_limit = 0 
 	opinion_effect = 0
 
 	monthly_prestige = 1.50
-
+	
 	allowed_to_hold = {
-		is_incapable = no
-		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
-			limit = { liege = { is_merchant_republic = yes } }
-			emf_can_be_patrician_heir_if_can_inherit = no
-		}
+		NOT = { trait = incapable } 
 	}
 
 	gain_effect = {
@@ -685,43 +716,46 @@ title_paramount_knight = {
 
 # Byzantine Titles
 title_despot = {
-	dignity = 6
+	dignity = 6.0
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 30
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.5
-
+	
 	counts_as_purple_born = yes
-
+	
 	show_as_title = yes
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		OR = {
-			is_close_relative = FROM
-			is_nibling_of = FROM
-			is_aunt_uncle_of = FROM
-			is_cousin_of = FROM
-		}
-		is_incapable = no
-		# Ensure that it is possible for the character to inherit the ERE/RE:
-		emf_can_inherit = yes
-		# Standard stuff:
 		OR = {
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
-			liege = { succ_law_title = { has_law = true_cognatic_succession } }
+			has_law = true_cognatic_succession
+		}
+		is_close_relative = FROM
+		NOT = { trait = monk }
+		NOT = { trait = nun }
+		NOT = { trait = eunuch }
+		is_theocracy = no
+	}
+	
+	allowed_to_grant = {
+		is_feudal = yes
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = pagan_group
 		}
 	}
-
-	allowed_to_grant = {
-		primary_title = { emf_is_roman_empire = yes }
-		is_feudal = yes
-	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -735,34 +769,34 @@ title_sebastokrator = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.25
 	
 	show_as_title = yes
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
-		OR = {
-			is_close_relative = FROM
-			is_nibling_of = FROM
-			is_aunt_uncle_of = FROM
-			is_cousin_of = FROM
+		NOT = { 
+			primary_title = { temporary = yes } 
 		}
+		is_close_relative = FROM
 	}
-
+	
 	allowed_to_grant = {
 		is_feudal = yes
-		emf_has_roman_empire = yes
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 			religion_group = pagan_group
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -776,28 +810,31 @@ title_caesar = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.25
 	
 	show_as_title = yes
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		always = yes
 	}
-
+	
 	allowed_to_grant = {
 		is_feudal = yes
-		emf_has_roman_empire = yes
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 			religion_group = pagan_group
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -811,31 +848,36 @@ title_kouropalates = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
 	}
-
+	
 	allowed_to_grant = {
 		is_feudal = yes
-		emf_has_roman_empire = yes
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 			religion_group = pagan_group
 		}
 	}
-
+		
 	gain_effect = {
 	}
 	lose_effect = {
@@ -845,35 +887,40 @@ title_kouropalates = {
 }
 
 title_anthypatos = {
-	dignity = 3
+	dignity = 3.0
 	grant_limit = 5
-	opinion_effect = 5
-
+	opinion_effect = 10
+	
 	monthly_salary = 0.005
 	monthly_prestige = 0.25
 	
 	show_as_title = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
-		is_adult = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		NOT = { has_minor_title = title_hypatos }
-		OR = {
+		is_adult = yes	
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
 	}
-
+	
 	allowed_to_grant = {
 		is_feudal = yes
-		emf_has_roman_empire = yes
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 			religion_group = pagan_group
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -886,25 +933,30 @@ title_imperial_eunuch = {
 	dignity = 0.050
 	grant_limit = 1
 	opinion_effect = 30
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.35
 	
 	show_as_title = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		is_female = no
 		trait = eunuch
 	}
-
+	
 	allowed_to_grant = {
-		real_tier = emperor
+		real_tier = emperor	
 		is_feudal = yes
-		emf_has_roman_empire = yes
-	}
-
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+	}	
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -920,21 +972,23 @@ title_food_taster = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = -0.25
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -942,13 +996,13 @@ title_food_taster = {
 		}
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
 		}
 		religion_group = muslim
 	}
-
+		
 	gain_effect = {
 	}
 	lose_effect = {
@@ -962,20 +1016,22 @@ title_court_calligrapher = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.01
 	monthly_prestige = 0.20
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -985,13 +1041,13 @@ title_court_calligrapher = {
 		}
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
 		}
 		religion_group = muslim
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1005,16 +1061,18 @@ title_court_musician = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1027,7 +1085,7 @@ title_court_musician = {
 			has_dharmic_religion_trigger = yes
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1041,20 +1099,22 @@ title_court_poet = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1064,7 +1124,7 @@ title_court_poet = {
 		}
 		religion_group = muslim
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1078,20 +1138,22 @@ title_chief_architect = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1101,7 +1163,7 @@ title_chief_architect = {
 		}
 		religion_group = muslim
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1115,16 +1177,18 @@ title_chief_qadi = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.05
 	monthly_prestige = 0.60
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
@@ -1136,7 +1200,7 @@ title_chief_qadi = {
 			trait = scholarly_theologian
 			trait = mastermind_theologian
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1146,13 +1210,13 @@ title_chief_qadi = {
 		}
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
 		}
 		religion_group = muslim
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1170,28 +1234,28 @@ title_state_inquisitor = {
 	realm_in_name = yes
 	grant_limit = 3
 	opinion_effect = 6
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
-		is_incapable = no
-		# Prevents Doges from using minor title prestige to rack up points for their heirs
-		emf_can_be_patrician_heir_if_can_inherit = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
 		is_merchant_republic = yes
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1205,28 +1269,28 @@ title_high_admiral = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.05
 	monthly_prestige = 0.60
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
-		is_incapable = no
-		# Prevents Doges from using minor title prestige to rack up points for their heirs
-		emf_can_be_patrician_heir_if_can_inherit = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		is_merchant_republic = yes
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1240,28 +1304,28 @@ title_high_judge = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.05
 	monthly_prestige = 0.60
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
-		is_incapable = no
-		# Prevents Doges from using minor title prestige to rack up points for their heirs
-		emf_can_be_patrician_heir_if_can_inherit = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
 		is_merchant_republic = yes
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1273,22 +1337,35 @@ title_high_judge = {
 # Special - This title determines the heir of a Patrician
 title_patrician_heir = {
 	is_high_prio = yes
-
+	
 	dignity = 0.05
 	realm_in_name = yes
 	grant_limit = 1
-
+	opinion_effect = 25
+	
 	patrician_heir = yes
-
+	
+	monthly_salary = 0.01
+	monthly_prestige = 0.20
+	
 	allowed_to_hold = {
-		emf_can_inherit = yes
-		emf_can_be_patrician_heir_if_can_inherit_no_tooltip = yes
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_title_trigger = yes
+		}
+		is_landed = no
+		dynasty = FROM
+		NOT = { trait = bastard }
+		NOT = { trait = monk }
+		NOT = { trait = nun }
+		NOT = { trait = eunuch }
+		is_theocracy = no
 	}
 
 	allowed_to_grant = {
 		is_patrician = yes
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1303,14 +1380,16 @@ title_volva = {
 	dignity = 0.050
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.25
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		is_female = yes
 		trait = mystic
@@ -1323,19 +1402,15 @@ title_volva = {
 				}
 			}
 		}
-		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
-			limit = { liege = { is_merchant_republic = yes } }
-			emf_can_be_patrician_heir_if_can_inherit = no
-		}
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
 		}
 	}
-
+		
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1349,14 +1424,16 @@ title_lawspeaker = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		custom_tooltip = {
 			text = is_germanic_pagan_custom_tooltip
@@ -1367,9 +1444,9 @@ title_lawspeaker = {
 				}
 			}
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1380,7 +1457,7 @@ title_lawspeaker = {
 			religion = norse_pagan_reformed
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1394,16 +1471,18 @@ title_drottseti = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.5
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1417,7 +1496,7 @@ title_drottseti = {
 		}
 		higher_tier_than = DUKE
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1431,17 +1510,19 @@ title_court_skald = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		trait = poet
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1454,7 +1535,7 @@ title_court_skald = {
 			religion = norse_pagan_reformed
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1468,20 +1549,22 @@ title_marksman = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1494,7 +1577,7 @@ title_marksman = {
 			religion = norse_pagan_reformed
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1507,20 +1590,22 @@ title_hirdman = {
 	dignity = 0.075
 	grant_limit = 4
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.005
 	monthly_prestige = 0.25
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1533,7 +1618,7 @@ title_hirdman = {
 			religion = norse_pagan_reformed
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1549,16 +1634,18 @@ title_baghatur = {
 	realm_in_name = yes
 	grant_limit = 2
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1580,7 +1667,7 @@ title_baghatur = {
 			}
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1594,16 +1681,18 @@ title_cherbi = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.5
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1625,7 +1714,7 @@ title_cherbi = {
 			}
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1639,16 +1728,18 @@ title_darkhan = {
 	realm_in_name = yes
 	grant_limit = 2
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1670,7 +1761,7 @@ title_darkhan = {
 			}
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1683,16 +1774,18 @@ title_noyan = {
 	dignity = 0.075
 	grant_limit = 4
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.005
 	monthly_prestige = 0.5
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1706,7 +1799,7 @@ title_noyan = {
 			has_landed_title = e_il-khanate
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1719,19 +1812,21 @@ title_behi = {
 	dignity = 0.1
 	grant_limit = 2
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.05
 	monthly_prestige = 0.25
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		is_female = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			AND = {
@@ -1751,7 +1846,7 @@ title_behi = {
 			}
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1764,18 +1859,20 @@ title_master_of_the_eagle = {
 	dignity = 0.10
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.35
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			AND = {
@@ -1795,7 +1892,7 @@ title_master_of_the_eagle = {
 			}
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1812,23 +1909,25 @@ title_shahrwaraz = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
 		martial = 15
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1836,7 +1935,7 @@ title_shahrwaraz = {
 		}
 		religion_group = zoroastrian_group
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1850,23 +1949,25 @@ title_kardarigan = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
 		martial = 15
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -1874,7 +1975,7 @@ title_kardarigan = {
 		}
 		religion_group = zoroastrian_group
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1888,21 +1989,23 @@ title_shahin = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
 		martial = 15
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1912,7 +2015,7 @@ title_shahin = {
 		}
 		religion_group = zoroastrian_group
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1926,20 +2029,22 @@ title_pushtigban_salar = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.5
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1949,7 +2054,7 @@ title_pushtigban_salar = {
 		}
 		religion_group = zoroastrian_group
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -1963,20 +2068,22 @@ title_spahbod = {
 	realm_in_name = yes
 	grant_limit = 4
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -1987,7 +2094,7 @@ title_spahbod = {
 		}
 		religion_group = zoroastrian_group
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2000,16 +2107,18 @@ title_eran_ambaragbed = {
 	dignity = 0.075
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.005
 	monthly_prestige = 0.5
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -2019,7 +2128,7 @@ title_eran_ambaragbed = {
 		}
 		religion_group = zoroastrian_group
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2035,18 +2144,20 @@ title_champion = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.75
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -2071,7 +2182,7 @@ title_champion = {
 			religion = bon_reformed
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2085,21 +2196,23 @@ title_master_of_the_blade = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { has_minor_title = title_master_of_the_bow }
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -2131,7 +2244,7 @@ title_master_of_the_blade = {
 			religion = bon_reformed
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2145,21 +2258,23 @@ title_master_of_the_bow = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
 		NOT = { has_minor_title = title_master_of_the_blade }
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -2191,7 +2306,7 @@ title_master_of_the_bow = {
 			religion = bon_reformed
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2205,13 +2320,15 @@ title_venerable_elder = {
 	realm_in_name = yes
 	grant_limit = 4
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.75
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
-		OR = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
@@ -2249,7 +2366,7 @@ title_venerable_elder = {
 			religion = bon_reformed
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2265,26 +2382,23 @@ title_yabgu = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 15
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.50
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
-		}
-		OR = {
-			is_close_relative = FROM
-			is_nibling_of = FROM
-			is_aunt_uncle_of = FROM
-			is_cousin_of = FROM
-		}
-		is_incapable = no
+		}		
+		is_close_relative = FROM
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -2312,7 +2426,7 @@ title_yabgu = {
 		#	}
 		#}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2326,20 +2440,22 @@ title_ishad = {
 	realm_in_name = yes
 	grant_limit = 4
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.075
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_commander_title_trigger = yes
 		}
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
@@ -2367,7 +2483,7 @@ title_ishad = {
 		#	}
 		#}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2381,18 +2497,20 @@ title_kundur = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
-
+	
 	monthly_salary = 0.1
 	monthly_prestige = 0.5
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		#OR = {
 		#	AND = {
@@ -2418,7 +2536,7 @@ title_kundur = {
 		#	}
 		#}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2434,23 +2552,25 @@ title_master_of_the_royal_elephants = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
 		NOT = { has_character_flag = guru }
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
-
+	
 	allowed_to_grant = {
 		OR = {
 			is_feudal = yes
@@ -2458,14 +2578,15 @@ title_master_of_the_royal_elephants = {
 		}
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
 		}
-		emf_has_roman_empire = no
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
 		has_dharmic_religion_trigger = yes
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2479,34 +2600,36 @@ title_royal_builder = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
-		OR = {
+		OR = { 
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
 		NOT = { has_character_flag = guru }
-		is_incapable = no
+		NOT = { trait = incapable } 
 	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		primary_title = {
 			OR = {
-				tier = KING
-				tier = EMPEROR
+				tier = king
+				tier = emperor
 			}
 		}
 		has_dharmic_religion_trigger = yes
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2520,21 +2643,23 @@ title_court_poet_india = {
 	realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 5
-
+	
 	monthly_salary = 0.02
 	monthly_prestige = 0.40
-
+	
 	is_unique = yes
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		OR = {
 			male_can_hold_minor_title_trigger = yes
 			female_can_hold_minor_title_trigger = yes
 		}
 		NOT = { has_character_flag = guru }
-		is_incapable = no
+		NOT = { trait = incapable }
 	}
 
 	allowed_to_grant = {
@@ -2544,7 +2669,7 @@ title_court_poet_india = {
 		}
 		has_dharmic_religion_trigger = yes
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2561,9 +2686,11 @@ title_guru = {
 	monthly_prestige = 0.75
 
 	revoke_allowed = no
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		OR = {
 			has_character_flag = guru
 			has_character_flag = fake_guru
@@ -2574,20 +2701,16 @@ title_guru = {
 			religion = bon
 			religion = bon_reformed
 		}
-		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
-			limit = { liege = { is_merchant_republic = yes } }
-			emf_can_be_patrician_heir_if_can_inherit = no
-		}
 	}
-
-	allowed_to_grant = {
+	
+	allowed_to_grant = { 
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
 			religion = bon_reformed
 		}
 	}
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
@@ -2598,20 +2721,20 @@ title_guru = {
 title_genghis = {
 	dignity = 10
 	revoke_allowed = no
-
+	
 	realm_in_name = no
 	show_as_title = yes
-
+	
 	replace_order = yes
-
+	
 	monthly_salary = 0
 	monthly_prestige = 1.50
-
+	
 	gain_effect = {
 	}
 	lose_effect = {
 	}
-
+	
 	message = yes
 }
 
@@ -2623,31 +2746,33 @@ title_councilmember_king = {
 	monthly_salary = 0.00
 	monthly_prestige = 0.75
 	is_voter = yes
-
+	
 	allowed_to_grant = {
 		higher_tier_than = DUKE
 		has_dlc = "Zeus"
-		is_merchant_republic = no
 		primary_title = { has_law = law_voting_power_1 }
 	}
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		can_be_councilmember_king_trigger = yes
 	}
 	revoke_trigger = {
 		FROM = {
 			primary_title = {
-				OR = {
-					NOT = { has_law = protected_appointment_1 }
-					ROOT = { NOT = { is_powerful_vassal = yes } }
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
 				}
 			}
 		}
 	}
-
+	
 	gain_effect = {
-		emf_council_gain = yes
 	}
 	lose_effect = {
 		if = {
@@ -2658,15 +2783,16 @@ title_councilmember_king = {
 					}
 				}
 			}
-			emf_council_lose = yes
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
 		}
 	}
-	
+
 	retire_effect = {
 		if = {
 			limit = {
 				NOT = {
-					practical_age = 65
+					age = 65
 				}
 				health = 3
 				NOT = {
@@ -2686,37 +2812,40 @@ title_councilmember_king = {
 
 title_councilmember_emperor = {
 	is_high_prio = yes
-	dignity = 0.050
+	dignity = 0.060
 	grant_limit = 1
 	opinion_effect = 10
 	monthly_salary = 0.00
-	monthly_prestige = 0.75
+	monthly_prestige = 1.00
 	is_voter = yes
-
+	
 	allowed_to_grant = {
 		higher_tier_than = KING
 		has_dlc = "Zeus"
-		is_merchant_republic = no
 		primary_title = { has_law = law_voting_power_1 }
 	}
-
+	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		can_be_councilmember_emperor_trigger = yes
 	}
+
 	revoke_trigger = {
 		FROM = {
 			primary_title = {
-				OR = {
-					NOT = { has_law = protected_appointment_1 }
-					ROOT = { NOT = { is_powerful_vassal = yes } }
+				NOT = { 
+					AND = {
+						has_law = succession_voting_power_1
+						ROOT = { is_powerful_vassal = yes }
+					}
 				}
 			}
 		}
 	}
-
+	
 	gain_effect = {
-		emf_council_gain = yes
 	}
 	lose_effect = {
 		if = {
@@ -2727,21 +2856,22 @@ title_councilmember_emperor = {
 					}
 				}
 			}
-			emf_council_lose = yes
+			opinion = { who = FROM modifier = opinion_fired_from_council }
+			opinion = { who = FROM modifier = opinion_recently_fired }
 		}
 	}
-	
+
 	retire_effect = {
 		if = {
 			limit = {
 				NOT = {
-					practical_age = 65
+					age = 65
 				}
 				health = 3
 				NOT = {
 					is_sick_or_injured_trigger = yes
 				}
-				can_be_councilmember_emperor_trigger = yes
+				can_be_councilmember_king_trigger = yes
 			}
 			
 			FROM = { 
@@ -2767,7 +2897,9 @@ title_court_architect = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
@@ -2807,7 +2939,9 @@ title_zhangshi = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
@@ -2844,7 +2978,9 @@ title_canjun = {
 	is_unique = yes
 
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
@@ -2881,7 +3017,9 @@ title_yuhou = {
 	is_unique = yes
 
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
@@ -2918,7 +3056,9 @@ title_historiographer = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		is_adult = yes
 		OR = { 
 			male_can_hold_minor_title_trigger = yes
@@ -2949,13 +3089,13 @@ title_historiographer = {
 title_court_physician = {
 	is_high_prio = yes
 	attribute = learning
-	dignity = 5
-	realm_in_name = yes
+    dignity = 5
+    realm_in_name = yes
 	grant_limit = 1
 	opinion_effect = 10
 	monthly_salary = 0.2
 	monthly_prestige = 0.5
-
+	
 	allowed_to_grant = {
 		OR = {
 			higher_tier_than = BARON
@@ -2963,19 +3103,19 @@ title_court_physician = {
 		}
 		has_dlc = "Reapers"
 	}
-
+	
 	allowed_to_hold = {
 		custom_tooltip = {
 			text = court_physician_tooltip_1
-			hidden_tooltip = { emf_minor_title_basic_allowed_to_hold = yes }
+			NOT = {
+				primary_title = { temporary = yes } 
+			}
 		}
 		custom_tooltip = {
 			text = court_physician_tooltip_2
-			hidden_tooltip = {
-				OR = {
-					male_can_hold_minor_title_trigger = yes
-					female_can_hold_minor_title_trigger = yes
-				}
+			OR = {
+				male_can_hold_minor_title_trigger = yes
+				female_can_hold_minor_title_trigger = yes
 			}
 		}
 		OR = {
@@ -2989,22 +3129,22 @@ title_court_physician = {
 					trait = mutazilite
 				}
 			}
-			custom_tooltip = {
+			custom_tooltip = { 
 				text = educated_court_physician
 				hidden_tooltip = {
 					has_character_flag = is_court_physician
 				}
 			}
 		}
+		OR = {
+			NOT = { religion = hindu }
+			trait = brahmin
+		}
 		is_adult = yes
 
 		prisoner = no
 		NOT = { trait = in_hiding }
-		is_incapable = no
-		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
-			limit = { liege = { is_merchant_republic = yes } }
-			emf_can_be_patrician_heir_if_can_inherit = no
-		}
+		NOT = { trait = incapable }
 	}
 
 	revoke_trigger = {
@@ -3013,109 +3153,8 @@ title_court_physician = {
 			NOT = { FROM = { has_character_flag = being_treated } }
 		}
 	}
-
+	
 	gain_effect = {
-		save_event_target_as = court_physician
-		# Treat any sick, untreated, eligible courtiers upon assignment
-		liege = {
-			any_courtier = {
-				limit = {
-					is_playable = no
-					NOT = { trait = troubled_pregnancy } #Treatment handled by special event chain.
-					OR = {
-						character_disease_trigger = yes
-						has_any_symptom = yes
-						AND = {
-							trait = leper
-							has_character_flag = new_leper_character
-						}
-					}
-					prisoner = no
-					OR = {
-						NOT = { has_character_flag = being_treated }
-						had_character_flag = { flag = being_treated days = 20 }
-					}
-					OR = {
-						AND = {	#if you have a developed disease and want further treatment
-							character_disease_trigger = yes
-							OR = {
-								NOT = { has_character_flag = recent_treatment }
-								had_character_flag = { flag = recent_treatment days = 90 }
-							}
-						}
-						AND = {	#if you have multiple symptoms and want to seek further treatment
-							num_of_symptoms = 2
-							OR = {
-								NOT = { has_character_flag = recent_treatment }
-								had_character_flag = { flag = recent_treatment days = 30 }
-							}
-						}
-						AND = { #if your treatment failed and you want to try again
-							character_disease_trigger = no
-							has_any_symptom = yes
-							OR = {
-								had_character_flag = { flag = disease_not_serious days = 10 } #anti-spam delay since event should handle this normally
-								had_character_flag = { flag = developing_illness days = 10 }
-							}
-							OR = {
-								NOT = { has_character_flag = recent_treatment }
-								had_character_flag = { flag = recent_treatment days = 30 }
-							}
-						}
-					}
-					NOR = {
-						has_character_modifier = successful_treatment_1
-						has_character_modifier = successful_treatment_2
-						has_character_modifier = successful_treatment_3
-						has_character_modifier = failed_treatment_1
-						has_character_modifier = failed_treatment_2
-						has_character_modifier = mystic_treatment_decent
-						has_character_modifier = mystic_treatment_poor
-						has_character_modifier = mystic_treatment_terrible
-						has_character_modifier = symptom_treatment_1
-						has_character_modifier = symptom_treatment_2
-						has_character_modifier = symptom_treatment_3
-						has_character_modifier = symptom_treatment_4
-					}
-				}
-				set_character_flag = recent_treatment
-				character_event = { id = RIP.11032 }
-			}
-			if = {
-				limit = {
-					any_courtier = {
-						trait = sickly
-						NOT = { has_character_flag = sickly_treatment_prompted }
-					}
-				}
-				any_courtier = {
-					limit = {
-						trait = sickly
-						NOT = { has_character_flag = sickly_treatment_prompted }
-					}
-					
-					save_event_target_as = sickly_infant
-					father = { save_event_target_as = sickly_father }
-
-					#Decided which parent will choose treatment
-					if = {
-						limit = {
-							father = { is_ruler = yes }
-							host = { character = event_target:sickly_father }
-							NOT = { mother = { is_ruler = yes } }
-						}
-						father = { save_event_target_as = infant_guardian }
-					}
-					else = {
-						mother = { save_event_target_as = infant_guardian }
-					}
-					
-					PREV = {
-						character_event = { id = RIP.11066 }
-					}
-				}
-			}
-		}
 	}
 	lose_effect = {
 	}
@@ -3130,72 +3169,52 @@ title_court_physician = {
 title_hermetics_apprentice = {
 	is_high_prio = yes
 	attribute = learning
-	dignity = 1
-	realm_in_name = no
+    dignity = 1
+    realm_in_name = no
 	grant_limit = 1
 	opinion_effect = 10
 	monthly_salary = 0.1
+	monthly_prestige = 0.1
 	revoke_allowed = no
-
+	
 	allowed_to_grant = {
 		has_dlc = "Mystics"
 		society_member_of = hermetics
 		ai = no
 	}
-
+	
 	allowed_to_hold = {
 		custom_tooltip = {
 			text = court_physician_tooltip_1
 			NOT = {
-				primary_title = { temporary = yes }
+				primary_title = { temporary = yes } 
 			}
 		}
 		is_adult = yes
 		OR = {
-			AND = {
-				society_member_of = hermetics
-				OR = {
-					AND = {
-						society_rank <= 1
-						FROM = { society_rank == 1 }
-					}
-					AND = {
-						society_rank <= 2
-						FROM = { society_rank == 2 }
-					}
-					AND = {
-						society_rank <= 3
-						FROM = { society_rank == 3 }
-					}
-					FROM = { society_rank == 4 }
-				}
-			}
+			society_member_of = hermetics
 			is_in_society = no
 		}
+
 		NOT = { trait = in_hiding }
-		is_incapable = no
+		NOT = { trait = incapable }
 		prisoner = no
-		OR = {
-			emf_astrology_religion = yes
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
-			religion_group = zoroastrian_group
-			religion = taoist
-		}
+		
 		hidden_trigger = {
 			liege = { society_member_of = hermetics }
 			ai = yes
 			NOT = { has_character_flag = completed_apprenticeship }
-			# Cannot use can_join_society because AIs cannot join if the society is full
-			learning = 10
-			is_nomadic = no
-			is_tribal = no
-			mercenary = no
-			NOT = { has_character_flag = society_join_block }
+			OR = {
+				FROM = { ai = no }
+				learning = 10
+				is_smart_trigger = yes
+				trait = gardener
+				trait = scholar
+				trait = mystic
+			}
 		}
 	}
-
+	
 	gain_effect = {
 		if = {
 			limit = { NOT = { society_member_of = hermetics } }
@@ -3220,53 +3239,6 @@ title_hermetics_apprentice = {
 			modifier = opinion_hermetic_apprentice
 			who = FROM
 		}
-		if = {
-			limit = {
-				ai = yes
-				is_in_society = hermetics
-				society_rank == 1
-				NAND = {
-					controls_religion = no
-					is_dumb_trigger = no
-					OR = {
-						NOT = { is_priest = yes }
-						OR = {
-							trait = mystic
-							trait = scholar
-							trait = cynical
-						}
-					}
-					OR = {
-						AND = {
-							OR = {
-								is_landed = yes
-								is_patrician = yes
-							}
-							OR = { 
-								learning = 14
-								trait = scholar
-								trait = faqih
-								trait = erudite
-								trait = genius
-								trait = mystic
-							}
-						}
-						AND = {
-							learning = 18
-							OR = {
-								trait = scholar
-								trait = faqih
-								trait = erudite
-								trait = genius
-								trait = mystic
-								learning = 20
-							}
-						}
-					}
-				}
-			}
-			leave_society = yes
-		}
 	}
 	retire_effect = {
 	}
@@ -3277,18 +3249,18 @@ title_hermetics_apprentice = {
 
 ###JADE DRAGON MINOR TITLES###
 
-title_china_emperor = {		 # this title is not granted by a character to another, it is automatically obtained
+title_china_emperor = {			# this title is not granted by a character to another, it is automatically obtained
 								# when one character becomes emperor of china. It is used solely to identify them as such
 	is_offmap_holder = yes
 	offmap_power = offmap_china
 	show_as_title = yes
-	dignity = 1000			  # this should always be higher than 0, or it won't be applied in all cases
+	dignity = 1000 				# this should always be higher than 0, or it won't be applied in all cases
 }
 
 title_administrator = {
 	is_high_prio = no
-	dignity = 0.9
-	realm_in_name = no
+    dignity = 0.9
+    realm_in_name = no
 	grant_limit = 1
 	opinion_effect = 10
 	monthly_salary = 0.1
@@ -3304,14 +3276,9 @@ title_administrator = {
 			text = title_administrator_modifier_tt
 			has_character_modifier = jd_administrator
 		}
-		# emf_minor_title_basic_allowed_to_hold = yes
 		NOT = { trait = in_hiding }
 		NOT = { trait = incapable }
 		prisoner = no
-		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
-			limit = { liege = { is_merchant_republic = yes } }
-			emf_can_be_patrician_heir_if_can_inherit = no
-		}
 	}
 
 	revoke_trigger = {
@@ -3381,8 +3348,8 @@ title_administrator = {
 
 title_master_engineer = {
 	is_high_prio = no
-	dignity = 0.9
-	realm_in_name = no
+    dignity = 0.9
+    realm_in_name = no
 	grant_limit = 1
 	opinion_effect = 10
 	monthly_salary = 0.1
@@ -3398,14 +3365,9 @@ title_master_engineer = {
 			text = title_master_engineer_modifier_tt
 			has_character_modifier = jd_master_engineer
 		}
-		# emf_minor_title_basic_allowed_to_hold = yes
 		NOT = { trait = in_hiding }
 		NOT = { trait = incapable }
 		prisoner = no
-		trigger_if = { # Prevents Doges from using minor title prestige to rack up points for their heirs
-			limit = { liege = { is_merchant_republic = yes } }
-			emf_can_be_patrician_heir_if_can_inherit = no
-		}
 	}
 
 	revoke_trigger = {
@@ -3415,25 +3377,25 @@ title_master_engineer = {
 	gain_effect = {
 		if = {
 			limit = { has_character_flag = master_engineer_just_spawned }
-			character_event = { id = JD.20033 days = 10 } 
-			clr_character_flag = master_engineer_just_spawned
-			break = yes
+            character_event = { id = JD.20033 days = 10 } 
+            clr_character_flag = master_engineer_just_spawned
+            break = yes
 		}
-		if = {
-			limit = {
-				has_character_flag = china_master_engineer_golden_age
-			}
-			character_event = { id = JD.20033 days = 1460 random = 542 } 
-		}
+        if = {
+            limit = {
+                has_character_flag = china_master_engineer_golden_age
+            }
+            character_event = { id = JD.20033 days = 1460 random = 542 } 
+        }
 		else = {
-			character_event = { id = JD.20033 days = 2920 random = 1095 } 
-		}
+            character_event = { id = JD.20033 days = 2920 random = 1095 } 
+        }
 	}
 	lose_effect = {
 		clear_delayed_event = { id = JD.20033 }
 	}
 	retire_effect = {
-		clear_delayed_event = { id = JD.20033 } 
+		clear_delayed_event = { id = JD.20033 }	
 	}
 	death_effect = {
 		clear_delayed_event = { id = JD.20033 }
@@ -3457,17 +3419,14 @@ title_teacher = {
 		has_dlc = "Zeus"
 		is_theocracy = no
 		OR = {
-			AND = {
-				is_republic = no
-				is_landed = yes
-			}
+			is_republic = no
 			is_patrician = yes
 		}
+		is_landed = yes
 		is_playable = yes
 	}
 	
 	allowed_to_hold = {
-		# emf_minor_title_basic_allowed_to_hold = yes
 		is_adult = yes
 		is_ruler = no
 		prisoner = no
@@ -3502,22 +3461,20 @@ title_augusta = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		NOT = { has_minor_title = title_sebastos }
 		is_female = yes
-		OR = {
-			is_close_relative = FROM
-			is_nibling_of = FROM
-			is_aunt_uncle_of = FROM
-			is_cousin_of = FROM
-			is_grandchild_of = FROM
-		}
+		is_close_relative = FROM 
 		is_adult = yes
 	}
 	
 	allowed_to_grant = {
 		is_feudal = yes
-		emf_has_roman_empire = yes
+		OR = {
+			has_landed_title = e_byzantium
+		}
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -3535,7 +3492,7 @@ title_augusta = {
 
 title_patrikios = {
 	dignity = 2.0
-	grant_limit = 4
+	grant_limit = 10
 	opinion_effect = 5
 	
 	show_as_title = yes
@@ -3544,7 +3501,9 @@ title_patrikios = {
 	monthly_prestige = 0.125
 	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		NOT = { family = FROM }
 		NOT = { is_close_relative = FROM }
 		is_adult = yes
@@ -3556,7 +3515,10 @@ title_patrikios = {
 	
 	allowed_to_grant = {
 		is_feudal = yes
-		emf_has_roman_empire = yes
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -3574,14 +3536,16 @@ title_patrikios = {
 
 title_hypatos = {
 	dignity = 1.0
-	grant_limit = 8
-	opinion_effect = 3
+	grant_limit = 20
+	opinion_effect = 5
 	
 	monthly_salary = 0.03
 	monthly_prestige = 0.0625
 	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		NOT = { family = FROM }
 		NOT = { is_close_relative = FROM }
 		NOT = { has_minor_title = title_anthypatos }
@@ -3594,7 +3558,10 @@ title_hypatos = {
 	
 	allowed_to_grant = {
 		is_feudal = yes
-		emf_has_roman_empire = yes
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
@@ -3612,7 +3579,7 @@ title_hypatos = {
 
 title_sebastos = {
 	dignity = 2.5
-	grant_limit = 4
+	grant_limit = 10
 	opinion_effect = 5
 	
 	show_as_title = yes
@@ -3621,21 +3588,24 @@ title_sebastos = {
 	monthly_prestige = 0.1875
 	
 	allowed_to_hold = {
-		emf_minor_title_basic_allowed_to_hold = yes
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
 		NOT = { has_minor_title = title_augusta }
 		OR = {
 			is_close_relative = FROM
-			is_nibling_of = FROM
-			is_aunt_uncle_of = FROM
+			family = FROM
 			is_cousin_of = FROM
-			is_grandchild_of = FROM
 			is_friend = FROM
 		}
 	}
 	
 	allowed_to_grant = {
 		is_feudal = yes
-		emf_has_roman_empire = yes
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
