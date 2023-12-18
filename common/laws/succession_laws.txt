@@ -1436,7 +1436,7 @@ succession_laws = {
 		potential = {
 			OR = {
 				title = k_patriarchy
-				title = k_archbishop_apostolic
+				title = k_apostolic
 			}
 		}
 		
@@ -1495,7 +1495,7 @@ succession_laws = {
 				holder_scope = { OR = { government = military_government government = military_government_tolerant } }
 				higher_tier_than = COUNT
 			}
-			NOT = { title = k_papal_state }
+			NOT = { title = k_papacy }
 			temporary = no
 			OR = {
 				is_primary_type_title = yes
@@ -1525,7 +1525,6 @@ succession_laws = {
 				holder_scope = { is_theocracy = no }
 				holder_scope = { 
 					NOT = { religion = catholic }
-					NOT = { religion = fraticelli }
 					NOT = { religion = israelite }
 				}
 			}
@@ -1984,15 +1983,15 @@ gender_laws = {
 		allow = {
 			OR = {
 				holder_scope = {
-					OR = {
-						culture = basque
-						culture = zhangzhung
-						culture = sumpa
-						religion = cathar
-						religion = messalian
-						religion = mazdaki
-						has_religion_feature = religion_equal
-					}
+					#OR = {
+					#	culture = basque
+					#	culture = zhangzhung
+					#	culture = sumpa
+					#	religion = cathar
+					#	religion = messalian
+					#	religion = mazdaki
+					#	has_religion_feature = religion_equal
+					#}
 				}
 				OR = {
 					ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
