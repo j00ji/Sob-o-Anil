@@ -303,20 +303,6 @@
 	2400.1.1={death=yes}
 }
 
-70027={
-    name="Lucas"
-    dynasty=55582 # Calazans
-    religion=evangelical
-    culture=carioca
-    add_trait=kind
-    add_trait=gregarious
-    add_trait=charitable
-    2349.29.4={
-        birth=yes
-    }
-    2400.1.1={death=yes}
-}
-
 70012={
 	name="Daniel"
 	dynasty=35040
