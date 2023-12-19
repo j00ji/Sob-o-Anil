@@ -103,3 +103,26 @@ soa_is_hre = {
 		title = e_belchioringia
 	}
 }
+soa_religion_has_african_roots = {
+	OR = {
+		religion = camdomble
+		religion = umbanda
+		religion = santo_daime
+		religion = tambor
+		religion = rastafari
+	}
+}
+soa_feminist_religion = {
+	OR = {
+		religion = pachamama
+		religion = mucker
+		religion = chicha
+		religion = aphite
+		religion = artiguista
+		religion = obscurantist
+		religion = platinean
+		religion = kardecists
+		religion = umbanda
+		religion = camdomble
+	}
+}
