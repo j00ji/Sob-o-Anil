@@ -434,17 +434,17 @@ laws = {
 			disable_council_voting_on_issue = grant_landed_title_interaction
 			disable_council_voting_on_issue = retract_vassal_interaction
 			disable_council_voting_on_issue = transfer_vassal_interaction
-			if = {
-				limit = {
-					holder_scope = {
-						religion = lollard
-					}
-				}
-				tooltip = { disable_council_voting_on_issue = lollard_revoke_temple }
-			}
-			hidden_tooltip = {
-				disable_council_voting_on_issue = lollard_revoke_temple
-			}
+			#if = {
+			#	limit = {
+			#		holder_scope = {
+			#			religion = lollard
+			#		}
+			#	}
+			#	tooltip = { disable_council_voting_on_issue = lollard_revoke_temple }
+			#}
+			#hidden_tooltip = {
+			#	disable_council_voting_on_issue = lollard_revoke_temple
+			#}
 			disable_council_voting_on_issue = absorb_clan_interaction
 			disable_council_voting_on_issue = split_clan_interaction
 		}
@@ -617,12 +617,12 @@ laws = {
 				text = TOOLTIPjustice_voting_power_PRISONERS_disable
 				hidden_tooltip = { 
 					disable_council_voting_on_issue = recruit_prisoner
-					disable_council_voting_on_issue = emf_prisoner_house_arrest
-					disable_council_voting_on_issue = emf_prisoner_oubliette
-					disable_council_voting_on_issue = emf_prisoner_dungeon
-					disable_council_voting_on_issue = emf_prisoner_castration
-					disable_council_voting_on_issue = emf_prisoner_blinding
-					disable_council_voting_on_issue = emf_prisoner_zun_judgement
+					#disable_council_voting_on_issue = emf_prisoner_house_arrest
+					#disable_council_voting_on_issue = emf_prisoner_oubliette
+					#disable_council_voting_on_issue = emf_prisoner_dungeon
+					#disable_council_voting_on_issue = emf_prisoner_castration
+					#disable_council_voting_on_issue = emf_prisoner_blinding
+					#disable_council_voting_on_issue = emf_prisoner_zun_judgement
 					disable_council_voting_on_issue = kharijite_public_execution
 					disable_council_voting_on_issue = prisoner_brazen_bull
 					disable_council_voting_on_issue = prisoner_macabre_banquet
@@ -715,12 +715,12 @@ laws = {
 				text = TOOLTIPjustice_voting_power_PRISONERS_enable
 				hidden_tooltip = {
 					enable_council_voting_on_issue = recruit_prisoner
-					enable_council_voting_on_issue = emf_prisoner_house_arrest
-					enable_council_voting_on_issue = emf_prisoner_oubliette
-					enable_council_voting_on_issue = emf_prisoner_dungeon
-					enable_council_voting_on_issue = emf_prisoner_castration
-					enable_council_voting_on_issue = emf_prisoner_blinding
-					enable_council_voting_on_issue = emf_prisoner_zun_judgement
+					#enable_council_voting_on_issue = emf_prisoner_house_arrest
+					#enable_council_voting_on_issue = emf_prisoner_oubliette
+					#enable_council_voting_on_issue = emf_prisoner_dungeon
+					#enable_council_voting_on_issue = emf_prisoner_castration
+					#enable_council_voting_on_issue = emf_prisoner_blinding
+					#enable_council_voting_on_issue = emf_prisoner_zun_judgement
 					enable_council_voting_on_issue = kharijite_public_execution
 					enable_council_voting_on_issue = prisoner_brazen_bull
 					enable_council_voting_on_issue = prisoner_macabre_banquet

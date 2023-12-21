@@ -99,7 +99,6 @@ soa_uses_brazilian_coronation = {
 }
 soa_is_hre = {
 	OR = {
-		title = e_hre
 		title = e_belchioringia
 	}
 }
@@ -109,7 +108,7 @@ soa_religion_has_african_roots = {
 		religion = umbanda
 		religion = santo_daime
 		religion = tambor
-		religion = rastafari
+		religion = rastafarian
 	}
 }
 soa_feminist_religion = {
