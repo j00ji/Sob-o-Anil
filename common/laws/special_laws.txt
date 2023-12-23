@@ -1,122 +1,123 @@
 ##laws for unique governments
-law_groups = {
-	religion_tolerance = {
-		law_type = realm
-	}
-}
-
-laws = {
-	religion_toleration_0 = { #No toleration
-		group = religion_tolerance
-		potential = {
-			holder_scope = {
-				OR = {
-					government = bureaucratic_government
-					government = bureaucratic_government_tolerant
-					government = military_government
-					government = military_government_tolerant
-					government = roman_imperial_government
-					government = roman_imperial_government_tolerant
-				}
-			}
-		}
-		allow = {
-			has_law = religion_toleration_1
-			holder_scope = { independent = yes}
-		}
-		effect = {
-			revoke_law = religion_toleration_1
-		}
-		pass_effect = {
-			if = {
-				limit = { holder_scope = { government = bureaucratic_government_tolerant } }
-				holder_scope = {
-					set_government_type = bureaucratic_government #reverts to base bureaucratic_government
-				}
-			}
-			if = {
-				limit = { holder_scope = { government = military_government_tolerant } }
-				holder_scope = {
-					set_government_type = military_government #reverts to base military_government
-				}
-			}
-			if = {
-				limit = { holder_scope = { government = roman_imperial_government_tolerant } }
-				holder_scope = {
-					set_government_type = roman_imperial_government #changes to not tolerant government
-					any_realm_lord = {
-						limit = {
-							OR = {
-								government = bureaucratic_government
-								government = bureaucratic_government_tolerant
-								government = military_government
-								government = military_government_tolerant
-							}
-						}
-						add_law = religion_toleration_0
-					}
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}
-	}
-	
-	religion_toleration_1 = { #Tolerant government
-		group = religion_tolerance
-		potential = {
-			holder_scope = {
-				OR = {
-					government = bureaucratic_government
-					government = bureaucratic_government_tolerant
-					government = military_government
-					government = military_government_tolerant
-					government = roman_imperial_government
-					government = roman_imperial_government_tolerant
-				}
-			}
-		}
-		allow = {
-			has_law = religion_toleration_0
-			holder_scope = { independent = yes }
-		}
-		effect = {
-			revoke_law = religion_toleration_0
-		}
-		pass_effect = {
-			if = {
-				limit = { holder_scope = { government = bureaucratic_government } }
-				holder_scope = {
-					set_government_type = bureaucratic_government_tolerant #changes to tolerant government
-				}
-			}
-			if = {
-				limit = { holder_scope = { government = military_government } }
-				holder_scope = {
-					set_government_type = military_government_tolerant #changes to tolerant government
-				}
-			}
-			if = {
-				limit = { holder_scope = { government = roman_imperial_government } }
-				holder_scope = {
-					set_government_type = roman_imperial_government_tolerant #changes to tolerant government
-					any_realm_lord = {
-						limit = {
-							OR = {
-								government = bureaucratic_government
-								government = bureaucratic_government_tolerant
-								government = military_government
-								government = military_government_tolerant
-							}
-						}
-						add_law = religion_toleration_1
-					}
-				}
-			}
-		}
-		revoke_allowed = {
-			always = no
-		}
-	}
-}
+##aw_groups = {
+##	religion_tolerance = {
+##		law_type = realm
+##	}
+##
+##
+##aws = {
+##	religion_toleration_0 = { #No toleration
+##		group = religion_tolerance
+##		potential = {
+##			holder_scope = {
+##				OR = {
+##					government = bureaucratic_government
+##					government = bureaucratic_government_tolerant
+##					government = military_government
+##					government = military_government_tolerant
+##					government = roman_imperial_government
+##					government = roman_imperial_government_tolerant
+##				}
+##			}
+##		}
+##		allow = {
+##			has_law = religion_toleration_1
+##			holder_scope = { independent = yes}
+##		}
+##		effect = {
+##			revoke_law = religion_toleration_1
+##		}
+##		pass_effect = {
+##			if = {
+##				limit = { holder_scope = { government = bureaucratic_government_tolerant } }
+##				holder_scope = {
+##					set_government_type = bureaucratic_government #reverts to base bureaucratic_government
+##				}
+##			}
+##			if = {
+##				limit = { holder_scope = { government = military_government_tolerant } }
+##				holder_scope = {
+##					set_government_type = military_government #reverts to base military_government
+##				}
+##			}
+##			if = {
+##				limit = { holder_scope = { government = roman_imperial_government_tolerant } }
+##				holder_scope = {
+##					set_government_type = roman_imperial_government #changes to not tolerant government
+##					any_realm_lord = {
+##						limit = {
+##							OR = {
+##								government = bureaucratic_government
+##								government = bureaucratic_government_tolerant
+##								government = military_government
+##								government = military_government_tolerant
+##							}
+##						}
+##						add_law = religion_toleration_0
+##					}
+##				}
+##			}
+##		}
+##		revoke_allowed = {
+##			always = no
+##		}
+##	}
+##	
+##	religion_toleration_1 = { #Tolerant government
+##		group = religion_tolerance
+##		potential = {
+##			holder_scope = {
+##				OR = {
+##					government = bureaucratic_government
+##					government = bureaucratic_government_tolerant
+##					government = military_government
+##					government = military_government_tolerant
+##					government = roman_imperial_government
+##					government = roman_imperial_government_tolerant
+##				}
+##			}
+##		}
+##		allow = {
+##			has_law = religion_toleration_0
+##			holder_scope = { independent = yes }
+##		}
+##		effect = {
+##			revoke_law = religion_toleration_0
+##		}
+##		pass_effect = {
+##			if = {
+##				limit = { holder_scope = { government = bureaucratic_government } }
+##				holder_scope = {
+##					set_government_type = bureaucratic_government_tolerant #changes to tolerant government
+##				}
+##			}
+##			if = {
+##				limit = { holder_scope = { government = military_government } }
+##				holder_scope = {
+##					set_government_type = military_government_tolerant #changes to tolerant government
+##				}
+##			}
+##			if = {
+##				limit = { holder_scope = { government = roman_imperial_government } }
+##				holder_scope = {
+##					set_government_type = roman_imperial_government_tolerant #changes to tolerant government
+##					any_realm_lord = {
+##						limit = {
+##							OR = {
+##								government = bureaucratic_government
+##								government = bureaucratic_government_tolerant
+##								government = military_government
+##								government = military_government_tolerant
+##							}
+##						}
+##						add_law = religion_toleration_1
+##					}
+##				}
+##			}
+##		}
+##		revoke_allowed = {
+##			always = no
+##		}
+##	}
+##
+##Removed Religious Toleration mechanic
