@@ -1,0 +1,1397 @@
+# -*- ck2.buildings -*-
+
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ # For nomad capitals, remember than the tech requirement trigger should be applied to the nomad
+ # (which means it uses the character's primary tech status, i.e. the nomad capital status
+ # for nomads, capital province tech status otherwise). I.e. use the FROM scope for nomad capital buildings.
+
+nomad = {
+	################### CLAN GATHERING HALL ##################
+	no_gathering_hall_1 = {
+		desc = no_gathering_hall_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 300
+		build_time = 187
+		ai_creation_factor = 97
+		extra_tech_building_start = 3.0
+		
+		max_population = 1000
+		monthly_character_prestige = 0.5
+		clan_sentiment = -2
+		moved_capital_months_mult = 0.10
+	}
+	
+	no_gathering_hall_2 = {
+		desc = no_gathering_hall_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 600
+		build_time = 365
+		ai_creation_factor = 98
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_gathering_hall_1
+		
+		max_population = 1000
+		monthly_character_prestige = 0.5
+		commander_limit = 1
+		clan_sentiment = -2
+		moved_capital_months_mult = 0.10
+	}
+	
+	no_gathering_hall_3 = {
+		desc = no_gathering_hall_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 900
+		build_time = 552
+		ai_creation_factor = 86
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_gathering_hall_2
+		
+		max_population = 1000
+		monthly_character_prestige = 0.5
+		clan_sentiment = -2
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_gathering_hall_4 = {
+		desc = no_gathering_hall_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 1200
+		build_time = 730
+		ai_creation_factor = 85
+		extra_tech_building_start = 3.5
+		
+		upgrades_from = no_gathering_hall_3
+		
+		max_population = 1000
+		monthly_character_prestige = 0.5
+		commander_limit = 1
+		clan_sentiment = -2
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_gathering_hall_5 = {
+		desc = no_gathering_hall_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 1500
+		build_time = 917
+		ai_creation_factor = 84
+		extra_tech_building_start = 3.5
+		
+		upgrades_from = no_gathering_hall_4
+		
+		max_population = 1000
+		monthly_character_prestige = 0.5
+		clan_sentiment = -3
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_gathering_hall_6 = {
+		desc = no_gathering_hall_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 1800
+		build_time = 1095
+		ai_creation_factor = 83
+		extra_tech_building_start = 4.0
+		
+		upgrades_from = no_gathering_hall_5
+		
+		max_population = 1000
+		monthly_character_prestige = 0.5
+		commander_limit = 1
+		clan_sentiment = -3
+		moved_capital_months_mult = 0.14
+	}
+	
+	no_gathering_hall_7 = {
+		desc = no_gathering_hall_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 2100
+		build_time = 1282
+		ai_creation_factor = 82
+		extra_tech_building_start = 4.0
+		
+		upgrades_from = no_gathering_hall_6
+		
+		max_population = 1000
+		monthly_character_prestige = 0.5
+		clan_sentiment = -3
+		moved_capital_months_mult = 0.14
+	}
+	
+	no_gathering_hall_8 = {
+		desc = no_gathering_hall_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 2400
+		build_time = 1460
+		ai_creation_factor = 81
+		extra_tech_building_start = 4.5
+		
+		upgrades_from = no_gathering_hall_7
+		
+		max_population = 1000
+		monthly_character_prestige = 0.5
+		commander_limit = 1
+		clan_sentiment = -3
+		moved_capital_months_mult = 0.16
+	}
+	
+	###################### WAGON TRAIN #######################
+	no_wagon_train_1 = {
+		desc = no_wagon_train_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 30
+		build_time = 365
+		ai_creation_factor = 97
+		extra_tech_building_start = 0.3
+
+		max_population_mult = 0.02
+		nomad_tax_modifier = -0.01
+		max_manpower_mult = -0.02
+	}
+
+	no_wagon_train_2 = {
+		desc = no_wagon_train_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 60
+		build_time = 365
+		ai_creation_factor = 98
+		extra_tech_building_start = 1.0
+		
+		upgrades_from = no_wagon_train_1
+
+		max_population_mult = 0.04
+		nomad_tax_modifier = -0.02
+		max_manpower_mult = -0.035
+	}
+
+	no_wagon_train_3 = {
+		desc = no_wagon_train_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 90
+		build_time = 365
+		ai_creation_factor = 99
+		extra_tech_building_start = 1.0
+		
+		upgrades_from = no_wagon_train_2
+
+		max_population_mult = 0.06
+		nomad_tax_modifier = -0.02
+		max_manpower_mult = -0.05
+	}
+
+	no_wagon_train_4 = {
+		desc = no_wagon_train_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 120
+		build_time = 365
+		ai_creation_factor = 100
+		extra_tech_building_start = 2.0
+		
+		upgrades_from = no_wagon_train_3
+
+		max_population_mult = 0.08
+		nomad_tax_modifier = -0.03
+		max_manpower_mult = -0.06
+	}
+	
+	no_wagon_train_5 = {
+		desc = no_wagon_train_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 150
+		build_time = 365
+		ai_creation_factor = 101
+		extra_tech_building_start = 2.0
+		
+		upgrades_from = no_wagon_train_4
+
+		max_population_mult = 0.10
+		nomad_tax_modifier = -0.03
+		max_manpower_mult = -0.065
+	}
+	
+	no_wagon_train_6 = {
+		desc = no_wagon_train_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 180
+		build_time = 365
+		ai_creation_factor = 102
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_wagon_train_5
+
+		max_population_mult = 0.12
+		nomad_tax_modifier = -0.03
+		max_manpower_mult = -0.07
+	}
+	
+	no_wagon_train_7 = {
+		desc = no_wagon_train_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 210
+		build_time = 365
+		ai_creation_factor = 103
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_wagon_train_6
+		
+		max_population_mult = 0.14
+		nomad_tax_modifier = -0.03
+		max_manpower_mult = -0.06
+	}
+	
+	no_wagon_train_8 = {
+		desc = no_wagon_train_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 240
+		build_time = 365
+		ai_creation_factor = 104
+		extra_tech_building_start = 4.0
+		
+		upgrades_from = no_wagon_train_7
+
+		max_population_mult = 0.16
+		nomad_tax_modifier = -0.03
+		max_manpower_mult = -0.06
+	}
+	
+	################### CAMP FORTIFICATIONS ###################
+	no_camp_fortifications_1 = {
+		desc = no_camp_fortifications_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 25
+		build_time = 730
+		ai_creation_factor = 97
+		ai_feudal_modifier = 10
+		ai_republic_modifier = -10
+		extra_tech_building_start = 0.3
+		
+		convert_to_tribal = tb_hillfort_1
+		
+		fort_level = 0.25
+		garrison_size = 0.2
+		moved_capital_months_mult = 0.10
+	}
+	
+	no_camp_fortifications_2 = {
+		desc = no_camp_fortifications_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 50
+		build_time = 730
+		ai_creation_factor = 98
+		ai_feudal_modifier = 10
+		ai_republic_modifier = -10
+		extra_tech_building_start = 1.5
+		
+		upgrades_from = no_camp_fortifications_1
+		convert_to_tribal = tb_hillfort_2
+		
+		fort_level = 0.25
+		garrison_size = 0.4
+		moved_capital_months_mult = 0.10
+	}
+	
+	no_camp_fortifications_3 = {
+		desc = no_camp_fortifications_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 75
+		build_time = 730
+		ai_creation_factor = 99
+		ai_feudal_modifier = 10
+		ai_republic_modifier = -10
+		extra_tech_building_start = 2.0
+		
+		upgrades_from = no_camp_fortifications_2
+		convert_to_tribal = tb_hillfort_3
+		
+		fort_level = 0.25
+		garrison_size = 0.6
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_camp_fortifications_4 = {
+		desc = no_camp_fortifications_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 100
+		build_time = 730
+		ai_creation_factor = 100
+		ai_feudal_modifier = 10
+		ai_republic_modifier = -10
+		extra_tech_building_start = 2.5
+		
+		upgrades_from = no_camp_fortifications_3
+		convert_to_tribal = tb_hillfort_4
+		
+		fort_level = 0.25
+		garrison_size = 0.8
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_camp_fortifications_5 = {
+		desc = no_camp_fortifications_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 125
+		build_time = 730
+		ai_creation_factor = 86
+		extra_tech_building_start = 2
+		
+		upgrades_from = no_camp_fortifications_4
+		
+		fort_level = 0.25
+		garrison_size = 1.0
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_camp_fortifications_6 = {
+		desc = no_camp_fortifications_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 85
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_camp_fortifications_5
+		
+		fort_level = 0.25
+		garrison_size = 1.2
+		moved_capital_months_mult = 0.14
+	}
+	
+	no_camp_fortifications_7 = {
+		desc = no_camp_fortifications_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 175
+		build_time = 730
+		ai_creation_factor = 84
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_camp_fortifications_6
+		
+		fort_level = 0.25
+		garrison_size = 1.4
+		moved_capital_months_mult = 0.14
+	}
+	
+	no_camp_fortifications_8 = {
+		desc = no_camp_fortifications_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 200
+		build_time = 730
+		ai_creation_factor = 83
+		extra_tech_building_start = 4.0
+		
+		upgrades_from = no_camp_fortifications_7
+		
+		fort_level = 0.25
+		garrison_size = 1.6
+		moved_capital_months_mult = 0.16
+	}
+	
+	#################### CRAFTSMEN'S QUARTER ####################
+	no_craftsmens_quarter_1 = {
+		desc = no_craftsmens_quarter_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 25
+		build_time = 730
+		ai_creation_factor = 97
+		ai_feudal_modifier = -10
+		ai_republic_modifier = 10
+		extra_tech_building_start = 0.3
+		
+		convert_to_tribal = tb_market_town_1
+		
+		nomad_tax_modifier = 0.05
+		max_population_mult = -0.05
+		moved_capital_months_mult = 0.10
+	}
+	
+	no_craftsmens_quarter_2 = {
+		desc = no_craftsmens_quarter_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 50
+		build_time = 730
+		ai_creation_factor = 98
+		ai_feudal_modifier = -10
+		ai_republic_modifier = 10
+		extra_tech_building_start = 1.5
+		
+		upgrades_from = no_craftsmens_quarter_1
+		convert_to_tribal = tb_market_town_2
+		
+		nomad_tax_modifier = 0.05
+		max_population_mult = -0.04
+		moved_capital_months_mult = 0.10
+	}
+	
+	no_craftsmens_quarter_3 = {
+		desc = no_craftsmens_quarter_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 75
+		build_time = 730
+		ai_creation_factor = 99
+		ai_feudal_modifier = -10
+		ai_republic_modifier = 10
+		extra_tech_building_start = 2.0
+		
+		upgrades_from = no_craftsmens_quarter_2
+		convert_to_tribal = tb_market_town_3
+		
+		nomad_tax_modifier = 0.05
+		max_population_mult = -0.04
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_craftsmens_quarter_4 = {
+		desc = no_craftsmens_quarter_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 100
+		build_time = 730
+		ai_creation_factor = 100
+		ai_feudal_modifier = -10
+		ai_republic_modifier = 10
+		extra_tech_building_start = 2.5
+		
+		upgrades_from = no_craftsmens_quarter_3
+		convert_to_tribal = tb_market_town_4
+		
+		nomad_tax_modifier = 0.05
+		max_population_mult = -0.04
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_craftsmens_quarter_5 = {
+		desc = no_craftsmens_quarter_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 125
+		build_time = 730
+		ai_creation_factor = 86
+		extra_tech_building_start = 2.0
+		
+		upgrades_from = no_craftsmens_quarter_4
+		
+		nomad_tax_modifier = 0.05
+		max_population_mult = -0.03
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_craftsmens_quarter_6 = {
+		desc = no_craftsmens_quarter_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 85
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_craftsmens_quarter_5
+		
+		nomad_tax_modifier = 0.05
+		max_population_mult = -0.03
+		moved_capital_months_mult = 0.14
+	}
+	
+	no_craftsmens_quarter_7 = {
+		desc = no_craftsmens_quarter_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 175
+		build_time = 730
+		ai_creation_factor = 84
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_craftsmens_quarter_6
+		
+		nomad_tax_modifier = 0.05
+		max_population_mult = -0.03
+		moved_capital_months_mult = 0.14
+	}
+	
+	no_craftsmens_quarter_8 = {
+		desc = no_craftsmens_quarter_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 200
+		build_time = 730
+		ai_creation_factor = 83
+		extra_tech_building_start = 4.0
+		
+		upgrades_from = no_craftsmens_quarter_7
+		
+		nomad_tax_modifier = 0.05
+		max_population_mult = -0.03
+		moved_capital_months_mult = 0.16
+	}
+	
+	################### TRAINING GROUNDS ###################
+	no_training_grounds_1 = {
+		desc = no_training_grounds_desc
+		trigger = {
+			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 50
+		build_time = 365
+		ai_creation_factor = 97
+		extra_tech_building_start = 0.5
+
+		max_manpower_mult = 0.01
+	}
+
+	no_training_grounds_2 = {
+		desc = no_training_grounds_desc
+		trigger = {
+			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 100
+		build_time = 365
+		ai_creation_factor = 98
+		extra_tech_building_start = 1.0
+		
+		upgrades_from = no_training_grounds_1
+		convert_to_tribal = tb_training_grounds_1
+
+		max_manpower_mult = 0.015
+	}
+
+	no_training_grounds_3 = {
+		desc = no_training_grounds_desc
+		trigger = {
+			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 150
+		build_time = 365
+		ai_creation_factor = 96
+		extra_tech_building_start = 1.5
+		
+		upgrades_from = no_training_grounds_2
+
+		max_manpower_mult = 0.025
+	}
+
+	no_training_grounds_4 = {
+		desc = no_training_grounds_desc
+		trigger = {
+			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 200
+		build_time = 730
+		ai_creation_factor = 97
+		extra_tech_building_start = 2.0
+		
+		upgrades_from = no_training_grounds_3
+		convert_to_tribal = tb_training_grounds_2
+
+		max_manpower_mult = 0.025
+	}
+	
+	no_training_grounds_5 = {
+		desc = no_training_grounds_desc
+		trigger = {
+			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 250
+		build_time = 730
+		ai_creation_factor = 95
+		extra_tech_building_start = 2.5
+		
+		upgrades_from = no_training_grounds_4
+
+		max_manpower_mult = 0.025
+	}
+	
+	no_training_grounds_6 = {
+		desc = no_training_grounds_desc
+		trigger = {
+			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 300
+		build_time = 730
+		ai_creation_factor = 96
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_training_grounds_5
+		convert_to_tribal = tb_training_grounds_3
+
+		max_manpower_mult = 0.05
+	}
+	
+	no_training_grounds_7 = {
+		desc = no_training_grounds_desc
+		trigger = {
+			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 400
+		build_time = 730
+		ai_creation_factor = 94
+		extra_tech_building_start = 3.5
+		
+		upgrades_from = no_training_grounds_6
+
+		max_manpower_mult = 0.05
+	}
+	
+	no_training_grounds_8 = {
+		desc = no_training_grounds_desc
+		trigger = {
+			FROM = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 450
+		build_time = 1095
+		ai_creation_factor = 95
+		extra_tech_building_start = 4.0
+		
+		upgrades_from = no_training_grounds_7
+		convert_to_tribal = tb_training_grounds_4
+
+		max_manpower_mult = 0.05
+	}
+	
+	################### RIDING CONTESTS ###################
+	no_riding_contests_1 = {
+		desc = no_riding_contests_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 50
+		build_time = 365
+		ai_creation_factor = 97
+		extra_tech_building_start = 0.5
+		
+		land_morale = 0.0375
+		manpower_growth = 0.025
+	}
+
+	no_riding_contests_2 = {
+		desc = no_riding_contests_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 100
+		build_time = 365
+		ai_creation_factor = 98
+		extra_tech_building_start = 1.0
+		
+		upgrades_from = no_riding_contests_1
+		convert_to_tribal = tb_arsenal_1
+
+		land_morale = 0.0375
+		manpower_growth = 0.025
+	}
+
+	no_riding_contests_3 = {
+		desc = no_riding_contests_desc
+		trigger = {
+			FROM = { TECH_CITY_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 150
+		build_time = 365
+		ai_creation_factor = 96
+		extra_tech_building_start = 1.5
+		
+		upgrades_from = no_riding_contests_2
+
+		land_morale = 0.0375
+		manpower_growth = 0.025
+	}
+
+	no_riding_contests_4 = {
+		desc = no_riding_contests_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 200
+		build_time = 730
+		ai_creation_factor = 97
+		extra_tech_building_start = 2.0
+		
+		upgrades_from = no_riding_contests_3
+		convert_to_tribal = tb_arsenal_2
+
+		land_morale = 0.0375
+		manpower_growth = 0.025
+	}
+	
+	no_riding_contests_5 = {
+		desc = no_riding_contests_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 250
+		build_time = 730
+		ai_creation_factor = 95
+		extra_tech_building_start = 2.5
+		
+		upgrades_from = no_riding_contests_4
+
+		land_morale = 0.0375
+		manpower_growth = 0.025
+	}
+	
+	no_riding_contests_6 = {
+		desc = no_riding_contests_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 300
+		build_time = 730
+		ai_creation_factor = 96
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_riding_contests_5
+		convert_to_tribal = tb_arsenal_3
+
+		land_morale = 0.0375
+		manpower_growth = 0.025
+	}
+	
+	no_riding_contests_7 = {
+		desc = no_riding_contests_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 350
+		build_time = 730
+		ai_creation_factor = 94
+		extra_tech_building_start = 3.5
+		
+		upgrades_from = no_riding_contests_6
+
+		land_morale = 0.0375
+		manpower_growth = 0.025
+	}
+	
+	no_riding_contests_8 = {
+		desc = no_riding_contests_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		prestige_cost = 400
+		build_time = 1095
+		ai_creation_factor = 95
+		extra_tech_building_start = 4.0
+		
+		upgrades_from = no_riding_contests_7
+		convert_to_tribal = tb_arsenal_4
+		
+		land_morale = 0.0375
+		manpower_growth = 0.025
+	}
+	
+	################### HARBOR ###################
+	no_harbor_1 = {
+		desc = no_harbor_desc
+		trigger = { 
+			FROM = { TECH_NAVAL = 1 }
+			location = { port = yes }
+			emf_is_building_construction_allowed = yes
+		}
+		is_active_trigger = {
+			location = { port = yes }
+		}
+		prestige_cost = 50
+		build_time = 365
+		ai_creation_factor = 96
+		extra_tech_building_start = 0.3
+		
+		galleys = 3
+		moved_capital_months_mult = 0.10
+	}
+	
+	no_harbor_2 = {
+		desc = no_harbor_desc
+		trigger = { 
+			FROM = { TECH_NAVAL = 1 }
+			location = { port = yes }
+			emf_is_building_construction_allowed = yes
+		}
+		is_active_trigger = {
+			location = { port = yes }
+		}
+		prestige_cost = 100
+		build_time = 365
+		ai_creation_factor = 97
+		extra_tech_building_start = 0.3
+		
+		upgrades_from = no_harbor_1
+		convert_to_tribal = tb_shipyard_1
+		
+		galleys = 3
+		moved_capital_months_mult = 0.10
+	}
+	
+	no_harbor_3 = {
+		desc = no_harbor_desc
+		trigger = { 
+			FROM = { TECH_NAVAL = 2 }
+			location = { port = yes }
+			emf_is_building_construction_allowed = yes
+		}
+		is_active_trigger = {
+			location = { port = yes }
+		}
+		prestige_cost = 150
+		build_time = 365
+		ai_creation_factor = 95
+		extra_tech_building_start = 0.3
+		
+		upgrades_from = no_harbor_2
+		convert_to_tribal = tb_shipyard_2
+		
+		galleys = 3
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_harbor_4 = {
+		desc = no_harbor_desc
+		trigger = { 
+			FROM = { TECH_NAVAL = 2 }
+			location = { port = yes }
+			emf_is_building_construction_allowed = yes
+		}
+		is_active_trigger = {
+			location = { port = yes }
+		}
+		prestige_cost = 200
+		build_time = 730
+		ai_creation_factor = 96
+		extra_tech_building_start = 0.3
+		
+		upgrades_from = no_harbor_3
+		convert_to_tribal = tb_shipyard_2
+		
+		galleys = 4
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_harbor_5 = {
+		desc = no_harbor_desc
+		trigger = { 
+			FROM = { TECH_NAVAL = 3 }
+			location = { port = yes }
+			emf_is_building_construction_allowed = yes
+		}
+		is_active_trigger = {
+			location = { port = yes }
+		}
+		prestige_cost = 250
+		build_time = 730
+		ai_creation_factor = 94
+		extra_tech_building_start = 0.3
+		
+		upgrades_from = no_harbor_4
+		convert_to_tribal = tb_shipyard_3
+		
+		galleys = 4
+		moved_capital_months_mult = 0.12
+	}
+	
+	no_harbor_6 = {
+		desc = no_harbor_desc
+		trigger = { 
+			FROM = { TECH_NAVAL = 3 }
+			location = { port = yes }
+			emf_is_building_construction_allowed = yes
+		}
+		is_active_trigger = {
+			location = { port = yes }
+		}
+		prestige_cost = 300
+		build_time = 730
+		ai_creation_factor = 95
+		extra_tech_building_start = 0.3
+		
+		upgrades_from = no_harbor_5
+		convert_to_tribal = tb_shipyard_3
+		
+		galleys = 4
+		moved_capital_months_mult = 0.14
+	}
+	
+	no_harbor_7 = {
+		desc = no_harbor_desc
+		trigger = { 
+			FROM = { TECH_NAVAL = 4 }
+			location = { port = yes }
+			emf_is_building_construction_allowed = yes
+		}
+		is_active_trigger = {
+			location = { port = yes }
+		}
+		prestige_cost = 350
+		build_time = 730
+		ai_creation_factor = 93
+		extra_tech_building_start = 0.3
+		
+		upgrades_from = no_harbor_6
+		
+		galleys = 4
+		moved_capital_months_mult = 0.14
+	}
+	
+	no_harbor_8 = {
+		desc = no_harbor_desc
+		trigger = { 
+			FROM = { TECH_NAVAL = 4 }
+			location = { port = yes }
+			emf_is_building_construction_allowed = yes
+		}
+		is_active_trigger = {
+			location = { port = yes }
+		}
+		prestige_cost = 400
+		build_time = 1095
+		ai_creation_factor = 94
+		extra_tech_building_start = 0.3
+		
+		upgrades_from = no_harbor_7
+		convert_to_tribal = tb_shipyard_4
+		
+		galleys = 5
+		moved_capital_months_mult = 0.16
+	}
+	
+	################### HORSE BREEDER ###################
+	no_horse_breeder_1 = {
+		desc = no_horse_breeder_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 30
+		build_time = 365
+		ai_creation_factor = 94
+		extra_tech_building_start = 0.3
+		
+		global_winter_supply = 0.25
+		global_movement_speed = 0.05
+		knights_morale = 0.025
+		light_cavalry_morale = 0.025
+		horse_archers_morale = 0.025
+		knights_offensive = -0.025
+		light_cavalry_offensive = -0.025
+	}
+
+	no_horse_breeder_2 = {
+		desc = no_horse_breeder_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 0 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 60
+		build_time = 365
+		ai_creation_factor = 93
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_horse_breeder_1
+
+		global_winter_supply = 0.25
+		global_movement_speed = 0.05
+		knights_morale = 0.0275
+		light_cavalry_morale = 0.0275
+		horse_archers_morale = 0.0275
+		knights_offensive = -0.025
+		light_cavalry_offensive = -0.025
+	}
+
+	no_horse_breeder_3 = {
+		desc = no_horse_breeder_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 90
+		build_time = 365
+		ai_creation_factor = 92
+		extra_tech_building_start = 1
+		
+		upgrades_from = no_horse_breeder_2
+
+		global_winter_supply = 0.25
+		global_movement_speed = 0.05
+		knights_morale = 0.0275
+		light_cavalry_morale = 0.0275
+		horse_archers_morale = 0.0275
+		knights_offensive = -0.025
+		light_cavalry_offensive = -0.025
+	}
+
+	no_horse_breeder_4 = {
+		desc = no_horse_breeder_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 120
+		build_time = 365
+		ai_creation_factor = 91
+		extra_tech_building_start = 2
+		
+		upgrades_from = no_horse_breeder_3
+
+		global_winter_supply = 0.25
+		global_movement_speed = 0.05
+		knights_morale = 0.03
+		light_cavalry_morale = 0.03
+		horse_archers_morale = 0.03
+		knights_offensive = -0.025
+		light_cavalry_offensive = -0.025
+	}
+	
+	no_horse_breeder_5 = {
+		desc = no_horse_breeder_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 150
+		build_time = 365
+		ai_creation_factor = 90
+		extra_tech_building_start = 2
+		
+		upgrades_from = no_horse_breeder_4
+
+		global_winter_supply = 0.25
+		global_movement_speed = 0.05
+		knights_morale = 0.0325
+		light_cavalry_morale = 0.0325
+		horse_archers_morale = 0.0325
+		knights_offensive = -0.025
+		light_cavalry_offensive = -0.025
+	}
+	
+	no_horse_breeder_6 = {
+		desc = no_horse_breeder_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 180
+		build_time = 365
+		ai_creation_factor = 89
+		extra_tech_building_start = 3
+		
+		upgrades_from = no_horse_breeder_5
+
+		global_winter_supply = 0.25
+		global_movement_speed = 0.05
+		knights_morale = 0.0325
+		light_cavalry_morale = 0.0325
+		horse_archers_morale = 0.0325
+		knights_offensive = -0.025
+		light_cavalry_offensive = -0.025
+	}
+	
+	no_horse_breeder_7 = {
+		desc = no_horse_breeder_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 210
+		build_time = 365
+		ai_creation_factor = 88
+		extra_tech_building_start = 3
+		
+		upgrades_from = no_horse_breeder_6
+
+		global_winter_supply = 0.25
+		global_movement_speed = 0.05
+		knights_morale = 0.0375
+		light_cavalry_morale = 0.0375
+		horse_archers_morale = 0.0375
+		knights_offensive = -0.025
+		light_cavalry_offensive = -0.025
+	}
+	
+	no_horse_breeder_8 = {
+		desc = no_horse_breeder_desc
+		trigger = {
+			FROM = { TECH_CASTLE_CONSTRUCTION = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 240
+		build_time = 365
+		ai_creation_factor = 87
+		extra_tech_building_start = 4
+		
+		upgrades_from = no_horse_breeder_7
+
+		global_winter_supply = 0.25
+		global_movement_speed = 0.05
+		knights_morale = 0.0375
+		light_cavalry_morale = 0.0375
+		horse_archers_morale = 0.0375
+		knights_offensive = -0.025
+		light_cavalry_offensive = -0.025
+	}
+	
+	################### MESSENGER SYSTEM ###################
+	no_messenger_system_1 = {
+		desc = no_messenger_system_desc
+		trigger = {
+			FROM = { TECH_TRADE_PRACTICES = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 50
+		build_time = 365
+		ai_creation_factor = 80
+		extra_tech_building_start = 1.0
+		
+		tech_growth_modifier = 0.05
+		global_movement_speed = 0.05
+		monthly_character_prestige = 0.05
+		global_tradevalue = 15
+		nomad_tax_modifier = -0.0125
+	}
+	
+	no_messenger_system_2 = {
+		desc = no_messenger_system_desc
+		trigger = {
+			FROM = { TECH_TRADE_PRACTICES = 1 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 100
+		build_time = 365
+		ai_creation_factor = 79
+		extra_tech_building_start = 1.5
+		
+		upgrades_from = no_messenger_system_1
+		
+		tech_growth_modifier = 0.05
+		global_movement_speed = 0.05
+		monthly_character_prestige = 0.05
+		global_tradevalue = 15
+		nomad_tax_modifier = -0.0125
+	}
+	
+	no_messenger_system_3 = {
+		desc = no_messenger_system_desc
+		trigger = {
+			FROM = { TECH_TRADE_PRACTICES = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 150
+		build_time = 365
+		ai_creation_factor = 78
+		extra_tech_building_start = 1.5
+		
+		upgrades_from = no_messenger_system_2
+		
+		tech_growth_modifier = 0.05
+		global_movement_speed = 0.05
+		monthly_character_prestige = 0.05
+		global_tradevalue = 15
+		nomad_tax_modifier = -0.0125
+	}
+	
+	no_messenger_system_4 = {
+		desc = no_messenger_system_desc
+		trigger = {
+			FROM = { TECH_TRADE_PRACTICES = 2 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 200
+		build_time = 365
+		ai_creation_factor = 77
+		extra_tech_building_start = 2.0
+		
+		upgrades_from = no_messenger_system_3
+		
+		tech_growth_modifier = 0.05
+		global_movement_speed = 0.05
+		monthly_character_prestige = 0.05
+		global_tradevalue = 20
+		nomad_tax_modifier = -0.0125
+	}
+	
+	no_messenger_system_5 = {
+		desc = no_messenger_system_desc
+		trigger = {
+			FROM = { TECH_TRADE_PRACTICES = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 250
+		build_time = 365
+		ai_creation_factor = 76
+		extra_tech_building_start = 2.0
+		
+		upgrades_from = no_messenger_system_4
+		
+		tech_growth_modifier = 0.05
+		global_movement_speed = 0.05
+		monthly_character_prestige = 0.05
+		global_tradevalue = 25
+		nomad_tax_modifier = -0.0125
+	}
+	
+	no_messenger_system_6 = {
+		desc = no_messenger_system_desc
+		trigger = {
+			FROM = { TECH_TRADE_PRACTICES = 3 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 300
+		build_time = 365
+		ai_creation_factor = 75
+		extra_tech_building_start = 2.5
+		
+		upgrades_from = no_messenger_system_5
+		
+		tech_growth_modifier = 0.05
+		global_movement_speed = 0.05
+		monthly_character_prestige = 0.05
+		global_tradevalue = 30
+		nomad_tax_modifier = -0.0125
+	}
+	
+	no_messenger_system_7 = {
+		desc = no_messenger_system_desc
+		trigger = {
+			FROM = { TECH_TRADE_PRACTICES = 4 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 350
+		build_time = 365
+		ai_creation_factor = 74
+		extra_tech_building_start = 2.5
+		
+		upgrades_from = no_messenger_system_6
+		
+		tech_growth_modifier = 0.05
+		global_movement_speed = 0.05
+		monthly_character_prestige = 0.05
+		global_tradevalue = 35
+		nomad_tax_modifier = -0.0125
+	}
+	
+	no_messenger_system_8 = {
+		desc = no_messenger_system_desc
+		trigger = {
+			FROM = { TECH_TRADE_PRACTICES = 4 }
+			emf_is_building_construction_allowed = yes
+		}
+		gold_cost = 400
+		build_time = 365
+		ai_creation_factor = 73
+		extra_tech_building_start = 3.0
+		
+		upgrades_from = no_messenger_system_7
+		
+		tech_growth_modifier = 0.05
+		global_movement_speed = 0.05
+		monthly_character_prestige = 0.05
+		global_tradevalue = 45
+		nomad_tax_modifier = -0.0125
+	}
+}
+

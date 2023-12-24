@@ -331,3 +331,138 @@ emf_can_execute_ROOT = {
 	}
 }
 
+
+# all non-hordes (retinues) have this in their purchase/hire requirements
+emf_retinue_hire_basic_potential = {
+	is_nomadic = no
+	OR = {
+		ai = no
+		is_patrician = yes
+		is_merchant_republic = yes
+		AND = {
+			higher_real_tier_than = COUNT
+			yearly_income = 120 # 10g/month
+			OR = {
+				realm_size = 21
+				num_of_count_titles_in_realm = 7
+			}
+		}
+	}
+}
+
+emf_is_building_construction_allowed = {
+	show_only_failed_conditions = yes
+	trigger_if = {
+		limit = {
+			had_global_flag = { flag = EMF days = 1 }
+			FROM = { ai = yes }
+		}
+		FROM = { war = no }
+	}
+}
+
+# considered "Good Enough Peace" for the realm for the purposes of tracking whether and how long since a realm/ruler has had
+# relatively uninterrupted peace. currently only used for the 'See The Realm Prosper' ambition.
+emf_has_primary_peace = {
+	custom_tooltip = {
+		text = TT_HAS_PRIMARY_PEACE
+		hidden_tooltip = {
+			NOT = {
+				any_war = {
+					OR = {
+						attacker = { character = PREV }
+						AND = {
+							defender = { character = PREV }
+							NOR = {
+								using_cb = peasant_revolt
+								using_cb = heretic_revolt
+								using_cb = cb_minor_clan_revolt
+								using_cb = liberation_revolt
+								using_cb = emf_revolt_religious
+								using_cb = emf_decadence_revolt
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Succession laws that no feudal ruler's titles should have and that cannot be readily changed:
+emf_has_succ_law_unfit_for_feudal = {
+	OR = {
+		has_law = succ_papal_succession
+		has_law = succ_appointment
+		has_law = succ_open_elective
+		has_law = succ_catholic_bishopric
+		has_law = succ_patrician_elective
+		has_law = succ_nomad_succession
+		has_law = succ_offmap_succession
+	}
+}
+
+# Used by emf_abdicate effect
+emf_revolting_against_abdicator_internal = {
+	any_war = {
+		defender = {
+			character = event_target:emf_abdicator_tmp
+		}
+		attacker = {
+			character = PREV
+			independent = no
+			OR = {
+				in_revolt = yes
+				liege_before_war = {
+					character = event_target:emf_abdicator_tmp
+				}
+			}
+			liege = {
+				OR = {
+					character = PREV
+					event_target:emf_abdicator_tmp = {
+						is_liege_or_above = PREV
+					}
+				}
+			}
+		}
+	}
+}
+
+# largely for debugging:
+emf_has_any_succ_law = {
+	OR = {
+		has_law = succ_gavelkind
+		has_law = succ_elective_gavelkind
+		has_law = succ_eldership
+		has_law = succ_seniority
+		has_law = succ_primogeniture
+		has_law = succ_feudal_elective
+		has_law = succ_hre_elective
+		has_law = succ_aztec_elective
+		has_law = succ_byzantine_elective
+		has_law = succ_tanistry
+		has_law = succ_pictish_elective
+		has_law = succ_dynastic_elective
+		has_law = succ_ultimogeniture
+#		has_law = succ_mirath
+		has_law = succ_turkish_succession
+		has_law = succ_papal_succession
+		has_law = succ_appointment
+		has_law = succ_open_elective
+		has_law = succ_catholic_bishopric
+		has_law = succ_patrician_elective
+		has_law = succ_nomad_succession
+		has_law = succ_offmap_succession
+	}
+}
+
+emf_has_any_gender_succ_law = {
+	OR = {
+		has_law = agnatic_succession
+		has_law = cognatic_succession
+		has_law = true_cognatic_succession
+		has_law = enatic_succession
+		has_law = enatic_cognatic_succession
+	}
+}

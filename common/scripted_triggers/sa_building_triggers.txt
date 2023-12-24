@@ -1,0 +1,375 @@
+#
+
+soa_province_is_steppe_culture = {
+	OR = {
+		AND = {
+			culture_group = patagon
+			NOT = { culture = australino }
+		}
+		culture = wladfaeg
+		culture = aonikenk
+		culture = selknam
+	}
+}
+
+soa_province_is_desert_culture = { #desert here also includes Sertão
+	OR = {
+		culture_group = sertanejo_group
+		culture_group = northeastern_native
+		culture = cearense
+		culture = chiconho
+		culture = espinhaco
+		culture = atacameno
+		culture = cuyano
+		culture = norteno
+		culture = arequipeno
+		culture = ileno
+	}
+	NOT = {
+		culture = potiguara
+	}
+}
+
+#Warrior Monks
+soa_province_is_gompa_monastery_culture = { 
+	OR = {
+		religion = celeste
+		religion = mucker
+	}
+}
+
+###CULTURAL BUILDINGS###
+
+soa_amazonian_archer_culture = {
+	culture_group = amazonian_group
+	NOR = {
+		culture = mura
+		culture = ticuna
+		culture = matis
+	}
+}
+
+soa_curare_blowgunner_culture = {
+	OR = {
+		culture = ticuna
+		culture = matis
+	}
+}
+
+soa_mura_giant_culture = {
+	culture = mura
+}
+
+soa_jinete_teheuche_culture = {
+	culture = aonikenk
+}
+
+soa_patagonian_archer_culture = {
+	OR = {
+		culture = kawesqar
+		culture = selknam
+		culture = santacruceno
+	}
+}
+
+soa_mapuche_culture = {
+	culture = mapuche
+}
+
+soa_liwi_culture = {
+	OR = {
+		culture = aymara
+		culture = colla
+	}
+}
+
+soa_quechua_culture = {
+	culture = quechua
+}
+
+soa_alagoano_culture = {
+	culture = lagoano
+}
+
+soa_natalense_culture = {
+	culture = natalense
+}
+
+soa_recifolindense_culture = {
+	culture = recifolindense
+}
+
+soa_cangaceiro_culture = {
+	OR = {
+		culture_group = sertanejo_group
+		culture = baiano
+		culture = sergipano
+		culture = valcude
+	}
+}
+
+soa_flying_company_culture = {
+	culture = chiconho
+}
+
+soa_mandioca_culture = {
+	culture = diamantino
+}
+
+soa_maculele_culture = {
+	OR = {
+		culture = ilhense
+		culture = capixaba
+	}
+}
+
+soa_sandcaptain_culture = {
+	culture = salvadorense
+}
+
+soa_colorados_culture = {
+	culture = camba
+}
+
+soa_longbowmen_culture = {
+	culture_group = british_group
+}
+
+soa_vaqueiro_culture = {
+	culture = cearense
+}
+
+soa_pantaneiro_culture = {
+	culture_group = cerradonense
+	NOT = { culture = candango }
+}
+
+soa_independence_dragoon_culture = {
+	culture = candango
+}
+
+soa_huaso_culture = {
+	OR = {
+		culture = huaso
+		culture = centrino
+		culture = australino
+	}
+}
+
+soa_desert_ambusher_culture = {
+	culture = atacameno
+}
+
+soa_seagull_culture = {
+	culture = sureno
+}
+
+soa_salteador_culture = {
+	culture_group = cigano
+}
+
+soa_gauchos_culture = {
+	OR = {
+		culture = gaucho
+		culture = guacho
+		culture = litoraleno
+		culture = pampeano
+	}
+}
+
+soa_greenbelly_culture = {
+	culture = greenbelly
+}
+
+soa_paranaense_culture = {
+	culture = paranaense
+}
+
+soa_cossack_culture = {
+	culture = rutenio
+}
+
+soa_pavise_crossbowmen = {
+	culture = talian
+}
+
+soa_rabona_culture = {
+	OR = {
+		culture_group = costeno
+		culture_group = silvano
+	}
+	NOR = {
+		culture = iqueno
+		culture = nortechicano
+		culture = nortegrandeno
+		culture = rimense
+	}
+}
+
+soa_junin_hussar_culture = {
+	OR = {
+		culture_group = costeno
+		culture_group = silvano
+	}
+	NOR = {
+		culture = arequipeno
+		culture = huascareno
+		culture = ileno
+		culture = oxapampino
+	}
+}
+
+soa_granaderos_de_tarqui_culture = {
+	culture_group = ecuatoriano
+}
+
+soa_baltica_warrior_culture = {
+	culture_group = finnish
+}
+
+soa_caveira_culture = {
+	culture = carioca
+}
+
+soa_stormer_culture = {
+	culture = mantiqueiro
+}
+
+soa_llanero_culture = {
+	culture_group = gran_colombian
+	NOT = { culture = colombian }
+}
+
+soa_guardia_narino_culture = {
+	culture = colombian
+}
+
+soa_highland_skirmisher_culture = {
+	culture_group = highlander
+}
+
+soa_chaco_horsemen_culture = {
+	OR = {
+		culture = chaqueno
+		culture = norteno
+		culture_group = waikurean
+	}
+}
+
+soa_mubarizun_culture = {
+	culture = cordobes
+}
+
+soa_black_regiment_culture = {
+	culture = cuyano
+}
+
+soa_janissary_culture = {
+	culture = turco
+}
+
+soa_xondaroi_culture = {
+	culture_group = mbaya
+}
+
+soa_balaio_falxman_culture = {
+	culture_group = meio_norte
+}
+
+soa_tropeiro_culture = {
+	culture_group = mineiro
+	NOR = {
+		culture = auriferro
+		culture = triangler
+		culture = valcude
+	}
+}
+
+soa_teethtaker_culture = {
+	OR = {
+		culture = auriferro
+		culture = triangler
+	}
+}
+
+soa_torem_dancer = {
+	culture_group = northeastern_native
+	NOR = {
+		culture = pataxo
+		culture = potiguara
+	}
+}
+
+soa_patxo_culture = {
+	culture = pataxo
+}
+
+soa_shrimpeater_culture = {
+	culture = potiguara
+}
+
+soa_selva_culture = {
+	culture_group = nortista
+	NOR = {
+		culture = acreano
+		culture = marajoara
+	}
+}
+
+soa_rubberback_culture = {
+	culture = acreano
+}
+
+soa_vaqueiro_marajoara_culure = {
+	culture = marajoara
+}
+
+soa_patagonian_horseman_culture = {
+	culture = desertico
+}
+
+soa_bandeirante_culture = {
+	culture_group = paulista
+	NOR = {
+		culture = caipira
+		culture = americano
+	}
+}
+
+soa_peao_culture = {
+	OR = {
+		culture = caipira
+		culture = americano
+	}
+}
+
+soa_polynesian_culture = {
+	culture_group = polynesian
+}
+
+soa_aca_vera_culture = {
+	culture = asunceno
+}
+
+soa_provvisionati_culture = {
+	culture = asunceno
+}
+
+soa_barra_brava_culture = {
+	culture = porteno
+}
+
+soa_blandengue_culture = {
+	culture = urbuguayo
+}
+
+soa_reiter_culture = {
+	OR = {
+		culture = hunsruckish
+		culture = pomerisch
+	}
+}
+
+soa_huka_huka_culture = {
+	culture_group = xingu
+}
