@@ -286,12 +286,12 @@
 	name = "Garcia"
 	culture = carioca
 }
-55582 = {
-	name = "Calazans"
-	culture = carioca
-}
 35045 = {
 	name = "Oliveira"
+	culture = carioca
+}
+35046 = {
+	name = "Calazans"
 	culture = carioca
 }
 40001 = {

@@ -16,6 +16,6 @@ b_engenhoca = city
 
 # Misc
 culture = carioca
-religion = evangelical
+religion = kardecists
 
 #History

@@ -8,7 +8,7 @@ max_settlements = 6
 
 b_catete = castle
 b_penha = castle
-b_copacabana = temple
+b_copacabana = city
 b_tanque = city
 b_barra_da_tijuca = temple
 #b_meier = city

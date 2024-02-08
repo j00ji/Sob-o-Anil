@@ -7,7 +7,7 @@ title = c_sao_goncalo
 max_settlements = 4
 
 b_sao_goncalo = castle
-b_jardim_catarina = city
+b_rio_bonito = city
 b_mage = temple
 b_itaborai = castle
 #b_raul_veiga = city
@@ -16,9 +16,4 @@ b_itaborai = castle
 
 # Misc
 culture = carioca
-religion = evangelical
-
-#History
-#2352.4.9 = {
-#	capital = b_jardim_catarina
-#}
+religion = umbanda
