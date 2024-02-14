@@ -265,6 +265,28 @@ christian = {
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
 		priest_title = PADRE
+		
+		intermarry = apostolic
+		intermarry = peterite
+		intermarry = renewalist
+		intermarry = iconoclasts
+		intermarry = catholic
+		intermarry = orthodoxist
+		intermarry = liberationist
+		intermarry = celeste
+		intermarry = mucker
+		intermarry = cicerite
+		intermarry = seladite
+		intermarry = evangelical
+		intermarry = universal #maybe?
+		intermarry = holy_spirit
+		intermarry = xabaxai_xagi
+		intermarry = tridentine
+		intermarry = mysticalist
+		intermarry = kardecists
+		intermarry = umbanda #maybe	
+		intermarry = angel_cult
+		intermarry = santo_daime
 	}
 	apostolic = {
 		graphical_culture = westerngfx
@@ -627,7 +649,6 @@ christian = {
 		allow_rivermovement = yes
 		priests_can_marry = yes
 		priests_can_inherit = yes
-		female_temple_holders = yes
 	}
 	universal = {
 		graphical_culture = westerngfx
