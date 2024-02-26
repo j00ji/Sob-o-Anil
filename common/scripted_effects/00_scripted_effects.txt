@@ -5448,6 +5448,10 @@ monastic_order_purity_effect = {
 
 join_prev_monastic_order_society = {
 	if = {
+		limit = { PREV = { society_member_of = jesuit_society } }
+		join_society = jesuit_society
+	}
+	if = {
 		limit = { PREV = { society_member_of = monastic_order_evangelical } }
 		join_society = monastic_order_evangelical
 	}

@@ -1,0 +1,31 @@
+is_christian_monastic_member_trigger = {
+	OR = {
+		society_member_of = jesuit_society
+		society_member_of = monastic_order_evangelical
+		society_member_of = monastic_order_benedictine
+		society_member_of = monastic_order_dominican
+		society_member_of = monastic_order_leibowitz
+		society_member_of = monastic_order_orthodox
+		society_member_of = monastic_order_ursuline
+		society_member_of = monastic_order_mormon
+	}
+}
+
+is_dharmic_monastic_member_trigger = {
+	OR = {
+		society_member_of = monastic_order_hindu
+		#society_member_of = monastic_order_buddhist
+		#society_member_of = monastic_order_jain
+	}
+}
+
+is_monastic_member_trigger = {
+	OR = {
+		is_dharmic_monastic_member_trigger = yes
+		is_christian_monastic_member_trigger = yes
+		society_member_of = monastic_order_jewish
+			}
+}
+
+#call it using this:
+#	is_tutorial_society_trigger = yes 

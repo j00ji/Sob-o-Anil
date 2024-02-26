@@ -62,6 +62,10 @@ character_event = {
 			has_religion_feature = religion_proselytizing
 		}
 		modifier = {
+			factor = 0.5
+			society_member_of = jesuit_society
+		}
+		modifier = {
 			factor = 2.5
 			has_religion_feature = religion_cosmopolitan
 		}

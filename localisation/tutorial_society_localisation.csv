@@ -1,0 +1,80 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Make sure that this file in encoded in ANSI
+#The society name
+jesuit_society;Society of Jesus;;;;;;;;;;;;;x
+string_jesuit_society;jesuit_society;;;;;;;;;;;;;x
+#The society description
+jesuit_society_desc;The Jesuits are very cool dudes because they pissed off the King of Spain.;;;;;;;;;;;;;x
+#Leader description
+jesuit_society_leader_desc;The description of the leader of the society.;;;;;;;;;;;;;x
+#Name of the ranks
+jesuit_society_rank_1_female;Novice;;;;;;;;;;;;;x
+jesuit_society_rank_2_female;Rector;;;;;;;;;;;;;x
+jesuit_society_rank_3_female;Assitant;;;;;;;;;;;;;x
+jesuit_society_rank_4_female;Superior General;;;;;;;;;;;;;x
+jesuit_society_rank_1_male;Novice;;;;;;;;;;;;;x
+jesuit_society_rank_2_male;Rector;;;;;;;;;;;;;x
+jesuit_society_rank_3_male;Assistant;;;;;;;;;;;;;x
+jesuit_society_rank_4_male;Superior General;;;;;;;;;;;;;x
+#Name of the currency
+jesuit_society_currency;Tutorial Points;;;;;;;;;;;;;x
+#Rank up button name
+request_to_rank_up_within_jesuit_society;Request to rank up.;;;;;;;;;;;;;x
+#For tooltip that require being a member
+IS_jesuit_society_TRIGGER;Is a member of the Tutorial Society.;;;;;;;;;;;;;x
+#Rank up decision if you made a custom one, alongside the required custom_local
+request_to_rank_up_within_jesuit_society;Request a Promotion.;;;;;;;;;;;;;x
+request_to_rank_up_within_jesuit_society_tt;Has §Y[Root.Society.GetCurrency]§! greater or equal to [Root.GetSocietyRankUpTooltip1];;;;;;;;;;;;;x
+GetTutorialRankUpTooltip_Standard_Rank1;§Y[Root.Society.GetCurrency]§!;;;;;;;;;;;;;x
+GetTutorialRankUpTooltip_Standard_Rank2;§Y[Root.Society.GetCurrency]§!;;;;;;;;;;;;;x
+GetTutorialRankUpTooltip_Standard_Rank3;§Y[Root.Society.GetCurrency]§!;;;;;;;;;;;;;x
+#
+#Name of the decision
+jesuit_society_power_1;Trade Tutorial Points for gold!;;;;;;;;;;;;;x
+#Tooltip of the decision
+jesuit_society_power_1_desc;Trade Tutorial Points for gold, the description.;;;;;;;;;;;;;x
+#Tooltip of the decision in the society menu
+jesuit_society_power_1_power_desc;Trade Tutorial Points for gold, the power description.;;;;;;;;;;;;;x
+#The name of the passive power
+passive_power_tooltip;Evangelizing Mission;;;;;;;;;;;;;x
+#The description of the passive power
+passive_power_tooltip_power_desc;Chaplains who are part of the Jesuits are more proficient at proselytizing.;;;;;;;;;;;;;x
+#
+#The localization for the currency gain
+society_gain_tier_duke_tooltip;Is a Duke: §G+3.0§!;;;;;;;;;x # §G mean green
+society_gain_tier_catholic_tooltip;Is Catholic: §R-3.0§!;;;;;;;;;x # §R is red
+#
+#Modifiers
+tutorial_successful_mission;One Successful Mission;;;;;;;;;;;;;x
+tutorial_failed_mission;One Failed Mission;;;;;;;;;;;;;x
+tutorial_successful_mission_stacked;Many Successful Missions;;;;;;;;;;;;;x #the _stacked is for when there is several modifiers added to each others, so make them plural.
+tutorial_failed_mission_stacked;Many Failed Missions;;;;;;;;;;;;;x
+#
+#This event is for joining
+EVTDESC_JESUIT_102;You want to join my glorious society?;;;;;;;;;;;;;x
+EVTOPTA_JESUIT_102;Yes sir.;;;;;;;;;;;;;x
+EVTOPTB_JESUIT_102;I'm not so sure anymore.;;;;;;;;;;;;;x
+#
+#This event is for rank up
+EVTDESC_JESUIT_122;Greetings [Root.GetSocietyRank] [Root.GetFirstName],\nYou can rank up. [Root.Society.GetName].\n\nSigned,\n[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;;;;x
+EVTOPTA_EVTDESC_JESUIT_122_122;Great.;;;;;;;;;;;;;x
+#
+#Name for a quest
+quest_tutorial_quest_1;Press the button;;;;;;;;;;;;;x
+#Name for a quest if there is no quest target
+quest_tutorial_quest_1_fallback;Press the button;;;;;;;;;;;;;x
+quest_tutorial_quest_1_desc;Press the button and gain gold!;;;;;;;;;;;;;x
+quest_tutorial_quest_1_tooltip;Press the button in the intrige menu.;;;;;;;;;;;;;x
+#
+#Start Quest event
+EVTDESC_JESUIT_141;You want a quest?;;;;;;;;;;;;;x
+#
+#End Quest event
+EVTDESC_JESUIT_142;You want to complete or fail the quest?;;;;;;;;;;;;;x
+EVTOPTA_JESUIT_142;Complete it.;;;;;;;;;;;;;x
+EVTOPTB_JESUIT_142;Fail it..;;;;;;;;;;;;;x
+#
+#End Quest event
+EVTDESC_JESUIT_150;Here be the event text.;;;;;;;;;;;;;x
+EVTOPTA_JESUIT_150;Choice 1.;;;;;;;;;;;;;x
+EVTOPTB_JESUIT_150;Choice 2..;;;;;;;;;;;;;x
