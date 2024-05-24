@@ -1,0 +1,4 @@
+2362.5.8 = { 
+	holder=410009 # Juan Carlos Blanco
+	liege=k_uruguay
+}

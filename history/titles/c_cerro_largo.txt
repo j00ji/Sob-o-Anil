@@ -1,0 +1,4 @@
+2362.5.8 = { 
+	holder=410005 # José Batlle
+	liege=k_uruguay
+}

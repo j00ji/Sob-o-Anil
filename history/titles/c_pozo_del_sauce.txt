@@ -1,0 +1,14 @@
+# e_interior
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
+}
+800.1.1 = {
+	liege=k_norte_viejo
+}
+2360.10.23 = {
+	holder=640107
+}
+2364.11.8 = {
+	holder=640090
+}
