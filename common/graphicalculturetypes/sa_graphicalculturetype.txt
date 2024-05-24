@@ -33,3 +33,9 @@ andinogfx = {
 northmexicangfx = {
 	skin_tone = 1
 }
+noroestegfx = {
+	skin_tone = 1
+}
+portenogfx = {
+	skin_tone = 0
+}
