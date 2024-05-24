@@ -76,7 +76,7 @@ rioplatense = {
 
 	porteno = {
 		
-		graphical_cultures = { italiangfx southerngfx westerngfx }
+		graphical_cultures = { portenogfx southerngfx westerngfx }
 		
 
 		color = {0.2 0.65 0.9}
@@ -193,7 +193,7 @@ rioplatense = {
 
 		from_dynasty_prefix = "de "
 		male_patronym = "pibe de "
-		female_patronym = "pibe de "
+		female_patronym = "piba de "
 		prefix = yes
 	
 		pat_grf_name_chance = 45
@@ -334,20 +334,59 @@ rioplatense = {
 		
 		modifier = default_culture_modifier
 	}
-
-	urbuguayo = {
+	
+	uruguayo = {
 		graphical_cultures = { southerngfx }
 		
 		color = { 0.02 0.4 0.61 }
 		
 		male_names = {
+			Adolfo Alberto_Adalberto Alejandro_Alessandro Andrés Andresito "Ángel" Antonio Armando Arturo Ataliva
+			Camilo_Camillo Carlos Casimiro Chango
+			David "Damián"
+			Elías Enrique Ernesto Estanislao  Eusebio Ezequiel
+			Facundo Fernando
+			Felipe_Fillippo Francisco_Francesco Franco
+			Gabriel Gervasio Gonzalo
+			Hector "Hector María" Hernán_German Horacio
+			Iván
+			Javier_Xabier Jonás "José" Juan_Giovanni "Juan Cruz" "Juan Ignacio" "Juan Manuel" "Juan Pablo" "Juan José" Julio Justo
+			Laurencio Lautaro Leandro Lucas Lucio Luis_Luigi "Luis Alberto"
+			Manuel_Emmanuele Marcelo Marcos_Marco Miguel
+			"Nicolás"
+			Pedro Pablo Pocho
+			Rafael "Raúl" Ricardo Rodrigo
+			Sebastian
+			Olivero
+			"Tomás" Teodoro_Teodosio
+			Santiago
+			Valentín Valentino Victor_Vittorio
 		}
 		female_names = {
+			Adriana Agustina Alejandra Alicia Ana Anita Anastasia Antonia
+			"Bárbara" "Belén"
+			Camila Carla Carmen Carolina Catalina Celeste
+			Dolores
+			Elisa Elvira Esmeralda "Estefanía" Eugenia
+			Fernanda Francisca
+			Gabriela Guillermina Graciela Griselda
+			"Inés" Isabel
+			Jacinta Josefina Juana
+			Laura Luciana Lucila Ludmila
+			"Magalí" Magdalena Margarita "María" "María Ana" "María Inés" "María Laura" "María Luz" "María Paz" Mariana Marta Melina Mercedes Micaela Morena
+			Nadina Nahir
+			Octavia Ofelia
+			Paula Pilar
+			Ramona Romina Rosa "Rocío"
+			Sara Sabrina Silvia "Sofía" Susana
+			Teresa
+			Valentina Victoria "Verónica"
+			Yanina
 		}
 		
 		from_dynasty_prefix = "de "
-		male_patronym = "ez"
-		female_patronym = "ez"
+		male_patronym = "botija de"
+		female_patronym = "botija de"
 		grammar_transform = spanish
 		
 		pat_grf_name_chance = 10
@@ -360,5 +399,69 @@ rioplatense = {
 		
 		modifier = default_culture_modifier		
 	}
-
+	
+	charrua = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.7 0.2 0.2 }
+		
+		male_names = {
+			Adolfo Alberto_Adalberto Alejandro_Alessandro Andrés Andresito "Ángel" Antonio Armando Arturo Ataliva
+			Camilo_Camillo Carlos Casimiro Chango
+			David "Damián"
+			Elías Enrique Ernesto Estanislao  Eusebio Ezequiel
+			Facundo Fernando
+			Felipe_Fillippo Francisco_Francesco Franco
+			Gabriel Gervasio Gonzalo
+			Hector "Hector María" Hernán_German Horacio
+			Iván
+			Javier_Xabier Jonás José_Josué Juan_Giovanni "Juan Cruz" "Juan Ignacio" "Juan Manuel" "Juan Pablo" "Juan José" Julio Justo
+			Laurencio Lautaro Leandro Lucas Lucio Luis_Luigi "Luis Alberto"
+			Manuel_Emmanuele Marcelo Marcos_Marco Miguel
+			"Nicolás"
+			Pedro Pablo Pocho
+			Rafael "Raúl" Ricardo Rodrigo
+			Sebastian
+			Olivero
+			"Tomás" Teodoro_Teodosio
+			Santiago
+			Valentín Valentino Victor_Vittorio
+		}
+		female_names = {
+			Adriana Agustina Alejandra Alicia Ana Anita Anastasia Antonia
+			"Bárbara" "Belén"
+			Camila Carla Carmen Carolina Catalina Celeste
+			Dolores
+			Elisa Elvira Esmeralda "Estefanía" Eugenia
+			Fernanda Francisca
+			Gabriela Guillermina Graciela Griselda
+			"Inés" Isabel
+			Jacinta Josefina Juana
+			Laura Luciana Lucila Ludmila
+			"Magalí" Magdalena Margarita "María" "María Ana" "María Inés" "María Laura" "María Luz" "María Paz" Mariana Marta Melina Mercedes Micaela Morena
+			Nadina Nahir
+			Octavia Ofelia
+			Paula Pilar
+			Ramona Romina Rosa "Rocío"
+			Sara Sabrina Silvia "Sofía" Susana
+			Teresa
+			Valentina Victoria "Verónica"
+			Yanina
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "botija de"
+		female_patronym = "botija de"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier		
+	}
 }

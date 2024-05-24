@@ -345,29 +345,4 @@ cisplatinean = {
 		
 		modifier = default_culture_modifier		
 	}
-	guacho = {
-			graphical_cultures = { southerngfx }
-		
-		color = { 0.7 0.2 0.2 }
-		
-		male_names = {
-		}
-		female_names = {
-		}
-		
-		from_dynasty_prefix = "de "
-		male_patronym = "ez"
-		female_patronym = "ez"
-		grammar_transform = spanish
-		
-		pat_grf_name_chance = 10
-		mat_grf_name_chance = 10
-		father_name_chance = 5
-		
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 10
-		mother_name_chance = 5
-		
-		modifier = default_culture_modifier		
-	}
 }
