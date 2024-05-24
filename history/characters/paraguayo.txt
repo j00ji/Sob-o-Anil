@@ -1,0 +1,372 @@
+###ÃNSI
+####################
+### House Yegros ###
+####################
+330001 = {
+	name="Gaspar" # Gaspar Yegros Karai Guasu, King of Paraguay.
+    dynasty=355070
+
+    culture=pampeano
+    religion=catholic
+
+    martial=7
+    diplomacy=5
+    stewardship=4
+    intrigue=4
+    learning=5
+
+    trait=skilled_tactician        
+    trait=crusader_king
+    trait=strong
+    trait=holy_warrior        
+    trait=arbitrary
+    trait=brave
+    trait=proud
+    trait=diligent
+    trait=stubborn
+
+    2324.1.1={birth=yes}
+	2350.4.5={add_spouse=330044}
+	2365.1.1={
+		effect={
+			give_nickname = nick_karai_guasu
+		}
+	}
+	2368.1.1={add_spouse=330045}
+    2396.1.1={death=yes}
+}
+330044 = {
+	name="Maria"
+	female=yes
+    dynasty=305004 # Yoacham
+    culture=turco
+    religion=catholic
+    martial=3
+    diplomacy=6
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=charismatic_negotiator
+    trait=fair
+    trait=socializer
+    trait=charitable
+    trait=kind
+    trait=ill
+   2320.1.1 ={birth=yes}
+   2362.1.1={death=yes}
+   
+   #First wife of the King of Paraguay, mother of Luis and Luciana, died of a sudden illness
+}
+330045 = {
+	name="Corina"
+	female=yes
+    dynasty=365042 # Lopez
+    culture=asunceno
+    religion=catholic
+    martial=4
+    diplomacy=3
+    stewardship=5
+    intrigue=4
+    learning=4
+    trait=groomed
+    trait=ambitious
+    trait=charitable
+    trait=diligent
+    trait=lustful
+    trait=patient
+	father=330046
+    2351.1.1={birth=yes}
+    2430.1.1={death=yes}
+
+	#Second wife of the King of Paraguay
+}
+### Issue of ###
+330002 = {
+	name="Luciana"
+	female=yes
+    dynasty=355070 # Gelly
+    culture=asunceno
+    religion=catholic
+    martial=5
+    diplomacy=2
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=intricate_webweaver
+    trait=twin
+    trait=shrewd
+    trait=zealous
+    trait=chaste
+    trait=diligent
+    trait=shy
+    trait=stubborn
+	father=330001
+	mother=330044
+    2352.1.1={birth=yes}
+    2408.1.1={death=yes}
+	
+	#Princess of Paraguay and Countess of Misiones
+}
+330003 = {
+	name="Luis"
+    dynasty=355070 # Gelly
+    culture=asunceno
+    religion=catholic
+    martial=6
+    diplomacy=4
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=charismatic_negotiator
+    trait=twin
+    trait=drunkard
+    trait=slothful
+    trait=cynical
+    trait=stubborn
+    trait=gregarious
+	father=330001
+	mother=330044
+    2352.1.1={birth=yes}
+	2368.1.1={add_spouse=690027}
+    2425.1.1={death=yes}
+	
+	#Crown Prince (and heir/older sibling) of Paraguay, rules Ybycui
+}
+##############################
+### House Yegros Household ###
+##############################
+330048 = {
+	name="Justino"
+    dynasty=340116 # Canavery
+    culture=porteno
+    religion=catholic
+    martial=5
+    diplomacy=4
+    stewardship=4
+    intrigue=5
+    learning=3
+    trait=skilled_tactician        
+    trait=crusader
+    trait=kind
+    trait=charitable
+    trait=content
+    trait=gregarious
+    trait=wroth
+    trait=just
+    2329.1.1={birth=yes}
+	2368.1.1={
+		employer=330001
+		give_job_title=job_marshal
+	}
+    2400.1.1={death=yes}
+
+	#Fellow Crusader and friend of the King of Paraguay, Marshal of Paraguay
+}
+
+
+#######################
+### House Hernandez ###
+#######################
+320001={
+	name="Alexandra"
+    dynasty=115002 # Hernandez
+    female=yes
+    culture=charrua
+    religion=catholic
+    martial=5
+    diplomacy=2
+    stewardship=3
+    intrigue=4
+    learning=5
+    trait=fortune_builder        
+    trait=crusader
+    trait=ugly
+    trait=greedy
+    trait=shrewd
+    trait=envious        
+    trait=patient        
+    trait=diligent
+    2350.1.1={birth=yes}
+    2428.1.1={death=yes}
+	
+	#Countess of Yguazu
+}
+
+690010 = {
+	name="Marangatu"
+    dynasty=310003 # Perez
+    culture=guarani
+    religion=jerovia
+    martial=2
+    diplomacy=4
+    stewardship=6
+    intrigue=4
+    learning=4
+    trait=indulgent_wastrel
+    trait=drunkard
+    trait=slothful
+    trait=lustful
+    trait=kind
+    trait=charitable
+    2345.1.1={birth=yes}
+    2410.1.1={death=yes}
+
+	#Count of Este and Guaria
+}
+
+690021 = {
+	name="Kuarahy"
+    dynasty=310004 # de Jesus
+    culture=guarani
+    religion=folclorista
+    martial=5
+    diplomacy=2
+    stewardship=2
+    intrigue=4
+    learning=3
+    trait=skilled_tactician
+    trait=ambitious
+    trait=brave
+    trait=charitable
+    trait=kind
+    trait=proud
+    2330.1.1={birth=yes}
+    2405.1.1={death=yes}
+
+	#Chief of San Tome
+}
+
+690022 = {
+	name="Higinio"
+    dynasty=310005 # Aracuyu
+    culture=guarani
+    religion=jerovia
+    martial=6
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=5
+    trait=tough_soldier
+    trait=quick
+    trait=gregarious
+    trait=lustful
+    trait=proud
+    trait=diligent
+    trait=patient
+    trait=just
+    2344.1.1={birth=yes}
+    2373.1.1={death=yes}
+
+	#High Chief of Misiones, rules Guarani and Oberta
+}
+
+690023 = {
+	name="Anai"
+    dynasty=310006 # Ramirez
+    female=yes
+    culture=guarani
+    religion=jerovia
+    martial=2
+    diplomacy=5
+    stewardship=4
+    intrigue=3
+    learning=5
+    trait=flamboyant_schemer
+    trait=lustful
+    trait=stubborn
+    trait=cruel
+    trait=shrewd
+    2349.1.1={birth=yes}
+    2421.1.1={death=yes}
+
+	#Chief of Iguazu
+}
+
+690024 = {
+	name="Jasy"
+    dynasty=310007 # Morales
+    culture=guarani
+    religion=jerovia
+    martial=5
+    diplomacy=3
+    stewardship=3
+    intrigue=4
+    learning=4
+    trait=skilled_tactician
+    trait=ambitious
+    trait=arbitrary
+    trait=wroth
+    trait=cruel
+    trait=zealous
+    2330.1.1={birth=yes}
+    2394.1.1={death=yes}
+
+	#Chief of Posadas
+}
+
+690025 = {
+	name="Kuarahy"
+    dynasty=310008 # de Leon
+    culture=guarani
+    religion=jerovia
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=2
+    learning=1
+    trait=charismatic_negotiator
+    trait=gregarious
+    trait=kind
+    trait=honest
+    trait=sympathy_christendom
+    trait=envious
+    2342.1.1={birth=yes}
+    2399.1.1={death=yes}
+
+	#Chief of Itapua
+}
+
+690026 = {
+	name="Arandu"
+    dynasty=310010 # de Loyala
+    culture=guarani
+    religion=catholic
+    martial=3
+    diplomacy=4
+    stewardship=2
+    intrigue=3
+    learning=4
+    trait=martial_cleric
+    trait=mystic
+    trait=content
+    trait=honest
+    trait=charitable
+    trait=ambitious
+    2336.1.1={birth=yes}
+    2385.1.1={death=yes}
+
+	#Count of Kandu
+}
+
+690027 = {
+	name="Juliana"
+    dynasty=310009 # del Indios
+	female=yes
+    culture=guarani
+    religion=catholic
+	secret_religion=jerovia
+    martial=6
+    diplomacy=3
+    stewardship=3
+    intrigue=2
+    learning=3
+    trait=wroth
+    trait=deceitful
+    trait=brave
+    trait=just
+    trait=humble
+    2349.1.1={birth=yes}
+    2425.1.1={death=yes}
+
+	#Wife of Prince Luis Gelly, 50/50 chance to assassinate the crown prince in opening event chain
+}

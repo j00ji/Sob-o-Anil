@@ -1,92 +1,323 @@
-###ÃNSI
-
-330001 = {
-	name="Alfonso"
-    dynasty=355070 # Gelly
-    culture=pampeano
-    religion=catholic
-    martial=7
-    diplomacy=5
-    stewardship=4
-    intrigue=4
-    learning=5
-    trait=skilled_tactician        
-    trait=crusader_king
-    trait=strong
-    trait=holy_warrior        
-    trait=arbitrary
-    trait=brave
-    trait=proud
-    trait=diligent
-    trait=stubborn
-    2324.1.1={birth=yes}
-	2350.4.5={add_spouse=330044}
-	2365.1.1={
-		effect={
-			give_nickname = nick_the_guest
-		}
-	}
-
-	2368.1.1={add_spouse=330045}
-    2396.1.1={death=yes}
-
-	#King of Paraguay, rules Asuncion and Caaguazu
-}
-
-330002 = {
-	name="Luciana"
-	female=yes
-    dynasty=355070 # Gelly
-    culture=asunceno
-    religion=catholic
-    martial=5
-    diplomacy=2
-    stewardship=3
-    intrigue=3
-    learning=4
-    trait=intricate_webweaver
-    trait=twin
-    trait=shrewd
-    trait=zealous
-    trait=chaste
-    trait=diligent
-    trait=shy
-    trait=stubborn
-	father=330001
-	mother=330044
-    2352.1.1={birth=yes}
-    2408.1.1={death=yes}
-	
-	#Princess of Paraguay and Countess of Misiones
-}
-
-330003 = {
-	name="Luis"
-    dynasty=355070 # Gelly
-    culture=asunceno
-    religion=catholic
-    martial=6
+##########################################
+### Región de la Mesopotamia argentina ###
+##########################################
+#####################
+### House Ramírez ###
+#####################
+330040 = {
+	name="Pancho"
+    dynasty=355048 # Ramírez
+    culture=litoraleno
+    religion=platinean
+    martial=4
     diplomacy=4
     stewardship=3
+    intrigue=5
+    learning=4
+    trait=flamboyant_schemer
+    trait=deceitful
+    trait=cruel
+    trait=chaste
+    trait=shrewd
+    trait=patient
+    2329.1.1={birth=yes}
+    2383.1.1={death=yes}
+
+	#Duke of Gualeguay, Victoria, and Concepcion
+}
+##################
+### House Coca ###
+##################
+330041 = {
+	name="Hilda"
+    dynasty=355074 # Coca 
+    female=yes
+    culture=litoraleno
+    religion=platinean
+    martial=4
+    diplomacy=3
+    stewardship=4
     intrigue=3
     learning=4
-    trait=charismatic_negotiator
-    trait=twin
-    trait=drunkard
-    trait=slothful
-    trait=cynical
-    trait=stubborn
+    trait=grey_eminence
+    trait=fair
     trait=gregarious
-	father=330001
-	mother=330044
-    2352.1.1={birth=yes}
-	2368.1.1={add_spouse=690027}
-    2425.1.1={death=yes}
-	
-	#Crown Prince (and heir/older sibling) of Paraguay, rules Ybycui
+    trait=patient
+    trait=just
+    trait=kind
+    2348.1.1={birth=yes}
+    2390.1.1={death=yes}
+
+	#Countess of Concordia
+}
+###################
+### House Ortiz ###
+###################
+330042 = {
+	name="Pedro"
+    dynasty=355075 # Ortiz
+    culture=litoraleno
+    religion=platinean
+    martial=5
+    diplomacy=3
+    stewardship=4
+    intrigue=5
+    learning=4
+    trait=elusive_shadow
+    trait=lustful
+    trait=envious
+    trait=cruel
+    trait=paranoid
+    trait=cynical
+    2350.1.1={birth=yes}
+    2438.1.1={death=yes}
+
+	#Count of Parana
+}
+####################
+### House Cosido ###
+####################
+330043 = {
+	name="David"
+    dynasty=355076 # Cosido
+    culture=litoraleno
+    religion=folclorista
+    martial=3
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=4
+    trait=charismatic_negotiator
+    trait=honest
+    trait=chaste
+    trait=trusting
+    trait=temperate
+    trait=charitable
+    trait=wroth
+    2337.1.1={birth=yes}
+    2392.1.1={death=yes}
+
+	#Chief of Federacion
+}
+#####################
+### House Moreira ###
+#####################
+330038 = {
+	name="Juanito"
+    dynasty=355072 # Moreira
+    culture=litoraleno
+    religion=folclorista
+    martial=6
+    diplomacy=2
+    stewardship=5
+    intrigue=5
+    learning=3
+    trait=misguided_warrior
+    trait=zealous
+    trait=just
+    trait=diligent
+    trait=kind
+    trait=proud
+    2344.1.1={birth=yes}
+    2381.1.1={death=yes}
+
+	#Chief of Goya, Bella Vista, and Yapeyu
+}
+##########################
+### House Romero Feris ###
+##########################
+330039 = {
+	name="Jose"
+    dynasty=355073 # Romero Feris
+    culture=litoraleno
+    religion=folclorista
+    martial=4
+    diplomacy=4
+    stewardship=3
+    intrigue=2
+    learning=5
+    trait=indulgent_wastrel
+    trait=hedonist
+    trait=greedy
+    trait=lustful
+    trait=slothful
+    trait=envious
+    2305.1.1={birth=yes}
+    2375.1.1={death=yes}
+
+	#Chief of Corrientes
+}
+#################################
+### Región de la Pampa húmeda ###
+#################################
+######################
+### House Bautista ###
+######################
+640017={
+    name="Pedro"
+    dynasty=285010 #Bautista
+    culture=litoraleno
+    religion=rosalian
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=tough_soldier
+    trait=impaler
+    trait=wroth
+    trait=lustful
+    trait=content
+    trait=cruel
+    trait=honest
+    trait=zealous
+    2329.1.1={birth=yes}
+	2360.1.1={add_spouse=640018}
+    2370.1.1={death=yes}
+}#Count of Rosario
+640018={
+    name="Juana"
+    dynasty=285011 # Hernandez 
+    culture=litoraleno
+    religion=platinean
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=underhanded_rogue
+    trait=gregarious
+    trait=charitable
+    trait=diligent
+    trait=humble
+    2340.1.1={birth=yes}
+    2400.1.1={death=yes}
+}#Wife of the Count Pedro Bautista
+640019={
+    name="Javier"
+    dynasty=285010 # Bautista
+	father=640017
+	mother=640018
+    culture=litoraleno
+    religion=rosalian
+    martial=2
+    diplomacy=1
+    stewardship=1
+    intrigue=3
+    learning=1
+    trait=tough_soldier
+    trait=proud
+    trait=envious
+    trait=ambitious
+    2362.1.1={birth=yes}
+    2445.1.1={death=yes}
+}#First child
+######################
+### House de Levya ###
+######################
+330024 = {
+	name="Julia"
+    dynasty=340111 # de Levya
+    female=yes
+    culture=porteno
+    religion=platinean
+    martial=3
+    diplomacy=5
+    stewardship=3
+    intrigue=4
+    learning=2
+    trait=elusive_shadow        
+    trait=hedonist
+    trait=wroth
+    trait=gregarious
+    trait=lustful
+    trait=greedy
+    2328.1.1={birth=yes}
+    2380.1.1={death=yes}
+
+	#Countess of Pergamino
+}
+#########################
+### House de Asterion ###
+#########################
+330021 = {
+	name="Ferdinand "
+    dynasty=340108 # de Asterion
+    culture=porteno
+    religion=rosalian
+    martial=8
+    diplomacy=1
+    stewardship=3
+    intrigue=3
+    learning=2
+    trait=brilliant_strategist
+    trait=duelist
+    trait=robust
+    trait=slow
+    trait=ambitious
+    trait=zealous
+    trait=cruel
+    trait=envious
+    trait=arbitrary
+    trait=wroth
+    2334.1.1={birth=yes}
+    2375.1.1={death=yes}
+
+	#Duke of Lujan, rules Obligado and Lujan
+}
+###################
+### House Valle ###
+###################
+330007 = {
+	name="Lionel" # Lionel Valle the Victorious, King of Buenos Aires.
+    dynasty=345004
+	dna="0bi0g0c0ce0"
+	properties="0d0afk"
+
+    diplomacy = 5
+	martial = 9
+    stewardship = 3
+    intrigue = 3
+    learning = 4
+
+	culture=porteno
+    religion=platinean
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+    2324.2.25 = {
+		birth="2324.2.25"
+	}
+	2340.2.25 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="strategist"
+		add_trait="duelist"
+		add_trait="poet"
+		effect = {
+			add_artifact=libertador
+		}
+	}
+	2363.12.12 = {
+		give_nickname=nick_the_victorious
+	}
 }
 
-
+####################
+### House D'Anna ###
+####################
 330004 = {
 	name="Francisco"
     dynasty=340102 # D'Anna
@@ -157,31 +388,7 @@
 	#Countess of Pringles and Suarez
 }
 
-330007 = {
-	name="Estanislao"
-    dynasty=345004 # Valle
-	dna="0eh0d0cbdb0"
-	properties="fi0fba000000000000000000000000000000"
-    culture=porteno
-    religion=platinean
-    martial=5
-    diplomacy=5
-    stewardship=3
-    intrigue=3
-    learning=4
-    trait=tough_soldier
-    trait=poet
-    trait=sympathy_pagans
-    trait=gregarious
-    trait=proud
-    trait=ambitious
-    trait=charitable
-    trait=patient
-    2324.1.1={birth=yes}
-    2380.1.1={death=yes}
-	
-	#King of Buenos Aires, rules Buenos Aires, La Plata, and Monte Grande
-}
+
 
 330008 = {
 	name = "Cruz"
@@ -525,31 +732,7 @@
 	#Duke of Lagunas, rules Mercedes and Monte
 }
 
-330021 = {
-	name="Ferdinand "
-    dynasty=340108 # de Asterion
-    culture=porteno
-    religion=rosalian
-    martial=8
-    diplomacy=1
-    stewardship=3
-    intrigue=3
-    learning=2
-    trait=brilliant_strategist
-    trait=duelist
-    trait=robust
-    trait=slow
-    trait=ambitious
-    trait=zealous
-    trait=cruel
-    trait=envious
-    trait=arbitrary
-    trait=wroth
-    2334.1.1={birth=yes}
-    2375.1.1={death=yes}
 
-	#Duke of Lujan, rules Obligado and Lujan
-}
 
 330022 = {
 	name="Eduardo"
@@ -605,28 +788,7 @@
 	#Prisoner of Duke of Lujan, lover of Eduardo
 }
 
-330024 = {
-	name="Julia"
-    dynasty=340111 # de Levya
-    female=yes
-    culture=porteno
-    religion=platinean
-    martial=3
-    diplomacy=5
-    stewardship=3
-    intrigue=4
-    learning=2
-    trait=elusive_shadow        
-    trait=hedonist
-    trait=wroth
-    trait=gregarious
-    trait=lustful
-    trait=greedy
-    2328.1.1={birth=yes}
-    2380.1.1={death=yes}
 
-	#Countess of Pergamino
-}
 
 330025 = {
 	name="Marcos"
@@ -928,186 +1090,21 @@
 	#Chieftess of Pico
 }
 
-330038 = {
-	name="Juanito"
-    dynasty=355072 # Moreira
-    culture=litoraleno
-    religion=folclorista
-    martial=6
-    diplomacy=2
-    stewardship=5
-    intrigue=5
-    learning=3
-    trait=misguided_warrior
-    trait=zealous
-    trait=just
-    trait=diligent
-    trait=kind
-    trait=proud
-    2344.1.1={birth=yes}
-    2381.1.1={death=yes}
 
-	#Chief of Goya, Bella Vista, and Yapeyu
-}
 
-330039 = {
-	name="Jose"
-    dynasty=355073 # Romero Feris
-    culture=litoraleno
-    religion=folclorista
-    martial=4
-    diplomacy=4
-    stewardship=3
-    intrigue=2
-    learning=5
-    trait=indulgent_wastrel
-    trait=hedonist
-    trait=greedy
-    trait=lustful
-    trait=slothful
-    trait=envious
-    2305.1.1={birth=yes}
-    2375.1.1={death=yes}
 
-	#Chief of Corrientes
-}
 
-330040 = {
-	name="Pancho"
-    dynasty=355048 # Ramírez
-    culture=litoraleno
-    religion=platinean
-    martial=4
-    diplomacy=4
-    stewardship=3
-    intrigue=5
-    learning=4
-    trait=flamboyant_schemer
-    trait=deceitful
-    trait=cruel
-    trait=chaste
-    trait=shrewd
-    trait=patient
-    2329.1.1={birth=yes}
-    2383.1.1={death=yes}
 
-	#Duke of Gualeguay, Victoria, and Concepcion
-}
 
-330041 = {
-	name="Hilda"
-    dynasty=355074 # Coca 
-    female=yes
-    culture=litoraleno
-    religion=platinean
-    martial=4
-    diplomacy=3
-    stewardship=4
-    intrigue=3
-    learning=4
-    trait=grey_eminence
-    trait=fair
-    trait=gregarious
-    trait=patient
-    trait=just
-    trait=kind
-    2348.1.1={birth=yes}
-    2390.1.1={death=yes}
 
-	#Countess of Concordia
-}
 
-330042 = {
-	name="Pedro"
-    dynasty=355075 # Ortiz
-    culture=litoraleno
-    religion=platinean
-    martial=5
-    diplomacy=3
-    stewardship=4
-    intrigue=5
-    learning=4
-    trait=elusive_shadow
-    trait=lustful
-    trait=envious
-    trait=cruel
-    trait=paranoid
-    trait=cynical
-    2350.1.1={birth=yes}
-    2438.1.1={death=yes}
 
-	#Count of Parana
-}
 
-330043 = {
-	name="David"
-    dynasty=355076 # Cosido
-    culture=litoraleno
-    religion=folclorista
-    martial=3
-    diplomacy=5
-    stewardship=5
-    intrigue=5
-    learning=4
-    trait=charismatic_negotiator
-    trait=honest
-    trait=chaste
-    trait=trusting
-    trait=temperate
-    trait=charitable
-    trait=wroth
-    2337.1.1={birth=yes}
-    2392.1.1={death=yes}
 
-	#Chief of Federacion
-}
 
-330044 = {
-	name="Maria"
-	female=yes
-    dynasty=305004 # Yoacham
-    culture=turco
-    religion=catholic
-    martial=3
-    diplomacy=6
-    stewardship=4
-    intrigue=3
-    learning=4
-    trait=charismatic_negotiator
-    trait=fair
-    trait=socializer
-    trait=charitable
-    trait=kind
-    trait=ill
-   2320.1.1 ={birth=yes}
-   2362.1.1={death=yes}
-   
-   #First wife of the King of Paraguay, mother of Luis and Luciana, died of a sudden illness
-}
 
-330045 = {
-	name="Corina"
-	female=yes
-    dynasty=365042 # Lopez
-    culture=asunceno
-    religion=catholic
-    martial=4
-    diplomacy=3
-    stewardship=5
-    intrigue=4
-    learning=4
-    trait=groomed
-    trait=ambitious
-    trait=charitable
-    trait=diligent
-    trait=lustful
-    trait=patient
-	father=330046
-    2351.1.1={birth=yes}
-    2430.1.1={death=yes}
 
-	#Second wife of the King of Paraguay
-}
+
 
 330046 = {
 	name="Carlos"
@@ -1156,244 +1153,9 @@
     trait=stubborn
     trait=envious
     trait=proud
-	father=330046
     2350.1.1={birth=yes}
 	2368.1.1={
 		employer=330001
 	}
     2371.1.1={death=yes}
-}
-
-330048 = {
-	name="Justino"
-    dynasty=340116 # Canavery
-    culture=porteno
-    religion=catholic
-    martial=5
-    diplomacy=4
-    stewardship=4
-    intrigue=5
-    learning=3
-    trait=skilled_tactician        
-    trait=crusader
-    trait=kind
-    trait=charitable
-    trait=content
-    trait=gregarious
-    trait=wroth
-    trait=just
-    2329.1.1={birth=yes}
-	2368.1.1={
-		employer=330001
-		give_job_title=job_marshal
-	}
-    2400.1.1={death=yes}
-
-	#Fellow Crusader and friend of the King of Paraguay, Marshal of Paraguay
-}
-
-### URBUGUY LOL ###
-
-410001 = {
-	name="Ana"
-    dynasty=360002 # Viana 
-    female=yes
-    culture=urbuguayo
-    religion=bandean
-    martial=3
-    diplomacy=4
-    stewardship=5
-    intrigue=2
-    learning=4
-    trait=thrifty_clerk
-    trait=gardener
-    trait=humble
-    trait=patient
-    trait=cruel
-    trait=brave
-    2338.1.1={birth=yes}
-    2380.1.1={death=yes}
-
-	#Count of Rocha and Maldonado-Lavalleja
-}
-
-410002 = {
-	name="Hernando"
-    dynasty=115003 # San Miguel
-    culture=guacho
-    religion=bandean
-    martial=5
-    diplomacy=3
-    stewardship=3
-    intrigue=4
-    learning=3
-    trait=misguided_warrior
-    trait=robust
-    trait=brave
-    trait=proud
-    trait=gregarious
-    trait=diligent
-    2334.1.1={birth=yes}
-    2411.1.1={death=yes}
-
-	#Count of Chuy and Bella Vista
-}
-
-410003 = {
-	name="Francisco"
-    dynasty=360003 # de Genoa
-    culture=urbuguayo
-    religion=piriamano
-    martial=3
-    diplomacy=2
-    stewardship=6
-    intrigue=3
-    learning=4
-    trait=fortune_builder
-    trait=architect        
-    trait=diligent
-    trait=patient
-    trait=proud
-    trait=ambitious
-    trait=honest
-    2350.1.1={birth=yes}
-    2415.1.1={death=yes}
-
-	#Count of Piriapolis and Costa de Oro
-}
-
-410004 = {
-	name="Hector"
-    dynasty=115005 # Nantes
-    culture=guacho
-    religion=catholic
-    martial=4
-    diplomacy=2
-    stewardship=3
-    intrigue=3
-    learning=2
-    trait=flamboyant_schemer
-    trait=deceitful
-    trait=dull
-    trait=patient
-    trait=cruel
-    trait=slothful
-    2335.1.1={birth=yes}
-    2380.1.1={death=yes}
-
-	#Chief of Florida
-}
-
-410005 = {
-	name="Gustavo"
-    dynasty=115006 # Segundo
-    culture=guacho
-    religion=liberationist
-    martial=2
-    diplomacy=2
-    stewardship=3
-    intrigue=2
-    learning=6
-    trait=martial_cleric
-    trait=theologian
-    trait=just
-    trait=wroth
-    trait=charitable
-    trait=chaste
-    2329.1.1={birth=yes}
-    2399.1.1={death=yes}
-
-	#Chief of Cerro Largo and Treinta y Tres
-}
-
-410006 = {
-	name="Estela"
-    dynasty=110002 # Golovchenko
-    female=yes
-    culture=rutenio
-    religion=orthodoxist
-    martial=5
-    diplomacy=2
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=tough_soldier
-    trait=shrewd
-    trait=robust        
-    trait=just
-    trait=wroth
-    trait=kind
-    trait=diligent
-    2344.1.1={birth=yes}
-    2400.1.1={death=yes}
-
-	#Count of Rio Negro and Salto
-}
-
-410007 = {
-	name="Tomas"
-    dynasty=360004 # Maggi
-    culture=urbuguayo
-    religion=artiguista
-    martial=3
-    diplomacy=7
-    stewardship=2
-    intrigue=3
-    learning=3
-    trait=scholarly_theologian
-    trait=scholar
-    trait=zealous
-    trait=just
-    trait=feeble
-    trait=honest
-    trait=diligent
-    2349.1.1={birth=yes}
-    2395.1.1={death=yes}
-
-	#County of Soriano
-}
-
-410008 = {
-	name="Constancio "
-    dynasty=360005 # Blanco
-    culture=urbuguayo
-    religion=bandean
-    martial=2
-    diplomacy=6
-    stewardship=3
-    intrigue=4
-    learning=3
-    trait=underhanded_rogue
-    trait=poet
-    trait=kind
-    trait=charitable
-    trait=honest
-    trait=just
-    2329.1.1={birth=yes}
-    2401.1.1={death=yes}
-
-	#Duke of Montevideo, rules Montevideo and San Jose
-}
-
-410009 = {
-	name="Azevedo"
-    dynasty=360006 # Bandeira
-    culture=urbuguayo
-    religion=bandean
-    martial=5
-    diplomacy=5
-    stewardship=5
-    intrigue=5
-    learning=5
-    trait=tough_soldier
-    trait=duelist
-    trait=lustful
-    trait=robust
-    trait=cruel
-    trait=wroth
-    trait=diligent
-    2334.1.1={birth=yes}
-    2398.1.1={death=yes}
-
-	#Count of Colonia
 }

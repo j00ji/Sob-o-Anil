@@ -1,139 +1,755 @@
-220001={
-	name="Miguel"
-	dynasty=140001
-	martial=2
-	diplomacy=5
-	stewardship=3
-	intrigue=4
-	learning=7
+################################################
+### Norte Grande - Arica to Northern Atacama ###
+################################################
+#######################
+### House Baquedano ###
+#######################
+220016 = {
+	name="Miguel" # Miguel Baquedano, Duke of Tarapaca.
+	dynasty=140035
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 4
+
 	culture=atacameno
-	religion=catholic
-	trait=depressed
-	trait=erudite
-	trait=poet
-	trait=cynical
-	trait=shrewd
-	trait=kind
-	trait=craven
-	trait=mastermind_theologian
-	2338.7.16={
-		birth=yes
+	religion=santa_diablada
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2311.5.28 = {
+		birth="2311.5.28"
 	}
-	2386.10.8={
-		death=yes
+	2327.5.28 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="strategist"
+	}
+	2330.8.12 = {
+		add_spouse=220017 # Isidora Rojas
+	}
+	2364.10.20 = {
+		death="2364.10.20"
 	}
 }
-220002={
-	name="Hernán"
-	dynasty=140014
-	martial=5
-	diplomacy=3
-	stewardship=3
-	intrigue=2
-	learning=4
-	culture=atacameno
-	religion=catholic
-	trait=scarred_high
-	trait=sturdy
-	trait=gluttonous
-	trait=patient
-	trait=unyielding_leader
-	trait=zealous
-	trait=hunter
-	trait=tough_soldier
-	2332.9.11={
-		birth=yes
-	}
-	2395.5.6={
-		death=yes
-	}
-}
-220004={
-	name="Josefa"
-	dynasty=140016
+220017 = {
+	name="Isidora" # Isidora Rojas, wife of Miguel Baquedano.
+	dynasty=140004
 	female=yes
-	martial=3
-	diplomacy=4
-	stewardship=4
-	intrigue=5
-	learning=3
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 3
+
 	culture=atacameno
-	religion=catholic
-	trait=midas_touched
-	trait=fair
-	trait=lefthanded
-	trait=greedy
-	trait=humble
-	trait=just
-	2344.4.14={
-		birth=yes
+	religion=santa_diablada
+
+	2311.7.3 = {
+		birth="2311.7.3"
 	}
-	2411.9.13={
-		death=yes
+	2327.7.3 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2369.3.23 = {
+		death="2369.3.23"
 	}
 }
+### Issue of Miguel ###
+220018 = {
+	name="Marcos" # Marcos Baquedano, Duke of Tarapaca.
+	dynasty=140035
 
-220005={
-	name="Pedro"
-	dynasty=140018
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
+	diplomacy = 5
+	martial = 1
+	stewardship = 3
+	intrigue = 4
+	learning = 4
+
+	culture=atacameno
+	religion=santa_diablada
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=220016 # Marcos Baquedano
+	mother=220017 # Isidora Rojas
+
+	2332.1.1 = {
+		birth="2332.1.1"
+	}
+	2348.1.1 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="temperate"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="strategist"
+	}
+	2352.4.25 = {
+		add_spouse=220020 # Carmen Tirana
+		effect = {
+			add_lover=220020 # Carmen Tirana
+		}
+	}
+}
+### Issue of Marcos ###
+220038 = {
+	name="Arturo" # Arturo Baquedano.
+	dynasty=140035
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 2
+	intrigue = 3
+	learning = 2
+
+	culture=atacameno
+	religion=santa_diablada
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=220018 # Marcos Baquedano
+	mother=220020 # Carmen Tirana
+
+	2353.4.25 = {
+		birth="2353.4.25"
+	}
+	2369.4.25 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="strategist"
+		effect = {
+			add_friend=220024 # Arturo Tirana
+		}
+	}
+}
+####################
+### House Tirana ###
+####################
+220021 = {
+	name="Manuel" # Manuel Tirana, Count of Iquique and Pica.
+	dynasty=140039
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+
+	culture=atacameno
+	religion=santa_diablada
+	
+	add_trait="strong"
+	
+	disallow_random_traits = yes
+
+	2311.5.6 = {
+		birth="2311.5.6"
+	}
+	2327.5.6 = {
+		add_trait="tough_soldier"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2329.8.12 = {
+		add_spouse=220022 # Antonia Espinoza
+	}
+	2364.1.19 = {
+		death="2364.1.19"
+	}
+}
+220022 = {
+	name="Antonia" # Antonia Espinoza, wife of Manuel Tirana.
+	dynasty=140007
+	female=yes
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+
+	culture=atacameno
+	religion=santa_diablada
+
+	2311.11.6 = {
+		birth="2313.11.6"
+	}
+	2327.11.6 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2369.3.17 = {
+		death="2369.3.17"
+	}
+}
+### Issue of Matias ###
+220019 = {
+	name="Arturo" # Arturo Tirana, Count of Iquique and Pica.
+	dynasty=140039
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+
+	culture=atacameno
+	religion=santa_diablada
+	
+	add_trait="strong"
+	
+	disallow_random_traits = yes
+	
+	father=220021 # Manuel Tirana
+	mother=220022 # Antonia Espinoza
+
+	2330.10.16 = {
+		birth="2330.10.16"
+	}
+	2346.10.16 = {
+		add_trait="tough_soldier"
+		add_trait="organizer"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2352.3.1 = {
+		add_spouse=220023 # Carolina Rosas
+	}
+}
+220020 = {
+	name="Carmen" # Carmen Tirana, wife of Marcos Baquedano.
+	dynasty=140039
+	female=yes
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+
+	culture=atacameno
+	religion=santa_diablada
+
+	father=220021 # Manuel Tirana
+	mother=220022 # Antonia Espinoza
+
+	2331.4.15 = {
+		birth="2337.4.15"
+	}
+	2347.4.15 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="erudite"
+	}
+}
+220023 = {
+	name="Carolina" # Carolina Rosas, wife of Arturo Tirana.
+	dynasty=140009
+	female=yes
+
+	diplomacy = 2
+	martial = 1
+	stewardship = 2
+	intrigue = 2
+	learning = 4
+
+	culture=atacameno
+	religion=santa_diablada
+
+	2330.2.4 = {
+		birth="2330.2.4"
+	}
+	2346.2.4 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="kind"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of Arturo ###
+220024 = {
+	name="Arturo" # Arturo Tirana.
+	dynasty=140039
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 2
+	learning = 2
+
+	culture=atacameno
+	religion=santa_diablada
+
+	father=220019 # Arturo Tirana
+	mother=220023 # Carolina Rosas
+
+	2353.4.3 = {
+		birth="2353.4.3"
+	}
+	2369.4.3 = {
+		add_trait="tough_soldier"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+####################
+### House Luksic ###
+####################
+220014 = {
+	name="Andrónico" # Andrónico Luksic, Duke of Antofagasta.
+	dynasty=140033
+	dna="aeieb00aae0"
+	properties="0g00gk"
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 1
+	intrigue = 5
+	learning = 5
+
+	culture=west_slavic
+	religion=camino_estelar
+
+	2325.4.16 = {
+		birth="2325.4.16"
+		culture=atacameno
+	}
+	2341.4.16 = {
+		add_trait="midas_touched"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="cynical"
+		add_trait="deceitful"
+		add_trait="ambitious"
+		add_trait="administrator"
+	}
+	2345.6.12 = {
+		add_spouse=220030 # Patricia Diáz
+	}
+}
+220030 = {
+	name="Patricia" # Patricia Diáz, wife of Andrónico Luksic.
+	dynasty=140008
+	female=yes
+
+	diplomacy = 5
+	martial = 1
+	stewardship = 7
+	intrigue = 2
+	learning = 5
+
 	culture=atacameno
 	religion=camino_estelar
-	trait=tough_soldier
-	trait=strong
-	trait=brave
-	trait=envious
-	trait=paranoid
-	2342.7.11={
-		birth=yes
+
+	2325.2.8 = {
+		birth="2325.2.8"
 	}
-	2407.5.9={
-		death=yes
+	2341.2.8 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="socializer"
 	}
 }
+### Issue of Andronico ###
+220031 = {
+	name="Guillermo" # Guillermo Luksic.
+	dynasty=140033
 
-220007={
-	name="Luis"
-	dynasty=140020
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
+	diplomacy = 3
+	martial = 1
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=west_slavic
+	religion=camino_estelar
+
+	father=220014 # Andrónico Luksic
+	mother=220030 # Patricia Diáz
+
+	2346.11.5 = {
+		birth="2346.11.5"
+		culture=atacameno
+	}
+	2362.11.5 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="cynical"
+		add_trait="ambitious"
+		add_trait="administrator"
+	}
+}
+220032 = {
+	name="Pablo" # Pablo Luksic.
+	dynasty=140033
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=west_slavic
+	religion=camino_estelar
+
+	disallow_random_traits = yes
+
+	father=220014 # Andrónico Luksic
+	mother=220030 # Patricia Diáz
+
+	2347.5.31 = {
+		birth="2347.5.31"
+		culture=atacameno
+	}
+	2363.5.31 = {
+		add_trait="tough_soldier"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+	}
+}
+220033 = {
+	name="María" # María Luksic.
+	dynasty=140033
+	female=yes
+
+	diplomacy = 5
+	martial = 1
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=west_slavic
+	religion=camino_estelar
+
+	add_trait="fair"
+
+	father=220014 # Andrónico Luksic
+	mother=220030 # Patricia Diáz
+
+	2348.3.27 = {
+		birth="2348.3.27"
+		culture=atacameno
+	}
+	2364.3.27 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="ambitious"
+	}
+}
+#####################
+### House Salfate ###
+#####################
+220015 = {
+	name="Juan" # Juan Salfate the Prophet, Count of El Loa.
+	dynasty=140034
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 6
+
 	culture=atacameno
-	religion=catholic
+	religion=camino_estelar
+
+	2326.9.21 = {
+		birth="2326.9.21"
+	}
+	2342.9.21 = {
+		add_trait="intricate_webweaver"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gluttonous"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="mystic"
+	}
+	2346.11.25 = {
+		add_spouse=220034 # Cecilia Riveros
+		give_nickname=nick_the_prophet
+	}
+}
+220034 = {
+	name="Cecilia" # Cecilia Riveros, wife of Juan Salfate.
+	dynasty=140009
+	female=yes
+
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+
+	culture=atacameno
+	religion=camino_estelar
+
+	2326.12.9 = {
+		birth="2326.12.9"
+	}
+	2342.12.9 = {
+		add_trait="naive_appeaser"
+		add_trait="diligent"
+		add_trait="kind"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of Juan ###
+220035 = {
+	name="Andrés" # Andrés Salfate.
+	dynasty=140034
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 4
+
+	culture=atacameno
+	religion=camino_estelar
+	
+	father=220015 # Juan Salfate
+	mother=220034 # Cecilia Riveros
+
+	2347.10.23 = {
+		birth="2347.10.23"
+	}
+	2363.10.23 = {
+		add_trait="flamboyant_schemer"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gluttonous"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+########################
+### House Recabarren ###
+########################
+220010 = {
+	name="Luis" # Luis Recabarren, Count of Chañaral.
+	dynasty=140024
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 2
+
+	culture=atacameno
+	religion=camino_estelar
+
+	2312.7.6 = {
+		birth="2312.7.6"
+	}
+	2328.7.6 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="charitable"
+		add_trait="humble"
+		add_trait="gregarious"
+		add_trait="gardener"
+	}
+	2332.5.6 = {
+		add_spouse=220011 # Teresa Flores
+	}
+	2368.5.12 = {
+		death="2368.5.12"
+	}
+}
+220011 = {
+	name="Teresa" # Teresa Flores, wife of Luis Recabarren.
+	dynasty=140029
+	female=yes
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=atacameno
+	religion=camino_estelar
+
+	2312.1.4 = {
+		birth="2312.1.4"
+	}
+	2328.1.4 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="charitable"
+		add_trait="humble"
+		add_trait="gregarious"
+		add_trait="gardener"
+	}
+	2368.10.5 = {
+		death="2368.10.5"
+	}
+}
+### Issue of Luis ###
+220012 = {
+	name="Manuel" # Manuel Recabarren, Count of Chañaral
+	dynasty=140024
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 4
+	intrigue  = 3
+	learning = 3
+
+	culture=atacameno
+	religion=camino_estelar
+
 	trait=fortune_builder
-	trait=one_eyed
-	trait=uncouth
-	trait=shrewd
-	trait=proud
-	trait=temperate
-	2332.3.15={
-		birth=yes
-	}
-	2415.2.12={
-		death=yes
+	trait=wroth
+	trait=chaste
+	trait=paranoid
+	trait=zealous
+
+	father=220010 # Luis Recabarren
+	mother=220011 # Teresa Flores
+
+	2333.2.6 = {
+		birth="2333.2.6"
 	}
 }
-220008={
-	name="Joaquín"
-	dynasty=140021
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
+220013 = {
+	name="Ana" # Ana Recabarren
+	dynasty=140024
+	female=yes
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 3
+	intrigue = 4
+	learning = 4
+
 	culture=atacameno
 	religion=camino_estelar
+
+	trait=underhanded_rogue
+	trait=lustful
+	trait=trusting
+	trait=temperate
+
+	father=220010 # Luis Recabarren
+	mother=220011 # Teresa Flores
+
+	2335.7.26 = {
+		birth="2335.7.26"
+	}
+}
+#############################################################
+### Norte Chico - Southern Atacama to Northern Valparaiso ###
+#############################################################
+####################
+### House Walker ###
+####################
+220008 = {
+	name="Joaquín" # Count of Copiapo
+	dynasty=140021
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+
+	culture=atacameno
+	religion=camino_estelar
+
 	trait=charismatic_negotiator
 	trait=gamer
 	trait=diligent
 	trait=greedy
 	trait=trusting
+
 	2336.5.12={
 		birth=yes
 	}
@@ -149,22 +765,26 @@
 		death=yes
 	}
 }
-220009={
-	name="Carla"
+220009 = {
+	name="Carla" # His wife
 	dynasty=140022
 	female=yes
+
 	martial=4
 	diplomacy=4
 	stewardship=3
 	intrigue=3
 	learning=2
+
 	culture=atacameno
 	religion=camino_estelar
+
 	trait=intricate_webweaver
 	trait=charitable
 	trait=wroth
 	trait=craven
 	trait=groomed
+
 	2343.9.5={
 		birth=yes
 	}
@@ -172,1094 +792,2417 @@
 		death=yes
 	}
 }
-220010={
-	name="Domingo"
-	dynasty=140024
-	martial=3
-	diplomacy=4
-	stewardship=5
-	intrigue=4
-	learning=2
-	culture=atacameno
-	religion=camino_estelar
-	trait=intricate_webweaver
-	trait=kind
-	trait=feeble
-	trait=gardener
-	trait=content
-	2303.9.5={
-		birth=yes
-	}
-	2332.5.6={
-		add_spouse=220011
-	}
-	2368.5.12={
-		death=yes
-	}
-}
+####################
+### House Cepeda ###
+####################
+220005 = {
+	name="Pedro" # Count of Vallenar
+	dynasty=140018
 
-220011={
-	name="Paola"
-	dynasty=140029
-	female=yes
-	martial=5
-	diplomacy=2
-	stewardship=4
-	intrigue=3
-	learning=3
-	culture=atacameno
-	religion=camino_estelar
-	trait=tough_soldier
-	trait=humble
-	trait=gluttonous
-	trait=duelist
-	trait=erudite
-	2312.9.5={
-		birth=yes
-	}
-	2375.3.11={
-		death=yes
-	}
-}
-
-220012={
-	name="Adriana"
-	dynasty=140024
-	female=yes
 	martial=4
 	diplomacy=4
-	stewardship=4
-	intrigue=3
-	learning=3
-	culture=atacameno
-	religion=camino_estelar
-	trait=fortune_builder
-	trait=wroth
-	trait=chaste
-	trait=paranoid
-	trait=zealous
-	father=220010
-	mother=220011
-	2333.11.6={
-		birth=yes
-	}
-	2399.9.9={
-		death=yes
-	}
-}
-
-
-220013={
-	name="Cristofer"
-	dynasty=140024
-	martial=2
-	diplomacy=5
 	stewardship=3
-	intrigue=4
-	learning=4
-	culture=atacameno
-	religion=camino_estelar
-	trait=underhanded_rogue
-	trait=sturdy
-	trait=lustful
-	trait=trusting
-	trait=temperate
-	father=220010
-	mother=220011
-	2335.12.1={
-		birth=yes
-	}
-	2409.2.3={
-		death=yes
-	}
-}
-
-220014={
-	name="Andrónico"
-	dynasty=140033
-	martial=3
-	diplomacy=3
-	stewardship=5
-	intrigue=4
+	intrigue=3
 	learning=2
-	culture=west_slavic
-	religion=camino_estelar
-	trait=midas_touched
-	trait=proud
-	trait=gluttonous
-	trait=deceitful
-	trait=cynical
-	2325.4.16={
-		birth=yes
-		culture=atacameno
-	}
-	2391.6.16={
-		death=yes
-	}
-}
 
-220015={
-	name=Fabrizio
-	dynasty=140034
-	martial=6
-	diplomacy=3
-	stewardship=4
-	intrigue=3
-	learning=3
 	culture=atacameno
 	religion=camino_estelar
-	trait=skilled_tactician
-	trait=peasant_leader
-	trait=kind
-	trait=ambitious
-	trait=just
-	trait=socializer
-	2345.11.11={
-		birth=yes
-	}
-	2415.12.12={
-		death=yes
-	}
-}
-220016={
-	name="Melvin"
-	dynasty=140035
-	martial=5
-	diplomacy=3
-	stewardship=3
-	intrigue=2
-	learning=4
-	culture=atacameno
-	religion=camino_estelar
+
 	trait=tough_soldier
-	trait=ambitious
-	trait=cruel
-	trait=temperate
-	2303.5.6={
-		birth=yes
-	}
-	2335.8.12={
-		add_spouse=220017
-	}
-	2364.1.19={
-		death=yes
-	}
-}
-220017={
-	name="Leyla"
-	dynasty=140038
-	female=yes
-	martial=4
-	diplomacy=6
-	stewardship=4
-	intrigue=2
-	learning=3
-	culture=atacameno
-	religion=camino_estelar
-	trait=charismatic_negotiator
-	trait=wroth
-	trait=shrewd
-	trait=trusting
-	trait=groomed
-	trait=humble
-	2313.7.3={
-		birth=yes
-	}
-	2379.3.23={
-		death=yes
-	}
-}
-
-220018={
-	name="Américo"
-	dynasty=140035
-	martial=3
-	diplomacy=5
-	stewardship=3
-	intrigue=4
-	learning=2
-	culture=atacameno
-	religion=santa_diablada
-	trait=flamboyant_schemer
-	trait=one_handed
-	trait=brave
-	trait=charitable
-	trait=groomed
-	trait=poet
-	father=220016
-	mother=220017
-	2337.12.24={
-		birth=yes
-	}
-	2412.10.26={
-		death=yes
-	}
-}
-
-220019={
-	name=Gonzalo
-	dynasty=140039
-	martial=4
-	diplomacy=3
-	stewardship=4
-	intrigue=3
-	learning=2
-	culture=atacameno
-	religion=santa_diablada
-	trait=tough_soldier
-	trait=content
-	trait=lustful
-	trait=diligent
-	trait=sturdy
-	trait=mystic
-	2341.11.6={
-		birth=yes
-	}
-	2423.3.17={
-		death=yes
-	}
-}
-
-
-220020={
-	name=Sergio
-	dynasty=140040
-	martial=4
-	diplomacy=3
-	stewardship=3
-	intrigue=3
-	learning=4
-	culture=atacameno
-	religion=santa_diablada
-	trait=scholarly_theologian 
 	trait=strong
-	trait=chaste
-	trait=erudite
-	trait=wroth
-	2324.4.15={
+	trait=brave
+	trait=envious
+	trait=paranoid
+
+	2342.7.11={
 		birth=yes
 	}
-	2400.2.13={
+	2407.5.9={
 		death=yes
 	}
 }
+###################
+### House Marín ###
+###################
+220007 = {
+	name="Luis" # Count of Huasco
+	dynasty=140020
 
+	martial=4
+	diplomacy=4
+	stewardship=3
+	intrigue=3
+	learning=2
 
-230001={
-	name="Timoteo"
-	dynasty=145011
-	father=230003
-	martial=5
-	diplomacy=4
-	stewardship=6
-	intrigue=3
-	learning=8
-	culture=centrino
+	culture=atacameno
 	religion=catholic
-	trait=zealous
-	trait=cruel
-	trait=diligent
-	trait=martial_cleric
-	2307.2.15={
-		birth=yes
-	}
-	2373.1.15={
-		death=yes
-	}
-}
-230002={ #second King of Chile
-	name="Charles"
-	dynasty=145011
-	father=230003
-	mother=230004
-	martial=5
-	diplomacy=4
-	stewardship=6
-	intrigue=3
-	learning=8
-	culture=centrino
-	religion=catholic
-	trait=skilled_tactician
-	trait=cruel
-	trait=diligent
-	2300.12.26={
-		birth=yes
-	}
-	2330.7.25={add_spouse=230005}
-	2359.1.15={
-		death={
-			death_reason=death_battle
-			killer=240011
-		}
-	}
-}
-230003={ #first Chilean King, originally just duke of Santiago
-	name="Augusto"
-	dynasty=145011
-	martial=7
-	diplomacy=8
-	stewardship=5
-	intrigue=4
-	learning=4
-	culture=centrino
-	religion=catholic
-	trait=zealous
-	trait=diligent
-	trait=ambitious
-	trait=falconer
+
 	trait=fortune_builder
-	2280.11.30={
+	trait=one_eyed
+	trait=uncouth
+	trait=shrewd
+	trait=proud
+	trait=temperate
+
+	2332.3.15={
 		birth=yes
 	}
-	2299.2.4={add_spouse=230004}
-	#becomes King around 2322
-	2331.4.6={
+	2415.2.12={
 		death=yes
 	}
+}
+###################
+### House Elqui ###
+###################
+220041 = {
+	name="Gabriel" # Gabriel Elqui the Griffin, Duke of Coquimbo and Choapa.
+	dynasty=140001
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+
+	culture=atacameno
+	religion=catholic
 	
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2311.11.22 = {
+		birth="2311.11.22"
+	}
+	2327.11.22 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="arbitrary"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+	}
+	2332.2.6 = {
+		add_spouse=220042 # Rosa Cortés
+	}
+	2345.4.13 = {
+		add_trait="scarred"
+		give_nickname=nick_the_griffin
+	}
+	2368.8.22 = {
+		death = {
+			death_reason=death_murder_poison
+			killer=240035 # Catalina Lisperguer
+		}
+	}
 }
-230004={ #wife of Augusto
-	name="Esmeralda"
-	dynasty=145020 #Camiroaga, should eventually expand their title history
+220042 = {
+	name="Rosa" # Rosa Cortés, wife of Gabriel Elqui.
+	dynasty=140023
 	female=yes
-	martial=4
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+
+	culture=atacameno
+	religion=catholic
+
+	add_trait="fair"
+
+	2311.7.30 = {
+		birth="2311.7.30"
+	}
+	2329.7.30 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="poet"
+	}
+	2368.8.22 = {
+		death = {
+			death_reason=death_murder_poison
+			killer=240035 # Catalina Lisperguer
+		}
+	}
+}
+### Issue of Gabriel ###
+220001 = {
+	name="Francisco" # Francisco Elqui, Duke of Coquimbo.
+	dynasty=140001
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 10
+	intrigue = 3
+	learning = 3
+
+	culture=atacameno
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=220041 # Gabriel Elqui
+	mother=220042 # Rosa Cortés
+
+	2333.8.26 = {
+		birth="2333.8.26"
+	}
+	2349.8.26 = {
+		add_trait="skilled_tactician"
+		add_trait="experimenter"
+		add_trait="aggressive_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="greedy"
+		add_trait="arbitrary"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+	}
+	2350.5.20 = {
+		add_spouse=220044 # María Torres
+	}
+	2358.8.22 = {
+		effect = {
+			add_rival=240035 # Catalina Lisperguer
+		}
+	}
+}
+220043 = {
+	name="Gabriel" # Gabriel Elqui.
+	dynasty=140001
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=atacameno
+	religion=catholic
+	
+	add_trait="fair"
+	
+	father=220041 # Gabriel Elqui
+	mother=220042 # Rosa Cortés
+
+	2334.9.4 = {
+		birth="2335.9.4"
+	}
+	2350.9.4 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_spouse=220045 # Carla Romero
+	}
+	2358.8.22 = {
+		effect = {
+			add_rival=240035 # Catalina Lisperguer
+		}
+	}
+}
+220044 = {
+	name="María" # María Torres, wife of Francisco Elqui.
+	dynasty=140026
+	female=yes
+
+	diplomacy = 2
+	martial = 1
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+
+	culture=atacameno
+	religion=catholic
+
+	2333.1.10 = {
+		birth="2333.1.10"
+	}
+	2329.1.10 = {
+		add_trait="underhanded_rogue"
+		add_trait="proud"
+		add_trait="arbitrary"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+220045 = {
+	name="Carla" # Carla Romero, wife of Gabriel Elqui.
+	dynasty=150007
+	female=yes
+
+	diplomacy = 2
+	martial = 1
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+
+	culture=atacameno
+	religion=catholic
+
+	2334.7.21 = {
+		birth="2335.7.21"
+	}
+	2350.7.21 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="temperate"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of Francisco ###
+220046 = {
+	name="Gabriel" # Gabriel Elqui.
+	dynasty=140001
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+
+	culture=atacameno
+	religion=catholic
+	
+	add_trait="strong"
+
+	disallow_random_traits = yes
+	
+	father=220001 # Francisco Elqui
+	mother=220044 # María Torres
+
+	2351.5.12 = {
+		birth="2351.5.12"
+	}
+	2367.5.12 = {
+		add_trait="tough_soldier"
+		add_trait="aggressive_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="arbitrary"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+220047 = {
+	name="Rosa" # Rosa Elqui.
+	dynasty=140001
+	female=yes
+
+	diplomacy = 2
+	martial = 1
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+
+	culture=atacameno
+	religion=catholic
+
+	father=220001 # Francisco Elqui
+	mother=220044 # María Torres
+
+	2353.4.7 = {
+		birth="2353.4.7"
+	}
+	2369.4.7 = {
+		add_trait="naive_appeaser"
+		add_trait="temperate"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="arbitrary"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="groomed"
+	}
+}
+### Issue of Gabriel ###
+220048 = {
+	name="Javier" # Javier Elqui.
+	dynasty=140001
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+
+	culture=atacameno
+	religion=catholic
+
+	father=220043 # Gabriel Elqui
+	mother=220045 # Carla Romero
+
+	2351.8.10 = {
+		birth="2351.8.10"
+	}
+}
+220049 = {
+	name="Gabriela" # Gabriela Elqui.
+	dynasty=140001
+	female=yes
+
+	diplomacy = 2
+	martial = 1
+	stewardship = 2
+	intrigue = 2
+	learning = 2
+
+	culture=atacameno
+	religion=catholic
+
+	add_trait="fair"
+
+	father=220043 # Gabriel Elqui
+	mother=220045 # Carla Romero
+	
+	2352.11.20 = {
+		birth="2352.11.20"
+	}
+}
+##################
+### House Pino ###
+##################
+220002 = {
+	name="Hernán" # Count of Ovalle
+	dynasty=140014
+
+	martial=5
 	diplomacy=3
 	stewardship=3
-	intrigue=3
+	intrigue=2
 	learning=4
+
+	culture=atacameno
+	religion=catholic
+
+	trait=scarred_high
+	trait=sturdy
+	trait=gluttonous
+	trait=patient
+	trait=unyielding_leader
+	trait=zealous
+	trait=hunter
+	trait=tough_soldier
+
+	2332.9.11={
+		birth=yes
+	}
+	2395.5.6={
+		death=yes
+	}
+}
+####################
+### House Guzmán ###
+####################
+220004 = {
+	name="Josefa" # Countess of Monte Patria
+	dynasty=140016
+	female=yes
+
+	martial=3
+	diplomacy=4
+	stewardship=4
+	intrigue=5
+	learning=3
+
+	culture=atacameno
+	religion=catholic
+
+	trait=midas_touched
+	trait=fair
+	trait=lefthanded
+	trait=greedy
+	trait=humble
+	trait=just
+
+	2344.4.14={
+		birth=yes
+	}
+	2411.9.13={
+		death=yes
+	}
+}
+###################
+### House Erraz ###
+###################
+240024 = {
+	name="Guillermo" # Count of Los Vilos
+	dynasty=150017
+
+	martial=6
+	diplomacy=3
+	stewardship=4
+	intrigue=2
+	learning=5
+
 	culture=huaso
 	religion=catholic
-	trait=grey_eminence
-	trait=fair
+
 	trait=zealous
 	trait=chaste
-	trait=gregarious
-	trait=charitable
-	#convinced her husband to lease Santiago to the Patriarch around 2322
-	2283.4.10={
-		birth=yes
-	}
-	2340.2.5={
-		death=yes
-	}
-}
-230005={ #wife of Charles I
-	name="Lorena"
-	dynasty=145010 #Camiroaga, should eventually expand their title history
-	female=yes
-	martial=4
-	diplomacy=5
-	stewardship=3
-	intrigue=6
-	learning=4
-	culture=huaso
-	religion=catholic
-	trait=intricate_webweaver
-	trait=ambitious
-	trait=deceitful
-	trait=proud
-	trait=patient
-	2312.1.24={
-		birth=yes
-	}
-	2370.8.10={
-		death=yes
-	}
-}
-230006={ #King Charles II of Chile, current ruler
-	name="Charles"
-	dynasty=145011
-	father=230002
-	mother=230005
-	dna="aecae0dca00"
-	properties="ei0g0a000000000000000000000000000000"
-	martial=5
-	diplomacy=3
-	stewardship=6
-	intrigue=4
-	learning=5
-	culture=centrino
-	religion=catholic
-	trait=twin
-	trait=thrifty_clerk
+	trait=diligent
 	trait=wroth
-	trait=crusader
-	trait=proud
-	2331.12.27={
-		birth=yes
-	}
-	2359.1.15={
-		effect = {
-			make_tributary = {
-				who = 230017
-				tributary_type = default
-			}
-		}
-	}
-	2360.7.25={add_spouse=640107} # Uriburu spouse
-	2391.1.15={
-		death=yes
-	}
-}
-230007={ #younger Brother of King Charles II, became a priest on his way to become the next Patriarch...
-	name="Marmaduque"
-	dynasty=145011
-	father=230002
-	mother=230005
-	martial=5
-	diplomacy=3
-	stewardship=6
-	intrigue=4
-	learning=5
-	culture=centrino
-	religion=catholic
-	trait=erudite
-	trait=temperate
-	trait=shrewd
-	trait=theologian
-	trait=scholarly_theologian
-	2335.5.20={
-		birth=yes
-	}
-	#give him a temple barony, probably Peñaleonen
-	2369.1.1={
-		effect={
-			give_minor_title=title_cardinal
-		}
-	}
-	2400.1.1={
-		death=yes
-	}
-}
-230011={
-	name="Sebastián"
-	dynasty=145012
-	martial=6
-	diplomacy=5
-	stewardship=6
-	intrigue=4
-	learning=3
-	culture=centrino
-	religion=catholic
-	trait=ambitious
-	trait=honest
-	trait=humble
-	trait=lefthanded
-	trait=crusader
+	trait=stubborn
 	trait=skilled_tactician
-	2349.3.14={
+
+	2338.3.27={
 		birth=yes
 	}
-	2423.5.15={
+	2404.10.11={
 		death=yes
 	}
 }
-230013={
-	name=Felipe
-	dynasty=145020
-	martial=4
-	diplomacy=6
-	stewardship=5
-	intrigue=5
-	learning=5
+########################
+### House Lisperguer ###
+########################
+230100 = {
+	name="Carlos" # Carlos Lisperguer, Duke of Choapa.
+	dynasty=150025
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 4
+	intrigue = 2
+	learning = 5
+
+	culture=german
+	religion=catholic
+
+	2305.4.16 = {
+		birth="2305.4.16"
+		culture=huaso
+	}
+	2321.4.16 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="ambitious"
+	}
+	2324.6.13 = {
+		add_spouse=230103 # María Ríos
+	}
+	2345.4.13 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=220041 # Gabriel Elqui
+		}
+	}
+}
+230103 = {
+	name="María" # María Ríos, wife of Carlos Lisperguer.
+	dynasty=150031
+	female=yes
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 4
+	intrigue = 2
+	learning = 5
+
 	culture=huaso
 	religion=catholic
-	trait=charitable
-	trait=gregarious
-	trait=humble
-	trait=falconer
-	trait=fair
-	trait=temperate
-	trait=charismatic_negotiator
-	2339.8.10={
-		birth=yes
+
+	add_trait="fair"
+
+	2305.5.1 = {
+		birth="2305.5.1"
 	}
-	2401.9.2={
-		death=yes
+	2321.5.1 = {
+		add_trait="intricate_webweaver"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="mystic"
+	}
+	2345.4.13 = {
+		death = {
+			death_reason=death_execution
+			killer=220041 # Gabriel Elqui
+		}
 	}
 }
-230015={
-	name=Camilo
-	dynasty=145025
-	martial=4
-	diplomacy=4
-	stewardship=6
-	intrigue=4
-	learning=3
-	culture=huaso
+### Issue of Carlos ###
+240035 = {
+	name="Catalina" # Catalina Lisperguer the Quintrala, Duchess of Choapa.
+	dynasty=150025
+	female=yes
+	dna="aghgi0hagh0"
+	properties="000b0k"
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 5
+	intrigue = 2
+	learning = 5
+
+	culture=german
 	religion=catholic
-	trait=sturdy
-	trait=lustful
-	trait=patient
-	trait=scarred
-	trait=trusting
-	trait=temperate
-	trait=fortune_builder
-	2334.3.29={
-		birth=yes
+
+	add_trait="fair"
+	add_trait="quick"
+	
+	father=230100 # Carlos Lisperguer
+	mother=230103 # María Ríos
+
+	2325.10.31 = {
+		birth="2325.10.31"
+		culture=huaso
 	}
-	2398.11.15={
-		death=yes
+	2341.10.31 = {
+		add_trait="intricate_webweaver"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="deceitful"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="mystic"
+		add_trait="schemer"
+	}
+	2368.8.22 = {
+		give_nickname=nick_the_quintrala
 	}
 }
-230017={
-	name=Felipe
-	dynasty=145026
-	martial=4
-	diplomacy=5
-	stewardship=6
-	intrigue=3
-	learning=4
+### Issue of Catalina the Quintrala ###
+240036 = {
+	name="Isabel" # Isabel Lisperguer.
+	dynasty=150025
+	female=yes
+	dna="aghgi0fagh0"
+	properties="0r000k"
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 10
+	intrigue = 2
+	learning = 5
+
+	culture=german
+	religion=catholic
+
+	add_trait="fair"
+	add_trait="quick"
+
+	mother=240035 # Catalina Lisperguer
+
+	2345.3.2 = {
+		birth="2345.3.2"
+		culture=huaso
+	}
+	2361.3.2 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="kind"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="mystic"
+	}
+}
+#############################################################
+### Zona Central - Southern Valparaiso to Northern Biobío ###
+#############################################################
+#####################
+### House Larraín ###
+#####################
+230023 = {
+	name="Carlos" # Carlos Larraín, Count of San Felipe and Petorca.
+	dynasty=145017
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+
 	culture=centrino
 	religion=catholic
-	trait=scarred
-	trait=one_legged
-	trait=shrewd
-	trait=patient
-	trait=cynical
-	trait=just
-	trait=fortune_builder
-	2309.2.13={
-		birth=yes
+
+	2310.12.20 = {
+		birth="2310.12.20"
 	}
-	2329.7.15={
-		add_spouse=230018
+	2326.12.20 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="administrator"
 	}
-	2374.12.11={
-		death=yes
+	2327.6.14 = {
+		add_spouse=230024 # Rosa Rodríguez
 	}
 }
-230018={
-	name=Myriam
+230024 = {
+	name="María" # María Matte, wife of Carlos Larraín.
+	dynasty=145040
+	female=yes
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	2310.8.30 = {
+		birth="2310.8.30"
+	}
+	2326.8.30 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of Carlos ###
+230025 = {
+	name="Ricardo" # Ricardo Larraín.
+	dynasty=145017
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230023 # Carlos Larraín
+	mother=230024 # María Matte
+
+	2328.5.19 = {
+		birth="2328.5.19"
+	}
+	2344.5.19 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="charitable"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2348.5.17 = {
+		add_spouse=230051 # Silvia Piñeiro
+	}
+}
+230050 = {
+	name="Rosa" # Rosa Larraín, wife of Jorge Edwards.
+	dynasty=145017
+	female=yes
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230023 # Carlos Larraín
+	mother=230024 # María Matte
+
+	2330.11.6 = {
+		birth="2330.11.6"
+	}
+	2346.11.6 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="charitable"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+230051 = {
+	name="Francisca" # Francisca Errázuriz, wife of Ricardo Larraín.
+	dynasty=145041
+	female=yes
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	2328.6.27 = {
+		birth="2328.6.27"
+	}
+	2344.6.27 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of Ricardo ###
+230011 = {
+	name="Hernán" # Hernán Larraín.
+	dynasty=145017
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230025 # Ricardo Larraín
+	mother=230051 # Francisca Errázuriz
+
+	2349.2.4 = {
+		birth="2349.2.4"
+	}
+}
+230012 = {
+	name="María" # María Larraín.
+	dynasty=145017
+	female=yes
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230025 # Ricardo Larraín
+	mother=230051 # Francisca Errázuriz
+
+	2351.1.23 = {
+		birth="2351.1.23"
+	}
+}
+######################
+### House Figueroa ###
+######################
+230017 = {
+	name="Emilio" # Emilio Figueroa, Count of San Felipe.
+	dynasty=145026
+	
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+
+	culture=centrino
+	religion=catholic
+
+	2309.7.12 = {
+		birth="2309.7.12"
+	}
+	2325.7.12 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2329.7.15 = {
+		add_spouse=230018 # Leonor Sánchez
+	}
+}
+230018 = {
+	name="Leonor" # Leonor Sánchez, wife of Emilio Figueroa.
 	dynasty=145027
 	female=yes
-	martial=3
-	diplomacy=6
-	stewardship=3
-	intrigue=4
-	learning=2
-	culture=centrino
-	religion=catholic
-	trait=kind
-	trait=slothful
-	trait=gregarious
-	trait=is_fat
-	trait=underhanded_rogue
-	2311.6.15={
-		birth=yes
-	}
-	2374.12.11={
-		death=yes
-	}
-}
-230019={
-	name=Claudio
-	dynasty=145026
-	martial=2
-	diplomacy=4
-	stewardship=4
-	intrigue=3
-	learning=3
-	culture=centrino
-	religion=catholic
-	trait=lunatic
-	trait=is_malnourished
-	trait=uncouth
-	trait=wroth
-	trait=charitable
-	trait=slothful
-	trait=naive_appeaser
-	father=230017
-	mother=230018
-	2330.5.6={
-		birth=yes
-	}
-	2386.10.30={
-		death=yes
-	}
-}
-230020={
-	name=Guillermo
-	dynasty=145018 #Allende
-	martial=3
-	diplomacy=5
-	stewardship=4
-	intrigue=4
-	learning=7
-	culture=centrino
-	religion=liberationist
-	trait=zealous
-	trait=charitable
-	trait=stubborn
-	trait=charismatic_negotiator
-	2328.6.25={
-		birth=yes
-	}
-	2400.1.30={
-		death=yes
-	}
-}
-230021={
-	name="Ana"
-	dynasty=145018 #Allende
-	female=yes
-	father=230020
-	martial=1
-	diplomacy=7
-	stewardship=4
-	intrigue=4
-	learning=7
-	culture=centrino
-	religion=liberationist
-	trait=charitable
-	trait=underhanded_rogue
-	2349.12.10={
-		birth=yes
-	}
-	2400.1.1={
-		death=yes
-	}
-}
-230022={
-	name="Mario"
-	dynasty=145018 #Allende
-	father=230020
-	martial=5
-	diplomacy=3
-	stewardship=5
-	intrigue=4
-	learning=5
-	culture=centrino
-	religion=liberationist
-	trait=tough_soldier
-	2352.5.12={
-		birth=yes
-	}
-	2400.1.1={
-		death=yes
-	}
-}
-230023={
-	name="Eduardo"
-	dynasty=145017 #Alessandri
-	martial=4
-	diplomacy=5
-	stewardship=6
-	intrigue=4
-	learning=3
-	culture=italian
-	religion=catholic
-	trait=midas_touched
-	trait=gregarious
-	trait=diligent
-	2319.8.19={
-		birth=yes
-		culture=centrino
-	}
-	2375.3.5={
-		death=yes
-	}
-}
-230024={
-	name="Arturo"
-	dynasty=145017 #Alessandri
-	father=230023
-	martial=5
-	diplomacy=5
-	stewardship=5
-	intrigue=4
-	learning=3
-	culture=italian
-	religion=catholic
-	trait=thrifty_clerk
-	trait=patient
-	trait=lustful
-	2340.11.20={
-		birth=yes
-		culture=centrino
-	}
-	2375.3.5={
-		death=yes
-	}
-}
-230025={
-	name="Javier"
-	dynasty=145017 #Alessandri
-	father=230023
-	martial=5
-	diplomacy=5
-	stewardship=5
-	intrigue=4
-	learning=3
-	culture=italian
-	religion=catholic
-	trait=grey_eminence
-	trait=shrewd
-	trait=socializer
-	2345.11.20={
-		birth=yes
-		culture=centrino
-	}
-	2375.3.5={
-		death=yes
-	}
-}
-230026={
-	name="Raul"
-	dynasty=145035 #Edwards
-	martial=3
-	diplomacy=5
-	stewardship=4
-	intrigue=8
-	learning=7
-	culture=celtic
-	religion=catholic
-	trait=mastermind_theologian
-	trait=deceitful
-	trait=groomed
-	trait=paranoid
-	2327.3.20={
-		birth=yes
-		culture=centrino
-	}
-	2380.2.10={
-		death=yes
-	}
-}
-230027={
-	name="Carlos"
-	dynasty=145035 #Edwards
-	father=230026
-	martial=5
-	diplomacy=5
-	stewardship=4
-	intrigue=8
-	learning=7
-	culture=celtic
-	religion=catholic
-	trait=tough_soldier
-	trait=deceitful
-	trait=groomed
-	trait=arbitrary
-	2346.1.15={
-		birth=yes
-		culture=centrino
-	}
-	2380.2.10={
-		death=yes
-	}
-}
-230028={
-	name="Roberto"
-	dynasty=145035 #Edwards
-	father=230026
-	martial=5
-	diplomacy=5
-	stewardship=4
-	intrigue=8
-	learning=7
-	culture=celtic
-	religion=catholic
-	trait=flamboyant_schemer
-	trait=lustful
-	trait=ambitious
-	trait=cynical
-	2349.1.15={
-		birth=yes
-		culture=centrino
-	}
-	2380.2.10={
-		death=yes
-	}
-}
-230029={
-	name="Maria"
-	dynasty=145035 #Edwards
-	female=yes
-	father=230026
-	martial=5
-	diplomacy=5
-	stewardship=4
-	intrigue=8
-	learning=7
-	culture=celtic
-	religion=catholic
-	trait=scholarly_theologian
-	trait=chaste
-	trait=zealous
-	trait=freckles
-	2351.12.18={
-		birth=yes
-		culture=centrino
-	}
-	2380.2.10={
-		death=yes
-	}
-}
-240001={
-	name="Joaquín"
-	dynasty=150001
-	martial=5
-	diplomacy=4
-	stewardship=6
-	intrigue=5
-	learning=4
-	culture=huaso
-	religion=catholic
-	trait=just
-	trait=kind
-	trait=crusader
-	trait=tough_soldier
-	2343.6.12={
-		birth=yes
-	}
-	2401.2.2={
-		death=yes
-	}
-}
-240002={
-	name=Fabrizio
-	dynasty=150002
-	martial=3
-	diplomacy=6
-	stewardship=4
-	intrigue=5
-	learning=3
-	culture=huaso
-	religion=catholic
-	trait=patient
-	trait=cynical
-	trait=slothful
-	trait=thrifty_clerk
-	2333.3.3={
-		birth=yes
-	}
-	2396.6.6={
-		death=yes
-	}
-}
-240009={
-	name=Patricia
-	dynasty=150009
-	female=yes
-	martial=3
-	diplomacy=4
-	stewardship=6
-	intrigue=3
-	learning=6
-	culture=huaso
-	religion=catholic
-	trait=kind
-	trait=stubborn
-	trait=content
-	trait=underhanded_rogue
-	2295.3.9={
-		birth=yes
-	}
-	2355.8.15={
-		death=yes
-	}
-}
-240010={
-	name=Miguel
-	dynasty=150010
-	martial=4
-	diplomacy=6
-	stewardship=3
-	intrigue=4
-	learning=5
-	culture=huaso
-	religion=catholic
-	trait=patient
-	trait=gregarious
-	trait=greedy
-	trait=thrifty_clerk
-	2287.5.12={
-		birth=yes
-	}
-	2311.9.6={
-		add_spouse=240009
-	}
-	2342.11.20={
-		death=yes
-	}
-}
-240011={
-	name=Manuel
-	dynasty=150010
-	martial=6
-	diplomacy=6
-	stewardship=3
-	intrigue=4
-	learning=5
-	culture=huaso
-	religion=catholic
-	trait=cynical
-	trait=ambitious
-	trait=lustful
-	trait=diligent
-	trait=proud
-	trait=excommunicated
-	trait=brilliant_strategist
-	trait=inspiring_leader
-	father=240010
-	mother=240009
-	2315.4.9={
-		birth=yes
-	}
-	2359.5.12={
-	give_nickname=nick_the_black
-		create_bloodline={
-			type=manuel_black
-			has_dlc="Holy Fury"
-		}
-	}
-	2361.7.2={
-		death={
-		death_reason=death_battle
-		}
-	}
-}
-240012={
-	name=Jorge
-	dynasty=150010
-	martial=2
-	diplomacy=5
-	stewardship=5
-	intrigue=4
-	learning=3
-	culture=huaso
-	religion=catholic
-	trait=is_fat
-	trait=gluttonous
-	trait=slothful
-	trait=stubborn
-	trait=trusting
-	trait=drunkard
-	trait=fortune_builder
-	father=240010
-	mother=240009
-	2317.2.13={
-		birth=yes
-	}
-	2350.2.12={
-		add_spouse=240013
-	}
-	2373.1.15={
-		death=yes
-	}
-}
-240013={
-	name=Beatriz #twin sister of King Charles II
-	dynasty=145011
-	father=230002
-	mother=230005
-	female=yes
-	martial=2
-	diplomacy=5
-	stewardship=5
-	intrigue=4
-	learning=3
-	culture=centrino
-	religion=catholic
-	trait=twin
-	trait=temperate
-	trait=groomed
-	trait=honest
-	trait=greedy
-	trait=charismatic_negotiator
-	2331.12.27={
-		birth=yes
-	}
-	2389.3.13={
-		death=yes
-	}
-}
-240014={
-	name=Policarpo
-	dynasty=150010
-	martial=2
-	diplomacy=2
-	stewardship=2
-	intrigue=1
-	learning=1
-	culture=huaso
-	religion=catholic
-	trait=robust
-	trait=cruel
-	trait=curious
-	trait=haughty
-	father=240012
-	mother=240013
-	2357.2.11={
-		birth=yes
-	}
-	2422.9.11={
-		death=yes
-	}
-}
 
-240015={
-	name=Roberto
-	dynasty=150014
-	martial=2
-	diplomacy=5
-	stewardship=5
-	intrigue=4
-	learning=3
-	culture=huaso
-	religion=evangelical
-	trait=shrewd
-	trait=temperate
-	trait=deceitful
-	trait=stubborn
-	trait=tough_soldier
-	2329.4.24={
-		birth=yes
+	diplomacy = 6
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 2
+
+	culture=centrino
+	religion=catholic
+
+	2309.1.31 = {
+		birth="2309.1.31"
 	}
-	2383.6.13={
-		death=yes
+	2325.1.31 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
 	}
 }
-240016={
-	name=Josué
-	dynasty=150015
-	martial=6
-	diplomacy=3
-	stewardship=4
-	intrigue=2
-	learning=5
-	culture=huaso
-	religion=evangelical
-	trait=scarred
-	trait=groomed
-	trait=chaste
-	trait=diligent
-	trait=wroth
-	trait=branch_pentecostal
+### Issue of Emilio ###
+230019 = {
+	name="Elías" # Elías Figueroa.
+	dynasty=145026
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+
+	father=230017 # Emilio Figueroa
+	mother=230018 # Leonor Sánchez
+
+	2330.10.25 = {
+		birth="2330.10.25"
+	}
+	2346.10.25 = {
+		add_trait="skilled_tactician"
+		add_trait="defensive_leader"
+		add_trait="unyielding_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2349.4.26 = {
+		add_spouse=230053 # Marcela Molina
+	}
+	2363.7.12 = {
+		add_trait="crusader"
+		effect = {
+			add_friend=230027 # Agustín Edwards
+		}
+	}
+}
+230052 = {
+	name="María" # María Figueroa, wife of Tomás Allende.
+	dynasty=145026
+	female=yes
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230017 # Emilio Figueroa
+	mother=230018 # Leonor Sánchez
+
+	2332.5.16 = {
+		birth="2332.5.16"
+	}
+	2342.5.16 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+230053 = {
+	name="Marcela" # Marcela Molina, wife of Elías Figueroa.
+	dynasty=145019
+	female=yes
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	2330.4.26 = {
+		birth="2330.4.26"
+	}
+}
+### Issue of Elías ###
+230054 = {
+	name="Javier" # Javier Figueroa.
+	dynasty=145026
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230019 # Elías Figueroa
+	mother=230053 # Marcela Molina
+
+	2350.2.23 = {
+		birth="2350.2.23"
+	}
+}
+230055 = {
+	name="Patricia" # Patricia Figueroa.
+	dynasty=145026
+	female=yes
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230019 # Elías Figueroa
+	mother=230053 # Marcela Molina
+
+	2351.3.8 = {
+		birth="2351.3.8"
+	}
+}
+#####################
+### House Allende ###
+#####################
+230020 = {
+	name="Ramón" # Ramón Allende, Count of Marga Marga.
+	dynasty=145018
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 7
+
+	culture=centrino
+	religion=catholic
+
+	2308.3.19 = {
+		birth="2308.3.19"
+	}
+	2324.3.19 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2328.6.7 = {
+		add_spouse=230056 # Laura Castro
+	}
+}
+230056 = {
+	name="Laura" # Laura Castro, wife of Ramón Allende.
+	dynasty=145039
+	female=yes
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 7
+
+	culture=centrino
+	religion=catholic
+
+	2308.4.19 = {
+		birth="2308.4.19"
+	}
+	2324.4.19 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of Ramón ###
+230021 = {
+	name="Laura" # Laura Allende, wife of Agustín Edwards.
+	dynasty=145018
+	female=yes
+
+	diplomacy = 7
+	martial = 1
+	stewardship = 4
+	intrigue = 4
+	learning = 7
+
+	culture=centrino
+	religion=catholic
+
+	trait=charitable
 	trait=underhanded_rogue
-	2342.8.13={
-		birth=yes
-	}
-	2405.7.2={
-		death=yes
+
+	father=230020 # Ramón Allende
+	mother=230056 # Laura Castro
+
+	2329.9.3 = {
+		birth="2329.9.3"
 	}
 }
-240018={
-	name=Tulio
+230022 = {
+	name="Tomás" # Tomás Allende.
+	dynasty=145018
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 5
+	intrigue = 4
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	father=230020 # Ramón Allende
+	mother=230056 # Laura Castro
+
+	2331.11.22 = {
+		birth="2331.11.22"
+	}
+	2347.11.22 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2351.6.18 = {
+		add_spouse=230052 # María Figueroa
+	}
+}
+### Issue of Tomás ###
+230057 = {
+	name="Andrés" # Andrés Allende.
+	dynasty=145018
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 5
+	intrigue = 2
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	father=230022 # Tomás Allende
+	mother=230052 # María Figueroa
+
+	2352.7.12 = {
+		birth="2352.7.12"
+	}
+}
+230058 = {
+	name="Beatriz" # Beatriz Allende.
+	dynasty=145018
+	female=yes
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 5
+	intrigue = 2
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	father=230022 # Tomás Allende
+	mother=230052 # María Figueroa
+
+	2353.9.8 = {
+		birth="2353.9.8"
+	}
+}
+#####################
+### House Edwards ###
+#####################
+230026 = {
+	name="Raúl" # Raúl Edwards the Red, Duke of Valparaiso.
+	dynasty=145035
+	dna="badec00bjd0"
+	properties="0c000k"
+
+	diplomacy = 9
+	martial = 4
+	stewardship = 10
+	intrigue = 4
+	learning = 5
+
+	culture=english
+	religion=catholic
+
+	add_trait="freckles"
+	
+	disallow_random_traits = yes
+
+	2310.6.15 = {
+		birth="2310.6.15"
+		culture=centrino
+	}
+	2326.6.15 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="duelist"
+		add_trait="administrator"
+	}
+	2327.8.20 = {
+		add_spouse=230034 # Luisa Silva
+	}
+	2338.4.17 = {
+		give_nickname=nick_the_red
+	}
+	2348.9.18 = {
+		death = {
+			death_reason=death_battle_duel
+			killer=230002 # Ricardo Santiago
+		}
+	}
+}
+230034 = {
+	name="Luisa" # Luisa Silva, wife of Raúl Edwards the Red.
+	dynasty=145038
+	female=yes
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+	
+	add_trait="fair"
+
+	2310.11.1 = {
+		birth="2310.11.1"
+	}
+	2326.11.1 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2368.2.17 = {
+		death="2368.2.17"
+	}
+}
+### Issue of Raúl ###
+230027 = {
+	name="Agustín" # Agustín Edwards, Count of San Antonio.
+	dynasty=145035
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+
+	culture=english
+	religion=catholic
+
+	add_trait="freckles"
+
+	disallow_random_traits = yes
+
+	father=230026 # Raúl Edwards
+	mother=230034 # Luisa Silva
+
+	2328.11.24 = {
+		birth="2328.11.24"
+		culture=centrino
+	}
+	2344.11.24 = {
+		add_trait="skilled_tactician"
+		add_trait="cavalry_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2348.5.17 = {
+		add_spouse=230021 # Laura Allende
+	}
+	2363.7.12 = {
+		add_trait="crusader"
+	}
+}
+230028 = {
+	name="Jorge" # Jorge Edwards.
+	dynasty=145035
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+
+	culture=english
+	religion=catholic
+
+	add_trait="freckles"
+
+	father=230026 # Raúl Edwards
+	mother=230034 # Luisa Silva
+
+	2330.6.29 = {
+		birth="2330.6.29"
+		culture=centrino
+	}
+	2346.6.29 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="administrator"
+	}
+	2350.11.6 = {
+		add_spouse=230050 # Rosa Alessandri
+	}
+	2368.9.18 = {
+		employer=230006 # Diego Santiago
+	}
+}
+230029 = {
+	name="María" # María Edwards, wife of Marcelo Salas.
+	dynasty=145035
+	female=yes
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 3
+	intrigue = 3
+	learning = 5
+
+	culture=english
+	religion=catholic
+
+	add_trait="fair"
+	add_trait="freckles"
+
+	father=230026 # Raúl Edwards
+	mother=230034 # Luisa Silva
+
+	2332.12.11 = {
+		birth="2332.12.11"
+		culture=centrino
+	}
+	2348.12.11 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="groomed"
+	}
+}
+### Issue of Agustín ####
+230030 = {
+	name="Cristián" # Cristián Edwards.
+	dynasty=145035
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=english
+	religion=catholic
+
+	add_trait="freckles"
+	
+	disallow_random_traits = yes
+
+	father=230027 # Agustín Edwards
+	mother=230021 # Laura Allende
+
+	2349.4.24 = {
+		birth="2349.4.24"
+		culture=centrino
+	}
+	2365.4.24 = {
+		add_trait="skilled_tactician"
+		add_trait="heavy_infantry_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+230031 = {
+	name="Isabel" # Isabel Edwards.
+	dynasty=145035
+	female=yes
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=english
+	religion=catholic
+
+	add_trait="freckles"
+
+	father=230027 # Agustín Edwards
+	mother=230021 # Laura Allende
+
+	2350.6.8 = {
+		birth="2350.6.8"
+		culture=centrino
+	}
+	2366.6.8 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="honest"
+		add_trait="zealous"
+	}
+}
+### Issue of Jorge ###
+230032 = {
+	name="Jorge" # Jorge Edwards.
+	dynasty=145035
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=english
+	religion=catholic
+
+	add_trait="freckles"
+
+	father=230028 # Jorge Edwards
+	mother=230050 # Rosa Alessandri
+
+	2351.11.24 = {
+		birth="2351.11.24"
+		culture=centrino
+	}
+	2367.11.24 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+230033 = {
+	name="Rosa" # Rosa Edwards.
+	dynasty=145035
+	female=yes
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=english
+	religion=catholic
+
+	add_trait="freckles"
+
+	father=230028 # Jorge Edwards
+	mother=230050 # Rosa Alessandri
+
+	2352.3.16 = {
+		birth="2352.3.16"
+		culture=centrino
+	}
+	2368.3.16 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="groomed"
+	}
+}
+#######################
+### House Camiroaga ###
+#######################
+230059 = {
+	name="Javier" # Javier Camiroaga the Falcon, Duke of O'Higgins.
+	dynasty=145020
+	dna="agif00ga0b0"
+	properties="0s00ek"
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="fair"
+
+	2310.9.2 = {
+		birth="2310.9.2"
+	}
+	2326.9.2 = {
+		add_trait="grey_eminence"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="charitable"
+		add_trait="humble"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="socializer"
+		add_trait="falconer"
+	}
+	2332.5.7 = {
+		add_spouse=230060 # María Fernández
+		effect = {
+			add_lover=230060 # María Fernández
+		}
+	}
+	2348.9.18 = {
+		give_nickname=nick_the_falcon
+		create_bloodline = {
+			type = bloodline_javier_falcon
+			has_dlc = "Holy Fury"
+		}
+	}
+	2368.4.5 = {
+		death="2368.4.5"
+	}
+}
+230060 = {
+	name="María" # María Fernández, wife of Javier Camiroaga.
+	dynasty=150030
+	female=yes
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 3
+	intrigue = 1
+	learning = 3
+
+	culture=huaso
+	religion=catholic
+
+	2310.2.9 = {
+		birth="2310.2.9"
+	}
+	2326.2.9 = {
+		add_trait="thrifty_clerk"
+		add_trait="diligent"
+		add_trait="kind"
+		add_trait="charitable"
+		add_trait="humble"
+		add_trait="zealous"
+	}
+	2369.3.5 = {
+		death="2369.3.5"
+	}
+}
+### Issue of Javier the Falcon ###
+230013 = {
+	name="Felipe" # Felipe Camiroaga, Duke of O'Higgins.
+	dynasty=145020
+	dna="agi000ba0b0"
+	properties="0g00ek"
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="fair"
+
+	father=230059 # Javier Camiroaga
+	mother=230060 # María Fernández
+
+	2333.10.8 = {
+		birth="2333.10.8"
+	}
+	2349.10.8 = {
+		add_trait="charismatic_negotiator"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="charitable"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="honest"
+		add_trait="falconer"
+	}
+	2350.4.11 = {
+		add_spouse=230062 # Claudia Contreras
+		effect = {
+			add_lover=230062 # Claudia Contreras
+		}
+	}
+}
+230061 = {
+	name="Francisca" # Francisca Camiroaga, wife of Diego Bartales and Queen of Chile.
+	dynasty=145020
+	female=yes
+	dna="b0dgc0cc0d0"
+	properties="0r000k"
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="fair"
+
+	father=230059 # Javier Camiroaga
+	mother=230060 # María Fernández
+
+	2334.8.20 = {
+		birth="2333.8.20"
+	}
+	2350.8.20 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="kind"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="honest"
+		add_trait="falconer"
+	}
+}
+### Issue of Felipe ###
+230063 = {
+	name="Jorge" # Jorge Camiroaga.
+	dynasty=145020
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 4
+	intrigue = 3
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="fair"
+
+	disallow_random_traits = yes
+
+	father=230013 # Felipe Camiroaga
+	mother=230062 # Claudia Contreras
+
+	2351.8.3 = {
+		birth="2351.8.3"
+	}
+	2367.8.3 = {
+		add_trait="skilled_tactician"
+		add_trait="unyielding_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="honest"
+		add_trait="falconer"
+	}
+}
+230064 = {
+	name="Claudia" # Claudia Camiroaga, wife of José Salas.
+	dynasty=145020
+	female=yes
+	properties="0t00dk"
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="fair"
+
+	father=230013 # Felipe Camiroaga
+	mother=230062 # Claudia Contreras
+
+	2352.9.12 = {
+		birth="2352.9.12"
+	}
+	2368.9.12 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="honest"
+		add_trait="falconer"
+	}
+}
+######################
+### House Bartales ###
+######################
+230002 = {
+	name="Benjamín" # Benjamín Bartales the Sword of Santiago, King of Chile.
+	dynasty=145011
+	dna="aaafb0bade0"
+	properties="0t00dk"
+
+	diplomacy = 10
+	martial = 7
+	stewardship = 6
+	intrigue = 1
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="quick"
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2313.9.8 = {
+		birth="2313.9.8"
+	}
+	2329.9.8 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="strategist"
+		add_trait="duelist"
+	}
+	2333.3.1 = {
+		add_spouse=230005 # Inés Suárez
+		effect = {
+			add_friend=2300131 # Javier Camiroaga
+			add_friend=230084 # Tomás Salas
+			add_lover=230005 # Inés Suárez
+		}
+	}
+	2347.9.18 = {
+		give_nickname=nick_the_sword_of_santiago
+		effect = {
+			add_artifact=sangreroja
+		}
+		create_bloodline = {
+			type = bloodline_sword_of_santiago
+			has_dlc = "Holy Fury"
+		}
+	}
+	2347.11.6 = {
+		add_trait="crowned_by_bishop"
+	}
+	2368.9.18 = {
+		death="2368.9.18"
+	}
+}
+230005 = {
+	name="Inés" # Inés Suárez the Sword of Saint Lucia, wife of King Benjamín Bartales the Sword of Santiago and Queen of Chile.
+	dynasty=145010
+	female=yes
+	dna="beffa0bcgc0"
+	properties="0o0a0k"
+
+	diplomacy = 10
+	martial = 4
+	stewardship = 7
+	intrigue = 6
+	learning = 4
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2312.3.1 = {
+		birth="2312.3.1"
+	}
+	2328.3.1 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2347.9.18 = {
+		give_nickname=nick_the_sword_of_saint_lucia
+	}
+	2369.2.12 = {
+		death="2369.2.12"
+	}
+}
+### Issue of Benjamín the Sword of Santiago ###
+230006 = {
+	name="Diego" # Diego Bartales the Earthquake, King of Chile.
+	dynasty=145011
+	dna="aaafg00ade0"
+	properties="0t00ek"
+
+	diplomacy = 10
+	martial = 9
+	stewardship = 9
+	intrigue = 4
+	learning = 6
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=230002 # Benjamín Bartales
+	mother=230005 # Inés Suárez
+
+	2334.6.16 = {
+		birth="2334.6.16"
+	}
+	2350.6.16 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="strategist"
+		effect = {
+			add_friend=230013 # Felipe Camiroaga
+			add_friend=230086 # Marcelo Salas
+		}
+	}
+	2352.2.2 = {
+		add_spouse=230061 # Francisca Camiroaga
+		effect = {
+			add_lover=230061 # Francisca Camiroaga
+		}
+	}
+	2363.7.12 = {
+		add_trait="crusader"
+		give_nickname=nick_the_earthquake
+		effect = {
+			add_friend=230027 # Agustín Edwards
+			add_friend=640046 # Villanueva
+			add_friend=640054 # Maza
+		}
+	}
+	2368.9.18 = {
+		add_trait="crowned_by_pope"
+		effect = {
+			add_artifact=sangreroja
+			# Councillors
+			c_230013 = { give_job_title = job_chancellor } # Felipe Camiroaga
+			c_230086 = { give_job_title = job_marshal } # Marcelo Salas
+			c_230028 = { give_job_title = job_treasurer } # Jorge Edwards
+		}
+	}
+}
+### Issue of Diego the Earthquake ###
+231980 = {
+	name="Severio" # Severio Solnuevo the Executioner.
+	dynasty=145180
+	dna="bifif0d0000"
+	properties="0s0a0k"
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 3
+	intrigue = 1
+	learning = 1
+
+	culture=german
+	religion=catholic
+
+	add_trait="bastard"
+	add_trait="quick"
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=230006 # Diego Bartales
+
+	2351.5.7 = {
+		birth="2351.5.7"
+		culture=centrino
+	}
+	2367.5.7 = {
+		add_trait="grey_eminence"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="honest"
+		add_trait="cynical"
+		add_trait="ambitious"
+		add_trait="impaler"
+		add_trait="duelist"
+	}
+	2369.5.7 = {
+		give_nickname=nick_the_executioner
+		effect = {
+			add_artifact=terminus_est
+		}
+	}
+}
+230008 = {
+	name="Benjamín" # Benjamín Bartales.
+	dynasty=145011
+	dna="adafc0gade0"
+	properties="0t000k"
+
+	diplomacy = 10
+	martial = 4
+	stewardship = 9
+	intrigue = 4
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=230006 # Diego Bartales
+	mother=230061 # Francisca Camiroaga
+
+	2353.4.18 = {
+		birth="2353.4.18"
+	}
+	2369.4.18 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		effect = {
+			add_friend=231980 # Severio Solnuevo
+		}
+	}
+}
+##############################
+### House Bartales History ###
+##############################
+230101 = {
+	name="Miguel" # Miguel Neira the Beast, Count of Cordillera.
+	dynasty=145042
+	dna="0a0d00ib000"
+	properties="0h0i0k"
+
+	diplomacy = 1
+	martial = 6
+	stewardship = 1
+	intrigue = 7
+	learning = 1
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2313.7.5 = {
+		birth="2313.7.5"
+	}
+	2329.7.5 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="greedy"
+		add_trait="arbitrary"
+		add_trait="deceitful"
+		add_trait="gregarious"
+		add_trait="cruel"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="duelist"
+	}
+	2338.11.7 = {
+		add_trait="scarred_high"
+		give_nickname=nick_the_beast
+	}
+	2347.10.9 = {
+		death = {
+			death_reason=death_duel
+			killer=230002 # Benjamín Bartales
+		}
+	}
+}
+230102 = {
+	name="Joaquín" # Joaquín López the Bandido, Count of Melipilla.
+	dynasty=145007
+
+	diplomacy = 1
+	martial = 6
+	stewardship = 1
+	intrigue = 7
+	learning = 1
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2312.7.25 = {
+		birth="2312.7.25"
+	}
+	2328.7.25 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="greedy"
+		add_trait="arbitrary"
+		add_trait="deceitful"
+		add_trait="gregarious"
+		add_trait="cruel"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="duelist"
+	}
+	2338.5.4 = {
+		add_trait="scarred_mid"
+		give_nickname=nick_the_bandido
+	}
+	2347.11.6 = {
+		death = {
+			death_reason=death_duel
+			killer=230005 # Inés Suárez
+		}
+	}
+}
+###################
+### House Salas ###
+###################
+230084 = {
+	name="Tomás" # Tomás Salas the Slayer, Duke of Valparaiso.
+	dynasty=145036
+	dna="abcfd0ha000"
+	properties="0h0c0k"
+
+	diplomacy = 2
+	martial = 1
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2314.6.6 = {
+		birth="2314.6.6"
+	}
+	2330.6.6 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2331.6.6 = {
+		add_spouse=230085 # Sandra Araya
+	}
+	2348.9.18 = {
+		give_nickname=nick_the_slayer
+		create_bloodline = {
+			type = bloodline_tomas_slayer
+			has_dlc = "Holy Fury"
+		}
+	}
+	2368.5.2 = {
+		death="2368.5.2"
+	}
+}
+230085 = {
+	name="Sandra" # Sandra Araya, wife of Tomás Salas.
+	dynasty=150003
+	female=yes
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+
+	culture=centrino
+	religion=catholic
+
+	2314.10.7 = {
+		birth="2314.10.7"
+	}
+	2330.10.7 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="humble"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2368.7.27 = {
+		death="2368.7.27"
+	}
+}
+### Issue of Tomás the Slayer ###
+230086 = {
+	name="Marcelo" # Marcelo Salas, Duke of Valparaiso.
+	dynasty=145036
+	dna="adc0d0ga000"
+	properties="0d0a0k"
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=230084 # Tomás Salas
+	mother=230085 # Sandra Araya
+
+	2332.12.24 = {
+		birth="2332.12.24"
+	}
+	2348.12.24 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+		add_spouse=230029 # María Edwards
+	}
+	2363.7.12 = {
+		add_trait="crusader"
+		effect = {
+			add_friend=230027 # Agustín Edwards
+			add_friend=230019 # Elías Figueroa
+		}
+	}
+}
+### Issue of Marcelo ###
+230087 = {
+	name="José" # José Salas.
+	dynasty=145036
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 4
+	intrigue = 4
+	learning = 3
+
+	culture=english
+	religion=catholic
+
+	add_trait="strong"
+	
+	disallow_random_traits = yes
+
+	father=230086 # Marcelo Salas
+	mother=230029 # Maria Edwards
+
+	2350.10.7 = {
+		birth="2350.10.7"
+		culture=centrino
+	}
+	2366.10.7 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2369.3.3 = {
+		add_spouse=230064 # Claudia Camiroaga
+	}
+}
+230088 = {
+	name="Catalina" # Catalina Salas.
+	dynasty=145036
+	female=yes
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=english
+	religion=catholic
+
+	add_trait="fair"
+	add_trait="freckles"
+
+	father=230086 # Marcelo Salas
+	mother=230029 # Maria Edwards
+
+	2352.3.3 = {
+		birth="2352.3.3"
+		culture=centrino
+	}
+	2368.3.3 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="honest"
+		add_trait="zealous"
+		add_trait="groomed"
+		add_trait="socializer"
+		add_trait="poet"
+	}
+}
+##########################
+### Chilean Patriarchs ###
+##########################
+230001 = {
+	name="Juan" # Juan Bosco, Patriarch of Chile.
+	dynasty=150022
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 3
+	learning = 8
+
+	culture=centrino
+	religion=catholic
+
+	2307.8.16 = {
+		birth="2307.8.16"
+	}
+	2323.8.16 = {
+		add_trait="scholarly_theologian"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="honest"
+		add_trait="zealous"
+		add_trait="theologian"
+	}
+}
+230007 = {
+	name="Alberto" # Alberto Hurtado.
+	dynasty=145012
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	2330.1.22 = {
+		birth="2330.1.22"
+	}
+	2346.1.22 = {
+		add_trait="scholarly_theologian"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="kind"
+		add_trait="humble"
+		add_trait="just"
+		add_trait="honest"
+		add_trait="zealous"
+		add_trait="erudite"
+		add_trait="theologian"
+	}
+}
+#####################
+### House Triviño ###
+#####################
+240018 = {
+	name="Tulio" # Tulio Triviño, Count of Cardenal Caro.
 	dynasty=150016
+
 	martial=3
 	diplomacy=2
 	stewardship=6
 	intrigue=4
 	learning=3
+
 	culture=huaso
 	religion=catholic
+
 	trait=humble
 	trait=envious
 	trait=lustful
 	trait=robust
 	trait=fortune_builder
+
 	2300.3.15={
 		birth=yes
 	}
@@ -1270,21 +3213,25 @@
 		death=yes
 	}
 }
-240019={
-	name=Vespertina
+240019 = {
+	name="Vespertina" # Vespertina Tufillo, wife of Tulio Triviño.
 	dynasty=150019
 	female=yes
+
 	martial=3
 	diplomacy=3
 	stewardship=5
 	intrigue=4
 	learning=6
+
 	culture=huaso
 	religion=catholic
+
 	trait=diligent
 	trait=wroth
 	trait=paranoid
 	trait=thrifty_clerk
+
 	2313.8.21={
 		birth=yes
 	}
@@ -1292,126 +3239,869 @@
 		death=yes
 	}
 }
-240020={
-	name=Tulio
+### Issue of Tulio ###
+240020 = {
+	name="Tulio" # Tulio Triviño, Count of Cardenal Caro.
 	dynasty=150016
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 3
+
+	culture=huaso
+	religion=catholic
+
 	father=240018
 	mother=240019
-	martial=6
-	diplomacy=3
-	stewardship=4
-	intrigue=2
-	learning=5
-	culture=huaso
-	religion=catholic
-	trait=proud
-	trait=groomed
-	trait=envious
-	trait=gregarious
-	trait=arbitrary
-	trait=flamboyant_schemer
-	2336.8.21={
-		birth=yes
+
+	2336.8.21 = {
+		birth="2336.8.21"
 	}
-	2406.9.22={
-		death=yes
-	}
-}
-240024={
-	name=Guillermo
-	dynasty=150017
-	martial=6
-	diplomacy=3
-	stewardship=4
-	intrigue=2
-	learning=5
-	culture=huaso
-	religion=catholic
-	trait=zealous
-	trait=chaste
-	trait=diligent
-	trait=wroth
-	trait=stubborn
-	trait=skilled_tactician
-	2338.3.27={
-		birth=yes
-	}
-	2404.10.11={
-		death=yes
-	}
-}
-240030={
-	name=Isabel
-	female=yes
-	dynasty=150011
-	martial=3
-	diplomacy=5
-	stewardship=3
-	intrigue=6
-	learning=4
-	culture=huaso
-	religion=evangelical
-	trait=branch_pentecostal
-	trait=groomed
-	trait=patient
-	trait=slothful
-	trait=deceitful
-	trait=stubborn
-	trait=intricate_webweaver
-	2325.3.27={
-		birth=yes
-	}
-	2369.2.2={
-		death=yes
-	}
-}
-240031={
-	name=Fernando
-	dynasty=150011
-	mother=240030
-	martial=6
-	diplomacy=4
-	stewardship=4
-	intrigue=3
-	learning=4
-	culture=huaso
-	religion=evangelical
-	trait=shrewd
-	trait=kind
-	trait=brave
-	trait=stubborn
-	trait=honest
-	trait=branch_pentecostal
-	trait=legit_bastard
-	trait=skilled_tactician
-	2351.8.20={
-		birth=yes
-	}
-	2362.2.2={
-		effect={
-			set_character_flag=huacho_riquelme
+	2352.8.21 = {
+		add_trait="flamboyant_schemer"
+		add_trait="proud"
+		add_trait="envious"
+		add_trait="gregarious"
+		add_trait="arbitrary"
+		add_trait="groomed"
+		effect = {
+			add_friend=240120 # Juanín Juan Harry
+			add_friend=240121 # Juan Carlos Bodoque
 		}
 	}
-	2415.6.21={
-		death=yes
+}
+###############################
+### House Triviño Household ###
+###############################
+240120 = {
+	name="Juanín Juan" # Juanín Juan Harry.
+	dynasty=145037
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 10
+	intrigue = 2
+	learning = 6
+
+	culture=huaso
+	religion=catholic
+
+	2341.1.1 = {
+		birth="2341.1.1"
+	}
+	2357.1.1 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="kind"
+		add_trait="temperate"
+		add_trait="shy"
+		add_trait="trusting"
+		employer=240020 # Tulio Triviño
 	}
 }
-240032={
-	name=Emilio
+240121 = {
+	name="Juan Carlos" # Juan Carlos Bodoque.
+	dynasty=150029
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 1
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	2336.9.1 = {
+		birth="2336.9.1"
+	}
+	2352.9.1 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="lustful"
+		add_trait="greedy"
+		add_trait="envious"
+		add_trait="gregarious"
+		add_trait="seducer"
+		employer=240020 # Tulio Triviño
+		effect = {
+			add_friend=240120 # Juanín Juan Harry
+		}
+	}
+}
+#######################
+### House Contreras ###
+#######################
+240002 = {
+	name="Francisco" # Francisco Contreras the Huaso, Duke of O'Higgins.
+	dynasty=150002
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 3
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="strong"
+	
+	disallow_random_traits = yes
+
+	2310.1.8 = {
+		birth="2310.1.8"
+	}
+	2326.1.8 = {
+		add_trait="skilled_tactician"
+		add_trait="cavalry_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="charitable"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="duelist"
+	}
+	2332.5.5 = {
+		add_spouse=240050 # Luisa Llanos
+	}
+	2335.10.5 = {
+		add_trait="scarred_mid"
+		give_nickname=nick_the_huaso
+	}
+	2349.2.12 = {
+		death = {
+			death_reason=death_battle_duel
+			killer=230002 # Ricardo Santiago
+		}
+	}
+}
+240050 = {
+	name="Luisa" # Luisa Llanos, wife of Francisco Contreras.
+	dynasty=150034
+	female=yes
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 3
+
+	culture=huaso
+	religion=catholic
+
+	2310.2.7 = {
+		birth="2310.2.7"
+	}
+	2326.2.7 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2368.1.9 = {
+		death="2368.1.9"
+	}
+}
+### Issue of Francisco the Huaso ###
+230062 = {
+	name="Claudia" # Claudia Contreras, wife of Felipe Camiroaga.
+	dynasty=150002
+	female=yes
+
+	diplomacy = 2
+	martial = 1
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=huaso
+	religion=catholic
+
+	father=240002 # Francisco Contreras
+	mother=240050 # Luisa Llanos
+
+	2333.5.11 = {
+		birth="2333.5.11"
+	}
+	2349.5.11 = {
+		add_trait="thrifty_clerk"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+#######################
+### House Pincheira ###
+#######################
+240001 = {
+	name="Juan" # Juan Pincheira the Black Eagle, King of Extremadura.
+	dynasty=150001
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2298.9.20 = {
+		birth="2298.9.20"
+	}
+	2314.9.20 = {
+		add_trait="brilliant_strategist"
+		add_trait="cavalry_leader"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="strategist"
+		add_trait="scholar"
+	}
+	2317.9.25 = {
+		add_spouse=240040 # María Osorio
+	}
+	2329.5.4 = {
+		give_nickname=nick_the_black_eagle
+		create_bloodline = {
+			type = bloodline_black_eagle
+			has_dlc = "Holy Fury"
+		}
+	}
+	2349.2.26 = {
+		add_trait="ill"
+		death = {
+			death_reason=death_trait
+		}
+	}
+}
+240040 = {
+	name="María" # María Pareja, Queen of New Spain.
+	dynasty=150033
+	female=yes
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="fair"
+
+	2298.12.7 = {
+		birth="2298.12.7"
+	}
+	2314.12.7 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2349.2.26 = {
+		add_trait="ill"
+		death = {
+			death_reason=death_trait
+		}
+	}
+}
+### Issue of Juan the Black Eagle ###
+240041 = {
+	name="Juan" # Juan Pincheira, Duke of Biobío.
+	dynasty=150001
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=240001 # Juan Pincheira
+	mother=240040 # María Pareja
+
+	2318.10.4 = {
+		birth="2318.10.4"
+	}
+	2334.10.4 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="strategist"
+		add_trait="duelist"
+	}
+	2354.10.1 = {
+		add_trait="mangled"
+		add_trait="kinslayer"
+	}
+	2354.10.2 = {
+		death = {
+			death_reason=death_trait
+		}
+	}
+}
+240042 = {
+	name="Antonio" # Antonio Pincheira, Duke of Maule.
+	dynasty=150001
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="strong"
+	
+	father=240001 # Juan Pincheira
+	mother=240040 # María Osorio
+
+	2320.5.11 = {
+		birth="2320.5.11"
+	}
+	2354.10.1 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=240043 # José Pincheira
+		}
+	}
+}
+240043 = {
+	name="José" # José Pincheira the Heretic, Duke of Ñuble.
+	dynasty=150001
+	
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="strong"
+	
+	father=240001 # Juan Pincheira
+	mother=240040 # María Osorio
+
+	2322.9.20 = {
+		birth="2322.9.20"
+	}
+	2350.10.28 = {
+		add_trait="zealous"
+		add_trait="branch_pentecostal"
+		religion=evangelical
+		give_nickname=nick_the_heretic
+		effect = {
+			add_rival=240042 # Antonio Pincheira
+		}
+	}
+	2354.10.1 = {
+		add_trait="kinslayer"
+		death = {
+			death_reason=death_duel_battle
+			killer=240041 # Juan Pincheira
+		}
+	}
+}
+240044 = {
+	name="Pablo" # Pablo Pincheira, Duke of Araucanía.
+	dynasty=150001
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="strong"
+
+	father=240001 # Juan Pincheira
+	mother=240040 # María Osorio
+
+	2324.9.20 = {
+		birth="2324.9.20"
+	}
+	2351.1.15 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=480001 # Catriel Catrillanca
+		}
+	}
+}
+240045 = {
+	name="Rosa" # Rosa Pincheira, wife of Bartolo Lara.
+	dynasty=150001
+	female=yes
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	father=240001 # Juan Pincheira
+	mother=240040 # María Osorio
+
+	add_trait="fair"
+
+	2330.4.21 = {
+		birth="2330.4.21"
+	}
+	2346.4.21 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+240030 = {
+	name="Juana" # Juana Pincheira, wife of Manuel Prat.
+	dynasty=150001
+	female=yes
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	father=240001 # Juan Pincheira
+	mother=240040 # María Osorio
+
+	add_trait="fair"
+
+	2334.4.21 = {
+		birth="2334.4.21"
+	}
+	2350.4.21 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2350.10.28 = {
+		add_trait="zealous"
+		add_trait="branch_pentecostal"
+		religion=evangelical
+	}
+	2365.7.2 = {
+		death = {
+			death_reason=death_execution
+			killer=480001 # Catriel Catrillanca
+		}
+	}
+}
+### Issue of Juan ###
+### Issue of Antonio ###
+### Issue of José ###
+### Issue of Pablo ###
+230107 = {
+	name="Miguel" # Miguel Pincheira the Jinete.
+	dynasty=150001
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 3
+	intrigue = 7
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=240044 # Pablo Pincheira
+
+	2344.1.13 = {
+		birth="2344.1.13"
+	}
+	2360.1.13 = {
+		add_trait="skilled_tactician"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="humble"
+		add_trait="gregarious"
+		employer=230006 # Diego Bartales
+	}
+	2363.7.12 = {
+		add_trait="crusader"
+		give_nickname=nick_the_jinete
+	}
+}
+########################
+### House Valdivieso ###
+########################
+240010 = {
+	name="Nicolás" # Nicolás Valdivieso, Count of Curico.
+	dynasty=150014
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 3
+	intrigue = 4
+	learning = 5
+
+	culture=huaso
+	religion=catholic
+
+	trait=patient
+	trait=gregarious
+	trait=greedy
+	trait=thrifty_clerk
+
+	2339.12.15 = {
+		birth="2339.12.15"
+	}
+	2359.9.6 = {
+		add_spouse=240009 # Mercedes Valenzuela
+	}
+}
+240009 = {
+	name="Mercedes" # Mercedes Valenzuela, wife of Nicolás Valdivieso.
+	dynasty=150032
+	female=yes
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 6
+
+	culture=huaso
+	religion=catholic
+
+	trait=kind
+	trait=stubborn
+	trait=content
+	trait=underhanded_rogue
+
+	2339.3.9 = {
+		birth="2339.3.9"
+	}
+}
+### Issue of Nicolás ###
+
+
+##################
+### House Lara ###
+##################
+240012 = {
+	name="Bartolo" # Bartolo Lara the Roto, Duke of Maule.
+	dynasty=150010
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="quick"
+	
+	disallow_random_traits = yes
+
+	2330.5.12 = {
+		birth="2330.5.12"
+	}
+	2346.5.12 = {
+		add_trait="skilled_tactician"
+		add_trait="cavalry_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="honest"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_spouse=240045 # Rosa Pincheira
+	}
+	2355.6.16 = {
+		give_nickname=nick_the_roto
+	}
+}
+### Issue of Bartolo the Roto ###
+240014 = {
+	name="Manuel" # Manuel Lara.
+	dynasty=150010
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 2
+	intrigue = 1
+	learning = 1
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="quick"
+
+	disallow_random_traits = yes
+
+	father=240012 # Bartolo Lara
+	mother=240045 # Rosa Pincheira
+
+	2348.2.25 = {
+		birth="2348.2.25"
+	}
+	2364.2.25 = {
+		add_trait="skilled_tactician"
+		add_trait="cavalry_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+240055 = {
+	name="Javiera" # Javiera Lara.
+	dynasty=150010
+	female=yes
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 2
+	intrigue = 1
+	learning = 1
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="quick"
+
+	disallow_random_traits = yes
+
+	father=240012 # Bartolo Lara
+	mother=240045 # Rosa Pincheira
+
+	2350.3.1 = {
+		birth="2350.3.1"
+	}
+	2366.3.1 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+#######################
+### House Urdemales ###
+#######################
+240015 = {
+	name="Pedro" # Pedro Urdemales, Count of Cauquenes.
+	dynasty=145025
+
+	diplomacy = 4
+	martial=4
+	
+	stewardship=6
+	intrigue=4
+	learning=3
+
+	culture=huaso
+	religion=catholic
+
+	trait=sturdy
+	trait=lustful
+	trait=patient
+	trait=scarred
+	trait=trusting
+	trait=temperate
+	trait=fortune_builder
+
+	2334.3.29 = {
+		birth=yes
+	}
+}
+##################
+### House Prat ###
+##################
+240011 = {
+	name="Manuel" # Manuel Prat, Duke of Ñuble.
+	dynasty=150011
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 3
+	intrigue = 4
+	learning = 5
+
+	culture=huaso
+	religion=evangelical
+
+	disallow_random_traits = yes
+
+	2334.8.20 = {
+		birth="2334.8.20"
+	}
+	2350.8.20 = {
+		add_trait="skilled_tactician"
+		add_trait="cavalry_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="branch_pentecostal"
+		add_spouse=240030 # Juana Pincheira
+	}
+	2365.7.2 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=480001 # Catriel Catrillanca
+		}
+	}
+}
+### Issue of Manuel ###
+240031 = {
+	name="Felipe" # Felipe Prat the Liberator, Duke of Ñuble.
+	dynasty=150011
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+
+	culture=huaso
+	religion=evangelical
+
+	disallow_random_traits = yes
+
+	father=240011 # Manuel Prat
+	mother=240030 # Isabel Pincheira
+
+	2351.4.30 = {
+		birth="2351.4.30"
+	}
+	2365.7.2 = {
+		employer=480001 # Catriel Catrillanca
+		guardian=480001 # Catriel Catrillanca
+	}
+	2367.4.30 = {
+		add_trait="brilliant_strategist"
+		add_trait="cavalry_leader"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="strategist"
+		add_trait="branch_pentecostal"
+	}
+	2368.12.25 = {
+		give_nickname=nick_the_liberator
+		create_bloodline = {
+			type=felipe_liberator
+			has_dlc="Holy Fury"
+		}
+		effect = {
+			add_lover=480011 # Millaray Catrillanca
+		}
+	}
+}
+###################
+### House Parra ###
+###################
+240032 = {
+	name="Emilio" # Count of Punilla
 	dynasty=150020
+
 	martial=4
 	diplomacy=5
 	stewardship=4
 	intrigue=4
 	learning=3
+
 	culture=huaso
 	religion=evangelical
+
 	trait=poet
 	trait=charitable
 	trait=erudite
 	trait=just
 	trait=quick
 	trait=scholarly_theologian
+
 	2343.12.18={
 		birth=yes
 	}
@@ -1419,115 +4109,506 @@
 		death=yes
 	}
 }
-240033={
-	name=Eulogio
-	dynasty=150022
-	martial=3
-	diplomacy=4
-	stewardship=5
-	intrigue=2
-	learning=5
-	culture=huaso
-	religion=catholic
-	trait=physician
-	trait=erudite
-	trait=cynical
-	trait=diligent
-	trait=lustful
-	trait=quick
-	trait=crusader
-	trait=fortune_builder
-	2332.11.4={
-		birth=yes
+########################################################
+### Zona Sur - Southern Biobío to Northern Los Lagos ###
+########################################################
+####################
+### House Keller ###
+####################
+250009 = {
+	name="Armando" # Armando Keller the Dragon, Duke of Los Riós.
+	dynasty=155006
+	dna="beide0dafe0"
+	properties="0r0a0k"
+
+	diplomacy = 8
+	martial = 9
+	stewardship = 6
+	intrigue = 2
+	learning = 6
+
+	culture=sureno
+	religion=archipelagic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2334.1.3 = {
+		birth="2334.1.3"
 	}
-	2401.6.9={
-		death=yes
+	2350.1.3 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="gregarious"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="strategist"
+		add_trait="duelist"
+	}
+	2352.2.2 = {
+		add_spouse=250010 # Valentina Kühn
+		effect = {
+			add_lover=250010 # Valentina Kühn
+		}
+	}
+	2354.1.3 = {
+		effect = {
+			add_friend=250013 # Enrique Zauberer
+		}
+	}
+	2369.1.1 = {
+		give_nickname=nick_the_dragon
 	}
 }
-240035={
-	name=Sandalio
-	dynasty=150025
-	martial=4
-	diplomacy=3
-	stewardship=6
-	intrigue=2
-	learning=5
-	culture=huaso
-	religion=catholic
-	trait=honest
-	trait=trusting
-	trait=humble
-	trait=robust
-	trait=patient
-	trait=one_handed
-	trait=thrifty_clerk
-	2325.3.12={
-		birth=yes
+250010 = {
+	name="Valentina" # Valentina Kühn the Pincoya, wife of Armando Keller.
+	dynasty=155035
+	female=yes
+	dna="ahhhe0caff0"
+	properties="0t0a0k"
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 2
+	learning = 6
+
+	culture=sureno
+	religion=archipelagic
+
+	add_trait="fair"
+
+	2334.10.19 = {
+		birth="2334.10.19"
 	}
-	2392.5.21={
-		death=yes
+	2350.10.19 = {
+		add_trait="grey_eminence"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="kind"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="groomed"
+		add_trait="mystic"
+		add_trait="poet"
+	}
+	2366.12.1 = {
+		give_nickname=nick_the_pincoya
 	}
 }
-250001={
-	name=Federico
-	dynasty=155001 #von pilsener
+### Issue of Armando the Dragon ###
+250022 = {
+	name="Benjamín" # Benjamín Keller.
+	dynasty=155006
+	dna="bfidf0dafe0"
+	properties="0t0a0k"
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 2
+	learning = 6
+
+	culture=sureno
+	religion=archipelagic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=250009 # Armando Keller
+	mother=250010 # Valentina Kühn
+
+	2353.4.18 = {
+		birth="2353.4.18"
+	}
+	2369.4.18 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="duelist"
+		add_spouse=250019 # Sofía Zauberer
+		effect = {
+			add_friend=250018 # Conrado Zauberer
+			add_lover=250019 # Sofía Zauberer
+		}
+	}
+}
+##############################
+### House Keller Household ###
+##############################
+250001 = {
+	name="Federico" # Federico Von Pilsener.
+	dynasty=155001
 	dna="b0cia0iah00"
-	properties="am0gig00000000000000000000000000000"
-	martial=4
-	diplomacy=5
-	stewardship=4
-	intrigue=3
-	learning=4
+	properties="am0gig"
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+
 	culture=sureno
 	religion=archipelagic
-	trait=honest
-	trait=just
-	trait=humble
-	trait=shrewd
-	trait=erudite
-	trait=gluttonous
-	trait=scholarly_theologian
-	2306.6.24={
-		birth=yes
+
+	2330.6.24 = {
+		birth="2330.6.24"
 	}
-	2369.1.1={effect={add_friend=250012}}
-	2370.9.1={
-		death=yes
+	2346.6.24 = {
+		add_trait="underhanded_rogue"
+		add_trait="humble"
+		add_trait="gluttonous"
+		add_trait="just"
+		add_trait="honest"
+		add_trait="erudite"
+	}
+	2366.12.1 = {
+		employer=250009 # Armando Keller
+		effect = {
+			add_friend=250012
+		}
 	}
 }
-250004={
-	name=Francisco
+250012 = {
+	name="Dudelsackpfeifergeselle" # Dudelsackpfeifergeselle, Federico Von Pilsener's dog.
+	dynasty=0
+
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+
+	religion=catholic
+	culture=dog_culture
+
+	add_trait="dog"
+	add_trait="quick"
+
+	2353.1.1 = {
+		birth="2353.1.1"
+	}
+	2366.12.1 = {
+		employer=250009 # Armando Keller
+	}
+	2369.1.1 = {
+		add_trait="naive_appeaser"
+		add_trait="craven"
+		add_trait="kind"
+		add_trait="gluttonous"
+		add_trait="trusting"
+		add_trait="erudite"
+	}
+}
+250023 = {
+	name="Carlos" # Carlos Kuntzmann the Bull.
+	dynasty=155033
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 5
+	learning = 3
+
+	culture=sureno
+	religion=archipelagic
+
+	add_trait="strong"
+
+	2334.4.8 = {
+		birth="2343.4.8"
+	}
+	2350.4.8 = {
+		add_trait="fortune_builder"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="gregarious"
+		add_trait="administrator"
+	}
+	2366.12.1 = {
+		employer=250009 # Armando Keller
+		give_nickname=nick_the_bull
+	}
+}
+####################
+### House Zapata ###
+####################
+250004 = {
+	name="Jorge" # Jorge Zapata the Warlock, Duke of Los Lagos.
 	dynasty=155002
-	martial=3
-	diplomacy=5
-	stewardship=3
-	intrigue=5
-	learning=3
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 5
+	learning = 5
+
 	culture=sureno
 	religion=archipelagic
-	trait=homosexual
-	trait=gluttonous
-	trait=kind
-	trait=gregarious
-	trait=trusting
-	trait=charismatic_negotiator
-	2337.11.25={
-		birth=yes
+
+	add_trait="fair"
+	add_trait="quick"
+
+	2322.10.31 = {
+		birth="2322.10.31"
 	}
-	2414.6.16={
-		death=yes
+	2338.10.31 = {
+		add_trait="elusive_shadow"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="arbitrary"
+		add_trait="deceitful"
+		add_trait="gregarious"
+		add_trait="cruel"
+		add_trait="ambitious"
+		add_trait="impaler"
+		add_trait="mystic"
+	}
+	2352.10.31 = {
+		give_nickname=nick_the_warlock
+	}
+	2362.2.12 = {
+		death = {
+			death_reason=death_execution
+			killer=250013 # Enrique Zauberer
+		}
 	}
 }
-250006={
-	name=Rogelio
+### Issue of Jorge the Warlock ###
+250015 = {
+	name="Juan" # Juan Zapata.
+	dynasty=155002
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 5
+	learning = 5
+
+	culture=sureno
+	religion=archipelagic
+
+	father=250004 # Jorge Zapata
+
+	2342.6.21 = {
+		birth="2345.6.21"
+	}
+}
+250016 = {
+	name="Catalina" # Catalina Zapata, wife of Conrado Zauberer.
+	dynasty=155002
+	female=yes
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 5
+	learning = 5
+
+	culture=sureno
+	religion=archipelagic
+
+	add_trait="quick"
+
+	father=250004 # Jorge Zapata
+
+	2345.10.16 = {
+		birth="2345.10.16"
+	}
+}
+######################
+### House Zauberer ###
+######################
+250013 = {
+	name="Enrique" # Enrique the Zauberer, Duke of Los Lagos.
+	dynasty=155034
+	dna="bff0f0daeg0"
+	properties="0p0a0k"
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 5
+	learning = 5
+
+	culture=sureno
+	religion=archipelagic
+
+	add_trait="quick"
+
+	2327.11.12 = {
+		birth="2327.11.12"
+	}
+	2343.11.12 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="mystic"
+	}
+	2344.2.23 = {
+		add_spouse=250017 # Johanna Faust
+		effect = {
+			add_lover=250017 # Johanna Faust
+		}
+	}
+	2362.2.12 = {
+		give_nickname=nick_the_zauberer
+	}
+}
+250017 = {
+	name="Johanna" # Johanna Faust, wife of Enrique Zauberer.
+	dynasty=155036
+	female=yes
+	dna="achda0fagg0"
+	properties="0o0a0k"
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 5
+	learning = 5
+
+	culture=sureno
+	religion=archipelagic
+
+	add_trait="fair"
+
+	2327.12.29 = {
+		birth="2327.12.29"
+	}
+	2343.12.29 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="mystic"
+	}
+}
+### Issue of Enrique the Zauberer ###
+250018 = {
+	name="Conrado" # Conrado Zauberer.
+	dynasty=155034
+	dna="bdf0b0eaeg0"
+	properties="0b0a0k"
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 2
+	learning = 6
+
+	culture=sureno
+	religion=archipelagic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=250013 # Enrique Zauberer
+	mother=250017 # Johanna Faust
+
+	2345.4.20 = {
+		birth="2345.4.20"
+	}
+	2361.4.20 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="strategist"
+	}
+	2362.2.12 = {
+		add_spouse=250016 # Catalina Zapata
+	}
+}
+250019 = {
+	name="Sofía" # Sofía Zauberer.
+	dynasty=155034
+	female=yes
+	dna="achda0cagg0"
+	properties="0d000k"
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 2
+	learning = 6
+
+	culture=sureno
+	religion=archipelagic
+
+	add_trait="fair"
+	add_trait="quick"
+
+	disallow_random_traits = yes
+
+	father=250013 # Enrique Zauberer
+	mother=250017 # Johanna Faust
+
+	2347.8.9 = {
+		birth="2347.8.9"
+	}
+	2361.8.9 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="mystic"
+	}
+}
+#####################
+### House Schurch ###
+#####################
+250006 = {
+	name="Rogelio" # Count of Palena
 	dynasty=155003
+
 	martial=4
 	diplomacy=3
 	stewardship=5
 	intrigue=3
 	learning=4
+
 	culture=sureno
 	religion=archipelagic
+
 	trait=wroth
 	trait=diligent
 	trait=erudite
@@ -1535,6 +4616,7 @@
 	trait=groomed
 	trait=stressed
 	trait=thrifty_clerk
+
 	2339.3.12={
 		birth=yes
 	}
@@ -1542,127 +4624,66 @@
 		death=yes
 	}
 }
-250007={
-	name=Eugenio
+###################
+### House Hafen ###
+###################
+250007 = {
+	name="Manuel" # Manuel Hafen, Count of Puerto Montt and Puerto Varas.
 	dynasty=155004
-	martial=7
-	diplomacy=2
-	stewardship=4
-	intrigue=4
-	learning=1
+
+	diplomacy = 2
+	martial = 7
+	stewardship = 4
+	intrigue = 4
+	learning = 1
+
 	culture=sureno
 	religion=archipelagic
-	trait=harelip
+
 	trait=strong
 	trait=patient
 	trait=gamer
 	trait=envious
 	trait=stubborn
 	trait=intricate_webweaver
-	2346.6.15={
+
+	2346.6.15 = {
 		birth=yes
 	}
-	2420.8.13={
-		death=yes
-	}
 }
-250009={
-	name=Josefina
-	female=yes
-	dynasty=155006
-	martial=3
-	diplomacy=4
-	stewardship=5
-	intrigue=2
-	learning=3
-	culture=sureno
-	religion=archipelagic
-	trait=paranoid
-	trait=shrewd
-	trait=humble
-	trait=mystic
-	trait=brave
-	trait=stubborn
-	trait=tough_soldier
-	2344.5.25={
-		birth=yes
-	}
-	2411.4.5={
-		death=yes
-	}
-}
-250011={
-	name=Pedro
+######################
+### House Ñancúpel ###
+######################
+250011 = {
+	name="Pedro" # Pedro Ñancúpel the Pirate, Duke of Aysen.
 	dynasty=155029
-	martial=3
-	diplomacy=2
-	stewardship=3
-	intrigue=4
-	learning=4
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 4
+
 	culture=australino
 	religion=brethren
-	trait=scarred
-	trait=hunter
-	trait=quick
-	trait=kind
-	trait=greedy
-	trait=wroth
-	trait=lustful
-	trait=cruel
-	trait=intricate_webweaver
-	2337.7.12={
-		birth=yes
+
+	add_trait="quick"
+
+	2337.7.12 = {
+		birth="2337.7.12"
 	}
-	2398.2.15={
-		death=yes
+	2353.7.12 = {
+		add_trait="intricate_webweaver"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="lustful"
+		add_trait="greedy"
+		add_trait="cruel"
+		add_trait="ambitious"
+		add_trait="hunter"
+		add_trait="scarred"
 	}
-}
-250012={ #the dog belonging to Federico von Pilsener
-	name="Dudelsackpfeifergeselle"
-	religion=catholic
-	culture=dog_culture
-	dynasty=0
-	diplomacy=1
-	martial=5
-	stewardship=1
-	intrigue=1
-	learning=5 
-	trait=underhanded_rogue
-	trait=dog
-	trait=quick
-	trait=erudite
-	trait=craven
-	trait=trusting
-	trait=kind
-	trait=gluttonous
-	2353.1.1={birth=yes employer=250001}
-	2400.1.1={death=yes}
-}
-250013={	
-	name=Alonso
-	dynasty=155034
-	martial=2
-	diplomacy=3
-	stewardship=5
-	intrigue=3
-	learning=6
-	culture=centrino
-	religion=catholic
-	trait=calm
-	trait=shrewd
-	trait=erudite
-	trait=slothful
-	trait=groomed
-	trait=mastermind_theologian
-	2349.3.9={
-		birth=yes
+	2366.11.12 = {
+		give_nickname=nick_the_pirate
 	}
-	2359.3.9={
-	employer=230006
-	}
-	2369.1.1={effect={add_friend=230006}}
-	2401.9.29={
-		death=yes
-	}
-	
 }
