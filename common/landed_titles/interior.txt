@@ -636,17 +636,17 @@ e_interior = {
 		}
 	}
 	k_norte_viejo = {
-		color={ 67 100 106 }
+		color={ 157 36 63 }
 		color2={ 255 255 255 }
 		
-		capital = 733 # c_catamarca
-		culture = cuyano
+		capital = 736 # c_salta
+		culture = norteno
 		
 		d_tucuman = {
 			color={ 47 120 96 }
 			color2={ 255 255 255 }
 			
-			capital = 733 # c_catamarca
+			capital = 734 # c_tucuman
 			
 			c_catamarca = { # 733
 				color={ 37 130 91 }

@@ -31,7 +31,7 @@ e_chile = {
 	culture = centrino
 	
 	k_chile = {
-		color={ 249 155 57 }
+		color = { 213 43 30 }
 		color2={ 255 255 255 }
 		
 		capital = 297 # c_santiago
@@ -58,12 +58,12 @@ e_chile = {
 
 				
 				b_santiago = {}
-				b_maipu = {}
-				b_la_florida = {}
+				b_providencia_2 = {}
 				b_las_condes = {}
 				b_penalolen = {}
-				b_nunoa = {}
-				b_pudahuel = {}
+				b_huechuraba = {}
+				b_maipu = {}
+				b_quinta_normal = {}
 			}
 			c_chacabuco = { # 298
 				color={ 210 110 40 }
@@ -82,11 +82,11 @@ e_chile = {
 				color2={ 255 255 255 }
 				
 				b_puente_alto = {}
+				b_la_florida = {}
 				b_san_bernardo = {}
 				b_buin = {}
 				b_paine = {}
 				b_pirque = {}
-				b_maipo = {}
 				b_las_vizcachas = {}
 			}
 			c_melipilla = { # 299
@@ -96,7 +96,7 @@ e_chile = {
 				b_penaflor = {}
 				b_melipilla = {}
 				b_talagante = {}
-				b_peucodane = {}
+				b_padre_hurtado = {}
 				b_isla_de_maipo = {}
 				b_curacavi = {}
 				b_lonquen = {}
