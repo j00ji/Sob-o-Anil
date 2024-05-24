@@ -1,0 +1,19 @@
+# e_chile
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
+}
+800.1.1 = {
+	liege=k_chile
+}
+2335.10.5 = {
+	holder=240002 # Francisco Contreras
+	liege=0
+}
+2349.2.12 = {
+	holder=230059 # Javier Camiroaga
+	liege=k_chile
+}
+2368.4.5 = {
+	holder=230013 # Felipe Camiroaga
+}

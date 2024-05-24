@@ -1,0 +1,18 @@
+# e_chile
+500.1.1 = {
+	law = cognatic_succession
+}
+800.1.1 = {
+	liege=k_chile
+}
+2342.4.9 = {
+	holder=230026 # Raúl Edwards
+	liege=0
+}
+2348.9.18 = {
+	holder=230084 # Tomás Salas
+	liege=k_chile
+}
+2368.5.2 = {
+	holder=230086 # Marcelo Salas
+}
