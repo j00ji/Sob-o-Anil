@@ -1,0 +1,15 @@
+# e_chile
+500.1.1 = {
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1 = {
+	liege=k_atacama
+}
+2338.7.26 = {
+	holder=220021 # Manuel Tirana
+}
+2364.1.19 = {
+	holder=220019 # Arturo Tirana
+	liege=d_tarapaca
+}

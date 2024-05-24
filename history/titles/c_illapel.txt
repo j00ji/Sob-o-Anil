@@ -1,0 +1,18 @@
+# e_chile
+500.1.1 = {
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1 = {
+	liege=k_atacama
+}
+2341.2.12 = {
+	holder=230100 # Carlos Larraín
+}
+2345.4.13 = {
+	holder=220041 # Gabriel Elqui
+}
+2368.8.22 = {
+	holder=240035 # Matilde Salamanca
+	liege=d_choapa
+}

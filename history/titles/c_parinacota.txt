@@ -1,0 +1,14 @@
+# e_chile
+500.1.1 = {
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1 = {
+	liege=k_atacama
+}
+2338.8.20 = {
+	holder=220016 # Miguel Baquedano
+}
+2364.10.20 = {
+	holder=220018 # Marcos Baquedano
+}
