@@ -1,0 +1,9 @@
+# e_la_plata
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
+}
+2364.11.30 = {
+	holder=410007 # Juan Lacalle
+	liege=d_litoral
+}

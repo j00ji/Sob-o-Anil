@@ -1,0 +1,19 @@
+# e_chile
+500.1.1 = {
+	la=cognatic_succession
+	law=succ_gavelkind
+}
+800.1.1 = {
+	liege=k_chile
+}
+2338.11.7 = {
+	holder=230101 # Miguel Neira
+	liege=0
+}
+2347.10.9 = {
+	holder=230002 # Benjamín I
+	liege=d_santiago
+}
+2368.9.18 = {
+	holder=230006 # Diego I
+}
