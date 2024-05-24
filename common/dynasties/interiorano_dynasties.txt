@@ -503,17 +503,19 @@
 	}
 }
 
-285055={
+285055 = {
 	name="Rossi"
 	culture=norteno
 	religion=catholic
+	can_appear = no
 	used_for_random = no
 }
 
-285056={
-	name="Cuba"
-	culture=quechua
+285056 = {
+	name="Güemes"
+	culture=norteno
 	religion=catholic
+	can_appear = no
 	used_for_random = no
 }
 

@@ -1,9 +1,9 @@
 ###ÄNSI
 
 140001 = {
-	name = "Cerezas"
+	name="Elqui"
 	culture = atacameno
-	religion = camino_estelar
+	religion = catholic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -18,28 +18,27 @@
 		}
 	}
 }
-
 140002 = {
-	name = "Guerrero"
-	culture = atacameno
-	religion = camino_estelar
-}
-
-140003 = {
-	name = "Contreras"
-	culture = atacameno
-	religion = camino_estelar
-}
-
-140004 = {
 	name = "Godoy"
-	culture = atacameno
-	religion = camino_estelar
+	culture=atacameno
+	religion=camino_estelar
+}
+140003 = {
+	name = "Salinas"
+	culture=atacameno
+	religion=camino_estelar
+}
+140004 = {
+	name = "Rojas"
+	culture=atacameno
+	religion=catholic
+	can_appear = no
+	used_for_random = no
 }
 140005 = {
 	name = "Alcayaga"
 	culture = atacameno
-	religion = camino_estelar
+	religion = catholic
 }
 
 140006 = {
@@ -48,19 +47,25 @@
 	religion = camino_estelar
 }
 140007 = {
-	name = "Salinas"
+	name="Espinoza"
 	culture = atacameno
-	religion = camino_estelar
+	religion=catholic
+	can_appear = no
+	used_for_random = no
 }
 140008 = {
-	name = "Palma"
+	name = "Diáz"
 	culture = atacameno
 	religion = camino_estelar
+	can_appear = no
+	used_for_random = no
 }
 140009 = {
-	name = "Riveros"
+	name = "Rosas"
 	culture = atacameno
-	religion = camino_estelar
+	religion = catholic
+	can_appear = no
+	used_for_random = no
 }
 140010 = {
 	name = "Cifuentes"
@@ -162,9 +167,9 @@
 }
 
 140023 = {
-	name = "Martínez"
+	name = "Cortés"
 	culture = atacameno
-	religion = camino_estelar
+	religion = catholic
 }
 
 140024 = {
@@ -195,7 +200,7 @@
 
 
 140026 = {
-	name = "Sanhueza"
+	name = "Torres"
 	culture = atacameno
 	religion = camino_estelar
 }
@@ -213,7 +218,7 @@
 }
 
 140029 = {
-	name = "Huerta"
+	name="Flores"
 	culture = atacameno
 	religion = camino_estelar
 	can_appear = no
@@ -239,7 +244,7 @@
 }
 
 140033 = {
-	name = "Luksic"
+	name="Luksic"
 	culture = atacameno
 	religion = camino_estelar
 	can_appear = no
@@ -256,20 +261,17 @@
 		}
 	}
 }
-
-
 140034 = {
-	name = "Leocadia"
+	name="Salfate"
 	culture = atacameno
 	religion = camino_estelar
 	can_appear = no
 	used_for_random = no
 }
-
 140035 = {
-	name = "Vega"
+	name="Baquedano"
 	culture = atacameno
-	religion = camino_estelar
+	religion = catholic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -284,14 +286,11 @@
 		}
 	}
 }
-
-
 140036 = {
 	name = "Urzúa"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140037 = {
 	name = "Vega"
 	culture = atacameno
@@ -304,30 +303,24 @@
 	can_appear = no
 	used_for_random = no
 }
-
 140039 = {
-	name = "Mamani"
+	name="Tirana"
 	culture = atacameno
-	religion = camino_estelar
+	religion = catholic
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
-
-
-140040 = {
-	name = "Gallardo"
-	culture = atacameno
-	religion = camino_estelar
-	can_appear = no
-	used_for_random = no
-}
-
-140041 = {
-	name = "Gallardo"
-	culture = atacameno
-	religion = camino_estelar
-}
-
 
 145001 = {
 	name = "Muñoz"
@@ -355,7 +348,7 @@
 	religion = catholic
 }
 145006 = {
-	name = "Contreras"
+	name = "Mena"
 	culture = centrino
 	religion = catholic
 }
@@ -363,9 +356,11 @@
 	name = "López"
 	culture = centrino
 	religion = catholic
+	can_appear = no
+	used_for_random = no
 }
 145008 = {
-	name = "Figueroa"
+	name = "Matte"
 	culture = centrino
 	religion = catholic
 }
@@ -375,16 +370,18 @@
 	religion = catholic
 }
 145010 = {
-	name = "Errázuriz"
+	name="Suárez"
 	culture = centrino
 	religion = catholic
+	can_appear=no
+	used_for_random=no
 }
 145011 = {
-	name = "Valdivieso"
-	culture = centrino
-	religion = catholic
-	can_appear = no
-	used_for_random = no
+	name="Bartales"
+	culture=centrino
+	religion=catholic
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -398,22 +395,11 @@
 	}
 }
 145012 = {
-	name = "Guerra"
+	name = "Hurtado"
 	culture = centrino
 	religion = catholic
 	can_appear = no
 	used_for_random = no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 11
-			texture_internal = 15
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
 }
 145013 = {
 	name = "Leiva"
@@ -434,9 +420,11 @@
 	name = "Bulnes"
 	culture = centrino
 	religion = catholic
+	can_appear = no
+	used_for_random = no
 }
 145017 = {
-	name = "Alessandri"
+	name = "Larraín"
 	culture = centrino
 	religion = catholic
 	can_appear = no
@@ -445,7 +433,7 @@
 		template = 0
 		layer = {
 			texture = 11
-			texture_internal = 5
+			texture_internal = 15
 			emblem = 0
 			color = 0
 			color = 0
@@ -454,9 +442,9 @@
 	}
 }
 145018 = {
-	name = "Allende"
-	culture = centrino
-	religion = catholic
+	name="Allende"
+	culture=centrino
+	religion=catholic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -472,14 +460,16 @@
 	}
 }
 145019 = {
-	name = "Molina"
+	name = "Errázuriz"
 	culture = centrino
 	religion = catholic
+	can_appear = no
+	used_for_random = no
 }
 145020 = {
-	name = "Camiroaga"
-	culture = centrino
-	religion = catholic
+	name="Camiroaga"
+	culture=centrino
+	religion=catholic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -515,8 +505,8 @@
 	religion = catholic
 }
 145025 = {
-	name = "Jadue"
-	culture = centrino
+	name = "Urdemales"
+	culture = huaso
 	religion = catholic
 	can_appear = no
 	used_for_random = no
@@ -525,22 +515,9 @@
 	name = "Figueroa"
 	culture = centrino
 	religion = catholic
-	can_appear = no
-	used_for_random = no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 11
-			texture_internal = 6
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
 }
 145027 = {
-	name = "Basoalto"
+	name = "Orrego"
 	culture = centrino
 	religion = catholic
 	can_appear = no
@@ -559,12 +536,6 @@
 	religion = catholic
 
 }
-145029 = {
-	name = "Zaldívar"
-	culture = centrino
-	religion = catholic
-
-}
 145030 = {
 	name = "Ampuero"
 	culture = centrino
@@ -572,13 +543,13 @@
 
 }
 145031 = {
-	name = "Larraín"
+	name = "Lagos"
 	culture = centrino
 	religion = catholic
 
 }
 145032 = {
-	name = "Irrázabal"
+	name = "Irrárazabal"
 	culture = centrino
 	religion = catholic
 
@@ -613,27 +584,118 @@
 		}
 	}
 }
-150001 = {
-	name = "Soto"
+145036 = {
+	name="Salas"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+145037 = {
+	name="Harry"
 	culture = huaso
 	religion = catholic
 	can_appear = no
 	used_for_random = no
 }
+145038 = {
+	name="Silva"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145039 = {
+	name="Castro"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145040 = {
+	name="Rodríguez"
+	culture = centrino
+	religion = catholic
+}
+145042 = {
+	name="Neira"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145043 = {
+	name="Bonvallet"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+145180 = {
+	name="Solnuevo"
+	culture = centrino
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+150001 = {
+	name = "Pincheira"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 150002 = {
-	name = "Tufilo"
+	name = "Morales"
 	culture = huaso
 	religion = catholic
 }
 150002 = {
-	name = "Mena"
+	name = "Contreras"
 	culture = huaso
 	religion = catholic
+	can_appear = no
+	used_for_random = no
 }
 150003 = {
 	name = "Araya"
 	culture = huaso
 	religion = catholic
+	can_appear = no
+	used_for_random = no
 }
 150004 = {
 	name = "Fuentes"
@@ -651,9 +713,11 @@
 	religion = catholic
 }
 150007 = {
-	name = "Miranda"
+	name = "Romero"
 	culture = huaso
 	religion = catholic
+	can_appear = no
+	used_for_random = no
 }
 150008 = {
 	name = "Soto"
@@ -676,7 +740,7 @@
 	religion = catholic
 }
 150010 = {
-	name = "Naranjo"
+	name = "Lara"
 	culture = huaso
 	religion = catholic
 	can_appear = no
@@ -694,7 +758,7 @@
 	}
 }
 150011 = {
-	name = "Riquelme"
+	name = "Prat"
 	culture = huaso
 	religion = catholic
 	can_appear = no
@@ -722,7 +786,7 @@
 	religion = catholic
 }
 150014 = {
-	name = "Rosales"
+	name = "Valdivieso"
 	culture = huaso
 	religion = catholic
 	can_appear = no
@@ -743,8 +807,6 @@
 	name = "Ortega"
 	culture = huaso
 	religion = catholic
-	can_appear = no
-	used_for_random = no
 }
 150016 = {
 	name = "Triviño"
@@ -766,7 +828,7 @@
 	religion = catholic
 }
 150019 = {
-	name = "Tufilo"
+	name = "Tufillo"
 	culture = huaso
 	religion = catholic
 	can_appear = no
@@ -785,8 +847,8 @@
 	religion = catholic
 }
 150022 = {
-	name = "Altamirano"
-	culture = huaso
+	name = "Bosco"
+	culture = centrino
 	religion = catholic
 	can_appear = no
 	used_for_random = no
@@ -804,9 +866,22 @@
 	religion = catholic
 }
 150025 = {
-	name = "González"
+	name="Lisperguer"
 	culture = huaso
 	religion = catholic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 150026 = {
 	name = "Elizalde"
@@ -823,10 +898,48 @@
 	culture = huaso
 	religion = catholic
 }
+150029 = {
+	name = "Bodoque"
+	culture = huaso
+	religion = catholic
+}
+150030 = {
+	name="Fernández"
+	culture = huaso
+	religion = catholic
+}
+150031 = {
+	name="Ríos"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150032 = {
+	name="Valenzuela"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150033 = {
+	name="Osorio"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150034 = {
+	name="Llanos"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
 155001 = {
-	name = "Von Pilsener"
-	culture = sureno
-	religion = nguillatun
+	name="Von Pilsener"
+	culture=sureno
+	religion=nguillatun
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -842,9 +955,9 @@
 	}
 }
 155002 = {
-	name = "Saavedra"
-	culture = sureno
-	religion = catholic
+	name="Zapata"
+	culture=sureno
+	religion=catholic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -860,7 +973,7 @@
 	}
 }
 155003 = {
-	name = "Schurch"
+	name="Schurch"
 	culture = sureno
 	religion = catholic
 	can_appear = no
@@ -878,14 +991,14 @@
 	}
 }
 155004 = {
-	name = "Montt"
+	name = "Hafen"
 	culture = sureno
 	religion = catholic
 	can_appear = no
 	used_for_random = no
 }
 155006 = {
-	name = "Norambuena"
+	name="Keller"
 	culture = sureno
 	religion = catholic
 	can_appear = no
@@ -1038,10 +1151,37 @@
 	name = "Kuntzmann"
 	culture = sureno
 	religion = catholic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 155034 = {
-	name = "Poncho"
-	culture = centrino
+	name = "Zauberer"
+	culture = sureno
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+155035 = {
+	name = "Kühn"
+	culture = sureno
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+155036 = {
+	name = "Faust"
+	culture = sureno
 	religion = catholic
 	can_appear = no
 	used_for_random = no

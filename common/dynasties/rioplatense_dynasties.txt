@@ -1858,7 +1858,7 @@
 	religion = platinean
 }
 355070 = {
-	name = "Gelly"
+	name = "Yegros"
 	culture = pampeano
 	religion = catholic
 	used_for_random = no
@@ -1920,48 +1920,5 @@
 	name = "Cosido"
 	culture = litoraleno
 	religion = platinean
-	used_for_random = no
-}
-
-
-360001 = {
-	name = "La Maga"
-	culture = urbuguayo
-	religion = bandean
-	used_for_random = no
-}
-
-360002 = {
-	name = "Viana"
-	culture = urbuguayo
-	religion = bandean
-	used_for_random = no
-}
-
-360003 = {
-	name = "de Genoa"
-	culture = urbuguayo
-	religion = piriamano
-	used_for_random = no
-}
-
-360004 = {
-	name = "Maggi"
-	culture = urbuguayo
-	religion = artiguista
-	used_for_random = no
-}
-
-360005 = {
-	name = "Blanco"
-	culture = urbuguayo
-	religion = bandean
-	used_for_random = no
-}
-
-360006 = {
-	name = "Bandeira"
-	culture = urbuguayo
-	religion = bandean
 	used_for_random = no
 }

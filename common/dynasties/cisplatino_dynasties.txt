@@ -1078,11 +1078,7 @@
 	name="Pires"
 	culture= gaucho
 }
-95016=
-{
-	name="de Mattos"
-	culture= gaucho
-}
+
 95017=
 {
 	name="da Fontoura"
@@ -1456,24 +1452,7 @@
 	can_appear = no
 	used_for_random = no
 }
-95076=
-{
-	name="Salamanca"
-	culture=gaucho
-	can_appear = no
-	used_for_random = no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 7
-			texture_internal = 9
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
+
 95077=
 {
 	name="Peruzzo"
@@ -2169,24 +2148,7 @@
 	}
 }
 
-110002 = {
-	name="Golovchenko"
-	culture= rutenio
-	religion = orthodoxist
-	can_appear = no
-	used_for_random = no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 7
-			texture_internal = 1
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
+
 110003={
 	name="Pasternak"
 	culture= rutenio
@@ -2476,50 +2438,4 @@
 110550={
 	name="Warchavchik"
 	culture=rutenio
-}
-115001 = {
-	name="Durazno"
-	culture= guacho
-	can_appear = no
-	used_for_random = no
-}
-
-115002 = {
-	name="Hernandez"
-	culture= guacho
-	religion = catholic
-	can_appear = no
-	used_for_random = no
-}
-
-115003 = {
-	name="San Miguel"
-	culture= guacho
-	religion = bandean
-	can_appear = no
-	used_for_random = no
-}
-
-115004 = {
-	name="Aemilius"
-	culture= guacho
-	religion = catholic
-	can_appear = no
-	used_for_random = no
-}
-
-115005 = {
-	name="Nantes"
-	culture= guacho
-	religion = catholic
-	can_appear = no
-	used_for_random = no
-}
-
-115006 = {
-	name="Segundo"
-	culture= guacho
-	religion = liberationist
-	can_appear = no
-	used_for_random = no
 }
