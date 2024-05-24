@@ -41,7 +41,7 @@ street_block_composition = {
 	archers = 100
 	pikemen = 50
 }
-huaso_guard_composition = {
+orden_chilena_composition = {
 	levy_size = 4
 	pikemen = 500
 	cowboys = 100
