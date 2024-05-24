@@ -16,8 +16,8 @@ bm_cono_sur = {
 		
 		character = {
 			female = no
-			dna="0eh0d0cbdb0"
-			properties="fi0fba000000000000000000000000000000"
+			dna="0bi0g0c0ce0"
+			properties="0d0afk"
 			religion="platinean"
 			culture="porteno"
 			government = feudal_government
@@ -44,11 +44,11 @@ bm_cono_sur = {
 	}
 	
 	selectable_character = {
-		id = 480003 #Catriel II Catrilanca
-		age = 67
+		id = 480008 # Nahuel Catrillanca
+		age = 22
 		name = ERA_CHAR_NAME_CATRIEL
-		title = d_biobio
-		title_name = DUCHY_BIOBIO
+		title = d_araucania
+		title_name = DUCHY_ARAUCANIA
 		
 		character = {
 			female = no
@@ -80,16 +80,16 @@ bm_cono_sur = {
 	}
 	
 	selectable_character = {
-		id = 230006 #Charles II Valdivieso
-		age = 38
+		id = 230006 # Diego Bartales
+		age = 35
 		name = ERA_CHAR_NAME_CHARLES
 		title = k_chile
 		title_name = CHILE
 		
 		character = {
 			female = no
-			dna="aecae0dca00"
-			properties="ei0g0a000000000000000000000000000000"
+			dna="aaafg00ade0"
+			properties="0t00ek"
 			religion="catholic"
 			culture="centrino"
 			government = feudal_government
