@@ -15,7 +15,7 @@ b_minas = temple
 #b_punta_ballena = castle
 
 # Misc
-culture = urbuguayo
-religion = bandean
+culture=uruguayo
+religion=piriamano
 
 #History

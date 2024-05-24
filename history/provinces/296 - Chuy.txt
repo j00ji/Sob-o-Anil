@@ -15,7 +15,7 @@ b_chuy = castle
 #b_la_esmeralda = castle
 
 # Misc
-culture = guacho
-religion = bandean
+culture=charrua
+religion=artiguista
 
 #History

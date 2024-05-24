@@ -6,7 +6,7 @@ title = c_arapei
 # Settlements
 max_settlements = 2
 
-b_termas_do_arapei = tribal
+b_termas_do_arapei = castle
 #b_bela_uniao = city
 #b_tomas_gomensoro = temple
 #b_baltasar_brum = castle
@@ -15,7 +15,7 @@ b_termas_do_arapei = tribal
 #b_diego_lamas = castle
 
 # Misc
-culture = gaucho
-religion = catholic
+culture=charrua
+religion=catholic
 
 #History

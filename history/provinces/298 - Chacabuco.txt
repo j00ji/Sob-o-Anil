@@ -8,7 +8,7 @@ max_settlements = 3
 
 b_colina = castle
 b_lampa = city
-#b_tiltil = temple
+b_tiltil = temple
 #b_batuco = castle
 #b_huechun = city
 #b_casas_de_chacabuco = temple

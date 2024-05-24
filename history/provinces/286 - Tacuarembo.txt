@@ -6,7 +6,7 @@ title = c_tacuarembo
 # Settlements
 max_settlements = 3
 
-b_tacuarembo = tribal
+b_tacuarembo = castle
 #b_paso_de_los_toros = city
 #b_san_gregorio_de_polanco = temple
 #b_villa_ansina = castle
@@ -15,7 +15,7 @@ b_tacuarembo = tribal
 #b_quiebra_yugos = castle
 
 # Misc
-culture = guacho
-religion = catholic
+culture=charrua
+religion=catholic
 
 #History

@@ -15,7 +15,7 @@ b_carmelo = city
 #b_trinidad = castle
 
 # Misc
-culture = urbuguayo
-religion = bandean
+culture=uruguayo
+religion=bandean
 
 #History

@@ -6,7 +6,7 @@ title = c_durazno
 # Settlements
 max_settlements = 2
 
-b_durazno = tribal
+b_durazno = castle
 #b_rincon_del_bonete = city
 #b_baygorria = temple
 #b_cerro_chato_2 = castle
@@ -15,7 +15,7 @@ b_durazno = tribal
 #b_san_jorge = castle
 
 # Misc
-culture = guacho
-religion = catholic
+culture=charrua
+religion=bandean
 
 #History

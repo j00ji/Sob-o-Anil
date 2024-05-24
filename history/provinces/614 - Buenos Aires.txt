@@ -11,8 +11,8 @@ b_campo_de_mayo = castle
 b_la_matanza = temple
 b_avellandera = city
 b_berazategui = temple
-#b_quilmes = temple
-#b_san_isidro = castle
+b_quilmes = castle
+#b_san_isidro = temple
 
 # Misc
 culture = porteno

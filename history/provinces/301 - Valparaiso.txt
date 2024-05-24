@@ -6,8 +6,8 @@ title = c_valparaiso
 # Settlements
 max_settlements = 6
 
-b_valparaiso = city
-b_vina_del_mar = castle
+b_valparaiso = castle
+b_vina_del_mar = city
 b_concon = temple
 b_quintero = city
 b_puchuncavi = castle

@@ -15,7 +15,7 @@ b_mercedes = castle
 #b_jose_enrique_rodo = castle
 
 # Misc
-culture = rutenio
-religion = orthodoxist
+culture=uruguayo
+religion=bandean
 
 #History

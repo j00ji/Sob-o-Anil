@@ -6,8 +6,8 @@ title = c_san_antonio
 # Settlements
 max_settlements = 4
 
-b_san_antonio = city
-b_cartagena = castle
+b_san_antonio = castle
+b_cartagena = city
 b_el_quisco = temple
 #b_el_tabo = castle
 #b_algarrobo = city

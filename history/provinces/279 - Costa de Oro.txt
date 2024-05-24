@@ -15,7 +15,7 @@ b_pando = city
 #b_cuchilla_alta = castle
 
 # Misc
-culture = urbuguayo
-religion = bandean
+culture=uruguayo
+religion=bandean
 
 #History

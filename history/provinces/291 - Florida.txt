@@ -6,7 +6,7 @@ title = c_florida
 # Settlements
 max_settlements = 2
 
-b_florida_2 = tribal
+b_florida_2 = castle
 #b_pintado_2 = city
 #b_san_ramon = temple
 #b_nico_perez = castle
@@ -15,7 +15,7 @@ b_florida_2 = tribal
 #b_tala = castle
 
 # Misc
-culture = guacho
-religion = bandean
+culture=charrua
+religion=bandean
 
 #History

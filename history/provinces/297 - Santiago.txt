@@ -4,21 +4,18 @@
 title = c_santiago
 
 # Settlements
-max_settlements = 6
+max_settlements = 7
 
-b_santiago = temple
-b_maipu = castle
-b_la_florida = city
+b_santiago = castle
+b_providencia_2 = city
 b_las_condes = castle
-b_penalolen = temple
-b_nunoa = city
-#b_pudahuel = castle
+b_penalolen = castle
+b_huechuraba = city
+b_maipu = castle
+b_quinta_normal = temple
 
 # Misc
 culture = centrino
 religion = catholic
 
 #History
-2322.12.27={
-	capital=b_maipu
-}
