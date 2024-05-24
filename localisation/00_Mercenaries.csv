@@ -27,6 +27,14 @@ d_bloco_do_urso;Bloco do Urso;;;;;;;;;;;;;x
 d_bloco_do_urso_adj;Ursine;;;;;;;;;;;;;x
 d_urban_legion;The Urban Legion;;;;;;;;;;;x
 d_urban_legion_adj;Legionnaire;;;;;;;;;;;x
+d_orden_chilena;Orden Chilena de Santiago y de la Virgen del Carmen;;;;;;;;;;;;;x
+d_orden_chilena_adj;Chileno;;;;;;;;;;;;;x
+d_garra_blanca;Garra Blanca;;;;;;;;;;;;;x
+d_garra_blanca_adj;Chileno;;;;;;;;;;;;;x
+d_romantico_viajero;Romantico Viajero;;;;;;;;;;;;;x
+d_romantico_viajero_adj;Chileno;;;;;;;;;;;;;x
+d_los_cruzados;Los Cruzados;;;;;;;;;;;;;x
+d_los_cruzados_adj;Chileno;;;;;;;;;;;;;x
 
 # FOA
 COACH;Coach;;;;;;;;;;;;;x

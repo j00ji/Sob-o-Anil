@@ -619,10 +619,10 @@ CURA;Cura;;;;;;;;;;;;;x
 THE_WORLD;The World;;;;;;;;;;;;;x
 GOD_POMBERO;Pombero;;;;;;;;;;;;;x
 
-manuel_black;Blood of Manuel 'The Black';;;;;;;;;;;;;x
-manuel_black_desc;A fierce and ambitious huaso warrior, his ruthlessness in battle and in the throne was only comparable to his rivarly with the church.;;;;;;;;;;;;;x
-catrilanca;Blood of Catriel 'The Conqueror';;;;;;;;;;;;;x
-catrilanca_desc;The uniter of the Mapuche, the earth trembled under his feet as he lead his people into their true destiny, until his premature death ended it all.;;;;;;;;;;;;;x
+felipe_liberator;Blood of the Liberator;;;;;;;;;;;;;x
+felipe_liberator_desc;Once a former squire of Catriel the Unifier, Felipe Prat became a great commander who led a rebellion against him, liberating Ñuble and avenging his family.;;;;;;;;;;;;;x
+catrillanca;Blood of Catriel the Unifier;;;;;;;;;;;;;x
+catrillanca_desc;A great mapuche leader, Catriel Catrillanca unified his people in the Araucanía Rebellion during the Fall of House Pincheira and became the first King of Araucania. Catriel had plans to expand his kingdom south but were cut short when he was killed by his former squire Felipe Prat in a rebellion.;;;;;;;;;;;;;x
 belchioringian;Belchioringian Blood;;;;;;;;;;;;;x
 belchioringian_desc;A brilliant statesmen and warrior, he revolted against the Salvadorense overlords, founding his own Empire in most of the Northeast.;;;;;;;;;;;;;x
 ghassanid;Ghassanid Blood;;;;;;;;;;;;;x
@@ -631,6 +631,14 @@ sarney;Blood of Sir Ney;;;;;;;;;;;;;x
 sarney_desc;A legendary pre-event ruler of Maranhão, who is said to have united and conquered all of Brazil.;;;;;;;;;;;;;x
 lampiao;Blood of Lampião;;;;;;;;;;;;;x
 lampiao_desc;The infamous king of the Cangaço, Lampião ruled the hinterlands of old Nordeste from Ceará to Bahia. Legends say he could cast fireballs from his hands, hence his name "Lampion".;;;;;;;;;;;;;x
+bloodline_sword_of_santiago;Blood of the Sword of Santiago;;;;;;;;;;;;;x
+bloodline_sword_of_santiago_desc;A great warrior and commander, Benjamín Bartales, and his wife, Inés Suárez, conquered the city of Santiago and crowned themselves Kings of Chile. Afterwards, they proceeded to conquer the rest of the Metropolitan Region and the regions of Valparaiso and O'Higgins.;;;;;;;;;;;;;x
+bloodline_javier_falcon;Blood of the Falcon;;;;;;;;;;;;;x
+bloodline_javier_falcon_desc;A handsome and skilled statesman, Javier Camiroaga helped his friend Benjamín Bartales unify Santiago and secure his kingdom with his diplomacy.;;;;;;;;;;;;;x
+bloodline_tomas_slayer;Blood of the Slayer;;;;;;;;;;;;;x
+bloodline_tomas_slayer_desc;A mighty warrior, Tomás Salas helped his friend Benjamín Bartales unify Santiago. He earned his nickname after killing a dozen of men single-handedly during the Battle of Valparaiso.;;;;;;;;;;;;;x
+bloodline_black_eagle;Blood of the Black Eagle;;;;;;;;;;;;;x
+bloodline_black_eagle_desc;A huaso native to Concepción, Juan Pincheira had learned of history and warfare thanks to the city's many universities. Putting his knowledge to the test, he conquered all the regions of Maule to Araucanía, declaring himself King of Extremadura.;;;;;;;;;;;;;x
 
 baron_mapuche;Lonko;;;;;;;;;;;;;x
 baron_female_mapuche;Lonko;;;;;;;;;;;;;x
@@ -1001,7 +1009,7 @@ nick_the_marginal_knight;the Marginal Knight;;;;;;;;;;;x
 nick_the_bruja;the Bruja;;;;;;;;;;;x
 nick_the_viudita;the Viudita;;;;;;;;;;;x
 nick_the_beloved;the Beloved;;;;;;;;;;;x
-nick_the_guest;the Guest;;;;;;;;;;;x
+nick_karai_guasu;Karai Guasu;;;;;;;;;;;x
 nick_coke_addict;the Cocalero;;;;;;;;;;;x
 nick_fire_wasp;the Fire Wasp;;;;;;;;;;;x
 nick_the_black;the Black;;;;;;;;;;;x
@@ -1014,6 +1022,29 @@ nick_jaguar_killer;Jaguar Killer;;;;;;;;;;;x
 nick_cattle_king;the Cattle King;;;;;;;;;;;x
 nick_duke_of_lead;the Duke of Lead;;;;;;;;;;;x
 nick_cobra_verde;Green Snake;;;;;;;;;;;x
+nick_the_sword_of_santiago;the Sword of Santiago;;;;;;;;;;;x
+nick_the_sword_of_saint_lucia;the Sword of Saint Lucía;;;;;;;;;;;x
+nick_the_earthquake;the Earthquake;;;;;;;;;;;x
+nick_the_executioner;the Executioner;;;;;;;;;;;x
+nick_the_falcon;the Falcon;;;;;;;;;;;x
+nick_the_slayer;the Slayer;;;;;;;;;;;x
+nick_the_quintrala;the Quintrala;;;;;;;;;;;x
+nick_the_unifier;the Unifier;;;;;;;;;;;x
+nick_the_warlock;the Warlock;;;;;;;;;;;x
+nick_the_zauberer;the Zauberer;;;;;;;;;;;x
+nick_the_pirate;the Pirate;;;;;;;;;;;x
+nick_the_roto;the Roto;;;;;;;;;;;x
+nick_the_infernal;the Infernal;;;;;;;;;;;x
+nick_the_heretic;the Heretic;;;;;;;;;;;x
+nick_the_huaso;the Huaso;;;;;;;;;;;x
+nick_the_pincoya;the Pincoya;;;;;;;;;;;x
+nick_the_jinete;the Jinete;;;;;;;;;;;x
+nick_the_beast;the Beast;;;;;;;;;;;x
+nick_the_bandido;the Bandido;;;;;;;;;;;x
+nick_the_black_eagle;the Black Eagle;;;;;;;;;;;x
+nick_the_guru;the Gurú;;;;;;;;;;;x
+nick_the_colorado;the Colorado;;;;;;;;;;;x
+nick_the_gaucho_salteno;the Gaucho Salteño;;;;;;;;;;;x
 
 ###Retinues###
 RETTYPE_CUL_RECIFOLINDENSE;Caboclo de Lança;;;;;;;;;;;x
@@ -1094,7 +1125,7 @@ DYN12_DESC;With a score of $SCORE$ you$FAILED$ beat House de Sarak the Witch Kin
 
 ###Bookmarks###
 bm_cono_sur;Cono Sur;;;;;;;;;;;;;x
-bm_cono_sur_desc;The southernmost regions of South America were not spared the destruction wrought by the Event, though this end brought new beginnings for some. The Particularist Catholic Church struggles for power against new cults and a full-fledged indigenous revival in Patagonia, licking its wounds following the failure of the Platine Crusade.;;;;;;;;;;;;;x
+bm_cono_sur_desc;The southernmost regions of South America were not spared the destruction wrought by the Event, though this end brought new beginnings for some. The Particularist Catholic Church struggles for power against new cults and a full-fledged indigenous revival in Patagonia, licking its wounds following the failure of the Platinean Crusade.;;;;;;;;;;;;;x
 bm_cordillera;Cordillera de los Andes;;;;;;;;;;;;;x
 bm_cordillera_desc;In the shadow of the Andes, change is the air. The authority of the Particularist Catholic Church has collapsed across the region, and new movements have emerged in the vacuum, inspired by ideas both old, like the Inkarri, and new, like the Liberationist heresy.;;;;;;;;;;;;;x
 bm_terra_do_sol;Terra do Sol;;;;;;;;;;;;;x
@@ -1105,19 +1136,19 @@ bm_inferno_verde;Inferno Verde;;;;;;;;;;;;;x
 bm_inferno_verde_desc;The Amazon has long been impenetrable to outsiders, a green hell for armies and would-be conquerors. Life after the Event has brought isolation to the Amazon Basin, but life is not peaceful with patricians, prophets, and chiefs all vying for dominance.;;;;;;;;;;;;;x
 ###Bookmark Chars###
 ERA_CHAR_NAME_ESTANISLAO;Estanislao Valle;;;;;;;;;;;;;x
-ERA_CHAR_INFO_330007;The Platinean hero cult has arisen as a rival of the Particularist Catholic Church since the Event, and King Estanislao Valle of Buenos Aires has become the main patron of the Platineans, their protector and their hero. His victory in the Platine Crusade against the crusaders won him much renown, and Estanislao styles himself a gaucho and an intellectual, drawing a straight line between himself and the heroes of the past: San Martín - Rosas - Perón - Valles.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_330007;The Platinean hero cult has arisen as a rival of the Particularist Catholic Church since the Event, and King Estanislao Valle of Buenos Aires has become the main patron of the Platineans, their protector and their hero. His victory in the Platinean Crusade against the crusaders won him much renown, and Estanislao styles himself a gaucho and an intellectual, drawing a straight line between himself and the heroes of the past: San Martín - Rosas - Perón - Valles.;;;;;;;;;;;;;x
 BUENOS_AIRES;Buenos Aires;;;;;;;;;;;;;x
 ERA_CHAR_NAME_CRISTINA;Cristina Duarte;;;;;;;;;;;;;x
-ERA_CHAR_INFO_330016;During the Platine Crusade, Duke Domingo Holgado of Junin was among the leaders of the Crusader army, but he was cut down by the King of Buenos Aires in battle. His widow, Christina Duarte, fell into a state of grief and rage after Domingo’s death, only to emerge a wholly different woman. Christina told all that she saw a vision of the Hand of God that chose her to overthrow the King of Buenos Aires and take the city back for the Particularist Catholic Church. Additionally, she has sworn a vow of celibacy until her husband’s murderer breathes his last, no matter the cost.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_330016;During the Platinean Crusade, Duke Domingo Holgado of Junin was among the leaders of the Crusader army, but he was cut down by the King of Buenos Aires in battle. His widow, Christina Duarte, fell into a state of grief and rage after Domingo’s death, only to emerge a wholly different woman. Christina told all that she saw a vision of the Hand of God that chose her to overthrow the King of Buenos Aires and take the city back for the Particularist Catholic Church. Additionally, she has sworn a vow of celibacy until her husband’s murderer breathes his last, no matter the cost.;;;;;;;;;;;;;x
 DUCHY_JUNIN;Junin;;;;;;;;;;;;;x
-ERA_CHAR_NAME_CATRIEL;Catriel II Catrilanca;;;;;;;;;;;;;x
-ERA_CHAR_INFO_480003;It was Catriel II Carilanca’s father, Catriel I Carilanca, who united all the Mapuche of Araucania in opposition to the invading Chileans led by King Augusto Valdivieso. Nizol Lonko Catriel I pushed back the Chileans and even conquered some land but suddenly died, leading to the collapse of Araucania as a united realm. Catriel II has made little of his life in the days since his father’s death, with the Mapuche falling back into a divided state, but there is still time before his regrets become eternal.;;;;;;;;;;;;;x
-DUCHY_BIOBIO;Biobio;;;;;;;;;;;;;x
+ERA_CHAR_NAME_CATRIEL;Nahuel Catrillanca;;;;;;;;;;;;;x
+ERA_CHAR_INFO_480008;It was Nahuel Catrillanca’s father, Catriel the Unifier, who united all of the Mapuche of Araucanía in the Araucanía Rebellion during the Fall of House Pincheira. Nizol Lonko Catriel I took over the region and even conquered Biobío and Ñuble, but then died in a rebellion against his former squire Felipe Prat, leading to the split of Araucanía as a kingdom. Nahuel now seeks revenge against his father's killer and will do whatever it takes to do so, even if it means his family getting in the way of things.;;;;;;;;;;;;;x
+DUCHY_ARAUCANIA;Araucanía;;;;;;;;;;;;;x
 ERA_CHAR_NAME_ANASTASIO;Anastasio de Pollo;;;;;;;;;;;;;x
 ERA_CHAR_INFO_330035;As the kings and crusaders fight their wars to the north, Patagonia has fallen back into its natural state: where a man can live as free as a bird of the sky. It was into this world that Anastasio de Pollo was born, he is a gaucho! What the Great Gaucho gave him, Anastasio must now take from the world. His destiny is beyond the Pampas, where it will take him only he knows!;;;;;;;;;;;;;
 DUCHY_PATAGONES;Patagones;;;;;;;;;;;;;x
-ERA_CHAR_NAME_CHARLES;Charles II Valdivieso;;;;;;;;;;;;;x
-ERA_CHAR_INFO_230006;A scion of the illustrious House Valdivieso, King Charles II Valdivieso of Chile has already lived an interesting life. Starting his rule by avenging his father’s death at the hands of Black Duke, Charles II then set out to join the Platine Crusade to reclaim Buenos Aires for the Particularist Catholic Church only to return early for fear of usurpation by his uncle and killing the Witch King of Cordoba on his way back to Chile. The Kingdom of Chile is now at peace, but its king is restless: there is still so much work to be done, life to be lived.;;;;;;;;;;;;;
+ERA_CHAR_NAME_CHARLES;Diego Bartales;;;;;;;;;;;;;x
+ERA_CHAR_INFO_230006;The son of the great Sword of Santiago, Diego Bartales participated in the Platinean Crusade five years ago, where he helped create the Platinean Crusader states and co-signed the Treaty of Buenos Aires alongside King Lionel Valle. Now that he has recently ascended to the kingship, Diego sees enemies, allies, and opportunities for expansion all around him. Will he manage to create a name for himself, or will he fail to live up to the legacy of his father?;;;;;;;;;;;;;
 CHILE;Chile;;;;;;;;;;;;;x
 ERA_CHAR_NAME_ANDRONICO;Andrónico Aiza;;;;;;;;;;;;;x
 ERA_CHAR_INFO_810006;Bolivia, a land of silver, coca, and tin, has been united under the rule of its indigenous people and House Aiza, who liberated Quechua and Aymara alike from their slave masters and allowed them to rule themselves. In this land, El Tio and Pachamama reign supreme. King Andrónico Aiza has overseen the expansion of the Kingdom of Bolivia north and west, but cracks have begun to appear in the once idyllic Plurinational State…;;;;;;;;;;;;;x

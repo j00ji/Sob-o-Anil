@@ -1,0 +1,5 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+centrino_opinion;Centrino Opinion;;;;;;;;;;;;;x
+huaso_opinion;Huaso Opinion;;;;;;;;;;;;;x
+mapuche_opinion;Mapuche Opinion;;;;;;;;;;;;;x
+sureno_opinion;Sureño Opinion;;;;;;;;;;;;;x
