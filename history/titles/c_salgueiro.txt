@@ -1,6 +1,0 @@
-800.1.1={
-	liege=k_pernambuco
-}
-2366.5.3={
-	holder=45 #Diogo
-}

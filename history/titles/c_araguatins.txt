@@ -1,7 +1,0 @@
-800.1.1={
-	liege=k_goias
-}
-2365.5.5={
-	holder = 180023 #Osório Cruz
-	liege = k_maranhao
-}

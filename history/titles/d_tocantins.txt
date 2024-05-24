@@ -1,6 +1,0 @@
-800.1.1={
-	liege=k_goias
-}
-800.1.2={
-	historical_nomad=yes
-}

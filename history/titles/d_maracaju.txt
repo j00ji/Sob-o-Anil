@@ -1,9 +1,0 @@
-800.1.1={
-	liege=k_mato_grosso
-}
-800.1.2={
-	historical_nomad=yes
-}
-2340.1.1={
-	holder = 210009
-}

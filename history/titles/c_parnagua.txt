@@ -1,8 +1,0 @@
-800.1.1={
-	liege=k_piaui
-}
-2364.8.8={
-	holder = 210001
-	liege = d_araguaia
-	historical_nomad=yes
-}

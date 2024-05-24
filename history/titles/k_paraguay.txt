@@ -1,8 +1,0 @@
-# k_paraguay
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
-}
-2364.1.25 = { 
-	holder = 330001 #Alfonso Gelly
-}

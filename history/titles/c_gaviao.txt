@@ -1,7 +1,0 @@
-800.1.1={
-	liege=k_ilheus
-}
-2359.1.1 = {
-	holder = 60007 #Francisco Liberato
-	liege=d_diamantina
-}

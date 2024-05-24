@@ -1,7 +1,0 @@
-800.1.1={
-	liege=k_piaui
-}
-2345.1.1={
-	holder = 30041 #Nelson Flag
-	liege = d_medio_parnaiba
-}

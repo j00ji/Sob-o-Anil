@@ -1,6 +1,0 @@
-2366.2.13 = {
-	holder = 70008
-}
-2352.4.9 = {
-	liege = "c_rio_de_janeiro"
-}

@@ -1,8 +1,0 @@
-800.1.1={
-	liege=k_rio_grande_do_sul
-}
-2360.1.1={
-	historical_nomad=yes
-	holder=280032
-	liege=d_vale_do_rio_pardo
-}

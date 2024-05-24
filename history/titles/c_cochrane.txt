@@ -1,6 +1,0 @@
-800.1.1={
-	liege=k_tierra_del_fuego
-}
-2363.2.7={
-	holder = 530007
-}

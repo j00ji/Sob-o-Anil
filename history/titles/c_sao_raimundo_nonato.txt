@@ -1,7 +1,0 @@
-800.1.1={
-	liege=k_piaui
-}
-2361.2.4={
-	holder=30012 #Horácio
-	liege=d_medio_parnaiba
-}

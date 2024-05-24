@@ -1,5 +1,0 @@
-2366.6.29={
-	holding_dynasty = 5 #Lira
-	liege = d_recife
-	holder = 28 #Camilo
-}

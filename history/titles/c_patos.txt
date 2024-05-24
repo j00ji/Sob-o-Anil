@@ -1,6 +1,0 @@
-800.1.1={
-	liege=k_cabo_norte
-}
-2343.1.1={
-	holder=52 #Don Aldo
-}

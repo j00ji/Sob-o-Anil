@@ -1,8 +1,0 @@
-2328.1.1 = {
-	holding_dynasty = 100007 #Renaux
-	liege = d_greater_florianopolis
-	holder = 270026 #Arno Renaux
-}
-2364.1.1={
-	holder = 270027 #Maximiliano Renaux
-}

@@ -1,7 +1,0 @@
-800.1.1={
-	liege=k_ceara
-}
-2343.2.3={
-	holder=69 #Justo Vero
-	liege=d_jaguaribe
-}

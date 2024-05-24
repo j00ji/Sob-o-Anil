@@ -1,5 +1,0 @@
-2366.6.29={
-	holding_dynasty = 3 #Albuquerue
-	liege = d_recife
-	holder = 20 #Lúcio
-}

@@ -1,9 +1,0 @@
-2289.1.1 = {
-	holder = 110613 #Martim de Cananeia
-}
-2300.1.1={
-	holder = 110614 #Cosme I
-}
-2337.1.1={
-	holder = 110615 #Cosme II
-}

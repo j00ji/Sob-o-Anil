@@ -1,8 +1,0 @@
-800.1.1={
-	liege=k_para
-}
-2367.1.1={
-	holder = 870060 #Uaica Ribeiro
-	liege=0
-}
-

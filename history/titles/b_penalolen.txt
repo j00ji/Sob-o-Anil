@@ -1,4 +1,0 @@
-2368.2.3 = {
-	holder=230007
-	liege=c_santiago
-}

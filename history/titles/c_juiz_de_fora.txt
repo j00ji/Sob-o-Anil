@@ -1,4 +1,0 @@
-2350.1.1={
-	holder=620012
-	liege = d_paraibuna
-}

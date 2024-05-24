@@ -1,3 +1,0 @@
-800.1.2={
-	historical_nomad=yes
-}

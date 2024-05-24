@@ -1,5 +1,0 @@
-2350.1.1={
-	holding_dynasty = 620017 #Casemiro
-	liege = d_manaus
-	holder = 870017 #Alberto Casemiro
-}

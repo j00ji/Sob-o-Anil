@@ -1,6 +1,0 @@
-800.1.1={
-	#liege=k_sao_francisco
-}
-2359.1.7 = {
-	holder=60022 #Mariano Coimbra
-}

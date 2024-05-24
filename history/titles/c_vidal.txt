@@ -1,9 +1,0 @@
-# e_la_plata
-500.1.1={
-	law = cognatic_succession
-}
-
-2368.1.1={
-	holder = 330028 #Basilio Seineldín
-	liege=d_mardel
-}

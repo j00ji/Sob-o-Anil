@@ -1,7 +1,0 @@
-800.1.1={
-	liege=k_rio_grande_do_sul
-}
-2360.1.1={
-	holder=290002
-	liege=d_alto_uruguai
-}

@@ -1,9 +1,0 @@
-800.1.1={
-	liege=k_santa_cruz_de_patagonia
-}
-2343.9.2={
-	holder = 490001
-}
-2366.6.18={
-	holder = 490003
-}

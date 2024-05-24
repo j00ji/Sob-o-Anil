@@ -1,9 +1,0 @@
-800.1.1={
-	liege=k_maranhao
-}
-2320.1.1={
-	holder=30019 #Bento Cosme
-}
-2362.4.5={
-	holder=30020 #Catulo Cosme
-}

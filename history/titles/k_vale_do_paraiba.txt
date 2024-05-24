@@ -1,8 +1,0 @@
-# e_vera_cruz
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
-}
-#2362.4.25 = { 
-#	holder = 80018 #Sabugosa ruler
-#}

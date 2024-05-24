@@ -1,7 +1,0 @@
-800.1.1={
-	liege=k_para
-}
-2357.1.1={
-	holder = 870061 #Erik Machado
-	liege=0
-}

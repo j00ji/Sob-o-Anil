@@ -1,7 +1,0 @@
-800.1.1={
-	liege=k_para
-}
-2362.1.1={
-	holder = 870058 #Tuíra Paiakan
-	liege=0
-}

@@ -1,7 +1,0 @@
-800.1.1={
-	liege=k_maranhao
-}
-2360.1.1={
-	holder=30025 #Simão Guajajara
-	liege=d_mearim
-}
