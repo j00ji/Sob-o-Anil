@@ -2977,7 +2977,7 @@
 300001={
 	name="Paulo"
 	dynasty=105001 #Taurer
-	culture=talian
+	culture=hunsruckisch
 	religion=evangelical
 	trait=charismatic_negotiator
 	trait=strong
@@ -3004,7 +3004,7 @@
 	name="Bárbara"
 	dynasty=105500 #Rossi
 	female=yes
-	culture=hunsruckisch
+	culture=talian
 	religion=celeste
 	trait=scholarly_theologian
 	trait=fair
@@ -3023,7 +3023,7 @@
 }
 300003={
 	name="Vinicius"
-	dynasty=105004 #taurus
+	dynasty=105001 #taurus
 	culture=talian
 	religion=evangelical
 	dna="cbigc0a0ec0"
@@ -3048,7 +3048,7 @@
 }
 300004={
 	name="Matheus"
-	dynasty=105004 #taurus
+	dynasty=105001 #taurus
 	culture=hunsruckisch
 	religion=celeste
 	father=300001
@@ -3089,7 +3089,7 @@
 }
 300006={
 	name="Sophie"
-	dynasty=105004 #taurus
+	dynasty=105001 #taurus
 	culture=talian
 	religion=mucker
 	female=yes
