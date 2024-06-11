@@ -187,7 +187,7 @@ d_greater_florianopolis;Greater Florianópolis;Greater Florianópolis;Greater Flor
 d_greater_florianopolis_adj;Greater Florianópolisian;;Greater Florianópoliser;;;;;;;;;;;x
 d_guapore;Guaporé;Guaporé;Guaporé;;Guaporé;;;;;;;;;x
 d_guapore_adj;Guaporéian;;guaporéer;;;;;;;;;;;x
-d_guarapiranga;Guarapiranga;Guarapiranga;Guarapiranga;;Guarapiranga;;;;;;;;;x
+d_guarapiranga;Juiz de Fora;Juiz de Fora;Juiz de Fora;;Juiz de Fora;;;;;;;;;x
 d_guarapiranga_adj;Guarapirangan;;guarapiranger;;;;;;;;;;;x
 d_guayas;Guayas;Guayas;Guayas;;Guayas;;;;;;;;;x
 d_guayas_adj;Guayasian;;guayaser;;;;;;;;;;;x
@@ -201,8 +201,8 @@ d_huanaco;Huánaco;Huánaco;Huánaco;;Huánaco;;;;;;;;;x
 d_huanaco_adj;Huánacian;;huánacer;;;;;;;;;;;x
 d_huasco;Huasco;Huasco;Huasco;;Huasco;;;;;;;;;x
 d_huasco_adj;Huascian;;huascer;;;;;;;;;;;x
-d_ibiapa;Inhamuns;Inhamuns;Inhamuns;;Inhamuns;;;;;;;;;x
-d_ibiapa_adj;Inhamunsnian;;inhamunsner;;;;;;;;;;;x
+d_ibiapaba;Inhamuns;Inhamuns;Inhamuns;;Inhamuns;;;;;;;;;x
+d_ibiapaba_adj;Inhamunsnian;;inhamunsner;;;;;;;;;;;x
 d_ica;Ica;Ica;Ica;;Ica;;;;;;;;;x
 d_ica_adj;Ican;;icer;;;;;;;;;;;x
 d_igarape_mamoria;Igarapé Mamoria;Igarapé Mamoria;Igarapé Mamoria;;Igarapé Mamoria;;;;;;;;;x

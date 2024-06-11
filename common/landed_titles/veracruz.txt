@@ -706,6 +706,18 @@ e_vera_cruz = {
 				b_manga_2 = {}
 				b_maria_da_cruz = {}
 			}
+			c_taiobeiras = { # 860
+				color={ 219 192 153 }
+				color2={ 255 255 255 }
+				
+				b_rio_pardo_de_minas = {}
+				b_ninheira = {}
+				b_aguas_vermelhas = {}
+				b_sao_joao_do_paraiso_2 = {}
+				b_vargem_grande_3 = {}
+				b_indaiabira = {}
+				b_barra_da_alegria = {}
+			}
 		}
 		d_alto_medio = {
 			color={ 75 70 112 }
@@ -766,7 +778,7 @@ e_vera_cruz = {
 			color={ 51 116 149 }
 			color2={ 255 255 255 }
 
-			capital = 858 # c_capelinha
+			capital = 824 # c_diamantina
 			
 			c_capelinha = { # 858
 				color={ 219 175 109 }
@@ -793,17 +805,17 @@ e_vera_cruz = {
 				b_berilo = {}
 				b_catutiba = {}
 			}
-			c_taiobeiras = { # 860
-				color={ 219 192 153 }
+			c_diamantina = { #824
+				color={ 147 215 223 }
 				color2={ 255 255 255 }
-				
-				b_rio_pardo_de_minas = {}
-				b_ninheira = {}
-				b_aguas_vermelhas = {}
-				b_sao_joao_do_paraiso_2 = {}
-				b_vargem_grande_3 = {}
-				b_indaiabira = {}
-				b_barra_da_alegria = {}
+				holy_site = modernists
+				b_tejuco = {}
+				b_datas = {}
+				b_gouveia = {}
+				b_guinda = {}
+				b_barao_de_guaicui = {}
+				b_extracao = {}
+				b_sao_roberto = {}
 			}
 		}
 		d_vale_do_jequitinhonha = {
@@ -846,30 +858,6 @@ e_vera_cruz = {
 				b_parana_3 = {}
 				b_estiva_2 = {}
 				b_boca_da_caatinga = {}
-			}
-			c_malacacheta = { # 861
-				color={ 142 128 106 }
-				color2={ 255 255 255 }
-				
-				b_pote = {}
-				b_eldorado_3 = {}
-				b_franciscopolis = {}
-				b_forrado = {}
-				b_junco_de_minas = {}
-				b_ladainha = {}
-				b_nossa_senhora_das_gracas = {}
-			}
-			c_pecanha = { # 862
-				color={ 239 107 81 }
-				color2={ 255 255 255 }
-				
-				b_suacui = {}
-				b_virgolandia = {}
-				b_cinco_ilhas = {}
-				b_santa_teresa_do_bonito = {}
-				b_raydan = {}
-				b_cantagalo = {}
-				b_laura = {}
 			}
 		}
 		d_mucuri = {
@@ -971,18 +959,6 @@ e_vera_cruz = {
 				b_paraopeba = {}
 				b_papagaios = {}
 				b_saco_novo = {}
-			}	
-			c_diamantina = { #824
-				color={ 147 215 223 }
-				color2={ 255 255 255 }
-				holy_site = modernists
-				b_tejuco = {}
-				b_datas = {}
-				b_gouveia = {}
-				b_guinda = {}
-				b_barao_de_guaicui = {}
-				b_extracao = {}
-				b_sao_roberto = {}
 			}
 		}
 		d_barreiro_grande = {
@@ -1133,7 +1109,7 @@ e_vera_cruz = {
 				color2={ 255 255 255 }
 				
 				b_campo_belo = {}
-				b_oliveira_2 = {}
+				b_oliveira_4 = {}
 				b_cana_verde = {}
 				b_candeias = {}
 				b_perdoes = {}
@@ -1283,6 +1259,30 @@ e_vera_cruz = {
 				b_agua_limpa_2 = {}
 				b_barra_da_figueira = {}
 			}
+			c_malacacheta = { # 861
+				color={ 142 128 106 }
+				color2={ 255 255 255 }
+				
+				b_pote = {}
+				b_eldorado_3 = {}
+				b_franciscopolis = {}
+				b_forrado = {}
+				b_junco_de_minas = {}
+				b_ladainha = {}
+				b_nossa_senhora_das_gracas = {}
+			}
+			c_pecanha = { # 862
+				color={ 239 107 81 }
+				color2={ 255 255 255 }
+				
+				b_suacui = {}
+				b_virgolandia = {}
+				b_cinco_ilhas = {}
+				b_santa_teresa_do_bonito = {}
+				b_raydan = {}
+				b_cantagalo = {}
+				b_laura = {}
+			}
 		}
 		d_vale_do_aco = {
 			color={ 151 151 151 }
@@ -1312,6 +1312,18 @@ e_vera_cruz = {
 				b_santana_do_paraiso = {}
 				b_ipaneminha = {}
 				b_veneza = {}
+			}
+			c_raul_soares = { # 843
+				color={ 162 84 27 }
+				color2={ 255 255 255 }
+				
+				b_jo_soares = {}
+				b_bicuiba = {}
+				b_vermelhos = {}
+				b_sao_pedro_dos_ferros = {}
+				b_rio_casca = {}
+				b_tabuleiro = {}
+				b_vicente_da_estrela = {}
 			}
 		}
 		d_guarapiranga = { #changed to Juiz de Fora
@@ -1484,18 +1496,6 @@ e_vera_cruz = {
 				b_urucania = {}
 				b_jequeri = {}
 				b_sericita = {}
-			}
-			c_raul_soares = { # 843
-				color={ 162 84 27 }
-				color2={ 255 255 255 }
-				
-				b_jo_soares = {}
-				b_bicuiba = {}
-				b_vermelhos = {}
-				b_sao_pedro_dos_ferros = {}
-				b_rio_casca = {}
-				b_tabuleiro = {}
-				b_vicente_da_estrela = {}
 			}
 			c_visconde_do_rio_branco = { # 841
 				color={ 187 88 29 }
