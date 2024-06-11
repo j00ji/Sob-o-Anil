@@ -15,7 +15,7 @@ b_caldas = temple
 #b_serra_dos_lemes = castle
 
 # Misc
-culture = canastro
+culture = mantiqueiro
 religion = terra_benta
 
 #History

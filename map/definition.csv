@@ -819,7 +819,7 @@ province;red;green;blue;x;x
 818;255;223;68;Trairao;x
 819;255;170;35;Jacareacanga;x
 820;87;139;175;Belo Horizonte;x
-821;43;43;255;Congonhas do Norte;x
+821;43;43;255;Sete Lagoas;x
 822;119;170;176;Conceicao do Mato Dentro;x
 823;168;111;82;Serro;x
 824;147;215;223;Diamantina;x
@@ -1098,3 +1098,4 @@ province;red;green;blue;x;x
 1097;130;125;43;Aparecida;x
 1098;192;103;88;Acajutibiro;x
 1099;0;160;120;Viana;x
+1100;253;118;226;Campo Belo;x

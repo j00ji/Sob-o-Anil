@@ -8044,6 +8044,8 @@ b_oliveira_2;Oliveira;Oliveira;Oliveira;;Oliveira;;;;;;;;;x
 b_oliveira_2_adj;Oliveiran;;oliveirer;;;;;;;;;;;x
 b_oliveira_3;Oliveira;Oliveira;Oliveira;;Oliveira;;;;;;;;;x
 b_oliveira_3_adj;Oliveiran;;oliveirer;;;;;;;;;;;x
+b_oliveira_4;Oliveira;Oliveira;Oliveira;;Oliveira;;;;;;;;;x
+b_oliveira_4_adj;Oliveiran;;oliveirer;;;;;;;;;;;x
 b_oliveira_dos_brejinhos;Oliveira dos Brejinhos;Oliveira dos Brejinhos;Oliveira dos Brejinhos;;Oliveira dos Brejinhos;;;;;;;;;x
 b_oliveira_dos_brejinhos_adj;Oliveira dos Brejinhosian;;Oliveira dos Brejinhoser;;;;;;;;;;;x
 b_oliveira_fortes;Oliveira Fortes;Oliveira Fortes;Oliveira Fortes;;Oliveira Fortes;;;;;;;;;x
@@ -8422,6 +8424,8 @@ b_paraopeba;Paraopeba;Paraopeba;Paraopeba;;Paraopeba;;;;;;;;;x
 b_paraopeba_adj;Paraopeban;;paraopeber;;;;;;;;;;;x
 b_paraopeba_2;Paraopeba;Paraopeba;Paraopeba;;Paraopeba;;;;;;;;;x
 b_paraopeba_2_adj;Paraopeban;;paraopeber;;;;;;;;;;;x
+b_paraopeba_3;Paraopeba;Paraopeba;Paraopeba;;Paraopeba;;;;;;;;;x
+b_paraopeba_3_adj;Paraopeban;;paraopeber;;;;;;;;;;;x
 b_paraoquena;Paraoquena;Paraoquena;Paraoquena;;Paraoquena;;;;;;;;;x
 b_paraoquena_adj;Paraoquenan;;paraoquener;;;;;;;;;;;x
 b_parapeti;Parapeti;Parapeti;Parapeti;;Parapeti;;;;;;;;;x
@@ -11362,6 +11366,8 @@ b_sete_cidades;Sete Cidades;Sete Cidades;Sete Cidades;;Sete Cidades;;;;;;;;;x
 b_sete_cidades_adj;Sete Cidadesian;;Sete Cidadeser;;;;;;;;;;;x
 b_sete_colinas;Sete Colinas;Sete Colinas;Sete Colinas;;Sete Colinas;;;;;;;;;x
 b_sete_colinas_adj;Sete Colinasian;;Sete Colinaser;;;;;;;;;;;x
+b_sete_lagoas;Sete Lagoas;;;;;;;;;;;;;;;;x
+b_sete_lagoas_adj;Sete Lagoano;;;;;;;;;;;;;;;;x
 b_sete_saloes;Sete Salões;Sete Salões;Sete Salões;;Sete Salões;;;;;;;;;x
 b_sete_saloes_adj;Sete Salõesian;;Sete Salõeser;;;;;;;;;;;x
 b_severiano_melo;Severiano Melo;Severiano Melo;Severiano Melo;;Severiano Melo;;;;;;;;;x
@@ -13106,3 +13112,54 @@ b_esemboque;Desemboque;Desemboque;Desemboque;;Desemboque;;;;;;;;;x
 b_delfinopolis;Delfinópolis;Delfinópolis;Delfinópolis;;Delfinópolis;;;;;;;;;x
 
 b_cristais;Cristais;Cristais;Cristais;;Cristais;;;;;;;;;x
+
+b_campo_belo ;Campo Belo;Campo Belo;Campo Belo;;Campo Belo;;;;;;;;;x
+
+b_cana_verde;Cana Verde;Cana Verde;Cana Verde;;Cana Verde;;;;;;;;;x
+
+b_candeias;Candeias;Candeias;Candeias;;Candeias;;;;;;;;;x
+
+b_perdoes;Perdões;Perdões;Perdões;;Perdões;;;;;;;;;x
+
+b_santana_do_jacare;Santana do Jacaré;Santana do Jacaré;Santana do Jacaré;;Santana do Jacaré;;;;;;;;;x
+
+b_passa_tempo;Passa Tempo;Passa Tempo;Passa Tempo;;Passa Tempo;;;;;;;;;x
+
+b_paraopeba_3;Paraopeba;;;;;;;;;;;;;;;;x
+b_paraopeba_3_adj;Paraopebano;;;;;;;;;;;;;;;;x
+
+b_curvelo;Curvelo;;;;;;;;;;;;;;;;x
+b_curvelo_adj;Curvelano;;;;;;;;;;;;;;;;x
+
+b_capim_branco;Capim Branco;;;;;;;;;;;;;;;;x
+b_capim_branco_adj;Capim-branquense;;;;;;;;;;;;;;;;x
+
+b_matozinhos;Matozinhos;;;;;;;;;;;;;;;;x
+b_matozinhos_adj;Matozinhense;;;;;;;;;;;;;;;;x
+
+b_funilandia;Funilândia;;;;;;;;;;;;;;;;x
+b_funilandia_adj;Funilandense;;;;;;;;;;;;;;;;x
+
+b_prudente_de_morais;Prudente de Morais;;;;;;;;;;;;;;;;x
+b_prudente_de_morais_adj;Prudentino;;;;;;;;;;;;;;;;x
+
+b_itauna_2;Itaúna;;;;;;;;;;;;;;;;x
+b_itauna__2adj;Itaunense;;;;;;;;;;;;;;;;x
+
+b_pitangui_2;Pitangui;;;;;;;;;;;;;;;;x
+b_pitangui_2_adj;Pitanguiense;;;;;;;;;;;;;;;;x
+
+b_sao_goncalo_do_para;São Gonçalo do Pará;;;;;;;;;;;;;;;;x
+b_sao_goncalo_do_para_adj;São-gonçalense;;;;;;;;;;;;;;;;x
+
+b_maravilhas;Maravilhas;;;;;;;;;;;;;;;;x
+b_maravilhas_adj;Maravilhense;;;;;;;;;;;;;;;;x
+
+b_papagaios_2;Papagaios;;;;;;;;;;;;;;;;x
+b_papagaios_2_adj;Papagaiense;;;;;;;;;;;;;;;;x
+
+b_pequi_2;Pequi;;;;;;;;;;;;;;;;x
+b_pequi_2_adj;Pequiense;;;;;;;;;;;;;;;;x
+
+b_leandro_ferreira_2;Leandro Ferreira;;;;;;;;;;;;;;;;x
+b_leandro_ferreira_2_adj;Leandro-ferreirense;;;;;;;;;;;;;;;;x

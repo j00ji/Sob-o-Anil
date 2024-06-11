@@ -15,7 +15,7 @@ b_sacramento = city
 #b_monte_sinai = tribal
 
 # Misc
-culture = valcude
+culture = mantiqueiro
 religion = terra_benta
 
 #History

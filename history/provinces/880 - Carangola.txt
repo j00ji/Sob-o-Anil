@@ -15,7 +15,7 @@ b_alvorada_3 = castle
 #b_faria_lemos = castle
 
 # Misc
-culture = valcude
+culture = mantiqueiro
 religion = terra_benta
 
 #History

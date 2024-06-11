@@ -213,8 +213,8 @@ c_beruri;Beruri;Beruri;Beruri;;Beruri;;;;;;;;;x
 c_beruri_adj;Berurian;;berurer;;;;;;;;;;;x
 c_biobio;Biobío;Biobío;Biobío;;Biobío;;;;;;;;;x
 c_biobio_adj;Biobíian;;biobíer;;;;;;;;;;;x
-c_biribiri;Biribiri;Biribiri;Biribiri;;Biribiri;;;;;;;;;x
-c_biribiri_adj;Biribirian;;biribirer;;;;;;;;;;;x
+c_biribiri;Pará de Minas;;;;;;;;;;;;;;;;x
+c_biribiri_adj;Paraense;;;;;;;;;;;;;;;;x
 c_blumenau;Blumenau;Blumenau;Blumenau;;Blumenau;;;;;;;;;x
 c_blumenau_adj;Blumenian;;blumener;;;;;;;;;;;x
 c_boa_vista;Boa Vista;Boa Vista;Boa Vista;;Boa Vista;;;;;;;;;x
@@ -311,6 +311,8 @@ c_campinorte;Campinorte;Campinorte;Campinorte;;Campinorte;;;;;;;;;x
 c_campinorte_adj;Campinortean;;campinorter;;;;;;;;;;;x
 c_campo_alegre;Campo Alegre;Campo Alegre;Campo Alegre;;Campo Alegre;;;;;;;;;x
 c_campo_alegre_adj;Campo Alegrean;;Campo Alegrer;;;;;;;;;;;x
+c_campo_belo;Campo Belo;Campo Belo;Campo Belo;;Campo Belo;;;;;;;;;x
+c_campo_belo_adj;Campo-belense;;Campo-belense;;;;;;;;;;;x
 c_campo_grande;Campo Grande;Campo Grande;Campo Grande;;Campo Grande;;;;;;;;;x
 c_campo_grande_adj;Campo Grandean;;Campo Grander;;;;;;;;;;;x
 c_campo_maior;Campo Maior;Campo Maior;Campo Maior;;Campo Maior;;;;;;;;;x
@@ -489,8 +491,8 @@ c_condesuyos;Condesuyos;Condesuyos;Condesuyos;;Condesuyos;;;;;;;;;x
 c_condesuyos_adj;Condesuyosian;;condesuyoser;;;;;;;;;;;x
 c_confresa;Confresa;Confresa;Confresa;;Confresa;;;;;;;;;x
 c_confresa_adj;Confresan;;confreser;;;;;;;;;;;x
-c_congonhas_do_norte;Congonhas do Norte;Congonhas do Norte;Congonhas do Norte;;Congonhas do Norte;;;;;;;;;x
-c_congonhas_do_norte_adj;Congonhas do Nortean;;Congonhas do Norter;;;;;;;;;;;x
+c_congonhas_do_norte;Sete Lagoas;Sete Lagoas;Sete Lagoas;;Sete Lagoas;;;;;;;;;x
+c_congonhas_do_norte_adj;Sete Lagoanop;;Sete Lagoano;;;;;;;;;;;x
 c_conselheiro_lafaiete;Conselheiro Lafaiete;Conselheiro Lafaiete;Conselheiro Lafaiete;;Conselheiro Lafaiete;;;;;;;;;x
 c_conselheiro_lafaiete_adj;Conselheiro Lafaietean;;Conselheiro Lafaieter;;;;;;;;;;;x
 c_conselheiro_pena;Conselheiro Pena;Conselheiro Pena;Conselheiro Pena;;Conselheiro Pena;;;;;;;;;x

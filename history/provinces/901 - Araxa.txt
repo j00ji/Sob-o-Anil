@@ -15,7 +15,7 @@ b_argenita = city
 #b_ibia = castle
 
 # Misc
-culture = triangler
+culture = canastro
 religion = kardecists
 
 #History

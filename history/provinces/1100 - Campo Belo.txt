@@ -1,0 +1,21 @@
+# c_campo_belo
+
+# County Title
+title = c_campo_belo
+
+# Settlements
+max_settlements = 3
+
+b_campo_belo = castle
+b_oliveira_4 = temple
+b_cana_verde = city
+#b_candeias = temple
+#b_perdoes = castle
+#b_santana_do_jacare = city
+#b_passa_tempo = temple
+
+# Misc
+culture = auriferro
+religion = terra_benta
+
+#History

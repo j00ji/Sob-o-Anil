@@ -15,7 +15,7 @@ b_rio_das_mortes = temple
 #b_capela_do_saco = castle
 
 # Misc
-culture = canastro
+culture = mantiqueiro
 religion = terra_benta
 
 #History
