@@ -1,0 +1,20 @@
+2230.1.1 = {
+	holding_dynasty = 55024
+	liege = d_santos
+	holder = 110126 #Leonardo Graeff
+}
+2273.11.3 = {
+	holder = 110127 #Calebe Graeff
+}
+2295.5.12 = {
+	holder = 110129 #Leopoldo Graeff
+}
+2296.1.8 = {
+	holder = 110131 #Filipe Graeff
+}
+2320.10.24 = {
+	holder = 110132 #Desidério Graeff
+}
+2358.2.23 = {
+	holder = 110135 #Filipe Graeff
+}

@@ -1,0 +1,50 @@
+2075.1.1 = {
+	holding_dynasty = 55015
+	liege = c_santos
+	holder = 110049 #Legendary founder of the de Andrade, Lourenço de Andrade
+}
+2097.11.1 = {
+	holder = 110050 #Manuel de Andrade
+}
+2101.10.7 = { #Bruno Cubas founds the Duchy of Santos
+	liege = d_santos
+}
+2131.2.24 = {
+	holder = 110051 #Damião de Andrade
+}
+2163.5.30 = {
+	holder = 110052 #Sebastião de Andrade
+}
+2188.7.5 = {
+	holder = 110054 #Antônio de Andrade
+}
+2190.12.4 = {
+	holder = 110055 #Clemente de Andrade
+}
+2193.11.2 = { #Clemente de Andrade founds the Kingdom of Santos
+	liege = d_santos
+}
+2212.10.1 = {
+	holder = 110057 #Mateus de Andrade
+}
+2245.3.23 = {
+	holder = 110059 #Benedito de Andrade
+}
+2256.10.20 = {
+	holder = 110061 #Caetano de Andrade
+}
+2270.1.17 = {
+	holder = 110063 #Daniel de Andrade
+}
+2298.4.27 = {
+	holder = 110066 #Eduardo de Andrade
+}	
+2338.5.1 = {
+	holder = 110067 #Henrique de Andrade
+}
+2357.11.3 = {
+	holder = 110070 #João de Andrade
+}
+2364.12.3 = {
+	holder = 110073 #Delfim de Andrade
+}

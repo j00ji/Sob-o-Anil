@@ -1,0 +1,5 @@
+# e_the_andes
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}

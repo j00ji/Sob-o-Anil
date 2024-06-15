@@ -1,0 +1,11 @@
+# e_the_north
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_acre
+}
+2362.1.1={
+	holder=870001 #Giordano Borges
+}

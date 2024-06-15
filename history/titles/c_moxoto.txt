@@ -1,0 +1,11 @@
+# e_nordeste
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_pernambuco
+}
+2326.5.3={
+	holder=46 #Bento Carneiro
+}

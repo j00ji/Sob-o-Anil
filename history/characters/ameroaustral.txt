@@ -1,9 +1,9 @@
 ### Mapuches ###
-#########################
-### House Catrillanca ###
-#########################
+######################
+### House Quilapán ###
+######################
 480001 = {
-	name="Catriel" # Catriel Catrillanca the Unifier, first King of Araucania.
+	name="Catriel" # Catriel Quilapán the Morningstar, King of Araucania.
 	dynasty=210001
 
 	diplomacy = 5
@@ -41,9 +41,9 @@
 		add_spouse=480002 # Ailin Calbucura
 	}
 	2351.1.15 = {
-		give_nickname=nick_the_unifier
+		give_nickname=nick_the_morningstar
 		create_bloodline = {
-			type=catrillanca
+			type=bloodline_morningstar
 			has_dlc="Holy Fury"
 		}
 	}
@@ -58,7 +58,7 @@
 	}
 }
 480002 = {
-	name="Ailin" # Ailin Calbucura, wife of Catriel the Unifier.
+	name="Ailin" # Ailin Calbucura, wife of Catriel Quilapán.
 	dynasty=210003
 	female=yes
 
@@ -90,9 +90,9 @@
 		}
 	}
 }
-### Issue of Catriel the Unifier ###
+### Issue of Catriel the Morningstar ###
 480003 = {
-	name="Aukan" # Aukan Catrillanca, Duke of Biobío.
+	name="Aukan" # Aukan Quilapán, Duke of Biobío.
 	dynasty=210001
 	dna="0idbf0ca000"
 	properties="of0d0e"
@@ -111,7 +111,7 @@
 
 	disallow_random_traits = yes
 
-	father=480001 # Catriel Catrillanca
+	father=480001 # Catriel Quilapán
 	mother=480002 # Ailin Calbucura
 
 	2339.12.11 = {
@@ -136,7 +136,7 @@
 	}
 }
 480011 = {
-	name="Licarayén" # Licarayén Catrillanca.
+	name="Licarayén" # Licarayén Quilapán.
 	dynasty=210001
 	female=yes
 
@@ -151,7 +151,7 @@
 
 	add_trait="fair"
 
-	father=480001 # Catriel Catrillanca
+	father=480001 # Catriel Quilapán
 	mother=480002 # Ailin Calbucura
 
 	2344.6.7 = {
@@ -171,7 +171,7 @@
 	}
 }
 480008 = {
-	name="Nahuel" # Nahuel Catrillanca, Duke of Araucania.
+	name="Nahuel" # Nahuel Quilapán, Duke of Araucania.
 	dynasty=210001
 
 	diplomacy = 4
@@ -187,7 +187,7 @@
 
 	disallow_random_traits = yes
 
-	father=480001 # Catriel Catrillanca
+	father=480001 # Catriel Quilapán
 	mother=480002 # Ailin Calbucura
 
 	2346.11.30 = {
@@ -204,6 +204,7 @@
 		add_trait="zealous"
 		add_trait="cruel"
 		add_trait="ambitious"
+		add_trait="duelist"
 		add_spouse=480009 # Rayen Coñoepan
 	}
 	2368.12.25 = {
@@ -214,7 +215,7 @@
 }
 ### Issue of Aukan ###
 480005 = {
-	name="Caupolicán" # Caupolicán Catrillanca.
+	name="Caupolicán" # Caupolicán Quilapán.
 	dynasty=210001
 
 	diplomacy = 6
@@ -229,7 +230,7 @@
 	add_trait="weak"
 	add_trait="quick"
 
-	father=480003 # Aukan Catrillanca
+	father=480003 # Aukan Quilapán
 	mother=480004 # Quimey Calfucurá
 
 	2356.7.17 = {
@@ -238,7 +239,7 @@
 }
 ### Issue of Nahuel ###
 480010 = {
-	name="Lautaro" # Lautaro Catrillanca.
+	name="Lautaro" # Lautaro Quilapán.
 	dynasty=210001
 
 	diplomacy = 4
@@ -252,7 +253,7 @@
 
 	add_trait="strong"
 
-	father=480008 # Nahuel Catrillanca
+	father=480008 # Nahuel Quilapán
 	mother=480009 # Rayen Coñoepan
 
 	2363.11.9 = {
@@ -333,7 +334,7 @@
 	}
 }
 480009 = {
-	name="Rayen" # Rayen Quintupil, wife of Nahuel Catrillanca.
+	name="Rayen" # Rayen Quintupil, wife of Nahuel Quilapán.
 	dynasty=210002
 	female=yes
 
@@ -465,7 +466,7 @@
 	}
 }
 480004 = {
-	name="Quimey" # Quimey Calfucurá, wife of Aukan Catrillanca.
+	name="Quimey" # Quimey Calfucurá, wife of Aukan Quilapán.
 	dynasty=210030
 	female=yes
 

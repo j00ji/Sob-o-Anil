@@ -8,8 +8,8 @@ max_settlements = 4
 
 b_rengo = castle
 b_machali = city
-#b_requinoa = temple
-#b_malloa = castle
+b_requinoa = temple
+b_malloa = castle
 #b_tilcoco = city
 #b_coya = temple
 #b_chanqueahue = castle

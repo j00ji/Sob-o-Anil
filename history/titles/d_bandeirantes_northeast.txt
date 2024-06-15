@@ -1,0 +1,7 @@
+2342.1.1 = {
+	holder = 110002 #Felipe Cantarini
+}
+2359.10.10 = {
+	holder = 110224 #Domingos Jorge Velho
+	set_title_flag = bandeirante_mercenaries
+}

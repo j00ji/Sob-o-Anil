@@ -1,0 +1,29 @@
+2135.1.1 = {
+	holding_dynasty = 55006
+	liege = d_santos
+	holder = 110004 #Gilberto Lombardi
+}
+2173.9.10 = {
+	holder = 110006 #Giuseppe Lombardi
+}
+2189.2.24 = {
+	holder = 110008 #Rafaelo Lombardi
+}
+2193.11.2 = { #Clemente de Andrade founds the Kingdom of Santos
+	liege = d_santos
+}
+2218.3.5 = {
+	holder = 110011 #Miguel Lombardi
+}
+2235.10.12 = {
+	holder = 110012 #Fabrício Lombardi
+}
+2263.12.1 = {
+	holder = 110014 #Eduardo Lombardi
+}
+2281.4.15 = {
+	holder = 110016 #Vicente Lombardi
+}
+2307.2.22 = {
+	holder = 0
+}

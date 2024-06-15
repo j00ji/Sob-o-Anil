@@ -1,0 +1,18 @@
+# e_bahia
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_ilheus
+}
+2305.1.1 = {
+	holder = 40023 #Taparica Paraguaçu
+}
+2026.2.4 = {
+	holder = 40025 #Diogo Caramuru
+}
+2340.4.11 = {
+	holder = 40028 #Marcos Caramuru
+	liege = d_porto_seguro
+}

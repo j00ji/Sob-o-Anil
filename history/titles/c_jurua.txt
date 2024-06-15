@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_amazonas
+}
+2363.1.1={
+	holder=870026 #Tomas ai Veru
+	liege=0
+}

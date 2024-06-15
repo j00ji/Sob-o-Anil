@@ -1,0 +1,33 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2200.1.1 = {
+	holder = 110294 #Bartolomeu Anhanguera
+}
+2245.7.6 = {
+	holder = 110295 #Rafael Anhanguera
+}
+2263.8.10 = {
+	holder = 110315 #Simão Leme
+}
+2290.4.6 = { 
+	holder = 110317 #Paulo Leme
+}
+2323.11.30 = {
+	holder = 110319 #Lívio Leme
+	liege = d_grande_sao_paulo
+}
+2330.12.20 = {
+	holder = 110304 #Graciano Anhanguera
+}
+2351.2.10 = {
+	holder = 110307 #Vital Anhanguera
+}
+2363.5.30 = { #Alexandre is awarded Campinas
+	holder = 110001 #Alexandre I Cantarini
+}

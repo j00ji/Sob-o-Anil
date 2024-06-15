@@ -1,0 +1,26 @@
+# k_cordoba
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+2050.1.1={
+	holder=640032 #Rama Sarak
+}
+2119.1.1={
+	holder=640033 #Alberto Sarak
+}
+2220.1.1={
+	holder=640034 #Rama II
+}
+2300.1.1={
+	holder=640035 #Boudh I
+}
+2333.1.1={
+	holder=640036 #Sartini I
+}
+2363.1.1={
+	holder=640003
+}
+2364.9.1 = {
+	holder=641959
+}

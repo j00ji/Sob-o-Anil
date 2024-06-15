@@ -1,0 +1,8 @@
+800.1.1={
+	liege=k_amazonas
+}
+2353.1.1={
+	holder=870025 #Isaac Dyavi Ru
+	liege=0
+}
+

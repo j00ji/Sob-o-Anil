@@ -479,7 +479,7 @@
     learning=5
     trait=underhanded_rogue
     trait=wroth
-    trait=cynical
+    trait=cynic
     trait=cruel
     2339.1.1={birth=yes}
     2400.1.1={death=yes}
@@ -510,7 +510,7 @@
 #Chiefdom of Amatura
 870025 = {
     name="Isaac"
-    dynasty=620025 # Dyavi Ru
+    dynasty=xx # Dyavi Ru
     culture=ticuna
     religion=xabaxai_xagi #(actually Cruzada)
     martial=3
@@ -561,7 +561,7 @@
     trait=misguided_warrior
     trait=robust
     trait=wroth
-    trait=cynical
+    trait=cynic
     2347.1.1={birth=yes}
     2400.1.1={death=yes}
 }
@@ -1561,7 +1561,7 @@
     trait=flamboyant_schemer
     trait=patient
     trait=kind
-    trait=cynical
+    trait=cynic
     2344.1.1={birth=yes}
     2400.1.1={death=yes}
 }

@@ -1,0 +1,23 @@
+# e_the_south
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+2119.1.1={
+	holder = 110664 #Joaquim Macedo, the first Universal ruler of the São Paulo, faced heavy opposotion due to also being head of a religion
+}
+2125.6.10 = {
+	holder = 110665 #Calebe, leader of the Universal rebellion overthrows Jorge and later kills him. After this São Paulo collapses, and he ends up forming Paulistania
+}
+2134.2.23 = {
+	holder = 110667 #Levi inherits following his father's death, he however is only 12 years old and doesn't last very long
+}
+2168.5.17 = {
+	holder = 110666 #Ester inherits
+}
+2181.2.4 = {
+	holder = 110668 #Davi da Fé | Dynastic change
+}
+2202.6.3 = {
+	holder = none #Davi da Fé dies
+}

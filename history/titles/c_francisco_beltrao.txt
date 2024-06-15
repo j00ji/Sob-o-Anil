@@ -1,0 +1,14 @@
+# e_the_south
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_parana
+}
+2320.1.1={
+	holder=310002 #Leôncio I
+}
+2355.1.1={
+	holder=310003 #Leôncio II
+}

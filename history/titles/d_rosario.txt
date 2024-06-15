@@ -1,0 +1,12 @@
+# e_interior
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_cordoba
+}
+2364.10.9 = {
+	holder=330100 # Andrés Argento
+	liege=k_la_plata
+}

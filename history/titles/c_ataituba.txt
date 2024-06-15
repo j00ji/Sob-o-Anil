@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_para
+}
+2364.1.1={
+	holder = 870071 #Joelma Munguba
+	liege=0
+}

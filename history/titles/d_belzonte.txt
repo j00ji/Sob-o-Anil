@@ -1,0 +1,18 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+2390.1.1={
+	holder = 590036
+}
+2308.1.1={
+	holder = 0
+}
+2320.1.1 = {
+	holder = 590027
+	liege = k_minas_gerais
+}
+2366.2.20={
+	holder = 590030
+}

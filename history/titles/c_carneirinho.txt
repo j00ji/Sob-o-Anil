@@ -1,0 +1,18 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege = d_pontal_do_triangulo
+}
+
+2307.3.28={
+	holder = 570009
+}
+2322.9.1={
+	holder = 570015
+}
+2367.6.13 = {
+	holder = 570017
+}

@@ -1,0 +1,10 @@
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+2352.4.9 = {
+	government = military_government
+	law = religion_toleration_0
+	law = succ_military_elective
+	holder = 70017
+}

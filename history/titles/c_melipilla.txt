@@ -2,14 +2,14 @@
 800.1.1 = {
 	liege=k_chile
 }
-2338.5.4 = {
+2336.5.4 = {
 	holder=230102 # Joaquín López
 	liege=0
 }
-2347.11.6 = {
+2337.7.1 = {
 	holder=230002 # Benjamín I
 	liege=d_santiago
 }
-2368.9.18 = {
+2369.9.18 = {
 	holder=230006 # Diego I
 }

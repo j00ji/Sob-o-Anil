@@ -1,0 +1,29 @@
+2220.1.1 = {
+	holding_dynasty = 55012 #Anhanguera
+	holder = 110294 #Bartolomeu Anhanguera
+	liege = d_grande_sao_paulo
+}
+2245.7.6 = {
+	holder = 110295 #Rafael Anhanguera
+}
+2263.8.10 = {
+	holder = 110298 #João Vitor Anhanguera
+}
+2298.4.10 = {
+	holder = 110300 #Domingos Anhanguera
+}
+2309.9.13 = {
+	holder = 110301 #Gilmar Anhanguera
+}
+2319.4.5 = {
+	holder = 110303 #Lorenzo Anhanguera
+}
+2331.7.21 = {
+	holder = 110304 #Graciano Anhanguera
+}
+2351.2.10 = {
+	holder = 110307 #Vital Anhanguera
+}
+2363.5.30 = {
+	holder = 110310 #Daniel Anhanguera
+}

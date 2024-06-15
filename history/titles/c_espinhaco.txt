@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_ilheus
+}
+2359.1.1 = {
+	holder = 60008 #Zé do Fandango
+	liege=d_diamantina
+}

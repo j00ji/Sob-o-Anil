@@ -1,0 +1,17 @@
+# e_the_south
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_santa_catarina
+}
+2320.1.1={
+	holder=260013 #Giuseppe Calloni
+}
+2342.1.1={
+	holder=260014 #Enrico Calloni
+}
+2365.1.1={
+	holder=260016 #Vitor Calloni
+}

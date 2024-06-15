@@ -1,0 +1,12 @@
+# e_the_south
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_santa_catarina
+}
+2360.1.1={
+	holder=290031 #Rosa Schummann
+	liege=d_curitiba
+}

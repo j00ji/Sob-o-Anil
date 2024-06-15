@@ -1,0 +1,17 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_fluminense
+}
+2350.9.15 = {
+	holder = 80001
+}
+2352.4.9 = {
+	holder = 70001
+	law = succ_bureaucratic_elective
+	law = religion_toleration_1
+	government = bureaucratic_government_tolerant
+}

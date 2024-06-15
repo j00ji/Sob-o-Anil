@@ -1,0 +1,5 @@
+2365.1.1 = {
+	holding_dynasty = 90007 #Amin
+	liege = d_greater_florianopolis
+	holder = 270047 #Amin
+}

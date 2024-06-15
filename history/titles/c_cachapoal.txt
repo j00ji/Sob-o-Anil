@@ -10,7 +10,7 @@
 	holder=240002 # Francisco Contreras
 	liege=d_ohiggins
 }
-2349.2.12 = {
+2340.2.12 = {
 	holder=230059 # Javier Camiroaga
 }
 2368.4.5 = {

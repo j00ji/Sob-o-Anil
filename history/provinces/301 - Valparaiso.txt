@@ -11,7 +11,7 @@ b_vina_del_mar = city
 b_concon = temple
 b_quintero = city
 b_puchuncavi = castle
-#b_casablanca = temple
+b_casablanca = temple
 #b_playa_ancha = castle
 
 # Misc

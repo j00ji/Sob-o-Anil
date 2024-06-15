@@ -6,7 +6,7 @@
 800.1.1 = {
 	liege=k_chile
 }
-2342.8.3 = {
+2336.8.3 = {
 	holder=230020 # Ramón Allende
 	liege=d_valparaiso
 }

@@ -1,0 +1,8 @@
+# e_la_plata
+500.1.1={
+	law = cognatic_succession
+}
+2364.1.25 = { 
+	holder = 690010 #Marangatu Perez
+	liege=k_teachers
+}

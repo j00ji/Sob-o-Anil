@@ -1,0 +1,9 @@
+# e_la_plata
+800.1.1={
+	liege=k_paraguay
+}
+2364.1.25 = { 
+	holder = 320001 #Isabel Hernandez
+	liege=k_paraguay
+}
+

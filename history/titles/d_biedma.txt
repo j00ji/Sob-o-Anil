@@ -1,0 +1,17 @@
+# e_patagonia
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_chubut
+}
+2310.8.14= {
+	holder=560001
+}
+2340.5.12= {
+	holder=560003
+}
+2365.11.4= {
+	holder=560007
+}

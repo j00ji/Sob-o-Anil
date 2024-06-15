@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_amazonas
+}
+2346.1.1={
+	holder=870032 #Benjamin Boitatá
+	liege=0
+}

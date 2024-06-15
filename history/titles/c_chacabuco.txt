@@ -6,10 +6,10 @@
 800.1.1 = {
 	liege=k_chile
 }
-2347.10.23 = {
+2337.7.15 = {
 	holder=230002 # Benjamín I
 	liege=d_santiago
 }
-2368.9.18 = {
+2369.9.18 = {
 	holder=230006 # Diego I
 }

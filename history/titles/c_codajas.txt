@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_amazonas
+}
+2362.1.1={
+	holder=870009 #João Tabajara
+	liege=0
+}

@@ -1,0 +1,14 @@
+# e_nordeste
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_piaui
+}
+2330.3.5={
+	holder=30001#Deoclécio
+}
+2359.10.3={ 
+	holder=30002#Cosme
+}

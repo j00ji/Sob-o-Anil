@@ -1,0 +1,13 @@
+# e_the_north
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	#liege=k_rondonia
+}
+2360.1.1={
+	holder=870005 #João Pascoal
+	liege=none
+}
+

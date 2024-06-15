@@ -1,0 +1,12 @@
+# e_the_north
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_amazonas
+}
+2353.1.1={
+	holder=870015 #Alberto Santos
+	liege=d_manaus
+}

@@ -1,0 +1,8 @@
+2364.1.1 = {
+	holder = 620002 #Pança Rei
+	liege = d_vertentes
+}
+2366.10.8 = {
+	holder = 620004 #Chiquinho Xavier
+	liege = d_aguas_virt
+}

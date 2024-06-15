@@ -1,41 +1,176 @@
 namespace=chl
-
+#############################
+### House Santiago Events ###
+#############################
 long_character_event = {
-	id=chl.1
-	title=chl.1.t
-	desc=chl.1.d
+	id = chl.1 # Legacy of the Lion
+	title = chl.1.t
+	desc = chl.1.d
+
+	is_triggered_only = yes
+
 	trigger = {
-		has_character_flag = huacho_riquelme
+		has_character_flag = diego_santiago
 	}
-	mean_time_to_happen = {
+	
+	mean_time_to_happen = { 
 		days = 3
 	}
+
 	option = {
-		name = chl.1.a
+		name = chl.1.a # Invade Choapa
+		ai_chance = {
+			factor = 50
+		}
+		d_coquimbo = {
+			holder_scope = {
+				tooltip = { show_portrait = yes }
+				hidden_tooltip = {
+					set_defacto_liege = k_chile
+				}
+			}
+		}
+		d_choapa = {
+			holder_scope = {
+				tooltip = { show_portrait = yes }
+				reverse_war = {
+					target = ROOT
+					casus_belli = force_vassalization
+				}
+			}
+		}
 		hidden_effect = {
-			long_character_event= { id=chl.2 }
+			set_character_flag = chl_event_triggered
+		}
+	}
+	option = {
+		name = chl.1.b # Invade Maule
+		ai_chance = {
+			factor = 45
+		}
+		d_maule = {
+			tooltip = { show_portrait = yes }
+			reverse_war = {
+				target = ROOT
+				casus_belli = dejure_duchy_claim
+			}
+		}
+		hidden_effect = {
+			set_character_flag = chl_event_triggered
+		}
+	}
+	option = {
+		name = chl.1.c # Do nothing
+		ai_chance = {
+			factor = 5
+		}
+		add_trait="content"
+		hidden_effect = {
+			set_character_flag = chl_event_triggered
+		}
+	}
+}
+long_character_event = {
+	id = chl.2 # The fate of the Witch of Salamanca
+	title = chl.2.t
+	desc = chl.2.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		d_choapa = {
+			k_chile = liege
 		}
 	}
 
-}
-long_character_event = {
-	id=chl.2
-	title=chl.2.t
-	desc=chl.2.d
-	is_triggered_only=yes
-	immediate={
-		clr_character_flag=huacho_riquelme
-	}
-	option = {
-		name = chl.2.a
-		ai_chance = {
-			factor = 10
+	immediate = {
+		c_240035 = {
+			move_character = ROOT
+			imprison = ROOT
 		}
-		set_father = 240011
-		add_claim = c_punilla
-		add_claim = c_itata
+		c_2400351 = {
+			move_character = ROOT
+			imprison = ROOT
+		}
 	}
 	option = {
-		name = chl.2.b
+		name = chl.2.a # Kill her
+		c_240035 = {
+			death = {
+				death_reason = death_execution
+				killer = ROOT
+			}
+		}
+		c_2400351 = {
+			death = {
+				death_reason = death_execution
+				killer = ROOT
+			}
+		}
+		d_coquimbo = {
+			holder_scope = {
+				random_child = {
+					limit = { character = 2200014 }
+					c_230008 = { 
+						add_spouse = PREV 
+					}
+				}
+				c_2200012 = { gain_title = d_choapa }
+			}
+			opinion = { who = ROOT modifier = opinion_loyal_servant }
+		}
+	}
+	option = {
+		name = chl.2.b # Spare her
+		d_choapa = {
+			holder_scope = {
+				random_child = {
+					limit = { character = 2400351 }
+					c_230008 = {
+						add_spouse = PREV
+						add_lover = PREV
+					}
+					prisoner = no
+				}
+				prisoner = no
+				opinion = { who = ROOT modifier = opinion_loyal_servant }
+				add_friend = ROOT
+				
+			}
+		}
+		d_coquimbo = {
+			holder_scope = {
+				add_rival = ROOT
+				hidden_tooltip = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_betrothal_broken
+						multiplier = 3
+					}
+					liege = {
+						reverse_opinion = {
+							who = PREV
+							modifier = opinion_angry
+							years = 5
+						}
+						reverse_opinion = {
+							who = PREV
+							modifier = opinion_angry
+							years = 2
+						}
+					}
+					set_defacto_liege = THIS
+					any_demesne_title = {
+						limit = {
+							OR = {
+								tier = COUNT
+								tier = DUKE
+							}
+						}				
+						set_variable = { which = "de_facto_kingdom" value = 3 } 
+					}
+				}
+			}
+		}
 	}
 }

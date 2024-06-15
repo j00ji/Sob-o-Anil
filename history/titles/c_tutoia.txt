@@ -1,0 +1,13 @@
+# e_nordeste
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_maranhao
+}
+2360.1.1={
+	holder=30030 #Rodrigo
+	liege=d_lencois
+}
+

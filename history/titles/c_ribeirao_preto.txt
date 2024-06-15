@@ -1,0 +1,21 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2319.1.1={
+	holder = 110735 #Antônio Pinguim
+}
+2331.1.1 = { #the Mineiro Invasion
+	holder = 110685 #Rodrigo I Desterro
+}
+2348.11.3 = { 
+	holder = 110687 #Rodrigo II Desterro
+}
+2364.3.13 = {
+	holder = 590035 #Tião
+	liege = k_minas_gerais
+}

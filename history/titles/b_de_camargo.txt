@@ -1,0 +1,38 @@
+2140.1.1 = {
+	holder = 110210 #Paulo de Camargo
+	liege = c_ubatuba
+}
+2180.7.5 = {
+	holder = 110211 #Eduardo de Camargo
+}
+2186.11.3 = {
+	holder = 110212 #João de Camargo
+}
+2192.12.5 = { #Conquest of Ubatuba, Clemente
+	holder = 110214 #Enzo de Camargo
+	liege = d_santos
+}
+2193.11.2 = { #Clemente proclaims the Kingdom of Santos
+	liege = d_santos
+}
+2213.12.2 = {
+	holder = 110216 #Renato de Camargo
+}
+2245.11.2 = {
+	holder = 110218 #Sinésio de Camargo
+}
+2272.11.28 = {
+	holder = 110219 #Afrânio de Camargo
+}
+2295.12.10 = {
+	holder = 110220 #Artur de Camargo
+}
+2303.1.18 = {
+	holder = 110223 #Diego de Camargo 
+}
+2307.2.3 = {
+	holder = 110222 #Ágata de Camargo
+}
+2326.9.30 = {
+	holder = 0 
+}

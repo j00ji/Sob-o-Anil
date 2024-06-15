@@ -1,0 +1,17 @@
+2277.1.1 = {
+	holding_dynasty = 55005 
+	liege = d_santos
+	holder = 110251 #Diogo Schimidt
+}
+2317.4.22 = {
+	holder = 110270 #Rogério Schimidt
+}
+2328.9.11 = {
+	holder = 110271 #Marcos Schimidt
+}
+2354.7.3 = {
+	holder = 110272 #Marcela Schimidt
+}
+2360.2.3 = {
+	holder = 110274 #Bernardo Schimidt
+}

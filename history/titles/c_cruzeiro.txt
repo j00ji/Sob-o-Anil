@@ -1,0 +1,12 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2361.2.13 = {
+	holder = 110439 #Alberto Ramalho
+	liege = d_alto_paraiba
+}

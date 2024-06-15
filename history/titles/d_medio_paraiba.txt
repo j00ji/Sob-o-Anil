@@ -1,0 +1,11 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_fluminense
+}
+2358.7.6 = {
+	holder = 80012
+}

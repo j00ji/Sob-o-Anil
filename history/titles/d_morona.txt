@@ -1,0 +1,12 @@
+# k_ecuador
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_ecuador
+}
+2360.1.1={
+	holder = 860026 #César Carvajal
+	liege=0
+}

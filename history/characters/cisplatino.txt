@@ -203,6 +203,7 @@
 	stewardship=15
 	intrigue=7
 	learning=8
+	father=260029
 	2331.1.1={
 		birth=yes
 	}
@@ -329,7 +330,7 @@
 	name="Zaida"
 	dynasty=110004 #Habibs
 	female=yes
-	#father= we should later look into giving her a proper family history, she's supposed to be a reference to Zaida of Seville
+	father = 260029
 	culture=arabic
 	religion=herderos
 	trait=intricate_webweaver
@@ -614,6 +615,27 @@
 	2400.1.1={
 		death=yes
 	}
+}
+260029={
+	name="Jacó"
+	dynasty=110004 #Habibs
+	culture=paranaense
+	religion=herderos
+	trait=midas_touched
+	trait=charitable
+	trait=gregarious
+	diplomacy=6
+	martial=12
+	stewardship=15
+	intrigue=7
+	learning=8
+	2300.1.1={
+		birth=yes
+	}
+	2360.1.1={
+		death=yes
+	}
+	#Former duke of Guayra
 }
 270001={
 	name="Ramon"
@@ -1060,7 +1082,7 @@
 	stewardship=9
 	intrigue=9
 	learning=8
-	2297.1.1={
+	2287.1.1={
 		birth=yes
 	}
 	2364.1.1={
@@ -1143,6 +1165,7 @@
 	dynasty=90005 #César
 	culture=greenbelly
 	religion=celeste
+	father=270018
 	trait=thrifty_clerk
 	trait=humble
 	trait=kind
@@ -1199,6 +1222,7 @@
 	name="Camila"
 	dynasty=90005 #César
 	female=yes
+	father=270018
 	culture=greenbelly
 	religion=celeste
 	trait=underhanded_rogue
@@ -1224,6 +1248,7 @@
 	trait=proud
 	trait=craven
 	trait=trusting
+	father=270059
 	2308.1.1={
 		birth=yes
 	}
@@ -1510,6 +1535,7 @@
 	trait=wroth
 	trait=robust
 	trait=zealous
+	father=270059
 	2296.1.1={
 		birth=yes
 	}
@@ -1609,6 +1635,8 @@
 	trait=poet
 	trait=ambitious
 	trait=gamer
+	father = 270042
+	mother = 270044
 	diplomacy=11
 	martial=9
 	stewardship=7
@@ -1629,6 +1657,8 @@
 	religion=anchietican
 	trait=thrifty_clerk
 	trait=diligent
+	father=270042
+	mother=270044
 	diplomacy=9
 	martial=7
 	stewardship=12
@@ -1852,10 +1882,10 @@
 	trait=gluttonous
 	trait=charitable
 	trait=one_eyed
-	2324.1.1={
+	2304.1.1={
 		birth=yes
 	}
-	2400.1.1={
+	2380.1.1={
 		death=yes
 	}
 	#member of the Contestado court
@@ -1870,6 +1900,7 @@
 	trait=proud
 	trait=strategist
 	trait=heavy_infantry_leader
+	father=270057
 	2322.1.1={
 		birth=yes
 	}
@@ -1877,6 +1908,15 @@
 		death=yes
 	}
 	#member of the Contestado court
+}
+270059={
+	name="Wagner"
+	dynasty=100007 #Renaux
+	culture=hunsruckisch
+	religion=evangelical
+	trait=branch_methodist
+	2271.2.13={birth=yes}
+	2324.1.1={death=yes}
 }
 280001={
 	name="Humberto"
@@ -2385,7 +2425,7 @@
 			add_claim=d_porto_alegre
 			add_claim=c_porto_alegre
 		}
-		employer=k_serra_gaucha
+		employer=300001
 	}
 	2400.1.1={
 		death=yes
@@ -2406,7 +2446,7 @@
 	stewardship=15
 	intrigue=10
 	learning=8
-	310.1.1={
+	2310.1.1={
 		birth=yes
 	}
 	2354.1.1={
@@ -2885,7 +2925,7 @@
 300001={
 	name="Paulo"
 	dynasty=105001 #Taurer
-	culture=talian
+	culture=hunsruckisch
 	religion=evangelical
 	trait=charismatic_negotiator
 	trait=strong
@@ -2912,7 +2952,7 @@
 	name="Bárbara"
 	dynasty=105500 #Rossi
 	female=yes
-	culture=hunsruckisch
+	culture=talian
 	religion=celeste
 	trait=scholarly_theologian
 	trait=fair
@@ -2931,7 +2971,7 @@
 }
 300003={
 	name="Vinicius"
-	dynasty=105004 #taurus
+	dynasty=105001 #taurus
 	culture=talian
 	religion=evangelical
 	dna="cbigc0a0ec0"
@@ -2956,7 +2996,7 @@
 }
 300004={
 	name="Matheus"
-	dynasty=105004 #taurus
+	dynasty=105001 #taurus
 	culture=hunsruckisch
 	religion=celeste
 	father=300001
@@ -2997,7 +3037,7 @@
 }
 300006={
 	name="Sophie"
-	dynasty=105004 #taurus
+	dynasty=105001 #taurus
 	culture=talian
 	religion=mucker
 	female=yes
@@ -3074,6 +3114,7 @@
 	2355.1.1={death=yes}
 	#former ruler of Francisco Beltrão and Pato Branco, created the duchy of vale do iguaçu
 }
+
 310003={
 	name="Leôncio"
 	dynasty=110009 #Kuznetsovsky
@@ -3084,7 +3125,7 @@
 	add_trait=diligent
 	add_trait=humble
 	add_trait=content
-
+	father=310002
 	martial=5
 	diplomacy=3
 	intrigue=4
@@ -3098,6 +3139,7 @@
 	2400.1.1={death=yes}
 	#ruler of Francisco Beltrão
 }
+
 310004={
 	name="Bozena"
 	dynasty=110009 #Kuznetsovsky	
@@ -3113,6 +3155,8 @@
 	add_trait=content
 	add_trait=zealous
 
+	father=310002
+	
 	martial=2
 	diplomacy=5
 	intrigue=4

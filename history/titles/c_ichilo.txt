@@ -1,0 +1,12 @@
+# k_grigota
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_grigota
+}
+2366.1.1={
+	liege=d_santa_cruz
+	holder=810026 #Alfredo Barrientos
+}

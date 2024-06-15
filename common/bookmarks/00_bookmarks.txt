@@ -8,6 +8,24 @@ bm_cono_sur = {
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 	
 	selectable_character = {
+		id = 230006 # Diego Bartales
+		age = 35
+		name = ERA_CHAR_NAME_CHARLES
+		title = k_chile
+		title_name = CHILE
+		
+		character = {
+			female = no
+			dna="aaafg00ade0"
+			properties="0t00ek"
+			religion="catholic"
+			culture="centrino"
+			government = feudal_government
+			dynasty=145011
+		}
+	}
+	
+	selectable_character = {
 		id = 330007 #Estanislao Valle
 		age = 45
 		name = ERA_CHAR_NAME_ESTANISLAO
@@ -79,23 +97,6 @@ bm_cono_sur = {
 		}
 	}
 	
-	selectable_character = {
-		id = 230006 # Diego Bartales
-		age = 35
-		name = ERA_CHAR_NAME_CHARLES
-		title = k_chile
-		title_name = CHILE
-		
-		character = {
-			female = no
-			dna="aaafg00ade0"
-			properties="0t00ek"
-			religion="catholic"
-			culture="centrino"
-			government = feudal_government
-			dynasty=145011
-		}
-	}
 }
 
 bm_cordillera = {

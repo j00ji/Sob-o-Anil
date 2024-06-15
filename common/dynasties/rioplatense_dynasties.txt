@@ -1922,3 +1922,21 @@
 	religion = platinean
 	used_for_random = no
 }
+
+355078 = {
+	name = "Argento"
+	culture = litoraleno
+	religion = catholic
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 18
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

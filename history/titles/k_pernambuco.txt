@@ -1,0 +1,13 @@
+# k_pernambuco
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+2353.11.2={ #Belchior routs the Salvadorense out of Pernambuco
+	holder = 1 #Antônio Carlos Belchioringio
+	#name = RECIFE_KINGDOM
+	#adjective = RECIFE_KINGDOM_ADJ
+}
+2362.2.10={
+	holder = 5 #Cassiano I Belchioringio
+}

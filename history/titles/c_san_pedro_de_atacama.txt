@@ -1,0 +1,8 @@
+# e_chile
+800.1.1={
+	liege=k_atacama
+}
+2366.12.25={
+	holder=220015
+	liege=d_antofagasta
+}

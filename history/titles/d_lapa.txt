@@ -1,0 +1,15 @@
+# e_bahia
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	#liege=k_sao_francisco
+}
+2350.1.10={
+	liege=none
+	holder=60002 #Horácio de Matos
+}
+2363.10.26={
+	liege=none
+}

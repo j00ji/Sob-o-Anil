@@ -1,0 +1,12 @@
+# e_bahia
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	#liege=k_sao_francisco
+}
+2364.1.23={
+	liege=none
+	holder=40047 #Valentim I Caravelas
+}

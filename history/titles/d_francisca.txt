@@ -1,0 +1,14 @@
+# e_nordeste
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_pernambuco
+}
+2352.1.1={
+	holder=31 #Constantino Quelê
+}
+2366.6.29={
+	liege=0
+}

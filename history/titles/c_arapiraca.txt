@@ -1,0 +1,11 @@
+# e_nordeste
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=d_alagoas
+}
+2342.12.3={
+	holder=35 #Hermes Pascoal
+}

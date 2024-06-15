@@ -1,0 +1,9 @@
+800.1.1={
+	liege=k_tierra_del_fuego
+}
+2215.9.17={
+	holder = 500001
+}
+2222.2.22={
+	holder = 0
+}

@@ -11,7 +11,7 @@
 	properties="0g0aik"
 
 	diplomacy = 8
-	martial = 5
+	martial = 10
 	stewardship = 8
 	intrigue = 5
 	learning = 6
@@ -31,6 +31,7 @@
 		add_trait="experimenter"
 		add_trait="organizer"
 		add_trait="inspiring_leader"
+		add_trait="brave"
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="proud"
@@ -81,7 +82,7 @@
 	properties="0s00dk0000000l"
 
 	diplomacy = 4
-	martial = 5
+	martial = 1
 	stewardship = 4
 	intrigue = 5
 	learning = 4
@@ -103,6 +104,7 @@
 		add_trait="skilled_tactician"
 		add_trait="aggressive_leader"
 		add_trait="organizer"
+		add_trait="brave"
 		add_trait="diligent"
 		add_trait="wroth"
 		add_trait="proud"
@@ -110,10 +112,9 @@
 		add_trait="cruel"
 		add_trait="zealous"
 		add_trait="ambitious"
-		add_trait="duelist"
 	}
 	2346.1.1 = {
-		add_spouse=640086 # Olivia Rossi
+		add_spouse=640086 # Olivia Massa
 	}
 	2364.7.5 = {
 		add_trait="crusader"
@@ -129,7 +130,7 @@
 	dynasty=285054
 	
 	diplomacy = 4
-	martial = 5
+	martial = 4
 	stewardship = 4
 	intrigue = 5
 	learning = 4
@@ -166,7 +167,7 @@
 	}
 }
 640086 = {
-    name="Olivia" # Olivia Rossi, wife of Felix Uriburu the Infernal.
+    name="Olivia" # Olivia Massa, wife of Felix Uriburu.
     dynasty=285055
 	female=yes
 
@@ -208,7 +209,7 @@
     religion=catholic
 	
 	father=640085 # Felix Uriburu
-	mother=640086 # Olivia Rossi
+	mother=640086 # Olivia Massa
 
     trait=charismatic_negotiator
     trait=quick
@@ -227,16 +228,17 @@
     name="Evaristo"
     dynasty=285054 # Uriburu
 
-	father=640085
-	mother=640086
-    culture=norteno
-    religion=catholic
-
     martial=2
     diplomacy=1
     stewardship=2
     intrigue=3
     learning=2
+
+	culture=norteno
+    religion=catholic
+
+	father=640085 # Felix Uriburu
+	mother=640086 # Olivia Massa
 
     2349.1.1={birth=yes}
 }
@@ -258,8 +260,8 @@
 
 	add_trait="fair"
 
-	father=640085
-	mother=640086
+	father=640085 # Felix Uriburu
+	mother=640086 # Olivia Massa
 
     2351.1.1 = {
 		birth=yes
@@ -1294,27 +1296,67 @@
 ##################
 ### House Maza ###
 ##################
-640054={
-    name="Santiago"
-    dynasty=285031 # Maza
-    culture=cuyano
+640120 = {
+	name="José" # José Maza the Baptist, Duke of San Juan.
+    dynasty=285031
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=cuyano
     religion=catholic
-    martial=5
-    diplomacy=3
-    stewardship=3
-    intrigue=4
-    learning=4
-    trait=skilled_tactician
-    trait=crusader
-    trait=brave
-    trait=just
-    trait=temperate
-    trait=kind
-    trait=wroth
-    2340.1.1={birth=yes}
-	2364.1.1={add_spouse=640055}
-    2370.1.1={death=yes}
-}#Count of San Juan
+	
+	2319.1.1 = {
+		birth=yes
+	}
+	2364.11.8 = {
+		death = {
+			death_reason=death_battle # Battle of Buenos Aires
+            killer=330007 # Lionel Valle
+		}
+	}
+}
+### Issue of Antonio the Baptist ###
+640054 = {
+    name="Manuel" # Manuel Maza the Thrice-Killed, Duke of San Juan.
+    dynasty=285031
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 4
+
+	culture=cuyano
+    religion=catholic
+
+	disallow_random_traits = yes
+
+	father=640120
+
+    2340.4.5 = {
+		birth="2340.4.5"
+	}
+	2356.4.5 = {
+		add_trait="skilled_tactician"
+		add_trait="unyielding_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_spouse=640055
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+	}
+}
 640055={
     name="Nina"
     dynasty=285032 # Vásquez
@@ -1332,63 +1374,177 @@
     trait=erudite
     2342.1.1={birth=yes}
     2400.1.1={death=yes}
-}#Wife of the Count Santiago Maza
-### Issue of Santiago ###
-640056={
-    name="Eleuterio"
-    dynasty=285031 # Maza
-	father=640054
-	mother=640055
-    culture=cuyano
+}
+### Issue of Manuel ###
+640056 = {
+    name="Eleuterio" #
+    dynasty=285031
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=cuyano
+	religion=catholic
+
+	father=640054 # Manuel Maza
+	mother=640055 # Vásquez
+
+    2357.1.1 = {
+		birth=yes
+	}
+}
+###################
+### House Aldao ###
+###################
+640121 = {
+	name="Francisco" # Francisco Aldao, Duke of Mendoza.
+    dynasty=285024
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=cuyano
     religion=catholic
-    martial=1
-    diplomacy=2
-    stewardship=2
-    intrigue=1
-    learning=2
-    2366.1.1={birth=yes}
-    2450.1.1={death=yes}
-}#First child
-########################
-### House Villanueva ###
-########################
+
+	disallow_random_traits = yes
+
+	add_trait="strong"
+
+	2319.10.11 = {
+		birth="2319.10.11"
+	}
+	2335.10.11 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2338.4.25 = {
+		add_spouse=640122 # Carolina Villanueva
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+	}
+	2364.11.8 = {
+		death = {
+			death_reason=death_battle # Battle of Buenos Aires
+            killer=330007 # Lionel Valle
+		}
+	}
+}
+640122 = {
+	name="Carolina" # Carolina Villanueva, Wife of Francisco Aldao.
+    dynasty=285024
+	female=yes
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=cuyano
+    religion=catholic
+
+	2319.1.19 = {
+		birth="2319.1.19"
+	}
+	2335.1.19 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2369.2.1 = {
+		death="2369.2.1"
+	}
+}
+### Issue of Francisco the Knight of the Andes ###
 640046 = {
-    name="Luis"
-    dynasty=285024 # Villanueva
+    name="José" # José Aldao, Duke of Mendoza.
+    dynasty=285024
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
     culture=cuyano
     religion=catholic
-    martial=3
-    diplomacy=3
-    stewardship=4
-    intrigue=4
-    learning=5
-    trait=detached_priest
-    trait=erudite
-    trait=charitable
-    trait=patient
-    2341.1.1={birth=yes}
-	2367.1.1={add_spouse=640047}
-    2370.1.1={death=yes}
-}#Duke of Mendoza, rules Huentota and Malargue
-640047={
-    name="Julia"
-    dynasty=285025 # Rosa
-    culture=cuyano
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=640121 # Joaquín Aldao
+	mother=640122 # Carolina Villanueva
+
+    2339.7.18 = {
+		birth="2339.7.18"
+	}
+	2355.7.18 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2358.6.15 = {
+		add_spouse=640047 # Julia Rosa
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+	}
+}
+640047 = {
+    name="Clementina" # Clementina Benegas, wife of José Aldao.
+    dynasty=290009
+	female=yes
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=cuyano
     religion=catholic
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=intricate_webweaver        
-    trait=deceitful
-    trait=gregarious
-    trait=proud
-    trait=envious
-    2345.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Wife of the Count Luis Villanueva
+
+    2339.4.8 = {
+		birth="2339.4.8"
+	}
+	2355.4.8 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of José the Heretic Slayer ###
+
 ####################
 ### House Llaver ###
 ####################
@@ -1731,10 +1887,10 @@
     trait=fair
     trait=kind
     2335.1.1={birth=yes}
-    2365.1.1={
-		death={
-			death_reason=death_battle
-			killer=330007
+    2364.11.8 = {
+		death = {
+			death_reason=death_battle # Battle of Buenos Aires
+            killer=330007 # Lionel Valle
 		}
 	}
 }#Husband of the Countess Maria Matanza, killed in battle by the King of Buenos Aires in 2365.1.1
@@ -1866,7 +2022,8 @@
     trait=erudite
     2019.1.1={birth=yes}
     2119.1.1={death=yes}
-}#First Legendary King of Cordoba from 2050.1.1 to 2119.1.1, also Count of La Docta
+}
+### Issue of Rama ###
 640033={
     name="Alberto"
     dynasty=285005 # de Sarak
@@ -1887,7 +2044,8 @@
     trait=gregarious
     2090.1.1={birth=yes}
     2220.1.1={death=yes}
-}#Second Legendary King of Cordoba, ruled from 2119.1.1 to 2220.1.1, also Count of La Docta
+}
+### Issue of Alberto ###
 640034={
 	name="Rama"
     dynasty=285005 # de Sarak
@@ -1908,7 +2066,8 @@
     trait=diligent
     2200.1.1={birth=yes}
     2300.1.1={death=yes}
-}#Third Legendary King of Cordoba, ruled from 2220.1.1 to 2300.1.1, also Count of La Docta
+}
+### Issue of Rama II ###
 640035={
 	name="Boudh"
 	father=640034
@@ -1929,7 +2088,8 @@
     trait=craven
     2280.1.1={birth=yes}
     2333.1.1={death=yes}
-}#Fourth (and First non-Legendary) King of Cordoba, ruled from 2300.1.1 to 2333.1.1, also Count of La Docta
+}
+### Issue of Boudh ###
 640036={
 	name="Sartini"
     dynasty=285005 # de Sarak
@@ -1949,8 +2109,14 @@
     trait=content
     trait=honest
     2312.1.1={birth=yes}
-    2363.1.1={death=yes}
-}#Last (and Second non-Legendary) King of Cordoba, ruled from 2333.1.1 to 2363.1.1, also Count of La Docta, killed by the crusader Yoshimar Cuba, the Kingdom of Cordoba is destroyed
+    2363.1.1={
+		death = {
+			death_reason=death_murder_poison
+			killer=640003 # Antonia Luz
+		}
+	}
+}
+### Issue of Sartini ###
 640007 = {
     name="Krishna"
     dynasty=285005 # de Sarak
@@ -1972,7 +2138,7 @@
     2330.1.1={birth=yes}
 	2360.1.1={add_spouse=640008}
     2375.1.1={death=yes}
-}#Count of El Imperio, son of King Sartini Sarak
+}
 640008 = {
     name="Sarah"
     dynasty=285006 # Briggs 
@@ -1990,7 +2156,8 @@
     trait=kind
     2335.1.1={birth=yes}
     2380.1.1={death=yes}
-}#Wife of the Count Krishna de Sarak
+}
+### Issue of Krishna ###
 640009 = {
     name="Maitreya"
     dynasty=285005 # de Sarak
@@ -2006,7 +2173,7 @@
     trait=willful
     2368.1.1={birth=yes}
     2750.1.1={death=yes}
-}#First child, preset to be a Child of Destiny
+}
 #################
 ### House Luz ###
 #################
@@ -2014,84 +2181,116 @@
     name="Antonia"
     dynasty=285003 # Luz
     female=yes
-    culture=cordobes
-    religion=theosophist
-    martial=4
-    diplomacy=4
-    stewardship=4
-    intrigue=6
-    learning=6
-    trait=scholarly_theologian
+
+	diplomacy = 8
+	martial = 10
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+
+	culture=cordobes
+	religion=theosophist
+
+    trait=intricate_webweaver
     trait=mystic
     trait=diligent
     trait=lustful
-    trait=gregarious
-    trait=proud
-    trait=ambitious
-    trait=erudite
-    2327.1.1={birth=yes}
-	2363.1.1={add_matrilineal_spouse=640004}
-	2365.1.1={
-		effect={
-			give_nickname = nick_the_bruja
+	trait=gregarious
+	trait=proud
+	trait=ambitious
+	trait=erudite
+
+    2327.1.1 = {
+		birth=yes
+	}
+	2347.1.1 = {
+		add_matrilineal_spouse=640004
+	}
+	2363.1.1 = {
+		give_nickname=nick_the_bruja
+	}
+    2364.8.18 = {
+		death = {
+			death_reason=death_execution_boiling
+			killer=640085 # Felix Uriburu
 		}
 	}
-    2370.1.1={death=yes}
-	#Duchess of Cordoba, rules La Docta, San Justo, and Rivadavia
 }
 640004 = {
-    name="Juan"
-    dynasty=285004 # Spairani
-    culture=cordobes
-    religion=theosophist
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
+	name="Juan" # Juan Spairani, husband of Antonia Luz.
+	dynasty=285004
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=cordobes
+	religion=theosophist
+
     trait=martial_cleric
     trait=zealous
     trait=humble
     trait=gregarious
     trait=diligent
-    2340.1.1={birth=yes}
-    2370.1.1={death=yes}
-	#Husband of the Duchess, matrilineal marriage
+
+	2327.1.1 = {
+		birth=yes
+	}
+	2364.8.18 = {
+		death = {
+			death_reason=death_execution_boiling
+			killer=640085 # Felix Uriburu
+		}
+	}
 }
+### Issue of Antonia the Bruja ###
 640005 = {
-    name="Alejandra"
-    dynasty=285003 # Luz
-	father=640004
-	mother=640003
-    culture=cordobes
-    religion=theosophist
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=2
-    intrigue=3
-    learning=3
-    trait=affectionate        
-    trait=playful
-    2365.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#First child of Antonio Luz and Juan Spairani
+    name="Alejandra" # Alejandra Luz, wife of Patricio Guevara and Queen of Cordoba.
+    dynasty=285003
+	female=yes
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+
+	culture=cordobes
+	religion=theosophist
+
+	father=640004 # Juan Spairani
+	mother=640003 # Antonia Luz
+
+    2348.1.1 = {birth=yes}
+}
 640006 = {
-    name="Jose"
-    dynasty=285003 # Luz
-	father=640004
-	mother=640003
-    culture=cordobes
-    religion=theosophist
-    martial=2
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=2
-    trait=willful
-    2366.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Second child of Antonio Luz and Juan Spairani
+    name="Jose" # Jose Luz.
+    dynasty=285003
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+
+	culture=cordobes
+	religion=theosophist
+
+	father=640004 # Juan Spairani
+	mother=640003 # Antonia Luz
+
+    2350.1.1 = {
+		birth=yes
+	}
+	2364.8.18 = {
+		death = {
+			death_reason=death_execution_boiling
+			killer=640085 # Felix Uriburu
+		}
+	}
+}
 #####################
 ### House Sorondo ###
 #####################
@@ -2213,4 +2412,44 @@
     learning=1
     2364.1.1={birth=yes}
     2400.1.1={death=yes}
+}
+#####################
+### House Guevara ###
+#####################
+641959 = {
+	name="Patricio" # Patricio Guevara the Furious, Crusader King of Cordoba.
+	dynasty=285096
+	dna="ahi0h00aab0"
+	properties="0d00ek0000000a"
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+
+	culture=cordobes
+	religion=catholic
+
+	disallow_random_traits = yes
+
+	2334.6.14 = {
+		birth="2334.6.14"
+	}
+	2350.6.14 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2364.8.18 = {
+		add_trait="one_eyed"
+		add_trait="crusader_king"
+		add_spouse=640005 # Alejandra Luz
+		give_nickname=nick_the_furious
+	}
 }

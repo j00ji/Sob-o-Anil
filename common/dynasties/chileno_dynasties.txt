@@ -267,6 +267,17 @@
 	religion = camino_estelar
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 140035 = {
 	name="Baquedano"
@@ -348,9 +359,11 @@
 	religion = catholic
 }
 145006 = {
-	name = "Mena"
+	name = "Orrego"
 	culture = centrino
 	religion = catholic
+	can_appear = no
+	used_for_random = no
 }
 145007 = {
 	name = "López"
@@ -363,6 +376,8 @@
 	name = "Matte"
 	culture = centrino
 	religion = catholic
+	can_appear = no
+	used_for_random = no
 }
 145009 = {
 	name = "Sepúlveda"
@@ -923,7 +938,7 @@
 	used_for_random = no
 }
 150033 = {
-	name="Osorio"
+	name="Pareja"
 	culture = huaso
 	religion = catholic
 	can_appear = no
@@ -931,6 +946,34 @@
 }
 150034 = {
 	name="Llanos"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150035 = {
+	name="Meneses"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150036 = {
+	name="Benavides"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150037 = {
+	name="Alvarado"
+	culture = huaso
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+150038 = {
+	name="Osorio"
 	culture = huaso
 	religion = catholic
 	can_appear = no

@@ -321,7 +321,7 @@ e_chile = {
 				b_santo_domingo = {}
 				b_llolleo = {}
 			}
-			c_san_felipe = { # 303
+			c_aconcagua = { # 303
 				color={ 220 140 30 }
 				color2={ 255 255 255 }
 				

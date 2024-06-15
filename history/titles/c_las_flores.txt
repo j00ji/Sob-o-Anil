@@ -1,0 +1,10 @@
+# e_la_plata
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+
+2368.1.1={
+	holder = 330005 #Adolfo Paz
+	liege = k_buenos_aires
+}

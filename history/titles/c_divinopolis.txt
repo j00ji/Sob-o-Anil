@@ -1,0 +1,13 @@
+2280.1.1={
+	holder = 180008 #Sérgio Cúbico
+}
+2307.3.5={
+	holder = 110684
+}
+2320.1.1 = {
+	holder = 590028
+	liege = k_minas_gerais
+}
+2366.2.20={
+	holder = 590031
+}

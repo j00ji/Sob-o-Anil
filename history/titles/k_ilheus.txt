@@ -1,0 +1,32 @@
+# k_ilheus
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+2172.5.28 = {
+	holder = 40013 #Guilherme I de Azevedo
+}
+2225.12.1 = {
+	holder = 40014 #Lídia I de Azevedo
+}
+2249.11.3 = {
+	holder = 40015 #Samuel I de Azevedo
+}
+2259.12.3 = {
+	holder = 40016 #Manuel I de Azevedo
+}
+2280.10.5 = {
+	holder = 40018 #Felipe I de Azevedo
+}
+2300.12.30 = {
+	holder = 40017 #Candelária I de Azevedo
+}
+2320.11.3 = {
+	holder = 40006 #Fátima I "the Great" de Pelourinho
+}
+2323.7.2 = {
+	holder = 0 #Empire of Salvador
+}
+2361.3.1 = {
+	holder = 40031 #João Figueiredo Correia
+}

@@ -633,3 +633,34 @@ d_los_cruzados = { # Los Cruzados
 	# Cannot be held as a secondary title
 	primary = yes
 }
+
+d_hueso_pirata = { # Hueso Pirata
+	color = { 255 222 89 }
+	color2 = { 220 220 0 }
+
+	capital = 334 # c_coquimbo
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	allow = {
+		has_landed_title = k_atacama
+		has_landed_title = k_norte_chico
+	}
+
+	# Always exists
+	landless = yes
+
+	mercenary = yes
+
+	mercenary_type = futebol_composition
+
+	strength_growth_per_century = 1.00
+
+	religion = catholic
+	
+	culture = atacameno
+
+	# Cannot be held as a secondary title
+	primary = yes
+}

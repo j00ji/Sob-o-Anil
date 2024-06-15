@@ -1,0 +1,13 @@
+# k_cabo_norte
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+2354.12.21={ #Belchior crushes last Salvadorense forces in Cabo Norte
+	holder = 1 #Antônio Carlos Belchioringio
+	#name = NATAL_KINGDOM
+	#adjective = NATAL_KINGDOM_ADJ
+}
+2362.2.10={
+	holder = 3 #Celestino I Belchioringio
+}

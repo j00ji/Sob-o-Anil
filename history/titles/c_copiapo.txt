@@ -7,6 +7,6 @@
 	liege=k_atacama
 }
 2360.10.20 = {
-	holder=220008
-	liege=d_coquimbo
+	holder=220043
+	liege=d_copiapo
 }

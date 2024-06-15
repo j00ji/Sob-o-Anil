@@ -5,11 +5,11 @@
 800.1.1 = {
 	liege=k_chile
 }
-2342.4.9 = {
+2335.9.3 = {
 	holder=230026 # Raúl Edwards
 	liege=d_valparaiso
 }
-2348.9.18 = {
+2339.4.27 = {
 	holder=230084 # Tomás Salas
 }
 2368.5.2 = {

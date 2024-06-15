@@ -1,0 +1,17 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2360.1.1 = {
+	holder = 110724 #Chico Bento Reference
+	liege = d_aracatuba
+}
+2364.3.13 = {
+	set_tribute_suzerain={
+		who=d_rio_preto
+		type=permanent 
+	}
+}

@@ -1,0 +1,25 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_sao_paulo
+}
+2230.1.1={
+	holder = 110611 #João de Cananeia
+	liege = k_santos
+}
+2255.1.1={
+	holder = 110612 #Cosme de Cananeia
+}
+2283.1.1 = {
+	holder = 110613 #Martim de Cananeia
+	liege = 0
+}
+2300.1.1={
+	holder = 110614 #Cosme I
+}
+2337.1.1={
+	holder = 110615 #Cosme II
+}

@@ -1,0 +1,15 @@
+# e_nordeste
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_pernambuco
+}
+2362.2.10={
+	holder = 3 #Severino I Belchioringio
+}
+2366.6.29={
+	holder = 23 #Camilo Arraes
+	liege = d_recife
+}

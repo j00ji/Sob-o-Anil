@@ -1,0 +1,14 @@
+# e_chile
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_araucania
+}
+2304.6.16 = {
+	holder = 480001
+}
+2330.10.8 = {
+	holder = 480003
+}

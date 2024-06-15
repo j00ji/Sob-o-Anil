@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_gran_chaco
+}
+2357.1.1={
+	liege=d_chaco
+	holder=640066 #Daniel Kaufman
+}

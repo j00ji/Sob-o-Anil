@@ -1,0 +1,35 @@
+# k_triangle
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+2140.1.1={
+	holder = 570001
+}
+2173.1.1={
+	holder = 570002
+}
+2195.1.1={
+	holder = 570003
+}
+2220.1.1={
+	holder = 570004
+}
+2240.1.1={
+	holder = 570005
+}
+2251.1.1={
+	holder = 570006
+}
+2293.1.1={
+	holder = 570008
+}
+2307.3.28={
+	holder = 570009
+}
+2322.9.1={
+	holder = 570015
+}
+2367.6.13 = {
+	holder = 570016
+}

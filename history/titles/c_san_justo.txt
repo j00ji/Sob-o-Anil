@@ -1,0 +1,14 @@
+# e_interior
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_cordoba
+}
+2360.1.1={
+	holder=640003 #Antonia Luz
+}
+2364.9.1 = {
+	holder=641959 # Patricio Guevara
+}

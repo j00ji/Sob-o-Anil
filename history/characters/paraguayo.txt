@@ -162,8 +162,59 @@
 
 	#Fellow Crusader and friend of the King of Paraguay, Marshal of Paraguay
 }
+330046 = {
+	name="Carlos"
+    dynasty=365042 # Lopez
+    culture=asunceno
+    religion=catholic
+    martial=3
+    diplomacy=3
+    stewardship=5
+    intrigue=4
+    learning=4
+    trait=martial_cleric        
+    trait=physician
+    trait=one_legged
+    trait=proud
+    trait=ambitious
+    trait=greedy
+    trait=diligent
+    2328.1.1={birth=yes}
+	2368.1.1={
+		employer=330001
+		effect={give_minor_title=title_court_physician}
+	}
+    2390.1.1={death=yes}
 
+	#Corina’s father and the Kingdom of Paraguay’s court physician
+}
 
+330047 = {
+	name="Pancho"
+    dynasty=365042 # Lopez
+    culture=asunceno
+    religion=catholic
+    martial=6
+    diplomacy=3
+    stewardship=5
+    intrigue=4
+    learning=4
+    trait=tough_soldier        
+    trait=inspiring_leader
+    trait=possessed
+    trait=zealous
+    trait=gregarious
+    trait=ambitious
+    trait=diligent
+    trait=stubborn
+    trait=envious
+    trait=proud
+    2350.1.1={birth=yes}
+	2368.1.1={
+		employer=330001
+	}
+    2371.1.1={death=yes}
+}
 #######################
 ### House Hernandez ###
 #######################

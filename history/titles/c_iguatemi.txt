@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_mato_grosso
+}
+2360.1.1={
+	holder = 210034 #Libânio
+	liege=k_paraguay
+}

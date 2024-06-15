@@ -22,18 +22,6 @@ alexandre = {
 	picture = GFX_bloodlines_symbol_lion
 	flags = { historical_bloodline bloodline_heroes }
 }
-catrillanca = {
-	monthly_character_prestige = 0.25
-	martial = 1
-	combat_rating = 5
-	mapuche_opinion = 10
-	huaso_opinion = -10
-	sureno_opinion = -10
-	inheritance = patrilineal
-	allow_bastards = yes 
-	picture = GFX_bloodlines_symbol_war
-	flags = { historical_bloodline bloodline_heroes }
-}
 ghassanid = {
 	diplomacy = 2
 	christian_opinion = 10
@@ -95,7 +83,29 @@ bloodline_tomas_slayer = {
 	picture = GFX_bloodlines_symbol_lion
 	flags = { historical_bloodline }
 }
-felipe_liberator = {
+bloodline_penquista = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 5
+	huaso_opinion = 10
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_lion
+	flags = { historical_bloodline }
+}
+bloodline_morningstar = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 5
+	mapuche_opinion = 10
+	huaso_opinion = -10
+	sureno_opinion = -10
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_war
+	flags = { historical_bloodline }
+}
+bloodline_starbreaker = {
 	monthly_character_prestige = 0.25
 	martial = 1
 	combat_rating = 5
@@ -104,13 +114,14 @@ felipe_liberator = {
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_lion
-	flags = { historical_bloodline bloodline_heroes }
+	flags = { historical_bloodline }
 }
-bloodline_black_eagle = {
+bloodline_teutonic_dragon = {
 	monthly_character_prestige = 0.25
 	martial = 1
 	combat_rating = 5
-	huaso_opinion = 10
+	sureno_opinion = 10
+	mapuche_opinion = -10
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_lion

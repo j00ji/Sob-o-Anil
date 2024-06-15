@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_gran_chaco
+}
+2355.1.1={
+	liege=d_chaco_oriental
+	holder=640072 #Pilar Jotoicha
+}

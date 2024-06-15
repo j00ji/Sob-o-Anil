@@ -282,18 +282,6 @@
 		}
 	}
 }
-35044 = {
-	name = "Garcia"
-	culture = carioca
-}
-55582 = {
-	name = "Calazans"
-	culture = carioca
-}
-35045 = {
-	name = "Oliveira"
-	culture = carioca
-}
 40001 = {
 	name = "da Paixão"
 	culture = mantiqueiro

@@ -1,0 +1,15 @@
+# e_the_south
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_santa_catarina
+}
+2328.1.1 = {
+	liege = d_greater_florianopolis
+	holder = 270026 #Arno Renaux
+}
+2364.1.1={
+	holder = 270027 #Maximiliano Renaux
+}

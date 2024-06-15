@@ -1,0 +1,9 @@
+# e_vera_cruz
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+
+2364.6.29={
+	holder=600006
+}

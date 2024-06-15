@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_goias
+}
+2365.5.5={
+	holder = 180022 #Roberto Kraho
+	liege = d_kraholand
+}

@@ -1,0 +1,9 @@
+800.1.1={
+	liege=k_ilheus
+}
+2348.1.12 = {
+	holder = 40048 #Manuel Freitas
+}
+2360.1.1 = {
+	liege=0
+}

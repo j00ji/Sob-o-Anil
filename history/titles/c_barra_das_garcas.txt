@@ -1,0 +1,10 @@
+800.1.1={
+	liege=k_mato_grosso
+}
+800.1.2={
+	historical_nomad=yes
+}
+2360.1.1={
+	holder = 210017 #Júlio Xavante
+	liege=d_barra_das_garcas
+}

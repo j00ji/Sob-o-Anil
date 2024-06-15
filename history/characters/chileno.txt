@@ -299,7 +299,6 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="zealous"
-		add_trait="erudite"
 	}
 }
 220023 = {
@@ -343,6 +342,10 @@
 	culture=atacameno
 	religion=santa_diablada
 
+	add_trait="strong"
+	
+	disallow_random_traits = yes
+
 	father=220019 # Arturo Tirana
 	mother=220023 # Carolina Rosas
 
@@ -372,7 +375,7 @@
 
 	diplomacy = 4
 	martial = 3
-	stewardship = 1
+	stewardship = 5
 	intrigue = 5
 	learning = 5
 
@@ -431,7 +434,7 @@
 
 	diplomacy = 3
 	martial = 1
-	stewardship = 3
+	stewardship = 7
 	intrigue = 3
 	learning = 3
 
@@ -530,7 +533,7 @@
 	diplomacy = 3
 	martial = 3
 	stewardship = 4
-	intrigue = 5
+	intrigue = 10
 	learning = 6
 
 	culture=atacameno
@@ -855,7 +858,7 @@
 ### House Elqui ###
 ###################
 220041 = {
-	name="Gabriel" # Gabriel Elqui the Griffin, Duke of Coquimbo and Choapa.
+	name="Gabriel" # Gabriel Elqui the Griffin, King of Norte Chico.
 	dynasty=140001
 
 	diplomacy = 3
@@ -875,7 +878,8 @@
 		birth="2311.11.22"
 	}
 	2327.11.22 = {
-		add_trait="skilled_tactician"
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
 		add_trait="aggressive_leader"
 		add_trait="inspiring_leader"
 		add_trait="brave"
@@ -885,8 +889,9 @@
 		add_trait="gregarious"
 		add_trait="zealous"
 		add_trait="ambitious"
+		add_trait="strategist"
 	}
-	2332.2.6 = {
+	2329.2.6 = {
 		add_spouse=220042 # Rosa Cortés
 	}
 	2345.4.13 = {
@@ -935,7 +940,7 @@
 		}
 	}
 }
-### Issue of Gabriel ###
+### Issue of Gabriel the Griffin ###
 220001 = {
 	name="Francisco" # Francisco Elqui, Duke of Coquimbo.
 	dynasty=140001
@@ -956,10 +961,10 @@
 	father=220041 # Gabriel Elqui
 	mother=220042 # Rosa Cortés
 
-	2333.8.26 = {
-		birth="2333.8.26"
+	2331.8.26 = {
+		birth="2331.8.26"
 	}
-	2349.8.26 = {
+	2347.8.26 = {
 		add_trait="skilled_tactician"
 		add_trait="experimenter"
 		add_trait="aggressive_leader"
@@ -975,7 +980,7 @@
 	2350.5.20 = {
 		add_spouse=220044 # María Torres
 	}
-	2358.8.22 = {
+	2369.8.22 = {
 		effect = {
 			add_rival=240035 # Catalina Lisperguer
 		}
@@ -993,16 +998,18 @@
 
 	culture=atacameno
 	religion=catholic
-	
-	add_trait="fair"
-	
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
 	father=220041 # Gabriel Elqui
 	mother=220042 # Rosa Cortés
 
-	2334.9.4 = {
-		birth="2335.9.4"
+	2333.9.4 = {
+		birth="2333.9.4"
 	}
-	2350.9.4 = {
+	2349.9.4 = {
 		add_trait="fortune_builder"
 		add_trait="diligent"
 		add_trait="patient"
@@ -1012,7 +1019,43 @@
 		add_trait="zealous"
 		add_spouse=220045 # Carla Romero
 	}
-	2358.8.22 = {
+	2369.8.22 = {
+		effect = {
+			add_rival=240035 # Catalina Lisperguer
+		}
+	}
+}
+220050 = {
+	name="Jorge" # Jorge Elqui, Captain of the Hueso Pirata mercenary company.
+	dynasty=140001
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=atacameno
+	religion=catholic
+	
+	add_trait="strong"
+	
+	father=220041 # Gabriel Elqui
+	mother=220042 # Rosa Cortés
+
+	2335.8.30 = {
+		birth="2335.8.30"
+	}
+	2351.8.30 = {
+		add_trait="skilled_tactician"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2369.8.22 = {
 		effect = {
 			add_rival=240035 # Catalina Lisperguer
 		}
@@ -1032,10 +1075,10 @@
 	culture=atacameno
 	religion=catholic
 
-	2333.1.10 = {
-		birth="2333.1.10"
+	2331.1.10 = {
+		birth="2331.1.10"
 	}
-	2329.1.10 = {
+	2347.1.10 = {
 		add_trait="underhanded_rogue"
 		add_trait="proud"
 		add_trait="arbitrary"
@@ -1057,10 +1100,10 @@
 	culture=atacameno
 	religion=catholic
 
-	2334.7.21 = {
-		birth="2335.7.21"
+	2333.7.21 = {
+		birth="2333.7.21"
 	}
-	2350.7.21 = {
+	2349.7.21 = {
 		add_trait="underhanded_rogue"
 		add_trait="diligent"
 		add_trait="temperate"
@@ -1286,6 +1329,8 @@
 
 	culture=german
 	religion=catholic
+	
+	disallow_random_traits = yes
 
 	2305.4.16 = {
 		birth="2305.4.16"
@@ -1386,8 +1431,47 @@
 		add_trait="mystic"
 		add_trait="schemer"
 	}
+	2344.4.10 = {
+		add_matrilineal_spouse=230017 # Manuel Bulnes
+	}
 	2368.8.22 = {
 		give_nickname=nick_the_quintrala
+	}
+}
+230017 = {
+	name="Manuel" # Manuel Bulnes, husband of Catalina Lisperguer.
+	dynasty=145016
+	
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+
+	culture=centrino
+	religion=catholic
+	
+	disallow_random_traits = yes
+
+	2325.12.25 = {
+		birth="2325.12.25"
+	}
+	2341.12.25 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2345.4.13 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=220041 # Gabriel Elqui
+		}
 	}
 }
 ### Issue of Catalina the Quintrala ###
@@ -1411,6 +1495,7 @@
 	add_trait="quick"
 
 	mother=240035 # Catalina Lisperguer
+	father=230017 # Manuel Bulnes
 
 	2345.3.2 = {
 		birth="2345.3.2"
@@ -1445,27 +1530,37 @@
 
 	culture=centrino
 	religion=catholic
+	
+	disallow_random_traits = yes
 
 	2310.12.20 = {
 		birth="2310.12.20"
 	}
 	2326.12.20 = {
-		add_trait="fortune_builder"
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
 		add_trait="diligent"
 		add_trait="patient"
-		add_trait="temperate"
 		add_trait="proud"
 		add_trait="gregarious"
 		add_trait="zealous"
-		add_trait="administrator"
+		add_trait="strategist"
 	}
 	2327.6.14 = {
-		add_spouse=230024 # Rosa Rodríguez
+		add_spouse=230024 # María Matte
+	}
+	2339.4.27 = {
+		death = {
+			death_reason=death_battle_duel
+			killer=230084 # Tomás Salas
+		}
 	}
 }
 230024 = {
 	name="María" # María Matte, wife of Carlos Larraín.
-	dynasty=145040
+	dynasty=145008
 	female=yes
 
 	diplomacy = 5
@@ -1489,10 +1584,13 @@
 		add_trait="gregarious"
 		add_trait="zealous"
 	}
+	2368.6.15 = {
+		death="2368.6.15"
+	}
 }
 ### Issue of Carlos ###
 230025 = {
-	name="Ricardo" # Ricardo Larraín.
+	name="Ricardo" # Ricardo Larraín, Count of San Felipe and Petorca.
 	dynasty=145017
 
 	diplomacy = 5
@@ -1503,6 +1601,8 @@
 
 	culture=centrino
 	religion=catholic
+	
+	disallow_random_traits = yes
 
 	father=230023 # Carlos Larraín
 	mother=230024 # María Matte
@@ -1511,17 +1611,49 @@
 		birth="2328.5.19"
 	}
 	2344.5.19 = {
-		add_trait="fortune_builder"
+		add_trait="tough_soldier"
+		add_trait="organizer"
+		add_trait="brave"
 		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="charitable"
 		add_trait="proud"
 		add_trait="gregarious"
 		add_trait="zealous"
 	}
 	2348.5.17 = {
-		add_spouse=230051 # Silvia Piñeiro
+		add_spouse=230051 # Francisca Errázuriz
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+	}
+}
+230019 = {
+	name="José" # José Larraín.
+	dynasty=145017
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230023 # Carlos Larraín
+	mother=230024 # María Matte
+
+	2330.10.25 = {
+		birth="2330.10.25"
+	}
+	2346.10.25 = {
+		add_trait="thrifty_clerk"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2349.4.26 = {
+		add_spouse=230053 # Javiera Orrego
 	}
 }
 230050 = {
@@ -1545,11 +1677,36 @@
 		birth="2330.11.6"
 	}
 	2346.11.6 = {
-		add_trait="charismatic_negotiator"
+		add_trait="underhanded_rogue"
 		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="charitable"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+230052 = {
+	name="María" # María Larraín, wife of Tomás Allende.
+	dynasty=145017
+	female=yes
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230023 # Carlos Larraín
+	mother=230024 # María Matte
+
+	2332.5.16 = {
+		birth="2332.5.16"
+	}
+	2342.5.16 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
 		add_trait="proud"
 		add_trait="gregarious"
 		add_trait="zealous"
@@ -1557,7 +1714,7 @@
 }
 230051 = {
 	name="Francisca" # Francisca Errázuriz, wife of Ricardo Larraín.
-	dynasty=145041
+	dynasty=145019
 	female=yes
 
 	diplomacy = 5
@@ -1573,13 +1730,29 @@
 		birth="2328.6.27"
 	}
 	2344.6.27 = {
-		add_trait="charismatic_negotiator"
+		add_trait="underhanded_rogue"
 		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
 		add_trait="proud"
 		add_trait="gregarious"
 		add_trait="zealous"
+	}
+}
+230053 = {
+	name="Javiera" # Javiera Orrego, wife of José Larraín.
+	dynasty=145006
+	female=yes
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	2330.4.26 = {
+		birth="2330.4.26"
 	}
 }
 ### Issue of Ricardo ###
@@ -1624,38 +1797,49 @@
 		birth="2351.1.23"
 	}
 }
-######################
-### House Figueroa ###
-######################
-230017 = {
-	name="Emilio" # Emilio Figueroa, Count of San Felipe.
-	dynasty=145026
-	
+### Issue of José ###
+230054 = {
+	name="Javier" # Javier Larraín.
+	dynasty=145017
+
 	diplomacy = 5
-	martial = 4
-	stewardship = 6
-	intrigue = 3
-	learning = 4
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
 
 	culture=centrino
 	religion=catholic
 
-	2309.7.12 = {
-		birth="2309.7.12"
-	}
-	2325.7.12 = {
-		add_trait="fortune_builder"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="gregarious"
-		add_trait="zealous"
-	}
-	2329.7.15 = {
-		add_spouse=230018 # Leonor Sánchez
+	father=230019 # José Larraín
+	mother=230053 # Javiera Orrego
+
+	2350.2.23 = {
+		birth="2350.2.23"
 	}
 }
+230055 = {
+	name="Elena" # Elena Larraín.
+	dynasty=145017
+	female=yes
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=centrino
+	religion=catholic
+
+	father=230019 # José Larraín
+	mother=230053 # Javiera Orrego
+
+	2351.3.8 = {
+		birth="2351.3.8"
+	}
+}
+
 230018 = {
 	name="Leonor" # Leonor Sánchez, wife of Emilio Figueroa.
 	dynasty=145027
@@ -1681,139 +1865,6 @@
 		add_trait="proud"
 		add_trait="gregarious"
 		add_trait="zealous"
-	}
-}
-### Issue of Emilio ###
-230019 = {
-	name="Elías" # Elías Figueroa.
-	dynasty=145026
-
-	diplomacy = 4
-	martial = 2
-	stewardship = 4
-	intrigue = 3
-	learning = 3
-
-	culture=centrino
-	religion=catholic
-
-	add_trait="strong"
-
-	father=230017 # Emilio Figueroa
-	mother=230018 # Leonor Sánchez
-
-	2330.10.25 = {
-		birth="2330.10.25"
-	}
-	2346.10.25 = {
-		add_trait="skilled_tactician"
-		add_trait="defensive_leader"
-		add_trait="unyielding_leader"
-		add_trait="brave"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="proud"
-		add_trait="gregarious"
-		add_trait="zealous"
-		add_trait="duelist"
-	}
-	2349.4.26 = {
-		add_spouse=230053 # Marcela Molina
-	}
-	2363.7.12 = {
-		add_trait="crusader"
-		effect = {
-			add_friend=230027 # Agustín Edwards
-		}
-	}
-}
-230052 = {
-	name="María" # María Figueroa, wife of Tomás Allende.
-	dynasty=145026
-	female=yes
-
-	diplomacy = 4
-	martial = 2
-	stewardship = 4
-	intrigue = 3
-	learning = 3
-
-	culture=centrino
-	religion=catholic
-
-	father=230017 # Emilio Figueroa
-	mother=230018 # Leonor Sánchez
-
-	2332.5.16 = {
-		birth="2332.5.16"
-	}
-	2342.5.16 = {
-		add_trait="underhanded_rogue"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="proud"
-		add_trait="gregarious"
-		add_trait="zealous"
-	}
-}
-230053 = {
-	name="Marcela" # Marcela Molina, wife of Elías Figueroa.
-	dynasty=145019
-	female=yes
-
-	diplomacy = 5
-	martial = 2
-	stewardship = 5
-	intrigue = 4
-	learning = 3
-
-	culture=centrino
-	religion=catholic
-
-	2330.4.26 = {
-		birth="2330.4.26"
-	}
-}
-### Issue of Elías ###
-230054 = {
-	name="Javier" # Javier Figueroa.
-	dynasty=145026
-
-	diplomacy = 5
-	martial = 2
-	stewardship = 5
-	intrigue = 4
-	learning = 3
-
-	culture=centrino
-	religion=catholic
-
-	father=230019 # Elías Figueroa
-	mother=230053 # Marcela Molina
-
-	2350.2.23 = {
-		birth="2350.2.23"
-	}
-}
-230055 = {
-	name="Patricia" # Patricia Figueroa.
-	dynasty=145026
-	female=yes
-
-	diplomacy = 5
-	martial = 2
-	stewardship = 5
-	intrigue = 4
-	learning = 3
-
-	culture=centrino
-	religion=catholic
-
-	father=230019 # Elías Figueroa
-	mother=230053 # Marcela Molina
-
-	2351.3.8 = {
-		birth="2351.3.8"
 	}
 }
 #####################
@@ -1889,9 +1940,6 @@
 
 	culture=centrino
 	religion=catholic
-
-	trait=charitable
-	trait=underhanded_rogue
 
 	father=230020 # Ramón Allende
 	mother=230056 # Laura Castro
@@ -2012,18 +2060,17 @@
 		add_trait="zealous"
 		add_trait="ambitious"
 		add_trait="duelist"
-		add_trait="administrator"
 	}
 	2327.8.20 = {
 		add_spouse=230034 # Luisa Silva
 	}
-	2338.4.17 = {
+	2335.9.3 = {
 		give_nickname=nick_the_red
 	}
-	2348.9.18 = {
+	2339.4.27 = {
 		death = {
 			death_reason=death_battle_duel
-			killer=230002 # Ricardo Santiago
+			killer=230002 # Benjamín Bartales
 		}
 	}
 }
@@ -2099,7 +2146,7 @@
 	2348.5.17 = {
 		add_spouse=230021 # Laura Allende
 	}
-	2363.7.12 = {
+	2364.7.5 = {
 		add_trait="crusader"
 	}
 }
@@ -2137,10 +2184,10 @@
 		add_trait="administrator"
 	}
 	2350.11.6 = {
-		add_spouse=230050 # Rosa Alessandri
+		add_spouse=230050 # Rosa Larraín
 	}
 	2368.9.18 = {
-		employer=230006 # Diego Santiago
+		employer=230006 # Diego Bartales
 	}
 }
 230029 = {
@@ -2350,6 +2397,7 @@
 		add_trait="humble"
 		add_trait="just"
 		add_trait="gregarious"
+		add_trait="honest"
 		add_trait="socializer"
 		add_trait="falconer"
 	}
@@ -2359,7 +2407,7 @@
 			add_lover=230060 # María Fernández
 		}
 	}
-	2348.9.18 = {
+	2340.2.12 = {
 		give_nickname=nick_the_falcon
 		create_bloodline = {
 			type = bloodline_javier_falcon
@@ -2381,7 +2429,7 @@
 	intrigue = 1
 	learning = 3
 
-	culture=huaso
+	culture=centrino
 	religion=catholic
 
 	2310.2.9 = {
@@ -2443,7 +2491,7 @@
 	}
 }
 230061 = {
-	name="Francisca" # Francisca Camiroaga, wife of Diego Bartales and Queen of Chile.
+	name="Francisca" # Francisca Camiroaga the Falcon Queen, wife of Diego Bartales and Queen of Chile.
 	dynasty=145020
 	female=yes
 	dna="b0dgc0cc0d0"
@@ -2475,7 +2523,12 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="honest"
+		add_trait="groomed"
 		add_trait="falconer"
+		add_trait="poet"
+	}
+	2368.9.18 = {
+		give_nickname=nick_the_falcon_queen
 	}
 }
 ### Issue of Felipe ###
@@ -2560,7 +2613,7 @@
 	properties="0t00dk"
 
 	diplomacy = 10
-	martial = 7
+	martial = 5
 	stewardship = 6
 	intrigue = 1
 	learning = 3
@@ -2573,10 +2626,10 @@
 
 	disallow_random_traits = yes
 
-	2313.9.8 = {
-		birth="2313.9.8"
+	2313.4.18 = {
+		birth="2313.4.18"
 	}
-	2329.9.8 = {
+	2329.4.18 = {
 		add_trait="brilliant_strategist"
 		add_trait="experimenter"
 		add_trait="organizer"
@@ -2600,7 +2653,8 @@
 			add_lover=230005 # Inés Suárez
 		}
 	}
-	2347.9.18 = {
+	2337.5.22 = {
+		add_trait="crowned_by_bishop"
 		give_nickname=nick_the_sword_of_santiago
 		effect = {
 			add_artifact=sangreroja
@@ -2610,15 +2664,12 @@
 			has_dlc = "Holy Fury"
 		}
 	}
-	2347.11.6 = {
-		add_trait="crowned_by_bishop"
-	}
-	2368.9.18 = {
-		death="2368.9.18"
+	2369.9.18 = {
+		death="2369.9.18"
 	}
 }
 230005 = {
-	name="Inés" # Inés Suárez the Sword of Saint Lucia, wife of King Benjamín Bartales the Sword of Santiago and Queen of Chile.
+	name="Inés" # Inés Suárez the Sword of Saint Lucia, wife of King Benjamín Bartales and Queen of Chile.
 	dynasty=145010
 	female=yes
 	dna="beffa0bcgc0"
@@ -2637,10 +2688,10 @@
 
 	disallow_random_traits = yes
 
-	2312.3.1 = {
-		birth="2312.3.1"
+	2312.5.3 = {
+		birth="2312.5.3"
 	}
-	2328.3.1 = {
+	2328.5.3 = {
 		add_trait="skilled_tactician"
 		add_trait="organizer"
 		add_trait="inspiring_leader"
@@ -2653,22 +2704,22 @@
 		add_trait="zealous"
 		add_trait="duelist"
 	}
-	2347.9.18 = {
+	2337.5.22 = {
 		give_nickname=nick_the_sword_of_saint_lucia
 	}
-	2369.2.12 = {
-		death="2369.2.12"
+	2369.10.12 = {
+		death="2369.10.12"
 	}
 }
 ### Issue of Benjamín the Sword of Santiago ###
 230006 = {
-	name="Diego" # Diego Bartales the Earthquake, King of Chile.
+	name="Diego" # Diego Bartales the King of the Roads, King of Chile.
 	dynasty=145011
 	dna="aaafg00ade0"
 	properties="0t00ek"
 
 	diplomacy = 10
-	martial = 9
+	martial = 10
 	stewardship = 9
 	intrigue = 4
 	learning = 6
@@ -2683,10 +2734,10 @@
 	father=230002 # Benjamín Bartales
 	mother=230005 # Inés Suárez
 
-	2334.6.16 = {
-		birth="2334.6.16"
+	2334.7.5 = {
+		birth="2334.7.5"
 	}
-	2350.6.16 = {
+	2350.7.5 = {
 		add_trait="brilliant_strategist"
 		add_trait="experimenter"
 		add_trait="organizer"
@@ -2704,23 +2755,22 @@
 			add_friend=230086 # Marcelo Salas
 		}
 	}
-	2352.2.2 = {
+	2352.2.1 = {
 		add_spouse=230061 # Francisca Camiroaga
 		effect = {
 			add_lover=230061 # Francisca Camiroaga
 		}
 	}
-	2363.7.12 = {
+	2364.7.5 = {
 		add_trait="crusader"
-		give_nickname=nick_the_earthquake
+		give_nickname=nick_the_king_of_the_roads
 		effect = {
 			add_friend=230027 # Agustín Edwards
 			add_friend=640046 # Villanueva
-			add_friend=640054 # Maza
+			add_friend=640054 # Manuel Maza
 		}
 	}
 	2368.9.18 = {
-		add_trait="crowned_by_pope"
 		effect = {
 			add_artifact=sangreroja
 			# Councillors
@@ -2737,11 +2787,11 @@
 	dna="bifif0d0000"
 	properties="0s0a0k"
 
-	diplomacy = 2
-	martial = 4
-	stewardship = 3
+	diplomacy = 8
+	martial = 10
+	stewardship = 5
 	intrigue = 1
-	learning = 1
+	learning = 2
 
 	culture=german
 	religion=catholic
@@ -2763,10 +2813,10 @@
 		add_trait="inspiring_leader"
 		add_trait="brave"
 		add_trait="diligent"
+		add_trait="patient"
 		add_trait="proud"
 		add_trait="honest"
 		add_trait="cynical"
-		add_trait="ambitious"
 		add_trait="impaler"
 		add_trait="duelist"
 	}
@@ -2784,8 +2834,8 @@
 	properties="0t000k"
 
 	diplomacy = 10
-	martial = 4
-	stewardship = 9
+	martial = 6
+	stewardship = 10
 	intrigue = 4
 	learning = 5
 
@@ -2812,6 +2862,7 @@
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
+		add_trait="duelist"
 		effect = {
 			add_friend=231980 # Severio Solnuevo
 		}
@@ -2839,10 +2890,10 @@
 
 	disallow_random_traits = yes
 
-	2313.7.5 = {
+	2303.7.5 = {
 		birth="2313.7.5"
 	}
-	2329.7.5 = {
+	2319.7.5 = {
 		add_trait="skilled_tactician"
 		add_trait="organizer"
 		add_trait="inspiring_leader"
@@ -2858,11 +2909,11 @@
 		add_trait="ambitious"
 		add_trait="duelist"
 	}
-	2338.11.7 = {
+	2336.11.7 = {
 		add_trait="scarred_high"
 		give_nickname=nick_the_beast
 	}
-	2347.10.9 = {
+	2337.6.16 = {
 		death = {
 			death_reason=death_duel
 			killer=230002 # Benjamín Bartales
@@ -2886,10 +2937,10 @@
 
 	disallow_random_traits = yes
 
-	2312.7.25 = {
-		birth="2312.7.25"
+	2303.6.25 = {
+		birth="2303.6.25"
 	}
-	2328.7.25 = {
+	2319.6.25 = {
 		add_trait="skilled_tactician"
 		add_trait="organizer"
 		add_trait="inspiring_leader"
@@ -2905,11 +2956,11 @@
 		add_trait="ambitious"
 		add_trait="duelist"
 	}
-	2338.5.4 = {
+	2336.5.4 = {
 		add_trait="scarred_mid"
 		give_nickname=nick_the_bandido
 	}
-	2347.11.6 = {
+	2337.7.1 = {
 		death = {
 			death_reason=death_duel
 			killer=230005 # Inés Suárez
@@ -2952,11 +3003,12 @@
 		add_trait="gregarious"
 		add_trait="zealous"
 		add_trait="duelist"
+		add_trait="poet"
 	}
 	2331.6.6 = {
 		add_spouse=230085 # Sandra Araya
 	}
-	2348.9.18 = {
+	2339.4.27 = {
 		give_nickname=nick_the_slayer
 		create_bloodline = {
 			type = bloodline_tomas_slayer
@@ -3035,7 +3087,7 @@
 		add_trait="duelist"
 		add_spouse=230029 # María Edwards
 	}
-	2363.7.12 = {
+	2364.7.5 = {
 		add_trait="crusader"
 		effect = {
 			add_friend=230027 # Agustín Edwards
@@ -3123,9 +3175,9 @@
 		add_trait="poet"
 	}
 }
-##########################
-### Chilean Patriarchs ###
-##########################
+##################
+### Patriarchs ###
+##################
 230001 = {
 	name="Juan" # Juan Bosco, Patriarch of Chile.
 	dynasty=150022
@@ -3378,10 +3430,10 @@
 		add_trait="scarred_mid"
 		give_nickname=nick_the_huaso
 	}
-	2349.2.12 = {
+	2340.2.12 = {
 		death = {
 			death_reason=death_battle_duel
-			killer=230002 # Ricardo Santiago
+			killer=230002 # Benjamín Bartales
 		}
 	}
 }
@@ -3450,7 +3502,7 @@
 ### House Pincheira ###
 #######################
 240001 = {
-	name="Juan" # Juan Pincheira the Black Eagle, King of Extremadura.
+	name="Juan" # Juan Pincheira the Penquista, King of Extremadura.
 	dynasty=150001
 
 	diplomacy = 4
@@ -3486,12 +3538,12 @@
 		add_trait="scholar"
 	}
 	2317.9.25 = {
-		add_spouse=240040 # María Osorio
+		add_spouse=240040 # María Pareja
 	}
 	2329.5.4 = {
-		give_nickname=nick_the_black_eagle
+		give_nickname=nick_the_penquista
 		create_bloodline = {
-			type = bloodline_black_eagle
+			type = bloodline_penquista
 			has_dlc = "Holy Fury"
 		}
 	}
@@ -3537,7 +3589,7 @@
 		}
 	}
 }
-### Issue of Juan the Black Eagle ###
+### Issue of Juan the Penquista ###
 240041 = {
 	name="Juan" # Juan Pincheira, Duke of Biobío.
 	dynasty=150001
@@ -3574,6 +3626,7 @@
 		add_trait="zealous"
 		add_trait="strategist"
 		add_trait="duelist"
+		add_spouse=240056 # Isabel Meneses
 	}
 	2354.10.1 = {
 		add_trait="mangled"
@@ -3601,10 +3654,24 @@
 	add_trait="strong"
 	
 	father=240001 # Juan Pincheira
-	mother=240040 # María Osorio
+	mother=240040 # María Pareja
 
 	2320.5.11 = {
 		birth="2320.5.11"
+	}
+	2336.5.11 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="duelist"
+		add_spouse=240057 # Francisca Benavides
 	}
 	2354.10.1 = {
 		death = {
@@ -3629,13 +3696,26 @@
 	add_trait="strong"
 	
 	father=240001 # Juan Pincheira
-	mother=240040 # María Osorio
+	mother=240040 # María Pareja
 
-	2322.9.20 = {
-		birth="2322.9.20"
+	2322.8.15 = {
+		birth="2322.8.15"
+	}
+	2338.8.15 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="duelist"
+		add_spouse=240058 # Manuela Alvarado
 	}
 	2350.10.28 = {
-		add_trait="zealous"
 		add_trait="branch_pentecostal"
 		religion=evangelical
 		give_nickname=nick_the_heretic
@@ -3666,11 +3746,29 @@
 
 	add_trait="strong"
 
+	disallow_random_traits = yes
+
 	father=240001 # Juan Pincheira
-	mother=240040 # María Osorio
+	mother=240040 # María Pareja
 
 	2324.9.20 = {
 		birth="2324.9.20"
+	}
+	2340.9.20 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2343.2.10 = {
+		add_spouse=240059 # María Osorio
 	}
 	2351.1.15 = {
 		death = {
@@ -3694,7 +3792,7 @@
 	religion=catholic
 
 	father=240001 # Juan Pincheira
-	mother=240040 # María Osorio
+	mother=240040 # María Pareja
 
 	add_trait="fair"
 
@@ -3726,7 +3824,7 @@
 	religion=catholic
 
 	father=240001 # Juan Pincheira
-	mother=240040 # María Osorio
+	mother=240040 # María Pareja
 
 	add_trait="fair"
 
@@ -3753,12 +3851,258 @@
 		}
 	}
 }
+240056 = {
+	name="Isabel" # Isabel Meneses, wife of Juan Pincheira.
+	dynasty=150035
+	female=yes
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="fair"
+
+	2318.7.23 = {
+		birth="2318.7.23"
+	}
+	2334.7.23 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2354.10.1 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=240043 # José Pincheira
+		}
+	}
+}
+240057 = {
+	name="Francisca" # Francisca Benavides, wife of Antonio Pincheira.
+	dynasty=150036
+	female=yes
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="fair"
+
+	2320.2.12 = {
+		birth="2320.2.12"
+	}
+	2336.2.12 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2354.10.1 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=240043 # José Pincheira
+		}
+	}
+}
+240058 = {
+	name="Manuela" # Manuela Alvarado, wife of José Pincheira.
+	dynasty=150037
+	female=yes
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="fair"
+
+	2322.10.27 = {
+		birth="2322.10.27"
+	}
+	2338.10.27 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2350.10.28 = {
+		add_trait="zealous"
+		add_trait="branch_pentecostal"
+		religion=evangelical
+	}
+	2354.10.1 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=240042 # Antonio Pincheira
+		}
+	}
+}
+240059 = {
+	name="María" # María Osorio, wife of Pablo Pincheira.
+	dynasty=150038
+	female=yes
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="fair"
+
+	2324.12.26 = {
+		birth="2324.12.26"
+	}
+	2340.12.26 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2351.1.15 = {
+		death = {
+			death_reason=death_execution
+			killer=480001 # Catriel Catrillanca
+		}
+	}
+}
 ### Issue of Juan ###
+240060 = {
+	name="Juan" # Juan Pincheira.
+	dynasty=150001
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="fair"
+	
+	father=240041 # Juan Pincheira
+	mother=240056 # Isabel Meneses
+
+	2336.8.8 = {
+		birth="2336.8.8"
+	}
+	2352.8.8 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2354.10.1 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=240043 # José Pincheira
+		}
+	}
+}
 ### Issue of Antonio ###
+240061 = {
+	name="Francisco" # Francisco Pincheira.
+	dynasty=150001
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="fair"
+	
+	father=240042 # Antonio Pincheira
+	mother=240057 # Francisca Benavides
+
+	2337.10.2 = {
+		birth="2337.10.2"
+	}
+	2353.10.2 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2354.10.1 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=240043 # José Pincheira
+		}
+	}
+}
 ### Issue of José ###
+240062 = {
+	name="Joaquín" # Joaquín Pincheira.
+	dynasty=150001
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="fair"
+	
+	father=240043 # José Pincheira
+	mother=240058 # Manuela Alvarado
+
+	2340.10.9 = {
+		birth="2340.10.9"
+	}
+	2350.10.28 = {
+		add_trait="zealous"
+		add_trait="branch_pentecostal"
+		religion=evangelical
+	}
+	2354.10.1 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=240042 # Antonio Pincheira
+		}
+	}
+}
 ### Issue of Pablo ###
-230107 = {
-	name="Miguel" # Miguel Pincheira the Jinete.
+240063 = {
+	name="Miguel" # Miguel Pincheira.
 	dynasty=150001
 
 	diplomacy = 6
@@ -3775,12 +4119,15 @@
 	disallow_random_traits = yes
 
 	father=240044 # Pablo Pincheira
+	mother=240059 # María Osorio
 
 	2344.1.13 = {
 		birth="2344.1.13"
 	}
 	2360.1.13 = {
 		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
 		add_trait="brave"
 		add_trait="diligent"
 		add_trait="patient"
@@ -3788,9 +4135,8 @@
 		add_trait="gregarious"
 		employer=230006 # Diego Bartales
 	}
-	2363.7.12 = {
+	2364.7.5 = {
 		add_trait="crusader"
-		give_nickname=nick_the_jinete
 	}
 }
 ########################
@@ -4024,13 +4370,13 @@
 	2365.7.2 = {
 		death = {
 			death_reason=death_duel_battle
-			killer=480001 # Catriel Catrillanca
+			killer=480001 # Catriel Quilapán
 		}
 	}
 }
 ### Issue of Manuel ###
 240031 = {
-	name="Felipe" # Felipe Prat the Liberator, Duke of Ñuble.
+	name="Felipe" # Felipe Prat the Starbreaker, Duke of Ñuble.
 	dynasty=150011
 
 	diplomacy = 7
@@ -4051,8 +4397,8 @@
 		birth="2351.4.30"
 	}
 	2365.7.2 = {
-		employer=480001 # Catriel Catrillanca
-		guardian=480001 # Catriel Catrillanca
+		employer=480001 # Catriel Quilapán
+		guardian=480001 # Catriel Quilapán
 	}
 	2367.4.30 = {
 		add_trait="brilliant_strategist"
@@ -4069,13 +4415,13 @@
 		add_trait="branch_pentecostal"
 	}
 	2368.12.25 = {
-		give_nickname=nick_the_liberator
+		give_nickname=nick_the_starbreaker
 		create_bloodline = {
-			type=felipe_liberator
+			type=bloodline_starbreaker
 			has_dlc="Holy Fury"
 		}
 		effect = {
-			add_lover=480011 # Millaray Catrillanca
+			add_lover=480011 # Licarayén Quilapán
 		}
 	}
 }
@@ -4116,9 +4462,9 @@
 ### House Keller ###
 ####################
 250009 = {
-	name="Armando" # Armando Keller the Dragon, Duke of Los Riós.
+	name="Armando" # Armando Keller the Teutonic Dragon, Duke of Los Riós.
 	dynasty=155006
-	dna="beide0dafe0"
+	dna="beide0dafg0"
 	properties="0r0a0k"
 
 	diplomacy = 8
@@ -4140,7 +4486,6 @@
 	2350.1.3 = {
 		add_trait="brilliant_strategist"
 		add_trait="experimenter"
-		add_trait="gregarious"
 		add_trait="organizer"
 		add_trait="inspiring_leader"
 		add_trait="brave"
@@ -4173,10 +4518,10 @@
 	name="Valentina" # Valentina Kühn the Pincoya, wife of Armando Keller.
 	dynasty=155035
 	female=yes
-	dna="ahhhe0caff0"
+	dna="ahhhe0cafg0"
 	properties="0t0a0k"
 
-	diplomacy = 8
+	diplomacy = 13
 	martial = 4
 	stewardship = 6
 	intrigue = 2
@@ -4211,7 +4556,7 @@
 250022 = {
 	name="Benjamín" # Benjamín Keller.
 	dynasty=155006
-	dna="bfidf0dafe0"
+	dna="bfidf0dafg0"
 	properties="0t0a0k"
 
 	diplomacy = 8

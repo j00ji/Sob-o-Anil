@@ -622,32 +622,32 @@ spriteTypes = {
 	
 	# CONFUCIAN IMPERIAL GOVERNMENT
 	spriteType = {
-		name = "GFX_charframe_150_confucianempire"
-		texturefile = "gfx\\interface\\charframe_150_confucianempire.tga"
+		name = "GFX_charframe_150_confucian_empire"
+		texturefile = "gfx\\interface\\charframe_150_confucian_empire.tga"
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_charframe_100_confucianempire"
-		texturefile = "gfx\\interface\\charframe_100_confucianempire.tga"
+		name = "GFX_charframe_100_confucian_empire"
+		texturefile = "gfx\\interface\\charframe_100_confucian_empire.tga"
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_charframe_75_confucianempire"
-		texturefile = "gfx\\interface\\charframe_75_confucianempire.tga"
+		name = "GFX_charframe_75_confucian_empire"
+		texturefile = "gfx\\interface\\charframe_75_confucian_empire.tga"
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_charframe_50_confucianempire"
-		texturefile = "gfx\\interface\\charframe_50_confucianempire.tga"
+		name = "GFX_charframe_50_confucian_empire"
+		texturefile = "gfx\\interface\\charframe_50_confucian_empire.tga"
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_charframe_34_confucianempire"
-		texturefile = "gfx\\interface\\charframe_34_confucianempire.tga"
+		name = "GFX_charframe_34_confucian_empire"
+		texturefile = "gfx\\interface\\charframe_34_confucian_empire.tga"
 		noOfFrames = 6
 		allwaystransparent = yes
 	}

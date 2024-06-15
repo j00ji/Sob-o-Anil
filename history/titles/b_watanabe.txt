@@ -1,0 +1,26 @@
+2225.1.1 = {
+	holder = 110333 #Hélio Watanabe
+	holding_dynasty = 55026 #watanabe
+	liege = d_grande_sao_paulo
+}
+2267.9.12 = {
+	holder = 110357 #Antônio Yamashita
+}
+2283.12.14 = {
+	holder = 110358 #Rafaela Yamashita
+}
+2298.3.8 = {
+	holder = 110337 #Paula Watanabe
+}
+2314.9.2 = {
+	holder = 110339 #Donato Watanabe
+}
+2329.4.15 = {
+	holder = 110370 #Murilo Yamashita
+}
+2334.5.10 = {
+	holder = 110376 #Felipe Yamashita
+}
+2358.9.15 = {
+	holder = 110346 #João Watanabe
+}

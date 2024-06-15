@@ -1,0 +1,5 @@
+# k_sao_francisco
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}

@@ -1,0 +1,7 @@
+800.1.1={
+	liege=k_amazonas
+}
+2357.1.1={
+	holder=870021 #Batista de Carvalho
+	liege=0
+}

@@ -1,0 +1,14 @@
+# e_bahia
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+800.1.1={
+	liege=k_salvador
+}
+2323.7.2 = {
+	liege=e_bahia
+}
+2368.10.14={
+	holder=40045 #Horácio Coronel
+}

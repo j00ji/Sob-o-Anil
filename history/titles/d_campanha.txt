@@ -1,0 +1,12 @@
+800.1.1={
+	liege=k_rio_grande_do_sul
+}
+800.2.1={
+	historical_nomad=yes
+}
+2328.1.1={
+	holder=280031
+}
+2365.1.1={
+	holder=280037
+}

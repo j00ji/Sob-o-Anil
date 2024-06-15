@@ -1,0 +1,11 @@
+# k_rio_grande_do_sul
+500.1.1={
+	law = cognatic_succession
+	law = succ_gavelkind
+}
+2360.1.1={
+	holder=280031
+}
+2365.1.1={
+	holder=0
+}

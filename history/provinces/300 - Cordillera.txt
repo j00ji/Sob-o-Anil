@@ -7,7 +7,7 @@ title = c_cordillera
 max_settlements = 6
 
 b_puente_alto = castle
-b_la_florida = city
+b_la_florida = castle
 b_san_bernardo = city
 b_buin = city
 b_paine = temple

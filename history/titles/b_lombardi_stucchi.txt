@@ -1,0 +1,14 @@
+2290.1.1 = {
+	holding_dynasty = 55002 #Lombardi-Stucchi
+	liege = d_santos
+	holder = 110151 #Lucas Lombardi-Stucchi
+}
+2330.10.1 = {
+	holder = 110155 #Hélio Lombardi-Stucchi
+}	
+2355.7.10 = {
+	holder = 110160 #Murilo Lombardi-Stucchi
+}
+2362.3.11 = {
+	holder = 110161 #Henrique Lombardi-Stucchi
+}
