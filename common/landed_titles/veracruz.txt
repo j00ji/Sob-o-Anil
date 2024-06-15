@@ -960,6 +960,18 @@ e_vera_cruz = {
 				b_papagaios = {}
 				b_saco_novo = {}
 			}
+			c_biribiri = { # 863 Changed from Biribiri to Para de Minas
+				color={ 198 165 0 }
+				color2={ 255 255 255 }
+				
+				b_para_de_minas = {}
+				b_itauna = {}
+				b_pitangui = {}
+				b_sao_goncalo_do_para = {}
+				b_maravilhas = {}
+				b_papagaios = {}
+				b_pequi = {}
+			}
 		}
 		d_barreiro_grande = {
 			color={ 122 164 192 }
@@ -1091,18 +1103,6 @@ e_vera_cruz = {
 				b_arcos = {}
 				b_pains = {}
 				b_cristais = {}
-			}
-			c_biribiri = { # 863 Changed from Biribiri to Para de Minas
-				color={ 198 165 0 }
-				color2={ 255 255 255 }
-				
-				b_para_de_minas = {}
-				b_itauna = {}
-				b_pitangui = {}
-				b_sao_goncalo_do_para = {}
-				b_maravilhas = {}
-				b_papagaios = {}
-				b_pequi = {}
 			}
 			c_campo_belo = { # 1100
 				color={ 253 118 226 }

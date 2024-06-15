@@ -29,3 +29,4 @@ nick_jaguar_killer = {}
 nick_cattle_king = {}
 nick_duke_of_lead = {}
 nick_cobra_verde = {}
+nick_minuano = {}
