@@ -15,7 +15,7 @@ b_diecinueve_de_junio = castle
 #b_cebollati = castle
 
 # Misc
-culture = guacho
-religion = bandean
+culture=charrua
+religion=artiguista
 
 #History

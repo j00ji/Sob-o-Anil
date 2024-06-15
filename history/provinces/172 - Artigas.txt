@@ -6,7 +6,7 @@ title = c_artigas
 # Settlements
 max_settlements = 2
 
-b_artigas = tribal
+b_artigas = castle
 #b_taruma = city
 #b_bernabe_rivera = temple
 #b_topador = castle
@@ -15,7 +15,7 @@ b_artigas = tribal
 #b_cuaro = castle
 
 # Misc
-culture = gaucho
-religion = farrapo
+culture=charrua
+religion=catholic
 
 #History

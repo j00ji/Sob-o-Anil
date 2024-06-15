@@ -15,7 +15,7 @@ b_constitucion = temple
 #b_biassini = castle
 
 # Misc
-culture = urbuguayo
-religion = artiguista
+culture=uruguayo
+religion=catholic
 
 #History

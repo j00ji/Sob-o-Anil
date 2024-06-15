@@ -1,14 +1,14 @@
 # e_chile
-500.1.1={
+500.1.1 = {
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=k_chile
+2329.5.4 = {
+	holder=240001 # Juan Pincheira
 }
-2351.5.4= {
-	holder=240011
+2349.2.26 = {
+	holder=240042 # Antonio Pincheira
 }
-2361.7.2= {
-	holder=240012
+2355.6.16 = {
+	holder=240012 # Bartolo Lara
 }

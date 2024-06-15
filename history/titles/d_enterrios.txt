@@ -6,4 +6,5 @@
 
 2368.1.1={
 	holder = 330040 #Pancho Ramirez
+	liege=k_la_plata
 }

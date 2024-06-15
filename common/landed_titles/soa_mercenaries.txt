@@ -454,8 +454,8 @@ d_bloco_do_urso = {
 	mercenary_type = street_block_composition
 }
 
-d_huaso_guard = { #The Huaso Guard
-	color={ 255 240 240 }
+d_orden_chilena = { # Orden Chilena de Santiago y de la Virgen del Carmen
+	color = { 255 240 240 }
 	color2 = { 220 220 0 }
 
 	capital = 297 # c_santiago
@@ -464,7 +464,7 @@ d_huaso_guard = { #The Huaso Guard
 	foa = "CAPTAIN_FOA"
 
 	allow = {
-		has_landed_title = k_patriarchy
+		has_landed_title = k_chile
 	}
 
 	# Always exists
@@ -472,13 +472,13 @@ d_huaso_guard = { #The Huaso Guard
 
 	mercenary = yes
 
-	mercenary_type = huaso_guard_composition
+	mercenary_type = orden_chilena_composition
 
 	strength_growth_per_century = 1.00
 
 	religion = catholic
 	
-	culture = huaso
+	culture = centrino
 
 	# Cannot be held as a secondary title
 	primary = yes
@@ -539,6 +539,127 @@ d_urban_legion = { #The Urban Legion
 	religion = modernists
 	
 	culture = candango
+
+	# Cannot be held as a secondary title
+	primary = yes
+}
+
+d_garra_blanca = { # Garra Blanca
+	color = { 255 255 255 }
+	color2 = { 220 220 0 }
+
+	capital = 297 # c_santiago
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	allow = {
+		has_landed_title = k_chile
+	}
+
+	# Always exists
+	landless = yes
+
+	mercenary = yes
+
+	mercenary_type = futebol_composition
+
+	strength_growth_per_century = 1.00
+
+	religion = catholic
+	
+	culture = centrino
+
+	# Cannot be held as a secondary title
+	primary = yes
+}
+
+d_romantico_viajero = { # Romantico Viajero
+	color = { 0 74 173 }
+	color2 = { 220 220 0 }
+
+	capital = 297 # c_santiago
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	allow = {
+		has_landed_title = k_chile
+	}
+
+	# Always exists
+	landless = yes
+
+	mercenary = yes
+
+	mercenary_type = futebol_composition
+
+	strength_growth_per_century = 1.00
+
+	religion = catholic
+	
+	culture = centrino
+
+	# Cannot be held as a secondary title
+	primary = yes
+}
+
+d_los_cruzados = { # Los Cruzados
+	color = { 255 255 255 }
+	color2 = { 220 220 0 }
+
+	capital = 297 # c_santiago
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	allow = {
+		has_landed_title = k_chile
+	}
+
+	# Always exists
+	landless = yes
+
+	mercenary = yes
+
+	mercenary_type = futebol_composition
+
+	strength_growth_per_century = 1.00
+
+	religion = catholic
+	
+	culture = centrino
+
+	# Cannot be held as a secondary title
+	primary = yes
+}
+
+d_hueso_pirata = { # Hueso Pirata
+	color = { 255 222 89 }
+	color2 = { 220 220 0 }
+
+	capital = 334 # c_coquimbo
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	allow = {
+		has_landed_title = k_atacama
+		has_landed_title = k_norte_chico
+	}
+
+	# Always exists
+	landless = yes
+
+	mercenary = yes
+
+	mercenary_type = futebol_composition
+
+	strength_growth_per_century = 1.00
+
+	religion = catholic
+	
+	culture = atacameno
 
 	# Cannot be held as a secondary title
 	primary = yes

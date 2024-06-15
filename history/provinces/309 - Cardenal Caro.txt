@@ -8,7 +8,7 @@ max_settlements = 4
 
 b_pichilemu = castle
 b_marchihue = city
-#b_lolol = temple
+b_lolol = temple
 b_navidad = castle
 #b_litueche = city
 #b_paredones = temple

@@ -1,11 +1,12 @@
 # e_chile
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_atacama
 }
-2365.6.2={
+2365.6.2 = {
 	holder=220005
+	liege=d_coquimbo
 }

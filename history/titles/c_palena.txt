@@ -6,6 +6,7 @@
 800.1.1={
 	liege=k_araucania
 }
-2363.2.24={
+2363.2.24 = {
 	holder = 250006
+	liege = d_los_lagos
 }

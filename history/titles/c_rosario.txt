@@ -9,3 +9,7 @@
 	liege=d_lujan
 	holder=640017 #Pedro Bautista
 }
+2364.10.9 = {
+	holder=330100 # Andrés Argento
+	liege=d_rosario
+}

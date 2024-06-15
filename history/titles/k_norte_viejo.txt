@@ -1,5 +1,7 @@
 # k_norte_viejo
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+2328.4.16 = {
+	holder=640106 # Evaristo Uriburu
+}
+2360.10.23 = {
+	holder=640085 # Felix Uriburu
 }

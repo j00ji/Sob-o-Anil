@@ -1,4 +1,4 @@
-
-2368.1.1={
-	holder = 410005 #Gustavo Segundo
+2362.5.8 = { 
+	holder=410005 # José Batlle
+	liege=k_uruguay
 }

@@ -136,7 +136,7 @@ interiorano = {
 
 		from_dynasty_prefix = "de "
 		male_patronym = "pibe de "
-		female_patronym = "pibe de "
+		female_patronym = "piba de "
 		prefix = yes
 	
 		pat_grf_name_chance = 45
@@ -209,7 +209,7 @@ interiorano = {
 
 		from_dynasty_prefix = "de "
 		male_patronym = "pibe de "
-		female_patronym = "pibe de "
+		female_patronym = "piba de "
 		prefix = yes
 	
 		pat_grf_name_chance = 45
@@ -224,8 +224,7 @@ interiorano = {
 	}
 	norteno = {
 		
-		graphical_cultures = { muslimgfx }
-		
+		graphical_cultures = { noroestegfx }
 
 		color = {0.65 0.39 0.06}
 
@@ -282,7 +281,7 @@ interiorano = {
 
 		from_dynasty_prefix = "de "
 		male_patronym = "pibe de "
-		female_patronym = "pibe de "
+		female_patronym = "piba de "
 		prefix = yes
 	
 		pat_grf_name_chance = 45

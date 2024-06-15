@@ -7,6 +7,8 @@ c_acarau;Acaraú;Acaraú;Acaraú;;Acaraú;;;;;;;;;x
 c_acarau_adj;Acaraúian;;acaraúer;;;;;;;;;;;x
 c_acajutibiro;Acajutibiró;;;;;;;;;;;;;x
 c_acajutibiro_adj;Acajutibiró;;;;;;;;;;;;;x
+c_aconcagua;Aconcagua;Aconcagua;Aconcagua;;Aconcagua;;;;;;;;;x
+c_aconcagua_adj;Aconcaguan;;Aconcaguer;;;;;;;;;;;x
 c_adamantina;Adamantina;Adamantina;Adamantina;;Adamantina;;;;;;;;;x
 c_adamantina_adj;Adamantinan;;adamantiner;;;;;;;;;;;x
 c_agua_boa;Água Boa;Água Boa;Água Boa;;Água Boa;;;;;;;;;x
@@ -1459,8 +1461,6 @@ c_san_antonio_2;San Antonio;San Antonio;San Antonio;;San Antonio;;;;;;;;;x
 c_san_antonio_2_adj;San Antonian;;San Antoner;;;;;;;;;;;x
 c_san_borja;San Borja;San Borja;San Borja;;San Borja;;;;;;;;;x
 c_san_borja_adj;San Borjan;;San Borjer;;;;;;;;;;;x
-c_san_felipe;San Felipe;San Felipe;San Felipe;;San Felipe;;;;;;;;;x
-c_san_felipe_adj;San Felipean;;San Feliper;;;;;;;;;;;x
 c_san_javier;San Javier;San Javier;San Javier;;San Javier;;;;;;;;;x
 c_san_javier_adj;San Javierian;;San Javierer;;;;;;;;;;;x
 c_san_jeronimo;San Jerónimo;San Jerónimo;San Jerónimo;;San Jerónimo;;;;;;;;;x

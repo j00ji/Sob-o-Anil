@@ -1,6 +1,7 @@
 name = "Sob o Anil"
 path = "mod/soboanil"
 user_dir = "Sob o Anil"
+picture = "soboanil.jpg"
 
 replace_path="history/characters"
 replace_path="history/offmap_powers"

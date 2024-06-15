@@ -241,7 +241,7 @@
     trait=patient
     trait=slothful
     2300.1.1={birth=yes}
-    2340.1.1={death=yes}
+    2440.1.1={death=yes}
 }
 
 860011 = {
@@ -1624,9 +1624,7 @@
     intrigue=2
     learning=2
     trait=willful
-	father=860075
-	mother=860074
-    2369.1.1={birth=yes}
+    2359.1.1={birth=yes}
     2400.1.1={death=yes}
 }
 #Son of María de Luz and Otto
@@ -2000,8 +1998,6 @@
     intrigue=2
     learning=2
     trait=brooding
-	father=860092
-	mother=860095
     2365.1.1={birth=yes}
     2400.1.1={death=yes}
 }

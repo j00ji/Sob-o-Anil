@@ -130,7 +130,7 @@ k_teachers= {
 	religion = herderos
 	
 	# Cannot be held as a secondary title
-	#primary = yes
+	primary = yes
 
 	assimilate = no # Nothing drifts in or out
 	

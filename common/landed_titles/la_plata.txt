@@ -547,7 +547,7 @@ e_la_plata = {
 	}
 
 	k_uruguay = {
-		color={ 189 102 121 }
+		color={ 0 56 169 }
 		color2={ 255 255 255 }
 		
 		capital = 280 # c_montevideo

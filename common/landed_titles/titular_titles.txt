@@ -319,6 +319,43 @@ k_the_district = {
 	}
 	capital = 231 # c_brasilia
 }
+
+k_extremadura = {
+	color = { 255 215 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 340 # c_concepcion
+	culture = huaso
+	
+	allow = {
+		always = no
+	}
+}
+
+k_norte_chico = {
+	color = { 153 8 10 }
+	color2 = { 255 255 255 }
+	
+	capital = 334 # c_coquimbo
+	culture = atacameno
+	
+	allow = {
+		always = no
+	}
+}
+
+k_la_plata = {
+	color = { 192 192 192 }
+	color2 = { 255 255 255 }
+	
+	capital = 704 # c_rosario
+	culture = litoraleno
+	
+	allow = {
+		always = no
+	}
+}
+
 ### Duchies ###
 
 d_trifrontier = {

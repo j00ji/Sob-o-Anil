@@ -6,7 +6,7 @@ title = c_rivera
 # Settlements
 max_settlements = 3
 
-b_rivera = tribal
+b_rivera = castle
 b_tranqueras = temple
 #b_minas_de_corrales = temple
 #b_vichadero = castle
@@ -15,7 +15,7 @@ b_tranqueras = temple
 #b_paso_hospital = castle
 
 # Misc
-culture = gaucho
-religion = catholic
+culture=charrua
+religion=catholic
 
 #History

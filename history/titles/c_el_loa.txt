@@ -3,10 +3,10 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_atacama
 }
-2366.12.25={
+2346.11.25 = {
 	holder=220015
 	liege=d_antofagasta
 }

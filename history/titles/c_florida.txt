@@ -1,5 +1,4 @@
-
-2368.1.1={
-	holder = 410004 #Hector Nantes
-	liege = d_interior
+2362.5.8 = {
+	holder=410008 # Jorge Batlle
+	liege=d_montevideo
 }

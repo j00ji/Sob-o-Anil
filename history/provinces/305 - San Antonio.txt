@@ -4,13 +4,13 @@
 title = c_san_antonio
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 
-b_san_antonio = city
-b_cartagena = castle
+b_san_antonio = castle
+b_cartagena = city
 b_el_quisco = temple
-#b_el_tabo = castle
-#b_algarrobo = city
+b_algarrobo = city
+b_el_tabo = castle
 #b_santo_domingo = temple
 #b_llolleo = castle
 

@@ -86,7 +86,7 @@
 }
 ###USE THE CORRECT ONE FROM NOW ON TRIMEON
 145028 = {
-	name = "Raharoa"
+	name = "Riroroko"
 	culture = rapa_nui
 	religion = brethren
 	can_appear = no

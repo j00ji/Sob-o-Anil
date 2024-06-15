@@ -7,37 +7,3 @@ best_candidate_title_apostolic_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
 best_candidate_title_apostolic_cardinal_tooltip;Of all the bishops in my realm, this one is the likeliest to get appointed Cardinal by the Archbishop.;;;;;;;;;;;;;x
 PREFERATI_APOSTOLIC;Preferatus;;;;;;;;;;;;;x
 PREFERATI_APOSTOLIC_TOOLTIP;The Preferatus is the Cardinal expected to succeed the current Archbishop.;;;;;;;;;;;;;x
-STAT_PIETY_INNOVATION;Innovation;;;;;;;;;;;;;x
-STAT_PIETY_DESC_INNOVATION;Innovation is respected by the clergy and thinkers of your religion. Like Prestige, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
-STAT_PIETY_MENU_INNOVATION;Innovation;;;;;;;;;;;;;x
-MONTHLY_PIETY_INNOVATION;Monthly Innovation Increase;;;;;;;;;;;;;x
-
-STAT_PIETY_DESC_ASHE;Ashé, or "Soul", is respected by the priests. Like Prestige, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
-STAT_PIETY_ASHE;Ashé;;;;;;;;;;;;;x
-STAT_PIETY_MENU_ASHE;Ashé;;;;;;;;;;;;;x
-MONTHLY_PIETY_ASHE;Monthly Ashé Increase;;;;;;;;;;;;;x
-
-STAT_PIETY_TRADITION;Tradition;;;;;;;;;;;;;x
-STAT_PIETY_DESC_TRADITION;Tradition is respected by the clergy and especially the head of your Religion. It can be spent to petition the head of your Religion. Like Prestige, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
-STAT_PIETY_MENU_TRADITION;Tradition;;;;;;;;;;;;;x
-MONTHLY_PIETY_TRADITION;Monthly Tradition Increase;;;;;;;;;;;;;x
-
-STAT_PIETY_ROENTGEN;Roentgen;;;;;;;;;;;;;x
-STAT_PIETY_DESC_ROENTGEN;Roentgens are respected by the clergy and especially the head of your Religion. It can be spent to petition the head of your Religion. Like Prestige, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
-STAT_PIETY_MENU_ROENTGEN;Roentgen;;;;;;;;;;;;;x
-MONTHLY_PIETY_ROENTGEN;Monthly Roentgen Increase;;;;;;;;;;;;;x
-
-STAT_PIETY_PURITY;Purity;;;;;;;;;;;;;x
-STAT_PIETY_DESC_PURITY;Purity is respected by the clergy and shamans of your religion. Like Prestige, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
-STAT_PIETY_MENU_PURITY;Purity;;;;;;;;;;;;;x
-MONTHLY_PIETY_PURITY;Monthly Purity Increase;;;;;;;;;;;;;x
-
-STAT_PIETY_APTITUDE;Aptitude;;;;;;;;;;;;;x
-STAT_PIETY_DESC_APTITUDE;Aptitude is respected by the clergy of your religion. Like Prestige, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
-STAT_PIETY_MENU_APTITUDE;Aptitude;;;;;;;;;;;;;x
-MONTHLY_PIETY_APTITUDE;Monthly Aptitude Increase;;;;;;;;;;;;;x
-
-STAT_PIETY_DRIVE;Drive;;;;;;;;;;;;;x
-STAT_PIETY_DESC_DRIVE;Drive is respected by the clergy of your religion. Like Prestige, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
-STAT_PIETY_MENU_DRIVE;Drove;;;;;;;;;;;;;x
-MONTHLY_PIETY_DRIVE;Monthly Drive Increase;;;;;;;;;;;;;x

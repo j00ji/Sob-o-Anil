@@ -265,28 +265,6 @@ christian = {
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
 		priest_title = PADRE
-		
-		intermarry = apostolic
-		intermarry = peterite
-		intermarry = renewalist
-		intermarry = iconoclasts
-		intermarry = catholic
-		intermarry = orthodoxist
-		intermarry = liberationist
-		intermarry = celeste
-		intermarry = mucker
-		intermarry = cicerite
-		intermarry = seladite
-		intermarry = evangelical
-		intermarry = universal #maybe?
-		intermarry = holy_spirit
-		intermarry = xabaxai_xagi
-		intermarry = tridentine
-		intermarry = mysticalist
-		intermarry = kardecists
-		intermarry = umbanda #maybe	
-		intermarry = angel_cult
-		intermarry = santo_daime
 	}
 	apostolic = {
 		graphical_culture = westerngfx
@@ -1143,7 +1121,6 @@ eastern_group = {
 		priests_can_inherit = yes
 		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
 		female_temple_holders = yes
-		piety_name = KARMA
 		
 		religious_clothing_head = 10
 		religious_clothing_priest = 10
@@ -1702,7 +1679,7 @@ old_world_cultists = {
 		crusade_name = EXTINCTION_WAR
 		scripture_name = THE_ORIGIN_OF_THE_SPECIES
 		priest_title = NATURALIST
-		piety_name = APTITUDE
+		piety_name=APTITUDE
 		high_god_name = GOD_MOTHER_NATURE
 		
 		god_names = {
@@ -1727,7 +1704,7 @@ old_world_cultists = {
 		crusade_name = EXTINCTION_WAR
 		scripture_name = PHILOSOPHIE_ZOOLOGIQUE
 		priest_title = NATURALIST
-		piety_name = DRIVE
+		piety_name=DRIVE
 		high_god_name = GOD_ORTHO_GENESIS
 		
 		god_names = {
@@ -1805,7 +1782,6 @@ old_world_cultists = {
 		}
 		
 		parent = farrapo
-		piety_name = TRADITION
 	}
 	
 	platinean = {
@@ -1902,7 +1878,7 @@ old_world_cultists = {
 		allow_in_ruler_designer= yes
 		allow_looting= yes
 		scripture_name= FLESH_AND_SOUL
-		piety_name= INNOVATION
+		piety_name= INOVATION
 		priest_title= EXPOSITOR
 		priests_can_marry = yes
 		female_temple_holders = yes
@@ -1927,7 +1903,7 @@ old_world_cultists = {
 		
 		color = { 0.9 0.78 0.64 }
 		
-		interface_skin = { modernist_interface muslim_interface }
+		interface_skin = { muslim_interface }
 		
 		high_god_name = GOD_THE_ANCESTRAL_RACE
 		
@@ -1943,7 +1919,7 @@ old_world_cultists = {
 		crusade_name = GREAT_WALK
 		allow_looting= yes
 		scripture_name= THE_SAGARANA
-		piety_name= INNOVATION
+		piety_name= VIGOR
 		priest_title= TELLER
 		priests_can_marry = yes
 		female_temple_holders = yes
@@ -1966,7 +1942,7 @@ old_world_cultists = {
 		
 		color = { 0.9 0.78 0.64 }
 		
-		interface_skin = { modernist_interface muslim_interface }
+		interface_skin = { muslim_interface }
 		
 		high_god_name = GOD_THE_ANCESTRAL_RACE
 		
@@ -1982,7 +1958,7 @@ old_world_cultists = {
 		crusade_name = GREAT_WALK
 		allow_looting= yes
 		scripture_name= MANIFESTO
-		piety_name= INNOVATION
+		piety_name= VIGOR
 		priest_title= TELLER
 		priests_can_marry = yes
 		female_temple_holders = yes
@@ -2504,7 +2480,6 @@ syncretic_group = {
 		evil_god_names = {
 			GOD_THE_CRISIS GOD_POLTERGEISTS
 		}
-		piety_name = KARMA
 	}
 	santo_daime = {
 		graphical_culture = mesoamericangfx
@@ -2561,7 +2536,6 @@ syncretic_group = {
 		evil_god_names = {
 			GOD_BAD_SPIRITS
 		}
-		piety_name = KARMA
 	}
 	israelite = {
 		graphical_culture = jewishgfx

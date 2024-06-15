@@ -15,7 +15,7 @@ b_piriapolis = castle
 #b_nueva_carrara = castle
 
 # Misc
-culture = urbuguayo
-religion = piriamano
+culture=uruguayo
+religion=piriamano
 
 #History

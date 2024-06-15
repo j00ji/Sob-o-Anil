@@ -1,0 +1,143 @@
+###ÄNSI
+95076 = {
+	name="Salamanca"
+	culture=gaucho
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+360001 = {
+	name = "La Maga"
+	culture = uruguayo
+	religion = bandean
+	used_for_random = no
+}
+95016 = {
+	name="de Mattos"
+	culture=gaucho
+}
+360004 = {
+	name="Lacalle"
+	culture=uruguayo
+	religion=catholic
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+115001 = {
+	name="Durazno"
+	culture= charrua
+	can_appear = no
+	used_for_random = no
+}
+
+115002 = {
+	name="Hernandez"
+	culture= charrua
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+110002 = {
+	name="Golovchenko"
+	culture= rutenio
+	religion = orthodoxist
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+360006 = {
+	name="Blanco"
+	culture = uruguayo
+	religion = bandean
+	can_appear = no
+	used_for_random = no
+}
+115004 = {
+	name="Aemilius"
+	culture= charrua
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+115006 = {
+	name="Segundo"
+	culture= charrua
+	religion = liberationist
+	can_appear = no
+	used_for_random = no
+}
+115003 = {
+	name="San Miguel"
+	culture= charrua
+	religion = bandean
+	can_appear = no
+	used_for_random = no
+}
+360002 = {
+	name = "Viana"
+	culture = uruguayo
+	religion = bandean
+	used_for_random = no
+}
+360003 = {
+	name = "de Genoa"
+	culture = uruguayo
+	religion = piriamano
+	used_for_random = no
+}
+115005 = {
+	name="Nantes"
+	culture= charrua
+	religion = catholic
+	can_appear = no
+	used_for_random = no
+}
+360005 = {
+	name="Batlle"
+	culture = uruguayo
+	religion = bandean
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 19
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

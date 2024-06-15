@@ -1,0 +1,21 @@
+# c_aconcagua
+
+# County Title
+title = c_aconcagua
+
+# Settlements
+max_settlements = 3
+
+b_san_felipe = castle
+b_los_andes = temple
+b_llay_llay = city
+#b_san_esteban = castle
+#b_santa_maria_2 = city
+#b_putaendo = temple
+#b_panquehue = castle
+
+# Misc
+culture = huaso
+religion = catholic
+
+#History

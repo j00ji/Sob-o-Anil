@@ -217,8 +217,8 @@
 	used_for_random = no
 }
 
-285024={
-	name="Villanueva"
+285024 = {
+	name="Aldao"
 	culture=cuyano
 	religion=catholic
 	used_for_random = no
@@ -239,7 +239,6 @@
 	name="Rosa"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
 }
 
 285026={
@@ -288,11 +287,22 @@
 	}
 }
 
-285031={
+285031 = {
 	name="Maza"
 	culture=cuyano
 	religion=catholic
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 21
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 285032={
@@ -503,17 +513,19 @@
 	}
 }
 
-285055={
-	name="Rossi"
+285055 = {
+	name="Massa"
 	culture=norteno
 	religion=catholic
+	can_appear = no
 	used_for_random = no
 }
 
-285056={
-	name="Cuba"
-	culture=quechua
+285056 = {
+	name="Güemes"
+	culture=norteno
 	religion=catholic
+	can_appear = no
 	used_for_random = no
 }
 
@@ -580,6 +592,24 @@
 	used_for_random = no
 }
 
+285096 = {
+	name="Guevara"
+	culture=cordobes
+	religion=catholic
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
 290001={
 	name=Abad
 	culture=cuyano
@@ -621,10 +651,11 @@
 	culture=cuyano
 	religion=catholic
 }
-290009={
+290009 = {
 	name=Benegas
 	culture=cuyano
 	religion=catholic
+	used_for_random = no
 }
 290010={
 	name="Benítez"

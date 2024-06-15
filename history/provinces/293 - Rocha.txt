@@ -15,7 +15,7 @@ b_rocha = castle
 #b_valizas = castle
 
 # Misc
-culture = urbuguayo
-religion = bandean
+culture=charrua
+religion=piriamano
 
 #History

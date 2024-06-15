@@ -6,4 +6,5 @@
 
 2368.1.1={
 	holder = 330021 #Ferdinand de Asterion
+	liege=k_la_plata
 }

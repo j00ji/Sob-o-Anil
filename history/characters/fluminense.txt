@@ -57,24 +57,6 @@
 	2333.9.9={birth=yes}
 	2400.1.1={death=yes}
 }
-
-70025={
-    name="Renata"
-    dynasty=35044 # Garcia
-    religion=evangelical
-    female=yes
-    secret_religion=kardecist
-    culture=carioca
-    add_trait=scholar
-    add_trait=wroth
-    add_trait=kind
-	employer=70001
-    2348.6.6={
-        birth=yes
-    }
-    2400.1.1={death=yes}
-}
-
 70003={
 	name="Artur"
 	dynasty=35023
@@ -171,22 +153,6 @@
 	2349.8.18={birth=yes}
 	2400.1.1={death=yes}
 }
-
-70027={
-    name="Lucas"
-    dynasty=55582 # Calazans
-    religion=evangelical
-    culture=carioca
-    add_trait=kind
-    add_trait=gregarious
-    add_trait=charitable
-	employer=70010
-    2349.29.4={
-        birth=yes
-    }
-    2400.1.1={death=yes}
-} 
-
 70007={
 	name="Gabriel"
 	dynasty=35008
@@ -210,7 +176,6 @@
 70008={
 	name="Beatriz"
 	dynasty=35015
-	father=70025
 	female=yes
 	religion=evangelical
 	culture=carioca
@@ -293,7 +258,7 @@
 	add_trait=arbitrary
 	add_trait=elusive_shadow
 	add_trait=wroth
-	father=70025
+	
 	employer=70010
 
 	2349.8.2={
@@ -302,7 +267,6 @@
 	}
 	2400.1.1={death=yes}
 }
-
 70012={
 	name="Daniel"
 	dynasty=35040
@@ -446,7 +410,7 @@
 	add_trait=stubborn
 	add_trait=deceitful
 	add_trait=lustful
-	father=70030
+	
 	2342.10.5={birth=yes culture=carioca}
 	2400.1.1={death=yes}
 }
@@ -547,91 +511,6 @@
 	}
 	2400.1.1={death=yes}
 }
-70025={
-	name="Fábio"
-	dynasty=35015
-	religion=evangelical
-	culture=salvadorense
-	disallow_random_traits=yes
-	add_trait=intricate_webweaver
-	add_trait=branch_pentecostal
-	add_trait=diligent
-	add_trait=envious
-
-	2309.8.2={
-		birth=yes
-		culture=carioca
-	}
-	2362.1.1={death=yes}
-}
-	# Mackenzie Family history #
-70026={
-	name="João"
-	dynasty=55041 #Mackenzie
-	father=110671
-	religion=evangelical
-	culture=americano
-	trait=branch_presbyterian
-	trait=scholarly_theologian
-	2143.3.24={
-		birth=yes
-		culture = carioca
-	}
-	2205.1.1={death=yes}
-}
-70027={
-	name="Ubiratan"
-	dynasty=55041 #Mackenzie
-	father=70026
-	religion=evangelical
-	culture=americano
-	trait=tough_soldier
-	2193.1.1={
-		birth=yes
-		culture = carioca
-	}
-	2275.1.1={death=yes}
-}
-70028={
-	name="Caio"
-	dynasty=55041 #Mackenzie
-	father=70027
-	religion=evangelical
-	culture=americano
-	trait=thrifty_clerk
-	2233.1.1={
-		birth=yes
-		culture = carioca
-	}
-	2294.1.1={death=yes}
-}
-70029={
-	name="Caio"
-	dynasty=55041 #Mackenzie
-	father=70028
-	religion=evangelical
-	culture=americano
-	trait=charismatic_negotiator
-	2293.1.1={
-		birth=yes
-		culture = carioca
-	}
-	2335.1.1={death=yes}
-}
-70030={
-	name="César"
-	dynasty=55041 #Mackenzie
-	father=70029
-	religion=evangelical
-	culture=americano
-	trait=tough_soldier
-	2319.1.1={
-		birth=yes
-		culture = carioca
-	}
-	2370.1.1={death=yes}
-}
-
 	# The Da Paixão Adventurers #
 
 80001={
@@ -701,25 +580,6 @@
 	}
 	2400.1.1={death=yes}
 }
-
-70026={
-    name="Ana"
-    dynasty=35045 # Oliveira
-    female=yes
-    religion=apostolic
-    culture=mantiqueiro
-    martial=8
-    add_trait=sturdy
-    add_trait=humble
-    add_trait=paranoid
-	employer=70001
-
-    2343.15.4={
-        birth=yes
-    }
-    2400.1.1={death=yes}
-}
-
 80003={
 	name="Lais"
 	dynasty=40001

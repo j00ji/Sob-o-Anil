@@ -6,7 +6,15 @@
 800.1.1={
 	liege=k_chile
 }
-2365.6.9= {
-	holder=240016
+2349.3.19= {
+	holder=240011
+	liege=d_nuble
+}
+2365.7.2 = {
+	holder=480001
+	liege=k_araucania
+}
+2368.12.25 = {
+	holder=240031
 	liege=d_nuble
 }
