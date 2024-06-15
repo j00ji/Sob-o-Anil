@@ -2402,58 +2402,6 @@
 	}
 	#son of Candido Godoi owns São Nicolau and São Luis Gonzaga
 }
-290023={
-	name="Teiniaguá"
-	dynasty=95076 #Salamanca
-	female=yes
-	culture=brown
-	religion=catholic
-	trait=underhanded_rogue
-	trait=fair
-	trait=mystic
-	trait=sympathy_old_world
-	trait=lustful
-	diplomacy=8
-	martial=4
-	stewardship=4
-	intrigue=9
-	learning=9
-	2349.1.1={
-		birth=yes
-		culture=gaucho
-	}
-	2365.3.2={
-		effect={add_lover=290024}
-	}
-	2367.1.1={
-		add_spouse=290024
-	}
-	2400.1.1={
-		death=yes
-	}
-	#holder of arapei and Artigas
-}
-290024={
-	name="Erico"
-	dynasty=0
-	culture=guacho
-	religion=catholic
-	trait=martial_cleric
-	trait=charitable
-	trait=honest
-	diplomacy=4
-	martial=8
-	stewardship=8
-	intrigue=4
-	learning=11
-	2347.1.1={
-		birth=yes
-	}
-	2400.1.1={
-		death=yes
-	}
-	#spouse of Teiniaguá
-}
 290025={
 	name="Carlo"
 	dynasty=95077 #Peruzzo
@@ -3218,51 +3166,4 @@
 	2345.5.4={birth=yes}
 	2400.1.1={death=yes}
 	#ruler of Pato Branco
-}
-
-320001={
-	name="Alexandra"
-    dynasty=115002 # Hernandez
-    female=yes
-    culture=guacho
-    religion=catholic
-    martial=5
-    diplomacy=2
-    stewardship=3
-    intrigue=4
-    learning=5
-    trait=fortune_builder        
-    trait=crusader
-    trait=ugly
-    trait=greedy
-    trait=shrewd
-    trait=envious        
-    trait=patient        
-    trait=diligent
-    2350.1.1={birth=yes}
-    2428.1.1={death=yes}
-	
-	#Countess of Yguazu
-}
-
-320002 = {
-	name="Jose"
-    dynasty=115004 # Aemilius
-    culture=guacho
-    religion=catholic
-    martial=5
-    diplomacy=2
-    stewardship=3
-    intrigue=4
-    learning=3
-    trait=skilled_tactician
-    trait=zealous
-    trait=envious
-    trait=diligent
-    trait=patient
-    trait=proud
-    2320.1.1={birth=yes}
-    2374.1.1={death=yes}
-
-	#High Chief of Interior, rules Rivera, Tacuarembó, and Durazno
 }

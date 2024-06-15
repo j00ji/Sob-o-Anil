@@ -1,9 +1,8 @@
 # e_la_plata
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-
-2368.1.1={
-	holder = 410003 #Francisco de Genoa
+2368.1.1 = {
+	holder=410008 # Jorge Batlle
 }

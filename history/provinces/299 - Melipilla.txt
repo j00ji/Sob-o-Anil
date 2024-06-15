@@ -4,13 +4,13 @@
 title = c_melipilla
 
 # Settlements
-max_settlements = 5
+max_settlements = 4
 
-b_penaflor = temple
 b_melipilla = castle
 b_talagante = city
-b_peucodane = temple
-#b_isla_de_maipo = city
+b_penaflor = temple
+b_isla_de_maipo = castle
+#b_padre_hurtado = temple
 #b_curacavi = temple
 #b_lonquen = castle
 

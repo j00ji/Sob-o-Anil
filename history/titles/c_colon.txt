@@ -10,5 +10,5 @@
 	holder=640001 #Alejandro Lugones
 }
 2363.1.1={
-	liege=d_cordoba
+	liege=k_cordoba
 }

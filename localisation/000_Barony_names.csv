@@ -4949,6 +4949,8 @@ b_huaytu;Huaytú;Huaytú;Huaytú;;Huaytú;;;;;;;;;x
 b_huaytu_adj;Huaytúian;;huaytúer;;;;;;;;;;;x
 b_huechun;Huechún;Huechún;Huechún;;Huechún;;;;;;;;;x
 b_huechun_adj;Huechúnian;;huechúner;;;;;;;;;;;x
+b_huechuraba;Huechuraba;Huechuraba;Huechuraba;;Huechuraba;;;;;;;;;x
+b_huechuraba_adj;Huechurabian;;Huechuraber;;;;;;;;;;;x
 b_huellahue;Huellahue;Huellahue;Huellahue;;Huellahue;;;;;;;;;x
 b_huellahue_adj;Huellahuean;;huellaher;;;;;;;;;;;x
 b_huentaleuquen;Huentaleuquén;Huentaleuquén;Huentaleuquén;;Huentaleuquén;;;;;;;;;x
@@ -7968,8 +7970,6 @@ b_nuevo_leon;Nuevo León;Nuevo León;Nuevo León;;Nuevo León;;;;;;;;;x
 b_nuevo_leon_adj;Nuevo Leónian;;Nuevo Leóner;;;;;;;;;;;x
 b_numi;Numi;Numi;Numi;;Numi;;;;;;;;;x
 b_numi_adj;Numian;;numer;;;;;;;;;;;x
-b_nunoa;Ñuñoa;Ñuñoa;Ñuñoa;;Ñuñoa;;;;;;;;;x
-b_nunoa_adj;Ñuñoan;;ñuñer;;;;;;;;;;;x
 b_obando;Obando;Obando;Obando;;Obando;;;;;;;;;x
 b_obando_adj;Obandian;;obander;;;;;;;;;;;x
 b_obaniko;Obanikó;Obanikó;Obanikó;;Obanikó;;;;;;;;;x
@@ -8196,6 +8196,8 @@ b_padercita;Padercita;Padercita;Padercita;;Padercita;;;;;;;;;x
 b_padercita_adj;Padercitan;;paderciter;;;;;;;;;;;x
 b_padovan;Padovan;Padovan;Padovan;;Padovan;;;;;;;;;x
 b_padovan_adj;Padovanian;;padovaner;;;;;;;;;;;x
+b_padre_hurtado;Padre Hurtado;Padre Hurtado;Padre Hurtado;;Padre Hurtado;;;;;;;;;x
+b_padre_hurtado_adj;Padrehurtadean;;Padrehurtader;;;;;;;;;;;x
 b_padre_paraiso;Padre Paraíso;Padre Paraíso;Padre Paraíso;;Padre Paraíso;;;;;;;;;x
 b_padre_paraiso_adj;Padre Paraísian;;Padre Paraíser;;;;;;;;;;;x
 b_paganeras;Paganeras;Paganeras;Paganeras;;Paganeras;;;;;;;;;x
@@ -8780,8 +8782,6 @@ b_petropolis;Petropolis;Petropolis;Petropolis;;Petropolis;;;;;;;;;x
 b_petropolis_adj;Petropolisian;;petropoliser;;;;;;;;;;;x
 b_petropolis_2;Petropolis;Petropolis;Petropolis;;Petropolis;;;;;;;;;x
 b_petropolis_2_adj;Petropolisian;;petropoliser;;;;;;;;;;;x
-b_peucodane;Peucodañe;Peucodañe;Peucodañe;;Peucodañe;;;;;;;;;x
-b_peucodane_adj;Peucodañean;;peucodañer;;;;;;;;;;;x
 b_piacabucu;Piaçabuçu;Piaçabuçu;Piaçabuçu;;Piaçabuçu;;;;;;;;;x
 b_piacabucu_adj;Piaçabuçian;;piaçabuçer;;;;;;;;;;;x
 b_piacaguera;Piaçaguera;Piaçaguera;Piaçaguera;;Piaçaguera;;;;;;;;;x
@@ -9386,6 +9386,8 @@ b_propria;Propria;Propria;Propria;;Propria;;;;;;;;;x
 b_propria_adj;Proprian;;proprer;;;;;;;;;;;x
 b_providencia;Providência;Providência;Providência;;Providência;;;;;;;;;x
 b_providencia_adj;Providêncian;;providêncer;;;;;;;;;;;x
+b_providencia_2;Providencia;Providencia;Providencia;;Providencia;;;;;;;;;x
+b_providencia_2_adj;Providencian;;Providencer;;;;;;;;;;;x
 b_prudentopolis;Prudentópolis;Prudentópolis;Prudentópolis;;Prudentópolis;;;;;;;;;x
 b_prudentopolis_adj;Prudentópolisian;;prudentópoliser;;;;;;;;;;;x
 b_puan;Puan;Puan;Puan;;Puan;;;;;;;;;x
@@ -9402,8 +9404,8 @@ b_pucotrihue;Pucotrihue;Pucotrihue;Pucotrihue;;Pucotrihue;;;;;;;;;x
 b_pucotrihue_adj;Pucotrihuean;;pucotriher;;;;;;;;;;;x
 b_pucunzal;Pucunzal;Pucunzal;Pucunzal;;Pucunzal;;;;;;;;;x
 b_pucunzal_adj;Pucunzalian;;pucunzaler;;;;;;;;;;;x
-b_pudahuel;Pudahuel;Pudahuel;Pudahuel;;Pudahuel;;;;;;;;;x
-b_pudahuel_adj;Pudahuelian;;pudahueler;;;;;;;;;;;x
+b_quinta_normal;Quinta Normal;Quinta Normal;Quinta Normal;;Quinta Normal;;;;;;;;;x
+b_quinta_normal_adj;Quintanormalean;;Quintanormaler;;;;;;;;;;;x
 b_pueblo_abayuba;Pueblo Abayubá;Pueblo Abayubá;Pueblo Abayubá;;Pueblo Abayubá;;;;;;;;;x
 b_pueblo_abayuba_adj;Pueblo Abayubáian;;Pueblo Abayubáer;;;;;;;;;;;x
 b_pueblo_nuevo;Pueblo Nuevo;Pueblo Nuevo;Pueblo Nuevo;;Pueblo Nuevo;;;;;;;;;x

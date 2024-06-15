@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_atacama
 }
+2360.10.20 = {
+	holder=220043
+	liege=k_norte_chico
+}

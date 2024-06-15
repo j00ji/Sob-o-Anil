@@ -277,7 +277,7 @@ reference_culture = {
 		modifier = default_culture_modifier
 	}
 	mediterranean = {
-		graphical_cultures = { southerngfx occitangfx }
+		graphical_cultures = { southerngfx noroestegfx occitangfx }
 		
 		used_for_random = no
 		allow_in_ruler_designer = no

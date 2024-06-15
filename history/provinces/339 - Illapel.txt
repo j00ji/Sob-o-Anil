@@ -4,11 +4,11 @@
 title = c_illapel
 
 # Settlements
-max_settlements = 3
+max_settlements = 2
 
 b_illapel = castle
+b_salamanca = temple
 #b_chalinga = city
-#b_salamanca = temple
 #b_tahuinco = castle
 #b_chuchini = city
 #b_limahuida = temple

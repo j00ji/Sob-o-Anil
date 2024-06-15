@@ -11183,7 +11183,7 @@
 	culture = camponeto
 	mother = 110606
 	
-	#trait = short
+	trait = short
 	trait = fair
 	
 	martial = 5
@@ -11369,7 +11369,7 @@
 	  dna="bcfaa00bfb0"
   properties="rk0l0g000000000000000000000000000000"
 	father=110615
-	mother=110617
+	mother=110616
 	disallow_random_traits = yes
 	trait = brave
 	trait = just
@@ -11379,7 +11379,6 @@
 	trait = charitable
 	trait = duelist
 	trait = stubborn
-	trait = skilled_tactician
 	
 	2343.1.1={birth = yes}
 	2360.1.1={culture = paranapanense}
@@ -12867,7 +12866,7 @@
 	religion = johrei
 	female=yes
 	dna="ciiaa0ba0a0"
-	properties="cl0kck000000000000000000000000000000"
+	roperties="cl0kck000000000000000000000000000000"
 
 	trait=grey_eminence
 	trait=fair
@@ -13078,7 +13077,7 @@
 
 110741 = {
 	name = "Gustavo"
-	dynasty = 55054 #de Melo
+	dynasty = 55053 #de Melo
 	culture = mantiqueiro
 	religion = renewalist
 	trait = scholarly_theologian
@@ -13098,7 +13097,7 @@
 
 110742 = {
 	name = "Guilherme"
-	dynasty = 55054 #de Melo
+	dynasty = 55053 #de Melo
 	father = 110741
 	culture = mantiqueiro
 	religion = renewalist

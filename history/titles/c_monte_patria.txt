@@ -6,6 +6,9 @@
 800.1.1={
 	liege=k_atacama
 }
+2355.3.12 = {
+	liege=d_choapa
+}
 2364.2.11={
 	holder=220004
 }

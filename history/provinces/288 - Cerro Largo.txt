@@ -6,7 +6,7 @@ title = c_cerro_largo
 # Settlements
 max_settlements = 2
 
-b_melo = tribal
+b_melo = castle
 #b_rio_branco_2 = city
 #b_acegua_2 = temple
 #b_fraile_muerto = castle
@@ -15,7 +15,7 @@ b_melo = tribal
 #b_arachania = castle
 
 # Misc
-culture = guacho
-religion = liberationist
+culture=charrua
+religion=artiguista
 
 #History

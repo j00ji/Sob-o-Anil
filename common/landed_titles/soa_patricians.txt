@@ -1,23 +1,4 @@
-
 ### MERCHANT REPUBLIC PATRICIAN FAMILIES
-
-## Valparaiso
-
-b_figueroa = {
-	culture=centrino
-}
-b_raharoa = {
-	culture=rapa_nui
-}
-b_allende = {
-	culture=centrino
-}
-b_alessandri = {
-	culture=centrino
-}
-b_edwards = {
-	culture=centrino
-}
 
 ## Santos
 

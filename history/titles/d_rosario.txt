@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_cordoba
 }
+2364.10.9 = {
+	holder=330100 # Andrés Argento
+	liege=k_la_plata
+}

@@ -1,4 +1,4 @@
-
-2364.1.25 = { 
-	holder = 320002 #Jose Aemilus
+2362.5.8 = { 
+	holder=410009 # Juan Carlos Blanco
+	liege=k_uruguay
 }

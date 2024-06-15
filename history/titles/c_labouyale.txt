@@ -10,5 +10,5 @@
 	holder=640010 #Eduardo Sorondo
 }
 2363.1.1={
-	liege=d_cordoba
+	liege=k_cordoba
 }

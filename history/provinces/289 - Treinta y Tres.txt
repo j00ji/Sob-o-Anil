@@ -6,7 +6,7 @@ title = c_treinta_y_tres
 # Settlements
 max_settlements = 1
 
-b_treinta_y_tres = tribal
+b_treinta_y_tres = castle
 #b_jose_pedro_varela = city
 #b_vergara = temple
 #b_la_charqueada = castle
@@ -15,7 +15,7 @@ b_treinta_y_tres = tribal
 #b_valentines = castle
 
 # Misc
-culture = guacho
-religion = liberationist
+culture=charrua
+religion=artiguista
 
 #History

@@ -515,7 +515,7 @@
 	dynasty = 270010 #moura
 	religion = terra_benta
 	culture = espinhaco
-	father = 600030
+	
 	trait = tough_soldier
 	trait = impaler
 	trait = arbitrary
@@ -610,16 +610,4 @@
 		death = yes
 	}
 	#vassal of Paracatu, holds unai and formoso
-}
-
-#Moura Father
-
-600030 = {
-	name = "Cleber"
-	dynasty = 270010 #moura
-	culture = espinhaco
-	religion = angel_cult
-	
-	2301.3.5={birth=yes}
-	2364.1.1={death=yes}
 }

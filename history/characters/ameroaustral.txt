@@ -1,354 +1,557 @@
-480001={
-	name="Catriel"
+### Mapuches ###
+######################
+### House Quilapán ###
+######################
+480001 = {
+	name="Catriel" # Catriel Quilapán the Morningstar, King of Araucania.
 	dynasty=210001
-	martial=7
-	diplomacy=5
-	stewardship=5
-	intrigue=3
-	learning=5
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+
 	culture=mapuche
 	religion=nguillatun
-	trait=ambitious
-	trait=shrewd
-	trait=hunter
-	trait=humble
-	trait=diligent
-	trait=just
-	trait=gluttonous
-	trait=skilled_tactician
-	2281.6.26={
-		birth=yes
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2321.4.17 = {
+		birth="2321.4.17"
 	}
-	2301.5.19={
-		add_spouse=480002
+	2337.4.17 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="heavy_infantry_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="cruel"
+		add_trait="ambitious"
+		add_trait="strategist"
 	}
-	2329.1.15={
-	give_nickname=nick_the_conqueror
-		create_bloodline={
-			type=catrilanca
+	2338.5.19 = {
+		add_spouse=480002 # Ailin Calbucura
+	}
+	2351.1.15 = {
+		give_nickname=nick_the_morningstar
+		create_bloodline = {
+			type=bloodline_morningstar
 			has_dlc="Holy Fury"
 		}
 	}
-	2330.10.8={
-		death=yes
+	2365.7.2 = {
+		add_trait="scarred"
+	}
+	2368.12.25 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=240031 # Felipe Prat
+		}
 	}
 }
-480002={
-	name="Ailin"
-	female=yes
+480002 = {
+	name="Ailin" # Ailin Calbucura, wife of Catriel Quilapán.
 	dynasty=210003
-	martial=3
-	diplomacy=6
-	stewardship=4
-	intrigue=5
-	learning=4
-	culture=mapuche
-	religion=nguillatun
-	trait=groomed
-	trait=brave
-	trait=temperate
-	trait=lustful
-	trait=envious
-	trait=midas_touched
-	2283.3.13={
-		birth=yes
-	}
-	2347.10.8={
-		death=yes
-	}
-}
-480003={
-	name="Catriel"
-	dynasty=210001
-  dna="0idbf0ca000"
-  properties="of0d0e000000000000000000000000000000"
-	martial=4
-	diplomacy=3
-	stewardship=3
-	intrigue=2
-	learning=6
-	culture=mapuche
-	religion=nguillatun
-	trait=brave
-	trait=patient
-	trait=gardener
-	trait=zealous
-	trait=tough_soldier
-	father=480001
-	mother=480002
-	2302.12.11={
-		birth=yes
-	}
-	2326.4.12={
-		add_spouse=480004
-	}
-	2369.12.13={
-		death=yes
-	}
-}
-480004={
-	name="Quimey"
 	female=yes
-	dynasty=210006
-	martial=4
-	diplomacy=2
-	stewardship=5
-	intrigue=4
-	learning=6
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 4
+
 	culture=mapuche
 	religion=nguillatun
-	trait=gregarious
-	trait=kind
-	trait=wroth
-	trait=fair
-	trait=martial_cleric
-	2306.9.4={
-		birth=yes
+
+	add_trait="weak"
+	add_trait="fair"
+
+	2321.3.13 = {
+		birth="2321.3.13"
 	}
-	2373.2.18={
-		death=yes
+	2337.3.13 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="kind"
+		add_trait="gregarious"
+	}
+	2346.11.30 = {
+		death = {
+			death_reason=death_childbirth # Childbirth
+		}
 	}
 }
-480005={
-	name="Catriel"
+### Issue of Catriel the Morningstar ###
+480003 = {
+	name="Aukan" # Aukan Quilapán, Duke of Biobío.
 	dynasty=210001
-	martial=3
-	diplomacy=6
-	stewardship=5
-	intrigue=3
-	learning=5
+	dna="0idbf0ca000"
+	properties="of0d0e"
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 2
+	intrigue = 1
+	learning = 5
+
 	culture=mapuche
 	religion=nguillatun
-	trait=hunter
-	trait=content
-	trait=trusting
-	trait=poet
-	trait=sturdy
-	trait=charismatic_negotiator
-	father=480003
-	mother=480004
-	2328.7.17={
-		birth=yes
+
+	add_trait="weak"
+	add_trait="quick"
+
+	disallow_random_traits = yes
+
+	father=480001 # Catriel Quilapán
+	mother=480002 # Ailin Calbucura
+
+	2339.12.11 = {
+		birth="2339.12.11"
 	}
-	2352.7.17={
-		add_spouse=480006
+	2355.12.11 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="kind"
+		add_trait="just"
+		add_trait="honest"
+		add_trait="content"
+		add_trait="erudite"
+		add_trait="administrator"
+		add_trait="scholar"
+		add_spouse=480004 # Quimey Calfucurá
 	}
-	2384.12.14={
-		death=yes
+	2368.12.25 = {
+		add_trait="sympathy_christendom"
 	}
 }
-480006={
-	name="Inara"
+480011 = {
+	name="Licarayén" # Licarayén Quilapán.
+	dynasty=210001
 	female=yes
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=mapuche
+	religion=nguillatun
+
+	add_trait="fair"
+
+	father=480001 # Catriel Quilapán
+	mother=480002 # Ailin Calbucura
+
+	2344.6.7 = {
+		birth="2344.6.7"
+	}
+	2360.6.7 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="kind"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2368.12.25 = {
+		employer=240031 # Felipe Prat
+	}
+}
+480008 = {
+	name="Nahuel" # Nahuel Quilapán, Duke of Araucania.
+	dynasty=210001
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 5
+	learning = 3
+
+	culture=mapuche
+	religion=nguillatun
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=480001 # Catriel Quilapán
+	mother=480002 # Ailin Calbucura
+
+	2346.11.30 = {
+		birth="2346.11.30"
+	}
+	2362.4.12 = {
+		add_trait="skilled_tactician"
+		add_trait="holy_warrior"
+		add_trait="aggressive_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="arbitrary"
+		add_trait="zealous"
+		add_trait="cruel"
+		add_trait="ambitious"
+		add_trait="duelist"
+		add_spouse=480009 # Rayen Coñoepan
+	}
+	2368.12.25 = {
+		effect = {
+			add_rival=240031 # Felipe Prat
+		}
+	}
+}
+### Issue of Aukan ###
+480005 = {
+	name="Caupolicán" # Caupolicán Quilapán.
+	dynasty=210001
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+
+	culture=mapuche
+	religion=nguillatun
+
+	add_trait="weak"
+	add_trait="quick"
+
+	father=480003 # Aukan Quilapán
+	mother=480004 # Quimey Calfucurá
+
+	2356.7.17 = {
+		birth="2356.7.17"
+	}
+}
+### Issue of Nahuel ###
+480010 = {
+	name="Lautaro" # Lautaro Quilapán.
+	dynasty=210001
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 5
+	learning = 3
+
+	culture=mapuche
+	religion=nguillatun
+
+	add_trait="strong"
+
+	father=480008 # Nahuel Quilapán
+	mother=480009 # Rayen Coñoepan
+
+	2363.11.9 = {
+		birth="2363.11.9"
+	}
+}
+#######################
+### House Quintupil ###
+#######################
+480017 = {
+	name="Hueicha" # Hueicha Quintupil, Count of Arauco.
+	dynasty=210002
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 2
+	intrigue = 6
+	learning = 2
+
+	culture=mapuche
+	religion=nguillatun
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2321.5.16 = {
+		birth="2321.5.16"
+	}
+	2337.5.16 = {
+		add_trait="skilled_tactician"
+		add_trait="heavy_infantry_leader"
+		add_trait="aggressive_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="cruel"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2369.1.1 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=250009 # Armando Keller
+		}
+	}
+}
+### Issue of Aukan ###
+480018 = {
+	name="Aukan" # Aukan Quintupil, Count of Arauco.
+	dynasty=210002
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 4
+	intrigue = 4
+	learning = 4
+
+	culture=mapuche
+	religion=nguillatun
+
+	add_trait="strong"
+
+	father=480017 # Hueicha Quintupil
+
+	2339.12.4 = {
+		birth="2339.12.4"
+	}
+	2355.12.4 = {
+		add_trait="skilled_tactician"
+		add_trait="heavy_infantry_leader"
+		add_trait="experimenter"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="zealous"
+	}
+}
+480009 = {
+	name="Rayen" # Rayen Quintupil, wife of Nahuel Quilapán.
+	dynasty=210002
+	female=yes
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+
+	culture=mapuche
+	religion=nguillatun
+
+	father=480017 # Hueicha Quintupil
+
+	2343.5.15 = {
+		birth="2343.5.15"
+	}
+	2359.5.15 = {
+		add_trait="flamboyant_schemer"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+	}
+}
+#######################
+### House Calfucurá ###
+#######################
+480020 = {
+	name="Antilef" # Antilef Calfucurá, Duke of Neuqúen.
+	dynasty=210030
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 5
+	intrigue = 2
+	learning = 5
+
+	culture=mapuche
+	religion=nguillatun
+
+	add_trait="strong"
+
+	2321.5.20 = {
+		birth="2321.5.20"
+	}
+	2337.5.20 = {
+		add_trait="skilled_tactician"
+		add_trait="experimenter"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2338.6.10 = {
+		add_spouse=480021 # Rayen Lienlaf
+	}
+	2369.1.1 = {
+		death = {
+			death_reason=death_duel_battle
+			killer=250009 # Armando Keller
+		}
+	}
+}
+480021 = {
+	name="Rayen" # Rayen Lienlaf, wife of Antilef Calfucurá.
+	dynasty=210032
+	female=yes
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+
+	culture=mapuche
+	religion=nguillatun
+
+	2321.8.28 = {
+		birth="2321.8.28"
+	}
+	2337.8.28 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="temperate"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of Antilef ###
+480022 = {
+	name="Tahiel" # Tahiel Calfucurá, Duke of Neuqúen.
+	dynasty=210030
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 5
+
+	culture=mapuche
+	religion=nguillatun
+
+	add_trait="strong"
+
+	father=480020 # Antilef Calfucurá
+	mother=480021 # Rayen Lienlaf
+
+	2339.11.29 = {
+		birth="2339.11.29"
+	}
+	2355.11.29 = {
+		add_trait="skilled_tactician"
+		add_trait="experimenter"
+		add_trait="inspiring_leader"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2357.10.15 = {
+		add_spouse=480006 # Inara Huilcaman
+	}
+}
+480004 = {
+	name="Quimey" # Quimey Calfucurá, wife of Aukan Quilapán.
+	dynasty=210030
+	female=yes
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 6
+
+	culture=mapuche
+	religion=nguillatun
+
+	father=480020 # Antilef Calfucurá
+	mother=480021 # Rayen Lienlaf
+
+	2340.9.4 = {
+		birth="2340.9.4"
+	}
+	2356.9.4 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="kind"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+480006 = {
+	name="Inara" # Inara Huilcaman, wife of Tahiel Calfucurá.
 	dynasty=210017
-	martial=4
-	diplomacy=3
-	stewardship=4
-	intrigue=4
-	learning=3
+	female=yes
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 4
+	learning = 3
+
 	culture=mapuche
 	religion=nguillatun
-	trait=socializer
-	trait=charitable
-	trait=deceitful
-	trait=scarred
-	trait=fortune_builder
-	2332.5.12={
-		birth=yes
+
+	2339.5.12 = {
+		birth="2339.5.12"
 	}
-	2395.5.13={
-		death=yes
+	2355.5.12 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
 	}
 }
-480007={
-	name="Catriel"
-	dynasty=210001
-	martial=3
-	diplomacy=2
-	stewardship=3
-	intrigue=2
-	learning=3
+### Issue of Tahiel ###
+480007 = {
+	name="Catriel" # Catriel Calfucurá.
+	dynasty=210030
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+
 	culture=mapuche
 	religion=nguillatun
+
 	trait=rowdy
 	trait=fussy
 	trait=willful
-	father=480005
-	mother=480006
-	2358.9.19={
-		birth=yes
+
+	father=480022 # Tahiel Calfucurá
+	mother=480006 # Inara Huilcaman
+
+	2358.9.19 = {
+		birth="2358.9.19"
 	}
-	2423.5.15={
-		death=yes
-	}
+	
 }
 
-480008={
-	name="Nahuel"
-	dynasty=210001
-	martial=3
-	diplomacy=4
-	stewardship=3
-	intrigue=5
-	learning=3
-	culture=mapuche
-	religion=nguillatun
-	trait=chaste
-	trait=cruel
-	trait=stubborn
-	trait=impaler
-	trait=intricate_webweaver
-	father=480001
-	mother=480002
-	2314.12.11={
-		birth=yes
-	}
-	2339.4.12={
-		add_spouse=480009
-	}
-	2346.2.21={
-		effect={
-			add_claim=c_malleco
-		}
-	}
-	2378.10.1={
-		death=yes
-	}
-}
-480009={
-	name="Rayen"
-	female=yes
-	dynasty=210018
-	martial=2
-	diplomacy=5
-	stewardship=4
-	intrigue=3
-	learning=4
-	culture=mapuche
-	religion=nguillatun
-	trait=trusting
-	trait=erudite
-	trait=greedy
-	trait=humble
-	trait=underhanded_rogue
-	2317.5.15={
-		birth=yes
-	}
-	2384.10.12={
-		death=yes
-	}
-}
-480010={
-	name="Felipe"
-	dynasty=210001
-	martial=3
-	diplomacy=4
-	stewardship=3
-	intrigue=5
-	learning=3
-	culture=mapuche
-	religion=nguillatun
-	trait=strong
-	trait=craven
-	trait=shy
-	trait=gardener
-	trait=skilled_tactician
-	father=480008
-	mother=480009
-	2342.11.9={
-		birth=yes
-	}
-	2420.4.20={
-		death=yes
-	}
-}
 
-480011={
-	name="Tahiel"
-	dynasty=210001
-	martial=2
-	diplomacy=4
-	stewardship=5
-	intrigue=4
-	learning=3
-	culture=mapuche
-	religion=nguillatun
-	trait=content
-	trait=temperate
-	trait=charitable
-	trait=sturdy
-	trait=fortune_builder
-	father=480001
-	mother=480002
-	2310.6.7={
-		birth=yes
-	}
-	2333.3.13={
-		add_spouse=480012
-	}
-	2339.6.12={
-		effect={
-			add_claim=c_valdivia
-		}
-	}
-	2341.4.11={
-		effect={
-			add_claim=c_ranco
-			add_claim=d_los_rios
-		}
-	}
-	2374.2.14={
-		death=yes
-	}
-}
-480012={
-	name="Yaima"
-	female=yes
-	dynasty=210023
-	martial=3
-	diplomacy=3
-	stewardship=5
-	intrigue=3
-	learning=4
-	culture=mapuche
-	religion=nguillatun
-	trait=lustful
-	trait=freckles
-	trait=quick
-	trait=kind
-	trait=scholar
-	trait=thrifty_clerk
-	2312.8.28={
-		birth=yes
-	}
-	2379.4.15={
-		death=yes
-	}
-}
-480013={
-	name="Lautaro"
-	dynasty=210001
-	martial=2
-	diplomacy=4
-	stewardship=5
-	intrigue=4
-	learning=3
-	culture=mapuche
-	religion=nguillatun
-	trait=feeble
-	trait=brave
-	trait=wroth
-	trait=charitable
-	trait=tough_soldier
-	father=480011
-	mother=480012
-	2336.6.3={
-		birth=yes
-	}
-	2399.9.4={
-		death=yes
-	}
-}
+
+
+
+
+
 480014={
 	name="Darelen"
 	female=yes
@@ -418,169 +621,27 @@
 		death=yes
 	}
 }
-480017={
-	name="Aukan"
-	dynasty=210002
-	martial=3
-	diplomacy=6
-	stewardship=2
-	intrigue=6
-	learning=2
-	culture=mapuche
-	religion=nguillatun
-	trait=feeble
-	trait=content
-	trait=wroth
-	trait=envious
-	trait=intricate_webweaver
-	2301.5.16={
-		birth=yes
-	}
-	2359.6.11={
-		death=yes
-	}
-}
-480018={
-	name="Aukan"
-	dynasty=210002
-	martial=4
-	diplomacy=4
-	stewardship=4
-	intrigue=4
-	learning=4
-	culture=mapuche
-	religion=nguillatun
-	trait=genius
-	trait=brave
-	trait=paranoid
-	trait=diligent
-	trait=midas_touched
-	father=480017
-	2339.12.4={
-		birth=yes
-	}
-	2359.11.10={
-		add_spouse=480019
-	}
-	2406.5.16={
-		death=yes
-	}
-}
-480019={
-	name="Kuyenray"
-	dynasty=210001
-	female=yes
-	martial=3
-	diplomacy=4
-	stewardship=3
-	intrigue=5
-	learning=3
-	culture=mapuche
-	religion=nguillatun
-	trait=arbitrary
-	trait=quick
-	trait=slothful
-	trait=temperate
-	trait=underhanded_rogue
-	father=480008
-	mother=480009
-	2341.6.22={
-		birth=yes
-	}
-	2411.5.15={
-		death=yes
-	}
-}
-
-480020={
-	name="Juan"
-	dynasty=210030
-	martial=4
-	diplomacy=3
-	stewardship=5
-	intrigue=2
-	learning=5
-	culture=mapuche
-	religion=nguillatun
-	trait=humble
-	trait=strong
-	trait=gamer
-	trait=erudite
-	trait=midas_touched
-	2299.5.20={
-		birth=yes
-	}
-	2334.6.10={
-		add_spouse=480021
-	}
-	2362.7.14={
-		death=yes
-	}
-}
-
-480021={
-	name="Rayen"
-	dynasty=210032
-	female=yes
-	martial=4
-	diplomacy=4
-	stewardship=4
-	intrigue=3
-	learning=4
-	culture=mapuche
-	religion=nguillatun
-	trait=wroth
-	trait=socializer
-	trait=just
-	trait=skilled_tactician
-	2311.8.28={
-		birth=yes
-	}
-	2379.10.12={
-		death=yes
-	}
-}
-
-480022={
-	name="Cipriano"
-	dynasty=210030
-	martial=4
-	diplomacy=2
-	stewardship=3
-	intrigue=3
-	learning=5
-	culture=mapuche
-	religion=nguillatun
-	trait=envious
-	trait=strong
-	trait=patient
-	trait=mystic
-	trait=drunkard
-	trait=tough_soldier
-	father=480020
-	mother=480021
-	2335.11.29={
-		birth=yes
-	}
-	2400.5.18={
-		death=yes
-	}
-}
-
-480023={
-	name=Jorge
+####################
+### House Reinao ###
+####################
+480023 = {
+	name="Jorge"
 	dynasty=210033
+
 	martial=3
 	diplomacy=3
 	stewardship=4
 	intrigue=3
 	learning=4
+
 	culture=mapuche
 	religion=nguillatun
+
 	trait=temperate
 	trait=zealous
 	trait=shrewd
 	trait=charismatic_negotiator
+
 	2320.10.30={
 		birth=yes
 	}
@@ -591,8 +652,7 @@
 		death=yes
 	}
 }
-
-480024={
+480024 = {
 	name=Emilia
 	female=yes
 	dynasty=210034
@@ -614,10 +674,11 @@
 		death=yes
 	}
 }
-
-480025={
+### Issue of  ###
+480025 = {
 	name=Manuel
 	dynasty=210033
+
 	martial=3
 	diplomacy=3
 	stewardship=4
@@ -685,7 +746,7 @@
 		death=yes
 	}
 }
-
+### Patagones ###
 490001={
 	name=Casimiro
 	dynasty=215019
@@ -1631,8 +1692,7 @@
 500030={
 	name=Norma
 	female=yes
-	#dynasty=240001
-	dynasty=235042
+	dynasty=240001
 	martial=3
 	diplomacy=3
 	stewardship=4

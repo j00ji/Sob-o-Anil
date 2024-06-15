@@ -537,7 +537,7 @@
 590026 = { #Concubine Mother of the Dente d'ouro Scion
 	name = "Bárbara"
 	female = yes
-	dynasty = 265010 #Bernardes
+	dynasty = 265009 #Bernardes
 	father=590039
 	culture = auriferro
 	religion = terra_benta
@@ -586,7 +586,6 @@
 	culture = auriferro
 	religion = terra_benta
 	father = 110684
-	mother = 590026
 	female = yes
 	trait = martial_cleric
 	trait = zealous
@@ -641,7 +640,7 @@
 590032 = { #Concubine Mother of the Dente d'Aço Scion
 	name = "Rebeca"
 	female = yes
-	dynasty = 265011 #Dente d'Aço
+	dynasty=0
 	culture = german
 	religion = terra_benta
 	trait = underhanded_rogue
@@ -777,7 +776,7 @@
 	trait = underhanded_rogue
 	trait = just
 	
-	2264.5.25={birth=yes}
+	2275.5.25={birth=yes}
 	2315.1.1={death=yes}
 	#ruled viçosa, instead of helping his bro he submited to the Desterros
 }

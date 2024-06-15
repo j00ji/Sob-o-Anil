@@ -1,10 +1,9 @@
 # e_la_plata
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-
-2368.1.1={
-	holder = 410009 #Azevedo Bandeira
-	liege=d_montevideo
+2362.5.8 = {
+	holder=410009 # Juan Carlos Blanco
+	liege=k_uruguay
 }

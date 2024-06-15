@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sangreroja"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\sangreroja.tga"
+	}
+	spriteType = {
+		name = "GFX_sangreroja_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\sangreroja_small.tga"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_terminus_est"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\terminus_est.tga"
+	}
+	spriteType = {
+		name = "GFX_terminus_est_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\terminus_est_small.tga"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_libertador"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\libertador.tga"
+	}
+	spriteType = {
+		name = "GFX_libertador_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\libertador_small.tga"
+	}
+}

@@ -1,12 +1,14 @@
 ###ÄNSI;;;;;;;;;;;;;;
 
-chl.1.t;The Bastard Count;;;;;;;;;;;;;x
-chl.1.d;Since your childhood, you have been ostracized, kept apart and mocked. For even if you are of noble birth, you are not of noble conception. Fatherless, for long have people looked at you as less, and you have had little figures to aspire to be. But now, you are in charge, for your mother's dynasty has legitimized you, and at her passing, your reign from Chillán has begun.\n\nBut as you are ready to set aside the past, a package arrives at your dwellings. A wooden box, carrying your family's stamp. It seems there are things your mother kept from you.;;;;;;;;;;;;;x
-chl.1.a;What could be inside?;;;;;;;;;;;;;x
-chl.2.t;A Black Origin;;;;;;;;;;;;;x
-chl.2.d;As you can't keep waiting, you decide to open the box. A letter, carrying the seal of the House of Naranjo, is laying inside.\n\nAs you begin reading its contents, the world suddenly stops and starts making sense at once. For you find in it a signed confession, a letter from the old Duke of Ñuble and Maule, Manuel, detailing his relationship with your mother, and officially recognizing you, Fernando, as his son. While the Duke died heirless, and stories of his illicit relationships abound, this is different, for you are a legitimate child of the Riquelme House, and with this confession, the right for his land, has passed to you. While your drunkard uncle wastes his days in his throne, it seems your inheritance that he weakly gave away, is at hand to recover. But your father's legacy is a dark one to take, and maybe this is not the right path you are about to take.;;;;;;;;;;;;;x
-chl.2.a;I am my father's son, and I will reclaim my birthright.;;;;;;;;;;;;;x
-chl.2.b;I will never be the terrible man he was, nor his son.;;;;;;;;;;;;;x
+chl.1.t;The Legacy of the Lion;;;;;;;;;;;;;x
+chl.1.d;It has been a year since my father has died, I now stand at a crossroad on what to do with my life and how to live up to his legacy. I have received a letter of help from Miguel Cerezas, Duke of Coquimbo, asking for help in dealing with the Witch of Salamanca, he promises to bend his knee to me if I help him with the Witch and he also asks for a marriage pact between my son and his daughter and that his brother recieves Choapa. Meanwhile I have also received news of raiding Huaso bands led by Bartolo “el Roto” Lara, Duke of Maule.;;;;;;;;;;;;;x
+chl.1.a;I will help Coquimbo.;;;;;;;;;;;;;x
+chl.1.b;I will fight El Roto.;;;;;;;;;;;;;x
+chl.1.c;Actually, I am fine as it is.;;;;;;;;;;;;;x
+chl.2.t;The fate of the Witch of Salamanca;;;;;;;;;;;;;x
+chl.2.d;After a succesful campaign you’ve brought the Witch down, now she stands before you, begging for mercy, claiming that she will repent for her sins and promise absolute loyalty towards you, even offering her daughter for your son to marry to seal the deal. You are tempted, her daughter is very capable but you have also made promises to the Cerezas, what do you choose?;;;;;;;;;;;;;x
+chl.2.a;God forgives, I do not.;;;;;;;;;;;;;x
+chl.2.b;God forgives and so do I.;;;;;;;;;;;;;x
 calafatist.1.t;The Embrace of the Cold;;;;;;;;;;;;;x
 calafatist.1.d;You never thought this moment would arrive, but it has, as you turn your head to see how far away from your home you are, you know this is it.\nAs night begins to fall, the cold turns ever-present, your stomach is empty and your mouth is dry, you spend your last cold moments, remembering everything you have been through, and contemplating the wondrous beauty of the wild.;;;;;;;;;;;;;x
 calafatist.1.a;And you open your arms for the embrace.;;;;;;;;;;;;;x

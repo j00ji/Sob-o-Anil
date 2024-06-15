@@ -8,8 +8,8 @@ max_settlements = 4
 
 b_san_fernando = castle
 b_santa_cruz_de_colchagua = temple
-#b_chimbarongo = temple
-#b_nancagua = castle
+b_chimbarongo = temple
+b_nancagua = castle
 #b_chepica = city
 #b_tinguiririca = temple
 #b_peor_es_nada = castle

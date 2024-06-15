@@ -8,7 +8,7 @@ max_settlements = 3
 
 b_la_ligua = castle
 b_cabildo = city
-#b_petorca = temple
+b_petorca = temple
 #b_zapallar = castle
 #b_papudo = city
 #b_guaquen = temple

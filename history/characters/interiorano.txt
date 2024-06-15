@@ -1,437 +1,1055 @@
-#EMPIRE OF INTERIOR
-#Kingdom of Cordoba
-#Duchy of Anejo
-#County of Punila (Vassal of Duchy of Cordoba)
-640001 = {
-    name="Alejandro"
-    dynasty=285001 # Lugones
-    culture=cordobes
-    religion=theosophist
-    martial=4
-    diplomacy=4
-    stewardship=4
-    intrigue=4
-    learning=4
-    trait=indulgent_wastrel
-    trait=hedonist
-    trait=uncouth
-    trait=lustful
-    trait=arbitrary
-    trait=gluttonous
-    trait=charitable
-    trait=stubborn
-    2339.1.1={birth=yes}
-    2370.1.1={death=yes}
+#####################################
+### Región del Noroeste Argentino ###
+#####################################
+#####################
+### House Uriburu ###
+#####################
+640106 = {
+	name="Miguel" # Miguel Uriburu the Gaucho Salteño, King of Norte Viejo.
+    dynasty=285054
+	dna="ajkkg00a000"
+	properties="0g0aik"
+
+	diplomacy = 8
+	martial = 10
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+
+	culture=norteno
+    religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+    2298.11.19 = {
+		birth="2298.11.19"
+	}
+	2314.11.19 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+		add_trait="strategist"
+	}
+	2325.2.8 = {
+		add_spouse=640092 # María Güemes
+	}
+	2328.4.16 = {
+		give_nickname=nick_the_gaucho_salteno
+	}
+    2360.10.23 = {
+		death="2360.10.23"
+	}
 }
-#Count of Punilla and Colon
+640092 = {
+	name="María" # María Güemes, wife of Miguel Uriburu the Gaucho Salteño.
+    dynasty=285056
+	female=yes
 
+	diplomacy = 6
+	martial = 7
+	stewardship = 4
+	intrigue = 4
+	learning = 4
 
-#County of Rio Seco
-640002 = {
-    name="Joaquin"
-    dynasty=285002 # Moreno
-    culture=cordobes
-    religion=theosophist
-    martial=4
-    diplomacy=4
-    stewardship=4
-    intrigue=4
-    learning=4
-    trait=tough_soldier
-    trait=sympathy_christendom
-    trait=hunter
-    trait=patient
-    trait=honest
-    trait=chaste
-    trait=content
-    trait=erudite
-    2341.1.1={birth=yes}
-    2370.1.1={death=yes}
+	culture=norteno
+    religion=catholic
+	
+	add_trait="fair"
+
+    2298.12.11 = {
+		birth="2298.12.11"
+	}
+	2361.6.7 = {
+		death="2361.6.7"
+	}
 }
+### Issue of Miguel the Gaucho Salteño ###
+640085 = {
+	name="Felix" # Felix Uriburu the Infernal, King of Norte Viejo.
+    dynasty=285054
+	dna="aeiaf0dc000"
+	properties="0s00dk0000000l"
 
-#Count of Rio Seco
+	diplomacy = 4
+	martial = 1
+	stewardship = 4
+	intrigue = 5
+	learning = 4
 
-#Duchy of Cordoba
-#Duchy of Cordoba
-640003 = {
-    name="Antonia"
-    dynasty=285003 # Luz
-    female=yes
-    culture=cordobes
-    religion=theosophist
-    martial=4
-    diplomacy=4
-    stewardship=4
-    intrigue=6
-    learning=6
-    trait=scholarly_theologian
-    trait=mystic
-    trait=diligent
-    trait=lustful
-    trait=gregarious
-    trait=proud
-    trait=ambitious
-    trait=erudite
-    2327.1.1={birth=yes}
-	2363.1.1={add_matrilineal_spouse=640004}
-	2365.1.1={
-		effect={
-			give_nickname = nick_the_bruja
+	culture=norteno
+    religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=640106 # Miguel Uriburu
+	mother=640092 # María Güemes
+
+    2326.7.20 = {
+		birth="2326.7.20"
+	}
+	2342.7.20 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="cruel"
+		add_trait="zealous"
+		add_trait="ambitious"
+	}
+	2346.1.1 = {
+		add_spouse=640086 # Olivia Massa
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+		give_nickname=nick_the_infernal
+	}
+	2364.11.5 = {
+		add_trait="scarred_high"
+		add_trait="one_eyed"
+	}
+}
+640107 = {
+	name="Evaristo" # Evaristo Uriburu.
+	dynasty=285054
+	
+	diplomacy = 4
+	martial = 4
+	stewardship = 4
+	intrigue = 5
+	learning = 4
+
+	culture=norteno
+    religion=catholic
+
+	add_trait="strong"
+
+	father=640106 # Miguel Uriburu
+	mother=640092 # María Güemes
+
+	2328.2.21 = {
+		birth="2328.2.21"
+	}
+	2344.2.21 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+	}
+	2364.11.8 = {
+		death = {
+			death_reason=death_battle # Battle of Buenos Aires
+            killer=330007 # Lionel Valle
 		}
 	}
-    2370.1.1={death=yes}
-	#Duchess of Cordoba, rules La Docta, San Justo, and Rivadavia
 }
-640004 = {
-    name="Juan"
-    dynasty=285004 # Spairani
-    culture=cordobes
-    religion=theosophist
-    martial=3
+640086 = {
+    name="Olivia" # Olivia Massa, wife of Felix Uriburu.
+    dynasty=285055
+	female=yes
+
+	diplomacy = 3
+	martial = 3
+    stewardship = 3
+    intrigue = 3
+    learning = 3
+
+    culture=porteno
+    religion=catholic
+
+    add_trait="fair"
+
+	2326.12.1 = {
+		birth="2326.12.1"
+		culture=norteno
+	}
+	2342.12.1 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of Felix the Infernal ###
+640087 = {
+    name="Miguel" # Miguel Uriburu.
+    dynasty=285054
+
+	martial=4
     diplomacy=3
-    stewardship=3
+    stewardship=4
     intrigue=3
     learning=3
-    trait=martial_cleric
-    trait=zealous
-    trait=humble
-    trait=gregarious
-    trait=diligent
-    2340.1.1={birth=yes}
-    2370.1.1={death=yes}
-	#Husband of the Duchess, matrilineal marriage
-}
 
-640005 = {
-    name="Alejandra"
-    dynasty=285003 # Luz
-	father=640004
-	mother=640003
-    culture=cordobes
-    religion=theosophist
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=2
-    intrigue=3
-    learning=3
-    trait=affectionate        
-    trait=playful
-    2365.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#First child of Antonio Luz and Juan Spairani
+	culture=norteno
+    religion=catholic
+	
+	father=640085 # Felix Uriburu
+	mother=640086 # Olivia Massa
 
-640006 = {
-    name="Jose"
-    dynasty=285003 # Luz
-	father=640004
-	mother=640003
-    culture=cordobes
-    religion=theosophist
-    martial=2
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=2
-    trait=willful
-    2366.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Second child of Antonio Luz and Juan Spairani
-
-
-#County of El Imperio (Vassal of Duchy of Cordoba)
-640007 = {
-    name="Krishna"
-    dynasty=285005 # de Sarak
-	father=640036
-    culture=cordobes
-    religion=theosophist
-    martial=5
-    diplomacy=5
-    stewardship=5
-    intrigue=5
-    learning=5
     trait=charismatic_negotiator
+    trait=quick
     trait=gregarious
     trait=diligent
-    trait=deceitful
-    trait=stubborn
-    trait=greedy
-    trait=envious
-    2330.1.1={birth=yes}
-	2360.1.1={add_spouse=640008}
-    2375.1.1={death=yes}
-}#Count of El Imperio, son of King Sartini Sarak
+    trait=proud
 
-640008 = {
-    name="Sarah"
-    dynasty=285006 # Briggs 
-    culture=cordobes
-    religion=theosophist
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=4
-    trait=indulgent_wastrel
-    trait=humble
-    trait=trusting
-    trait=kind
-    2335.1.1={birth=yes}
-    2380.1.1={death=yes}
-}#Wife of the Count Krishna de Sarak
+    2347.1.1 = {
+		birth=yes
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+	}
+}
+640088 = {
+    name="Evaristo"
+    dynasty=285054 # Uriburu
 
-640009 = {
-    name="Maitreya"
-    dynasty=285005 # de Sarak
-	father=640007
-	mother=640008
-    culture=cordobes
-    religion=theosophist
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=willful
-    2368.1.1={birth=yes}
-    2750.1.1={death=yes}
-}#First child, preset to be a Child of Destiny
-
-#County of Laboulaye (Vassal of Duchy of Cordoba)
-640010 = {
-    name="Eduardo"
-    dynasty=285007 # Sorondo
-    culture=cordobes
-    religion=theosophist
-    martial=3
-    diplomacy=4
-    stewardship=4
-    intrigue=4
-    learning=3
-    trait=thrifty_clerk
-    trait=patient
-    trait=kind
-    trait=trusting
-    trait=content
-    2340.1.1={birth=yes}
-	2361.1.1 = { add_spouse = 640011 } #Julia
-    2370.1.1={death=yes}
-}#Count of Laboulaye
-
-640011 = {
-    name="Julia"
-    dynasty=285008 # Perez
-    culture=cordobes
-    religion=theosophist
-    female=yes
-    martial=3
-    diplomacy=5
-    stewardship=4
-    intrigue=4
-    learning=5
-    trait=indulgent_wastrel
-    trait=drunkard
-    trait=slothful
-    trait=zealous
-    2345.1.1={birth=yes}
-    2377.1.1={death=yes}
-}#Wife of the Count Eduardo Sorondo
-
-640012 = {
-    name="Hector"
-    dynasty=285007 # Sorondo
-	father=640010
-	mother=640011
-    culture=cordobes
-    religion=theosophist
-    martial=1
+    martial=2
     diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2365.1.1={birth=yes}
-    2440.1.1={death=yes}
-}#First child
+    stewardship=2
+    intrigue=3
+    learning=2
 
-640013 = {
-    name="Arturo"
-    dynasty=285007 # Sorondo
-	father=640010
-	mother=640011
-    culture=cordobes
-    religion=theosophist
-    female=yes
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2366.1.1={birth=yes}
-    2440.1.1={death=yes}
-}#Second child
-
-#Duchy of Rosario
-#County of General Lopez
-640014 = {
-    name="Rodolfo"
-    dynasty=285009 # Wheelwright
-    culture=litoraleno
+	culture=norteno
     religion=catholic
-    martial=5
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=skilled_tactician
-    trait=crusader
-    trait=wroth
-    trait=humble
-    trait=envious
-    trait=ambitious
-    2335.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Count of General Lopez
 
-640015={
-    name="Leyla"
-    dynasty=285009 # Wheelwright
-	father=640014
-    female=yes
-    culture=litoraleno
+	father=640085 # Felix Uriburu
+	mother=640086 # Olivia Massa
+
+    2349.1.1={birth=yes}
+}
+640089 = {
+    name="Carmen"
+    dynasty=285054
+	female=yes
+	dna="0cd0j0bb000"
+	properties="go000k"
+
+	diplomacy = 2
+	martial = 3
+    stewardship = 2
+    intrigue = 3
+    learning = 3
+
+	culture=norteno
     religion=catholic
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2360.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#First child
 
-640016={
-    name="Oscar"
-    dynasty=285009 # Wheelwright
-	father=640014
-    culture=litoraleno
+	add_trait="fair"
+
+	father=640085 # Felix Uriburu
+	mother=640086 # Olivia Massa
+
+    2351.1.1 = {
+		birth=yes
+	}
+}
+### Issue of Evaristo ###
+640090 = {
+    name="Felix"
+    dynasty=285054 # Uriburu
+	father=640107
+    culture=norteno
     religion=catholic
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2364.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Second child
 
-#County of Rosario (Vassal of Duchy of Lujan)
-640017={
-    name="Pedro"
-    dynasty=285010 #Bautista
-    culture=litoraleno
-    religion=rosalian
-    martial=4
-    diplomacy=3
-    stewardship=4
-    intrigue=3
-    learning=3
-    trait=tough_soldier
-    trait=impaler
-    trait=wroth
-    trait=lustful
-    trait=content
-    trait=cruel
-    trait=honest
-    trait=zealous
-    2329.1.1={birth=yes}
-	2360.1.1={add_spouse=640018}
-    2370.1.1={death=yes}
-}#Count of Rosario
-
-640018={
-    name="Juana"
-    dynasty=285011 # Hernandez 
-    culture=litoraleno
-    religion=platinean
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=underhanded_rogue
-    trait=gregarious
-    trait=charitable
-    trait=diligent
-    trait=humble
-    2340.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Wife of the Count Pedro Bautista
-
-640019={
-    name="Javier"
-    dynasty=285010 # Bautista
-	father=640017
-	mother=640018
-    culture=litoraleno
-    religion=rosalian
     martial=2
     diplomacy=1
     stewardship=1
-    intrigue=3
+    intrigue=1
     learning=1
-    trait=tough_soldier
-    trait=proud
-    trait=envious
-    trait=ambitious
-    2362.1.1={birth=yes}
-    2445.1.1={death=yes}
-}#First child
 
+    2349.1.1={birth=yes}
+}
+640191 = {
+    name="José"
+    dynasty=285054 # Uriburu
+	father=640107
 
-#County of San Jeronimo (Vassal of Duchy of Santa Fe)
-640020={
-    name="Jorge"
-    dynasty=285012 # Peña
-    culture=litoraleno
-    religion=folclorista
-    martial=4
-    diplomacy=4
-    stewardship=2
-    intrigue=3
-    learning=4
-    trait=underhanded_rogue
-    trait=deceitful
-    trait=greedy
-    trait=humble
-    trait=cynical
-    trait=kind
-    trait=arbitrary
-    2337.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Count of San Jeronimo
-
-640021={
-    name="Lena"
-    dynasty=285012 # Peña
-	father=640020
-    female=yes
-    culture=litoraleno
-    religion=folclorista
+    culture=norteno
+    religion=catholic
     martial=1
     diplomacy=1
     stewardship=1
     intrigue=1
     learning=1
-    trait=bastard
+    2351.1.1={birth=yes}
+}
+640091 = {
+    name="Alberto"
+    dynasty=285054 # Uriburu
+	father=640107
+
+    culture=norteno
+    religion=catholic
+    martial=1
+    diplomacy=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    2353.1.1={birth=yes}
+}
+######################
+### House Prebisch ###
+######################
+640102={
+	name="Cesar"
+    dynasty=285092 # Prebisch
+    culture=norteno
+    religion=catholic
+    martial=5
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=6
+    trait=scholarly_theologian
+    trait=scholar
+    trait=erudite
+    trait=cynical
+    trait=greedy
+    trait=shrewd
+    trait=proud
+    2331.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Count of Tucuman
+640104={
+    name="Isidore"
+    dynasty=285092 # Prebisch
+    culture=norteno
+    religion=catholic
+    martial=1
+    diplomacy=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    trait=quick
     2366.1.1={birth=yes}
     2450.1.1={death=yes}
 }#First child
-
-
-#Duchy of Santa Fe
-#Duchy of Santa Fe
+640105={
+    name="Fanuco"
+    dynasty=285092 # Prebisch
+    culture=norteno
+    religion=catholic
+    martial=1
+    diplomacy=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    2367.1.1={birth=yes}
+    2430.1.1={death=yes}
+}#Second child
+#####################
+### House Huapaya ###
+#####################
+640098={
+	name="Kukuyu"
+    dynasty=285059 # Huapaya
+    culture=quechua
+    religion=santa_diablada
+    martial=2
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=thrifty_clerk
+    trait=is_fat
+    trait=arbitrary
+    trait=lustful
+    trait=greedy
+    trait=stubborn
+    trait=gluttonous
+    2328.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Countess of Quiaca
+#####################
+### House Chihuán ###
+#####################
+640093={
+	name="Arkaryu"
+    dynasty=285057 # Chihuán
+    culture=quechua
+    religion=catholic
+    martial=3
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=3
+    trait=underhanded_rogue
+    trait=crusader
+    trait=gregarious
+    trait=temperate
+    trait=paranoid
+    trait=content
+    trait=just
+    2335.1.1={birth=yes}
+	2364.1.1={add_spouse=640094}
+    2370.1.1={death=yes}
+}#Count of Nueva Oran
+640094={
+    name="Juana"
+    dynasty=285058 # Huancahuari
+    culture=quechua
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=intricate_webweaver
+    trait=deceitful
+    trait=cruel
+    trait=wroth
+    2340.1.1={birth=yes}
+    2420.1.1={death=yes}
+}#Wife of the Count
+### Issue of Arkaryu ###
+640095={
+    name="Hasintu"
+    dynasty=285057 # Chihuán
+	father=640093
+	mother=640094
+    culture=quechua
+    religion=catholic
+    martial=2
+    diplomacy=3
+    stewardship=2
+    intrigue=3
+    learning=2
+    2365.1.1={birth=yes}
+    2400.1.1={death=yes}
+}#First child
+640096={
+    name="Irnistu"
+    dynasty=285057 # Chihuán
+	father=640093
+	mother=640094
+    culture=quechua
+    religion=catholic
+    martial=3
+    diplomacy=2
+    stewardship=3
+    intrigue=2
+    learning=3
+    2366.1.1={birth=yes}
+    2400.1.1={death=yes}
+}#Second child
+640097={
+    name="Awaq"
+    dynasty=285057 # Chihuán
+	father=640093
+	mother=640094
+    culture=quechua
+    religion=catholic
+    martial=1
+    diplomacy=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    2367.1.1={birth=yes}
+    2400.1.1={death=yes}
+}#Third child
+########################
+### House Gurruchaga ###
+########################
+640099={
+	name="Manuela"
+    dynasty=285090 # de Gurruchaga
+    female=yes
+    culture=norteno
+    religion=catholic
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=scholarly_theologian
+    trait=physician
+    trait=erudite
+    trait=honest
+    trait=kind
+    trait=charitable
+    trait=just
+    2351.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Countess of Cafayate
+###################
+### House Gomez ###
+###################
+640103={
+    name="Adela"
+    dynasty=285093 # Gomez
+    culture=norteno
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=intricate_webweaver
+    trait=cruel
+    trait=envious
+    trait=patient
+    2345.1.1={birth=yes}
+    2430.1.1={death=yes}
+}#Wife of the Count Cesar Prebisch
+###################
+### House Saadi ###
+###################
+640100={
+	name="Alexandre"
+    dynasty=285091 # Saadi
+    culture=turco
+    religion=catholic
+    martial=4
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=fortune_builder        
+    trait=sympathy_old_world
+    trait=lustful
+    trait=stubborn
+    trait=diligent
+    trait=greedy
+    2329.1.1={birth=yes}
+	2366.1.1={add_spouse=640101}
+    2370.1.1={death=yes}
+}#County of Catamarca
+640101={
+    name="Zaina"
+    dynasty=110004 # Habib
+    culture=turco
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=thrifty_clerk
+    trait=greedy
+    trait=deceitful
+    trait=trusting
+    2345.1.1={birth=yes}
+    2420.1.1={death=yes}
+}#Wife of the Count Alexandre Saadi
+#################################
+### Región chaqueña argentina ###
+#################################
+##################
+### House Díaz ###
+##################
+640077={
+  name="Gustavo"
+    dynasty=285049 # Díaz
+    culture=qom
+    religion=dreamtime
+    martial=5
+    diplomacy=3
+    stewardship=5
+    intrigue=3
+    learning=5
+    trait=scholarly_theologian
+    trait=mystic
+    trait=possessed
+    trait=gregarious
+    trait=zealous
+    trait=temperate
+    trait=humble
+    trait=ambitious
+    trait=just
+    2338.1.1={birth=yes}
+	2363.1.1={add_spouse=640078}
+    2370.1.1={death=yes}
+}#High Chief of Formosa, rules Impenetrable
+640078={
+    name="Julieta"
+    dynasty=285050 # Pereyra        
+    culture=qom
+    religion=dreamtime
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=tough_soldier
+    trait=wroth
+    trait=charitable
+    trait=envious
+    2345.1.1={birth=yes}
+    2410.1.1={death=yes}
+}#Wife of the High Chief Gustavo Diaz
+### Issue of Gustavo ###
+640079={
+    name="Cesar"
+    dynasty=285049 # Díaz
+	father=640077
+	mother=640078
+    culture=qom
+    religion=dreamtime
+    martial=1
+    diplomacy=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    2365.1.1={birth=yes}
+    2420.1.1={death=yes}
+}#First child
+640080={
+    name="Rosa"
+    dynasty=285049 # Díaz
+	father=640077
+	mother=640078
+    culture=qom
+    religion=dreamtime
+    female=yes
+    martial=1
+    diplomacy=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    2366.1.1={birth=yes}
+    2440.1.1={death=yes}
+}#Second child
+#######################
+### House Sarmiento ###
+#######################
+640081={
+  name="Hugo"
+    dynasty=285051 # Sarmiento
+    culture=qom
+    religion=evangelical
+    martial=2
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=thrifty_clerk
+    trait=content
+    trait=greedy
+    trait=diligent
+    trait=sympathy_pagans
+    2345.1.1={birth=yes}
+	2367.1.1={add_spouse=640082}
+    2370.1.1={death=yes}
+}#Chief of Bermejo
+640082={
+    name="Emilia"
+    dynasty=285052 # Ramos
+    culture=qom
+    religion=evangelical
+    female=yes
+    martial=2
+    diplomacy=2
+    stewardship=3
+    intrigue=2
+    learning=2
+    trait=charismatic_negotiator
+    trait=patient
+    trait=kind
+    trait=gregarious
+    2350.1.1={birth=yes}
+    2430.1.1={death=yes}
+}#Wife of the Chief Hugo Sarmiento
+### Issue of Hugo ###
+640083={
+    name="Ihan"
+    dynasty=285051 # Sarmiento
+	father=640081
+	mother=640082
+    culture=qom
+    religion=evangelical
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    2368.1.1={birth=yes}
+    2460.1.1={death=yes}
+}#First child
+####################
+### House Torres ###
+####################
+640084={
+	name="Fernando"
+    dynasty=285053 # Torres
+    culture=chaqueno
+    religion=catholic
+    martial=5
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=tough_soldier
+    trait=cynical
+    trait=wroth
+    trait=robust
+    trait=brave
+    trait=diligent
+    2337.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Chief of Formosa
+###################
+### House Niyat ###
+###################
+640064={
+	name="Tomas"
+    dynasty=285039 # Niyat
+    culture=chaqueno
+    religion=catholic
+    martial=5
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=tough_soldier
+    trait=proud
+    trait=wroth
+    trait=diligent
+    trait=honest
+    trait=just
+    2345.1.1={birth=yes}
+	2367.1.1={add_spouse=640065}
+    2370.1.1={death=yes}
+}#High Chief of Chaco, rules Vilelas
+640065={
+    name="Hamia"
+    dynasty=285040 # Alonso        
+    culture=chaqueno
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=underhanded_rogue
+    trait=gregarious
+    trait=kind
+    trait=charitable
+    2350.1.1={birth=yes}
+    2400.1.1={death=yes}
+}#Wife of the Count Tomas Niyat
+#####################
+### House Kaufman ###
+#####################
+640066={
+	name="Daniel"
+    dynasty=285042 # Kaufman
+    culture=german
+    religion=evangelical
+    martial=2
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=martial_cleric
+    trait=patient
+    trait=slothful
+    trait=temperate
+    trait=robust
+    2339.1.1={birth=yes culture=chaqueno}
+	2365.1.1={add_spouse=640067}
+    2370.1.1={death=yes}
+}#Chief of Brown
+640067={
+    name="Eva"
+    dynasty=285041 # Müller
+    culture=german
+    religion=evangelical
+    female=yes
+    martial=3
+    diplomacy=4
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=midas_touched
+    trait=diligent
+    trait=greedy
+    trait=charitable
+    2340.1.1={birth=yes culture=chaqueno}
+    2400.1.1={death=yes}
+}#Wife of the Count Daniel Kaufman 
+### Issue of Daniel ###
+640068={
+    name="Anton"
+    dynasty=285042 # Kaufman
+	father=640066
+	mother=640067
+    culture=german
+    religion=evangelical
+    martial=1
+    diplomacy=1
+    stewardship=1
+    intrigue=2
+    learning=1
+    2366.1.1={birth=yes culture=chaqueno}
+    2430.1.1={death=yes}
+}#First child
+######################
+### House del Saco ###
+######################
+640069={
+	name="Pedro"
+    dynasty=285043 # del Saco
+    culture=chaqueno
+    religion=catholic
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=5
+    learning=3
+    trait=elusive_shadow
+    trait=impaler
+    trait=cruel
+    trait=wroth
+    trait=content
+    2342.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Chief of Chaco
+#####################
+### House C'utjan ###
+#####################
+640070={
+	name="Miguel"
+    dynasty=285044 # C'utjan
+    culture=nivacle
+    religion=manredebu
+    martial=5
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=tough_soldier
+    trait=diligent
+    trait=patient
+    trait=robust
+    trait=humble
+    trait=shy
+    2339.1.1={birth=yes}
+	2365.1.1={add_spouse=640071}
+    2370.1.1={death=yes}
+}#High Chief of Chaco Oriental, rules Alto Paraguay
+###################
+### House Jotoi ###
+###################
+640071={
+	name="Isabel"
+    dynasty=285094 # Jotoi
+    female=yes
+    culture=nivacle
+    religion=manredebu
+    martial=3
+    diplomacy=5
+    stewardship=4
+    intrigue=3
+    learning=4
+    trait=grey_eminence
+    trait=gregarious
+    trait=groomed
+    trait=kind
+    trait=charitable
+    2342.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Chieftess of Boqueron, wife of the High Chief of Chaco Oriental
+######################
+### House Jotoicha ###
+######################
+640072={
+	name="Pilar"
+    dynasty=285045 # Jotoicha
+    culture=nivacle
+    religion=manredebu
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=naive_appeaser
+    trait=craven
+    trait=slothful
+    trait=kind
+    trait=honest
+    2333.1.1={birth=yes}
+	2364.1.1={add_spouse=640073}
+    2370.1.1={death=yes}
+}#Chief of Lagerenza 
+640073={
+    name="Milagros"
+    dynasty=285046 # Ruiz        
+    culture=nivacle
+    religion=manredebu
+    female=yes
+    martial=3
+    diplomacy=2
+    stewardship=4
+    intrigue=4
+    learning=3
+    trait=underhanded_rogue        
+    trait=gregarious
+    trait=honest
+    trait=kind
+    2348.1.1={birth=yes}
+    2400.1.1={death=yes}
+}#Wife of the Count Pilar Jotoicha
+### Issue of Pilar ###
+640074={
+    name="Fanuco"
+    dynasty=285045 # Jotoicha
+	father=640072
+	mother=640073
+    culture=nivacle
+    religion=manredebu
+    martial=1
+    diplomacy=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    2365.1.1={birth=yes}
+    2430.1.1={death=yes}
+}#First child
+###################
+### House Hayes ###
+###################
+640075={
+	name="Kuarahy"
+    dynasty=285047 # Hayes
+    culture=english
+    religion=jerovia
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=midas_touched
+    trait=honest
+    trait=charitable
+    trait=patient
+    trait=brave
+    trait=just
+    trait=lustful
+    2344.1.1={birth=yes culture=guarani}
+	2366.1.1={add_spouse=640076}
+    2370.1.1={death=yes}
+}#Chiefdom of Presidente Hayes
+640076={
+    name="Augustina"
+    dynasty=285048 # Varela        
+    culture=guarani
+    religion=jerovia
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=underhanded_rogue
+    trait=kind
+    trait=charitable
+    trait=gregarious
+    2350.1.1={birth=yes}
+    2420.1.1={death=yes}
+}#Wife of the Count Kuarahy Hayes
+##################
+### House Amat ###
+##################
+680001={
+    name="Omar"
+    dynasty=305005 # Amat
+    culture=turco
+    religion=catholic
+    martial=5
+    diplomacy=4
+    stewardship=4
+    intrigue=5
+    learning=2
+    trait=skilled_tactician
+    trait=crusader
+    trait=content
+    trait=kind
+    trait=just
+    trait=brave
+    trait=humble
+    2333.1.1={birth=yes}
+    2405.1.1={death=yes}
+	#Count of Concepcion
+}
+#####################
+### House Mohamed ###
+#####################
+640030={
+    name="Mario"
+    dynasty=285017 # Mohamed
+    culture=turco
+    religion=jewish
+    martial=3
+    diplomacy=5
+    stewardship=3
+    intrigue=5
+    learning=3
+    trait=intricate_webweaver
+    trait=sturdy
+    trait=wroth
+    trait=cruel
+    trait=lustful
+    trait=humble
+    trait=cynical
+    2325.1.1={birth=yes}
+	2360.1.1={
+		add_spouse=640031
+	}
+    2370.1.1={death=yes}
+}#Count of Moises
+640031={
+    name="Helena"
+    dynasty=285018 # von Hahn
+    culture=rutenio
+    religion=theosophist
+    female=yes
+    martial=2
+    diplomacy=4
+    stewardship=3
+    intrigue=4
+    learning=3
+    trait=scholarly_theologian
+    trait=quick
+    trait=mystic
+    trait=diligent
+    trait=charitable
+    trait=uncouth
+    trait=greedy
+    2340.1.1 ={birth=yes}
+    2370.1.1={death=yes}
+}#Wife of the Count Mario Mohamed
+######################
+### House Baldomir ###
+######################
 640022={
     name="Sergio"
     dynasty=285013 # Baldomir
@@ -461,7 +1079,6 @@
 	}
     2370.1.1={death=yes}
 }#Duke of Santa Fe, rules Santa Fe and San Javier, lover and friend of Abril Manos
-
 640023={
     name="Abril"
     dynasty=285014 # Manos 
@@ -480,7 +1097,7 @@
     2345.1.1={birth=yes}
     2420.1.1={death=yes}
 }#Wife of the Count Sergio Baldomir, lover and friend of Sergio Baldomir
-
+### Issue of Sergio ###
 640024={
     name="Ildefonso"
     dynasty=285013 # Baldomir
@@ -497,7 +1114,6 @@
     2363.1.1={birth=yes}
     2450.1.1={death=yes}
 }#First child
-
 640025={
     name="Cyrillus"
     dynasty=285013 # Baldomir
@@ -513,7 +1129,6 @@
     2364.1.1={birth=yes}
     2450.1.1={death=yes}
 }#Second child
-
 640026={
     name="Augustina"
     dynasty=285013 # Baldomir
@@ -530,7 +1145,6 @@
     2365.1.1={birth=yes}
     2450.1.1={death=yes}
 }#Third child
-
 640027={
     name="Isandro"
     dynasty=285013 # Baldomir
@@ -546,8 +1160,9 @@
     2367.1.1={birth=yes}
     2460.1.1={death=yes}
 }#Fourth child
-
-#County of Garay (Vassal of Duchy of Santa Fe)
+####################
+### House Grassi ###
+####################
 640028={
     name="Luciano"
     dynasty=285015 # Grassi
@@ -571,7 +1186,6 @@
 	}
     2370.1.1={death=yes}
 }#Count of Garay
-
 640029={
     name="Irene"
     dynasty=285016 # Erebus
@@ -590,171 +1204,473 @@
     2345.1.1={birth=yes}
     2400.1.1={death=yes}
 }#Wife of the Count Luciano Grassi
-
-#County of Moises
-640030={
-    name="Mario"
-    dynasty=285017 # Mohamed
-    culture=turco
-    religion=jewish
-    martial=3
-    diplomacy=5
-    stewardship=3
-    intrigue=5
-    learning=3
-    trait=intricate_webweaver
-    trait=sturdy
-    trait=wroth
-    trait=cruel
-    trait=lustful
+######################
+### House Iglesias ###
+######################
+640020={
+    name="Jorge"
+    dynasty=285012 # Peña
+    culture=litoraleno
+    religion=folclorista
+    martial=4
+    diplomacy=4
+    stewardship=2
+    intrigue=3
+    learning=4
+    trait=underhanded_rogue
+    trait=deceitful
+    trait=greedy
     trait=humble
     trait=cynical
-    2325.1.1={birth=yes}
-	2360.1.1={
-		add_spouse=640031
-	}
+    trait=kind
+    trait=arbitrary
+    2337.1.1={birth=yes}
     2370.1.1={death=yes}
-}#Count of Moises
-
-640031={
-    name="Helena"
-    dynasty=285018 # von Hahn
-    culture=rutenio
-    religion=theosophist
+}#Count of San Jeronimo
+### Issue of Jorge ###
+640021={
+    name="Lena"
+    dynasty=285012 # Peña
+	father=640020
     female=yes
-    martial=2
+    culture=litoraleno
+    religion=folclorista
+    martial=1
+    diplomacy=1
+    stewardship=1
+    intrigue=1
+    learning=1
+    trait=bastard
+    2366.1.1={birth=yes}
+    2450.1.1={death=yes}
+}#First child
+#######################
+### Región del Cuyo ###
+#######################
+######################
+### House Iglesias ###
+######################
+640057={
+    name="Pepe"
+    dynasty=285033 # Iglesias
+    culture=cuyano
+    religion=catholic
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=martial_cleric
+    trait=erudite
+    trait=charitable
+    trait=proud
+    trait=shy
+    trait=content
+    2347.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Count of Vinchina
+#####################
+### House Nilsson ###
+#####################
+640053={
+    name="Lydia"
+    dynasty=285030 # Nilsson
+    female=yes
+    culture=cuyano
+    religion=catholic
+    martial=4
+    diplomacy=5
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=charismatic_negotiator
+    trait=fair
+    trait=gregarious
+    trait=ambitious
+    trait=kind
+    trait=proud
+    trait=patient
+    2344.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Countess of Jachal, rules Jachal and Calingasta
+##################
+### House Maza ###
+##################
+640120 = {
+	name="José" # José Maza the Baptist, Duke of San Juan.
+    dynasty=285031
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=cuyano
+    religion=catholic
+	
+	2319.1.1 = {
+		birth=yes
+	}
+	2364.11.8 = {
+		death = {
+			death_reason=death_battle # Battle of Buenos Aires
+            killer=330007 # Lionel Valle
+		}
+	}
+}
+### Issue of Antonio the Baptist ###
+640054 = {
+    name="Manuel" # Manuel Maza the Thrice-Killed, Duke of San Juan.
+    dynasty=285031
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 4
+
+	culture=cuyano
+    religion=catholic
+
+	disallow_random_traits = yes
+
+	father=640120
+
+    2340.4.5 = {
+		birth="2340.4.5"
+	}
+	2356.4.5 = {
+		add_trait="skilled_tactician"
+		add_trait="unyielding_leader"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_spouse=640055
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+	}
+}
+640055={
+    name="Nina"
+    dynasty=285032 # Vásquez
+    culture=cuyano
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    trait=fortune_builder        
+    trait=just
+    trait=greedy
+    trait=erudite
+    2342.1.1={birth=yes}
+    2400.1.1={death=yes}
+}
+### Issue of Manuel ###
+640056 = {
+    name="Eleuterio" #
+    dynasty=285031
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=cuyano
+	religion=catholic
+
+	father=640054 # Manuel Maza
+	mother=640055 # Vásquez
+
+    2357.1.1 = {
+		birth=yes
+	}
+}
+###################
+### House Aldao ###
+###################
+640121 = {
+	name="Francisco" # Francisco Aldao, Duke of Mendoza.
+    dynasty=285024
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=cuyano
+    religion=catholic
+
+	disallow_random_traits = yes
+
+	add_trait="strong"
+
+	2319.10.11 = {
+		birth="2319.10.11"
+	}
+	2335.10.11 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2338.4.25 = {
+		add_spouse=640122 # Carolina Villanueva
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+	}
+	2364.11.8 = {
+		death = {
+			death_reason=death_battle # Battle of Buenos Aires
+            killer=330007 # Lionel Valle
+		}
+	}
+}
+640122 = {
+	name="Carolina" # Carolina Villanueva, Wife of Francisco Aldao.
+    dynasty=285024
+	female=yes
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=cuyano
+    religion=catholic
+
+	2319.1.19 = {
+		birth="2319.1.19"
+	}
+	2335.1.19 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2369.2.1 = {
+		death="2369.2.1"
+	}
+}
+### Issue of Francisco the Knight of the Andes ###
+640046 = {
+    name="José" # José Aldao, Duke of Mendoza.
+    dynasty=285024
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+    culture=cuyano
+    religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=640121 # Joaquín Aldao
+	mother=640122 # Carolina Villanueva
+
+    2339.7.18 = {
+		birth="2339.7.18"
+	}
+	2355.7.18 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="duelist"
+	}
+	2358.6.15 = {
+		add_spouse=640047 # Julia Rosa
+	}
+	2364.7.5 = {
+		add_trait="crusader"
+	}
+}
+640047 = {
+    name="Clementina" # Clementina Benegas, wife of José Aldao.
+    dynasty=290009
+	female=yes
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=cuyano
+    religion=catholic
+
+    2339.4.8 = {
+		birth="2339.4.8"
+	}
+	2355.4.8 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of José the Heretic Slayer ###
+
+####################
+### House Llaver ###
+####################
+640048={
+    name="Julio"
+    dynasty=285026 # Llaver
+    culture=cuyano
+    religion=catholic
+    martial=4
+    diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=tough_soldier
+    trait=wroth
+    trait=proud
+    trait=brave
+    trait=cruel
+    2329.1.1={birth=yes}
+	2367.1.1={add_spouse=640049}
+    2370.1.1={death=yes}
+}#Count of Alvear
+640049={
+    name="Martina"
+    dynasty=285027 # Alvarez
+    culture=cuyano
+    religion=catholic
+    female=yes
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=martial_cleric
+    trait=cynical
+    trait=kind
+    trait=charitable
+    2350.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Wife of the Count Julio Llaver
+### Issue of Julio ###
+640050={
+    name="Esteban"
+    dynasty=285026 # Llaver
+	father=640048
+	mother=640049
+    culture=cuyano
+    religion=catholic
+    martial=3
+    diplomacy=3
+    stewardship=4
+    intrigue=3
+    learning=3
+    2368.1.1={birth=yes}
+    2430.1.1={death=yes}
+}#First child
+##################
+### House Roig ###
+##################
+640051={
+    name="Ernesto"
+    dynasty=285028 # Roig
+    culture=cuyano
+    religion=catholic
+    martial=3
     diplomacy=4
     stewardship=3
     intrigue=4
     learning=3
-    trait=scholarly_theologian
-    trait=quick
-    trait=mystic
-    trait=diligent
-    trait=charitable
-    trait=uncouth
-    trait=greedy
-    2340.1.1 ={birth=yes}
-    2370.1.1={death=yes}
-}#Wife of the Count Mario Mohamed
-
-#Kingdom of Cordoba
-640032={
-    name="Rama"
-    dynasty=285005 # de Sarak
-    culture=turco
-    religion=theosophist
-    martial=5
-    diplomacy=5
-    stewardship=5
-    intrigue=9
-    learning=5
-    trait=elusive_shadow
-    trait=legendary
-    trait=quick
-    trait=mystic
-    trait=deceitful
-    trait=arbitrary
-    trait=greedy
-    trait=patient
-    trait=proud
-    trait=erudite
-    2019.1.1={birth=yes}
-    2119.1.1={death=yes}
-}#First Legendary King of Cordoba from 2050.1.1 to 2119.1.1, also Count of La Docta
-
-640033={
-    name="Alberto"
-    dynasty=285005 # de Sarak
-	father=640032
-    culture=cordobes
-    religion=theosophist
-    martial=5
-    diplomacy=5
-    stewardship=5
-    intrigue=5
-    learning=5
-    trait=fortune_builder
-    trait=quick
-    trait=administrator        
-    trait=deceitful
-    trait=erudite
-    trait=proud
-    trait=gregarious
-    2090.1.1={birth=yes}
-    2220.1.1={death=yes}
-}#Second Legendary King of Cordoba, ruled from 2119.1.1 to 2220.1.1, also Count of La Docta
-
-640034={
-	name="Rama"
-    dynasty=285005 # de Sarak
-	father=640033
-    culture=cordobes
-    religion=theosophist
-    martial=5
-    diplomacy=5
-    stewardship=5
-    intrigue=5
-    learning=5
-    trait=brilliant_strategist
-    trait=zealous
-    trait=just
-    trait=brave
-    trait=ambitious
-    trait=proud
-    trait=diligent
-    2200.1.1={birth=yes}
-    2300.1.1={death=yes}
-}#Third Legendary King of Cordoba, ruled from 2220.1.1 to 2300.1.1, also Count of La Docta
-
-640035={
-	name="Boudh"
-	father=640034
-    dynasty=285005 # de Sarak
-    culture=cordobes
-    religion=theosophist
-    martial=5
-    diplomacy=5
-    stewardship=5
-    intrigue=5
-    learning=5
-    trait=mastermind_theologian
-    trait=weak
+    trait=martial_cleric
     trait=scholar
-    trait=erudite
-    trait=patient
-    trait=diligent
-    trait=craven
-    2280.1.1={birth=yes}
-    2333.1.1={death=yes}
-}#Fourth (and First non-Legendary) King of Cordoba, ruled from 2300.1.1 to 2333.1.1, also Count of La Docta
-
-640036={
-	name="Sartini"
-    dynasty=285005 # de Sarak
-	father=640035
-    culture=cordobes
-    religion=theosophist
-    martial=5
-    diplomacy=5
-    stewardship=5
-    intrigue=5
-    learning=5
-    trait=detached_priest
     trait=cynical
-    trait=dull
-    trait=kind
     trait=humble
-    trait=content
+    trait=erudite
+    trait=kind
+    2333.1.1={birth=yes}
+	2368.1.1={add_spouse=640052}
+    2370.1.1={death=yes}
+}#Count of San Rafael, rules San Rafael and Colorado
+640052={
+    name="Ferazia"
+    dynasty=285029 # Martínez
+    culture=cuyano
+    religion=catholic
+    female=yes
+    martial=4
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=4
+    trait=underhanded_rogue
+    trait=gregarious
     trait=honest
-    2312.1.1={birth=yes}
-    2363.1.1={death=yes}
-}#Last (and Second non-Legendary) King of Cordoba, ruled from 2333.1.1 to 2363.1.1, also Count of La Docta, killed by the crusader Yoshimar Cuba, the Kingdom of Cordoba is destroyed
-
-
-#Kingdom of Cuyo
-#Duchy of La Rioja
-#Duchy of La Rioja
+    2350.1.1={birth=yes}
+    2420.1.1={death=yes}
+}#Wife of the Count Ernesto Roig
+####################
+### House Romero ###
+####################
+640063={
+    name="Santo"
+    dynasty=285037 # Romero
+    culture=pampeano
+    religion=gaucheria
+    martial=6
+    diplomacy=7
+    stewardship=6
+    intrigue=6
+    learning=6
+    trait=misguided_warrior
+    trait=strong
+    trait=gregarious
+    trait=brave
+    trait=honest
+    trait=charitable
+    trait=proud
+    trait=wroth
+    2340.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Chief of Dupuy
+#######################################
+### Región de las Sierras Pampeanas ###
+#######################################
+###################
+### House Menem ###
+###################
 640037={
 	name="Saúl"
     dynasty=285019 # Menem
@@ -776,7 +1692,6 @@
 	2347.1.1={add_spouse=640038}
     2370.1.1={death=yes}
 }#Duke of La Rioja, rules Chilecito and La Rioja
-
 640038={
     name="Ana"
     dynasty=285095 # Tanpura
@@ -795,7 +1710,6 @@
     2325.1.1={birth=yes}
     2370.1.1={death=yes}
 }#Wife of the Count Saúl Menem
-
 640039={
     name="Carlos"
     dynasty=285019 # Menem
@@ -818,7 +1732,6 @@
     2349.1.1={birth=yes}
     2370.1.1={death=yes}
 }#First child
-
 640040={
     name="Máximo"
     dynasty=285019 # Menem
@@ -834,7 +1747,6 @@
     2365.1.1={birth=yes}
     2370.1.1={death=yes}
 }#Second child
-
 640041={
     name="Zulema"
     dynasty=285019 # Menem
@@ -852,8 +1764,9 @@
     2366.1.1={birth=yes}
     2370.1.1={death=yes}
 }#Third child
-
-#County of Patquia
+#######################
+### House Angelelli ###
+#######################
 640042={
     name="Esteban"
     dynasty=285020 # Angelelli
@@ -873,7 +1786,6 @@
 	2368.1.1={add_spouse=640043}
     2370.1.1={death=yes}
 }#Count of Patquia
-
 640043={
     name="Paola"
     dynasty=285021 # Urien
@@ -892,7 +1804,9 @@
     2350.1.1={birth=yes}
     2370.1.1={death=yes}
 }#Wife of the Count Esteban Angelelli
-
+#####################
+### House Quiroga ###
+#####################
 #County of Penaloza
 640044={
     name="Ricardo"
@@ -914,7 +1828,6 @@
 	2368.1.1={add_spouse=640045}
     2370.1.1={death=yes}
 }#Count of Penaloza
-
 640045={
     name="Melona"
     dynasty=285023 # Bertoldi
@@ -933,249 +1846,9 @@
     2345.1.1={birth=yes}
     2370.1.1={death=yes}
 }#Wife of the Count Ricardo Quiroga
-
-#Duchy of Mendoza
-#Duchy of Mendoza
-640046={
-    name="Luis"
-    dynasty=285024 # Villanueva
-    culture=cuyano
-    religion=catholic
-    martial=3
-    diplomacy=3
-    stewardship=4
-    intrigue=4
-    learning=5
-    trait=detached_priest
-    trait=erudite
-    trait=charitable
-    trait=patient
-    2341.1.1={birth=yes}
-	2367.1.1={add_spouse=640047}
-    2370.1.1={death=yes}
-}#Duke of Mendoza, rules Huentota and Malargue
-
-640047={
-    name="Julia"
-    dynasty=285025 # Rosa
-    culture=cuyano
-    religion=catholic
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=intricate_webweaver        
-    trait=deceitful
-    trait=gregarious
-    trait=proud
-    trait=envious
-    2345.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Wife of the Count Luis Villanueva
-
-#County of Alvear
-640048={
-    name="Julio"
-    dynasty=285026 # Llaver
-    culture=cuyano
-    religion=catholic
-    martial=4
-    diplomacy=4
-    stewardship=4
-    intrigue=4
-    learning=4
-    trait=tough_soldier
-    trait=wroth
-    trait=proud
-    trait=brave
-    trait=cruel
-    2329.1.1={birth=yes}
-	2367.1.1={add_spouse=640049}
-    2370.1.1={death=yes}
-}#Count of Alvear
-
-640049={
-    name="Martina"
-    dynasty=285027 # Alvarez
-    culture=cuyano
-    religion=catholic
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=martial_cleric
-    trait=cynical
-    trait=kind
-    trait=charitable
-    2350.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Wife of the Count Julio Llaver
-
-640050={
-    name="Esteban"
-    dynasty=285026 # Llaver
-	father=640048
-	mother=640049
-    culture=cuyano
-    religion=catholic
-    martial=3
-    diplomacy=3
-    stewardship=4
-    intrigue=3
-    learning=3
-    2368.1.1={birth=yes}
-    2430.1.1={death=yes}
-}#First child
-
-#County of San Rafael
-640051={
-    name="Ernesto"
-    dynasty=285028 # Roig
-    culture=cuyano
-    religion=catholic
-    martial=3
-    diplomacy=4
-    stewardship=3
-    intrigue=4
-    learning=3
-    trait=martial_cleric
-    trait=scholar
-    trait=cynical
-    trait=humble
-    trait=erudite
-    trait=kind
-    2333.1.1={birth=yes}
-	2368.1.1={add_spouse=640052}
-    2370.1.1={death=yes}
-}#Count of San Rafael, rules San Rafael and Colorado
-
-640052={
-    name="Ferazia"
-    dynasty=285029 # Martínez
-    culture=cuyano
-    religion=catholic
-    female=yes
-    martial=4
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=4
-    trait=underhanded_rogue
-    trait=gregarious
-    trait=honest
-    2350.1.1={birth=yes}
-    2420.1.1={death=yes}
-}#Wife of the Count Ernesto Roig
-
-#Duchy of San Juan
-#County of Jachal
-640053={
-    name="Lydia"
-    dynasty=285030 # Nilsson
-    female=yes
-    culture=cuyano
-    religion=catholic
-    martial=4
-    diplomacy=5
-    stewardship=4
-    intrigue=4
-    learning=4
-    trait=charismatic_negotiator
-    trait=fair
-    trait=gregarious
-    trait=ambitious
-    trait=kind
-    trait=proud
-    trait=patient
-    2344.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Countess of Jachal, rules Jachal and Calingasta
-
-#County of San Juan
-640054={
-    name="Santiago"
-    dynasty=285031 # Maza
-    culture=cuyano
-    religion=catholic
-    martial=5
-    diplomacy=3
-    stewardship=3
-    intrigue=4
-    learning=4
-    trait=skilled_tactician
-    trait=crusader
-    trait=brave
-    trait=just
-    trait=temperate
-    trait=kind
-    trait=wroth
-    2340.1.1={birth=yes}
-	2364.1.1={add_spouse=640055}
-    2370.1.1={death=yes}
-}#Count of San Juan
-
-640055={
-    name="Nina"
-    dynasty=285032 # Vásquez
-    culture=cuyano
-    religion=catholic
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=4
-    intrigue=3
-    learning=3
-    trait=fortune_builder        
-    trait=just
-    trait=greedy
-    trait=erudite
-    2342.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Wife of the Count Santiago Maza
-
-640056={
-    name="Eleuterio"
-    dynasty=285031 # Maza
-	father=640054
-	mother=640055
-    culture=cuyano
-    religion=catholic
-    martial=1
-    diplomacy=2
-    stewardship=2
-    intrigue=1
-    learning=2
-    2366.1.1={birth=yes}
-    2450.1.1={death=yes}
-}#First child
-
-#County of Vinchina
-640057={
-    name="Pepe"
-    dynasty=285033 # Iglesias
-    culture=cuyano
-    religion=catholic
-    martial=4
-    diplomacy=4
-    stewardship=4
-    intrigue=4
-    learning=4
-    trait=martial_cleric
-    trait=erudite
-    trait=charitable
-    trait=proud
-    trait=shy
-    trait=content
-    2347.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Count of Vinchina
-
-#Duchy of San Luis
-#County of Cadillo
+#####################
+### House Matanza ###
+#####################
 640058={
     name="Maria"
     dynasty=285034 # Matanza
@@ -1199,7 +1872,6 @@
 	2363.1.1={effect={add_rival=330007 give_nickname=nick_the_viudita}}
     2370.1.1={death=yes}
 }#Count of Cadillo, rules Cadillo and La Punta, rival of the King of Buenos Aires
-
 640059={
     name="Santiago"
     dynasty=285035 # González        
@@ -1215,15 +1887,16 @@
     trait=fair
     trait=kind
     2335.1.1={birth=yes}
-    2365.1.1={
-		death={
-			death_reason=death_battle
-			killer=330007
+    2364.11.8 = {
+		death = {
+			death_reason=death_battle # Battle of Buenos Aires
+            killer=330007 # Lionel Valle
 		}
 	}
 }#Husband of the Countess Maria Matanza, killed in battle by the King of Buenos Aires in 2365.1.1
-
-#County of Rio Quinto
+####################
+### House Juarez ###
+####################
 640060={
     name="Jose"
     dynasty=285036 # Juarez
@@ -1243,7 +1916,6 @@
 	2368.1.1={add_spouse=640061}
     2370.1.1={death=yes}
 }#Count of Rio Quinto
-
 640061={
     name="Maya"
     dynasty=285037 # Romero        
@@ -1262,7 +1934,6 @@
     2352.1.1={birth=yes}
     2430.1.1={death=yes}
 }#Wife of the Count Jose Juarez
-
 640062={
     name="Rafael"
     dynasty=285036 # Juarez
@@ -1278,359 +1949,410 @@
     2369.1.1={birth=yes}
     2455.1.1={death=yes}
 }#First child
-
-#Chiefdom of Dupuy
-640063={
-    name="Santo"
-    dynasty=285038 # Vega
-    culture=pampeano
-    religion=gaucheria
-    martial=6
-    diplomacy=7
-    stewardship=6
-    intrigue=6
-    learning=6
-    trait=misguided_warrior
-    trait=strong
-    trait=gregarious
-    trait=brave
-    trait=honest
-    trait=charitable
-    trait=proud
-    trait=wroth
-    2340.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Chief of Dupuy
-
-#Kingdom of Gran Chaco
-#Duchy of Chaco
-#High Chiefdom of Chaco
-640064={
-	name="Tomas"
-    dynasty=285039 # Niyat
-    culture=chaqueno
-    religion=catholic
-    martial=5
+####################
+### House Moreno ###
+####################
+640002 = {
+    name="Joaquin"
+    dynasty=285002 # Moreno
+    culture=cordobes
+    religion=theosophist
+    martial=4
     diplomacy=4
     stewardship=4
     intrigue=4
     learning=4
     trait=tough_soldier
-    trait=proud
-    trait=wroth
-    trait=diligent
-    trait=honest
-    trait=just
-    2345.1.1={birth=yes}
-	2367.1.1={add_spouse=640065}
-    2370.1.1={death=yes}
-}#High Chief of Chaco, rules Vilelas
-
-640065={
-    name="Hamia"
-    dynasty=285040 # Alonso        
-    culture=chaqueno
-    religion=catholic
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=underhanded_rogue
-    trait=gregarious
-    trait=kind
-    trait=charitable
-    2350.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Wife of the Count Tomas Niyat
-
-#Chiefdom of Brown (Vassal of High Chiefdom of Chaco)
-640066={
-	name="Daniel"
-    dynasty=285042 # Kaufman
-    culture=german
-    religion=evangelical
-    martial=2
-    diplomacy=4
-    stewardship=4
-    intrigue=4
-    learning=4
-    trait=martial_cleric
+    trait=sympathy_christendom
+    trait=hunter
     trait=patient
-    trait=slothful
-    trait=temperate
-    trait=robust
-    2339.1.1={birth=yes culture=chaqueno}
-	2365.1.1={add_spouse=640067}
-    2370.1.1={death=yes}
-}#Chief of Brown
-
-640067={
-    name="Eva"
-    dynasty=285041 # Müller
-    culture=german
-    religion=evangelical
-    female=yes
-    martial=3
-    diplomacy=4
-    stewardship=4
-    intrigue=3
-    learning=3
-    trait=midas_touched
-    trait=diligent
-    trait=greedy
-    trait=charitable
-    2340.1.1={birth=yes culture=chaqueno}
-    2400.1.1={death=yes}
-}#Wife of the Count Daniel Kaufman 
-
-640068={
-    name="Anton"
-    dynasty=285042 # Kaufman
-	father=640066
-	mother=640067
-    culture=german
-    religion=evangelical
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=2
-    learning=1
-    2366.1.1={birth=yes culture=chaqueno}
-    2430.1.1={death=yes}
-}#First child
-
-#Chiefdom of Chaco (Vassal of High Chiefdom of Chaco)
-640069={
-	name="Pedro"
-    dynasty=285043 # del Saco
-    culture=chaqueno
-    religion=catholic
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=5
-    learning=3
-    trait=elusive_shadow
-    trait=impaler
-    trait=cruel
-    trait=wroth
+    trait=honest
+    trait=chaste
     trait=content
-    2342.1.1={birth=yes}
+    trait=erudite
+    2341.1.1={birth=yes}
     2370.1.1={death=yes}
-}#Chief of Chaco
-
-#Duchy of Chaco Oriental
-#High Chiefdom of Chaco Oriental
-640070={
-	name="Miguel"
-    dynasty=285044 # C'utjan
-    culture=nivacle
-    religion=manredebu
-    martial=5
+}
+#####################
+### House Lugones ###
+#####################
+640001 = {
+    name="Alejandro"
+    dynasty=285001 # Lugones
+    culture=cordobes
+    religion=theosophist
+    martial=4
     diplomacy=4
+    stewardship=4
+    intrigue=4
+    learning=4
+    trait=indulgent_wastrel
+    trait=hedonist
+    trait=uncouth
+    trait=lustful
+    trait=arbitrary
+    trait=gluttonous
+    trait=charitable
+    trait=stubborn
+    2339.1.1={birth=yes}
+    2370.1.1={death=yes}
+}
+######################
+### House de Sarak ###
+######################
+640032={
+    name="Rama"
+    dynasty=285005 # de Sarak
+    culture=turco
+    religion=theosophist
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=9
+    learning=5
+    trait=elusive_shadow
+    trait=legendary
+    trait=quick
+    trait=mystic
+    trait=deceitful
+    trait=arbitrary
+    trait=greedy
+    trait=patient
+    trait=proud
+    trait=erudite
+    2019.1.1={birth=yes}
+    2119.1.1={death=yes}
+}
+### Issue of Rama ###
+640033={
+    name="Alberto"
+    dynasty=285005 # de Sarak
+	father=640032
+    culture=cordobes
+    religion=theosophist
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=fortune_builder
+    trait=quick
+    trait=administrator        
+    trait=deceitful
+    trait=erudite
+    trait=proud
+    trait=gregarious
+    2090.1.1={birth=yes}
+    2220.1.1={death=yes}
+}
+### Issue of Alberto ###
+640034={
+	name="Rama"
+    dynasty=285005 # de Sarak
+	father=640033
+    culture=cordobes
+    religion=theosophist
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=brilliant_strategist
+    trait=zealous
+    trait=just
+    trait=brave
+    trait=ambitious
+    trait=proud
+    trait=diligent
+    2200.1.1={birth=yes}
+    2300.1.1={death=yes}
+}
+### Issue of Rama II ###
+640035={
+	name="Boudh"
+	father=640034
+    dynasty=285005 # de Sarak
+    culture=cordobes
+    religion=theosophist
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=mastermind_theologian
+    trait=weak
+    trait=scholar
+    trait=erudite
+    trait=patient
+    trait=diligent
+    trait=craven
+    2280.1.1={birth=yes}
+    2333.1.1={death=yes}
+}
+### Issue of Boudh ###
+640036={
+	name="Sartini"
+    dynasty=285005 # de Sarak
+	father=640035
+    culture=cordobes
+    religion=theosophist
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=detached_priest
+    trait=cynical
+    trait=dull
+    trait=kind
+    trait=humble
+    trait=content
+    trait=honest
+    2312.1.1={birth=yes}
+    2363.1.1={
+		death = {
+			death_reason=death_murder_poison
+			killer=640003 # Antonia Luz
+		}
+	}
+}
+### Issue of Sartini ###
+640007 = {
+    name="Krishna"
+    dynasty=285005 # de Sarak
+	father=640036
+    culture=cordobes
+    religion=theosophist
+    martial=5
+    diplomacy=5
+    stewardship=5
+    intrigue=5
+    learning=5
+    trait=charismatic_negotiator
+    trait=gregarious
+    trait=diligent
+    trait=deceitful
+    trait=stubborn
+    trait=greedy
+    trait=envious
+    2330.1.1={birth=yes}
+	2360.1.1={add_spouse=640008}
+    2375.1.1={death=yes}
+}
+640008 = {
+    name="Sarah"
+    dynasty=285006 # Briggs 
+    culture=cordobes
+    religion=theosophist
+    female=yes
+    martial=3
+    diplomacy=3
     stewardship=3
+    intrigue=3
+    learning=4
+    trait=indulgent_wastrel
+    trait=humble
+    trait=trusting
+    trait=kind
+    2335.1.1={birth=yes}
+    2380.1.1={death=yes}
+}
+### Issue of Krishna ###
+640009 = {
+    name="Maitreya"
+    dynasty=285005 # de Sarak
+	father=640007
+	mother=640008
+    culture=cordobes
+    religion=theosophist
+    martial=3
+    diplomacy=3
+    stewardship=3
+    intrigue=3
+    learning=3
+    trait=willful
+    2368.1.1={birth=yes}
+    2750.1.1={death=yes}
+}
+#################
+### House Luz ###
+#################
+640003 = {
+    name="Antonia"
+    dynasty=285003 # Luz
+    female=yes
+
+	diplomacy = 8
+	martial = 10
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+
+	culture=cordobes
+	religion=theosophist
+
+    trait=intricate_webweaver
+    trait=mystic
+    trait=diligent
+    trait=lustful
+	trait=gregarious
+	trait=proud
+	trait=ambitious
+	trait=erudite
+
+    2327.1.1 = {
+		birth=yes
+	}
+	2347.1.1 = {
+		add_matrilineal_spouse=640004
+	}
+	2363.1.1 = {
+		give_nickname=nick_the_bruja
+	}
+    2364.8.18 = {
+		death = {
+			death_reason=death_execution_boiling
+			killer=640085 # Felix Uriburu
+		}
+	}
+}
+640004 = {
+	name="Juan" # Juan Spairani, husband of Antonia Luz.
+	dynasty=285004
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=cordobes
+	religion=theosophist
+
+    trait=martial_cleric
+    trait=zealous
+    trait=humble
+    trait=gregarious
+    trait=diligent
+
+	2327.1.1 = {
+		birth=yes
+	}
+	2364.8.18 = {
+		death = {
+			death_reason=death_execution_boiling
+			killer=640085 # Felix Uriburu
+		}
+	}
+}
+### Issue of Antonia the Bruja ###
+640005 = {
+    name="Alejandra" # Alejandra Luz, wife of Patricio Guevara and Queen of Cordoba.
+    dynasty=285003
+	female=yes
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+
+	culture=cordobes
+	religion=theosophist
+
+	father=640004 # Juan Spairani
+	mother=640003 # Antonia Luz
+
+    2348.1.1 = {birth=yes}
+}
+640006 = {
+    name="Jose" # Jose Luz.
+    dynasty=285003
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+
+	culture=cordobes
+	religion=theosophist
+
+	father=640004 # Juan Spairani
+	mother=640003 # Antonia Luz
+
+    2350.1.1 = {
+		birth=yes
+	}
+	2364.8.18 = {
+		death = {
+			death_reason=death_execution_boiling
+			killer=640085 # Felix Uriburu
+		}
+	}
+}
+#####################
+### House Sorondo ###
+#####################
+640010 = {
+    name="Eduardo"
+    dynasty=285007 # Sorondo
+    culture=cordobes
+    religion=theosophist
+    martial=3
+    diplomacy=4
+    stewardship=4
     intrigue=4
     learning=3
-    trait=tough_soldier
-    trait=diligent
+    trait=thrifty_clerk
     trait=patient
-    trait=robust
-    trait=humble
-    trait=shy
-    2339.1.1={birth=yes}
-	2365.1.1={add_spouse=640071}
+    trait=kind
+    trait=trusting
+    trait=content
+    2340.1.1={birth=yes}
+	2361.1.1 = { add_spouse = 640011 } #Julia
     2370.1.1={death=yes}
-}#High Chief of Chaco Oriental, rules Alto Paraguay
-
-#Chiefdom of Boqueron (Vassal of High Chiefdom of Chaco Oriental)
-640071={
-	name="Isabel"
-    dynasty=285094 # Jotoi
+}#Count of Laboulaye
+640011 = {
+    name="Julia"
+    dynasty=285008 # Perez
+    culture=cordobes
+    religion=theosophist
     female=yes
-    culture=nivacle
-    religion=manredebu
     martial=3
     diplomacy=5
     stewardship=4
-    intrigue=3
-    learning=4
-    trait=grey_eminence
-    trait=gregarious
-    trait=groomed
-    trait=kind
-    trait=charitable
-    2342.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Chieftess of Boqueron, wife of the High Chief of Chaco Oriental
-
-#Chiefdom of Lagerenza (Vassal of High Chiefdom of Chaco Oriental
-640072={
-	name="Pilar"
-    dynasty=285045 # Jotoicha
-    culture=nivacle
-    religion=manredebu
-    martial=4
-    diplomacy=4
-    stewardship=4
     intrigue=4
-    learning=4
-    trait=naive_appeaser
-    trait=craven
-    trait=slothful
-    trait=kind
-    trait=honest
-    2333.1.1={birth=yes}
-	2364.1.1={add_spouse=640073}
-    2370.1.1={death=yes}
-}#Chief of Lagerenza 
-
-640073={
-    name="Milagros"
-    dynasty=285046 # Ruiz        
-    culture=nivacle
-    religion=manredebu
-    female=yes
-    martial=3
-    diplomacy=2
-    stewardship=4
-    intrigue=4
-    learning=3
-    trait=underhanded_rogue        
-    trait=gregarious
-    trait=honest
-    trait=kind
-    2348.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Wife of the Count Pilar Jotoicha
-
-640074={
-    name="Fanuco"
-    dynasty=285045 # Jotoicha
-	father=640072
-	mother=640073
-    culture=nivacle
-    religion=manredebu
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2365.1.1={birth=yes}
-    2430.1.1={death=yes}
-}#First child
-
-#Chiefdom of Presidente Hayes
-640075={
-	name="Kuarahy"
-    dynasty=285047 # Hayes
-    culture=english
-    religion=jerovia
-    martial=4
-    diplomacy=4
-    stewardship=4
-    intrigue=4
-    learning=4
-    trait=midas_touched
-    trait=honest
-    trait=charitable
-    trait=patient
-    trait=brave
-    trait=just
-    trait=lustful
-    2344.1.1={birth=yes culture=guarani}
-	2366.1.1={add_spouse=640076}
-    2370.1.1={death=yes}
-}#Chiefdom of Presidente Hayes
-
-640076={
-    name="Augustina"
-    dynasty=285048 # Varela        
-    culture=guarani
-    religion=jerovia
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=underhanded_rogue
-    trait=kind
-    trait=charitable
-    trait=gregarious
-    2350.1.1={birth=yes}
-    2420.1.1={death=yes}
-}#Wife of the Count Kuarahy Hayes
-
-#Duchy of Formosa
-#High Chiefdom of Formosa
-640077={
-  name="Gustavo"
-    dynasty=285049 # Díaz
-    culture=qom
-    religion=dreamtime
-    martial=5
-    diplomacy=3
-    stewardship=5
-    intrigue=3
     learning=5
-    trait=scholarly_theologian
-    trait=mystic
-    trait=possessed
-    trait=gregarious
+    trait=indulgent_wastrel
+    trait=drunkard
+    trait=slothful
     trait=zealous
-    trait=temperate
-    trait=humble
-    trait=ambitious
-    trait=just
-    2338.1.1={birth=yes}
-	2363.1.1={add_spouse=640078}
-    2370.1.1={death=yes}
-}#High Chief of Formosa, rules Impenetrable
-
-640078={
-    name="Julieta"
-    dynasty=285050 # Pereyra        
-    culture=qom
-    religion=dreamtime
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=tough_soldier
-    trait=wroth
-    trait=charitable
-    trait=envious
     2345.1.1={birth=yes}
-    2410.1.1={death=yes}
-}#Wife of the High Chief Gustavo Diaz
-
-640079={
-    name="Cesar"
-    dynasty=285049 # Díaz
-	father=640077
-	mother=640078
-    culture=qom
-    religion=dreamtime
+    2377.1.1={death=yes}
+}#Wife of the Count Eduardo Sorondo
+640012 = {
+    name="Hector"
+    dynasty=285007 # Sorondo
+	father=640010
+	mother=640011
+    culture=cordobes
+    religion=theosophist
     martial=1
     diplomacy=1
     stewardship=1
     intrigue=1
     learning=1
     2365.1.1={birth=yes}
-    2420.1.1={death=yes}
+    2440.1.1={death=yes}
 }#First child
-
-640080={
-    name="Rosa"
-    dynasty=285049 # Díaz
-	father=640077
-	mother=640078
-    culture=qom
-    religion=dreamtime
+640013 = {
+    name="Arturo"
+    dynasty=285007 # Sorondo
+	father=640010
+	mother=640011
+    culture=cordobes
+    religion=theosophist
     female=yes
     martial=1
     diplomacy=1
@@ -1640,566 +2362,94 @@
     2366.1.1={birth=yes}
     2440.1.1={death=yes}
 }#Second child
-
-#Chiefdom of Bermejo (Vassal of High Chiefdom of Formosa)
-640081={
-  name="Hugo"
-    dynasty=285051 # Sarmiento
-    culture=qom
-    religion=evangelical
-    martial=2
-    diplomacy=4
-    stewardship=3
-    intrigue=4
-    learning=3
-    trait=thrifty_clerk
-    trait=content
-    trait=greedy
-    trait=diligent
-    trait=sympathy_pagans
-    2345.1.1={birth=yes}
-	2367.1.1={add_spouse=640082}
-    2370.1.1={death=yes}
-}#Chief of Bermejo
-
-640082={
-    name="Emilia"
-    dynasty=285052 # Ramos
-    culture=qom
-    religion=evangelical
-    female=yes
-    martial=2
-    diplomacy=2
-    stewardship=3
-    intrigue=2
-    learning=2
-    trait=charismatic_negotiator
-    trait=patient
-    trait=kind
-    trait=gregarious
-    2350.1.1={birth=yes}
-    2430.1.1={death=yes}
-}#Wife of the Chief Hugo Sarmiento
-
-640083={
-    name="Ihan"
-    dynasty=285051 # Sarmiento
-	father=640081
-	mother=640082
-    culture=qom
-    religion=evangelical
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    2368.1.1={birth=yes}
-    2460.1.1={death=yes}
-}#First child
-
-#Chiefdom of Formosa (Vassal of High Chiefdom of Formosa)
-640084={
-	name="Fernando"
-    dynasty=285053 # Torres
-    culture=chaqueno
+#########################
+### House Wheelwright ###
+#########################
+640014 = {
+    name="Rodolfo"
+    dynasty=285009 # Wheelwright
+    culture=litoraleno
     religion=catholic
     martial=5
     diplomacy=3
     stewardship=3
     intrigue=3
-    learning=4
-    trait=tough_soldier
-    trait=cynical
-    trait=wroth
-    trait=robust
-    trait=brave
-    trait=diligent
-    2337.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Chief of Formosa
-
-#Kingdom of Norte Viejo
-#Duchy of Salta
-#Duchy of Salta
-640085={
-	name="Evaristo"
-    dynasty=285054 # Uriburu
-	father=640106
-    culture=norteno
-    religion=catholic
-    martial=5
-    diplomacy=4
-    stewardship=4
-    intrigue=5
-    learning=4
+    learning=3
     trait=skilled_tactician
     trait=crusader
-    trait=shrewd
-    trait=ambitious
-    trait=proud
-    trait=cruel
-    trait=zealous
-    trait=deceitful
-    2328.1.1={birth=yes}
-	2351.1.1={add_spouse=640086}
-    2370.1.1={death=yes}
-}#Duke of Salta, rules Salta and Pozo del Sauce
-
-640086={
-    name="Olivia"
-    dynasty=285055 # Rossi
-    culture=italian
-    religion=catholic
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=underhanded_rogue
-    trait=fair
-    trait=gregarious
-    trait=kind
-    trait=charitable
-    2335.1.1={birth=yes culture=norteno}
-    2401.1.1={death=yes}
-}#Wife of the Duke Evaristo Uriburu
-
-640087={
-    name="Leopoldo"
-    dynasty=285054 # Uriburu
-	father=640085
-	mother=640086
-    culture=norteno
-    religion=catholic
-    martial=4
-    diplomacy=3
-    stewardship=4
-    intrigue=3
-    learning=3
-    trait=charismatic_negotiator
-    trait=quick
-    trait=gregarious
-    trait=diligent
-    trait=proud
-    2352.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#First child
-
-640088={
-    name="Agustín"
-    dynasty=285054 # Uriburu
-	father=640085
-	mother=640086
-    culture=norteno
-    religion=catholic
-    martial=2
-    diplomacy=1
-    stewardship=2
-    intrigue=3
-    learning=2
-    trait=twin
-    trait=haughty
-    2355.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Second child, twin of Augusta
-
-640089={
-    name="Augusta"
-    dynasty=285054 # Uriburu
-	father=640085
-	mother=640086
-    female=yes
-    culture=norteno
-    religion=catholic
-    martial=3
-    diplomacy=2
-    stewardship=2
-    intrigue=3
-    learning=3
-    trait=twin
-    trait=haughty
-    2355.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Third child, twin of Agustín
-
-640090={
-    name="Arturo"
-    dynasty=285054 # Uriburu
-	father=640085
-	mother=640086
-    culture=norteno
-    religion=catholic
-    martial=2
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2366.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Fourth child
-
-640191={
-    name="Pablo"
-    dynasty=285054 # Uriburu
-	father=640085
-	mother=640086
-    culture=norteno
-    religion=catholic
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2367.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Fifth child
-
-640091={
-    name="Edelmiro"
-    dynasty=285054 # Uriburu
-	father=640085
-	mother=640086
-    culture=norteno
-    religion=catholic
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2368.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Sixth child
-
-640092={
-	name="Yoshimar"
-    dynasty=285056 # Cuba
-    culture=quechua
-    religion=catholic
-    martial=7
-    diplomacy=6
-    stewardship=4
-    intrigue=4
-    learning=4
-    trait=tough_soldier
-    trait=crusader
-    trait=brave
     trait=wroth
     trait=humble
-    trait=chaste
-    trait=robust
-    trait=just        
-    2224.1.1={birth=yes}
-    2270.1.1={death=yes}
-}#Catholic Crusader who killed the last King of Cordoba, friend of Evaristo Uriburu
-
-#County of of Nueva Oran (Vassal of Duchy of Salta)
-640093={
-	name="Arkaryu"
-    dynasty=285057 # Chihuán
-    culture=quechua
-    religion=catholic
-    martial=3
-    diplomacy=4
-    stewardship=4
-    intrigue=4
-    learning=3
-    trait=underhanded_rogue
-    trait=crusader
-    trait=gregarious
-    trait=temperate
-    trait=paranoid
-    trait=content
-    trait=just
-    2335.1.1={birth=yes}
-	2364.1.1={add_spouse=640094}
-    2370.1.1={death=yes}
-}#Count of Nueva Oran
-
-640094={
-    name="Juana"
-    dynasty=285058 # Huancahuari
-    culture=quechua
-    religion=catholic
-    female=yes
-    martial=3
-    diplomacy=4
-    stewardship=3
-    intrigue=3
-    learning=4
-    trait=intricate_webweaver
-    trait=deceitful
-    trait=cruel
-    trait=wroth
-    2340.1.1={birth=yes}
-    2420.1.1={death=yes}
-}#Wife of the Count
-
-640095={
-    name="Hasintu"
-    dynasty=285057 # Chihuán
-	father=640093
-	mother=640094
-    culture=quechua
-    religion=catholic
-    martial=2
-    diplomacy=3
-    stewardship=2
-    intrigue=3
-    learning=2
-    2365.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#First child
-
-640096={
-    name="Irnistu"
-    dynasty=285057 # Chihuán
-	father=640093
-	mother=640094
-    culture=quechua
-    religion=catholic
-    martial=3
-    diplomacy=2
-    stewardship=3
-    intrigue=2
-    learning=3
-    2366.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Second child
-
-640097={
-    name="Awaq"
-    dynasty=285057 # Chihuán
-	father=640093
-	mother=640094
-    culture=quechua
-    religion=catholic
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2367.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#Third child
-
-
-#County of Quiaca
-640098={
-	name="Kukuyu"
-    dynasty=285059 # Huapaya
-    culture=quechua
-    religion=santa_diablada
-    martial=2
-    diplomacy=4
-    stewardship=4
-    intrigue=3
-    learning=4
-    trait=thrifty_clerk
-    trait=is_fat
-    trait=arbitrary
-    trait=lustful
-    trait=greedy
-    trait=stubborn
-    trait=gluttonous
-    2328.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Countess of Quiaca
-
-#Duchy of Tucuman
-#County of Cafayate (Vassal of Duchy of Saltas)
-640099={
-	name="Manuela"
-    dynasty=285090 # de Gurruchaga
-    female=yes
-    culture=norteno
-    religion=catholic
-    martial=4
-    diplomacy=4
-    stewardship=4
-    intrigue=3
-    learning=4
-    trait=scholarly_theologian
-    trait=physician
-    trait=erudite
-    trait=honest
-    trait=kind
-    trait=charitable
-    trait=just
-    2351.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Countess of Cafayate
-
-#County of Catamarca
-640100={
-	name="Alexandre"
-    dynasty=285091 # Saadi
-    culture=turco
-    religion=catholic
-    martial=4
-    diplomacy=3
-    stewardship=4
-    intrigue=3
-    learning=4
-    trait=fortune_builder        
-    trait=sympathy_old_world
-    trait=lustful
-    trait=stubborn
-    trait=diligent
-    trait=greedy
-    2329.1.1={birth=yes}
-	2366.1.1={add_spouse=640101}
-    2370.1.1={death=yes}
-}#County of Catamarca
-
-640101={
-    name="Zaina"
-    dynasty=110004 # Habib
-	father = 260029
-    culture=paranaense
-    religion=catholic
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=thrifty_clerk
-    trait=greedy
-    trait=deceitful
-    trait=trusting
-    2345.1.1={birth=yes}
-    2420.1.1={death=yes}
-}#Wife of the Count Alexandre Saadi
-
-#County of Tucuman
-640102={
-	name="Cesar"
-    dynasty=285092 # Prebisch
-    culture=norteno
-    religion=catholic
-    martial=5
-    diplomacy=4
-    stewardship=4
-    intrigue=3
-    learning=6
-    trait=scholarly_theologian
-    trait=scholar
-    trait=erudite
-    trait=cynical
-    trait=greedy
-    trait=shrewd
-    trait=proud
-    2331.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Count of Tucuman
-
-640103={
-    name="Adela"
-    dynasty=285093 # Gomez
-    culture=norteno
-    religion=catholic
-    female=yes
-    martial=3
-    diplomacy=4
-    stewardship=3
-    intrigue=4
-    learning=3
-    trait=intricate_webweaver
-    trait=cruel
     trait=envious
-    trait=patient
-    2345.1.1={birth=yes}
-    2430.1.1={death=yes}
-}#Wife of the Count Cesar Prebisch
-
-640104={
-    name="Isidore"
-    dynasty=285092 # Prebisch
-    culture=norteno
+    trait=ambitious
+    2335.1.1={birth=yes}
+    2370.1.1={death=yes}
+}#Count of General Lopez
+640015={
+    name="Leyla"
+    dynasty=285009 # Wheelwright
+	father=640014
+    female=yes
+    culture=litoraleno
     religion=catholic
     martial=1
     diplomacy=1
     stewardship=1
     intrigue=1
     learning=1
-    trait=quick
-	father=640102
-    2366.1.1={birth=yes}
-    2450.1.1={death=yes}
+    2360.1.1={birth=yes}
+    2400.1.1={death=yes}
 }#First child
-
-640105={
-    name="Fanuco"
-    dynasty=285092 # Prebisch
-    culture=norteno
+640016={
+    name="Oscar"
+    dynasty=285009 # Wheelwright
+	father=640014
+    culture=litoraleno
     religion=catholic
     martial=1
     diplomacy=1
     stewardship=1
     intrigue=1
     learning=1
-	father=640102
-    2367.1.1={birth=yes}
-    2430.1.1={death=yes}
-}#Second child
-
-640106={
-	name="Evaristo"
-    dynasty=285054 # Uriburu
-    culture=norteno
-    religion=catholic
-    martial=5
-    diplomacy=4
-    stewardship=4
-    intrigue=5
-    learning=4
-    trait=fortune_builder
-    trait=patient
-    trait=content
-    trait=proud
-	trait=scarred
-	trait=craven
-    2298.1.1={birth=yes}
-    2340.1.1={death=yes}
-}#First Duke of Salta, ruled Salta and Pozo del Sauce
-
-
-640107={
-	name="Helena"
-	dynasty=285054 # Uriburu
-	culture=norteno
-    religion=catholic
-	female=yes
-	father=640106
-	trait=martial_cleric
-	trait=zealous
-	trait=proud
-	trait=honest
-	trait=charitable
-	2338.1.1={birth=yes}
-	2400.1.1={death=yes}
+    2364.1.1={birth=yes}
+    2400.1.1={death=yes}
 }
+#####################
+### House Guevara ###
+#####################
+641959 = {
+	name="Patricio" # Patricio Guevara the Furious, Crusader King of Cordoba.
+	dynasty=285096
+	dna="ahi0h00aab0"
+	properties="0d00ek0000000a"
 
-680001={
-    name="Omar"
-    dynasty=305005 # Amat
-    culture=turco
-    religion=catholic
-    martial=5
-    diplomacy=4
-    stewardship=4
-    intrigue=5
-    learning=2
-    trait=skilled_tactician
-    trait=crusader
-    trait=content
-    trait=kind
-    trait=just
-    trait=brave
-    trait=humble
-    2333.1.1={birth=yes}
-    2405.1.1={death=yes}
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 4
 
-	#Count of Concepcion
+	culture=cordobes
+	religion=catholic
+
+	disallow_random_traits = yes
+
+	2334.6.14 = {
+		birth="2334.6.14"
+	}
+	2350.6.14 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2364.8.18 = {
+		add_trait="one_eyed"
+		add_trait="crusader_king"
+		add_spouse=640005 # Alejandra Luz
+		give_nickname=nick_the_furious
+	}
 }
