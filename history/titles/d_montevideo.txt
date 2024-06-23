@@ -1,9 +1,14 @@
 # e_la_plata
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-
-2368.1.1={
-	holder = 410008 #Constancio Blanco
+2342.7.22 = {
+	holder=550008 # William Cochrane
+}
+2346.6.30 = {
+	holder=410010 # Manuel Batlle
+}
+2362.5.8 = {
+	holder=410008 # Jorge Batlle
 }

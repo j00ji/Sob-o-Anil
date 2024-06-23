@@ -1364,86 +1364,89 @@
 
 #PAULISTANOS
 
-##Cantarini Dynasty##
-110001 = {
-	name = "Alexandre"
-	#Alexandre Cantarini, King of the Paulistan Kingdom
-	dynasty = 55001 #Cantarini
-	#real_father = 110615
-	dna = cib000fcgb0
-	properties = we0b0c00000 
-	religion = peterite
-	culture = paulistano
-	disallow_random_traits = yes
-	father = 110002
-	add_trait = brilliant_strategist
-	add_trait = genius
-	add_trait = ambitious
-	add_trait = bandeirante
-	add_trait = temperate
-	#add_trait = diligent
-	add_trait = proud
-	add_trait = brave
-	add_trait = gregarious
-	#add_trait = just
-	add_trait = strategist
-	add_trait = master_of_flame
-	add_trait = inspiring_leader
-	add_trait = deceitful
-	add_trait = cynical
-	
-	martial = 8
-	diplomacy = 10
-	intrigue = 5
-	stewardship = 10
-	learning = 5
-	
-	2344.3.5 = {
-		birth = yes
-		effect = {
-			set_character_flag = is_alexandre
-			set_character_flag = is_special_character
-		}
-	}
-	2360.1.1 = {
-		effect = {
-			remove_claim = d_bandeirantes_northeast
-		}
-	}
-	#2364.1.25 = {
-	#	create_bloodline = {
-	#		type = alexandre
-	#		has_dlc = "Holy Fury"
-	#	}
-	#	#give_nickname = nick_the_great
-	#}
-	#2364.12.25 = {
-	#	add_spouse = 120053
-	#}
-	2400.1.1 = {
-		death=yes
-	}
-}
-
+#######################
+### House Cantarini ###
+#######################
 110002 = {
-	name = "Felipe"
-	#Felipe Cantarini, father of Alexandre
-	dynasty = 55001 #Cantarini
+	name="Felipe" #Felipe Cantarini, father of Alexandre
+	dynasty=55001
 	dna="bgb0a0gahb0"
-	properties="fl0dbd000000000000000000000000000000"
+	properties="fl0dbd"
+
 	religion = peterite
 	culture = paulistano
+
 	add_trait=skilled_tactician
 	add_trait = quick
 	add_trait=bandeirante
-	add_trait=severely_injured	
-	
+	add_trait=severely_injured
+
 	2309.3.21 = {
 		birth = yes
 	}
 	2359.10.10 = {
 		death = {
 			death_reason = death_trait
+		}
+	}
+}
+### Issue of Felipe ###
+110001 = {
+	name="Alexandre" # Alexandre Cantarini the Lion of Americana, Duke of Campinas.
+	dynasty=55001
+	dna="cib000fcgb0"
+	properties="we0b0c"
+
+	diplomacy = 10
+	martial = 1
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+
+	religion=peterite
+	culture=paulistano
+
+	add_trait="quick"
+
+	disallow_random_traits = yes
+
+	father=110002 # Felipe Cantarini
+
+	2344.3.5 = {
+		birth="2344.3.5"
+		effect = {
+			set_character_flag = is_alexandre
+			set_character_flag = is_special_character
+		}
+	}
+	2360.1.1 = {
+		add_trait="bandeirante"
+		effect = {
+			remove_claim = d_bandeirantes_northeast
+		}
+	}
+	2360.3.5 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="deceitful"
+		add_trait="cynical"
+		add_trait="ambitious"
+		add_trait="strategist"
+		effect = {
+			add_artifact=bandeirante_justice
+		}
+	}
+	2364.3.13 = {
+		give_nickname=nick_the_lion_of_americana
+		create_bloodline = {
+			type = bloodline_lion_of_americana
+			has_dlc = "Holy Fury"
 		}
 	}
 }
@@ -12910,30 +12913,49 @@
 	2400.1.1={death=yes}
 	#ruler of Andradina, duke of araçatuba
 }
-
-#Rodrigues
-
+#######################
+### House Rodrigues ###
+#######################
 110727 = {
-	name = "Samuel" #Jetstream Sam
-	dynasty = 55047 #Rodrigues
-	culture = caipira
-	religion = johrei
+	name="Samuel" # Jetstream Samuel Rodrigues Minuano, Chief of Adamantina and Dracena.
+	dynasty=55047
 	dna="bb0da0g00b0"
-	properties="cc0bac000000000000000000000000000000"
-	trait=brilliant_strategist
-	trait=strong
-	trait=scarred
-	trait=duelist
-	trait=brave
-	trait=ambitious
-	trait=cynical
-	trait=cruel
-	trait=proud
-	
-	2344.1.1={birth=yes}
-	2360.1.1={give_nickname=nick_minuano}
-	2400.1.1={death=yes}
-	#ruler of adamantina and dracena
+	properties="cc0bac"
+
+	diplomacy = 6
+	martial = 1
+	stewardship = 4
+	intrigue = 1
+	learning = 3
+
+	culture=caipira
+	religion=johrei
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2344.2.19 = {
+		birth="2344.2.19"
+	}
+	2360.2.19 = {
+		add_trait="brilliant_strategist"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="cruel"
+		add_trait="cynical"
+		add_trait="ambitious"
+		add_trait="duelist"
+		add_trait="scarred"
+		give_nickname=nick_minuano
+		effect = {
+			add_artifact = murasama
+		}
+	}
 }
 
 110728 = {

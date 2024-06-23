@@ -1,22 +1,22 @@
 # e_patagonia
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_chubut
 }
-2330.5.19= {
-	holder=560016
+2330.5.19 = {
+	holder=560004 # Gorlois Ramsey
 }
-2341.8.21= {
-	holder=560003
+2325.7.5 = {
+	holder=560003 # Uther Pendragon
 }
-2341.8.22= {
-	holder=560016
+2342.4.2 = {
+	holder=550005 # Edward Cochrane
 	liege=d_biedma
 }
-2368.4.10= {
-	holder=560018
+2346.12.11 = {
+	holder=560007 # Arthur Pendragon
 	liege=d_biedma
 }

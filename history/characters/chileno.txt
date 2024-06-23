@@ -17,8 +17,6 @@
 	culture=atacameno
 	religion=santa_diablada
 
-	add_trait="strong"
-
 	disallow_random_traits = yes
 
 	2311.5.28 = {
@@ -34,8 +32,6 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="zealous"
-		add_trait="ambitious"
-		add_trait="strategist"
 	}
 	2330.8.12 = {
 		add_spouse=220017 # Isidora Rojas
@@ -49,7 +45,7 @@
 	dynasty=140004
 	female=yes
 
-	diplomacy = 3
+	diplomacy = 5
 	martial = 4
 	stewardship = 4
 	intrigue = 2
@@ -88,8 +84,6 @@
 	culture=atacameno
 	religion=santa_diablada
 
-	add_trait="strong"
-
 	disallow_random_traits = yes
 
 	father=220016 # Marcos Baquedano
@@ -110,8 +104,6 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="zealous"
-		add_trait="ambitious"
-		add_trait="strategist"
 	}
 	2352.4.25 = {
 		add_spouse=220020 # Carmen Tirana
@@ -134,8 +126,6 @@
 	culture=atacameno
 	religion=santa_diablada
 
-	add_trait="strong"
-
 	disallow_random_traits = yes
 
 	father=220018 # Marcos Baquedano
@@ -155,7 +145,6 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="zealous"
-		add_trait="strategist"
 		effect = {
 			add_friend=220024 # Arturo Tirana
 		}
@@ -176,9 +165,7 @@
 
 	culture=atacameno
 	religion=santa_diablada
-	
-	add_trait="strong"
-	
+
 	disallow_random_traits = yes
 
 	2311.5.6 = {
@@ -244,9 +231,7 @@
 
 	culture=atacameno
 	religion=santa_diablada
-	
-	add_trait="strong"
-	
+
 	disallow_random_traits = yes
 	
 	father=220021 # Manuel Tirana
@@ -341,8 +326,6 @@
 
 	culture=atacameno
 	religion=santa_diablada
-
-	add_trait="strong"
 	
 	disallow_random_traits = yes
 
@@ -375,7 +358,7 @@
 
 	diplomacy = 4
 	martial = 3
-	stewardship = 5
+	stewardship = 4
 	intrigue = 5
 	learning = 5
 
@@ -406,7 +389,7 @@
 	dynasty=140008
 	female=yes
 
-	diplomacy = 5
+	diplomacy = 4
 	martial = 1
 	stewardship = 7
 	intrigue = 2
@@ -424,7 +407,6 @@
 		add_trait="patient"
 		add_trait="gregarious"
 		add_trait="ambitious"
-		add_trait="socializer"
 	}
 }
 ### Issue of Andronico ###
@@ -434,7 +416,7 @@
 
 	diplomacy = 3
 	martial = 1
-	stewardship = 7
+	stewardship = 3
 	intrigue = 3
 	learning = 3
 
@@ -456,7 +438,6 @@
 		add_trait="gregarious"
 		add_trait="cynical"
 		add_trait="ambitious"
-		add_trait="administrator"
 	}
 }
 220032 = {
@@ -464,7 +445,7 @@
 	dynasty=140033
 
 	diplomacy = 3
-	martial = 5
+	martial = 4
 	stewardship = 3
 	intrigue = 3
 	learning = 3
@@ -496,7 +477,7 @@
 	dynasty=140033
 	female=yes
 
-	diplomacy = 5
+	diplomacy = 1
 	martial = 1
 	stewardship = 4
 	intrigue = 3
@@ -533,7 +514,7 @@
 	diplomacy = 3
 	martial = 3
 	stewardship = 4
-	intrigue = 10
+	intrigue = 5
 	learning = 6
 
 	culture=atacameno
@@ -591,7 +572,7 @@
 	diplomacy = 3
 	martial = 3
 	stewardship = 4
-	intrigue = 4
+	intrigue = 5
 	learning = 4
 
 	culture=atacameno
@@ -619,7 +600,7 @@
 	name="Luis" # Luis Recabarren, Count of Chañaral.
 	dynasty=140024
 
-	diplomacy = 4
+	diplomacy = 3
 	martial = 3
 	stewardship = 5
 	intrigue = 4
@@ -1523,7 +1504,7 @@
 	dynasty=145017
 
 	diplomacy = 5
-	martial = 4
+	martial = 2
 	stewardship = 6
 	intrigue = 4
 	learning = 3
@@ -1546,7 +1527,6 @@
 		add_trait="proud"
 		add_trait="gregarious"
 		add_trait="zealous"
-		add_trait="strategist"
 	}
 	2327.6.14 = {
 		add_spouse=230024 # María Matte
@@ -1563,7 +1543,7 @@
 	dynasty=145008
 	female=yes
 
-	diplomacy = 5
+	diplomacy = 2
 	martial = 4
 	stewardship = 6
 	intrigue = 4
@@ -1576,7 +1556,7 @@
 		birth="2310.8.30"
 	}
 	2326.8.30 = {
-		add_trait="charismatic_negotiator"
+		add_trait="underhanded_rogue"
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="temperate"
@@ -1594,7 +1574,7 @@
 	dynasty=145017
 
 	diplomacy = 5
-	martial = 5
+	martial = 2
 	stewardship = 5
 	intrigue = 4
 	learning = 3
@@ -1622,9 +1602,6 @@
 	2348.5.17 = {
 		add_spouse=230051 # Francisca Errázuriz
 	}
-	2364.7.5 = {
-		add_trait="crusader"
-	}
 }
 230019 = {
 	name="José" # José Larraín.
@@ -1632,7 +1609,7 @@
 
 	diplomacy = 4
 	martial = 2
-	stewardship = 4
+	stewardship = 6
 	intrigue = 3
 	learning = 3
 
@@ -1661,7 +1638,7 @@
 	dynasty=145017
 	female=yes
 
-	diplomacy = 5
+	diplomacy = 4
 	martial = 5
 	stewardship = 5
 	intrigue = 4
@@ -1691,7 +1668,7 @@
 
 	diplomacy = 4
 	martial = 2
-	stewardship = 4
+	stewardship = 6
 	intrigue = 3
 	learning = 3
 
@@ -1839,7 +1816,6 @@
 		birth="2351.3.8"
 	}
 }
-
 230018 = {
 	name="Leonor" # Leonor Sánchez, wife of Emilio Figueroa.
 	dynasty=145027
@@ -1874,7 +1850,7 @@
 	name="Ramón" # Ramón Allende, Count of Marga Marga.
 	dynasty=145018
 
-	diplomacy = 5
+	diplomacy = 3
 	martial = 3
 	stewardship = 4
 	intrigue = 4
@@ -1887,7 +1863,7 @@
 		birth="2308.3.19"
 	}
 	2324.3.19 = {
-		add_trait="charismatic_negotiator"
+		add_trait="underhanded_rogue"
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="proud"
@@ -1904,7 +1880,7 @@
 	dynasty=145039
 	female=yes
 
-	diplomacy = 5
+	diplomacy = 3
 	martial = 3
 	stewardship = 4
 	intrigue = 4
@@ -1968,7 +1944,7 @@
 		birth="2331.11.22"
 	}
 	2347.11.22 = {
-		add_trait="charismatic_negotiator"
+		add_trait="underhanded_rogue"
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="proud"
@@ -2031,8 +2007,8 @@
 	properties="0c000k"
 
 	diplomacy = 9
-	martial = 4
-	stewardship = 10
+	martial = 1
+	stewardship = 7
 	intrigue = 4
 	learning = 5
 
@@ -2059,7 +2035,7 @@
 		add_trait="gregarious"
 		add_trait="zealous"
 		add_trait="ambitious"
-		add_trait="duelist"
+		add_trait="strategist"
 	}
 	2327.8.20 = {
 		add_spouse=230034 # Luisa Silva
@@ -2070,7 +2046,7 @@
 	2339.4.27 = {
 		death = {
 			death_reason=death_battle_duel
-			killer=230002 # Benjamín Bartales
+			killer=230001 # Benjamín Bartales
 		}
 	}
 }
@@ -2111,7 +2087,7 @@
 	dynasty=145035
 
 	diplomacy = 3
-	martial = 6
+	martial = 2
 	stewardship = 5
 	intrigue = 3
 	learning = 5
@@ -2141,7 +2117,6 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="zealous"
-		add_trait="duelist"
 	}
 	2348.5.17 = {
 		add_spouse=230021 # Laura Allende
@@ -2156,7 +2131,7 @@
 
 	diplomacy = 3
 	martial = 3
-	stewardship = 6
+	stewardship = 1
 	intrigue = 3
 	learning = 4
 
@@ -2181,13 +2156,12 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="zealous"
-		add_trait="administrator"
 	}
 	2350.11.6 = {
 		add_spouse=230050 # Rosa Larraín
 	}
 	2368.9.18 = {
-		employer=230006 # Diego Bartales
+		employer=230003 # Diego Bartales
 	}
 }
 230029 = {
@@ -2477,10 +2451,8 @@
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="temperate"
-		add_trait="charitable"
 		add_trait="just"
 		add_trait="gregarious"
-		add_trait="honest"
 		add_trait="falconer"
 	}
 	2350.4.11 = {
@@ -2497,7 +2469,7 @@
 	dna="b0dgc0cc0d0"
 	properties="0r000k"
 
-	diplomacy = 4
+	diplomacy = 1
 	martial = 3
 	stewardship = 4
 	intrigue = 3
@@ -2522,12 +2494,10 @@
 		add_trait="temperate"
 		add_trait="just"
 		add_trait="gregarious"
-		add_trait="honest"
 		add_trait="groomed"
 		add_trait="falconer"
-		add_trait="poet"
 	}
-	2368.9.18 = {
+	2369.9.18 = {
 		give_nickname=nick_the_falcon_queen
 	}
 }
@@ -2536,7 +2506,7 @@
 	name="Jorge" # Jorge Camiroaga.
 	dynasty=145020
 
-	diplomacy = 6
+	diplomacy = 3
 	martial = 6
 	stewardship = 4
 	intrigue = 3
@@ -2556,15 +2526,12 @@
 		birth="2351.8.3"
 	}
 	2367.8.3 = {
-		add_trait="skilled_tactician"
-		add_trait="unyielding_leader"
-		add_trait="inspiring_leader"
+		add_trait="charismatic_negotiator"
 		add_trait="brave"
 		add_trait="diligent"
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
-		add_trait="honest"
 		add_trait="falconer"
 	}
 }
@@ -2574,7 +2541,7 @@
 	female=yes
 	properties="0t00dk"
 
-	diplomacy = 6
+	diplomacy = 2
 	martial = 3
 	stewardship = 4
 	intrigue = 3
@@ -2599,16 +2566,16 @@
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
-		add_trait="honest"
+		add_trait="groomed"
 		add_trait="falconer"
 	}
 }
 ######################
 ### House Bartales ###
 ######################
-230002 = {
+230001 = {
 	name="Benjamín" # Benjamín Bartales the Sword of Santiago, King of Chile.
-	dynasty=145011
+	dynasty=145001
 	dna="aaafb0bade0"
 	properties="0t00dk"
 
@@ -2646,11 +2613,11 @@
 		add_trait="duelist"
 	}
 	2333.3.1 = {
-		add_spouse=230005 # Inés Suárez
+		add_spouse=230002 # Inés Suárez
 		effect = {
-			add_friend=2300131 # Javier Camiroaga
+			add_friend=230059 # Javier Camiroaga
 			add_friend=230084 # Tomás Salas
-			add_lover=230005 # Inés Suárez
+			add_lover=230002 # Inés Suárez
 		}
 	}
 	2337.5.22 = {
@@ -2668,9 +2635,9 @@
 		death="2369.9.18"
 	}
 }
-230005 = {
-	name="Inés" # Inés Suárez the Sword of Saint Lucia, wife of King Benjamín Bartales and Queen of Chile.
-	dynasty=145010
+230002 = {
+	name="Inés" # Inés Suárez the Sword of the Virgin of Carmel, wife of King Benjamín Bartales and Queen of Chile.
+	dynasty=145001
 	female=yes
 	dna="beffa0bcgc0"
 	properties="0o0a0k"
@@ -2705,22 +2672,22 @@
 		add_trait="duelist"
 	}
 	2337.5.22 = {
-		give_nickname=nick_the_sword_of_saint_lucia
+		give_nickname=nick_the_sword_of_virgin_of_carmel
 	}
 	2369.10.12 = {
 		death="2369.10.12"
 	}
 }
 ### Issue of Benjamín the Sword of Santiago ###
-230006 = {
-	name="Diego" # Diego Bartales the King of the Roads, King of Chile.
-	dynasty=145011
+230003 = {
+	name="Diego" # Diego Bartales the Sword of the Pacific, King of Chile.
+	dynasty=145001
 	dna="aaafg00ade0"
 	properties="0t00ek"
 
-	diplomacy = 10
-	martial = 10
-	stewardship = 9
+	diplomacy = 9
+	martial = 1
+	stewardship = 8
 	intrigue = 4
 	learning = 6
 
@@ -2731,8 +2698,8 @@
 
 	disallow_random_traits = yes
 
-	father=230002 # Benjamín Bartales
-	mother=230005 # Inés Suárez
+	father=230001 # Benjamín Bartales
+	mother=230002 # Inés Suárez
 
 	2334.7.5 = {
 		birth="2334.7.5"
@@ -2756,6 +2723,7 @@
 		}
 	}
 	2352.2.1 = {
+		add_trait="falconer"
 		add_spouse=230061 # Francisca Camiroaga
 		effect = {
 			add_lover=230061 # Francisca Camiroaga
@@ -2763,10 +2731,10 @@
 	}
 	2364.7.5 = {
 		add_trait="crusader"
-		give_nickname=nick_the_king_of_the_roads
+		give_nickname=nick_the_sword_of_the_pacific
 		effect = {
 			add_friend=230027 # Agustín Edwards
-			add_friend=640046 # Villanueva
+			add_friend=640046 # José Aldao
 			add_friend=640054 # Manuel Maza
 		}
 	}
@@ -2780,15 +2748,15 @@
 		}
 	}
 }
-### Issue of Diego the Earthquake ###
-231980 = {
+### Issue of Diego the Sword of the Pacific ###
+230004 = {
 	name="Severio" # Severio Solnuevo the Executioner.
 	dynasty=145180
 	dna="bifif0d0000"
 	properties="0s0a0k"
 
 	diplomacy = 8
-	martial = 10
+	martial = 3
 	stewardship = 5
 	intrigue = 1
 	learning = 2
@@ -2802,7 +2770,7 @@
 
 	disallow_random_traits = yes
 
-	father=230006 # Diego Bartales
+	father=230003 # Diego Bartales
 
 	2351.5.7 = {
 		birth="2351.5.7"
@@ -2827,14 +2795,14 @@
 		}
 	}
 }
-230008 = {
+230005 = {
 	name="Benjamín" # Benjamín Bartales.
-	dynasty=145011
+	dynasty=145001
 	dna="adafc0gade0"
 	properties="0t000k"
 
-	diplomacy = 10
-	martial = 6
+	diplomacy = 8
+	martial = 1
 	stewardship = 10
 	intrigue = 4
 	learning = 5
@@ -2842,11 +2810,12 @@
 	culture=centrino
 	religion=catholic
 
+	add_trait="fair"
 	add_trait="strong"
 
 	disallow_random_traits = yes
 
-	father=230006 # Diego Bartales
+	father=230003 # Diego Bartales
 	mother=230061 # Francisca Camiroaga
 
 	2353.4.18 = {
@@ -2863,8 +2832,116 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="duelist"
+		add_trait="falconer"
 		effect = {
-			add_friend=231980 # Severio Solnuevo
+			add_friend=230004 # Severio Solnuevo
+		}
+	}
+}
+################################
+### House Bartales Household ###
+################################
+230007 = {
+	name="Ghat" # Ghat Halstedom.
+	dynasty=145043
+	
+	diplomacy = 3
+	martial = 1
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+	
+	culture=german
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2348.4.21 = {
+		birth="2348.4.21"
+		culture=centrino
+	}
+	2364.4.21 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="cynical"
+		add_trait="duelist"
+	}
+	2369.4.21 = {
+		add_spouse=230008 # Daedra
+	}
+}
+230008 = {
+	name="Daedra" # Daedra, wife of Ghat Halstedom.
+	female=yes
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+
+	culture=german
+	religion=catholic
+
+	add_trait="fair"
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2348.4.30 = {
+		birth="2348.4.30"
+		culture=centrino
+	}
+	2364.4.30 = {
+		add_trait="underhanded_rogue"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="kind"
+		add_trait="trusting"
+	}
+}
+230009 = {
+	name="Metamoq" # Metamoq Corwid.
+	dynasty=145044
+	
+	diplomacy = 3
+	martial = 1
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+	
+	culture=centrino
+	religion=catholic
+
+	add_trait="strong"
+	add_trait="lunatic"
+
+	disallow_random_traits = yes
+
+	2328.3.9 = {
+		birth="2328.3.9"
+	}
+	2344.3.9 = {
+		add_trait="skilled_tactician"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="cynical"
+		add_trait="duelist"
+		add_trait="mystic"
+	}
+	2368.4.21 = {
+		death = {
+			death_reason=death_duel
+			killer=230007 # Ghat Halstedom
 		}
 	}
 }
@@ -2916,7 +2993,7 @@
 	2337.6.16 = {
 		death = {
 			death_reason=death_duel
-			killer=230002 # Benjamín Bartales
+			killer=230001 # Benjamín Bartales
 		}
 	}
 }
@@ -2963,7 +3040,7 @@
 	2337.7.1 = {
 		death = {
 			death_reason=death_duel
-			killer=230005 # Inés Suárez
+			killer=230002 # Inés Suárez
 		}
 	}
 }
@@ -3056,7 +3133,7 @@
 	properties="0d0a0k"
 
 	diplomacy = 5
-	martial = 4
+	martial = 1
 	stewardship = 5
 	intrigue = 4
 	learning = 3
@@ -3091,17 +3168,16 @@
 		add_trait="crusader"
 		effect = {
 			add_friend=230027 # Agustín Edwards
-			add_friend=230019 # Elías Figueroa
 		}
 	}
 }
 ### Issue of Marcelo ###
 230087 = {
-	name="José" # José Salas.
+	name="Benjamín" # Benjamín Salas.
 	dynasty=145036
 
 	diplomacy = 4
-	martial = 6
+	martial = 1
 	stewardship = 4
 	intrigue = 4
 	learning = 3
@@ -3142,7 +3218,7 @@
 	dynasty=145036
 	female=yes
 
-	diplomacy = 5
+	diplomacy = 3
 	martial = 2
 	stewardship = 5
 	intrigue = 4
@@ -3168,17 +3244,15 @@
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
-		add_trait="honest"
 		add_trait="zealous"
 		add_trait="groomed"
-		add_trait="socializer"
 		add_trait="poet"
 	}
 }
 ##################
 ### Patriarchs ###
 ##################
-230001 = {
+230006 = {
 	name="Juan" # Juan Bosco, Patriarch of Chile.
 	dynasty=150022
 
@@ -3201,35 +3275,6 @@
 		add_trait="temperate"
 		add_trait="honest"
 		add_trait="zealous"
-		add_trait="theologian"
-	}
-}
-230007 = {
-	name="Alberto" # Alberto Hurtado.
-	dynasty=145012
-
-	diplomacy = 3
-	martial = 5
-	stewardship = 6
-	intrigue = 4
-	learning = 5
-
-	culture=centrino
-	religion=catholic
-
-	2330.1.22 = {
-		birth="2330.1.22"
-	}
-	2346.1.22 = {
-		add_trait="scholarly_theologian"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="kind"
-		add_trait="humble"
-		add_trait="just"
-		add_trait="honest"
-		add_trait="zealous"
-		add_trait="erudite"
 		add_trait="theologian"
 	}
 }
@@ -3433,7 +3478,7 @@
 	2340.2.12 = {
 		death = {
 			death_reason=death_battle_duel
-			killer=230002 # Benjamín Bartales
+			killer=230001 # Benjamín Bartales
 		}
 	}
 }
@@ -4106,7 +4151,7 @@
 	dynasty=150001
 
 	diplomacy = 6
-	martial = 3
+	martial = 1
 	stewardship = 3
 	intrigue = 7
 	learning = 5
@@ -4133,10 +4178,13 @@
 		add_trait="patient"
 		add_trait="humble"
 		add_trait="gregarious"
-		employer=230006 # Diego Bartales
+		employer=230001 # Benjamín Bartales
 	}
 	2364.7.5 = {
 		add_trait="crusader"
+	}
+	2368.9.18 = {
+		employer=230003 # Diego Bartales
 	}
 }
 ########################
@@ -4201,7 +4249,7 @@
 	dynasty=150010
 
 	diplomacy = 5
-	martial = 2
+	martial = 1
 	stewardship = 5
 	intrigue = 4
 	learning = 3
@@ -4209,7 +4257,7 @@
 	culture=huaso
 	religion=catholic
 
-	add_trait="quick"
+	add_trait="strong"
 	
 	disallow_random_traits = yes
 
@@ -4224,13 +4272,13 @@
 		add_trait="wroth"
 		add_trait="proud"
 		add_trait="just"
-		add_trait="honest"
 		add_trait="gregarious"
 		add_trait="zealous"
 		add_trait="ambitious"
 		add_spouse=240045 # Rosa Pincheira
 	}
 	2355.6.16 = {
+		add_trait="scarred_mid"
 		give_nickname=nick_the_roto
 	}
 }
@@ -4240,7 +4288,7 @@
 	dynasty=150010
 
 	diplomacy = 2
-	martial = 2
+	martial = 1
 	stewardship = 2
 	intrigue = 1
 	learning = 1
@@ -4248,7 +4296,7 @@
 	culture=huaso
 	religion=catholic
 
-	add_trait="quick"
+	add_trait="strong"
 
 	disallow_random_traits = yes
 
@@ -4263,7 +4311,7 @@
 		add_trait="cavalry_leader"
 		add_trait="inspiring_leader"
 		add_trait="brave"
-		add_trait="diligent"
+		add_trait="wroth"
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
@@ -4275,7 +4323,7 @@
 	dynasty=150010
 	female=yes
 
-	diplomacy = 2
+	diplomacy = 6
 	martial = 2
 	stewardship = 2
 	intrigue = 1
@@ -4284,7 +4332,7 @@
 	culture=huaso
 	religion=catholic
 
-	add_trait="quick"
+	add_trait="fair"
 
 	disallow_random_traits = yes
 
@@ -4297,7 +4345,7 @@
 	2366.3.1 = {
 		add_trait="charismatic_negotiator"
 		add_trait="diligent"
-		add_trait="patient"
+		add_trait="wroth"
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
@@ -4341,7 +4389,7 @@
 	dynasty=150011
 
 	diplomacy = 6
-	martial = 6
+	martial = 3
 	stewardship = 3
 	intrigue = 4
 	learning = 5
@@ -4380,7 +4428,7 @@
 	dynasty=150011
 
 	diplomacy = 7
-	martial = 5
+	martial = 2
 	stewardship = 7
 	intrigue = 4
 	learning = 6
@@ -4401,9 +4449,8 @@
 		guardian=480001 # Catriel Quilapán
 	}
 	2367.4.30 = {
-		add_trait="brilliant_strategist"
+		add_trait="skilled_tactician"
 		add_trait="cavalry_leader"
-		add_trait="organizer"
 		add_trait="inspiring_leader"
 		add_trait="brave"
 		add_trait="diligent"
@@ -4411,7 +4458,7 @@
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
-		add_trait="strategist"
+		add_trait="zealous"
 		add_trait="branch_pentecostal"
 	}
 	2368.12.25 = {
@@ -4468,7 +4515,7 @@
 	properties="0r0a0k"
 
 	diplomacy = 8
-	martial = 9
+	martial = 1
 	stewardship = 6
 	intrigue = 2
 	learning = 6
@@ -4495,7 +4542,6 @@
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
-		add_trait="ambitious"
 		add_trait="strategist"
 		add_trait="duelist"
 	}
@@ -4511,7 +4557,7 @@
 		}
 	}
 	2369.1.1 = {
-		give_nickname=nick_the_dragon
+		give_nickname=nick_the_teutonic_dragon
 	}
 }
 250010 = {
@@ -4521,7 +4567,7 @@
 	dna="ahhhe0cafg0"
 	properties="0t0a0k"
 
-	diplomacy = 13
+	diplomacy = 3
 	martial = 4
 	stewardship = 6
 	intrigue = 2
@@ -4559,8 +4605,8 @@
 	dna="bfidf0dafg0"
 	properties="0t0a0k"
 
-	diplomacy = 8
-	martial = 4
+	diplomacy = 10
+	martial = 1
 	stewardship = 6
 	intrigue = 2
 	learning = 6
@@ -4592,7 +4638,7 @@
 		add_trait="duelist"
 		add_spouse=250019 # Sofía Zauberer
 		effect = {
-			add_friend=250018 # Conrado Zauberer
+			add_friend=250018 # Miguel Zauberer
 			add_lover=250019 # Sofía Zauberer
 		}
 	}
@@ -4793,7 +4839,7 @@
 	properties="0p0a0k"
 
 	diplomacy = 3
-	martial = 5
+	martial = 1
 	stewardship = 4
 	intrigue = 5
 	learning = 5
@@ -4817,6 +4863,7 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="mystic"
+		add_trait="zealous"
 	}
 	2344.2.23 = {
 		add_spouse=250017 # Johanna Faust
@@ -4835,7 +4882,7 @@
 	dna="achda0fagg0"
 	properties="0o0a0k"
 
-	diplomacy = 3
+	diplomacy = 4
 	martial = 5
 	stewardship = 4
 	intrigue = 5
@@ -4861,21 +4908,21 @@
 }
 ### Issue of Enrique the Zauberer ###
 250018 = {
-	name="Conrado" # Conrado Zauberer.
+	name="Miguel" # Miguel Zauberer.
 	dynasty=155034
 	dna="bdf0b0eaeg0"
 	properties="0b0a0k"
 
 	diplomacy = 8
-	martial = 4
-	stewardship = 6
+	martial = 3
+	stewardship = 4
 	intrigue = 2
 	learning = 6
 
 	culture=sureno
 	religion=archipelagic
 
-	add_trait="strong"
+	add_trait="quick"
 
 	disallow_random_traits = yes
 
@@ -4895,7 +4942,7 @@
 		add_trait="temperate"
 		add_trait="just"
 		add_trait="gregarious"
-		add_trait="strategist"
+		add_trait="mystic"
 	}
 	2362.2.12 = {
 		add_spouse=250016 # Catalina Zapata
@@ -4908,9 +4955,9 @@
 	dna="achda0cagg0"
 	properties="0d000k"
 
-	diplomacy = 8
+	diplomacy = 1
 	martial = 4
-	stewardship = 6
+	stewardship = 5
 	intrigue = 2
 	learning = 6
 
@@ -4936,6 +4983,7 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="mystic"
+		add_trait="poet"
 	}
 }
 #####################

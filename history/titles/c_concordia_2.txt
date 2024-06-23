@@ -1,10 +1,9 @@
 # e_la_plata
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-
-2368.1.1={
-	holder = 330041 #Hilda Coca
-	liege=d_enterrios
+2368.1.1 = {
+	holder=330041 # Hilda Coca
+	liege=d_entrerios
 }

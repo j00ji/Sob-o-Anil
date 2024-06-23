@@ -629,7 +629,7 @@ lampiao;Blood of Lampião;;;;;;;;;;;;;x
 lampiao_desc;The infamous king of the Cangaço, Lampião ruled the hinterlands of old Nordeste from Ceará to Bahia. Legends say he could cast fireballs from his hands, hence his name "Lampion".;;;;;;;;;;;;;x
 
 bloodline_sword_of_santiago;Blood of the Sword of Santiago;;;;;;;;;;;;;x
-bloodline_sword_of_santiago_desc;Benjamín Bartales, a great warrior and commander, along with his wife, Inés Suárez, conquered the city of Santiago and crowned themselves Kings of Chile. They then proceeded to conquer the rest of the Metropolitan Region, as well as the regions of Valparaiso and O'Higgins.;;;;;;;;;;;;;x
+bloodline_sword_of_santiago_desc;Benjamín Bartales, a formidable warrior and commander, along with his wife, Inés Suárez, conquered the city of Santiago and crowned themselves Kings of Chile. They then proceeded to conquer the rest of the Metropolitan Region, as well as the regions of Valparaiso and O'Higgins.;;;;;;;;;;;;;x
 bloodline_javier_falcon;Blood of the Falcon;;;;;;;;;;;;;x
 bloodline_javier_falcon_desc;Javier Camiroaga, a handsome falconer and skilled statesman, assisted his friend Benjamín Bartales in unifying Santiago and securing his kingdom through diplomacy.;;;;;;;;;;;;;x
 bloodline_tomas_slayer;Blood of the Slayer;;;;;;;;;;;;;x
@@ -637,11 +637,19 @@ bloodline_tomas_slayer_desc;Tomás Salas, a fierce warrior, helped his friend Ben
 bloodline_penquista;Blood of the Penquista;;;;;;;;;;;;;x
 bloodline_penquista_desc;Juan Pincheira, a huaso native to Concepción, honed his understanding of history and warfare through the city's numerous universities. Putting his knowledge to practice, he conquered the regions spanning from Maule to Araucanía, ultimately proclaiming himself as the King of Extremadura.;;;;;;;;;;;;;x
 bloodline_starbreaker;Blood of the Starbreaker;;;;;;;;;;;;;x
-bloodline_starbreaker_desc;Formerly a squire of Catriel the Morningstar, Felipe Prat rose to become a formidable commander. Leading the Ñublense Rebellion against his former master, he liberated the region of Ñuble and sought vengeance for his family.;;;;;;;;;;;;;x
+bloodline_starbreaker_desc;Formerly a squire of Catriel the Morningstar, Felipe Prat rose to become a skilled commander. Leading the Ñublense Rebellion against his former master, he liberated the region of Ñuble and brought vengeance for his family.;;;;;;;;;;;;;x
 bloodline_morningstar;Blood of the Morningstar;;;;;;;;;;;;;x
 bloodline_morningstar_desc;Catriel Quilapán, a renowned Mapuche leader, rallied his people during the Araucanía Rebellion amidst the Pincheira civil war, ultimately ascending to the throne as King of Araucanía. His ambition to expand southward was abruptly halted by his demise in the Ñublense Rebellion led by his former squire, Felipe Prat.;;;;;;;;;;;;;x
 bloodline_teutonic_dragon;Blood of the Teutonic Dragon;;;;;;;;;;;;;x
-bloodline_teutonic_dragon_desc;Armando Keller, a great warrior and commander, conquered the Los Rios region and founded the Chilean Teutonic Order. Alongside his friend Enrique Zauberer, he liberated the island of Chiloe from the Warlock Zapata and successfully defended Los Rios from Mapuche conquest.;;;;;;;;;;;;;x
+bloodline_teutonic_dragon_desc;Armando Keller, an implacable warrior and commander, conquered the Los Ríos Region and formed the Chilean Teutonic Order. Alongside his friend Enrique Zauberer, he also liberated the island of Chiloé from the Warlock Zapata.;;;;;;;;;;;;;x
+bloodline_lion_of_americana;Blood of the Lion of Americana;;;;;;;;;;;;;x
+bloodline_lion_of_americana_desc;Alexandre Cantarini, a Paulista Bandeirante, successfully led the War of the Third Paulista Coalition against the short-lived Empire of Café com Leite, culminating in the killing of Emperor Rodrigo Desterro at the Battle of Americana.;;;;;;;;;;;;;x
+bloodline_goldenhand;Blood of the Goldenhand;;;;;;;;;;;;;x
+bloodline_goldenhand_desc;Francisco Valle successfully led a rebellion against Falklander Pirate William Cochrane, driving them out of Argentina and becoming King of Buenos Aires.;;;;;;;;;;;;;x
+bloodline_pendragon;Blood of the Pendragon;;;;;;;;;;;;;x
+bloodline_pendragon_desc;Francisco Valle successfully led a rebellion against Falklander Pirate William Cochrane, driving them out of Argentina and becoming King of Buenos Aires.;;;;;;;;;;;;;x
+bloodline_sea_wolf;Blood of the Sea Wolf;;;;;;;;;;;;;x
+bloodline_sea_wolf_desc;Francisco Valle successfully led a rebellion against Falklander Pirate William Cochrane, driving them out of Argentina and becoming King of Buenos Aires.;;;;;;;;;;;;;x
 
 baron_mapuche;Lonko;;;;;;;;;;;;;x
 baron_female_mapuche;Lonko;;;;;;;;;;;;;x
@@ -805,6 +813,106 @@ nomadic_emperor_cerradonense_female;Comissioner;;;;;;;;;;;;;x
 nomadic_king_cerradonense_female;Sub-Comissioner;;;;;;;;;;;;;x
 nomadic_empire_of_cerradonense;Comitiva of;;;;;;;;;;;;;x
 nomadic_kingdom_of_cerradonense;Boiada of;;;;;;;;;;;;;x
+baron_platinean;Alcalde;;;;;;;;;;;;;x
+baron_female_platinean;Alcaldesa;;;;;;;;;;;;;x
+barony_of_platinean;Municipality of;;;;;;;;;;;;;x
+barony_platinean;Municipio;;;;;;;;;;;;;x
+count_platinean;Don;;;;;;;;;;;;;x
+count_female_platinean;Doña;;;;;;;;;;;;;x
+county_of_platinean;Departamento of;;;;;;;;;;;;;x
+county_platinean;Departamento;;;;;;;;;;;;;x
+duke_platinean;Gobernador;;;;;;;;;;;;;x
+duke_female_platinean;Gobernadora;;;;;;;;;;;;;x
+duchy_of_platinean;Gobierno of;;;;;;;;;;;;;x
+duchy_platinean;Gobierno;;;;;;;;;;;;;x
+king_platinean;Procér;;;;;;;;;;;;;x
+king_female_platinean;Procér;;;;;;;;;;;;;x
+kingdom_of_platinean;Patria of;;;;;;;;;;;;;x
+kingdom_platinean;Patria;;;;;;;;;;;;;x
+emperor_platinean;Libertador;;;;;;;;;;;;;x
+emperor_female_platinean;Libertadora;;;;;;;;;;;;;x
+empire_of_platinean;Patria Grande of;;;;;;;;;;;;;x
+empire_platinean;Patria Grande;;;;;;;;;;;;;x
+baron_rosalian;Alcalde;;;;;;;;;;;;;x
+baron_female_rosalian;Alcaldesa;;;;;;;;;;;;;x
+barony_of_rosalian;Municipality of;;;;;;;;;;;;;x
+barony_rosalian;Municipio;;;;;;;;;;;;;x
+count_rosalian;Don;;;;;;;;;;;;;x
+count_female_rosalian;Doña;;;;;;;;;;;;;x
+county_of_rosalian;Departamento of;;;;;;;;;;;;;x
+county_rosalian;Departamento;;;;;;;;;;;;;x
+duke_rosalian;Gobernador;;;;;;;;;;;;;x
+duke_female_rosalian;Gobernadora;;;;;;;;;;;;;x
+duchy_of_rosalian;Gobierno of;;;;;;;;;;;;;x
+duchy_rosalian;Gobierno;;;;;;;;;;;;;x
+king_rosalian;Procér;;;;;;;;;;;;;x
+king_female_rosalian;Procér;;;;;;;;;;;;;x
+kingdom_of_rosalian;Patria of;;;;;;;;;;;;;x
+kingdom_rosalian;Patria;;;;;;;;;;;;;x
+emperor_rosalian;Libertador;;;;;;;;;;;;;x
+emperor_female_rosalian;Libertadora;;;;;;;;;;;;;x
+empire_of_rosalian;Patria Grande of;;;;;;;;;;;;;x
+empire_rosalian;Patria Grande;;;;;;;;;;;;;x
+baron_bandean;Alcalde;;;;;;;;;;;;;x
+baron_female_bandean;Alcaldesa;;;;;;;;;;;;;x
+barony_of_bandean;Municipality of;;;;;;;;;;;;;x
+barony_bandean;Municipio;;;;;;;;;;;;;x
+count_bandean;Don;;;;;;;;;;;;;x
+count_female_bandean;Doña;;;;;;;;;;;;;x
+county_of_bandean;Departamento of;;;;;;;;;;;;;x
+county_bandean;Departamento;;;;;;;;;;;;;x
+duke_bandean;Gobernador;;;;;;;;;;;;;x
+duke_female_bandean;Gobernadora;;;;;;;;;;;;;x
+duchy_of_bandean;Gobierno of;;;;;;;;;;;;;x
+duchy_bandean;Gobierno;;;;;;;;;;;;;x
+king_bandean;Procér;;;;;;;;;;;;;x
+king_female_bandean;Procér;;;;;;;;;;;;;x
+kingdom_of_bandean;Patria of;;;;;;;;;;;;;x
+kingdom_bandean;Patria;;;;;;;;;;;;;x
+emperor_bandean;Libertador;;;;;;;;;;;;;x
+emperor_female_bandean;Libertadora;;;;;;;;;;;;;x
+empire_of_bandean;Patria Grande of;;;;;;;;;;;;;x
+empire_bandean;Patria Grande;;;;;;;;;;;;;x
+baron_artiguista;Alcalde;;;;;;;;;;;;;x
+baron_female_artiguista;Alcaldesa;;;;;;;;;;;;;x
+barony_of_artiguista;Municipality of;;;;;;;;;;;;;x
+barony_artiguista;Municipio;;;;;;;;;;;;;x
+count_artiguista;Don;;;;;;;;;;;;;x
+count_female_artiguista;Doña;;;;;;;;;;;;;x
+county_of_artiguista;Departamento of;;;;;;;;;;;;;x
+county_artiguista;Departamento;;;;;;;;;;;;;x
+duke_artiguista;Gobernador;;;;;;;;;;;;;x
+duke_female_artiguista;Gobernadora;;;;;;;;;;;;;x
+duchy_of_artiguista;Gobierno of;;;;;;;;;;;;;x
+duchy_artiguista;Gobierno;;;;;;;;;;;;;x
+king_artiguista;Procér;;;;;;;;;;;;;x
+king_female_artiguista;Procér;;;;;;;;;;;;;x
+kingdom_of_artiguista;Patria of;;;;;;;;;;;;;x
+kingdom_artiguista;Patria;;;;;;;;;;;;;x
+emperor_artiguista;Libertador;;;;;;;;;;;;;x
+emperor_female_artiguista;Libertadora;;;;;;;;;;;;;x
+empire_of_artiguista;Patria Grande of;;;;;;;;;;;;;x
+empire_artiguista;Patria Grande;;;;;;;;;;;;;x
+baron_piriamano;Alcalde;;;;;;;;;;;;;x
+baron_female_piriamano;Alcaldesa;;;;;;;;;;;;;x
+barony_of_piriamano;Municipality of;;;;;;;;;;;;;x
+barony_piriamano;Municipio;;;;;;;;;;;;;x
+count_piriamano;Don;;;;;;;;;;;;;x
+count_female_piriamano;Doña;;;;;;;;;;;;;x
+county_of_piriamano;Departamento of;;;;;;;;;;;;;x
+county_piriamano;Departamento;;;;;;;;;;;;;x
+duke_piriamano;Gobernador;;;;;;;;;;;;;x
+duke_female_piriamano;Gobernadora;;;;;;;;;;;;;x
+duchy_of_piriamano;Gobierno of;;;;;;;;;;;;;x
+duchy_piriamano;Gobierno;;;;;;;;;;;;;x
+king_piriamano;Procér;;;;;;;;;;;;;x
+king_female_piriamano;Procér;;;;;;;;;;;;;x
+kingdom_of_piriamano;Patria of;;;;;;;;;;;;;x
+kingdom_piriamano;Patria;;;;;;;;;;;;;x
+emperor_piriamano;Libertador;;;;;;;;;;;;;x
+emperor_female_piriamano;Libertadora;;;;;;;;;;;;;x
+empire_of_piriamano;Patria Grande of;;;;;;;;;;;;;x
+empire_piriamano;Patria Grande;;;;;;;;;;;;;x
 
 ###Traits;;;;;;;;;;;;;;
 caste_fixed;Fixed Mode;;;;;;;;;;;;;x
@@ -1026,10 +1134,9 @@ nick_cattle_king;the Cattle King;;;;;;;;;;;x
 nick_duke_of_lead;the Duke of Lead;;;;;;;;;;;x
 nick_cobra_verde;Green Snake;;;;;;;;;;;x
 nick_minuano;Minuano;;;;;;;;;;;x
-
 nick_the_sword_of_santiago;the Sword of Santiago;;;;;;;;;;;x
-nick_the_sword_of_saint_lucia;the Sword of Saint Lucía;;;;;;;;;;;x
-nick_the_king_of_the_roads;the King of the Roads;;;;;;;;;;;x
+nick_the_sword_of_virgin_of_carmel;the Sword of the Virgin of Carmel;;;;;;;;;;;x
+nick_the_sword_of_the_pacific;the Sword of the Pacific;;;;;;;;;;;x
 nick_the_executioner;the Executioner;;;;;;;;;;;x
 nick_the_falcon;the Falcon;;;;;;;;;;;x
 nick_the_falcon_queen;the Falcon Queen;;;;;;;;;;;x
@@ -1054,6 +1161,14 @@ nick_the_colorado;the Colorado;;;;;;;;;;;x
 nick_the_gaucho_salteno;the Gaucho Salteño;;;;;;;;;;;x
 nick_the_goldenhand;the Goldenhand;;;;;;;;;;;x
 nick_the_furious;the Furious;;;;;;;;;;;x
+nick_the_lion_of_americana;the Lion of Americana;;;;;;;;;;;x
+nick_the_minotaur;the Minotaur;;;;;;;;;;;x
+nick_the_sea_wolf;the Sea Wolf;;;;;;;;;;;x
+nick_the_silverfist;the Silverfist;;;;;;;;;;;x
+nick_the_friar_knight;the Friar Knight;;;;;;;;;;;x
+nick_the_knight_of_the_andes;the Knight of the Andes;;;;;;;;;;;x
+nick_the_baptist;the Baptist;;;;;;;;;;;x
+nick_the_thrice_killed;the Thrice-Killed;;;;;;;;;;;x
 
 ###Retinues###
 RETTYPE_CUL_RECIFOLINDENSE;Caboclo de Lança;;;;;;;;;;;x
@@ -1144,14 +1259,14 @@ bm_cafe_com_leite_desc;The South has long been a center of power in Brazil, befo
 bm_inferno_verde;Inferno Verde;;;;;;;;;;;;;x
 bm_inferno_verde_desc;The Amazon has long been impenetrable to outsiders, a green hell for armies and would-be conquerors. Life after the Event has brought isolation to the Amazon Basin, but life is not peaceful with patricians, prophets, and chiefs all vying for dominance.;;;;;;;;;;;;;x
 ###Bookmark Chars###
-ERA_CHAR_NAME_CHARLES;Diego Bartales;;;;;;;;;;;;;x
-ERA_CHAR_INFO_230006;The son of the great Sword of Santiago, Diego Bartales participated in the Platinean Crusade five years ago, where he helped create the Platinean Crusader states and co-signed the Treaty of Buenos Aires alongside King Lionel Valle. Now that he has recently ascended to the kingship, Diego sees enemies, allies, and opportunities for expansion all around him. Will he manage to create a name for himself, or will he fail to live up to the legacy of his father?;;;;;;;;;;;;;
+ERA_CHAR_NAME_DIEGO;Diego Bartales;;;;;;;;;;;;;x
+ERA_CHAR_INFO_230003;The son of the great Sword of Santiago, Diego Bartales participated in the Platinean Crusade five years ago, where he helped create the Platinean Crusader states and co-signed the Treaty of Buenos Aires alongside Procér Lionel Valle. Now that he has recently ascended to the kingship, Diego sees enemies, allies, and opportunities for expansion all around him. Will he manage to create a name for himself, or will he fail to live up to the legacy of his father?;;;;;;;;;;;;;
 CHILE;Chile;;;;;;;;;;;;;x
 ERA_CHAR_NAME_ESTANISLAO;Lionel Valle;;;;;;;;;;;;;x
-ERA_CHAR_INFO_330007;The Platinean hero cult has arisen as a rival of the Particularist Catholic Church since the Event, and King Lionel Valle of Buenos Aires has become the main patron of the Platineans, their protector and their hero. His victory in the Platinean Crusade against the crusaders won him much renown, and Lionel styles himself a gaucho and an intellectual, drawing a straight line between himself and the heroes of the past: San Martín - Rosas - Perón - Valle.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_330007;The Platinean hero cult has arisen as a rival of the Particularist Catholic Church since the Event, and Procér Lionel Valle of Buenos Aires has become the main patron of the Platineans, their protector and their hero. His victory in the Platinean Crusade against the crusaders won him much renown, and Lionel styles himself a gaucho and an intellectual, drawing a straight line between himself and the heroes of the past: San Martín - Rosas - Perón - Valle.;;;;;;;;;;;;;x
 BUENOS_AIRES;Buenos Aires;;;;;;;;;;;;;x
 ERA_CHAR_NAME_CRISTINA;Cristina Duarte;;;;;;;;;;;;;x
-ERA_CHAR_INFO_330016;During the Platinean Crusade, Duke Domingo Holgado of Junin was among the leaders of the Crusader army, but he was cut down by the King of Buenos Aires in battle. His widow, Christina Duarte, fell into a state of grief and rage after Domingo’s death, only to emerge a wholly different woman. Christina told all that she saw a vision of the Hand of God that chose her to overthrow the King of Buenos Aires and take the city back for the Particularist Catholic Church. Additionally, she has sworn a vow of celibacy until her husband’s murderer breathes his last, no matter the cost.;;;;;;;;;;;;;x
+ERA_CHAR_INFO_330016;During the Platinean Crusade, Duke Domingo Holgado of Junin was among the leaders of the Crusader army, but he was cut down by the Procér of Buenos Aires in battle. His widow, Christina Duarte, fell into a state of grief and rage after Domingo’s death, only to emerge a wholly different woman. Christina told all that she saw a vision of the Hand of God that chose her to overthrow the King of Buenos Aires and take the city back for the Particularist Catholic Church. Additionally, she has sworn a vow of celibacy until her husband’s murderer breathes his last, no matter the cost.;;;;;;;;;;;;;x
 DUCHY_JUNIN;Junin;;;;;;;;;;;;;x
 ERA_CHAR_NAME_CATRIEL;Nahuel Quilapán;;;;;;;;;;;;;x
 ERA_CHAR_INFO_480008;It was Nahuel Quilapán’s father, Catriel the Morningstar, who united all of the Mapuche of Araucanía in the Araucanía Rebellion during the Fall of House Pincheira. Nizol Lonko Catriel took over the region and even conquered Biobío and Ñuble, but then died in a rebellion against his former squire Felipe Prat, leading to the split of Araucanía as a kingdom. Nahuel now seeks revenge against his father's killer and will do whatever it takes to do so, even if it means his family getting in the way of things.;;;;;;;;;;;;;x

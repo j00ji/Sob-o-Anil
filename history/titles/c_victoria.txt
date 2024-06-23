@@ -1,9 +1,12 @@
 # e_la_plata
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-
-2368.1.1={
-	holder = 330040 #Pancho Ramirez
+2363.1.1 = {
+	holder=330040 # Pancho Ramirez
+}
+2364.10.17 = {
+	holder=330100 # Andrés
+	liege=k_la_plata
 }

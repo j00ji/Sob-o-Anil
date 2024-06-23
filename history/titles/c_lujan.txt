@@ -1,5 +1,6 @@
 # e_la_plata
 
-2368.1.1={
-	holder = 330021 #Ferdinand de Asterion
+2364.12.14 = {
+	holder=330021 # Ferdinand de Asterion
+	liege=0
 }

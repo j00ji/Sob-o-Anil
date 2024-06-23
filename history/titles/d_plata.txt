@@ -1,10 +1,13 @@
 # e_la_plata
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-
-2368.1.1={
-	holder = 330029 #Raúl del Sur
+2360.11.25 = {
+	holder=330074 # Francisco Valle
+	liege=k_buenos_aires
+}
+2364.11.8 = {
+	holder=330078 # José Valle
 	liege=k_buenos_aires
 }

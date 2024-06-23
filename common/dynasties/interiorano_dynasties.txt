@@ -221,7 +221,8 @@
 	name="Aldao"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -610,191 +611,187 @@
 	}
 }
 
-290001={
-	name=Abad
+290001 = {
+	name="Abad"
 	culture=cuyano
 	religion=catholic
 }
-
-290002={
-	name=Aconcagua
+290002 = {
+	name="Aconcagua"
 	culture=cuyano
 	religion=catholic
 }
-290003={
-	name=Ambressetti
+290003 = {
+	name="Ambressetti"
 	culture=cuyano
 	religion=catholic
 }
-290004={
-	name=Andreani
+290004 = {
+	name="Andreani"
 	culture=cuyano
 	religion=catholic
 }
-290005={
+290005 = {
 	name="Apóstol"
 	culture=cuyano
 	religion=catholic
 }
-290006={
-	name=Balbani
+290006 = {
+	name="Balbani"
 	culture=cuyano
 	religion=catholic
 }
-290007={
-	name=Balbarce
+290007 = {
+	name="Balbarce"
 	culture=cuyano
 	religion=catholic
 }
-290008={
-	name=Ballofet
+290008 = {
+	name="Ballofet"
 	culture=cuyano
 	religion=catholic
 }
 290009 = {
-	name=Benegas
+	name="Benegas"
 	culture=cuyano
 	religion=catholic
+	can_appear=no
 	used_for_random = no
 }
-290010={
+290010 = {
 	name="Benítez"
 	culture=cuyano
 	religion=catholic
 }
-290011={
-	name=Bourdeau
+290011 = {
+	name="Bourdeau"
 	culture=cuyano
 	religion=catholic
 }
-
-290012={
-	name=Cariddi
+290012 = {
+	name="Cariddi"
 	culture=cuyano
 	religion=catholic
 }
-
-290013={
-	name=Carrizal
+290013 = {
+	name="Carrizal"
 	culture=cuyano
 	religion=catholic
 }
-290014={
-	name=Caronti
+290014 = {
+	name="Caronti"
 	culture=cuyano
 	religion=catholic
 }
-290015={
-	name=Castelli
+290015 = {
+	name="Castelli"
 	culture=cuyano
 	religion=catholic
 }
-290016={
+290016 = {
 	name="dei Castell"
 	culture=cuyano
 	religion=catholic
 }
-290017={
-	name=Cavalli
+290017 = {
+	name="Cavalli"
 	culture=cuyano
 	religion=catholic
 }
-290018={
-	name=Cerri
+290018 = {
+	name="Cerri"
 	culture=cuyano
 	religion=catholic
 }
-290019={
-	name=Cipolletti
+290019 = {
+	name="Cipolletti"
 	culture=cuyano
 	religion=catholic
 }
-290020={
-	name=Damiani
+290020 = {
+	name="Damiani"
 	culture=cuyano
 	religion=catholic
 }
-290021={
-	name=Draghi
+290021 = {
+	name="Draghi"
 	culture=cuyano
 	religion=catholic
 }
-290022={
-	name="Félix"
+290022 = {
+	name="Villanueva"
 	culture=cuyano
 	religion=catholic
+	can_appear=no
+	used_for_random=no
 }
-
-290023={
+290023 = {
 	name="Fernández"
 	culture=cuyano
 	religion=catholic
 }
-
-290024={
-	name=Ferru
+290024 = {
+	name="Ferru"
 	culture=cuyano
 	religion=catholic
 }
-290025={
-	name=Gabrielli
+290025 = {
+	name="Gabrielli"
 	culture=cuyano
 	religion=catholic
 }
-290026={
+290026 = {
 	name="García"
 	culture=cuyano
 	religion=catholic
 }
-290027={
+290027 = {
 	name="dei Galli"
 	culture=cuyano
 	religion=catholic
 }
-290028={
-	name=Germano
+290028 = {
+	name="Germano"
 	culture=cuyano
 	religion=catholic
 }
-290029={
-	name=Giovanni
+290029 = {
+	name="Giovanni"
 	culture=cuyano
 	religion=catholic
 }
-290030={
+290030 = {
 	name="di Giovanni"
 	culture=cuyano
 	religion=catholic
 }
-290031={
-	name=Gori
+290031 = {
+	name="Gori"
 	culture=cuyano
 	religion=catholic
 }
-290032={
+290032 = {
 	name="Hernández"
 	culture=cuyano
 	religion=catholic
 }
-290033={
-	name=Hurtado
+290033 = {
+	name="Hurtado"
 	culture=cuyano
 	religion=catholic
 }
-
-290034={
-	name=Ianni
+290034 = {
+	name="Ianni"
 	culture=cuyano
 	religion=catholic
 }
-
-290035={
+290035 = {
 	name="Jiménez"
 	culture=cuyano
 	religion=catholic
 }
-290036={
-	name=Lafferrere
+290036 = {
+	name="Lafferrere"
 	culture=cuyano
 	religion=catholic
 }

@@ -1,15 +1,7 @@
-800.1.1={
+800.1.1 = {
 	liege=k_tierra_del_fuego
 }
-2305.9.5= {
+2320.8.20 = {
 	holder=550001
-}
-2341.10.23= {
-	holder=550008
-}
-2367.2.14= {
-	holder=550010
-}
-2368.12.19= {
-	holder=550012
+	liege=d_falkland_islands
 }

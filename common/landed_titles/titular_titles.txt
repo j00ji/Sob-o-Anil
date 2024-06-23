@@ -356,6 +356,18 @@ k_la_plata = {
 	}
 }
 
+k_beornia = {
+	color = { 245 66 58 }
+	color2 = { 255 255 255 }
+	
+	capital = 614 # c_buenos_aires
+	culture = falklander
+	
+	allow = {
+		always = no
+	}
+}
+
 ### Duchies ###
 
 d_trifrontier = {

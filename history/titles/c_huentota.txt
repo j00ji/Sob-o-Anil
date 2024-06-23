@@ -1,12 +1,15 @@
 # e_interior
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_cuyo
 }
-2365.1.1={
-	liege=0
-	holder=640046 #Luis Villanueva
+2349.11.24 = {
+	holder=640121 # Francisco Aldao
+	liege=d_mendoza
+}
+2364.11.8 = {
+	holder=640046 # José Aldao
 }

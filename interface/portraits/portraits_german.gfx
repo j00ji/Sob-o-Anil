@@ -1,8 +1,12 @@
-############## GERMAN ##########################
+##############
+### German ###
+##############
+
 spriteTypes = {
 
-### German male ####
+### Male ###
 
+	# Young
 	portraitType = {
 		name = "PORTRAIT_germangfx_male"
 		effectFile = "gfx/FX/portrait.lua"
@@ -85,6 +89,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 12 13 }
 	}
 
+	# Middle Age
 	portraitType = {
 		name = "PORTRAIT_germangfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
@@ -167,6 +172,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 12 13 }
 	}
 
+	# Old Age
 	portraitType = {
 		name = "PORTRAIT_germangfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
@@ -249,8 +255,9 @@ spriteTypes = {
 		headgear_that_hides_hair = { 12 13 }
 	}
 
-#### german FEMALE ####
+### Female ###
 
+	# Young
 	portraitType = {
 		name = "PORTRAIT_germangfx_female"
 		effectFile = "gfx/FX/portrait.lua"
@@ -334,6 +341,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 12 13 }
 	}
 
+	# Middle Age
 	portraitType = {
 		name = "PORTRAIT_germangfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
@@ -417,6 +425,7 @@ spriteTypes = {
 		headgear_that_hides_hair = { 12 13 }
 	}
 
+	# Old Age
 	portraitType = {
 		name = "PORTRAIT_germangfx_female2"
 		effectFile = "gfx/FX/portrait.lua"

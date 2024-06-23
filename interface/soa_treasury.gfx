@@ -28,3 +28,23 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\inventory\\artifacts\\libertador_small.tga"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_murasama"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\murasama.tga"
+	}
+	spriteType = {
+		name = "GFX_murasama_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\murasama_small.tga"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_bandeirante_justice"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\bandeirante_justice.tga"
+	}
+	spriteType = {
+		name = "GFX_bandeirante_justice_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\bandeirante_justice_small.tga"
+	}
+}

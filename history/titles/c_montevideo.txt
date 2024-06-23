@@ -3,7 +3,10 @@
 	law=cognatic_succession
 	law=succ_gavelkind
 }
-2325.1.19 = {
+2342.7.22 = {
+	holder=550008 # William Cochrane
+}
+2346.6.30 = {
 	holder=410010 # Manuel Batlle
 }
 2362.5.8 = {

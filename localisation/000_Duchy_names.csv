@@ -157,8 +157,8 @@ d_divinopolis;Divinópolis;Divinópolis;Divinópolis;;Divinópolis;;;;;;;;;x
 d_divinopolis_adj;Divinopolitano;;Divinopolitano;;;;;;;;;;;x
 d_dolores;Dolores;Dolores;Dolores;;Dolores;;;;;;;;;x
 d_dolores_adj;Doloresian;;doloreser;;;;;;;;;;;x
-d_enterrios;Enterrios;Enterrios;Enterrios;;Enterrios;;;;;;;;;x
-d_enterrios_adj;Enterriosian;;enterrioser;;;;;;;;;;;x
+d_entrerios;Entre Ríos;Entre Ríos;Entre Ríos;;Entre Ríos;;;;;;;;;x
+d_entrerios_adj;Entrerrian;;Entrerrianer;;;;;;;;;;;x
 d_escalante;Escalante;Escalante;Escalante;;Escalante;;;;;;;;;x
 d_escalante_adj;Escalantean;;escalanter;;;;;;;;;;;x
 d_esquel;Esquel;Esquel;Esquel;;Esquel;;;;;;;;;x
@@ -259,7 +259,7 @@ d_los_rios;Los Riós;Los Riós;Los Riós;;Los Riós;;;;;;;;;x
 d_los_rios_adj;Los Riósian;;Los Rióser;;;;;;;;;;;x
 d_lower_parana;Lower Parana;Lower Parana;Lower Parana;;Lower Parana;;;;;;;;;x
 d_lower_parana_adj;Lower Paranan;;Lower Paraner;;;;;;;;;;;x
-d_lujan;Lujan;Lujan;Lujan;;Lujan;;;;;;;;;x
+d_lujan;Luján;Luján;Luján;;Luján;;;;;;;;;x
 d_lujan_adj;Lujanian;;lujaner;;;;;;;;;;;x
 d_macaubas;Macaúbas;Macaúbas;Macaúbas;;Macaúbas;;;;;;;;;x
 d_macaubas_adj;Macaúbasian;;macaúbaser;;;;;;;;;;;x

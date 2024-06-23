@@ -7,9 +7,9 @@
 	liege=k_chile
 }
 2337.7.15 = {
-	holder=230002 # Benjamín I
+	holder=230001 # Benjamín I Bartales
 	liege=d_santiago
 }
 2369.9.18 = {
-	holder=230006 # Diego I
+	holder=230003 # Diego I Bartales
 }

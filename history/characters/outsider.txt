@@ -64,7 +64,7 @@
 	
 
 440001 = {
-	name="Hotuiti"
+	name="Hotuiti" # Hotuiti Riroroko.
 	dynasty=145028
 
 	diplomacy = 4
@@ -76,18 +76,24 @@
 	culture=rapa_nui
 	religion=catholic
 
-	trait=groomed
-	trait=proud
-	trait=temperate
-	trait=wroth
-	trait=brave
-	trait=envious
-	trait=charismatic_negotiator
+	add_trait="fair"
 
-	2342.8.15 = {
-		birth=yes
+	2342.8.1 = {
+		birth="2342.8.1"
 	}
-	2358.9.18 = {
-		employer=230084
+	2358.8.1 = {
+		add_trait="charismatic_negotiator"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="groomed"
+	}
+	2362.9.9 = {
+		employer=230084 # Tomás Salas
+	}
+	2368.5.2 = {
+		employer=230086 # Marcelo Salas
 	}
 }

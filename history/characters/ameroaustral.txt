@@ -52,7 +52,7 @@
 	}
 	2368.12.25 = {
 		death = {
-			death_reason=death_duel_battle
+			death_reason=death_battle_duel
 			killer=240031 # Felipe Prat
 		}
 	}
@@ -97,7 +97,7 @@
 	dna="0idbf0ca000"
 	properties="of0d0e"
 
-	diplomacy = 3
+	diplomacy = 1
 	martial = 1
 	stewardship = 2
 	intrigue = 1
@@ -118,16 +118,14 @@
 		birth="2339.12.11"
 	}
 	2355.12.11 = {
-		add_trait="fortune_builder"
+		add_trait="charismatic_negotiator"
 		add_trait="diligent"
 		add_trait="patient"
-		add_trait="temperate"
 		add_trait="kind"
 		add_trait="just"
 		add_trait="honest"
 		add_trait="content"
 		add_trait="erudite"
-		add_trait="administrator"
 		add_trait="scholar"
 		add_spouse=480004 # Quimey Calfucurá
 	}
@@ -175,7 +173,7 @@
 	dynasty=210001
 
 	diplomacy = 4
-	martial = 3
+	martial = 1
 	stewardship = 3
 	intrigue = 5
 	learning = 3
@@ -195,8 +193,8 @@
 	}
 	2362.4.12 = {
 		add_trait="skilled_tactician"
-		add_trait="holy_warrior"
 		add_trait="aggressive_leader"
+		add_trait="organizer"
 		add_trait="brave"
 		add_trait="wroth"
 		add_trait="proud"
@@ -204,7 +202,6 @@
 		add_trait="zealous"
 		add_trait="cruel"
 		add_trait="ambitious"
-		add_trait="duelist"
 		add_spouse=480009 # Rayen Coñoepan
 	}
 	2368.12.25 = {
@@ -296,7 +293,7 @@
 	}
 	2369.1.1 = {
 		death = {
-			death_reason=death_duel_battle
+			death_reason=death_battle_duel
 			killer=250009 # Armando Keller
 		}
 	}
@@ -399,7 +396,7 @@
 	}
 	2369.1.1 = {
 		death = {
-			death_reason=death_duel_battle
+			death_reason=death_battle_duel
 			killer=250009 # Armando Keller
 		}
 	}

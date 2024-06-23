@@ -8,9 +8,9 @@ bm_cono_sur = {
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 	
 	selectable_character = {
-		id = 230006 # Diego Bartales
+		id = 230003 # Diego Bartales
 		age = 35
-		name = ERA_CHAR_NAME_CHARLES
+		name = ERA_CHAR_NAME_DIEGO
 		title = k_chile
 		title_name = CHILE
 		

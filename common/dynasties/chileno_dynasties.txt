@@ -1,5 +1,3 @@
-###ÄNSI
-
 140001 = {
 	name="Elqui"
 	culture = atacameno
@@ -82,13 +80,11 @@
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140013 = {
 	name = "Tomic"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140014 = {
 	name = "Pino"
 	culture = atacameno
@@ -96,13 +92,11 @@
 	can_appear = no
 	used_for_random = no
 }
-
 140015 = {
 	name = "Pino"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140016 = {
 	name = "Guzmán"
 	culture = atacameno
@@ -121,13 +115,11 @@
 		}
 	}
 }
-
 140017 = {
 	name = "Guzmán"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140018 = {
 	name = "Cepeda"
 	culture = atacameno
@@ -135,13 +127,11 @@
 	can_appear = no
 	used_for_random = no
 }
-
 140019 = {
 	name = "Mamani"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140020 = {
 	name = "Marín"
 	culture = atacameno
@@ -149,7 +139,6 @@
 	can_appear = no
 	used_for_random = no
 }
-
 140021 = {
 	name = "Walker"
 	culture = atacameno
@@ -157,7 +146,6 @@
 	can_appear = no
 	used_for_random = no
 }
-
 140022 = {
 	name = "Martínez"
 	culture = atacameno
@@ -165,13 +153,11 @@
 	can_appear = no
 	used_for_random = no
 }
-
 140023 = {
 	name = "Cortés"
 	culture = atacameno
 	religion = catholic
 }
-
 140024 = {
 	name = "Recabarren"
 	culture = atacameno
@@ -190,33 +176,26 @@
 		}
 	}
 }
-
-
 140025 = {
 	name = "Recabarren"
 	culture = atacameno
 	religion = camino_estelar
 }
-
-
 140026 = {
 	name = "Torres"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140027 = {
 	name = "Karmelic"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140028 = {
 	name = "Huerta"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140029 = {
 	name="Flores"
 	culture = atacameno
@@ -224,25 +203,21 @@
 	can_appear = no
 	used_for_random = no
 }
-
 140030 = {
 	name = "Toselli"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140031 = {
 	name = "Bugueño"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140032 = {
 	name = "Cárcamo"
 	culture = atacameno
 	religion = camino_estelar
 }
-
 140033 = {
 	name="Luksic"
 	culture = atacameno
@@ -332,11 +307,23 @@
 		}
 	}
 }
-
 145001 = {
-	name = "Muñoz"
-	culture = centrino
-	religion = catholic
+	name="Bartales"
+	culture=centrino
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 145002 = {
 	name = "Rojas"
@@ -392,22 +379,9 @@
 	used_for_random=no
 }
 145011 = {
-	name="Bartales"
-	culture=centrino
-	religion=catholic
-	can_appear=no
-	used_for_random=no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 11
-			texture_internal = 0
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
+	name = "Muñoz"
+	culture = centrino
+	religion = catholic
 }
 145012 = {
 	name = "Hurtado"
@@ -651,11 +625,18 @@
 	used_for_random = no
 }
 145043 = {
-	name="Bonvallet"
-	culture = centrino
-	religion = catholic
-	can_appear = no
-	used_for_random = no
+	name="Halstedom"
+	culture=centrino
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+145044 = {
+	name="Corwid"
+	culture=centrino
+	religion=catholic
+	can_appear=no
+	used_for_random=no
 }
 145180 = {
 	name="Solnuevo"

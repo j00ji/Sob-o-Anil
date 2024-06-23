@@ -1,11 +1,11 @@
 # e_patagonia
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_chubut
 }
-2366.1.13={
-	holder=560019
+2342.1.13 = {
+	holder=560016 # Lot Burton
 }

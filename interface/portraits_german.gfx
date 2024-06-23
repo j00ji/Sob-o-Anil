@@ -1,4 +1,7 @@
-############## GERMAN ##########################
+##############
+### German ###
+##############
+
 spriteTypes = {
 
 	spriteType = {
@@ -15,7 +18,7 @@ spriteTypes = {
 		norefcount = yes
 	}
 
-### German male ####
+### Male ###
 
 	spriteType = {
 		name = "GFX_german_male_clothes_behind"
@@ -327,7 +330,7 @@ spriteTypes = {
 		can_be_lowres = yes
 	}
 
-#### german FEMALE ####
+### Female ###
 
 	spriteType = {
 		name = "GFX_german_female_clothes_behind"

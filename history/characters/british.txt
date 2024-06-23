@@ -1,800 +1,760 @@
-550001 ={
-	name=Thomas
+##################
+### Falklander ###
+##################
+######################
+### House Cochrane ###
+######################
+550001 = {
+	name="Jack" # Jack Cochrane the Sea Wolf, King of the Falklands.
 	dynasty=245001
-	martial=3
-	diplomacy=6
-	stewardship=4
-	intrigue=2
-	learning=4
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 2
+	learning = 4
+
 	culture=falklander
-	religion=calafatist
-	trait=patient
-	trait=gregarious
-	trait=kind
-	trait=socializer
-	trait=grey_eminence
-	2271.4.29={
-		birth=yes
+	religion=brethren
+
+	disallow_random_traits = yes
+
+	2300.12.14 = {
+		birth="2300.12.14"
 	}
-	2294.6.1={
-		add_spouse=550002
+	2316.12.14 = {
+		add_trait="brilliant_strategist"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="zealous"
 	}
-	2341.10.13={
-		death=yes
+	2320.6.1 = {
+		add_spouse=550002 # Anne Read
 	}
-}	
-550002 ={
-	name=Carole
-	female=yes
+	2320.8.20 = {
+		give_nickname=nick_the_sea_wolf
+		create_bloodline = {
+			type = bloodline_sea_wolf
+			has_dlc = "Holy Fury"
+		}
+	}
+}
+550002 = {
+	name="Anne" # Anne Read, wife of Jack Cochrane.
 	dynasty=245002
-	martial=5
-	diplomacy=3
-	stewardship=4
-	intrigue=3
-	learning=4
-	culture=falklander
-	religion=calafatist
-	trait=brave
-	trait=shy
-	trait=kind
-	trait=duelist
-	trait=tough_soldier
-	2271.1.20={
-		birth=yes
-	}
-	2342.11.4={
-		death=yes
-	}
-}	
-550003 ={
-	name=Michael
-	dynasty=245001
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
-	culture=falklander
-	religion=calafatist
-	trait=wroth
-	trait=craven
-	trait=gardener
-	trait=humble
-	trait=thrifty_clerk
-	father=550001
-	mother=550002
-	2296.9.8={
-		birth=yes
-	}
-	2321.5.16={
-		add_spouse=550004
-	}
-	2361.10.13={
-		death=yes
-	}
-}	
-550004 ={
-	name=Stacy
 	female=yes
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+
+	culture=falklander
+	religion=brethren
+
+	2300.4.1 = {
+		birth="2300.4.1"
+	}
+	2316.4.1 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+}
+### Issue of Jack the Sea Wolf ###
+550003 = {
+	name="Francis" # Francis Cochrane.
+	dynasty=245001
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+
+	culture=falklander
+	religion=brethren
+
+	father=550001 # Jack Cochrane
+	mother=550002 # Anne Read
+
+	2321.9.26 = {
+		birth="2321.9.26"
+	}
+	2341.5.16 = {
+		add_spouse=550004 # Mary Drake
+	}
+	2343.4.27 = {
+		death = {
+			death_reason=death_battle_duel # Battle of Viña del Mar
+			killer=230001 # Benjamín Bartales
+		}
+	}
+}	
+550004 = {
+	name="Mary" # Mary Drake.
 	dynasty=245003
-	martial=4
-	diplomacy=3
-	stewardship=4
-	intrigue=3
-	learning=4
-	culture=falklander
-	religion=calafatist
-	trait=gamer
-	trait=fair
-	trait=groomed
-	trait=chaste
-	trait=greedy
-	trait=charismatic_negotiator
-	2297.2.21={
-		birth=yes
-	}
-	2361.3.18={
-		death=yes
-	}
-}	
-550005 ={
-	name=Michael
-	dynasty=245001
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
-	culture=falklander
-	religion=calafatist
-	trait=patient
-	trait=shy
-	trait=diligent
-	trait=temperate
-	trait=fortune_builder
-	father=550003
-	mother=550004
-	2325.12.9={
-		birth=yes
-	}
-	2351.9.19={
-		add_spouse=550006
-	}
-	2391.3.12={
-		death=yes
-	}
-}	
-550006 ={
-	name=Martha
 	female=yes
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+
+	culture=falklander
+	religion=brethren
+
+	3221.11.28 = {
+		birth="3221.11.28"
+	}
+}
+550005 = {
+	name="Edward" # Edward Cochrane, King of Y Wladfa.
+	dynasty=245001
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+
+	culture=falklander
+	religion=brethren
+
+	father=550001 # Jack Cochrane
+	mother=550002 # Anne Read
+
+	2323.11.22 = {
+		birth="2323.11.22"
+	}
+	2341.11.28 = {
+		add_spouse=550006 # Eleanor Avery
+	}
+	2343.4.27 = {
+		death = {
+			death_reason=death_battle_duel # Battle of Trelew
+			killer=560007 # Arthur Pendragon
+		}
+	}
+}	
+550006 = {
+	name="Eleanor" # Eleanor Avery.
 	dynasty=245004
-	martial=4
-	diplomacy=3
-	stewardship=4
-	intrigue=3
-	learning=4
+	female=yes
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+
 	culture=falklander
-	religion=calafatist
-	trait=gamer
-	trait=fair
-	trait=groomed
-	trait=chaste
-	trait=greedy
-	trait=charismatic_negotiator
-	2327.1.19={
-		birth=yes
-	}
-	2396.6.9={
-		death=yes
-	}
-}	
-550007 ={
-	name=Thomas
-	dynasty=245001
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
-	culture=falklander
-	religion=calafatist
-	trait=ambitious
-	trait=wroth
-	trait=feeble
-	trait=envious
-	trait=intricate_webweaver
-	father=550005
-	mother=550006
-	2352.5.27={
-		birth=yes
-	}
-	2421.2.24={
-		death=yes
-	}
-}	
-550008 ={
-	name=James
-	dynasty=245001
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
-	culture=falklander
-	religion=calafatist
-	trait=gluttonous
-	trait=charitable
-	trait=arbitrary
-	trait=hedonist
-	trait=tough_soldier
-	father=550001
-	mother=550002
-	2301.9.17={
-		birth=yes
-	}
-	2327.5.16={
-		add_spouse=550009
-	}
-	2367.2.14={
-		death=yes
+	religion=brethren
+
+	2323.8.20 = {
+		birth="2323.8.20"
 	}
 }
-550009 ={
-	name=Rhonda
-	female=yes
+550008 = {
+	name="William" # William Cochrane, King of Beornia.
+	dynasty=245001
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+
+	culture=falklander
+	religion=brethren
+
+	father=550001 # Jack Cochrane
+	mother=550002 # Anne Read
+
+	2325.10.14 = {
+		birth="2325.10.14"
+	}
+	2343.5.17 = {
+		add_spouse=550009 # Margaret Thatcher
+	}
+	2346.6.22 = {
+		death = {
+			death_reason=death_battle_duel # Battle of La Plata
+			killer=330060 # Francisco Valle
+		}
+	}
+}
+550009 = {
+	name="Margaret" # Margaret Thatcher.
 	dynasty=245005
-	martial=4
-	diplomacy=3
-	stewardship=4
-	intrigue=3
-	learning=4
-	culture=falklander
-	religion=calafatist
-	trait=shrewd
-	trait=falconer
-	trait=groomed
-	trait=chaste
-	trait=cancer
-	trait=flamboyant_schemer
-	2302.12.2={
-		birth=yes
-	}
-	2356.4.15={
-		death={
-			death_reason=death_trait
-		}
-	}
-}
-550010 ={
-	name=Thomas
-	dynasty=245001
-	martial=5
-	diplomacy=3
-	stewardship=3
-	intrigue=3
-	learning=2
-	culture=falklander
-	religion=calafatist
-	trait=honest
-	trait=brave
-	trait=just
-	trait=shy
-	trait=dysentery
-	trait=tough_soldier
-	father=550008
-	mother=550009
-	2330.8.1={
-		birth=yes
-	}
-	2363.12.15={
-		add_spouse=550011
-	}
-	2368.12.19={
-		death={
-			death_reason=death_trait
-		}
-	}
-}
-550011 ={
-	name=Sharon
 	female=yes
-	dynasty=245007
-	martial=4
-	diplomacy=3
-	stewardship=4
-	intrigue=5
-	learning=2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+
 	culture=falklander
 	religion=brethren
-	trait=shrewd
-	trait=freckles
-	trait=diligent
-	trait=wroth
-	trait=seducer
-	trait=skilled_tactician
-	2341.10.15={
-		birth=yes
-	}
-	2453.3.30={
-		death=yes
+
+	2325.10.13 = {
+		birth="2325.10.13"
 	}
 }
-550012 ={
-	name=James
+550010 = {
+	name="Henry" # Henry Cochrane, Duke of Aysen.
 	dynasty=245001
-	martial=1
-	diplomacy=0
-	stewardship=0
-	intrigue=1
-	learning=0
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+
 	culture=falklander
-	religion=calafatist
-	trait=freckles
-	father=550010
-	mother=550011
-	2368.9.14={
-		birth=yes
+	religion=brethren
+
+	father=550001 # Jack Cochrane
+	mother=550002 # Anne Read
+
+	2327.8.1 = {
+		birth="2327.8.1"
 	}
-	2368.12.29={
-		religion=brethren
-	}
-	2440.7.25={
-		death=yes
+	2344.12.15 = {
+		add_spouse=550011 # Jacqueline Sharp
 	}
 }
-550013 ={
-	name=Helen
-	female=yes
-	dynasty=245001
-	martial=4
-	diplomacy=2
-	stewardship=5
-	intrigue=4
-	learning=3
-	culture=falklander
-	religion=calafatist
-	trait=honest
-	trait=brave
-	trait=just
-	trait=shy
-	trait=dysentery
-	trait=fortune_builder
-	father=550008
-	mother=550009
-	2334.7.17={
-		birth=yes
-	}
-	2357.5.19={
-		add_matrilineal_spouse=550014
-	}
-	2450.2.6={
-		death=yes
-	}
-}
-550014 ={
-	name=Philip
+550011 = {
+	name="Jacqueline" # Jacqueline Sharp.
 	dynasty=245006
-	martial=3
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=5
+	female=yes
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 5
+	learning = 2
+
 	culture=falklander
 	religion=brethren
-	trait=robust
-	trait=erudite
-	trait=lustful
-	trait=kind
-	trait=mystic
-	trait=martial_cleric
-	2334.2.10={
-		birth=yes
-	}
-	2397.6.17={
-		death=yes
+
+	2327.10.29 = {
+		birth="2327.10.29"
 	}
 }
+### Issue of Francis ###
+550007 = {
+	name="Edward" # Edward Cochrane.
+	dynasty=245001
 
-560001 ={
-	name=Robert
-	dynasty=250018
-	martial=4
-	diplomacy=3
-	stewardship=5
-	intrigue=1
-	learning=3
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+
+	culture=falklander
+	religion=brethren
+
+	father=550003 # Francis Cochrane
+	mother=550004 # Mary Drake
+
+	2342.9.29 = {
+		birth="2342.9.29"
+	}
+}
+### Issue of Edward ###
+550012 = {
+	name="Henry" # Henry Cochrane.
+	dynasty=245001
+
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+
+	culture=falklander
+	religion=brethren
+
+	father=550005 # Edward Cochrane
+	mother=550006 # Eleanor Avery
+
+	2342.9.9 = {
+		birth="2342.9.9"
+	}
+}
+### Issue of William ###
+550013 = {
+	name="Bartholomew" # Bartholomew Cochrane.
+	dynasty=245001
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+
+	culture=falklander
+	religion=brethren
+
+	father=550008 # William Cochrane
+	mother=550009 # Margaret Thatcher
+
+	2344.3.3 = {
+		birth="2344.3.3"
+	}
+}
+### Issue of Henry ###
+550014 = {
+	name="Horatio" # Horatio Cochrane.
+	dynasty=245001
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 5
+
+	culture=falklander
+	religion=brethren
+	
+	father=550010 # Henry Cochrane
+	mother=550011 # Jacqueline Sharp
+
+	2345.10.21 = {
+		birth="2345.10.21"
+	}
+}
+550015 = {
+	name="Elizabeth" # Elizabeth Cochrane.
+	dynasty=245001
+	female=yes
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 5
+
+	culture=falklander
+	religion=brethren
+	
+	father=550010 # Henry Cochrane
+	mother=550011 # Jacqueline Sharp
+
+	2347.3.26 = {
+		birth="2347.3.26"
+	}
+}
+#############
+### Welsh ###
+#############
+#######################
+### House Pendragon ###
+#######################
+560001 = {
+	name="Constantine" # King Constantine Pendragon, King of Y Wladfa.
+	dynasty=250001
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 5
+	intrigue = 1
+	learning = 3
+
 	culture=wladfaeg
 	religion=evangelical
-	trait=robust
-	trait=cynical
-	trait=diligent
-	trait=patient
-	trait=ambitious
-	trait=skilled_tactician
-	2274.7.4={
-		birth=yes
+
+	2278.7.4 = {
+		birth="2278.7.4"
 	}
-	2298.6.15={
-		add_spouse=560002
+	2298.6.15 = {
+		add_spouse=560002 # Eleanor Jones
 	}
-	2340.5.12={
-		death=yes
+	2323.5.12 = {
+		death="2323.5.12"
 	}
 }
-560002 ={
-	name=Eleanor
-	female=yes
+560002 = {
+	name=Eleanor # Eleanor Jones, wife of Constantine Pendragon.
 	dynasty=250019
-	martial=3
-	diplomacy=4
-	stewardship=2
-	intrigue=4
-	learning=2
-	culture=wladfaeg
-	religion=evangelical
-	trait=shrewd
-	trait=chaste
-	trait=gregarious
-	trait=craven
-	trait=intricate_webweaver
-	2275.9.6={
-		birth=yes
-	}
-	2342.4.18={
-		death=yes
-	}
-}
-560003 ={
-	name=Richard
-	dynasty=250018
-	martial=3
-	diplomacy=2
-	stewardship=6
-	intrigue=3
-	learning=4
-	culture=wladfaeg
-	religion=evangelical
-	trait=hunter
-	trait=gluttonous
-	trait=erudite
-	trait=content
-	trait=midas_touched
-	father=560001
-	mother=560002
-	2300.1.4={
-		birth=yes
-	}
-	2323.7.19={
-		add_spouse=560005
-	}
-	2365.11.4={
-		death=yes
-	}
-}
-560004 ={
-	name=Hugo
-	dynasty=250018
-	martial=3
-	diplomacy=2
-	stewardship=6
-	intrigue=3
-	learning=4
-	culture=wladfaeg
-	religion=evangelical
-	trait=seducer
-	trait=greedy
-	trait=wroth
-	trait=groomed
-	trait=tough_soldier
-	father=560001
-	mother=560002
-	2302.5.29={
-		birth=yes
-	}
-	2327.1.12={
-		add_spouse=560006
-	}
-	2369.9.21={
-		death=yes
-	}
-}
-
-560005 ={
-	name=Innes
 	female=yes
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 2
+	intrigue = 4
+	learning = 2
+
+	culture=wladfaeg
+	religion=evangelical
+
+	2278.9.6 = {
+		birth="2278.9.6"
+	}
+	2324.4.18 = {
+		death="2324.4.18"
+	}
+}
+### Issue of Constantine ###
+560003 = {
+	name="Uther" # King Uther Pendragon, King of Y Wladfa.
+	dynasty=250001
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+
+	culture=wladfaeg
+	religion=evangelical
+
+	father=560001 # Constantine Pendragon
+	mother=560002 # Eleanor Jones
+
+	2300.1.4 = {
+		birth="2300.1.4"
+	}
+	2325.7.5 = {
+		add_spouse=560005 # Igraine Davies
+	}
+	2342.4.2 = {
+		death = {
+			death_reason=death_battle
+			killer=550005 # Edward Cochrane
+		}
+	}
+}
+560004 = {
+	name="Gorlois" # Gorlois Kenway, Count of Sierra Grande.
 	dynasty=250024
-	martial=4
-	diplomacy=3
-	stewardship=4
-	intrigue=2
-	learning=3
-	culture=wladfaeg
-	religion=evangelical
-	trait=envious
-	trait=ambitious
-	trait=shy
-	trait=thrifty_clerk
-	2303.6.26={
-		birth=yes
-	}
-	2370.10.8={
-		death=yes
-	}
-}
 
-560006 ={
-	name=Lorna
-	female=yes
+	diplomacy = 2
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+
+	culture=wladfaeg
+	religion=evangelical
+
+	2300.5.29 = {
+		birth="2300.5.29"
+	}
+	2324.3.19 = {
+		add_spouse=560005 # Igraine Davies
+	}
+	2325.7.5 = {
+		death = {
+			death_reason=death_battle
+			killer=560003 # Uther Pendragon
+		}
+	}
+}
+560005 = {
+	name="Igraine" # Igraine Davies, wife of Gorlois Ramsey and Uther Pendragon.
 	dynasty=250025
-	martial=2
-	diplomacy=4
-	stewardship=4
-	intrigue=5
-	learning=3
-	culture=wladfaeg
-	religion=evangelical
-	trait=duelist
-	trait=brave
-	trait=homosexual
-	trait=gregarious
-	trait=tough_soldier
-	2305.2.27={
-		birth=yes
-	}
-	2374.6.17={
-		death=yes
-	}
-}
-560007 ={
-	name=Robert
-	dynasty=250018
-	martial=3
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=3
-	culture=wladfaeg
-	religion=evangelical
-	trait=zealous
-	trait=kind
-	trait=proud
-	trait=groomed
-	trait=tough_soldier
-	father=560003
-	mother=560005
-	2325.10.12={
-		birth=yes
-	}
-	2350.3.5={
-		add_spouse=560010
-	}
-	2392.10.1={
-		death=yes
-	}
-}
-560008 ={
-	name=Morgan
 	female=yes
-	dynasty=250018
-	martial=3
-	diplomacy=2
-	stewardship=3
-	intrigue=3
-	learning=5
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 3
+
 	culture=wladfaeg
 	religion=evangelical
-	trait=humble
-	trait=brave
-	trait=zealous
-	trait=groomed
-	trait=martial_cleric
-	father=560003
-	mother=560005
-	2328.10.12={
-		birth=yes
+
+	2300.6.26 = {
+		birth="2300.6.26"
 	}
-	2350.3.5={
-		add_matrilineal_spouse=560011
-	}
-	2393.4.10={
-		death=yes
+	2342.4.2 = {
+		death = {
+			death_reason=death_execution
+			killer=550005 # Edward Cochrane
+		}
 	}
 }
-560009 ={
-	name=Lewis
-	dynasty=250018
-	martial=3
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=3
-	culture=wladfaeg
-	religion=evangelical
-	trait=stressed
-	trait=scarred
-	trait=administrator
-	trait=slothful
-	trait=skilled_tactician
-	father=560004
-	mother=560006
-	2330.3.19={
-		birth=yes
-	}
-	2351.12.12={
-		add_spouse=560012
-	}
-	2396.11.14={
-		death=yes
-	}
-}
-560010 ={
-	name=Flora
+### Issue of Gorlois ###
+560008 = {
+	name="Morgause" # Morgause Kenway, wife of Lot Burton.
+	dynasty=250024
 	female=yes
-	dynasty=250026
-	martial=4
-	diplomacy=2
-	stewardship=4
-	intrigue=4
-	learning=4
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 5
+
 	culture=wladfaeg
 	religion=evangelical
-	trait=diligent
-	trait=theologian
-	trait=fair
-	trait=uncouth
-	trait=flamboyant_schemer
-	2327.9.8={
-		birth=yes
-	}
-	2398.1.15={
-		death=yes
+
+	add_trait="twin"
+
+	father=560004 # Gorlois Kenway
+	mother=560005 # Igraine Davies
+
+	2324.12.24 = {
+		birth="2324.12.24"
 	}
 }
-560011 ={
-	name=Eric
-	dynasty=250027
+560009 = {
+	name="Morgan" # Morgan Kenway, wife of Mordred Pendragon.
+	dynasty=250024
+	female=yes
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=wladfaeg
+	religion=evangelical
+
+	add_trait="twin"
+
+	father=560004 # Gorlois Kenway
+	mother=560005 # Igraine Davies
+
+	2324.12.24 = {
+		birth="2324.12.24"
+	}
+	2351.12.12 = {
+		add_spouse=560013
+	}
+}
+### Issue of Uther ###
+560007 = {
+	name="Arthur" # King Arthur Pendragon, King of Y Wladfa.
+	dynasty=250001
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=wladfaeg
+	religion=evangelical
+
+	father=560003 # Uther Pendragon
+	mother=560005 # Igraine Davies
+
+	2326.4.10 = {
+		birth="2326.4.10"
+	}
+	2346.3.5 = {
+		add_spouse=560010 # Guinevere Moore
+	}
+}
+560010 = {
+	name="Guinevere" # Guinevere Moore, wife of Arthur Pendragon.
+	dynasty=250028
+	female=yes
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 4
+	intrigue = 4
+	learning = 4
+
+	culture=wladfaeg
+	religion=evangelical
+
+	2326.9.8 = {
+		birth="2326.9.8"
+	}
+}
+### Issue of Arthur ###
+560013 = {
+	name="Mordred" # Mordred Pendragon.
+	dynasty=250001
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=wladfaeg
+	religion=evangelical
+
+	father=560007 # Arthur Pendragon
+	mother=560010 # Guinevere Moore
+
+	2347.1.30 = {
+		birth="2347.1.30"
+	}
+}
+#################################
+### House Pendragon Household ###
+#################################
+560006 = {
+	name="Merlin" # Merlin the Mage.
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 4
+	intrigue = 5
+	learning = 3
+
+	culture=wladfaeg
+	religion=evangelical
+
+	2300.9.14 = {
+		birth="2300.9.14"
+	}
+}
+560011 = {
+	name="Bors" # Bors Cale.
+	dynasty=250022
+
 	martial=3
 	diplomacy=4
 	stewardship=3
 	intrigue=2
 	learning=3
+
 	culture=wladfaeg
 	religion=evangelical
-	trait=deceitful
-	trait=erudite
-	trait=shrewd
-	trait=fortune_builder
-	2327.6.24={
-		birth=yes
-	}
-	2391.10.9={
-		death=yes
+
+	2331.6.24 = {
+		birth="2331.6.24"
 	}
 }
-560012 ={
-	name=Alexandra
-	female=yes
-	dynasty=250028
+560012 = {
+	name="Percival" # Percival Lockyer.
+	dynasty=250026
+
 	martial=4
 	diplomacy=2
 	stewardship=4
 	intrigue=4
 	learning=4
+
 	culture=wladfaeg
 	religion=evangelical
-	trait=temperate
-	trait=patient
-	trait=proud
-	trait=harelip
-	trait=charismatic_negotiator
-	2330.12.2={
-		birth=yes
-	}
-	2400.4.19={
-		death=yes
+
+	2331.12.2 = {
+		birth="2331.6.24"
 	}
 }
-560013 ={
-	name=Robert
-	dynasty=250018
-	martial=3
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=3
-	culture=wladfaeg
-	religion=evangelical
-	trait=wroth
-	trait=hunter
-	trait=feeble
-	trait=groomed
-	trait=amateurish_plotter
-	father=560007
-	mother=560010
-	2351.7.30={
-		birth=yes
-	}
-	2420.4.14={
-		death=yes
-	}
-}
-560014 ={
-	name=Ricardo
-	dynasty=250018
+560014 = {
+	name="Lancelot" # Lancelot Morrell.
+	dynasty=250027
+
 	martial=5
 	diplomacy=2
 	stewardship=2
 	intrigue=4
 	learning=4
+
 	culture=wladfaeg
 	religion=evangelical
-	trait=brave
-	trait=shrewd
-	trait=homosexual
-	trait=kind
-	trait=skilled_tactician
-	father=560011
-	mother=560008
-	2351.1.13={
-		birth=yes
-	}
-	2416.5.15={
-		death=yes
+
+	2331.1.13 = {
+		birth="2331.1.13"
 	}
 }
-560015 ={
-	name=Cecilia
-	female=yes
+560015 = {
+	name="Elaine" # Elaine Glover.
 	dynasty=250018
+	female=yes
+
 	martial=3
 	diplomacy=4
 	stewardship=3
 	intrigue=3
 	learning=3
+
 	culture=wladfaeg
 	religion=evangelical
-	trait=stubborn
-	trait=honest
-	trait=arbitrary
-	trait=robust
-	trait=thrifty_clerk
-	father=560009
-	mother=560012
-	2352.12.16={
+
+	2332.12.16={
 		birth=yes
 	}
-	2424.6.11={
-		death=yes
+}
+560017 = {
+	name="Galahad" # Galahad Morrell.
+	dynasty=250027
+
+	martial=3
+	diplomacy=4
+	stewardship=3
+	intrigue=3
+	learning=3
+
+	culture=wladfaeg
+	religion=evangelical
+	
+	father=560014 # Lancelot Griffith
+	mother=560015 # Elaine Glover
+
+	2352.3.24 = {
+		birth=yes
 	}
 }
-560016 ={
-	name=Guillermo
-	dynasty=250029
+####################
+### House Burton ###
+####################
+560016 = {
+	name="Lot" # Count Lot Burton of Esquel.
+	dynasty=250031
+
 	martial=5
 	diplomacy=2
 	stewardship=2
 	intrigue=4
 	learning=4
-	culture=desertico
-	religion=calafatist
-	trait=strong
-	trait=patient
-	trait=stubborn
-	trait=skilled_tactician
-	2311.6.22={
-		birth=yes
-	}
-	2342.10.15={
-		religion=evangelical
-	}
-	2343.12.19={
-		add_spouse=560017
-	}
-	2468.4.10={
-		death=yes
-	}
-}
-560017 ={
-	name=Helen
-	female=yes
-	dynasty=250030
-	martial=3
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=3
+
 	culture=wladfaeg
 	religion=evangelical
-	trait=zealous
-	trait=kind
-	trait=temperate
-	trait=shy
-	trait=intricate_webweaver
-	2312.3.24={
+
+	2324.6.22 = {
 		birth=yes
 	}
-	2380.11.13={
-		death=yes
+	2343.12.19 = {
+		add_spouse=560008 # Morgause Ramsey
 	}
 }
+### Issue of Lot ###
 560018 ={
-	name=William
-	dynasty=250029
+	name="Gawain" # Gawain Burton.
+	dynasty=250031
+
 	martial=5
 	diplomacy=2
 	stewardship=2
 	intrigue=4
 	learning=4
-	culture=desertico
+
+	culture=wladfaeg
 	religion=evangelical
+
 	trait=wroth
 	trait=envious
 	trait=deceitful
 	trait=diligent
 	trait=tough_soldier
-	father=560016
-	mother=560017
-	2347.2.16={
+
+	father=560016 # Lot Burton
+	mother=560008 # Morgause Ramsey
+
+	2344.2.16={
 		birth=yes
 	}
 	2348.3.19={
@@ -804,24 +764,29 @@
 		death=yes
 	}
 }
-560019 ={
-	name=Joshua
+560019 = {
+	name="Agravain" # Agravain Burton.
 	dynasty=250031
+
 	martial=3
 	diplomacy=4
 	stewardship=5
 	intrigue=3
 	learning=2
+
 	culture=wladfaeg
 	religion=evangelical
+
 	trait=patient
 	trait=gluttonous
 	trait=sturdy
 	trait=gamer
 	trait=charismatic_negotiator
-	father=560016
-	mother=560017
-	2344.6.11={
+
+	father=560016 # Lot Burton
+	mother=560008 # Morgause Ramsey
+
+	2346.6.11={
 		birth=yes
 	}
 	2410.9.18={

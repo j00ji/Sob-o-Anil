@@ -1,9 +1,19 @@
 # e_la_plata
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-
-2368.1.1={
-	holder = 330007 #Estanislao Valle
+2342.6.14 = {
+	holder=550008 # William Cochrane
+}
+2346.6.22 = {
+	holder=330060 # Armando Valle
+}
+2360.11.25 = {
+	holder=330074 # Francisco Valle
+	liege=d_plata
+}
+2364.11.8 = {
+	holder=330078 # José Valle
+	liege=d_plata
 }

@@ -43,3 +43,33 @@ libertador = {
 	indestructible = yes
 	allowed_gift = { always = no }
 }
+murasama = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 20
+	quality = 4
+	active = {
+		age = 16
+	}
+	flags = { combat_weapon sword combat_tier_4 track_history named_sword }
+	stacking = no
+	picture = "GFX_murasama"
+	slot = weapon
+	indestructible = yes
+	allowed_gift = { always = no }
+}
+bandeirante_justice = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	combat_rating = 20
+	quality = 4
+	active = {
+		age = 16
+	}
+	flags = { combat_weapon sword combat_tier_4 track_history named_sword }
+	stacking = no
+	picture = "GFX_bandeirante_justice"
+	slot = weapon
+	indestructible = yes
+	allowed_gift = { always = no }
+}

@@ -1,5 +1,5 @@
 e_la_plata = {
-	color={ 179 112 116 }
+	color={ 0 123 224 }
 	color2={ 255 255 20 }
 	
 	capital = 614 # c_buenos_aires
@@ -1015,7 +1015,7 @@ e_la_plata = {
 		capital = 651 # c_parana
 		culture = litoraleno
 		
-		d_enterrios = {
+		d_entrerios = {
 			color={ 138 45 158 }
 			color2={ 255 255 255 }
 			

@@ -699,46 +699,47 @@
 	used_for_random = no
 }
 
-340111	 = {
+340111 = {
 	name = "de Levya"
 	culture = porteno
 	religion = platinean
 	used_for_random = no
 }
-
-340112	 = {
-	name = "Benedetti"
-	culture = porteno
-	religion = platinean
-	used_for_random = no
+340112 = {
+	name="Benedetti"
+	culture=porteno
+	religion=platinean
+	used_for_random=no
 }
-
-340113	 = {
-	name = "Gesell"
-	culture = porteno
-	religion = platinean
-	used_for_random = no
+340113 = {
+	name="Gesell"
+	culture=porteno
+	religion=platinean
+	used_for_random=no
 }
-
-340114	 = {
-	name = "Mazorca"
-	culture = porteno
-	religion = rosalian
-	used_for_random = no
+340114 = {
+	name="Mazorca"
+	culture=porteno
+	religion=rosalian
+	used_for_random=no
 }
-
-340115	 = {
-	name = "del Sur"
-	culture = porteno
-	religion = platinean
-	used_for_random = no
+340115 = {
+	name="Merello"
+	culture=porteno
+	religion=platinean
+	used_for_random=no
 }
-
-340116	 = {
-	name = "Canavery"
-	culture = porteno
-	religion = catholic
-	used_for_random = no
+340116 = {
+	name="Canavery"
+	culture=porteno
+	religion=catholic
+	used_for_random=no
+}
+340117 = {
+	name="Escalada"
+	culture=porteno
+	religion=catholic
+	used_for_random=no
 }
 
 345002 = {

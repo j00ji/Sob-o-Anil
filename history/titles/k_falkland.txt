@@ -1,6 +1,6 @@
-2308.10.10= {
-	holder=550001
+500.1.1 = {
+	law=cognatic_succession
 }
-2341.10.23= {
-	holder=0
+2320.8.20 = {
+	holder=550001
 }

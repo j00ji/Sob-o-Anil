@@ -1,4 +1,3 @@
-###ÄNSI
 ##########################################
 ### Región de la Mesopotamia argentina ###
 ##########################################
@@ -24,11 +23,13 @@
     trait=shrewd
     trait=patient
 
-    2329.1.1={birth=yes}
+    2329.1.1 = {
+		birth=yes
+	}
 	2364.10.17 = {
 		death = {
-			death_reason=death_duel_battle # Siege of Rosario
-            killer=230006 # Diego Bartales
+			death_reason=death_battle # Siege of Rosario
+            killer=230003 # Diego Bartales
 		}
 	}
 }
@@ -187,7 +188,7 @@
 	2364.10.9 = {
 		death = {
 			death_reason=death_battle # Siege of Rosario
-            killer=230006 # Diego Bartales
+            killer=230003 # Diego Bartales
 		}
 	}
 }
@@ -264,29 +265,41 @@
 ### House de Asterion ###
 #########################
 330021 = {
-	name="Ferdinand"
-    dynasty=340108 # de Asterion
-    culture=porteno
-    religion=rosalian
-    martial=8
-    diplomacy=1
-    stewardship=3
-    intrigue=3
-    learning=2
-    trait=brilliant_strategist
-    trait=duelist
-    trait=robust
-    trait=slow
-    trait=ambitious
-    trait=zealous
-    trait=cruel
-    trait=envious
-    trait=arbitrary
-    trait=wroth
-    2334.1.1={birth=yes}
-    2375.1.1={death=yes}
+	name="Ferdinand" # Ferdinand de Asterion the Minotaur, Duke of Luján.
+    dynasty=340108
 
-	#Duke of Lujan, rules Obligado and Lujan
+    diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+
+	culture=porteno
+    religion=rosalian
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+    2334.8.24 = {
+		birth="2334.8.24"
+	}
+	2350.8.24 = {
+		add_trait="brilliant_strategist"
+		add_trait="heavy_infantry_leader"
+		add_trait="experimenter"
+		add_trait="aggressive_leader"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="envious"
+		add_trait="arbitrary"
+		add_trait="cruel"
+		add_trait="zealous"
+		add_trait="ambitious"
+	}
+	2364.12.14 = {
+		give_nickname=nick_the_minotaur
+	}
 }
 ###################################
 ### House de Asterion Household ###
@@ -348,11 +361,12 @@
 ### House Valle ###
 ###################
 330060 = {
-	name="Francisco" # Francisco Valle the Goldenhand, King of Buenos Aires.
+	name="Armando" # Armando Valle the Goldenhand, Procér of Buenos Aires.
     dynasty=345004
+	properties="0f0afk"
 
 	diplomacy = 5
-	martial = 9
+	martial = 1
     stewardship = 3
     intrigue = 3
     learning = 4
@@ -379,25 +393,66 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="ambitious"
-		add_trait="strategist"
 		add_trait="duelist"
 	}
-	2339.6.22 = {
-		give_nickname=nick_the_goldenhand
+	2323.2.8 = {
+		add_spouse=330061 # Mercedes Mora
 	}
-	2355.11.25 = {
-		death="2355.11.25"
+	2346.6.22 = {
+		give_nickname=nick_the_goldenhand
+		effect = {
+			add_artifact=libertador
+		}
+		create_bloodline = {
+			type = bloodline_goldenhand
+			has_dlc = "Holy Fury"
+		}
+	}
+	2360.11.25 = {
+		death="2360.11.25"
 	}
 }
-### Issue of Francisco the Goldenhand ###
+330061 = {
+	name="Mercedes" # Mercedes Escalada, wife of Armando Valle and Procér of Buenos Aires.
+	dynasty=340117
+	female=yes
+
+	diplomacy = 5
+	martial = 1
+    stewardship = 3
+    intrigue = 3
+    learning = 4
+
+	culture=porteno
+    religion=platinean
+
+	add_trait="fair"
+
+	2304.7.9 = {
+		birth="2304.7.9"
+	}
+	2320.7.9 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="poet"
+	}
+	2360.10.4 = {
+		death="2360.10.4"
+	}
+}
+### Issue of Armando the Goldenhand ###
 330007 = {
-	name="Lionel" # Lionel Valle the Victorious, King of Buenos Aires.
+	name="Lionel" # Lionel Valle the Victorious, Procér of Buenos Aires.
     dynasty=345004
 	dna="0bi0g0c0ce0"
 	properties="0d0afk"
 
     diplomacy = 5
-	martial = 7
+	martial = 1
     stewardship = 3
     intrigue = 3
     learning = 4
@@ -408,8 +463,9 @@
 	add_trait="strong"
 
 	disallow_random_traits = yes
-	
-	father=330060 # Francisco Valle
+
+	father=330060 # Armando Valle
+	mother=330061 # Mercedes Escalada
 
     2324.2.25 = {
 		birth="2324.2.25"
@@ -428,13 +484,12 @@
 		add_trait="zealous"
 		add_trait="ambitious"
 		add_trait="strategist"
-		add_trait="duelist"
 		add_trait="poet"
 	}
 	2344.3.9 = {
 		add_spouse=410020 # Beatriz Batlle
 	}
-	2355.11.25 = {
+	2360.11.25 = {
 		effect = {
 			add_artifact=libertador
 		}
@@ -445,16 +500,16 @@
 		}
 	}
 	2364.11.19 = {
-		add_trait="sympathy_christendom"
 		give_nickname=nick_the_victorious
 	}
 }
 330074 = {
-	name="Manuel" # Manuel Valle.
+	name="Francisco" # Francisco Valle the Silverfist, Gobernador of Plata.
     dynasty=345004
+	properties="0b0afk"
 
     diplomacy = 5
-	martial = 9
+	martial = 1
     stewardship = 3
     intrigue = 3
     learning = 4
@@ -466,36 +521,63 @@
 
 	disallow_random_traits = yes
 
-	father=330060 # Francisco Valle
+	father=330060 # Armando Valle
+	mother=330061 # Mercedes Escalada
 
-    2324.2.25 = {
-		birth="2324.2.25"
+    2326.6.3 = {
+		birth="2326.6.3"
 	}
-	2340.2.25 = {
-		add_trait="skilled_tactician"
+	2342.6.3 = {
+		add_trait="brilliant_strategist"
+		add_trait="aggressive_leader"
 		add_trait="organizer"
 		add_trait="inspiring_leader"
 		add_trait="brave"
 		add_trait="diligent"
-		add_trait="patient"
+		add_trait="wroth"
 		add_trait="proud"
 		add_trait="gregarious"
 		add_trait="duelist"
 	}
+	2346.5.14 = {
+		add_spouse=330029 # Beatriz Merello
+	}
+	2360.11.25 = {
+		give_nickname=nick_the_silverfist
+	}
 	2364.11.8 = {
 		death = {
 			death_reason=death_battle # Battle of Buenos Aires
-            killer=230006 # Diego Bartales
+            killer=230003 # Diego Bartales
 		}
+	}
+}
+330029 = {
+	name="Ana" # Ana Merello, wife of Francisco Valle the Silverfist.
+	dynasty=340115
+	female=yes
+
+    diplomacy = 2
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	
+	culture=porteno
+	religion=platinean
+
+	2326.10.11 = {
+		birth="2326.10.11"
 	}
 }
 ### Issue of Lionel the Victorious ###
 330075 = {
 	name="Manuel" # Manuel Valle.
     dynasty=345004
+	properties="0p0afk"
 
     diplomacy = 5
-	martial = 9
+	martial = 1
     stewardship = 3
     intrigue = 3
     learning = 4
@@ -526,12 +608,12 @@
 	}
 }
 330076 = {
-	name="Guillermo" # Guillermo Valle.
+	name="Francisco" # Francisco Valle.
     dynasty=345004
 
     diplomacy = 5
-	martial = 9
-    stewardship = 3
+	martial = 4
+    stewardship = 5
     intrigue = 3
     learning = 4
 
@@ -549,15 +631,12 @@
 		birth="2345.6.22"
 	}
 	2363.6.22 = {
-		add_trait="skilled_tactician"
-		add_trait="organizer"
-		add_trait="inspiring_leader"
+		add_trait="fortune_builder"
 		add_trait="brave"
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="proud"
 		add_trait="gregarious"
-		add_trait="duelist"
 	}
 }
 330077 = {
@@ -566,7 +645,7 @@
 	female=yes
 
     diplomacy = 5
-	martial = 9
+	martial = 3
     stewardship = 3
     intrigue = 3
     learning = 4
@@ -590,6 +669,43 @@
 		add_trait="patient"
 		add_trait="proud"
 		add_trait="gregarious"
+	}
+}
+### Issue of Francisco the Silverfist ###
+330078 = {
+	name="José" # José Valle.
+    dynasty=345004
+	properties="0p0afk"
+
+    diplomacy = 5
+	martial = 1
+    stewardship = 3
+    intrigue = 3
+    learning = 4
+
+	culture=porteno
+    religion=platinean
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=330074 # Francisco Valle
+	mother=330029 # Beatriz Merello
+
+    2347.6.19 = {
+		birth="2345.6.19"
+	}
+	2363.6.19 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="duelist"
 	}
 }
 #############################
@@ -686,7 +802,7 @@
 	dynasty=355078
 
 	diplomacy = 3
-	martial = 6
+	martial = 1
 	stewardship = 5
 	intrigue = 3
 	learning = 5
@@ -1230,30 +1346,6 @@
 
 
 	#Lord Mayor of Vidal
-}
-#####################
-### House del Sur ###
-#####################
-330029 = {
-	name="Raúl"
-    dynasty=340115 # del Sur
-    culture=porteno
-    religion=platinean
-    martial=5
-    diplomacy=2
-    stewardship=4
-    intrigue=3
-    learning=3
-    trait=skilled_tactician
-    trait=shrewd
-    trait=content
-    trait=lustful
-    trait=humble
-    trait=diligent
-    2319.1.1={birth=yes}
-    2381.1.1={death=yes}
-
-	#Duke of Plata, rules Chascomus and Puno Indio
 }
 ######################
 ### House Taillade ###
