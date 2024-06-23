@@ -16,6 +16,6 @@ b_avare = temple
 
 # Misc
 culture = camponeto
-religion = anchietican
+religion = johrei
 
 #History

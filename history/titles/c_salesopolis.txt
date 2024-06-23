@@ -25,8 +25,5 @@
 	holder = 110443 #Guilherme Ramalho 
 }
 2363.12.5 = { #Guilherme Ramalho ran from Salesópolis
-	holder = 110461 #Jonathan de Campos Sales
-}
-2364.4.25 = { 
-	liege = d_alto_paraiba
+	holder = 110447 #João Pedro Ramalho
 }

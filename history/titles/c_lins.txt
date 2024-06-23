@@ -8,11 +8,5 @@
 }
 2360.1.1 = {
 	holder = 110706 #Rufino Agripino
-	liege = d_aracatuba
-}
-2364.3.13 = {
-	set_tribute_suzerain={
-		who=d_rio_preto
-		type=permanent 
-	}
+	liege = d_marilia
 }

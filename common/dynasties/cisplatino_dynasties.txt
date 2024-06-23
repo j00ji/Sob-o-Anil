@@ -2168,7 +2168,7 @@
 	}
 }
 110004={
-	name="Habib"
+	name="Abdala"
 	culture= paranaense
 	religion = herderos
 	can_appear = no

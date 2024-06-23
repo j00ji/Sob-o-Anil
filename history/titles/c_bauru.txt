@@ -10,5 +10,5 @@
 	holder = 110700 #Paulo Suzuki
 }
 2364.3.13 = {
-	holder = 110707 #Conde Koma
+	holder = 110744 #Kishikawa
 }

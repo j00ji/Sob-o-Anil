@@ -6,7 +6,7 @@ title = c_sao_jose_do_rio_preto
 # Settlements
 max_settlements = 5
 
-b_forte_schmitt = tribal
+b_forte_schmitt = castle
 #b_rio_turvo = city
 #b_avanhandava = temple
 b_talhado = temple

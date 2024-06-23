@@ -16,6 +16,6 @@ b_morro_do_defunto = temple
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = johrei
 
 #History

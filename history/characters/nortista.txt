@@ -1198,6 +1198,53 @@
 #Count of Viseu
 
 #County of Salinopolis (Vassal of the Duchy of Belem)
+
+
+110707 = {
+	name = "Hiro"
+	dynasty = 1400004 # Koma; Conde Koma
+	culture = kyusei
+	religion = holy_spirit
+	
+	trait = skilled_tactician
+	trait = strong
+	trait = patient
+	trait = duelist
+	trait = adventurer
+	trait = humble
+	
+	2327.7.12 = {
+		birth = yes
+	}
+	2353.4.5 = {
+		effect={add_lover=110708}
+		add_spouse = 110708
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+110708 = {
+	name = "Daisy May"
+	dynasty = 245028 #Iris
+	culture = falklander
+	religion = holy_spirit #she converted
+	female = yes
+	
+	trait = scholarly_theologian
+	trait = kind
+	trait = physician
+	trait = fair
+	
+	2331.6.7 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
 870057 = { 
 	name="Lauro"
     dynasty=620040 # Vandré

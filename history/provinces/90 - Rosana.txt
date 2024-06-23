@@ -16,6 +16,6 @@ b_santa_rita = temple
 
 # Misc
 culture = caipira
-religion = johrei
+religion = anchietican
 
 #History

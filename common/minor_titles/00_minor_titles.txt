@@ -1904,238 +1904,238 @@ title_master_of_the_eagle = {
 
 # ZOROASTRIAN TITLES
 
-title_shahrwaraz = {
-	dignity = 0.2
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 10
+# title_shahrwaraz = {
+	# dignity = 0.2
+	# realm_in_name = yes
+	# grant_limit = 1
+	# opinion_effect = 10
 	
-	monthly_salary = 0.1
-	monthly_prestige = 0.75
+	# monthly_salary = 0.1
+	# monthly_prestige = 0.75
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_commander_title_trigger = yes
-		}
-		martial = 15
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# OR = { 
+			# male_can_hold_minor_title_trigger = yes
+			# female_can_hold_minor_commander_title_trigger = yes
+		# }
+		# martial = 15
+		# NOT = { trait = incapable } 
+	# }
 	
-	allowed_to_grant = {
-		OR = {
-			is_feudal = yes
-			is_tribal = yes
-		}
-		religion_group = zoroastrian_group
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# is_feudal = yes
+			# is_tribal = yes
+		# }
+		# religion_group = zoroastrian_group
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_kardarigan = {
-	dignity = 0.15
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 10
+# title_kardarigan = {
+	# dignity = 0.15
+	# realm_in_name = yes
+	# grant_limit = 1
+	# opinion_effect = 10
 	
-	monthly_salary = 0.075
-	monthly_prestige = 0.75
+	# monthly_salary = 0.075
+	# monthly_prestige = 0.75
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_commander_title_trigger = yes
-		}
-		martial = 15
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# OR = { 
+			# male_can_hold_minor_title_trigger = yes
+			# female_can_hold_minor_commander_title_trigger = yes
+		# }
+		# martial = 15
+		# NOT = { trait = incapable } 
+	# }
 	
-	allowed_to_grant = {
-		OR = {
-			is_feudal = yes
-			is_tribal = yes
-		}
-		religion_group = zoroastrian_group
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# is_feudal = yes
+			# is_tribal = yes
+		# }
+		# religion_group = zoroastrian_group
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_shahin = {
-	dignity = 0.15
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 10
+# title_shahin = {
+	# dignity = 0.15
+	# realm_in_name = yes
+	# grant_limit = 1
+	# opinion_effect = 10
 	
-	monthly_salary = 0.075
-	monthly_prestige = 0.75
+	# monthly_salary = 0.075
+	# monthly_prestige = 0.75
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_commander_title_trigger = yes
-		}
-		martial = 15
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# OR = { 
+			# male_can_hold_minor_title_trigger = yes
+			# female_can_hold_minor_commander_title_trigger = yes
+		# }
+		# martial = 15
+		# NOT = { trait = incapable } 
+	# }
 
-	allowed_to_grant = {
-		OR = {
-			is_feudal = yes
-			is_tribal = yes
-		}
-		religion_group = zoroastrian_group
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# is_feudal = yes
+			# is_tribal = yes
+		# }
+		# religion_group = zoroastrian_group
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_pushtigban_salar = {
-	dignity = 0.15
-	realm_in_name = yes
-	grant_limit = 1
-	opinion_effect = 10
+# title_pushtigban_salar = {
+	# dignity = 0.15
+	# realm_in_name = yes
+	# grant_limit = 1
+	# opinion_effect = 10
 	
-	monthly_salary = 0.1
-	monthly_prestige = 0.5
+	# monthly_salary = 0.1
+	# monthly_prestige = 0.5
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_commander_title_trigger = yes
-		}
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# OR = { 
+			# male_can_hold_minor_title_trigger = yes
+			# female_can_hold_minor_commander_title_trigger = yes
+		# }
+		# NOT = { trait = incapable } 
+	# }
 
-	allowed_to_grant = {
-		OR = {
-			is_feudal = yes
-			is_tribal = yes
-		}
-		religion_group = zoroastrian_group
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# is_feudal = yes
+			# is_tribal = yes
+		# }
+		# religion_group = zoroastrian_group
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_spahbod = {
-	dignity = 0.15
-	realm_in_name = yes
-	grant_limit = 4
-	opinion_effect = 10
+# title_spahbod = {
+	# dignity = 0.15
+	# realm_in_name = yes
+	# grant_limit = 4
+	# opinion_effect = 10
 	
-	monthly_salary = 0.075
-	monthly_prestige = 0.75
+	# monthly_salary = 0.075
+	# monthly_prestige = 0.75
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		OR = { 
-			male_can_hold_minor_title_trigger = yes
-			female_can_hold_minor_commander_title_trigger = yes
-		}
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# OR = { 
+			# male_can_hold_minor_title_trigger = yes
+			# female_can_hold_minor_commander_title_trigger = yes
+		# }
+		# NOT = { trait = incapable } 
+	# }
 
-	allowed_to_grant = {
-		higher_tier_than = DUKE
-		OR = {
-			is_feudal = yes
-			is_tribal = yes
-		}
-		religion_group = zoroastrian_group
-	}
+	# allowed_to_grant = {
+		# higher_tier_than = DUKE
+		# OR = {
+			# is_feudal = yes
+			# is_tribal = yes
+		# }
+		# religion_group = zoroastrian_group
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
-title_eran_ambaragbed = {
-	dignity = 0.075
-	grant_limit = 1
-	opinion_effect = 5
+# title_eran_ambaragbed = {
+	# dignity = 0.075
+	# grant_limit = 1
+	# opinion_effect = 5
 	
-	monthly_salary = 0.005
-	monthly_prestige = 0.5
+	# monthly_salary = 0.005
+	# monthly_prestige = 0.5
 	
-	is_unique = yes
+	# is_unique = yes
 	
-	allowed_to_hold = {
-		NOT = { 
-			primary_title = { temporary = yes } 
-		}
-		is_adult = yes
-		NOT = { trait = incapable } 
-	}
+	# allowed_to_hold = {
+		# NOT = { 
+			# primary_title = { temporary = yes } 
+		# }
+		# is_adult = yes
+		# NOT = { trait = incapable } 
+	# }
 
-	allowed_to_grant = {
-		OR = {
-			is_feudal = yes
-			is_tribal = yes
-		}
-		religion_group = zoroastrian_group
-	}
+	# allowed_to_grant = {
+		# OR = {
+			# is_feudal = yes
+			# is_tribal = yes
+		# }
+		# religion_group = zoroastrian_group
+	# }
 	
-	gain_effect = {
-	}
-	lose_effect = {
-	}
+	# gain_effect = {
+	# }
+	# lose_effect = {
+	# }
 
-	message = yes
-}
+	# message = yes
+# }
 
 # GENERIC PAGAN TITLES
 

@@ -7,6 +7,5 @@
 	liege=k_sao_paulo
 }
 2361.2.13 = {
-	holder = 110439 #Alberto Ramalho
-	liege = d_alto_paraiba
+	holder = 110742 #Guilherme de Melo
 }

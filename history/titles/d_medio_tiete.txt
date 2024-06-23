@@ -13,5 +13,5 @@
 	holder = 110690 #Fernando I Desterro
 }
 2366.1.1 = {#End of the Mineiro rule
-	holder = 110719 #Osório de Barros
+	holder = 0
 }

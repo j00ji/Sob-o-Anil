@@ -8,7 +8,7 @@ max_settlements = 5
 
 #Everything WIP
 
-b_jose_bonifacio = tribal
+b_jose_bonifacio = castle
 #b_itajobi = temple
 #b_itapolis = city
 #b_irapua = castle

@@ -7,6 +7,5 @@
 	liege=k_sao_paulo
 }
 2362.4.25 = { 
-	holder = 80018 #Sabugosa ruler
-	liege = k_aparecida
+	holder = 110743 #Patricia Stickel
 }

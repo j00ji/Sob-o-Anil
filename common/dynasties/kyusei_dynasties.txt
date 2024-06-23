@@ -41,8 +41,20 @@
 1400003 = {
 	name = "Makino"
 	culture = kyusei
+	religion = anchietican
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 
 1400004 = {
@@ -55,6 +67,24 @@
 		layer = {
 			texture = 6
 			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+1400005 = {
+	name = "Kishikawa" 
+	culture = kyusei
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 6
+			texture_internal = 62
 			emblem = 0
 			color = 0
 			color = 0

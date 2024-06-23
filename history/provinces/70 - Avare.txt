@@ -16,6 +16,6 @@ b_manduri = temple
 
 # Misc
 culture = kyusei
-religion = anchietican
+religion = johrei
 
 #History

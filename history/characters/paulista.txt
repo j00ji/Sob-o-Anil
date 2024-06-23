@@ -1227,8 +1227,8 @@
 	## Holzmann Dynasty ##
 
 120055 = {
-	name = "Pedro"
-	#Pedro Holzmann, current Duke of Piracicaba
+	name = "Peter"
+	#Pedro Macknight, current count of Mogi-Guaçu
 	dynasty = 60003
 	dna = cgbgc0g00f0
 	properties = bc0ggh00000
@@ -1253,7 +1253,7 @@
 	
 	2337.9.2 = {
 		birth = yes
-		culture = camponeto
+		culture = americano
 	}
 	2400.1.1={death=yes}
 }
@@ -1367,6 +1367,7 @@
 #######################
 ### House Cantarini ###
 #######################
+
 110002 = {
 	name="Felipe" #Felipe Cantarini, father of Alexandre
 	dynasty=55001
@@ -1390,6 +1391,7 @@
 		}
 	}
 }
+
 ### Issue of Felipe ###
 110001 = {
 	name="Alexandre" # Alexandre Cantarini the Lion of Americana, Duke of Campinas.
@@ -1448,6 +1450,9 @@
 			type = bloodline_lion_of_americana
 			has_dlc = "Holy Fury"
 		}
+	}
+	2364.12.25 = {
+		add_spouse = 120053
 	}
 }
 	
@@ -10955,8 +10960,8 @@
 	name = "Tobias"
 	dynasty = 65647 #de Aguiar
 	religion = anchietican
-	culture = camponeto
-	father=110651
+	culture = salvadorense
+	#father=110651
 	
 	trait = skilled_tactician
 	trait = cavalry_leader
@@ -10964,18 +10969,21 @@
 	
 	2308.1.17 = {
 		birth = yes
+		culture = camponeto
+	}
+	2346.1.1={
+		add_spouse = 110747
 	}
 	2356.5.22 = {
 		death = yes
 	}
-	#was awarded the Duchy of Sorocaba by the Cananeia dynasty
 }
 
 110651 = {
 	name = "Rafael"
-	dynasty = 65647 #de Aguiar
+	dynasty = 55040 #Maluf
 	religion = anchietican
-	culture = camponeto
+	culture = arabic
 	father=110652
 	
 	trait= indulgent_wastrel
@@ -10985,6 +10993,7 @@
 	
 	2274.5.29 = {
 		birth = yes
+		culture = camponeto
 	}
 	2319.2.23 = {
 		death = yes
@@ -10993,9 +11002,9 @@
 
 110652 = {
 	name = "Daniel"
-	dynasty = 65647 #de Aguiar
+	dynasty = 55040 #Maluf
 	religion = anchietican
-	culture = camponeto
+	culture = arabic
 	father=110653
 	
 	trait = tough_soldier
@@ -11005,6 +11014,7 @@
 	
 	2243.2.26 = {
 		birth = yes
+		culture = paulistano
 	}
 	2279.1.1 = {
 		death = yes
@@ -11013,9 +11023,9 @@
 
 110653 = {
 	name = "Martinez"
-	dynasty = 65647 #de Aguiar
+	dynasty = 55040 #Maluf
 	religion = anchietican
-	culture = camponeto
+	culture = arabic
 	father=110654
 	
 	trait = brilliant_strategist
@@ -11025,6 +11035,7 @@
 	
 	2210.1.1 = {
 		birth = yes
+		culture = paulistano
 	}
 	2250.1.1 = {
 		death = {
@@ -11036,9 +11047,9 @@
 
 110654 = {
 	name = "Conte"
-	dynasty = 65647 #de Aguiar
+	dynasty = 55040 #Maluf
 	religion = anchietican
-	culture = paulistano
+	culture = arabic
 	father=110656
 	trait=intricate_webweaver
 	trait=brave
@@ -11059,7 +11070,7 @@
 
 110655 = {
 	name = "Maria"
-	dynasty = 65647 #de Aguiar
+	dynasty = 55040 #Maluf
 	religion = anchietican
 	culture = camponeto
 	female=yes
@@ -11075,13 +11086,14 @@
 
 110656 = {
 	name = "Israel"
-	dynasty = 65647 #de Aguiar
+	dynasty = 55040 #Maluf
 	religion = anchietican
-	culture = paulistano
+	culture = arabic
 	
 	trait=tough_soldier
 	
-	2159.1.1={birth=yes}
+	2159.1.1={birth=yes 
+		culture = paulistano}
 	2200.1.1={death=yes}
 	#oldest known King of São Paulo
 }
@@ -11090,8 +11102,12 @@
 	name = "Diogo"
 	dynasty = 65647 #de Aguiar
 	religion = anchietican
-	culture = camponeto
+	culture = salvadorense
 	father=110650
+	mother=110747
+	
+	dna="ah0fb0bccc0"
+	properties="xa0iaj000000000000000000000000000000"
 	
 	disallow_random_traits = yes
 	trait = ambitious
@@ -11109,6 +11125,7 @@
 	
 	2348.9.29 = {
 		birth = yes
+		culture = camponeto
 	}
 	2367.4.5 = {
 		effect = {
@@ -11374,6 +11391,7 @@
 	father=110615
 	mother=110616
 	disallow_random_traits = yes
+	trait = tough_soldier
 	trait = brave
 	trait = just
 	trait = zealous
@@ -11384,7 +11402,6 @@
 	trait = stubborn
 	
 	2343.1.1={birth = yes}
-	2360.1.1={culture = paranapanense}
 	2364.1.1={effect = { add_rival = 110615 }}
 	2400.1.1={death=yes}
 	#son of Cosme, revolted against his own father due to his betrayal of the Paulista cause together with the Duke of Sorocaba
@@ -11430,73 +11447,73 @@
 ## de Julho dynasty ##
 ## 110660 - 110662##
 
-110660 = {
-	name = "Saulo"
-	dynasty = 55040 # de Julho
-	religion = catholic #from before the schism
-	culture = paulistano
-	occluded=yes #shrouded in Legend
+# 110660 = {
+	# name = "Saulo"
+	# dynasty = 55040 # de Julho
+	# religion = catholic #from before the schism
+	# culture = paulistano
+	# occluded=yes #shrouded in Legend
 	
-	trait=brilliant_strategist
-	trait=just
-	trait=strategist
-	trait=diligent
-	trait=zealous
+	# trait=brilliant_strategist
+	# trait=just
+	# trait=strategist
+	# trait=diligent
+	# trait=zealous
 	
-	2000.11.24 = {
-		birth = yes 
-	}
-	2071.5.6 = {
-		death = yes
-	}
-	#preserver of São Paulo
-}
+	# 2000.11.24 = {
+		# birth = yes 
+	# }
+	# 2071.5.6 = {
+		# death = yes
+	# }
+	# #preserver of São Paulo
+# }
 
-110661 = {
-	name = "Lino" 
-	dynasty = 55040 # de Julho
-	father = 110660
-	religion = catholic #from before the schism
-	culture = paulistano
-	occluded=yes #shrouded in Legend
+# 110661 = {
+	# name = "Lino" 
+	# dynasty = 55040 # de Julho
+	# father = 110660
+	# religion = catholic #from before the schism
+	# culture = paulistano
+	# occluded=yes #shrouded in Legend
 	
-	trait=midas_touched
-	trait=just
-	trait=patient
-	trait=kind
-	trait=charitable
-	trait=administrator
-	trait=ruled_a_bureaucracy
+	# trait=midas_touched
+	# trait=just
+	# trait=patient
+	# trait=kind
+	# trait=charitable
+	# trait=administrator
+	# trait=ruled_a_bureaucracy
 	
-	2025.3.15 = {
-		birth = yes
-	}
-	2106.1.1={
-		death =yes
-	}
-	#transformed São Paulo into a BUREAUCRATIC REALM
-}
+	# 2025.3.15 = {
+		# birth = yes
+	# }
+	# 2106.1.1={
+		# death =yes
+	# }
+	# #transformed São Paulo into a BUREAUCRATIC REALM
+# }
 
-110662 = {
-	name = "Heloísa´" 
-	dynasty = 55040 # de Julho
-	female = yes
-	father = 110661
-	religion = catholic #from before the schism
-	culture = paulistano
+# 110662 = {
+	# name = "Heloísa´" 
+	# dynasty = 55040 # de Julho
+	# female = yes
+	# father = 110661
+	# religion = catholic #from before the schism
+	# culture = paulistano
 	
-	trait = naive_appeaser
-	trait = wroth
-	trait = kind
-	trait = honest
+	# trait = naive_appeaser
+	# trait = wroth
+	# trait = kind
+	# trait = honest
 	
-	2092.6.23 = {
-		birth = yes
-	}
-	2141.2.5 = {
-		death = yes
-	}
-}
+	# 2092.6.23 = {
+		# birth = yes
+	# }
+	# 2141.2.5 = {
+		# death = yes
+	# }
+# }
 
 ## end of de Julho dynasty ##
 ## Macedo Dynasty ##
@@ -11941,31 +11958,6 @@
 	}
 }
 
-#Capelli
-
-110683 = {
-	name = "Antônio"
-	dynasty = 66102 #Capelli
-	religion = anchietican
-	culture = camponeto
-	
-	trait = martial_cleric
-	trait = scholar
-	
-	diplomacy = 9
-	martial = 8
-	stewardship = 12
-	intrigue = 4
-	learning = 9
-	2343.4.5 = {
-		birth = yes
-	}
-	2400.1.1 = {
-		death = yes
-	}
-	#counts of São Carlos, vassal of medio tiete
-}
-
 ##Desterro, Mineiro invaders of São Paulo
 110684 = {
 	name = "Zé"
@@ -12339,6 +12331,7 @@
 	dynasty = 1400003 #Makino
 	culture = kyusei
 	religion = anchietican
+	father=110746
 	
 	trait = charismatic_negotiator
 	trait = diligent
@@ -12372,53 +12365,6 @@
 		death = yes
 	}
 	#holder of Lins, vassal of marilia
-}
-
-#Holder of Bauru
-
-110707 = {
-	name = "Hiro"
-	dynasty = 1400004 # Koma; Conde Koma
-	culture = kyusei
-	religion = anchietican
-	
-	trait = skilled_tactician
-	trait = strong
-	trait = patient
-	trait = duelist
-	trait = adventurer
-	trait = humble
-	
-	2327.7.12 = {
-		birth = yes
-	}
-	2353.4.5 = {
-		effect={add_lover=110708}
-		add_spouse = 110708
-	}
-	2400.1.1 = {
-		death = yes
-	}
-}
-
-110708 = {
-	name = "Daisy May"
-	dynasty = 245028 #Iris
-	culture = falklander
-	religion = anchietican #she converted
-	female = yes
-	
-	trait = scholarly_theologian
-	trait = kind
-	trait = physician
-	trait = fair
-	
-	2331.6.7 = {
-		birth = yes
-	}
-	2400.1.1 = {
-		death = yes
-	}
 }
 
 #Villas Boas family
@@ -12478,9 +12424,10 @@
 	
 	trait = skilled_tactician
 	trait = experimenter
-	trait = adventurer
+	trait = bandeirante
 	trait = kind
 	trait = charitable
+	trait = zealous
 	
 	2314.1.12 = {
 		birth = yes
@@ -12495,7 +12442,7 @@
 	2400.1.1 = {
 		death = yes
 	}
-	#holder of Botucatu vassal of Itapeva
+	#holder of Botucatu
 }
 
 110712 = {
@@ -12508,7 +12455,7 @@
 	mother = 110710
 	
 	trait = martial_cleric
-	trait = adventurer
+	trait = bandeirante
 	trait = inspiring_leader
 	trait = just
 	trait = charitable
@@ -12539,7 +12486,7 @@
 	
 	trait = flamboyant_schemer
 	trait = lustful
-	trait = adventurer
+	trait = bandeirante
 	trait = kind
 	trait = charitable
 	
@@ -12571,7 +12518,7 @@
 	mother = 110710
 	
 	trait = thrifty_clerk
-	trait = adventurer
+	trait = bandeirante
 	trait = organizer
 	trait = charitable
 	trait = kind
@@ -12691,10 +12638,10 @@
 	}
 }
 
-#Jaú and Medio Tiete duke
+#Jaú and Medio Tiete owner
 110719 = {
 	name = "Osório"
-	dynasty = 65002 #de Barros
+	dynasty = 65002 #Capelli
 	culture = camponeto
 	religion = anchietican
 	dna="bfbgf0ib000"
@@ -12713,6 +12660,9 @@
 
 	2347.12.4 = {
 		birth = yes
+	}
+	2367.1.1={
+		capital = c_sao_carlos
 	}
 	2400.1.1 = {
 		death= yes
@@ -12782,6 +12732,7 @@
 	dynasty = 55044 #Kachigumi
 	culture = kyusei
 	religion = johrei
+	father = 110745
 	dna="ciika0ba0a0"
 	properties="ci0ldj00000000000000000000000000000"
 	trait=flamboyant_schemer
@@ -12809,9 +12760,10 @@
 
 110723 = {
 	name = "Priscila"
-	dynasty = 0
+	dynasty = 1400002 #suzuki
 	culture = kyusei
 	religion = johrei
+	father = 110700
 	female=yes
 	trait=scholarly_theologian
 	trait=kind
@@ -12836,7 +12788,7 @@
 	name = "Antônio"
 	dynasty = 55045 #Bento
 	culture = caipira
-	religion = johrei 
+	religion = anchietican 
 	dna="0b0c00000b0"
 	properties="0l00ck000000000000000000000000000000"
 
@@ -12897,7 +12849,7 @@
 	name = "Ademar"
 	dynasty = 55046 #Abobrinha
 	culture = caipira
-	religion = johrei
+	religion = anchietican
 	
 	trait=midas_touched
 	trait=diligent
@@ -12955,6 +12907,7 @@
 		effect = {
 			add_artifact = murasama
 		}
+		add_spouse = 110703
 	}
 }
 
@@ -12978,7 +12931,7 @@
 	name = "Jeca"
 	dynasty = 55049 #Mazzaropi
 	culture = caipira
-	religion = johrei
+	religion = anchietican
 	dna="cdaei0b00b0"
 	properties="rm0gck000000000000000000000000000000"
 	trait=indulgent_wastrel
@@ -12997,7 +12950,7 @@
 110730 = {
 	name = "Simão"
 	dynasty = 55050 #Matsuda
-	culture = black
+	culture = kyusei
 	religion = anchietican  
 	dna="0b0c00000b0"
 	properties="0l0j0j000000000000000000000000000000"
@@ -13007,7 +12960,7 @@
 	trait=duelist
 	trait=stubborn
 	
-	2353.1.1={birth=yes culture=kyusei}
+	2353.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#ruler of Avaré vassal of itapeva
 }
@@ -13099,7 +13052,7 @@
 
 110741 = {
 	name = "Gustavo"
-	dynasty = 55053 #de Melo
+	dynasty = 55054 #de Melo
 	culture = mantiqueiro
 	religion = renewalist
 	trait = scholarly_theologian
@@ -13119,7 +13072,7 @@
 
 110742 = {
 	name = "Guilherme"
-	dynasty = 55053 #de Melo
+	dynasty = 55054 #de Melo
 	father = 110741
 	culture = mantiqueiro
 	religion = renewalist
@@ -13127,6 +13080,151 @@
 	trait = diligent
 	
 	2327.4.6={birth=yes}
-	2360.1.1={employer=80012}
 	2400.1.1={death=yes}
 }
+
+#stickel Family = rulers of Campos do Jordão
+
+110743 = {
+	name = "Patrícia"
+	dynasty=40043 #stickel
+	culture = mantiqueiro
+	religion = anchietican
+	female=yes
+	trait = midas_touched
+	trait = fair
+	
+	2349.12.14={birth=yes}
+	2400.1.1={death=yes}
+}
+
+#Bauru
+
+110744 = {
+	name = "Miguel"
+	dynasty=1400005 #Kishikawa
+	culture = kyusei
+	religion = anchietican
+	trait = skilled_tactician
+	trait = duelist
+	trait = bandeirante
+	trait = diligent
+	trait = zealous
+	
+	
+	2330.4.14={birth=yes}
+	2400.1.1={death=yes}
+} #Took part in the Johrei Bandeira, currently holds Bauru
+
+#Kachigumi family
+
+110745 = {
+	name = "Sílvio"
+	dynasty = 55044 #Kachigumi
+	culture = kyusei
+	religion = anchietican
+	trait = tough_soldier
+	trait = stubborn
+	trait = charitable
+	trait = proud
+	trait = excommunicated
+	
+	2325.1.1={
+		birth = yes
+	}
+	2335.1.1={
+		capital = c_botucatu
+	}
+	2356.1.1={
+		death = {
+			death_reason = death_battle
+		}
+	}
+} #former ruler of Botucatu, Avare and Itaporanga. Was the target of the Johrei bandeirante due to him protecting the Johrei inhabitants of his realm. His exiled son became Johrei
+
+#Makino family
+
+110746 = {
+	name = "Mateus"
+	dynasty = 1400003 #Makino
+	culture	 = kyusei
+	religion = anchietican
+	trait = skilled_tactician
+	trait = diligent
+	trait = kind
+	trait = is_fat
+	trait = bandeirante
+	
+	2319.1.1={birth=yes}
+	2363.1.1={death=yes}
+	
+}# Bandeirante ruler of Avaré
+
+#Taubaté rulers
+
+80018 = {
+	name="Irineu"
+	dynasty=40042 #sabugosa dynasty
+	culture=mantiqueiro
+	religion=anchietican
+	add_trait=erudite
+	add_trait=gregarious
+	add_trait=proud
+	add_trait=temperate
+	add_trait=scholarly_theologian
+	disallow_random_traits=yes
+	
+	2337.12.24={birth=yes}
+	2367.4.5 = {
+		effect = {
+			set_truce = {
+				who = 110242
+				years = 10
+			}
+		}
+	}
+	2400.1.1={
+		death = yes
+	}
+}
+
+#Maluf dynasty
+
+110747 = {
+	name = "Júliana"
+	dynasty = 55040 #Maluf
+	religion = anchietican
+	culture = arabic
+	father=110651
+	female = yes
+	
+	trait= charismatic_negotiator
+	trait= kind
+	trait= charitable
+	
+	2218.4.19 = {
+		birth = yes
+		culture = camponeto
+	}
+	2370.2.23 = {
+		death = yes
+	}
+}
+
+#Ribeiro dynasty
+
+110748 = {
+	name = "Gustavo"
+	dynasty = 55957
+	religion = anchietican
+	culture = paranapanense
+	
+	trait = thrifty_clerk
+	trait = greedy
+	trait = robust
+	
+	2319.1.1={birth=yes}
+	2380.1.1={death=yes}
+}
+
+#ruler of Itapeva

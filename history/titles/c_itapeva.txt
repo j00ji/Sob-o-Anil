@@ -7,6 +7,6 @@
 	liege=k_sao_paulo
 }
 2359.1.1={
-	holder = 110616 #Lucas
-	liege = d_itapeva
+	holder = 110748 #Gustavo
+	liege = d_sorocaba
 }

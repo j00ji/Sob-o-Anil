@@ -6,7 +6,7 @@ title = c_lins
 # Settlements
 max_settlements = 2
 
-b_sabino = tribal
+b_sabino = castle
 b_promissao = temple
 #b_guaicara = city
 #b_guaimbe = castle

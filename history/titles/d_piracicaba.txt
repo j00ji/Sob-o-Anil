@@ -15,6 +15,9 @@
 2362.1.19 = { #Mineiro Invasion
 	holder = 110685 #Valamiro
 }
-2365.11.3 = { #New Americano Duke of Piracicaba post-Mineiro conquest
-	holder = 120055 
+2365.11.3 = { #Americano Duke of Piracicaba post-Mineiro conquest
+	holder = 120049 
 }	
+2367.12.31 = { #Jaime I West
+	holder = 120051
+}

@@ -6,7 +6,7 @@ title = c_adamantina
 # Settlements
 max_settlements = 4
 
-b_tupa = tribal
+b_tupa = castle
 b_lucelia = city
 b_florida = temple
 #b_osvaldo_cruz = castle

@@ -16,6 +16,6 @@ b_sao_geraldo = temple
 
 # Misc
 culture = kyusei
-religion = anchietican
+religion = johrei
 
 #History

@@ -7,6 +7,6 @@
 	liege=k_sao_paulo
 }
 2360.1.1 = {
-	holder = 110705 #Sabrina Makino
-	liege = d_itapeva
+	holder = 110722 #Yudi
+	liege = d_marilia
 }

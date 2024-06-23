@@ -120,8 +120,8 @@ culture =
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_paulista.tga"
-			size = { x = 10 y = 6 }
-			noOfFrames = 60
+			size = { x = 10 y = 7 }
+			noOfFrames = 70
 			color = 0
 			random = no # Do not use for random CoAs
 		}
@@ -462,8 +462,8 @@ culture =
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\dynasties_paulista.tga"
-			size = { x = 10 y = 6 }
-			noOfFrames = 60
+			size = { x = 10 y = 7 }
+			noOfFrames = 70
 			color = 0
 			random = no # Do not use for random CoAs
 		}

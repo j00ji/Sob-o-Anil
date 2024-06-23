@@ -12,9 +12,12 @@
 2358.1.10 = { #Albert West is made Duke of Piracicaba
 	holder = 120052
 }
-2362.1.19 = { #Mineiro Ruler must be added
-	holder = 0
+2362.1.19 = { #Mineiro Invasion
+	holder = 110685 #Valamiro
 }
-2364.1.25 = { #New Americano ruler with collapse of the Mineiros
-	holder = 120055 
+2365.11.3 = { #Americano Duke of Piracicaba post-Mineiro conquest
+	holder = 120049 
 }	
+2367.12.31 = { #Jaime I West
+	holder = 120051
+}

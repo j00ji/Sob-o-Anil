@@ -7,7 +7,7 @@
 	liege=k_para
 }
 2364.1.1={
-	holder = 870057 #Lauro Vandré
+	holder = 110707 #Conde Koma
 	liege=d_belem
 }
 

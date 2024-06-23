@@ -16,6 +16,6 @@ b_guaracai = temple
 
 # Misc
 culture = caipira
-religion = johrei
+religion = anchietican
 
 #History

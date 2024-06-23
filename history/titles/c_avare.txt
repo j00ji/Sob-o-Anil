@@ -6,7 +6,12 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2365.1.1 = {#end of the mineiros
-	holder = 110730 #Simão Matsuda
-	liege = d_itapeva
+2335.1.1={
+	holder = 110745 #Silvio Kachigumi
+}
+2356.1.1 = {#First anti-johrei Bandeira
+	holder = 110746 #Mateus Makino
+}
+2363.1.1={
+	holder = 110705 #sabrina Makino
 }

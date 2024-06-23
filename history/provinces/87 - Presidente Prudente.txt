@@ -6,7 +6,7 @@ title = c_presidente_prudente
 # Settlements
 max_settlements = 6
 
-b_forte_goulart = tribal
+b_forte_goulart = castle
 b_montalvao = city
 b_floresta_do_sul = temple
 #b_ameliopolis = castle

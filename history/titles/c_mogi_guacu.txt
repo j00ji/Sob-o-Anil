@@ -42,11 +42,16 @@
 2353.7.3 = { #William I West
 	holder = 120049
 }
-2359.2.10 = { #Rodrigo Desterro conquers it
-	holder = 110687
-	#liege = k_americano
+2358.1.10 = { #Albert West is made Duke of Piracicaba
+	holder = 120052
 }
-2363.3.13 = { #Josmar Luís friend of the Lees
-	holder = 110720
-	liege = d_piracicaba
+2362.1.19 = { #Mineiro Invasion
+	holder = 110685 #Valamiro
+}
+2365.11.3 = { #Americano Duke of Piracicaba post-Mineiro conquest
+	holder = 120049 
+}	
+2367.12.31 = { #MacKnight vassals of Americana
+	holder = 120055
+	liege = k_americano
 }
