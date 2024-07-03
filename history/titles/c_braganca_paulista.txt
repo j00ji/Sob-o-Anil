@@ -8,5 +8,5 @@
 }
 2362.4.25 = { 
 	holder = 110601 #Bragança ruler
-	liege = d_grande_sao_paulo
+	liege = d_campinas
 }

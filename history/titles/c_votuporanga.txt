@@ -6,7 +6,9 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2364.3.13 = {
-	holder = 590050 #Arlindo Monte Castello
-	liege = d_rio_preto
+2319.1.1={
+	holder = 110735 #Antônio Pinguim
+}
+2345.1.1={
+	holder = 110737 #Adão Pinguim
 }

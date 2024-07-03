@@ -7,6 +7,6 @@
 	liege=k_sao_paulo
 }
 2364.3.13 = {
-	holder = 590048 #Geraldo Monte Castello
+	holder = 110750 #Edmar Jalles
 	liege = d_rio_preto
 }

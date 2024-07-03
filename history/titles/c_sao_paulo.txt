@@ -34,10 +34,10 @@
 #}
 #All Outdated Lore
 2176.1.1={
-	holder = 110656 #Israel de Aguiar
+	holder = 110656 #Israel Maluf
 }
 2200.1.1={
-	holder = 110654 #Conte de Aguiar
+	holder = 110654 #Conte Maluf
 }
 2213.7.9 = {
 	holder = 110229 #Gabriel Matarazzo

@@ -115,30 +115,30 @@ b_ferreira = {
 
 ## São Paulo
 
-b_matarazzo = {
-	culture = paulistano
-	religion = anchietican
-}
+# b_matarazzo = {
+	# culture = paulistano
+	# religion = anchietican
+# }
 
-b_watanabe = {
-	culture = paulistano
-	religion = anchietican
-}
+# b_watanabe = {
+	# culture = paulistano
+	# religion = anchietican
+# }
 
-b_crespi = {
-	culture = paulistano
-	religion = anchietican
-}
+# b_crespi = {
+	# culture = paulistano
+	# religion = anchietican
+# }
 
-b_jafet = {
-	culture = paulistano
-	religion = anchietican
-}
+# b_jafet = {
+	# culture = paulistano
+	# religion = anchietican
+# }
 
-b_anhanguera = {
-	culture = paulistano
-	religion = anchietican
-}
+# b_anhanguera = {
+	# culture = paulistano
+	# religion = anchietican
+# }
 
 ## Uapo Açu (São Luís)
 

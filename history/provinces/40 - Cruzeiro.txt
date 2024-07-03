@@ -19,6 +19,3 @@ culture = mantiqueiro
 religion = renewalist
 
 #History
-2366.1.1 = {
-	capital = b_cachoeira_paulista
-}

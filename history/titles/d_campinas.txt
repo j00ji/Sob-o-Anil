@@ -6,3 +6,7 @@
 800.1.1={
 	liege=k_sao_paulo
 }
+2363.5.30 = { #Alexandre is awarded Campinas
+	holder = 110001 #Alexandre I Cantarini
+	liege = k_paulistano
+}

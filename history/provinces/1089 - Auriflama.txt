@@ -6,7 +6,7 @@ title = c_auriflama
 # Settlements
 max_settlements = 5
 
-b_gen_salgado = tribal
+b_gen_salgado = temple
 #b_nova_castilho = city
 #b_floreal = castle
 #b_magda = temple

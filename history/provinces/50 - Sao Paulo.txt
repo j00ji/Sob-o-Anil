@@ -20,9 +20,9 @@ religion = anchietican
 
 #History
 
-2176.1.1={
-	capital = b_morumbi
-}
-2213.7.9 = {
-	capital = b_sao_paulo
-}
+# 2176.1.1={
+	# capital = b_morumbi
+# }
+# 2213.7.9 = {
+	# capital = b_sao_paulo
+# }

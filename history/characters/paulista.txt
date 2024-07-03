@@ -1071,9 +1071,9 @@
 	learning = 1
 	
 	2327.12.25 = {birth = yes}
-#	2346.5.1 = {
-#		add_spouse = x
-#	} good grief
+	2346.5.1 = {
+		add_spouse = 110736
+	}
 	2367.12.31 = {death = yes}
 }
 
@@ -1099,6 +1099,7 @@
 	religion = anchietican
 	culture = americano
 	father = 120049
+	mother = 110736
 	disallow_random_traits = yes
 	add_trait = fortune_builder
 	add_trait = twin
@@ -1134,6 +1135,7 @@
 	religion = anchietican
 	culture = americano
 	father = 120049
+	mother = 110736
 	trait = twin
 	
 	martial = 4
@@ -1160,6 +1162,7 @@
 	religion = anchietican
 	culture = americano
 	father = 120049
+	mother = 110736
 	disallow_random_traits = yes
 	add_trait = charismatic_negotiator
 	add_trait = fair
@@ -12965,8 +12968,7 @@
 	#ruler of Avaré vassal of itapeva
 }
 
-#Pinguim Family - Former rulers of Ribeirão Preto
-
+#Pinguim Family - Rulers of São José do Rio 	
 110735 = {
 	name = "Antônio"
 	dynasty = 55051 #Pinguim
@@ -12982,11 +12984,12 @@
 }
 
 110736 = {
-	name = "João"
+	name = "Clementina"
 	dynasty = 55051 #Pinguim
 	culture = teuto_paulista
 	religion = anchietican
 	father = 110735
+	female = yes
 	trait = charismatic_negotiator
 	trait = twin
 	2329.1.1={birth=yes culture=caipira}
@@ -13000,8 +13003,12 @@
 	religion = anchietican
 	father = 110735
 	trait = skilled_tactician
+	trait = drunkard
+	trait = wroth
+	trait = brave
 	trait = twin
 	2329.1.1={birth=yes culture=caipira}
+	2348.1.1={ add_spouse = 110535}
 	2400.1.1={death=yes}
 }
 
@@ -13012,6 +13019,7 @@
 	religion = anchietican
 	female = yes
 	father = 110737
+	mother = 110535
 	trait = charismatic_negotiator
 	2350.1.1={birth=yes culture=caipira}
 	2400.1.1={death=yes}
@@ -13228,3 +13236,84 @@
 }
 
 #ruler of Itapeva
+
+#Bishop of Auriflama
+
+110749 = {
+	name = "Agemiro"
+	dynasty = 00000000c00
+	religion = anchietican
+	culture = caipira
+	
+	trait = scholarly_theologian
+	trait = shrewd
+	trait = erudite
+	
+	2321.1.1={
+		birth = yes
+	}
+	2400.1.1={
+		death = yes 
+	}
+}
+
+#Jalles family
+
+110750 = {
+	name = "Edmar"
+	dynasty = 55055 #Jalles
+	religion = anchietican
+	culture = caipira
+	
+	trait = midas_touched
+	trait = drunkard
+	trait = proud
+	trait = gregarious
+	trait = diligent
+	
+	2329.1.1={
+		birth = yes
+	}
+	2349.1.1={
+		add_spouse = 110751
+	}
+	2400.1.1={
+		death = yes
+	}
+}
+#ruler of Fernandopolis and Castilho
+
+110751 = {
+	name = "Natalia"
+	dynasty = 0
+	religion = anchietican
+	culture = caipira
+	female = yes
+	
+	trait = underhanded_rogue
+	trait = shy
+	
+	2333.1.1={birth = yes}
+	2400.1.1={death=yes}
+}
+
+110752 = {
+	name = "Letícia´"
+	dynasty = 55055 #Jalles
+	religion = anchietican
+	culture = caipira
+	female = yes
+	
+	2354.1.1={birth = yes}
+	2400.1.1={death = yes}
+}
+
+110753 = {
+	name = "Diego"
+	dynasty = 55055 #Jalles
+	religion = anchietican
+	culture = caipira
+	
+	2360.1.1={birth = yes}
+	2400.1.1={death = yes}
+}
