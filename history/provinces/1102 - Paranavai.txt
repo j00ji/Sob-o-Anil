@@ -16,6 +16,6 @@ b_terra_rica = temple
 
 # Misc
 culture = paranapanense
-religion = anchietan
+religion = anchietican
 
 #History
