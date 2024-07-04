@@ -776,12 +776,36 @@ e_the_south = {
 				color2={ 255 255 255 }
 				
 				b_umuarama = {}
-				b_paranavai = {}
-				b_cianorte = {}
 				b_xambre = {}
-				b_sao_pedro_do_parana = {}
 				b_santa_monica = {}
+				b_perobal = {}
+				b_iperaba = {}
+				b_altamira_do_parana = {}
+				b_douradina = {}
+			}
+			c_paranavai = { # 1102
+				color={ 229 208 96 }
+				color2={ 255 255 255 }
+				
+				b_paranavai = {}
+				b_sao_pedro_do_parana = {}
 				b_terra_rica = {}
+				b_tamboara = {}
+				b_paraiso_do_norte = {}
+				b_sao_carlos_do_ivai = {}
+				b_nova_esperanca = {}
+			}
+			c_cianorte = { # 1103
+				color={ 80 136 186 }
+				color2={ 255 255 255 }
+				
+				b_cianorte = {}
+				b_japura = {}
+				b_japura_do_sul = {}
+				b_rondon = {}
+				b_indianopolis = {}
+				b_guaporema = {}
+				b_tuneiras_do_oeste = {}
 			}
 		}
 		d_nova_rutenia = {
@@ -889,12 +913,24 @@ e_the_south = {
 				color2={ 255 255 255 }
 				
 				b_santo_antonio_da_platina = {}
-				b_cornelio_procopio = {}
 				b_jacarezinho = {}
 				b_cambara = {}
 				b_andira = {}
 				b_conselheiro_zacarias = {}
+				b_figueira = {} 
+				b_siqueira_campo = {}
+			}
+			c_cornelio_procopio = { # 1101
+				color={ 45 68 111 }
+				color2={ 255 255 255 }
+				
+				b_cornelio_procopio = {}
 				b_santa_mariana = {}
+				b_assaí = {}
+				b_nova_america_da_colina = {}
+				b_leopolis = {}
+				b_uirauna = {}
+				b_bandeirantes = {}
 			}
 			c_telemaco_borba = { # 228
 				color={ 142 183 165 }

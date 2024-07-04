@@ -6,8 +6,8 @@ title = c_tacna
 # Settlements
 max_settlements = 4
 
-b_tacna = castle
-b_lanchipa = city
+b_tacna = city
+b_lanchipa = castle
 b_alto_de_la_alianza = temple
 #b_ciudad_nueva = castle
 #b_pocollay = city

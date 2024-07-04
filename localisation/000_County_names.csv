@@ -441,6 +441,8 @@ c_chucuito;Chucuito;Chucuito;Chucuito;;Chucuito;;;;;;;;;x
 c_chucuito_adj;Chucuitian;;chucuiter;;;;;;;;;;;x
 c_chuy;Chuy;Chuy;Chuy;;Chuy;;;;;;;;;x
 c_chuy_adj;Chuian;;chuer;;;;;;;;;;;x
+c_cianorte;Cianorte;;Cianorte;;;;;;;;;;;x
+c_cianorte_adj;Cianortense;;Cianortense;;;;;;;;;;;x
 c_cinti;Cinti;Cinti;Cinti;;Cinti;;;;;;;;;x
 c_cinti_adj;Cintian;;cinter;;;;;;;;;;;x
 c_cisnes;Cisnes;Cisnes;Cisnes;;Cisnes;;;;;;;;;x
@@ -514,6 +516,8 @@ c_cordillera_adj;Cordilleran;;cordillerer;;;;;;;;;;;x
 c_coronel_portillo;Coronel Portillo;Coronel Portillo;Coronel Portillo;;Coronel Portillo;;;;;;;;;x
 c_coronel_portillo_adj;Coronel Portillian;;Coronel Portiller;;;;;;;;;;;x
 c_corpen_aike;Corpen Aike;Corpen Aike;Corpen Aike;;Corpen Aike;;;;;;;;;x
+c_cornelio_procopio;Cornélio Procópio;;Cornélio Procópio;;;;;;;;;;;x
+c_cornelio_procopio_adj;Cornélio-procopiense;;Cornélio-procopiense;;;;;;;;;;;x
 c_corpen_aike_adj;Corpen Aikean;;Corpen Aiker;;;;;;;;;;;x
 c_corrientes;Corrientes;Corrientes;Corrientes;;Corrientes;;;;;;;;;x
 c_corrientes_adj;Corrientesian;;corrienteser;;;;;;;;;;;x
@@ -1213,6 +1217,8 @@ c_parana;Parana;Parana;Parana;;Parana;;;;;;;;;x
 c_parana_adj;Paranan;;paraner;;;;;;;;;;;x
 c_paranagua;Paranaguá;Paranaguá;Paranaguá;;Paranaguá;;;;;;;;;x
 c_paranagua_adj;Paranaguáian;;paranaguáer;;;;;;;;;;;x
+c_paranavai;Paranavaí;;;;;;;;;;;;;x
+c_paranavai_adj;Paranavaiense;;;;;;;;;;;;;x
 c_paratinga;Paratinga;Paratinga;Paratinga;;Paratinga;;;;;;;;;x
 c_paratinga_adj;Paratingan;;paratinger;;;;;;;;;;;x
 c_paraty;Paraty;Paraty;Paraty;;Paraty;;;;;;;;;x

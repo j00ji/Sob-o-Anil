@@ -368,6 +368,23 @@ k_beornia = {
 	}
 }
 
+k_tacna = { #Tacna republic
+	color = { 255 204 0 }
+	color2 = { 255 255 255 }
+	
+	capital = 934 # tacna
+	dignity = 200 # Never want the Republic of Tacna to change primary title
+	
+	culture = ileno
+	
+	allow = {
+		is_republic = yes
+		k_tacna = {
+			is_titular = no
+		}
+	}
+}
+
 ### Duchies ###
 
 d_trifrontier = {

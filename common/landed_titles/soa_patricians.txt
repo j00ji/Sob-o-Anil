@@ -242,3 +242,10 @@ b_mazorca = {
 	culture = porteno
 	religion = rosalian
 }
+
+## Tacna
+
+b_mannarelli = {
+	culture = ileno
+	religion = obscurantist
+}

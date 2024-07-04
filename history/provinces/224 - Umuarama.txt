@@ -7,15 +7,15 @@ title = c_umuarama
 max_settlements = 3
 
 b_umuarama = castle
-b_paranavai = temple
-#b_cianorte = temple
-#b_xambre = castle
-#b_sao_pedro_do_parana = city
-#b_santa_monica = temple
-#b_terra_rica = castle
+b_xambre = city
+# b_santa_monica = temple
+# b_perobal = castle
+# b_iperaba = city
+# b_altamira_do_parana = castle
+# b_douradina = temple
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = anchietan
 
 #History

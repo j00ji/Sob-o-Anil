@@ -7,15 +7,15 @@ title = c_santo_antonio_da_platina
 max_settlements = 2
 
 b_santo_antonio_da_platina = castle
-#b_cornelio_procopio = city
-#b_jacarezinho = temple
-#b_cambara = castle
-#b_andira = city
-#b_conselheiro_zacarias = temple
-#b_santa_mariana = castle
+b_jacarezinho = city
+# b_cambara = castle
+# b_andira = city
+# b_conselheiro_zacarias = temple
+# b_figueira = castle
+# b_siqueira_campo = city
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = anchietan
 
 #History

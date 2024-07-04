@@ -1,0 +1,21 @@
+# c_paranavai
+
+# County Title
+title = c_paranavai
+
+# Settlements
+max_settlements = 3
+
+b_paranavai = castle
+b_sao_pedro_do_parana = city
+b_terra_rica = temple
+# b_tamboara = temple
+# b_paraiso_do_norte = castle
+# b_sao_carlos_do_ivai = city
+# b_nova_esperanca = castle
+
+# Misc
+culture = paranapanense
+religion = anchietan
+
+#History

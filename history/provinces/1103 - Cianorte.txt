@@ -1,0 +1,21 @@
+# c_cianorte
+
+# County Title
+title = c_cianorte
+
+# Settlements
+max_settlements = 2
+
+b_cianorte = castle
+b_japura = city
+# b_japura_do_sul = temple
+# b_rondon = castle
+# b_indianopolis = city
+# b_guaporema = castle
+# b_tuneiras_do_oeste = temple
+
+# Misc
+culture = paranapanense
+religion = anchietan
+
+#History

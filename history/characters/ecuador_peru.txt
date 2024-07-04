@@ -2340,11 +2340,11 @@
 
 #County of Tacna
 860111 = {
-    name="Roxanna"
+    name="Emmanuel" #formerly Roxanna
     dynasty=500040 # Mannarelli
     culture=ileno
     religion=obscurantist
-    female=yes
+    # female=yes
     martial=3
     diplomacy=6
     stewardship=3

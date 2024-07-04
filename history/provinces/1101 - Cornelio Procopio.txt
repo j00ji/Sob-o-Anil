@@ -1,0 +1,21 @@
+# c_cornelio_procopio
+
+# County Title
+title = c_cornelio_procopio
+
+# Settlements
+max_settlements = 2
+
+b_cornelio_procopio = castle
+b_santa_mariana = city
+# b_assaí = castle
+# b_nova_america_da_colina = temple
+# b_leopolis = castle
+# b_urai = city
+# b_bandeirantes = castle
+
+# Misc
+culture = paranapanense
+religion = anchietan
+
+#History
