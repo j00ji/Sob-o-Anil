@@ -15,7 +15,7 @@ b_eldorado_do_sul = temple
 #b_marina_pimentel = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = umbanda
 
 #History

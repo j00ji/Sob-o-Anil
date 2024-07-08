@@ -15,7 +15,7 @@ b_santa_cruz_do_sul = tribal
 #b_herveiras = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

@@ -1324,7 +1324,7 @@
     name="Ana"
     dynasty=500009 # Reiche
     culture=iqueno
-    religion=camino_estelar
+    religion=obscurantist
     female=yes
     martial=3
     diplomacy=4
@@ -1343,7 +1343,7 @@
     name="Xabier"
     dynasty=0 # lowborn
     culture=iqueno
-    religion=catholic
+    religion=obscurantist
     martial=3
     diplomacy=2
     stewardship=3
@@ -1361,7 +1361,7 @@
     name="Paul"
     dynasty=500010 # Pitluga
     culture=iqueno
-    religion=camino_estelar
+    religion=obscurantist
     martial=3
     diplomacy=4
     stewardship=4
@@ -2340,16 +2340,17 @@
 
 #County of Tacna
 860111 = {
-    name="Emmanuel" #formerly Roxanna
-    dynasty=500040 # Mannarelli
-    culture=ileno
-    religion=obscurantist
-    # female=yes
-    martial=3
-    diplomacy=6
-    stewardship=3
-    intrigue=6
-    learning=6
+	name="Manuel" #formerly Roxanna
+	dynasty=500040 # Mannarelli
+
+	culture=ileno
+	religion=santa_diablada
+
+	martial=3
+	diplomacy=6
+	stewardship=3
+	intrigue=6
+	learning=6
     trait=elusive_shadow
     trait=quick
     trait=fair

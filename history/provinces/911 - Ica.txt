@@ -15,7 +15,7 @@ b_santiago_de_ica = temple
 #b_ocucaje = castle
 
 # Misc
-culture = iqueno
-religion = camino_estelar
+culture=iqueno
+religion=obscurantist
 
 #History

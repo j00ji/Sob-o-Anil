@@ -3,14 +3,14 @@ e_the_south = {
 	color2={ 255 255 20 }
 	
 	capital = 143 # c_porto_alegre
-	culture = gaucho
+	culture = gaucho_rg
 	
 	k_rio_grande_do_sul = {
 		color={ 255 234 000 }
 		color2={ 255 255 255 }
 		
 		capital = 143 # c_porto_alegre
-		culture = gaucho
+		culture = gaucho_rg
 		
 		d_porto_alegre = {
 			color={ 118 127 202 }

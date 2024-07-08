@@ -1006,183 +1006,186 @@
 95001=
 {
 	name="Menna Barreto"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95002=
 {
 	name="Lima"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95003=
 {
 	name="Gonçalves"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95004=
 {
 	name="Netto"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95005=
 {
 	name="de Bittencourt"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95006=
 {
 	name="Osório"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95007=
 {
 	name="Goulart"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95008=
 {
 	name="Garcia"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95009=
 {
 	name="Borba"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95010=
 {
 	name="Vieira"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95011=
 {
 	name="Saldanha"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95012=
 {
 	name="Brito"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95013=
 {
 	name="Canabarro"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95014=
 {
 	name="Vasconcellos"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95015=
 {
 	name="Pires"
-	culture= gaucho
+	culture= gaucho_rg
 }
-
+95016 = {
+	name="de Mattos"
+	culture=gaucho_rg
+}
 95017=
 {
 	name="da Fontoura"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95018=
 {
 	name="de Almeida"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95019=
 {
 	name="de Oliveira"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95020=
 {
 	name="Bündchen"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95021=
 {
 	name="Teixeira Nunes"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95022=
 {
 	name="de Mello"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95023=
 {
 	name="Corte Real"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95024=
 {
 	name="Ulhôa Cintra"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95025=
 {
 	name="do Amaral"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95026=
 {
 	name="Tavares"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95027=
 {
 	name="Albuquerque"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95028=
 {
 	name="Ribeiro"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95029=
 {
 	name="Silveira Martins"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95030=
 {
 	name="Saraiva"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95031=
 {
 	name="de Medeiros"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95032=
 {
 	name="Pantaleão"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95033=
 {
 	name="Assis"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95034=
 {
 	name="Pilla"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95035=
 {
 	name="Aires"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95036=
 {
 	name="Cezimbra"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95037=
 {
 	name="de Castilhos"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1200,87 +1203,87 @@
 95038=
 {
 	name="Pinheiro Machado"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95039=
 {
 	name="Apolinário"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95040=
 {
 	name="Montaury"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95041=
 {
 	name="Simões Lopes"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95042=
 {
 	name="Alencastro"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95043=
 {
 	name="de Andrade"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95044=
 {
 	name="Flores da Cunha"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95045=
 {
 	name="Pestana"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95046=
 {
 	name="Abott"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95047=
 {
 	name="Marenco"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95048=
 {
 	name="Rassier"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95049=
 {
 	name="Martins"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95050=
 {
 	name="Ledesma"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95051=
 {
 	name="Braun"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95052=
 {
 	name="Grecco"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95053=
 {
 	name="Luzardo"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95054=
 {
 	name="Aranha"
-	culture= gaucho
+	culture= gaucho_rg
 	can_appear=no
 	used_for_random=no
 	coat_of_arms = {
@@ -1299,67 +1302,67 @@
 95055=
 {
 	name="Lemes"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95056=
 {
 	name="Prestes"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95057=
 {
 	name="Vianna"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95058=
 {
 	name="Daltro"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95059=
 {
 	name="Dornelles"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95060=
 {
 	name="Figueiredo"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95061=
 {
 	name="Brizola"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95062=
 {
 	name="Simon"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95063=
 {
 	name="Collares"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95064=
 {
 	name="Dutra"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95065=
 {
 	name="Genro"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95066=
 {
 	name="Crusius"
-	culture= gaucho
+	culture= gaucho_rg
 }
 95067=
 {
 	name="Assis" #O Bruxo add wizard hat to this COA
-	culture= gaucho
+	culture= gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1377,28 +1380,28 @@
 95068=
 {
 	name="Gomes"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 }
 95069=
 {
 	name="Borges"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 }
 95070=
 {
 	name="Germano"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 }
 95071=
 {
 	name="Dornelles"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1416,14 +1419,14 @@
 95072=
 {
 	name="Sarmanho"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 }
 95073=
 {
 	name="Fortunato"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1441,7 +1444,7 @@
 95074=
 {
 	name="Godói"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 }
@@ -1452,11 +1455,27 @@
 	can_appear = no
 	used_for_random = no
 }
-
+95076 = {
+	name="Salamanca"
+	culture=gaucho_rg
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 95077=
 {
 	name="Peruzzo"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1474,7 +1493,7 @@
 95078=
 {
 	name="Bertussi"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1492,7 +1511,7 @@
 95079=
 {
 	name="Médici"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1510,7 +1529,7 @@
 95080=
 {
 	name="Brizola"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1528,7 +1547,7 @@
 95081=
 {
 	name="da Gama"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1546,7 +1565,7 @@
 95082=
 {
 	name="da Esperança"
-	culture=gaucho
+	culture=gaucho_rg
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -2158,7 +2177,24 @@
 		}
 	}
 }
-
+110002 = {
+	name="Golovchenko"
+	culture= rutenio
+	religion = orthodoxist
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 110003={
 	name="Pasternak"

@@ -15,7 +15,7 @@ b_san_clemente_de_ica = temple
 #b_huancano = castle
 
 # Misc
-culture = iqueno
-religion = camino_estelar
+culture=iqueno
+religion=obscurantist
 
 #History

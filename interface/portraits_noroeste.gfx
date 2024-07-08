@@ -1,5 +1,10 @@
-# hair, mouth, chin, nose, eyes, cheek, ear, neck
+########################
+### Noroeste Sprites ###
+########################
+
 spriteTypes = {
+
+### Male ###
 	
 	spriteType = {
 		name = "GFX_noroeste_male_clothes_behind"
@@ -337,6 +342,8 @@ spriteTypes = {
 		can_be_lowres = yes
 	}
 
+### Female ###
+
 	spriteType = {
 		name = "GFX_noroeste_female_clothes_behind"
 		texturefile = "gfx\\characters\\noroeste_female\\noroeste_female_clothes_behind.dds"
@@ -619,7 +626,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "PORTRAIT_noroestegfx_child_male"
-		texturefile = "gfx\\characters\\default_son_noroeste.tga"
+		texturefile = "gfx\\characters\\default_son_muslim.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
@@ -627,7 +634,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "PORTRAIT_noroestegfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_noroeste.tga"
+		texturefile = "gfx\\characters\\default_daughter_muslim.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes

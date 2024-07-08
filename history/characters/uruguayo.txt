@@ -22,7 +22,7 @@
 	learning=9
 	2349.1.1={
 		birth=yes
-		culture=gaucho
+		culture=gaucho_uru
 	}
 	2365.3.2={
 		effect={add_lover=290024}
@@ -38,7 +38,7 @@
 290024={
 	name="Erico"
 	dynasty=95016
-	culture=charrua
+	culture=gaucho_uru
 	religion=catholic
 	trait=martial_cleric
 	trait=charitable
@@ -61,7 +61,7 @@
 #####################
 410007 = {
 	name="Juan" # Juan Lacalle, Duke of Litoral.
-    dynasty=360004
+    dynasty=115001
 
 	diplomacy = 5
 	martial = 2
@@ -69,7 +69,7 @@
 	intrigue = 3
 	learning = 3
 
-	culture=uruguayo
+	culture=gaucho_uru
     religion=catholic
 
 	disallow_random_traits = yes
@@ -118,7 +118,7 @@
 ####################
 410009 = {
 	name="Juan Carlos" # Juan Carlos Blanco, Count of Colonia and Soriano.
-    dynasty=360006
+    dynasty=360005
 
     diplomacy = 5
 	martial = 5
@@ -126,7 +126,7 @@
     intrigue = 5
     learning = 5
 	
-	culture=uruguayo
+	culture=oriental
     religion=bandean
 
     trait=tough_soldier
@@ -143,29 +143,25 @@
 ####################
 ### Región Norte ###
 ####################
-######################
-### House Aemilius ###
-######################
+#####################
+### House Aguilar ###
+#####################
 320002 = {
-	name="Jose"
-    dynasty=115004 # Aemilius
-    culture=charrua
-    religion=catholic
-    martial=5
-    diplomacy=2
-    stewardship=3
-    intrigue=4
-    learning=3
-    trait=skilled_tactician
-    trait=zealous
-    trait=envious
-    trait=diligent
-    trait=patient
-    trait=proud
-    2320.1.1={birth=yes}
-    2374.1.1={death=yes}
+	name="José" # José Aguilar, Count of Rivera and Tacuarembó.
+	dynasty=115005
 
-	#High Chief of Interior, rules Rivera, Tacuarembó, and Durazno
+	diplomacy = 2
+	martial = 5
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+
+	culture=gaucho_uru
+	religion=catholic
+
+	2320.1.1 = {
+		birth="2320.1.1"
+	}
 }
 ###################
 ### Región Este ###
@@ -176,7 +172,7 @@
 410002 = {
 	name="Hernando"
     dynasty=115003 # San Miguel
-    culture=charrua
+    culture=gaucho_uru
     religion=bandean
     martial=5
     diplomacy=3
@@ -194,31 +190,6 @@
 
 	#Count of Chuy and Bella Vista
 }
-######################
-### House de Genoa ###
-######################
-410003 = {
-	name="Francisco"
-    dynasty=360003 # de Genoa
-    culture=uruguayo
-    religion=piriamano
-    martial=3
-    diplomacy=2
-    stewardship=6
-    intrigue=3
-    learning=4
-    trait=fortune_builder
-    trait=architect        
-    trait=diligent
-    trait=patient
-    trait=proud
-    trait=ambitious
-    trait=honest
-    2350.1.1={birth=yes}
-    2415.1.1={death=yes}
-
-	#Count of Piriapolis and Costa de Oro
-}
 ##########################################
 ### Región Sur Central y Metropolitana ###
 ##########################################
@@ -227,7 +198,7 @@
 ####################
 410010 = {
 	name="Manuel" # Manuel Batlle the Colorado, King of Uruguay.
-    dynasty=360005
+    dynasty=360001
 
 	diplomacy = 6
 	martial = 2
@@ -235,7 +206,7 @@
 	intrigue = 4
 	learning = 3
 
-	culture=uruguayo
+	culture=oriental
     religion=bandean
 
 	disallow_random_traits = yes
@@ -266,16 +237,16 @@
 ### Issue of Manuel the Colorado ###
 410020 = {
 	name="Beatriz" # Beatriz Batlle, Queen of Buenos Aires.
-    dynasty=360005
+    dynasty=360001
 	female=yes
 
-	diplomacy = 3
+	diplomacy = 1
 	martial = 2
 	stewardship = 3
 	intrigue = 4
 	learning = 3
 
-	culture=uruguayo
+	culture=oriental
     religion=bandean
 
 	add_trait="fair"
@@ -302,7 +273,7 @@
 }
 410008 = {
 	name="José" # José Batlle, King of Uruguay.
-    dynasty=360005
+    dynasty=360001
 
 	diplomacy = 6
 	martial = 4
@@ -310,7 +281,7 @@
 	intrigue = 4
 	learning = 3
 
-	culture=uruguayo
+	culture=oriental
     religion=bandean
 	
 	disallow_random_traits = yes
@@ -332,10 +303,13 @@
 		add_trait="gregarious"
 		add_trait="zealous"
 	}
+	2349.3.2 = {
+		add_spouse=410003
+	}
 }
 410001 = {
 	name="Francisco" # Francisco Batlle, Duke of Atlántico.
-    dynasty=360005
+    dynasty=360001
 
     diplomacy = 4
 	martial = 3
@@ -343,7 +317,7 @@
     intrigue = 2
     learning = 4
 
-	culture=uruguayo
+	culture=oriental
     religion=piriamano
 
 	father=410010 # Manuel Batlle
@@ -368,7 +342,7 @@
 }
 410005 = {
 	name="Jorge" # Jorge Batlle, Count of Bella Vista, Cerro Largo, Chuy and Treinta y Tres.
-    dynasty=360005
+    dynasty=360001
 
     diplomacy = 2
 	martial = 1
@@ -376,7 +350,7 @@
     intrigue = 2
     learning = 2
 
-	culture=uruguayo
+	culture=oriental
     religion=artiguista
 	
 	disallow_random_traits = yes
@@ -397,9 +371,27 @@
 		add_trait="ambitious"
 	}
 }
+410003 = {
+	name="Francisca"
+	dynasty=360002
+	female=yes
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+	
+	culture=oriental
+	religion=bandean
+
+    2329.1.1 = {
+		birth=yes
+	}
+}
 410004 = {
-	name="Luisa" # Luisa Nantes, wife of Francisco Batlle.
-    dynasty=115005
+	name="Luisa" # Luisa de Genoa, wife of Francisco Batlle.
+	dynasty=360003
 	female=yes
 
 	diplomacy = 2
@@ -408,10 +400,10 @@
 	intrigue = 3
 	learning = 2
 
-	culture=uruguayo
-    religion=piriamano
+	culture=oriental
+	religion=piriamano
 
-    2331.8.21 = {
+	2331.8.21 = {
 		birth="2331.8.21"
 	}
 }

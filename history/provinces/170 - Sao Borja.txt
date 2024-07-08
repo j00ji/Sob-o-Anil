@@ -15,7 +15,7 @@ b_sao_borja = tribal
 #b_unistalda = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = vargist
 
 #History

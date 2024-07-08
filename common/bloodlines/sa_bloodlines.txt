@@ -38,6 +38,7 @@ lampiao = {
 }
 bloodline_sword_of_santiago = {
 	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.1
 	martial = 1
 	combat_rating = 5
 	centrino_opinion = 5
@@ -47,10 +48,10 @@ bloodline_sword_of_santiago = {
 	picture = GFX_bloodlines_symbol_lion
 	flags = { historical_bloodline }
 }
-bloodline_javier_falcon = {
+bloodline_white_falcon = {
 	monthly_character_prestige = 0.25
 	diplomacy = 1
-	sex_appeal = 5
+	sex_appeal_opinion = 5
 	centrino_opinion = 5
 	huaso_opinion = 5
 	inheritance = patrilineal
@@ -128,6 +129,7 @@ bloodline_lion_of_americana = {
 }
 bloodline_goldenhand = {
 	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.1
 	martial = 1
 	combat_rating = 5
 	porteno_opinion = 5

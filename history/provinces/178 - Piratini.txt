@@ -15,7 +15,7 @@ b_piratini = tribal
 #b_arroio_do_padre = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

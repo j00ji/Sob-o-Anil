@@ -15,7 +15,7 @@ b_sao_miguel_arcanjo = tribal
 #b_vila_coimbra_2 = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

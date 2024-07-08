@@ -8,13 +8,14 @@
 }
 2298.3.20 = {
 	holder=560001 # Constantine Pendragon
+	liege=0
 }
-2325.7.5 = {
+2323.5.12 = {
 	holder=560003 # Uther Pendragon
 }
 2342.4.2 = {
-	holder=550005 # Edward Cochran
+	holder=550005 # Edward Cochrane
 }
-2346.12.11 = {
+2345.12.11 = {
 	holder=560007 # Arthur Pendragon
 }

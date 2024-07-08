@@ -15,7 +15,7 @@ b_la_union = city
 #b_pueblo_abayuba = castle
 
 # Misc
-culture=uruguayo
+culture=oriental
 religion=bandean
 
 #History

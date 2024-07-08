@@ -259,7 +259,7 @@ k_serra_gaucha = {
 		color2={ 255 255 255 }
 		
 	capital = 143 # c_porto_alegre
-	culture = gaucho
+	culture = gaucho_rg
 	
 	allow = {
 		always = no
@@ -271,7 +271,7 @@ k_pampa = { #unsure if I will actualyl use this one
 		color2={ 255 255 255 }
 		
 		capital = 143 # c_porto_alegre
-		culture = gaucho
+		culture = gaucho_rg
 		
 		allow = {
 		always = no

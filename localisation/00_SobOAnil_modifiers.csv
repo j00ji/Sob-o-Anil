@@ -1,5 +1,6 @@
-#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+##################################
 ### Bloodline opinion modifier ###
+##################################
 centrino_opinion;Centrino Opinion;;;;;;;;;;;;;x
 huaso_opinion;Huaso Opinion;;;;;;;;;;;;;x
 mapuche_opinion;Mapuche Opinion;;;;;;;;;;;;;x
@@ -12,3 +13,5 @@ porteno_opinion;Porteño Opinion;;;;;;;;;;;;;x
 platinean_opinion;Platinean Opinion;;;;;;;;;;;;;x
 falklander_opinion;Falklander Opinion;;;;;;;;;;;;;x
 wladfaeg_opinion;Wladfaeg Opinion;;;;;;;;;;;;;x
+turco_opinion;Turco Opinion;;;;;;;;;;;;;x
+cicerite_opinion;Cicerite Opinion;;;;;;;;;;;;;x

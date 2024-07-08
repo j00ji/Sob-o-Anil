@@ -15,7 +15,7 @@ b_santo_angelo = tribal
 #b_eugenio_de_castro_2 = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

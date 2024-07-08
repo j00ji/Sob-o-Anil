@@ -1,37 +1,13 @@
-###ÄNSI
-95076 = {
-	name="Salamanca"
-	culture=gaucho
-	can_appear = no
-	used_for_random = no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 7
-			texture_internal = 9
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
-360001 = {
-	name = "La Maga"
-	culture = uruguayo
-	religion = bandean
-	used_for_random = no
-}
-95016 = {
-	name="de Mattos"
-	culture=gaucho
-}
-360004 = {
+#########################
+###   	  Gaucho      ###
+### ID: 115001-120000 ###
+#########################
+115001 = {
 	name="Lacalle"
-	culture=uruguayo
+	culture=gaucho_uru
 	religion=catholic
-	can_appear = no
-	used_for_random = no
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -44,91 +20,57 @@
 		}
 	}
 }
-115001 = {
-	name="Durazno"
-	culture= charrua
-	can_appear = no
-	used_for_random = no
-}
-
 115002 = {
-	name="Hernandez"
-	culture= charrua
-	religion = catholic
-	can_appear = no
-	used_for_random = no
-}
-110002 = {
-	name="Golovchenko"
-	culture= rutenio
-	religion = orthodoxist
-	can_appear = no
-	used_for_random = no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 7
-			texture_internal = 1
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
-360006 = {
-	name="Blanco"
-	culture = uruguayo
-	religion = bandean
-	can_appear = no
-	used_for_random = no
-}
-115004 = {
-	name="Aemilius"
-	culture= charrua
-	religion = catholic
-	can_appear = no
-	used_for_random = no
-}
-115006 = {
-	name="Segundo"
-	culture= charrua
-	religion = liberationist
-	can_appear = no
-	used_for_random = no
+	name="Durazno"
+	culture=gaucho_uru
+	can_appear=no
+	used_for_random=no
 }
 115003 = {
+	name="Hernandez"
+	culture=gaucho_uru
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+115004 = {
 	name="San Miguel"
-	culture= charrua
-	religion = bandean
-	can_appear = no
-	used_for_random = no
-}
-360002 = {
-	name = "Viana"
-	culture = uruguayo
-	religion = bandean
-	used_for_random = no
-}
-360003 = {
-	name = "de Genoa"
-	culture = uruguayo
-	religion = piriamano
-	used_for_random = no
+	culture=gaucho_uru
+	religion=bandean
+	can_appear=no
+	used_for_random=no
 }
 115005 = {
-	name="Nantes"
-	culture= charrua
-	religion = catholic
-	can_appear = no
-	used_for_random = no
+	name="Aguilar"
+	culture=gaucho_uru
+	religion=catholic
+	can_appear=no
+	used_for_random=no
 }
-360005 = {
+115006 = {
+	name="Nantes"
+	culture=gaucho_uru
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+115007 = {
+	name="Segundo"
+	culture=gaucho_uru
+	religion=liberationist
+	can_appear=no
+	used_for_random=no
+}
+#########################
+###   	 Oriental     ###
+### ID: 360001-365000 ###
+#########################
+360001 = {
 	name="Batlle"
-	culture = uruguayo
-	religion = bandean
-	can_appear = no
-	used_for_random = no
+	culture=oriental
+	religion=bandean
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -140,4 +82,31 @@
 			color = 0
 		}
 	}
+}
+360002 = {
+	name="Viana"
+	culture=oriental
+	religion=bandean
+	used_for_random=no
+}
+360003 = {
+	name="de Genoa"
+	culture=oriental
+	religion=piriamano
+	can_appear=no
+	used_for_random=no
+}
+360004 = {
+	name="La Maga"
+	culture=oriental
+	religion=bandean
+	can_appear=no
+	used_for_random=no
+}
+360005 = {
+	name="Blanco"
+	culture=oriental
+	religion=bandean
+	can_appear=no
+	used_for_random=no
 }

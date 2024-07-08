@@ -15,7 +15,7 @@ b_piriapolis = castle
 #b_nueva_carrara = castle
 
 # Misc
-culture=uruguayo
+culture=oriental
 religion=piriamano
 
 #History

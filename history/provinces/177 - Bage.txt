@@ -15,7 +15,7 @@ b_pedras_altas = tribal
 #b_torquato_severo = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = umbanda
 
 #History

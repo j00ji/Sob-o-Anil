@@ -15,7 +15,7 @@ b_camaqua = tribal
 #b_amaral_ferrador = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = umbanda
 
 #History

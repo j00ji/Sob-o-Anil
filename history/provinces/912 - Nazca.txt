@@ -15,7 +15,7 @@ b_nazca = castle
 #b_copara = castle
 
 # Misc
-culture = iqueno
-religion = camino_estelar
+culture=iqueno
+religion=obscurantist
 
 #History

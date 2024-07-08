@@ -4,9 +4,9 @@
 	law = succ_gavelkind
 }
 800.1.1 = {
-	liege=k_norte_viejo
+	liege=k_noroeste
 }
-2328.4.16 = {
+2338.4.16 = {
 	holder=640106 # Evaristo Uriburu
 }
 2360.10.23 = {

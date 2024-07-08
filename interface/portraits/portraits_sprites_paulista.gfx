@@ -1,8 +1,10 @@
-#### Paulista Sprites ####
+########################
+### Paulista Sprites ###
+########################
 
 spriteTypes = {
 	
-	### Male ###
+### Male ###
 	
 	spriteType = {
 		name = "GFX_paulista_male_clothes_behind"
@@ -42,41 +44,41 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_paulista_male_hair_behind"
 		texturefile = "gfx\\characters\\paulista_male\\paulista_male_hair_behind_1.dds"
-		noOfFrames = 15
+		noOfFrames = 21
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_paulista_male_hair_behind_midage"
 		texturefile = "gfx\\characters\\paulista_male\\paulista_male_hair_behind_2.dds"
-		noOfFrames = 15
+		noOfFrames = 21
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_paulista_male_hair_behind_oldage"
 		texturefile = "gfx\\characters\\paulista_male\\paulista_male_hair_behind_3.dds"
+		noOfFrames = 21
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_paulista_male_beard_behind"
+		texturefile = "gfx\\characters\\paulista_male\\paulista_male_beard_behind_1.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_roman_male_beard_behind"
-		texturefile = "gfx\\characters\\roman_male\\roman_male_beard_behind_1.dds"
+		name = "GFX_paulista_male_beard_behind_midage"
+		texturefile = "gfx\\characters\\paulista_male\\paulista_male_beard_behind_2.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_roman_male_beard_behind_midage"
-		texturefile = "gfx\\characters\\roman_male\\roman_male_beard_behind_2.dds"
-		noOfFrames = 15
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_roman_male_beard_behind_oldage"
-		texturefile = "gfx\\characters\\roman_male\\roman_male_beard_behind_3.dds"
+		name = "GFX_paulista_male_beard_behind_oldage"
+		texturefile = "gfx\\characters\\paulista_male\\paulista_male_beard_behind_3.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
@@ -243,22 +245,22 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_roman_male_beard"
-		texturefile = "gfx\\characters\\roman_male\\roman_male_beard_1.dds"
+		name = "GFX_paulista_male_beard"
+		texturefile = "gfx\\characters\\paulista_male\\paulista_male_beard_1.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_roman_male_beard_midage"
-		texturefile = "gfx\\characters\\roman_male\\roman_male_beard_2.dds"
+		name = "GFX_paulista_male_beard_midage"
+		texturefile = "gfx\\characters\\paulista_male\\paulista_male_beard_2.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
 
 	spriteType = {
-		name = "GFX_roman_male_beard_oldage"
-		texturefile = "gfx\\characters\\roman_male\\roman_male_beard_3.dds"
+		name = "GFX_paulista_male_beard_oldage"
+		texturefile = "gfx\\characters\\paulista_male\\paulista_male_beard_3.dds"
 		noOfFrames = 15
 		norefcount = yes
 	}
@@ -266,21 +268,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_paulista_male_hair"
 		texturefile = "gfx\\characters\\paulista_male\\paulista_male_hair_1.dds"
-		noOfFrames = 15
+		noOfFrames = 21
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_paulista_male_hair_midage"
 		texturefile = "gfx\\characters\\paulista_male\\paulista_male_hair_2.dds"
-		noOfFrames = 15
+		noOfFrames = 21
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_paulista_male_hair_oldage"
 		texturefile = "gfx\\characters\\paulista_male\\paulista_male_hair_3.dds"
-		noOfFrames = 15
+		noOfFrames = 21
 		norefcount = yes
 	}
 	
@@ -333,21 +335,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_paulista_female_hair_behind"
 		texturefile = "gfx\\characters\\paulista_female\\paulista_female_hair_behind_1.dds"
-		noOfFrames = 10
+		noOfFrames = 21
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_paulista_female_hair_behind_midage"
 		texturefile = "gfx\\characters\\paulista_female\\paulista_female_hair_behind_2.dds"
-		noOfFrames = 10
+		noOfFrames = 21
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_paulista_female_hair_behind_oldage"
 		texturefile = "gfx\\characters\\paulista_female\\paulista_female_hair_behind_3.dds"
-		noOfFrames = 10
+		noOfFrames = 21
 		norefcount = yes
 	}
 
@@ -537,21 +539,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_paulista_female_hair"
 		texturefile = "gfx\\characters\\paulista_female\\paulista_female_hair_1.dds"
-		noOfFrames = 10
+		noOfFrames = 21
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_paulista_female_hair_midage"
 		texturefile = "gfx\\characters\\paulista_female\\paulista_female_hair_2.dds"
-		noOfFrames = 10
+		noOfFrames = 21
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_paulista_female_hair_oldage"
 		texturefile = "gfx\\characters\\paulista_female\\paulista_female_hair_3.dds"
-		noOfFrames = 10
+		noOfFrames = 21
 		norefcount = yes
 	}
 	
@@ -559,20 +561,6 @@ spriteTypes = {
 		name = "GFX_paulista_female_headgear"
 		texturefile = "gfx\\characters\\paulista_female\\paulista_female_headgear.dds"
 		noOfFrames = 12
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_paulista_female_hair_ties_front"
-		texturefile = "gfx\\characters\\paulista_female\\paulista_female_hair_ties_front.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_paulista_female_hair_ties_behind"
-		texturefile = "gfx\\characters\\paulista_female\\paulista_female_hair_ties_behind.dds"
-		noOfFrames = 10
 		norefcount = yes
 	}
 

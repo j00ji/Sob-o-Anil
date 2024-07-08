@@ -15,7 +15,7 @@ b_rio_pardo = tribal
 #b_capivarita = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

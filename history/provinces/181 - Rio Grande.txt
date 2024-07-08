@@ -15,7 +15,7 @@ b_rio_grande = tribal
 #b_ponta_dos_pescadores = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = umbanda
 
 #History

@@ -335,7 +335,7 @@ rioplatense = {
 		modifier = default_culture_modifier
 	}
 	
-	uruguayo = {
+	oriental = {
 		graphical_cultures = { southerngfx }
 		
 		color = { 0.02 0.4 0.61 }
@@ -400,7 +400,7 @@ rioplatense = {
 		modifier = default_culture_modifier		
 	}
 	
-	charrua = {
+	gaucho_uru = {
 		graphical_cultures = { southerngfx }
 		
 		color = { 0.7 0.2 0.2 }
@@ -409,7 +409,7 @@ rioplatense = {
 			Adolfo Alberto_Adalberto Alejandro_Alessandro Andrés Andresito "Ángel" Antonio Armando Arturo Ataliva
 			Camilo_Camillo Carlos Casimiro Chango
 			David "Damián"
-			Elías Enrique Ernesto Estanislao  Eusebio Ezequiel
+			Elías Enrique Ernesto Estanislao Eusebio Ezequiel
 			Facundo Fernando
 			Felipe_Fillippo Francisco_Francesco Franco
 			Gabriel Gervasio Gonzalo

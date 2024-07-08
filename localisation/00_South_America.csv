@@ -619,38 +619,6 @@ CURA;Cura;;;;;;;;;;;;;x
 THE_WORLD;The World;;;;;;;;;;;;;x
 GOD_POMBERO;Pombero;;;;;;;;;;;;;x
 
-belchioringian;Belchioringian Blood;;;;;;;;;;;;;x
-belchioringian_desc;A brilliant statesmen and warrior, he revolted against the Salvadorense overlords, founding his own Empire in most of the Northeast.;;;;;;;;;;;;;x
-ghassanid;Ghassanid Blood;;;;;;;;;;;;;x
-ghassanid_desc;A descendant of the legendary Ghassanid family who ruled over the Holy Land and defended it from moorish heathens.;;;;;;;;;;;;;x
-sarney;Blood of Sir Ney;;;;;;;;;;;;;x
-sarney_desc;A legendary pre-event ruler of Maranhão, who is said to have united and conquered all of Brazil.;;;;;;;;;;;;;x
-lampiao;Blood of Lampião;;;;;;;;;;;;;x
-lampiao_desc;The infamous king of the Cangaço, Lampião ruled the hinterlands of old Nordeste from Ceará to Bahia. Legends say he could cast fireballs from his hands, hence his name "Lampion".;;;;;;;;;;;;;x
-
-bloodline_sword_of_santiago;Blood of the Sword of Santiago;;;;;;;;;;;;;x
-bloodline_sword_of_santiago_desc;Benjamín Bartales, a formidable warrior and commander, along with his wife, Inés Suárez, conquered the city of Santiago and crowned themselves Kings of Chile. They then proceeded to conquer the rest of the Metropolitan Region, as well as the regions of Valparaiso and O'Higgins.;;;;;;;;;;;;;x
-bloodline_javier_falcon;Blood of the Falcon;;;;;;;;;;;;;x
-bloodline_javier_falcon_desc;Javier Camiroaga, a handsome falconer and skilled statesman, assisted his friend Benjamín Bartales in unifying Santiago and securing his kingdom through diplomacy.;;;;;;;;;;;;;x
-bloodline_tomas_slayer;Blood of the Slayer;;;;;;;;;;;;;x
-bloodline_tomas_slayer_desc;Tomás Salas, a fierce warrior, helped his friend Benjamín Bartales unify Santiago. He earned his nickname after single-handedly killing a dozen men during the Battle of Valparaiso.;;;;;;;;;;;;;x
-bloodline_penquista;Blood of the Penquista;;;;;;;;;;;;;x
-bloodline_penquista_desc;Juan Pincheira, a huaso native to Concepción, honed his understanding of history and warfare through the city's numerous universities. Putting his knowledge to practice, he conquered the regions spanning from Maule to Araucanía, ultimately proclaiming himself as the King of Extremadura.;;;;;;;;;;;;;x
-bloodline_starbreaker;Blood of the Starbreaker;;;;;;;;;;;;;x
-bloodline_starbreaker_desc;Formerly a squire of Catriel the Morningstar, Felipe Prat rose to become a skilled commander. Leading the Ñublense Rebellion against his former master, he liberated the region of Ñuble and brought vengeance for his family.;;;;;;;;;;;;;x
-bloodline_morningstar;Blood of the Morningstar;;;;;;;;;;;;;x
-bloodline_morningstar_desc;Catriel Quilapán, a renowned Mapuche leader, rallied his people during the Araucanía Rebellion amidst the Pincheira civil war, ultimately ascending to the throne as King of Araucanía. His ambition to expand southward was abruptly halted by his demise in the Ñublense Rebellion led by his former squire, Felipe Prat.;;;;;;;;;;;;;x
-bloodline_teutonic_dragon;Blood of the Teutonic Dragon;;;;;;;;;;;;;x
-bloodline_teutonic_dragon_desc;Armando Keller, an implacable warrior and commander, conquered the Los Ríos Region and formed the Chilean Teutonic Order. Alongside his friend Enrique Zauberer, he also liberated the island of Chiloé from the Warlock Zapata.;;;;;;;;;;;;;x
-bloodline_lion_of_americana;Blood of the Lion of Americana;;;;;;;;;;;;;x
-bloodline_lion_of_americana_desc;Alexandre Cantarini, a Paulista Bandeirante, successfully led the War of the Third Paulista Coalition against the short-lived Empire of Café com Leite, culminating in the killing of Emperor Rodrigo Desterro at the Battle of Americana.;;;;;;;;;;;;;x
-bloodline_goldenhand;Blood of the Goldenhand;;;;;;;;;;;;;x
-bloodline_goldenhand_desc;Francisco Valle successfully led a rebellion against Falklander Pirate William Cochrane, driving them out of Argentina and becoming King of Buenos Aires.;;;;;;;;;;;;;x
-bloodline_pendragon;Blood of the Pendragon;;;;;;;;;;;;;x
-bloodline_pendragon_desc;Francisco Valle successfully led a rebellion against Falklander Pirate William Cochrane, driving them out of Argentina and becoming King of Buenos Aires.;;;;;;;;;;;;;x
-bloodline_sea_wolf;Blood of the Sea Wolf;;;;;;;;;;;;;x
-bloodline_sea_wolf_desc;Francisco Valle successfully led a rebellion against Falklander Pirate William Cochrane, driving them out of Argentina and becoming King of Buenos Aires.;;;;;;;;;;;;;x
-
 baron_mapuche;Lonko;;;;;;;;;;;;;x
 baron_female_mapuche;Lonko;;;;;;;;;;;;;x
 barony_of_mapuche;Caví of;;;;;;;;;;;;;x
@@ -1113,62 +1081,7 @@ temple_kingdom_kardecist;Astral Kingdom of;;Astral Kingdom of;;;;;;;;;;;x
 temple_kingdom_of_kardecist;Astral Kingdom;;Astral Kingdom;;;;;;;;;;;x
 temple_king_kardecist;Enlightened King;;Enlightened King;;;;;;;;;;;x
 temple_king_kardecist_female;Enlightened Queen;;Enlightened Queen;;;;;;;;;;;x
-###Nicknames###
-nick_the_bachelor;the Bachelor;;;;;;;;;;;x
-nick_the_wizard;the Wizard;;;;;;;;;;;x
-nick_the_marginal_knight;the Marginal Knight;;;;;;;;;;;x
-nick_the_bruja;the Bruja;;;;;;;;;;;x
-nick_the_viudita;the Viudita;;;;;;;;;;;x
-nick_the_beloved;the Beloved;;;;;;;;;;;x
-nick_karai_guasu;the Karai Guasu;;;;;;;;;;;x
-nick_coke_addict;the Cocalero;;;;;;;;;;;x
-nick_fire_wasp;the Fire Wasp;;;;;;;;;;;x
-nick_the_black;the Black;;;;;;;;;;;x
-nick_the_pharaoh;the Pharaoh;;;;;;;;;;;x
-nick_lady_lines;the Lady of the Lines;;;;;;;;;;;x
-nick_devil_puno;the Devil of Puno;;;;;;;;;;;x
-nick_star_child;the Star Child;;;;;;;;;;;x
-nick_golden_tongue;Golden Tongue;;;;;;;;;;;x
-nick_jaguar_killer;Jaguar Killer;;;;;;;;;;;x
-nick_cattle_king;the Cattle King;;;;;;;;;;;x
-nick_duke_of_lead;the Duke of Lead;;;;;;;;;;;x
-nick_cobra_verde;Green Snake;;;;;;;;;;;x
-nick_minuano;Minuano;;;;;;;;;;;x
-nick_the_sword_of_santiago;the Sword of Santiago;;;;;;;;;;;x
-nick_the_sword_of_virgin_of_carmel;the Sword of the Virgin of Carmel;;;;;;;;;;;x
-nick_the_sword_of_the_pacific;the Sword of the Pacific;;;;;;;;;;;x
-nick_the_executioner;the Executioner;;;;;;;;;;;x
-nick_the_falcon;the Falcon;;;;;;;;;;;x
-nick_the_falcon_queen;the Falcon Queen;;;;;;;;;;;x
-nick_the_slayer;the Slayer;;;;;;;;;;;x
-nick_the_quintrala;the Quintrala;;;;;;;;;;;x
-nick_the_morningstar;the Morningstar;;;;;;;;;;;x
-nick_the_starbreaker;the Starbreaker;;;;;;;;;;;x
-nick_the_teutonic_dragon;the Teutonic Dragon;;;;;;;;;;;x
-nick_the_warlock;the Warlock;;;;;;;;;;;x
-nick_the_zauberer;the Zauberer;;;;;;;;;;;x
-nick_the_pirate;the Pirate;;;;;;;;;;;x
-nick_the_roto;the Roto;;;;;;;;;;;x
-nick_the_infernal;the Infernal;;;;;;;;;;;x
-nick_the_heretic;the Heretic;;;;;;;;;;;x
-nick_the_huaso;the Huaso;;;;;;;;;;;x
-nick_the_pincoya;the Pincoya;;;;;;;;;;;x
-nick_the_jinete;the Jinete;;;;;;;;;;;x
-nick_the_beast;the Beast;;;;;;;;;;;x
-nick_the_bandido;the Bandido;;;;;;;;;;;x
-nick_the_penquista;the Penquista;;;;;;;;;;;x
-nick_the_colorado;the Colorado;;;;;;;;;;;x
-nick_the_gaucho_salteno;the Gaucho Salteño;;;;;;;;;;;x
-nick_the_goldenhand;the Goldenhand;;;;;;;;;;;x
-nick_the_furious;the Furious;;;;;;;;;;;x
-nick_the_lion_of_americana;the Lion of Americana;;;;;;;;;;;x
-nick_the_minotaur;the Minotaur;;;;;;;;;;;x
-nick_the_sea_wolf;the Sea Wolf;;;;;;;;;;;x
-nick_the_silverfist;the Silverfist;;;;;;;;;;;x
-nick_the_friar_knight;the Friar Knight;;;;;;;;;;;x
-nick_the_knight_of_the_andes;the Knight of the Andes;;;;;;;;;;;x
-nick_the_baptist;the Baptist;;;;;;;;;;;x
-nick_the_thrice_killed;the Thrice-Killed;;;;;;;;;;;x
+
 
 ###Retinues###
 RETTYPE_CUL_RECIFOLINDENSE;Caboclo de Lança;;;;;;;;;;;x
@@ -1266,8 +1179,8 @@ ERA_CHAR_NAME_ESTANISLAO;Lionel Valle;;;;;;;;;;;;;x
 ERA_CHAR_INFO_330007;The Platinean hero cult has arisen as a rival of the Particularist Catholic Church since the Event, and Procér Lionel Valle of Buenos Aires has become the main patron of the Platineans, their protector and their hero. His victory in the Platinean Crusade against the crusaders won him much renown, and Lionel styles himself a gaucho and an intellectual, drawing a straight line between himself and the heroes of the past: San Martín - Rosas - Perón - Valle.;;;;;;;;;;;;;x
 BUENOS_AIRES;Buenos Aires;;;;;;;;;;;;;x
 ERA_CHAR_NAME_CRISTINA;Cristina Duarte;;;;;;;;;;;;;x
-ERA_CHAR_INFO_330016;During the Platinean Crusade, Duke Domingo Holgado of Junin was among the leaders of the Crusader army, but he was cut down by the Procér of Buenos Aires in battle. His widow, Christina Duarte, fell into a state of grief and rage after Domingo’s death, only to emerge a wholly different woman. Christina told all that she saw a vision of the Hand of God that chose her to overthrow the King of Buenos Aires and take the city back for the Particularist Catholic Church. Additionally, she has sworn a vow of celibacy until her husband’s murderer breathes his last, no matter the cost.;;;;;;;;;;;;;x
-DUCHY_JUNIN;Junin;;;;;;;;;;;;;x
+ERA_CHAR_INFO_330016;During the Platinean Crusade, Duke Domingo Holgado of Junín was among the leaders of the Crusader army, but he was cut down by the Procér of Buenos Aires in battle. His widow, Cristina Duarte, fell into a state of grief and rage after Domingo’s death, only to emerge a wholly different woman. Cristina told all that she saw a vision of the Hand of God that chose her to overthrow the King of Buenos Aires and take the city back for the Particularist Catholic Church. Additionally, she has sworn a vow of celibacy until her husband’s murderer breathes his last, no matter the cost.;;;;;;;;;;;;;x
+DUCHY_JUNIN;Junín;;;;;;;;;;;;;x
 ERA_CHAR_NAME_CATRIEL;Nahuel Quilapán;;;;;;;;;;;;;x
 ERA_CHAR_INFO_480008;It was Nahuel Quilapán’s father, Catriel the Morningstar, who united all of the Mapuche of Araucanía in the Araucanía Rebellion during the Fall of House Pincheira. Nizol Lonko Catriel took over the region and even conquered Biobío and Ñuble, but then died in a rebellion against his former squire Felipe Prat, leading to the split of Araucanía as a kingdom. Nahuel now seeks revenge against his father's killer and will do whatever it takes to do so, even if it means his family getting in the way of things.;;;;;;;;;;;;;x
 DUCHY_ARAUCANIA;Araucanía;;;;;;;;;;;;;x

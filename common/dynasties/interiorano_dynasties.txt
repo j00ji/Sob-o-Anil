@@ -1,11 +1,14 @@
-285001={
+#########################
+### 	 Cordobes 	  ###
+###	ID: 285001-290000 ###
+#########################
+285001 = {
 	name="Lugones"
 	culture=cordobes
 	religion=theosophist
 	used_for_random = no
 }
-
-285002={
+285002 = {
 	name="Moreno"
 	culture=cordobes
 	religion=theosophist

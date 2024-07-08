@@ -15,7 +15,7 @@ b_uruguaiana = tribal
 #b_arroio_camoatim = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

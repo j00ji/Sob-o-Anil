@@ -9,13 +9,15 @@
 	dynasty=245001
 
 	diplomacy = 6
-	martial = 3
+	martial = 1
 	stewardship = 4
 	intrigue = 2
 	learning = 4
 
 	culture=falklander
 	religion=brethren
+
+	add_trait="strong"
 
 	disallow_random_traits = yes
 
@@ -30,8 +32,8 @@
 		add_trait="brave"
 		add_trait="wroth"
 		add_trait="gregarious"
-		add_trait="ambitious"
 		add_trait="zealous"
+		add_trait="ambitious"
 	}
 	2320.6.1 = {
 		add_spouse=550002 # Anne Read
@@ -139,7 +141,7 @@
 	2341.11.28 = {
 		add_spouse=550006 # Eleanor Avery
 	}
-	2343.4.27 = {
+	2345.12.11 = {
 		death = {
 			death_reason=death_battle_duel # Battle of Trelew
 			killer=560007 # Arthur Pendragon
@@ -364,11 +366,11 @@
 ### House Pendragon ###
 #######################
 560001 = {
-	name="Constantine" # King Constantine Pendragon, King of Y Wladfa.
+	name="Constantine" # Constantine Pendragon, King of Y Wladfa.
 	dynasty=250001
 
 	diplomacy = 3
-	martial = 4
+	martial = 1
 	stewardship = 5
 	intrigue = 1
 	learning = 3
@@ -376,8 +378,26 @@
 	culture=wladfaeg
 	religion=evangelical
 
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
 	2278.7.4 = {
 		birth="2278.7.4"
+	}
+	2294.7.4 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
 	}
 	2298.6.15 = {
 		add_spouse=560002 # Eleanor Jones
@@ -409,11 +429,11 @@
 }
 ### Issue of Constantine ###
 560003 = {
-	name="Uther" # King Uther Pendragon, King of Y Wladfa.
+	name="Uther" # Uther Pendragon, King of Y Wladfa.
 	dynasty=250001
 
 	diplomacy = 2
-	martial = 3
+	martial = 1
 	stewardship = 6
 	intrigue = 3
 	learning = 4
@@ -421,19 +441,37 @@
 	culture=wladfaeg
 	religion=evangelical
 
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
 	father=560001 # Constantine Pendragon
 	mother=560002 # Eleanor Jones
 
 	2300.1.4 = {
 		birth="2300.1.4"
 	}
+	2316.1.4 = {
+		add_trait="brilliant_strategist"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+	}
 	2325.7.5 = {
 		add_spouse=560005 # Igraine Davies
 	}
 	2342.4.2 = {
 		death = {
-			death_reason=death_battle
-			killer=550005 # Edward Cochrane
+			death_reason=death_battle_duel
+			killer=550001 # Jack Cochrane
 		}
 	}
 }
@@ -442,7 +480,7 @@
 	dynasty=250024
 
 	diplomacy = 2
-	martial = 3
+	martial = 1
 	stewardship = 6
 	intrigue = 3
 	learning = 4
@@ -450,8 +488,26 @@
 	culture=wladfaeg
 	religion=evangelical
 
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
 	2300.5.29 = {
 		birth="2300.5.29"
+	}
+	2316.5.29 = {
+		add_trait="brilliant_strategist"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
 	}
 	2324.3.19 = {
 		add_spouse=560005 # Igraine Davies
@@ -477,13 +533,15 @@
 	culture=wladfaeg
 	religion=evangelical
 
+	add_trait="fair"
+
 	2300.6.26 = {
 		birth="2300.6.26"
 	}
 	2342.4.2 = {
 		death = {
 			death_reason=death_execution
-			killer=550005 # Edward Cochrane
+			killer=550001 # Jack Cochrane
 		}
 	}
 }
@@ -502,6 +560,7 @@
 	culture=wladfaeg
 	religion=evangelical
 
+	add_trait="fair"
 	add_trait="twin"
 
 	father=560004 # Gorlois Kenway
@@ -525,6 +584,7 @@
 	culture=wladfaeg
 	religion=evangelical
 
+	add_trait="fair"
 	add_trait="twin"
 
 	father=560004 # Gorlois Kenway
@@ -533,13 +593,10 @@
 	2324.12.24 = {
 		birth="2324.12.24"
 	}
-	2351.12.12 = {
-		add_spouse=560013
-	}
 }
 ### Issue of Uther ###
 560007 = {
-	name="Arthur" # King Arthur Pendragon, King of Y Wladfa.
+	name="Arthur" # Arthur Pendragon, King of Y Wladfa.
 	dynasty=250001
 
 	diplomacy = 4
@@ -551,11 +608,35 @@
 	culture=wladfaeg
 	religion=evangelical
 
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
 	father=560003 # Uther Pendragon
 	mother=560005 # Igraine Davies
 
 	2326.4.10 = {
 		birth="2326.4.10"
+	}
+	2342.4.10 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="ambitious"
+	}
+	2345.12.11 = {
+		create_bloodline = {
+			type = bloodline_pendragon
+			has_dlc = "Holy Fury"
+		}
 	}
 	2346.3.5 = {
 		add_spouse=560010 # Guinevere Moore
@@ -575,6 +656,8 @@
 	culture=wladfaeg
 	religion=evangelical
 
+	add_trait="fair"
+
 	2326.9.8 = {
 		birth="2326.9.8"
 	}
@@ -593,11 +676,16 @@
 	culture=wladfaeg
 	religion=evangelical
 
+	add_trait="strong"
+
 	father=560007 # Arthur Pendragon
 	mother=560010 # Guinevere Moore
 
 	2347.1.30 = {
 		birth="2347.1.30"
+	}
+	2363.1.30 = {
+		add_spouse=560009 # Morgan Kenway
 	}
 }
 #################################

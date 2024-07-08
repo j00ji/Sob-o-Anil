@@ -540,8 +540,8 @@
 	}
 }
 220034 = {
-	name="Cecilia" # Cecilia Riveros, wife of Juan Salfate.
-	dynasty=140009
+	name="Cecilia" # Cecilia Godoy, wife of Juan Salfate.
+	dynasty=140002
 	female=yes
 
 	diplomacy = 1
@@ -712,12 +712,12 @@
 #############################################################
 ### Norte Chico - Southern Atacama to Northern Valparaiso ###
 #############################################################
-####################
-### House Walker ###
-####################
-220008 = {
-	name="Joaquín" # Count of Copiapo
-	dynasty=140021
+#####################
+### House Mistral ###
+#####################
+220005 = {
+	name="Miguel" # Count of Vallenar
+	dynasty=140020
 
 	diplomacy = 4
 	martial = 4
@@ -726,120 +726,38 @@
 	learning = 2
 
 	culture=atacameno
-	religion=camino_estelar
+	religion=catholic
 
-	trait=charismatic_negotiator
-	trait=gamer
-	trait=diligent
-	trait=greedy
-	trait=trusting
-
-	2336.5.12={
+	2332.7.11 = {
 		birth=yes
 	}
-	2362.4.19={
-		add_spouse=220009
-	}
-	2367.2.21={
-		effect={
-			add_claim=c_tierra_amarilla
-		}
-	}
-	2398.3.11={
-		death=yes
+	2352.3.4 = {
+		add_spouse=220007
 	}
 }
-220009 = {
-	name="Carla" # His wife
-	dynasty=140022
+220007 = {
+	name="Luisa"
+	dynasty=140023
 	female=yes
 
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
-
-	culture=atacameno
-	religion=camino_estelar
-
-	trait=intricate_webweaver
-	trait=charitable
-	trait=wroth
-	trait=craven
-	trait=groomed
-
-	2343.9.5={
-		birth=yes
-	}
-	2408.7.2={
-		death=yes
-	}
-}
-####################
-### House Cepeda ###
-####################
-220005 = {
-	name="Pedro" # Count of Vallenar
-	dynasty=140018
-
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
-
-	culture=atacameno
-	religion=camino_estelar
-
-	trait=tough_soldier
-	trait=strong
-	trait=brave
-	trait=envious
-	trait=paranoid
-
-	2342.7.11={
-		birth=yes
-	}
-	2407.5.9={
-		death=yes
-	}
-}
-###################
-### House Marín ###
-###################
-220007 = {
-	name="Luis" # Count of Huasco
-	dynasty=140020
-
-	martial=4
-	diplomacy=4
-	stewardship=3
-	intrigue=3
-	learning=2
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 2
 
 	culture=atacameno
 	religion=catholic
 
-	trait=fortune_builder
-	trait=one_eyed
-	trait=uncouth
-	trait=shrewd
-	trait=proud
-	trait=temperate
-
-	2332.3.15={
+	2332.3.15 = {
 		birth=yes
 	}
-	2415.2.12={
-		death=yes
-	}
 }
-###################
-### House Elqui ###
-###################
+#####################
+### House Blanche ###
+#####################
 220041 = {
-	name="Gabriel" # Gabriel Elqui the Griffin, King of Norte Chico.
+	name="Gabriel" # Gabriel Blanche the Griffin, King of Norte Chico.
 	dynasty=140001
 
 	diplomacy = 3
@@ -876,7 +794,8 @@
 		add_spouse=220042 # Rosa Cortés
 	}
 	2345.4.13 = {
-		add_trait="scarred"
+		add_trait="scarred_mid"
+		add_trait="scarred_type_2"
 		give_nickname=nick_the_griffin
 	}
 	2368.8.22 = {
@@ -887,7 +806,7 @@
 	}
 }
 220042 = {
-	name="Rosa" # Rosa Cortés, wife of Gabriel Elqui.
+	name="Rosa" # Rosa Cortés, wife of Gabriel Blanche.
 	dynasty=140023
 	female=yes
 
@@ -923,7 +842,7 @@
 }
 ### Issue of Gabriel the Griffin ###
 220001 = {
-	name="Francisco" # Francisco Elqui, Duke of Coquimbo.
+	name="Francisco" # Francisco Blanche, Duke of Coquimbo.
 	dynasty=140001
 
 	diplomacy = 3
@@ -939,7 +858,7 @@
 
 	disallow_random_traits = yes
 
-	father=220041 # Gabriel Elqui
+	father=220041 # Gabriel Blanche
 	mother=220042 # Rosa Cortés
 
 	2331.8.26 = {
@@ -968,7 +887,7 @@
 	}
 }
 220043 = {
-	name="Gabriel" # Gabriel Elqui.
+	name="Gabriel" # Gabriel Blanche.
 	dynasty=140001
 
 	diplomacy = 3
@@ -984,7 +903,7 @@
 
 	disallow_random_traits = yes
 
-	father=220041 # Gabriel Elqui
+	father=220041 # Gabriel Blanche
 	mother=220042 # Rosa Cortés
 
 	2333.9.4 = {
@@ -1007,7 +926,7 @@
 	}
 }
 220050 = {
-	name="Jorge" # Jorge Elqui, Captain of the Hueso Pirata mercenary company.
+	name="Jorge" # Jorge Blanche, Captain of the Hueso Pirata mercenary company.
 	dynasty=140001
 
 	diplomacy = 3
@@ -1018,10 +937,12 @@
 
 	culture=atacameno
 	religion=catholic
-	
+
 	add_trait="strong"
-	
-	father=220041 # Gabriel Elqui
+
+	disallow_random_traits = yes
+
+	father=220041 # Gabriel Blanche
 	mother=220042 # Rosa Cortés
 
 	2335.8.30 = {
@@ -1029,12 +950,17 @@
 	}
 	2351.8.30 = {
 		add_trait="skilled_tactician"
+		add_trait="heavy_infantry_leader"
+		add_trait="organizer"
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="temperate"
 		add_trait="proud"
 		add_trait="gregarious"
 		add_trait="zealous"
+	}
+	2352.3.19 = {
+		add_spouse=220009
 	}
 	2369.8.22 = {
 		effect = {
@@ -1043,7 +969,7 @@
 	}
 }
 220044 = {
-	name="María" # María Torres, wife of Francisco Elqui.
+	name="María" # María Torres, wife of Francisco Blanche.
 	dynasty=140026
 	female=yes
 
@@ -1068,7 +994,7 @@
 	}
 }
 220045 = {
-	name="Carla" # Carla Romero, wife of Gabriel Elqui.
+	name="Carla" # Carla Romero, wife of Gabriel Blanche.
 	dynasty=150007
 	female=yes
 
@@ -1092,9 +1018,27 @@
 		add_trait="zealous"
 	}
 }
+220009 = {
+	name="Silvia"
+	dynasty=140018
+	female=yes
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+
+	culture=atacameno
+	religion=catholic
+
+	2343.9.5 = {
+		birth=yes
+	}
+}
 ### Issue of Francisco ###
 220046 = {
-	name="Gabriel" # Gabriel Elqui.
+	name="Gabriel" # Gabriel Blanche.
 	dynasty=140001
 
 	diplomacy = 3
@@ -1110,7 +1054,7 @@
 
 	disallow_random_traits = yes
 	
-	father=220001 # Francisco Elqui
+	father=220001 # Francisco Blanche
 	mother=220044 # María Torres
 
 	2351.5.12 = {
@@ -1128,7 +1072,7 @@
 	}
 }
 220047 = {
-	name="Rosa" # Rosa Elqui.
+	name="Rosa" # Rosa Blanche.
 	dynasty=140001
 	female=yes
 
@@ -1141,7 +1085,7 @@
 	culture=atacameno
 	religion=catholic
 
-	father=220001 # Francisco Elqui
+	father=220001 # Francisco Blanche
 	mother=220044 # María Torres
 
 	2353.4.7 = {
@@ -1160,7 +1104,7 @@
 }
 ### Issue of Gabriel ###
 220048 = {
-	name="Javier" # Javier Elqui.
+	name="Javier" # Javier Blanche.
 	dynasty=140001
 
 	diplomacy = 3
@@ -1172,7 +1116,7 @@
 	culture=atacameno
 	religion=catholic
 
-	father=220043 # Gabriel Elqui
+	father=220043 # Gabriel Blanche
 	mother=220045 # Carla Romero
 
 	2351.8.10 = {
@@ -1180,7 +1124,7 @@
 	}
 }
 220049 = {
-	name="Gabriela" # Gabriela Elqui.
+	name="Gabriela" # Gabriela Blanche.
 	dynasty=140001
 	female=yes
 
@@ -1195,11 +1139,32 @@
 
 	add_trait="fair"
 
-	father=220043 # Gabriel Elqui
+	father=220043 # Gabriel Blanche
 	mother=220045 # Carla Romero
 	
 	2352.11.20 = {
 		birth="2352.11.20"
+	}
+}
+### Issue of Jorge ###
+220008 = {
+	name="Joaquín" #
+	dynasty=140001
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+
+	culture=atacameno
+	religion=catholic
+	
+	father=220050
+	mother=220009
+
+	2353.1.29 = {
+		birth=yes
 	}
 }
 ##################
@@ -1217,15 +1182,6 @@
 
 	culture=atacameno
 	religion=catholic
-
-	trait=scarred_high
-	trait=sturdy
-	trait=gluttonous
-	trait=patient
-	trait=unyielding_leader
-	trait=zealous
-	trait=hunter
-	trait=tough_soldier
 
 	2332.9.11={
 		birth=yes
@@ -1334,7 +1290,7 @@
 	2345.4.13 = {
 		death = {
 			death_reason=death_duel_battle
-			killer=220041 # Gabriel Elqui
+			killer=220041 # Gabriel Blanche
 		}
 	}
 }
@@ -1369,7 +1325,7 @@
 	2345.4.13 = {
 		death = {
 			death_reason=death_execution
-			killer=220041 # Gabriel Elqui
+			killer=220041 # Gabriel Blanche
 		}
 	}
 }
@@ -1451,7 +1407,7 @@
 	2345.4.13 = {
 		death = {
 			death_reason=death_duel_battle
-			killer=220041 # Gabriel Elqui
+			killer=220041 # Gabriel Blanche
 		}
 	}
 }
@@ -1500,7 +1456,7 @@
 ### House Larraín ###
 #####################
 230023 = {
-	name="Carlos" # Carlos Larraín, Count of San Felipe and Petorca.
+	name="Juan" # Juan Larraín, Count of San Felipe and Petorca.
 	dynasty=145017
 
 	diplomacy = 5
@@ -1539,7 +1495,7 @@
 	}
 }
 230024 = {
-	name="María" # María Matte, wife of Carlos Larraín.
+	name="María" # María Matte, wife of Juan Larraín.
 	dynasty=145008
 	female=yes
 
@@ -1568,7 +1524,7 @@
 		death="2368.6.15"
 	}
 }
-### Issue of Carlos ###
+### Issue of Juan ###
 230025 = {
 	name="Ricardo" # Ricardo Larraín, Count of San Felipe and Petorca.
 	dynasty=145017
@@ -1584,7 +1540,7 @@
 	
 	disallow_random_traits = yes
 
-	father=230023 # Carlos Larraín
+	father=230023 # Juan Larraín
 	mother=230024 # María Matte
 
 	2328.5.19 = {
@@ -1616,7 +1572,7 @@
 	culture=centrino
 	religion=catholic
 
-	father=230023 # Carlos Larraín
+	father=230023 # Juan Larraín
 	mother=230024 # María Matte
 
 	2330.10.25 = {
@@ -1647,7 +1603,7 @@
 	culture=centrino
 	religion=catholic
 
-	father=230023 # Carlos Larraín
+	father=230023 # Juan Larraín
 	mother=230024 # María Matte
 
 	2330.11.6 = {
@@ -1675,7 +1631,7 @@
 	culture=centrino
 	religion=catholic
 
-	father=230023 # Carlos Larraín
+	father=230023 # Juan Larraín
 	mother=230024 # María Matte
 
 	2332.5.16 = {
@@ -1814,33 +1770,6 @@
 
 	2351.3.8 = {
 		birth="2351.3.8"
-	}
-}
-230018 = {
-	name="Leonor" # Leonor Sánchez, wife of Emilio Figueroa.
-	dynasty=145027
-	female=yes
-
-	diplomacy = 6
-	martial = 3
-	stewardship = 3
-	intrigue = 4
-	learning = 2
-
-	culture=centrino
-	religion=catholic
-
-	2309.1.31 = {
-		birth="2309.1.31"
-	}
-	2325.1.31 = {
-		add_trait="underhanded_rogue"
-		add_trait="diligent"
-		add_trait="patient"
-		add_trait="temperate"
-		add_trait="proud"
-		add_trait="gregarious"
-		add_trait="zealous"
 	}
 }
 #####################
@@ -2001,7 +1930,7 @@
 ### House Edwards ###
 #####################
 230026 = {
-	name="Raúl" # Raúl Edwards the Red, Duke of Valparaiso.
+	name="Alberto" # Alberto Edwards the Red, Duke of Valparaiso.
 	dynasty=145035
 	dna="badec00bjd0"
 	properties="0c000k"
@@ -2024,7 +1953,8 @@
 		culture=centrino
 	}
 	2326.6.15 = {
-		add_trait="skilled_tactician"
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
 		add_trait="organizer"
 		add_trait="inspiring_leader"
 		add_trait="brave"
@@ -2051,7 +1981,7 @@
 	}
 }
 230034 = {
-	name="Luisa" # Luisa Silva, wife of Raúl Edwards the Red.
+	name="Luisa" # Luisa Silva, wife of Alberto Edwards the Red.
 	dynasty=145038
 	female=yes
 
@@ -2081,7 +2011,7 @@
 		death="2368.2.17"
 	}
 }
-### Issue of Raúl ###
+### Issue of Alberto ###
 230027 = {
 	name="Agustín" # Agustín Edwards, Count of San Antonio.
 	dynasty=145035
@@ -2099,7 +2029,7 @@
 
 	disallow_random_traits = yes
 
-	father=230026 # Raúl Edwards
+	father=230026 # Alberto Edwards
 	mother=230034 # Luisa Silva
 
 	2328.11.24 = {
@@ -2131,7 +2061,7 @@
 
 	diplomacy = 3
 	martial = 3
-	stewardship = 1
+	stewardship = 3
 	intrigue = 3
 	learning = 4
 
@@ -2140,7 +2070,7 @@
 
 	add_trait="freckles"
 
-	father=230026 # Raúl Edwards
+	father=230026 # Alberto Edwards
 	mother=230034 # Luisa Silva
 
 	2330.6.29 = {
@@ -2242,7 +2172,7 @@
 	dynasty=145035
 	female=yes
 
-	diplomacy = 3
+	diplomacy = 2
 	martial = 3
 	stewardship = 4
 	intrigue = 3
@@ -2278,7 +2208,7 @@
 
 	diplomacy = 3
 	martial = 3
-	stewardship = 4
+	stewardship = 5
 	intrigue = 3
 	learning = 3
 
@@ -2311,7 +2241,7 @@
 
 	diplomacy = 3
 	martial = 3
-	stewardship = 4
+	stewardship = 5
 	intrigue = 3
 	learning = 3
 
@@ -2342,13 +2272,13 @@
 ### House Camiroaga ###
 #######################
 230059 = {
-	name="Javier" # Javier Camiroaga the Falcon, Duke of O'Higgins.
+	name="Daniel" # Daniel Camiroaga the White Falcon, Duke of O'Higgins.
 	dynasty=145020
 	dna="agif00ga0b0"
 	properties="0s00ek"
 
-	diplomacy = 6
-	martial = 3
+	diplomacy = 3
+	martial = 1
 	stewardship = 5
 	intrigue = 3
 	learning = 5
@@ -2357,6 +2287,7 @@
 	religion=catholic
 
 	add_trait="fair"
+	add_trait="quick"
 
 	2310.9.2 = {
 		birth="2310.9.2"
@@ -2367,24 +2298,23 @@
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="temperate"
-		add_trait="charitable"
-		add_trait="humble"
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="honest"
+		add_trait="zealous"
 		add_trait="socializer"
 		add_trait="falconer"
 	}
 	2332.5.7 = {
-		add_spouse=230060 # María Fernández
+		add_spouse=230060 # María Aguirre
 		effect = {
-			add_lover=230060 # María Fernández
+			add_lover=230060 # María Aguirre
 		}
 	}
 	2340.2.12 = {
-		give_nickname=nick_the_falcon
+		give_nickname=nick_the_white_falcon
 		create_bloodline = {
-			type = bloodline_javier_falcon
+			type = bloodline_white_falcon
 			has_dlc = "Holy Fury"
 		}
 	}
@@ -2393,8 +2323,8 @@
 	}
 }
 230060 = {
-	name="María" # María Fernández, wife of Javier Camiroaga.
-	dynasty=150030
+	name="María" # María Aguirre, wife of Daniel Camiroaga.
+	dynasty=145033
 	female=yes
 
 	diplomacy = 3
@@ -2421,7 +2351,7 @@
 		death="2369.3.5"
 	}
 }
-### Issue of Javier the Falcon ###
+### Issue of Daniel the White Falcon ###
 230013 = {
 	name="Felipe" # Felipe Camiroaga, Duke of O'Higgins.
 	dynasty=145020
@@ -2439,8 +2369,8 @@
 
 	add_trait="fair"
 
-	father=230059 # Javier Camiroaga
-	mother=230060 # María Fernández
+	father=230059 # Daniel Camiroaga
+	mother=230060 # María Aguirre
 
 	2333.10.8 = {
 		birth="2333.10.8"
@@ -2480,8 +2410,8 @@
 
 	add_trait="fair"
 
-	father=230059 # Javier Camiroaga
-	mother=230060 # María Fernández
+	father=230059 # Daniel Camiroaga
+	mother=230060 # María Aguirre
 
 	2334.8.20 = {
 		birth="2333.8.20"
@@ -2503,7 +2433,7 @@
 }
 ### Issue of Felipe ###
 230063 = {
-	name="Jorge" # Jorge Camiroaga.
+	name="Benjamín" # Benjamín Camiroaga.
 	dynasty=145020
 
 	diplomacy = 3
@@ -2536,7 +2466,7 @@
 	}
 }
 230064 = {
-	name="Claudia" # Claudia Camiroaga, wife of José Salas.
+	name="Claudia" # Claudia Camiroaga, wife of Benjamín Salas.
 	dynasty=145020
 	female=yes
 	properties="0t00dk"
@@ -2576,8 +2506,8 @@
 230001 = {
 	name="Benjamín" # Benjamín Bartales the Sword of Santiago, King of Chile.
 	dynasty=145001
-	dna="aaafb0bade0"
-	properties="0t00dk"
+	dna="aaafb0bace0"
+	properties="0t00jk0000000000000000000a"
 
 	diplomacy = 10
 	martial = 5
@@ -2631,16 +2561,20 @@
 			has_dlc = "Holy Fury"
 		}
 	}
+	2337.6.16 = {
+		add_trait="scarred_mid"
+		add_trait="scarred_type_1"
+	}
 	2369.9.18 = {
 		death="2369.9.18"
 	}
 }
 230002 = {
 	name="Inés" # Inés Suárez the Sword of the Virgin of Carmel, wife of King Benjamín Bartales and Queen of Chile.
-	dynasty=145001
+	dynasty=145010
 	female=yes
 	dna="beffa0bcgc0"
-	properties="0o0a0k"
+	properties="0o0a0k0a"
 
 	diplomacy = 10
 	martial = 4
@@ -2674,6 +2608,10 @@
 	2337.5.22 = {
 		give_nickname=nick_the_sword_of_virgin_of_carmel
 	}
+	2337.7.1 = {
+		add_trait="scarred"
+		add_trait="scarred_type_1"
+	}
 	2369.10.12 = {
 		death="2369.10.12"
 	}
@@ -2682,14 +2620,14 @@
 230003 = {
 	name="Diego" # Diego Bartales the Sword of the Pacific, King of Chile.
 	dynasty=145001
-	dna="aaafg00ade0"
-	properties="0t00ek"
+	dna="aaafg00ace0"
+	properties="0t00ek0000000000000000000a"
 
 	diplomacy = 9
 	martial = 1
 	stewardship = 8
-	intrigue = 4
-	learning = 6
+	intrigue = 6
+	learning = 8
 
 	culture=centrino
 	religion=catholic
@@ -2738,11 +2676,15 @@
 			add_friend=640054 # Manuel Maza
 		}
 	}
-	2368.9.18 = {
+	2364.11.8 = {
+		add_trait="scarred_mid"
+		add_trait="scarred_type_1"
+	}
+	2369.9.18 = {
 		effect = {
 			add_artifact=sangreroja
 			# Councillors
-			c_230013 = { give_job_title = job_chancellor } # Felipe Camiroaga
+			c_230013 = { give_job_title = job_chancellor give_minor_title = title_regent } # Felipe Camiroaga
 			c_230086 = { give_job_title = job_marshal } # Marcelo Salas
 			c_230028 = { give_job_title = job_treasurer } # Jorge Edwards
 		}
@@ -2753,7 +2695,7 @@
 	name="Severio" # Severio Solnuevo the Executioner.
 	dynasty=145180
 	dna="bifif0d0000"
-	properties="0s0a0k"
+	properties="0b0a0k"
 
 	diplomacy = 8
 	martial = 3
@@ -2798,8 +2740,8 @@
 230005 = {
 	name="Benjamín" # Benjamín Bartales.
 	dynasty=145001
-	dna="adafc0gade0"
-	properties="0t000k"
+	dna="adafc0gace0"
+	properties="0t000k0a"
 
 	diplomacy = 8
 	martial = 1
@@ -2833,6 +2775,8 @@
 		add_trait="gregarious"
 		add_trait="duelist"
 		add_trait="falconer"
+		add_trait="scarred"
+		add_trait="scarred_type_1"
 		effect = {
 			add_friend=230004 # Severio Solnuevo
 		}
@@ -2844,13 +2788,15 @@
 230007 = {
 	name="Ghat" # Ghat Halstedom.
 	dynasty=145043
-	
+	dna="b0fid0ea0e0"
+	properties="0i0a0k"
+
 	diplomacy = 3
 	martial = 1
 	stewardship = 4
 	intrigue = 4
 	learning = 2
-	
+
 	culture=german
 	religion=catholic
 
@@ -2871,16 +2817,25 @@
 		add_trait="proud"
 		add_trait="cynical"
 		add_trait="duelist"
+		employer=230001 # Benjamín Bartales
 	}
 	2369.4.21 = {
 		add_spouse=230008 # Daedra
+		effect = {
+			add_lover=230008 # Daedra
+		}
+	}
+	2369.9.18 = {
+		employer=230003 # Diego Bartales
 	}
 }
 230008 = {
 	name="Daedra" # Daedra, wife of Ghat Halstedom.
 	female=yes
+	dna="bhhee0ea0b0"
+	properties="0t0e0k"
 
-	diplomacy = 3
+	diplomacy = 1
 	martial = 1
 	stewardship = 4
 	intrigue = 4
@@ -2971,7 +2926,8 @@
 		birth="2313.7.5"
 	}
 	2319.7.5 = {
-		add_trait="skilled_tactician"
+		add_trait="brilliant_strategist"
+		add_trait="aggressive_leader"
 		add_trait="organizer"
 		add_trait="inspiring_leader"
 		add_trait="brave"
@@ -2988,6 +2944,7 @@
 	}
 	2336.11.7 = {
 		add_trait="scarred_high"
+		add_trait="scarred_type_5"
 		give_nickname=nick_the_beast
 	}
 	2337.6.16 = {
@@ -3035,6 +2992,7 @@
 	}
 	2336.5.4 = {
 		add_trait="scarred_mid"
+		add_trait="scarred_type_5"
 		give_nickname=nick_the_bandido
 	}
 	2337.7.1 = {
@@ -3070,8 +3028,9 @@
 		birth="2314.6.6"
 	}
 	2330.6.6 = {
-		add_trait="skilled_tactician"
+		add_trait="brilliant_strategist"
 		add_trait="aggressive_leader"
+		add_trait="organizer"
 		add_trait="inspiring_leader"
 		add_trait="brave"
 		add_trait="diligent"
@@ -3087,6 +3046,8 @@
 	}
 	2339.4.27 = {
 		give_nickname=nick_the_slayer
+		add_trait="scarred_mid"
+		add_trait="scarred_type_1"
 		create_bloodline = {
 			type = bloodline_tomas_slayer
 			has_dlc = "Holy Fury"
@@ -3098,7 +3059,7 @@
 }
 230085 = {
 	name="Sandra" # Sandra Araya, wife of Tomás Salas.
-	dynasty=150003
+	dynasty=145030
 	female=yes
 
 	diplomacy = 3
@@ -3170,6 +3131,10 @@
 			add_friend=230027 # Agustín Edwards
 		}
 	}
+	2364.11.8 = {
+		add_trait="scarred_mid"
+		add_trait="scarred_type_1"
+	}
 }
 ### Issue of Marcelo ###
 230087 = {
@@ -3209,7 +3174,7 @@
 		add_trait="zealous"
 		add_trait="duelist"
 	}
-	2369.3.3 = {
+	2369.11.1 = {
 		add_spouse=230064 # Claudia Camiroaga
 	}
 }
@@ -3253,8 +3218,8 @@
 ### Patriarchs ###
 ##################
 230006 = {
-	name="Juan" # Juan Bosco, Patriarch of Chile.
-	dynasty=150022
+	name="Juan" # Juan Hurtado, Patriarch of Chile.
+	dynasty=145012
 
 	diplomacy = 4
 	martial = 5
@@ -3374,7 +3339,7 @@
 ###############################
 240120 = {
 	name="Juanín Juan" # Juanín Juan Harry.
-	dynasty=145037
+	dynasty=150039
 
 	diplomacy = 3
 	martial = 1
@@ -3458,10 +3423,10 @@
 		add_trait="skilled_tactician"
 		add_trait="cavalry_leader"
 		add_trait="organizer"
+		add_trait="inspiring_leader"
 		add_trait="brave"
 		add_trait="diligent"
 		add_trait="patient"
-		add_trait="charitable"
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
@@ -3473,6 +3438,7 @@
 	}
 	2335.10.5 = {
 		add_trait="scarred_mid"
+		add_trait="scarred_type_2"
 		give_nickname=nick_the_huaso
 	}
 	2340.2.12 = {
@@ -3519,7 +3485,7 @@
 
 	diplomacy = 2
 	martial = 1
-	stewardship = 3
+	stewardship = 1
 	intrigue = 3
 	learning = 3
 
@@ -3823,7 +3789,7 @@
 	}
 }
 240045 = {
-	name="Rosa" # Rosa Pincheira, wife of Bartolo Lara.
+	name="Rosa" # Rosa Pincheira, wife of Carlos Lara.
 	dynasty=150001
 	female=yes
 
@@ -4196,22 +4162,26 @@
 
 	diplomacy = 6
 	martial = 4
-	stewardship = 3
+	stewardship = 5
 	intrigue = 4
 	learning = 5
 
 	culture=huaso
 	religion=catholic
 
-	trait=patient
-	trait=gregarious
-	trait=greedy
-	trait=thrifty_clerk
-
-	2339.12.15 = {
-		birth="2339.12.15"
+	2330.12.15 = {
+		birth="2330.12.15"
 	}
-	2359.9.6 = {
+	2346.12.15 = {
+		add_trait="fortune_builder"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+	}
+	2350.9.6 = {
 		add_spouse=240009 # Mercedes Valenzuela
 	}
 }
@@ -4229,42 +4199,63 @@
 	culture=huaso
 	religion=catholic
 
-	trait=kind
-	trait=stubborn
-	trait=content
-	trait=underhanded_rogue
-
-	2339.3.9 = {
-		birth="2339.3.9"
+	2330.3.9 = {
+		birth="2330.3.9"
+	}
+	2346.3.9 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="zealous"
 	}
 }
 ### Issue of Nicolás ###
+240015 = {
+	name="Jorge" # Jorge Valdivieso.
+	dynasty=150014
 
-
-##################
-### House Lara ###
-##################
-240012 = {
-	name="Bartolo" # Bartolo Lara the Roto, Duke of Maule.
-	dynasty=150010
-
-	diplomacy = 5
-	martial = 1
-	stewardship = 5
+	diplomacy = 4
+	martial = 4
+	stewardship = 6
 	intrigue = 4
 	learning = 3
 
 	culture=huaso
 	religion=catholic
 
-	add_trait="strong"
+	father=240010 # Nicolás Valdivieso
+	mother=240009 # Mercedes Valenzuela
+
+	2351.9.30 = {
+		birth="2351.9.30"
+	}
+}
+##################
+### House Lara ###
+##################
+240012 = {
+	name="Carlos" # Carlos Lara the Roto, Duke of Maule.
+	dynasty=150010
 	
+
+	diplomacy = 7
+	martial = 1
+	stewardship = 9
+	intrigue = 8
+	learning = 3
+
+	culture=huaso
+	religion=catholic
+
+	add_trait="strong"
+
 	disallow_random_traits = yes
 
-	2330.5.12 = {
-		birth="2330.5.12"
+	2330.11.3 = {
+		birth="2330.11.3"
 	}
-	2346.5.12 = {
+	2346.11.3 = {
 		add_trait="skilled_tactician"
 		add_trait="cavalry_leader"
 		add_trait="inspiring_leader"
@@ -4279,10 +4270,11 @@
 	}
 	2355.6.16 = {
 		add_trait="scarred_mid"
+		add_trait="scarred_type_3"
 		give_nickname=nick_the_roto
 	}
 }
-### Issue of Bartolo the Roto ###
+### Issue of Carlos the Roto ###
 240014 = {
 	name="Manuel" # Manuel Lara.
 	dynasty=150010
@@ -4300,7 +4292,7 @@
 
 	disallow_random_traits = yes
 
-	father=240012 # Bartolo Lara
+	father=240012 # Carlos Lara
 	mother=240045 # Rosa Pincheira
 
 	2348.2.25 = {
@@ -4336,7 +4328,7 @@
 
 	disallow_random_traits = yes
 
-	father=240012 # Bartolo Lara
+	father=240012 # Carlos Lara
 	mother=240045 # Rosa Pincheira
 
 	2350.3.1 = {
@@ -4350,35 +4342,6 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="zealous"
-	}
-}
-#######################
-### House Urdemales ###
-#######################
-240015 = {
-	name="Pedro" # Pedro Urdemales, Count of Cauquenes.
-	dynasty=145025
-
-	diplomacy = 4
-	martial=4
-	
-	stewardship=6
-	intrigue=4
-	learning=3
-
-	culture=huaso
-	religion=catholic
-
-	trait=sturdy
-	trait=lustful
-	trait=patient
-	trait=scarred
-	trait=trusting
-	trait=temperate
-	trait=fortune_builder
-
-	2334.3.29 = {
-		birth=yes
 	}
 }
 ##################
@@ -4508,9 +4471,9 @@
 ####################
 ### House Keller ###
 ####################
-250009 = {
+250001 = {
 	name="Armando" # Armando Keller the Teutonic Dragon, Duke of Los Riós.
-	dynasty=155006
+	dynasty=155001
 	dna="beide0dafg0"
 	properties="0r0a0k"
 
@@ -4546,9 +4509,9 @@
 		add_trait="duelist"
 	}
 	2352.2.2 = {
-		add_spouse=250010 # Valentina Kühn
+		add_spouse=250002 # Valentina Kühn
 		effect = {
-			add_lover=250010 # Valentina Kühn
+			add_lover=250002 # Valentina Kühn
 		}
 	}
 	2354.1.3 = {
@@ -4556,12 +4519,16 @@
 			add_friend=250013 # Enrique Zauberer
 		}
 	}
-	2369.1.1 = {
+	2366.12.1 = {
 		give_nickname=nick_the_teutonic_dragon
+		create_bloodline = {
+			type = bloodline_teutonic_dragon
+			has_dlc = "Holy Fury"
+		}
 	}
 }
-250010 = {
-	name="Valentina" # Valentina Kühn the Pincoya, wife of Armando Keller.
+250002 = {
+	name="Valentina" # Valentina Alegría the Pincoya, wife of Armando Keller.
 	dynasty=155035
 	female=yes
 	dna="ahhhe0cafg0"
@@ -4598,10 +4565,10 @@
 		give_nickname=nick_the_pincoya
 	}
 }
-### Issue of Armando the Dragon ###
-250022 = {
+### Issue of Armando the Teutonic Dragon ###
+250003 = {
 	name="Benjamín" # Benjamín Keller.
-	dynasty=155006
+	dynasty=155001
 	dna="bfidf0dafg0"
 	properties="0t0a0k"
 
@@ -4618,8 +4585,8 @@
 
 	disallow_random_traits = yes
 
-	father=250009 # Armando Keller
-	mother=250010 # Valentina Kühn
+	father=250001 # Armando Keller
+	mother=250002 # Valentina Kühn
 
 	2353.4.18 = {
 		birth="2353.4.18"
@@ -4646,9 +4613,9 @@
 ##############################
 ### House Keller Household ###
 ##############################
-250001 = {
+250009 = {
 	name="Federico" # Federico Von Pilsener.
-	dynasty=155001
+	dynasty=155006
 	dna="b0cia0iah00"
 	properties="am0gig"
 
@@ -4673,7 +4640,7 @@
 		add_trait="erudite"
 	}
 	2366.12.1 = {
-		employer=250009 # Armando Keller
+		employer=250001 # Armando Keller
 		effect = {
 			add_friend=250012
 		}
@@ -4699,7 +4666,7 @@
 		birth="2353.1.1"
 	}
 	2366.12.1 = {
-		employer=250009 # Armando Keller
+		employer=250001 # Armando Keller
 	}
 	2369.1.1 = {
 		add_trait="naive_appeaser"
@@ -4738,7 +4705,7 @@
 		add_trait="administrator"
 	}
 	2366.12.1 = {
-		employer=250009 # Armando Keller
+		employer=250001 # Armando Keller
 		give_nickname=nick_the_bull
 	}
 }
@@ -4783,7 +4750,7 @@
 	2362.2.12 = {
 		death = {
 			death_reason=death_execution
-			killer=250013 # Enrique Zauberer
+			killer=250001 # Armando Keller
 		}
 	}
 }
@@ -4808,7 +4775,7 @@
 	}
 }
 250016 = {
-	name="Catalina" # Catalina Zapata, wife of Conrado Zauberer.
+	name="Catalina" # Catalina Zapata, wife of Miguel Zauberer.
 	dynasty=155002
 	female=yes
 
@@ -5074,7 +5041,6 @@
 		add_trait="cruel"
 		add_trait="ambitious"
 		add_trait="hunter"
-		add_trait="scarred"
 	}
 	2366.11.12 = {
 		give_nickname=nick_the_pirate

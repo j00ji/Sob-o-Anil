@@ -551,7 +551,7 @@ e_la_plata = {
 		color2={ 255 255 255 }
 		
 		capital = 280 # c_montevideo
-		culture = urbuguayo
+		culture = oriental
 		
 		d_montevideo = {
 			color={ 209 82 131 }

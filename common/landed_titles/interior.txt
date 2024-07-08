@@ -635,7 +635,7 @@ e_interior = {
 			}
 		}
 	}
-	k_norte_viejo = {
+	k_noroeste = {
 		color={ 157 36 63 }
 		color2={ 255 255 255 }
 		

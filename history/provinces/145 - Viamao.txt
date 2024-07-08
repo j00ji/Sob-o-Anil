@@ -15,7 +15,7 @@ b_santo_antonio_da_patrulha = city
 #b_miraguaia = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = umbanda
 
 #History

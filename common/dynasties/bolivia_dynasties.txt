@@ -230,7 +230,7 @@
 	can_appear=no
 	used_for_random=no
 }
-410017={
+410017 = {
 	name="Toro"
 	culture=camba
 	religion=catholic
@@ -248,7 +248,7 @@
 		}
 	}
 }
-410018={
+410018 = {
 	name="Lanza"
 	culture=camba
 	religion=catholic

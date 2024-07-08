@@ -32,11 +32,11 @@
 # CISPLATINEAN RANGE 85001 - 120000
 ### Paranaense: 85001 - 90000
 ### Greenbelly: 90001 - 95000
-### Gaucho: 95001 - 100000
+### Gaúcho: 95001 - 100000
 ### Hunsruckisch: 100001 - 105000
 ### Talian: 105001 - 110000
 ### Rutenio: 110001 - 115000
-### Guacho: 115001 - 120000
+### Gaucho: 115001 - 120000
 
 # CERRADONENSE RANGE: 120001-140000
 
@@ -109,7 +109,7 @@
 ### Pampeano 345001 - 350000
 ### Contadino 350001 - 355000
 ### Litoraleño 355001 - 360000
-### Urbuguayo 360001 - 365000
+### Oriental 360001 - 365000
 ### Asunceno 365001 - 370000
 
 # NORTHEASTERN NATIVE RANGE: 370001 - 395000

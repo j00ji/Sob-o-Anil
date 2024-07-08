@@ -1,18 +1,23 @@
 Special thanks to Nico most of all, who let me continue the project in the first place and was leading it before me.
 
-Credits
-Mod Lead
-J00J
+Credits:
+Mod Lead:
+-J00J
 
-Developers
-Alonch
-Gukpa
-Gus the Birbgazer
-Metaluis90
-MongoosePirate
-Nico
-RedMedal
-Talhado
-Terianic
-Tizil
-Uni
+Developers:
+-Alonch
+-Gukpa
+-Gus the Birbgazer
+-Metaluis90
+-MongoosePirate
+-Nico
+-RedMedal
+-Talhado
+-Terianic
+-Tizil
+-Uni
+-Midnight Sun
+
+Assets:
+-The CK2 AGOT Team
+-JaimeIelConquistador, for his CoA work, his deviantart page: https://www.deviantart.com/jaimeielconquistador.

@@ -15,7 +15,7 @@ b_sao_luiz_gonzaga = tribal
 #b_salvador_das_missoes = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

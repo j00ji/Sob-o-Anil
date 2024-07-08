@@ -15,7 +15,7 @@ b_rosario_do_sul = tribal
 #b_curral_das_pedras = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

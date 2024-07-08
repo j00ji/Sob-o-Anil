@@ -6,7 +6,10 @@
 800.1.1 = {
 	liege=k_atacama
 }
-2360.10.20 = {
-	holder=220008
-	liege=d_coquimbo
+2350.11.3 = {
+	holder=220041 # Gabriel Elqui
+}
+2368.8.22 = {
+	holder=220043
+	liege=d_copiapo
 }

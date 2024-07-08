@@ -1,14 +1,14 @@
 # e_chile
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
 800.1.1 = {
 	liege=k_araucania
 }
 2340.10.31 = {
-	holder = 250004
+	holder=250004 # Jorge Zapata
 }
 2351.2.12 = {
-	holder = 250013
+	holder=250013 # Enrique Zauberer
 }

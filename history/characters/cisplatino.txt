@@ -774,7 +774,7 @@
 270006={
 	name="Ernesto"
 	dynasty=95081 #da Gama
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=brilliant_strategist
 	trait=adventurer
@@ -797,7 +797,7 @@
 	name="Custódio"
 	dynasty=95081 #da Gama
 	father=270006
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=tough_soldier
 	trait=ambitious
@@ -821,7 +821,7 @@
 	name="Giovana"
 	dynasty=95054 #Aranha
 	female=yes
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=midas_touched
 	trait=greedy
@@ -1113,7 +1113,7 @@
                killer = 270006
           }
 	}
-	#son of Caio, died in battle against gauchos
+	#son of Caio, died in battle against gaucho_rgs
 }
 270020={
 	name="Fabiana"
@@ -1921,7 +1921,7 @@
 280001={
 	name="Humberto"
 	dynasty=95068 #gomes
-	culture=gaucho
+	culture=gaucho_rg
 	religion=umbanda
 	trait=tough_soldier
 	trait=peasant_leader
@@ -2002,14 +2002,14 @@
 	learning=6
 	2338.1.1={
 		birth=yes 
-		culture=gaucho
+		culture=gaucho_rg
 	}
 	2355.1.1={effect={add_friend=280006}}
 	2400.1.1={death=yes}
 	#duke of Costa Doce, directly owns Mostardas and Rio Grande
 }
 280006={
-	name="Ronaldo" #Ronaldinho Gaucho o Bruxo
+	name="Ronaldo" #Ronaldinho gaucho_rg o Bruxo
 	dynasty=95067 #Assis
 	culture=salvadorense
 	religion=umbanda
@@ -2026,7 +2026,7 @@
 	learning=7
 	2347.1.1={
 		birth=yes 
-		culture=gaucho
+		culture=gaucho_rg
 	}
 	2367.1.1 = {
 		give_nickname = nick_the_wizard
@@ -2049,7 +2049,7 @@
 	learning=7
 	2307.1.1={
 		birth=yes 
-		culture=gaucho
+		culture=gaucho_rg
 	}
 	2355.1.1={death=yes}
 	#Ronaldinho's father
@@ -2057,7 +2057,7 @@
 280008={
 	name="Eduardo"
 	dynasty=95071 #Vargas
-	culture=gaucho
+	culture=gaucho_rg
 	religion=vargist
 	trait=grey_eminence
 	trait=sturdy
@@ -2081,7 +2081,7 @@
 	name="Elis"
 	dynasty=95072 #Sarmanho
 	female=yes
-	culture=gaucho
+	culture=gaucho_rg
 	religion=vargist
 	trait=indulgent_wastrel
 	trait=fair
@@ -2102,7 +2102,7 @@
 290010={
 	name="Valder"
 	dynasty=95072 #Sarmanho
-	culture=gaucho
+	culture=gaucho_rg
 	religion=vargist
 	trait=scholarly_theologian
 	trait=fair
@@ -2136,7 +2136,7 @@
 	learning=5
 	2351.1.1={
 		birth=yes
-		culture=gaucho
+		culture=gaucho_rg
 	}
 	2368.4.1={
 		effect={add_lover=290012}
@@ -2151,7 +2151,7 @@
 	name="Juraci"
 	dynasty = 0
 	female=yes
-	culture=gaucho
+	culture=gaucho_rg
 	religion=catholic
 	trait=naive_appeaser
 	trait=strong
@@ -2173,7 +2173,7 @@
 290013={
 	name="Augusto"
 	dynasty=95037 #Castilhos
-	culture=gaucho
+	culture=gaucho_rg
 	religion=vargist
 	father=280040
 	trait=mastermind_theologian
@@ -2201,7 +2201,7 @@
 	name="Tiago"
 	dynasty=95037 #Castilhos
 	father=290013
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=misguided_warrior
 	trait=quick
@@ -2222,7 +2222,7 @@
 290015={
 	name="Cândido"
 	dynasty=95074 #Godói
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=skilled_tactician
 	trait=is_fat
@@ -2359,7 +2359,7 @@
 	dynasty=95074 #Godói
 	father=290015
 	mother=290017
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=tough_soldier
 	trait=twin
@@ -2383,7 +2383,7 @@
 	dynasty=95074 #Godói
 	father=290015
 	mother=290017
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=tough_soldier
 	trait=twin
@@ -2405,7 +2405,7 @@
 290025={
 	name="Carlo"
 	dynasty=95077 #Peruzzo
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=charismatic_negotiator
 	trait=lustful
@@ -2434,7 +2434,7 @@
 280026={
 	name="Fioravante"
 	dynasty=95078 #Bertussi
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=thrifty_clerk
 	trait=cavalry_leader
@@ -2457,7 +2457,7 @@
 280027={
 	name="Adelar"
 	dynasty=95078 #Bertussi
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	father=280026
 	trait=thrifty_clerk
@@ -2479,7 +2479,7 @@
 280028={
 	name="Honeyde"
 	dynasty=95078 #Bertussi
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	father=280026
 	trait=naive_appeaser
@@ -2501,7 +2501,7 @@
 280029={
 	name="Walmor"
 	dynasty=95078 #Bertussi
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	father=280026
 	trait=tough_soldier	
@@ -2526,7 +2526,7 @@
 	name="Doralice"
 	dynasty=95078 #Bertussi
 	female=yes
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	father=280026
 	trait=amateurish_plotter
@@ -2546,7 +2546,7 @@
 280031={
 	name="Lorenzo"
 	dynasty=95079 #Medici
-	culture=gaucho
+	culture=gaucho_rg
 	religion=umbanda
 	dna="0f0h0000g00"
 	properties="ek000000000000000000000000000000000"
@@ -2578,7 +2578,7 @@
 280032={
 	name="Leonardo"
 	dynasty=95080 #Brizola
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=underhanded_rogue
 	trait=charitable
@@ -2596,7 +2596,7 @@
 	dynasty=95037 #Castilhos
 	female=yes
 	father=280040
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=quick
 	trait=kind
@@ -2612,7 +2612,7 @@
 	name="Lúcia"
 	dynasty=95079 #Medici
 	female=yes
-	culture=gaucho
+	culture=gaucho_rg
 	religion=umbanda
 	trait=fair
 	trait=lustful
@@ -2628,7 +2628,7 @@
 	dynasty=95079 #Medici
 	dna="c0ihc0ccec0"
 	properties="qn0bfk00000000000000000000000000000"
-	culture=gaucho
+	culture=gaucho_rg
 	religion=umbanda
 	trait=fortune_builder
 	trait=administrator
@@ -2644,7 +2644,7 @@
 	name="Maria"
 	dynasty=95079 #Medici
 	female=yes
-	culture=gaucho
+	culture=gaucho_rg
 	religion=umbanda
 	trait=thrifty_clerk
 	trait=diligent
@@ -2658,7 +2658,7 @@
 280037={
 	name="Giovanni"
 	dynasty=95079 #Medici
-	culture=gaucho
+	culture=gaucho_rg
 	religion=umbanda
 	dna="cdcc00c0f00"
 	properties="0g00n000000000000000000000000000000"
@@ -2677,7 +2677,7 @@
 280038={
 	name="Luísa"
 	dynasty=95079 #Medici
-	culture=gaucho
+	culture=gaucho_rg
 	religion=umbanda
 	female=yes
 	trait=naive_appeaser
@@ -2694,7 +2694,7 @@
 280039={
 	name="Ana"
 	dynasty=95079 #Medici
-	culture=gaucho
+	culture=gaucho_rg
 	religion=umbanda
 	female=yes
 	trait=scholarly_theologian
@@ -2709,7 +2709,7 @@
 280040={
 	name="Jonas"
 	dynasty=95037 #Castilhos
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=tough_soldier
 	2269.1.1={birth=yes}
@@ -2719,7 +2719,7 @@
 280041={
 	name="Luís"
 	dynasty=95082 #da Esperança
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=brilliant_strategist
 	dna="00eh000a000"
@@ -2752,7 +2752,7 @@
 280043={
 	name="Ana"
 	dynasty=95082
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	father=280041
 	mother=280042
@@ -2945,7 +2945,7 @@
 	2338.12.1={
 		add_spouse=300002
 	}
-	2362.1.1={death = {death_reason=death_battle}} #Add a Gaucho ruler as his killer
+	2362.1.1={death = {death_reason=death_battle}} #Add a gaucho_rg ruler as his killer
 	#First king of Serra Gaucha married to a german duchess in order to unite the kingdom
 }
 300002={

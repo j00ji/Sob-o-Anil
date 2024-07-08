@@ -15,7 +15,7 @@ b_durazno = castle
 #b_san_jorge = castle
 
 # Misc
-culture=charrua
-religion=bandean
+culture=gaucho_uru
+religion=catholic
 
 #History

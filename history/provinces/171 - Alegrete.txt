@@ -15,7 +15,7 @@ b_alegrete = tribal
 #b_vertentes_2 = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

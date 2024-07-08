@@ -15,7 +15,7 @@ b_sao_gabriel = tribal
 #b_caraimbazinho = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

@@ -431,54 +431,69 @@
     2370.1.1={death=yes}
 }
 #Count of San Borja
+###################
+### House Toro ###
+###################
+810020 = {
+    name="Germán" # Germán Toro the Corsair of the Jungle, Duke of Cordillera.
+    dynasty=410017
+	dna="acbib0dbcg0"
+	properties="0d0d0k"
 
-#Duchy of Cordillera
-#Duchy of Cordillera
-810020={
-    name="Germán"
-    dynasty=410017 # Toro
-    culture=german
-    religion=catholic
-	  dna="aedgf0hb0f0"
-  properties="rd0b0b000000000000000000000000000000"
-    martial=5
-    diplomacy=5
-    stewardship=3
-    intrigue=1
-    learning=1
-    trait=tough_soldier
-    trait=inspiring_leader
-    trait=ambitious
-    trait=wroth
-    trait=kind
-    trait=charitable
-    trait=just
-    trait=honest
-    2334.1.1={birth=yes culture=camba}
-	2361.1.1={add_spouse=810021}
-    2370.1.1={death=yes}
+    diplomacy = 6
+	martial = 2
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=german
+	religion=catholic
+
+	disallow_random_traits = yes
+
+	2334.3.23 = {
+		birth="2334.3.23"
+		culture=camba
+	}
+	2350.3.23 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="just"
+		add_trait="zealous"
+		add_trait="ambitious"
+		give_nickname=nick_the_corsair_of_the_jungle
+	}
+	2361.1.1 = {
+		add_spouse=810021 # Matilde Lanza
+	}
 }
-#Duke of Cordillera, rules Busch and Lagunillas, German ethnicity
+810021 = {
+    name="Matilde" # Matilde Lanza, wife of Germán Toro.
+    dynasty=410018
+	female=yes
 
-810021={
-    name="Matilde"
-    dynasty=410018 # Lanza
-    culture=camba
+    diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+
+	culture=camba
     religion=catholic
-    female=yes
-    martial=3
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
+
     trait=martial_cleric
     trait=kind
     trait=chaste
     trait=content
-    2345.1.1={birth=yes}
-    2370.1.1={death=yes}
+
+    2345.8.23 = {
+		birth="2345.8.23"
+	}
 }
-#Wife of the Duke of Cordillera
 
 #County of Chiquitos (Vassal of Duke of Cordillera)
 810022={

@@ -1,11 +1,11 @@
 # e_interior
-500.1.1={
-	law = cognatic_succession
+500.1.1 = {
+	law=cognatic_succession
 }
-800.1.1={
-	liege=k_norte_viejo
+800.1.1 = {
+	liege=k_noroeste
 }
-2364.1.1={
+2364.1.1 = {
+	holder=640100 # Alexandre Saadi
 	liege=d_salta
-	holder=640100 #Alexandre Saadi
 }

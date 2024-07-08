@@ -15,7 +15,7 @@ b_artigas = castle
 #b_cuaro = castle
 
 # Misc
-culture=charrua
+culture=gaucho_uru
 religion=catholic
 
 #History

@@ -15,7 +15,7 @@ b_chuy = castle
 #b_la_esmeralda = castle
 
 # Misc
-culture=charrua
+culture=oriental
 religion=artiguista
 
 #History

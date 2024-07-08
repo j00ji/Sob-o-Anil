@@ -1,5 +1,11 @@
+#######################
+### Porteno Sprites ###
+#######################
+
 spriteTypes = {
-	
+
+### Male ###
+
 	spriteType = {
 		name = "GFX_porteno_male_clothes_behind"
 		texturefile = "gfx\\characters\\porteno_male\\porteno_male_clothes_behind.dds"
@@ -302,6 +308,15 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "PORTRAIT_portenogfx_child_male"
+		texturefile = "gfx\\characters\\default_son_italian.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+### Female ###
+	
+	spriteType = {
 		name = "GFX_porteno_female_clothes_behind"
 		texturefile = "gfx\\characters\\porteno_female\\porteno_female_clothes_behind.dds"
 		noOfFrames = 12
@@ -554,15 +569,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "PORTRAIT_portenogfx_child_male"
-		texturefile = "gfx\\characters\\default_son_porteno.tga"
-		noOfFrames = 1
-		norefcount = yes
-	}
-	
-	spriteType = {
 		name = "PORTRAIT_portenogfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_porteno.tga"
+		texturefile = "gfx\\characters\\default_daughter_italian.tga"
 		noOfFrames = 1
 		norefcount = yes
 	}

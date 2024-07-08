@@ -15,7 +15,7 @@ b_sao_nicolau = tribal
 #b_dona_otilia = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

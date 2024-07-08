@@ -15,7 +15,7 @@ b_treinta_y_tres = castle
 #b_valentines = castle
 
 # Misc
-culture=charrua
-religion=artiguista
+culture=gaucho_uru
+religion=catholic
 
 #History

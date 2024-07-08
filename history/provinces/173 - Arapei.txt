@@ -15,7 +15,7 @@ b_termas_do_arapei = castle
 #b_diego_lamas = castle
 
 # Misc
-culture=charrua
+culture=gaucho_uru
 religion=catholic
 
 #History

@@ -1,22 +1,8 @@
-##############
-### German ###
-##############
+######################
+### German Sprites ###
+######################
 
 spriteTypes = {
-
-	spriteType = {
-		name = "PORTRAIT_germangfx_child_male"
-		texturefile = "gfx\\characters\\default_son_german.tga"
-		noOfFrames = 1
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "PORTRAIT_germangfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_german.tga"
-		noOfFrames = 1
-		norefcount = yes
-	}
 
 ### Male ###
 
@@ -329,6 +315,13 @@ spriteTypes = {
 		norefcount = yes
 		can_be_lowres = yes
 	}
+	
+	spriteType = {
+		name = "PORTRAIT_germangfx_child_male"
+		texturefile = "gfx\\characters\\default_son_german.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
 
 ### Female ###
 
@@ -599,4 +592,12 @@ spriteTypes = {
 		norefcount = yes
 		can_be_lowres = yes
 	}
+	
+	spriteType = {
+		name = "PORTRAIT_germangfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter_german.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
 }

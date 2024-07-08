@@ -1370,37 +1370,60 @@
 #######################
 ### House Cantarini ###
 #######################
-
 110002 = {
-	name="Felipe" #Felipe Cantarini, father of Alexandre
+	name="Felipe" # Felipe Cantarini, Commander of the Bandeirantes of the Northeast.
 	dynasty=55001
-	dna="bgb0a0gahb0"
-	properties="fl0dbd"
+	dna="bgb0a0gaef0"
+	properties="0r0dek0000000k"
 
-	religion = peterite
-	culture = paulistano
+	diplomacy = 10
+	martial = 1
+	stewardship = 5
+	intrigue = 5
+	learning = 5
 
-	add_trait=skilled_tactician
-	add_trait = quick
-	add_trait=bandeirante
-	add_trait=severely_injured
+	religion=peterite
+	culture=paulistano
+
+	add_trait="quick"
+
+	disallow_random_traits = yes
 
 	2309.3.21 = {
-		birth = yes
+		birth="2309.3.21"
 	}
-	2359.10.10 = {
+	2325.3.21 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="deceitful"
+		add_trait="cynical"
+		add_trait="ambitious"
+		add_trait="strategist"
+	}
+	2342.6.11 = {
+		add_trait="bandeirante"
+	}
+	2350.3.5 = {
+		add_trait="one_eyed"
+	}
+	2359.10.21 = {
+		add_trait="severely_injured"
 		death = {
-			death_reason = death_trait
+			death_reason=death_trait
 		}
 	}
 }
-
 ### Issue of Felipe ###
 110001 = {
 	name="Alexandre" # Alexandre Cantarini the Lion of Americana, Duke of Campinas.
 	dynasty=55001
-	dna="cib000fcgb0"
-	properties="we0b0c"
+	dna="aib000fcef0"
+	properties="0t0b0k0a"
 
 	diplomacy = 10
 	martial = 1
@@ -1417,8 +1440,8 @@
 
 	father=110002 # Felipe Cantarini
 
-	2344.3.5 = {
-		birth="2344.3.5"
+	2344.7.21 = {
+		birth="2344.7.21"
 		effect = {
 			set_character_flag = is_alexandre
 			set_character_flag = is_special_character
@@ -1430,7 +1453,7 @@
 			remove_claim = d_bandeirantes_northeast
 		}
 	}
-	2360.3.5 = {
+	2360.7.21 = {
 		add_trait="brilliant_strategist"
 		add_trait="experimenter"
 		add_trait="organizer"
@@ -1448,6 +1471,8 @@
 		}
 	}
 	2364.3.13 = {
+		add_trait="scarred"
+		add_trait="scarred_type_1"
 		give_nickname=nick_the_lion_of_americana
 		create_bloodline = {
 			type = bloodline_lion_of_americana
@@ -1455,7 +1480,7 @@
 		}
 	}
 	2364.12.25 = {
-		add_spouse = 120053
+		add_spouse=120053 # Julia Jones
 	}
 }
 	
@@ -12875,7 +12900,7 @@
 	name="Samuel" # Jetstream Samuel Rodrigues Minuano, Chief of Adamantina and Dracena.
 	dynasty=55047
 	dna="bb0da0g00b0"
-	properties="cc0bac"
+	properties="0o0bek"
 
 	diplomacy = 6
 	martial = 1
@@ -12906,11 +12931,12 @@
 		add_trait="ambitious"
 		add_trait="duelist"
 		add_trait="scarred"
+		add_trait="scarred_type_1"
+		add_spouse=110703 # Naomi Suzuki
 		give_nickname=nick_minuano
 		effect = {
 			add_artifact = murasama
 		}
-		add_spouse = 110703
 	}
 }
 

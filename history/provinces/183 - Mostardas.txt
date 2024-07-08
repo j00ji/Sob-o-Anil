@@ -15,7 +15,7 @@ b_mostardas = tribal
 #b_bacupari = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = umbanda
 
 #History

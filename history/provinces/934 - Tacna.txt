@@ -15,7 +15,7 @@ b_alto_de_la_alianza = temple
 #b_yarada_los_palos = castle
 
 # Misc
-culture = ileno
-religion = camino_estelar
+culture=ileno
+religion=santa_diablada
 
 #History

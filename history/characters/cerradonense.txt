@@ -835,7 +835,7 @@
 210032={
 	name="Sulino"
 	dynasty=120019 #Kruel
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=intricate_webweaver
 	trait=cavalry_leader
@@ -854,7 +854,7 @@
 210033={
 	name="Filinto"
 	dynasty=120019 #Kruel
-	culture=gaucho
+	culture=gaucho_rg
 	religion=farrapo
 	trait=brilliant_strategist
 	trait=cavalry_leader

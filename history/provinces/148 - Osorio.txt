@@ -15,7 +15,7 @@ b_tramandai = temple
 #b_albatroz = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

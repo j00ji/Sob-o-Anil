@@ -5,21 +5,19 @@
 ### House Uriburu ###
 #####################
 640106 = {
-	name="Miguel" # Miguel Uriburu the Gaucho Salteño, King of Norte Viejo.
+	name="Miguel" # Miguel Uriburu the Gaucho Salteño, King of Noroeste.
     dynasty=285054
 	dna="ajkkg00a000"
 	properties="0g0aik"
 
 	diplomacy = 8
-	martial = 10
+	martial = 1
 	stewardship = 8
 	intrigue = 5
 	learning = 6
 
 	culture=norteno
     religion=catholic
-
-	add_trait="strong"
 
 	disallow_random_traits = yes
 
@@ -33,7 +31,7 @@
 		add_trait="inspiring_leader"
 		add_trait="brave"
 		add_trait="diligent"
-		add_trait="patient"
+		add_trait="wroth"
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
@@ -64,8 +62,6 @@
 
 	culture=norteno
     religion=catholic
-	
-	add_trait="fair"
 
     2298.12.11 = {
 		birth="2298.12.11"
@@ -76,7 +72,7 @@
 }
 ### Issue of Miguel the Gaucho Salteño ###
 640085 = {
-	name="Felix" # Felix Uriburu the Infernal, King of Norte Viejo.
+	name="Felix" # Felix Uriburu the Infernal, King of Noroeste.
     dynasty=285054
 	dna="aeiaf0dc000"
 	properties="0s00dk0000000l"
@@ -109,22 +105,24 @@
 		add_trait="cruel"
 		add_trait="zealous"
 	}
-	2346.1.1 = {
+	2346.6.15 = {
 		add_spouse=640086 # Olivia Massa
 	}
 	2364.7.5 = {
+		add_trait="envious"
 		add_trait="crusader"
 		give_nickname=nick_the_infernal
 	}
 	2364.11.5 = {
-		add_trait="scarred_high"
 		add_trait="one_eyed"
+		add_trait="scarred_high"
+		add_trait="scarred_type_1"
 	}
 }
 640107 = {
-	name="Evaristo" # Evaristo Uriburu.
+	name="Evaristo" # Evaristo Uriburu, Count of Pozo del Sauce.
 	dynasty=285054
-	
+
 	diplomacy = 4
 	martial = 1
 	stewardship = 4
@@ -133,8 +131,6 @@
 
 	culture=norteno
     religion=catholic
-
-	add_trait="strong"
 
 	father=640106 # Miguel Uriburu
 	mother=640092 # María Güemes
@@ -195,40 +191,44 @@
     name="Miguel" # Miguel Uriburu.
     dynasty=285054
 
-	martial=4
-    diplomacy=3
-    stewardship=4
-    intrigue=3
-    learning=3
+	diplomacy = 3
+	martial = 1
+	stewardship = 4
+	intrigue = 3
+	learning = 3
 
 	culture=norteno
     religion=catholic
-	
+
+	disallow_random_traits = yes
+
 	father=640085 # Felix Uriburu
 	mother=640086 # Olivia Massa
 
-    trait=charismatic_negotiator
-    trait=quick
-    trait=gregarious
-    trait=diligent
-    trait=proud
-
-    2347.1.1 = {
-		birth=yes
+    2347.7.13 = {
+		birth="2347.7.13"
 	}
-	2364.7.5 = {
-		add_trait="crusader"
+	2363.7.13 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="cruel"
+		add_trait="zealous"
 	}
 }
 640088 = {
-    name="Evaristo"
-    dynasty=285054 # Uriburu
+    name="Evaristo" # Evaristo Uriburu.
+    dynasty=285054
 
-    martial=2
-    diplomacy=1
-    stewardship=2
-    intrigue=3
-    learning=2
+	diplomacy = 3
+	martial = 1
+	stewardship = 4
+	intrigue = 3
+	learning = 3
 
 	culture=norteno
     religion=catholic
@@ -236,10 +236,23 @@
 	father=640085 # Felix Uriburu
 	mother=640086 # Olivia Massa
 
-    2349.1.1={birth=yes}
+    2349.8.1 = {
+		birth="2349.8.1"
+	}
+	2365.8.1 = {
+		add_trait="skilled_tactician"
+		add_trait="aggressive_leader"
+		add_trait="organizer"
+		add_trait="brave"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="cruel"
+		add_trait="zealous"
+	}
 }
 640089 = {
-    name="Carmen"
+    name="Carmen" # Carmen Uriburu.
     dynasty=285054
 	female=yes
 	dna="0cd0j0bb000"
@@ -259,14 +272,24 @@
 	father=640085 # Felix Uriburu
 	mother=640086 # Olivia Massa
 
-    2351.1.1 = {
-		birth=yes
+    2351.12.1 = {
+		birth="2351.12.1"
+	}
+	2363.12.1 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="shy"
+		add_trait="zealous"
+		add_trait="erudite"
+		add_trait="poet"
 	}
 }
 ### Issue of Evaristo ###
 640090 = {
-    name="Felix"
-    dynasty=285054 # Uriburu
+    name="Felix" # Felix Uriburu, Count of Pozo del Sauce.
+    dynasty=285054
 	father=640107
     culture=norteno
     religion=catholic
@@ -1365,8 +1388,9 @@
 		add_trait="crusader"
 	}
 	2364.11.5 = {
-		add_trait="scarred_high"
 		add_trait="one_eyed"
+		add_trait="scarred_high"
+		add_trait="scarred_type_1"
 		give_nickname=nick_the_thrice_killed
 	}
 }
@@ -1527,6 +1551,10 @@
 	2364.7.5 = {
 		add_trait="crusader"
 		give_nickname=nick_the_knight_of_the_andes
+	}
+	2364.11.8 = {
+		add_trait="scarred_mid"
+		add_trait="scarred_type_1"
 	}
 }
 640047 = {

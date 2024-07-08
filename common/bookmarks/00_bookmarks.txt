@@ -16,8 +16,8 @@ bm_cono_sur = {
 		
 		character = {
 			female = no
-			dna="aaafg00ade0"
-			properties="0t00ek"
+			dna="aaafg00ace0"
+			properties="0t00ek0000000000000000000a"
 			religion="catholic"
 			culture="centrino"
 			government = feudal_government
@@ -26,7 +26,7 @@ bm_cono_sur = {
 	}
 	
 	selectable_character = {
-		id = 330007 #Estanislao Valle
+		id = 330007 # Lionel Valle
 		age = 45
 		name = ERA_CHAR_NAME_ESTANISLAO
 		title = k_buenos_aires
@@ -34,8 +34,8 @@ bm_cono_sur = {
 		
 		character = {
 			female = no
-			dna="0bi0g0c0ce0"
-			properties="0d0afk"
+			dna="0bi0g0c0be0"
+			properties="0d0afk0000000000000000000h"
 			religion="platinean"
 			culture="porteno"
 			government = feudal_government
@@ -317,8 +317,8 @@ bm_cafe_com_leite = {
 		
 		character = {
 			female = no  
-			dna="cib000fcgb0"
-			properties="we0b0c00000"
+			dna="aib000fcef0"
+			properties="0t0b0k0a"
 			religion="peterite"
 			culture="paulistano"
 			government = feudal_government

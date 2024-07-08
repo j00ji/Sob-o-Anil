@@ -15,7 +15,7 @@ b_capao_da_canoa = city
 #b_capao_novo = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

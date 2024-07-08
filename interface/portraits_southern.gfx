@@ -1,4 +1,10 @@
+########################
+### Southern Sprites ###
+########################
+
 spriteTypes = {
+
+### Male ###
 	
 	spriteType = {
 		name = "GFX_southern_male_clothes_behind"
@@ -300,6 +306,8 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
+	
+### Female ###
 	
 	spriteType = {
 		name = "GFX_southern_female_clothes_behind"

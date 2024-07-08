@@ -126,7 +126,7 @@
 500009 = {
 	name="Reiche"
 	culture=iqueno
-	religion=camino_estelar
+	religion=obscurantist
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -144,7 +144,7 @@
 500010 = {
 	name="Pitluga"
 	culture=iqueno
-	religion=camino_estelar
+	religion=obscurantist
 	can_appear = no
 	used_for_random = no
 }
@@ -603,11 +603,11 @@
 	}
 }
 500040 = {
-	name="Mannarelli"
+	name="Grau"
 	culture=ileno
-    religion=obscurantist
-	can_appear = no
-	used_for_random = no
+    religion=santa_diablada
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {

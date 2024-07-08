@@ -15,7 +15,7 @@ b_tacuarembo = castle
 #b_quiebra_yugos = castle
 
 # Misc
-culture=charrua
+culture=gaucho_uru
 religion=catholic
 
 #History

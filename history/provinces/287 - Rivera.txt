@@ -15,7 +15,7 @@ b_tranqueras = temple
 #b_paso_hospital = castle
 
 # Misc
-culture=charrua
+culture=gaucho_uru
 religion=catholic
 
 #History

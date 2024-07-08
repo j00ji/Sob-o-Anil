@@ -15,7 +15,7 @@ b_rocha = castle
 #b_valizas = castle
 
 # Misc
-culture=charrua
+culture=oriental
 religion=piriamano
 
 #History

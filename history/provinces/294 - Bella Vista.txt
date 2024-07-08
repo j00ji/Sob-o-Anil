@@ -15,7 +15,7 @@ b_diecinueve_de_junio = castle
 #b_cebollati = castle
 
 # Misc
-culture=charrua
+culture=oriental
 religion=artiguista
 
 #History

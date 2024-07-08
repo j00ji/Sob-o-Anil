@@ -19,6 +19,13 @@ spriteTypes = {
 		noOfFrames = 14
 		norefcount = yes
 	}
+	
+	spriteType = {
+		name = "PORTRAIT_surenogfx_child_male"
+		texturefile = "gfx\\characters\\default_son_german.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
 
 ### Female ###
 
@@ -35,12 +42,19 @@ spriteTypes = {
 		noOfFrames = 12
 		norefcount = yes
 	}
+	
+	spriteType = {
+		name = "PORTRAIT_surenogfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter_german.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
 
 ### Male ###
 
 	# Young
 	portraitType = {
-		name = "PORTRAIT_germangfx_male"
+		name = "PORTRAIT_surenogfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = {
 			"GFX_character_background:p0"
@@ -96,15 +110,15 @@ spriteTypes = {
 		}
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 } 	# Black Hair
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } 	# Dark Brown 1
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } 	# Dark Brown 2
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } 	# Brown
-			{ 24 15 7 } { 129 98 66 } { 228 207 138 }	# Light Brown
-			{ 24 15 7 } { 166 138 86 } { 228 207 138 }	# Dirty Blonde
-			{ 12 12 9 } { 223 208 134 } { 255 255 255 } # Light blonde and turns gray
-			{ 10 10 10 } { 132 34 34 } { 255 255 255 } 	# Auburn
-			{ 10 10 10 } { 189 86 32 } { 255 255 255 } 	# Titian
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } 	 # Black Hair (323232)
+			{ 10 10 10 } { 74 64 39 } { 255 255 255 } 	 # Dark Brown (4A4027)
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } 	 # Brown (5F3317)
+			{ 10 10 10 } { 163 111 64 } { 255 255 255 }	 # Light Brown (A36F40)
+			{ 10 10 10 } { 164 140 79 } { 255 255 255 }	 # Dirty Blond (A48C4F)
+			{ 10 10 10 } { 201 181 74 } { 255 255 255 }	 # Blond (C9B54A)
+			{ 10 10 10 } { 230 212 122 } { 255 255 255 } # Light Blond (E6D47A)
+			{ 10 10 10 } { 132 34 34 } { 255 255 255 } 	 # Auburn (842222)
+			{ 10 10 10 } { 189 86 32 } { 255 255 255 } 	 # Titian (BD5620)
 		}
 		eye_color_index = 9
 		eye_color = {
@@ -123,7 +137,7 @@ spriteTypes = {
 
 	# Middle Age
 	portraitType = {
-		name = "PORTRAIT_germangfx_male1"
+		name = "PORTRAIT_surenogfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = {
 			"GFX_character_background:p0"
@@ -179,15 +193,15 @@ spriteTypes = {
 		}
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 } 	# Black Hair
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } 	# Dark Brown 1
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } 	# Dark Brown 2
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } 	# Brown
-			{ 24 15 7 } { 129 98 66 } { 228 207 138 }	# Light Brown
-			{ 24 15 7 } { 166 138 86 } { 228 207 138 }	# Dirty Blonde
-			{ 12 12 9 } { 223 208 134 } { 255 255 255 } # Light blonde and turns gray
-			{ 10 10 10 } { 132 34 34 } { 255 255 255 } 	# Auburn
-			{ 10 10 10 } { 189 86 32 } { 255 255 255 } 	# Titian
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } 	 # Black Hair (323232)
+			{ 10 10 10 } { 74 64 39 } { 255 255 255 } 	 # Dark Brown (4A4027)
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } 	 # Brown (5F3317)
+			{ 10 10 10 } { 163 111 64 } { 255 255 255 }	 # Light Brown (A36F40)
+			{ 10 10 10 } { 164 140 79 } { 255 255 255 }	 # Dirty Blond (A48C4F)
+			{ 10 10 10 } { 201 181 74 } { 255 255 255 }	 # Blond (C9B54A)
+			{ 10 10 10 } { 230 212 122 } { 255 255 255 } # Light Blond (E6D47A)
+			{ 10 10 10 } { 132 34 34 } { 255 255 255 } 	 # Auburn (842222)
+			{ 10 10 10 } { 189 86 32 } { 255 255 255 } 	 # Titian (BD5620)
 		}
 		eye_color_index = 9
 		eye_color = {
@@ -204,9 +218,9 @@ spriteTypes = {
 		headgear_that_hides_hair = { 12 13 }
 	}
 
-	# Old
+	# Old Age
 	portraitType = {
-		name = "PORTRAIT_germangfx_male2"
+		name = "PORTRAIT_surenogfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = {
 			"GFX_character_background:p0"
@@ -262,15 +276,15 @@ spriteTypes = {
 		}
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } # Black Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 }      # Dark Brown turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 }   # Dark Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 }   # Brown Hair turning gray
-			{ 23 13 6 } { 168 156 146 } { 255 255 255 }	 # Light Brown turning gray
-			{ 25 16 8 } { 179 166 135 } { 235 226 196 }	 # Dirty Blonde
-			{ 14 14 11 } { 175 175 175 } { 255 255 255 } # Light blonde and turns gray
-			{ 23 13 6 } { 130 81 81 } { 255 255 255 }  # Auburn
-			{ 23 13 6 } { 155 123 114 } { 255 255 255 }  # Titian
+			{ 30 22 18 } { 100 100 100 } { 255 255 255 }   # Black Hair old
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }   # Dark Brown old
+			{ 30 22 18 } { 117 92 77 } { 255 255 255 }     # Brown Hair old
+			{ 30 22 18 } { 214 184 153 } { 255 255 255 }   # Light Brown old
+			{ 30 22 18 } { 216 207 163 } { 235 226 196 }   # Dirty Blond old
+			{ 30 22 18 } { 241 239 210 } { 235 226 196 }   # Blond old
+			{ 30 22 18 } { 250 247 227 } { 255 255 255 }   # Light Blond old
+			{ 30 22 18 } { 130 81 81 } { 255 255 255 }     # Auburn Old
+			{ 30 22 18 } { 155 123 114 } { 255 255 255 }   # Titian Old
 		}
 		eye_color_index = 9
 		eye_color = {
@@ -291,7 +305,7 @@ spriteTypes = {
 
 	# Young
 	portraitType = {
-		name = "PORTRAIT_germangfx_female"
+		name = "PORTRAIT_surenogfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = {
 			"GFX_character_background:p0"
@@ -348,15 +362,15 @@ spriteTypes = {
 		}
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 } 	# Black Hair
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } 	# Dark Brown 1
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } 	# Dark Brown 2
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } 	# Brown
-			{ 24 15 7 } { 129 98 66 } { 228 207 138 }	# Light Brown
-			{ 24 15 7 } { 166 138 86 } { 228 207 138 }	# Dirty Blonde
-			{ 12 12 9 } { 223 208 134 } { 255 255 255 } # Light blonde and turns gray
-			{ 10 10 10 } { 132 34 34 } { 255 255 255 } 	# Auburn
-			{ 10 10 10 } { 189 86 32 } { 255 255 255 } 	# Titian
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } 	 # Black Hair (323232)
+			{ 10 10 10 } { 74 64 39 } { 255 255 255 } 	 # Dark Brown (4A4027)
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } 	 # Brown (5F3317)
+			{ 10 10 10 } { 163 111 64 } { 255 255 255 }	 # Light Brown (A36F40)
+			{ 10 10 10 } { 164 140 79 } { 255 255 255 }	 # Dirty Blond (A48C4F)
+			{ 10 10 10 } { 201 181 74 } { 255 255 255 }	 # Blond (C9B54A)
+			{ 10 10 10 } { 230 212 122 } { 255 255 255 } # Light Blond (E6D47A)
+			{ 10 10 10 } { 132 34 34 } { 255 255 255 } 	 # Auburn (842222)
+			{ 10 10 10 } { 189 86 32 } { 255 255 255 } 	 # Titian (BD5620)
 		}
 		eye_color_index = 9
 		eye_color = {
@@ -375,7 +389,7 @@ spriteTypes = {
 
 	# Middle Age
 	portraitType = {
-		name = "PORTRAIT_germangfx_female1"
+		name = "PORTRAIT_surenogfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = {
 			"GFX_character_background:p0"
@@ -432,15 +446,15 @@ spriteTypes = {
 		}
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } { 50 50 50 } { 255 255 255 } 	# Black Hair
-			{ 15 8 0 } { 56 35 20 } { 255 255 255 } 	# Dark Brown 1
-			{ 15 8 0 } { 74 64 39 } { 255 255 255 } 	# Dark Brown 2
-			{ 10 10 10 } { 95 51 23 } { 255 255 255 } 	# Brown
-			{ 24 15 7 } { 129 98 66 } { 228 207 138 }	# Light Brown
-			{ 24 15 7 } { 166 138 86 } { 228 207 138 }	# Dirty Blonde
-			{ 12 12 9 } { 223 208 134 } { 255 255 255 } # Light blonde and turns gray
-			{ 10 10 10 } { 132 34 34 } { 255 255 255 } 	# Auburn
-			{ 10 10 10 } { 189 86 32 } { 255 255 255 } 	# Titian
+			{ 10 10 10 } { 50 50 50 } { 255 255 255 } 	 # Black Hair (323232)
+			{ 10 10 10 } { 74 64 39 } { 255 255 255 } 	 # Dark Brown (4A4027)
+			{ 10 10 10 } { 95 51 23 } { 255 255 255 } 	 # Brown (5F3317)
+			{ 10 10 10 } { 163 111 64 } { 255 255 255 }	 # Light Brown (A36F40)
+			{ 10 10 10 } { 164 140 79 } { 255 255 255 }	 # Dirty Blond (A48C4F)
+			{ 10 10 10 } { 201 181 74 } { 255 255 255 }	 # Blond (C9B54A)
+			{ 10 10 10 } { 230 212 122 } { 255 255 255 } # Light Blond (E6D47A)
+			{ 10 10 10 } { 132 34 34 } { 255 255 255 } 	 # Auburn (842222)
+			{ 10 10 10 } { 189 86 32 } { 255 255 255 } 	 # Titian (BD5620)
 		}
 		eye_color_index = 9
 		eye_color = {
@@ -457,9 +471,9 @@ spriteTypes = {
 		headgear_that_hides_hair = { 12 13 }
 	}
 
-	# Old
+	# Old Age
 	portraitType = {
-		name = "PORTRAIT_germangfx_female2"
+		name = "PORTRAIT_surenogfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = {
 			"GFX_character_background:p0"
@@ -516,15 +530,15 @@ spriteTypes = {
 		}
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } { 100 100 100 } { 255 255 255 } # Black Hair turning gray
-			{ 15 8 0 } { 90 84 80 } { 255 255 255 }      # Dark Brown turning gray
-			{ 15 8 0 } { 150 150 150 } { 255 255 255 }   # Dark Brown turning white
-			{ 10 10 10 } { 117 92 77 } { 255 255 255 }   # Brown Hair turning gray
-			{ 23 13 6 } { 168 156 146 } { 255 255 255 }	 # Light Brown turning gray
-			{ 25 16 8 } { 179 166 135 } { 235 226 196 }	 # Dirty Blonde
-			{ 14 14 11 } { 175 175 175 } { 255 255 255 } # Light blonde and turns gray
-			{ 23 13 6 } { 130 81 81 } { 255 255 255 }  # Auburn
-			{ 23 13 6 } { 155 123 114 } { 255 255 255 }  # Titian
+			{ 30 22 18 } { 100 100 100 } { 255 255 255 }   # Black Hair old
+			{ 30 22 18 } { 150 150 150 } { 255 255 255 }   # Dark Brown old
+			{ 30 22 18 } { 117 92 77 } { 255 255 255 }     # Brown Hair old
+			{ 30 22 18 } { 214 184 153 } { 255 255 255 }   # Light Brown old
+			{ 30 22 18 } { 216 207 163 } { 235 226 196 }   # Dirty Blond old
+			{ 30 22 18 } { 241 239 210 } { 235 226 196 }   # Blond old
+			{ 30 22 18 } { 250 247 227 } { 255 255 255 }   # Light Blond old
+			{ 30 22 18 } { 130 81 81 } { 255 255 255 }     # Auburn Old
+			{ 30 22 18 } { 155 123 114 } { 255 255 255 }   # Titian Old
 		}
 		eye_color_index = 9
 		eye_color = {

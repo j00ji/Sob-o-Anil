@@ -146,8 +146,8 @@ cisplatinean = {
 				
 		modifier = default_culture_modifier
 	}
-	gaucho = {
-		graphical_cultures = { trueoccitangfx occitangfx germangfx }
+	gaucho_rg = {
+		graphical_cultures = { southerngfx }
 		
 		color = { 0.2 0.4 1.0 }
 		

@@ -15,7 +15,7 @@ b_santana_do_livramento = tribal
 #b_arroio_do_cambeta = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = farrapo
 
 #History

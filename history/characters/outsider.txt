@@ -60,15 +60,16 @@
 	2400.1.1={
 		death=yes
 	}
-}	
-	
-
+}
+######################
+### House Riroroko ###
+######################
 440001 = {
 	name="Hotuiti" # Hotuiti Riroroko.
 	dynasty=145028
 
 	diplomacy = 4
-	martial = 4
+	martial = 2
 	stewardship = 5
 	intrigue = 2
 	learning = 2
@@ -76,7 +77,7 @@
 	culture=rapa_nui
 	religion=catholic
 
-	add_trait="fair"
+	add_trait="strong"
 
 	2342.8.1 = {
 		birth="2342.8.1"
@@ -88,7 +89,7 @@
 		add_trait="temperate"
 		add_trait="proud"
 		add_trait="gregarious"
-		add_trait="groomed"
+		add_trait="zealous"
 	}
 	2362.9.9 = {
 		employer=230084 # Tomás Salas

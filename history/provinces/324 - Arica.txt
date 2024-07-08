@@ -8,7 +8,7 @@ max_settlements = 4
 
 b_arica = castle
 b_codpa = temple
-#b_cuya = temple
+b_cuya = castle
 #b_azapa = castle
 #b_villa_frontera = city
 #b_caleta_camarones = temple

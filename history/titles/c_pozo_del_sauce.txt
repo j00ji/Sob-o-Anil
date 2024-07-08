@@ -4,11 +4,15 @@
 	law=succ_gavelkind
 }
 800.1.1 = {
-	liege=k_norte_viejo
+	liege=k_noroeste
+}
+2338.4.16 = {
+	holder=640106 # Miguel Uriburu
+	liege=d_salta
 }
 2360.10.23 = {
-	holder=640107
+	holder=640107 # Evaristo Uriburu
 }
 2364.11.8 = {
-	holder=640090
+	holder=640090 # Felix Uriburu
 }

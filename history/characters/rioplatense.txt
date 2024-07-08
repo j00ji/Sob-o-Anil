@@ -28,7 +28,7 @@
 	}
 	2364.10.17 = {
 		death = {
-			death_reason=death_battle # Siege of Rosario
+			death_reason=death_battle # Conquest of Entre Ríos
             killer=230003 # Diego Bartales
 		}
 	}
@@ -361,7 +361,7 @@
 ### House Valle ###
 ###################
 330060 = {
-	name="Armando" # Armando Valle the Goldenhand, Procér of Buenos Aires.
+	name="Joaquín" # Joaquín Valle the Goldenhand, Procér of Buenos Aires.
     dynasty=345004
 	properties="0f0afk"
 
@@ -413,11 +413,11 @@
 	}
 }
 330061 = {
-	name="Mercedes" # Mercedes Escalada, wife of Armando Valle and Procér of Buenos Aires.
+	name="Mercedes" # Mercedes Escalada, wife of Joaquín Valle and Procér of Buenos Aires.
 	dynasty=340117
 	female=yes
 
-	diplomacy = 5
+	diplomacy = 3
 	martial = 1
     stewardship = 3
     intrigue = 3
@@ -438,18 +438,19 @@
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
+		add_trait="zealous"
 		add_trait="poet"
 	}
 	2360.10.4 = {
 		death="2360.10.4"
 	}
 }
-### Issue of Armando the Goldenhand ###
+### Issue of Joaquín the Goldenhand ###
 330007 = {
 	name="Lionel" # Lionel Valle the Victorious, Procér of Buenos Aires.
     dynasty=345004
-	dna="0bi0g0c0ce0"
-	properties="0d0afk"
+	dna="0bi0g0c0be0"
+	properties="0d0afk0000000000000000000h"
 
     diplomacy = 5
 	martial = 1
@@ -464,7 +465,7 @@
 
 	disallow_random_traits = yes
 
-	father=330060 # Armando Valle
+	father=330060 # Joaquín Valle
 	mother=330061 # Mercedes Escalada
 
     2324.2.25 = {
@@ -495,6 +496,8 @@
 		}
 	}
 	2364.11.8 = {
+		add_trait="scarred_mid"
+		add_trait="scarred_type_8"
 		effect = {
 			add_rival=330016 # Cristina Duarte
 		}
@@ -504,7 +507,7 @@
 	}
 }
 330074 = {
-	name="Francisco" # Francisco Valle the Silverfist, Gobernador of Plata.
+	name="Sergio" # Sergio Valle the Silverfist, Gobernador of Plata.
     dynasty=345004
 	properties="0b0afk"
 
@@ -521,7 +524,7 @@
 
 	disallow_random_traits = yes
 
-	father=330060 # Armando Valle
+	father=330060 # Joaquín Valle
 	mother=330061 # Mercedes Escalada
 
     2326.6.3 = {
@@ -537,6 +540,7 @@
 		add_trait="wroth"
 		add_trait="proud"
 		add_trait="gregarious"
+		add_trait="zealous"
 		add_trait="duelist"
 	}
 	2346.5.14 = {
@@ -604,7 +608,7 @@
 		add_trait="patient"
 		add_trait="proud"
 		add_trait="gregarious"
-		add_trait="duelist"
+		add_trait="strategist"
 	}
 }
 330076 = {
@@ -640,11 +644,11 @@
 	}
 }
 330077 = {
-	name="Rosa" # Rosa Valle.
+	name="Isabel" # Isabel Valle.
     dynasty=345004
 	female=yes
 
-    diplomacy = 5
+    diplomacy = 3
 	martial = 3
     stewardship = 3
     intrigue = 3
@@ -668,12 +672,15 @@
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="proud"
+		add_trait="just"
 		add_trait="gregarious"
+		add_trait="zealous"
+		add_trait="poet"
 	}
 }
-### Issue of Francisco the Silverfist ###
+### Issue of Sergio the Silverfist ###
 330078 = {
-	name="José" # José Valle.
+	name="José" # José Valle, Gobernador of Plata.
     dynasty=345004
 	properties="0p0afk"
 
@@ -690,7 +697,7 @@
 
 	disallow_random_traits = yes
 
-	father=330074 # Francisco Valle
+	father=330074 # Sergio Valle
 	mother=330029 # Beatriz Merello
 
     2347.6.19 = {
@@ -702,7 +709,6 @@
 		add_trait="inspiring_leader"
 		add_trait="brave"
 		add_trait="diligent"
-		add_trait="patient"
 		add_trait="proud"
 		add_trait="gregarious"
 		add_trait="duelist"
@@ -1144,7 +1150,7 @@
 	properties="on0f0i"
 
     diplomacy = 2
-	martial = 7
+	martial = 3
     stewardship = 3
     intrigue = 3
     learning = 2
@@ -1154,11 +1160,14 @@
 
     add_trait="quick"
 
+	disallow_random_traits = yes
+
     2348.5.7 = {
 		birth="2348.5.7"
 	}
 	2364.5.7 = {
 		add_trait="tough_soldier"
+		add_trait="holy_warrior"
 		add_trait="brave"
 		add_trait="chaste"
 		add_trait="kind"
