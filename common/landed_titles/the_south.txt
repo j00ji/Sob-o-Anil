@@ -700,6 +700,61 @@ e_the_south = {
 				b_socavao = {}
 			}
 		}
+		d_corredores_das_aguas = {
+			color={ 0 117 134 }
+			color2={ 255 255 255 }
+			
+			capital = 227 #Maringá
+			
+			c_maringa = { # 227
+				color={ 2 100 121 }
+				color2={ 255 255 255 }
+				
+				b_maringa = {}
+				b_marialva = {}
+				b_mandaguacu = {}
+				b_paicandu = {}
+				b_astorga = {}
+				b_mandaguacu_2 = {}
+				b_jandaia_do_sul = {}
+			}
+			c_umuarama = { # 224
+				color={ 166 224 141 }
+				color2={ 255 255 255 }
+				
+				b_umuarama = {}
+				b_xambre = {}
+				b_santa_monica = {}
+				b_perobal = {}
+				b_iperaba = {}
+				b_altamira_do_parana = {}
+				b_douradina = {}
+			}
+			c_paranavai = { # 1102
+				color={ 229 208 96 }
+				color2={ 255 255 255 }
+				
+				b_paranavai = {}
+				b_sao_pedro_do_parana = {}
+				b_terra_rica = {}
+				b_tamboara = {}
+				b_paraiso_do_norte = {}
+				b_sao_carlos_do_ivai = {}
+				b_nova_esperanca = {}
+			}
+			c_cianorte = { # 1103
+				color={ 80 136 186 }
+				color2={ 255 255 255 }
+				
+				b_cianorte = {}
+				b_japura = {}
+				b_japura_do_sul = {}
+				b_rondon = {}
+				b_indianopolis = {}
+				b_guaporema = {}
+				b_tuneiras_do_oeste = {}
+			}
+		}
 		d_guayra = {
 			color={ 111 72 158 }
 			color2={ 255 255 255 }
@@ -770,42 +825,6 @@ e_the_south = {
 				b_assis_chateaubriand = {}
 				b_nova_aurora = {}
 				b_cafelandia = {}
-			}
-			c_umuarama = { # 224
-				color={ 166 224 141 }
-				color2={ 255 255 255 }
-				
-				b_umuarama = {}
-				b_xambre = {}
-				b_santa_monica = {}
-				b_perobal = {}
-				b_iperaba = {}
-				b_altamira_do_parana = {}
-				b_douradina = {}
-			}
-			c_paranavai = { # 1102
-				color={ 229 208 96 }
-				color2={ 255 255 255 }
-				
-				b_paranavai = {}
-				b_sao_pedro_do_parana = {}
-				b_terra_rica = {}
-				b_tamboara = {}
-				b_paraiso_do_norte = {}
-				b_sao_carlos_do_ivai = {}
-				b_nova_esperanca = {}
-			}
-			c_cianorte = { # 1103
-				color={ 80 136 186 }
-				color2={ 255 255 255 }
-				
-				b_cianorte = {}
-				b_japura = {}
-				b_japura_do_sul = {}
-				b_rondon = {}
-				b_indianopolis = {}
-				b_guaporema = {}
-				b_tuneiras_do_oeste = {}
 			}
 		}
 		d_nova_rutenia = {
@@ -895,18 +914,6 @@ e_the_south = {
 				b_tamarana = {}
 				b_jandaia_do_sul_2 = {}
 				b_maua_da_serra = {}
-			}
-			c_maringa = { # 227
-				color={ 2 100 121 }
-				color2={ 255 255 255 }
-				
-				b_maringa = {}
-				b_marialva = {}
-				b_mandaguacu = {}
-				b_paicandu = {}
-				b_astorga = {}
-				b_mandaguacu_2 = {}
-				b_jandaia_do_sul = {}
 			}
 			c_santo_antonio_da_platina = { # 230
 				color={ 105 49 74 }

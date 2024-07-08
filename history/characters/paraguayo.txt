@@ -458,3 +458,97 @@
 
 	#Wife of Prince Luis Gelly, 50/50 chance to assassinate the crown prince in opening event chain
 }
+
+#Ciudad del Este republic
+
+690028 = {
+	name = "Juan"
+	dynasty = 310011 # Gonzalez
+	culture = mediterranean
+	religion = catholic
+	trait = charismatic_negotiator
+	trait = humble
+	trait = just
+	trait = diligent
+	diplomacy = 12
+	martial = 8
+	stewardship = 10
+	intrigue = 6
+	learning = 10
+	2325.1.1 = {
+		birth = yes
+		culture = guarani
+	}
+	2405.1.1 = {
+		death = yes
+	}
+}
+
+690029 = {
+	name = "Khalid"
+	dynasty = 310012 # Dibb
+	culture = arabic
+	religion = herderos
+	trait = midas_touched
+	trait = brave
+	trait = diligent
+	trait = ambitious
+	diplomacy = 10
+	martial = 8
+	stewardship = 12
+	intrigue = 8
+	learning = 8
+	2330.1.1 = {
+		birth = yes
+		culture = guarani
+	}
+	2410.1.1 = {
+		death = yes
+	}
+}
+
+690030 = {
+	name = "Omar"
+	dynasty = 310013 # Seifart
+	culture = arabic
+	religion = herderos
+	trait = shrewd
+	trait = patient
+	trait = charitable
+	trait = gregarious
+	diplomacy = 12
+	martial = 6
+	stewardship = 10
+	intrigue = 8
+	learning = 10
+	2335.1.1 = {
+		birth = yes
+		culture = guarani
+	}
+	2415.1.1 = {
+		death = yes
+	}
+}
+
+690031 = {
+	name = "Zhang"
+	dynasty = 310014 # Kai-shek
+	culture = chinese
+	religion = buddhist
+	trait = fortune_builder
+	trait = diligent
+	trait = ambitious
+	trait = gregarious
+	diplomacy = 10
+	martial = 6
+	stewardship = 16
+	intrigue = 8
+	learning = 12
+	2330.1.1 = {
+		birth = yes
+		culture = guarani
+	}
+	2405.1.1 = {
+		death = yes
+	}
+}

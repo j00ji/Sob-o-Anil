@@ -443,7 +443,7 @@
 }
 260021={
 	name="Francisco"
-	dynasty=1400001 #Taguchi
+	dynasty=1400001 #Hossokawa
 	culture=kyusei
 	religion=anchietican
 	trait=skilled_tactician
@@ -463,7 +463,7 @@
 }
 260022={
 	name="Ulisses"
-	dynasty=1400001 #Taguchi
+	dynasty=1400001 #Hossokawa
 	culture=kyusei
 	father=260021
 	religion=anchietican
@@ -477,11 +477,11 @@
 	2365.1.1={
 		death=yes
 	}
-	#2nd rulre of Taguchi paranapanema, ruled from childhood in 2325 until his death in 2365
+	#2nd rulre of Hossokawa paranapanema, ruled from childhood in 2325 until his death in 2365
 }
 260023={
 	name="Thiago"
-	dynasty=1400001 #Taguchi
+	dynasty=1400001 #Hossokawa
 	culture=kyusei
 	father=260022
 	religion=anchietican
@@ -513,7 +513,7 @@
 }
 260024={
 	name="Larissa"
-	dynasty=1400001 #Taguchi
+	dynasty=1400001 #Hossokawa
 	culture=kyusei
 	father=260022
 	religion=anchietican
@@ -532,7 +532,7 @@
 	2400.1.1={
 		death=yes
 	}
-	#sister of thiago Taguchi
+	#sister of thiago Hossokawa
 }
 260025={
 	name="Nicoli"
@@ -557,7 +557,7 @@
 	2400.1.1={
 		death=yes
 	}
-	#Spouse and Lover of Thiago Taguchi
+	#Spouse and Lover of Thiago Hossokawa
 }
 260026={
 	name="Jessica"
@@ -603,7 +603,7 @@
 }
 260028={
 	name="Naomi"
-	dynasty=1400001 #Taguchi
+	dynasty=1400001 #Hossokawa
 	female=yes
 	culture=kyusei
 	religion=anchietican
@@ -618,7 +618,7 @@
 }
 260029={
 	name="Jacó"
-	dynasty=110004 #Habibs
+	dynasty=110004 #Abdala
 	culture=paranaense
 	religion=herderos
 	trait=midas_touched
@@ -637,6 +637,242 @@
 	}
 	#Former duke of Guayra
 }
+260030 = {
+	name = "Simão"
+	dynasty = 75006 # Fréza
+	culture = english
+	religion = anchietican
+	dna = "aehd00gbid0"
+	properties = "kn0bbb000000000000000000000000000000"
+	trait = midas_touched
+	trait = brave
+	trait = diligent
+	trait = ambitious
+	trait = just
+	trait = charitable
+	diplomacy = 10
+	martial = 8
+	stewardship = 10
+	intrigue = 6
+	learning = 12
+	2319.12.9 = {
+		birth = yes
+		culture = paranapanense
+	}
+	2344.1.1 = {
+		add_spouse = 260031
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+260031 = {
+	name = "Isabela"
+	female = yes
+	dynasty = 0 #give her a important dynasty later change her culture accordingly
+	culture = english
+	religion = anchietican
+	trait = genius
+	trait = kind
+	trait = temperate
+	trait = charitable
+	diplomacy = 8
+	martial = 5
+	stewardship = 12
+	intrigue = 10
+	learning = 14
+	2325.4.15 = {
+		birth = yes
+		culture = paranapanense
+	}
+	2390.8.20 = {
+		death = yes
+	}
+}
+
+260032 = {
+	name = "Rodrigo"
+	dynasty = 75006 # Fréza
+	culture = english
+	religion = anchietican
+	trait = diligent
+	trait = ambitious
+	trait = brave
+	trait = temperate
+	diplomacy = 8
+	martial = 12
+	stewardship = 10
+	intrigue = 6
+	learning = 8
+	2350.6.1 = {
+		birth = yes
+	}
+	2420.1.1 = {
+		death = yes
+	}
+}
+
+260033 = {
+	name = "Ana"
+	female = yes
+	dynasty = 75006 # Fréza
+	culture = english
+	religion = anchietican
+	trait = diligent
+	trait = kind
+	trait = just
+	diplomacy = 10
+	martial = 4
+	stewardship = 8
+	intrigue = 6
+	learning = 12
+	2353.3.12 = {
+		birth = yes
+	}
+	2430.1.1 = {
+		death = yes
+	}
+}
+
+260034 = {
+	name = "Leonardo"
+	dynasty = 75006 # Fréza
+	culture = english
+	religion = anchietican
+	trait = ambitious
+	trait = brave
+	trait = diligent
+	diplomacy = 6
+	martial = 14
+	stewardship = 12
+	intrigue = 5
+	learning = 7
+	2355.10.22 = {
+		birth = yes
+	}
+	2410.1.1 = {
+		death = yes
+	}
+}
+260035 = {
+	name = "Alberto"
+	dynasty = 75007 # Ferrarin
+	culture = paranapanense
+	religion = anchietican
+	female = no
+	trait = brilliant_strategist
+	trait = brave
+	trait = diligent
+	trait = ambitious
+	trait = kind
+	diplomacy = 12
+	martial = 16
+	stewardship = 10
+	intrigue = 8
+	learning = 10
+	2320.3.14 = {
+		birth = yes
+	}
+	2350.5.1 = {
+		add_spouse = 260036
+	}
+	2400.12.31 = {
+		death = yes
+	}
+}
+
+260036 = {
+	name = "Elena"
+	dynasty = 75008 # Souza
+	culture = paranapanense
+	religion = anchietican
+	female = yes
+	trait = genius
+	trait = kind
+	trait = patient
+	trait = charitable
+	diplomacy = 14
+	martial = 6
+	stewardship = 12
+	intrigue = 10
+	learning = 14
+	2325.7.21 = {
+		birth = yes
+	}
+	2350.5.1 = {
+		add_spouse = 260035
+	}
+	2405.2.15 = {
+		death = yes
+	}
+}
+
+260037 = {
+	name = "Rodrigo"
+	dynasty = 75007 # Ferrarin
+	culture = paranapanense
+	religion = anchietican
+	trait = diligent
+	trait = ambitious
+	trait = brave
+	trait = temperate
+	diplomacy = 10
+	martial = 14
+	stewardship = 12
+	intrigue = 8
+	learning = 10
+	2352.8.10 = {
+		birth = yes
+	}
+	2420.5.1 = {
+		death = yes
+	}
+}
+
+260038 = {
+	name = "Ana"
+	dynasty = 75007 # Ferrarin
+	culture = paranapanense
+	religion = anchietican
+	female = yes
+	trait = diligent
+	trait = kind
+	trait = just
+	diplomacy = 12
+	martial = 6
+	stewardship = 10
+	intrigue = 8
+	learning = 12
+	2355.3.12 = {
+		birth = yes
+	}
+	2430.6.15 = {
+		death = yes
+	}
+}
+
+260039 = {
+	name = "Leonardo"
+	dynasty = 75007 # Ferrarin
+	culture = paranapanense
+	religion = anchietican
+	trait = ambitious
+	trait = brave
+	trait = diligent
+	diplomacy = 8
+	martial = 16
+	stewardship = 12
+	intrigue = 7
+	learning = 9
+	2358.12.22 = {
+		birth = yes
+	}
+	2415.3.10 = {
+		death = yes
+	}
+}
+
 270001={
 	name="Ramon"
 	dynasty=90001 #Madruga

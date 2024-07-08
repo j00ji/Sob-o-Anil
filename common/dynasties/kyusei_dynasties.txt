@@ -1,7 +1,7 @@
 ###ÄNSI
 
 1400001 = {
-	name = "Taguchi"
+	name = "Hossokawa"
 	culture = kyusei
 	religion = iconoclasts
 	can_appear = no
@@ -10,7 +10,7 @@
 		template = 0
 		layer = {
 			texture = 6
-			texture_internal = 6
+			texture_internal = 65
 			emblem = 0
 			color = 0
 			color = 0

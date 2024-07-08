@@ -187,6 +187,7 @@ feudal_governments = {
 					religion = camino_estelar
 					religion = celeste
 					religion = mucker
+					religion = obscurantist
 				}
 				higher_tier_than = BARON
 			}

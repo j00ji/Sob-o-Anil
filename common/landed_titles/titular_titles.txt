@@ -255,8 +255,8 @@ k_goytacazes_generalship = {
 }
 
 k_serra_gaucha = {
-		color={ 242 40 25 }
-		color2={ 255 255 255 }
+	color={ 27 74 27 }
+	color2={ 255 255 255 }
 		
 	capital = 143 # c_porto_alegre
 	culture = gaucho_rg

@@ -86,6 +86,33 @@ b_amin = {
 	religion = universal
 }
 
+## Ciudad del Este
+
+b_perez = {
+	culture = guarani
+	religion = jerovia
+}
+
+b_gonzalez = {
+	culture = guarani
+	religion = catholic
+}
+
+b_dibb = {
+	culture = guarani
+	religion = herderos
+}
+
+b_seifart = {
+	culture = guarani
+	religion = herderos
+}
+
+b_kaishek = {
+	culture = guarani
+	religion = buddhism
+}
+
 ## Recife
 
 b_cavalcanti = {

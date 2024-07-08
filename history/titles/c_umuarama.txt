@@ -6,6 +6,7 @@
 800.1.1={
 	liege=k_parana
 }
-2367.1.1={
-	holder=260023 #Thiago Tanaka
+2353.1.1={
+	holder = 260035 #Alberto Ferrarin
+	liege = d_corredores_das_aguas
 }

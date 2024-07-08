@@ -82,6 +82,34 @@
 	used_for_random = no
 }
 
+310011 = {
+	name = "Gonzalez"
+	culture = guarani
+	religion = catholic
+	used_for_random = no
+}
+
+310012 = {
+	name = "Dibb"
+	culture = guarani
+	religion = catholic
+	used_for_random = no
+}
+
+310013 = {
+	name = "Seifart"
+	culture = guarani
+	religion = catholic
+	used_for_random = no
+}
+
+310014 = {
+	name = "Kai-shek"
+	culture = guarani
+	religion = catholic
+	used_for_random = no
+}
+
 #random Surnames
 
 310500 = {

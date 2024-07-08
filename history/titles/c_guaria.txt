@@ -3,6 +3,6 @@
 	law = cognatic_succession
 }
 2360.1.1={
-	holder = 690010
+	holder = 690029
 	liege = k_teachers
 }
