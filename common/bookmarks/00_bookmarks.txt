@@ -135,8 +135,8 @@ bm_cordillera = {
 		
 		character = {
 			female = no
-			  dna="aedgf0hb0f0"
-  properties="rd0b0b000000000000000000000000000000"
+			dna="acbib0dbcg0"
+			properties="0d0d0k"
 			religion="catholic"
 			culture="german"
 			government = feudal_government
