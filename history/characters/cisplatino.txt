@@ -1,21 +1,19 @@
 #ÄNSI
-260001={
-	name="Ahnume"
-	dynasty=85002#Guerios
-	culture=paranaense
-	dna="bafdh00aad0"
-	properties="rn0cmk000000000000000000000000000000"
-	religion=anchietican
-	trait=charismatic_negotiator
-	trait=proud
-	trait=content
-	trait=patient
-	diplomacy=11
-	martial=7
-	stewardship=6
-	intrigue=4
-	learning=8
-	2340.1.1={
+260001={ # Anhume Guerios, ancestral da família Guerios em Curitiba.
+    name="Anhume"
+    dynasty=85002
+    culture=arabic
+    religion=orthodoxist
+    dna="aehd00gbid0"
+    properties="rn0cmk000000000000000000000000000000"
+    trait=brilliant_strategist
+    trait=ambitious
+    trait=proud
+    2205.1.1={
+        birth=yes
+		culture = paranaense
+    }
+	2205.1.1={
 		birth=yes
 		culture=paranaense
 		create_bloodline = {
@@ -23,10 +21,10 @@
 			has_dlc = "Holy Fury"
 		}
 	}
-	2400.1.1={
-		death=yes
-	}
-	#Curitiba ruler, also owns Lapa
+    2252.12.25={
+        death=yes
+    }
+    # Conde de Curitiba e Lapa, conhecido por sua habilidade diplomática e liderança firme.
 }
 260002={
 	name="Jackson"
@@ -869,6 +867,335 @@
 		birth = yes
 	}
 	2415.3.10 = {
+		death = yes
+	}
+}
+
+260040 = { #Lucas Guerios, from the main branch count of Curitiba
+    name="Lucas"
+	father = 260001
+    dynasty = 85002 
+    culture = arabic
+    religion = orthodoxist
+    dna = "aejd30gkjd0"
+    properties = "mn1vkj000000000000000000000000000000"
+    trait =ambitious
+    trait =quick
+    trait =cynical
+    trait =stubborn
+    2240.4.5={
+        birth=yes
+		culture = paranaense
+    }
+    2260.5.1={
+        #add_spouse=
+    }
+    2299.3.20={
+        death=yes
+    }
+}
+
+260041 = { # Amélia Guerios, a última herdeira do ramo principal dos Guerios.
+    name="Amélia"
+	father = 260040
+    dynasty = 85002 #guerios
+    female = yes
+    culture = arabic
+    religion = orthodoxist
+    dna = "aehd00gbid0"
+    properties = "rn0cmk000000000000000000000000000000"
+    trait = intelligent
+    trait = ambitious
+    trait = kind
+    2290.5.10 = {
+        birth = yes
+		culture = paranaense
+    }
+    2354.11.3={
+        death = yes
+    }
+}
+
+260042 = { # Rafael Guerios,Amelia's Brother briefly ruled as duke of Curitiba before dying
+    name="Rafael"
+    father=260040 # Lucas Guerios
+    dynasty=85002 # Guerios
+    culture=arabic
+    religion=orthodoxist
+    dna="aejd30gkjd5"
+    properties="mn1vkl000000000000000000000000000000"
+    trait=brave
+    trait=gregarious
+    trait=just
+    2285.3.14={
+        birth=yes
+		culture = paranaense
+    }
+    2310.7.20={
+        #add_spouse=
+    }
+    2315.10.9={
+        death={
+			death_reason = death_battle
+		}
+    }
+}
+
+# Márcio Guerios, líder do ramo secundário e Conde de Ponta Grossa.
+260043 = {
+    name="Márcio"
+    dynasty=85002
+    culture=arabic
+    religion=orthodoxist
+	father = 260001
+    dna="bafdh00aad0"
+    properties="rn0cmk000000000000000000000000000000"
+    2244.1.1={
+        birth=yes
+		culture = paranaense
+    }
+    2330.6.17={
+        death=yes
+    }
+}
+
+#count of ponta grossa after Márcio
+260044 = {
+	name = "Sérgio"
+    dynasty=85002
+    culture=arabic
+    religion=orthodoxist
+	father = 260043
+	
+	2297.1.1={
+		birth = yes
+		culture = paranaense
+	}
+	2367.1.1={
+		death = yes
+	}
+}
+
+#current count of ponta grossa
+260045 = {
+	name = "Alberto"
+	dynasty = 85002
+	culture	 = arabic
+	religion = orthodoxist
+	father = 260043
+	trait=diligent
+    trait=ambitious
+    trait=patient
+    trait=intricate_webweaver
+	
+	2329.1.1={
+		birth = yes
+		culture = paranaense
+	}
+	2400.1.1={
+		death = yes
+	}
+}
+
+#Saporski family
+
+260046={
+	name="Vilmar"
+	dynasty=85005 #Saporski
+	dna="bkacdcmolca"
+	culture=paranaense
+	religion=anchietican
+	martial=5
+	diplomacy=6
+	stewardship=6
+	intrigue=4
+	learning=4
+	trait=brilliant_strategist
+	trait=impaler
+	trait=just
+	trait=kind
+	trait=honest
+	trait=depressed
+	father=260046
+	mother=260047
+	2221.12.10={birth=yes}
+	#2244.6.26 = {add_spouse=}
+	2280.3.18={death=yes}
+}
+
+260047={
+	name="Nestor"
+	dynasty=85005 #Saporski
+	dna="pekcacdolca"
+	culture=paranaense
+	religion=anchietican
+	father=260046
+	martial=4
+	diplomacy=4
+	stewardship=4
+	intrigue=6
+	learning=3
+	trait=underhanded_rogue
+	trait=diligent
+	trait=charitable
+	trait=content
+	trait=deceitful
+	father=260046
+	mother=260047
+	2247.9.18={birth=yes}
+	2303.10.31={death=yes}
+}
+
+260048={
+	name="Leandro"
+	dynasty=85005 #Saporski
+	dna="bnajdcbmhpo"
+	culture=paranaense
+	religion=anchietican
+	father=260047
+	martial=7
+	diplomacy=3
+	stewardship=6
+	intrigue=3
+	learning=5
+	trait=flamboyant_schemer
+	trait=chaste
+	father=260048
+	mother=260053
+	2296.2.25={birth=yes}
+	2370.6.13={death=yes}
+}
+
+#Lachowski, bastard branch of the Saporskis
+
+260049 = { #married off the Guerios lady
+	name = "Beto"
+	dynasty = 85006 #Lachowski
+	dna="0cafc0bcfd0"
+	properties="ac0cld"
+	culture = paranaense
+	religion = anchietican
+	trait = grey_eminence
+	trait = fair
+	trait = gregarious
+	trait = bastard
+	
+	2291.1.1={
+		birth = yes
+	}
+    2308.6.15= {
+        add_spouse = 260041
+    }
+	2347.1.1={
+		death = yes
+	}
+}
+ 
+260050 = { #Beto king of Curitiba
+	name =  "Beto"
+	father = 260049
+	mother = 260041
+	dynasty = 85006 #Lachowski
+	dna="0cafc0bcfd0"
+	properties="ck0cg"
+	culture = paranaense
+	religion = anchietican
+	trait = fair
+	trait = tough_soldier
+	trait = ambitious
+	trait = wroth
+	trait = depressed #
+	2310.6.23 = {
+		birth = yes
+	}
+	2368.1.1 = {
+		add_spouse = 260007 #
+	}
+	2370.1.1={
+		death = yes
+	}
+}
+
+260051 = {
+	name = "Dinho"
+	dynasty = 85006 #Lachowski
+	dna="0cafc0bcfd0"
+	culture = paranaense
+	religion = anchietican
+	trait = fair
+	father = 260050
+	mother = 260007
+	2369.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}
+}
+
+# Lara family, bandeirante conquerors
+
+260052 = {
+	name = "Régis"
+	dynasty = 55056 #Lara
+	culture = paulistano
+	religion = anchietican
+	trait = bandeirante
+	trait = ambitious
+	trait = skilled_tactician
+	trait = inspiring_leader
+	trait = deceitful
+	diplomacy = 4
+	martial = 8
+	stewardship = 7
+	intrigue = 7
+	learning = 5
+	2330.4.30 = {
+		birth = yes
+	}
+	2362.1.1 = {
+		add_spouse = 260053
+	}
+	2400.1.1 = {
+		death = yes
+	}	
+}
+
+260053 = {
+	name = "Isabela"
+	dynasty = 85007 #Trevizam
+	culture = paranaense
+	religion = anchietican
+	female = yes
+	dna="0bgii00bbb0"
+	properties="pk0h0k0000000000000000000000000000000"
+	trait = intricate_webweaver
+	trait = deceitful
+	trait = shy
+	diplomacy = 4
+	martial = 4
+	stewardship = 9
+	intrigue = 6
+	learning = 9
+	2343.1.1 = {
+		birth = yes
+	}
+	2400.1.1 ={
+		death = yes
+	}
+}
+
+260054 = {
+	name = "Enzo"
+	dynasty = 55056 #Lara
+	culture = paranaense
+	religion = anchietican
+	father = 260052
+	mother = 260053
+	2365.1.1 = {
+		birth = yes
+	}
+	2400.1.1 = {
 		death = yes
 	}
 }

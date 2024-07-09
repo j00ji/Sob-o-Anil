@@ -254,6 +254,18 @@ k_goytacazes_generalship = {
 	 #primary = yes 
 }
 
+k_noiva_do_mar = {
+	color={ 45 114 165 }
+	color2={ 255 255 255 }
+		
+	capital = 143 # c_porto_alegre
+	culture = gaucho_rg
+	
+	allow = {
+		always = no
+	}
+}
+
 k_serra_gaucha = {
 	color={ 27 74 27 }
 	color2={ 255 255 255 }

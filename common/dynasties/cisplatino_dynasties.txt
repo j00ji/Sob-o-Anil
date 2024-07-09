@@ -57,6 +57,60 @@
 	used_for_random=no
 }
 
+85005 = {
+	name = "Saporski"
+	culture=paranaense
+	can_appear=no
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 32
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+85006 = {
+	name = "Lachowski"
+	culture=paranaense
+	can_appear=no
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+85007 = {
+	name = "Trevisan"
+	culture=paranaense
+	can_appear=no
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 34
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
 ####################
 ##Random dynasties
 ##Based on Paraná's senators

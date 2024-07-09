@@ -6,6 +6,21 @@
 800.1.1={
 	liege=k_parana
 }
-2360.1.1={
-	holder = 260001#Ahnume Guerios
+2240.1.1={
+	holder = 260001 #Ahnume Guerios
+}
+2252.12.25={
+	holder = 260040 #Lucas Guerios
+}
+2299.3.20={
+	holder = 260042 #Rafael Guerios duke of Curitiba
+}
+2315.10.9={
+	holder = 260041 #Amélia Guerios
+}
+2354.11.3={
+	holder = 260050 #Beto Lachowski
+}
+2367.1.1 ={
+	holder = 260052 #Régis Lara, bandeirante conqueror
 }

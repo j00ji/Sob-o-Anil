@@ -3,3 +3,9 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
+2361.11.3={
+	holder = 260050 #Beto Lachowski
+}
+2367.1.1 ={
+	holder = 0 #Régis Lara, bandeirante conqueror
+}

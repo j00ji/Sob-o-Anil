@@ -6,7 +6,16 @@
 800.1.1={
 	liege=k_parana
 }
-2360.1.1={
-	holder = 260006#Robson Leinig
-	liege=d_curitiba
+2240.1.1={
+	holder = 260001 #Ahnume Guerios
+}
+2252.12.25={
+	holder = 260043 #Márcio Guerios
+}
+2330.6.17={
+	holder = 260044 #Sérgio Guerios
+	liege = d_curitiba
+}
+2367.1.1={
+	holder = 260045 #Alberto Guerios
 }

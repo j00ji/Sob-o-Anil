@@ -16,6 +16,6 @@ b_jaguaruna = temple
 
 # Misc
 culture = greenbelly
-religion = anchietican
+religion = celeste
 
 #History

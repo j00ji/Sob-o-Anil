@@ -16,6 +16,6 @@ b_meia_praia = city
 
 # Misc
 culture = greenbelly
-religion = anchietican
+religion = kardecists
 
 #History
