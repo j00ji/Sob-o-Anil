@@ -44,12 +44,43 @@ Save = {
 		}
 	}
 	SchemeCollection
-	WindowPlacementInfo = "LAAAAAIAAAADAAAA/////////////////////+oAAADqAAAAqgQAALoDAAA="
-	ModName = ""
-	GamePath = ""
+	WindowPlacementInfo = "LAAAAAIAAAADAAAAAIP//wCD/////////////+oAAADqAAAAqgQAALoDAAA="
+	ModName = "Sob o Anil"
+	GamePath = "C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings II"
 	ErrorShowLevel = Vanilla
 	Game = { 
 		Name = Ck2
+		Disable = Artifacts
+		Disable = Bloodlines
+		Disable = Buildings
+		Disable = CbTypes
+		Disable = CombatTactics
+		Disable = Cultures
+		Disable = Death
+		Disable = Decisions
+		Disable = Dynasties
+		Disable = Events
+		Disable = Government
+		Disable = Interface
+		Disable = JobActions
+		Disable = Localization
+		Disable = Maps
+		Disable = Modifiers
+		Disable = Music
+		Disable = Nicknames
+		Disable = Objectives
+		Disable = OnActions
+		Disable = ProvinceHistory
+		Disable = Religions
+		Disable = Setup
+		Disable = Societies
+		Disable = Tech
+		Disable = Titles
+		Disable = HistoryTitles
+		Disable = Trade
+		Disable = Traits
+		Disable = Units
+		Disable = Wars
 	}
 	Game = { 
 		Name = EuRomeVv
@@ -78,4 +109,5 @@ Save = {
 	Game = { 
 		Name = Vic2Hod
 	}
+	SelectedGame = Ck2
 }

@@ -9,10 +9,6 @@
     trait=brilliant_strategist
     trait=ambitious
     trait=proud
-    2205.1.1={
-        birth=yes
-		culture = paranaense
-    }
 	2205.1.1={
 		birth=yes
 		culture=paranaense
@@ -206,13 +202,7 @@
 		birth=yes
 	}
 	2364.1.1={
-		effect={
-			make_tributary = {
-				who = 690023
-				percentage = 0.40
-				tributary_type = default
-			}
-		}
+		
 	}
 	2400.1.1={
 		death=yes
@@ -904,7 +894,7 @@
     religion = orthodoxist
     dna = "aehd00gbid0"
     properties = "rn0cmk000000000000000000000000000000"
-    trait = intelligent
+	trait = quick
     trait = ambitious
     trait = kind
     2290.5.10 = {
@@ -1016,8 +1006,6 @@
 	trait=kind
 	trait=honest
 	trait=depressed
-	father=260046
-	mother=260047
 	2221.12.10={birth=yes}
 	#2244.6.26 = {add_spouse=}
 	2280.3.18={death=yes}
@@ -1040,8 +1028,6 @@
 	trait=charitable
 	trait=content
 	trait=deceitful
-	father=260046
-	mother=260047
 	2247.9.18={birth=yes}
 	2303.10.31={death=yes}
 }
@@ -1060,8 +1046,6 @@
 	learning=5
 	trait=flamboyant_schemer
 	trait=chaste
-	father=260048
-	mother=260053
 	2296.2.25={birth=yes}
 	2370.6.13={death=yes}
 }
