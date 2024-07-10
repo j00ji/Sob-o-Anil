@@ -829,7 +829,7 @@
 	culture=salvadorense
 	religion=rastafarian
 	trait=legit_bastard
-	father=30045]
+	father=30045
 	diplomacy=4
 	martial=4
 	stewardship=3

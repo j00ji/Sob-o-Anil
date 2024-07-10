@@ -483,7 +483,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -649,7 +649,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -825,7 +825,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -1111,7 +1111,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -1272,7 +1272,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -1449,7 +1449,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -1638,7 +1638,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -1827,7 +1827,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -1996,7 +1996,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -2180,7 +2180,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}
@@ -2346,7 +2346,7 @@ character_event = {
 					factor = 1.2
 					trait = zealous
     			}
-				remove_trait = initate_astronomer
+				remove_trait = initiate_astronomer
 				add_trait = adept_astronomer
 			}
 		}

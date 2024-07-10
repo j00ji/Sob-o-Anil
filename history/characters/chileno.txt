@@ -4396,7 +4396,7 @@
 	}
 	2365.7.2 = {
 		death = {
-			death_reason=death_duel_battle
+			death_reason=death_battle_duel
 			killer=480001 # Catriel Quilapán
 		}
 	}

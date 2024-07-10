@@ -1983,7 +1983,7 @@
 105001=
 {
 	name="Taurer"
-	culture= hunsruckischsali
+	culture= hunsruckisch
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
