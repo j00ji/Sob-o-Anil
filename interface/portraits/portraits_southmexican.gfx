@@ -1749,7 +1749,6 @@ spriteTypes = {
 		
 		headgear_that_hides_hair = { 10 }
 	}
-}
 
 	portraitType = {
 		name = "PORTRAIT_chocogfx_male"
@@ -2339,4 +2338,5 @@ spriteTypes = {
 		
 		headgear_that_hides_hair = { 10 }
 	}
+}
 	
