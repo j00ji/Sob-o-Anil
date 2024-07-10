@@ -1,7 +1,7 @@
-#########################
-###   	Atacameño     ###
-### ID: 140001-145000 ###
-#########################
+###########################
+### Atacameño Dynasties ###
+###  ID: 140001-145000  ###
+###########################
 140001 = {
 	name="Blanche"
 	culture=atacameno
@@ -265,9 +265,9 @@
 	}
 }
 140036 = {
-	name="Farías"
+	name="Cavada"
 	culture=atacameno
-	religion=camino_estelar
+	religion=catholic
 }
 140037 = {
 	name="Vega"
@@ -275,11 +275,9 @@
 	religion=camino_estelar
 }
 140038 = {
-	name="Vergara"
+	name="Lagos"
 	culture=atacameno
 	religion=camino_estelar
-	can_appear=no
-	used_for_random=no
 }
 140039 = {
 	name="Tirana"
@@ -299,10 +297,10 @@
 		}
 	}
 }
-#########################
-###   	Centrino   	  ###
-### ID: 145001-150000 ###
-#########################
+##########################
+### Centrino Dynasties ###
+### ID: 145001-150000  ###
+##########################
 145001 = {
 	name="Bartales"
 	culture=centrino
@@ -327,17 +325,17 @@
 	religion=catholic
 }
 145003 = {
-	name="González"
+	name="León"
 	culture=centrino
 	religion=catholic
 }
 145004 = {
-	name="Díaz"
+	name="Prieto"
 	culture=centrino
 	religion=catholic
 }
 145005 = {
-	name="Soto"
+	name="Tocornal"
 	culture=centrino
 	religion=catholic
 }
@@ -375,7 +373,7 @@
 	used_for_random=no
 }
 145011 = {
-	name="Muñoz"
+	name="Montt"
 	culture=centrino
 	religion=catholic
 }
@@ -397,7 +395,7 @@
 	religion=catholic
 }
 145014 = {
-	name="Jiménez"
+	name="Freire"
 	culture=centrino
 	religion=catholic
 }
@@ -480,12 +478,12 @@
 	religion=catholic
 }
 145023 = {
-	name="Jarpa"
+	name="Zañartu"
 	culture=centrino
 	religion=catholic
 }
 145024 = {
-	name="Reyes"
+	name="Echaurren"
 	culture=centrino
 	religion=catholic
 }
@@ -522,7 +520,7 @@
 	used_for_random=no
 }
 145031 = {
-	name="Lagos"
+	name="Jiménez"
 	culture=centrino
 	religion=catholic
 }
@@ -539,7 +537,7 @@
 	used_for_random=no
 }
 145034 = {
-	name="Grez"
+	name="Cousiño"
 	culture=centrino
 	religion=catholic
 }
@@ -598,26 +596,21 @@
 	can_appear=no
 	used_for_random=no
 }
-145040 = {
-	name="Rodríguez"
-	culture=centrino
-	religion=catholic
-}
-145042 = {
+145041 = {
 	name="Neira"
 	culture=centrino
 	religion=catholic
 	can_appear=no
 	used_for_random=no
 }
-145043 = {
+145042 = {
 	name="Halstedom"
 	culture=centrino
 	religion=catholic
 	can_appear=no
 	used_for_random=no
 }
-145044 = {
+145043 = {
 	name="Corwid"
 	culture=centrino
 	religion=catholic
@@ -643,7 +636,7 @@
 	}
 }
 #########################
-### 	  Huaso 	  ###
+###  Huaso Dynasties  ###
 ### ID: 150001-155000 ###
 #########################
 150001 = {
@@ -704,7 +697,7 @@
 	used_for_random=no
 }
 150008 = {
-	name="Garrido"
+	name="González"
 	culture=huaso
 	religion=catholic
 }
@@ -954,7 +947,7 @@
 	used_for_random=no
 }
 #########################
-###      Sureño 	  ###
+### Sureño Dynasties  ###
 ###	ID: 155001-160000 ###
 #########################
 155001 = {

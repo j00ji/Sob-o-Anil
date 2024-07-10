@@ -1,25 +1,24 @@
-#########################
-### 	 Cordobes 	  ###
-###	ID: 285001-290000 ###
-#########################
+##########################
+### Cordobés Dynasties ###
+###	ID: 285001-290000  ###
+##########################
 285001 = {
 	name="Lugones"
 	culture=cordobes
 	religion=theosophist
-	used_for_random = no
+	used_for_random=no
 }
 285002 = {
 	name="Moreno"
 	culture=cordobes
 	religion=theosophist
-	used_for_random = no
+	used_for_random=no
 }
-
-285003={
+285003 = {
 	name="Luz"
 	culture=cordobes
 	religion=theosophist
-	used_for_random = no
+	used_for_random=no
 	coat_of_arms = {
 		religion = theosophist
 		template = 0
@@ -33,19 +32,17 @@
 		}
 	}
 }
-
-285004={
+285004 = {
 	name="Spairani"
 	culture=cordobes
 	religion=theosophist
-	used_for_random = no
+	used_for_random=no
 }
-
-285005={
+285005 = {
 	name="de Sarak"
 	culture=cordobes
 	religion=theosophist
-	used_for_random = no
+	used_for_random=no
 	coat_of_arms = {
 		religion = theosophist
 		template = 0
@@ -59,66 +56,46 @@
 		}
 	}
 }
-
-285006={
+285006 = {
 	name="Briggs"
 	culture=cordobes
 	religion=theosophist
-	used_for_random = no
+	used_for_random=no
 }
-
-285007={
+285007 = {
 	name="Sorondo"
 	culture=cordobes
 	religion=theosophist
-	used_for_random = no
+	used_for_random=no
 }
-
-285008={
+285008 = {
 	name="Perez"
 	culture=cordobes
 	religion=theosophist
-	used_for_random = no
+	used_for_random=no
 }
-
-285009={
-	name="Wheelwright"
-	culture=litoraleno
+285009 = {
+	name="Romero"
+	culture=cordobes
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 }
-
-285010={
-	name="Bautista"
-	culture=litoraleno
+285010 = {
+	name="Juarez"
+	culture=cordobes
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 }
-
-285011={
-	name="Hernández"
-	culture=litoraleno
+285011 = {
+	name="Guevara"
+	culture=cordobes
 	religion=catholic
-	used_for_random = no
-}
-
-285012={
-	name="Peña"
-	culture=litoraleno
-	religion=folclorista
-	used_for_random = no
-}
-
-285013={
-	name="Baldomir"
-	culture=litoraleno
-	religion=folclorista
-	used_for_random = no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
 			texture = 8
-			texture_internal = 8
+			texture_internal = 22
 			emblem = 0
 			color = 0
 			color = 0
@@ -126,101 +103,11 @@
 		}
 	}
 }
-
-285014={
-	name="Manos"
-	culture=litoraleno
-	religion=folclorista
-	used_for_random = no
-}
-
-285015={
-	name="Grassi"
-	culture=litoraleno
-	religion=folclorista
-	used_for_random = no
-}
-
-285016={
-	name="Erebus"
-	culture=litoraleno
-	religion=folclorista
-	used_for_random = no
-}
-
-285017={
-	name="Mohamed"
-	culture=turco
-	religion=theosophist
-	used_for_random = no
-}
-
-285018={
-	name="von Hahn"
-	culture=rutenio
-	religion=theosophist
-	used_for_random = no
-}
-
-285019={
-	name="Menem"
-	culture=turco
-	religion=herderos
-	used_for_random = no
-	coat_of_arms = {
-		religion = theosophist
-		template = 0
-		layer = {
-			texture = 4
-			texture_internal = 13
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
-
-285020={
-	name="Angelelli"
-	culture=cuyano
-	religion=catholic
-	used_for_random = no
-}
-
-285021={
-	name="Urien"
-	culture=cuyano
-	religion=catholic
-	used_for_random = no
-}
-
-285022={
-	name="Quiroga"
-	culture=cuyano
-	religion=catholic
-	used_for_random = no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 8
-			texture_internal = 14
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
-
-285023={
-	name="Bertoldi"
-	culture=cuyano
-	religion=catholic
-	used_for_random = no
-}
-
-285024 = {
+#########################
+### Cuyano Dynasties  ###
+###	ID: 290001-295000 ###
+#########################
+290001 = {
 	name="Aldao"
 	culture=cuyano
 	religion=catholic
@@ -238,46 +125,75 @@
 		}
 	}
 }
-
-285025={
+290002 = {
+	name="Angelelli"
+	culture=cuyano
+	religion=catholic
+	used_for_random=no
+}
+290003 = {
+	name="Urien"
+	culture=cuyano
+	religion=catholic
+	used_for_random = no
+}
+290004 = {
+	name="Quiroga"
+	culture=cuyano
+	religion=catholic
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 14
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+290005 = {
+	name="Bertoldi"
+	culture=cuyano
+	religion=catholic
+	used_for_random=no
+}
+290006 = {
 	name="Rosa"
 	culture=cuyano
 	religion=catholic
 }
-
-285026={
+290007 = {
 	name="Llaver"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 }
-
-285027={
+290008 = {
 	name="Alvarez"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 }
-
-285028={
+290009 = {
 	name="Roig"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 }
-
-285029={
+290009 = {
 	name="Martínez"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 }
-
-285030={
+290011 = {
 	name="Nilsson"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -290,12 +206,11 @@
 		}
 	}
 }
-
-285031 = {
+290012 = {
 	name="Maza"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -308,26 +223,23 @@
 		}
 	}
 }
-
-285032={
+290013 = {
 	name="Vásquez"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 }
-
-285033={
+290014 = {
 	name="Iglesias"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 }
-
-285034={
+290015 = {
 	name="Matanza"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -339,362 +251,12 @@
 			color = 0
 		}
 	}
-	
 }
-
-285035={
+290016 = {
 	name="González"
 	culture=cuyano
 	religion=catholic
-	used_for_random = no
-}
-
-285036={
-	name="Juarez"
-	culture=cordobes
-	religion=catholic
-	used_for_random = no
-}
-
-285037={
-	name="Romero"
-	culture=cordobes
-	religion=catholic
-	used_for_random = no
-}
-
-285038={
-	name="Vega"
-	culture=pampeano
-	religion=gaucheria
-	used_for_random = no
-}
-
-285039={
-	name="Niyat"
-	culture=chaqueno
-	religion=catholic
-	used_for_random = no
-}
-
-285040={
-	name="Alonso"
-	culture=chaqueno
-	religion=catholic
-	used_for_random = no
-}
-
-285041={
-	name="Müller"
-	culture=chaqueno
-	religion=catholic
-	used_for_random = no
-}
-
-285042={
-	name="Kaufman"
-	culture=chaqueno
-	religion=catholic
-	used_for_random = no
-}
-
-285043={
-	name="del Saco"
-	culture=chaqueno
-	religion=catholic
-	used_for_random = no
-}
-
-285044={
-	name="C'utjan"
-	culture=nivacle
-	religion=manredebu
-	used_for_random = no
-	coat_of_arms = {
-		religion = dreamtime
-		template = 0
-		layer = {
-			texture = 2
-			texture_internal = 10
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
-
-285045={
-	name="Jotoicha"
-	culture=nivacle
-	religion=manredebu
-	used_for_random = no
-}
-
-285046={
-	name="Ruiz"
-	culture=nivacle
-	religion=manredebu
-	used_for_random = no
-}
-
-285047={
-	name="Hayes"
-	culture=nivacle
-	religion=jerovia
-	used_for_random = no
-}
-
-285048={
-	name="Varela"
-	culture=nivacle
-	religion=jerovia
-	used_for_random = no
-}
-
-285049={
-	name="Díaz"
-	culture=qom
-	religion=dreamtime
-	used_for_random = no
-	coat_of_arms = {
-		religion = dreamtime
-		template = 0
-		layer = {
-			texture = 2
-			texture_internal = 11
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
-
-285050={
-	name="Pereyra"
-	culture=qom
-	religion=dreamtime
-	used_for_random = no
-}
-
-285051={
-	name="Sarmiento"
-	culture=qom
-	religion=evangelical
-	used_for_random = no
-}
-
-285052={
-	name="Ramos"
-	culture=qom
-	religion=evangelical
-	used_for_random = no
-}
-
-285053={
-	name="Torres"
-	culture=chaqueno
-	religion=catholic
-	used_for_random = no
-}
-
-285054={
-	name="Uriburu"
-	culture=norteno
-	religion=catholic
-	used_for_random = no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 8
-			texture_internal = 15
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
-
-285055 = {
-	name="Massa"
-	culture=norteno
-	religion=catholic
-	can_appear = no
-	used_for_random = no
-}
-
-285056 = {
-	name="Güemes"
-	culture=norteno
-	religion=catholic
-	can_appear = no
-	used_for_random = no
-}
-
-285057={
-	name="Chihuán"
-	culture=quechua
-	religion=catholic
-	used_for_random = no
-}
-
-285058={
-	name="Chihuán"
-	culture=quechua
-	religion=catholic
-	used_for_random = no
-}
-
-285059={
-	name="Huapaya"
-	culture=quechua
-	religion=santa_diablada
-	used_for_random = no
-}
-
-285090={
-	name="Gurruchaga"
-	culture=norteno
-	religion=catholic
-	used_for_random = no
-}
-
-285091={
-	name="Saadi"
-	culture=turco
-	religion=catholic
-	used_for_random = no
-}
-
-285092={
-	name="Prebisch"
-	culture=norteno
-	religion=catholic
-	used_for_random = no
-}
-
-285093={
-	name="Gomez"
-	culture=norteno
-	religion=catholic
-	used_for_random = no
-}
-
-285094={
-	name="Jotoi"
-	culture=nivacle
-	religion=manredebu
-	used_for_random = no
-}
-
-285095={
-	name="Tanpura"
-	culture=cuyano
-	religion=catholic
-	used_for_random = no
-}
-
-285096 = {
-	name="Guevara"
-	culture=cordobes
-	religion=catholic
 	used_for_random=no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 8
-			texture_internal = 22
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
-}
-
-290001 = {
-	name="Abad"
-	culture=cuyano
-	religion=catholic
-}
-290002 = {
-	name="Aconcagua"
-	culture=cuyano
-	religion=catholic
-}
-290003 = {
-	name="Ambressetti"
-	culture=cuyano
-	religion=catholic
-}
-290004 = {
-	name="Andreani"
-	culture=cuyano
-	religion=catholic
-}
-290005 = {
-	name="Apóstol"
-	culture=cuyano
-	religion=catholic
-}
-290006 = {
-	name="Balbani"
-	culture=cuyano
-	religion=catholic
-}
-290007 = {
-	name="Balbarce"
-	culture=cuyano
-	religion=catholic
-}
-290008 = {
-	name="Ballofet"
-	culture=cuyano
-	religion=catholic
-}
-290009 = {
-	name="Benegas"
-	culture=cuyano
-	religion=catholic
-	can_appear=no
-	used_for_random = no
-}
-290010 = {
-	name="Benítez"
-	culture=cuyano
-	religion=catholic
-}
-290011 = {
-	name="Bourdeau"
-	culture=cuyano
-	religion=catholic
-}
-290012 = {
-	name="Cariddi"
-	culture=cuyano
-	religion=catholic
-}
-290013 = {
-	name="Carrizal"
-	culture=cuyano
-	religion=catholic
-}
-290014 = {
-	name="Caronti"
-	culture=cuyano
-	religion=catholic
-}
-290015 = {
-	name="Castelli"
-	culture=cuyano
-	religion=catholic
-}
-290016 = {
-	name="dei Castell"
-	culture=cuyano
-	religion=catholic
 }
 290017 = {
 	name="Cavalli"
@@ -729,9 +291,11 @@
 	used_for_random=no
 }
 290023 = {
-	name="Fernández"
+	name="Benegas"
 	culture=cuyano
 	religion=catholic
+	can_appear=no
+	used_for_random=no
 }
 290024 = {
 	name="Ferru"
@@ -748,11 +312,6 @@
 	culture=cuyano
 	religion=catholic
 }
-290027 = {
-	name="dei Galli"
-	culture=cuyano
-	religion=catholic
-}
 290028 = {
 	name="Germano"
 	culture=cuyano
@@ -760,11 +319,6 @@
 }
 290029 = {
 	name="Giovanni"
-	culture=cuyano
-	religion=catholic
-}
-290030 = {
-	name="di Giovanni"
 	culture=cuyano
 	religion=catholic
 }
@@ -793,276 +347,451 @@
 	culture=cuyano
 	religion=catholic
 }
-290036 = {
-	name="Lafferrere"
+290038 = {
+	name="Lorenzetti"
 	culture=cuyano
 	religion=catholic
 }
-290037={
-	name=Larroucau
+290039 = {
+	name="Margalot"
 	culture=cuyano
 	religion=catholic
 }
-290038={
-	name=Lorenzetti
+290040 = {
+	name="Mazza"
 	culture=cuyano
 	religion=catholic
 }
-290039={
-	name=Margalot
+290043 = {
+	name="Mendoza"
 	culture=cuyano
 	religion=catholic
 }
-290040={
-	name=Mazza
+290044 = {
+	name="Neri"
 	culture=cuyano
 	religion=catholic
 }
-290041={
-	name="de Maipú"
+290045 = {
+	name="Netra"
 	culture=cuyano
 	religion=catholic
 }
-290042={
-	name="de Mendoza"
+290046 = {
+	name="Netri"
 	culture=cuyano
 	religion=catholic
 }
-290043={
-	name=Mendoza
-	culture=cuyano
-	religion=catholic
-}
-290044={
-	name=Neri
-	culture=cuyano
-	religion=catholic
-}
-
-290045={
-	name=Netra
-	culture=cuyano
-	religion=catholic
-}
-
-290046={
-	name=Netri
-	culture=cuyano
-	religion=catholic
-}
-290047={
-	name="de Neuquén"
-	culture=cuyano
-	religion=catholic
-}
-290048={
-	name="Nihuil"
-	culture=cuyano
-	religion=catholic
-}
-290049={
+290049 = {
 	name="Nogués"
 	culture=cuyano
 	religion=catholic
 }
-290050={
+290050 = {
 	name="Noher"
 	culture=cuyano
 	religion=catholic
 }
-290051={
+290051 = {
 	name="Nuñez"
 	culture=cuyano
 	religion=catholic
 }
-290052={
-	name=Orlando
+290052 = {
+	name="Orlando"
 	culture=cuyano
 	religion=catholic
 }
-290053={
+290053 = {
 	name="Ortíz"
 	culture=cuyano
 	religion=catholic
 }
-290054={
-	name=Ollivieri
+290054 = {
+	name="Ollivieri"
 	culture=cuyano
 	religion=catholic
 }
-290055={
-	name=Palermo
+290055 = {
+	name="Palermo"
 	culture=cuyano
 	religion=catholic
 }
-
-
-290056={
-	name=Peretti
+290056 = {
+	name="Peretti"
 	culture=cuyano
 	religion=catholic
 }
-
-290057={
-	name=Phillips
+290058 = {
+	name="Potrerillo"
 	culture=cuyano
 	religion=catholic
 }
-290058={
-	name=Potrerillo
+290060 = {
+	name="Reyuno"
 	culture=cuyano
 	religion=catholic
 }
-290059={
-	name=Quiroga
-	culture=cuyano
-	religion=catholic
-}
-290060={
-	name=Reyuno
-	culture=cuyano
-	religion=catholic
-}
-290061={
+290061 = {
 	name="Rodríguez"
 	culture=cuyano
 	religion=catholic
 }
-290062={
-	name=Salgari
+290062 = {
+	name="Salgari"
 	culture=cuyano
 	religion=catholic
 }
-290063={
+290063 = {
 	name="Salomón"
 	culture=cuyano
 	religion=catholic
 }
-290064={
+290064 = {
 	name="Sagari"
 	culture=cuyano
 	religion=catholic
 }
-290065={
-	name=Sagasti
+290065 = {
+	name="Sagasti"
 	culture=cuyano
 	religion=catholic
 }
-290066={
-	name="Saint-Jean"
+290068 = {
+	name="Solano"
 	culture=cuyano
 	religion=catholic
 }
-
-290067={
-	name="Sierra Pintada"
-	culture=cuyano
-	religion=catholic
-}
-
-290068={
-	name=Solano
-	culture=cuyano
-	religion=catholic
-}
-290069={
+290069 = {
 	name="Suárez"
 	culture=cuyano
 	religion=catholic
 }
-290070={
-	name=Sussini
+290070 = {
+	name="Sussini"
 	culture=cuyano
 	religion=catholic
 }
-290071={
-	name=Terrada
+290071 = {
+	name="Terrada"
 	culture=cuyano
 	religion=catholic
 }
-290072={
-	name=Tessio
+290072 = {
+	name="Tessio"
 	culture=cuyano
 	religion=catholic
 }
-290073={
-	name=Trotta
+290073 = {
+	name="Trotta"
 	culture=cuyano
 	religion=catholic
 }
-290074={
+290074 = {
 	name="Urungué"
 	culture=cuyano
 	religion=catholic
 }
-290075={
-	name=Uspallata
+290075 = {
+	name="Uspallata"
 	culture=cuyano
 	religion=catholic
 }
-290076={
-	name="Valle Grande"
+290078 = {
+	name="Verasay"
 	culture=cuyano
 	religion=catholic
 }
-290077={
-	name="dei Valli"
+290079 = {
+	name="Vignon"
 	culture=cuyano
 	religion=catholic
 }
-
-290078={
-	name=Verasay
+290080 = {
+	name="Viola"
 	culture=cuyano
 	religion=catholic
 }
-
-290079={
-	name=Vignon
-	culture=cuyano
-	religion=catholic
-}
-290080={
-	name=Viola
-	culture=cuyano
-	religion=catholic
-}
-290081={
-	name=Walter
-	culture=cuyano
-	religion=catholic
-}
-
-305001={
-	name=Alieldin
-	culture=turco
-	religion=conservante
-}
-
-305002={
-	name=Nasur
-	culture=turco
+##########################
+### Chaqueño Dynasties ###
+###	ID: 295001-300000  ###
+##########################
+295001 = {
+	name="Niyat"
+	culture=chaqueno
 	religion=catholic
 	used_for_random=no
 }
-
+295002 = {
+	name="Alonso"
+	culture=chaqueno
+	religion=catholic
+	used_for_random=no
+}
+295003 = {
+	name="Kaufman"
+	culture=chaqueno
+	religion=catholic
+	used_for_random=no
+}
+295004 = {
+	name="Müller"
+	culture=chaqueno
+	religion=catholic
+	used_for_random=no
+}
+295005 = {
+	name="del Saco"
+	culture=chaqueno
+	religion=catholic
+	used_for_random=no
+}
+295006 = {
+	name="Torres"
+	culture=chaqueno
+	religion=catholic
+	used_for_random=no
+}
+#########################
+### Norteño Dynasties ###
+###	ID: 300001-305000 ###
+#########################
+300001 = {
+	name="Uriburu"
+	culture=norteno
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 15
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+300002 = {
+	name="Güemes"
+	culture=norteno
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+300003 = {
+	name="Bernal"
+	culture=norteno
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+300004 = {
+	name="Prebisch"
+	culture=norteno
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+300005 = {
+	name="Paz"
+	culture=norteno
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+300006 = {
+	name="Sosa"
+	culture=norteno
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+#########################
+###  Turco Dynasties  ###
+###	ID: 305001-310000 ###
+#########################
+305001 = {
+	name="Menem"
+	culture=turco
+	religion=herderos
+	can_appear=no
+	used_for_random=no
+	coat_of_arms = {
+		religion=catholic
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 13
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+305002 = {
+	name="Saadi"
+	culture=turco
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
 305003 = {
-	name = "Seineldín"
-	culture = turco
-	religion = catholic
-	used_for_random = no
+	name="Alieldin"
+	culture=turco
+	religion=conservante
 }
-
 305004 = {
-	name = "Yoacham"
-	culture = turco
-	religion = catholic
-	used_for_random = no
+	name="Nasur"
+	culture=turco
+	religion=catholic
 }
-
 305005 = {
-	name = "Amat"
-	culture = turco
-	religion = catholic
-	used_for_random = no
+	name="Seineldín"
+	culture=turco
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+305006 = {
+	name="Yoacham"
+	culture=turco
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+305007 = {
+	name="Amat"
+	culture=turco
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+305008 = {
+	name="Mohamed"
+	culture=turco
+	religion=jewish
+	can_appear=no
+	used_for_random=no
+}
+305009 = {
+	name="Sapag"
+	culture=turco
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+305010 = {
+	name="Awada"
+	culture=turco
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+305011 = {
+	name="Yarur"
+	culture=turco
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+305012 = {
+	name="Bitar"
+	culture=turco
+	religion=catholic
+}
+#########################
+### Nivacle Dynasties ###
+###	ID: 625501-626000 ###
+#########################
+625501 = {
+	name="C'utjan"
+	culture=nivacle
+	religion=manredebu
+	used_for_random=no
+	coat_of_arms = {
+		religion = dreamtime
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+625502 = {
+	name="Jotoicha"
+	culture=nivacle
+	religion=manredebu
+	used_for_random=no
+}
+625503 = {
+	name="Ruiz"
+	culture=nivacle
+	religion=manredebu
+	used_for_random=no
+}
+625504 = {
+	name="Hayes"
+	culture=nivacle
+	religion=jerovia
+	used_for_random=no
+}
+625505 = {
+	name="Varela"
+	culture=nivacle
+	religion=jerovia
+	used_for_random=no
+}
+625506 = {
+	name="Jotoi"
+	culture=nivacle
+	religion=manredebu
+	used_for_random=no
+}
+#########################
+###   Qom Dynasties   ###
+###	ID: 626001-626500 ###
+#########################
+626001 = {
+	name="Díaz"
+	culture=qom
+	religion=dreamtime
+	used_for_random=no
+	coat_of_arms = {
+		religion = dreamtime
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+626002 = {
+	name="Pereyra"
+	culture=qom
+	religion=dreamtime
+	used_for_random=no
+}
+626003 = {
+	name="Sarmiento"
+	culture=qom
+	religion=evangelical
+	used_for_random=no
+}
+626004 = {
+	name="Ramos"
+	culture=qom
+	religion=evangelical
+	used_for_random=no
 }

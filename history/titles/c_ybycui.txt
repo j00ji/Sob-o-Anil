@@ -1,12 +1,12 @@
 # e_la_plata
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_paraguay
 }
-2364.1.25 = { 
-	holder = 330003 #Luis Gelly
-	liege=k_paraguay
+2365.2.1 = { 
+	holder=330001 # Gaspar Yegros
+	liege=d_paraguay
 }

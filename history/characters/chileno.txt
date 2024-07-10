@@ -5,7 +5,7 @@
 ### House Baquedano ###
 #######################
 220016 = {
-	name="Miguel" # Miguel Baquedano, Duke of Tarapaca.
+	name="Miguel" # Miguel Baquedano the Desert Lion, Duke of Tarapaca.
 	dynasty=140035
 
 	diplomacy = 6
@@ -23,7 +23,8 @@
 		birth="2311.5.28"
 	}
 	2327.5.28 = {
-		add_trait="skilled_tactician"
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
 		add_trait="organizer"
 		add_trait="inspiring_leader"
 		add_trait="brave"
@@ -32,9 +33,13 @@
 		add_trait="just"
 		add_trait="gregarious"
 		add_trait="zealous"
+		add_trait="strategist"
 	}
 	2330.8.12 = {
 		add_spouse=220017 # Isidora Rojas
+	}
+	2351.6.7 = {
+		give_nickname=nick_the_desert_lion
 	}
 	2364.10.20 = {
 		death="2364.10.20"
@@ -358,7 +363,7 @@
 
 	diplomacy = 4
 	martial = 3
-	stewardship = 4
+	stewardship = 5
 	intrigue = 5
 	learning = 5
 
@@ -370,7 +375,7 @@
 		culture=atacameno
 	}
 	2341.4.16 = {
-		add_trait="midas_touched"
+		add_trait="fortune_builder"
 		add_trait="diligent"
 		add_trait="patient"
 		add_trait="proud"
@@ -378,7 +383,6 @@
 		add_trait="cynical"
 		add_trait="deceitful"
 		add_trait="ambitious"
-		add_trait="administrator"
 	}
 	2345.6.12 = {
 		add_spouse=220030 # Patricia Diáz
@@ -416,7 +420,7 @@
 
 	diplomacy = 3
 	martial = 1
-	stewardship = 3
+	stewardship = 5
 	intrigue = 3
 	learning = 3
 
@@ -2277,7 +2281,7 @@
 	dna="agif00ga0b0"
 	properties="0s00ek"
 
-	diplomacy = 3
+	diplomacy = 1
 	martial = 1
 	stewardship = 5
 	intrigue = 3
@@ -2383,12 +2387,12 @@
 		add_trait="temperate"
 		add_trait="just"
 		add_trait="gregarious"
+		add_trait="zealous"
 		add_trait="falconer"
-	}
-	2350.4.11 = {
 		add_spouse=230062 # Claudia Contreras
 		effect = {
 			add_lover=230062 # Claudia Contreras
+			add_friend=230086 # Marcelo Salas
 		}
 	}
 }
@@ -2413,10 +2417,10 @@
 	father=230059 # Daniel Camiroaga
 	mother=230060 # María Aguirre
 
-	2334.8.20 = {
-		birth="2333.8.20"
+	2335.8.20 = {
+		birth="2335.8.20"
 	}
-	2350.8.20 = {
+	2351.8.20 = {
 		add_trait="charismatic_negotiator"
 		add_trait="diligent"
 		add_trait="patient"
@@ -2436,7 +2440,7 @@
 	name="Benjamín" # Benjamín Camiroaga.
 	dynasty=145020
 
-	diplomacy = 3
+	diplomacy = 2
 	martial = 6
 	stewardship = 4
 	intrigue = 3
@@ -2452,17 +2456,22 @@
 	father=230013 # Felipe Camiroaga
 	mother=230062 # Claudia Contreras
 
-	2351.8.3 = {
-		birth="2351.8.3"
+	2350.8.3 = {
+		birth="2350.8.3"
 	}
-	2367.8.3 = {
+	2366.8.3 = {
 		add_trait="charismatic_negotiator"
 		add_trait="brave"
 		add_trait="diligent"
+		add_trait="patient"
 		add_trait="proud"
 		add_trait="just"
 		add_trait="gregarious"
+		add_trait="zealous"
 		add_trait="falconer"
+	}
+	2369.9.2 = {
+		add_spouse=230088 # Catalina Salas
 	}
 }
 230064 = {
@@ -2684,9 +2693,16 @@
 		effect = {
 			add_artifact=sangreroja
 			# Councillors
-			c_230013 = { give_job_title = job_chancellor give_minor_title = title_regent } # Felipe Camiroaga
-			c_230086 = { give_job_title = job_marshal } # Marcelo Salas
-			c_230028 = { give_job_title = job_treasurer } # Jorge Edwards
+			c_230013 = { # Felipe Camiroaga
+				give_job_title = job_chancellor
+				give_minor_title = title_regent
+			}
+			c_230086 = { # Marcelo Salas
+				give_job_title = job_marshal
+			}
+			c_230028 = { # Jorge Edwards
+				give_job_title = job_treasurer
+			}
 		}
 	}
 }
@@ -2787,7 +2803,7 @@
 ################################
 230007 = {
 	name="Ghat" # Ghat Halstedom.
-	dynasty=145043
+	dynasty=145042
 	dna="b0fid0ea0e0"
 	properties="0i0a0k"
 
@@ -2863,7 +2879,7 @@
 }
 230009 = {
 	name="Metamoq" # Metamoq Corwid.
-	dynasty=145044
+	dynasty=145043
 	
 	diplomacy = 3
 	martial = 1
@@ -2905,7 +2921,7 @@
 ##############################
 230101 = {
 	name="Miguel" # Miguel Neira the Beast, Count of Cordillera.
-	dynasty=145042
+	dynasty=145041
 	dna="0a0d00ib000"
 	properties="0h0i0k"
 

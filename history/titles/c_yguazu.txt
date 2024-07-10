@@ -3,7 +3,6 @@
 	liege=k_paraguay
 }
 2364.1.25 = { 
-	holder = 320001 #Isabel Hernandez
-	liege=k_paraguay
+	holder = 330001 #Isabel Hernandez
 }
 

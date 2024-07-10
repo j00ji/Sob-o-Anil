@@ -2212,13 +2212,15 @@
 	name="Scarpa"
 	culture=talian
 }
-
-110001=
-{
+#########################
+### Rutenio Dynasties ###
+###	ID: 110001-115000 ###
+#########################
+110001 = {
 	name="Swiat-Jajek"
-	culture= rutenio
-	can_appear = no
-	used_for_random = no
+	culture=rutenio
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -2233,10 +2235,10 @@
 }
 110002 = {
 	name="Golovchenko"
-	culture= rutenio
-	religion = orthodoxist
-	can_appear = no
-	used_for_random = no
+	culture=rutenio
+	religion=orthodoxist
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -2249,13 +2251,12 @@
 		}
 	}
 }
-
-110003={
+110003 = {
 	name="Pasternak"
-	culture= rutenio
-	religion = orthodoxist
-	can_appear = no
-	used_for_random = no
+	culture=rutenio
+	religion=orthodoxist
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -2268,12 +2269,12 @@
 		}
 	}
 }
-110004={
+110004 = {
 	name="Abdala"
-	culture= paranaense
-	religion = herderos
-	can_appear = no
-	used_for_random = no
+	culture=paranaense
+	religion=herderos
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		religion = herderos
 		template = 0
@@ -2287,37 +2288,37 @@
 		}
 	}
 }
-110005={
+110005 = {
 	name="Jalloul"
-	culture= paranaense
-	religion = herderos
-	can_appear = no
-	used_for_random = no
+	culture=paranaense
+	religion=herderos
+	can_appear=no
+	used_for_random=no
 }
-110006={
+110006 = {
 	name="Fagundes"
-	culture= paranaense
-	can_appear = no
-	used_for_random = no
+	culture=paranaense
+	can_appear=no
+	used_for_random=no
 }
-110007={
+110007 = {
 	name="Novak"
-	culture= paranaense
-	can_appear = no
-	used_for_random = no
+	culture=paranaense
+	can_appear=no
+	used_for_random=no
 }
-110008={
+110008 = {
 	name="Stetiski"
-	culture= paranaense
-	can_appear = no
-	used_for_random = no
+	culture=paranaense
+	can_appear=no
+	used_for_random=no
 }
-110009={
+110009 = {
 	name="Kuznetsovsky"
-	culture= rutenio
-	religion = orthodoxist
-	can_appear = no
-	used_for_random = no
+	culture=rutenio
+	religion=orthodoxist
+	can_appear=no
+	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -2330,213 +2331,219 @@
 		}
 	}
 }
+110010 = {
+	name="von Hahn"
+	culture=rutenio
+	religion=theosophist
+	used_for_random=no
+}
 ####################
 ##Random dynasties
 ##Based on Brazilian and Uruguayans of Ukraininian descent
 ##source: wikipedia
 ##range: 110500+
 ####################
-110500={
+110500 = {
 	name="Terekhov"
 	culture=rutenio
 }
-110501={
+110501 = {
 	name="Gelman"
 	culture=rutenio
 }
-110502={
+110502 = {
 	name="Fedorczuk"
 	culture=rutenio
 }
-110503={
+110503 = {
 	name="Milman"
 	culture=rutenio
 }
-110504={
+110504 = {
 	name="Belov"
 	culture=rutenio
 }
-110505={
+110505 = {
 	name="Bankoff"
 	culture=rutenio
 }
-110506={
+110506 = {
 	name="Popov"
 	culture=rutenio
 }
-110507={
+110507 = {
 	name="Ksyvickis"
 	culture=rutenio
 }
-110508={
+110508 = {
 	name="Baby"
 	culture=rutenio
 }
-110509={
+110509 = {
 	name="Kocubej"
 	culture=rutenio
 }
-110510={
+110510 = {
 	name="Bloch"
 	culture=rutenio
 }
-110511={
+110511 = {
 	name="Schnaiderman"
 	culture=rutenio
 }
-110512={
+110512 = {
 	name="Pinkhasivna"
 	culture=rutenio
 }
-110513={
+110513 = {
 	name="Lispector"
 	culture=rutenio
 }
-110514={
+110514 = {
 	name="Stival"
 	culture=rutenio
 }
-110515={
+110515 = {
 	name="Senek"
 	culture=rutenio
 }
-110516={
+110516 = {
 	name="Kozelinski"
 	culture=rutenio
 }
-110517={
+110517 = {
 	name="Zeiger"
 	culture=rutenio
 }
-110518={
+110518 = {
 	name="Stoklos"
 	culture=rutenio
 }
-110519={
+110519 = {
 	name="Krevey"
 	culture=rutenio
 }
-110520={
+110520 = {
 	name="Michaelichen"
 	culture=rutenio
 }
-110521={
+110521 = {
 	name="Haiut"
 	culture=rutenio
 }
-110522={
+110522 = {
 	name="Bondar"
 	culture=rutenio
 }
-110523={
+110523 = {
 	name="Babenco"
 	culture=rutenio
 }
-110524={
+110524 = {
 	name="Kolody"
 	culture=rutenio
 }
-110525={
+110525 = {
 	name="Gorender"
 	culture=rutenio
 }
-110526={
+110526 = {
 	name="Ferens"
 	culture=rutenio
 }
-110527={
+110527 = {
 	name="Pauliki"
 	culture=rutenio
 }
-110528={
+110528 = {
 	name="Mindlin"
 	culture=rutenio
 }
-110529={
+110529 = {
 	name="Feffer"
 	culture=rutenio
 }
-110530={
+110530 = {
 	name="Basbaum"
 	culture=rutenio
 }
-110531={
+110531 = {
 	name="Chor"
 	culture=rutenio
 }
-110532={
+110532 = {
 	name="Malamud"
 	culture=rutenio
 }
-110533={
+110533 = {
 	name="Kupstas"
 	culture=rutenio
 }
-110534={
+110534 = {
 	name="Glad"
 	culture=rutenio
 }
-110535={
+110535 = {
 	name="Pauliki"
 	culture=rutenio
 }
-110536={
+110536 = {
 	name="Beruski"
 	culture=rutenio
 }
-110537={
+110537 = {
 	name="Feffer"
 	culture=rutenio
 }
-110538={
+110538 = {
 	name="Melnick"
 	culture=rutenio
 }
-110539={
+110539 = {
 	name="Mazur"
 	culture=rutenio
 }
-110540={
+110540 = {
 	name="Bakun"
 	culture=rutenio
 }
-110541={
+110541 = {
 	name="Sevcenko"
 	culture=rutenio
 }
-110542={
+110542 = {
 	name="Nutels"
 	culture=rutenio
 }
-110543={
+110543 = {
 	name="Bilynskyj"
 	culture=rutenio
 }
-110544={
+110544 = {
 	name="Sevciuc"
 	culture=rutenio
 }
-110545={
+110545 = {
 	name="Schaffman"
 	culture=rutenio
 }
-110546={
+110546 = {
 	name="Slhessarenko"
 	culture=rutenio
 }
-110547={
+110547 = {
 	name="Efremoff"
 	culture=rutenio
 }
-110548={
+110548 = {
 	name="Shumyatsky"
 	culture=rutenio
 }
-110549={
+110549 = {
 	name="Koubetch"
 	culture=rutenio
 }
-110550={
+110550 = {
 	name="Warchavchik"
 	culture=rutenio
 }

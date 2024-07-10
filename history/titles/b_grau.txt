@@ -1,0 +1,5 @@
+2360.1.1 = { 
+	holding_dynasty = 500040 # Grau
+	liege = k_tacna
+	holder = 860111 # Manuel Grau
+}

@@ -1,0 +1,8 @@
+2360.1.1 = { 
+	holding_dynasty=140039 # Tirana
+	holder=220021 # Manuel Tirana
+	liege=k_tacna
+}
+2364.10.20 = { 
+	holder=220019 # Arturo Tirana
+}
