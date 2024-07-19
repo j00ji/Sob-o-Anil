@@ -15,7 +15,7 @@ b_sao_bento_do_sul = temple
 #b_avencal = castle
 
 # Misc
-culture = hunsruckisch
+culture = pomerisch
 religion = evangelical
 
 #History

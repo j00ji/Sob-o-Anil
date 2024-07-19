@@ -1,0 +1,21 @@
+# c_jaguariaiva
+
+# County Title
+title = c_jaguariaiva
+
+# Settlements
+max_settlements = 2
+
+b_jaguariaiva = castle 
+#b_senges = city
+#b_pirai_do_sul = castle
+#b_arapoti = temple 
+#b_wenceslau_braz = castle 
+#b_jaguariaiva_norte = city
+#b_jaguariaiva_sul = temple
+
+# Misc
+culture = paranaense
+religion = anchietican
+
+#History

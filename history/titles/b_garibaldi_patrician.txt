@@ -1,0 +1,10 @@
+2300.1.1={
+	holding_dynasty=100010
+	liege=d_greater_florianopolis
+}
+2332.4.9 = {
+	holder=270065
+}
+2355.4.5={
+	holder=270067
+}

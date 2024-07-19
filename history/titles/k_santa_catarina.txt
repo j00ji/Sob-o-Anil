@@ -7,5 +7,15 @@
 	holder=270048 #Floriano Geisel
 }
 2281.1.1={
-	holder = none
+	holder = 270017 #Henrique Fischer
+	#found the Kingdom
+}
+2326.1.1={
+	holder = 270048 #Helmut Fischer
+}
+2365.5.14={
+	holder = 270052 #Klaus Fischer
+}
+2367.7.23 = { 
+	holder = 0 #Kingdom collapses
 }

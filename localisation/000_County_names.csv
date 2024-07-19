@@ -399,6 +399,8 @@ c_cercado;Cercado;Cercado;Cercado;;Cercado;;;;;;;;;x
 c_cercado_adj;Cercadian;;cercader;;;;;;;;;;;x
 c_cerejeiras;Cerejeiras;Cerejeiras;Cerejeiras;;Cerejeiras;;;;;;;;;x
 c_cerejeiras_adj;Cerejeirasian;;cerejeiraser;;;;;;;;;;;x
+c_cerro_azul;Cerro Azul;;;;;;;;;;;;;x
+c_cerro_azul_adj;Cerro-azulense;;;;;;;;;;;;;x
 c_cerro_largo;Cerro Largo;Cerro Largo;Cerro Largo;;Cerro Largo;;;;;;;;;x
 c_cerro_largo_adj;Cerro Largian;;Cerro Larger;;;;;;;;;;;x
 c_chacabuco;Chacabuco;Chacabuco;Chacabuco;;Chacabuco;;;;;;;;;x
@@ -895,6 +897,8 @@ c_jaguara_do_sul;São Bento do Sul;São Bento do Sul;São Bento do Sul;;São Bento d
 c_jaguara_do_sul_adj;São Bento do Sulian;;São Bento do Suler;;;;;;;;;;;x
 c_jaguarao;Jaguarão;Jaguarão;Jaguarão;;Jaguarão;;;;;;;;;x
 c_jaguarao_adj;Jaguarãian;;jaguarãer;;;;;;;;;;;x
+c_jaguariaiva;Jaguariaiva;;;;;;;;;;;;;;x
+c_jaguariaiva_adj;Jaguariaivense;;;;;;;;;;;;;;x
 c_janauba;Janaúba;Janaúba;Janaúba;;Janaúba;;;;;;;;;x
 c_janauba_adj;Janaúban;;janaúber;;;;;;;;;;;x
 c_januaria;Januária;Januária;Januária;;Januária;;;;;;;;;x
@@ -1419,6 +1423,8 @@ c_rio_grande_del_sur;Rió Grande del Sur;Rió Grande del Sur;Rió Grande del Sur;;R
 c_rio_grande_del_sur_adj;Rió Grande del Surian;;Rió Grande del Surer;;;;;;;;;;;x
 c_rio_negro;Río Negro;Río Negro;Río Negro;;Río Negro;;;;;;;;;x
 c_rio_negro_adj;Río Negrian;;Río Negrer;;;;;;;;;;;x
+c_rio_negro_2;Rio Negro;Rio Negro;Rio Negro;;Rio Negro;;;;;;;;;x
+c_rio_negro_2_adj;Rio Negrian;;Rio Negrer;;;;;;;;;;;x
 c_rio_pardo;Rio Pardo;Rio Pardo;Rio Pardo;;Rio Pardo;;;;;;;;;x
 c_rio_pardo_adj;Rio Pardian;;Rio Parder;;;;;;;;;;;x
 c_rio_quinto;Rio Quinto;Rio Quinto;Rio Quinto;;Rio Quinto;;;;;;;;;x

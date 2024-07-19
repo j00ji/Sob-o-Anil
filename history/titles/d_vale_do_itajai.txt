@@ -3,15 +3,16 @@
 	law = cognatic_succession
 	law = succ_gavelkind
 }
-2262.1.1={
-	holder=270048 #Floriano Geisel
+2237.1.1={
+	holder = 270016 #Emil Fischer
 }
 2281.1.1={
-	holder=270049 #André Geisel
+	holder = 270017 #Henrique Fischer
+	#found the Kingdom
 }
-2303.1.1={
-	holder=270051 #Amaury Geisel
+2326.1.1={
+	holder = 270048 #Helmut Fischer
 }
-2343.1.1={
-	holder=270016 #Ivan Geisel
+2365.5.14={
+	holder = 270052 #Klaus Fischer
 }

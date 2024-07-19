@@ -598,6 +598,17 @@
 	culture=greenbelly
 	can_appear = no
 	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 90007={
 	name="Amin"
@@ -649,6 +660,23 @@
 	culture=greenbelly
 	can_appear = no
 	used_for_random = no
+}
+90014={
+	name="Arns"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 37
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 ####################
 ##Random dynasties
@@ -1714,7 +1742,7 @@
 	name="Renaux"
 	culture=hunsruckisch
 	can_appear = no
-	used_for_random = no	
+	used_for_random = no
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -1732,6 +1760,60 @@
 	culture=hunsruckisch
 	can_appear = no
 	used_for_random = no	
+}
+
+100009={
+	name="Schroeder"
+	culture=hunsruckisch
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 35
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+100010 = {
+	name="Garibaldi"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+100011 = {
+	name="Kuerten"
+	culture=greenbelly
+	can_appear = no
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 7
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 ####################
 ##Random dynasties
@@ -1767,10 +1849,10 @@
 	name="Arns"
 	culture=hunsruckisch
 }
-100507={
-	name="Kuerten"
-	culture=hunsruckisch
-}
+#100507={
+#	name="Kuerten"
+#	culture=hunsruckisch
+#}
 100508={
 	name="Luft"
 	culture=hunsruckisch

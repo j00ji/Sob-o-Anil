@@ -61,7 +61,7 @@ b_schimidt = {
 
 ## Florianopolis
 
-b_cesar = {
+b_kuerten = {
 	culture = greenbelly
 	religion = celeste
 }
@@ -81,7 +81,7 @@ b_balan = {
 	religion = celeste
 }
 
-b_amin = {
+b_garibaldi_patrician = {
 	culture = greenbelly
 	religion = universal
 }

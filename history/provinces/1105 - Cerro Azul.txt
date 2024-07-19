@@ -1,0 +1,21 @@
+# c_cerro_azul
+
+# County Title
+title = c_cerro_azul
+
+# Settlements
+max_settlements = 2
+
+b_centro_cerro_azul = castle 
+#b_rural_norte = city
+#b_serra_do_cadeado = castle
+#b_bocaiuva_do_sul = temple 
+#b_tunas_do_parana = castle 
+#b_diamante_3 = city
+#b_rio_novo = temple
+
+# Misc
+culture = paranapanense
+religion = anchietican
+
+#History

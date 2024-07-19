@@ -4,11 +4,11 @@
 	law = succ_gavelkind
 }
 800.1.1={
-	liege=k_santa_catarina
+	liege=d_greater_florianopolis
 }
-2326.1.1={
-	holder=270006
+2332.4.9 = {
+	holder=270065
 }
-2359.1.1={
-	holder=270007
+2355.4.5={
+	holder=270067
 }

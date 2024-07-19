@@ -1,0 +1,5 @@
+2340.1.1 = {
+	holding_dynasty = 100011 #Kuerten #César
+	liege = d_greater_florianopolis
+	holder = 270080 #Thiago César
+}

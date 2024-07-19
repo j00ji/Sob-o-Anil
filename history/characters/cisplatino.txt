@@ -906,7 +906,7 @@
     }
 }
 
-260042 = { # Rafael Guerios,Amelia's Brother briefly ruled as duke of Curitiba before dying
+260042 = { # Rafael Guerios,Amelia's Brother briefly ruled as duke of Curitiba before death
     name="Rafael"
     father=260040 # Lucas Guerios
     dynasty=85002 # Guerios
@@ -1091,6 +1091,10 @@
 	trait = depressed #
 	2310.6.23 = {
 		birth = yes
+	}
+	2365.1.1={
+		add_trait = "scarred_mid"
+		add_trait = "scarred_type_1"
 	}
 	2368.1.1 = {
 		add_spouse = 260007 #
@@ -1563,7 +1567,7 @@
 	#ruler of Concórdia vassal of Lages
 }
 270016={
-	name="Lúcio"
+	name="Emil"
 	dynasty=100006 #Fischer
 	culture=hunsruckisch
 	religion=evangelical
@@ -1578,23 +1582,20 @@
 	stewardship=10
 	intrigue=12
 	learning=8
-	2329.1.1={
+	2237.1.1={
 		birth=yes
 	}
-	2367.1.1={
-		capital = d_passo_do_principe
+	2281.1.1={
+		death = yes
 	}
-	2400.1.1={
-		death=yes
-	}
-	#duke of both vale do itajai and passo do principe
+	#count of blumenau, ruler of Vales do Itajai and Passo do Principe
 }
 270017={
-	name="Márcio"
+	name="Henrique"
 	dynasty=100006 #Fischer
 	culture=hunsruckisch
-	religion=evangelical
-	father=270052
+	religion=celeste
+	father=270016
 	trait=midas_touched
 	trait=gluttonous
 	trait=kind
@@ -1605,16 +1606,13 @@
 	stewardship=15
 	intrigue=6
 	learning=8
-	2333.1.1={
+	2276.1.1={
 		birth=yes
 	}
-	2360.1.1={
-		death={
-			death_reason=death_murder_unknown
-		}
+	2326.1.1={
+		death=yes
 	}
-	#former ruler of passo do principe killed under suspicious circunstances I wonder by who...
-}
+} #Found the Kingdom of Santa Catarina, converted to Celeste to stabilize it.
 270018={
 	name="Caio"
 	dynasty=90005 #César
@@ -1864,7 +1862,7 @@
 	name="Gisele"
 	female=yes
 	dynasty=100006 #Fischer
-	father=270052
+	father=270048
 	culture=hunsruckisch
 	religion=evangelical
 	trait = branch_lutheran
@@ -1872,6 +1870,7 @@
 	trait=schemer
 	trait=groomed
 	trait=ambitious
+	trait = bastard
 	trait=freckles_2 #why not I guess
 	diplomacy=9
 	martial=5
@@ -2238,98 +2237,112 @@
 }
 ##Fischer Family History
 270048={
-	name="Túlio"
+	name="Helmut"
 	dynasty=100006 #Fischer
+	dna="lkchdgjallo"
 	culture=hunsruckisch
-	religion=evangelical
-	trait=tough_soldier
-	trait=cruel
-	trait=arbitrary
-	trait=impaler
-	trait=disfigured
-	diplomacy=3
-	martial=16
-	stewardship=12
-	intrigue=19
+	religion=celeste
+	father = 270017
+	martial=2
+	diplomacy=5
+	stewardship=5
+	intrigue=3
 	learning=7
-	2237.1.1={
-		birth=yes
+	trait="grey_eminence"
+	trait="impaler"
+	trait="chaste"
+	trait="paranoid"
+	2318.1.1={birth=yes}
+	2340.2.21 = {add_spouse=270049}
+	2365.5.14={
+		death={
+			death_reason = death_battle
+			killer = 260050
+		}
 	}
-	2281.1.1={
-		death=yes
-	}
-	#Former Military-king of Santa Catarina formerly held Florianopólis before being deposed by the revolution
+	#Last King of Santa Catarina, went to war with Curitiba, died during the war, realm collapsed thereafter
 }
+
 270049={
-	name="Márcio
-	"
-	dynasty=100006 #Fischer
+	name="Waltraud"
+	female=yes
+	#dynasty = 
+	dna="cbpdbeapelh"
 	culture=hunsruckisch
-	religion=evangelical
-	father=270048
-	trait=detached_priest
-	trait=honest
-	trait=chaste
-	2265.1.1={
-		birth=yes
-	}
-	2303.1.1={
-		death=yes
-	}
-	#eldest son of Fischer, inherited Vale do Itajaí
+	religion=celeste
+	martial=8
+	diplomacy=3
+	stewardship=3
+	intrigue=2
+	learning=6
+	trait="detached_priest"
+	trait="diligent"
+	trait="craven"
+	trait="wroth"
+	trait="ill"
+	2320.7.20={birth=yes}
+	2367.10.4={death=yes}
 }
+
 270050={
-	name="Túlio"
+	name="Waltraud"
+	female=yes
 	dynasty=100006 #Fischer
+	dna="lbchbgjpllo"
 	culture=hunsruckisch
-	religion=evangelical
+	religion=celeste
+	martial=3
+	diplomacy=8
+	stewardship=2
+	intrigue=6
+	learning=1
+	trait="thrifty_clerk"
 	father=270048
-	trait=misguided_warrior
-	trait=envious
-	trait=dull
-	2276.1.1={
-		birth=yes
-	}
-	2313.1.1={
-		death=yes
-	}
-	#youngest son of Fischer, inherited Passo do principe
+	mother=270049
+	2345.1.31={birth=yes}
+	2394.7.11={death=yes}
 }
+
 270051={
-	name="Márcio"
+	name="Marlene"
+	female=yes
 	dynasty=100006 #Fischer
+	dna="lbcdbgaplda"
 	culture=hunsruckisch
-	religion=evangelical
-	father=270049
-	trait=martial_cleric
-	trait=kind
-	trait=chaste
-	trait=patient
-	2300.1.1={
-		birth=yes
-	}
-	2343.1.1={
-		death=yes
-	}
-	#son of André Fischer, ruled Vale do Itajái
+	religion=celeste
+	martial=4
+	diplomacy=0
+	stewardship=4
+	intrigue=3
+	learning=1
+	trait="intricate_webweaver"
+	trait="craven"
+	father=270048
+	mother=270049
+	2348.5.25={birth=yes}
+	2394.6.8={death=yes}
 }
+
 270052={
-	name="Lúcio"
+	name="Klaus"
 	dynasty=100006 #Fischer
+	dna="cbahdgapelo"
 	culture=hunsruckisch
-	religion=evangelical
-	father=270050
-	trait=fortune_builder
-	trait=gluttonous
-	trait=lustful
-	trait=hedonist
-	2308.1.1={
-		birth=yes
-	}
-	2350.1.1={
-		death=yes
-	}
+	religion=celeste
+	martial=8
+	diplomacy=3
+	stewardship=4
+	intrigue=5
+	learning=6
+	trait="skilled_tactician"
+	trait="drunkard"
+	father=270048
+	mother=270049
+	2351.3.19={birth=yes}
+	2395.1.12={death=yes}
+	#current ruler of vale do Itajai and passo do principe
 }
+
 270053={ #First leader of the Contestado Rebels
 	name="José Maria" 
 	dynasty=90008 #de Santo Agostinho
@@ -2465,6 +2478,647 @@
 	2271.2.13={birth=yes}
 	2324.1.1={death=yes}
 }
+#Schroeder family, Pomeranian vassals of the fischers
+270060 = {
+	name = "Cristian"
+	dynasty = 100009 #Schroeder
+	culture = pomerisch
+	religion = evangelical
+	dna="0000h000f00"
+	properties="0k0cfk00000000000000000000000000000"
+	trait = branch_lutheran
+	trait = fortune_builder
+	trait = diligent
+	trait = gregarious
+	diplomacy = 2
+	stewardship = 8
+	martial = 5
+	intrigue = 4
+	learning = 2
+	2309.5.15 = { birth = yes }
+	2340.1.1={add_spouse = 270061}
+	2373.1.1={ death = yes }
+	#ruler of Joinville and Jaguara do Sul
+}
+270061 = {
+	name = "Maria"
+	#dynasty = 
+	culture = hunsruckisch
+	religion = evangelical
+	female = yes
+	trait = branch_lutheran
+	2313.7.21 = { birth = yes }
+	2355.1.1={ death = yes }
+}
+270063 = {
+	name = "Matheus"
+	dynasty = 100009 #Schroeder
+	culture = pomerisch
+	religion = evangelical
+	father = 270060
+	mother = 270061
+	dna="bf0g00fafg0"
+	properties="ko0i0g00000000000000000000000000000"
+	diplomacy = 4
+	stewardship = 6
+	martial = 9
+	intrigue = 4
+	learning = 5
+	trait = branch_lutheran
+	trait = diligent
+	trait = humble
+	trait = tough_soldier
+	trait = shy
+	2345.10.26={ birth = yes }
+	2400.1.1 = { death = yes }
+}
+270064 = {
+	name = "Eduarda"
+	dynasty = 100009 #Schroeder	
+	culture = pomerisch
+	religion = evangelical
+	female = yes
+	father = 270060
+	mother = 270061
+	dna="bccgf0iafg0"
+	properties="0t0b0f000000000000000000000000000000"
+	diplomacy = 4
+	stewardship = 6
+	martial = 9
+	intrigue = 4
+	learning = 5
+	trait = branch_lutheran
+	trait = fair
+	trait = humble
+	trait = underhanded_rogue
+	2352.12.3={ birth = yes }
+	2400.1.1 = { death = yes }
+}
+
+#Garibaldi
+
+270065={
+	name="Leonardo"
+	dynasty=100010 #Garibaldi
+	dna="jckbiiimoci"
+	culture=talian
+	religion=farrapo
+	martial=2
+	diplomacy=5
+	stewardship=3
+	intrigue=3
+	learning=5
+	trait="flamboyant_schemer"
+	trait="just"
+	trait="trusting"
+	trait="humble"
+	trait="charitable"
+	trait="envious"
+	2300.1.1={birth=yes culture=greenbelly}
+	2320.5.8 = {add_spouse=270066}
+	2355.4.5={death=yes}
+	#First Garibaldi patrician
+}
+
+270066={
+	name="Bianca"
+	female=yes
+	dynasty=100011 #Kuerten
+	dna="jenfpmohhgc"
+	culture=greenbelly
+	religion=farrapo
+	martial=6
+	diplomacy=3
+	stewardship=2
+	intrigue=7
+	learning=6
+	trait="skilled_tactician"
+	trait="arbitrary"
+	trait="humble"
+	trait="ambitious"
+	trait="trusting"
+	trait="diligent"
+	trait="content"
+	trait="stressed"
+	2305.1.18={birth=yes culture=greenbelly}
+	2320.5.8 = {add_spouse=270065}
+	2355.5.2={death=yes}
+}
+
+270067={
+	name="Paolo"
+	dynasty=100010 #Garibaldi
+	dna="jenfimomoci"
+	culture=talian
+	religion=farrapo
+	martial=8
+	diplomacy=3
+	stewardship=5
+	intrigue=4
+	learning=2
+	trait="skilled_tactician"
+	trait="trusting"
+	trait="arbitrary"
+	trait="honest"
+	trait="charitable"
+	trait="cruel"
+	trait="temperate"
+	trait="lustful"
+	trait="arbitrary"
+	father=270065
+	mother=270066
+	2323.12.13={birth=yes culture=greenbelly}
+	2348.6.9 = {add_spouse=270074}
+	2377.6.9={death=yes}
+	#current patrician of Garibaldi family
+}
+
+270068={
+	name="Alessandra"
+	female=yes
+	dynasty=100010 #Garibaldi
+	dna="oenfiigmoci"
+	culture=talian
+	religion=farrapo
+	martial=4
+	diplomacy=1
+	stewardship=6
+	intrigue=4
+	learning=4
+	trait="flamboyant_schemer"
+	trait="gluttonous"
+	trait="brave"
+	trait="cynical"
+	trait="honest"
+	trait="cruel"
+	trait="zealous"
+	father=270065
+	mother=270066
+	2324.9.16={birth=yes culture=greenbelly}
+	2363.1.31={death=yes}
+}
+
+270069={
+	name="Leticia"
+	female=yes
+	dynasty=100010 #Garibaldi
+	dna="jekbpmohmcc"
+	culture=talian
+	religion=farrapo
+	martial=0
+	diplomacy=4
+	stewardship=2
+	intrigue=3
+	learning=6
+	trait="grey_eminence"
+	trait="diligent"
+	trait="paranoid"
+	trait="shy"
+	trait="temperate"
+	trait="paranoid"
+	trait="kind"
+	trait="gregarious"
+	father=270065
+	mother=270066
+	2329.5.5={birth=yes culture=greenbelly}
+	2377.3.9={death=yes}
+}
+
+270070={
+	name="Leonardo"
+	dynasty=100010 #Garibaldi
+	dna="jcnfpaomhcc"
+	culture=talian
+	religion=farrapo
+	martial=2
+	diplomacy=8
+	stewardship=5
+	intrigue=3
+	learning=4
+	trait="fortune_builder"
+	trait="cruel"
+	trait="craven"
+	trait="content"
+	trait="paranoid"
+	trait="chaste"
+	trait="craven"
+	father=270065
+	mother=270066
+	2334.11.15={birth=yes culture=greenbelly}
+	2356.2.22 = {add_spouse=270073}
+	2393.2.26={death=yes}
+}
+
+270071={
+	name="Clara"
+	female=yes
+	dynasty=100010 #Garibaldi
+	dna="ocbbpiomocc"
+	culture=talian
+	religion=farrapo
+	martial=6
+	diplomacy=3
+	stewardship=1
+	intrigue=4
+	learning=2
+	trait="midas_touched"
+	trait="gardener"
+	trait="wroth"
+	trait="gregarious"
+	trait="cruel"
+	trait="humble"
+	trait="cynical"
+	trait="just"
+	trait="chaste"
+	trait="gluttonous"
+	father=270065
+	mother=270066
+	2338.6.6={birth=yes culture=greenbelly}
+	2403.5.25={death=yes}
+}
+
+270072={
+	name="Teresa"
+	female=yes
+	dynasty=100010 #Garibaldi
+	dna="jckfiiomoci"
+	culture=talian
+	religion=farrapo
+	martial=6
+	diplomacy=5
+	stewardship=3
+	intrigue=4
+	learning=5
+	trait="misguided_warrior"
+	trait="deceitful"
+	trait="content"
+	trait="cruel"
+	trait="gregarious"
+	trait="kind"
+	trait="just"
+	trait="brave"
+	trait="zealous"
+	trait="patient"
+	father=270065
+	mother=270066
+	2339.5.6={birth=yes culture=greenbelly}
+	2396.12.18={death=yes}
+}
+
+270073={
+	name="Elena"
+	female=yes
+	dynasty=100012
+	dna="nnoalbbphcd"
+	culture=talian
+	religion=farrapo
+	martial=2
+	diplomacy=7
+	stewardship=5
+	intrigue=5
+	learning=3
+	trait="tough_soldier"
+	trait="humble"
+	trait="wroth"
+	trait="wroth"
+	trait="honest"
+	trait="envious"
+	trait="diligent"
+	trait="charitable"
+	2336.12.5={birth=yes culture=greenbelly}
+	2356.2.22 = {add_spouse=270070}
+	2388.9.19={death=yes}
+}
+
+270074={
+	name="Roberta"
+	female=yes
+	dynasty=100013
+	dna="bdgpbljkmfc"
+	culture=talian
+	religion=farrapo
+	martial=1
+	diplomacy=4
+	stewardship=5
+	intrigue=2
+	learning=7
+	trait="underhanded_rogue"
+	trait="hedonist"
+	trait="gregarious"
+	trait="temperate"
+	trait="chaste"
+	trait="deceitful"
+	trait="zealous"
+	trait="craven"
+	trait="deceitful"
+	trait="cruel"
+	trait="craven"
+	2329.3.3={birth=yes culture=greenbelly}
+	2348.6.9 = {add_spouse=270067}
+	2377.4.30={death=yes}
+}
+
+#Arns family
+
+270073 = {
+	name = "Gabriel"
+	dynasty = 90014 #Arns
+	culture = hunsruckisch
+	religion = celeste
+	trait = fortune_builder
+	trait = humble
+	trait = diligent
+	trait = zealous
+	
+	2314.1.1 = { birth = yes }
+	2341.1.1={ add_spouse = 270074 }
+	2364.1.5 = {
+		death = yes
+	}
+	#previous ruler of Rio do Sul
+}
+
+270074 = {
+	name = "Helena"
+	female = yes
+	dynasty = 0
+	culture = hunsruckisch
+	religion = celeste
+	trait = scholarly_theologian
+	trait = zealous
+	trait = humble
+	2323.1.1 = { birth = yes }
+	2341.1.1={ add_spouse = 270073 }
+	2381.1.1 = { death = yes }
+}
+
+270075 = {
+	name = "Paulo"
+	father = 270073
+	mother = 270074
+	dynasty = 90014 #Arns
+	culture = hunsruckisch
+	religion = celeste
+	diplomacy = 8
+	martial = 4
+	stewardship = 8
+	intrigue = 4
+	learning = 9
+	trait = martial_cleric
+	trait = diligent
+	trait = gregarious
+	trait = chaste
+	trait = humble
+	2342.10.22 = {
+		birth = yes
+	}
+	2400.1.1 = {
+		death = yes
+	}	
+}#Bishop of Ituporanga
+
+270076 = {
+	name = "Erika"
+	father = 270073
+	mother = 270074
+	female = yes
+	dynasty = 90014 #Arns
+	culture = hunsruckisch
+	religion = celeste
+	diplomacy = 8
+	martial = 2
+	stewardship = 7
+	learning = 8
+	intrigue = 4
+	trait = grey_eminence
+	trait = gregarious
+	trait = diligent
+	trait = charitable
+	2346.7.17 = { birth = yes }
+	2400.1.1 = { death = yes }
+}#current owner of Rio do Sul
+
+270077 = {
+	name = "Maria"
+	father = 270073
+	mother = 270074
+	female = yes
+	dynasty = 90014 #Arns
+	culture = hunsruckisch
+	religion = celeste
+	diplomacy = 8
+	martial = 2
+	stewardship = 7
+	learning = 8
+	intrigue = 4
+	trait = martial_cleric
+	trait = zealous
+	trait = nun
+	trait = charitable
+	2348.3.2 = { birth = yes }
+	2400.1.1 = { death = yes }
+}
+
+270078 = {
+	name = "Inês"
+	father = 270073
+	mother = 270074
+	female = yes
+	dynasty = 90014 #Arns
+	culture = hunsruckisch
+	religion = celeste
+	diplomacy = 8
+	martial = 2
+	stewardship = 7
+	learning = 8
+	intrigue = 4
+	trait = martial_cleric
+	trait = nun
+	trait = humble
+	2351.1.14 = { birth = yes }
+	2400.1.1 = { death = yes }
+}
+
+270079 = {
+	name = "Evaristo"
+	father = 270073
+	mother = 270074
+	dynasty = 90014 #Arns
+	culture = hunsruckisch
+	religion = celeste
+	diplomacy = 4
+	martial = 2
+	stewardship = 7
+	learning = 10
+	intrigue = 4
+	trait = scholarly_theologian
+	trait = monk
+	trait = humble
+	2353.1.14 = { birth = yes }
+	2400.1.1 = { death = yes }
+}
+
+#Kuerten family
+
+270080={
+name="Thiago"
+dynasty=100011 #Kuerten
+dna="oaclmmakmcl"
+culture=greenbelly
+religion=kardecists
+martial=8
+diplomacy=2
+stewardship=2
+intrigue=4
+learning=3
+trait="indulgent_wastrel"
+trait="wroth"
+trait="wroth"
+trait="diligent"
+trait="kind"
+trait="greedy"
+trait="shy"
+trait="ambitious"
+2315.1.1={birth=yes}
+2338.12.21 = {add_spouse=270081}
+2374.11.1={death=yes}
+#Patrician of Florianopolis
+}
+
+270081={
+name="Mariana"
+female=yes
+dynasty=100012
+dna="fhfbneagdog"
+culture=greenbelly
+religion=kardecists
+martial=8
+diplomacy=4
+stewardship=3
+intrigue=8
+learning=5
+trait="intricate_webweaver"
+trait="deceitful"
+trait="greedy"
+trait="lustful"
+trait="envious"
+trait="temperate"
+trait="zealous"
+trait="just"
+trait="brave"
+2320.5.5={birth=yes}
+2338.12.21 = {add_spouse=270080}
+2375.11.13={death=yes}
+}
+
+270082={
+name="Carlos"
+dynasty=100011 #Kuerten
+dna="fhcbnmakdol"
+culture=greenbelly
+religion=kardecists
+martial=4
+diplomacy=6
+stewardship=5
+intrigue=3
+learning=5
+trait="tough_soldier"
+trait="shy"
+trait="craven"
+trait="content"
+trait="chaste"
+trait="trusting"
+trait="gregarious"
+trait="gluttonous"
+trait="gluttonous"
+trait="proud"
+father=270080
+mother=270081
+2342.2.20={birth=yes}
+2418.1.18={death=yes}
+}
+
+270083={
+name="Leonardo"
+dynasty=100011 #Kuerten
+dna="oaclmeagdcg"
+culture=greenbelly
+religion=kardecists
+martial=4
+diplomacy=4
+stewardship=4
+intrigue=2
+learning=4
+trait="brilliant_strategist"
+trait="gregarious"
+trait="cynical"
+trait="charitable"
+trait="patient"
+trait="slothful"
+trait="ambitious"
+trait="cruel"
+trait="arbitrary"
+father=270080
+mother=270081
+2348.4.8={birth=yes}
+2427.4.25={death=yes}
+}
+
+270084={
+name="Rafael"
+dynasty=100011 #Kuerten
+dna="fjflmeagacg"
+culture=greenbelly
+religion=kardecists
+martial=2
+diplomacy=3
+stewardship=2
+intrigue=7
+learning=4
+trait="tough_soldier"
+trait="shy"
+trait="just"
+trait="lustful"
+trait="proud"
+trait="slothful"
+trait="paranoid"
+trait="diligent"
+father=270080
+mother=270081
+2352.8.30={birth=yes}
+2422.4.10={death=yes}
+}
+
+270085={
+name="Isabela"
+female=yes
+dynasty=100011 #Kuerten
+dna="lamlneagdog"
+culture=greenbelly
+religion=kardecists
+martial=7
+diplomacy=5
+stewardship=6
+intrigue=6
+learning=8
+trait="charismatic_negotiator"
+trait="zealous"
+trait="brave"
+trait="charitable"
+trait="paranoid"
+trait="slothful"
+trait="humble"
+trait="ill"
+father=270080
+mother=270081
+2355.7.12={birth=yes}
+2406.7.28={death=yes}
+}
+
+
+
+#Gomes
+
 280001={
 	name="Humberto"
 	dynasty=95068 #gomes

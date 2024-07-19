@@ -254,6 +254,20 @@ k_goytacazes_generalship = {
 	 #primary = yes 
 }
 
+k_juliana = {
+	color={ 239 178 45 }
+	color2={ 255 255 255 }
+	
+	short_name = yes
+		
+	capital = 193 # c_florianopolis
+	culture = greenbelly
+	
+	allow = {
+		always = no
+	}
+}
+
 k_noiva_do_mar = {
 	color={ 45 114 165 }
 	color2={ 255 255 255 }

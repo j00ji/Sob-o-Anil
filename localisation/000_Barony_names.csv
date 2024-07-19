@@ -669,6 +669,8 @@ b_arapiraca;Arapiraca;Arapiraca;Arapiraca;;Arapiraca;;;;;;;;;x
 b_arapiraca_adj;Arapiracan;;arapiracer;;;;;;;;;;;x
 b_arapongas;Arapongas;Arapongas;Arapongas;;Arapongas;;;;;;;;;x
 b_arapongas_adj;Arapongasian;;arapongaser;;;;;;;;;;;x
+b_arapoti;Arapoti;;;;;;;;;;;;;;x
+b_arapoti_adj;Arapotiense;;;;;;;;;;;;;;x
 b_arapora;Arapora;Arapora;Arapora;;Arapora;;;;;;;;;x
 b_arapora_adj;Araporan;;araporer;;;;;;;;;;;x
 b_arapua;Arapua;Arapua;Arapua;;Arapua;;;;;;;;;x
@@ -1473,6 +1475,8 @@ b_bocaina;Bocaina;;;;;;;;;;;x
 b_boicana_adj;Bocainense
 b_bocaina_do_sul;Bocaína do Sul;Bocaína do Sul;Bocaína do Sul;;Bocaína do Sul;;;;;;;;;x
 b_bocaina_do_sul_adj;Bocaína do Sulian;;Bocaína do Suler;;;;;;;;;;;x
+b_bocaiuva_do_sul;Bocaiúva do Sul;;;;;;;;;;;;;;x
+b_bocaiuva_do_sul_adj;Bocaiuvense;;;;;;;;;;;;;;x
 b_bocas_de_satinga;Bocas de Satinga;Bocas de Satinga;Bocas de Satinga;;Bocas de Satinga;;;;;;;;;x
 b_bocas_de_satinga_adj;Bocas de Satingan;;Bocas de Satinger;;;;;;;;;;;x
 b_bodoco;Bodocó;Bodocó;Bodocó;;Bodocó;;;;;;;;;x
@@ -2061,6 +2065,8 @@ b_campo_de_mayo;Campo de Mayo;Campo de Mayo;Campo de Mayo;;Campo de Mayo;;;;;;;;
 b_campo_de_mayo_adj;Campo de Maian;;Campo de Maer;;;;;;;;;;;x
 b_campo_del_medio;Campo del Medio;Campo del Medio;Campo del Medio;;Campo del Medio;;;;;;;;;x
 b_campo_del_medio_adj;Campo del Median;;Campo del Meder;;;;;;;;;;;x
+b_campo_do_tenente;Campo do Tenente;;;;;;;;;;;;;;x
+b_campo_do_tenente_adj;Campotenentense;;;;;;;;;;;;;;x
 b_campo_duro;Campo Duro;Campo Duro;Campo Duro;;Campo Duro;;;;;;;;;x
 b_campo_duro_adj;Campo Durian;;Campo Durer;;;;;;;;;;;x
 b_campo_florido;Campo Florido;Campo Florido;Campo Florido;;Campo Florido;;;;;;;;;x
@@ -2613,6 +2619,8 @@ b_centralina;Centralina;Centralina;Centralina;;Centralina;;;;;;;;;x
 b_centralina_adj;Centralinan;;centraliner;;;;;;;;;;;x
 b_centro;Centro;Centro;Centro;;Centro;;;;;;;;;x
 b_centro_adj;Centrian;;centrer;;;;;;;;;;;x
+b_centro_cerro_azul;Centro Cerro Azul;;;;;;;;;;;;;;x
+b_centro_cerro_azul_adj;Centrocerroazulense;;;;;;;;;;;;;;x
 b_centrochatuba;Centrochatuba;Centrochatuba;Centrochatuba;;Centrochatuba;;;;;;;;;x
 b_centrochatuba_adj;Centrochatuban;;centrochatuber;;;;;;;;;;;x
 b_ceollar;Ceollar;Ceollar;Ceollar;;Ceollar;;;;;;;;;x
@@ -3635,6 +3643,8 @@ b_diamante;Diamante;Diamante;Diamante;;Diamante;;;;;;;;;x
 b_diamante_adj;Diamantean;;diamanter;;;;;;;;;;;x
 b_diamante_2;Diamante;Diamante;Diamante;;Diamante;;;;;;;;;x
 b_diamante_2_adj;Diamantean;;diamanter;;;;;;;;;;;x
+b_diamante_3;Diamante;Diamante;Diamante;;Diamante;;;;;;;;;x
+b_diamante_3_adj;Diamantean;;diamanter;;;;;;;;;;;x
 b_diamantina_do_para;Diamantina do Pará;Diamantina do Pará;Diamantina do Pará;;Diamantina do Pará;;;;;;;;;x
 b_diamantina_do_para_adj;Diamantina do Paráian;;Diamantina do Paráer;;;;;;;;;;;x
 b_diamantino;Diamantino;Diamantino;Diamantino;;Diamantino;;;;;;;;;x
@@ -5691,6 +5701,12 @@ b_jaguaribara;Jaguaribara;Jaguaribara;Jaguaribara;;Jaguaribara;;;;;;;;;x
 b_jaguaribara_adj;Jaguaribaran;;jaguaribarer;;;;;;;;;;;x
 b_jaguaribe;Jaguaribe;Jaguaribe;Jaguaribe;;Jaguaribe;;;;;;;;;x
 b_jaguaribe_adj;Jaguaribean;;jaguariber;;;;;;;;;;;x
+b_jaguariaiva;Jaguariaíva;;;;;;;;;;;;;;x
+b_jaguariaiva_adj;Jaguariaivense;;;;;;;;;;;;;;x
+b_jaguariaiva_norte;Jaguariaíva Norte;;;;;;;;;;;;;;x
+b_jaguariaiva_norte_adj;Jaguariaivense Norte;;;;;;;;;;;;;;x
+b_jaguariaiva_sul;Jaguariaíva Sul;;;;;;;;;;;;;;x
+b_jaguariaiva_sul_adj;Jaguariaivense Sul;;;;;;;;;;;;;;x
 b_jaguaruana;Jaguaruana;Jaguaruana;Jaguaruana;;Jaguaruana;;;;;;;;;x
 b_jaguaruana_adj;Jaguaruanan;;jaguaruaner;;;;;;;;;;;x
 b_jaguaruana_2;Jaguaruana;Jaguaruana;Jaguaruana;;Jaguaruana;;;;;;;;;x
@@ -7085,6 +7101,8 @@ b_mariana;Mariana;Mariana;Mariana;;Mariana;;;;;;;;;x
 b_mariana_adj;Marianan;;marianer;;;;;;;;;;;x
 b_marica;Marica;Marica;Marica;;Marica;;;;;;;;;x
 b_marica_adj;Marican;;maricer;;;;;;;;;;;x
+b_mariental;Mariental;;;;;;;;;;;;;;x
+b_mariental_adj;Marientalense;;;;;;;;;;;;;;x
 b_mariflor;Mariflor;Mariflor;Mariflor;;Mariflor;;;;;;;;;x
 b_mariflor_adj;Mariflorian;;mariflorer;;;;;;;;;;;x
 b_marilandia;Marilandia;Marilandia;Marilandia;;Marilandia;;;;;;;;;x
@@ -8830,6 +8848,8 @@ b_piedras_blancas;Piedras Blancas;Piedras Blancas;Piedras Blancas;;Piedras Blanc
 b_piedras_blancas_adj;Piedras Blancasian;;Piedras Blancaser;;;;;;;;;;;x
 b_piedritas;Piedritas;Piedritas;Piedritas;;Piedritas;;;;;;;;;x
 b_piedritas_adj;Piedritasian;;piedritaser;;;;;;;;;;;x
+b_pien;Piên;;;;;;;;;;;;;;x
+b_pien_adj;Pienense;;;;;;;;;;;;;;x
 b_piendamo;Piendamó;Piendamó;Piendamó;;Piendamó;;;;;;;;;x
 b_piendamo_adj;Piendamóian;;piendamóer;;;;;;;;;;;x
 b_pieres;Pieres;Pieres;Pieres;;Pieres;;;;;;;;;x
@@ -8936,6 +8956,8 @@ b_pirai;Pirai;Pirai;Pirai;;Pirai;;;;;;;;;x
 b_pirai_adj;Pirian;;pirer;;;;;;;;;;;x
 b_pirai_do_norte;Piraí do Norte;Piraí do Norte;Piraí do Norte;;Piraí do Norte;;;;;;;;;x
 b_pirai_do_norte_adj;Piraí do Nortean;;Piraí do Norter;;;;;;;;;;;x
+b_pirai_do_sul;Piraí do Sul;;;;;;;;;;;;;;x
+b_pirai_do_sul_adj;Piraiense;;;;;;;;;;;;;;x
 b_pirajuba;Pirajuba;Pirajuba;Pirajuba;;Pirajuba;;;;;;;;;x
 b_pirajuba_adj;Pirajuban;;pirajuber;;;;;;;;;;;x
 b_piran;Piran;Piran;Piran;;Piran;;;;;;;;;x
@@ -9404,8 +9426,12 @@ b_pucotrihue;Pucotrihue;Pucotrihue;Pucotrihue;;Pucotrihue;;;;;;;;;x
 b_pucotrihue_adj;Pucotrihuean;;pucotriher;;;;;;;;;;;x
 b_pucunzal;Pucunzal;Pucunzal;Pucunzal;;Pucunzal;;;;;;;;;x
 b_pucunzal_adj;Pucunzalian;;pucunzaler;;;;;;;;;;;x
+b_queimados;Queimados;;;;;;;;;;;;;;x
+b_queimados_adj;Queimadense;;;;;;;;;;;;;;x
 b_quinta_normal;Quinta Normal;Quinta Normal;Quinta Normal;;Quinta Normal;;;;;;;;;x
 b_quinta_normal_adj;Quintanormalean;;Quintanormaler;;;;;;;;;;;x
+b_quitandinha;Quitandinha;;;;;;;;;;;;;;x
+b_quitandinha_adj;Quitandinhense;;;;;;;;;;;;;;x
 b_pueblo_abayuba;Pueblo Abayubá;Pueblo Abayubá;Pueblo Abayubá;;Pueblo Abayubá;;;;;;;;;x
 b_pueblo_abayuba_adj;Pueblo Abayubáian;;Pueblo Abayubáer;;;;;;;;;;;x
 b_pueblo_nuevo;Pueblo Nuevo;Pueblo Nuevo;Pueblo Nuevo;;Pueblo Nuevo;;;;;;;;;x
@@ -9994,6 +10020,8 @@ b_rio_mayo;Río Mayo;Río Mayo;Río Mayo;;Río Mayo;;;;;;;;;x
 b_rio_mayo_adj;Río Maian;;Río Maer;;;;;;;;;;;x
 b_rio_muerto;Rio Muerto;Rio Muerto;Rio Muerto;;Rio Muerto;;;;;;;;;x
 b_rio_muerto_adj;Rio Muertian;;Rio Muerter;;;;;;;;;;;x
+b_rio_novo;Rio Novo;;;;;;;;;;;;;;x
+b_rio_novo_adj;Rionovense;;;;;;;;;;;;;;x
 b_rio_nef;Rio Nef;Rio Nef;Rio Nef;;Rio Nef;;;;;;;;;x
 b_rio_nef_adj;Rio Nefian;;Rio Nefer;;;;;;;;;;;x
 b_rio_negrinho;Rio Negrinho;Rio Negrinho;Rio Negrinho;;Rio Negrinho;;;;;;;;;x
@@ -10172,6 +10200,8 @@ b_rui_barbosa;Rui Barbosa;Rui Barbosa;Rui Barbosa;;Rui Barbosa;;;;;;;;;x
 b_rui_barbosa_adj;Rui Barbosan;;Rui Barboser;;;;;;;;;;;x
 b_ruminahui;Rumiñahui;Rumiñahui;Rumiñahui;;Rumiñahui;;;;;;;;;x
 b_ruminahui_adj;Rumiñahian;;rumiñaher;;;;;;;;;;;x
+b_rural_norte;Rural Norte;;;;;;;;;;;;;;x
+b_rural_norte_adj;Ruralnortense;;;;;;;;;;;;;;x
 b_ruropolis;Rurópolis;Rurópolis;Rurópolis;;Rurópolis;;;;;;;;;x
 b_ruropolis_adj;Rurópolisian;;rurópoliser;;;;;;;;;;;x
 b_ruropolis_2;Rurópolis;Rurópolis;Rurópolis;;Rurópolis;;;;;;;;;x
@@ -11278,6 +11308,8 @@ b_senador_pompeu;Senador Pompeu;Senador Pompeu;Senador Pompeu;;Senador Pompeu;;;
 b_senador_pompeu_adj;Senador Pompian;;Senador Pomper;;;;;;;;;;;x
 b_senador_rui_palmeira;Senador Rui Palmeira;Senador Rui Palmeira;Senador Rui Palmeira;;Senador Rui Palmeira;;;;;;;;;x
 b_senador_rui_palmeira_adj;Senador Rui Palmeiran;;Senador Rui Palmeirer;;;;;;;;;;;x
+b_senges;Sengés;;;;;;;;;;;;;;x
+b_senges_adj;Sengesense;;;;;;;;;;;;;;x
 b_senhor_do_bomfim;Senhor do Bomfim;Senhor do Bomfim;Senhor do Bomfim;;Senhor do Bomfim;;;;;;;;;x
 b_senhor_do_bomfim_adj;Senhor do Bomfimian;;Senhor do Bomfimer;;;;;;;;;;;x
 b_senhor_do_bonfim;Senhor do Bonfim;Senhor do Bonfim;Senhor do Bonfim;;Senhor do Bonfim;;;;;;;;;x
@@ -11324,6 +11356,8 @@ b_serra_de_sao_domingos;Serra de São Domingos;Serra de São Domingos;Serra de São
 b_serra_de_sao_domingos_adj;Serra de São Domingosian;;Serra de São Domingoser;;;;;;;;;;;x
 b_serra_do_brilhante;Serra do Brilhante;Serra do Brilhante;Serra do Brilhante;;Serra do Brilhante;;;;;;;;;x
 b_serra_do_brilhante_adj;Serra do Brilhantean;;Serra do Brilhanter;;;;;;;;;;;x
+b_serra_do_cadeado;Serra do Cadeado;;;;;;;;;;;;;;x
+b_serra_do_cadeado_adj;Serradocadeadense;;;;;;;;;;;;;;x
 b_serra_do_intendente;Serra do Intendente;Serra do Intendente;Serra do Intendente;;Serra do Intendente;;;;;;;;;x
 b_serra_do_intendente_adj;Serra do Intendentean;;Serra do Intendenter;;;;;;;;;;;x
 b_serra_do_mel;Serra do Mel;Serra do Mel;Serra do Mel;;Serra do Mel;;;;;;;;;x
@@ -11896,6 +11930,8 @@ b_tigre;Tigre;Tigre;Tigre;;Tigre;;;;;;;;;x
 b_tigre_adj;Tigrean;;tigrer;;;;;;;;;;;x
 b_tijucas;Tijucas;Tijucas;Tijucas;;Tijucas;;;;;;;;;x
 b_tijucas_adj;Tijucasian;;tijucaser;;;;;;;;;;;x
+b_tijucas_do_sul;Tijucas do Sul;;;;;;;;;;;;;;x
+b_tijucas_do_sul_adj;Tijucassulense;;;;;;;;;;;;;;x
 b_tilama;Tilama;Tilama;Tilama;;Tilama;;;;;;;;;x
 b_tilama_adj;Tilaman;;tilamer;;;;;;;;;;;x
 b_tilcara;Tilcara;Tilcara;Tilcara;;Tilcara;;;;;;;;;x
@@ -12216,6 +12252,8 @@ b_tumupasa;Tumupasa;Tumupasa;Tumupasa;;Tumupasa;;;;;;;;;x
 b_tumupasa_adj;Tumupasan;;tumupaser;;;;;;;;;;;x
 b_tunan;Tunán;Tunán;Tunán;;Tunán;;;;;;;;;x
 b_tunan_adj;Tunánian;;tunáner;;;;;;;;;;;x
+b_tunas_do_parana;Tunas do Paraná;;;;;;;;;;;;;;x
+b_tunas_do_parana_adj;Tunasparanaense;;;;;;;;;;;;;;x
 b_tuntum;Tuntum;Tuntum;Tuntum;;Tuntum;;;;;;;;;x
 b_tuntum_adj;Tuntumian;;tuntumer;;;;;;;;;;;x
 b_tupa;Tupã;Tupã;Tupã;;Tupã;;;;;;;;;x
@@ -12692,6 +12730,8 @@ b_vila_nova;Vila Nova;Vila Nova;Vila Nova;;Vila Nova;;;;;;;;;x
 b_vila_nova_adj;Vila Novan;;Vila Nover;;;;;;;;;;;x
 b_vila_nova_2;Vila Nova;Vila Nova;Vila Nova;;Vila Nova;;;;;;;;;x
 b_vila_nova_2_adj;Vila Novan;;Vila Nover;;;;;;;;;;;x
+b_vila_parana;Vila Paraná;;;;;;;;;;;;;;x
+b_vila_parana_adj;Vilaparanense;;;;;;;;;;;;;;x
 b_vila_pedrosa;Vila Pedrosa;Vila Pedrosa;Vila Pedrosa;;Vila Pedrosa;;;;;;;;;x
 b_vila_pedrosa_adj;Vila Pedrosan;;Vila Pedroser;;;;;;;;;;;x
 b_vila_peliciaris;Vila Peliciaris;Vila Peliciaris;Vila Peliciaris;;Vila Peliciaris;;;;;;;;;x
@@ -12876,6 +12916,8 @@ b_weddell;Weddell;Weddell;Weddell;;Weddell;;;;;;;;;x
 b_weddell_adj;Weddellian;;weddeller;;;;;;;;;;;x
 b_wellington;Wellington;Wellington;Wellington;;Wellington;;;;;;;;;x
 b_wellington_adj;Wellingtonian;;wellingtoner;;;;;;;;;;;x
+b_wenceslau_braz;Wenceslau Braz;;;;;;;;;;;;;;x
+b_wenceslau_braz_adj;Wenceslauense;;;;;;;;;;;;;;x
 b_white;White;White;White;;White;;;;;;;;;x
 b_white_adj;Whitean;;whiter;;;;;;;;;;;x
 b_winifreda;Winifreda;Winifreda;Winifreda;;Winifreda;;;;;;;;;x

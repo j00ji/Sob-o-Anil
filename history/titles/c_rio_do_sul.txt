@@ -6,12 +6,10 @@
 800.1.1={
 	liege=k_santa_catarina
 }
-2320.1.1={
-	holder=270009
+2326.1.1={
+	holder = 270073 
 }
-2354.1.1={
-	holder=270011
-}
-2365.2.3={
-	holder=270016
+2365.5.14={
+	holder = 270076 
+	liege = d_lages
 }
