@@ -1,5 +1,5 @@
-# k_norte_viejo
-2328.4.16 = {
+# k_noroeste
+2340.11.14 = {
 	holder=640106 # Evaristo Uriburu
 }
 2360.10.23 = {

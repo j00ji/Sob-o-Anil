@@ -1,5 +1,0 @@
-2360.1.1 = { 
-	holding_dynasty = 500040 # Mannarelli
-	liege = k_tacna
-	holder = 860111 #Emmanuel
-}

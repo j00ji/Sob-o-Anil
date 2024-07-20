@@ -7,6 +7,7 @@ technology={
 		d_manaus
 		d_recife
 		d_lencois
+		d_uapon_acu
 		d_belzonte
 		d_guayra
 		d_guayas
@@ -298,7 +299,7 @@ technology={
 		d_chaco
 		d_formosa
 		d_salta
-		d_enterrios
+		d_entrerios
 		d_corrientes
 		d_misiones
 		d_anejo
@@ -461,7 +462,7 @@ technology={
 		d_rio_real
 		d_jeremoabo
 		d_capivari
-		d_
+		d_porto_franco
 	}
 
 	2369={

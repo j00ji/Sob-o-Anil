@@ -2,8 +2,8 @@
 ### House Yegros ###
 ####################
 330001 = {
-	name="Gaspar" # Gaspar Yegros Karai Guasu, Crusader King of Paraguay.
-    dynasty=355070
+	name="Gaspar" # Gaspar Yegros the Karai Guasu, Crusader King of Paraguay.
+    dynasty=365001
 
 	diplomacy = 5
 	martial = 1
@@ -11,7 +11,7 @@
 	intrigue = 4
 	learning = 5
 
-	culture=litoraleño
+	culture=asunceno
 	religion=catholic
 
 	add_trait="strong"
@@ -33,41 +33,75 @@
 		add_trait="gregarious"
 		add_trait="zealous"
 	}
-	2350.4.5 = {
-		add_spouse=330044
+	2344.4.5 = {
+		add_spouse=330044 # María García
 	}
 	2365.2.1 = {
-		culture=asunceno
 		add_trait="crusader_king"
-		effect={
-			give_nickname=nick_karai_guasu
-		}
-	}
-	2368.1.1 = {
-		add_spouse=330045
+		give_nickname=nick_karai_guasu
 	}
 }
 330044 = {
-	name="Maria"
+	name="María" # María García.
+	dynasty=365002
 	female=yes
-    dynasty=305004 # Yoacham
-    culture=turco
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+
+	culture=asunceno
+	religion=catholic
+
+	2324.4.27 = {
+		birth="2324.4.27"
+	}
+}
+### Issue of Gaspar the Karai Guasu ###
+330002 = {
+	name="José" # José Yegros, Duke of Lower Paraná.
+    dynasty=365001
+
+	diplomacy = 5
+	martial = 1
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=asunceno
     religion=catholic
-    martial=3
-    diplomacy=6
-    stewardship=4
-    intrigue=3
-    learning=4
-    trait=charismatic_negotiator
-    trait=fair
-    trait=socializer
-    trait=charitable
-    trait=kind
-    trait=ill
-   2320.1.1 ={birth=yes}
-   2362.1.1={death=yes}
-   
-   #First wife of the King of Paraguay, mother of Luis and Luciana, died of a sudden illness
+
+	father=330001 # Gaspar Yegros
+	mother=330044 # María García
+
+    2345.2.12 = {
+		birth="2345.2.12"
+	}
+	2368.1.1 = {
+		add_spouse=690027
+	}
+}
+330003 = {
+	name="Antonio" # Antonio Yegros.
+	dynasty=365001
+
+	diplomacy = 5
+	martial = 1
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	culture=asunceno
+	religion=catholic
+
+	father=330001 # Gaspar Yegros
+	mother=330044 # María García
+
+    2347.7.17 = {
+		birth="2347.7.17"
+	}
 }
 330045 = {
 	name="Corina"
@@ -75,74 +109,14 @@
     dynasty=365042 # Lopez
     culture=asunceno
     religion=catholic
+
     martial=4
     diplomacy=3
     stewardship=5
     intrigue=4
     learning=4
-    trait=groomed
-    trait=ambitious
-    trait=charitable
-    trait=diligent
-    trait=lustful
-    trait=patient
 	father=330046
     2351.1.1={birth=yes}
-    2430.1.1={death=yes}
-
-	#Second wife of the King of Paraguay
-}
-### Issue of Gaspar the Karai Guasu ###
-330002 = {
-	name="Luciana"
-	female=yes
-    dynasty=355070 # Gelly
-    culture=asunceno
-    religion=catholic
-    martial=5
-    diplomacy=2
-    stewardship=3
-    intrigue=3
-    learning=4
-    trait=intricate_webweaver
-    trait=twin
-    trait=shrewd
-    trait=zealous
-    trait=chaste
-    trait=diligent
-    trait=shy
-    trait=stubborn
-	father=330001
-	mother=330044
-    2352.1.1={birth=yes}
-    2408.1.1={death=yes}
-	
-	#Princess of Paraguay and Countess of Misiones
-}
-330003 = {
-	name="Luis"
-    dynasty=355070 # Gelly
-    culture=asunceno
-    religion=catholic
-    martial=6
-    diplomacy=4
-    stewardship=3
-    intrigue=3
-    learning=4
-    trait=charismatic_negotiator
-    trait=twin
-    trait=drunkard
-    trait=slothful
-    trait=cynical
-    trait=stubborn
-    trait=gregarious
-	father=330001
-	mother=330044
-    2352.1.1={birth=yes}
-	2368.1.1={add_spouse=690027}
-    2425.1.1={death=yes}
-	
-	#Crown Prince (and heir/older sibling) of Paraguay, rules Ybycui
 }
 ##############################
 ### House Yegros Household ###
@@ -227,19 +201,41 @@
 	}
     2371.1.1={death=yes}
 }
-#########################
-### House de Andacoyo ###
-#########################
+690027 = {
+	name="Juliana"
+	dynasty=310009
+	female=yes
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+
+	culture=guarani
+	religion=catholic
+	secret_religion=jerovia
+
+	2349.1.1 = {
+		birth=yes
+	}
+}
+#######################
+### House Caballero ###
+#######################
 800001 = {
-	name="Lorezno"
-    dynasty=365043 # de Andacollo
-    culture=asunceno
-    religion=catholic
-    martial=4
-    diplomacy=5
-    stewardship=3
-    intrigue=3
-    learning=6
+	name="Vicente" # Vicente Caballero, Duke of Upper Paraguay.
+	dynasty=365003
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+
+	culture=asunceno
+	religion=catholic
+
     trait=martial_cleric
     trait=crusader
     trait=zealous
@@ -247,10 +243,10 @@
     trait=diligent
     trait=wroth
     trait=envious
-    2328.1.1={birth=yes}
-    2401.1.1={death=yes}
 
-	#Duke of Upper Paraguay, rules Amambay, Mbaracayu, and San Pedro
+	2324.6.29 = {
+		birth="2324.6.29"
+	}
 }
 #######################
 ### House Hernandez ###
@@ -436,28 +432,7 @@
 	#Count of Kandu
 }
 
-690027 = {
-	name="Juliana"
-    dynasty=310009 # del Indios
-	female=yes
-    culture=guarani
-    religion=catholic
-	secret_religion=jerovia
-    martial=6
-    diplomacy=3
-    stewardship=3
-    intrigue=2
-    learning=3
-    trait=wroth
-    trait=deceitful
-    trait=brave
-    trait=just
-    trait=humble
-    2349.1.1={birth=yes}
-    2425.1.1={death=yes}
 
-	#Wife of Prince Luis Gelly, 50/50 chance to assassinate the crown prince in opening event chain
-}
 
 #Ciudad del Este republic
 

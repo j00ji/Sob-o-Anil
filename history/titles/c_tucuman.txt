@@ -6,8 +6,9 @@
 800.1.1 = {
 	liege=k_noroeste
 }
-2338.4.16 = {
+2340.11.14 = {
 	holder=640106 # Evaristo Uriburu
+	liege=d_salta
 }
 2360.10.23 = {
 	holder=640085 # Felix Uriburu

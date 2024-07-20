@@ -163,7 +163,7 @@
 ######################
 640017 = {
 	name="Pedro"
-	dynasty=285010 #Bautista
+	dynasty=355080 #Bautista
 
 	culture=litoraleno
 	religion=rosalian
@@ -194,7 +194,7 @@
 }
 640018 = {
 	name="Juana"
-	dynasty=285011 # Hernandez
+	dynasty=355081 # Hernandez
 	female=yes
 
     culture=litoraleno
@@ -217,7 +217,7 @@
 ### Issue of Pedro ###
 640019 = {
     name="Javier"
-    dynasty=285010 # Bautista
+    dynasty=355080 # Bautista
 	father=640017
 	mother=640018
     culture=litoraleno
@@ -1512,7 +1512,7 @@
 ####################
 330036 = {
 	name="Ernesto"
-    dynasty=350099 # Alsina
+    dynasty=345018 # Alsina
     culture=contadino
     religion=platinean
     martial=4
@@ -1537,7 +1537,7 @@
 ######################
 330037 = {
 	name="Benito"
-    dynasty=350100 # Carancho
+    dynasty=345019 # Carancho
     culture=contadino
     religion=gaucheria
     martial=3

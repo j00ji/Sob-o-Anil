@@ -1,0 +1,8 @@
+2360.1.1 = { 
+	holding_dynasty=140035 # Baquedano
+	holder=220016 # Miguel Baquedano
+	liege=k_tacna
+}
+2364.10.20 = { 
+	holder=220018 # Miguel Baquedano
+}

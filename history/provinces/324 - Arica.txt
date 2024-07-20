@@ -6,7 +6,7 @@ title = c_arica
 # Settlements
 max_settlements = 4
 
-b_arica = castle
+b_arica = city
 b_codpa = temple
 b_cuya = castle
 #b_azapa = castle

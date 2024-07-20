@@ -270,9 +270,20 @@ b_mazorca = {
 	religion = rosalian
 }
 
+## Tarapaca
+
+b_baquedano = {
+	culture=atacameno
+	religion=santa_diablada
+}
+b_tirana = {
+	culture=atacameno
+	religion=santa_diablada
+}
+
 ## Tacna
 
-b_mannarelli = {
+b_grau = {
 	culture = ileno
-	religion = obscurantist
+	religion = santa_diablada
 }

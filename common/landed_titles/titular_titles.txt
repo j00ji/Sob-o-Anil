@@ -394,18 +394,20 @@ k_beornia = {
 	}
 }
 
-k_tacna = { #Tacna republic
+k_pacific_republic = { # Republic of the Pacific
 	color = { 255 204 0 }
 	color2 = { 255 255 255 }
 	
 	capital = 934 # tacna
 	dignity = 200 # Never want the Republic of Tacna to change primary title
 	
+	short_name = yes
+	
 	culture = ileno
 	
 	allow = {
 		is_republic = yes
-		k_tacna = {
+		k_pacific_republic = {
 			is_titular = no
 		}
 	}

@@ -651,4 +651,28 @@
     culture = colla
     religion=santa_diablada
 }
-
+#########################
+### Quechua Dynasties ###
+###	ID: 430001-440000 ###
+#########################
+430003 = {
+	name="Chihuán"
+	culture=quechua
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+430004 = {
+	name="Huancahuari"
+	culture=quechua
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+430005 = {
+	name="Huapaya"
+	culture=quechua
+	religion=santa_diablada
+	can_appear=no
+	used_for_random=no
+}

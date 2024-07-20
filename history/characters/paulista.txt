@@ -12849,7 +12849,7 @@
 	religion = johrei
 	female=yes
 	dna="ciiaa0ba0a0"
-	roperties="cl0kck000000000000000000000000000000"
+	properties="cl0kck000000000000000000000000000000"
 
 	trait=grey_eminence
 	trait=fair

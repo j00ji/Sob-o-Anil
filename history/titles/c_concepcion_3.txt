@@ -8,6 +8,6 @@
 }
 2364.1.25 = { 
 	holder = 680001 #Omar Amat
-	liege=k_paraguay
+	liege=d_upper_paraguay
 }
 

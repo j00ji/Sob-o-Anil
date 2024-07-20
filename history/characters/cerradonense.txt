@@ -171,7 +171,7 @@
 	intrigue=1
 	learning=7
 	2314.1.1={birth=yes}
-	2330={add_matrilineal_spouse=180011}
+	2330.1.1={add_matrilineal_spouse=180011}
 	2380.1.1={death=yes}
 	#Vassal of Rio Verde, holds Itumbiara
 }
@@ -206,7 +206,7 @@
 	father=180011
 	mother=180010
 	trait=charismatic_negotiator
-	2338.1={birth=yes}
+	2338.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#Coralina daughter
 }
@@ -969,7 +969,6 @@
 	trait=fair
 	trait=legit_bastard
 	father=210040
-	female=yes
 	2351.1.1={birth=yes}
 	2400.1.1={death=yes}
 	#half sister of Samuel

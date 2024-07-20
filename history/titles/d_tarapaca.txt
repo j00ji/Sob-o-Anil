@@ -10,5 +10,6 @@
 	holder=220016 # Miguel Baquedano
 }
 2364.10.20 = {
+	liege=k_pacific_republic
 	holder=220018 # Marcos Baquedano
 }
