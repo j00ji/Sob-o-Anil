@@ -13109,7 +13109,7 @@
 	dynasty = 55054 #de Melo
 	father = 110741
 	culture = mantiqueiro
-	religion = renewalist
+	religion = anchietican
 	trait = skilled_tactician
 	trait = diligent
 	

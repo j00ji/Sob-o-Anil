@@ -6,6 +6,6 @@
 800.1.1={
 	liege=k_sao_paulo
 }
-2361.2.13 = {
-	holder = 110742 #Guilherme de Melo
+2362.4.25 = { 
+	holder = 80018 #Sabugosa ruler
 }

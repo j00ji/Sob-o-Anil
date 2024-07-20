@@ -22,3 +22,75 @@ d_twelve_pairs_of_france = {
 	
 	mercenary_type = bandeirante_composition
 }
+
+d_new_songs = {
+
+	color={ 0 81 143 }
+	color2={ 250 190 85 }
+		
+	capital = 40 # c_cruzeiro
+	
+	title = "MONSIGNOR"
+	foa = "GRANDMASTER_FOA"
+	
+	# Parent Religion 
+	religion = aparecidan	
+	culture = mantiqueiro
+
+	holy_order = yes
+	landless = yes
+	primary = yes
+	strength_growth_per_century = 0.5
+	monthly_income = 10
+	# land_morale buff somehow
+	
+	mercenary_type = bandeirante_composition
+}
+
+d_knights_aparecida = {
+	color={ 0 81 143 }
+	color2={ 250 190 85 }
+	
+	graphical_culture = holygfx
+	
+	capital = 1097 # c_aparecida
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Parent Religion 
+	religion = aparecidan	
+	culture = mantiqueiro
+
+	holy_order = yes
+	landless = yes
+	primary = yes
+	strength_growth_per_century = 0.5
+	monthly_income = 2
+	#
+	
+	mercenary_type = bandeirante_composition
+}
+
+d_guardians_life = {
+	color={ 0 81 143 }
+	color2={ 250 190 85 }
+		
+	capital = 78 # c_sao_jose_do_rio_preto
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Parent Religion 
+	religion = aparecidan	
+	culture = caipira
+
+	holy_order = yes
+	landless = yes
+	primary = yes
+	strength_growth_per_century = 0.5
+	monthly_income = 2
+	#
+	
+	mercenary_type = bandeirante_composition #give em cowboy retinue
+}
