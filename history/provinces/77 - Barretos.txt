@@ -16,6 +16,6 @@ b_monte_alegre = temple
 
 # Misc
 culture = caipira
-religion = anchietican
+religion = charismatic
 
 #History

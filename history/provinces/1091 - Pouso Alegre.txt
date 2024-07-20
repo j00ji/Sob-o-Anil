@@ -16,6 +16,6 @@ b_sao_jose_pantano = temple
 
 # Misc
 culture = mantiqueiro
-religion = anchietican
+religion = charismatic
 
 #History

@@ -16,6 +16,6 @@ b_paranapiacaba = temple
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = charismatic
 
 #History

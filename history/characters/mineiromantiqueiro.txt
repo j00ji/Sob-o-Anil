@@ -171,7 +171,7 @@
 6200060 = {
 	name = "Clotilde"
 	dynasty = 0 #give her a dynasty later
-	religion = anchietican
+	religion = charismatic
 	culture = triangler
 	female = yes
 	dna="a0aba0bab00"
@@ -194,7 +194,7 @@
 620007 = {
 	name = "Gontrão"
 	dynasty = 280002 # Águas Claras
-	religion = anchietican
+	religion = charismatic
 	culture = mantiqueiro
 	dna="00000000000"
 	properties="an0000000000000000000000000000000000"
@@ -215,7 +215,7 @@
 620008 = {
 	name = "Benedito"
 	dynasty = 0 #
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	
 	dna="a0aba0bab00"

@@ -18,6 +18,6 @@ b_jose_bonifacio = castle
 
 # Misc
 culture = caipira
-religion = anchietican
+religion = charismatic
 
 #History

@@ -22,7 +22,7 @@
 	#Count of Americana and Count of Mogi-Guaçu
 	dynasty = 60001
 	dna = acbhg0a00f0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120001
 	
@@ -714,7 +714,7 @@
 	name = "Phillip"
 	dynasty = 60001
 	dna = baah00bcjf0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120030
 	
@@ -751,7 +751,7 @@
 	#Founder of the West Dynasty
 	dynasty = 60002
 	dna = cchdb00bid0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	
 	2234.4.14 = {birth = yes}
@@ -766,7 +766,7 @@
 	#Count of Americana
 	dynasty = 60002
 	dna = 0ddid0i0id0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120034
 	
@@ -783,7 +783,7 @@
 	female = yes
 	dynasty = 60002
 	dna = bbhbe0daid0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120034
 	
@@ -801,7 +801,7 @@
 	dynasty = 60002
 	dna = abae00gbid0
 	properties = eh0dfk00000
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120034
 	
@@ -837,7 +837,7 @@
 	#Count of Americana
 	dynasty = 60002
 	dna = ahfec0gcid0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120035
 	
@@ -856,7 +856,7 @@
 	female = yes
 	dynasty = 60002
 	dna = 0cfgd00aid0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120038
 	
@@ -871,7 +871,7 @@
 	dynasty = 60002
 	dna = abhgb0icid0
 	properties = nb000b00000
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120037
 	mother = 120025 
@@ -896,7 +896,7 @@
 	female = yes
 	dynasty = 60002
 	dna = 00dbg0gbid0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120037
 	mother = 120025
@@ -910,7 +910,7 @@
 	female = yes
 	dynasty = 60002
 	dna = 00bgd0b0id0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120037
 	mother = 120025
@@ -925,7 +925,7 @@
 	dynasty = 60002
 	dna = cdihg0gaid0
 	properties = mm0mcb00000
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120040
 	
@@ -956,7 +956,7 @@
 	female = yes
 	dynasty = 60002
 	dna = abga00a0id0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120040
 	 
@@ -970,7 +970,7 @@
 	#Count of Mogi-Guaçu
 	dynasty = 60002
 	dna = bhegb0caid0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120040
 	
@@ -987,7 +987,7 @@
 	#Count of Santa Barbara d'Oeste
 	dynasty = 60002
 	dna = cdcad0g0id0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120040
 	
@@ -1005,7 +1005,7 @@
 	dynasty = 60002
 	dna = cdc0d0b0id0
 	properties = sh0cfb00000
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120043
 	disallow_random_traits = yes
@@ -1038,7 +1038,7 @@
 	female = yes
 	dynasty = 60002
 	dna = becic0abid0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120043
 	
@@ -1052,7 +1052,7 @@
 	dynasty = 60002
 	dna = ahfh00gcid0
 	properties = ad0bdb00000
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120043
 	disallow_random_traits = yes
@@ -1082,7 +1082,7 @@
 	female = yes
 	dynasty = 60002
 	dna = 0cbih0d0id0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120043
 	
@@ -1096,7 +1096,7 @@
 	dynasty = 60002
 	dna = addg00hbid0
 	properties = ie0bmb00000
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120049
 	mother = 110736
@@ -1132,7 +1132,7 @@
 	#Duke of Piracicaba, Count of Piracicaba and Mogi-Guaçu
 	dynasty = 60002
 	dna = 0dhe00g0id0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120049
 	mother = 110736
@@ -1159,7 +1159,7 @@
 	dynasty = 60002
 	dna = 0dh0i000id0
 	properties = sf0a0k00000
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120049
 	mother = 110736
@@ -1190,7 +1190,7 @@
 	#Count of Mogi-Guaçu, son of Lars
 	dynasty = 60002
 	dna = caiif0dbid0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120045
 	
@@ -1210,7 +1210,7 @@
 	#Count of Santa Barbara d'Oeste, son of Adam
 	dynasty = 60002
 	dna = bfhee0d0id0
-	religion = anchietican
+	religion = charismatic
 	culture = americano
 	father = 120046
 	
@@ -1235,7 +1235,7 @@
 	dynasty = 60003
 	dna = cgbgc0g00f0
 	properties = bc0ggh00000
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 120056
 	mother = 120057
@@ -1265,7 +1265,7 @@
 	name = "Jaime"
 	#Pedro's father
 	dynasty = 60003
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 120058
 	mother = 120059
@@ -1284,7 +1284,7 @@
 	name = "Anastasia"
 	female = yes
 	dynasty = 0 #random
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 
 	2313.10.22 = {
@@ -1300,7 +1300,7 @@
 120058 = { #Jaime's father
 	name = "Daniel"
 	dynasty = 60003
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 120060
 	mother = 120061
@@ -1318,7 +1318,7 @@
 120059 = { #Jaime's mother
 	name = "Helena"
 	female = yes
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	2296.1.19 = {
@@ -1335,7 +1335,7 @@
 	name = "Edward"
 	#Founder of the Holzmann Dynasty
 	dynasty = 60003
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	2262.3.4 = {
@@ -1352,7 +1352,7 @@
 	name = "Louise"
 	female = yes
 	dynasty = 0
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	2262.6.10 = {
@@ -1489,7 +1489,7 @@
 110003 = { #Founder of the Lombardi
 	name = "Juliano" 
 	dynasty = 55006 #Lombardi
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	
 	2092.8.11 = {birth = yes}
@@ -1499,7 +1499,7 @@
 110004 = { #First Magnate
 	name = "Gilberto"
 	dynasty = 55006 #Lombardi
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110003
 	
@@ -1510,7 +1510,7 @@
 110005 = { #1st Magnate of the Branch of São Vicente
 	name = "Luciano"
 	dynasty = 55006 #Lombardi
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110003
 	
@@ -1524,7 +1524,7 @@
 	name = "Giuseppe"
 	dynasty = 55006 
 	dna = aefgf0ba000
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110004 
 	add_trait = fortune_builder
@@ -1538,7 +1538,7 @@
 	name = "Daniela"
 	female = yes
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110004
 	
@@ -1549,7 +1549,7 @@
 110008 = { #3rd Magnate
 	name = "Rafaelo"
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110006 #Giuseppe
 	
@@ -1561,7 +1561,7 @@
 	name = "Rafaela"
 	female = yes
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110006 #Giuseppe
 	
@@ -1573,7 +1573,7 @@
 	name = "Ambrósia"
 	dynasty = 55006
 	female = yes
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110006 #Giuseppe
 	
@@ -1584,7 +1584,7 @@
 110011 = { #4th Magnate
 	name = "Miguel"
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110008 #Rafaelo
 	
@@ -1596,7 +1596,7 @@
 	name = "Fabrício"
 	dynasty = 55006
 	dna = agfh00j0dc0
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110011 #Miguel
 	add_trait = grey_eminence
@@ -1610,7 +1610,7 @@
 	name = "Larissa"
 	female = yes
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110011 #Miguel
 	
@@ -1622,7 +1622,7 @@
 	name = "Eduardo"
 	dynasty = 55006
 	dna = ae0dd0hbgc0
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110012 #Fabrício
 	add_trait = quick
@@ -1641,7 +1641,7 @@
 	female = yes
 	dna = aafb00gbgc0
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110012 #Fabrício
 	
@@ -1653,7 +1653,7 @@
 	name = "Vicente"
 	dynasty = 55006
 	dna = abddh0bcga0
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110014 #Eduardo
 	
@@ -1669,7 +1669,7 @@
 	female = yes
 	dna = cahhi0j0gc0
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110014 #Eduardo
 	
@@ -1685,7 +1685,7 @@
 110018 = { #2nd Magnate
 	name = "José"
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110005 #Luciano
 	
@@ -1697,7 +1697,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110005 #Luciano
 	
@@ -1708,7 +1708,7 @@
 110020 = { #3rd Magnate
 	name = "Alberto"
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110018 #José
 	
@@ -1719,7 +1719,7 @@
 110021 = { #4th Magnate, 2nd Oligarch of São Vicente
 	name = "Ernesto"
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110020 #Alberto
 
@@ -1731,7 +1731,7 @@
 	name = "Elaine"
 	female = yes
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110020 #Alberto
 	
@@ -1743,7 +1743,7 @@
 	name = "Ana Julia"
 	female = yes
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110020 #Alberto
 	
@@ -1754,7 +1754,7 @@
 110024 = { #5th Magnate, 3rd Oligarch of São Vicente
 	name = "Gabriel"
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110021 #Ernesto
 	
@@ -1766,7 +1766,7 @@
 	name = "Felícia"
 	female = yes
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110021 #Ernesto
 	
@@ -1777,7 +1777,7 @@
 110028 = { #6th Magnate, 4rd Oligarch of São Vicente
 	name = "Paulo"
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110024 #Gabriel
 	
@@ -1795,7 +1795,7 @@
 110029 = { #7th Magnate, 5th Oligarch
 	name = "Lázaro"
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110024 #Gabriel
 	
@@ -1812,7 +1812,7 @@
 	name = "Eleanor"
 	female = yes
 	dynasty = 55006
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110029 #Lázaro
 	
@@ -1825,7 +1825,7 @@
 110031 = { #Founder of the Stucchi, 1st Magnate
 	name = "Gustavo"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	#add_trait = legendary
 	
@@ -1836,7 +1836,7 @@
 110032 = { #2nd Magnate
 	name = "Rodrigo"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110031 #Gustavo
 	
@@ -1848,7 +1848,7 @@
 	name = "Juliana"
 	female = yes
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110031 #Gustavo
 	
@@ -1862,7 +1862,7 @@
 110034 = { #3rd Magnate
 	name = "Ricardo"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110032 #Rodrigo
 	
@@ -1873,7 +1873,7 @@
 110035 = { #1st Magnate of São Vicente Branch, Oligarch of São Vicente
 	name = "Hélio"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110032 #Rodrigo
 	
@@ -1887,7 +1887,7 @@
 	name = "Débora"
 	female = yes
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110034 #Ricardo
 	
@@ -1898,7 +1898,7 @@
 110037 = { #4th Magnate, 1st Stucchi Consul
 	name = "Filipe"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110034 #Ricardo
 	
@@ -1910,7 +1910,7 @@
 	name = "Heloísa"
 	female = yes
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110037 #Filipe
 	
@@ -1921,7 +1921,7 @@
 110039 = { #5th Magnate
 	name = "Sérgio"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110037 #Filipe
 	
@@ -1933,7 +1933,7 @@
 	name = "Lívio"
 	dynasty = 55009
 	dna = 0agbd0ba0b0
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110037 #Filipe
 	disallow_random_traits = yes
@@ -1956,7 +1956,7 @@
 	name = "Roberto"
 	dynasty = 55009
 	dna = afgeb0ba0b0
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110040 #Lívio
 	
@@ -1977,7 +1977,7 @@
 	female = yes
 	dynasty = 55009
 	dna = adgcg0gc000
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110040 #Lívio
 	
@@ -1993,7 +1993,7 @@
 110043 = { #2nd Magnate, Oligarch of São Vicente
 	name = "Carlos"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110035 #Hélio
 	
@@ -2005,7 +2005,7 @@
 	name = "Gabriela"
 	female = yes
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110035 #Hélio
 	
@@ -2016,7 +2016,7 @@
 110045 = { #3rd Magnate
 	name = "Marcelo"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110043 #Carlos
 	
@@ -2027,7 +2027,7 @@
 110046 = { #4th Magnate
 	name = "Fernando"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110045 #Marcelo
 	
@@ -2039,7 +2039,7 @@
 	name = "Eliana"
 	female = yes
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110045 #Marcelo
 	
@@ -2050,7 +2050,7 @@
 110048 = { #5th Magnate
 	name = "Rodrigo"
 	dynasty = 55009
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110046 #Fernando
 	
@@ -2068,7 +2068,7 @@
 110049 = { #Semi-Legendary founder of the de Andrade, 1st Magnate
 	name = "Lourenço"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	
 	2055.5.17 = {
@@ -2080,7 +2080,7 @@
 110050 = { #2nd Magnate
 	name = "Manuel"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110049 #Lourenço
 	
@@ -2096,7 +2096,7 @@
 110051 = { #3rd Magnate, 1st de Andrade Magister
 	name = "Damião"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110050 #Manuel
 	
@@ -2110,7 +2110,7 @@
 110052 = { #4th Magnate
 	name = "Sebastião"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110051 #Damião
 	mother = 110079 #Elisabete
@@ -2123,7 +2123,7 @@
 	name = "Vanessa"
 	female = yes
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110051 #Damião
 	mother = 110079 #Elisabete
@@ -2135,7 +2135,7 @@
 110054 = { #5th Magnate
 	name = "Antônio"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110052 #Sebastião
 	
@@ -2149,7 +2149,7 @@
 110055 = { #6th Magnate, 2nd de Andrade Magister, 1st de Andrade Consul
 	name = "Clemente"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110054 #Antônio
 	disallow_random_traits = yes
@@ -2168,7 +2168,7 @@
 	name = "Beatriz"
 	female = yes
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110054 #Antônio
 	
@@ -2179,7 +2179,7 @@
 110057 = { #7th Magnate
 	name = "Mateus"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110055 #Clemente
 	
@@ -2191,7 +2191,7 @@
 	name = "Adele"
 	female = yes
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110055 #Clemente
 	
@@ -2202,7 +2202,7 @@
 110059 = { #8th Magnate
 	name = "Benedito"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110057 #Mateus
 	
@@ -2214,7 +2214,7 @@
 	name = "Helena"
 	female = yes
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110059 #Benedito
 	
@@ -2225,7 +2225,7 @@
 110061 = { #9th Magnate, 2nd de Andrade Consul
 	name = "Caetano"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110059 #Benedito
 	add_trait = midas_touched
@@ -2245,7 +2245,7 @@
 	name = "Érica"
 	female = yes
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110059 #Benedito
 	
@@ -2256,7 +2256,7 @@
 110063 = { #10th Magnate
 	name = "Daniel"
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110061 #Caetano
 	
@@ -2268,7 +2268,7 @@
 	name = "Luíza"
 	female = yes
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110061 #Caetano
 	
@@ -2281,7 +2281,7 @@
 	female = yes
 	dna = 0cfhb000ba0
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110063 #Daniel
 	
@@ -2294,7 +2294,7 @@
 	dna = 0cfhb000ba0
 	properties = wm0gah00000
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110063 #Daniel
 	disallow_random_traits = yes
@@ -2320,7 +2320,7 @@
 	name = "Henrique"
 	dna = befdi0kbba0
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110066 #Eduardo
 	disallow_random_traits = yes
@@ -2347,7 +2347,7 @@
 	dna = bb0eh0ebba0
 	female = yes
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110066 #Eduardo
 	
@@ -2360,7 +2360,7 @@
 	dna = ccedh0cbba0
 	female = yes
 	dynasty = 55015 
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110066 #Eduardo
 	
@@ -2373,7 +2373,7 @@
 	dna = cicbe0d0ic0
 	properties = fb0elh00000
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110067 #Henrique
 	disallow_random_traits = yes
@@ -2409,7 +2409,7 @@
 	dna = acee000aic0
 	female = yes
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110067 #Henrique
 	
@@ -2424,7 +2424,7 @@
 	name = "Basilissa"
 	dna = afeaa0kaic0
 	female = yes
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	dynasty = 55015
 	father = 110067 #Henrique
@@ -2437,7 +2437,7 @@
 	name = "Delfim"
 	dna = adacd0d0ib0
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110070 #João
 	mother = 110137 #Helena
@@ -2465,7 +2465,7 @@
 	name = "Gianluca"
 	dna = 000gd0h0bc0
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110070 #João
 	mother = 110137 #Helena
@@ -2498,7 +2498,7 @@
 	dna = cdic00c0cb0
 	female = yes
 	dynasty = 55015
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110070 #João
 	mother = 110137 #Helena
@@ -2513,7 +2513,7 @@
 110076 = { #Semi-Legendary Founder, 1st Magnate, 1st Oligarch of Santos and São Vicente
 	name = "Brás"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	disallow_random_traits = yes
 	add_trait = midas_touched
@@ -2529,7 +2529,7 @@
 110077 = { #2nd Magnate, 2nd Oligarch of Santos. Semi-Legendary
 	name = "Pedro"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110076 #Brás
 	disallow_random_traits = yes
@@ -2552,7 +2552,7 @@
 110078 = { #3rd Magnate, 2nd Oligarch of São Vicente, 3rd Oligarch of Santos, 1st Cubas Magister. Semi-Legendary
 	name = "Bruno"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110076 #Brás
 	disallow_random_traits = yes
@@ -2576,7 +2576,7 @@
 	name = "Elisabete"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110078 #Bruno
 	
@@ -2592,7 +2592,7 @@
 110080 = { #4th Magnate, 3rd Oligarch of São Vicente
 	name = "André"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110078 #Bruno
 	add_trait = slow
@@ -2604,7 +2604,7 @@
 110081 = { #5th Magnate
 	name = "Davi"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110080 #André
 	
@@ -2616,7 +2616,7 @@
 	name = "Mariana"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110080 #André
 	
@@ -2627,7 +2627,7 @@
 110083 = { #6h Magnate
 	name = "Vinícius"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110081 #Davi
 	
@@ -2639,7 +2639,7 @@
 	name = "Vitória"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110081 #Davi
 	
@@ -2650,7 +2650,7 @@
 110085 = { #7th Magnate, 1st Consul
 	name = "Emanuel"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110083 #Vinícius
 	add_trait = elusive_shadow
@@ -2665,7 +2665,7 @@
 	name = "Carolina"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110083 #Vinícius
 	
@@ -2677,7 +2677,7 @@
 	name = "Fátima"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110083 #Vinícius
 	
@@ -2688,7 +2688,7 @@
 110088 = { #8th Magnate, 1st Oligarch of Itanhaém
 	name = "Jefferson"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110085 #Emanuel
 	
@@ -2700,7 +2700,7 @@
 	name = "Denise"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110085 #Emanuel
 	
@@ -2711,7 +2711,7 @@
 110090 = { #9th Magnate, 2nd Oligarch of Itanhaém
 	name = "Fausto"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110088 #Jefferson
 	
@@ -2723,7 +2723,7 @@
 	name = "Isadora"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110088 #Jefferson
 	
@@ -2735,7 +2735,7 @@
 	name = "Emilia"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110090 #Fausto
 	
@@ -2746,7 +2746,7 @@
 110093 = { #10th Magnate, 3rd Oligarch of Itanhaém
 	name = "Ítalo"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110090 #Fausto
 	
@@ -2762,7 +2762,7 @@
 110094 = { #11th Magnate, 4th Oligarch of Itanháem
 	name = "Lisandro"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110093 #Ítalo
 	
@@ -2773,7 +2773,7 @@
 110095 = { #12 Magnate, 4th Oligarch of São Vicente
 	name = "Filipe"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110093 #Ítalo
 	
@@ -2785,7 +2785,7 @@
 	name = "Alice"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110093 #Ítalo
 	
@@ -2796,7 +2796,7 @@
 110097 = {
 	name = "Desidério"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110094 #Lisandro
 	
@@ -2814,7 +2814,7 @@
 110098 = { #13th Magnate, 2nd Consul, 5th Oligarch of São Vicente, 6th Oligarch of Itanhaém
 	name = "Ícaro"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110095 #Filipe
 	
@@ -2826,7 +2826,7 @@
 	name = "Valesca"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110095 #Filipe
 	
@@ -2837,7 +2837,7 @@
 110100 = {#14th Magnate, 7th Oligarch of Itanhaém
 	name = "Rafael"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110098 #Ícaro
 	
@@ -2852,7 +2852,7 @@
 	name = "Gisele"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110098 #Ícaro
 	
@@ -2866,7 +2866,7 @@
 110102 = {
 	name = "Bernardo"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110098 #Ícaro
 	
@@ -2881,7 +2881,7 @@
 110103 = {
 	name = "Filipe"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110100 #Rafael
 	mother = 110191 #Carolina
@@ -2893,7 +2893,7 @@
 110104 = {
 	name = "Anselmo"
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110100 #Rafael
 	mother = 110191 #Carolina
@@ -2906,7 +2906,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 55013
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110100 #Rafael
 	mother = 110191 #Carolina
@@ -2920,7 +2920,7 @@
 110106 = { #1st Magnate, founder of the Schertz
 	name = "Fábio"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	
 	2213.7.20 = {
@@ -2933,7 +2933,7 @@
 110107 = { #2nd Magnate
 	name = "Joaquim"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110106 #Fábio
 	
@@ -2947,7 +2947,7 @@
 110108 = { #3rd Magnate, 1st Schertz Consul
 	name = "Demétrio"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110107 #Joaquim
 	
@@ -2961,7 +2961,7 @@
 110109 = { #Oligarch of São Vicente and Itanhaém
 	name = "Germano"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110107 #Joaquim
 	
@@ -2975,7 +2975,7 @@
 110110 = { #Oligarch of Bertioga
 	name = "José"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110107 #Joaquim
 	
@@ -2996,7 +2996,7 @@
 110111 = { #Oligarch of Ubatuba
 	name = "Fernando"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110107 #Joaquim
 	
@@ -3015,7 +3015,7 @@
 110112 = { #4th Magnate, 2nd Consul
 	name = "Gustavo"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110108 #Demétrio
 	
@@ -3034,7 +3034,7 @@
 110113 = { #Oligarch of São Vicente and Itanhaém
 	name = "Diego"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110109 #Germano
 	
@@ -3053,7 +3053,7 @@
 110114 = { #Oligarch of Bertioga
 	name = "Lucas"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110110 #José
 	
@@ -3073,7 +3073,7 @@
 	name = "Flora"
 	female = yes
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110110 #José
 	
@@ -3087,7 +3087,7 @@
 110116 = {
 	name = "Tiago"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110111 #Fernando
 	
@@ -3107,7 +3107,7 @@
 110117 = {
 	name = "Brás"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110112 #Gustavo 
 	
@@ -3121,7 +3121,7 @@
 110118 = {
 	name = "Orlandino"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110117 #Brás
 	
@@ -3139,7 +3139,7 @@
 	name = "Catarina"
 	female = yes
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110117 #Brás
 	
@@ -3153,7 +3153,7 @@
 110120 = {
 	name = "Sérgio"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110117 #Brás
 	
@@ -3171,7 +3171,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110117 #Brás
 
@@ -3185,7 +3185,7 @@
 110122 = {
 	name = "Luís"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110118 #Orlandino
 	
@@ -3199,7 +3199,7 @@
 110123 = {
 	name = "Nicolas"
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110118 #Orlandino
 	
@@ -3214,7 +3214,7 @@
 	name = "Eduarda"
 	female = yes
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110118 #Orlandino
 	add_trait = twin
@@ -3230,7 +3230,7 @@
 	name = "Ágata"
 	female = yes
 	dynasty = 55023
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father = 110118 #Orlandino
 	add_trait = twin
@@ -3247,7 +3247,7 @@
 110126 = { #Founder of the Graeff, 1st Magnate
 	name = "Leonardo"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	2207.6.10 = {
@@ -3260,7 +3260,7 @@
 110127 = { #2nd Magnate
 	name = "Calebe"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110126 #Leonardo
 	
@@ -3275,7 +3275,7 @@
 	name = "Ingrid"
 	female = yes
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110126 #Leonardo
 	
@@ -3289,7 +3289,7 @@
 110129 = { #3rd Magnate
 	name = "Leopoldo"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110127 #Calebe
 	
@@ -3309,7 +3309,7 @@
 	name = "Candace"
 	female = yes
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110127 #Calebe
 	
@@ -3323,7 +3323,7 @@
 110131 = { #4th Magnate, 1st Consul, Magister of Santos, Oligarch of Bertioga
 	name = "Filipe"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110129 #Leopoldo
 	
@@ -3340,7 +3340,7 @@
 110132 = { #5th Magnate, Oligarch of Bertioga
 	name = "Desidério"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110131 #Filipe
 	mother = 110185 #Brenda
@@ -3359,7 +3359,7 @@
 	name = "Joana"
 	female = yes
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110131 #Filipe
 	mother = 110185 #Brenda
@@ -3374,7 +3374,7 @@
 110134 = {
 	name = "Severino"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110131 #Filipe
 	mother = 110185 #Brenda
@@ -3389,7 +3389,7 @@
 110135 = { #6th Magnate, Oligarch of Bertioga
 	name = "Filipe"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110132 #Desidério
 	
@@ -3406,7 +3406,7 @@
 110136 = {
 	name = "Gael"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110132 #Desidério
 	mother = 110068 #Amanda
@@ -3422,7 +3422,7 @@
 	name = "Helena"
 	female = yes
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110132 #Desidério
 	mother = 110068 #Amanda
@@ -3441,7 +3441,7 @@
 	name = "Ingrid"
 	female = yes
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110132 #Desidério
 	mother = 110068 #Amanda
@@ -3459,7 +3459,7 @@
 110139 = {
 	name = "Leonardo"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110135 #Filipe
 	mother = 110071 #Elisa
@@ -3475,7 +3475,7 @@
 	name = "Gabriela"
 	female = yes
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110135 #Filipe
 	mother = 110071 #Elisa
@@ -3493,7 +3493,7 @@
 110141 = {
 	name = "Calebe"
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110135 #Filipe
 	mother = 110071 #Elisa
@@ -3509,7 +3509,7 @@
 	name = "Lavínia"
 	female = yes
 	dynasty = 55024
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	father = 110136 #Gael
 	
@@ -3525,7 +3525,7 @@
 110143 = { #Founder of the Silva Prados, 1st Magnate, 1st Oligarch of Itanhaém
 	name = "Adélio"
 	dynasty = 55020 
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2100.1.10 = {birth = yes}
@@ -3535,7 +3535,7 @@
 110144 = { #2nd Magnate, 2nd Oligarch of Itanhaém
 	name = "Rafael"
 	dynasty = 55020
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110143 #Adélio
 	
@@ -3552,7 +3552,7 @@
 	name = "Fátima"
 	female = yes
 	dynasty = 55020
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110143 #Adélio
 	
@@ -3563,7 +3563,7 @@
 110146 = { #3rd Magnate, 3rd Oligarch of Itanhém
 	name = "Bernardo"
 	dynasty = 55020
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110144 #Rafael
 	
@@ -3580,7 +3580,7 @@
 	name = "Giovana"
 	female = yes
 	dynasty = 55020
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110144 #Rafael
 	
@@ -3591,7 +3591,7 @@
 110148 = { #4th Magnate, 4th Oligarch of Itanhaém, 1st Silva Prado Magister, 1st Consul
 	name = "Adriano"
 	dynasty = 55020
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110146 #Rafael
 	
@@ -3604,7 +3604,7 @@
 110149 = { 
 	name = "Rafael"
 	dynasty = 55020
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110148 #Adriano
 	
@@ -3619,7 +3619,7 @@
 110150 = { #5th Magnate, 5th Oligarch of Itanhaém
 	name = "Daniel"
 	dynasty = 55020
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110148
 	
@@ -3639,7 +3639,7 @@
 110151 = { #1st Magnate
 	name = "Lucas"
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110016 #Vicente Lombardi
 	mother = 110042 #Bárbara Stucchi
@@ -3652,7 +3652,7 @@
 	name = "Fernanda"
 	female = yes
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
@@ -3664,7 +3664,7 @@
 	name = "Daniela"
 	female = yes
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
@@ -3675,7 +3675,7 @@
 110154 = {
 	name = "Tales"
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
@@ -3686,7 +3686,7 @@
 110155 = { #2nd Magnate, 1st Magister, 1st Consul, 1st Oligarch of Santos
 	name = "Hélio"
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
@@ -3702,7 +3702,7 @@
 110156 = {
 	name = "Gabriel"
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110151 ##Lucas Lombardi-Stucchi
 	
@@ -3714,7 +3714,7 @@
 	name = "Laís"
 	female = yes
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110151 #Lucas Lombardi-Stucchi
 	
@@ -3726,7 +3726,7 @@
 	name = "Ana Clara"
 	female = yes
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110156 #Gabriel Lombardi-Stucchi
 	
@@ -3740,7 +3740,7 @@
 110159 = {
 	name = "Miguel"
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110156 #Gabriel Lombardi-Stucchi
 	
@@ -3753,7 +3753,7 @@
 110160 = { #3rd Magnate, 2nd Magister, 2nd Consul and Oligarch of Santos.
 	name = "Murilo"
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110155 #Hélio Lombardi-Stucchi
 	mother = 110158 #Ana Clara Lombardi-Stucchi
@@ -3768,7 +3768,7 @@
 110161 = { #4th Magnate, 3rd Magister, 3rd Consul and Oligarch of Santos
 	name = "Henrique"
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110160 #Murilo Lombardi-Stucchi
 	mother = 110101 #Gisele Cubas
@@ -3796,7 +3796,7 @@
 110162 = {
 	name = "Ricardo"
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110160 #Murilo Lombardi-Stucchi
 	disallow_random_traits = yes
@@ -3821,7 +3821,7 @@
 	name = "Andressa"
 	female = yes
 	dynasty = 55002
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110160 #Murilo-Lombardi-Stucchi
 	disallow_random_traits = yes
@@ -3839,7 +3839,7 @@
 110164 = { #1st Magnate and Oligarch of Ilha Bela, Legendary Founder
 	name = "Álvaro"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	
 	2080.1.1 = {birth = yes}
@@ -3849,7 +3849,7 @@
 110165 = { #2nd Magnate, Oligarch of Ilha Bela and Bertioga
 	name = "Caio"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110164 #Álvaro de Abreu
 	
@@ -3861,7 +3861,7 @@
 	name = "Cândida"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110164 #Álvaro de Abreu
 	
@@ -3873,7 +3873,7 @@
 	name = "Teresa"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110164 #Álvaro de Abreu
 	
@@ -3884,7 +3884,7 @@
 110168 = { #3rd Magnate, Oligarch of Ilha Bela
 	name = "Gastão"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110165 #Caio de Abreu
 	
@@ -3895,7 +3895,7 @@
 110169 = { #1st Magnate of the Bertiogan Branch, Oligarch of Bertioga
 	name = "Geraldo"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110165 #Caio de Abreu
 	
@@ -3912,7 +3912,7 @@
 	name = "Raissa"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110165 #Caio de Abreu
 	
@@ -3924,7 +3924,7 @@
 	name = "Hedviges"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110168 #Gastão de Abreu
 	2150.3.27 = {birth = yes}
@@ -3934,7 +3934,7 @@
 110172 = { #4th Magnate, 4th Oligarch of Ilha Bela
 	name = "Feliciano"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110168 #Gastão de Abreu
 	
@@ -3945,7 +3945,7 @@
 110173 = { #5th Magnate, 5th Oligarch of Ilha Bela"
 	name = "Orlando"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110172 #Feliciano de Abreu
 	
@@ -3957,7 +3957,7 @@
 	name = "Fabiana"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110172 #Feliciano de Abreu
 	
@@ -3968,7 +3968,7 @@
 110175 = { #6th Magnate, 6th Oligarch of Ilha Bela
 	name = "Samuel"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110173 #Orlando de Abreu
 	
@@ -3986,7 +3986,7 @@
 110176 = { #7th Magnate, 7th Oligarch of Ilha Bela
 	name = "Maximiliano"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110173 #Orlando de Abreu
 	
@@ -3998,7 +3998,7 @@
 	name = "Elena"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110173 #Orlando de Abreu
 	
@@ -4009,7 +4009,7 @@
 110178 = { #8th Magnate, 8th Oligarch of Ilha Bela
 	name = "César"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110176 #Maximiliano de Abreu
 	
@@ -4025,7 +4025,7 @@
 	name = "Luciana"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110176 #Maximiliano de Abreu
 	
@@ -4036,7 +4036,7 @@
 110180 = { #9th Magnate, 9th Oligarch of Ilha Bela
 	name = "Giuseppe"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110178 #César de Abreu
 	
@@ -4047,7 +4047,7 @@
 110181 = {
 	name = "Nazário"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110178 #César de Abreu
 	
@@ -4064,7 +4064,7 @@
 	name = "Cármen"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110178 #César de Abreu
 	
@@ -4075,7 +4075,7 @@
 110183 = { #10th Magnate, 10th Oligarch of Ilha Bela
 	name = "Joaquim"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110180 #Giuseppe de Abreu
 	
@@ -4087,7 +4087,7 @@
 	name = "Geórgia"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110180 #Giuseppe de Abreu
 	
@@ -4099,7 +4099,7 @@
 	name = "Brenda"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110180 #Giuseppe de Abreu
 	
@@ -4113,7 +4113,7 @@
 110186 = { #11th Magnate, 11th Oligarch of Ilha Bela
 	name = "Leandro"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110183 #Joaquim de Abreu
 	
@@ -4125,7 +4125,7 @@
 	name = "Hannah"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110183 #Joaquim de Abreu
 	
@@ -4136,7 +4136,7 @@
 110188 = {
 	name = "Gilberto"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110183 #Joaquim de Abreu
 	
@@ -4147,7 +4147,7 @@
 110189 = { #12th Magnate, 12th Oligarch of Ilha Bela
 	name = "Vinícius"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110186 #Leandro de Abreu
 	
@@ -4161,7 +4161,7 @@
 110190 = {
 	name = "Teodósio"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110186 #Leonardo de Abreu
 	
@@ -4173,7 +4173,7 @@
 	name = "Caroline"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110186 #Leonardo de Abreu
 	
@@ -4184,7 +4184,7 @@
 110192 = {
 	name = "Ulisses"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
@@ -4196,7 +4196,7 @@
 110193 = {
 	name = "Ambrósio"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
@@ -4209,7 +4209,7 @@
 	name = "Bianca"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
@@ -4221,7 +4221,7 @@
 110195 = {
 	name = "Lúcio"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
@@ -4234,7 +4234,7 @@
 	name = "Otávia"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110189 #Vinícius de Abreu
 	mother = 110138 #Ingrid Graeff
@@ -4246,7 +4246,7 @@
 110228 = {
 	name = "Alberto"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110190 #Teodósio de Abreu
 	
@@ -4258,7 +4258,7 @@
 	name = "Lara"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110190 #Teodósio de Abreu
 	
@@ -4272,7 +4272,7 @@
 	name = "Débora"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110169 #Geraldo de Abreu
 	
@@ -4283,7 +4283,7 @@
 110199 = {
 	name = "André"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110169 #Geraldo de Abreu
 	
@@ -4294,7 +4294,7 @@
 110200 = { #2nd Magnate, 3rd Oligarch of Bertioga
 	name = "Caio"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110169 #Geraldo de Abreu
 	
@@ -4305,7 +4305,7 @@
 110201 = { #3rd Magnate, 4th Oligarch of Bertioga
 	name = "Caique"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110200 #Caio de Abreu
 	
@@ -4319,7 +4319,7 @@
 	name = "Adelaide"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110200 #Caio de Abreu
 	
@@ -4331,7 +4331,7 @@
 	name = "Florisbela"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110201 #Caique de Abreu
 	
@@ -4342,7 +4342,7 @@
 110204 = { #4th Magnate, 5th Oligarch of Bertioga
 	name = "Sávio"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110201 #Caique de Abreu
 	
@@ -4353,7 +4353,7 @@
 110205 = { #5th Magnate, 6th Oligarch of Bertioga
 	name = "Saulo"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110204 #Sávio de Abreu
 	
@@ -4364,7 +4364,7 @@
 110206 = { #6th Magnate, 7th Oligarch of Bertioga
 	name = "Régis"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110205 #Saulo de Abreu
 	
@@ -4381,7 +4381,7 @@
 	name = "Inês"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110205 #Saulo de Abreu
 	
@@ -4392,7 +4392,7 @@
 110208 = {
 	name = "Pierre"
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110206 #Régis de Abreu
 	
@@ -4409,7 +4409,7 @@
 	name = "Jéssica"
 	female = yes
 	dynasty = 55021
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father = 110206 #Régis de Abreu
 	add_trait = depressed
@@ -4423,7 +4423,7 @@
 110210 = { #1st Magnate, 1st Oligarch of Ubatuba
 	name = "Paulo"
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2120.1.1 = {birth = yes}
@@ -4433,7 +4433,7 @@
 110211 = { #2nd Magnate, 2nd Oligarch of Ubatuba
 	name = "Eduardo"
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110210 #Paulo de Camargo
 	
@@ -4451,7 +4451,7 @@
 110212 = { #3rd Magnate, 3rd Oligarch of Ubatuba
 	name = "João"
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110210 #Paulo de Camargo
 	
@@ -4468,7 +4468,7 @@
 	name = "Lúcia"
 	female = yes
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110210 #Paulo de Camargo
 	
@@ -4479,7 +4479,7 @@
 110214 = { #4th Magnate, 4th Oligarch of Ubatuba
 	name = "Enzo"
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110212 #João de Camargo
 	
@@ -4491,7 +4491,7 @@
 	name = "Cecília"
 	female = yes
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110212 #João de Camargo
 	
@@ -4502,7 +4502,7 @@
 110216 = { #5th Magnate, 5th Oligarch of Ubatuba
 	name = "Renato"
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110214 #Enzo de Camargo
 	
@@ -4514,7 +4514,7 @@
 	name = "Daniela"
 	female = yes
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110214 #Enzo de Camargo
 	
@@ -4525,7 +4525,7 @@
 110218 = { #6th Magnate, 6th Oligarch of Ubatuba
 	name = "Sinésio"
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110216 #Renato de Camargo
 	
@@ -4536,7 +4536,7 @@
 110219 = { #7th Magnate, 7th Oligarch of Ubatuba
 	name = "Afrânio"
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110218 #Sinésio de Camargo
 	
@@ -4552,7 +4552,7 @@
 110220 = { #8th Magnate
 	name = "Artur"
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110219 #Afrânio de Camargo
 	
@@ -4569,7 +4569,7 @@
 	name = "Fernanda"
 	female = yes
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110219 #Afrânio de Camargo
 	
@@ -4581,7 +4581,7 @@
 	name = "Ágata"
 	female = yes
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110220 #Afrânio de Camargo
 	
@@ -4593,7 +4593,7 @@
 110223 = { #9th Magnate
 	name = "Diego"
 	dynasty = 55018
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110220 #Afrânio de Camargo
 	
@@ -4614,7 +4614,7 @@
 110224 = { #Mercenary leader of the Bandeira Nordestina
 	name = "Domingos"
 	dynasty = 55017
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
@@ -4635,7 +4635,7 @@
 110225 = {
 	name = "Júnior"
 	dynasty = 55017
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110224
 	disallow_random_traits = yes
@@ -4654,7 +4654,7 @@
 110226 = { #Mercenary leader of the Bandeira Sulista
 	name = "Manuel"
 	dynasty = 55014
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	disallow_random_traits = yes
 	add_trait = brilliant_strategist
@@ -4674,7 +4674,7 @@
 110227 = {
 	name = "Fernando"
 	dynasty = 55014
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110226
 	disallow_random_traits = yes
@@ -4701,7 +4701,7 @@
 	name = "Gabriel"
 	#1st Count of São Paulo
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2182.7.1 = {
@@ -4716,7 +4716,7 @@
 	name = "Francisco"
 	#2nd Count of São Paulo
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110229 #Gabriel Matarazzo
@@ -4733,7 +4733,7 @@
 	name = "Valentina"
 	female = yes
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110229 #Gabriel Matarazzo
@@ -4749,7 +4749,7 @@
 110232 = {
 	name = "Gonçalo"
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110230 #Francisco Matarazzo
@@ -4766,7 +4766,7 @@
 	name = "Dafne"
 	female = yes
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110230 #Francisco Matarazzo
@@ -4782,7 +4782,7 @@
 110234 = {
 	name = "Renan"
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110232 #Gonçalo Matarazzo
@@ -4799,7 +4799,7 @@
 	name = "Fernanda"
 	female = yes
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110232 #Gonçalo Matarazzo
@@ -4816,7 +4816,7 @@
 	name = "Kayla"
 	female = yes
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110232 #Gonçalo Matarazzo
@@ -4833,7 +4833,7 @@
 	name = "Daniel"
 	#5th Count of São Paulo
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110234 #Renan Matarazzo
@@ -4850,7 +4850,7 @@
 	name = "India"
 	female = yes
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110234 #Renan Matarazzo
@@ -4867,7 +4867,7 @@
 	name = "Eugênio"
 	#1st Matarazzo Consul of Santos, Magister of Santos and Oligarch of Santos
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110234 #Renan Matarazzo
@@ -4885,7 +4885,7 @@
 110240 = {
 	name = "Pedro"
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110237 #Daniel Matarazzo
@@ -4902,7 +4902,7 @@
 	name = "Elisa"
 	female = yes
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110237 #Daniel Matarazzo
@@ -4918,7 +4918,7 @@
 110242 = {
 	name = "Yago"
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	dna="00ad00ja000"
 	properties="lk0lhk000000000000000000000000000000"
@@ -4949,7 +4949,7 @@
 	name = "Carlinda"
 	female = yes
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110242 #Yago Matarazzo
@@ -4963,7 +4963,7 @@
 110244 = {
 	name = "Roberto"
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110242 #Yago Matarazzo
@@ -4977,7 +4977,7 @@
 110245 = {
 	name = "Óscar"
 	dynasty = 55003
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110242 #Yago Matarazzo
@@ -4996,7 +4996,7 @@
 110246 = {
 	name = "Francisco"
 	dynasty = 55005 
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	2201.3.24 = {
@@ -5012,7 +5012,7 @@
 	name = "Baltazar"
 	#3rd Count of São Paulo
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110246 #Francisco Schimidt
@@ -5030,7 +5030,7 @@
 	name = "Sofia"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110246 #Francisco Schimidt
@@ -5048,7 +5048,7 @@
 	name = "Galileu"
 	#4th Count of São Paulo
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110247 #Baltazar Schimidt
@@ -5066,7 +5066,7 @@
 	name = "Jéssica"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110247 #Baltazar Schimidt
@@ -5082,7 +5082,7 @@
 	name = "Diogo"
 	#1st Magnate
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110247 #Baltazar Schimidt
@@ -5100,7 +5100,7 @@
 	name = "Kristen"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110249 #Galileu Schimidt
@@ -5117,7 +5117,7 @@
 110253 = {
 	name = "Mário"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110249 #Galileu Schimidt
@@ -5136,7 +5136,7 @@
 	#6th Countess of São Paulo
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110253 #Mário Schimidt
@@ -5153,7 +5153,7 @@
 110255 = {
 	name = "Eduardo"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110253 #Mário Schimidt
@@ -5171,7 +5171,7 @@
 	name = "Amanda"
 	female = yes
 	dynasty = 55005
-	religion = anchietican 
+	religion = charismatic 
 	culture = teuto_paulista
 	
 	father = 110253 #Mário Schimidt
@@ -5190,7 +5190,7 @@
 110257 = {
 	name = "Mateus"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	mother = 110254 #Bianca Schimidt
@@ -5206,7 +5206,7 @@
 	name = "Paula"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	mother = 110254 #Bianca Schimidt
@@ -5221,7 +5221,7 @@
 110259 = {
 	name = "Flávio"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	mother = 110254 #Bianca Schimidt
@@ -5236,7 +5236,7 @@
 110260 = {
 	name = "Vicente"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110257 #Mateus Schimidt
@@ -5251,7 +5251,7 @@
 110261 = {
 	name = "André"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110257 #Mateus Schimidt
@@ -5267,7 +5267,7 @@
 	name = "Anabela"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110259 #Flávio Schimidt
@@ -5283,7 +5283,7 @@
 	name = "Giulia"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110259 #Flávio Schimidt
@@ -5299,7 +5299,7 @@
 	name = "Maria Clara"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110259 #Flávio Schimidt
@@ -5316,7 +5316,7 @@
 110265 = {
 	name = "Ricardo"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110255 #Eduardo Schimidt
@@ -5333,7 +5333,7 @@
 110266 = { 
 	name = "Pedro"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	disallow_random_traits = yes
 	add_trait = scholarly_theologian
@@ -5356,7 +5356,7 @@
 110267 = {
 	name = "Nilson"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110255 #Eduardo Schimidt
@@ -5371,7 +5371,7 @@
 110268 = {
 	name = "Ovídio"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110267 #Nilson Schimidt
@@ -5387,7 +5387,7 @@
 	name = "Iris"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110267 #Nilson Schimidt
@@ -5405,7 +5405,7 @@
 	name = "Rogério"
 	#2nd Magnate
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	add_trait = legit_bastard
 	
@@ -5427,7 +5427,7 @@
 	name = "Marcos"
 	#3rd Magnate, 1st Oligarch of Ubatuba
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110270 #Rogério Schimidt
@@ -5447,7 +5447,7 @@
 	#4th Magnate, 2nd Oligarchess of Ubatuba
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110271 #Marcos Schimidt
@@ -5465,7 +5465,7 @@
 	name = "Chloe"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	father = 110271 #Marcos Schimidt
@@ -5481,7 +5481,7 @@
 	name = "Bernardo"
 	#5th Magnate, 3rd Oligarch of Ubatuba
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	mother = 110272 #Marcela Schimidt
@@ -5496,7 +5496,7 @@
 110275 = {
 	name = "Wesley"
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	mother = 110272 #Marcela Schimidt
@@ -5512,7 +5512,7 @@
 	name = "Verônica"
 	female = yes
 	dynasty = 55005
-	religion = anchietican
+	religion = charismatic
 	culture = teuto_paulista
 	
 	mother = 110272 #Marcela Schimidt 
@@ -5532,7 +5532,7 @@
 110277 = {
 	name = "Bernardo"
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	2230.5.13 = {
@@ -5547,7 +5547,7 @@
 110278 = {
 	name = "Ricardo"
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110277 #Bernardo Jafet
@@ -5565,7 +5565,7 @@
 	name = "Cassandra"
 	female = yes
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110277 #Bernardo Jafet
@@ -5582,7 +5582,7 @@
 110280 = {
 	name = "André"
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110278 #Ricardo Jafet
@@ -5600,7 +5600,7 @@
 	name = "Henriqueta"
 	female = yes
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110278 #Ricardo Jafet
@@ -5618,7 +5618,7 @@
 	name = "Sheila"
 	female = yes
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110280 #André Jafet
@@ -5636,7 +5636,7 @@
 	name = "Domingos"
 	#7th Count of São Paulo
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110280 #André Jafet
@@ -5654,7 +5654,7 @@
 	name = "Nélia"
 	female = yes
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110280 #André Jafet
@@ -5672,7 +5672,7 @@
 	name = "Guilherme"
 	#8th Count of São Paulo
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110283 #Domingos Jafet
@@ -5688,7 +5688,7 @@
 	name = "Joelma"
 	female = yes
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110283 #Domingos Jafet
@@ -5703,7 +5703,7 @@
 110287 = {
 	name = "Lucas"
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110283 #Domingos Jafet
@@ -5719,7 +5719,7 @@
 	name = "Lídia"
 	female = yes
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110285 #Guilherme Jafet
@@ -5734,7 +5734,7 @@
 110289 = {
 	name = "Pietro"
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110285 #Guilherme Jafet
@@ -5749,7 +5749,7 @@
 11290 = {
 	name = "Samuel"
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110287 #Lucas Jafet
@@ -5765,7 +5765,7 @@
 	name = "Larissa"
 	female = yes
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110287 #Lucas Jafet
@@ -5780,7 +5780,7 @@
 110292 = {
 	name = "Lívio"
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110287 #Lucas Jafet
@@ -5798,7 +5798,7 @@
 	name = "Camila"
 	female = yes
 	dynasty = 55007
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	father = 110287 #Lucas Jafet
@@ -5818,7 +5818,7 @@
 	name = "Bartolomeu"
 	#1st Count of Campinas
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2180.10.16 = {
@@ -5833,7 +5833,7 @@
 	name = "Rafael"
 	#2nd Count of Campinas
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110294 #Bartolomeu Anhanguera
@@ -5850,7 +5850,7 @@
 	name = "Adele"
 	female = yes
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110294 #Bartolomeu Anhanguera
@@ -5867,7 +5867,7 @@
 	name = "Maísa"
 	female = yes
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110294 #Bartolomeu Anhanguera
@@ -5883,7 +5883,7 @@
 110298 = {
 	name = "João Vitor"
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110295 #Rafael Anhanguera
@@ -5900,7 +5900,7 @@
 	name = "Cármen"
 	female = yes
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110295 #Rafael Anhanguera
@@ -5917,7 +5917,7 @@
 	name = "Tadeu"
 	#Archbishop
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	add_trait = scholarly_theologian
 	
@@ -5936,7 +5936,7 @@
 110301 = {
 	name = "Gilmar"
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110298 #João Vitor Anhanguera
@@ -5953,7 +5953,7 @@
 	name = "Isidora"
 	female = yes
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110301 #Gilmar Anhanguera
@@ -5969,7 +5969,7 @@
 110303 = {
 	name = "Lorenzo"
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110301 #Gilmar Anhanguera
@@ -5986,7 +5986,7 @@
 	name = "Graciano"
 	#6th Count of Campinas
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110303 #Lorenzo Anhanguera
@@ -6003,7 +6003,7 @@
 	name = "Alba"
 	female = yes
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110303 #Lorenzo Anhanguera
@@ -6020,7 +6020,7 @@
 	name = "Élia"
 	female = yes
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110304 #Graciano Anhanguera
@@ -6035,7 +6035,7 @@
 	name = "Vital"
 	#7th Count of Campinas
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110304 #Graciano Anhanguera
@@ -6054,7 +6054,7 @@
 110308 = {
 	name = "Wendel"
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110307 #Vital Anhanguera
@@ -6071,7 +6071,7 @@
 	name = "Flávia"
 	female = yes
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110307 #Vital Anhanguera
@@ -6085,7 +6085,7 @@
 110310 = {
 	name = "Daniel"
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110307 #Vital Anhanguera
@@ -6100,7 +6100,7 @@
 	name = "Judite"
 	female = yes
 	dynasty = 55012
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110307 #Vital Anhanguera
@@ -6118,7 +6118,7 @@
 110312 = {
 	name = "Franco"
 	dynasty = 55025 
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2175.9.25 = {
@@ -6133,7 +6133,7 @@
 	name = "Jennifer"
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110312 #Franco Leme
@@ -6149,7 +6149,7 @@
 110314 = {
 	name = "Jonas"
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110312 #Franco #Leme
@@ -6166,7 +6166,7 @@
 	name = "Simão"
 	#3rd Count of Campinas
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110314 #Jonas Leme
@@ -6183,7 +6183,7 @@
 	name = "Julia"
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110314 #Jonas Leme
@@ -6200,7 +6200,7 @@
 	name = "Paulo"
 	#4th Count of Campinas
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110315 #Simão Leme
@@ -6217,7 +6217,7 @@
 	name = "Marcela"
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110315 #Simão Leme
@@ -6234,7 +6234,7 @@
 	name = "Lívio"
 	#5th Count of Campinas
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110317 #Paulo Leme
@@ -6256,7 +6256,7 @@
 	name = "Olívia"
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110317 #Paulo Leme
@@ -6273,7 +6273,7 @@
 	name = "Caetana"
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110317 #Paulo Leme
@@ -6289,7 +6289,7 @@
 110322 = {
 	name = "Macedo"
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110319 #Lívio Leme
@@ -6308,7 +6308,7 @@
 	name = "Sarah"
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110319 #Livio Leme
@@ -6322,7 +6322,7 @@
 110324 = {
 	name = "Tiago"
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110319 #Livio Leme
@@ -6338,7 +6338,7 @@
 	#8th Countess of Campinas
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110322 #Macedo Leme
@@ -6352,7 +6352,7 @@
 110326 = {
 	name = "Gastão"
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110324 #Tiago Leme
@@ -6366,7 +6366,7 @@
 110327 = {
 	name = "William"
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110324 #Tiago Leme
@@ -6381,7 +6381,7 @@
 	name = "Maria Clara"
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110324 #Tiago Leme
@@ -6396,7 +6396,7 @@
 	name = "Kênia"
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110324 #Tiago Leme
@@ -6410,7 +6410,7 @@
 110330 = {
 	name = "Bruno"
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	mother = 110325 #Oceana Leme
@@ -6424,7 +6424,7 @@
 110331 = {
 	name = "Pedro"
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	mother = 110325 #Oceana Leme
@@ -6439,7 +6439,7 @@
 	name = "Ângela"
 	female = yes
 	dynasty = 55025
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 
 	mother = 110325 #Oceana Leme
@@ -6457,7 +6457,7 @@
 110333 = { #1st Count of Mogi das Cruzes
 	name = "Hélio"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	2205.3.16 = {
@@ -6472,7 +6472,7 @@
 110334 = {
 	name = "Caio"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110333 #Hélio Watanabe
@@ -6490,7 +6490,7 @@
 	name = "Filipa"
 	female = yes
 	dynasty = 55026 #Hélio Watanabe
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110333
@@ -6507,7 +6507,7 @@
 110336 = {
 	name = "Malvino"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110334 #Caio Watanabe
@@ -6525,7 +6525,7 @@
 	name = "Paula"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110334 #Caio Watanabe
@@ -6542,7 +6542,7 @@
 110338 = {
 	name = "Douglas"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110334 #Caio Watanabe
@@ -6559,7 +6559,7 @@
 110339 = { #5th Count of Mogi das Cruzes
 	name = "Donato"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	mother = 110337 #Paula Watanabe
@@ -6577,7 +6577,7 @@
 	name = "Samanta"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	mother = 110337 #Paula Watanabe
@@ -6595,7 +6595,7 @@
 	name = "Ravena"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	mother = 110337 #Paula Watanabe
@@ -6612,7 +6612,7 @@
 110342 = {
 	name = "Mateus"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110338 #Douglas Watanabe
@@ -6629,7 +6629,7 @@
 110343 = {
 	name = "Rafael"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110338 #Douglas Watanabe
@@ -6646,7 +6646,7 @@
 110344 = {
 	name = "Marcos"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110339 #Donato Watanabe
@@ -6664,7 +6664,7 @@
 	name = "Kristal"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110339 #Donato Watanabe
@@ -6682,7 +6682,7 @@
 	name = "João"
 	#8th Count of Mogi das Cruzes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110344 #Marcos Watanabe
@@ -6697,7 +6697,7 @@
 110347 = {
 	name = "Sílvio"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110346 #João Watanabe
@@ -6712,7 +6712,7 @@
 110348 = {
 	name = "Leonardo"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110346 #João Watanabe
@@ -6728,7 +6728,7 @@
 	name = "Marcela"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110346 #João Watanabe
@@ -6744,7 +6744,7 @@
 	name = "Benedita"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110346 #João Watanabe
@@ -6759,7 +6759,7 @@
 110350 = {
 	name = "Graciano"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110342 #Mateus Watanabe
@@ -6776,7 +6776,7 @@
 110351 = {
 	name = "Carlos"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110342 #Mateus Watanabe
@@ -6796,7 +6796,7 @@
 	name = "Léa"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110350 #Graciano Watanabe
@@ -6812,7 +6812,7 @@
 	name = "Manuela"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110350 #Graciano Watanabe
@@ -6827,7 +6827,7 @@
 110388 = {
 	name = "Fausto"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110350 #Graciano Watanabe
@@ -6843,7 +6843,7 @@
 110354 = {
 	name = "André"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110343 #Rafael Watanabe
@@ -6860,7 +6860,7 @@
 110387 = {
 	name = "Agenor"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110343 #Rafael Watanabe
@@ -6878,7 +6878,7 @@
 	name = "Gabriela"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110354 #André Watanabe
@@ -6894,7 +6894,7 @@
 	name = "Tamires"
 	female = yes
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110354 #André Watanabe
@@ -6909,7 +6909,7 @@
 110389 = {
 	name = "Noah"
 	dynasty = 55026
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110351 #Carlos Watanabe
@@ -6930,7 +6930,7 @@
 110356 = {
 	name = "Fabiano"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	2203.5.27 = {
@@ -6946,7 +6946,7 @@
 	name = "Antônio"
 	#2nd Count of Mogi das Cruzes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110356 #Fabiano Yamashita
@@ -6965,7 +6965,7 @@
 	#3rd Countess of Mogi das Cruzes
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110356 #Fabiano Yamashita
@@ -6982,7 +6982,7 @@
 110359 = {
 	name = "Rodrigo"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110356 #Fabiano Yamashita
@@ -6999,7 +6999,7 @@
 110360 = {
 	name = "Leonardo"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110357 #Antônio Yamashita
@@ -7017,7 +7017,7 @@
 	name = "Joana"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110357 #Antônio Yamashita
@@ -7035,7 +7035,7 @@
 	name = "Leandro"
 	#3rd Count of Salesópolis
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110357 #Antônio Yamashita
@@ -7054,7 +7054,7 @@
 110363 = {
 	name = "Caique"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	mother = 110358 #Rafaela Yamashita
@@ -7072,7 +7072,7 @@
 	name = "Fernanda"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	mother = 110358 #Rafaela Yamashita
@@ -7089,7 +7089,7 @@
 110365 = {
 	name = "Elias"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110359 #Rodrigo Yamashita
@@ -7107,7 +7107,7 @@
 	name = "Roberta"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110359 #Rodrigo Yamashita
@@ -7124,7 +7124,7 @@
 110367 = {
 	name = "Diego"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110359 #Rodrigo Yamashita
@@ -7142,7 +7142,7 @@
 	name = "Letícia"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110362 #Leandro Yamashita
@@ -7160,7 +7160,7 @@
 	name = "Thiago"
 	#Archbishop
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	add_trait = mastermind_theologian
 	add_trait = zealous
@@ -7182,7 +7182,7 @@
 	name = "Murilo"
 	#6th Count of Mogi das Cruzes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110363 #Caique Yamashita
@@ -7199,7 +7199,7 @@
 110371 = {
 	name = "Oliveira"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110363 #Caique Yamashita
@@ -7217,7 +7217,7 @@
 	name = "Elaine"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110363 #Caique Yamashita
@@ -7235,7 +7235,7 @@
 	name = "Gabriel"
 	#3rd Count of São José dos Campos
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110365 #Elias Yamashita
@@ -7253,7 +7253,7 @@
 	name = "Mariana"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110365 #Elias Yamashita
@@ -7271,7 +7271,7 @@
 	name = "Abelita"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110365 #Elias Yamashita
@@ -7289,7 +7289,7 @@
 	name = "Felipe"
 	#7th Count of Mogi das Cruzes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110370 #Murilo Yamashita
@@ -7306,7 +7306,7 @@
 110377 = {
 	name = "Júlio"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110370 #Murilo Yamashita
@@ -7323,7 +7323,7 @@
 110378 = {
 	name = "Hugo"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110373 #Gabriel Yamashita
@@ -7343,7 +7343,7 @@
 	name = "Filipa"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110373 #Gabriel Yamashita
@@ -7362,7 +7362,7 @@
 110380 = {
 	name = "Adriano"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110376 #Felipe Yamashita
@@ -7378,7 +7378,7 @@
 	name = "Delfina"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110376 #Felipe Yamashita
@@ -7393,7 +7393,7 @@
 110382 = {
 	name = "Silvestre"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110376 #Felipe Yamashita
@@ -7410,7 +7410,7 @@
 110383 = {
 	name = "Airton"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110380 #Adriano Yamashita
@@ -7425,7 +7425,7 @@
 110384 = {
 	name = "Gaspar"
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110380 #Adriano Yamashita
@@ -7441,7 +7441,7 @@
 	name = "Joice"
 	female = yes
 	dynasty = 55027
-	religion = anchietican
+	religion = charismatic
 	culture = nippon_paulista
 	
 	father = 110380 #Adriano Yamashita
@@ -7461,7 +7461,7 @@
 	name = "Ademar"
 	#1st Count of Osasco
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2200.10.9 = {
@@ -7476,7 +7476,7 @@
 	name = "Nazário"
 	#2nd Count of Osasco
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110391 #Ademar de Barros
@@ -7493,7 +7493,7 @@
 	name = "Andrade"
 	#3rd Count of Osasco
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110392 #Nazário de Barros
@@ -7510,7 +7510,7 @@
 	name = "Clara"
 	female = yes
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110392 #Nazário de Barros
@@ -7527,7 +7527,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110393 #Andrade de Barros
@@ -7543,7 +7543,7 @@
 110396 = {
 	name = "Roberto"
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110393 #Andrade de Barros
@@ -7562,7 +7562,7 @@
 110397 = {
 	name = "Celso"
 	dynasty = 55016 
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110393 #Andrade de Barros
@@ -7582,7 +7582,7 @@
 110398 = {
 	name = "Guilherme"
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	add_trait = twin
 	
@@ -7602,7 +7602,7 @@
 	name = "Cecília"
 	female = yes
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	add_trait = twin
 	
@@ -7622,7 +7622,7 @@
 110400 = {
 	name = "Mauro"
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110398 #Guilherme de Barros
@@ -7638,7 +7638,7 @@
 110401 = {
 	name = "Orlandino"
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110398 #Guilherme de Barros
@@ -7655,7 +7655,7 @@
 	name = "Manuela"
 	female = yes
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110400 #Mauro de Barros
@@ -7669,7 +7669,7 @@
 110403 = {
 	name = "Tacito"
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110400 #Mauro de Barros
@@ -7686,7 +7686,7 @@
 	name = "Iasmin"
 	female = yes
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110400 #Mauro de Barros
@@ -7700,7 +7700,7 @@
 110405 = {
 	name = "Gastão"
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110403 #Tacito de Barros
@@ -7714,7 +7714,7 @@
 110406 = {
 	name = "Valerio"
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110403 #Tacito de Barros
@@ -7729,7 +7729,7 @@
 	name = "Sara"
 	female = yes
 	dynasty = 55016
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110403 #Tacito de Barros
@@ -7747,7 +7747,7 @@
 110408 = {
 	name = "Kauan"
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano 
 	
 	2200.1.29 = {
@@ -7761,7 +7761,7 @@
 110409 = {
 	name = "Nathan"
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110408 #Kauan Raposo Tavares
@@ -7778,7 +7778,7 @@
 	name = "Sílvia"
 	female = yes
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110408 #Kauan Raposo Tavares
@@ -7794,7 +7794,7 @@
 110411 = {
 	name = "Carlos"
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110409 #Nathan Raposo Tavares
@@ -7816,7 +7816,7 @@
 	name = "Cíntia"
 	female = yes
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110409 #Nathan Raposo Tavares
@@ -7833,7 +7833,7 @@
 	name = "Antônio"
 	#4th Count of Osasco
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110411 #Carlos Raposo Tavares
@@ -7850,7 +7850,7 @@
 	name = "Ester"
 	female = yes
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110411 #Carlos Raposo Tavares
@@ -7867,7 +7867,7 @@
 	name = "Bárbara"
 	female = yes
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110411 #Carlos Raposo Tavares
@@ -7884,7 +7884,7 @@
 	name = "Diego"
 	#5th Count of Osasco
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110413 #Antônio Raposo Tavares
@@ -7901,7 +7901,7 @@
 	name = "Elaine"
 	female = yes
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110413 #Antônio Raposo Tavares
@@ -7918,7 +7918,7 @@
 	name = "Pedro"
 	#Archbishop
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110413 #Antônio Raposo Tavares
@@ -7939,7 +7939,7 @@
 	name = "Jaqueline"
 	female = yes
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110413 #Antônio Raposo Tavares
@@ -7956,7 +7956,7 @@
 	name = "Bruno"
 	#6th Count of Osasco
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110416 #Diego Raposo Tavares
@@ -7975,7 +7975,7 @@
 110421 = {
 	name = "Ângelo"
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110416 #Diego Raposo Tavares
@@ -7991,7 +7991,7 @@
 110422 = {
 	name = "Otávio"
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110416 #Diego Raposo Tavares
@@ -8006,7 +8006,7 @@
 	name = "Beatriz"
 	female = yes
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110420 #Bruno Raposo Tavares
@@ -8020,7 +8020,7 @@
 110424 = {
 	name = "Manuel"
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110420 #Bruno Raposo Tavares
@@ -8039,7 +8039,7 @@
 110425 = {
 	name = "Henrique"
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110420 #Bruno Raposo Tavares
@@ -8054,7 +8054,7 @@
 	name = "Elsa"
 	female = yes
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110422 #Otávio Raposo Tavares
@@ -8068,7 +8068,7 @@
 110427 = {
 	name = "Inácio"
 	dynasty = 55011
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110422 #Otávio Raposo Tavares
@@ -8087,7 +8087,7 @@
 	name = "Gustavo"
 	#1st Count of Salesópolis
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2200.8.25 = {
@@ -8102,7 +8102,7 @@
 	name = "Sandro"
 	#2nd Count of Salesópolis
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110428 #Gustavo Ramalho
@@ -8119,7 +8119,7 @@
 	name = "Hebe"
 	female = yes
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110428 #Gustavo Ramalho
@@ -8135,7 +8135,7 @@
 110431 = {
 	name = "Nataniel"
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110429 #Sandro Ramalho
@@ -8152,7 +8152,7 @@
 	name = "Lisandra"
 	female = yes
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110429 #Sandro Ramalho
@@ -8168,7 +8168,7 @@
 110433 = {
 	name = "Marcelo"
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110429 #Sandro Ramalho
@@ -8185,7 +8185,7 @@
 	name = "Sandra"
 	female = yes
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 
 	father = 110429 #Sandro Ramalho
@@ -8201,7 +8201,7 @@
 110435 = {
 	name = "Tobias"
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110431 #Nataniel Ramalho
@@ -8217,7 +8217,7 @@
 110436 = {
 	name = "Fábio"
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110431 #Nataniel Ramalho
@@ -8239,7 +8239,7 @@
 	name = "Thaís"
 	female = yes
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110431 #Nataniel Ramalho
@@ -8255,7 +8255,7 @@
 110438 = {
 	name = "Pedro"
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110435 #Tobias Ramalho
@@ -8272,7 +8272,7 @@
 	name = "Alberto"
 	#Archbishop
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	disallow_random_traits = yes
 	add_trait = scholarly_theologian
@@ -8296,7 +8296,7 @@
 	name = "Valentina"
 	female = yes
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110435 #Tobias Ramalho
@@ -8313,7 +8313,7 @@
 	name = "Renata"
 	female = yes
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110436 #Fábio Ramalho
@@ -8329,7 +8329,7 @@
 110442 = {
 	name = "Mateus"
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110436 #Fábio Ramalho
@@ -8346,7 +8346,7 @@
 	name = "Guilherme"
 	#6th Count of Salesópolis, 1st Magnate, 1st Consul of Santos, 1st Magister of Santos, 1st Oligarch of Santos
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110442 #Mateus Ramalho
 	disallow_random_traits = yes
@@ -8376,7 +8376,7 @@
 	name = "Naiara"
 	female = yes
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110442 #Mateus Ramalho
@@ -8390,7 +8390,7 @@
 110445 = {
 	name = "Luan"
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110442 #Mateus Ramalho
@@ -8405,7 +8405,7 @@
 	name = "Olga"
 	female = yes
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110442 #Mateus Ramalho
@@ -8426,7 +8426,7 @@
 110447 = {
 	name = "João Pedro"
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110443 #Guilherme Ramalho
@@ -8441,7 +8441,7 @@
 	name = "Ivana"
 	female = yes
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110443 #Guilherme Ramalho
@@ -8455,7 +8455,7 @@
 110449 = {
 	name = "Vinícius"
 	dynasty = 55010
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110443 #Guilherme Ramalho
@@ -8473,7 +8473,7 @@
 110450 = {
 	name = "Fernando"
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2200.12.3 = {
@@ -8487,7 +8487,7 @@
 110451 = {
 	name = "Ricardo"
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110450 #Fernando de Campos Sales
@@ -8504,7 +8504,7 @@
 	name = "Sofia"
 	female = yes
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110450 #Fernando de Campos Sales
@@ -8520,7 +8520,7 @@
 110453 = {
 	name = "Gilberto"
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110450 #Fernando de Campos Sales
@@ -8541,7 +8541,7 @@
 110454 = {
 	name = "Ernesto"
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110453 #Gilberto de Campos Sales
@@ -8561,7 +8561,7 @@
 	name = "Dafne"
 	female = yes
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110453 #Gilberto de Campos Sales
@@ -8579,7 +8579,7 @@
 	name = "Júlia"
 	female = yes
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110454 #Ernesto de Campos Sales
@@ -8596,7 +8596,7 @@
 	name = "Manuel"
 	#4th Count of Salesópolis
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110454 #Ernesto de Campos Sales
@@ -8613,7 +8613,7 @@
 	name = "Samuel"
 	#5th Count of Salesópolis
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110457 #Manuel de Campos Sales
@@ -8630,7 +8630,7 @@
 	name = "Priscila"
 	female = yes
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110457 #Manuel de Campos Sales
@@ -8646,7 +8646,7 @@
 110460 = {
 	name = "Ronaldo"
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110457 #Manuel de Campos Sales
@@ -8661,7 +8661,7 @@
 	name = "Jonathan"
 	#7th Count of Salesópolis
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110458 #Samuel de Campos Sales
@@ -8676,7 +8676,7 @@
 	name = "Diane"
 	female = yes
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110458 #Samuel de Campos Sales
@@ -8690,7 +8690,7 @@
 110463 = {
 	name = "Ulisses"
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110461 #Jonathan de Campos Sales
@@ -8705,7 +8705,7 @@
 	name = "Paula"
 	female = yes
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110461 #Jonathan de Campos Sales
@@ -8720,7 +8720,7 @@
 	name = "Dalma"
 	female = yes
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110460 #Ronaldo de Campos Sales
@@ -8735,7 +8735,7 @@
 	name = "Laísa"
 	female = yes
 	dynasty = 55028
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110460 #Ronaldo de Campos Sales
@@ -8754,7 +8754,7 @@
 	name = "Adriano"
 	#1st Count of São José dos Campos
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	2210.5.12 = {
@@ -8770,7 +8770,7 @@
 	name = "Felipe"
 	#2nd Count of São José dos Campos
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110467 #Adriano Dumont
@@ -8788,7 +8788,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110467 #Adriano Dumont
@@ -8806,7 +8806,7 @@
 	name = "Mariana"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110467 #Adriano Dumont
@@ -8822,7 +8822,7 @@
 	name = "Paula"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110468 #Felipe Dumont
@@ -8839,7 +8839,7 @@
 110472 = {
 	name = "Germano"
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110468 #Felipe Dumont
@@ -8860,7 +8860,7 @@
 	name = "Diego"
 	#4th Count of São José dos Campos
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110468 #Felipe Dumont
@@ -8877,7 +8877,7 @@
 110474 = {
 	name = "Henrique"
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110473 #Diego Dunet
@@ -8894,7 +8894,7 @@
 110475 = {
 	name = "Renan"
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110473 #Diego Dumont
@@ -8912,7 +8912,7 @@
 	name = "Eliana"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110473 #Diego Dumont
@@ -8929,7 +8929,7 @@
 110477 = {
 	name = "Tadeu"
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110474 #Henrique Dumont
@@ -8945,7 +8945,7 @@
 	name = "Kiara"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110474 #Henrique Dumont
@@ -8960,7 +8960,7 @@
 110479 = {
 	name = "Luís"
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110477 #Tadeu Dumont
@@ -8975,7 +8975,7 @@
 110480 = {
 	name = "Bernardo"
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110477 #Tadeu Dumont
@@ -8991,7 +8991,7 @@
 	name = "Agnes"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110477 #Tadeu Dumont
@@ -9007,7 +9007,7 @@
 	name = "Carla"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110477 #Tadeu Dumont
@@ -9022,7 +9022,7 @@
 110483 = {
 	name = "Marcos"
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110475 #Renan Dumont
@@ -9038,7 +9038,7 @@
 	name = "Bianca"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110475 #Renan Dumont
@@ -9054,7 +9054,7 @@
 	name = "Joana"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110475 #Renan Dumont
@@ -9069,7 +9069,7 @@
 110486 = {
 	name = "Batista"
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110483 #Marcos Dumont
@@ -9084,7 +9084,7 @@
 110487 = {
 	name = "Antônio"
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110483 #Marcos Dumont
@@ -9100,7 +9100,7 @@
 	name = "Maria Clara"
 	female = yes
 	dynasty = 55008
-	religion = anchietican
+	religion = charismatic
 	culture = french
 	
 	father = 110483 #Marcos Dumont
@@ -9119,7 +9119,7 @@
 110489 = {
 	name = "Lucas"
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2228.3.15 = {
@@ -9133,7 +9133,7 @@
 110490 = {
 	name = "João"
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110489 #Lucas Alvarenga
@@ -9150,7 +9150,7 @@
 	name = "Amanda"
 	female = yes
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110489 #Lucas Alvarenga
@@ -9166,7 +9166,7 @@
 110492 = {
 	name = "Alfredo"
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110490 #João Alvarenga
@@ -9183,7 +9183,7 @@
 	name = "Bruna"
 	female = yes
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110490 #João Alvarenga
@@ -9200,7 +9200,7 @@
 	name = "Letícia"
 	female = yes
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110490 #João Alvarenga
@@ -9217,7 +9217,7 @@
 	name = "César"
 	#5th Count of São José dos Campos
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110492 #Alfredo Alvarenga
@@ -9233,7 +9233,7 @@
 110496 = {
 	name = "Éder"
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110492 #Alfredo Alvarenga
@@ -9250,7 +9250,7 @@
 	name = "Lucas"
 	#6th Count of São José dos Campos
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110495 #César Alvarenga
@@ -9264,7 +9264,7 @@
 110498 = {
 	name = "Horácio"
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110495 #César Alvarenga
@@ -9279,7 +9279,7 @@
 	name = "Bárbara"
 	female = yes
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110495 #César Alvarenga
@@ -9293,7 +9293,7 @@
 110500 = {
 	name = "Olavo"
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110495 #César Alvarenga
@@ -9310,7 +9310,7 @@
 	name = "Angélica"
 	female = yes
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110496 #Éder Alvarenga
@@ -9324,7 +9324,7 @@
 110502 = {
 	name = "Sebastião"
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110496 #Éder Alvarenga
@@ -9339,7 +9339,7 @@
 	name = "Maísa"
 	female = yes
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110496 #Éder Alvarenga
@@ -9354,7 +9354,7 @@
 	name = "Laura"
 	female = yes
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110497 #Lucas Alvarenga
@@ -9369,7 +9369,7 @@
 	name = "Natasha"
 	female = yes
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110497 #Lucas Alvarenga
@@ -9383,7 +9383,7 @@
 110506 = {
 	name = "Roberto"
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110502 #Sebastião Alvarenga
@@ -9397,7 +9397,7 @@
 110507 = {
 	name = "Caio"
 	dynasty = 55029
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110502 #Sebastião Alvarenga
@@ -9417,7 +9417,7 @@
 	#1st Countess of Guarulhos
 	female = yes
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2203.4.10 = {
@@ -9432,7 +9432,7 @@
 	name = "Jonas"
 	#2nd Count of Guarulhos
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	mother = 110508 #Odete Siqueira Bruno
@@ -9449,7 +9449,7 @@
 	name = "Daniela"
 	female = yes
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	mother = 110508 #Odete Siqueira Bruno
@@ -9465,7 +9465,7 @@
 110511 = {
 	name = "Eduardo"
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110509 #Jonas Siqueira Bruno
@@ -9482,7 +9482,7 @@
 	name = "Joana"
 	female = yes
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110509 #Jonas Siqueira Bruno
@@ -9499,7 +9499,7 @@
 	name = "Reinaldo"
 	#4th Count of Guarulhos
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110511 #Eduardo Siqueira Bruno
@@ -9515,7 +9515,7 @@
 110514 = {
 	name = "Diego"
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110513 #Reinaldo Siqueira Bruno
@@ -9532,7 +9532,7 @@
 	name = "Iara"
 	female = yes
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110514 #Diego Siqueira Bruno
@@ -9546,7 +9546,7 @@
 110516 = {
 	name = "Pedro"
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110514 #Diego Siqueira Bruno
@@ -9560,7 +9560,7 @@
 110517 = {
 	name = "Marcelo"
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110514 #Diego Siqueira Bruno
@@ -9576,7 +9576,7 @@
 	name = "Joice"
 	female = yes
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110514 #Diego Siqueira Bruno
@@ -9590,7 +9590,7 @@
 110519 = {
 	name = "Paulo"
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110516 #Pedro Siqueira Bruno
@@ -9605,7 +9605,7 @@
 	name = "Inara"
 	female = yes
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110516 #Pedro Siqueira Bruno
@@ -9619,7 +9619,7 @@
 110521 = {
 	name = "Murilo"
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110517 #Marcelo Siqueira Bruno
@@ -9634,7 +9634,7 @@
 	name = "Karina"
 	female = yes
 	dynasty = 55030
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110517 #Marcelo Siqueira Bruno
@@ -9652,7 +9652,7 @@
 110523 = {
 	name = "Tales"
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2210.4.15 = {
@@ -9666,7 +9666,7 @@
 110524 = {
 	name = "João"
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110523 #Tales Crespi
@@ -9683,7 +9683,7 @@
 	name = "Caetana"
 	female = yes
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110523 #Tales Crespi
@@ -9700,7 +9700,7 @@
 	name = "Anderson"
 	#3rd Count of Guarulhos
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110524 #João Crespi
@@ -9717,7 +9717,7 @@
 	name = "Bruna"
 	female = yes
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110524 #João Crespi
@@ -9733,7 +9733,7 @@
 110528 = {
 	name = "Carlos"
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110526 #Anderson Crespi
@@ -9750,7 +9750,7 @@
 	name = "Hilda"
 	female = yes
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110526 #Anderson Crespi
@@ -9767,7 +9767,7 @@
 	name = "José"
 	#5th Count of Guarulhos
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110528 #Carlos Crespi
@@ -9784,7 +9784,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110528 #Carlos Crespi
@@ -9800,7 +9800,7 @@
 110532 = {
 	name = "Daniel"
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110528 #Carlos Crespi
@@ -9815,7 +9815,7 @@
 	name = "Micaela"
 	female = yes
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110528 #Carlos Crespi
@@ -9831,7 +9831,7 @@
 	#6th Countess of Guarulhos
 	female = yes
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110530 #José Crespi
@@ -9846,7 +9846,7 @@
 	name = "Edna"
 	female = yes
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110530 #José Crespi
@@ -9860,7 +9860,7 @@
 110536 = {
 	name = "Quinto"
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110532 #Daniel Crespi
@@ -9874,7 +9874,7 @@
 110537 = {
 	name = "Ricardo"
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110532 #Daniel Crespi
@@ -9889,7 +9889,7 @@
 	name = "Gilda"
 	female = yes
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110532 #Daniel Crespi
@@ -9903,7 +9903,7 @@
 110539 = {
 	name = "Teodósio"
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	mother = 110534 #Fabrícia Crespi
@@ -9917,7 +9917,7 @@
 110540 = {
 	name = "Isaac"
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110536 #Quinto Crespi
@@ -9932,7 +9932,7 @@
 	name = "Fátima"
 	female = yes
 	dynasty = 55031
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110536 #Quinto Crespi
@@ -9951,7 +9951,7 @@
 	name = "Breno"
 	#1st Count of Jundiaí
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2210.3.14 = {
@@ -9965,7 +9965,7 @@
 110543 = {
 	name = "Gabriel"
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110542 #Breno Teles
@@ -9982,7 +9982,7 @@
 	name = "Alice"
 	female = yes
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110542 #Breno Teles
@@ -9998,7 +9998,7 @@
 110545 = {
 	name = "Marcos"
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110543 #Gabriel Teles
@@ -10015,7 +10015,7 @@
 	name = "Renata"
 	female = yes
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110543 #Gabriel Teles
@@ -10032,7 +10032,7 @@
 	name = "Elaine"
 	female = yes
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110545 #Marcos Teles
@@ -10048,7 +10048,7 @@
 110548 = {
 	name = "Sérgio"
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110545 #Marcos Teles
@@ -10064,7 +10064,7 @@
 110549 = {
 	name = "Júnior"
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110548 #Sérgio Teles
@@ -10080,7 +10080,7 @@
 110550 = {
 	name = "Caio"
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110548 #Sérgio Teles
@@ -10097,7 +10097,7 @@
 	name = "Elisabete"
 	female = yes
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110548 #Sérgio Teles
@@ -10114,7 +10114,7 @@
 	name = "Yan"
 	#6th Count of Jundiaí
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110549 #Júnior Teles
@@ -10129,7 +10129,7 @@
 	name = "Vitória"
 	female = yes
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110549 #Júnior Teles
@@ -10144,7 +10144,7 @@
 	name = "Luana"
 	female = yes
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110549 #Júnior Teles
@@ -10159,7 +10159,7 @@
 	name = "Amanda"
 	female = yes
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110552 #Yan Teles
@@ -10173,7 +10173,7 @@
 110556 = {
 	name = "Frederico"
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110552 #Yan Teles
@@ -10187,7 +10187,7 @@
 110557 = {
 	name = "Samuel"
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110550 #Caio Teles
@@ -10201,7 +10201,7 @@
 110558 = {
 	name = "Xavier"
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110557 #Samuel Teles
@@ -10216,7 +10216,7 @@
 	name = "Jennifer"
 	female = yes
 	dynasty = 55032
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110557 #Samuel Teles
@@ -10234,7 +10234,7 @@
 110560 = {
 	name = "Alison"
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2203.4.6 = {
@@ -10249,7 +10249,7 @@
 	name = "Fernando"
 	#2nd Count of Jundiaí
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110560 #Alison de Oliveira
@@ -10266,7 +10266,7 @@
 	name = "Ágata"
 	female = yes
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110560 #Alison de Oliveira
@@ -10283,7 +10283,7 @@
 	name = "Guilherme"
 	#3rd Count of Jundiaí
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110561 #Fernando de Oliveira
@@ -10300,7 +10300,7 @@
 	name = "Joana"
 	female = yes
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110561 #Fernando de Oliveira
@@ -10316,7 +10316,7 @@
 110565 = {
 	name = "Gaspar"
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110563 #Guilherme de Oliveira
@@ -10333,7 +10333,7 @@
 	name = "Adelaide"
 	female = yes
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110563 #Guilherme de Oliveira
@@ -10349,7 +10349,7 @@
 110567 = {
 	name = "André"
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110565 #Gaspar de Oliveira
@@ -10364,7 +10364,7 @@
 	name = "Carolina"
 	female = yes
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110565 #Gaspar de Oliveira
@@ -10380,7 +10380,7 @@
 110569 = {
 	name = "Isidoro"
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110565 #Gaspar de Oliveira
@@ -10396,7 +10396,7 @@
 110570 = {
 	name = "Diego"
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110567 #André de Oliveira
@@ -10411,7 +10411,7 @@
 	name = "Camila"
 	female = yes
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110567 #André de Oliveira
@@ -10425,7 +10425,7 @@
 110572 = {
 	name = "Nunes"
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110567 #André de Oliveira
@@ -10439,7 +10439,7 @@
 110573 = {
 	name = "Hipolito"
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110570 #Diego de Oliveira
@@ -10453,7 +10453,7 @@
 110574 = {
 	name = "Álvaro"
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110570 #Diego de Oliveira
@@ -10468,7 +10468,7 @@
 	name = "Samanta"
 	female = yes
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110569 #Isidoro de Oliveira
@@ -10483,7 +10483,7 @@
 	name = "Berengária"
 	female = yes
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110569 #Isidoro de Oliveira
@@ -10497,7 +10497,7 @@
 110577 = {
 	name = "Danilo"
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110572 #Nunes de Oliveira
@@ -10512,7 +10512,7 @@
 	name = "Teresa"
 	female = yes
 	dynasty = 55033
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110572 #Nunes de Oliveira
@@ -10530,7 +10530,7 @@
 110579 = {
 	name = "Lívio"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	2211.3.13 = {
@@ -10544,7 +10544,7 @@
 110580 = {
 	name = "Ronaldo"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110579 #Lívio Brunholi
@@ -10561,7 +10561,7 @@
 	name = "Raissa"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110579 #Lívio Brunholi
@@ -10577,7 +10577,7 @@
 110582 = {
 	name = "João"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110580 #Ronaldo Brunholi
@@ -10594,7 +10594,7 @@
 	name = "Agenor"
 	#4th Count of Jundiaí
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110582 #João Brunholi
@@ -10610,7 +10610,7 @@
 110584 = {
 	name = "Marcos"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110582 #João Brunholi
@@ -10627,7 +10627,7 @@
 	name = "Gianluca"
 	#5th Count of Jundiaí
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110583 #Agenor Brunholi
@@ -10644,7 +10644,7 @@
 	name = "Juliana"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110583 #Agenor Brunholi
@@ -10660,7 +10660,7 @@
 110587 = {
 	name = "Paulo"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110584 #Marcos Brunholi
@@ -10677,7 +10677,7 @@
 	name = "Vitória"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110584 #Marcos Brunholi
@@ -10692,7 +10692,7 @@
 	name = "Daniela"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110584 #Marcos Brunholi
@@ -10709,7 +10709,7 @@
 	name = "Oriana"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110585 #Gianluca Brunholi
@@ -10723,7 +10723,7 @@
 110591 = {
 	name = "Ricardo"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110585 #Gianluca Brunholi
@@ -10739,7 +10739,7 @@
 110592 = {
 	name = "Adriano"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110585 #Gianluca Brunholi
@@ -10754,7 +10754,7 @@
 	name = "Alba"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110585 #Gianluca Brunholi
@@ -10768,7 +10768,7 @@
 110594 = {
 	name = "Bento"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110585 #Gianluca Brunholi
@@ -10782,7 +10782,7 @@
 110595 = {
 	name = "Luís"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110587 #Paulo Brunholi
@@ -10797,7 +10797,7 @@
 	name = "Cármen"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110587 #Paulo Brunholi
@@ -10812,7 +10812,7 @@
 	name = "Antônia"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110592 #Adriano Brunholi
@@ -10826,7 +10826,7 @@
 110598 = {
 	name = "Vinícius"
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110592 #Adriano Brunholi
@@ -10841,7 +10841,7 @@
 	name = "Júlia"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110594 #Bento Brunholi
@@ -10856,7 +10856,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 55034
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	father = 110595 #Luís Brunholi
@@ -10874,7 +10874,7 @@
 110601 = {
 	name = "Gabriel"
 	dynasty = 56072
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	
@@ -10891,7 +10891,7 @@
 110602 = { #shameless Turma da Mônica reference
 	name = "Sansão"
 	dynasty = 56014
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	disallow_random_traits = yes
@@ -10922,7 +10922,7 @@
 	name = "Dalila" #Samson's wife
 	female = yes
 	dynasty = 55862
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	
 	disallow_random_traits = yes
@@ -10956,7 +10956,7 @@
 	name = "Mônica"
 	female = yes
 	dynasty = 56014
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110602
 	mother = 110603
@@ -10987,7 +10987,7 @@
 110650 = {
 	name = "Tobias"
 	dynasty = 65647 #de Aguiar
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	#father=110651
 	
@@ -11010,7 +11010,7 @@
 110651 = {
 	name = "Rafael"
 	dynasty = 55040 #Maluf
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	father=110652
 	
@@ -11031,7 +11031,7 @@
 110652 = {
 	name = "Daniel"
 	dynasty = 55040 #Maluf
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	father=110653
 	
@@ -11052,7 +11052,7 @@
 110653 = {
 	name = "Martinez"
 	dynasty = 55040 #Maluf
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	father=110654
 	
@@ -11076,7 +11076,7 @@
 110654 = {
 	name = "Conte"
 	dynasty = 55040 #Maluf
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	father=110656
 	trait=intricate_webweaver
@@ -11099,7 +11099,7 @@
 110655 = {
 	name = "Maria"
 	dynasty = 55040 #Maluf
-	religion = anchietican
+	religion = charismatic
 	culture = camponeto
 	female=yes
 	father=110654
@@ -11115,7 +11115,7 @@
 110656 = {
 	name = "Israel"
 	dynasty = 55040 #Maluf
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	
 	trait=tough_soldier
@@ -11129,7 +11129,7 @@
 110605 = {
 	name = "Diogo"
 	dynasty = 65647 #de Aguiar
-	religion = anchietican
+	religion = charismatic
 	culture = salvadorense
 	father=110650
 	mother=110747
@@ -11176,7 +11176,7 @@
 	name = "Isabela"
 	female = yes
 	dynasty = 66100
-	religion = anchietican
+	religion = charismatic
 	culture = camponeto
 	
 	disallow_random_traits = yes
@@ -11204,7 +11204,7 @@
 110607 = {
 	name = "Felipe"
 	dynasty = 66100
-	religion = anchietican
+	religion = charismatic
 	culture = camponeto
 	mother = 110606
 	father = 110445
@@ -11227,7 +11227,7 @@
 110608 = {
 	name = "Camila"
 	dynasty = 66100
-	religion = anchietican
+	religion = charismatic
 	culture = camponeto
 	mother = 110606
 	
@@ -11251,7 +11251,7 @@
 110609 = {
 	name = "Lucas"
 	dynasty = 66100
-	religion = anchietican
+	religion = charismatic
 	culture = camponeto
 	mother = 110606
 	father = 110445
@@ -11273,7 +11273,7 @@
 110610 = {
 	name = "Fernanda"
 	dynasty = 66100
-	religion = anchietican
+	religion = charismatic
 	culture = camponeto
 	mother = 110606
 	father = 110445
@@ -11299,7 +11299,7 @@
 110611 = {
 	name = "João"
 	dynasty = 77501 #cardoso
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	
 	trait = underhanded_rogue
@@ -11312,7 +11312,7 @@
 110612 = {
 	name = "Cosme"
 	dynasty = 77501 #cardoso
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father=110611
 	trait = midas_touched
@@ -11327,7 +11327,7 @@
 110613 = {
 	name = "Martim"
 	dynasty = 77501 #cardoso
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father=110612
 	trait = brilliant_strategist
@@ -11343,7 +11343,7 @@
 110614 = {
 	name = "Cosme"
 	dynasty = 77501 #cardoso
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	father=110613
 	trait = fortune_builder
@@ -11358,7 +11358,7 @@
 110615 = {
 	name = "Cosme"
 	dynasty = 77501 #cardoso
-	religion = anchietican 
+	religion = charismatic 
 	culture = caicara
 	father=110614
 	mother=110241
@@ -11413,7 +11413,7 @@
 	name = "Lucas"
 	dynasty = 77501 #cardoso
 	culture = caicara
-	religion = anchietican
+	religion = charismatic
 	  dna="bcfaa00bfb0"
   properties="rk0l0g000000000000000000000000000000"
 	father=110615
@@ -11443,7 +11443,7 @@
 110617 = {
 	name = "Natalia"
 	dynasty = 77502
-	religion = anchietican
+	religion = charismatic
 	culture = caicara
 	female = yes
 	
@@ -11803,7 +11803,7 @@
 		birth = yes
 	}
 	2126.12.10 = {
-		religion = anchietican
+		religion = charismatic
 	}
 	2171.12.26 = {
 		death = yes
@@ -11813,7 +11813,7 @@
 110675 = {
 	name = "Luiz"
 	dynasty = 55042 #Sguassabia
-	religion = anchietican
+	religion = charismatic
 	culture = paulistano
 	father = 110674
 	
@@ -11827,7 +11827,7 @@
 		birth = yes
 	}
 	2155.1.15 = {
-		religion = anchietican #he converted following the schism
+		religion = charismatic #he converted following the schism
 	}
 	2202.1.1 = {
 		death = yes
@@ -11839,7 +11839,7 @@
 110676 = {
 	name = "Benedito"
 	dynasty = 75003 #santoro
-	religion = anchietican
+	religion = charismatic
 	culture = paranapanense
 	
 	trait = misguided_warrior
@@ -11863,7 +11863,7 @@
 110677 = {
 	name = "Giovani"
 	dynasty = 65959 #Rocha
-	religion = anchietican
+	religion = charismatic
 	culture = paranapanense
 	
 	trait = thrifty_clerk
@@ -12121,7 +12121,7 @@
 	name = "Inês" #Carlo's friend, a prisoner captured by his father
 	dynasty = 0
 	female=yes
-	religion = anchietican 
+	religion = charismatic 
 	culture = camponeto
 	
 	trait = charismatic_negotiator
@@ -12358,7 +12358,7 @@
 	female = yes
 	dynasty = 1400003 #Makino
 	culture = kyusei
-	religion = anchietican
+	religion = charismatic
 	father=110746
 	
 	trait = charismatic_negotiator
@@ -12401,7 +12401,7 @@
 	name = "Agnello"
 	dynasty = 65001 #Villas Boas
 	culture = camponeto
-	religion = anchietican
+	religion = charismatic
 	
 	trait = underhanded_rogue
 	trait = gregarious
@@ -12423,7 +12423,7 @@
 	name = "Arlinda"
 	dynasty = 0
 	culture = paulistano
-	religion = anchietican
+	religion = charismatic
 	female = yes
 	
 	trait = underhanded_rogue
@@ -12443,7 +12443,7 @@
 	name = "Orlando"
 	dynasty = 65001 #Villas Boas
 	culture = camponeto
-	religion = anchietican
+	religion = charismatic
 	dna="0fihh00ac00"
 	properties="ci0fg0000000000000000000000000000000"
 	
@@ -12477,7 +12477,7 @@
 	name = "Cláudio"
 	dynasty = 65001 #Villas Boas
 	culture = camponeto
-	religion = anchietican
+	religion = charismatic
 	
 	father = 110709
 	mother = 110710
@@ -12507,7 +12507,7 @@
 	name = "Leonardo"
 	dynasty = 65001 #Villas Boas
 	culture = camponeto
-	religion = anchietican
+	religion = charismatic
 
 	father = 110709
 	mother = 110710
@@ -12540,7 +12540,7 @@
 	name = "Álvaro"
 	dynasty = 65001 #Villas Boas
 	culture = camponeto
-	religion = anchietican
+	religion = charismatic
 	
 	father = 110709
 	mother = 110710
@@ -12573,7 +12573,7 @@
 	name = "Renan"
 	dynasty = 60004 #Carter
 	culture = americano
-	religion = anchietican
+	religion = charismatic
 	
 	trait = tough_soldier
 	trait = charitable
@@ -12597,7 +12597,7 @@
 	dynasty = 60005 #Povos Unidos
 	female = yes
 	culture = americano
-	religion = anchietican
+	religion = charismatic
 	
 	trait = grey_eminence
 	trait = groomed
@@ -12618,7 +12618,7 @@
 	name = "José"
 	dynasty = 75004 #do Valle
 	culture = paranapanense
-	religion = anchietican
+	religion = charismatic
 	
 	trait = thrifty_clerk
 	trait = stubborn
@@ -12643,7 +12643,7 @@
 	name = "Áureo"
 	dynasty = 75005 #Botelho
 	culture = brown
-	religion = anchietican
+	religion = charismatic
 	
 	trait = mastermind_theologian
 	trait = genius
@@ -12671,7 +12671,7 @@
 	name = "Osório"
 	dynasty = 65002 #Capelli
 	culture = camponeto
-	religion = anchietican
+	religion = charismatic
 	dna="bfbgf0ib000"
 	properties="vh0dab0c0000000000000000000000000000"
 	trait=tough_soldier
@@ -12703,7 +12703,7 @@
 	name =  "Josmar"
 	dynasty = 65003 #Luís
 	culture = salvadorense
-	religion = anchietican
+	religion = charismatic
 	dna="0hgha0d0cb0"
 	properties="nh0edi0c0000000000000000000000000000"
 	trait=underhanded_rogue
@@ -12731,7 +12731,7 @@
 	name = "Marcelo"
 	dynasty = 55043 #Gastaldi
 	culture = paulistano
-	religion = anchietican
+	religion = charismatic
 	dna="0a0aa0jc0b0"
 	properties="pj0d0k000000000000000000000000000000"
 	trait=charismatic_negotiator
@@ -12816,7 +12816,7 @@
 	name = "Antônio"
 	dynasty = 55045 #Bento
 	culture = caipira
-	religion = anchietican 
+	religion = charismatic 
 	dna="0b0c00000b0"
 	properties="0l00ck000000000000000000000000000000"
 
@@ -12877,7 +12877,7 @@
 	name = "Ademar"
 	dynasty = 55046 #Abobrinha
 	culture = caipira
-	religion = anchietican
+	religion = charismatic
 	
 	trait=midas_touched
 	trait=diligent
@@ -12960,7 +12960,7 @@
 	name = "Jeca"
 	dynasty = 55049 #Mazzaropi
 	culture = caipira
-	religion = anchietican
+	religion = charismatic
 	dna="cdaei0b00b0"
 	properties="rm0gck000000000000000000000000000000"
 	trait=indulgent_wastrel
@@ -12980,7 +12980,7 @@
 	name = "Simão"
 	dynasty = 55050 #Matsuda
 	culture = kyusei
-	religion = anchietican  
+	religion = charismatic  
 	dna="0b0c00000b0"
 	properties="0l0j0j000000000000000000000000000000"
 	trait=misguided_warrior
@@ -12999,7 +12999,7 @@
 	name = "Antônio"
 	dynasty = 55051 #Pinguim
 	culture = teuto_paulista
-	religion = anchietican
+	religion = charismatic
 	trait = fortune_builder
 	trait = greedy
 	trait = drunkard
@@ -13013,7 +13013,7 @@
 	name = "Clementina"
 	dynasty = 55051 #Pinguim
 	culture = teuto_paulista
-	religion = anchietican
+	religion = charismatic
 	father = 110735
 	female = yes
 	trait = charismatic_negotiator
@@ -13026,7 +13026,7 @@
 	name = "Adão"
 	dynasty = 55051 #Pinguim
 	culture = teuto_paulista
-	religion = anchietican
+	religion = charismatic
 	father = 110735
 	trait = skilled_tactician
 	trait = drunkard
@@ -13042,7 +13042,7 @@
 	name = "Paula"
 	dynasty = 55051 #Pinguim
 	culture = teuto_paulista
-	religion = anchietican
+	religion = charismatic
 	female = yes
 	father = 110737
 	mother = 110535
@@ -13055,7 +13055,7 @@
 	name = "Alexandre"
 	dynasty = 55053 #Magno
 	culture = caicara
-	religion = anchietican
+	religion = charismatic
 	trait = charismatic_negotiator
 	trait = poet
 	trait = wroth
@@ -13075,7 +13075,7 @@
 	name = "Lívia"
 	dynasty = 0 #lowborn. maybe make her house of auriflama
 	culture = camponeto
-	religion = anchietican
+	religion = charismatic
 	female = yes
 	trait = intricate_webweaver
 	trait = fair
@@ -13088,7 +13088,7 @@
 	name = "Gustavo"
 	dynasty = 55054 #de Melo
 	culture = mantiqueiro
-	religion = renewalist
+	religion = charismatic
 	trait = scholarly_theologian
 	trait = heresiarch
 	trait = strong
@@ -13109,7 +13109,7 @@
 	dynasty = 55054 #de Melo
 	father = 110741
 	culture = mantiqueiro
-	religion = anchietican
+	religion = charismatic
 	trait = skilled_tactician
 	trait = diligent
 	
@@ -13123,7 +13123,7 @@
 	name = "Patrícia"
 	dynasty=40043 #stickel
 	culture = mantiqueiro
-	religion = anchietican
+	religion = charismatic
 	female=yes
 	trait = midas_touched
 	trait = fair
@@ -13138,7 +13138,7 @@
 	name = "Miguel"
 	dynasty=1400005 #Kishikawa
 	culture = kyusei
-	religion = anchietican
+	religion = charismatic
 	trait = skilled_tactician
 	trait = duelist
 	trait = bandeirante
@@ -13156,7 +13156,7 @@
 	name = "Sílvio"
 	dynasty = 55044 #Kachigumi
 	culture = kyusei
-	religion = anchietican
+	religion = charismatic
 	trait = tough_soldier
 	trait = stubborn
 	trait = charitable
@@ -13182,7 +13182,7 @@
 	name = "Mateus"
 	dynasty = 1400003 #Makino
 	culture	 = kyusei
-	religion = anchietican
+	religion = charismatic
 	trait = skilled_tactician
 	trait = diligent
 	trait = kind
@@ -13200,7 +13200,7 @@
 	name="Irineu"
 	dynasty=40042 #sabugosa dynasty
 	culture=mantiqueiro
-	religion=anchietican
+	religion=charismatic
 	add_trait=erudite
 	add_trait=gregarious
 	add_trait=proud
@@ -13227,7 +13227,7 @@
 110747 = {
 	name = "Júliana"
 	dynasty = 55040 #Maluf
-	religion = anchietican
+	religion = charismatic
 	culture = arabic
 	father=110651
 	female = yes
@@ -13250,7 +13250,7 @@
 110748 = {
 	name = "Gustavo"
 	dynasty = 55957
-	religion = anchietican
+	religion = charismatic
 	culture = paranapanense
 	
 	trait = thrifty_clerk
@@ -13268,7 +13268,7 @@
 110749 = {
 	name = "Agemiro"
 	dynasty = 00000000c00
-	religion = anchietican
+	religion = charismatic
 	culture = caipira
 	
 	trait = scholarly_theologian
@@ -13288,7 +13288,7 @@
 110750 = {
 	name = "Edmar"
 	dynasty = 55055 #Jalles
-	religion = anchietican
+	religion = charismatic
 	culture = caipira
 	
 	trait = midas_touched
@@ -13312,7 +13312,7 @@
 110751 = {
 	name = "Natalia"
 	dynasty = 0
-	religion = anchietican
+	religion = charismatic
 	culture = caipira
 	female = yes
 	
@@ -13326,7 +13326,7 @@
 110752 = {
 	name = "Letícia´"
 	dynasty = 55055 #Jalles
-	religion = anchietican
+	religion = charismatic
 	culture = caipira
 	female = yes
 	
@@ -13337,7 +13337,7 @@
 110753 = {
 	name = "Diego"
 	dynasty = 55055 #Jalles
-	religion = anchietican
+	religion = charismatic
 	culture = caipira
 	
 	2360.1.1={birth = yes}

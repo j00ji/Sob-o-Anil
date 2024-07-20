@@ -16,6 +16,6 @@ b_santa_mariana = city
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = charismatic
 
 #History

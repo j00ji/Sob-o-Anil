@@ -308,7 +308,7 @@ christian = {
 		icon = 10
 		heresy_icon = 17
 	
-		color = { 0.3 0.6 0.2 }
+		color = { 1.0 1.0 0.5 }
 		
 		high_god_name = GOD_DEUS 
 		

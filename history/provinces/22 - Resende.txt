@@ -16,6 +16,6 @@ b_penedo = castle
 
 # Misc
 culture = mantiqueiro
-religion = renewalist
+religion = charismatic
 
 #History

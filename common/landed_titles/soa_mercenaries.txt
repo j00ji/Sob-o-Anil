@@ -192,7 +192,7 @@ d_vasco_da_gama = {
 	
 	short_name = yes
 	
-	religion = anchietican
+	religion = charismatic
 	culture = carioca
 	
 	title = "COACH"

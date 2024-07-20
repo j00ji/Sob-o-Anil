@@ -16,6 +16,6 @@ b_tarituba = temple
 
 # Misc
 culture = caicara
-religion = anchietican
+religion = charismatic
 
 #History

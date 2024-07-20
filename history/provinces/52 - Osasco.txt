@@ -16,7 +16,7 @@ b_embu = temple
 
 # Misc
 culture = paulistano
-religion = anchietican
+religion = charismatic
 
 #History
 

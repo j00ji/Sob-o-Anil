@@ -16,6 +16,6 @@ b_cachoeira_paulista = temple
 
 # Misc
 culture = mantiqueiro
-religion = renewalist
+religion = charismatic
 
 #History

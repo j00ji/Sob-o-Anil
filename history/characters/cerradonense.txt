@@ -690,7 +690,7 @@
 	name="Leonardo"
 	dynasty=65001 #villas boas
 	culture=xavante
-	religion=anchietican
+	religion=charismatic
 	father=210018
 	mother=210020
 	trait=legit_bastard

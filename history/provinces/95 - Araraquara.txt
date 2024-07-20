@@ -16,6 +16,6 @@ b_matao = temple
 
 # Misc
 culture = kyusei
-religion = anchietican
+religion = charismatic
 
 #History

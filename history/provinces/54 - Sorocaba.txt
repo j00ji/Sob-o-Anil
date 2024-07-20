@@ -16,6 +16,6 @@ b_votorantim = castle
 
 # Misc
 culture = camponeto
-religion = anchietican
+religion = charismatic
 
 #History

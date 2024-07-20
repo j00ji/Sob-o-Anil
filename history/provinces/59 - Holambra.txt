@@ -16,6 +16,6 @@ b_amparo = temple
 
 # Misc
 culture = americano
-religion = anchietican
+religion = charismatic
 
 #History

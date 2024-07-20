@@ -16,6 +16,6 @@ b_guaratuba = city
 
 # Misc
 culture = caicara
-religion = anchietican
+religion = charismatic
 
 #History

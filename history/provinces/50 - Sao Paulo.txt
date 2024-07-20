@@ -16,7 +16,7 @@ b_sao_caetano = castle
 
 # Misc
 culture = paulistano
-religion = anchietican
+religion = charismatic
 
 #History
 

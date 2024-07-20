@@ -16,6 +16,6 @@ b_santana_2 = temple
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = charismatic
 
 #History

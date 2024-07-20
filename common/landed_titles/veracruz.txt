@@ -22,7 +22,7 @@ e_vera_cruz = {
 				color={ 231 208 118 }
 				color2={ 255 255 255 }
 				holy_site = terra_benta
-				holy_site = anchietican
+				holy_site = charismatic
 				holy_site = johrei
 				holy_site = camdomble
 				holy_site = kardecists
@@ -1051,7 +1051,7 @@ e_vera_cruz = {
 				color2={ 255 255 255 }
 				holy_site = terra_benta
 				holy_site = apostolic
-				holy_site = anchietican
+				holy_site = charismatic
 				
 				b_itacolomi = {}
 				b_ouro_branco_2 = {}
@@ -1898,7 +1898,7 @@ e_vera_cruz = {
 				color2={ 255 255 255 }
 				
 				holy_site = apostolic
-				holy_site = anchietican
+				holy_site = charismatic
 				
 				b_independencia = {}
 				b_ouroville = {}
@@ -1925,7 +1925,7 @@ e_vera_cruz = {
 				color2={ 255 255 255 }
 				
 				b_aparecida = {
-					pentarchy = anchietican
+					pentarchy = charismatic
 				}
 				b_roseira = {}
 				b_guaratingueta = {}

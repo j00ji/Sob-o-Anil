@@ -16,6 +16,6 @@ b_imaculada_conceicao = temple
 
 # Misc
 culture = camponeto
-religion = anchietican
+religion = charismatic
 
 #History

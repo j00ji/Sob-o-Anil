@@ -16,6 +16,6 @@ b_tatuibi = temple
 
 # Misc
 culture = camponeto
-religion = anchietican
+religion = charismatic
 
 #History

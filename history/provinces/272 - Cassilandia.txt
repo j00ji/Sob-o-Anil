@@ -16,6 +16,6 @@ b_cassilandia = tribal
 
 # Misc
 culture = matogrossense
-religion = anchietican
+religion = charismatic
 
 #History

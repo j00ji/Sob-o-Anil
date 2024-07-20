@@ -16,6 +16,6 @@ b_cananeia = temple
 
 # Misc
 culture = caicara
-religion = anchietican
+religion = charismatic
 
 #History

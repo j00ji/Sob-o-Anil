@@ -26,7 +26,7 @@
 	name="Jackson"
 	dynasty=85003 #Leão
 	culture=caicara
-	religion=anchietican
+	religion=charismatic
 	trait=fortune_builder
 	trait=slothful
 	trait=greedy
@@ -54,7 +54,7 @@
 	dynasty=0 #for now no dynasty, would like to make her a noble
 	female=yes
 	culture=caicara
-	religion=anchietican
+	religion=charismatic
 	trait=naive_appeaser
 	trait=sturdy
 	trait=diligent
@@ -80,7 +80,7 @@
 	father=260002
 	mother=260003
 	culture=caicara
-	religion=anchietican
+	religion=charismatic
 	trait=scholarly_theologian
 	trait=stubborn
 	trait=shrewd
@@ -99,7 +99,7 @@
 	father=260002
 	mother=260003
 	culture=caicara
-	religion=anchietican
+	religion=charismatic
 	trait=slow
 	trait=conscientious
 	trait=playful
@@ -371,7 +371,7 @@
 	2300.1.1={
 		death=yes
 	}
-	#Ruled an Apostolic realm in paranapanema, was deposed by an anchietican revolt
+	#Ruled an Apostolic realm in paranapanema, was deposed by an charismatic revolt
 }
 260018={
 	name="Sócrates"
@@ -433,7 +433,7 @@
 	name="Francisco"
 	dynasty=1400001 #Hossokawa
 	culture=kyusei
-	religion=anchietican
+	religion=charismatic
 	trait=skilled_tactician
 	trait=dwarf
 	trait=patient
@@ -447,14 +447,14 @@
 	2325.1.1={
 		death=yes
 	}
-	#Lead the anchietican revolt in Paranapanema, deposing its former ruler at a young age in around 2285
+	#Lead the charismatic revolt in Paranapanema, deposing its former ruler at a young age in around 2285
 }
 260022={
 	name="Ulisses"
 	dynasty=1400001 #Hossokawa
 	culture=kyusei
 	father=260021
-	religion=anchietican
+	religion=charismatic
 	trait=thrifty_clerk
 	trait=temperate
 	trait=humble
@@ -472,7 +472,7 @@
 	dynasty=1400001 #Hossokawa
 	culture=kyusei
 	father=260022
-	religion=anchietican
+	religion=charismatic
 	trait=misguided_warrior
 	trait=erudite
 	trait=brave
@@ -504,7 +504,7 @@
 	dynasty=1400001 #Hossokawa
 	culture=kyusei
 	father=260022
-	religion=anchietican
+	religion=charismatic
 	female=yes
 	trait=underhanded_rogue
 	trait=groomed
@@ -526,7 +526,7 @@
 	name="Nicoli"
 	dynasty=0 #should probably change this later to a Paulista family or smt
 	culture=americano
-	religion=anchietican
+	religion=charismatic
 	female=yes
 	trait=underhanded_rogue
 	trait=lustful
@@ -552,7 +552,7 @@
 	dynasty=110008 #stetiski
 	female=yes
 	culture=paranaense
-	religion=anchietican
+	religion=charismatic
 	secret_religion=apostolic #amongst the last Apostolics of paranapanema
 	trait=brilliant_strategist
 	trait=robust
@@ -577,7 +577,7 @@
 	dynasty=75002 #Pennafiel
 	trait=flamboyant_schemer
 	culture=paranapanense
-	religion=anchietican
+	religion=charismatic
 	trait=impaler
 	trait=cruel
 	trait=diligent
@@ -594,7 +594,7 @@
 	dynasty=1400001 #Hossokawa
 	female=yes
 	culture=kyusei
-	religion=anchietican
+	religion=charismatic
 	father=260023
 	mother=260025
 	2369.1.1={
@@ -629,7 +629,7 @@
 	name = "Simão"
 	dynasty = 75006 # Fréza
 	culture = english
-	religion = anchietican
+	religion = charismatic
 	dna = "aehd00gbid0"
 	properties = "kn0bbb000000000000000000000000000000"
 	trait = midas_touched
@@ -660,7 +660,7 @@
 	female = yes
 	dynasty = 0 #give her a important dynasty later change her culture accordingly
 	culture = english
-	religion = anchietican
+	religion = charismatic
 	trait = genius
 	trait = kind
 	trait = temperate
@@ -683,7 +683,7 @@
 	name = "Rodrigo"
 	dynasty = 75006 # Fréza
 	culture = english
-	religion = anchietican
+	religion = charismatic
 	trait = diligent
 	trait = ambitious
 	trait = brave
@@ -706,7 +706,7 @@
 	female = yes
 	dynasty = 75006 # Fréza
 	culture = english
-	religion = anchietican
+	religion = charismatic
 	trait = diligent
 	trait = kind
 	trait = just
@@ -727,7 +727,7 @@
 	name = "Leonardo"
 	dynasty = 75006 # Fréza
 	culture = english
-	religion = anchietican
+	religion = charismatic
 	trait = ambitious
 	trait = brave
 	trait = diligent
@@ -747,7 +747,7 @@
 	name = "Alberto"
 	dynasty = 75007 # Ferrarin
 	culture = paranapanense
-	religion = anchietican
+	religion = charismatic
 	female = no
 	trait = brilliant_strategist
 	trait = brave
@@ -774,7 +774,7 @@
 	name = "Elena"
 	dynasty = 75008 # Souza
 	culture = paranapanense
-	religion = anchietican
+	religion = charismatic
 	female = yes
 	trait = genius
 	trait = kind
@@ -800,7 +800,7 @@
 	name = "Rodrigo"
 	dynasty = 75007 # Ferrarin
 	culture = paranapanense
-	religion = anchietican
+	religion = charismatic
 	trait = diligent
 	trait = ambitious
 	trait = brave
@@ -822,7 +822,7 @@
 	name = "Ana"
 	dynasty = 75007 # Ferrarin
 	culture = paranapanense
-	religion = anchietican
+	religion = charismatic
 	female = yes
 	trait = diligent
 	trait = kind
@@ -844,7 +844,7 @@
 	name = "Leonardo"
 	dynasty = 75007 # Ferrarin
 	culture = paranapanense
-	religion = anchietican
+	religion = charismatic
 	trait = ambitious
 	trait = brave
 	trait = diligent
@@ -994,7 +994,7 @@
 	dynasty=85005 #Saporski
 	dna="bkacdcmolca"
 	culture=paranaense
-	religion=anchietican
+	religion=charismatic
 	martial=5
 	diplomacy=6
 	stewardship=6
@@ -1016,7 +1016,7 @@
 	dynasty=85005 #Saporski
 	dna="pekcacdolca"
 	culture=paranaense
-	religion=anchietican
+	religion=charismatic
 	father=260046
 	martial=4
 	diplomacy=4
@@ -1037,7 +1037,7 @@
 	dynasty=85005 #Saporski
 	dna="bnajdcbmhpo"
 	culture=paranaense
-	religion=anchietican
+	religion=charismatic
 	father=260047
 	martial=7
 	diplomacy=3
@@ -1058,7 +1058,7 @@
 	dna="0cafc0bcfd0"
 	properties="ac0cld"
 	culture = paranaense
-	religion = anchietican
+	religion = charismatic
 	trait = grey_eminence
 	trait = fair
 	trait = gregarious
@@ -1083,7 +1083,7 @@
 	dna="0cafc0bcfd0"
 	properties="ck0cg"
 	culture = paranaense
-	religion = anchietican
+	religion = charismatic
 	trait = fair
 	trait = tough_soldier
 	trait = ambitious
@@ -1109,7 +1109,7 @@
 	dynasty = 85006 #Lachowski
 	dna="0cafc0bcfd0"
 	culture = paranaense
-	religion = anchietican
+	religion = charismatic
 	trait = fair
 	father = 260050
 	mother = 260007
@@ -1127,7 +1127,7 @@
 	name = "Régis"
 	dynasty = 55056 #Lara
 	culture = paulistano
-	religion = anchietican
+	religion = charismatic
 	trait = bandeirante
 	trait = ambitious
 	trait = skilled_tactician
@@ -1153,7 +1153,7 @@
 	name = "Isabela"
 	dynasty = 85007 #Trevizam
 	culture = paranaense
-	religion = anchietican
+	religion = charismatic
 	female = yes
 	dna="0bgii00bbb0"
 	properties="pk0h0k0000000000000000000000000000000"
@@ -1177,7 +1177,7 @@
 	name = "Enzo"
 	dynasty = 55056 #Lara
 	culture = paranaense
-	religion = anchietican
+	religion = charismatic
 	father = 260052
 	mother = 260053
 	2365.1.1 = {
@@ -2036,7 +2036,7 @@
 	name="Angelo"
 	dynasty=105003 #Balan
 	culture=talian
-	religion=anchietican
+	religion=charismatic
 	trait=elusive_shadow
 	trait=is_fat
 	trait=wroth
@@ -2055,7 +2055,7 @@
 	dynasty=105003 #Balan
 	father=270038
 	culture=talian
-	religion=anchietican
+	religion=charismatic
 	trait=midas_touched
 	trait=diligent
 	trait=lustful
@@ -2076,7 +2076,7 @@
 	dynasty=100007 #Renaux
 	female=yes
 	culture=hunsruckisch
-	religion=anchietican
+	religion=charismatic
 	trait=fortune_builder
 	trait=wroth
 	trait=robust
@@ -2096,7 +2096,7 @@
 	father=270039
 	mother=270040
 	culture=talian
-	religion=anchietican
+	religion=charismatic
 	trait=tough_soldier
 	trait=wroth
 	trait=arbitrary
@@ -2119,7 +2119,7 @@
 	father=270039
 	mother=270040
 	culture=talian
-	religion=anchietican
+	religion=charismatic
 	trait=scholarly_theologian
 	trait=shrewd
 	trait=cynical
@@ -2145,7 +2145,7 @@
 	father=270039
 	female=yes
 	culture=talian
-	religion=anchietican
+	religion=charismatic
 	trait=legit_bastard
 	2342.1.1={
 		birth=yes
@@ -2160,7 +2160,7 @@
 	dynasty=0
 	female=yes
 	culture=greenbelly
-	religion=anchietican
+	religion=charismatic
 	trait=naive_appeaser
 	trait=kind
 	trait=stubborn
@@ -2176,7 +2176,7 @@
 	name="Enzo"
 	dynasty=105003 #Balan
 	culture=talian
-	religion=anchietican
+	religion=charismatic
 	trait=charismatic_negotiator
 	trait=poet
 	trait=ambitious
@@ -2200,7 +2200,7 @@
 	name="Giovanni"
 	dynasty=105003 #Balan
 	culture=talian
-	religion=anchietican
+	religion=charismatic
 	trait=thrifty_clerk
 	trait=diligent
 	father=270042

@@ -688,9 +688,9 @@ e_the_south = {
 			c_paranagua = { # 212
 				color={ 205 135 230 }
 				color2={ 255 255 255 }
-				holy_site = anchietican
+				holy_site = charismatic
 				b_paranagua = {
-					pentarchy = anchietican
+					pentarchy = charismatic
 				}
 				b_guaratuba = {}
 				b_pontal_do_parana = {}

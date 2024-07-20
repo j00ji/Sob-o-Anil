@@ -16,6 +16,6 @@ b_vila_nery = temple
 
 # Misc
 culture = camponeto
-religion = anchietican
+religion = charismatic
 
 #History

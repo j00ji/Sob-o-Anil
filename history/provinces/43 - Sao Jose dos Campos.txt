@@ -16,6 +16,6 @@ b_jacarei = temple
 
 # Misc
 culture = paulistano
-religion = anchietican
+religion = charismatic
 
 #History

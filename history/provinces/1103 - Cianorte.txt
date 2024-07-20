@@ -16,6 +16,6 @@ b_japura = city
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = charismatic
 
 #History

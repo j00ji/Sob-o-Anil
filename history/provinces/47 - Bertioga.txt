@@ -16,6 +16,6 @@ b_sao_sebastiao = city
 
 # Misc
 culture = caicara
-religion = anchietican
+religion = charismatic
 
 #History

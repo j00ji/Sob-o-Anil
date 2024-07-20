@@ -24,7 +24,7 @@ e_bahia = {
 				color2={ 255 255 255 }
 				
 				holy_site = apostolic
-				holy_site = anchietican
+				holy_site = charismatic
 				holy_site = camdomble
 				
 				b_rio_branco_3 = {}

@@ -16,6 +16,6 @@ b_mandaguacu = city
 
 # Misc
 culture = kyusei
-religion = anchietican
+religion = charismatic
 
 #History

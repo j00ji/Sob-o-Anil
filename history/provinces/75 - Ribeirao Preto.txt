@@ -16,6 +16,6 @@ b_campos_eliseos = castle
 
 # Misc
 culture = camponeto
-religion = anchietican
+religion = charismatic
 
 #History

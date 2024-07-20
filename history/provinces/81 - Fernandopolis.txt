@@ -16,6 +16,6 @@ b_pedranopolis = city
 
 # Misc
 culture = caipira
-religion = anchietican
+religion = charismatic
 
 #History

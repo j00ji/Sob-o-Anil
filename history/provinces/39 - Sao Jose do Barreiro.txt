@@ -16,6 +16,6 @@ b_bananal = city
 
 # Misc
 culture = mantiqueiro
-religion = renewalist
+religion = charismatic
 
 #History

@@ -16,6 +16,6 @@ b_abarebebe_2 = temple
 
 # Misc
 culture = caicara
-religion = anchietican
+religion = charismatic
 
 #History

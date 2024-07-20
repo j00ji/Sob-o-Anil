@@ -16,6 +16,6 @@ b_santo_antonio_3 = temple
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = charismatic
 
 #History

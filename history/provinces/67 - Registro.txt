@@ -16,6 +16,6 @@ b_sete_barras = temple
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = charismatic
 
 #History

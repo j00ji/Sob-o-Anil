@@ -16,7 +16,7 @@ b_piraquara = castle
 
 # Misc
 culture = paranaense
-religion = anchietican
+religion = charismatic
 terrain = hills
 
 #History

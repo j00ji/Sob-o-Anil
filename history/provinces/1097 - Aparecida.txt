@@ -16,6 +16,6 @@ b_lorena = temple
 
 # Misc
 culture = mantiqueiro
-religion = anchietican
+religion = charismatic
 
 #History

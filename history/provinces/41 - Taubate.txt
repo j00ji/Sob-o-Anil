@@ -16,6 +16,6 @@ b_terra_nova = temple
 
 # Misc
 culture = mantiqueiro
-religion = anchietican
+religion = charismatic
 
 #History

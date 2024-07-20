@@ -16,6 +16,6 @@ b_cambui = temple
 
 # Misc
 culture = paulistano
-religion = anchietican
+religion = charismatic
 
 #History

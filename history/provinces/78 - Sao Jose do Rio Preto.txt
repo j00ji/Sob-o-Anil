@@ -16,6 +16,6 @@ b_talhado = temple
 
 # Misc
 culture = caipira
-religion = anchietican
+religion = charismatic
 
 #History

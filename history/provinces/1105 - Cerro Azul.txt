@@ -16,6 +16,6 @@ b_centro_cerro_azul = castle
 
 # Misc
 culture = paranapanense
-religion = anchietican
+religion = charismatic
 
 #History

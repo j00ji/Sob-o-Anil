@@ -144,27 +144,27 @@ b_ferreira = {
 
 # b_matarazzo = {
 	# culture = paulistano
-	# religion = anchietican
+	# religion = charismatic
 # }
 
 # b_watanabe = {
 	# culture = paulistano
-	# religion = anchietican
+	# religion = charismatic
 # }
 
 # b_crespi = {
 	# culture = paulistano
-	# religion = anchietican
+	# religion = charismatic
 # }
 
 # b_jafet = {
 	# culture = paulistano
-	# religion = anchietican
+	# religion = charismatic
 # }
 
 # b_anhanguera = {
 	# culture = paulistano
-	# religion = anchietican
+	# religion = charismatic
 # }
 
 ## Uapo Açu (São Luís)

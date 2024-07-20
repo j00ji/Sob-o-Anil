@@ -16,6 +16,6 @@ b_ortigueira = temple
 
 # Misc
 culture = paranaense
-religion = anchietican
+religion = charismatic
 
 #History
