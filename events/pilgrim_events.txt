@@ -9,6 +9,8 @@
 
 # Written by Tobias Bodlund
 
+# Edited by J00J
+
 namespace = SoA
 
 # Confirm decision and check religion
@@ -24,14 +26,7 @@ character_event = {
 		has_character_flag = activated_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
-		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_aparecida
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -70,13 +65,8 @@ character_event = {
 			}
 			if = {
 				limit = {
-					OR = {
-						religion = catholic # All Catholic holy places
-						religion = cathar
-						religion = fraticelli
-						religion = waldensian
-						religion = lollard
-					}
+					is_catholic_trigger = yes
+					NOT = { religion = cicerite } #they have their unique Romarias
 				}
 				character_event = { id = SoA.5008 }
 			}

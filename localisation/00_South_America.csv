@@ -1245,3 +1245,21 @@ AMAPA;Amapá;;;;;;;;;;;;;x
 ERA_CHAR_NAME_KLAUS;Klaus de Aguirre;;;;;;;;;;;;;x
 ERA_CHAR_INFO_30018;The story of Klaus de Aguirre is one of madness and folly, a timeless tale of the lush but unforgiving Amazonian jungle. Setting out from Lima with his family and a larger expedition, Klaus was in search of the fabled country of El Dorado. The original leader of the expedition, Gonzalo de Ursúa, wanted to turn back after much of their supplies were lost in an eddy, but Klaus led a mutiny to forge deeper into the Amazon: Cortés won an empire in Mexico by disobeying orders after all! Klaus proved to be an oppressive and terrifying leader, consumed by his mad desire to find El Dorado. After the expedition was destroyed by attacks and starvation, it was whittled down to just him and his daughter. Klaus, driven past the point of madness, decided to abandon his quest to find El Dorado and instead settle down in the Amazon Rainforest with a new goal: conquering all of America and founding an incestuous dynasty to rule over it.;;;;;;;;;;;;;x
 CANAMA;Canama;;;;;;;;;;;;;x
+
+###########Regions###########
+world_south_brazil;South Brazil;;;;;;;;;;;;;x
+world_southeast_brazil;Southeast Brazil;;;;;;;;;;;;;x
+world_centerwest_brazil;Centerwest Brazil;;;;;;;;;;;;;x
+world_bahia;Bahia;;;;;;;;;;;;;x
+world_northeast_brazil;Northeastern Brazil;;;;;;;;;;;;;x
+world_north_brazil;North Brazil;;;;;;;;;;;;;x
+world_chile;Chile;;;;;;;;;;;;;x
+world_patagonia_argentina;Argentinian Patagonia;;;;;;;;;;;;;x
+world_falklands;The Falklands;;;;;;;;;;;;;x
+world_uruguay;Uruguay;;;;;;;;;;;;;x
+world_argentina_plata;Argentinian Plata Basin;;;;;;;;;;;;;x
+world_paraguay;Paraguay;;;;;;;;;;;;;x
+world_interior_argentino;Argentinian Interior;;;;;;;;;;;;;x
+world_bolivia;Bolivia;;;;;;;;;;;;;x
+world_peru;Peru;;;;;;;;;;;;;x
+world_ecuador;Ecuador;;;;;;;;;;;;;x

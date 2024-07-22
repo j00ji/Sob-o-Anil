@@ -1,15 +1,62 @@
 #CULTURAL TRIGGERS
+#Non Native Brazilians
 is_brazilian_trigger = {
 	OR = {
 		culture_group = fluminense_group
 		culture_group = paulista
 		culture_group = mineiro_group
-		culture_group = southern_group
-		culture_group = bahiano
-		culture_group = northeastern_group
-		culture_group = cerradonense
-		culture_group = amazonian_group
+		culture_group = cisplatinean
 		culture_group = teutobrasilianer
+		culture_group = bahiano
+		culture_group = atlanticano
+		culture_group = sertanejo_group
+		culture_group = cerradonense
+		culture_group = meio_norte
+		culture_group = cigano
+		culture_group = nortista_group
+	}
+}
+#Brazilian Natives
+is_brazilian_native_trigger = {
+	OR = {
+		culture_group = amazonian_group
+		culture_group = highlander_group
+		culture_group = northeastern_native
+		culture = kadiweu
+	}
+}
+#hispanoamericano Natives
+is_hispanic_native_trigger = {
+	culture_group = andean_native
+	culture_group = waikurean_group
+	culture_group = ameroaustral
+	culture = guarani
+}
+is_hispanoamerican_trigger = {
+	culture_group = chileno
+	culture_group = interiorano
+	culture_group = patagon
+	culture_group = rioplatense
+	culture_group = boliviano
+	culture_group = costeno
+	culture_group = silvano
+	culture_group = ecuatoriano
+	culture_group = gran_colombian
+}
+is_catholic_trigger = {
+	OR = {
+		religion = catholic
+		religion = charismatic
+		religion = peterite
+		religion = ultramontane
+		religion = orthodoxist
+		religion = liberationist
+		religion = celeste
+		religion = cicerite
+		religion = seladite
+		religion = holy_spirit
+		religion = tridentine
+		religion = mysticalist
 	}
 }
 is_born_in_january_trigger = {

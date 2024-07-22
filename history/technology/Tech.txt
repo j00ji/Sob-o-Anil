@@ -363,6 +363,7 @@ technology={
 		d_lages
 		d_vale_do_iguacu
 		d_nova_rutenia
+		d_campos_gerais
 		d_paranapanema
 		d_corredores_das_aguas
 		d_marilia

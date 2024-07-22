@@ -72,7 +72,7 @@ d_knights_aparecida = {
 	mercenary_type = bandeirante_composition
 }
 
-d_guardians_life = {
+d_knights_immaculata = {
 	color={ 0 81 143 }
 	color2={ 250 190 85 }
 		
