@@ -2218,23 +2218,9 @@
 	}
 	#son of José Mario Balan
 }
-270047={
-	name="Inácio"
-	dynasty=90007 #Amin
-	culture=turco
-	religion=universal
-	trait=flamboyant_schemer
-	trait=greedy
-	trait=diligent
-	2347.1.1={
-		birth=yes
-		culture=greenbelly
-	}
-	2400.1.1={
-		death=yes
-	}
-	#Floripa patrician
-}
+
+# 270047 removed patrician, free ID
+
 ##Fischer Family History
 270048={
 	name="Helmut"
