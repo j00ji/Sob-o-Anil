@@ -8,6 +8,6 @@
 }
 2360.1.1={
 	holder=870005 #João Pascoal
-	liege=none
+	liege=0
 }
 

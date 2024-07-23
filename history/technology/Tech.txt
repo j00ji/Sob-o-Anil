@@ -434,8 +434,6 @@ technology={
 
 technology={
 	titles={
-		d_ararangua
-		d_vale_do_itajai
 		d_paracatu
 		d_alto_medio
 		d_serra_nova

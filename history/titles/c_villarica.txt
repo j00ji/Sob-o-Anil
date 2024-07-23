@@ -4,7 +4,7 @@
 }
 2304.6.16 = {
 	holder = 480014
-	liege = 480001
+	liege = d_araucania
 }
 2330.10.8 = {
 	holder = 480014

@@ -7,6 +7,6 @@
 	#liege=k_sao_francisco
 }
 2364.1.23={
-	liege=none
+	liege=0
 	holder=40047 #Valentim I Caravelas
 }

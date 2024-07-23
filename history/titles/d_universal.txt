@@ -19,5 +19,5 @@
 	holder = 110668 #Davi da Fé | Dynastic change
 }
 2202.6.3 = {
-	holder = none #Davi da Fé dies
+	holder = 0 #Davi da Fé dies
 }

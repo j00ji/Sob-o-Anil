@@ -12,7 +12,7 @@
 2253.7.10 = {
 	holder = 110046 #Fernando Stucchi
 }
-2287.10..12 = {
+2287.10.12 = {
 	holder = 110048 #Rodrigo Stucchi
 }
 2293.5.8 = {

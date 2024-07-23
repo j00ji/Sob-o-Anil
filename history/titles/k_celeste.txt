@@ -7,7 +7,7 @@
 	holder = 270053 #José Maria
 }
 1912.10.22={
-	holder = none
+	holder = 0
 }
 1914.5.1={
 	holder = 270054 #Maria Rosa
@@ -16,5 +16,5 @@
 	holder = 270055 #Adeodato Manuel Ramos
 }
 1916.8.1={
-	holder = none
+	holder = 0
 }

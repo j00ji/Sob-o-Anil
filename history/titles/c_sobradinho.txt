@@ -12,5 +12,5 @@
 }
 2360.5.10 = {
 	holder = 60013
-	liege = none
+	liege = 0
 }

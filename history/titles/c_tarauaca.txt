@@ -8,6 +8,6 @@
 }
 2360.1.1={
 	holder=870004 #Jerusa Petecão
-	liege=none
+	liege=0
 }
 

@@ -100,7 +100,7 @@ e_the_north = {
 				}
 				b_correnteza = {
 				}
-				b_morada_do_sol = {
+				b_morada_do_sol1 = {
 				}
 				b_nova_manaca = {
 				}
@@ -671,7 +671,7 @@ e_the_north = {
 				
 				b_benjamin_constant = {
 				}
-				b_tabatinga = {
+				b_tabatinga2 = {
 				}
 				b_atalaia_do_norte = {
 				}

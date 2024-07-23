@@ -3,5 +3,5 @@
 }
 2320.8.20 = {
 	holder=550001
-	liegek_falkland
+	liege=k_falkland
 }
