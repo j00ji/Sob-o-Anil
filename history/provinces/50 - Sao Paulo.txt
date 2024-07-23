@@ -23,6 +23,6 @@ religion = charismatic
 # 2176.1.1={
 	# capital = b_morumbi
 # }
-# 2213.7.9 = {
-	# capital = b_sao_paulo
-# }
+2213.7.9 = {
+	capital = b_sao_paulo
+}
