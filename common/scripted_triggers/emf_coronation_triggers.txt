@@ -79,7 +79,7 @@ emf_uses_furry_coronation = {
 		religion = catholic
 		AND = {
 			religion = mysticalist
-			NOT = { k_papacy }
+			NOT = { has_landed_title = k_papacy }
 		}
 	}
 	emf_common_coronation_requirements = yes
@@ -92,7 +92,7 @@ emf_uses_native_coronation = {
 			religion = catholic
 			AND = {
 				religion = mysticalist
-				NOT = { k_papacy }
+				NOT = { has_landed_title = k_papacy }
 			}
 		}
 	}
