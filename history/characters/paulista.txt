@@ -6032,21 +6032,21 @@
 }
 
 110307 = {
-	name = "Vital"
-	#7th Count of Campinas
-	dynasty = 55012
-	religion = charismatic
-	culture = paulistano
-	
-	father = 110304 #Graciano Anhanguera
-	
+	name="Vital" #7th Count of Campinas
+	dynasty=55012
+
+	religion=charismatic
+	culture=paulistano
+
+	father=110304 # Graciano Anhanguera
+
 	2333.5.23 = {
-		birth = yes
+		birth="2333.5.23"
 	}
 	2363.5.30 = {
 		death = {
-			death_reason = death_battle
-			killer = 110687 #Rodrigo II Desterro
+			death_reason=death_battle
+			killer=110687 #Rodrigo II Desterro
 		}
 	}
 }
@@ -12111,7 +12111,7 @@
 	2364.3.13 = {
 		death = {
 			death_reason = death_battle
-			killer = 110001 #Alexandre Cantarini
+			killer = 110001 # Alexandre Cantarini
 		}
 	}
 	#Eldest son of Rodrigo I, king of Terra Roxa, continued invasion

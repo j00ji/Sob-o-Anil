@@ -1,0 +1,13 @@
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
+}
+2323.7.15 = {
+	holder=260046 # Geraldo Saporski the White Falcon
+}
+2330.10.10 = {
+	holder=260048 # Adam Saporski
+}
+2368.8.16 = {
+	holder=0 # Régis Lara, Bandeirante conqueror
+}

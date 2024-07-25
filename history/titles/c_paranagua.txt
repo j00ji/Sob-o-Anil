@@ -1,20 +1,18 @@
 # e_the_south
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_parana
 }
-2299.3.20={
-	holder = 260042 #Rafael Guerios duke of Curitiba
+2323.7.15 = {
+	holder=260046 # Geraldo Saporski the White Falcon
+	liege=d_curitiba
 }
-2315.10.9={
-	holder = 260041 #Amélia Guerios
+2330.10.10 = {
+	holder=260048 # Adam Saporski
 }
-2354.11.3={
-	holder = 260050 #Beto Lachowski
-}
-2367.1.1 ={
-	holder = 260052 #Régis Lara, bandeirante conqueror
+2368.8.16 = {
+	holder=260052 # Régis Lara, Bandeirante conqueror
 }

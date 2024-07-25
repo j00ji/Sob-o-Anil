@@ -10,3 +10,6 @@
 	holder=260026 #Jessica Stetiski
 	liege=d_paranapanema
 }
+2368.12.6 = {
+	liege=k_nova_rutenia
+}

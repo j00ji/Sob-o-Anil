@@ -3,7 +3,7 @@
 	liege=k_chile
 }
 2336.5.4 = {
-	holder=230102 # Joaquín López
+	holder=230007 # Joaquín López
 	liege=0
 }
 2337.7.1 = {

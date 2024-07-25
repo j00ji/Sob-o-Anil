@@ -6,7 +6,7 @@ title = c_parinacota
 # Settlements
 max_settlements = 2
 
-b_putre = castle
+b_putre = city
 #b_visviri = city
 #b_socorama = temple
 #b_murmuntani = castle

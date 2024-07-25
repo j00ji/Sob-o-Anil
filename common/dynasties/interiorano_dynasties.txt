@@ -648,6 +648,8 @@
 	name="Nasur"
 	culture=turco
 	religion=catholic
+	can_appear=no
+	used_for_random=no
 }
 305005 = {
 	name="Seineldín"
@@ -660,15 +662,11 @@
 	name="Yoacham"
 	culture=turco
 	religion=catholic
-	can_appear=no
-	used_for_random=no
 }
 305007 = {
 	name="Amat"
 	culture=turco
 	religion=catholic
-	can_appear=no
-	used_for_random=no
 }
 305008 = {
 	name="Mohamed"
@@ -681,8 +679,6 @@
 	name="Sapag"
 	culture=turco
 	religion=catholic
-	can_appear=no
-	used_for_random=no
 }
 305010 = {
 	name="Awada"
@@ -695,8 +691,6 @@
 	name="Yarur"
 	culture=turco
 	religion=catholic
-	can_appear=no
-	used_for_random=no
 }
 305012 = {
 	name="Bitar"

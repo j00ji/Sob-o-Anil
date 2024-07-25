@@ -1,12 +1,12 @@
 # e_the_south
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_santa_catarina
 }
-2338.1.1={
-	holder=270060
-	liege = d_vale_do_itajai
+2338.1.1 = {
+	holder=270060 # Cristian Schroeder
+	liege=d_passo_do_principe
 }

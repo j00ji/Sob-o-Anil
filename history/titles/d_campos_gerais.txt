@@ -1,0 +1,16 @@
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
+}
+800.1.1 = {
+	liege=k_parana
+}
+2323.7.15 = {
+	holder=260001 #Ahnume Guerios
+}
+2365.10.7 = {
+	holder=260040 # Roberto Guerios
+}
+2368.8.16 = {
+	liege=0
+}

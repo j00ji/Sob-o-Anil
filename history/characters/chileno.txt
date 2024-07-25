@@ -1258,7 +1258,7 @@
 ########################
 ### House Lisperguer ###
 ########################
-230100 = {
+240100 = {
 	name="Carlos" # Carlos Lisperguer, Duke of Choapa.
 	dynasty=150025
 
@@ -1289,7 +1289,7 @@
 		add_trait="ambitious"
 	}
 	2324.6.13 = {
-		add_spouse=230103 # María Ríos
+		add_spouse=240103 # María Ríos
 	}
 	2345.4.13 = {
 		death = {
@@ -1298,7 +1298,7 @@
 		}
 	}
 }
-230103 = {
+240103 = {
 	name="María" # María Ríos, wife of Carlos Lisperguer.
 	dynasty=150031
 	female=yes
@@ -1353,8 +1353,8 @@
 	add_trait="fair"
 	add_trait="quick"
 	
-	father=230100 # Carlos Lisperguer
-	mother=230103 # María Ríos
+	father=240100 # Carlos Lisperguer
+	mother=240103 # María Ríos
 
 	2325.10.31 = {
 		birth="2325.10.31"
@@ -2094,7 +2094,7 @@
 	2350.11.6 = {
 		add_spouse=230050 # Rosa Larraín
 	}
-	2368.9.18 = {
+	2369.9.18 = {
 		employer=230003 # Diego Bartales
 	}
 }
@@ -2278,7 +2278,7 @@
 230059 = {
 	name="Daniel" # Daniel Camiroaga the White Falcon, Duke of O'Higgins.
 	dynasty=145020
-	dna="agif00ga0b0"
+	dna="agif000a0a0"
 	properties="0s00ek"
 
 	diplomacy = 1
@@ -2327,7 +2327,7 @@
 	}
 }
 230060 = {
-	name="María" # María Aguirre, wife of Daniel Camiroaga.
+	name="María" # María Jiménez, wife of Daniel Camiroaga.
 	dynasty=145033
 	female=yes
 
@@ -2359,7 +2359,7 @@
 230013 = {
 	name="Felipe" # Felipe Camiroaga, Duke of O'Higgins.
 	dynasty=145020
-	dna="agi000ba0b0"
+	dna="agif000a0a0"
 	properties="0g00ek"
 
 	diplomacy = 2
@@ -2389,9 +2389,9 @@
 		add_trait="gregarious"
 		add_trait="zealous"
 		add_trait="falconer"
-		add_spouse=230062 # Claudia Contreras
+		add_spouse=240004 # Claudia Contreras
 		effect = {
-			add_lover=230062 # Claudia Contreras
+			add_lover=240004 # Claudia Contreras
 			add_friend=230086 # Marcelo Salas
 		}
 	}
@@ -2400,7 +2400,7 @@
 	name="Francisca" # Francisca Camiroaga the Falcon Queen, wife of Diego Bartales and Queen of Chile.
 	dynasty=145020
 	female=yes
-	dna="b0dgc0cc0d0"
+	dna="b0dgc0cc0b0"
 	properties="0r000k"
 
 	diplomacy = 1
@@ -2439,9 +2439,11 @@
 230063 = {
 	name="Benjamín" # Benjamín Camiroaga.
 	dynasty=145020
+	dna="agif000a0a0"
+	properties="0d00ek"
 
 	diplomacy = 2
-	martial = 6
+	martial = 10
 	stewardship = 4
 	intrigue = 3
 	learning = 5
@@ -2454,8 +2456,8 @@
 	disallow_random_traits = yes
 
 	father=230013 # Felipe Camiroaga
-	mother=230062 # Claudia Contreras
-
+	mother=240004 # Claudia Contreras
+	
 	2350.8.3 = {
 		birth="2350.8.3"
 	}
@@ -2470,8 +2472,11 @@
 		add_trait="zealous"
 		add_trait="falconer"
 	}
-	2369.9.2 = {
-		add_spouse=230088 # Catalina Salas
+	2369.9.1 = {
+		add_spouse=230031 # Isabel Edwards
+	}
+	2369.9.18 = {
+		employer=230003 # Diego Bartales
 	}
 }
 230064 = {
@@ -2492,7 +2497,7 @@
 	add_trait="fair"
 
 	father=230013 # Felipe Camiroaga
-	mother=230062 # Claudia Contreras
+	mother=240004 # Claudia Contreras
 
 	2352.9.12 = {
 		birth="2352.9.12"
@@ -2629,7 +2634,7 @@
 230003 = {
 	name="Diego" # Diego Bartales the Sword of the Pacific, King of Chile.
 	dynasty=145001
-	dna="aaafg00ace0"
+	dna="aaafh0bace0"
 	properties="0t00ek0000000000000000000a"
 
 	diplomacy = 9
@@ -2703,6 +2708,18 @@
 			c_230028 = { # Jorge Edwards
 				give_job_title = job_treasurer
 			}
+			c_230016 = { # Gustavo Bonvallet
+				give_job_title = job_spymaster
+			}
+			c_230087 = { # Benjamín Salas
+				give_minor_title = title_commander
+			}
+			c_230063 = { # Benjamín Camiroaga
+				give_minor_title = title_commander
+			}
+			c_240063 = { # Miguel Pincheira
+				give_minor_title = title_commander
+			}
 		}
 	}
 }
@@ -2756,7 +2773,7 @@
 230005 = {
 	name="Benjamín" # Benjamín Bartales.
 	dynasty=145001
-	dna="adafc0gace0"
+	dna="aaaf00bace0"
 	properties="0t000k0a"
 
 	diplomacy = 8
@@ -2797,11 +2814,53 @@
 			add_friend=230004 # Severio Solnuevo
 		}
 	}
+	2369.9.18 = {
+		effect = {
+			add_friend=230063 # Benjamín Camiroaga
+			add_friend=230087 # Benjamín Salas
+		}
+	}
 }
 ################################
 ### House Bartales Household ###
 ################################
-230007 = {
+230008 = {
+	name="Ace" # Ace Halstedom.
+	dynasty=145042
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+
+	culture=german
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	2328.4.28 = {
+		birth="2328.4.28"
+		culture=centrino
+	}
+	2344.4.28 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="duelist"
+		add_trait="mystic"
+	}
+	2369.4.28 = {
+		death="2369.4.28"
+	}
+}
+230009 = {
 	name="Ghat" # Ghat Halstedom.
 	dynasty=145042
 	dna="b0fid0ea0e0"
@@ -2820,6 +2879,8 @@
 
 	disallow_random_traits = yes
 
+	father=230008 # Ace Halstedom
+
 	2348.4.21 = {
 		birth="2348.4.21"
 		culture=centrino
@@ -2836,16 +2897,58 @@
 		employer=230001 # Benjamín Bartales
 	}
 	2369.4.21 = {
-		add_spouse=230008 # Daedra
+		add_spouse=230014 # Deadra
 		effect = {
-			add_lover=230008 # Daedra
+			add_lover=230014 # Deadra
 		}
 	}
 	2369.9.18 = {
 		employer=230003 # Diego Bartales
 	}
 }
-230008 = {
+230010 = {
+	name="Rimat" # Rimat Halstedom.
+	dynasty=145042
+	female=yes
+	dna="bhheg0da0c0"
+	properties="0t0f0k"
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+
+	culture=german
+	religion=catholic
+
+	add_trait="strong"
+
+	disallow_random_traits = yes
+
+	father=230008 # Ace Halstedom
+
+	2348.7.26 = {
+		birth="2348.7.26"
+		culture=centrino
+	}
+	2364.7.26 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="duelist"
+		employer=230001 # Benjamín Bartales
+	}
+	2369.9.18 = {
+		employer=230003 # Diego Bartales
+	}
+}
+230014 = {
 	name="Daedra" # Daedra, wife of Ghat Halstedom.
 	female=yes
 	dna="bhhee0ea0b0"
@@ -2877,7 +2980,7 @@
 		add_trait="trusting"
 	}
 }
-230009 = {
+230015 = {
 	name="Metamoq" # Metamoq Corwid.
 	dynasty=145043
 	
@@ -2912,14 +3015,44 @@
 	2368.4.21 = {
 		death = {
 			death_reason=death_duel
-			killer=230007 # Ghat Halstedom
+			killer=230009 # Ghat Halstedom
 		}
+	}
+}
+230016 = {
+	name="Gustavo" # Gustavo Bonvallet.
+	dynasty=145044
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 4
+	intrigue = 2
+	learning = 5
+
+	culture=centrino
+	religion=catholic
+
+	add_trait="quick"
+
+	2339.1.13 = {
+		birth="2339.1.13"
+	}
+	2355.1.13 = {
+		add_trait="intricate_webweaver"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="cynical"
+	}
+	2369.9.18 = {
+		employer=230003 # Diego Bartales
 	}
 }
 ##############################
 ### House Bartales History ###
 ##############################
-230101 = {
+230006 = {
 	name="Miguel" # Miguel Neira the Beast, Count of Cordillera.
 	dynasty=145041
 	dna="0a0d00ib000"
@@ -2970,7 +3103,7 @@
 		}
 	}
 }
-230102 = {
+230007 = {
 	name="Joaquín" # Joaquín López the Bandido, Count of Melipilla.
 	dynasty=145007
 
@@ -3106,7 +3239,7 @@
 230086 = {
 	name="Marcelo" # Marcelo Salas, Duke of Valparaiso.
 	dynasty=145036
-	dna="adc0d0ga000"
+	dna="adcfd0ga000"
 	properties="0d0a0k"
 
 	diplomacy = 5
@@ -3190,6 +3323,9 @@
 		add_trait="zealous"
 		add_trait="duelist"
 	}
+	2369.9.18 = {
+		employer=230003 # Diego Bartales
+	}
 	2369.11.1 = {
 		add_spouse=230064 # Claudia Camiroaga
 	}
@@ -3233,7 +3369,7 @@
 ##################
 ### Patriarchs ###
 ##################
-230006 = {
+230100 = {
 	name="Juan" # Juan Hurtado, Patriarch of Chile.
 	dynasty=145012
 
@@ -3266,29 +3402,23 @@
 	name="Tulio" # Tulio Triviño, Count of Cardenal Caro.
 	dynasty=150016
 
-	martial=3
-	diplomacy=2
-	stewardship=6
-	intrigue=4
-	learning=3
+	diplomacy = 2
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 3
 
 	culture=huaso
 	religion=catholic
 
-	trait=humble
-	trait=envious
-	trait=lustful
-	trait=robust
-	trait=fortune_builder
-
-	2300.3.15={
-		birth=yes
+	2313.3.15 = {
+		birth="2313.3.15"
 	}
-	2335.5.10={
-		add_spouse=240019
+	2333.5.10 = {
+		add_spouse=240019 # Vespertina Tufillo
 	}
-	2360.6.9={
-		death=yes
+	2360.6.9 = {
+		death="2360.6.9"
 	}
 }
 240019 = {
@@ -3296,25 +3426,20 @@
 	dynasty=150019
 	female=yes
 
-	martial=3
-	diplomacy=3
-	stewardship=5
-	intrigue=4
-	learning=6
+	diplomacy = 3
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 6
 
 	culture=huaso
 	religion=catholic
 
-	trait=diligent
-	trait=wroth
-	trait=paranoid
-	trait=thrifty_clerk
-
-	2313.8.21={
-		birth=yes
+	2313.8.21 = {
+		birth="2313.8.21"
 	}
-	2386.9.22={
-		death=yes
+	2361.9.6 = {
+		death="2361.9.6"
 	}
 }
 ### Issue of Tulio ###
@@ -3331,13 +3456,13 @@
 	culture=huaso
 	religion=catholic
 
-	father=240018
-	mother=240019
+	father=240018 # Tulio Triviño
+	mother=240019 # Vespertina Tufillo
 
-	2336.8.21 = {
-		birth="2336.8.21"
+	2334.8.21 = {
+		birth="2334.8.21"
 	}
-	2352.8.21 = {
+	2350.8.21 = {
 		add_trait="flamboyant_schemer"
 		add_trait="proud"
 		add_trait="envious"
@@ -3349,6 +3474,93 @@
 			add_friend=240121 # Juan Carlos Bodoque
 		}
 	}
+	2351.3.18 = {
+		add_spouse=240021 # Cindy Miraflores
+	}
+}
+240021 = {
+	name="Cindy" # Cindy Miraflores, wife of Tulio Triviño.
+	dynasty=150040
+	female=yes
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 3
+	intrigue = 1
+	learning = 3
+
+	culture=huaso
+	religion=catholic
+
+	2334.3.20 = {
+		birth="2334.3.20"
+	}
+	2350.3.20 = {
+		add_trait="underhanded_rogue"
+		add_trait="proud"
+		add_trait="envious"
+		add_trait="gregarious"
+		add_trait="arbitrary"
+		add_trait="groomed"
+	}
+}
+### Issue of Tulio ###
+240022 = {
+	name="Patricia Ana" # Patricia Ana Triviño.
+	dynasty=150016
+	female=yes
+
+	diplomacy = 5
+	martial = 1
+	stewardship = 5
+	intrigue = 1
+	learning = 5
+
+	culture=huaso
+	religion=catholic
+
+	father=240020 # Tulio Triviño
+	mother=240021 # Cindy Miraflores
+
+	2353.5.31 = {
+		birth="2353.5.31"
+	}
+	2369.5.31 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="trusting"
+		add_trait="groomed"
+	}
+	2369.7.5 = {
+		add_matrilineal_spouse=240023 # Ernesto Felipe Mario Hugo
+	}
+}
+240023 = {
+	name="Ernesto Felipe Mario" # Ernesto Felipe Mario Hugo, husband of Patricia Ana Triviño.
+	dynasty=150041
+
+	diplomacy = 3
+	martial = 1
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+
+	culture=huaso
+	religion=catholic
+
+	2353.3.29 = {
+		birth="2353.3.29"
+	}
+	2369.3.29 = {
+		add_trait="underhanded_rogue"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="envious"
+		add_trait="gregarious"
+		add_trait="trusting"
+	}
 }
 ###############################
 ### House Triviño Household ###
@@ -3359,7 +3571,7 @@
 
 	diplomacy = 3
 	martial = 1
-	stewardship = 10
+	stewardship = 5
 	intrigue = 2
 	learning = 6
 
@@ -3450,7 +3662,7 @@
 		add_trait="duelist"
 	}
 	2332.5.5 = {
-		add_spouse=240050 # Luisa Llanos
+		add_spouse=240003 # Luisa Fernández
 	}
 	2335.10.5 = {
 		add_trait="scarred_mid"
@@ -3464,8 +3676,8 @@
 		}
 	}
 }
-240050 = {
-	name="Luisa" # Luisa Llanos, wife of Francisco Contreras.
+240003 = {
+	name="Luisa" # Luisa Fernández, wife of Francisco Contreras.
 	dynasty=150034
 	female=yes
 
@@ -3494,7 +3706,7 @@
 	}
 }
 ### Issue of Francisco the Huaso ###
-230062 = {
+240004 = {
 	name="Claudia" # Claudia Contreras, wife of Felipe Camiroaga.
 	dynasty=150002
 	female=yes
@@ -3509,7 +3721,7 @@
 	religion=catholic
 
 	father=240002 # Francisco Contreras
-	mother=240050 # Luisa Llanos
+	mother=240003 # Luisa Fernández
 
 	2333.5.11 = {
 		birth="2333.5.11"
@@ -4165,7 +4377,7 @@
 	2364.7.5 = {
 		add_trait="crusader"
 	}
-	2368.9.18 = {
+	2369.9.18 = {
 		employer=230003 # Diego Bartales
 	}
 }
@@ -4253,7 +4465,8 @@
 240012 = {
 	name="Carlos" # Carlos Lara the Roto, Duke of Maule.
 	dynasty=150010
-	
+	dna="aag0b0g0000"
+	properties="0d0bck0000000000000000000b"
 
 	diplomacy = 7
 	martial = 1
@@ -4286,7 +4499,7 @@
 	}
 	2355.6.16 = {
 		add_trait="scarred_mid"
-		add_trait="scarred_type_3"
+		add_trait="scarred_type_2"
 		give_nickname=nick_the_roto
 	}
 }

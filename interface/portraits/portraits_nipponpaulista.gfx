@@ -1,7 +1,8 @@
-# hair, mouth, chin, nose, eyes, cheek, ear, neck
+#######################
+### Nippon-Paulista ###
+#######################
+
 spriteTypes = {
-	
-############## chinese ##########################
 
 	spriteType = {
 		name = "PORTRAIT_nipponpaulistagfx_child_male"
@@ -16,12 +17,10 @@ spriteTypes = {
 		noOfFrames = 1
 		norefcount = yes
 	}
-	
-	### nippon paulista ####
-	
-	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
-	# chinese Male
+### Male ###
+
+	# Young
 	portraitType = {
 		name = "PORTRAIT_nipponpaulistagfx_male"
 		effectFile = "gfx/FX/portrait.lua"
@@ -76,25 +75,22 @@ spriteTypes = {
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
-
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			
 			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
 			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
 		}
-
 		eye_color_index = 9
 		eye_color = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 30 22 16 } #Super Dark Brown
 		}
-
 		headgear_that_hides_hair = { 12 13 }
 	}
-	
-	# middle age
+
+	# Middle Age
 	portraitType = {
 		name = "PORTRAIT_nipponpaulistagfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
@@ -149,25 +145,22 @@ spriteTypes = {
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
-
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			
 			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
 			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
 		}
-
 		eye_color_index = 9
 		eye_color = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 30 22 16 } #Super Dark Brown
 		}
-
 		headgear_that_hides_hair = { 12 13 }
 	}
-	
-	# old age
+
+	# Old Age
 	portraitType = {
 		name = "PORTRAIT_nipponpaulistagfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
@@ -222,29 +215,24 @@ spriteTypes = {
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
-
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			
 			{ 10 10 10 } { 165 165 165 } { 255 255 255 } #Was black, turned grayish
 			{ 35 35 35 } { 195 195 195 } { 255 255 255 } #Was black, turned white
 		}
-
 		eye_color_index = 9
 		eye_color = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 30 22 16 } #Super Dark Brown
 		}
-
 		headgear_that_hides_hair = { 12 13 }
 	}
 
-#### Nippon Paulista Female ####
-	
-	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear, 6 = headgear_behind_hairlayer, 7 = headgear_hairlayer
+### Female ###
 
-	# nippon paulista female
+	# Young
 	portraitType = {
 		name = "PORTRAIT_nipponpaulistagfx_female"
 		effectFile = "gfx/FX/portrait.lua"
@@ -304,25 +292,21 @@ spriteTypes = {
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
-
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
 			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
 		}
-
 		eye_color_index = 9
 		eye_color = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 30 22 16 } #Super Dark Brown
 		}
-
 		headgear_that_hides_hair = { 12 13 }
 	}
 
-	# chinese female midage
+	# Middle Age
 	portraitType = {
 		name = "PORTRAIT_nipponpaulistagfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
@@ -385,25 +369,21 @@ spriteTypes = {
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
-
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } { 50 50 50 } { 255 255 255 } #Black and turns grayish
 			{ 10 10 10 } { 51 49 48 } { 255 255 255 } #Black but eventually turns white
 		}
-
 		eye_color_index = 9
 		eye_color = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 30 22 16 } #Super Dark Brown
 		}
-
 		headgear_that_hides_hair = { 12 13 }
 	}
 
-	# chinese female oldage
+	# Old Age
 	portraitType = {
 		name = "PORTRAIT_nipponpaulistagfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
@@ -466,21 +446,17 @@ spriteTypes = {
 			"GFX_character_imprisoned:p6"
 			"GFX_player_overlay:p11"
 		}
-
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } { 165 165 165 } { 255 255 255 } #Was black, turned grayish
 			{ 35 35 35 } { 195 195 195 } { 255 255 255 } #Was black, turned white
 		}
-		
 		eye_color_index = 9
 		eye_color = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 30 22 16 } #Super Dark Brown
 		}
-
 		headgear_that_hides_hair = { 12 13 }
 	}
 }

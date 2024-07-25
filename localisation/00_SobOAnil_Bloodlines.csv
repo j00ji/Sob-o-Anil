@@ -3,8 +3,8 @@
 ##################
 belchioringian;Blood of Belchior the Great;;;;;;;;;;;;;x
 belchioringian_desc;A brilliant statesmen and warrior, he revolted against the Salvadorense overlords, founding his own Empire in most of the Northeast.;;;;;;;;;;;;;x
-ghassanid;Blood of the Ghassanids;;;;;;;;;;;;;x
-ghassanid_desc;A descendant of the legendary Ghassanid family who ruled over the Holy Land and defended it from moorish heathens.;;;;;;;;;;;;;x
+bloodline_ghassanid;Blood of the Ghassanids;;;;;;;;;;;;;x
+bloodline_ghassanid_desc;Carlos Guerios, a skilled statesman descended from the Ghassanids, a legendary Arab Christian pre-Event family, helped Geralt Saporski in unifying Curitiba and the rest of Paraná with his diplomacy.;;;;;;;;;;;;;x
 sarney;Blood of Sir Ney;;;;;;;;;;;;;x
 sarney_desc;A legendary pre-event ruler of Maranhão, who is said to have united and conquered all of Brazil.;;;;;;;;;;;;;x
 lampiao;Blood of Lampião;;;;;;;;;;;;;x
@@ -31,3 +31,7 @@ bloodline_pendragon;Blood of the Pendragon;;;;;;;;;;;;;x
 bloodline_pendragon_desc;Arthur Pendragon successfully led a rebellion against Falklander Pirate Edward Cochrane, driving them out of Y Wladfa and reclaiming it for his own House.;;;;;;;;;;;;;x
 bloodline_sea_wolf;Blood of the Sea Wolf;;;;;;;;;;;;;x
 bloodline_sea_wolf_desc;Jack Cochrane united the Falkland Islands and led a series of raids and conquests alongside his family, although many were short-lived.;;;;;;;;;;;;;x
+bloodline_white_eagle;Blood of the White Eagle;;;;;;;;;;;;;x
+bloodline_white_eagle_desc;Geralt Saporski conquered the city of Curitiba and unified the Catholic Polacks and Orthodox Ukrainians by marrying his wife Olga Beruski.;;;;;;;;;;;;;x
+bloodline_red_eagle;Blood of the Red Eagle;;;;;;;;;;;;;x
+bloodline_red_eagle_desc;Richard Fischer conquered the cities of Blumenao, Florianópolis, Lages and Chapecó, declaring himself King of Santa Catarina.;;;;;;;;;;;;;x

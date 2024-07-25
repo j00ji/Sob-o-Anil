@@ -1,27 +1,405 @@
-#ÄNSI
-260001={ # Anhume Guerios, ancestral da família Guerios em Curitiba.
-    name="Anhume"
-    dynasty=85002
-    culture=arabic
-    religion=orthodoxist
-    dna="aehd00gbid0"
-    properties="rn0cmk000000000000000000000000000000"
-    trait=brilliant_strategist
-    trait=ambitious
-    trait=proud
-	2205.1.1={
-		birth=yes
-		culture=paranaense
+########################
+### Estado do Paraná ###
+########################
+######################
+### House Saporski ###
+######################
+260046 = {
+	name="Geraldo" # Geraldo Saporski the White Falcon, King of New Galicia.
+	dynasty=85001
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 4
+
+	culture=paranaense
+	religion=charismatic
+
+	disallow_random_traits = yes
+
+	2301.10.26 = {
+		birth="2301.10.26"
+	}
+	2317.10.26 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="strategist"
+	}
+	2319.5.15 = {
+		add_spouse=260047 # Elena Beruski
+	}
+	2323.7.15 = {
+		give_nickname=nick_the_white_eagle
 		create_bloodline = {
-			type = ghassanid
+			type = bloodline_white_eagle
 			has_dlc = "Holy Fury"
 		}
 	}
-    2252.12.25={
-        death=yes
-    }
-    # Conde de Curitiba e Lapa, conhecido por sua habilidade diplomática e liderança firme.
+	2330.10.10 = {
+		death = {
+			death_reason=death_battle # Battle of Chapecó
+			killer=270016 # Richard Fischer
+		}
+	}
 }
+260047 = {
+	name="Elena" # Elena Beruski, Queen of New Galicia.
+	dynasty=85005
+	female=yes
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 4
+
+	culture=paranaense
+	religion=orthodoxist
+
+	2301.7.11 = {
+		birth="2301.7.11"
+	}
+	2317.7.11 = {
+		add_trait="mastermind_theologian"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="scholar"
+	}
+	2365.4.4 = {
+		death="2365.4.4"
+	}
+}
+### Issue of Geraldo the White Eagle ###
+260048 = {
+	name="Adão" # Adão Saporski the Avenger, King of New Galicia.
+	dynasty=85001
+
+	culture=paranaense
+	religion=charismatic
+
+	disallow_random_traits = yes
+
+	father=260046 # Geraldo Saporski
+	mother=260047 # Elena Beruski
+
+	2320.5.17 = {
+		birth="2320.5.17"
+	}
+	2336.5.17 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="ambitious"
+		add_trait="strategist"
+	}
+	2337.5.6 = {
+		give_nickname=nick_the_avenger
+	}
+	2342.4.8 = {
+		add_spouse=260041 # Cristina Guerios
+	}
+	2368.8.16 = {
+		death = {
+			death_reason=death_battle # Battle of Curitiba
+			killer=270017 # Emil Fischer
+		}
+	}
+}
+### Issue of Adão the Avenger ###
+260049 = {
+	name="Geraldo" # Geraldo Saporski.
+	dynasty=85001
+
+	culture=paranaense
+	religion=charismatic
+
+	disallow_random_traits = yes
+
+	father=260048 # Adam Saporski
+	mother=260041 # Cristina Guerios
+
+	2343.5.19 = {
+		birth="2343.5.19"
+	}
+	2359.5.19 = {
+		add_trait="brilliant_strategist"
+		add_trait="experimenter"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+		add_trait="strategist"
+	}
+	2363.4.10 = {
+		add_spouse=260012 # Olga Novak
+	}
+	2368.8.16 = {
+		death = {
+			death_reason=death_battle # Battle of Curitiba
+			killer=270017 # Emil Fischer
+		}
+	}
+}
+260044 = {
+	name="Beto" # Beto Lachowski, King of Nova Rutenia.
+	dynasty=85006
+
+	culture=rutenio
+	religion=orthodoxist
+
+	father=260048 # Adão Saporski
+
+	add_trait="bastard"
+	add_trait="fair"
+
+	2344.5.13 = {
+		birth="2344.5.13"
+	}
+	2360.5.13 = {
+		add_trait="charismatic_negotiator"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="temperate"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="groomed"
+	}
+}
+260045 = {
+	name="Elena" # Elena Saporski.
+    dynasty=85001
+	female=yes
+
+    culture=paranaense
+	religion=charismatic
+
+	father=260048 # Adão Saporski
+	mother=260041 # Cristina Guerios
+
+	2345.10.13 = {
+		birth="2345.10.13"
+	}
+}
+260050 = {
+	name="Cirilla" # Cirilla Saporski.
+	dynasty=85001
+	female=yes
+
+	culture=paranaense
+	religion=charismatic
+
+	father=260048 # Adão Saporski
+	mother=260041 # Cristina Guerios
+
+	2347.5.31 = {
+		birth="2347.5.31"
+	}
+}
+260051 = {
+	name="Edmundo" # Edmundo Saporski.
+	dynasty=85001
+
+	culture=paranaense
+	religion=charismatic
+
+	disallow_random_traits = yes
+
+	father=260048 # Adão Saporski
+	mother=260041 # Cristina Guerios
+
+	2349.12.10 = {
+		birth="2349.12.10"
+	}
+	2365.12.10 = {
+		add_trait="skilled_tactician"
+		add_trait="organizer"
+		add_trait="inspiring_leader"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="patient"
+		add_trait="proud"
+		add_trait="just"
+		add_trait="gregarious"
+	}
+	2368.8.16 = {
+		add_trait="scarred_mid"
+		add_trait="scarred_type_1"
+	}
+}
+260012 = {
+	name="Olga" # Olga Novak, wife of Geraldo Saporski.
+	dynasty=110007
+	female=yes
+
+	culture=paranaense
+	religion=charismatic
+
+	2343.6.7 = {
+		birth="2343.6.7"
+	}
+	2368.8.16 = {
+		death = {
+			death_reason=death_execution # Battle of Curitiba
+			killer=260052 # Régis Lara
+		}
+	}
+}
+### Issue of Geraldo ###
+260011 = {
+	name="Adão" # Adão Saporski.
+	dynasty=85001
+
+	culture=paranaense
+	religion=charismatic
+
+	father=260049 # Geraldo Saporski
+	mother=260012 # Olga Novak
+
+	2364.1.19 = {
+		birth="2364.1.19"
+	}
+	2368.8.16 = {
+		death = {
+			death_reason=death_execution # Battle of Curitiba
+			killer=260052 # Régis Lara
+		}
+	}
+}
+#####################
+### House Guerios ###
+#####################
+260001 = {
+	name="Carlos" # Carlos Guerios, Duke of Campos Gerais.
+	dynasty=85002
+
+	culture=turco
+	religion=orthodoxist
+
+	2300.9.29 = {
+		birth="2300.9.29"
+		culture=paranaense
+	}
+	2316.9.29 = {
+		add_trait="grey_eminence"
+		add_trait="socializer"
+	}
+	2323.7.15 = {
+		create_bloodline = {
+			type = bloodline_ghassanid
+			has_dlc = "Holy Fury"
+		}
+	}
+	2365.10.7 = {
+		death="2365.10.7"
+	}
+}
+### Issue of Carlos ###
+260040 = {
+	name="Roberto" # Roberto Guerios, Duke of Campos Gerais.
+	dynasty=85002
+
+	culture=turco
+	religion=orthodoxist
+
+	father=260001 # Carlos Guerios
+
+    2319.4.5 = {
+        birth=yes
+		culture=paranaense
+    }
+}
+260041 = {
+    name="Cristina" # Cristina Guerios, Queen of Paraná.
+    dynasty=85002
+    female=yes
+
+    culture=turco
+    religion=orthodoxist
+
+	father=260001 # Carlos Guerios
+
+    2321.5.10 = {
+        birth=yes
+		culture=paranaense
+    }
+	2368.8.16 = {
+		death = {
+			death_reason=death_execution # Battle of Curitiba
+			killer=260052 # Régis Lara
+		}
+	}
+}
+### Issue of Roberto ###
+260042 = {
+    name="Rafael"
+    dynasty=85002
+
+	culture=turco
+	religion=orthodoxist
+
+	father=260040 # Roberto Guerios
+
+    2340.3.14 = {
+        birth=yes
+		culture=paranaense
+    }
+}
+260043 = {
+    name="Maria"
+    dynasty=85002
+	female=yes
+
+    culture=turco
+    religion=orthodoxist
+
+	father=260040 # Roberto Guerios
+
+    2342.1.1 = {
+        birth=yes
+		culture=paranaense
+    }
+}
+######################
+### House Albrecht ###
+######################
+290031 = {
+	name="Frederico" # Frederico Albrecht, Count of Lapa and Rio Negro.
+	dynasty=100008
+
+	culture=hunsruckisch
+	religion=charismatic
+
+	2301.5.19 = {
+		birth="2301.5.19"
+	}
+}
+
 260002={
 	name="Jackson"
 	dynasty=85003 #Leão
@@ -226,48 +604,8 @@
 	}
 	#current holder of the Seminary Teachers, rules over Toledo vassal of Omar
 }
-260011={
-	name="Alessandro"
-	dynasty=110006 #Fagundes
-	culture=paranaense
-	religion=celeste
-	trait=skilled_tactician
-	trait=diligent
-	trait=patient
-	trait=is_fat
-	diplomacy=12
-	martial=11
-	stewardship=9
-	intrigue=6
-	learning=8
-	2329.1.1={
-		birth=yes
-	}
-	2360.1.1={
-		add_spouse=260012
-	}
-	2400.1.1={
-		death=yes
-	}
-	#ruler of Cascavel and Campo Mourão
-}
-260012={
-	name="Leda"
-	dynasty=110007 #Novak
-	female=yes
-	culture=paranaense
-	religion=celeste
-	trait=detached_priest
-	trait=chaste
-	trait=kind	
-	2330.1.1={
-		birth=yes
-	}
-	2400.1.1={
-		death=yes
-	}
-	#wife of Alessandro Fagundes
-}
+
+
 260013={
 	name="Giuseppe" #Father of Letícia Dalló
 	dynasty=90011 #Dalló
@@ -860,341 +1198,110 @@
 		death = yes
 	}
 }
-
-260040 = { #Lucas Guerios, from the main branch count of Curitiba
-    name="Lucas"
-	father = 260001
-    dynasty = 85002 
-    culture = arabic
-    religion = orthodoxist
-    dna = "aejd30gkjd0"
-    properties = "mn1vkj000000000000000000000000000000"
-    trait =ambitious
-    trait =quick
-    trait =cynical
-    trait =stubborn
-    2240.4.5={
-        birth=yes
-		culture = paranaense
-    }
-    2260.5.1={
-        #add_spouse=
-    }
-    2299.3.20={
-        death=yes
-    }
-}
-
-260041 = { # Amélia Guerios, a última herdeira do ramo principal dos Guerios.
-    name="Amélia"
-	father = 260040
-    dynasty = 85002 #guerios
-    female = yes
-    culture = arabic
-    religion = orthodoxist
-    dna = "aehd00gbid0"
-    properties = "rn0cmk000000000000000000000000000000"
-	trait = quick
-    trait = ambitious
-    trait = kind
-    2290.5.10 = {
-        birth = yes
-		culture = paranaense
-    }
-    2354.11.3={
-        death = yes
-    }
-}
-
-260042 = { # Rafael Guerios,Amelia's Brother briefly ruled as duke of Curitiba before death
-    name="Rafael"
-    father=260040 # Lucas Guerios
-    dynasty=85002 # Guerios
-    culture=arabic
-    religion=orthodoxist
-    dna="aejd30gkjd5"
-    properties="mn1vkl000000000000000000000000000000"
-    trait=brave
-    trait=gregarious
-    trait=just
-    2285.3.14={
-        birth=yes
-		culture = paranaense
-    }
-    2310.7.20={
-        #add_spouse=
-    }
-    2315.10.9={
-        death={
-			death_reason = death_battle
-		}
-    }
-}
-
-# Márcio Guerios, líder do ramo secundário e Conde de Ponta Grossa.
-260043 = {
-    name="Márcio"
-    dynasty=85002
-    culture=arabic
-    religion=orthodoxist
-	father = 260001
-    dna="bafdh00aad0"
-    properties="rn0cmk000000000000000000000000000000"
-    2244.1.1={
-        birth=yes
-		culture = paranaense
-    }
-    2330.6.17={
-        death=yes
-    }
-}
-
-#count of ponta grossa after Márcio
-260044 = {
-	name = "Sérgio"
-    dynasty=85002
-    culture=arabic
-    religion=orthodoxist
-	father = 260043
-	
-	2297.1.1={
-		birth = yes
-		culture = paranaense
-	}
-	2367.1.1={
-		death = yes
-	}
-}
-
-#current count of ponta grossa
-260045 = {
-	name = "Alberto"
-	dynasty = 85002
-	culture	 = arabic
-	religion = orthodoxist
-	father = 260043
-	trait=diligent
-    trait=ambitious
-    trait=patient
-    trait=intricate_webweaver
-	
-	2329.1.1={
-		birth = yes
-		culture = paranaense
-	}
-	2400.1.1={
-		death = yes
-	}
-}
-
-#Saporski family
-
-260046={
-	name="Vilmar"
-	dynasty=85005 #Saporski
-	dna="bkacdcmolca"
-	culture=paranaense
-	religion=charismatic
-	martial=5
-	diplomacy=6
-	stewardship=6
-	intrigue=4
-	learning=4
-	trait=brilliant_strategist
-	trait=impaler
-	trait=just
-	trait=kind
-	trait=honest
-	trait=depressed
-	2221.12.10={birth=yes}
-	#2244.6.26 = {add_spouse=}
-	2280.3.18={death=yes}
-}
-
-260047={
-	name="Nestor"
-	dynasty=85005 #Saporski
-	dna="pekcacdolca"
-	culture=paranaense
-	religion=charismatic
-	father=260046
-	martial=4
-	diplomacy=4
-	stewardship=4
-	intrigue=6
-	learning=3
-	trait=underhanded_rogue
-	trait=diligent
-	trait=charitable
-	trait=content
-	trait=deceitful
-	2247.9.18={birth=yes}
-	2303.10.31={death=yes}
-}
-
-260048={
-	name="Leandro"
-	dynasty=85005 #Saporski
-	dna="bnajdcbmhpo"
-	culture=paranaense
-	religion=charismatic
-	father=260047
-	martial=7
-	diplomacy=3
-	stewardship=6
-	intrigue=3
-	learning=5
-	trait=flamboyant_schemer
-	trait=chaste
-	2296.2.25={birth=yes}
-	2370.6.13={death=yes}
-}
-
-#Lachowski, bastard branch of the Saporskis
-
-260049 = { #married off the Guerios lady
-	name = "Beto"
-	dynasty = 85006 #Lachowski
-	dna="0cafc0bcfd0"
-	properties="ac0cld"
-	culture = paranaense
-	religion = charismatic
-	trait = grey_eminence
-	trait = fair
-	trait = gregarious
-	trait = bastard
-	
-	2291.1.1={
-		birth = yes
-	}
-    2308.6.15= {
-        add_spouse = 260041
-    }
-	2347.1.1={
-		death = yes
-	}
-}
- 
-260050 = { #Beto king of Curitiba
-	name =  "Beto"
-	father = 260049
-	mother = 260041
-	dynasty = 85006 #Lachowski
-	dna="0cafc0bcfd0"
-	properties="ck0cg"
-	culture = paranaense
-	religion = charismatic
-	trait = fair
-	trait = tough_soldier
-	trait = ambitious
-	trait = wroth
-	trait = depressed #
-	2310.6.23 = {
-		birth = yes
-	}
-	2365.1.1={
-		add_trait = "scarred_mid"
-		add_trait = "scarred_type_1"
-	}
-	2368.1.1 = {
-		add_spouse = 260007 #
-	}
-	2370.1.1={
-		death = yes
-	}
-}
-
-260051 = {
-	name = "Dinho"
-	dynasty = 85006 #Lachowski
-	dna="0cafc0bcfd0"
-	culture = paranaense
-	religion = charismatic
-	trait = fair
-	father = 260050
-	mother = 260007
-	2369.1.1 = {
-		birth = yes
-	}
-	2400.1.1 = {
-		death = yes
-	}
-}
-
-# Lara family, bandeirante conquerors
-
+##################
+### House Lara ###
+##################
 260052 = {
-	name = "Régis"
-	dynasty = 55056 #Lara
-	culture = paulistano
-	religion = charismatic
-	trait = bandeirante
-	trait = ambitious
-	trait = skilled_tactician
-	trait = inspiring_leader
-	trait = deceitful
+	name="Régis" # Régis Lara, King of Paraná.
+	dynasty=55056
+
 	diplomacy = 4
-	martial = 8
-	stewardship = 7
-	intrigue = 7
-	learning = 5
+	martial = 1
+	stewardship = 5
+	intrigue = 1
+	learning = 3
+
+	culture=paulistano
+	religion=charismatic
+
+	disallow_random_traits = yes
+
 	2330.4.30 = {
-		birth = yes
+		birth="2330.4.30"
+	}
+	2346.4.30 = {
+		add_trait="skilled_tactician"
+		add_trait="cavalry_leader"
+		add_trait="inspiring_leader"
+		add_trait="wroth"
+		add_trait="proud"
+		add_trait="arbitrary"
+		add_trait="gregarious"
+		add_trait="deceitful"
+		add_trait="cruel"
+		add_trait="ambitious"
+	}
+	2350.4.30 = {
+		add_trait="bandeirante"
 	}
 	2362.1.1 = {
-		add_spouse = 260053
+		add_spouse=260053 # Isabela Trevisan
 	}
-	2400.1.1 = {
-		death = yes
-	}	
 }
-
 260053 = {
-	name = "Isabela"
-	dynasty = 85007 #Trevizam
-	culture = paranaense
-	religion = charismatic
-	female = yes
-	dna="0bgii00bbb0"
-	properties="pk0h0k0000000000000000000000000000000"
-	trait = intricate_webweaver
-	trait = deceitful
-	trait = shy
+	name="Isabela" # Isabela Trevisan the Vampiress of Curitiba, Queen of Paraná.
+	dynasty=85007
+	female=yes
+
 	diplomacy = 4
-	martial = 4
-	stewardship = 9
-	intrigue = 6
+	martial = 1
+	stewardship = 5
+	intrigue = 5
 	learning = 9
-	2343.1.1 = {
-		birth = yes
+
+	culture=paranaense
+	religion=charismatic
+
+	add_trait="fair"
+
+	2343.6.14 = {
+		birth="2343.6.14"
 	}
-	2400.1.1 ={
-		death = yes
+	2359.6.14 = {
+		add_trait="intricate_webweaver"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="arbitrary"
+		add_trait="gregarious"
+		add_trait="deceitful"
+		add_trait="cruel"
+		add_trait="ambitious"
+		add_trait="seductress"
+		add_trait="mystic"
+		add_trait="groomed"
+	}
+	2368.8.16 = {
+		give_nickname=nick_the_vampiress_of_curitiba
 	}
 }
-
+### Issue of Régis ###
 260054 = {
-	name = "Enzo"
-	dynasty = 55056 #Lara
-	culture = paranaense
-	religion = charismatic
-	father = 260052
-	mother = 260053
-	2365.1.1 = {
-		birth = yes
-	}
-	2400.1.1 = {
-		death = yes
+	name="Dalton" # Dalton Lara.
+	dynasty=55056
+
+	culture=paranaense
+	religion=charismatic
+
+	father=260052 # Régis Lara
+	mother=260053 # Isabela Trevisan
+
+	add_trait="fair"
+
+	2365.7.2 = {
+		birth="2365.7.2"
 	}
 }
-
-270001={
+################################
+### Estado de Santa Catarina ###
+################################
+270001 = {
 	name="Ramon"
 	dynasty=90001 #Madruga
 	father=27005
-	culture=ugly
-	dna="a0bae0kbab0"
-	properties="gh00e0000000000000000000000000000000"
+	culture=centrino
+	dna="bgagg0ib000"
+	properties="0g0bck"
+
 	religion=celeste
 	trait=flamboyant_schemer
 	trait=is_malnourished
@@ -1280,7 +1387,7 @@
 27004={
 	name="Limão Aguado"
 	dynasty=90001 #Madruga
-	culture=brown
+	culture=centrino
 	religion=celeste
 	trait=naive_appeaser
 	trait=feeble
@@ -1303,7 +1410,7 @@
 	dynasty=90001 #Madruga
 	father=27004
 	mother=27003
-	culture=brown
+	culture=centrino
 	religion=celeste
 	trait=fortune_builder
 	trait=honest
@@ -1492,7 +1599,7 @@
 	2365.1.1={
 		death={
 			death_reason=death_murder
-			killer=270016 #Santana acabe com ela
+			killer=270014 #Santana acabe com ela
 		}
 	}
 	#Wife of João Amorim, killed by Santana on the orders of the Fischer ruler
@@ -1566,53 +1673,135 @@
 	}
 	#ruler of Concórdia vassal of Lages
 }
-270016={
-	name="Emil"
-	dynasty=100006 #Fischer
+#####################
+### House Fischer ###
+#####################
+270016 = {
+	name="Ricardo" # Ricardo Fischer the Red Eagle, King of Santa Catarina.
+	dynasty=100006
+
 	culture=hunsruckisch
 	religion=evangelical
-	trait=intricate_webweaver
-	father=270051
-	trait = branch_lutheran
-	trait=ambitious
-	trait=arbitrary
-	trait=cruel
-	diplomacy=5
-	martial=10
-	stewardship=10
-	intrigue=12
-	learning=8
-	2237.1.1={
+
+	2300.1.1 = {
 		birth=yes
 	}
-	2281.1.1={
-		death = yes
+	2323.5.6 = {
+		give_nickname=nick_the_red_eagle
+		create_bloodline = {
+			type = bloodline_red_eagle
+			has_dlc = "Holy Fury"
+		}
 	}
-	#count of blumenau, ruler of Vales do Itajai and Passo do Principe
+	2337.5.6 = {
+		death = {
+			death_reason=death_battle # Battle of Blumenau
+			killer=260048 # Adam Saporski
+		}
+	}
 }
-270017={
-	name="Henrique"
-	dynasty=100006 #Fischer
+### Issue of Ricardo the Red Eagle ###
+270017 = {
+	name="Emil" # Emil Fischer, King of Santa Catarina.
+	dynasty=100006
+
 	culture=hunsruckisch
 	religion=celeste
+
 	father=270016
-	trait=midas_touched
-	trait=gluttonous
-	trait=kind
-	trait=trusting
-	trait=is_fat
-	diplomacy=11
-	martial=4
-	stewardship=15
-	intrigue=6
-	learning=8
-	2276.1.1={
+
+	2320.1.1 = {
 		birth=yes
 	}
-	2326.1.1={
-		death=yes
+	2368.8.16 = {
+		death = {
+			death_reason=death_battle # Battle of Curitiba
+			killer=260048 # Adam Saporski
+		}
 	}
-} #Found the Kingdom of Santa Catarina, converted to Celeste to stabilize it.
+}
+### Issue of Emil ###
+270048 = {
+	name="Helmut"
+	dynasty=100006
+
+	culture=hunsruckisch
+	religion=celeste
+
+	father=270017 # Emil Fischer
+
+	2341.1.1 = {
+		birth=yes
+	}
+	2368.8.16 = {
+		death = {
+			death_reason=death_battle # Battle of Curitiba
+			killer=260048 # Adam Saporski
+		}
+	}
+}
+270029 = {
+	name="Gisele"
+	dynasty=100006
+	female=yes
+
+	culture=hunsruckisch
+	religion=evangelical
+
+	trait = branch_lutheran
+	trait=intricate_webweaver
+	trait=schemer
+	trait=groomed
+	trait=ambitious
+
+	father=270017 # Emil Fischer
+
+	2343.1.1={
+		birth=yes
+	}
+}
+270049 = {
+	name="Waltraud"
+	dynasty=100006
+	female=yes
+
+	culture=hunsruckisch
+	religion=celeste
+
+	father=270017 # Emil Fischer
+
+	2345.1.31 = {
+		birth=yes
+	}
+}
+270050 = {
+	name="Marlene"
+	dynasty=100006
+	female=yes
+
+	culture=hunsruckisch
+	religion=celeste
+
+	father=270017 # Emil Fischer
+
+	2348.5.25 = {
+		birth=yes
+	}
+}
+
+270051 = {
+	name="Klaus"
+	dynasty=100006
+
+	culture=hunsruckisch
+	religion=celeste
+
+	father=270017 # Emil Fischer
+
+	2351.3.19 = {
+		birth=yes
+	}
+}
 270018={
 	name="Caio"
 	dynasty=90005 #César
@@ -1857,33 +2046,6 @@
 		death=yes
 	}
 	#younger brother of Frederico Renaux
-}
-270029={
-	name="Gisele"
-	female=yes
-	dynasty=100006 #Fischer
-	father=270048
-	culture=hunsruckisch
-	religion=evangelical
-	trait = branch_lutheran
-	trait=intricate_webweaver
-	trait=schemer
-	trait=groomed
-	trait=ambitious
-	trait = bastard
-	trait=freckles_2 #why not I guess
-	diplomacy=9
-	martial=5
-	stewardship=7
-	intrigue=9
-	learning=7
-	2345.1.1={
-		birth=yes
-	}
-	2400.1.1={
-		death=yes
-	}
-	#wife of the brusque patrician
 }
 270030={
 	name="Osvaldo"
@@ -2222,111 +2384,24 @@
 # 270047 removed patrician, free ID
 
 ##Fischer Family History
-270048={
-	name="Helmut"
-	dynasty=100006 #Fischer
-	dna="lkchdgjallo"
-	culture=hunsruckisch
-	religion=celeste
-	father = 270017
-	martial=2
-	diplomacy=5
-	stewardship=5
-	intrigue=3
-	learning=7
-	trait="grey_eminence"
-	trait="impaler"
-	trait="chaste"
-	trait="paranoid"
-	2318.1.1={birth=yes}
-	2340.2.21 = {add_spouse=270049}
-	2365.5.14={
-		death={
-			death_reason = death_battle
-			killer = 260050
-		}
+
+270047={
+	name="Inácio"
+	dynasty=90007 #Amin
+	culture=turco
+	religion=universal
+	trait=flamboyant_schemer
+	trait=greedy
+	trait=diligent
+	2347.1.1={
+		birth=yes
+		culture=greenbelly
 	}
-	#Last King of Santa Catarina, went to war with Curitiba, died during the war, realm collapsed thereafter
-}
+	2400.1.1={
+		death=yes
+	}
+	#Floripa patrician
 
-270049={
-	name="Waltraud"
-	female=yes
-	#dynasty = 
-	dna="cbpdbeapelh"
-	culture=hunsruckisch
-	religion=celeste
-	martial=8
-	diplomacy=3
-	stewardship=3
-	intrigue=2
-	learning=6
-	trait="detached_priest"
-	trait="diligent"
-	trait="craven"
-	trait="wroth"
-	trait="ill"
-	2320.7.20={birth=yes}
-	2367.10.4={death=yes}
-}
-
-270050={
-	name="Waltraud"
-	female=yes
-	dynasty=100006 #Fischer
-	dna="lbchbgjpllo"
-	culture=hunsruckisch
-	religion=celeste
-	martial=3
-	diplomacy=8
-	stewardship=2
-	intrigue=6
-	learning=1
-	trait="thrifty_clerk"
-	father=270048
-	mother=270049
-	2345.1.31={birth=yes}
-	2394.7.11={death=yes}
-}
-
-270051={
-	name="Marlene"
-	female=yes
-	dynasty=100006 #Fischer
-	dna="lbcdbgaplda"
-	culture=hunsruckisch
-	religion=celeste
-	martial=4
-	diplomacy=0
-	stewardship=4
-	intrigue=3
-	learning=1
-	trait="intricate_webweaver"
-	trait="craven"
-	father=270048
-	mother=270049
-	2348.5.25={birth=yes}
-	2394.6.8={death=yes}
-}
-
-270052={
-	name="Klaus"
-	dynasty=100006 #Fischer
-	dna="cbahdgapelo"
-	culture=hunsruckisch
-	religion=celeste
-	martial=8
-	diplomacy=3
-	stewardship=4
-	intrigue=5
-	learning=6
-	trait="skilled_tactician"
-	trait="drunkard"
-	father=270048
-	mother=270049
-	2351.3.19={birth=yes}
-	2395.1.12={death=yes}
-	#current ruler of vale do Itajai and passo do principe
 }
 
 270053={ #First leader of the Contestado Rebels
@@ -4090,30 +4165,20 @@ mother=270081
 	}
 }
 #Skipping to 290031 due to a tagging mistake 
-290031={
-	name="Rosa"
-	dynasty=100008 #Schumman
-	female=yes
-	culture=hunsruckisch
-	religion=orthodoxist
-	secret_religion=mucker
-	trait=charismatic_negotiator
-	trait=fair
-	trait=proud
-	trait=ambitious
-	2348.1.1={
-		birth=yes
-	}
-	2400.1.1={
-		death=yes
-	}
-	#holder of Mafra, vassal of Curitiba
-}
-300001={
+
+###################################
+### Estado do Rio Grande do Sul ###
+###################################
+####################
+### House Taurer ###
+####################
+300001 = {
 	name="Paulo"
 	dynasty=105001 #Taurer
+
 	culture=hunsruckisch
 	religion=evangelical
+
 	trait=charismatic_negotiator
 	trait=strong
 	trait=diligent
@@ -4123,11 +4188,13 @@ mother=270081
 	trait=ambitious
 	trait=gregarious
 	trait=branch_non_sectarian
+
 	diplomacy=12
 	martial=9
 	stewardship=8
 	intrigue=3
 	learning=6
+
 	2318.1.1={birth=yes}
 	2338.12.1={
 		add_spouse=300002

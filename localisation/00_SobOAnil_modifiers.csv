@@ -1,3 +1,6 @@
+#################
+### Modifiers ###
+#################
 ##################################
 ### Bloodline opinion modifier ###
 ##################################
@@ -15,3 +18,11 @@ falklander_opinion;Falklander Opinion;;;;;;;;;;;;;x
 wladfaeg_opinion;Wladfaeg Opinion;;;;;;;;;;;;;x
 turco_opinion;Turco Opinion;;;;;;;;;;;;;x
 cicerite_opinion;Cicerite Opinion;;;;;;;;;;;;;x
+paranaense_opinion;Paranaense Opinion;;;;;;;;;;;;;x
+rutenio_opinion;Rutenio Opinion;;;;;;;;;;;;;x
+charismatic_opinion;Charismatic Opinion;;;;;;;;;;;;;x
+orthodoxist_opinion;Orthodoxist Opinion;;;;;;;;;;;;;x
+hunsruckisch_opinion;Hunsruckisch Opinion;;;;;;;;;;;;;x
+greenbelly_opinion;Barriga Verde Opinion;;;;;;;;;;;;;x
+celeste_opinion;Celeste Opinion;;;;;;;;;;;;;x
+evangelical_opinion;Evangelical Opinion;;;;;;;;;;;;;x

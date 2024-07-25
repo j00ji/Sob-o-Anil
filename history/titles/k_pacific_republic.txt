@@ -1,12 +1,11 @@
 # e_peru
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
-
+800.1.1 = {
+	holder=0
 }
-2360.1.1 = { 
-	holder = 860111
-	liege=0
+2360.1.1 = {
+	holder=860111
 }

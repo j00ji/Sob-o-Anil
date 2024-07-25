@@ -1,11 +1,12 @@
 # e_the_south
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_parana
 }
-2357.1.1={
-	holder=260011 #Alessandro Fagundes
+2368.12.6  = {
+	holder=260044 # Beto Lachowski
+	liege=k_nova_rutenia
 }

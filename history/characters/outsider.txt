@@ -66,7 +66,7 @@
 ######################
 440001 = {
 	name="Hotuiti" # Hotuiti Riroroko.
-	dynasty=145028
+	dynasty=170001
 
 	diplomacy = 4
 	martial = 2

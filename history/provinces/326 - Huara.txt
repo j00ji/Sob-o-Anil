@@ -6,7 +6,7 @@ title = c_huara
 # Settlements
 max_settlements = 2
 
-b_huara = castle
+b_huara = city
 #b_pisagua = city
 #b_colchane = temple
 #b_camina = castle

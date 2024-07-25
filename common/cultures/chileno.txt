@@ -1,0 +1,259 @@
+########################
+### Chileno Cultures ###
+########################
+chileno = {
+	graphical_cultures = { occitangfx westerngfx }
+
+	atacameno = {
+		graphical_cultures = { southerngfx }
+
+		color = { 1.0 0.45 0.5 }
+
+		male_names = {
+			Adrián Agustín Alberto Alejandro Alexis Alfredo Alonso Andrés Antonio Aníbal Armando Arturo Augusto Álvaro Ángel
+			Bartolomé Bastián Benjamín Bernardo
+			Camilo Carlos Claudio Cristián Cristóbal César
+			Daniel Danilo David Diego
+			Eduardo Elías Emilio Enrique Ernesto Esteban
+			Federico Felipe Fernando Francisco
+			Gabriel Gerardo Germán Gonzalo Guillermo Gustavo
+			Héctor Hernán Humberto Hugo
+			Ignacio Iván
+			Jaime Javier Jesús Joaquín Jorge José José_Antonio José_Manuel José_Miguel Juan Juan_Antonio Juan_Carlos Juan_Pablo Julio
+			Leonardo León Lucas Luis
+			Manuel Marcelo Marcos Mario Martín Mateo Matías Mauricio Miguel
+			Neftalí Nicolás
+			Óscar Osvaldo
+			Pablo Patricio Pedro
+			Rafael Ramón Raúl Ricardo Roberto Rodrigo
+			Samuel Santiago Sebastián Sergio Simón
+			Tobías Tomás
+			Vicente Víctor
+		}
+		female_names = {
+			Alejandra Alicia Ana Andrea Antonia Aracely Ángela
+			Beatriz Belén Blanca Bárbara
+			Camila Carina Carla Carmela Carmen Carolina Catalina Cecilia Claudia Constanza Cristina
+			Daniela Denise
+			Elena Elizabeth Emilia Esmeralda Estefanía Érica
+			Fernanda Florencia Francisca
+			Gabriela Gladys Gloria
+			Ignacia Inés Irene Isabel Isidora Íngrid
+			Javiera Josefina Juana Julieta
+			Karina Karla Katalina
+			Leonor Lorena Loreto Lucila Lucía Luisa
+			Mabel Magdalena Marcela Mariana Martina María María_Constanza María_Elena María_Luisa María_Paz María_Teresa Maya Michelle Miriam Mónica
+			Naomi Natalia Nicole
+			Olivia Oriana
+			Paloma Pamela Patricia Paula Paulina Paz Pilar
+			Raquel Renata Rocío Rosa
+			Sandra Sara Silvia Sofía Soledad Susana
+			Tamara Teresa Trinidad
+			Valentina Valeria Verónica Violeta Viviana
+			Ximena
+		}
+
+		from_dynasty_prefix = "de "
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+
+	}
+	centrino = {
+		graphical_cultures = { southerngfx }
+
+		color = { 0.68 0.16 0.01 }
+
+		male_names = {
+			Adrián Agustín Alberto Alejandro Alexis Alfredo Alonso Andrés Antonio Aníbal Armando Arturo Augusto Álvaro Ángel
+			Bastián Benjamín Bernardo
+			Camilo Carlos Claudio Cristián Cristóbal César
+			Daniel David Diego
+			Eduardo Elías Emilio Enrique Ernesto Esteban
+			Federico Felipe Fernando Francisco
+			Gabriel Gerardo Germán Gonzalo Guillermo Gustavo
+			Hernán Hugo Humberto Héctor
+			Ignacio Iván
+			Jaime Javier Jesús Joaquín Jorge José José_Antonio José_Manuel José_Miguel Juan Juan_Antonio Juan_Carlos Juan_Pablo Julio
+			Leonardo León Lucas Luis
+			Manuel Marcelo Marcos Mario Martín Mateo Matías Mauricio Miguel
+			Nicolás
+			Óscar Osvaldo
+			Pablo Patricio Pedro
+			Rafael Ramón Raúl Ricardo Roberto Rodrigo Rolando
+			Samuel Santiago Sebastián Sergio Simón
+			Tobías Tomás
+			Vicente Victor
+		}
+		female_names = {
+			Ana Andrea Antonia Aracely Alejandra Alicia Ángela
+			Bárbara Beatriz Belén Blanca
+			Camila Carina Carla Catalina Cecilia Claudia Cristina Constanza Carolina Carmen
+			Daniela Denise
+			Elizabeth Emilia Érica Esmeralda Estefanía Elena
+			Fernanda Francisca Florencia
+			Gabriela Gladys Gloria
+			Ignacia Inés Isabel Isidora Íngrid Irene
+			Javiera Juana Josefina Julieta
+			Karina Karla Katalina
+			Lorena Loreto Lucila Luisa Lucía Leonor Laura
+			Mabel Magdalena Marcela María María_Teresa María_Constanza María_Paz María_Luisa María_Elena Mariana Martina Maya Michelle Miriam Mónica
+			Naomi Natalia Nicole
+			Olivia Oriana
+			Pamela Patricia Paula Paulina Pilar Paloma Paz
+			Raquel Renata Rocío Rosa
+			Sandra Sara Silvia Sofía Soledad Susana
+			Tamara Teresa Trinidad
+			Valentina Valeria Verónica Violeta Viviana
+			Ximena
+		}
+
+		from_dynasty_prefix = "de "
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+
+	}
+	huaso = {
+		graphical_cultures = { southerngfx }
+
+		color = { 0.63 0.26 0.01 }
+
+		male_names = {
+			Adrián Agustín Alberto Alejandro Alexis Alfredo Alonso Anacleto Andrés Antonio Aníbal Ariosto Armando Arturo Augusto Álvaro Ángel
+			Baldomero Bartolo Bartolomé Bastián Benjamín Bernardo
+			Camilo Canuto Carlos Carmelo Casimiro Ciriaco Claudio Cornelio Cristián Cristóbal Custodio César
+			Daniel Danilo David Diego Domingo
+			Eduardo Eleuterio Eliodoro Elías Emiliano Emilio Enrique Ernesto Esteban Eugenio Eulalio Eusebio Eustaquio
+			Federico Felipe Fernando Filomeno Florencio Francisco
+			Gabriel Gerardo Germán Gervasio Gonzalo Guillermo Gustavo
+			Héctor Hernán Humberto Hugo
+			Ignacio Isidro Iván
+			Jaime Javier Joaquín Jorge José José_Miguel José_Manuel José_María Juan Julio Juan_Carlos José_Antonio Juan_Antonio Juan_Pablo Jesús
+			Leonardo Leonel Leonidas Lisardo Lucas Luis
+			Manuel Marcelo Marcos Mario Martín Mateo Matías Mauricio Miguel
+			Narciso Neftalí Nicolás
+			Óscar Osvaldo
+			Pablo Pascual Patricio Pedro Pelayo
+			Rafael Ramón Raúl Ricardo Roberto Rodrigo Ruperto René Rolando
+			Samuel Sandalio Santiago Santos Sebastián Segundo Sergio Severino Simón
+			Tancredo Teodoro Timoteo Tobías Tomás Tulio
+			Vicente Víctor
+			Zacarías
+		}
+		female_names = {
+			Ana Andrea Antonia Antonieta Aracely Alejandra Amanda
+			Bárbara Beatriz Belén Blanca
+			Camila Carina Carla Carmela Catalina Cecilia Claudia Cristina Constanza Carolina Clotilde
+			Daniela Denise
+			Elizabeth Emilia Ernestina Esmeralda Estefanía Elena Enriqueta Elvira
+			Facunda Felicinda Fernanda Francisca Florencia
+			Gabriela Gloria
+			Ignacia Inés Isabel Isidora Íngrid Irene
+			Javiera Josefa Juana Julieta Josefina
+			Karina Karla
+			Lorena Loreto Lucila Luisa Leonor
+			Mabel Magdalena Marcela María María_José María_Teresa María_Constanza María_Paz María_Luisa María_Elena Mariana Martina Miriam Mónica Morticia Matilde
+			Naomi Natalia Nicolasa
+			Olivia Oriana
+			Pamela Patricia Paula Paulina Pilar Paloma Pascuala
+			Raquel Renata Rocío Rosa Rosalía Rupertina
+			Sandra Sara Silvia Sofía Soledad Sulinda Susana
+			Tamara Teresa Trinidad
+			Valentina Valeria Verónica Vespertina Violeta
+			Ximena
+			Zoila Zoraida
+		}
+
+		from_dynasty_prefix = "de "
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+
+	}
+	sureno = {
+		graphical_cultures = { surenogfx }
+
+		color = { 0.67 0.30 0.27 }
+
+		male_names = {
+			Adolfo Adrián Albert Alex Alfred Alonso Alvar Andreas Antonio Armando Armin Arnulf Artur August Axel Ángel
+			Bastián Benjamín Bernhard
+			Kamilo Karlos Knut Konrad Kristián Kristobal
+			Daniel David Diego
+			Eduard Egon Elías Emil Erik Ernst
+			Felipe Ferdinand Florian Francisko Friedrich
+			Gabriel Georg Gerhard Gonzalo Gottfried Götz Gustavo
+			Hans Heinrich Héktor Helmut Hermann Hugo Humbert
+			Ignacio Ivan
+			Jaime Javier Jesús Joaquín Johann Jorge José José_Antonio José_Manuel José_Miguel Juan Juan_Antonio Juan_Karlos Juan_Pablo Julius
+			Leonard Leopold León Luis Lukas
+			Manuel Marcelo Markos Martín Mateo Matías Miguel
+			Nikolas
+			Óskar Oswald Otto
+			Pablo Patrik Paul Peter
+			Rafael Ramón Raúl Reinhard Rikardo Robert Rodrigo Roland
+			Samuel Sebastián Sigfrido Simón
+			Tobías Tomás
+			Vicente Viktor
+			Walter Wilhelm Wolfgang
+		}
+		female_names = {
+			Andrea Anna Antonia Aracely
+			Bárbara Beatriz Belén Blanca
+			Cecilia Kamila Karina Karla Katalina Klara Konstanze Kristina
+			Daniela Denise
+			Elisabeth Emilia Ena Erika
+			Fernanda Florencia Franciska
+			Gabriela Gladys Gloria
+			Helen
+			Ignacia Isabel Íngrid
+			Javiera Johanna Josefa Juliana
+			Karina Karla
+			Laura Leonor Lorena Loreto Lucila Lucía Luisa
+			Mabel Magdalena Marcela María María_Teresa María_Constanza María_Paz María_Luisa María_Elena Mariana Martina Michelle Miriam Monika
+			Naomi Natalia Nikole
+			Olivia Oriana
+			Pamela Patricia Paula Paulina Pilar
+			Raquel Renata Rocio Rosa
+			Sandra Sara Sigrid Silvia Sofía Soledad Susan
+			Tamara Teresa Trinidad
+			Valentina Valeria Verónika Violeta Viviana
+			Ximena
+		}
+
+		from_dynasty_prefix = "de "
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		modifier = default_culture_modifier
+
+	}
+}

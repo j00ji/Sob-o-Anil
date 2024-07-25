@@ -1,11 +1,12 @@
 # e_the_south
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_parana
 }
 2341.1.1 = {
-	holder = 260030 #Simão Fréza
+	holder=260030 #Simão Fréza
+	liege=0
 }

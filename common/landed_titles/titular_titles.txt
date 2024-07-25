@@ -413,6 +413,30 @@ k_pacific_republic = { # Republic of the Pacific
 	}
 }
 
+k_new_galicia = {
+	color = { 220 20 20 }
+	color2 = { 255 255 255 }
+	
+	capital = 210 # Curitiba
+	culture = paranaense
+
+	allow = {
+		always = no
+	}
+}
+
+k_nova_rutenia = {
+	color = { 115 177 255 }
+	color2 = { 255 255 255 }
+
+	capital = 221 # Cascavel
+	culture = rutenio
+
+	allow = {
+		always = no
+	}
+}
+
 ### Duchies ###
 
 d_trifrontier = {

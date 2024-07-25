@@ -9,3 +9,6 @@
 2360.1.1={
 	holder = 260008#Twardomir
 }
+2368.12.6 = {
+	liege=k_nova_rutenia
+}

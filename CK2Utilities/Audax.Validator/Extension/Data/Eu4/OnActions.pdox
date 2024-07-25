@@ -1,0 +1,486 @@
+(Validator OnActions) = {
+	Type = Default
+	FriendlyName = "On Actions"
+	(FileGroup "common\on_actions" "*.txt")
+	ValidatorName = OnActionsFile
+}
+
+(Type OnActionsFile) = {
+	# ROOT=country
+	Optional = { Left = "on_religion_change" Right = CountryPulse }
+	Optional = { Left = "on_colonial_liberation" Right = CountryPulse }
+	Optional = { Left = "on_peace_actor" Right = CountryPulse }
+	Optional = { Left = "on_peace_recipient" Right = CountryPulse }
+	Optional = { Left = "on_new_monarch" Right = CountryPulse }
+	Optional = { Left = "on_regent" Right = CountryPulse }
+	Optional = { Left = "on_new_term_election" Right = CountryPulse }
+	Optional = { Left = "on_death_election" Right = CountryPulse }
+	Optional = { Left = "on_weak_heir_claim" Right = CountryPulse }
+	Optional = { Left = "on_successive_emperor" Right = CountryPulse }
+	Optional = { Left = "on_released_hre_member" Right = CountryPulse }
+	Optional = { Left = "on_hre_wins_defensive_war" Right = CountryPulse }
+	Optional = { Left = "on_hre_member_annexed" Right = CountryPulse }
+	Optional = { Left = "on_hre_released_vassal" Right = CountryPulse }
+	Optional = { Left = "on_hre_transfered_vassal" Right = CountryPulse }
+	Optional = { Left = "on_hre_defense" Right = CountryPulse }
+	Optional = { Left = "on_hre_non_defense" Right = CountryPulse }
+	Optional = { Left = "on_native_change_government" Right = CountryPulse }
+	Optional = { Left = "on_westernized" Right = CountryPulse }
+	Optional = { Left = "on_overextension_pulse" Right = CountryPulse }
+	Optional = { Left = "on_westernisation_pulse" Right = CountryPulse }
+	Optional = { Left = "on_monthly_pulse" Right = CountryPulse }
+	Optional = { Left = "on_yearly_pulse" Right = CountryPulse }
+	Optional = { Left = "on_yearly_pulse_2" Right = CountryPulse }
+	Optional = { Left = "on_yearly_pulse_3" Right = CountryPulse }
+	Optional = { Left = "on_yearly_pulse_4" Right = CountryPulse }
+	Optional = { Left = "on_yearly_pulse_5" Right = CountryPulse }
+	Optional = { Left = "on_bi_yearly_pulse" Right = CountryPulse }
+	Optional = { Left = "on_bi_yearly_pulse_2" Right = CountryPulse }
+	Optional = { Left = "on_bi_yearly_pulse_3" Right = CountryPulse }
+	Optional = { Left = "on_bi_yearly_pulse_4" Right = CountryPulse }
+	Optional = { Left = "on_thri_yearly_pulse" Right = CountryPulse }
+	Optional = { Left = "on_thri_yearly_pulse_2" Right = CountryPulse }
+	Optional = { Left = "on_thri_yearly_pulse_3" Right = CountryPulse }
+	Optional = { Left = "on_thri_yearly_pulse_4" Right = CountryPulse }
+	Optional = { Left = "on_four_year_pulse" Right = CountryPulse }
+	Optional = { Left = "on_four_year_pulse_2" Right = CountryPulse }
+	Optional = { Left = "on_four_year_pulse_3" Right = CountryPulse }
+	Optional = { Left = "on_four_year_pulse_4" Right = CountryPulse }
+	Optional = { Left = "on_five_year_pulse" Right = CountryPulse }
+	Optional = { Left = "on_five_year_pulse_2" Right = CountryPulse }
+	Optional = { Left = "on_five_year_pulse_3" Right = CountryPulse }
+	Optional = { Left = "on_five_year_pulse_4" Right = CountryPulse }
+	Optional = { Left = "on_hre_religion_white_peace" Right = CountryPulse }
+	Optional = { Left = "on_change_hre_religion" Right = CountryPulse }
+	Optional = { Left = "on_lock_hre_religion" Right = CountryPulse }
+	Optional = { Left = "on_dismantle_revolution" Right = CountryPulse }
+	Optional = { Left = "on_startup" Right = CountryPulse }
+	Optional = { Left = "on_buy_religious_reform" Right = CountryPulse }
+	Optional = { Left = "on_circumnavigation" Right = CountryPulse }
+	Optional = { Left = "on_remove_free_city" Right = CountryPulse }
+	Optional = { Left = "on_become_free_city" Right = CountryPulse }
+	Optional = { Left = "on_bankruptcy" Right = CountryPulse }
+	Optional = { Left = "on_heir_needed_theocracy" Right = CountryPulse }
+	Optional = { Left = "on_secondary_religion_change" Right = CountryPulse }
+	Optional = { Left = "on_monarch_death" Right = CountryPulse }
+	Optional = { Left = "on_heir_death" Right = CountryPulse }
+	Optional = { Left = "on_new_heir" Right = CountryPulse }
+	Optional = { Left = "on_lose_great_power_status" Right = CountryPulse }
+	Optional = { Left = "on_gain_great_power_status" Right = CountryPulse }
+	Optional = { Left = "on_fetishist_cult_change" Right = CountryPulse }
+	Optional = { Left = "on_select_heir_from_harem" Right = CountryPulse }
+	Optional = { Left = "on_death_has_harem" Right = CountryPulse }
+	Optional = { Left = "on_government_change" Right = CountryPulse }
+	Optional = { Left = "on_queen_death" Right = CountryPulse }
+	Optional = { Left = "on_new_consort" Right = CountryPulse }
+	Optional = { Left = "on_parliament_debate_failed" Right = CountryPulse }
+	Optional = { Left = "on_parliament_debate_succeeded" Right = CountryPulse }
+	(Ch Y N) = { Left = { Type = OnHarmonizedReligion } Right = CountryPulse }
+	(Ch Y N) = { Left = { Type = OnHarmonizedReligionGroup } Right = CountryPulse }
+	Optional = { Left = "on_russian_streltsy" Right = CountryPulse }
+	Optional = { Left = "on_russian_oprichnina" Right = CountryPulse }
+	Optional = { Left = "on_explorer_recruited" Right = CountryPulse }
+	Optional = { Left = "on_conquistador_recruited" Right = CountryPulse }
+	Optional = { Left = "on_admiral_recruited" Right = CountryPulse }
+	Optional = { Left = "on_general_recruited" Right = CountryPulse }
+	Optional = { Left = "on_leader_recruited" Right = CountryPulse }
+	Optional = { Left = "on_russian_sudebnik" Right = CountryPulse }
+	Optional = { Left = "on_death_foreign_slave_ruler" Right = CountryPulse }
+	Optional = { Left = "on_holy_order_established" Right = CountryPulse }
+	Optional = { Left = "on_bi_yearly_pulse_5" Right = CountryPulse }
+	Optional = { Left = "on_extended_regency" Right = CountryPulse }
+	Optional = { Left = "on_estate_led_regency_surpassed" Right = CountryPulse }
+	Optional = { Left = "on_estate_led_regency" Right = CountryPulse }
+	Optional = { Left = "on_colonial_type_change" Right = CountryPulse }
+	Optional = { Left = "on_transfer_development" Right = CountryPulse }
+	Optional = { Left = "on_pillaged_capital" Right = CountryPulse }
+	Optional = { Left = "on_country_creation" Right = CountryPulse }
+	Optional = { Left = "on_golden_bull_enacted" Right = CountryPulse }
+	Optional = { Left = "on_change_revolution_target" Right = CountryPulse }
+	Optional = { Left = "on_post_mil_advisor_fired" Right = CountryPulse }
+	Optional = { Left = "on_post_dip_advisor_fired" Right = CountryPulse }
+	Optional = { Left = "on_post_adm_advisor_fired" Right = CountryPulse }
+	Optional = { Left = "on_pre_mil_advisor_fired" Right = CountryPulse }
+	Optional = { Left = "on_pre_dip_advisor_fired" Right = CountryPulse }
+	Optional = { Left = "on_pre_adm_advisor_fired" Right = CountryPulse }
+	Optional = { Left = "on_rebels_break_country" Right = CountryPulse }
+	Optional = { Left = "on_loan_repaid" Right = CountryPulse }
+	Optional = { Left = "on_revolutionary_guard_raised" Right = CountryPulse }
+	Optional = { Left = "on_embrace_revolution" Right = CountryPulse }
+	Optional = { Left = "on_extend_regency" Right = CountryPulse }
+	Optional = { Left = "on_great_project_constructed" Right = CountryPulse }
+	Optional = { Left = "on_estate_removed" Right = CountryPulse }
+	Optional = { Left = "on_capital_moved" Right = CountryPulse }
+	Optional = { Left = "on_national_focus_change" Right = CountryPulse }
+	Optional = { Left = "on_institution_embracement" Right = CountryPulse }
+	Optional = { Left = "on_primary_culture_changed" Right = CountryPulse }
+	Optional = { Left = "on_new_age" Right = CountryPulse }
+	Optional = { Left = "on_hre_dismantled" Right = CountryPulse }
+	Optional = { Left = "on_defender_of_faith_claim" Right = CountryPulse }
+	Optional = { Left = "on_defender_of_faith_loss" Right = CountryPulse }
+	Optional = { Left = "monarch_on_shipwreck" Right = CountryPulse }
+	Optional = { Left = "heir_on_shipwreck" Right = CountryPulse }
+	Optional = { Left = "consort_on_shipwreck" Right = CountryPulse }
+	Optional = { Left = "on_separate_war_lost" Right = CountryPulse }
+	Optional = { Left = "on_main_war_lost" Right = CountryPulse }
+	Optional = { Left = "on_main_war_won" Right = CountryPulse }
+
+	Optional = { Left = "on_reform_enacted" Right = CountryPulse }
+	Optional = { Left = "on_reform_changed" Right = CountryPulse }
+	Optional = { Left = "on_heir_disinherited" Right = CountryPulse }
+	Optional = { Left = "on_mil_tech_taken" Right = CountryPulse }
+	Optional = { Left = "on_dip_tech_taken" Right = CountryPulse }
+	Optional = { Left = "on_adm_tech_taken" Right = CountryPulse }
+	Optional = { Left = "on_tech_taken" Right = CountryPulse }
+	Optional = { Left = "on_mil_advisor_hired" Right = CountryPulse }
+	Optional = { Left = "on_dip_advisor_hired" Right = CountryPulse }
+	Optional = { Left = "on_adm_advisor_hired" Right = CountryPulse }
+	Optional = { Left = "on_advisor_hired" Right = CountryPulse }
+	Optional = { Left = "on_slacken_start" Right = CountryPulse }
+	Optional = { Left = "on_slacken_stop" Right = CountryPulse }
+	Optional = { Left = "on_culture_demoted" Right = CountryPulse }
+	Optional = { Left = "on_culture_promoted" Right = CountryPulse }
+	Optional = { Left = "on_mandate_reform_passed" Right = CountryPulse }
+	Optional = { Left = "on_hre_reform_passed" Right = CountryPulse }
+	Optional = { Left = "on_parliament_debate_reset" Right = CountryPulse }
+	
+	# ROOT=country, FROM=country
+	
+		Optional = { Left = "on_federation_leader_change" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_battle_won_country" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_battle_lost_country" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_diplomatic_annex" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_war_lost" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_war_won" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_enforce_rebel_demands" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_integrate" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_annexed" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_colonial_reintegration" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_hre_member_true_religion" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_hre_member_false_religion" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_refuse_tribute" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_accept_tribute" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_mandate_of_heaven_gained" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_mandate_of_heaven_lost" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_dependency_gained" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_dependency_lost" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_chinese_empire_dismantled" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_create_vassal" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_country_released" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_flagship_destroyed" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_flagship_captured" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_create_client_state" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_emperor_elected" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_replace_governor" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_force_conversion" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_royal_marriage" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_alliance_created" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_royal_marriage_broken" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_alliance_broken" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_war_ended" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_colonial_nation_established" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_separate_war_won" Right = CountryPulseWithFromCountry }
+	
+		Optional = { Left = "on_overrun" Right = CountryPulseWithFromCountry }
+	
+	
+	# ROOT=country, FROM=province
+	
+		Optional = { Left = "on_siege_won_country" Right = CountryPulseWithFromProvince }
+	
+		Optional = { Left = "on_siege_lost_country" Right = CountryPulseWithFromProvince }
+	
+		Optional = { Left = "on_raid_coast" Right = CountryPulseWithFromProvince }
+	
+		Optional = { Left = "on_scorch_earth" Right = CountryPulseWithFromProvince }
+	
+		Optional = { Left = "on_naval_barrage" Right = CountryPulseWithFromProvince }
+	
+		Optional = { Left = "on_barrage" Right = CountryPulseWithFromProvince }
+	
+		
+	# ROOT=prov
+	Optional = { Left = "on_hre_province_reconquest" Right = ProvincePulse }
+	Optional = { Left = "on_colonial_pulse" Right = ProvincePulse }
+	Optional = { Left = "on_grant_estate_land" Right = ProvincePulse }
+	Optional = { Left = "on_revoke_estate_land_ai" Right = ProvincePulse }
+	Optional = { Left = "on_revoke_estate_land" Right = ProvincePulse }
+	Optional = { Left = "on_adm_development" Right = ProvincePulse }
+	Optional = { Left = "on_dip_development" Right = ProvincePulse }
+	Optional = { Left = "on_mil_development" Right = ProvincePulse }
+	Optional = { Left = "on_province_culture_converted" Right = ProvincePulse }
+	Optional = { Left = "on_province_religion_converted" Right = ProvincePulse }
+	Optional = { Left = "on_siberian_pulse" Right = ProvincePulse }
+	Optional = { Left = "on_consecrate_patriarch" Right = ProvincePulse }
+	Optional = { Left = "on_janissaries_raised" Right = ProvincePulse }
+	Optional = { Left = "on_remove_pasha" Right = ProvincePulse }
+	Optional = { Left = "on_add_pasha" Right = ProvincePulse }
+	Optional = { Left = "on_trade_company_investment" Right = ProvincePulse }
+	Optional = { Left = "on_center_of_trade_upgrade" Right = ProvincePulse }
+	Optional = { Left = "on_center_of_trade_downgrade" Right = ProvincePulse }
+	Optional = { Left = "on_culture_promoted" Right = ProvincePulse }
+	Optional = { Left = "on_revoke_estate_land_post" Right = ProvincePulse }
+	Optional = { Left = "on_revoke_estate_land_ai_post" Right = ProvincePulse }
+	Optional = { Left = "on_cawa_raised" Right = ProvincePulse }
+	Optional = { Left = "on_trade_good_changed" Right = ProvincePulse }
+	Optional = { Left = "on_centralized_state" Right = ProvincePulse }
+	Optional = { Left = "on_concentrate_development" Right = ProvincePulse }
+	Optional = { Left = "on_raze" Right = ProvincePulse }
+	Optional = { Left = "on_adm_exploited" Right = ProvincePulse }
+	Optional = { Left = "on_dip_exploited" Right = ProvincePulse }
+	Optional = { Left = "on_mil_exploited" Right = ProvincePulse }
+	Optional = { Left = "on_hussars_raised" Right = ProvincePulse }
+	Optional = { Left = "on_carolean_raised" Right = ProvincePulse }
+	Optional = { Left = "on_colony_finished" Right = ProvincePulse }
+	Optional = { Left = "on_voc_indiamen_raised" Right = ProvincePulse }
+	Optional = { Left = "on_caravel_raised" Right = ProvincePulse }
+	Optional = { Left = "on_galleass_raised" Right = ProvincePulse }
+	Optional = { Left = "on_galleon_raised" Right = ProvincePulse }
+	Optional = { Left = "on_man_of_war_raised" Right = ProvincePulse }
+	Optional = { Left = "on_geobukseon_raised" Right = ProvincePulse }
+	Optional = { Left = "on_qizilbash_raised" Right = ProvincePulse }
+	Optional = { Left = "on_mamluks_raised" Right = ProvincePulse }
+	Optional = { Left = "on_samurai_raised" Right = ProvincePulse }
+	Optional = { Left = "on_musketeer_raised" Right = ProvincePulse }
+	Optional = { Left = "on_tercio_raised" Right = ProvincePulse }
+	Optional = { Left = "on_streltsy_raised" Right = ProvincePulse }
+	Optional = { Left = "on_rajput_raised" Right = ProvincePulse }
+	Optional = { Left = "on_marine_raised" Right = ProvincePulse }
+	Optional = { Left = "on_cossack_raised" Right = ProvincePulse }
+	Optional = { Left = "on_banner_raised" Right = ProvincePulse }
+	Optional = { Left = "on_parliament_seat_lost" Right = ProvincePulse }
+	Optional = { Left = "on_parliament_seat_given" Right = ProvincePulse }
+	Optional = { Left = "on_province_culture_changed" Right = ProvincePulse }
+	Optional = { Left = "on_province_religion_changed" Right = ProvincePulse }
+	Optional = { Left = "on_state_edict_enacted" Right = ProvincePulse }
+	Optional = { Left = "on_state_edict_removed" Right = ProvincePulse }
+
+	# ROOT=prov, FROM=country
+	
+		Optional = { Left = "on_battle_won_province" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_added_to_trade_company" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_removed_from_company" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_company_formed" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_company_disolved" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_battle_lost_province" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_siege_won_province" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_siege_lost_province" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_abandon_colony" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_explore_coast" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_conquistador_empty" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_conquistador_native" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_regiment_recruited" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_convert_by_trade_policy" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_company_chartered" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_province_owner_change" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_colonist_boosting_colony" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_conquest" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_expanded_infrastructure" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_core" Right = ProvincePulseWithFromCountry }
+	
+		Optional = { Left = "on_colony_established" Right = ProvincePulseWithFromCountry }
+	
+	
+	# ROOT=prov, FROM=prov
+	
+		Optional = { Left = "on_minority_expelled" Right = ProvincePulseWithFromProvince }
+	
+
+	# ROOT=unit
+	Optional = { Left = "on_battle_won_unit" Right = UnitPulse }
+	Optional = { Left = "on_battle_lost_unit" Right = UnitPulse }
+
+	# ROOT=unit, FROM=country
+	
+		Optional = { Left = "on_mercenary_recruited" Right = UnitPulseWithFromCountry }
+	
+	
+	# Apparently, even if you completely overwrite the religion files, you still need to have these specific
+	# ones around or the game will not be happy. They can be blank ofc.
+	Optional = { Left = "on_harmonized_pagan" Right = CountryPulse }
+	Optional = { Left = "on_harmonized_christian" Right = CountryPulse }
+	Optional = { Left = "on_harmonized_muslim" Right = CountryPulse }
+	Optional = { Left = "on_harmonized_jewish_group" Right = CountryPulse }
+	Optional = { Left = "on_harmonized_zoroastrian_group" Right = CountryPulse }
+	Optional = { Left = "on_harmonized_dharmic" Right = CountryPulse }
+	Optional = { Left = "on_harmonized_mahayana" Right = CountryPulse }
+	Optional = { Left = "on_harmonized_buddhism" Right = CountryPulse }
+	Optional = { Left = "on_harmonized_shinto" Right = CountryPulse }
+	Optional = { Left = "on_harmonized_vajrayana" Right = CountryPulse }
+}
+
+(Type CountryPulse) = {
+	Optional = { Left = "random_events" Right = CountryRandomEventGroup }
+	Optional = { Left = "events" Right = CountryEventGroup }
+	
+	Inherits = CountryCommand
+}
+
+
+
+
+(Type CountryPulseWithFromCountry) = {
+	Optional = { Left = "random_events" Right = CountryRandomEventGroup }
+	Optional = { Left = "events" Right = CountryEventGroup }
+	
+	Inherits = CountryCommandFromCountry
+}
+
+
+
+(Type CountryPulseWithFromProvince) = {
+	Optional = { Left = "random_events" Right = CountryRandomEventGroup }
+	Optional = { Left = "events" Right = CountryEventGroup }
+	
+	Inherits = CountryCommandFromProvince
+}
+
+
+
+
+
+(Type ProvincePulseWithFromCountry) = {
+	Optional = { Left = "random_events" Right = ProvinceRandomEventGroup }
+	Optional = { Left = "events" Right = ProvinceEventGroup }
+	
+	Inherits = ProvinceCommandFromCountry
+}
+
+
+
+(Type ProvincePulseWithFromProvince) = {
+	Optional = { Left = "random_events" Right = ProvinceRandomEventGroup }
+	Optional = { Left = "events" Right = ProvinceEventGroup }
+	
+	Inherits = ProvinceCommandFromProvince
+}
+
+
+
+
+
+(Type UnitPulseWithFromCountry) = {
+	Optional = { Left = "random_events" Right = UnitRandomEventGroup }
+	Optional = { Left = "events" Right = UnitEventGroup }
+	
+	Inherits = UnitCommandFromCountry
+}
+
+
+
+(Type UnitPulseWithFromProvince) = {
+	Optional = { Left = "random_events" Right = UnitRandomEventGroup }
+	Optional = { Left = "events" Right = UnitEventGroup }
+	
+	Inherits = UnitCommandFromProvince
+}
+
+
+
+
+(Type ProvincePulse) = {
+	Optional = { Left = "random_events" Right = ProvinceRandomEventGroup }
+	Optional = { Left = "events" Right = ProvinceEventGroup }
+	
+	Inherits = ProvinceCommand
+}
+
+(Type UnitPulse) = {
+	Optional = { Left = "random_events" Right = UnitRandomEventGroup }
+	Optional = { Left = "events" Right = UnitEventGroup }
+	
+	Inherits = UnitCommand
+}
+
+(Type Pulse) = {
+	Optional = { Left = "random_events" Right = RandomEventGroup }
+	Optional = { Left = "events" Right = EventGroup }
+}
+
+(Type RandomEventGroup) = {
+	(Ch N Y) = { Left = { Type = PInt } Right = { CountryEventId ProvinceEventId 0 } }
+}
+
+(Type EventGroup) = {
+	(PdoList Y) = { Type = { CountryEventId ProvinceEventId } }
+}
+
+(Type CountryRandomEventGroup) = {
+	(Ch N Y) = { Left = { Type = PInt } Right = { CountryEventId (ProvinceEventId IfNot = Events.StrictIdChecking) 0 } }
+}
+
+(Type CountryEventGroup) = {
+	(PdoList Y) = { Type = { CountryEventId (ProvinceEventId IfNot = Events.StrictIdChecking) } }
+}
+
+(Type ProvinceRandomEventGroup) = {
+	(Ch N Y) = { Left = { Type = PInt } Right = { ProvinceEventId 0 } }
+}
+
+(Type ProvinceEventGroup) = {
+	(PdoList Y) = { Type = { ProvinceEventId } }
+}
+
+(Type UnitRandomEventGroup) = {
+	(Ch N Y) = { Left = { Type = PInt } Right = { UnitEventId 0 } }
+}
+
+(Type UnitEventGroup) = {
+	(PdoList Y) = { Type = { UnitEventId } }
+}
+
+
+
+

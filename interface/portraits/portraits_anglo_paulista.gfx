@@ -89,15 +89,14 @@ spriteTypes = {
 		}
 		eye_color_index = 9
 		eye_color = {
-			{ 30 22 18 } 	# Dark Brown 1
-			{ 54 43 34 } 	# Dark Brown 2
-			{ 63 40 26 } 	# Brown
-			{ 93 57 35 } 	# Light Brown
-			{ 134 97 34 } 	# Light Hazel
-			{ 7 6 117 }		# Deep Blue
-			{ 34 27 230 }   # Blue
-			{ 0 150 255 }	# Bright Blue
-			{ 0 157 113 } 	# Green
+			{ 75 54 32 }	# Dark Brown (4B3620)
+			{ 101 67 33 }	# Brown (654321)
+			{ 204 119 0 }	# Amber (CC7700)
+			{ 168 180 97 }	# Hazel (A8B461)
+			{ 59 122 87 }	# Green (3B7A57)
+			{ 0 0 139 }		# Deep Blue (00008B)
+			{ 0 0 255 }		# Blue (0000FF)
+			{ 30 144 255 }	# Bright Blue (1E90FF)
 		}
 		headgear_that_hides_hair = { 12 13 }
 	}
@@ -171,15 +170,14 @@ spriteTypes = {
 		}
 		eye_color_index = 9
 		eye_color = {
-			{ 30 22 18 } 	# Dark Brown 1
-			{ 54 43 34 } 	# Dark Brown 2
-			{ 63 40 26 } 	# Brown
-			{ 93 57 35 } 	# Light Brown
-			{ 134 97 34 } 	# Light Hazel
-			{ 7 6 117 }		# Deep Blue
-			{ 34 27 230 }   # Blue
-			{ 0 150 255 }	# Bright Blue
-			{ 0 157 113 } 	# Green
+			{ 75 54 32 }	# Dark Brown (4B3620)
+			{ 101 67 33 }	# Brown (654321)
+			{ 204 119 0 }	# Amber (CC7700)
+			{ 168 180 97 }	# Hazel (A8B461)
+			{ 59 122 87 }	# Green (3B7A57)
+			{ 0 0 139 }		# Deep Blue (00008B)
+			{ 0 0 255 }		# Blue (0000FF)
+			{ 30 144 255 }	# Bright Blue (1E90FF)
 		}
 		headgear_that_hides_hair = { 12 13 }
 	}
@@ -253,15 +251,14 @@ spriteTypes = {
 		}
 		eye_color_index = 9
 		eye_color = {
-			{ 30 22 18 } 	# Dark Brown 1
-			{ 54 43 34 } 	# Dark Brown 2
-			{ 63 40 26 } 	# Brown
-			{ 93 57 35 } 	# Light Brown
-			{ 134 97 34 } 	# Light Hazel
-			{ 7 6 117 }		# Deep Blue
-			{ 34 27 230 }   # Blue
-			{ 0 150 255 }	# Bright Blue
-			{ 0 157 113 } 	# Green
+			{ 75 54 32 }	# Dark Brown (4B3620)
+			{ 101 67 33 }	# Brown (654321)
+			{ 204 119 0 }	# Amber (CC7700)
+			{ 168 180 97 }	# Hazel (A8B461)
+			{ 59 122 87 }	# Green (3B7A57)
+			{ 0 0 139 }		# Deep Blue (00008B)
+			{ 0 0 255 }		# Blue (0000FF)
+			{ 30 144 255 }	# Bright Blue (1E90FF)
 		}
 		headgear_that_hides_hair = { 12 13 }
 	}
@@ -340,15 +337,14 @@ spriteTypes = {
 		}
 		eye_color_index = 9
 		eye_color = {
-			{ 30 22 18 } 	# Dark Brown 1
-			{ 54 43 34 } 	# Dark Brown 2
-			{ 63 40 26 } 	# Brown
-			{ 93 57 35 } 	# Light Brown
-			{ 134 97 34 } 	# Light Hazel
-			{ 7 6 117 }		# Deep Blue
-			{ 34 27 230 }   # Blue
-			{ 0 150 255 }	# Bright Blue
-			{ 0 157 113 } 	# Green
+			{ 75 54 32 }	# Dark Brown (4B3620)
+			{ 101 67 33 }	# Brown (654321)
+			{ 204 119 0 }	# Amber (CC7700)
+			{ 168 180 97 }	# Hazel (A8B461)
+			{ 59 122 87 }	# Green (3B7A57)
+			{ 0 0 139 }		# Deep Blue (00008B)
+			{ 0 0 255 }		# Blue (0000FF)
+			{ 30 144 255 }	# Bright Blue (1E90FF)
 		}
 		headgear_that_hides_hair = { 12 13 }
 	}
@@ -425,15 +421,14 @@ spriteTypes = {
 		}
 		eye_color_index = 9
 		eye_color = {
-			{ 30 22 18 } 	# Dark Brown 1
-			{ 54 43 34 } 	# Dark Brown 2
-			{ 63 40 26 } 	# Brown
-			{ 93 57 35 } 	# Light Brown
-			{ 134 97 34 } 	# Light Hazel
-			{ 7 6 117 }		# Deep Blue
-			{ 34 27 230 }   # Blue
-			{ 0 150 255 }	# Bright Blue
-			{ 0 157 113 } 	# Green
+			{ 75 54 32 }	# Dark Brown (4B3620)
+			{ 101 67 33 }	# Brown (654321)
+			{ 204 119 0 }	# Amber (CC7700)
+			{ 168 180 97 }	# Hazel (A8B461)
+			{ 59 122 87 }	# Green (3B7A57)
+			{ 0 0 139 }		# Deep Blue (00008B)
+			{ 0 0 255 }		# Blue (0000FF)
+			{ 30 144 255 }	# Bright Blue (1E90FF)
 		}
 		headgear_that_hides_hair = { 12 13 }
 	}
@@ -510,15 +505,14 @@ spriteTypes = {
 		}
 		eye_color_index = 9
 		eye_color = {
-			{ 30 22 18 } 	# Dark Brown 1
-			{ 54 43 34 } 	# Dark Brown 2
-			{ 63 40 26 } 	# Brown
-			{ 93 57 35 } 	# Light Brown
-			{ 134 97 34 } 	# Light Hazel
-			{ 7 6 117 }		# Deep Blue
-			{ 34 27 230 }   # Blue
-			{ 0 150 255 }	# Bright Blue
-			{ 0 157 113 } 	# Green
+			{ 75 54 32 }	# Dark Brown (4B3620)
+			{ 101 67 33 }	# Brown (654321)
+			{ 204 119 0 }	# Amber (CC7700)
+			{ 168 180 97 }	# Hazel (A8B461)
+			{ 59 122 87 }	# Green (3B7A57)
+			{ 0 0 139 }		# Deep Blue (00008B)
+			{ 0 0 255 }		# Blue (0000FF)
+			{ 30 144 255 }	# Bright Blue (1E90FF)
 		}
 		headgear_that_hides_hair = { 12 13 }
 	}

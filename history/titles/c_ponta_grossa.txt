@@ -1,21 +1,15 @@
 # e_the_south
-500.1.1={
-	law = cognatic_succession
-	law = succ_gavelkind
+500.1.1 = {
+	law=cognatic_succession
+	law=succ_gavelkind
 }
-800.1.1={
+800.1.1 = {
 	liege=k_parana
 }
-2240.1.1={
-	holder = 260001 #Ahnume Guerios
+2323.7.15 = {
+	holder=260001 #Ahnume Guerios
+	liege=d_campos_gerais
 }
-2252.12.25={
-	holder = 260043 #Márcio Guerios
-}
-2330.6.17={
-	holder = 260044 #Sérgio Guerios
-	liege = d_curitiba
-}
-2367.1.1={
-	holder = 260045 #Alberto Guerios
+2365.10.7 = {
+	holder=260040 # Roberto Guerios
 }

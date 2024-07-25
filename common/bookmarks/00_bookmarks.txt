@@ -16,7 +16,7 @@ bm_cono_sur = {
 		
 		character = {
 			female = no
-			dna="aaafg00ace0"
+			dna="aaafh0bace0"
 			properties="0t00ek0000000000000000000a"
 			religion="catholic"
 			culture="centrino"
@@ -360,7 +360,7 @@ bm_cafe_com_leite = {
 		}
 	}
 	selectable_character = {
-		id = 110616 #Lucas Cardoso
+		id = 110615 #Lucas Cardoso
 		age = 25
 		name = ERA_CHAR_NAME_LUCAS
 		title = d_itapeva

@@ -1,0 +1,304 @@
+
+{% set AllScopesExpanded = ctx.calls.AllScopes %}
+
+(ContextValidator Trigger) = {
+	Scopes = {
+		CountryTrigger = { Type = Tag }
+		CountryTrigger = { Type = ThisCountry }
+		CountryTrigger = "emperor"
+		CountryTrigger = "any_country"
+		CountryTrigger = "revolution_target"
+
+		ProvinceTrigger = { Type = ThisProvince }
+		ProvinceTrigger = { Type = Province }
+		UnitTrigger = { Type = ThisUnit }
+		
+		GlobalTrigger = { Type = ThisGlobal }
+	}
+	Members = {
+		(N N) = { Left = { Type = Area } Right = ProvinceTriggerWithOptionalType }
+		(N N) = { Left = { Type = SuperRegion } Right = ProvinceTriggerWithOptionalType }
+		(N N) = { Left = { Type = ProvinceGroup } Right = ProvinceTriggerWithOptionalType }
+		(N N) = { Left = { Type = Region } Right = ProvinceTriggerWithOptionalType }
+		(N N) = { Left = { Type = Continent } Right = ProvinceTriggerWithOptionalType }
+		(N N) = { Left = "crusade_target" Right = CountryTrigger } # UNTESTED
+		(N N) = { Left = "all_province" Right = ProvinceTrigger } # UNTESTED
+		(N N) = { Left = "all_country" Right = CountryTrigger } # UNTESTED
+		(N N) = { Left = "any_province" Right = ProvinceTrigger }
+		
+		# UNTESTED; for missions
+		(N N) = { Left = "all_target_province" Right = ProvinceTrigger UseScopes = "HasTargetProvince" }
+		(N N) = { Left = "any_target_province" Right = ProvinceTrigger UseScopes = "HasTargetProvince" }
+		
+} }
+
+(ContextValidator ProvinceTrigger) = {
+	Scopes = {
+		CountryTrigger = "owner"
+		CountryTrigger = "controller"
+		CountryTrigger = "any_core_country"
+		CountryTrigger = strongest_trade_power
+		CountryTrigger = most_province_trade_power
+		
+		(ProvinceTrigger If = Broken) = "capital_scope" # BROKEN currently
+		
+		# ALL FOLLOWING UNTESTED
+		ProvinceTrigger = "sea_zone"
+		ProvinceTrigger = "any_owned_province"
+		CountryTrigger = "all_privateering_country"
+		CountryTrigger = "any_privateering_country"
+	}
+	
+	Members = {
+		# trigger scope scoping to any/all provinces of the region the current scope province
+		(N N) = { Left = "region_for_scope_province" Right = ProvinceTriggerWithOptionalType }
+		(N N) = { Left = "area_for_scope_province" Right = ProvinceTriggerWithOptionalType }
+		(N N) = { Left = "any_trade_node_member_province" Right = ProvinceTrigger }
+		
+		(N N) = { Left = "any_trade_node_member_country" Right = CountryTrigger }
+		(N N) = { Left = "any_friendly_coast_border_province" Right = ProvinceTrigger }
+	}
+}
+
+{% for args in [
+		('federation_member', 'Country', 'Country', True),
+		('known_country', 'Country', 'Country'),
+		('owned_province', 'Country', 'Province'),
+		('core_province', 'Country', 'Province'),
+		('empty_neighbor_province', 'Province', 'Province'),
+		('neighbor_province', 'Province', 'Province'),
+		('neighbor_country', 'Country', 'Country'),
+] %}
+{{ ctx.calls.make_any_and_random_scopes(args[0], args[1], args[2], args|length > 3 and args[3] == True) }}
+{% endfor %}
+
+(ContextValidator CountryTrigger) = {
+	Members = {
+		(N N) = { Left = "any_hired_mercenary_company" Right = UnitTrigger }
+		(N N) = { Left = "capital_scope" Right = ProvinceTrigger }
+		(N N) = { Left = "any_active_trade_node" Right = ProvinceTrigger }
+		(N N) = { Left = "any_heretic_province" Right = ProvinceTrigger }
+		(N N) = { Left = { Type = ColonialRegion } Right = ProvinceTrigger }
+		(N N) = { Left = "home_trade_node" Right = ProvinceTrigger }
+	
+		(N N) = { Left = "overlord" Right = CountryTrigger }
+		(N N) = { Left = "colonial_parent" Right = CountryTrigger }
+		(N N) = { Left = "any_enemy_country" Right = CountryTrigger }
+		(N N) = { Left = "any_war_enemy_country" Right = CountryTrigger }
+		(N N) = { Left = "all_enemy_country" Right = CountryTrigger }
+		(N N) = { Left = "any_rival_country" Right = CountryTrigger }
+		(N N) = { Left = "all_rival_country" Right = CountryTrigger }
+		(N N) = { Left = "any_ally" Right = CountryTrigger }
+		(N N) = { Left = "all_ally" Right = CountryTrigger }
+		(N N) = { Left = "any_subject_country" Right = CountryTrigger }
+		(N N) = { Left = "all_subject_country" Right = CountryTrigger }
+		(N N) = { Left = "any_elector" Right = CountryTrigger }
+		
+		(N N If = Broken) = { Left = "owner" Right = CountryTrigger }
+		(N N If = Broken) = { Left = "any_neighbor_province" Right = ProvinceTrigger }
+		
+		(N N) = { Left = "any_trade_node" Right = ProvinceTrigger }
+		(N N) = { Left = "all_active_trade_node" Right = ProvinceTrigger }
+	}
+}
+
+(ContextValidator Command) = { Members = {
+	(N N) = { Left = { Type = Tag } Right = CountryCommand }
+	(N N) = { Left = { Type = ThisCountry } Right = CountryCommand }
+	(N N) = { Left = "emperor" Right = CountryCommand }
+	
+	(N N) = { Left = { Type = Province } Right = ProvinceCommand }
+	(N N) = { Left = { Type = ThisProvince } Right = ProvinceCommand }
+
+	(N N) = { Left = "random_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "every_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "every_war_enemy_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "every_elector" Right = CountryAllowLimitClause }
+	
+	(N N) = { Left = "random_war_enemy_country" Right = CountryAllowLimitClause }
+	
+	(N N) = { Left = { Type = Area } Right = ProvinceAllowLimitClause }
+	(N N) = { Left = { Type = SuperRegion } Right = ProvinceAllowLimitClause }
+	(N N) = { Left = { Type = ProvinceGroup } Right = ProvinceAllowLimitClause }
+	(N N) = { Left = { Type = Region } Right = ProvinceAllowLimitClause }
+	(N N) = { Left = { Type = Continent } Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "revolution_target" Right = CountryCommand }
+	
+	# ALL OF THE FOLLOWING ARE UNTESTED
+	(N N) = { Left = "every_province" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "random_province" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "random_elector" Right = CountryAllowLimitClause }
+	(N N) = { Left = "random_privateering_country" Right = CountryAllowLimitClause }
+	
+	# UNTESTED; for missions
+	(N N) = { Left = "every_target_province" Right = ProvinceAllowLimitClause UseScopes = "HasTargetProvince" }
+	(N N) = { Left = "any_target_province" Right = ProvinceAllowLimitClause UseScopes = "HasTargetProvince" }
+	(N N) = { Left = "random_target_province" Right = ProvinceAllowLimitClause UseScopes = "HasTargetProvince" }
+		
+} }
+
+(ContextValidator ProvinceCommand) = { Members = {
+	(N N) = { Left = "every_province_in_state" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "random_province_in_state" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "owner" Right = CountryCommand }
+	(N N) = { Left = "controller" Right = CountryCommand }
+	
+	# ALL OF THE FOLLOWING ARE UNTESTED
+	(N N) = { Left = "strongest_trade_power" Right = CountryCommand }
+	(N N) = { Left = "most_province_trade_power" Right = CountryCommand }
+	
+	# ALL OF THE FOLLOWING ARE UNTESTED
+	(N N) = { Left = "random_trade_node_member_province" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "every_trade_node_member_province" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "random_owned_province" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = random_area_province Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "random_known_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "random_core_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "every_core_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "every_trade_node_member_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "sea_zone" Right = ProvinceAllowLimitClause }
+	
+	(N N) = { Left = "area" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "region" Right = ProvinceAllowLimitClause }
+	
+} }
+
+(ContextValidator CountryCommand) = { Members = {
+	(N N) = { Left = "random_hired_mercenary_company" Right = UnitAllowLimitClause }
+	(N N) = { Left = "home_trade_node_effect_scope" Right = ProvinceCommand }
+	(N N) = { Left = "overlord" Right = CountryCommand }
+	
+	(N N) = { Left = "capital_scope" Right = ProvinceCommand }
+
+			
+	# ALL OF THE FOLLOWING ARE UNTESTED
+	(N N) = { Left = "random_subject_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "every_subject_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "every_rival_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "random_rival_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "every_enemy_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "random_ally" Right = CountryAllowLimitClause }
+	(N N) = { Left = "every_ally" Right = CountryAllowLimitClause }
+	(N N) = { Left = "random_active_trade_node" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "random_trade_node" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "random_heretic_province" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "every_heretic_province" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "every_active_trade_node" Right = ProvinceAllowLimitClause }
+	(N N) = { Left = { Type = ColonialRegion } Right = ProvinceAllowLimitClause }
+	(N N) = { Left = "colonial_parent" Right = CountryCommand }
+	
+	(N N) = { Left = "every_privateering_country" Right = CountryAllowLimitClause }
+	(N N) = { Left = "random_owned_area" Right = ProvinceTriggerWithOptionalTypeAllowType }
+	(N N) = { Left = "every_tribal_land_province" Right = ProvinceAllowLimitClause }
+	
+} }
+
+(ContextValidator UnitCommand) = { Members = {
+	(N N) = { Left = "unit_owner" Right = CountryAllowLimitClause }
+} }
+
+Global = {
+{% for root in ctx.calls.AllNonGlobalScopes %}
+{% for from in ctx.calls.AllNonGlobalScopes %}
+
+(Type {{ root }}CommandFrom{{ from }}) = { ContextValidator = {{ root }}CommandFrom{{ from }} }
+(ContextValidator {{ root }}CommandFrom{{ from }}) = {
+	Inherits = {{ root }}Command
+	FromTarget = {{ from }}
+}
+(Type {{ root }}TriggerFrom{{ from }}) = { ContextValidator = {{ root }}TriggerFrom{{ from }} }
+(ContextValidator {{ root }}TriggerFrom{{ from }}) = {
+	Inherits = {{ root }}Trigger
+	FromTarget = {{ from }}
+}
+
+{% endfor %}
+{% endfor %}
+}
+
+{% for scope in AllScopesExpanded %}
+
+(ContextValidator {{scope}}Trigger) = {
+	Members = {
+		(N N) = { Left = "else" Right = {{scope}}Trigger }
+		(N N) = { Left = { "if" } Right = {{scope}}IfTriggerClause }
+		(N N) = { Left = { "else_if" } Right = {{scope}}IfTriggerClause CheckHasIfOrElseIfPrior }
+
+		(N N) = { Left = "hidden_trigger" Right = {{scope}}Trigger }
+	
+		(N N) = { Left = "custom_trigger_tooltip" Right = {{scope}}TriggerTooltip }
+	}
+}
+
+(Type {{scope}}TriggerTooltip) = {
+	Single = { Left = "tooltip" Right = Key }
+	Inherits = {{scope}}Trigger
+}
+
+(ContextValidator {{scope}}Command) = { Members = {
+	(N N) = { Left = "else" Right = {{scope}}Command }
+	(N N) = { Left = { "if" } Right = {{scope}}IfClause }
+	(N N) = { Left = { "else_if" } Right = {{scope}}IfClause CheckHasIfOrElseIfPrior }
+	(N N) = { Left = "while" Right = {{scope}}RequireLimitClause }
+	
+	(N N) = { Left = "hidden_effect" Right = {{scope}}Command }
+	(N N) = { Left = "tooltip" Right = {{scope}}Command }
+} }
+
+(Type {{scope}}IfTriggerClause) = {
+	Inherits = {{scope}}RequireLimitTriggerClause
+	(Ch N N) = { Left = "else" Right = {{scope}}Trigger }
+}
+
+(Type {{scope}}AllowLimitClause) = {
+	Optional = { Left = "limit" Right = {{scope}}Trigger }
+	Optional = { Left = "type" Right = { Literal = "random" } }
+	Optional = { Left = "amount" Right = PInt }
+	Inherits = {{scope}}Command
+}
+
+(Type {{scope}}IfClause) = {
+	Inherits = {{scope}}RequireLimitClause
+}
+
+(Type {{scope}}RequireLimitClause) = {
+	Single = { Left = "limit" Right = {{scope}}Trigger }
+	Inherits = {{scope}}Command
+}
+
+(Type {{scope}}RequireLimitTriggerClause) = {
+	Single = { Left = "limit" Right = {{scope}}Trigger }
+	Inherits = {{scope}}Trigger
+}
+{% endfor %}
+
+(Type ProvinceTriggerWithOptionalType) = {
+	# Note: "any" is default so rarely used
+	Optional = { Left = "type" Right = { Literal = "all" Literal = "any" } }
+	Inherits = ProvinceTrigger
+}
+
+(Type ProvinceTriggerWithOptionalTypeAllowType) = {
+	Optional = { Left = "limit" Right = ProvinceTrigger }
+	# Note: "any" is default so rarely used
+	Optional = { Left = "type" Right = { Literal = "all" Literal = "any" } }
+	Inherits = ProvinceCommand
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

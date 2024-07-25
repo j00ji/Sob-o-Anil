@@ -1,14 +1,21 @@
-###ÄNSI
-85001={
-	name="Ghassanid"
-	culture=turco
+######################################
+### 	 Cisplatino Dynasties 	   ###
+### Cisplatino Range: 85001-120000 ###
+######################################
+############################
+### Paranaense Dynasties ###
+###   ID: 85001-90000	 ###
+############################
+85001 = {
+	name="Saporski"
+	culture=paranaense
 	can_appear=no
 	used_for_random=no
 	coat_of_arms = {
 		template = 0
 		layer = {
 			texture = 7
-			texture_internal = 18
+			texture_internal = 32
 			emblem = 0
 			color = 0
 			color = 0
@@ -16,7 +23,7 @@
 		}
 	}
 }
-85002={
+85002 = {
 	name="Guerios"
 	culture=paranaense
 	can_appear=no
@@ -33,7 +40,7 @@
 		}
 	}
 }
-85003={
+85003 = {
 	name="Leão"
 	culture=paranaense
 	can_appear=no
@@ -58,21 +65,10 @@
 }
 
 85005 = {
-	name = "Saporski"
+	name="Beruski"
 	culture=paranaense
 	can_appear=no
 	used_for_random=no
-	coat_of_arms = {
-		template = 0
-		layer = {
-			texture = 7
-			texture_internal = 32
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-	}
 }
 
 85006 = {
@@ -1755,11 +1751,11 @@
 		}
 	}
 }
-100008={
-	name="Schumann"
+100008 = {
+	name="Albrecht"
 	culture=hunsruckisch
-	can_appear = no
-	used_for_random = no	
+	can_appear=no
+	used_for_random=no	
 }
 
 100009={
@@ -1913,8 +1909,8 @@
 	name="Henschel"
 	culture=hunsruckisch
 }
-100523={
-	name="Albrecht"
+100523 = {
+	name="Schumann"
 	culture=hunsruckisch
 }
 100524={

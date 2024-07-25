@@ -939,6 +939,18 @@ e_the_south = {
 				b_meia_lua = {}
 				b_pinare = {}
 			}
+			c_apucarana = { # 229
+				color={ 168 255 175 }
+				color2={ 255 255 255 }
+				
+				b_apucarana = {}
+				b_arapongas = {}
+				b_rolandia = {}
+				b_nova_itacolomi = {}
+				b_tamarana = {}
+				b_jandaia_do_sul_2 = {}
+				b_maua_da_serra = {}
+			}
 		}
 		d_paranapanema = {
 			color={ 234 19 125 }
@@ -959,18 +971,6 @@ e_the_south = {
 				b_florestopolis = {}
 				b_jataizinho = {}
 				b_porecatu = {}
-			}
-			c_apucarana = { # 229
-				color={ 168 255 175 }
-				color2={ 255 255 255 }
-				
-				b_apucarana = {}
-				b_arapongas = {}
-				b_rolandia = {}
-				b_nova_itacolomi = {}
-				b_tamarana = {}
-				b_jandaia_do_sul_2 = {}
-				b_maua_da_serra = {}
 			}
 			c_santo_antonio_da_platina = { # 230
 				color={ 105 49 74 }

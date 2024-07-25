@@ -1,4 +1,4 @@
 2364.1.8 = {
-	holder=230006 # Juan Bosco
+	holder=230100 # Juan Hurtado
 	liege=k_patriarchy
 }

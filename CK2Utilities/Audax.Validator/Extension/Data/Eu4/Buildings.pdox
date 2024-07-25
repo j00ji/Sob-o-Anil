@@ -1,0 +1,154 @@
+(Validator Building) = {
+	Type = GroupValidator
+	FriendlyName = "Building"
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\buildings" "*.txt")
+		ValidatorName = BuildingFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\great_projects" "*.txt")
+		ValidatorName = GreatProjectFile
+	}
+}
+
+(Type BuildingFile) = {
+	(Ch N N) = { Left = "manufactory" Right = ManufactoryTemplateDef UniqueId = Left }
+	(Ch N N) = { Left = { Type = String } Right = BuildingOrManufactoryDef UniqueId = Left }
+}
+
+(Type BuildingManufactoryTemplateCommonDef) = {
+	Single = { Left = "cost" Right = Int }
+	Single = { Left = "time" Right = Int }
+	Optional = { Left = "modifier" Right = ProvinceModifierDef }
+}
+
+(Type ManufactoryTemplateDef) = {
+	Inherits = BuildingManufactoryTemplateCommonDef
+}
+
+(Type BuildingManufactoryCommonDef) = {
+	Single = { Left = "ai_will_do" Right = AiWillDo }
+	Optional = { Left = "onmap" Right = Bool }
+	Optional = { Left = "show_separate" Right = Bool }
+	Optional = { Left = "trigger" Right = ProvinceTriggerFromCountry }
+	Optional = { Left = "potential" Right = ProvinceTriggerFromCountry }
+	Optional = { Left = "on_built" Right = ProvinceCommandFromCountry }
+	Optional = { Left = "on_destroyed" Right = ProvinceCommandFromCountry }
+	Optional = { Left = "on_obsolete" Right = ProvinceCommandFromCountry }
+	Optional = { Left = "on_construction_started" Right = ProvinceCommandFromCountry }
+	Optional = { Left = "on_construction_canceled" Right = ProvinceCommandFromCountry }
+	Optional = { Left = "build_trigger" Right = ProvinceTriggerFromCountry }
+	Optional = { Left = "keep_trigger" Right = ProvinceTriggerFromCountry }
+	Optional = { Left = "one_per_country" Right = Bool }
+
+}
+
+(Type BuildingOrManufactoryDef) = {
+	(CheckKey "building_*" Left IfNot = NoCheckKey)
+	NodeSwitcher = {
+		Node = "manufactory\[L]"
+		Default = BuildingDef
+		MarkChecked = False
+		
+		Switch = {
+			"manufactory" = ManufactoryDef
+		}
+	}
+}
+
+(Type ManufactoryDef) = {
+	Inherits = BuildingManufactoryCommonDef
+	Single = { Left = "manufactory" Right = { (PdoList Y) = { Type = { Type = TradeGood Literal = "all" } } } }
+	Optional = { Left = "modifier" Right = ProvinceModifierDef }
+
+}
+
+(Type BuildingDef) = {
+	Inherits = BuildingManufactoryTemplateCommonDef
+	Inherits = BuildingManufactoryCommonDef
+	
+	
+	Optional = { Left = "destroy_on_conquest" Right = Bool }
+	Optional = { Left = "spare_on_core" Right = Bool }
+	(Optional If = Add1) = { Left = "government_specific" Right = Bool }
+	Optional = { Left = "influencing_fort" Right = Bool }
+	Optional = { Left = "allow_in_gold_provinces" Right = Bool }
+	Optional = { Left = "indestructible" Right = Bool }
+	
+	Optional = { Left = "category" Right = Int }
+	
+	Optional = { Left = "make_obsolete" Right = Building }
+
+}
+
+(Type AiWillDo) = {
+	Optional = { Left = "factor" Right = NnDbl }
+	(Ch N Y) = { Left = "modifier" Right = Modifier }
+}
+
+(Type Modifier) = {
+	Inherits = FactorModifier
+	Optional = { Left = "factor" Right = NnDbl }
+	
+	Inherits = ProvinceTriggerFromCountry
+	
+}
+
+(Type GreatProjectFile) = {
+	(Ch N N) = { Left = { Type = String } Right = GreatProjectDef UniqueId = Left }
+}
+
+(Type GreatProjectDef) = {
+	#(CheckKey "construct_*_title" Left IfNot = NoCheckKey)
+	#(CheckKey "construct_*_desc" Left IfNot = NoCheckKey)
+	#(CheckKey "cancel_*_title" Left IfNot = NoCheckKey)
+	#(CheckKey "cancel_*_desc" Left IfNot = NoCheckKey)
+	#(CheckKey "great_project_*" Left IfNot = NoCheckKey)
+	(CheckKey "*" Left IfNot = NoCheckKey)
+	#(CheckKey "*_title" Left IfNot = NoCheckKey)
+
+	Single = { Left = "start" Right = LandProvince }
+	Single = { Left = "date" Right = Date }
+	Single = { Left = "time" Right = GreatProjectTime }
+	Single = { Left = "build_cost" Right = Int }
+	Single = { Left = "can_be_moved" Right = Bool }
+	Optional = { Left = "move_days_per_unit_distance" Right = Int }
+	Single = { Left = "starting_tier" Right = Int }
+	Single = { Left = "type" Right = { Literal = "canal" Literal = "monument" } }
+	
+	Single = { Left = "build_trigger" Right = ProvinceTriggerFromCountry }
+	Optional = { Left = "on_built" Right = ProvinceCommand }
+	Optional = { Left = "on_destroyed" Right = ProvinceCommand }
+	Single = { Left = "can_use_modifiers_trigger" Right = ProvinceTriggerFromCountry }
+	Single = { Left = "can_upgrade_trigger" Right = ProvinceTriggerFromCountry }
+	Single = { Left = "keep_trigger" Right = ProvinceTriggerFromCountry }
+	
+	Single = { Left = "tier_0" Right = GreatProjectTier }
+	Single = { Left = "tier_1" Right = GreatProjectTier }
+	Single = { Left = "tier_2" Right = GreatProjectTier }
+	Single = { Left = "tier_3" Right = GreatProjectTier }
+}
+
+(Type GreatProjectTier) = {
+	Single = { Left = "upgrade_time" Right = GreatProjectTime }
+	Single = { Left = "cost_to_upgrade" Right = GreatProjectCostToUpgrade }
+	Single = { Left = "province_modifiers" Right = ProvinceModifierDef }
+	Single = { Left = "area_modifier" Right = ProvinceModifierDef }
+	Single = { Left = "country_modifiers" Right = CountryModifierDef }
+	Single = { Left = "on_upgraded" Right = ProvinceCommand }
+}
+
+(Type GreatProjectTime) = {
+	Single = { Left = "months" Right = Int }
+}
+
+(Type GreatProjectCostToUpgrade) = {
+	Single = { Left = "factor" Right = NnDbl }
+}
+
+
+

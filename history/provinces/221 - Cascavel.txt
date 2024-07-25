@@ -15,7 +15,7 @@ b_santa_tereza_doeste = temple
 #b_ibema = castle
 
 # Misc
-culture = paranaense
-religion = celeste
+culture = rutenio
+religion = orthodoxist
 
 #History

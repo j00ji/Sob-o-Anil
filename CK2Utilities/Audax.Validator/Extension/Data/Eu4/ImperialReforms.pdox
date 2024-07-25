@@ -1,0 +1,61 @@
+
+Global = {
+	(Type ImperialReformFile) = {
+		(Ch N N) = { Left = { Type = String } Right = ImperialReformDef UniqueId = Left }
+	}
+}
+
+(Type ImperialReformDef) = {
+	Single = { Left = "empire" Right = { Literal = "hre" Literal = "celestial_empire" } }
+	NodeSwitcher = {
+		Node = "empire"
+		MarkChecked = False
+		
+		Switch = {
+			"hre" = {
+				Single = { Left = "potential" Right = CountryTrigger }
+				Single = { Left = "gui_container" Right = { String } }
+				Optional = { Left = "required_reform" Right = HreImperialReform }
+				Optional = { Left = "disabled_by" Right = HreImperialReform }
+				Optional = { Left = "ai_acceptance_centralize" Right = Bool }
+				Optional = { Left = "ai_acceptance_decentralize" Right = Bool }
+			}
+			"celestial_empire" = {
+				Optional = { Left = "required_reform" Right = EocImperialReform }
+				Optional = { Left = "disabled_by" Right = EocImperialReform }
+				Optional = { Left = "trigger" Right = CountryTrigger }
+			}
+		}
+	}
+
+	(CheckKey "*_title" Left IfNot = NoCheckKey)
+	(CheckKey "*_desc" Left IfNot = NoCheckKey)
+	#(CheckKey "*_member" Left IfNot = NoCheckKey)
+	#(CheckKey "desc_*_member" Left IfNot = NoCheckKey)
+	#(CheckKey "*_emperor" Left IfNot = NoCheckKey)
+	#(CheckKey "desc_*_emperor" Left IfNot = NoCheckKey)
+	
+	Optional = { Left = "war" Right = Bool }
+	
+	Optional = { Left = "member" Right = CountryModifierDef }
+	Optional = { Left = "emperor" Right = CountryModifierDef }
+	Optional = { Left = "all" Right = CountryModifierDef }
+	Optional = { Left = "on_effect" Right = OnOffEffect }
+	Optional = { Left = "off_effect" Right = OnOffEffect }
+	Optional = { Left = "province" Right = ProvinceModifierDef }
+	Optional = { Left = "elector_per_prince" Right = CountryModifierDef }
+	Optional = { Left = "emperor_per_prince" Right = CountryModifierDef }
+
+}
+
+(Type OnOffEffect) = {
+	Optional = { Left = "enable_imperial_realm_war" Right = Bool }
+
+	Inherits = CountryCommand
+}
+
+
+
+
+
+

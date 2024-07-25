@@ -624,13 +624,12 @@
 }
 640101 = {
 	name="Zaina"
-	dynasty=110004 # Habib
+	dynasty=305004
 	female=yes
 
 	culture=turco
 	religion=catholic
 
-	
     martial=3
     diplomacy=3
     stewardship=3
@@ -820,7 +819,7 @@
 ###################
 640064 = {
 	name="Tomas"
-	dynasty=295001295001
+	dynasty=295001
 
 	culture=chaqueno
 	religion=catholic
@@ -1105,11 +1104,11 @@
     2420.1.1={death=yes}
 }#Wife of the Count Kuarahy Hayes
 ##################
-### House Amat ###
+### House Seineldín ###
 ##################
 680001={
     name="Omar"
-    dynasty=305005 # Amat
+    dynasty=305005 # Seineldín
     culture=turco
     religion=catholic
     martial=5
@@ -1632,7 +1631,7 @@
 }
 ### Issue of Francisco the Friar Knight ###
 640046 = {
-    name="José" # José Aldao the Knight of the Andes, Duke of Mendoza.
+    name="José" # José Aldao the Sword of the Andes, Duke of Mendoza.
     dynasty=290001
 
 	diplomacy = 3
@@ -1669,7 +1668,7 @@
 	}
 	2364.7.5 = {
 		add_trait="crusader"
-		give_nickname=nick_the_knight_of_the_andes
+		give_nickname=nick_the_sword_of_the_andes
 	}
 	2364.11.8 = {
 		add_trait="scarred_mid"
@@ -1703,7 +1702,7 @@
 		add_trait="zealous"
 	}
 }
-### Issue of José the Knight of the Andes ###
+### Issue of José the Sword of the Andes ###
 
 ####################
 ### House Llaver ###
@@ -2548,52 +2547,50 @@
 ### House Wheelwright ###
 #########################
 640014 = {
-    name="Rodolfo"
-    dynasty=355079 # Wheelwright
-    culture=litoraleno
-    religion=catholic
-    martial=5
-    diplomacy=3
-    stewardship=3
-    intrigue=3
-    learning=3
-    trait=skilled_tactician
-    trait=crusader
-    trait=wroth
-    trait=humble
-    trait=envious
-    trait=ambitious
-    2335.1.1={birth=yes}
-    2370.1.1={death=yes}
-}#Count of General Lopez
-640015={
-    name="Leyla"
-    dynasty=285009 # Wheelwright
+	name="Rodolfo"
+	dynasty=355079 # Wheelwright
+	culture=litoraleno
+	religion=catholic
+	martial=5
+	diplomacy=3
+	stewardship=3
+	intrigue=3
+	learning=3
+	trait=skilled_tactician
+	trait=crusader
+	trait=wroth
+	trait=humble
+	trait=envious
+	trait=ambitious
+	2335.1.1={birth=yes}
+}
+### Issue of Rodolfo ###
+640015 = {
+	name="Leyla"
+	dynasty=355079 # Wheelwright
 	father=640014
-    female=yes
-    culture=litoraleno
-    religion=catholic
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
+	female=yes
+	culture=litoraleno
+	religion=catholic
+	martial=1
+	diplomacy=1
+	stewardship=1
+	intrigue=1
+	learning=1
     2360.1.1={birth=yes}
-    2400.1.1={death=yes}
-}#First child
-640016={
-    name="Oscar"
-    dynasty=355079 # Wheelwright
+}
+640016 = {
+	name="Oscar"
+	dynasty=355079 # Wheelwright
 	father=640014
-    culture=litoraleno
-    religion=catholic
-    martial=1
-    diplomacy=1
-    stewardship=1
-    intrigue=1
-    learning=1
-    2364.1.1={birth=yes}
-    2400.1.1={death=yes}
+	culture=litoraleno
+	religion=catholic
+	martial=1
+	diplomacy=1
+	stewardship=1
+	intrigue=1
+	learning=1
+	2364.1.1={birth=yes}
 }
 #####################
 ### House Guevara ###

@@ -10,3 +10,6 @@
 2356.10.7 = {
 	holder = 310001
 }
+2368.12.6 = {
+	liege=k_nova_rutenia
+}

@@ -15,7 +15,7 @@ b_campo_mourao = castle
 #b_lunardelli = castle
 
 # Misc
-culture = paranaense
-religion = celeste
+culture = rutenio
+religion = orthodoxist
 
 #History

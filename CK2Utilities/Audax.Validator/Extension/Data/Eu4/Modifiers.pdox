@@ -1,0 +1,664 @@
+(Validator Modifiers) = {
+	Type = GroupValidator
+	FriendlyName = "Modifiers"
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\province_triggered_modifiers" "*.txt")
+		ValidatorName = ProvinceTriggeredModifierFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\timed_modifiers" "*.txt")
+		ValidatorName = TimedModifierFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\event_modifiers" "*.txt")
+		ValidatorName = ModifierFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\static_modifiers" "*.txt")
+		ValidatorName = StaticModifierFile
+	}
+
+	Validator = {
+		Type = Default
+		(FileGroup "common\triggered_modifiers" "*.txt")
+		ValidatorName = TriggeredModifierFile
+	}
+	
+	Validator = {
+		Type = Default
+		(FileGroup "common\opinion_modifiers" "*.txt")
+		ValidatorName = OpinionModifiersFile
+	}
+	
+	# Temporarily disabled (by adding MustBeMatched = False in 2 places) since it seems like there's something going on
+	Validator = {
+		Type = ResourceUseValidator
+		Description = "Modifier pictures"
+		SupplyUnique = False
+		
+		# For picture=""
+		#Supply = {
+		#	(DataSource StringList) = { "" }
+		#	MustBeMatched = False
+		#}
+		
+		Supply = {
+			(DataSource Chained) = {
+				Enum = { Key = SpriteType }
+				(StringOp ToUpper)
+			}
+			
+			MustBeMatched = False
+		}
+		
+		Supply = {
+			(DataSource Chained) = {
+				(FileGroup "gfx\interface\ideas_EU4" "*.dds")
+				(StringOp ToUpper)
+				(StringOp Replace "\\" "\")
+				(StringOp Replace ".DDS" "")
+				(StringOp Replace "GFX\INTERFACE\IDEAS_EU4\" "")
+			}
+			
+			MustBeMatched = False
+		}
+		
+		Demand = {
+			(DataSource Chained) = {
+				Or = {
+					Pdo = { (FileGroup "common\event_modifiers" "*.txt") }
+					Pdo = { (FileGroup "common\static_modifiers" "*.txt") }
+					Pdo = { (FileGroup "common\triggered_modifiers" "*.txt") }
+				}
+				SelectPath = { Path = "*\picture\[R]" }
+				(StringOp ToUpper)
+			}
+			
+			MustBeMatched = True
+		}
+		
+		# The default event image
+		#Demand = {
+		#	(DataSource StringList) = { "GFX_EVENT_NO_IMAGE" }
+		#	MustBeMatched = True
+		#}
+	}
+
+}
+
+(Type ProvinceTriggeredModifierFile) = {
+	(Ch Y N) = { Left = { Type = String } Right = ProvinceTriggeredModifierDef }
+}
+
+(Type ProvinceTriggeredModifierDef) = {
+	Inherits = ProvinceModifierDef
+
+	Optional = { Left = "potential" Right = ProvinceTrigger }
+	Optional = { Left = "trigger" Right = ProvinceTrigger }
+	Optional = { Left = "on_activation" Right = ProvinceCommand }
+	Optional = { Left = "on_deactivation" Right = ProvinceCommand }
+	Optional = { Left = "picture" Right = String }
+}
+
+(Type OpinionModifiersFile) = {
+	(Ch N N) = {
+		Left = { Type = String }
+		Right = OpinionModifierDef
+		(CheckKey "*" Left IfNot = NoCheckKey)
+		UniqueId = {
+			Target = Left
+			(If If = Modifiers.IgnoreDuplicateIdsIfInVanillaForOpinionModifiers) = {
+				IgnoreVanillaIfInModNonReplace = True
+				IgnoreVanillaIfInModReplace = True
+			}
+		}
+	}
+}
+
+(Type OpinionModifierDef) = {
+	Single = { Left = "opinion" Right = Int }
+	Optional = { Left = "yearly_decay" Right = Double }
+	Optional = { Left = "min" Right = Int }
+	Optional = { Left = "max" Right = Int }
+	Optional = { Left = "max_vassal" Right = Int }
+	Optional = { Left = "max_in_other_direction" Right = Int }
+	
+	Optional = { Left = "years" Right = Int }
+	Optional = { Left = "months" Right = Int }
+	AtMostOne = { years months }
+}
+
+(Type StaticModifierFile) = {
+	# https://forum.paradoxplaza.com/forum/index.php?threads/the-validator-find-errors-quickly-and-with-minimal-pain.720987/page-55#post-20313068
+	# Only supports the following modifiers
+	Optional = { Left = "local_autonomy_multiplicative" (Right LocalAutonomyMultiplicativeDef) = {
+		Optional = { Left = "local_manpower_modifier" Right = NzDbl }
+		Optional = { Left = "local_tax_modifier" Right = NzDbl }
+		Optional = { Left = "local_production_efficiency" Right = NzDbl }
+		Optional = { Left = "local_sailors_modifier" Right = NzDbl }
+		Optional = { Left = "province_trade_power_modifier" Right = NzDbl }
+		Optional = { Left = "land_forcelimit_modifier" Right = NzDbl }
+		Optional = { Left = "naval_forcelimit_modifier" Right = NzDbl }
+	} }
+
+	Inherits = ModifierFile
+}
+
+(Type ModifierFile) = {
+	(Ch N N) = { 
+		Left = { Type = String }
+		Right = {
+			Inherits = ModifierCommand
+			#Optional = { Left = "icon" Right = Int }
+			Optional = { Left = "picture" Right = String }
+			Optional = { Left = "religion" Right = Bool }
+			Optional = { Left = "secondary_religion" Right = Bool }
+			Optional = { Left = "is_janissary_modifier" Right = Bool }
+			Optional = { Left = "expire_message_type" Right = Key }
+			Optional = { Left = "is_scholar_modifier" Right = Bool }
+			Optional = { Left = "religion_sub_modifier" Right = Bool }
+			Optional = { Left = "is_rajput_modifier" Right = Bool }
+			Optional = { Left = "is_mercenary_modifier" Right = Bool }
+			Optional = { Left = "is_revolutionary_guard_modifier" Right = Bool }
+			Optional = { Left = "block_introduce_heir" Right = Bool }
+		}
+		(CheckKey "*" Left IfNot = NoCheckKey)
+		(If If = Modifiers.EnableModifierDescriptionCheck) = {
+			(CheckKey "desc_*" Left IfNot = NoCheckKey)
+		}
+		UniqueId = {
+			Target = Left
+			(If If = Modifiers.IgnoreDuplicateIdsIfInVanillaForEventAndStaticModifiers) = {
+				IgnoreVanillaIfInModNonReplace = True
+				IgnoreVanillaIfInModReplace = True
+			}
+		}
+	}
+}
+
+(Type TriggeredModifierFile) = {
+	(Ch N N) = { 
+		Left = { Type = String }
+		Right = {
+			Inherits = ModifierCommand
+			#Optional = { Left = "icon" Right = Int }
+			Optional = { Left = "trigger" Right = CountryTrigger }
+			Optional = { Left = "potential" Right = CountryTrigger }
+			Optional = { Left = "ai_weight" Right = {
+				Single = { Left = "factor" Right = Double }
+				(Ch N Y) = { Left = "modifier" Right = {
+					Inherits = FactorModifier
+					Optional = { Left = "factor" Right = NnDbl }
+					
+					Inherits = CountryTrigger
+				} }
+			} }
+			OneOf = { "trigger" "potential" }
+		}
+		(CheckKey "*" Left IfNot = NoCheckKey)
+		(If If = Modifiers.EnableModifierDescriptionCheck) = {
+			(CheckKey "desc_*" Left IfNot = NoCheckKey)
+		}
+		(UniqueId IfNot = Modifiers.NoCheckUniqueKeyTrigger) = Left
+	}
+}
+
+# ONLY use for modifiers files, nothing else
+# Everything else should be able to figure out what it itself is
+(Type ModifierCommand) = {
+	Inherits = CountryModifierDef
+	Inherits = ProvinceModifierDef
+}
+
+# DOESNT DO ANYTHING RIGHT NOW
+# Since province modifiers can target their owner country, but not vice versa
+#ModifiersInformation = {
+#	TypeToDefinitionMap = {
+#		Country = CountryModifierDef
+#		Province = ProvinceModifierDef
+#	}
+#	
+#	ModifierRoots = {
+#		Pdo = { Path = "common\static_modifiers.txt" }
+#		Pdo = { Path = "common\event_modifiers.txt" }
+#		Pdo = { Path = "common\triggered_modifiers.txt" }
+#	}
+#}
+
+(Type.Enum EstatePreloadModifierKey) = { Import = { (FileGroup "common\estates_preload" "*.txt") SelectPath = "*\modifier_definition\key\[R]" } }
+
+(Type.Enum CountryModifierLiteralDoubleKey) = { Values = {
+	global_unrest
+	global_ship_recruit_speed	global_tax_modifier	global_manpower_modifier	global_regiment_recruit_speed
+	global_missionary_strength	global_ship_cost	global_regiment_cost	global_trade_power
+	global_spy_defence	global_colonial_growth	global_prov_trade_power_modifier	global_foreign_trade_power	global_tariffs
+	global_own_trade_power	global_manpower	naval_attrition	defensiveness	reinforce_speed	land_morale	discipline
+	land_forcelimit_modifier	range	relations_decay_of_me	spy_offence	diplomatic_reputation	adm_tech_cost_modifier
+	dip_tech_cost_modifier	mil_tech_cost_modifier	inflation_reduction	inflation_action_cost	stability_cost_modifier
+	prestige	heir_chance	tolerance_own	tolerance_heretic	tolerance_heathen	advisor_pool	trade_efficiency
+	idea_cost	production_efficiency	war_exhaustion_cost	interest	possible_mercenaries	merc_maintenance_modifier
+	mercenary_cost	diplomatic_upkeep	colonist_time
+	
+	merchants	colonists	diplomats	missionaries
+	
+	artillery_cost	infantry_cost	cavalry_cost	galley_cost	light_ship_cost	heavy_ship_cost	transport_cost
+	artillery_power	infantry_power	cavalry_power	galley_power	light_ship_power	heavy_ship_power	transport_power
+	
+	land_maintenance_modifier	manpower_recovery_speed	recover_navy_morale_speed	recover_army_morale_speed
+	blockade_efficiency	leader_naval_manuever	overseas_income	build_cost	navy_tradition	naval_forcelimit_modifier
+	prestige_from_naval	naval_morale	trade_steering	trade_range_modifier	hostile_attrition	land_attrition
+	leader_siege	army_tradition	leader_land_manuever	prestige_from_land
+	unjustified_demands	core_creation	rebel_support_efficiency	discovered_relations_impact
+	embargo_efficiency	advisor_cost	free_leader_pool	war_exhaustion	navy_tradition_decay	army_tradition_decay
+	technology_cost	prestige_decay	enemy_core_creation	imperial_authority	legitimacy	naval_maintenance_modifier
+	vassal_income	global_garrison_growth	religious_unity	papal_influence	trade_value
+	naval_forcelimit	colonist_placement_chance	trade_value_modifier	land_forcelimit	republican_tradition
+	max_war_exhaustion
+	
+	global_trade_goods_size		siege_ability	leader_land_fire	leader_land_shock
+	leader_naval_fire	leader_naval_shock	ae_impact	improve_relation_modifier	privateer_efficiency
+	monthly_fervor_increase	envoy_travel_time	global_heretic_missionary_strength
+		administrative_efficiency	migration_cooldown
+	
+	culture_conversion_cost years_of_nationalism vassal_forcelimit_bonus
+	# https://forum.paradoxplaza.com/forum/index.php?threads/the-validator-find-errors-quickly-and-with-minimal-pain.720987/page-67#post-21976612
+	# accepted_culture_threshold
+	ship_durability diplomatic_annexation_cost global_ship_repair
+	
+	 global_autonomy province_warscore_cost
+	
+	caravan_power	global_tax_income	liberty_desire
+	
+	# v1.12
+	church_power_modifier	development_cost	devotion	female_advisor_chance	fort_maintenance_modifier
+	garrison_size	global_trade_goods_size_modifier	loot_amount	development_efficiency
+	
+	#https://forum.paradoxplaza.com/forum/index.php?threads/the-validator-find-errors-quickly-and-with-minimal-pain.720987/page-47#post-19870609
+	#global_trade_income_modifier
+	
+	native_uprising_chance native_assimilation horde_unity
+	
+	global_sailors_modifier	global_sailors	sailors_recovery_speed	max_states	state_maintenance_modifier	fabricate_claims_cost
+	justify_trade_conflict_cost	yearly_corruption
+	global_ship_trade_power	min_autonomy	all_power_cost	raze_power_gain
+	
+	# Supposedly these don't work anymore: https://forum.paradoxplaza.com/forum/index.php?threads/the-validator-find-errors-quickly-and-with-minimal-pain.720987/page-61#post-21033421
+	#fabricate_claims_time	justify_trade_conflict_time
+	reduced_liberty_desire
+	
+	embracement_cost	global_institution_spread	movement_speed	capture_ship_chance	shock_damage_received
+	cavalry_flanking	sunk_ship_morale_hit_recieved	naval_tradition_from_battle	army_tradition_from_battle
+	fire_damage	monthly_militarized_society	reinforce_cost_modifier
+	
+	meritocracy	absolutism	max_absolutism	imperial_authority_value	monarch_admin_power	monarch_diplomatic_power	monarch_military_power
+	core_decay_on_your_own	war_taxes_cost_modifier	rival_change_cost	claim_duration	cav_to_inf_ratio	mercenary_discipline
+	artillery_levels_available_vs_fort	backrow_artillery_damage	rival_border_fort_maintenance	siege_blockade_progress
+	enforce_religion_cost	institution_spread_from_true_faith	prestige_per_development_from_conversion	warscore_cost_vs_other_religion
+	yearly_harmony	shock_damage	yearly_absolutism	amount_of_banners	fire_damage_received	reduced_liberty_desire_on_same_continent
+	harsh_treatment_cost	autonomy_change_time	global_naval_engagement_modifier	liberty_desire_from_subject_development
+	ship_power_propagation
+	
+	sailor_maintenance_modifer	imperial_mandate	monthly_splendor
+	
+	monthly_piety	monthly_karma	placed_merchant_power
+	
+	possible_condottieri	build_time	harmonization_speed
+	
+	promote_culture_cost	same_culture_advisor_cost	yearly_tribal_allegiance	yearly_army_professionalism	drill_gain_modifier
+	general_cost	reserves_organisation	attack
+	
+	drill_decay_modifier	innovativeness_gain
+	
+	leader_cost	free_adm_policy	free_dip_policy	min_autonomy_in_territories	possible_adm_policy	election_cycle	candidate_random_bonus
+	possible_dip_policy	reelection_cost	mil_advisor_cost	free_policy	free_mil_policy	reform_progress_growth	adm_advisor_cost
+	dip_advisor_cost	 power_projection_from_insults
+	
+	expel_minorities_cost	monthly_support_heir_gain	center_of_trade_upgrade_cost	global_supply_limit_modifier	admiral_cost
+	naval_tradition_from_trade	missionary_maintenance_cost	establish_order_cost	flagship_durability	number_of_cannons_flagship_modifier
+	flagship_morale	treasure_fleet_income	naval_maintenance_flagship_modifier	trade_power_in_fleet_modifier	morale_in_fleet_modifier
+	blockade_impact_on_siege_in_fleet_modifier	exploration_mission_range_in_fleet_modifier	barrage_cost_in_fleet_modifier
+	naval_attrition_in_fleet_modifier	movement_speed_onto_off_boat_modifier	flagship_landing_penalty	admiral_skill_gain_modifier
+	privateering_efficiency_in_fleet_modifier	prestige_from_battles_in_fleet_modifier	naval_tradition_in_fleet_modifier
+	movement_speed_in_fleet_modifier	global_naval_barrage_cost	trade_company_investment_cost	own_coast_naval_combat_bonus
+
+	mercenary_manpower governing_capacity_modifier
+	allowed_marine_fraction
+	mercantilism_cost state_governing_cost
+	available_province_loot
+	manpower_in_true_faith_provinces
+	governing_capacity
+	yearly_revolutionary_zeal
+	global_heathen_missionary_strength
+	tribal_development_growth monthly_federation_favor_growth
+	great_project_upgrade_cost
+	monthly_heir_claim_increase
+	trade_company_governing_cost
+	expand_administration_cost
+	curia_powers_cost appoint_cardinal_cost
+	monarch_lifespan
+	yearly_patriarch_authority
+	papal_influence_from_cardinals
+	migration_cost add_tribal_land_cost governing_cost
+	supply_limit_modifier
+	global_religious_conversion_resistance
+	flagship_cost
+	curia_treasury_contribution	max_electors	special_unit_forcelimit	disengagement_chance	yearly_karma_decay
+	global_prosperity_growth	monthly_reform_progress_modifier	special_unit_forcelimit	monthly_favor_modifier
+	
+	global_rebel_suppression_efficiency	amount_of_cawa	all_estate_loyalty_equilibrium	move_capital_cost_modifier	yearly_authority
+	yearly_doom_reduction	tolerance_of_heathens_capacity	tolerance_of_heretics_capacity	gold_depletion_chance_modifier
+	monthly_gold_inflation_modifier	monthly_piety_accelerator	global_monthly_devastation	state_governing_cost_increase
+	
+	settle_cost
+	morale_damage morale_damage_received max_hostile_attrition global_trade_goods_size all_estate_influence_modifier
+	amount_of_carolean amount_of_hussars development_cost_modifier
+	manpower_in_accepted_culture_provinces manpower_in_culture_group_provinces manpower_in_own_culture_provinces monthly_church_power
+	monthly_karma_accelerator regiment_disembark_speed regiment_manpower_usage transport_attrition military_tactics
+	colonial_subject_type_upgrade_cost_modifier colonial_type_change_cost_modifier
+	cannons_for_hunting_pirates_in_fleet reform_progress_growth_building
+	
+	# v 1.35
+	special_unit_cost_modifier janissary_cost_modifier artillery_barrage_cost artillery_level_modifier assault_fort_cost_modifier assault_fort_ability
+	garrison_damage merc_leader_army_tradition tributary_conversion_cost_modifier chance_to_inherit overextension_impact_modifier warscore_from_battles_modifier
+	expand_infrastructure_cost_modifier great_project_upgrade_time max_absolutism_effect culture_conversion_time same_religion_advisor_cost yearly_innovativeness
+	yearly_government_power centralize_state_cost loyalty_change_on_revoked estate_interaction_cooldown_modifier
+	number_of_cannons_modifier hull_size_modifier heavy_ship_number_of_cannons_modifier heavy_ship_hull_size_modifier light_ship_number_of_cannons_modifier light_ship_hull_size_modifier galley_number_of_cannons_modifier
+	number_of_cannons galley_number_of_cannons_modifier galley_hull_size_modifier
+	transport_number_of_cannons_modifier transport_hull_size_modifier naval_morale_damage naval_morale_damage_received coast_raid_range development_cost_in_primary_culture
+	reduced_trade_penalty_on_non_main_tradenode colony_cost_modifier placed_merchant_power_modifier spy_action_cost_modifier
+	parliament_chance_of_decision parliament_backing_chance 
+	vassal_manpower_bonus vassal_sailors_bonus vassal_naval_forcelimit_bonus annexation_relations_impact ship_trade_power_modifier
+	allowed_voc_indiamen_fraction allowed_geobukseon_fraction allowed_man_of_war_fraction allowed_galleon_fraction allowed_galleass_fraction allowed_caravel_fraction
+	allowed_tercio_fraction allowed_samurai_fraction allowed_musketeer_fraction
+	
+	stability_cost_to_declare_war ottoman_decadence_gain_modifier local_center_of_trade_upgrade_cost allowed_mamluks_fraction allowed_qizilbash_fraction
+	blood_gain_modifier
+} }
+
+Global = {
+
+(Type.Or CountryModifierDoubleKey) = { Type = EstatePreloadModifierKey Type = CountryModifierLiteralDoubleKey Type = MonthlyGovernmentPower }
+
+(Type CountryModifierDef) = {
+	#ModifierUniformityCheck
+	
+	(Ch Y N) = { Left = { Type = CountryModifierDoubleKey } Right = Double }
+	(Ch Y N) = { Left = { Type = FactionInfluenceEnum } Right = Double }
+	Optional = { Left = "num_accepted_cultures" Right = Int }
+	Optional = { Left = "has_banners" Right = Bool }
+	Optional = { Left = "local_has_banners" Right = Bool }
+	Optional = { Left = "possible_adm_policy" Right = Int }
+	Optional = { Left = "possible_dip_policy" Right = Int }
+	Optional = { Left = "possible_mil_policy" Right = Int }
+	Optional = { Left = "colony_development_boost" Right = Int }
+
+	Optional = { Left = "is_qizilbash_modifier" Right = Yes }
+	Optional = { Left = "is_cawa_modifier" Right = Yes }
+	Optional = { Left = "is_banner_modifier" Right = Yes }
+	Optional = { Left = "is_marine_modifier" Right = Yes }
+	Optional = { Left = "is_carolean_modifier" Right = Yes }
+	Optional = { Left = "is_cossack_modifier" Right = Yes }
+
+	Optional = { Left = "cb_on_overseas" Right = Yes }
+	Optional = { Left = "sea_repair" Right = Yes }
+	Optional = { Left = "may_explore" Right = Yes }
+	Optional = { Left = "may_reduce_inflation" Right = Yes }
+	Optional = { Left = "cb_on_primitives" Right = Yes }
+	Optional = { Left = "may_force_march" Right = Yes }
+	Optional = { Left = "reduced_stab_impacts" Right = Yes }
+	Optional = { Left = "cb_on_government_enemies" Right = Yes }
+	Optional = { Left = "may_infiltrate_administration" Right = Yes }
+	Optional = { Left = "may_sow_discontent" Right = Yes }
+	Optional = { Left = "may_sabotage_reputation" Right = Yes }
+	Optional = { Left = "cb_on_religious_enemies" Right = Yes }
+	Optional = { Left = "no_religion_penalty" Right = Yes }
+	Optional = { Left = "extra_manpower_at_religious_war" Right = Yes }
+	Optional = { Left = "reduced_native_attacks" Right = Yes }
+	Optional = { Left = "idea_claim_colonies" Right = Yes }
+	Optional = { Left = "auto_explore_adjacent_to_colony" Right = Yes }
+	Optional = { Left = "no_cost_for_reinforcing" Right = Yes }
+	Optional = { Left = "may_agitate_for_liberty" Right = Yes }
+	Optional = { Left = "may_study_technology" Right = Yes }
+	Optional = { Left = "may_recruit_female_generals" Right = Yes }
+	Optional = { Left = "may_sabotage_recruitment" Right = Yes }
+	Optional = { Left = "may_slander_merchants" Right = Yes }
+	Optional = { Left = "may_corrupt_officials" Right = Yes }
+	Optional = { Left = "may_perform_slave_raid" Right = Yes }
+	Optional = { Left = "may_steal_maps" Right = Yes }
+	Optional = { Left = "may_fabricate_claims" Right = Yes }
+	Optional = { Left = "may_perform_slave_raid_on_same_religion" Right = Yes }
+	Optional = { Left = "can_fabricate_for_vassals" Right = Yes }
+	Optional = { Left = "can_chain_claim" Right = Yes }
+	Optional = { Left = "free_maintenance_on_expl_conq" Right = Yes }
+	Optional = { Left = "may_convert_territories" Right = Yes }
+	Optional = { Left = "capped_by_forcelimit" Right = Yes }
+	Optional = { Left = "can_not_send_merchants" Right = Yes }
+	Optional = { Left = "can_not_build_missionaries" Right = Yes }
+	Optional = { Left = "can_not_build_buildings" Right = Yes }
+	Optional = { Left = "can_not_build_colonies" Right = Yes }
+	Optional = { Left = "can_not_declare_war" Right = Yes }
+	Optional = { Left = "ignore_coring_distance" Right = Yes }
+	Optional = { Left = "can_transfer_vassal_wargoal" Right = Yes }
+	Optional = { Left = "can_colony_boost_development" Right = Yes }
+
+	Optional = { Left = "infantry_fire" Right = Double }
+	Optional = { Left = "infantry_shock" Right = Double }
+	Optional = { Left = "cavalry_fire" Right = Double }
+	Optional = { Left = "cavalry_shock" Right = Double }
+	Optional = { Left = "artillery_fire" Right = Double }
+	Optional = { Left = "artillery_shock" Right = Double }
+	Optional = { Left = "flagship_naval_engagement_modifier" Right = Int }
+	Optional = { Left = "number_of_cannons_flagship" Right = Int }
+	Optional = { Left = "landing_penalty" Right = Int }
+
+	Optional = { Left = "max_general_maneuver" Right = Int }
+	Optional = { Left = "max_general_fire" Right = Int }
+	Optional = { Left = "max_general_shock" Right = Int }
+	Optional = { Left = "max_general_siege" Right = Int }
+	Optional = { Left = "max_admiral_fire" Right = Int }
+	Optional = { Left = "max_admiral_maneuver" Right = Int }
+	Optional = { Left = "max_admiral_shock" Right = Int }
+
+	Optional = { Left = "can_transport_units" Right = Yes }
+	Optional = { Left = "is_streltsy_modifier" Right = Yes }
+
+	Optional = { Left = "possible_policy" Right = Int }
+	Optional = { Left = "accept_vassalization_reasons" Right = Int }
+	Optional = { Left = "transfer_trade_power_reasons" Right = Int }
+	Optional = { Left = "max_revolutionary_zeal" Right = Int }
+	Optional = { Left = "legitimate_subject_elector" Right = Int }
+	Optional = { Left = "country_military_power" Right = Int }
+	Optional = { Left = "country_diplomatic_power" Right = Int }
+	Optional = { Left = "country_admin_power" Right = Int }
+	Optional = { Left = "max_free_cities" Right = Int }
+	Optional = { Left = "relation_with_heathens" Right = Int }
+	Optional = { Left = "relation_with_heretics" Right = Int }
+	Optional = { Left = "relation_with_same_religion" Right = Int }
+	Optional = { Left = "relation_with_same_culture" Right = Int }
+	Optional = { Left = "relation_with_other_culture" Right = Int }
+	Optional = { Left = "relation_with_same_culture_group" Right = Int }
+	Optional = { Left = "relation_with_accepted_culture" Right = Int }
+
+	Optional = { Left = "reasons_to_elect" Right = Int }
+	Optional = { Left = "global_defender_dice_roll_bonus" Right = Int }
+	Optional = { Left = "own_territory_dice_roll_bonus" Right = Int }
+	Optional = { Left = "global_allowed_num_of_buildings" Right = Int }
+	Optional = { Left = "global_attacker_dice_roll_bonus" Right = Int }
+	Optional = { Left = "national_focus_years" Right = Int }
+	Optional = { Left = "years_to_integrate_personal_union" Right = Int }
+	Optional = { Left = "allow_client_states" Right = Yes }
+	Optional = { Left = "allow_free_estate_privilege_revocation" Right = Yes }
+	Optional = { Left = "attack_bonus_in_capital_terrain" Right = Int }
+	Optional = { Left = "can_recruit_hussars" Right = Yes }
+	Optional = { Left = "has_carolean" Right = Yes }
+	Optional = { Left = "no_stability_loss_on_monarch_death" Right = Yes }
+	Optional = { Left = "may_return_manpower_on_disband" Right = Yes }
+	Optional = { Left = "may_refill_garrison" Right = Yes }
+	Optional = { Left = "may_build_supply_depot" Right = Yes }
+	Optional = { Left = "force_march_free" Right = Yes }
+	Optional = { Left = "can_bypass_forts" Right = Yes }
+	Optional = { Left = "manpower_against_imperial_enemies" Right = Int }
+	
+	# v 1.35
+	Optional = { Left = "can_recruit_cawa" Right = Yes }
+	Optional = { Left = "allow_mercenaries_to_split" Right = Yes }
+	Optional = { Left = "enable_forced_march" Right = Yes }
+	Optional = { Left = "land_morale_constant" Right = Double }
+	Optional = { Left = "can_recruit_cossacks" Right = Yes }
+	Optional = { Left = "can_recruit_rajputs" Right = Yes }
+	Optional = { Left = "can_recruit_revolutionary_guards" Right = Yes }
+	Optional = { Left = "allow_mercenary_drill" Right = Yes }
+	Optional = { Left = "merc_independent_from_trade_range" Right = Yes }
+	Optional = { Left = "can_claim_states" Right = Yes }
+	Optional = { Left = "no_claim_cost_increasement" Right = Yes }
+	Optional = { Left = "free_concentrate_development" Right = Yes }
+	Optional = { Left = "can_revoke_parliament_seats" Right = Yes }
+	Optional = { Left = "monarch_power_tribute" Right = Int }
+	Optional = { Left = "reverse_relation_with_same_religion" Right = Int }
+	Optional = { Left = "reduced_liberty_desire_on_other_continent" Right = Int }
+	Optional = { Left = "global_allowed_num_of_manufactories" Right = Int }
+	Optional = { Left = "all_estate_possible_privileges" Right = Int }
+	Optional = { Left = "max_flagships" Right = Int }
+	Optional = { Left = "naval_morale_constant" Right = Int }
+	Optional = { Left = "num_of_parliament_issues" Right = Int }
+	Optional = { Left = "max_possible_parliament_seats" Right = Int }
+	Optional = { Left = "parliament_debate_duration" Right = Int }
+	Optional = { Left = "parliament_effect_duration" Right = Int }
+	Optional = { Left = "has_man_of_war" Right = Yes }
+	Optional = { Left = "has_geobukseon" Right = Yes }
+	Optional = { Left = "has_galleon" Right = Yes }
+	Optional = { Left = "has_voc_indiamen" Right = Yes }
+	Optional = { Left = "has_galleass" Right = Yes }
+	Optional = { Left = "has_caravel" Right = Yes }
+	Optional = { Left = "has_samurai" Right = Yes }
+	Optional = { Left = "has_musketeer" Right = Yes }
+	Optional = { Left = "has_tercio" Right = Yes }
+	
+	# v 1.36
+	Optional = { Left = "has_mamluks" Right = Yes }
+	Optional = { Left = "has_qizilbash" Right = Yes }
+
+	Optional = { Left = "hull_size" Right = Int }
+	Optional = { Left = "engagement_cost" Right = Int }
+	Optional = { Left = "has_marines" Right = Bool }
+}
+
+(Type.Enum ProvinceModifierDoubleKey) = { Values = {
+	local_tax_modifier	local_manpower_modifier
+	#local_revolt_risk
+	local_unrest local_autonomy local_state_maintenance_modifier
+	local_production_efficiency
+	local_defensiveness	local_colonial_growth	local_missionary_strength	local_tariffs
+	local_manpower	local_spy_defence	local_colonist_placement_chance	province_trade_power_value
+	trade_goods_size	max_attrition	attrition	supply_limit	fort_level	regiment_recruit_speed
+	#minimum_revolt_risk
+	garrison_growth	tax_income	province_trade_power_modifier
+	local_regiment_cost	local_ship_cost	local_ship_repair
+	# local_movement_speed # now split into local_friendly_movement_speed and local_hostile_movement_speed
+	local_hostile_attrition
+	
+	inflation_reduction_local	supply_limit_modifier
+	
+	# v1.12
+	local_development_cost	local_build_cost	trade_goods_size_modifier	allowed_num_of_buildings
+	
+	local_sailors_modifier	local_sailors	ship_recruit_speed	local_naval_engagement_modifier
+	naval_forcelimit	land_forcelimit
+	
+	local_institution_spread	local_core_creation	local_build_time
+	
+	local_hostile_movement_speed	local_friendly_movement_speed	local_monthly_devastation
+	religious_conversion_resistance	local_years_of_nationalism	local_amount_of_banners
+	
+	local_culture_conversion_cost
+	
+	cs_only_local_development_cost
+	
+	institution_growth	local_religious_unity_contribution
+	
+	local_missionary_maintenance_cost
+
+	monthly_reform_progress_building tribal_development_growth
+	hostile_fleet_attrition hostile_disembark_speed blockade_force_required
+	local_governing_cost min_local_autonomy
+	
+	statewide_governing_cost	local_warscore_cost_modifier
+	
+	local_prosperity_growth	local_religious_conversion_resistance
+	local_great_project_upgrade_cost local_governing_cost_increase
+	free_navy_leader_pool free_land_leader_pool local_amount_of_cawa
+	
+	local_garrison_size local_amount_of_carolean local_amount_of_hussars local_development_cost_modifier
+	local_fort_maintenance_modifier local_gold_depletion_chance_modifier
+	
+	# v 1.35
+	local_culture_conversion_time local_great_project_upgrade_time local_centralize_state_cost local_colony_cost_modifier
+	local_tolerance_of_heretics local_tolerance_of_heathens local_garrison_damage local_assault_fort_cost_modifier local_assault_fort_ability
+} }
+
+(Type ProvinceModifierDef) = {
+	#ModifierUniformityCheck
+	Inherits = CountryModifierDef # Since province can also target country
+	
+	(Ch Y N) = { Left = { Type = ProvinceModifierDoubleKey } Right = Double }
+	(Ch Y N) = { Left = "allowed_num_of_manufactories" Right = Double }
+
+	Optional = { Left = "block_slave_raid" Right = Yes }
+	Optional = { Left = "own_territory_dice_roll_bonus" Right = Int }
+	Optional = { Left = "local_attacker_dice_roll_bonus" Right = Int }
+	Optional = { Left = "local_defender_dice_roll_bonus" Right = Int }
+	Optional = { Left = "local_own_coast_naval_combat_bonus" Right = Int }
+	Optional = { Left = "local_has_carolean" Right = Yes }
+	
+	Optional = { Left = "local_has_man_of_war" Right = Yes }
+	Optional = { Left = "local_has_geobukseon" Right = Yes }
+	Optional = { Left = "local_has_galleon" Right = Yes }
+	Optional = { Left = "local_has_voc_indiamen" Right = Yes }
+	Optional = { Left = "local_has_galleass" Right = Yes }
+	Optional = { Left = "local_has_caravel" Right = Yes }
+	Optional = { Left = "local_has_samurai" Right = Yes }
+	Optional = { Left = "local_has_musketeers" Right = Yes }
+	Optional = { Left = "local_has_tercio" Right = Yes }
+	Optional = { Left = "local_has_streltsy" Right = Yes }
+	
+	# v 1.36
+	Optional = { Left = "local_has_mamluks" Right = Yes }
+	Optional = { Left = "local_has_qizilbash" Right = Yes }
+}
+	
+}
+
+(Type TimedModifierFile) = {
+	(Ch N N) = { 
+		Left = { Type = String }
+		Right = {
+			(Ch Y N) = { Left = { Type = CountryModifierDoubleKey } Right = {
+				Single = { Left = "value" Right = Double }
+				Single = { Left = "yearly_decay" Right = Double }
+			} }
+		}
+		(CheckKey "*" Left IfNot = NoCheckKey)
+		UniqueId = Left
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

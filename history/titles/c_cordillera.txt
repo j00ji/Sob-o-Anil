@@ -7,7 +7,7 @@
 	liege=k_chile
 }
 2336.11.7 = {
-	holder=230101 # Miguel Neira
+	holder=230006 # Miguel Neira
 	liege=0
 }
 2337.6.16 = {

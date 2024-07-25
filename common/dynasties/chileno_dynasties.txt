@@ -1,3 +1,7 @@
+####################################
+### 	 Chileno Dynasties       ###
+### Chileno Range: 140001-160000 ###
+####################################
 ###########################
 ### Atacameño Dynasties ###
 ###  ID: 140001-145000  ###
@@ -98,19 +102,19 @@
 	used_for_random=no
 }
 140015 = {
-	name="Merino"
+	name="Reyes"
 	culture=atacameno
 	religion=camino_estelar
 }
 140016 = {
-	name="Guzmán"
+	name="Pérez"
 	culture=atacameno
 	religion=camino_estelar
 	can_appear=no
 	used_for_random=no
 }
 140017 = {
-	name="Pizarro"
+	name="Ortiz"
 	culture=atacameno
 	religion=camino_estelar
 }
@@ -122,7 +126,7 @@
 	used_for_random=no
 }
 140019 = {
-	name="Mamani"
+	name="Miranda"
 	culture=atacameno
 	religion=camino_estelar
 }
@@ -196,7 +200,7 @@
 	used_for_random=no
 }
 140030 = {
-	name="Moreno"
+	name="Muñoz"
 	culture=atacameno
 	religion=camino_estelar
 }
@@ -400,7 +404,7 @@
 	religion=catholic
 }
 145016 = {
-	name="Balmaceda"
+	name="Aguirre"
 	culture=centrino
 	religion=catholic
 	can_appear=no
@@ -473,7 +477,7 @@
 	religion=catholic
 }
 145022 = {
-	name="Luco"
+	name="Lira"
 	culture=centrino
 	religion=catholic
 }
@@ -520,17 +524,17 @@
 	used_for_random=no
 }
 145031 = {
-	name="Jiménez"
+	name="Balmaceda"
 	culture=centrino
 	religion=catholic
 }
 145032 = {
-	name="Irrárazabal"
+	name="Irarrázaval"
 	culture=centrino
 	religion=catholic
 }
 145033 = {
-	name="Aguirre"
+	name="Jiménez"
 	culture=centrino
 	religion=catholic
 	can_appear=no
@@ -616,6 +620,133 @@
 	religion=catholic
 	can_appear=no
 	used_for_random=no
+}
+145044 = {
+	name="Bonvallet"
+	culture=centrino
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+145045 = {
+	name="Alcayaga"
+	culture=centrino
+	religion=catholic
+}
+145046 = {
+	name="Ayala"
+	culture=centrino
+	religion=catholic
+}
+145047 = {
+	name="Bilbao"
+	culture=centrino
+	religion=catholic
+}
+145048 = {
+	name="Caro"
+	culture=centrino
+	religion=catholic
+}
+145049 = {
+	name="Chavarría"
+	culture=centrino
+	religion=catholic
+}
+145050 = {
+	name="Echenique"
+	culture=centrino
+	religion=catholic
+}
+145051 = {
+	name="Echeverría"
+	culture=centrino
+	religion=catholic
+}
+145052 = {
+	name="Eyzaguirre"
+	culture=centrino
+	religion=catholic
+}
+145053 = {
+	name="Garay"
+	culture=centrino
+	religion=catholic
+}
+145054 = {
+	name="Garmendia"
+	culture=centrino
+	religion=catholic
+}
+145055 = {
+	name="Gatica"
+	culture=centrino
+	religion=catholic
+}
+145056 = {
+	name="Ibarra"
+	culture=centrino
+	religion=catholic
+}
+145057 = {
+	name="Irribarra"
+	culture=centrino
+	religion=catholic
+}
+145058 = {
+	name="Iturrieta"
+	culture=centrino
+	religion=catholic
+}
+145059 = {
+	name="Larraechea"
+	culture=centrino
+	religion=catholic
+}
+145060 = {
+	name="Moraga"
+	culture=centrino
+	religion=catholic
+}
+145061 = {
+	name="Ochoa"
+	culture=centrino
+	religion=catholic
+}
+145062 = {
+	name="Oyarzún"
+	culture=centrino
+	religion=catholic
+}
+145063 = {
+	name="Urrejola"
+	culture=centrino
+	religion=catholic
+}
+145064 = {
+	name="Velasco"
+	culture=centrino
+	religion=catholic
+}
+145065 = {
+	name="Vergara"
+	culture=centrino
+	religion=catholic
+}
+145066 = {
+	name="Piñera"
+	culture=centrino
+	religion=catholic
+}
+145067 = {
+	name="Pinochet"
+	culture=centrino
+	religion=catholic
+}
+145068 = {
+	name="Morande"
+	culture=centrino
+	religion=catholic
 }
 145180 = {
 	name="Solnuevo"
@@ -829,7 +960,7 @@
 	religion=catholic
 }
 150023 = {
-	name="Toro"
+	name="Lillo"
 	culture=huaso
 	religion=catholic
 }
@@ -862,7 +993,7 @@
 	religion=catholic
 }
 150027 = {
-	name="Valdivia"
+	name="Soto"
 	culture=huaso
 	religion=catholic
 }
@@ -879,7 +1010,7 @@
 	used_for_random=no
 }
 150030 = {
-	name="Fernández"
+	name="Vásquez"
 	culture=huaso
 	religion=catholic
 }
@@ -905,7 +1036,7 @@
 	used_for_random=no
 }
 150034 = {
-	name="Llanos"
+	name="Fernández"
 	culture=huaso
 	religion=catholic
 	can_appear=no
@@ -941,6 +1072,20 @@
 }
 150039 = {
 	name="Harry"
+	culture=huaso
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+150040 = {
+	name="Miraflores"
+	culture=huaso
+	religion=catholic
+	can_appear=no
+	used_for_random=no
+}
+150041 = {
+	name="Hugo"
 	culture=huaso
 	religion=catholic
 	can_appear=no
