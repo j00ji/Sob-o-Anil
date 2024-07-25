@@ -4,7 +4,7 @@
 	law = succ_gavelkind
 }
 800.1.1={
-	liege=k_parana
+	
 }
 2367.1.1={
 	holder=260023 #Thiago Tanaka
