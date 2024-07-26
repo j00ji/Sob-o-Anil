@@ -83,14 +83,14 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
-		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		# clr_character_flag = pilgrimage_to_canterbury
+		# clr_character_flag = pilgrimage_to_jerusalem
+		# clr_character_flag = pilgrimage_to_koln
+		# clr_character_flag = pilgrimage_to_rome
+		# clr_character_flag = pilgrimage_to_santiago
+		# clr_character_flag = pilgrimage_to_constantinople
+		# clr_character_flag = pilgrimage_to_axum
+		# clr_character_flag = pilgrimage_to_antioch
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -105,33 +105,47 @@ character_event = {
 			if = {
 				limit = {
 					OR = {
-						capital_scope = { province_id = 73 }
-						capital_scope = { province_id = 119 }
-						capital_scope = { province_id = 333 }
-						capital_scope = { province_id = 157 }
+						capital_scope = { province_id = 1 } #Rio
+						capital_scope = { province_id = 212 } #Paranagua
+						capital_scope = { province_id = 516 } #Bom Jesus
+						capital_scope = { province_id = 586 } #Caninde
 					}
-				}
-				character_event = { id = SoA.5016 days = 4 } # Go to Jerusalem
+				} #if in any other pilgrimage site, go to Aparecida
+				character_event = { id = SoA.5016 days = 4 } # Go to Aparecida
 			}
-			if = {
+			else_if = {
 				limit = {
-					capital_scope = { province_id = 774 }
+					capital_scope = { province_id = 1097 } #Aparecida
 				}
-				character_event = { id = SoA.5017 days = 4 } # Go to Rome
+				character_event = { id = SoA.5017 days = 4 } # Go to Rio
 			}
-			if = {
+			else_if = {
 				limit = { 
-					NOT = {
-						OR = {
-							capital_scope = { province_id = 73 }
-							capital_scope = { province_id = 774 }
-							capital_scope = { province_id = 119 }
-							capital_scope = { province_id = 333 }
-							capital_scope = { province_id = 157 }
-						}
+					capital_scope = {
+						region = custom_brazil
 					}
 				}
-				character_event = { id = SoA.5018 days = 4 } # May choose destination
+				character_event = { id = SoA.5009 days = 4 } # May choose destination as a Brazilian
+			}
+			else_if = {
+				limit = {
+					OR = {
+						capital_scope = { province_id = 410 } #Pichincha
+						capital_scope = { province_id = 442 } #La Paz
+						capital_scope = { province_id = 626 } #Lujan
+						capital_scope = { province_id = 906 } #Lima
+					}
+				}
+				character_event = { id = SoA.50XX days = 4 } # Go to Santiago
+			}
+			else_if = {
+				limit = {
+					capital_scope = { province_id = 297 } #Santiago
+				}
+				character_event = { id = SoA.50XX days = 4 } # Go to Lujan
+			}
+			else = {
+				character_event = { id = SoA.50XX days = 4 } # May choose destination as a HispanoAmerican
 			}
 		}
 	}
@@ -256,24 +270,17 @@ character_event = {
 	}
 }
 
-# Catholic - Always go to Jerusalem if already living at one of the other sites
+# Catholic - Always go to Aparecida if in Brazil and already living at one of the other sites
 character_event = {
 	id = SoA.5016
 	desc = EVTDESC_SoA_5016
-	picture = GFX_evt_jerusalem
+	picture = GFX_evt_lady_aparecida
 	border = GFX_event_normal_frame_religion
 	trigger = { 
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
-		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_Aparecida
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -285,14 +292,14 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_SoA_5016
-		set_character_flag = pilgrimage_to_jerusalem
+		set_character_flag = pilgrimage_to_aparecida
 		hidden_tooltip = {
 			character_event = { id = SoA.5022 days = 15 }
 		}
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_JERUSALEM
+				entry = CHRONICLE_PILGRIMAGE_TO_APARECIDA
 				picture = GFX_evt_pilgrims_epic_journey
 			}
 		}
@@ -602,7 +609,7 @@ character_event = {
 			}
 			if = {
 				limit = {
-						is_title_active = d_holy_sepulchre
+					is_title_active = d_holy_sepulchre
 				}
 				random_list = {
 					10 = {  narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
@@ -870,14 +877,7 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
-		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_aparecida
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -900,7 +900,7 @@ character_event = {
 				limit = {
 					location = {
 						distance = {
-							where = 774	# Jerusalem
+							where = 1097 # Jerusalem
 							value = 400	# Longer journey
 						}
 					}
@@ -927,12 +927,7 @@ character_event = {
 			}
 			if = {
 				limit = {
-						OR = {
-							is_title_active = d_knights_templar
-							is_title_active = d_teutonic_order
-							is_title_active = d_knights_hospitaler
-							is_title_active = d_holy_sepulchre
-						}
+					active_holy_order_by_religion = yes
 				}
 				random_list = {
 					10 = { narrative_event = { id = SoA.5045 days = 23 random = 4 } } # Holy orders events, close to destination
@@ -3373,26 +3368,19 @@ narrative_event = {
 	}
 }
 
-# Arrived at Jerusalem
+# Arrived at Aparecida
 narrative_event = {
 	id = SoA.5051
 	title = EVTNAME_SoA_5051
 	desc = EVTDESC_SoA_5051
-	picture = GFX_evt_jerusalem
+	picture = GFX_evt_lady_aparecida
 	border = GFX_event_narrative_frame_religion
 	
 	trigger = { 
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
-		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_aparecida
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage

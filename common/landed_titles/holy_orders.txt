@@ -18,7 +18,7 @@ d_twelve_pairs_of_france = {
 	landless = yes
 	primary = yes
 	strength_growth_per_century = 0.5
-	monthly_income = 2
+	monthly_income = 7
 	
 	mercenary_type = bandeirante_composition
 }
@@ -66,7 +66,7 @@ d_knights_aparecida = {
 	landless = yes
 	primary = yes
 	strength_growth_per_century = 0.5
-	monthly_income = 2
+	monthly_income = 6
 	#
 	
 	mercenary_type = bandeirante_composition
@@ -93,4 +93,35 @@ d_knights_immaculata = {
 	#
 	
 	mercenary_type = bandeirante_composition #give em cowboy retinue
+}
+
+d_orden_chilena = { # Orden Chilena de Santiago y de la Virgen del Carmen
+	color = { 255 240 240 }
+	color2 = { 220 220 0 }
+
+	capital = 297 # c_santiago
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# allow = {
+		# has_landed_title = k_chile
+	# }
+
+	# Always exists
+	landless = yes
+	holy_order = yes
+
+	mercenary_type = orden_chilena_composition
+
+	strength_growth_per_century = 1.00
+	
+	monthly_income = 7
+
+	religion = catholic
+	
+	culture = centrino
+
+	# Cannot be held as a secondary title
+	primary = yes
 }

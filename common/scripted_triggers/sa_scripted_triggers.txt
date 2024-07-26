@@ -46,11 +46,11 @@ is_hispanoamerican_trigger = {
 is_catholic_trigger = {
 	OR = {
 		religion = catholic
+		religion = orthodoxist
+		religion = liberationist
 		religion = charismatic
 		religion = peterite
 		religion = ultramontane
-		religion = orthodoxist
-		religion = liberationist
 		religion = celeste
 		religion = cicerite
 		religion = seladite
@@ -59,6 +59,35 @@ is_catholic_trigger = {
 		religion = mysticalist
 	}
 }
+active_holy_order_by_religion = {
+	OR = {
+		#AND = {
+		#	OR = {
+		#		religion = catholic
+		#		religion = orthodoxist
+		#		religion = liberationist
+		#	}
+		#	#Add Particularist Holy Orders here
+		#}
+		AND = {
+			OR = {
+				religion = charismatic
+				religion = peterite
+				religion = ultramontane
+			}
+			OR = {
+				is_title_active = d_new_songs
+				is_title_active = d_knights_aparecida
+				is_title_active = d_knights_immaculata
+			}
+		}
+		AND = {
+			religion = celeste
+			is_title_active = d_twelve_pairs_of_france
+		}
+	}
+}
+
 is_born_in_january_trigger = {
 	month_of_birth = 1
 	NOT = { month_of_birth = 2 }

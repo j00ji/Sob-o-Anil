@@ -114,3 +114,10 @@ world_ecuador = {
 		d_quito d_cuenca d_galapagos d_guayas d_morona d_narino d_tungurahua
 	}
 }
+
+#All of Brazil here
+custom_brazil = {
+	regions = {
+		world_south_brazil world_southeast_brazil world_south_brazil world_centerwest_brazil world_bahia world_northeast_brazil world_north_brazil  
+	}
+}

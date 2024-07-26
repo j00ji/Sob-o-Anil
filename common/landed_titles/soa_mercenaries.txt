@@ -454,36 +454,6 @@ d_bloco_do_urso = {
 	mercenary_type = street_block_composition
 }
 
-d_orden_chilena = { # Orden Chilena de Santiago y de la Virgen del Carmen
-	color = { 255 240 240 }
-	color2 = { 220 220 0 }
-
-	capital = 297 # c_santiago
-
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
-
-	allow = {
-		has_landed_title = k_chile
-	}
-
-	# Always exists
-	landless = yes
-
-	mercenary = yes
-
-	mercenary_type = orden_chilena_composition
-
-	strength_growth_per_century = 1.00
-
-	religion = catholic
-	
-	culture = centrino
-
-	# Cannot be held as a secondary title
-	primary = yes
-}
-
 d_fire_wasps = { #The Fire Wasps
 	color={ 255 72 42 }
 	color2 = { 220 220 0 }

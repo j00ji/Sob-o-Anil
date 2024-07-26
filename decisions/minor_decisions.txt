@@ -578,7 +578,7 @@ decisions = {
 		}
 	}
 	
-	catholic_pilgrimage = {        # For all Christians
+	catholic_pilgrimage = {        # For all Catholics
 		only_playable = yes
 		ai_check_interval = 120
 		potential = {
@@ -589,7 +589,7 @@ decisions = {
 				has_quest = quest_monastic_order_pilgrimage_christian
 			}
 			is_playable = yes
-			religion_group = christian
+			is_catholic_trigger = yes
 			NOT = { trait = pilgrim }
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
