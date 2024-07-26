@@ -1,0 +1,8 @@
+#############
+### Units ###
+#############
+cowboys;Cowboys;;;;;;;;;;;;;x
+cowboys_offensive;Cowboys Attack;;;;;;;;;;;;;x
+cowboys_defensive;Cowboys Defence;;;;;;;;;;;;;x
+cowboys_morale;Cowboys Morale;;;;;;;;;;;;;x
+cowboys_modifier;Combat Modifier boost to Cowboys Troops: $PERC$;;;;;;;;;;;;;x

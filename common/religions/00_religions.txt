@@ -132,7 +132,7 @@ american_native = {
 		
 		color = { 1.0 0.0 0.1 }
 		
-				scripture_name = THE_STORIES
+		scripture_name = THE_STORIES
 		
 		high_god_name = GOD_TUPA
 		
@@ -151,7 +151,7 @@ american_native = {
 		
 		color = { 0.25 0.45 0.45 }
 		
-				scripture_name = THE_TRADITIONS
+		scripture_name = THE_TRADITIONS
 		
 		high_god_name = GOD_INTI
 		
@@ -171,7 +171,7 @@ american_native = {
 		
 		color = { 0.9 0.58 0.06 }
 		
-				scripture_name = THE_MYTH
+		scripture_name = THE_MYTH
 		
 		high_god_name = GOD_INTI
 		
@@ -191,7 +191,7 @@ american_native = {
 		
 		color = { 0.5 0.0 0.0 }
 		
-				scripture_name = THE_STORIES
+		scripture_name = THE_STORIES
 		
 		high_god_name = GOD_HEDU
 		
@@ -915,16 +915,15 @@ cult_of_saints= {
 		crusade_name = LIBERATION_WAR
 		scripture_name = THE_COLOMBEIA
 		priest_title = PADRE
-			}
+	}
 
-	
 	angel_cult = {
 		graphical_culture = westerngfx
-		
+
 		icon = 72
-		
-				scripture_name = THE_BIBLE
-		
+
+		scripture_name = THE_BIBLE
+
 		high_god_name = GOD_ARCANJO_MIGUEL
 		
 		god_names = {
@@ -1153,7 +1152,7 @@ eastern_group = {
 		evil_god_names = {
 			THE_DEVIL MARA
 		}
-				
+
 		has_heir_designation = yes
 		can_grant_divorce = yes
 		priests_can_inherit = no
@@ -1468,7 +1467,7 @@ old_world_cultists = {
 		high_god_name = GOD_ATOMOS
 
 		god_names = {
-			GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA GOD_ATOMOS GOD_THE_ELEMENTS
+			GOD_ATOMOS GOD_FAT_MAN GOD_LITTLE_BOY GOD_TSAR_BOMBA GOD_THE_ELEMENTS
 		}
 		evil_god_names = {
 			THE_DEMON_CORE THE_VOID
@@ -1831,7 +1830,7 @@ old_world_cultists = {
 		high_god_name = GOD_ROSAS
 
 		god_names = {
-				GOD_THE_RESTORER GOD_BELGRANO GOD_GUEMES GOD_MARADONA GOD_BROWN GOD_SAN_MARTIN GOD_LA_MAZORCA GOD_DORREGO GOD_QUIROGA
+			GOD_THE_RESTORER GOD_BELGRANO GOD_GUEMES GOD_MARADONA GOD_BROWN GOD_SAN_MARTIN GOD_LA_MAZORCA GOD_DORREGO GOD_QUIROGA
 		}
 		evil_god_names = {
 			GOD_THE_CROSS GOD_THE_CROWN GOD_THE_LUSOS GOD_THE_CIPAYO THE_UNITARIANS
@@ -2012,7 +2011,7 @@ pagan_group = {
 		
 		color = { 0.55 0.35 0.22 }	
 		
-				scripture_name = THE_STORIES
+		scripture_name = THE_STORIES
 		
 		high_god_name = GOD_KHARTA
 		
@@ -2086,9 +2085,9 @@ pagan_group = {
 		scripture_name = THE_FIERRO_TOMES
 		piety_name = TRADITION
 		priest_title = PAYADOR
-		
+
 		high_god_name = THE_GREAT_GAUCHO
-		
+
 		god_names = {
 			GOD_MARTIN_FIERRO GOD_CAUDILLOS GOD_HORSE GOD_GAUCHITO
 		}
@@ -2096,7 +2095,7 @@ pagan_group = {
 		evil_god_names = {
 			THE_GRINGO THE_CACIQUES
 		}
-				
+		
 		allow_looting = yes
 		priests_can_marry = yes
 		allow_looting = yes
@@ -2495,11 +2494,11 @@ syncretic_group = {
 		
 		high_god_name = THE_VIRGIN_OF_THE_FOREST
 		
-		god_names = { GOD_THE_SPIRITS GOD_THE_BLESSED_VIRGIN GOD_THE_CONCEDING_ONE
-			
+		god_names = {
+			GOD_THE_SPIRITS GOD_THE_BLESSED_VIRGIN GOD_THE_CONCEDING_ONE
 		}
-		evil_god_names = { THE_LEFT_SPIRITS GOD_THE_DARKNESS
-			
+		evil_god_names = {
+			THE_LEFT_SPIRITS GOD_THE_DARKNESS
 		}
 		
 		priests_can_marry = yes
@@ -2542,7 +2541,7 @@ syncretic_group = {
 		heresy_icon = 76
 		
 		color = { 0.1 0.1 1.0 }
-		crusade_name = MAQANAKUY 
+		crusade_name = MAQANAKUY
 		scripture_name = TAHUANTINSUYO_BIBLE
 		priest_title = RABBI
 		

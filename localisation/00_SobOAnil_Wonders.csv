@@ -1,0 +1,10 @@
+###############
+### Wonders ###
+###############
+wonder_christ_the_redeemer;Christ the Redeeemer;;;;;;;;;;;;;x
+wonder_christ_the_redeemer_desc;For millenia this soapstone statue of Jesus Christ has sat atop a mountain near the shores of Guanabara, inside it there is a small church and a stone heart.;;;;;;;;;;;;;x
+upgrade_carioca_aqueduct;Carioca Aqueduct;;;;;;;;;;;;;x
+upgrade_carioca_aqueduct_desc;A restored aqueduct bringing fresh water to the center of the city.;;;;;;;;;;;;;x
+upgrade_selaron_steps;Selarón Steps;;;;;;;;;;;;;x
+upgrade_selaron_steps_desc;An extensive set of beautifully tilled stairs connecting the city.;;;;;;;;;;;;;x
+maintainer_of_steps_custom_modifier_tt;Unlocks the §YTilemaster of the Steps§! minor title;;;;;;;;;;x

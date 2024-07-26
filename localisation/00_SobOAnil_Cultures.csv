@@ -1,5 +1,6 @@
-###ÄNSI;;;;;;;;;;;;;;
-###CULTURES;;;;;;;;;;;;;;
+################
+### Cultural ###
+################
 quechua_group;Quechua;;;;;;;;;;;;;x
 inca;Inca;;;;;;;;;;;;;x
 chanka;Chanka;;;;;;;;;;;;;x
@@ -194,68 +195,3 @@ pataxo;Pataxó;;;;;;;;;;;;;x
 tapajo;Tapajó;;;;;;;;;;;;;x
 caboclo;Caboclo;;;;;;;;;;;;;x
 marajoara;Marajoara;;;;;;;;;;;;;x
-###OPINIONS;;;;;;;;;;;;;;
-atlanticano_opinion;Atlanticano Opinion;;;;;;;;;;;;;x
-recifolindense_opinion;Recifolindense Opinion;;;;;;;;;;;;;x
-lagoano_opinion;Lagoano Opinion;;;;;;;;;;;;;x
-natalense_opinion;Natalense Opinion;;;;;;;;;;;;;x
-andean_native_opinion;Andean Native Opinion;;;;;;;;;;;;;x
-###CULTURAL TITLES
-count_paulista;Viscount;;;;;;;;;;;;;x
-count_female_paulista;Viscountess;;;;;;;;;;;;;x
-county_paulista;Viscounty;;;;;;;;;;;;;x
-county_of_paulista;Viscounty of;;;;;;;;;;;;;x
-duke_paulista;Marquis;;;;;;;;;;;;;x
-duke_female_paulista;Marchioness;;;;;;;;;;;;;x
-duchy_paulista;March;;;;;;;;;;;;;x
-duchy_of_paulista;March of;;;;;;;;;;;;;x
-king_paulista;Duke;;;;;;;;;;;;;x
-king_female_paulista;Duchess;;;;;;;;;;;;;x
-kingdom_paulista;Duchy;;;;;;;;;;;;;x
-kingdom_of_paulista;Duchy of;;;;;;;;;;;;;x
-family_palace_baron_paulista;Oligarch;;;;;;;;;;;;;x
-city_count_paulistano;Oligarch;;;;;;;;;;;;;x
-city_duke_paulistano;Prefect;;;;;;;;;;;;;x
-city_king_paulistano;Governor;;;;;;;;;;;;;x
-city_emperor_paulistano;President;;;;;;;;;;;;;x
-city_county_of_paulistano;Oligarchy of;;;;;;;;;;;;;x
-city_duchy_of_paulistano;Prefecture of;;;;;;;;;;;;;x
-city_kingdom_of_paulistano;Governorship of;;;;;;;;;;;;;x
-city_empire_of_paulistano;Republic of;;;;;;;;;;;;;x
-
-count_mantiqueiro;Viscount;;;;;;;;;;;;;x
-count_female_mantiqueiro;Viscountess;;;;;;;;;;;;;x
-county_mantiqueiro;Viscounty;;;;;;;;;;;;;x
-county_of_mantiqueiro;Viscounty of;;;;;;;;;;;;;x
-duke_mantiqueiro;Marquis;;;;;;;;;;;;;x
-duke_female_mantiqueiro;Marchioness;;;;;;;;;;;;;x
-duchy_mantiqueiro;March;;;;;;;;;;;;;x
-duchy_of_mantiqueiro;March of;;;;;;;;;;;;;x
-king_mantiqueiro;Duke;;;;;;;;;;;;;x
-king_female_mantiqueiro;Duchess;;;;;;;;;;;;;x
-kingdom_mantiqueiro;Duchy;;;;;;;;;;;;;x
-kingdom_of_mantiqueiro;Duchy of;;;;;;;;;;;;;x
-family_palace_baron_mantiqueiro;Oligarch;;;;;;;;;;;;;x
-
-count_mineiro_group;Viscount;;;;;;;;;;;;;x
-count_female_mineiro_group;Viscountess;;;;;;;;;;;;;x
-county_mineiro_group;Viscounty;;;;;;;;;;;;;x
-county_of_mineiro_group;Viscounty of;;;;;;;;;;;;;x
-duke_mineiro_group;Marquis;;;;;;;;;;;;;x
-duke_female_mineiro_group;Marchioness;;;;;;;;;;;;;x
-duchy_mineiro_group;March;;;;;;;;;;;;;@
-duchy_of_mineiro_group;March of;;;;;;;;;;;;;x
-duke_salvadorense;Prince;;;;;;;;;;;;;x
-duke_female_salvadorense;Princess;;;;;;;;;;;;;x
-king_salvadorense;Exarch;;;;;;;;;;;;;x
-duchy_of_salvadorense;Principate of;;;;;;;;;;;;;x
-kingdom_of_salvadorense;Exarchate of;;;;;;;;;;;;;x
-vice_royalty_count_salvadorense;Inspector-General;;;;;;;;;;;;;x
-vice_royalty_duke_salvadorense;Dom;;;;;;;;;;;;;x
-vice_royalty_duke_female_salvadorense;Dona;;;;;;;;;;;;;x
-vice_royalty_king_salvadorense;Governor;;;;;;;;;;;;;x
-vice_royalty_county_of_salvadorense;Inspectorate;;;;;;;;;;;;;x
-vice_royalty_duchy_of_salvadorense;Domain of;;;;;;;;;;;;;x
-vice_royalty_kingdom_of_salvadorense;Province of;;;;;;;;;;;;;x
-
-

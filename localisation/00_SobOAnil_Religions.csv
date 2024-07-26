@@ -1,0 +1,678 @@
+#################
+### Religions ###
+#################
+###############################
+### Titles and Descriptions ###
+###############################
+########################################
+### American Native/Amerindian Group ###
+########################################
+american_native;Amerindian;;;;;;;;;;;;;x
+nguillatun;Nguillatun;;;;;;;;;;;;;x
+nguillatun_DESC;The traditional faith of the Mapuche people, they believe that before the world was even formed, different primordial spirits, called the Ngen, Pillan, and Wangulén, came forth from the Pu-Am, the universal soul, and gave shape to all of creation through their own conflicts and stories. Now Ngenechén, the ruler spirit of mankind, blesses those that satisfy them with offerings in the Nguillatun ceremonies, and punishes those that fail to give worthy offerings.;;;;;;;;;;;;;x
+xoon;Xo'on;;;;;;;;;;;;;x
+xoon_DESC;Born from the revival of myths and cultures long lost in the south of the continent, led by the Xo'on shamans, they believe first and foremost in their supreme god, Temaulken, under him are the Ancestral Spirits, or Howenh. The Followers of the Xo'on also believe that, long ago, woman murdered the ancient spirits and ruled over man with an iron fist. The Sun Howenh, Kren, observed this oppression with rage, and so called for the Soortes, demons from the underworld that would bring back the natural order of things, so now men, with the assistance of the Soortes, would make sure that woman will never oppress man again.;;;;;;;;;;;;;x
+pachamama;Pachamama;;;;;;;;;;;;;x
+pachamama_DESC;The resurgence of the native spiritual beliefs, syncretized with traditional virgin devotion, and in conjunction with ecological and social movements of the past age before the Event, culminated in the ascendance of the cult of the Mother Earth, or Pachamama. As the source of life and the world we live in, mother of the Sun and the Moon and everything that is, Pachamamists believe that we must give offerings back to the World Mother in gratitude for everything she has given us, and caring for nature is caring for the gifts of the Goddess herself, thus protection of the land and living in harmony with it is the primordial duty of each person.;;;;;;;;;;;;;x
+jerovia;Añetejerovia;;;;;;;;;;;;;x
+jerovia_DESC;The Guarani people have no written records of their ancient myths and legends, but these beliefs persist nonetheless as Añetejerovia. Tupã, the supreme god of all creation, with the help of the moon goddess Arasy, descended upon the Earth in a location specified as a hill in the region of Aregúa, Paraguay, and from that location created all that is found upon the face of the earth, including the ocean, forests, and the animals. Tupã then created humanity, left them with the spirits of good and evil, and departed. Añetejerovians also believe in certain animist traditions and the Pombéro, malicious goblin or elf-like spirits who dwell in the forest and must be appeased.;;;;;;;;;;;;;x
+inti;Inti;;;;;;;;;;;;;x
+inti_DESC;Inti is the ancient Incan sun god and the patron of the historical Inca state. Although most Inti worshippers consider him to be the sun god, he is also viewed as a cluster of solar aspects, since many divide his identity according to the stages of the sun. A common belief is that Inti was born of Viracocha, who had many titles, chief among them being the God of Creation. Worship of Inti has seen a revival following the Event, as many in the Andes see an opportunity to renew themselves and perhaps even reestablish the Realm of the Four Parts.;;;;;;;;;;;;;x
+inkarri;Inkarri;;;;;;;;;;;;;x
+inkarri_DESC;The faithful of Inkarri believe in the titular god, Inkarri, supreme and only deity that created and ruled the Andean world, taking the form of many Avatars through the ages, such as Viracocha, Inti, Manco Capac and others. When the evil and cruel Españarri came from a distant world, he struck down Inkarri's last Avatar, Atahualpa. Separating his body and limbs but keeping his head alive and buried, the power of Inkarri has been locked. Once his parts are finally reunited, Inkarri faithful believe that a new age will rise on the Andes with the return of their god, bringing back a Holy and Godly empire ruled by the newest incarnation of Inkarri.;;;;;;;;;;;;;x
+hekura;Hekura;;;;;;;;;;;;;x
+hekura_DESC;Yanomami concepts of the soul are elaborate and sophisticated, multifaceted in fact. The most critical component of the soul is known as the moamo and lies inside the thoracic cavity, inside the liver. There is a close association the Yanomami make between “soul loss” and sickness is best exemplified in shamanistic practices. They spend several hours each day, if they are shamans, chanting to their tiny hekura spirits, enjoining them to either attack the souls of enemies or help them recover souls lost by people in their own village. This is a constant battle, and the men take hallucinogenic snuff daily to contest with their enemies through the agency of their personal hekura.;;;;;;;;;;;;;x
+#######################
+### Christian Group ###
+#######################
+charismatic;Charismatic;;;;;;;;;;;;;x
+charismatic_DESC;Inspired by pre-event teachings, Charismatics are staunch believers in the values of the so-called 'Charismatic Renewal', such as great musical celebrations and the presence of spiritual gifts, also called charismas, as well as the belief that Layman should have a bigger role in Church life through dedication to the Pastorais. Their customs have placed them at odds with other Catholics, with many of their practices being officially condemned as heretic and syncretic by the Patriarch of South America leading to a schsim as Charismatic bishops would in turn condemn the Patriarch for abandoning the values of 'Ancestral Church' and claiming to be the true successors to the Catholic Church.;;;;;;;;;;;;;x
+charismatic_FEATURES;§Y*§! Charismatics might go on vision quests, Adorations of the Holy Spirit. \n§Y*§! Charismatic characters must join one of the Pastorais.;;;;;;;;;;;;;;
+peterite;Peterite;;;;;;;;;;;;;x
+peterite_DESC;The Peterite movement was born following the chaos of the Event and the uncertainty brought on by the schism between Catholics in Brazil and elsewhere, faced with a crisis of authority.  The first Peterites emerged due to the twin discoveries of ancient documents declaring the faithful should be led by a protective secular authority, the Padroado, and the writings of saints declaring Peter II, the last Emperor of Brazil, to also be the last legitimate Pope of the Church. Endorsed by a seemingly divine mandate, on the authority of The Magnanimous, Peterites ultimately seek to restore the Brazilian Empire as the new Rome for the Catholic church.;;;;;;;;;;;;;x
+catholic;Particularist;;;;;;;;;;;;;
+catholic_DESC;Particularists are heirs of the once by far dominant faith of the continent, the Catholic Church which was battered by the chaos and the change brought by the Event. In need of greater unity and direction than ever, a union of archbishops from across South America put aside their political differences and united as a sui iuris particular Catholic Church and elected a Patriarch of South America to lead them. Originally based in Buenos Aires, the Brazilian schism and the rise of other faiths weakened the Patriarchy, eventually leading to its displacement to Santiago. While Particularists have maintained traditional Catholic Latin rites, traditional folk practices have deeply permeated it. The autonomous ecclesiastical leadership has sanctioned many of its local saints as canonical, contributing to the tensions and eventually schism with the church in Brazil.;;;;;;;;;;;;;x
+orthodoxist;Byzantine;;;;;;;;;;;;;x
+orthodoxist_DESC;The Byzantine Rite represents the liturgical and canonical practices that developed in the Eastern Christian Churches and were incorporated within the Catholic church. Byzantines practice the rite in the original Greek or some other form (Slavic, Romanian, Hungarian, Albanian). After the Event and the resulting loss of contact with Rome, Byzantines have become more insular, shunning the authority of new non-Papal institutions.;;;;;;;;;;;;;x
+liberationist;Liberationist;;;;;;;;;;;;;x
+liberationist_DESC;Based on the teachings of Liberation Theology, Liberationists propose to fight poverty and misery by addressing its alleged source, the sin of greed, that they denounce at every chance. They believe that the ancient hierarchies have been corrupted by this sin, and led the church stray from God's path. Thus it's only through base church communities, where self-reliant worshipers from amongst the common people will return the church closer to the early uncorrupted gospel. Some of the more radical Liberationists even believe that it's this plight of greed that led to the Event, as society went Godless and the natural order was broken.;;;;;;;;;;;;;x
+celeste;Celeste;;;;;;;;;;;;;x
+celeste_DESC;Celestes believe the spirit of Christ descended upon a series of local messainic figures from Southern Brazil, who guided His people to purity in the New World and against the deviant heretics who'd wish them exterminated. Celestes worship many messainic figures, such as José María, Theodora, and Maria Rosa, among others. They believe that these figures were blessed with divine visions, and thus have been chosen by divine providence to lead them in the so-called "celestial communities". Celestes often take inspiration from Old World traditions such as chivalry and chastity, shunning earthly pleasures and inflicting heavy punishment on deviants and enemies of the faith. Nevertheless, they often mix esoteric and mystic elements into their Christian doctrine, and Celestes tend to greatly respect healers and miracle workers.;;;;;;;;;;;;;x
+mucker;Mucker;;;;;;;;;;;;;x
+mucker_DESC;The Muckers base their beliefs on Jacobina Mentz Maurer, who they see as a manifestation of God and a reincarnation of Jesus Christ. Jacobina's message was millenarian, denouncing modernism and Catholicism. The ideal community of the Muckers is one that shares its resources with collective ownership, and one that exterminates all those who oppose His will. Muckers put much stock in trances and visions, taking them as important messages from the Holy Spirit.;;;;;;;;;;;;;x
+cicerite;Cicerite;;;;;;;;;;;;;x
+cicerite_DESC;The Cicerites take inspiration from Father Cícero, a Catholic priest who was a spiritual leader to the people of Northeastern Brazil who was accused of heresy in his time. Father Cícero was given a dream where Jesus said that he was upset with humanity, but that he was still willing to do the last sacrifice to save the world if men repented and the poor were taken care of. As a result, the Cicerites put great emphasis on helping others, changing the immoral customs of the people, and getting rid of excessive drunkenness, prostitution, and other sinful practices. They also have great respect for mystics and miracle workers, as Father Cícero was.;;;;;;;;;;;;;x
+seladite;Seladite;;;;;;;;;;;;;x
+seladite_DESC;During his lifetime, Father Cicero made many prophecies about the future including those about the End of Days. The spread of false religions and tyranny across the world and the Event itself signal to the Seladites that the first four of the Seven Seals of God have been opened. As such, Seladites believe firmly that they are living in the End Times, and soon, there will be judgment.;;;;;;;;;;;;;x
+evangelical;Evangelical;;;;;;;;;;;;;x
+evangelical_DESC;Following the Event, representatives of various Protestant churches from across South America met in Rio de Janeiro and established a General Convention of Evangelicals to protect themselves from other encroaching faiths. In this way, Evangelicals recognize and respect theological differences of congregations while still standing as one united Protestant church. Their communion however remains fragile, and interference by outsiders may bring it to collapse.;;;;;;;;;;;;;x
+universal;Neo-Pentecostal;;;;;;;;;;;;;x
+universal_DESC;The Neo-Pentecostals are perhaps the most notable Protestant group to shun the General Convention of the Evangelicals, citing irrevocable differences such as the convention's lack of drive to transform the church into the Kingdom of God on earth. Neo-Pentecostals also felt Evangelicals did not take a strong enough stance against "enemies of the faith" such as Catholics and syncretic religions such as Umbanda and Candomblé. In response, Evangelicals destroyed the "idolatrous" Temple of Solomon in São Paulo and expelled the Neo-Pentecostal leadership from the city. Since then, the Neo-Pentecostals have been rebuilding, preaching, and receiving tithes as it always has.;;;;;;;;;;;;;x
+jehovah;Jehovah's Witness;;;;;;;;;;;;;x
+jehovah_DESC;Based on the teachings of the Bible Student movement and the apocalyptic legacy of the Millerites, the Jehovah's Witnesses are a millenarian nontrinitarian Protestant denomination that spread to South American from the north. They believe that Armageddon is imminent, and the establishment of God's kingdom over earth is the only solution for all problems faced by humanity. Jehovah's Witnesses are known for their door-to-door preaching, and they have a small presence in almost every corner of the known world. Jehovah's Witnesses reject trinitarianism, inherent immortality of the soul, and hellfire, which they consider to be unscriptural doctrines. They do not observe Christmas, Easter, birthdays or other holidays and customs they consider to have pagan origins incompatible with Biblical scripture. Jehovah's Witnesses consider human society to be morally corrupt and under the influence of Satan, and as a result, they shun interaction with non-Witnesses and politics in general. Since the Deluge, the Jehovah's Witnesses have become accepting of participation in politics, albeit in line with their their own theocratic beliefs, to establish God's kingdom over the Earth.;;;;;;;;;;;;;x
+holy_spirit;Holy Spirit;;;;;;;;;;;;;x
+holy_spirit_DESC;The Cult of the Holy Spirit originated from the ideas of the prophet Joachim: the Old Testament was the Age of the Father, the recent past was the Age of the Son, and the current is the Age of the Holy Spirit. The Holy Spirit cultists advocate an Order of the Just, separate from any mainstream church. Rituals such as the império, the coronation, and the ceia dos criadores are considered to be of great importance in showing one's devotion to the Holy Spirit.;;;;;;;;;;;;;x
+xabaxai_xagi;Xabaxáígio Xagí;;;;;;;;;;;;;x
+xabaxai_xagi_DESC;Xabaraxáígio Xagí combines the Cult of the Holy Spirit and indigenous beliefs, earning it the enmity of many more staunch members of the cult. The Holy Spirit is considered to manifest in the material world, sometimes taking on the shape of things in the environment such as jaguars, trees, or other visible, tangible things including people. Warding off evil spirits is also considered to be on uptmod importance by Xabaraxáígio Xagí adherents as a matter of survival.;;;;;;;;;;;;;x
+tridentine;Tridentine;;;;;;;;;;;;;x
+tridentine_DESC;Called Tridentines due to the prominence of the ancient Tridentine Mass in the faith, the Tridentines follow what they consider to be the truest, most traditional, and most unchanged form of Christianity. Originating from traditionalists within the Catholic Church, Tridentines believe the Event was punishment, divine retaliation for those who strayed from the Lord's true path, and that it culminated with the assumption of His Holiness, the last Vicar of Christ, into the heavens, leaving the Earth with no successor behind. Tridentines believe they live in a time of Great Tribulation, and that all others, even other Christians, live in error. Therefore, it is the Tridentine's obligation to engage in holy war against all heathens and heretics, to make way for the return of His Holiness and the Second Coming soon after.;;;;;;;;;;;;;x
+mysticalist;Mysticalist;;;;;;;;;;;;;x
+mysticalist_DESC;Mysticalists differ from Tridentines in that they believe the Vicar of Christ will return long before the Second Coming, in fact he has already returned several times. This system, based on personal mystical revelation, claims that the ability to choose Popes has been stripped from human institutions and now only God himself may decide. Although not as aggressive as Tridentines, Mysticalists still practice the Tridentine Mass and regard other Catholics (and indeed all other Christians) as living in error.;;;;;;;;;;;;;x
+#######################################
+### Cult of Saints/Vernacular Group ###
+#######################################
+cult_of_saints;Vernacular;;;;;;;;;;;;;x
+chicha;Chicha;;;;;;;;;;;;;x
+chicha_DESC;Chicha originates not from theologians or prophets but the musicians and common people of Peru. Chicheros derive their beliefs from Christianity but have a deep focus on love, the inequality of exploitation, and community. The relationship between life and death is also a focal point of Chicha, with death rituals being of great importance. Chichero musicians are given similar respect as clergy, with the roles even intersecting at times.;;;;;;;;;;;;;x
+santa_diablada;Santa Diablada;;;;;;;;;;;;;x
+santa_diablada_DESC;Born from the clash between worlds, Las Santas Diabladas are a diverse and vibrant clade of cults that have arisen in the Central Andes, believing that under God there is a wide pantheon of powerful beings composed by Saints, Demons, and Spirits of the Land, that either in awe and admiration or in fear, must be worshipped and kept content, otherwise they might sway from blessing into cursing those who don't give them the offering they seek and deserve. As rival interests and domains between the forces exist, Santa Diablada worshippers identify with one of three large groups. Los Santos, followers of Jesús, the Virgin, San Ernesto and El Tata. Los Diablos, followers of dark demons like El Tío, Ekeko, Momo and even Mandinga. And Los Dueños, followers of the spirits of nature, like Jichi, Coquena and Jerere.;;;;;;;;;;;;;x
+folclorista;Folclorista;;;;;;;;;;;;;x
+folclorista_DESC;The folk saint Gaucho Gil has long held significance to the Catholic faithful in Argentina and beyond. Conscripted twice into wars he did not want to fight, Gil decided to desert and become a bandit, robbing the rich and giving to the poor. Gil was eventually captured and his throat cut but not before telling his executioner that he should pray on Gil's behalf for the life of his son, who was very sick. The son was cured, and word of Gaucho Gil spread far and wide. Though many venerate Gil, the Folcloristas see him as the penultimate martyr who gave his life for the good of all mankind. The tradition of wrapping red flags or painting red the shrines of veneration to Gauchito Gil is observed by many Folcloristas, who often go on pilgrimages to such shrines to remember the martyr's sacrifice.;;;;;;;;;;;;;x
+patria_grande;Patria Grande;;;;;;;;;;;;;x
+patria_grande_DESC;The term Patria Grande, or Great Fatherland, is to its followers both a political ideal and a divine mandate. The adherents of the faith worship the heroes of the past who liberated and ruled the original Patria Grande, bringing what they consider a golden age. As a result the faithful aspire to see the legendary homeland unified once more. Their pantheon is made up of "próceres", deities originated from the syncretism between the founders of Gran Colombia and several Catholic saints.;;;;;;;;;;;;;x
+angel_cult;Arcanjo;;;;;;;;;;;;;x
+angel_cult_DESC;The Arcanjos believe that the divine is all around them, with many spirits coming from two antagonic supernatural realms, The Heavens and The Abyss. Both of these realms seek to court Man to their side, and Man can communicate and make contracts with these entities through special rituals in order to receive aid in achieving their goals.;;;;;;;;;;;;;x
+sebastianist;Sebastianist;;;;;;;;;;;;;x
+sebastianist_DESC;The world has been godless for a long time, but it was not always so. Once, there ruled Brazil two kings, Sebastian and Dom Pedro, equal in wisdom and both pre-ordained by God to rule. They jointly ruled the Fifth Empire, the closest to Paradise man has come since Eden. However, the kings eventually disappeared, first Sebastian lost in battle and second Dom Pedro in exile, and the world has been gripped by chaos and division ever since. Now, Sebastianists pray for a swift return of the kings, one or both, and peace to the world. ;;;;;;;;;;;;;x
+archipelagic;Archipelagic;;;;;;;;;;;;;x
+archipelagic_DESC;Within the Communities of the Archipelagic Rites, exists an uneasy truce. The populace and the clergy are Particularists, loyal to the Patriarca. Despite this - and the warnings of heresy from the Particularist priests, the peasantry are known to seek the services of the Brujos, men of magic, who command fear and respect from the common folk. In exchange for wealth, sheep or family members, the Brujos perform their supernatural rituals.;;;;;;;;;;;;;x
+#####################
+### Eastern Group ###
+#####################
+eastern_group;Eastern;;;;;;;;;;;;;x
+buddhism;Buddhist;;;;;;;;;;;;;x
+buddhism_DESC;Buddhism is a religion based on a series of original teachings attributed to Gautama Buddha. As expressed in the Buddha's Four Noble Truths, the goal of Buddhism is to overcome suffering caused by desire and ignorance of reality's true nature, including impermanence and the non-existence of the self. Buddhist traditions emphasize transcending the individual self through the attainment of Nirvana or by following the path of Buddhahood, ending the cycle of death and rebirth.;;;;;;;;;;;;;x
+hindu;Hindu;;;;;;;;;;;;;x
+hindu_DESC;Hinduism is not a single religion so much as a blanket term for the successor faiths of ancient Indian polytheism as recorded in the Vedas. Post-Event Hinduism differs radically from pre-Event Hinduism in several key ways. For example, the vast majority of Hindus now reject the caste system, believing instead that all humans are spiritually equal. Proselytization towards non-Hindus has also become more common.;;;;;;;;;;;;;x
+theosophist;Theosophist;;;;;;;;;;;;;x
+theosophist_DESC;Theosophists are the followers of the Ascended Masters, beings that shepherd the spiritual and intellectual development of humanity. According to their teachings, it was when the world closed their hearts to the lessons of the Ascended Masters that mankind grew distant from Nature and Truth relying more and more upon false religions before the Old World collapsed under the burden of ignorance and desire that it carried upon its back. Numerous legends hold that a Lord Maitreya will emerge to transfer knowledge about the true constitution and workings of Existence to humankind. The Theosophists de-emphasize the importance of organized religious scripture, ritual, and hierarchy as a source of direct enlightenment, viewing them simply as roads for every individual to access the source of Truth.;;;;;;;;;;;;;x
+johrei;Johrei;;;;;;;;;;;;;x
+johrei_DESC;Founded by Okada Mokichi, Johrei is the practice of channeling divine light into the body of another for the purposes of healing. Okada claimed to have received a divine revelation that empowered him to be a channel of God's Healing Light or johrei to purify the spiritual realm to remove the spiritual causes of illness, poverty, and strife from the world and inaugurate a new Messianic Age. Johrei practitioners see Okada as the Messiah, and he claimed to teach his followers how to achieve Messianity themselves.;;;;;;;;;;;;;x
+####################
+### Muslim Group ###
+####################
+herderos;Frontera;;;;;;;;;;;;;x
+herderos_DESC;After the Event, Muslims in South America faced sectarian violence as did many other religious groups. This persecution often crystalized the Muslim community into those who resisted and those who died, with many surviving Muslims gathering in the Triple Frontier where they already lived in large numbers. Fronteras largely adhere to Shia jurisprudence and put a heavy emphasis on reverence to the Ahl al-Bayt and the eventual emergence of the Mahdi, who shall one day return on Earth and fill the world with justice. Until then, Fronteras adhere to Wilayat al-faqih or the Guardianship of the Islamic Jurists.;;;;;;;;;;;;;x
+valentes;Denunciadora;;;;;;;;;;;;;x
+valentes_DESC;Muslims in South America faced sectarian violence as did many other religious groups after the Event, leading to many retreating into further radicalism to deal with enemies both within Islam and outside it. Denunciadoras or "denouncers" adhere to an extreme form of Sunni jurisprudence where those who do not stringently enforce sharia or are otherwise deemed insufficiently religious are not considered Muslims at all. This does not always lead to violence but it often does with the ones deemed "apostates" and indeed other non-Muslims, as Denunciadoras believe Islam to the supreme law of the land with no other being acceptable.;;;;;;;;;;;;;x
+conservante;Quietista;;;;;;;;;;;;;x
+conservante_DESC;The Event led to persecution of Muslims across South America, but not everyone responded to this persecution with increased militancy. Adhering broadly to Sunni jurisprudence, Quietistas do not believe that the Islamic religion and politics are inseparable. Humans are prone to errors or corruption, therefore no mortal human can ever establish a just, Islamic rule on Earth. This mostly means that the supreme role of sharia and the use of offensive warfare are deemphasized by Quietistas.;;;;;;;;;;;;;x
+traditionalist;Traditionalist;;;;;;;;;;;;;x
+traditionalist_DESC;The Traditionalist community descends from pre-event Muslims, both Shiites and Sunni, banding together and setting aside minor differences to survive the trauma of the event together. Traditionalists focus inwards, seeking to preserve their traditions and beliefs to not forget where they came from while the world changes around them.;;;;;;;;;;;;;x
+imamite;Imamite;;;;;;;;;;;;;x
+imamite_DESC;Refusing to abandon the world around them in the wake of the event, the Imamites held onto their beliefs while also adapting to become a cosmopolitan faith. Unlike Traditionalists who focus inwards to preserve themselves, Imamites strive to build a place for themselves amongst the outside world, instead of isolating themselves from it for safety. The Imamites are guided by the Supreme Islamic Majlis, and are named Imamites because of the leader of the Majlis, the head Imam. They await Imam Mahdi's coming, and the corresponding deliverance of freedom and justice.;;;;;;;;;;;;;x
+####################
+### Jewish Group ###
+####################
+amazonian_jews;Edah Amazonah;;;;;;;;;;;;;x
+amazonian_jews_DESC;Amazonian Jews, also known as Edah Amazona, descend from Moroccan Jews who came to the Amazon Basin long before the Event. Those who stayed married indigenous Amazonian women, and their children have grown up in a culture of Jewish and Christian, and Moroccan and Amazonian influences. Santo Moisézinho is remembered as a folk saint within the community, and his grave is the common site of pilgrimage, even for non-Jews.;;;;;;;;;;;;;x
+###############################
+### Old World Cultist Group ###
+###############################
+old_world_cultists;Old World Cultist;;;;;;;;;;;;;x
+atomicist;Atomicist;;;;;;;;;;;;;x
+atomicist_DESC;Atomicists believe that the god Atomos created the world in a vast explosion of energy, and that he inhabits an invisible plane of energy that intersects with the material world. In the days of yore, men could tap into this intangible world and use the gifts of Atomos to become gods themselves. Atomicists seek to relearn the secrets of that past age so that they too can unlock the power of the atom. However, Atomos does not always take kindly to those who try to harness his power...;;;;;;;;;;;;;x
+aphite;Posadist;;;;;;;;;;;;;x
+aphite_DESC;Posadists believes in Atomos similarly to Atomicists, but their theology and practices radically differ in various ways. Mosts prominently, Posadists believe that Atomos will one day return to the material world, as predicted by the prophet Posadas, and he will usher in a utopian world of justice and fairness after cleansing the Earth of the evils of the Capitalist and the Men in Black. These millenarian views have separated them from mainstream Atomicists, and Posadists remain eager to wage holy war themselves in anticipation of the World Revolution, the return of Atomos.;;;;;;;;;;;;;x
+bandean;Bandean;;;;;;;;;;;;;x
+bandean_DESC;The Banda Oriental has been a cradle of peace, justice, and progress ever since its establishment by the Thirty Three Immortals, Libertadors who succeeded where Artigas failed. The Bandeans see the Thirty Three Immortals as the physical representatives of the Banda Oriental, ushering in the antediluvian Age of Reason, and they aspire to fight for their rights just as their Libertadors did.;;;;;;;;;;;;;x
+artiguista;Artiguista;;;;;;;;;;;;;x
+artiguista_DESC;Artiguistas revere Banda Oriental akin to Bandeans, but they contend that Artigas was the true Libertador, not the Thirty Three Immortals, establishing the Age of Reason. According to Artiguistas, Artigas was betrayed by Platineans in his hour of need, leading to the Oriental exodus. The Thirty Three Immortals, then acting as Platinean puppets, swept in to take credit for the liberation themselves. Artiguistas are also staunch believers in the Enlightenment, valuing equality, liberty, and the preservation of those values.;;;;;;;;;;;;;x
+piriamano;Piriamano;;;;;;;;;;;;;x
+piriamano_DESC;Piriamano posits that the Banda Oriental desires achievement rather than war, as expressed by their idol Piria. It holds Piria to have been the primary physical representative of the Banda Oriental, as shown by his great achievements in building and other legendary feats throughout his life. As such, Piriamanos seek to imitate Piria to gain the favor of the Banda Oriental and jealously guard Piria’s creations.;;;;;;;;;;;;;x
+camino_estelar;Camino Estelar;;;;;;;;;;;;;x
+camino_estelar_DESC;Born from the synthesis of different UFO cults, Andean myths and geoglyphs, and the influence of Astronomy, Camino Estelar believes that the Event was actually written in the stars, a cosmic punishment for not following the celestial instructions. It's through star-reading and observation that they can follow the path of the Hermanos Mayores or Elder Siblings, also known as the Annunaki, all-mighty beings from far amongst the stars, led by the sacred master Nibiru. They revere the ruins of the old observatories and astronomical facilities as holy places where they regularly pilgrim to, crossing the desert and reaching these far temples where they can communicate with the stars. Ancient geoglyphs are also regarded as messages to the gods, and a way of asking for guidance and blessings.;;;;;;;;;;;;;x
+camino_estelar_FEATURES;§Y*§! Followers of Camino Estelar might realize Star-Readings, obtaining random prophecies to fulfill with associated bonuses.;;;;;;;;;;;;;;
+obscurantist;Obscurantist;;;;;;;;;;;;;x
+obscurantist_DESC;Born from a different interpretation on the Camino Estelar myths, Obscurantists believe that although it's true that mighty beings are found amongst the stars, and through observation they can be reached, they believe those being are harbingers of the end, lead by the World Born Dead, Nibiru,and the Event was caused because mankind looked too deep into the Abyss beyond the world. To prevent anything like that to ever happen again, they seek to destroy any chance of people finding what the people of old ever found, and hide any secrets the stars hide, as keepers of what must not be known. It is only under the cover of Darkness, that Humankind will be safe from the Shining Abyss.;;;;;;;;;;;;;x
+darwinist;Darwinist;;;;;;;;;;;;;x
+darwinist_DESC;Darwinists follow the teachings of the wise and ancient Prophet Darwin, they believe that Mother Nature is supreme in all of her doings, and that she shall select each one's path upon this world through Evolution, and lead those who aren't meant to be to Extinction. Darwinists also venerate the great and majestous creatures and living beings that Mother Nature blessed the lands with and strongly reject the ideals of forcing the environment to follow the nefarious anthropocentric needs, for only Nature's will must be supreme.;;;;;;;;;;;;;x
+lamarckian;Lamarckian;;;;;;;;;;;;;x
+lamarckian_DESC;Lamarckians are the followers of Father Lamarck, Vile Darwin’s greatest rival. They reject the idea that Mother Nature will decide their fate and keep mankind enslaved to her will, instead, they preach that their own effort will lead to mankind’s ultimate development and rise over the wild. They worship Ortho Genesis, the god of Mankind, and Lord of the Driving Force, the divine grace of self-development, and the power behind everything good in society, instead of capricious Nature.;;;;;;;;;;;;;x
+farrapo;Farroupilha;;;;;;;;;;;;;x
+farrapo_DESC;Farroupilha is a religion of gauchos and revolutionaries, forged in the crucible of war. The Farroupilhas, led by Gonçalves, fought for freedom, the abolition of slavery, and democracy. Their war would be lost, then won, then lost again, with the death of democracy and the end of that Golden Age. Farroupilhas now aspire to live as their ancestors did, as revolutionaries, free to live as they please worshiping the gods of their gaucho forefathers.;;;;;;;;;;;;;x
+vargist;Getulist;;;;;;;;;;;;;x
+vargist_DESC;Getulism recalls a revolution far more successful than that of the Farroupilha, led by one named Getulio. Getulio brought true revolution to all of Brazil, not just one region, as an expression of the collective will against wicked oligarchy. His Estado Novo saw Brazil reach the apex of its power, as he destroyed enemies within and without, including the gauchos. Even the death of Getulio, his sacrifice and his ascension, thwarted the efforts of his enemies to stem his revolution, so beloved was he. Getulists desire a return to the days of the Estado Novo, when Brazil was guided by a strong hand, and they are confident that Getulio Vargas guides them now.;;;;;;;;;;;;;x
+platinean;Platinean;;;;;;;;;;;;;x
+platinean_DESC;Sovereignty of the people is the principle that guides Platineans, as it has for centuries, and the conviction that there will be those who rise to defend Sovereignty. After the Crown created the Río de la Plata and slipped into tyranny, the Libertador San Martín crossed the Andes to fight for the salvation of not just the Río de la Plata but all of South America. After San Martín came great chaos and the tyranny of Rosas but eventually Perón arose, building the three pillars to support the people. He too eventually ascended, but the Platineans still hold him (and his wife) in equal regard to San Martín. Even today, Platineans pray for another who may be embodiment of nationality and defend Sovereignty, just as in the past.;;;;;;;;;;;;;x
+rosalian;Rosalian;;;;;;;;;;;;;x
+rosalian_DESC;Rosalians share similar ideas about Sovereignty as Platineans but differ sharply on the figures they worship. Rosalians hold that San Martín handed his sword, symbolizing the sum of public power, over to Rosas, establishing him as the rightful Restorer who then governed wisely and with great virtue. Rosas was later betrayed by jealous usurpers, and this ended the former Golden Age, at least according to Rosalians. Meanwhile, Platineans view Rosas as a brutal tyrant and his ascendancy as totalitarian. Rosalians pray for another Rosas, a Restorer that could restore Sovereignty and Virtue.;;;;;;;;;;;;;x
+modernists;Architecturalist;;;;;;;;;;;;;x
+modernists_DESC;Architecturalists believe that the Great Architect in coalition with the Old Masters had planned the lead that came, in order to purify the world for a new beginning. Through following the laid out plans of the old masters and coming to important places of worship where Innovation concentrates, Architecturalists believe they will manage to build towards a greater post-collapse glory and restore a greater existence for everyone.;;;;;;;;;;;;;x
+varedesian;Varedesian;;;;;;;;;;;;;x
+varedesian_DESC;While most Modernists look for the past once lost or a future never achieved, the Varedesians, followers of Master Guimarães and Master Graciliano, have learned through their legends that enlightenment exists in the living present and its fundamental conflicts and dualities. Life is both blessing and curse, joy and suffering, reality and magic, and those who understand this shall live truthfully. Men live and die following these teachings, often without even knowing it, but Varedesians embrace these seemingly contradictory dualites with gusto.;;;;;;;;;;;;;x
+anthropofagian;Anthropofagian;;;;;;;;;;;;;x
+anthropofagian_DESC;Anthropofagians are followers of the Manifesto, and know that Innovation entrenches itself deep into the Human Condition, due to this, they believe that ritual consumption of other men and woman will bring people into a deeper and more cohesive understanding and will make them able to control and manage Innovation. As outlined by the Old Masters, they believe that the consumption of other cultures is deeply valuable for such goals, as their Innovation only serves to strengthen theirs and come to a better understanding of other cultures.;;;;;;;;;;;;;x
+###################
+### Pagan Group ###
+###################
+dreamtime;Piogonak;;;;;;;;;;;;;x
+dreamtime_DESC;The ancestral Qom religiosity or Piogonak is based on the belief in a supreme being and in a complex of animals and cultural heroes. The requests and prayers are related to the interactivity of man with nature: the water, the mountains, the sky, the moon, the sun, the stars, the wind and with the superior beings that inhabit these natural elements. This all stems from creation itself nd the following union of animal-men with star-women. Shamans are considered an important element of Piogonak, giving offering to deities such as the cannibal woman NsoGoi and the Rainbow Serpent Mogonaló.;;;;;;;;;;;;;x
+dreamtime_reformed;Piogonak;;;;;;;;;;;;;x
+dreamtime_reformed_DESC;The ancestral Qom religiosity or Piogonak is based on the belief in a supreme being and in a complex of animals and cultural heroes. The requests and prayers are related to the interactivity of man with nature: the water, the mountains, the sky, the moon, the sun, the stars, the wind and with the superior beings that inhabit these natural elements. This all stems from creation itself and the following union of animal-men with star-women. Shamans are considered an important element of Piogonak, giving offering to deities such as the cannibal woman NsoGoi and the Rainbow Serpent Mogonaló.;;;;;;;;;;;;;x
+gaucheria;Gaucheria;;;;;;;;;;;;;x
+gaucheria_DESC;Gauchos have been present in the Pampas since time immemorial, brave and unruly as the land itself. Gaucheria is the code and the folklore of the gaucho, setting itself apart from the revolutionary rhetoric of Farroupilha with its simplicity. The tendency to violence over petty matters is recognized as the behavior of a proper gaucho, and duels are common. Their gods are many but largely irrelevant compared to the practices attached to the religion such as cattle-herding, horsemanship, and ritualized violence.;;;;;;;;;;;;;x
+gaucheria_reformed;Gaucheria;;;;;;;;;;;;;x
+gaucheria_reformed_DESC;Gauchos have been present in the Pampas since time immemorial, brave and unruly as the land itself. Gaucheria is the code and the folklore of the gaucho, setting itself apart from the revolutionary rhetoric of Farroupilha with its simplicity. The tendency to violence over petty matters is recognized as the behavior of a proper gaucho, and duels are common. Their gods are many but largely irrelevant compared to the practices attached to the religion such as cattle-herding, horsemanship, and ritualized violence.;;;;;;;;;;;;;x
+calafatist;Calafatist;;;;;;;;;;;;;x
+calafatist_DESC;The Calafate is a hardy berry plant, a symbol of Patagonia and so much more for Calafatists. Calafatist paganism refers to the series of myths and beliefs developed by the people at the southernmost frontier of the continent. The Calafatists believe that after the event the world reached a new age, but two ages came past, the age of the Giants, lead by Nosjthej, and the age of the Explorers, lead by Magellan. Together, these forces stood their ground against the vile cold from the south, until the ice shattered and the new age began, awith the descendants of both following their path and gaining strength from reclaiming their old power, they are known for their ritual consumption of calafate berries, said to contain the essence of the great female spirit Calafate, whose sacrifice to keep standing cold's greatest strike gives them strength to remain unyielding against everything and always come back to the frontier.;;;;;;;;;;;;;x
+calafatist_reformed;Calafatist;;;;;;;;;;;;;x
+calafatist_reformed_DESC;The Calafate is a hardy berry plant, a symbol of Patagonia and so much more for Calafatists. Calafatist paganism refers to the series of myths and beliefs developed by the people at the southernmost frontier of the continent. The Calafatists believe that after the event the world reached a new age, but two ages came past, the age of the Giants, lead by Nosjthej, and the age of the Explorers, lead by Magellan. Together, these forces stood their ground against the vile cold from the south, until the ice shattered and the new age began, awith the descendants of both following their path and gaining strength from reclaiming their old power, they are known for their ritual consumption of calafate berries, said to contain the essence of the great female spirit Calafate, whose sacrifice to keep standing cold’s greatest strike gives them strength to remain unyielding against everything and always come back to the frontier.;;;;;;;;;;;;;x
+manredebu;Manredebu;;;;;;;;;;;;;x
+manredebu_DESC;Adherents of Manredebu have a cosmology centering around the enternal conflict and fusion of humanity below the All-Father Sun, using animalistic symbols, such as cattle, horses, ants, and anteaters. Followers form bonds and do dances based on events of cosmic signifance. According to believers, this ties into the great conflict of life and afterlife and this is necessary for the functioning of the universe as a whole, one day through it salvation will come to all followers.;;;;;;;;;;;;;x
+manredebu_reformed;Manredebu;;;;;;;;;;;;;x
+manredebu_reformed_DESC;Adherents of Manredebu have a cosmology centering around the enternal conflict and fusion of humanity below the All-Father Sun, using animalistic symbols, such as cattle, horses, ants, and anteaters. Followers form bonds and do dances based on events of cosmic signifance. According to believers, this ties into the great conflict of life and afterlife and this is necessary for the functioning of the universe as a whole, one day through it salvation will come to all followers.;;;;;;;;;;;;;x
+terra_benta;Benteiro;;;;;;;;;;;;;x
+terra_benta_DESC;Benteiros venerate the sacred mountains and hills of Minas Gerais, in addition to various virtuous men and women of the past. They perceive this material world as a single chapter within an unending cycle of death and rebirth, marked by a catastrophic incident called 'A Derrama', followed by the salvation of all righteous souls and the subsequent recreation of existence from the curdling of a primordial Chaos. Benteiros now eagerly expect the final coming of the Messiah, who will sacrifice himself in an attempt to end the cycle of cataclysms, as past figures like Tomás Dirceu, Tancredo and Tiradentes once did. However, their plans and prayers may be thwarted by the malevolent Emboabas and their False Messiahs, the evil beings responsible for the latest and more destructive Derrama, which ravaged the Old World six centuries ago. Consequently, Benteiros adhere to the 'Inconfidência', abstaining from sharing the most intimate and secretive aspects of their liturgies and rituals with outsiders and non-believers..;;;;;;;;;;;;;x
+terra_benta_reformed;Benteiro;;;;;;;;;;;;;x
+terra_benta_reformed_DESC;Benteiros venerate the sacred mountains and hills of Minas Gerais, in addition to various virtuous men and women of the past. They perceive this material world as a single chapter within an unending cycle of death and rebirth, marked by a catastrophic incident called 'A Derrama', followed by the salvation of all righteous souls and the subsequent recreation of existence from the curdling of a primordial Chaos. Benteiros now eagerly expect the final coming of the Messiah, who will sacrifice himself in an attempt to end the cycle of cataclysms, as past figures like Tomás Dirceu, Tancredo and Tiradentes once did. However, their plans and prayers may be thwarted by the malevolent Emboabas and their False Messiahs, the evil beings responsible for the latest and more destructive Derrama, which ravaged the Old World six centuries ago. Consequently, Benteiros adhere to the 'Inconfidência', abstaining from sharing the most intimate and secretive aspects of their liturgies and rituals with outsiders and non-believers..;;;;;;;;;;;;;x
+#######################
+### Syncretic Group ###
+#######################
+syncretic_group;Syncretic;;;;;;;;;;;;;x
+camdomble;Candomblecist;;;;;;;;;;;;;x
+camdomble_DESC;Candomblé is a syncretic faith that absorbed religious traditions from West Africans, Portuguese Catholics, and the indigenous. Its name literally means "dance in honor of the gods," and many of its rituals involve music and dance. Practitioners worship a creator deity named Olodumaré, as well as numerous lesser spirits called Orixás. Candomblé practitioners believe that every person has their own patron Orixá, who controls their destiny and acts as a spiritual protector.;;;;;;;;;;;;;x
+kardecists;Kardecist;;;;;;;;;;;;;x
+kardecists_DESC;There has been debate as to whether Kardecism is a philosophy or a religion, but Kardecists take their beliefs very seriously irregardless. Based on the writings of Allan Kardec on a study of mediums, Kardecist doctrine advocates the Triple-Aspect: the conjoining of Science, Philosophy, and Religion. Kardecists believe that all living beings are essentially immortal spirits that inhabit physical bodies only for several necessary incarnations to attain moral and intellectual improvement. Kardecism also asserts that disembodied spirits, through passive or active mediumship, may have beneficent or malevolent influence on the physical world.;;;;;;;;;;;;;x
+santo_daime;Santo Daime;;;;;;;;;;;;;x
+santo_daime_DESC;Santo Daime is a syncretic religion founded in the Brazilian region of Acre by Mestre Irineu. The religion incorporates elements of several religious or spiritual traditions including Catholicism, Kardecist beliefs, African animism, and indigenous shamanism, including vegetalismo. Ceremonies, trabalhos, are and are undertaken sitting in silent "concentration", or sung collectively, dancing according to simple steps in geometrical formation. Ayahuasca is drunk as part of the ceremony.;;;;;;;;;;;;;x
+umbanda;Umbanda;;;;;;;;;;;;;x
+umbanda_DESC;Umbanda is a syncretic religion that blends African traditions with Catholicism, Spiritism, and Indigenous beliefs. The religion originated in Niterói due to the work of a psychic, Zélio Fernandino de Moraes, who practiced Umbanda among poor Brazilians. Other common beliefs are the existence of deities called Orixás, most of them syncretized with Catholic saints that act as divine energy and forces of nature, spirits of deceased people that counsel and guide practitioners through troubles in the material world, psychics, or mediums, who have a natural ability that can be perfected to bring messages from the spiritual world of Orixás and the guiding spirits, reincarnation and spiritual evolution through many material lives, and the practice of charity and social fraternity.;;;;;;;;;;;;;x
+israelite;Israelite;;;;;;;;;;;;;x
+israelite_DESC;Israelites, also known as the Israelites of the New Universal Pact, were founded by Brother Ezequiel, a prophet who called himself the Christ of the west and preached that he was chosen by God to create a new Israel in the Amazon Rainforest as a punishment of the original Israelites for their losing faith. The Israelites seek to establish a truly godly society on Earth with influences from Chrisitanity, Judaism, and Incan religion to live up to Brother Ezequiel’s vision.;;;;;;;;;;;;;x
+jurema;Juremeiro;;;;;;;;;;;;;x
+jurema_DESC;The Jurema is a collection of rituals and magics of the indigenous peoples of Northeast Brazil, its practitioners, the “juremeiros” hold devotion to the spirits of the land, the “encantados”, and their sacred ancestors, the “caboclos de jurema”, and praise them with songs and circular dances, the smoking of tobacco and the ingestion of the herbs and plants to commune with this spirits and ancestors.;;;;;;;;;;;;;x
+tambor;Tambor de Mina;;;;;;;;;;;;;x
+tambor_DESC;Tambor de Mina, an Afro-Brazilian religion originating in Maranhão, stands as a testament to a vibrant blend of culture and spirituality. Built upon the reverence for the Encantandos, Egunguns, Vodouns and Orixás, spiritual entities embodying natural elements and human traits, this religious practice is distinguished by its profound connection to music and dance, employing drums to establish a link with the divine.;;;;;;;;;;;;;x
+rastafarian;Rastafari;;;;;;;;;;;;;x
+rastafarian_DESC;Rastafari is a religion originating in Jamaica, inspired by both the Christian Bible and the teachings of Marcus Garvey. They believe that a pre-Event emperor from "Zion" known as Ras Tafari was the representative of Jah, or God, on Earth, and that "the Event" was the result of Jah overthrowing the wicked forces of "Babylon", allowing the world to start anew. The Rasta faith is divided into several groups, or "mansions", and the two largest Rasta Mansions in the post-apocalyptic world are Bobo Ashanti and the Twelve Tribes of Israel.;;;;;;;;;;;;;x
+rastafarian_FEATURES;§Y*§! May go on vision quests with the aid of sacramental herbs.\n§Y*§! May join Bobo Ashanti or the Twelve Tribes of Israel via a targeted decision.;;;;;;;;;;;;;x
+######################
+### Nautical Group ###
+######################
+brethren;Brethren;;;;;;;;;;;;;x
+brethren_DESC;With a strong tradition of seafaring and a reputation for robbery and murder, most call the Brethren pirates. This assessment is not far from the truth. Though the Brethren follow a Code of the Sea, they are loosely organized and live mostly to plunder riches from the weak. All of their gods have some link to the ocean, which they consider the source of all life and all wealth.;;;;;;;;;;;;;x
+#####################
+### Miscellaneous ###
+#####################
+########################################
+### American Native/Amerindian Group ###
+########################################
+### Nguillatun ###
+WEICHAN;Weichan;;;;;;;;;;;;;x
+ADMAPU;Admapu;;;;;;;;;;;;;x
+MACHI;Machi;;;;;;;;;;;;;x
+AM;Am;;;;;;;;;;;;;x
+GOD_NGENECHEN;Ngenechén;;;;;;;;;;;;;x
+GOD_ANTU;Antu;;;;;;;;;;;;;x
+GOD_KUYEN;Kuyen;;;;;;;;;;;;;x
+GOD_PERIPILLAN;Peripillán;;;;;;;;;;;;;x
+GOD_TRENTREN;Trentren-Vilu;;;;;;;;;;;;;x
+GOD_CAICAI;Caicai-Vilu;;;;;;;;;;;;;x
+GOD_EPUNAMUN;Epunamún;;;;;;;;;;;;;x
+GOD_WEKUFES;Wekufes;;;;;;;;;;;;;x
+GOD_KALKUS;Kalkus;;;;;;;;;;;;;x
+### Xoon ###
+SHOON;Sho'on;;;;;;;;;;;;;x
+XOON;Xo'on;;;;;;;;;;;;;x
+MIU;Miu;;;;;;;;;;;;;x
+GOD_TEMAUKEL;Temáukel;;;;;;;;;;;;;x
+GOD_KENOS;Kenos;;;;;;;;;;;;;x
+GOD_KWANYIP;Kwanyip;;;;;;;;;;;;;x
+GOD_CENUKE;Cenuke;;;;;;;;;;;;;x
+GOD_KOJH;Kojh;;;;;;;;;;;;;x
+GOD_KREN;Kren;;;;;;;;;;;;;x
+GOD_KRE;Kre;;;;;;;;;;;;;x
+GOD_JOSH;Josh;;;;;;;;;;;;;x
+GOD_SHENRR;Shenrr;;;;;;;;;;;;;x
+GOD_XALPEN;Xalpen;;;;;;;;;;;;;x
+GOD_SOORTES;The Soortes;;;;;;;;;;;;;x
+### Pachamama ###
+SUMAK_KAWSAY;Sumak Kawsay;;;;;;;;;;;;;x
+YATIRI;Yatiri;;;;;;;;;;;;;x
+HARMONY;Harmony;;;;;;;;;;;;;x
+GOD_PACHAMAMA;Pachamama;;;;;;;;;;;;;x
+GOD_WORLD_MOTHER;World Mother;;;;;;;;;;;;;x
+GOD_MOTHER_EARTH;Mother Earth;;;;;;;;;;;;;x
+GOD_INTI;Inti;;;;;;;;;;;;;x
+GOD_QUILLA;Quilla;;;;;;;;;;;;;x
+GOD_SUPAY;Supay;;;;;;;;;;;;;x
+GOD_POLLUTION;Pollution;;;;;;;;;;;;;x
+### Añetejerovia ###
+THE_STORIES;The Stories;;;;;;;;;;;;;x
+GOD_TUPA;Tupa;;;;;;;;;;;;;x
+GOD_ARASY;Arasy;;;;;;;;;;;;;x
+GOD_RUPAVE;Rupave;;;;;;;;;;;;;x
+GOD_SYPAVE;Sypave;;;;;;;;;;;;;x
+GOD_THE_CELESTIAL_JAGUAR;The Celestial Jaguar;;;;;;;;;;;;;x
+GOD_TAU;Tau;;;;;;;;;;;;;x
+GOD_AO_AO;Ao Ao;;;;;;;;;;;;;x
+GOD_KURUPI;Kurupi;;;;;;;;;;;;;x
+GOD_LUISON;Luison;;;;;;;;;;;;;x
+GOD_POMBERO;Pombero;;;;;;;;;;;;;x
+### Inti ###
+THE_TRADITIONS;The Traditions;;;;;;;;;;;;;x
+GOD_QHOA;Qhoa;;;;;;;;;;;;;x
+GOD_ILLAPA;Illapa;;;;;;;;;;;;;x
+### Inkarri ###
+THE_MYTH;The Myth;;;;;;;;;;;;;x
+GOD_INKARRI;Inkarri;;;;;;;;;;;;;x
+GOD_TUPAC_AMARU;Tupac Amaru;;;;;;;;;;;;;x
+GOD_THE_CROWN;The Crown;;;;;;;;;;;;;x
+### Hekura ###
+GOD_HEDU;Hedu;;;;;;;;;;;;;x
+GOD_BUHII;Buhii;;;;;;;;;;;;;x
+GOD_BORE;Bore;;;;;;;;;;;;;x
+GOD_MOAMO;Moamo;;;;;;;;;;;;;x
+GOD_NORESHI;Noreshi;;;;;;;;;;;;;x
+GOD_JAGUAR;Jaguar;;;;;;;;;;;;;x
+#######################
+### Christian Group ###
+#######################
+### Charismatic ###
+GOD_DEUS;Deus;;;;;;;;;;;;;x
+GOD_HOLY_SPIRIT;Holy Spirit;;;;;;;;;;;;;x
+GOD_JESUS;Jesus;;;;;;;;;;;;;x
+GOD_THE_BLESSED_VIRGIN;The Blessed Virgin;;;;;;;;;;;;;x
+GOD_THE_SAINTS;The Saints;;;;;;;;;;;;;x
+GOD_MAGNANIMOUS;Magnanimous;;;;;;;;;;;;;x
+THE_DEVIL;The Devil;;;;;;;;;;;;;x
+SATAN;Satan;;;;;;;;;;;;;x
+LUCIFER;Lucifer;;;;;;;;;;;;;x
+PADRE;Padre;;;;;;;;;;;;;x
+CHARISMA;Charisma;;;;;;;;;;;;;x
+### Liberationist ###
+GREED;Greed;;;;;;;;;;;;;x
+### Celeste ###
+THE_MONGES;The Monges;;;;;;;;;;;;;x
+### Cicerite ###
+GOD_PADRE_CICERO;Padre Cicero;;;;;;;;;;;;;x
+### Seladite ###
+THE_COMMUNIST;The Communist;;;;;;;;;;;;;x
+### Neo-Pentecostal ###
+GOD_THE_BLESSINGS;The Blessings;;;;;;;;;;;;;x
+### Jehovah's Witness ###
+GOD_JEHOVAH;Jehovah;;;;;;;;;;;;;x
+THE_WORLD;The World;;;;;;;;;;;;;x
+### Holy Spirit ###
+EXPOSITION_OF_THE_BOOK_OF_REVELATION;Exposition of the Book of Revelation;;;;;;;;;;;;;x
+GOD_SAINT_JOACHIM;Saint Joachim;;;;;;;;;;;;;x
+### Xabaxáígio Xagí ###
+THE_JAGUAR;The Jaguar;;;;;;;;;;;;;x
+### Tridentine ###
+GOD_THE_VICAR;The Vicar of the Christ;;;;;;;;;;;;;x
+#######################################
+### Cult of Saints/Vernacular Group ###
+#######################################
+### Chicha ###
+GOD_DIOS;Dios;;;;;;;;;;;;;x
+GOD_CHACALON;Chacalón;;;;;;;;;;;;;x
+### Santa Diablada ###
+GOD_EL_TIO;El Tío;;;;;;;;;;;;;x
+GOD_EKEKO;Ekeko;;;;;;;;;;;;;x
+GOD_EL_TATA;El Tata;;;;;;;;;;;;;x
+GOD_SAN_ERNESTO;San Ernesto;;;;;;;;;;;;;x
+GOD_JICHI;Jichi;;;;;;;;;;;;;x
+GOD_COQUENA;Coquena;;;;;;;;;;;;;x
+GOD_JERERE;Jerere;;;;;;;;;;;;;x
+MANDINGA;Mandinga;;;;;;;;;;;;;x
+SUPAY;Supay;;;;;;;;;;;;;x
+### Folclorista ###
+GOD_GAUCHITO;Gauchito Gil;;;;;;;;;;;;;x
+GOD_SANTOS_VEGAS;Santos Vegas;;;;;;;;;;;;;x
+GOD_SAN_BALTASAR;San Baltasar;;;;;;;;;;;;;x
+GOD_SAN_LA_MUERTE;San La Muerte;;;;;;;;;;;;;x
+GOD_NAHUELITO;Nahuelito;;;;;;;;;;;;;x
+### Patria Grande ###
+GOD_DIVINO_NINO;Divinio Nino;;;;;;;;;;;;;x
+GOD_BOLIVAR;Bolivar;;;;;;;;;;;;;x
+GOD_SANTANDER;Santander;;;;;;;;;;;;;x
+GOD_MANUELITA;Manuelita;;;;;;;;;;;;;x
+PEPE_BOTELLA;Pepe Botella;;;;;;;;;;;;;x
+THE_COLOMBEIA;The Colombeia;;;;;;;;;;;;;x
+### Arcanjo ###
+GOD_ARCANJO_MIGUEL;Arcanjo Miguel;;;;;;;;;;;;;x
+GOD_ARCANJO_URIEL;Uriel;;;;;;;;;;;;;x
+GOD_ARCANJO_GABRIEL;Gabriel;;;;;;;;;;;;;x
+GOD_ARCANJO_RAFAEL;Rafael;;;;;;;;;;;;;x
+GOD_ANJO_DA_GUARDA;Anjo da Guardia;;;;;;;;;;;;;x
+GOD_CUPIDO;Cupido;;;;;;;;;;;;;x
+GOD_LUCIFER;Lucifer;;;;;;;;;;;;;x
+GOD_THE_DEVIL;The Devil;;;;;;;;;;;;;x
+THE_BELZEBU;The Belzebu;;;;;;;;;;;;;x
+GOD_DIABLO;Diablo;;;;;;;;;;;;;x
+GOD_ASMODEUS;Asmodeus;;;;;;;;;;;;;x
+GOD_MAMMON;Mammon;;;;;;;;;;;;;x
+GOD_PAIMON;Paimon;;;;;;;;;;;;;x
+GOD_CUCA;Cuca;;;;;;;;;;;;;x
+GOD_PEREIRA;Pereira;;;;;;;;;;;;;x
+### Sebastianist ###
+MENSAGEM;Mensagem;;;;;;;;;;;;;x
+GOD_SEBASTIAN;Sebastian;;;;;;;;;;;;;x
+GOD_DOM_PEDRO;Dom Pedro;;;;;;;;;;;;;x
+GOD_DESIRED;o Desejado;;;;;;;;;;;;;x
+GOD_ENCOBERTO;o Encoberto;;;;;;;;;;;;;x
+GOD_ISABEL;Isabel;;;;;;;;;;;;;x
+REPUBLICANISM;Republicanism;;;;;;;;;;;;;x
+### Archipelagic ###
+CURA;Cura;;;;;;;;;;;;;x
+TRAUCO;El Trauco;;;;;;;;;;;;;x
+FIURA;La Fiura;;;;;;;;;;;;;x
+#####################
+### Eastern Group ###
+#####################
+### Buddhism ###
+THE_TRIPITACA;The Tripitaca;;;;;;;;;;;;;x
+GOD_BRAMA;Brama;;;;;;;;;;;;;x
+GOD_THE_BUDA;The Buda;;;;;;;;;;;;;x
+### Hinduism ###
+GOD_AUM;Aum;;;;;;;;;;;;;x
+GOD_VISHNU;Vishnu;;;;;;;;;;;;;x
+KALI;Kali;;;;;;;;;;;;;x
+THE VEDAS;The Vedas;;;;;;;;;;;;;x
+### Theosophist ###
+THE_SECRET_DOCTRINE;The Secret Doctrine;;;;;;;;;;;;;x
+OFFICER;Officer;;;;;;;;;;;;;x
+GOD_THE_MASTERS;The Masters;;;;;;;;;;;;;x
+GOD_BLAVATSKY;Blavatsky;;;;;;;;;;;;;x
+GOD_KOOT_HOOMI;Koot Hoomi;;;;;;;;;;;;;x
+GOD_MORYA;Morya;;;;;;;;;;;;;x
+GOD_ABRAHAM;Abraham;;;;;;;;;;;;;x
+GOD_MOSES;Moses;;;;;;;;;;;;;x
+GOD_BUDDHA;Buddha;;;;;;;;;;;;;x
+GOD_CONFUCIUS;Confucius;;;;;;;;;;;;;x
+GOD_LAOZI;Laozi;;;;;;;;;;;;;x
+THEVETAT;Thevetat;;;;;;;;;;;;;x
+ATLANTIS;Atlantis;;;;;;;;;;;;;x
+### Johrei ###
+THE_IDEA;The Idea of Ultimate Reality and Meaning;;;;;;;;;;;;;x
+MASTER;Master;;;;;;;;;;;;;x
+GOD_KANNON;Kannon;;;;;;;;;;;;;x
+GOD_SOZO;Sozo Sushin;;;;;;;;;;;;;x
+GOD_MEISHUSAMA;Meishu Sama;;;;;;;;;;;;;x
+GOD_OKADA;Okada Mokichi;;;;;;;;;;;;;x
+####################
+### Muslim Group ###
+####################
+### Frontera ###
+THE_QURAN;The Quran;;;;;;;;;;;;;x
+GOD_IBLIS;Iblis;;;;;;;;;;;;;x
+###############################
+### Old World Cultist Group ###
+###############################
+### Atomicist ###
+GOD_ATOMOS;Atomos;;;;;;;;;;;;;x
+GOD_FAT_MAN;Fat Man;;;;;;;;;;;;;x
+GOD_LITTLE_BOY;Little Boy;;;;;;;;;;;;;x
+GOD_TSAR_BOMBA;Tsar Bomba;;;;;;;;;;;;;x
+GOD_THE ELEMENTS;The Elements;;;;;;;;;;;;;x
+THE_DEMON_CORE;The Demon Core;;;;;;;;;;;;;x
+THE_VOID;The Void;;;;;;;;;;;;;x
+
+### Posadist ###
+GOD_POSADAS;Posadas;;;;;;;;;;;;;x
+GOD_THE_FIRST_STRIKE;The First Strike;;;;;;;;;;;;;x
+GOD_THE_WISE_DOLPHIN;The Wise Dolphin;;;;;;;;;;;;;x
+GOD_METI;METI;;;;;;;;;;;;;x
+GOD_THE_CAPITALIST;The Capitalist;;;;;;;;;;;;;x
+GOD_THE_MEN_IN_BLACK;The Men in Black;;;;;;;;;;;;;x
+### Bandean ###
+OATH_OF_THE_THIRTY-THREE_ORIENTALS;Oath of the Thirty-Three Orientals;;;;;;;;;;;;;x
+GOD_BANDA_ORIENTAL;Banda Oriental;;;;;;;;;;;;;x
+GOD_THE_THIRTY-THREE_ORIENTALS;The Thirty-Three Orientals;;;;;;;;;;;;;x
+GOD_ARTIGAS;Artigas;;;;;;;;;;;;;x
+GOD_DON_PEPE;Don Pepe;;;;;;;;;;;;;x
+GOD_LUISI;Luisi;;;;;;;;;;;;;x
+GOD_BLANCOS;Blancos;;;;;;;;;;;;;x
+GOD_COLORADOS;Colorados;;;;;;;;;;;;;x
+GOD_THE_LUSOS;The Lusos;;;;;;;;;;;;;x
+GOD_TUPAMAROS;Tupamaros;;;;;;;;;;;;;x
+GOD_FA;Fa;;;;;;;;;;;;;x
+### Artiguist ###
+INSTRUCTIONS_OF_THE_YEAR_XIII;Instructions of the Year XIII;;;;;;;;;;;;;x
+GOD_PAINE;Paine;;;;;;;;;;;;;x
+### Piriamano ###
+THE_ALCHEMISTS_TRIUMPH;The Alchemist's Triumph;;;;;;;;;;;;;x
+GOD_PIRIA;Piria;;;;;;;;;;;;;x
+GOD_THE_TREE_OF_LIFE;The Tree of Life;;;;;;;;;;;;;x
+### Camino Estelar ###
+LAS_INSTRUCCIONES_CELESTIALES;Las Instrucciones Celestiales;;;;;;;;;;;;;x
+HERMANO;Hermano;;;;;;;;;;;;;x
+GOD_NIBIRU;Nibiru;;;;;;;;;;;;;x
+GOD_ALMA;Alma;;;;;;;;;;;;;x
+GOD_ANNUNAKI;The Annunaki;;;;;;;;;;;;;x
+GOD_AN;An;;;;;;;;;;;;;x
+GOD_ESO;Eso;;;;;;;;;;;;;x
+GOD_CHUG_CHUG;Chug Chug;;;;;;;;;;;;;x
+GOD_CHIZA;Chiza;;;;;;;;;;;;;x
+GOD_TUNUPA_TARAPACA;Tunupa-Tarapacá;;;;;;;;;;;;;x
+GOD_OSCURIDAD;Oscuridad;;;;;;;;;;;;;x
+GOD_SOL_MUERTO;El Sol Muerto;;;;;;;;;;;;;x
+GOD_SIRIUS;Sirius;;;;;;;;;;;;;x
+### Obscurantist ###
+KEEPER;Keeper;;;;;;;;;;;;;x
+GOD_MANTO_CELESTIAL;El Manto Celestial;;;;;;;;;;;;;
+GOD_OZONO;Ozono;;;;;;;;;;;;;x
+GOD_ABISMO_BRILLANTE;Abismo Brillante;;;;;;;;;;;;;x
+### Darwinist ###
+EXTINCTION_WAR;Extinction War;;;;;;;;;;;;;x
+THE_ORIGIN_OF_THE_SPECIES;The Origin of Species;;;;;;;;;;;;;x
+NATURALIST;Naturalist;;;;;;;;;;;;;x
+APTITUDE;Aptitude;;;;;;;;;;;;;x
+GOD_MOTHER_NATURE;Mother Nature;;;;;;;;;;;;;x
+GOD_PROPHET_DARWIN;Prophet Darwin;;;;;;;;;;;;;x
+GOD_THE_SELECTION;The Selection;;;;;;;;;;;;;x
+GOD_THE_WILD;The Wild;;;;;;;;;;;;;x
+GOD_LORD_VULCAN;Lord Vulcan;;;;;;;;;;;;;x
+GOD_ORTHO_GENESIS;Ortho Genesis;;;;;;;;;;;;;x
+GOD_THE_MAN;The Man;;;;;;;;;;;;;x
+GOD_THE_ARTIFICE;The Artifice;;;;;;;;;;;;;x
+### Lamarckian ###
+PHILOSOPHIE_ZOOLOGIQUE;Philosophie Zoologique;;;;;;;;;;;;;x
+DRIVE;Drive;;;;;;;;;;;;;x
+GOD_FATHER_LAMARCK;Father Lamarck;;;;;;;;;;;;;x
+GOD_THE_DRIVING_FORCE;The Driving Force;;;;;;;;;;;;;x
+### Farroupilha ###
+CAMPAIGN;Campaign;;;;;;;;;;;;;x
+PARTENON_LITERARIO;Partenon Literario;;;;;;;;;;;;;x
+TRADITION;Tradition;;;;;;;;;;;;;x
+TROVADOR;Trovador;;;;;;;;;;;;;x
+GOD_BENTO_GONCALVES;Bento Gonçalves;;;;;;;;;;;;;x
+GOD_NETTO;Netto;;;;;;;;;;;;;x
+GOD_GARIBALDI;Garibaldi;;;;;;;;;;;;;x
+GOD_ANITTA;Anitta;;;;;;;;;;;;;x
+GOD_CANABARRO;Canabarro;;;;;;;;;;;;;x
+GOD_TEIXEIRA_NUNES;Teixeira Nunes;;;;;;;;;;;;;x
+CARAMURU;Caramuru;;;;;;;;;;;;;x
+TEINIAGUA;Teiniagua;;;;;;;;;;;;;x
+### Getulist ###
+CARTA_TESTAMENTO;Carta Testamento;;;;;;;;;;;;;x
+GOD_VARGAS;Getúlio Vargas;;;;;;;;;;;;;x
+GOD_THE_BLACK_ANGEL;The Black Angel;;;;;;;;;;;;;x
+GOD_J_K;J K;;;;;;;;;;;;;x
+GOD_JANGO;Jango;;;;;;;;;;;;;x
+GOD_BRASILIDADE;Brasilidade;;;;;;;;;;;;;x
+TRIBUNA_DE_IMPRENSA;Tribuna da Imprensa;;;;;;;;;;;;;x
+GOD_AIB;AIB;;;;;;;;;;;;;x
+GOD_PEDRO_DE_TOLEDO;Pedro de Toledo;;;;;;;;;;;;;x
+GOD_PRESTES;Prestes;;;;;;;;;;;;;x
+GOD_THE_KNIGHT;The Knight;;;;;;;;;;;;;x
+### Platinean ###
+GOD_SAN_MARTIN;San Martín;;;;;;;;;;;;;x
+GOD_BELGRANO;Belgrano;;;;;;;;;;;;;x
+GOD_GUEMES;Guemes;;;;;;;;;;;;;x
+GOD_MORENO;Moreno;;;;;;;;;;;;;x
+GOD_MARADONA;Maradona;;;;;;;;;;;;;x
+GOD_BROWN;Brown;;;;;;;;;;;;;x
+GOD_SARMIENTO;Sarmiento;;;;;;;;;;;;;x
+GOD_THE_CROSS;The Cross;;;;;;;;;;;;;x
+GOD_THE_CIPAYO;The Cipayo;;;;;;;;;;;;;x
+SILVER_BOOKS;The Silver Books;;;;;;;;;;;;;x
+JUDGE;Judge;;;;;;;;;;;;;x
+### Rosalian ###
+GOD_ROSAS;Rosas;;;;;;;;;;;;;x
+GOD_THE_RESTORER;The Restorer;;;;;;;;;;;;;x
+GOD_LA_MAZORCA;La Mazorca;;;;;;;;;;;;;x
+GOD_DORREGO;Dorrego;;;;;;;;;;;;;x
+GOD_QUIROGA;Quiroga;;;;;;;;;;;;;x
+THE_UNITARIANS;The Unitarians;;;;;;;;;;;;;x
+CRIMSON_BOOKS;Crimson Books;;;;;;;;;;;;;x
+### Modernists ###
+GOD_THE_OLD_MASTERS;The Old Masters;;;;;;;;;;;;;x
+GOD_THE_ARCHITECT;The Architect;;;;;;;;;;;;;x
+GOD_BRASILEIROS;Brasileiros;;;;;;;;;;;;;x
+GOD_NOVO_HOMEM;Novo Homem;;;;;;;;;;;;;x
+GOD_THE_GRINGO;The Gringo;;;;;;;;;;;;;x
+GOD_THE_DARKNESS;The Darkness;;;;;;;;;;;;;x
+GOD_THE_HEADLESS_MULE;The Headless Mule;;;;;;;;;;;;;x
+GREAT_VANGUARD;Great Vanguard;;;;;;;;;;;;;x
+FLESH_AND_SOUL;Flesh and Soul;;;;;;;;;;;;;x
+INOVATION;Inovation;;;;;;;;;;;;;x
+EXPOSITOR;Expositor;;;;;;;;;;;;;x
+### Varedesian ###
+GOD_THE_ANCESTRAL_RACE;The Ancestral Race;;;;;;;;;;;;;x
+GOD_REINALDO;Reinaldo;;;;;;;;;;;;;x
+GOD_DIADORIM;Diadorim;;;;;;;;;;;;;x
+GOD_THE_RACE;The Race;;;;;;;;;;;;;x
+GOD_THE_DROUGHT;The Drought;;;;;;;;;;;;;x
+GOD_THE_JANGUNSUS;The Jangunsus;;;;;;;;;;;;;x
+GREAT_WALK;Great Walk;;;;;;;;;;;;;x
+THE_SAGARANA;The Sagarana;;;;;;;;;;;;;x
+VIGOR;Vigor;;;;;;;;;;;;;x
+TELLER;Teller;;;;;;;;;;;;;x
+### Anthropofagian ###
+GOD_ABAPORU;Abaporu;;;;;;;;;;;;;x
+GOD_ADAO;Adão;;;;;;;;;;;;;x
+GOD_EVA;Eva;;;;;;;;;;;;;x
+GOD_TUPI;Tupã;;;;;;;;;;;;;x
+GOD_GREAT_SNAKE;The Great Snake;;;;;;;;;;;;;x
+GOD_GRACCHI;Mãe de Gracchi;;;;;;;;;;;;;x
+MANIFESTO;Manifesto Antropófago;;;;;;;;;;;;;x
+###################
+### Pagan Group ###
+###################
+### Piogonak ###
+GOD_KHARTA;Kharta;;;;;;;;;;;;;x
+GOD_KASOGONAGA;Kasobonaga;;;;;;;;;;;;;x
+GOD_LAPICHI;Lapichi;;;;;;;;;;;;;x
+GOD_MOGONALO;Mogonalo;;;;;;;;;;;;;x
+GOD_NSOGOI;NsoGoi;;;;;;;;;;;;;x
+GOD_PICHAKCHIK;Pichakchik;;;;;;;;;;;;;x
+### Gaucheria ###
+THE_GREAT_GAUCHO;The Great Gaucho;;;;;;;;;;;;;x
+GOD_MARTIN_FIERRO;Martín Fierro;;;;;;;;;;;;;x
+GOD_CAUDILLOS;Caudillos;;;;;;;;;;;;;x
+GOD_HORSE;Horse;;;;;;;;;;;;;x
+THE_GRINGO;The Gringo;;;;;;;;;;;;;x
+THE_CACIQUES;The Caciques;;;;;;;;;;;;;x
+THE_FIERRO_TOMES;The Fierro Tomes;;;;;;;;;;;;;x
+PAYADOR;Payador;;;;;;;;;;;;;x
+### Calafatist ###
+GOD_CALAFATE;Calafate;;;;;;;;;;;;;x
+GOD_NOSJTHEJ;Nosjthej;;;;;;;;;;;;;x
+GOD_MAGELLAN;Magellan;;;;;;;;;;;;;x
+GOD_ELAL;Elal;;;;;;;;;;;;;x
+GOD_ALEP_LAYP;Alep-Láyp;;;;;;;;;;;;;x
+GOD_PERITO_MORENO;Perito Moreno;;;;;;;;;;;;;x
+KACHPIK;Kachpik;;;;;;;;;;;;;x
+THE_COLD_ONE;The Cold One;;;;;;;;;;;;;x
+AYAYEMA;Ayayema;;;;;;;;;;;;;x
+CURSPI;Curspi;;;;;;;;;;;;;x
+GUALICHO;Gualicho;;;;;;;;;;;;;x
+SHEPERD;Sheperd;;;;;;;;;;;;;x
+BOOK_OF_TRAPALANDA;Book of Trapalanda;;;;;;;;;;;;;x
+### Manredebu ###
+GOD_SUN;Sun;;;;;;;;;;;;;x
+GOD_MOON;Moon;;;;;;;;;;;;;x
+GOD_BULL;Bull;;;;;;;;;;;;;x
+GOD_YSO;Yso;;;;;;;;;;;;;x
+GOD_CHAOS;Chaos;;;;;;;;;;;;;x
+GOD_BLOOD;Blood;;;;;;;;;;;;;x
+THE_CERRADO_DEMON;The Cerrado Demon;;;;;;;;;;;;;x
+GOD_CLAY;Clay;;;;;;;;;;;;;x
+GOD_BONE;Bone;;;;;;;;;;;;;x
+HOLY_WAR_VACARIA;Vacaría;;;;;;;;;;;;;x
+THE_SANG_TRUTHS;The Sang Truths;;;;;;;;;;;;;x
+HERB_POET;Herb Poet;;;;;;;;;;;;;x
+### Terra Benta ###
+PARENT;Parent;;;;;;;;;;;;;x
+THE_RECOLLECTIONS;The Recollections;;;;;;;;;;;;;x
+THE_GOD_LIGHT;The God Light;;;;;;;;;;;;;x
+THE_VALLEY;The Valley;;;;;;;;;;;;;x
+GOD_MARY;Mary;;;;;;;;;;;;;x
+GOD_EARTH_MOTHER;Earth Mother;;;;;;;;;;;;;x
+THE_SPIRITS;The Spirits;;;;;;;;;;;;;x
+GOD_CRISTO;Cristo;;;;;;;;;;;;;x
+THE_DARKNESS;The Darkness;;;;;;;;;;;;;x
+GOD_THE_DOG;The Dog;;;;;;;;;;;;;x
+GOD_THE_EMBOABAS;The Emboabas;;;;;;;;;;;;;x
+### Terra Benta Reformed ###
+THE_ARCHITECT;The Architect;;;;;;;;;;;;;x
+GOD_THE_SNAKE;The Snake;;;;;;;;;;;;;x
+GOD_THE_GREATNESS;The Greatness;;;;;;;;;;;;;x
+THE_BEAST;The Beast;;;;;;;;;;;;;x
+THE_NIGHT;The Night;;;;;;;;;;;;;x
+THE_WEREWOLF;The Werewolf;;;;;;;;;;;;;x
+#######################
+### Syncretic Group ###
+#######################
+### Candomble ###
+ODU_IFA;Odu Ifá;;;;;;;;;;;;;x
+GOD_OLORUN;Olorun;;;;;;;;;;;;;x
+GOD_THE_ORICHAS;The Orichas;;;;;;;;;;;;;x
+GOD_ORUNMILA;Orunmila;;;;;;;;;;;;;x
+GOD_IANSA;Iansa;;;;;;;;;;;;;x
+GOD_IEMANJA;Iemanja;;;;;;;;;;;;;x
+THE_LEFT_SPIRITS;The Left Spirits;;;;;;;;;;;;;x
+### Kardecists ###
+HEAVEN_AND_HELL;Heaven and Hell;;;;;;;;;;;;;x
+GOD_FRANCIS_OF_ASSISI;Francis of Assisi;;;;;;;;;;;;;x
+GOD_PAUL_THE_APOSTLE;Paul the Apostle;;;;;;;;;;;;;x
+GOD_GANDHI;Gandhi;;;;;;;;;;;;;x
+GOD_THE_CRISIS;The Crisis;;;;;;;;;;;;;x
+GOD_POLTERGEISTS;The Poltergeists;;;;;;;;;;;;;x
+### Santo Daime ###
+THE_MISSIONED_DOCUMENTS;The Missioned Documents;;;;;;;;;;;;;x
+THE_VIRGIN_OF_THE_FOREST;The Virgin of the Forest;;;;;;;;;;;;;x
+GOD_THE_SPIRITS;The Spirits;;;;;;;;;;;;;x
+GOD_THE_CONCEDING_ONE;The Conceding One;;;;;;;;;;;;;x
+### Umbanda ###
+THE_RITUALS;The Rituals;;;;;;;;;;;;;x
+GOD_OLODUMARE;Olodumare;;;;;;;;;;;;;x
+GOD_OXALA;Oxala;;;;;;;;;;;;;x
+GOD_OXUM;Oxum;;;;;;;;;;;;;x
+GOD_ORIXAS;The Orixas;;;;;;;;;;;;;x
+GOD_PURE_SPIRITS;The Pure Spirits;;;;;;;;;;;;;x
+GOD_GOOD_SPIRITS;The Good Spirits;;;;;;;;;;;;;x
+GOD_BAD_SPIRITS;The Bad Spirits;;;;;;;;;;;;;x
+### Israelite ###
+MAQANAKUY;Maqanakuy;;;;;;;;;;;;;x
+TAHUANTINSUYO_BIBLE;The Tahuantinsuyo Bible;;;;;;;;;;;;;x
+GOD_EZEQUIEL;Ezequiel Jesus of the West;;;;;;;;;;;;;x
+GOD_JESUS_EAST;Jesus of the East;;;;;;;;;;;;;x
+### Jurema ###
+SONGS_OF_JUREMA;Songs of Jurema;;;;;;;;;;;;;x
+GOD_THE_ENCANTADOS;The Encantados;;;;;;;;;;;;;x
+GOD_JUREMA;Jurema Sagrada;;;;;;;;;;;;;x
+GOD_GOOD_MASTERS;The Good Masters;;;;;;;;;;;;;x
+PURITY;Purity;;;;;;;;;;;;;x
+### Tambor ###
+ODU_IFA;Odu Ifa;;;;;;;;;;;;;x
+VODUNCE;Vodunce;;;;;;;;;;;;;x
+ASHE;Ashe;;;;;;;;;;;;;x
+### Rastafarian ###
+THE_PROMISED_KEY;The Promised Key;;;;;;;;;;;;;x
+GOD_JAH;Jah;;;;;;;;;;;;;x
+GOD_RASTAFARI;Ras Tafari;;;;;;;;;;;;;x
+PROPHET_GARVEY;Garvey;;;;;;;;;;;;;x
+BABYLON;Babylon;;;;;;;;;;;;;x
+######################
+### Nautical Group ###
+######################
+### Brethren ###
+GOD_THE_SEA_HAG;The Sea Hag;;;;;;;;;;;;;x
+GOD_AGWE;Agwe;;;;;;;;;;;;;x
+GOD_EXPLORATION;Exploration;;;;;;;;;;;;;x
+THE_HANGMAN;The Hangman;;;;;;;;;;;;;x
+DAVY_JONES;Davy Jones;;;;;;;;;;;;;x
+THE_CODE;The Code;;;;;;;;;;;;;x

@@ -1,0 +1,315 @@
+###################################
+### Titles and Forms of Address ###
+###################################
+################
+### Cultural ###
+################
+### Mapuche ###
+baron_mapuche;Lonko;;;;;;;;;;;;;x
+baron_female_mapuche;Lonko;;;;;;;;;;;;;x
+barony_of_mapuche;Caví of;;;;;;;;;;;;;x
+barony_mapuche;Caví;;;;;;;;;;;;;x
+count_mapuche;Ülmen;;;;;;;;;;;;;x
+count_female_mapuche;Ülmen;;;;;;;;;;;;;x
+county_of_mapuche;Lof of;;;;;;;;;;;;;x
+county_mapuche;Lof of;;;;;;;;;;;;;x
+duke_mapuche;Ülmen Buta Lonko;;;;;;;;;;;;;x
+duke_female_mapuche;Ülmen Buta Lonko;;;;;;;;;;;;;x
+duchy_of_mapuche;Aillarehue of;;;;;;;;;;;;;x
+duchy_mapuche;Aillarehue;;;;;;;;;;;;;x
+king_mapuche;Ñizol Lonko;;;;;;;;;;;;;x
+king_female_mapuche;Ñizol Lonko;;;;;;;;;;;;;x
+kingdom_of_mapuche;Butalmapu of;;;;;;;;;;;;;x
+kingdom_mapuche;Butalmapu;;;;;;;;;;;;;x
+emperor_mapuche;Ñizol Buta Lonko;;;;;;;;;;;;;x
+emperor_female_mapuche;Ñizol Buta Lonko;;;;;;;;;;;;;x
+empire_of_mapuche;Wallmapu of;;;;;;;;;;;;;x
+empire_female_mapuche;Wallmapu;;;;;;;;;;;;;x
+city_barony_of_mapuche;Coyag of;;;;;;;;;;;;;x
+city_county_of_mapuche;Buta Coyag of;;;;;;;;;;;;;x
+city_count_mapuche;Werken;;;;;;;;;;;;;x
+city_count_female_mapuche;Werken;;;;;;;;;;;;;x
+city_duchy_of_mapuche;Ñizol Coyag of;;;;;;;;;;;;;x
+city_duke_mapuche;Buta Werken;;;;;;;;;;;;;x
+city_duke_female_mapuche;Buta Werken;;;;;;;;;;;;;x
+city_kingdom_of_mapuche;Wudalmapu  of;;;;;;;;;;;;;x
+city_king_mapuche;Ñizol Werken;;;;;;;;;;;;;x
+city_king_female_mapuche;Ñizol Werken;;;;;;;;;;;;;x
+city_empire_of_mapuche;Ñizol Wudalmapu Unions of;;;;;;;;;;;;;x
+city_emperor_mapuche;Ñizol Buta Werken;;;;;;;;;;;;;x
+city_emperor_female_mapuche;Ñizol Buta Werken;;;;;;;;;;;;;x
+### Wladfaeg ###
+king_wladfaeg;Prince;;;;;;;;;;;;;x
+king_female_wladfaeg;Princess;;;;;;;;;;;;;x
+kingdom_of_wladfaeg;Princedom of;;;;;;;;;;;;;x
+kingdom_wladfaeg;Princedom;;;;;;;;;;;;;x
+emperor_wladfaeg;High King;;;;;;;;;;;;;x
+emperor_female_wladfaeg;High Queen;;;;;;;;;;;;;x
+empire_of_wladfaeg;High Kingdom of;;;;;;;;;;;;;x
+empire_female_wladfaeg;High Kingdom;;;;;;;;;;;;;x
+### Selk'nam ###
+tribal_count_female_selknam;K'mal;;;;;;;;;;;;;x
+tribal_count_selknam;K'mal;;;;;;;;;;;;;x
+tribal_county_selknam;Haruwen;;;;;;;;;;;;;x
+tribal_county_of_selknam;Haruwen of;;;;;;;;;;;;;x
+tribal_duke_female_selknam;Aienam;;;;;;;;;;;;;x
+tribal_duke_selknam;Aienain;;;;;;;;;;;;;x
+tribal_county_selknam;Haruwen;;;;;;;;;;;;;x
+tribal_county_of_selknam;Haruwen of;;;;;;;;;;;;;x
+tribal_king_female_selknam;Chanam;;;;;;;;;;;;;x
+tribal_king_selknam;Chanain;;;;;;;;;;;;;x
+### Paulista ###
+count_paulista;Viscount;;;;;;;;;;;;;x
+count_female_paulista;Viscountess;;;;;;;;;;;;;x
+county_paulista;Viscounty;;;;;;;;;;;;;x
+county_of_paulista;Viscounty of;;;;;;;;;;;;;x
+duke_paulista;Marquis;;;;;;;;;;;;;x
+duke_female_paulista;Marchioness;;;;;;;;;;;;;x
+duchy_paulista;March;;;;;;;;;;;;;x
+duchy_of_paulista;March of;;;;;;;;;;;;;x
+king_paulista;Duke;;;;;;;;;;;;;x
+king_female_paulista;Duchess;;;;;;;;;;;;;x
+kingdom_paulista;Duchy;;;;;;;;;;;;;x
+kingdom_of_paulista;Duchy of;;;;;;;;;;;;;x
+family_palace_baron_paulista;Oligarch;;;;;;;;;;;;;x
+city_count_paulistano;Oligarch;;;;;;;;;;;;;x
+city_duke_paulistano;Prefect;;;;;;;;;;;;;x
+city_king_paulistano;Governor;;;;;;;;;;;;;x
+city_emperor_paulistano;President;;;;;;;;;;;;;x
+city_county_of_paulistano;Oligarchy of;;;;;;;;;;;;;x
+city_duchy_of_paulistano;Prefecture of;;;;;;;;;;;;;x
+city_kingdom_of_paulistano;Governorship of;;;;;;;;;;;;;x
+city_empire_of_paulistano;Republic of;;;;;;;;;;;;;x
+### Mantiqueiro ###
+count_mantiqueiro;Viscount;;;;;;;;;;;;;x
+count_female_mantiqueiro;Viscountess;;;;;;;;;;;;;x
+county_mantiqueiro;Viscounty;;;;;;;;;;;;;x
+county_of_mantiqueiro;Viscounty of;;;;;;;;;;;;;x
+duke_mantiqueiro;Marquis;;;;;;;;;;;;;x
+duke_female_mantiqueiro;Marchioness;;;;;;;;;;;;;x
+duchy_mantiqueiro;March;;;;;;;;;;;;;x
+duchy_of_mantiqueiro;March of;;;;;;;;;;;;;x
+king_mantiqueiro;Duke;;;;;;;;;;;;;x
+king_female_mantiqueiro;Duchess;;;;;;;;;;;;;x
+kingdom_mantiqueiro;Duchy;;;;;;;;;;;;;x
+kingdom_of_mantiqueiro;Duchy of;;;;;;;;;;;;;x
+family_palace_baron_mantiqueiro;Oligarch;;;;;;;;;;;;;x
+### Mineiro ###
+count_mineiro_group;Viscount;;;;;;;;;;;;;x
+count_female_mineiro_group;Viscountess;;;;;;;;;;;;;x
+county_mineiro_group;Viscounty;;;;;;;;;;;;;x
+county_of_mineiro_group;Viscounty of;;;;;;;;;;;;;x
+duke_mineiro_group;Marquis;;;;;;;;;;;;;x
+duke_female_mineiro_group;Marchioness;;;;;;;;;;;;;x
+duchy_mineiro_group;March;;;;;;;;;;;;;
+duchy_of_mineiro_group;March of;;;;;;;;;;;;;x
+### Salvadorense ###
+duke_salvadorense;Prince;;;;;;;;;;;;;x
+duke_female_salvadorense;Princess;;;;;;;;;;;;;x
+king_salvadorense;Exarch;;;;;;;;;;;;;x
+duchy_of_salvadorense;Principate of;;;;;;;;;;;;;x
+kingdom_of_salvadorense;Exarchate of;;;;;;;;;;;;;x
+vice_royalty_count_salvadorense;Inspector-General;;;;;;;;;;;;;x
+vice_royalty_duke_salvadorense;Dom;;;;;;;;;;;;;x
+vice_royalty_duke_female_salvadorense;Dona;;;;;;;;;;;;;x
+vice_royalty_king_salvadorense;Governor;;;;;;;;;;;;;x
+vice_royalty_county_of_salvadorense;Inspectorate;;;;;;;;;;;;;x
+vice_royalty_duchy_of_salvadorense;Domain of;;;;;;;;;;;;;x
+vice_royalty_kingdom_of_salvadorense;Province of;;;;;;;;;;;;;x
+#################
+### Religious ###
+#################
+### Nguillatun ###
+job_spiritual_nguillatun;Court Machi;;;;;;;;;;;;;x
+temple_baron_nguillatun;Machi;;;;;;;;;;;;;x
+temple_baron_female_nguillatun;Machi;;;;;;;;;;;;;x
+temple_baron_nguillatuns;Adjuncts;;;;;;;;;;;;;x
+temple_barony_of_nguillatun;Rehue of;;;;;;;;;;;;;x
+temple_count_nguillatun;Buta Machi;;;;;;;;;;;;;x
+temple_count_female_nguillatun;Buta Machi;;;;;;;;;;;;;x
+temple_county_of_nguillatun;Lonkorehue of;;;;;;;;;;;;;x
+temple_duke_nguillatun;Machi Buta Lonko;;;;;;;;;;;;;x
+temple_duke_female_nguillatun;Machi Buta Lonko;;;;;;;;;;;;;x
+temple_duchy_of_nguillatun;Butalrehue of;;;;;;;;;;;;;x
+temple_king_nguillatun;Machi Ñizal Lonko;;;;;;;;;;;;;x
+temple_king_female_nguillatun;Machi Ñizal Lonko;;;;;;;;;;;;;x
+temple_kingdom_of_nguillatun;Butalmapu Rehue of;;;;;;;;;;;;;x
+temple_emperor_nguillatun;Machi Ñizol Buta Lonko;;;;;;;;;;;;;x
+temple_emperor_female_nguillatun;Machi Ñizol Buta Lonko;;;;;;;;;;;;;x
+temple_empire_of_nguillatun;Wallrehue of;;;;;;;;;;;;;x
+### Muslim ###
+baron_muslim;Wali;;;;;;;;;;;;;x
+baron_female_muslim;Wali'a;;;;;;;;;;;;;x
+barony_of_muslim;Madinat of;;;;;;;;;;;;;x
+barony_muslim;Madinat;;;;;;;;;;;;;x
+count_muslim;Hakim;;;;;;;;;;;;;x
+count_female_muslim;Sayyida;;;;;;;;;;;;;x
+county_of_muslim;Wilayat of;;;;;;;;;;;;;x
+county_muslim;Wilayat;;;;;;;;;;;;;x
+duke_muslim;Za'eem;;;;;;;;;;;;;x
+duke_female_muslim;Za'eema;;;;;;;;;;;;;x
+duchy_of_muslim;Dawlat of;;;;;;;;;;;;;x
+duchy_muslim;Dawlat;;;;;;;;;;;;;x
+king_muslim;Shareef;;;;;;;;;;;;;x
+king_female_muslim;Shareefa;;;;;;;;;;;;;x
+kingdom_of_muslim;Shareefate of;;;;;;;;;;;;;x
+kingdom_muslim;Shareefate;;;;;;;;;;;;;x
+emperor_muslim;Sultan;;;;;;;;;;;;;x
+emperor_female_muslim;Sultana;;;;;;;;;;;;;x
+empire_of_muslim;Sultanate of;;;;;;;;;;;;;x
+empire_muslim;Sultanate;;;;;;;;;;;;;x
+### Camino Estelar ###
+temple_baron_camino_estelar;Hermano;;;;;;;;;;;;;x
+temple_baron_female_camino_estelar;Hermana;;;;;;;;;;;;;x
+temple_baron_camino_estelars;Hermanos;;;;;;;;;;;;;x
+temple_barony_of_camino_estelar;Telescope of;;;;;;;;;;;;;x
+temple_barony_camino_estelar;Telescope;;;;;;;;;;;;;x
+temple_count_camino_estelar;Alto Hermano;;;;;;;;;;;;;x
+temple_count_female_camino_estelar;Alta Hermana;;;;;;;;;;;;;x
+temple_county_camino_estelar;Observatory;;;;;;;;;;;;;x
+temple_county_of_camino_estelar;Observatory of;;;;;;;;;;;;;x
+temple_duke_camino_estelar;Iluminado Hermano;;;;;;;;;;;;;x
+temple_duke_female_camino_estelar;Iluminada Hermana;;;;;;;;;;;;;x
+temple_duchy_of_camino_estelar;Proyect of;;;;;;;;;;;;;x
+temple_duchy_of_camino_estelar;Proyect;;;;;;;;;;;;;x
+temple_king_camino_estelar;Padre;;;;;;;;;;;;;x
+temple_king_female_camino_estelar;Madre;;;;;;;;;;;;;x
+temple_kingdom_of_camino_estelar;Grand-Project of;;;;;;;;;;;;;x
+temple_emperor_camino_estelar;Alto Padre;;;;;;;;;;;;;x
+temple_emperor_female_camino_estelar;Alta Madre;;;;;;;;;;;;;x
+temple_empire_of_camino_estelar;World-Project of;;;;;;;;;;;;;x
+job_spiritual_camino_estelar;Court Observer;;;;;;;;;;;;;x
+### Platinean ###
+baron_platinean;Alcalde;;;;;;;;;;;;;x
+baron_female_platinean;Alcaldesa;;;;;;;;;;;;;x
+barony_of_platinean;Municipality of;;;;;;;;;;;;;x
+barony_platinean;Municipio;;;;;;;;;;;;;x
+count_platinean;Don;;;;;;;;;;;;;x
+count_female_platinean;Doña;;;;;;;;;;;;;x
+county_of_platinean;Departamento of;;;;;;;;;;;;;x
+county_platinean;Departamento;;;;;;;;;;;;;x
+duke_platinean;Gobernador;;;;;;;;;;;;;x
+duke_female_platinean;Gobernadora;;;;;;;;;;;;;x
+duchy_of_platinean;Gobierno of;;;;;;;;;;;;;x
+duchy_platinean;Gobierno;;;;;;;;;;;;;x
+king_platinean;Procér;;;;;;;;;;;;;x
+king_female_platinean;Procér;;;;;;;;;;;;;x
+kingdom_of_platinean;Patria of;;;;;;;;;;;;;x
+kingdom_platinean;Patria;;;;;;;;;;;;;x
+emperor_platinean;Libertador;;;;;;;;;;;;;x
+emperor_female_platinean;Libertadora;;;;;;;;;;;;;x
+empire_of_platinean;Patria Grande of;;;;;;;;;;;;;x
+empire_platinean;Patria Grande;;;;;;;;;;;;;x
+### Rosalian ###
+baron_rosalian;Alcalde;;;;;;;;;;;;;x
+baron_female_rosalian;Alcaldesa;;;;;;;;;;;;;x
+barony_of_rosalian;Municipality of;;;;;;;;;;;;;x
+barony_rosalian;Municipio;;;;;;;;;;;;;x
+count_rosalian;Don;;;;;;;;;;;;;x
+count_female_rosalian;Doña;;;;;;;;;;;;;x
+county_of_rosalian;Departamento of;;;;;;;;;;;;;x
+county_rosalian;Departamento;;;;;;;;;;;;;x
+duke_rosalian;Gobernador;;;;;;;;;;;;;x
+duke_female_rosalian;Gobernadora;;;;;;;;;;;;;x
+duchy_of_rosalian;Gobierno of;;;;;;;;;;;;;x
+duchy_rosalian;Gobierno;;;;;;;;;;;;;x
+king_rosalian;Procér;;;;;;;;;;;;;x
+king_female_rosalian;Procér;;;;;;;;;;;;;x
+kingdom_of_rosalian;Patria of;;;;;;;;;;;;;x
+kingdom_rosalian;Patria;;;;;;;;;;;;;x
+emperor_rosalian;Libertador;;;;;;;;;;;;;x
+emperor_female_rosalian;Libertadora;;;;;;;;;;;;;x
+empire_of_rosalian;Patria Grande of;;;;;;;;;;;;;x
+empire_rosalian;Patria Grande;;;;;;;;;;;;;x
+### Bandean ###
+baron_bandean;Alcalde;;;;;;;;;;;;;x
+baron_female_bandean;Alcaldesa;;;;;;;;;;;;;x
+barony_of_bandean;Municipality of;;;;;;;;;;;;;x
+barony_bandean;Municipio;;;;;;;;;;;;;x
+count_bandean;Don;;;;;;;;;;;;;x
+count_female_bandean;Doña;;;;;;;;;;;;;x
+county_of_bandean;Departamento of;;;;;;;;;;;;;x
+county_bandean;Departamento;;;;;;;;;;;;;x
+duke_bandean;Gobernador;;;;;;;;;;;;;x
+duke_female_bandean;Gobernadora;;;;;;;;;;;;;x
+duchy_of_bandean;Gobierno of;;;;;;;;;;;;;x
+duchy_bandean;Gobierno;;;;;;;;;;;;;x
+king_bandean;Procér;;;;;;;;;;;;;x
+king_female_bandean;Procér;;;;;;;;;;;;;x
+kingdom_of_bandean;Patria of;;;;;;;;;;;;;x
+kingdom_bandean;Patria;;;;;;;;;;;;;x
+emperor_bandean;Libertador;;;;;;;;;;;;;x
+emperor_female_bandean;Libertadora;;;;;;;;;;;;;x
+empire_of_bandean;Patria Grande of;;;;;;;;;;;;;x
+empire_bandean;Patria Grande;;;;;;;;;;;;;x
+### Artiguista ###
+baron_artiguista;Alcalde;;;;;;;;;;;;;x
+baron_female_artiguista;Alcaldesa;;;;;;;;;;;;;x
+barony_of_artiguista;Municipality of;;;;;;;;;;;;;x
+barony_artiguista;Municipio;;;;;;;;;;;;;x
+count_artiguista;Don;;;;;;;;;;;;;x
+count_female_artiguista;Doña;;;;;;;;;;;;;x
+county_of_artiguista;Departamento of;;;;;;;;;;;;;x
+county_artiguista;Departamento;;;;;;;;;;;;;x
+duke_artiguista;Gobernador;;;;;;;;;;;;;x
+duke_female_artiguista;Gobernadora;;;;;;;;;;;;;x
+duchy_of_artiguista;Gobierno of;;;;;;;;;;;;;x
+duchy_artiguista;Gobierno;;;;;;;;;;;;;x
+king_artiguista;Procér;;;;;;;;;;;;;x
+king_female_artiguista;Procér;;;;;;;;;;;;;x
+kingdom_of_artiguista;Patria of;;;;;;;;;;;;;x
+kingdom_artiguista;Patria;;;;;;;;;;;;;x
+emperor_artiguista;Libertador;;;;;;;;;;;;;x
+emperor_female_artiguista;Libertadora;;;;;;;;;;;;;x
+empire_of_artiguista;Patria Grande of;;;;;;;;;;;;;x
+empire_artiguista;Patria Grande;;;;;;;;;;;;;x
+### Piriamano ###
+baron_piriamano;Alcalde;;;;;;;;;;;;;x
+baron_female_piriamano;Alcaldesa;;;;;;;;;;;;;x
+barony_of_piriamano;Municipality of;;;;;;;;;;;;;x
+barony_piriamano;Municipio;;;;;;;;;;;;;x
+count_piriamano;Don;;;;;;;;;;;;;x
+count_female_piriamano;Doña;;;;;;;;;;;;;x
+county_of_piriamano;Departamento of;;;;;;;;;;;;;x
+county_piriamano;Departamento;;;;;;;;;;;;;x
+duke_piriamano;Gobernador;;;;;;;;;;;;;x
+duke_female_piriamano;Gobernadora;;;;;;;;;;;;;x
+duchy_of_piriamano;Gobierno of;;;;;;;;;;;;;x
+duchy_piriamano;Gobierno;;;;;;;;;;;;;x
+king_piriamano;Procér;;;;;;;;;;;;;x
+king_female_piriamano;Procér;;;;;;;;;;;;;x
+kingdom_of_piriamano;Patria of;;;;;;;;;;;;;x
+kingdom_piriamano;Patria;;;;;;;;;;;;;x
+emperor_piriamano;Libertador;;;;;;;;;;;;;x
+emperor_female_piriamano;Libertadora;;;;;;;;;;;;;x
+empire_of_piriamano;Patria Grande of;;;;;;;;;;;;;x
+empire_piriamano;Patria Grande;;;;;;;;;;;;;x
+### Farroupilha ###
+baron_farrapo;Patrão;;;;;;;;;;;;;x
+baron_female_farrapo;Patroa;;;;;;;;;;;;;x
+barony_of_farrapo;Rincão of;;;;;;;;;;;;;x
+barony_farrapo;Rincão;;;;;;;;;;;;;x
+count_farrapo;Capitão;;;;;;;;;;;;;x
+count_female_farrapo;Capitã;;;;;;;;;;;;;x
+county_of_farrapo;Pago of;;;;;;;;;;;;;x
+county_farrapo;Pago;;;;;;;;;;;;;x
+duke_farrapo;Paisano;;;;;;;;;;;;;x
+duke_female_farrapo;Paisana;;;;;;;;;;;;;x
+duchy_of_farrapo;Querência of;;;;;;;;;;;;;x
+duchy_farrapo;Querência;;;;;;;;;;;;;x
+king_farrapo;Caudilho;;;;;;;;;;;;;x
+king_female_farrapo;Caudilha;;;;;;;;;;;;;x
+kingdom_of_farrapo;Estância of;;;;;;;;;;;;;x
+kingdom_farrapo;Estância;;;;;;;;;;;;;x
+emperor_farrapo;Grão-Caudilho;;;;;;;;;;;;;x
+emperor_female_farrapo;Grã-Caudilha;;;;;;;;;;;;;x
+empire_of_farrapo;Continente of;;;;;;;;;;;;;x
+empire_farrapo;Continente;;;;;;;;;;;;;x
+job_spiritual_farrapo;Court Trovador;;;;;;;;;;;;;x
+temple_baron_farrapo;Pajador;;;;;;;;;;;;;x
+temple_baron_female_farrapo;Pajadora;;;;;;;;;;;;;x
+temple_count_farrapo;Milongueiro;;;;;;;;;;;;;x
+temple_count_female_farrapo;Milongueira;;;;;;;;;;;;;x
+temple_duke_farrapo;Grão-Milongueiro;;;;;;;;;;;;;x
+temple_duke_female_farrapo;Grã-Milongueira;;;;;;;;;;;;;x
+

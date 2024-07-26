@@ -1,4 +1,6 @@
-###ÄNSI;;;;;;;;;;;;;;
+#################
+### Decisions ###
+#################
 take_imp_exam;Take National Exam;;;;;;;;;;;;;x
 take_imp_exam_desc;The National Exam — or the Enem — is the most prestigious test for those living under a bureaucratic society. As a [Root.Government.GetName] ruler, it is your right and duty to have yourself certified by a Evaluator of Merit.;;;;;;;;;;;;;x
 
@@ -10,6 +12,30 @@ reschedule_exam_desc;For one reason or another, the evaluators have yet to come 
 
 claim_realm_exam;Claim Liege Realm;;;;;;;;;;;;;x
 claim_realm_exam_desc;Your liege has done poorly on their Imperial Exam. As a ruler who has passed, you have a right to claim your lord's realm and replace them.;;;;;;;;;;;;;x
+
+change_evangelical_church;Change Evangelical Denomination;;;;;;;;;;;;;x
+change_evangelical_church_desc;Choosing a denomination to belong to is a crucial part of our religion, I may change mine if I find it necessary.;;;;;;;;;;;;;x
+do_deep_bible_study;Do a Deep Bible study;;;;;;;;;;;;;x
+do_deep_bible_study_desc;Do a deep bible study in search of meaning in the great holy book.;;;;;;;;;;;;;x
+receive_charisma;Receive Charisma;;;;;;;;;;;;;x
+receive_charisma_desc;Receive charisma from the Holy Spirit for a spiritual blessing.;;;;;;;;;;;;;x
+holy_spirit_waiting;Has not recently taken the Charisma.;;;;;;;;;;;;;x
+sacrifice_to_nature;Sacrifice to Nature;;;;;;;;;;;;;x
+sacrifice_to_nature_desc;The believers of the Calafate hold sacrifice as the highest ideal. When someone is old, ailing, or close to death, they can partake in the ultimate sacrifice, leaving everybody behind to confront the embrace of the cold, bringing your people more chances to survive, and blessing the upcoming harvest.;;;;;;;;;;;;;x
+restore_belchioringia;Restore Belchioringia;;;;;;;;;;;;;x
+restore_belchioringia_desc;When Antônio Carlos I died, his empire was divided between his sons, with us in a weak position, we soon saw Ceará being lost and the Salvadorense restoring their power. With the lost territories reunited, the Sun will shine once again over the Northeast and our rule will prove to be eternal.;;;;;;;;;;;;;x
+restore_belchioringia_desc_extra;The Sun is reborn!;;;;;;;;;;;;;x
+restore_rio_grande_do_sul;Restore Rio Grande do Sul;;;;;;;;;;;;;x
+restore_rio_grande_do_sul_desc;The lands of Rio Grande do Sul have been de facto divided between for over a century now, with the cattle-herding tribes of the South hardly co-existing with its northern neighbors living in the hills. Now however, you have the possibility of reuniting all of Rio Grande do Sul into a single banner once again.;;;;;;;;;;;;;x
+feast_on_calafate;Harvest Calafate;;;;;;;;;;;;;x
+feast_on_calafate_desc;Every summer, the calafate berries are ready to harvest, the goddess' gift and sacrifice, that has helped us survive in the toughest times. It's a great honor and rite for us to consume her gift, or to save it for when it might be needed.;;;;;;;;;;;;;x
+feast_on_stored_calafate;Consume Stored Calafate;;;;;;;;;;;;;x
+feast_on_stored_calafate_desc;You consume the calafate berries you stored while they are still good, the goddess blessing you with her strength if you do.;;;;;;;;;;;;;x
+restore_the_fraternidad;Restore the Fraternidad Estelar;;;;;;;;;;;;;x
+restore_the_fraternidad_desc;Long ago when the first observers found the star path, they conjoined a brotherhood, the Stellar Brotherhood, or Fraternidad Estelar, dedicated to guiding the believers in finding the true path to the stars, and to contact the Elder Siblings in the stars. In the stars it is found that the brotherhood will rise again, but nobody knows when. A strong ruler might be able to centralize the faith and become the new Master of the Brotherhood, fulfilling this prophecy.;;;;;;;;;;;;;x
+read_the_star_path;Read the Star Path;;;;;;;;;;;;;x
+read_the_star_path_desc;Through careful observation of the night sky, the most imporant rite for our religion, we can find the Star Path or Camino Estelar; the underlying prophecy and instructions written by the Elder Siblings and Master Nibiru to guide us and enlighten us. ;;;;;;;;;;;;;x
+
 
 #Traits
 not_evaluated;Unevaluated;;;;;;;;;;;;;x
