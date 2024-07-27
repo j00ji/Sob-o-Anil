@@ -7,3 +7,12 @@ best_candidate_title_apostolic_cardinal;My Best Cardinal Candidate;;;;;;;;;;;;;x
 best_candidate_title_apostolic_cardinal_tooltip;Of all the bishops in my realm, this one is the likeliest to get appointed Cardinal by the Archbishop.;;;;;;;;;;;;;x
 PREFERATI_APOSTOLIC;Preferatus;;;;;;;;;;;;;x
 PREFERATI_APOSTOLIC_TOOLTIP;The Preferatus is the Cardinal expected to succeed the current Archbishop.;;;;;;;;;;;;;x
+
+#Custom Piety
+STAT_PIETY_DESC_PURITY;Purity is respected by the clergy and monastics of your religion. Like Prestige, it is added to your score on the death of a ruler.;La pureté est respectée par le clergé et les moines de la religion jaïnite. La pureté affecte également la loyauté de vos vassaux jaïns. Comme le prestige, il s'ajoute à votre score lorsqu'un souverain meurt.;Reinheit wird vom Klerus und Mönchen der jainistischen Religion respektiert und beeinflusst die Loyalität Eurer jainistischen Vasallen. Ähnlich Prestige wird Reinheit beim Tod Eures Herrschers zur Punktzahl gerechnet.;;La pureza es respetada por el clero y los monjes Jaina, y también afecta a la lealtad de tus vasallos Jaina. Como el prestigio, se añade a tu puntuación al morir el gobernante.;;;;;;;;;x;;;;;;;;;;;;
+STAT_PIETY_ASHE;Ashé;;;;;;;;;;;;;x
+STAT_PIETY_MENU_ASHE;Ashé;;;;;;;;;;;;;x
+STAT_PIETY_DESC_ASHE;Ashé represent thes power that makes things happen and produces change;;;;;;;;;;;;;x
+STAT_PIETY_CHARISMA;Charisma;;;;;;;;;;;;;x
+STAT_PIETY_MENU_ASHE;Charisma;;;;;;;;;;;;;x
+STAT_PIETY_DESC_CHARISMA;Charisms are supernatural gifts granted by the Holy Spirirt and respected by the clergy of your religion.

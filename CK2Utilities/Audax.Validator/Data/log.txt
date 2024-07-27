@@ -1,61 +1,71 @@
 Log of Audax.Validator, version 1.38.4 [1.38.4.0]
 
-Current Time: 7/24/2024 3:32:40 PM
+Current Time: 27/07/2024 11:48:03
 .NET Version: 4.0.30319.42000
-OS Version: Microsoft Windows NT 6.1.7601 Service Pack 1
-Current Culture: en-US
-Current UI Culture: en-US
-Command Line: "C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\SoA GIT\Sob-o-Anil\CK2Utilities\Audax.Validator\App\Audax.Validator.exe" 
-Processor Count: 2
-Current Directory: C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\SoA GIT\Sob-o-Anil\CK2Utilities\Audax.Validator\App
-Machine Name: [machine_name <*************>]
-System Directory: C:\Windows\system32
-User Name: [user_name <*********>]
-User Domain Name: [user_domain_name <*************>]
+OS Version: Microsoft Windows NT 6.2.9200.0
+Current Culture: pt-BR
+Current UI Culture: pt-BR
+Command Line: "C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\sob-o-anil\Sob-o-Anil\CK2Utilities\Audax.Validator\App\Audax.Validator.exe" 
+Processor Count: 6
+Current Directory: C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\sob-o-anil\Sob-o-Anil\CK2Utilities\Audax.Validator\App
+Machine Name: [machine_name <*******-*******>]
+System Directory: C:\WINDOWS\system32
+User Name: [user_name <*******>]
+User Domain Name: [machine_name <*******-*******>]
 User Interactive: True
-Tick Count: 00:44:10.3780000
+Tick Count: 6.00:59:31.3900000
 Shutdown Started: False
 
 ENVIRONMENT VARIABLES
-COMPUTERNAME: [machine_name <*************>]
-USERPROFILE: C:\Users\[user_name <*********>]
-HOMEPATH: \Users\[user_name <*********>]
-LOCALAPPDATA: C:\Users\[user_name <*********>]\AppData\Local
-PSModulePath: C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
-PROCESSOR_ARCHITECTURE: AMD64
-Path: C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\gdipp\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\[user_name <*********>]\.dotnet\tools;C:\Users\[user_name <*********>]\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\[user_name <*********>]\AppData\Local\GitHubDesktop\bin
-CommonProgramFiles(x86): C:\Program Files (x86)\Common Files
-ProgramFiles(x86): C:\Program Files (x86)
-PROCESSOR_LEVEL: 21
-windows_tracing_flags: 3
-LOGONSERVER: \\[machine_name <*************>]
-PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
-HOMEDRIVE: C:
-SystemRoot: C:\Windows
-ChocolateyInstall: C:\ProgramData\chocolatey
-ChocolateyLastPathUpdate: 132352016129079439
-ALLUSERSPROFILE: C:\ProgramData
-PUBLIC: C:\Users\Public
-FP_NO_HOST_CHECK: NO
-APPDATA: C:\Users\[user_name <*********>]\AppData\Roaming
-PROCESSOR_REVISION: 1301
-USERNAME: [user_name <*********>]
-CommonProgramW6432: C:\Program Files\Common Files
-CommonProgramFiles: C:\Program Files\Common Files
-OS: Windows_NT
-PROCESSOR_IDENTIFIER: AMD64 Family 21 Model 19 Stepping 1, AuthenticAMD
-ComSpec: C:\Windows\system32\cmd.exe
-USERDOMAIN: [user_domain_name <*************>]
 SystemDrive: C:
-TEMP: C:\Users\THIRLW~1\AppData\Local\Temp
-ProgramFiles: C:\Program Files
-NUMBER_OF_PROCESSORS: 2
-windows_tracing_logfile: C:\BVTBin\Tests\installpackage\csilogfile.log
-TMP: C:\Users\THIRLW~1\AppData\Local\Temp
-ProgramData: C:\ProgramData
+ProgramFiles(x86): C:\Program Files (x86)
+Path: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17.0.5\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\[user_name <*******>]\AppData\Local\Microsoft\WindowsApps;C:\Users\[user_name <*******>]\AppData\Local\GitHubDesktop\bin;"D:\dev\flutter\bin";C:\Users\[user_name <*******>]\.dotnet\tools
 ProgramW6432: C:\Program Files
-windir: C:\Windows
+PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+WWISEROOT: C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.5.7749
+VBOX_MSI_INSTALL_PATH: D:\Program Files\Oracle\VirtualBox\
+TMP: C:\Users\[user_name <*******>]\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE: AMD64
+CHROME_EXECUTABLE: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+USERPROFILE: C:\Users\[user_name <*******>]
+PROCESSOR_REVISION: 9e0a
+TEMP: C:\Users\[user_name <*******>]\AppData\Local\Temp
+FPS_BROWSER_APP_PROFILE_STRING: Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING: Default
+LOGONSERVER: \\[machine_name <*******-*******>]
+USERNAME: [user_name <*******>]
+SystemRoot: C:\WINDOWS
+OneDrive: C:\Users\[user_name <*******>]\OneDrive - Fatec Centro Paula Souza
+CommonProgramFiles: C:\Program Files\Common Files
+__COMPAT_LAYER: DetectorsAppHealth
+ProgramData: C:\ProgramData
+HOMEPATH: \Users\[user_name <*******>]
+OneDriveConsumer: C:\Users\[user_name <*******>]\OneDrive
+COMPUTERNAME: [machine_name <*******-*******>]
+CommonProgramFiles(x86): C:\Program Files (x86)\Common Files
+ALLUSERSPROFILE: C:\ProgramData
+CommonProgramW6432: C:\Program Files\Common Files
+OneDriveCommercial: C:\Users\[user_name <*******>]\OneDrive - Fatec Centro Paula Souza
+PT8HOME: D:\Program Files\Cisco Packet Tracer 8.2.2
+WWISESDK: C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.5.7749\SDK
 SESSIONNAME: Console
+DriverData: C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE: C:
+windir: C:\WINDOWS
+NUMBER_OF_PROCESSORS: 6
+OS: Windows_NT
+ProgramFiles: C:\Program Files
+ComSpec: C:\WINDOWS\system32\cmd.exe
+PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+JAVA_HOME: C:\Program Files\Java\jdk-17.0.5
+PSModulePath: C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+APPDATA: C:\Users\[user_name <*******>]\AppData\Roaming
+USERDOMAIN: [machine_name <*******-*******>]
+PROCESSOR_LEVEL: 6
+LOCALAPPDATA: C:\Users\[user_name <*******>]\AppData\Local
+youtube-dl: C:\Users\[user_name <*******>]\Videos\youtube-dl
+USERDOMAIN_ROAMINGPROFILE: [machine_name <*******-*******>]
+PUBLIC: C:\Users\Public
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 File system tree
@@ -598,398 +608,175 @@ ModSystem: Using file system Audax.Pdox.IO.Ck2FileSystem
 ModSystem: Loading mod list...
 ModSystem: Mod dir exists in game path C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings II, enumerating
 ModSystem: Examining default directory
-ModSystem: Default directory data path is: C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod
+ModSystem: Default directory data path is: C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod
 ModSystem: Data path exists
-ModSystem: Found mod Clausewitz2Mod ModName=!Bigger Lists ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\!bigger_lists.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Deposed ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Chinese Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Chinese Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_ChineseFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - East African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - East African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EastAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - English and German Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - English and German Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EnglishGermanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Holy Fury DLC Faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Holy Fury DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_HolyFury.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Mongol Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Mongol Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_MongolFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Sunset Invasion DLC faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Sunset Invasion DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_SunsetInvasion.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - West African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - West African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_WestAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Better Faces - Frankish Andals ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Congenital Overhaul ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Customize Appearance ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Faces Modification + MB + CO ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Less Marriage Requests + MB ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Lowborn Purge ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Mixed Ethnicities ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT More Bloodlines Submod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Faces Mod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Religion Icons ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Revised SCMR ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Revised SCMR.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Avatar - Four Nations Restored ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\avatar - four nations restored.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Better Looking Garbs Full ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\betterlookinggarbsfull.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Bigger Interface for Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\bi-agot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccck2+.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for Faerun ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccfaerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for the Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccwinterking.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Western Europe 410-962 - The Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\britannia.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\ck2plus.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CleanSlate ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\cleanslate.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Faerun - Forgotten Realms Total Conversion ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\faerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Century Gothic ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_century_gothic.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Stellaris Colors ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_stellaris_colors.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Just After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\justaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Manic's Portraits ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars Portraits Submod ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars portraits submod.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Music ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Unit Packs ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs.mod
-ModSystem: Found mod Clausewitz2Mod ModName=New Era Old World ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\New-Era-Old-World.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Sob o Anil ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\SoA GIT\Sob-o-Anil OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Sob_o_Anil.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tempest of Kings ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tempest_of_kings.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Title Manager ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\title_manager.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tooltip: Century Gothic Bold 18 ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tooltip_century_gothic_bold_18.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=WH: Geheimnisnacht ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht.mod
+ModSystem: Found mod Clausewitz2Mod ModName=A.D. 633: Rise of Islam ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\633 rise of islam.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=A Game of Thrones ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Adjustments to Combat Tactics ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\adjusttactics.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=AtE Africa ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\africa OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\africa.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End - rivermod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\after the end - rivermod.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Americanist Flavor ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\after the end fan fork - americanist flavor.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Deposed ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ATEDeposed\After the End Fan Fork - Deposed OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\After The End Fan Fork OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\After The End Fan Fork.mod
+ModSystem: Found mod Clausewitz2Mod ModName=ATEFF - Brazilian Immersion Mod ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\after-the-end-brazil OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\after-the-end-brazil.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Hawaii WWW ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\after-the-end-hawaii-www.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Wild Wasteland ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\After-the-End-Wild-Wasteland OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\after-the-end-wild-wasteland.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Brazilian Flavors ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendbrazilianflavors.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End DSM's Canada and New England Changes ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End DSM's Canada and New England Changes OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndDSMCanadaNewEngland.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Chinese Faces DLC ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_chinesefaces.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - African Faces DLC ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_eastafricanfaces.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - English and German Faces DLC ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_englishgermanfaces.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Holy Fury DLC Faces ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_holyfury.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Mongol Faces DLC ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Mongol Faces DLC OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_MongolFaces.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Sunset Invasion DLC faces ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_sunsetinvasion.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - The Texas Panhandle ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendpanhandle.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After The End - Guruism ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheend_guruism.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Aguila o Sol ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Aguila-o-Sol OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\AguilaoSol.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Alternate Start Expanded ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\alternate start expanded.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Fun with Alternate Start ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\alternatestartfun.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Amalfi Immersion Pack: The Forgotten Republic ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\amalfi.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After The End FF: The Dominion of Canada Overhaul ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ate canada overhaul.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End - Guns submod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ate-guns.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End - Sedevacantist Immersion Pack ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ateff-svip.mod
+ModSystem: Found mod Clausewitz2Mod ModName=ATE AOS Canada Overhaul ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ATE AOS Canada Overhaul OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ATE_AOS_Canada_Overhaul.mod
+ModSystem: Found mod Clausewitz2Mod ModName=ATE Eurasia ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\After-The-End-Eurasia\ATE_Eurasia OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ATE_Eurasia.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After The End Fan - True Cross ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ATE_true-cross.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Atlantis Invasion ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\atlantisinvasion.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Kingdom of Belgium ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\belgium.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Better Looking Garbs ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\betterlookinggarbs.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Better Looking Garbs Full ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\betterlookinggarbsfull.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccaftertheend.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for HIP ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgcchip.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Brave New World (Custom World Map) ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\brave new world.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=The Winter King - Music ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Britannia_Music OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Britannia_Music.mod
+ModSystem: Found mod Clausewitz2Mod ModName=The Winter King - Portraits ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Britannia_Portraits OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Britannia_Portraits.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End: Caesar's Legion ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\caesars_legion OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\caesars_legion.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Canadian Heresies ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\canadian_heresies OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\canadian_heresies.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Christian immersion-Improved Genetics 2.0 compatible ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\cchristian immersion mod.mod.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After The End Fan - Celeste submod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Celeste.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Change_Character_CKIII ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\change character ckiii.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Rich Childhood ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\childhood.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=CK2Plus ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\CK2Plus OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\CK2Plus.mod
+ModSystem: Found mod Clausewitz2Mod ModName=CK2 To EU4 Converter ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ck2toeu4 OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ck2toeu4.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=House Motto ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ck2_house_motto.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=ATEFF - More COAS ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\COA mod OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\coa-mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Confederation at Crisis ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\confederation at crisis.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=ATEFF - Religious Conversion Fixed ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\conversionfix OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\conversionfix.mod
+ModSystem: Found mod Clausewitz2Mod ModName=ATEFF - Cowboy Units Fixed ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\cowboyfix OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\cowboyfix.mod
+ModSystem: Found mod Clausewitz2Mod ModName=CPRplus - Cultures and Portraits Revamped ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\cpr+.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Crusader Finns v. 1.0.2 ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\crusader finns.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Cultural Cities Remix ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\culturalcities.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Dolphin Kings - The Aquatic Map Mod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\dolphin kings-steam.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Dunhuang Immersion Pack: Gateway to the Silk Road ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\dunhuang.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Earth 4 ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\earth 4.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Vanilla: Cultural Melting Pots | Empires of Conquest ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\empires of conquest for vanilla.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Expanded Traits ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\expandedtraits.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Fantastical Kingdoms ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\fantasticalkingdoms.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Fódlan - A Fire Emblem Mod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\fodlan.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Formable Vinlandic Culture ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\formable vinlandic.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Fritz's Feudal Flags ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\fritzsflags.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Die Patriottentijd - Early Batavian Republic ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\gpge_bataafse.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Grand Empires (HOLY FURY UPDATE!)f ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\grandempires.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=HIP - Historical Immersion Project ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Historical_Immersion_Project OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\HIP.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Historic Buildings ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\historicbuildings.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Holy Oriental Empire ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\holy oriental empire.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Improved Genetics 2.0 ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\improved_geneticsv2.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Just After The End Music ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\JATE_music OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\JATE_music.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Japanese Culture & Shinto MOD ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\jpculturemod.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Japanese Culture : Portraits ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\jpc_portraits.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Just After the End ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Jate\Just After the End OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\JustAfterTheEnd.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Chivalric Societies ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\knights.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Knights Of Jerusalem ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\knightsofjerusalem.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=-Les Trois Tours//The 3 Towers- ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\L3T OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\L3T.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Legacy of Rome Expanded ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\legacy of rome expanded.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Lost Chileans ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\LostChileans OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\LostChileans.mod
+ModSystem: Found mod Clausewitz2Mod ModName=M.A.D. World ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\MAD_WORLD OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\MAD_World.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Manic's Celtic Units ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\manics_celtic_units.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Manic's French Units ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\manics_french_units.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Manic's Hungarian Units ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\manics_hungarian_units.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Manic's Iberian Units ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\manics_iberian_units.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Manic's Persian Units ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\manics_iranian_units.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Manic's Italian Units ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\manics_italian_units.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Manic's Occitan Units ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\manics_occitan_units.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Maronett (An alternative map) ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\maronett.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Medieval Earth ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\medieval earth.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Mexican Culture ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\mexican_culture.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars Portraits Submod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars portraits submod.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Misrists and More ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\misrists_and_more OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\misrists_and_more.mod
+ModSystem: Found mod Clausewitz2Mod ModName=More Navigable Rivers CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\mnr ck2plus.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=More Navigable Rivers ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\mnr.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Modern Times ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\modern_times.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=VIET Events Reborn - A Flavor Event Mod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\mod_viet events.mod
+ModSystem: Found mod Clausewitz2Mod ModName=More normans ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\more normans.mod.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=MundoNovo ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\MundoNovo OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\MundoNovo.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Mythos 3 - Historical Fantasy ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\mythos3.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW - Brazil Mod Asia Edition ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\neow-brazil-asia OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\neow-brazil-asia.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW - Sebastianism Mod ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\neow-brazil OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\neow-brazil.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW - Pied Noir submod ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\neow-piednoir OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\neow-piednoir.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW More Titles ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\neowmoretitles OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOWmoretitles.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW Exonyms ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_Exonyms OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_Exonyms.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW Holy Fury and Celtic Portraits ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ATEOW_HF_Celtic_Portraits OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_HF_Celtic_Portraits.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW Holy Fury Portraits ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_HF_Portraits OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_HF_Portraits.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW In Heavens ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_In_Heavens OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_In_Heavens.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW Monks and Mystics Portraits ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_MM_Portraits OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_MM_Portraits.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW Music ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW Realistic Generic Titles ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_Realistic_generic_titles OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_Realistic_generic_titles.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW Sunset Invasion Portraits ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_SI_Portraits OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_SI_Portraits.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW Turkish and Byzantine Portraits ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_turkish_and_byzantine_Portraits OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_turkish_and_byzantine_portraits.mod
+ModSystem: Found mod Clausewitz2Mod ModName=NEOW Visitors from the Heavens ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_Visitors_from_the_heavens OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_Visitors_from_the_heavens.mod
+ModSystem: Found mod Clausewitz2Mod ModName=New Era Better World ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\New Era Better World OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\New Era Better World.mod
+ModSystem: Found mod Clausewitz2Mod ModName=New Era New World ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\New-Era-New-World OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\New-Era-New-World.mod
+ModSystem: Found mod Clausewitz2Mod ModName=New Era Old World ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\After-the-End---Old-World\NEOW OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\New-Era-Old-World.mod
+ModSystem: Found mod Clausewitz2Mod ModName=New Era Old World China ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\New-Era-Old-World_Classic.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Sacrum Imperium Romanum ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\offmap_hre.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=ATEFF - ORF Fixed ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ORFfix OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ORFfix.mod
+ModSystem: Found mod Clausewitz2Mod ModName=More Outremer culture ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\outremer culture.mod.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Pamir Immersion Pack: Roof of the World ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\pamir.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Paulista Invasion ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Paulista Invasion OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Paulista_Invasion.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Portrait Compilation Mod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\pcm.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Portrait Compilation Mod ALT ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\pcmalt.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Persistent Cultural Buildings ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\persistentculturalbuildings.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=pindorama ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\pindorama OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\pindorama.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Playable Holy Orders (WORKS WITH MULTIPLAYER) ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\playableorders.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=0.399f Playable Chinese Emperor ENG ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\playbale_chinese_emperor_eng.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End - Rhodenhos ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\portucultist OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\portucultist.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Pirates of the Caribbean - At World's End Soundtrack ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\potcawe.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Scientific Religions ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\scientific_religions OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\scientific_religions.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Sketchy Traits ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\sketchy traits.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Sob o Anil ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\sob-o-anil\Sob-o-Anil OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Sob_o_Anil.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Sol o Nuevo ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\SOA Solnuevo\Sob_o_Anil OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Sol_o_Nuevo.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Sons of Vinland ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\sons of vinland.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Sons of Vinland Portrait Mod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\sov portraits.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Order of Saint Lazarus ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\thelazarists.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=The Orders of Chivalry ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\the_orders_of_chivalry.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=ATEFF - Religious Toleration Revert ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ToleranceRevert OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ToleranceRevert.mod
+ModSystem: Found mod Clausewitz2Mod ModName=ATE Eurasia - Religious Toleration Revert ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ToleranceRevert OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\ToleranceRevertEurasia.mod
+ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Tridentines ModPath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\tridentines OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\tridentines.mod
+ModSystem: Found mod Clausewitz2Mod ModName=VIET Events Reborn - A Flavor Event Mod ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\viet events.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Vokrana  - an interesting new map ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\vokrana.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Vityviktor's Portraits (complete) ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\vv_portraits.mod.mod
+ModSystem: Found mod Clausewitz2Mod ModName=Witcher Kings ModPath= OriginalModFilePath=C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\witcher.mod.mod
+ValidationManager: StatusLog > [Error] Could not load mod file: C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Childhood.mod [Illegal closing bracket.]
+ValidationManager: [Error] Could not load mod file: C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\Childhood.mod [Illegal closing bracket.]
+ValidationManager: StatusLog > [Error] Could not load mod file: C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\jpc_scenarios.mod.mod [Invalid character "&" at line 5, column 19]
+ValidationManager: [Error] Could not load mod file: C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\jpc_scenarios.mod.mod [Invalid character "&" at line 5, column 19]
+ValidationManager: StatusLog > [Error] Could not load mod file: C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\maritime_zoo.mod.mod [Invalid character "," at line 5, column 11]
+ValidationManager: [Error] Could not load mod file: C:\Users\[user_name <*******>]\Documents\Paradox Interactive\Crusader Kings II\mod\maritime_zoo.mod.mod [Invalid character "," at line 5, column 11]
 VSET: Processing settings...
 VSET: ValidatorSettings.txt not found
 ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Characters validation...
-ValidationManager: StatusLog > Character DB loaded in 81 ms.
-ValidationManager: StatusLog > Characters validation complete in 10065 ms!
-ValidationManager: StatusLog > Beginning Cultures validation...
-ValidationManager: StatusLog > Cultures validation complete in 288 ms!
-ValidationManager: StatusLog > Beginning Dynasties validation...
-ValidationManager: StatusLog > Dynasties validation complete in 388 ms!
-ValidationManager: StatusLog > Beginning Nicknames validation...
-ValidationManager: StatusLog > Nicknames validation complete in 279 ms!
-ValidationManager: StatusLog > Beginning Province History validation...
-ValidationManager: StatusLog > Character DB loaded in 43 ms.
-ValidationManager: StatusLog > Province History validation complete in 446 ms!
-ValidationManager: StatusLog > Beginning Religions validation...
-ValidationManager: StatusLog > Religions validation complete in 531 ms!
-ValidationManager: StatusLog > Beginning Title History validation...
-ValidationManager: StatusLog > Title History validation complete in 757 ms!
-ValidationManager: StatusLog > Beginning Titles validation...
-ValidationManager: StatusLog > Titles validation complete in 1654 ms!
-ValidationManager: StatusLog > Beginning Traits validation...
-ValidationManager: StatusLog > Traits validation complete in 1426 ms!
-ValidationManager: StatusLog > Beginning ZZZ Localisation validation...
+ValidationManager: StatusLog > Beginning Events validation...
+ValidationManager: StatusLog > Events validation complete in 24305 ms!
 ValidationManager: StatusLog > Doing event target looping
-ValidationManager: StatusLog > ZZZ Localisation validation complete in 9398 ms!
+ValidationManager: StatusLog > Doing event target processing round 0
+ValidationManager: StatusLog > Done with event target looping
+ValidationManager: StatusLog > Doing event target processing round 1
+ValidationManager: StatusLog > Done with event target looping
+ValidationManager: StatusLog > Doing event target processing round 2
+ValidationManager: StatusLog > Done with event target looping
 ValidationManager: StatusLog > Doing event target final checks
 ValidationManager: StatusLog > Done with event target final checks
-ValidationManager: StatusLog > Cache hits: 2383 Cache misses: 3228
-ValidationManager: StatusLog > Validation complete!
-ModSystem: Using file system Audax.Pdox.IO.Ck2FileSystem
-ModSystem: Loading mod list...
-ModSystem: Mod dir exists in game path C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings II, enumerating
-ModSystem: Examining default directory
-ModSystem: Default directory data path is: C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod
-ModSystem: Data path exists
-ModSystem: Found mod Clausewitz2Mod ModName=!Bigger Lists ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\!bigger_lists.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Deposed ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Chinese Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Chinese Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_ChineseFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - East African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - East African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EastAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - English and German Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - English and German Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EnglishGermanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Holy Fury DLC Faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Holy Fury DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_HolyFury.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Mongol Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Mongol Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_MongolFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Sunset Invasion DLC faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Sunset Invasion DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_SunsetInvasion.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - West African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - West African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_WestAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Better Faces - Frankish Andals ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Congenital Overhaul ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Customize Appearance ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Faces Modification + MB + CO ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Less Marriage Requests + MB ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Lowborn Purge ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Mixed Ethnicities ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT More Bloodlines Submod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Faces Mod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Religion Icons ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Revised SCMR ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Revised SCMR.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Avatar - Four Nations Restored ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\avatar - four nations restored.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Better Looking Garbs Full ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\betterlookinggarbsfull.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Bigger Interface for Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\bi-agot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccck2+.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for Faerun ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccfaerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for the Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccwinterking.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Western Europe 410-962 - The Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\britannia.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\ck2plus.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CleanSlate ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\cleanslate.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Faerun - Forgotten Realms Total Conversion ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\faerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Century Gothic ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_century_gothic.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Stellaris Colors ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_stellaris_colors.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Just After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\justaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Manic's Portraits ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars Portraits Submod ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars portraits submod.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Music ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Unit Packs ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs.mod
-ModSystem: Found mod Clausewitz2Mod ModName=New Era Old World ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\New-Era-Old-World.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Sob o Anil ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\SoA GIT\Sob-o-Anil OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Sob_o_Anil.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tempest of Kings ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tempest_of_kings.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Title Manager ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\title_manager.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tooltip: Century Gothic Bold 18 ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tooltip_century_gothic_bold_18.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=WH: Geheimnisnacht ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht.mod
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Characters validation...
-ValidationManager: StatusLog > Character DB loaded in 45 ms.
-ValidationManager: StatusLog > Characters validation complete in 10506 ms!
-ValidationManager: StatusLog > Beginning Cultures validation...
-ValidationManager: StatusLog > Cultures validation complete in 266 ms!
-ValidationManager: StatusLog > Beginning Dynasties validation...
-ValidationManager: StatusLog > Dynasties validation complete in 417 ms!
-ValidationManager: StatusLog > Beginning Nicknames validation...
-ValidationManager: StatusLog > Nicknames validation complete in 290 ms!
-ValidationManager: StatusLog > Beginning Province History validation...
-ValidationManager: StatusLog > Character DB loaded in 28 ms.
-ValidationManager: StatusLog > Province History validation complete in 384 ms!
-ValidationManager: StatusLog > Beginning Religions validation...
-ValidationManager: StatusLog > Religions validation complete in 543 ms!
-ValidationManager: StatusLog > Beginning Title History validation...
-ValidationManager: StatusLog > Title History validation complete in 677 ms!
-ValidationManager: StatusLog > Beginning Titles validation...
-ValidationManager: StatusLog > Titles validation complete in 1726 ms!
-ValidationManager: StatusLog > Beginning Traits validation...
-ValidationManager: StatusLog > Traits validation complete in 1522 ms!
-ValidationManager: StatusLog > Beginning ZZZ Localisation validation...
-ValidationManager: StatusLog > Doing event target looping
-ValidationManager: StatusLog > ZZZ Localisation validation complete in 10662 ms!
-ValidationManager: StatusLog > Doing event target final checks
-ValidationManager: StatusLog > Done with event target final checks
-ValidationManager: StatusLog > Cache hits: 2383 Cache misses: 3228
-ValidationManager: StatusLog > Validation complete!
-ModSystem: Using file system Audax.Pdox.IO.Ck2FileSystem
-ModSystem: Loading mod list...
-ModSystem: Mod dir exists in game path C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings II, enumerating
-ModSystem: Examining default directory
-ModSystem: Default directory data path is: C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod
-ModSystem: Data path exists
-ModSystem: Found mod Clausewitz2Mod ModName=!Bigger Lists ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\!bigger_lists.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Deposed ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Chinese Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Chinese Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_ChineseFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - East African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - East African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EastAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - English and German Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - English and German Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EnglishGermanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Holy Fury DLC Faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Holy Fury DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_HolyFury.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Mongol Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Mongol Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_MongolFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Sunset Invasion DLC faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Sunset Invasion DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_SunsetInvasion.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - West African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - West African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_WestAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Better Faces - Frankish Andals ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Congenital Overhaul ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Customize Appearance ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Faces Modification + MB + CO ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Less Marriage Requests + MB ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Lowborn Purge ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Mixed Ethnicities ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT More Bloodlines Submod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Faces Mod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Religion Icons ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Revised SCMR ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Revised SCMR.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Avatar - Four Nations Restored ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\avatar - four nations restored.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Better Looking Garbs Full ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\betterlookinggarbsfull.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Bigger Interface for Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\bi-agot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccck2+.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for Faerun ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccfaerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for the Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccwinterking.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Western Europe 410-962 - The Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\britannia.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\ck2plus.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CleanSlate ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\cleanslate.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Faerun - Forgotten Realms Total Conversion ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\faerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Century Gothic ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_century_gothic.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Stellaris Colors ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_stellaris_colors.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Just After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\justaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Manic's Portraits ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars Portraits Submod ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars portraits submod.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Music ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Unit Packs ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs.mod
-ModSystem: Found mod Clausewitz2Mod ModName=New Era Old World ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\New-Era-Old-World.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Sob o Anil ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\SoA GIT\Sob-o-Anil OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Sob_o_Anil.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tempest of Kings ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tempest_of_kings.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Title Manager ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\title_manager.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tooltip: Century Gothic Bold 18 ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tooltip_century_gothic_bold_18.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=WH: Geheimnisnacht ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht.mod
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Characters validation...
-ValidationManager: StatusLog > Character DB loaded in 32 ms.
-ValidationManager: StatusLog > Characters validation complete in 10058 ms!
-ValidationManager: StatusLog > Beginning Cultures validation...
-ValidationManager: StatusLog > Cultures validation complete in 286 ms!
-ValidationManager: StatusLog > Beginning Dynasties validation...
-ValidationManager: StatusLog > Dynasties validation complete in 398 ms!
-ValidationManager: StatusLog > Beginning Nicknames validation...
-ValidationManager: StatusLog > Nicknames validation complete in 298 ms!
-ValidationManager: StatusLog > Beginning Province History validation...
-ValidationManager: StatusLog > Character DB loaded in 30 ms.
-ValidationManager: StatusLog > Province History validation complete in 412 ms!
-ValidationManager: StatusLog > Beginning Religions validation...
-ValidationManager: StatusLog > Religions validation complete in 712 ms!
-ValidationManager: StatusLog > Beginning Title History validation...
-ValidationManager: StatusLog > Title History validation complete in 1101 ms!
-ValidationManager: StatusLog > Beginning Titles validation...
-ValidationManager: StatusLog > Titles validation complete in 1774 ms!
-ValidationManager: StatusLog > Beginning Traits validation...
-ValidationManager: StatusLog > Traits validation complete in 1583 ms!
-ValidationManager: StatusLog > Beginning ZZZ Localisation validation...
-ValidationManager: StatusLog > Doing event target looping
-ValidationManager: StatusLog > ZZZ Localisation validation complete in 9579 ms!
-ValidationManager: StatusLog > Doing event target final checks
-ValidationManager: StatusLog > Done with event target final checks
-ValidationManager: StatusLog > Cache hits: 2383 Cache misses: 3228
-ValidationManager: StatusLog > Validation complete!
-ModSystem: Using file system Audax.Pdox.IO.Ck2FileSystem
-ModSystem: Loading mod list...
-ModSystem: Mod dir exists in game path C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings II, enumerating
-ModSystem: Examining default directory
-ModSystem: Default directory data path is: C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod
-ModSystem: Data path exists
-ModSystem: Found mod Clausewitz2Mod ModName=!Bigger Lists ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\!bigger_lists.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Deposed ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Chinese Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Chinese Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_ChineseFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - East African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - East African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EastAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - English and German Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - English and German Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EnglishGermanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Holy Fury DLC Faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Holy Fury DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_HolyFury.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Mongol Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Mongol Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_MongolFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Sunset Invasion DLC faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Sunset Invasion DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_SunsetInvasion.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - West African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - West African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_WestAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Better Faces - Frankish Andals ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Congenital Overhaul ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Customize Appearance ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Faces Modification + MB + CO ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Less Marriage Requests + MB ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Lowborn Purge ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Mixed Ethnicities ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT More Bloodlines Submod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Faces Mod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Religion Icons ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Revised SCMR ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Revised SCMR.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Avatar - Four Nations Restored ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\avatar - four nations restored.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Better Looking Garbs Full ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\betterlookinggarbsfull.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Bigger Interface for Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\bi-agot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccck2+.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for Faerun ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccfaerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for the Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccwinterking.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Western Europe 410-962 - The Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\britannia.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\ck2plus.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CleanSlate ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\cleanslate.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Faerun - Forgotten Realms Total Conversion ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\faerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Century Gothic ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_century_gothic.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Stellaris Colors ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_stellaris_colors.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Just After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\justaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Manic's Portraits ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars Portraits Submod ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars portraits submod.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Music ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Unit Packs ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs.mod
-ModSystem: Found mod Clausewitz2Mod ModName=New Era Old World ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\New-Era-Old-World.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Sob o Anil ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\SoA GIT\Sob-o-Anil OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Sob_o_Anil.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tempest of Kings ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tempest_of_kings.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Title Manager ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\title_manager.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tooltip: Century Gothic Bold 18 ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tooltip_century_gothic_bold_18.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=WH: Geheimnisnacht ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht.mod
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Doing event target looping
-ValidationManager: StatusLog > Doing event target final checks
-ValidationManager: StatusLog > Done with event target final checks
-ValidationManager: StatusLog > Cache hits: 18 Cache misses: 60
-ValidationManager: StatusLog > Validation complete!
-ModSystem: Using file system Audax.Pdox.IO.Ck2FileSystem
-ModSystem: Loading mod list...
-ModSystem: Mod dir exists in game path C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings II, enumerating
-ModSystem: Examining default directory
-ModSystem: Default directory data path is: C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod
-ModSystem: Data path exists
-ModSystem: Found mod Clausewitz2Mod ModName=!Bigger Lists ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\!bigger_lists.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\A Game of Thrones.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Deposed ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Deposed.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\aftertheendfanfork_biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Chinese Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Chinese Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_ChineseFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - East African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - East African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EastAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - English and German Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - English and German Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_EnglishGermanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Holy Fury DLC Faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Holy Fury DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_HolyFury.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Mongol Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Mongol Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_MongolFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - Sunset Invasion DLC faces ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - Sunset Invasion DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_SunsetInvasion.mod
-ModSystem: Found mod Clausewitz2Mod ModName=After the End Fan Fork - West African Faces DLC ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\After the End Fan Fork - West African Faces DLC OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AfterTheEndFanFork_WestAfricanFaces.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Better Faces - Frankish Andals ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Better Faces - Frankish Andals.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Congenital Overhaul ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Congenital Overhaul.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Customize Appearance ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Customize Appearance.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Faces Modification + MB + CO ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Faces Modification + MB + CO.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Less Marriage Requests + MB ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Less Marriage Requests + MB.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Lowborn Purge ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Lowborn Purge.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Mixed Ethnicities ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Mixed Ethnicities.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT More Bloodlines Submod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT More Bloodlines.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Faces Mod ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Faces Mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT New Religion Icons ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT New Religion Icons.mod
-ModSystem: Found mod Clausewitz2Mod ModName=AGOT Revised SCMR ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\AGOT Revised SCMR.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Avatar - Four Nations Restored ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\avatar - four nations restored.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Better Looking Garbs Full ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\betterlookinggarbsfull.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Bigger Interface for Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\bi-agot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=A Bigger Interface ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\biggerinterface.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for A Game of Thrones ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccagot.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccck2+.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for Faerun ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccfaerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=BLG / CC for the Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\blgccwinterking.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Western Europe 410-962 - The Winter King ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\britannia.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CK2Plus ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\ck2plus.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=CleanSlate ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\cleanslate.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Faerun - Forgotten Realms Total Conversion ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\faerun.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Century Gothic ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_century_gothic.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Interface: Stellaris Colors ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\interface_stellaris_colors.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Just After the End ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\justaftertheend.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Manic's Portraits ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Manic Portrait.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars Portraits Submod ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars portraits submod.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Middle Mars ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\middle mars.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Music ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_music.mod
-ModSystem: Found mod Clausewitz2Mod ModName=NEOW Unit Packs ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW_unit_packs.mod
-ModSystem: Found mod Clausewitz2Mod ModName=New Era Old World ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\NEOW OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\New-Era-Old-World.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Sob o Anil ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\SoA GIT\Sob-o-Anil OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\Sob_o_Anil.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tempest of Kings ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tempest_of_kings.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Title Manager ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\title_manager.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=Tooltip: Century Gothic Bold 18 ModPath= OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\tooltip_century_gothic_bold_18.mod.mod
-ModSystem: Found mod Clausewitz2Mod ModName=WH: Geheimnisnacht ModPath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht OriginalModFilePath=C:\Users\[user_name <*********>]\Documents\Paradox Interactive\Crusader Kings II\mod\WH-Geheimnisnacht.mod
-VSET: Processing settings...
-VSET: ValidatorSettings.txt not found
-ValidationManager: StatusLog > Beginning validation...
-ValidationManager: StatusLog > Beginning Characters validation...
-ValidationManager: StatusLog > Character DB loaded in 37 ms.
-ValidationManager: StatusLog > Characters validation complete in 11977 ms!
-ValidationManager: StatusLog > Doing event target looping
-ValidationManager: StatusLog > Doing event target final checks
-ValidationManager: StatusLog > Done with event target final checks
-ValidationManager: StatusLog > Cache hits: 202 Cache misses: 580
+ValidationManager: StatusLog > Cache hits: 834 Cache misses: 760
 ValidationManager: StatusLog > Validation complete!
