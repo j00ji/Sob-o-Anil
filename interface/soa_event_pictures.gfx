@@ -13,6 +13,10 @@ spriteTypes = {
 		textureFile = "gfx\\event_pictures\\lady_aparecida.dds"
 	}
 	spriteType = {
+		name = "GFX_evt_Cristo_redentor"
+		textureFile = "gfx\\event_pictures\\Cristo_redentor.dds"
+	}
+	spriteType = {
 		name = "GFX_evt_operarios"
 		textureFile = "gfx\\event_pictures\\operarios.dds"
 	}

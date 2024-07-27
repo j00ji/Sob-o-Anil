@@ -83,14 +83,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		# clr_character_flag = pilgrimage_to_canterbury
-		# clr_character_flag = pilgrimage_to_jerusalem
-		# clr_character_flag = pilgrimage_to_koln
-		# clr_character_flag = pilgrimage_to_rome
-		# clr_character_flag = pilgrimage_to_santiago
-		# clr_character_flag = pilgrimage_to_constantinople
-		# clr_character_flag = pilgrimage_to_axum
-		# clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
+		clr_character_flag = pilgrimage_to_santiago
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -106,11 +107,8 @@ character_event = {
 				limit = {
 					OR = {
 						capital_scope = { province_id = 1 } #Rio
-						capital_scope = { province_id = 212 } #Paranagua
-						capital_scope = { province_id = 516 } #Bom Jesus
-						capital_scope = { province_id = 586 } #Caninde
 					}
-				} #if in any other pilgrimage site, go to Aparecida
+				} #if in Rio site, go to Aparecida
 				character_event = { id = SoA.5016 days = 4 } # Go to Aparecida
 			}
 			else_if = {
@@ -119,33 +117,8 @@ character_event = {
 				}
 				character_event = { id = SoA.5017 days = 4 } # Go to Rio
 			}
-			else_if = {
-				limit = { 
-					capital_scope = {
-						region = custom_brazil
-					}
-				}
-				character_event = { id = SoA.5009 days = 4 } # May choose destination as a Brazilian
-			}
-			else_if = {
-				limit = {
-					OR = {
-						capital_scope = { province_id = 410 } #Pichincha
-						capital_scope = { province_id = 442 } #La Paz
-						capital_scope = { province_id = 626 } #Lujan
-						capital_scope = { province_id = 906 } #Lima
-					}
-				}
-				character_event = { id = SoA.50XX days = 4 } # Go to Santiago
-			}
-			else_if = {
-				limit = {
-					capital_scope = { province_id = 297 } #Santiago
-				}
-				character_event = { id = SoA.50XX days = 4 } # Go to Lujan
-			}
 			else = {
-				character_event = { id = SoA.50XX days = 4 } # May choose destination as a HispanoAmerican
+				character_event = { id = SoA.5018 days = 4 } # May choose destination 
 			}
 		}
 	}
@@ -159,10 +132,10 @@ character_event = {
 #                                         #
 ###########################################
 
-# Choose destination as Eastern Christian
+# Choose destination as Catholic in Brazil ###IGNORE THIS ###
 character_event = {
 	id = SoA.5011
-	desc = EVTDESC_SoA_5011
+	desc = EVTDESC_SoA_5018
 	picture = GFX_evt_icon
 	border = GFX_event_normal_frame_religion
 	
@@ -171,14 +144,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -189,16 +163,16 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5011
 		trigger = {
-			NOT = { capital_scope = { province_id = 774 } }
+			NOT = { capital_scope = { province_id = 1097 } }
 		}
-		set_character_flag = pilgrimage_to_jerusalem
+		set_character_flag = pilgrimage_to_aparecida
 		hidden_tooltip = {
 			character_event = { id = SoA.5022 days = 15 }
 		}
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_JERUSALEM
+				entry = CHRONICLE_PILGRIMAGE_TO_APARECIDA
 				picture = GFX_evt_pilgrims_epic_journey
 			}
 		}
@@ -207,60 +181,54 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5011
 		trigger = {
-			NOT = { capital_scope = { province_id = 496 } }
-			NOT = { religion = miaphysite }
-			NOT = { religion = monophysite }
+			NOT = { capital_scope = { province_id = 1 } }
 		}
-		set_character_flag = pilgrimage_to_constantinople
+		set_character_flag = pilgrimage_to_rio
 		hidden_tooltip = {
 			character_event = { id = SoA.5094 days = 15 }
 		}
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_CONSTANTINOPLE
+				entry = CHRONICLE_PILGRIMAGE_TO_RIO
 				picture = GFX_evt_pilgrims_epic_journey
 			}
 		}
 	}
-	option = {
-		name = EVTOPTC_SoA_5011
-		trigger = {
-			NOT = { capital_scope = { province_id = 764 } }
-		}
-		set_character_flag = pilgrimage_to_antioch
-		hidden_tooltip = {
-			character_event = { id = SoA.5096 days = 15 }
-		}
-		if = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_ANTIOCH
-				picture = GFX_evt_pilgrims_epic_journey
-			}
-		}
-	}
-	option = {
-		name = EVTOPTD_SoA_5011
-		trigger = {
-			OR = {
-				religion = miaphysite
-				religion = monophysite
-			}
-		NOT = { capital_scope = { province_id = 875 } }
-		}
-		set_character_flag = pilgrimage_to_axum
-		hidden_tooltip = {
-			character_event = { id = SoA.5095 days = 15 }
-		}
-		if = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_AXUM
-				picture = GFX_evt_pilgrims_epic_journey
-			}
-		}
-	}
+	# option = {
+		# name = EVTOPTA_SoA_5011
+		# trigger = {
+			# NOT = { capital_scope = { province_id = 586 } }
+		# }
+		# set_character_flag = pilgrimage_to_caninde
+		# hidden_tooltip = {
+			# character_event = { id = SoA.5096 days = 15 }
+		# }
+		# if = {
+			# limit = { ai = no }
+			# chronicle = {
+				# entry = CHRONICLE_PILGRIMAGE_TO_CANINDE
+				# picture = GFX_evt_pilgrims_epic_journey
+			# }
+		# }
+	# }
+	# option = {
+		# name = EVTOPTA_SoA_5011
+		# trigger = {
+			# NOT = { capital_scope = { province_id = 212 } }
+		# }
+		# set_character_flag = pilgrimage_to_paranagua
+		# hidden_tooltip = {
+			# character_event = { id = SoA.5095 days = 15 }
+		# }
+		# if = {
+			# limit = { ai = no }
+			# chronicle = {
+				# entry = CHRONICLE_PILGRIMAGE_TO_PARANAGUA
+				# picture = GFX_evt_pilgrims_epic_journey
+			# }
+		# }
+	# }
 	option = {
 		name = EVTOPTC_SOA_5018   #Find a Saintly Burial Site to visit
 		trigger = {
@@ -306,7 +274,7 @@ character_event = {
 	}
 }
 
-# Catholic - Always go to Rome if living in Jerusalem province
+# Catholic - Always go to Rio if Brazilian and living in Aparecida province
 character_event = {
 	id = SoA.5017
 	desc = EVTDESC_SoA_5017
@@ -316,14 +284,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -335,21 +304,21 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_SoA_5017
-		set_character_flag = pilgrimage_to_rome
+		set_character_flag = pilgrimage_to_rio
 		hidden_tooltip = {
 			character_event = { id = SoA.5024 days = 15 }
 		}
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_ROME
+				entry = CHRONICLE_PILGRIMAGE_TO_RIO
 				picture = GFX_evt_pilgrims_epic_journey
 			}
 		}
 	}
 }
 
-# Catholic - May decide where to go - Western Europe (Canterbury, Santiago, Cologne) or the ancient sites (Jerusalem, Rome)
+# Catholic - May decide where to go - Hispanic Sites (Lujan, Santiago, Lima) or the brazilian sites (Rio, Aparecida)
 character_event = {
 	id = SoA.5018
 	desc = EVTDESC_SoA_5018
@@ -359,14 +328,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -377,21 +347,39 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA_SoA_5018   # Go to Western Europe
-		trigger = {
-			year = 814
-		}
+		name = EVTOPTA_SoA_5018   # Go to Hispanic Sites
 		hidden_tooltip = { character_event = { id = SoA.5019 } }
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 0
+				OR = {
+					is_brazilian_trigger = yes
+					is_brazilian_native_trigger = yes
+				}
+			}
+		}
 	}
 	option = {
-		name = EVTOPTB_SoA_5018   # Go to the old sites, Rome or Jerusalem
+		name = EVTOPTB_SoA_5018   # Go to the Brazilian sites, Rio or Aparecida
 		hidden_tooltip = { character_event = { id = SoA.5020 } }
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 0
+				OR = {
+					is_hispanoamerican_trigger = yes
+					is_hispanic_native_trigger = yes
+				}
+			}
+		}
 	}
 	option = {
 		name = EVTOPTC_SOA_5018   #Find a Saintly Burial Site to visit
 		trigger = {
 			has_dlc = "Holy Fury"
 		}
+		ai_chance = { factor = 25 }
 		hidden_tooltip = { character_event = { id = HF.41300  days = 15} }
 	}
 }
@@ -406,14 +394,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -426,15 +415,15 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5019
 		trigger = {
-			year = 1170
+			NOT = { capital_scope =  626 }
 		}
 		ai_chance = { factor = 25 }
-		set_character_flag = pilgrimage_to_canterbury
+		set_character_flag = pilgrimage_to_lujan
 		hidden_tooltip = { character_event = { id = SoA.5021 days = 15 } }
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_CANTERBURY
+				entry = CHRONICLE_PILGRIMAGE_TO_LUJAN
 				picture = GFX_evt_pilgrims_epic_journey
 			}
 		}
@@ -442,21 +431,24 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5019
 		trigger = {
-			year = 1164
+			NOT = { capital_scope =  906 }
 		}
 		ai_chance = { factor = 25 }
-		set_character_flag = pilgrimage_to_koln
+		set_character_flag = pilgrimage_to_lima
 		hidden_tooltip = { character_event = { id = SoA.5023 days = 15 } }
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_KOLN
+				entry = CHRONICLE_PILGRIMAGE_TO_LIMA
 				picture = GFX_evt_pilgrims_epic_journey
 			}
 		}
 	}
 	option = {
 		name = EVTOPTC_SoA_5019
+		trigger = {
+			NOT = { capital_scope =  297 }
+		}
 		ai_chance = { factor = 50 }
 		set_character_flag = pilgrimage_to_santiago
 		hidden_tooltip = { character_event = { id = SoA.5025 days = 15 } }
@@ -470,7 +462,7 @@ character_event = {
 	}
 }
 
-# Catholic - Where to go - Med - the oldest sites
+# Catholic - Where to go - Brazil - 
 character_event = {
 	id = SoA.5020
 	desc = EVTDESC_SoA_5020
@@ -480,14 +472,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -500,14 +493,14 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5020
 		ai_chance = { factor = 50 }
-		set_character_flag = pilgrimage_to_jerusalem
+		set_character_flag = pilgrimage_to_aparecida
 		hidden_tooltip = {
 			character_event = { id = SoA.5022 days = 15 }
 		}
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_JERUSALEM
+				entry = CHRONICLE_PILGRIMAGE_TO_APARECIDA
 				picture = GFX_evt_pilgrims_epic_journey
 			}
 		}
@@ -516,14 +509,14 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5020
 		ai_chance = { factor = 50 }
-		set_character_flag = pilgrimage_to_rome
+		set_character_flag = pilgrimage_to_rio
 		hidden_tooltip = {
 			character_event = { id = SoA.5024 days = 15 }
 		}
 		if = {
 			limit = { ai = no }
 			chronicle = {
-				entry = CHRONICLE_PILGRIMAGE_TO_ROME
+				entry = CHRONICLE_PILGRIMAGE_TO_RIO
 				picture = GFX_evt_pilgrims_epic_journey
 			}
 		}
@@ -551,14 +544,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -631,14 +625,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -710,14 +705,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -795,14 +791,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -825,7 +822,7 @@ character_event = {
 				limit = {
 					location = {
 						distance = {
-							where = 73	# Canterbury
+							where = 626	# Lujan
 							value = 400	# Longer journey
 						}
 					}
@@ -867,7 +864,7 @@ character_event = {
 	}
 }
 
-# Setting out for Jerusalem (also selects events for road)
+# Setting out for Aparecida (also selects events for road)
 character_event = {
 	id = SoA.5022
 	desc = EVTDESC_SoA_5022
@@ -900,7 +897,7 @@ character_event = {
 				limit = {
 					location = {
 						distance = {
-							where = 1097 # Jerusalem
+							where = 1097 # Aparecida
 							value = 400	# Longer journey
 						}
 					}
@@ -949,14 +946,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -979,7 +977,7 @@ character_event = {
 				limit = {
 					location = {
 						distance = {
-							where = 119	# Cologne
+							where = 906	# Lima
 							value = 400	# Longer journey
 						}
 					}
@@ -1023,7 +1021,7 @@ character_event = {
 }
 
 
-# Setting out for Rome (also selects events for road)
+# Setting out for Rio (also selects events for road)
 character_event = {
 	id = SoA.5024
 	desc = EVTDESC_SoA_5024
@@ -1033,14 +1031,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1063,7 +1062,7 @@ character_event = {
 				limit = {
 					location = {
 						distance = {
-							where = 333	# Rome
+							where = 1	# Rome
 							value = 400	# Longer journey
 						}
 					}
@@ -1116,14 +1115,15 @@ character_event = {
 		has_character_flag = preparing_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1146,7 +1146,7 @@ character_event = {
 				limit = {
 					location = {
 						distance = {
-							where = 157	# Santiago
+							where = 297	# Santiago
 							value = 400	# Longer journey
 						}
 					}
@@ -1198,14 +1198,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1264,14 +1265,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1330,14 +1332,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1396,14 +1399,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1455,14 +1459,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1518,14 +1523,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1614,14 +1620,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1665,14 +1672,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1712,14 +1720,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1758,14 +1767,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1799,14 +1809,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1850,14 +1861,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1938,14 +1950,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -1998,14 +2011,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -2058,14 +2072,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -2112,14 +2127,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -2157,14 +2173,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -2182,7 +2199,7 @@ character_event = {
 		custom_tooltip = { text = gain_friend }
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_canterbury
+				has_character_flag = pilgrimage_to_lujan
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_knights_hospitaler }
 			}
@@ -2190,7 +2207,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_canterbury
+				has_character_flag = pilgrimage_to_lujan
 				is_title_active = d_knights_hospitaler
 				NOT = { is_title_active = d_knights_templar }
 			}
@@ -2198,7 +2215,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_canterbury
+				has_character_flag = pilgrimage_to_lujan
 				is_title_active = d_knights_hospitaler
 				is_title_active = d_knights_templar
 			}
@@ -2211,7 +2228,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2221,7 +2238,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2231,7 +2248,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				NOT = { is_title_active = d_knights_templar }
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2241,7 +2258,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				NOT = { is_title_active = d_knights_templar }
 				NOT = { is_title_active = d_teutonic_order }
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2251,7 +2268,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2266,7 +2283,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2281,7 +2298,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2296,7 +2313,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2311,7 +2328,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2326,7 +2343,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				NOT = { is_title_active = d_knights_templar }
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2341,7 +2358,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2357,7 +2374,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2373,7 +2390,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2389,7 +2406,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2405,7 +2422,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_jerusalem
+				has_character_flag = pilgrimage_to_aparecida
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2422,7 +2439,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_koln
+				has_character_flag = pilgrimage_to_lima
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2431,7 +2448,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_koln
+				has_character_flag = pilgrimage_to_lima
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2440,7 +2457,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_koln
+				has_character_flag = pilgrimage_to_lima
 				NOT = { is_title_active = d_knights_templar }
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2449,7 +2466,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_koln
+				has_character_flag = pilgrimage_to_lima
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2463,7 +2480,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_koln
+				has_character_flag = pilgrimage_to_lima
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2477,7 +2494,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_koln
+				has_character_flag = pilgrimage_to_lima
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2491,7 +2508,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_koln
+				has_character_flag = pilgrimage_to_lima
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2506,7 +2523,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_rome
+				has_character_flag = pilgrimage_to_rio
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2515,7 +2532,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_rome
+				has_character_flag = pilgrimage_to_rio
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2524,7 +2541,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_rome
+				has_character_flag = pilgrimage_to_rio
 				NOT = { is_title_active = d_knights_templar }
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2533,7 +2550,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_rome
+				has_character_flag = pilgrimage_to_rio
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2547,7 +2564,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_rome
+				has_character_flag = pilgrimage_to_rio
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2561,7 +2578,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_rome
+				has_character_flag = pilgrimage_to_rio
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2575,7 +2592,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_rome
+				has_character_flag = pilgrimage_to_rio
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2619,19 +2636,19 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_constantinople
+				has_character_flag = pilgrimage_to_rio
 			}
 			character_event = { id = SoA.5048 }
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_axum
+				has_character_flag = pilgrimage_to_paranagua
 			}
 			character_event = { id = SoA.5049 }
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2641,7 +2658,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2651,7 +2668,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				NOT = { is_title_active = d_knights_templar }
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2661,7 +2678,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				NOT = { is_title_active = d_knights_templar }
 				NOT = { is_title_active = d_teutonic_order }
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2671,7 +2688,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2686,7 +2703,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2701,7 +2718,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2716,7 +2733,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2731,7 +2748,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2746,7 +2763,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				NOT = { is_title_active = d_knights_templar }
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2761,7 +2778,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2777,7 +2794,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				NOT = { is_title_active = d_knights_hospitaler }
@@ -2793,7 +2810,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				is_title_active = d_knights_templar
 				NOT = { is_title_active = d_teutonic_order }
 				is_title_active = d_knights_hospitaler
@@ -2809,7 +2826,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				NOT = { is_title_active = d_knights_templar }
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2825,7 +2842,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				has_character_flag = pilgrimage_to_antioch
+				has_character_flag = pilgrimage_to_caninde
 				is_title_active = d_knights_templar
 				is_title_active = d_teutonic_order
 				is_title_active = d_knights_hospitaler
@@ -2872,14 +2889,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -2930,14 +2948,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -2986,14 +3005,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3042,14 +3062,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3098,14 +3119,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3154,14 +3176,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3210,14 +3233,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3266,14 +3290,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3302,14 +3327,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3333,7 +3359,7 @@ character_event = {
 #                                         #
 ###########################################
 
-# Arrived at Canterbury
+# Arrived at Lujan
 narrative_event = {
 	id = SoA.5050
 	title = EVTNAME_SoA_5050
@@ -3345,14 +3371,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3396,7 +3423,7 @@ narrative_event = {
 	}
 }
 
-# Arrived at Cologne
+# Arrived at Lima
 narrative_event = {
 	id = SoA.5052
 	title = EVTNAME_SoA_5052
@@ -3408,14 +3435,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3436,21 +3464,22 @@ narrative_event = {
 	id = SoA.5053
 	title = EVTNAME_SoA_5053
 	desc = EVTDESC_SoA_5053
-	picture = GFX_evt_victory_arch_byzantine
+	picture = GFX_evt_Cristo_redentor
 	border = GFX_event_narrative_frame_religion
 	
 	trigger = { 
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3478,14 +3507,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3513,14 +3543,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3548,14 +3579,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3583,14 +3615,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3623,14 +3656,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3802,12 +3836,12 @@ character_event = {
 			}
 			10 = {                                           # Impressed by Islam or Judaism (Jerusalem only)
 				if = {
-					limit = { has_character_flag = pilgrimage_to_jerusalem }
+					limit = { has_character_flag = pilgrimage_to_aparecida }
 					character_event = { id = SoA.5067 }
 				}
 				if = {
 					limit = {
-						NOT = { has_character_flag = pilgrimage_to_jerusalem }
+						NOT = { has_character_flag = pilgrimage_to_aparecida }
 					}
 					random_list = {
 						20 = {  character_event = { id = SoA.5057 } }  # Strong religious experience
@@ -3832,14 +3866,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3887,14 +3922,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3925,14 +3961,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -3966,14 +4003,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4000,14 +4038,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4062,14 +4101,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4096,14 +4136,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4174,14 +4215,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4233,14 +4275,15 @@ narrative_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4348,14 +4391,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4393,14 +4437,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4437,14 +4482,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4520,14 +4566,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4568,14 +4615,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4628,14 +4676,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4680,14 +4729,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4709,14 +4759,15 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_SoA_5091
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = good_pilgrimage
 		clr_character_flag = do_not_disturb
 		add_trait = pilgrim
@@ -4736,14 +4787,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4765,14 +4817,15 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_SoA_5092
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = bad_pilgrimage
 		clr_character_flag = do_not_disturb
 		add_trait = pilgrim
@@ -4804,14 +4857,15 @@ character_event = {
 		trait = on_pilgrimage
 	}
 	fail_trigger_effect = { 
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		clr_character_flag = preparing_pilgrimage
@@ -4833,14 +4887,15 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_SoA_5093
-		clr_character_flag = pilgrimage_to_canterbury
-		clr_character_flag = pilgrimage_to_jerusalem
-		clr_character_flag = pilgrimage_to_koln
-		clr_character_flag = pilgrimage_to_rome
+		clr_character_flag = pilgrimage_to_aparecida
+		clr_character_flag = pilgrimage_to_rio
+		clr_character_flag = pilgrimage_to_bom_jesus
+		clr_character_flag = pilgrimage_to_caninde
+		clr_character_flag = pilgrimage_to_paranagua
+		clr_character_flag = pilgrimage_to_lujan
 		clr_character_flag = pilgrimage_to_santiago
-		clr_character_flag = pilgrimage_to_constantinople
-		clr_character_flag = pilgrimage_to_axum
-		clr_character_flag = pilgrimage_to_antioch
+		clr_character_flag = pilgrimage_to_quito
+		clr_character_flag = pilgrimage_to_copacabana
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
 		add_trait = pilgrim

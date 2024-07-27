@@ -319,6 +319,44 @@ cicerite.8.a;Louvado seja nosso senhor Jesus Cristo! Para sempre seja louvado!;;
 COMPL_ROMEIRO;Romeiro;;;;;;;;;;;;;;x
 COMPL_ROMEIRA;Romeira;;;;;;;;;;;;;;x
 
+#Catholic Pilgrimages
+EVTOPTA_SoA_5011;I will go to Aparecida the city of the Virgin;;;;;;;;;;;;;;x
+EVTOPTB_SoA_5011;I will go to Rio and visit the Christ the Redeemer;;;;;;;;;;;;;;x
+EVTOPTA_SoA_5018;I shall visit a holy site west of the Plata River.;;;;;;;;;x
+EVTOPTB_SoA_5018;I will go to one of the Brazilian sacred sites, Rio or Aparecida.;;;;;;;;;x
+EVTDESC_SoA_5019;A pilgrimage in the Americas is just as worthy as a journey to Jerusalem or Rome.;;;;;;;;;x
+EVTOPTA_SoA_5019;I will visit the grand cathedral in Lujan.;;;;;;;;;x
+EVTOPTB_SoA_5019;I will visit Lima, the City of the Kings.;;;;;;;;;x
+EVTOPTC_SoA_5019;I will visit the Cerro San Cristobal in Santiago.;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_LUJAN;[Root.GetTitledName] made a pious pilgrimage to Luján.;;;;;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_LIMA;[Root.GetTitledName] made a pious pilgrimage to Lima.;;;;;;;;;;;;;x
+EVTDESC_SoA_5020;Aparecida and Rio de Janeiro are amongst the oldest and holiest places of the New World.;;;;;;;;;x
+EVTOPTA_SoA_5020;I will travel to Aparecida and see its great cathedral.;;;;;;;;;x
+EVTOPTB_SoA_5020;I will travel to the ancient capital.;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_APARECIDA;[Root.GetTitledName] made a pious pilgrimage to Aparecida.;;;;;;;;;;;;;x
+CHRONICLE_PILGRIMAGE_TO_RIO;[Root.GetTitledName] made a pious pilgrimage to Rio.;;;;;;;;;;;;;x
+EVTDESC_SoA_5021;My things are packed, everything is in order. Soon, I shall see the grand cathedral in Lujan.;;;;;;;;;x
+EVTDESC_SoA_5022;My things are packed, everything is in order. Soon, I will arrive in the city of Aparecida.;;;;;;;;;x
+EVTDESC_SoA_5023;My things are packed, everything is in order. Soon I will see Lima and its many Churches.;;;;;;;;;x
+EVTDESC_SoA_5024;My things are packed, everything is in order. Soon I will walk the streets of Rio and see all its marvels.;;;;;;;;;x
+EVTDESC_SoA_5025;My things are packed, everything is in order. I am ready to visit the famous mountains of Santiago.;;;;;;;;;x
+EVTNAME_SoA_5050;Luján;;;;;;;;x
+EVTDESC_SoA_5050;You have finally arrived at Luján! It is situated on the South of the Plata Basin, just west of Buenos Aires. The city itself is full of pilgrims from all over the Argentina. You start to make your way down the road to Belgrano, eager to see the famous Our Lady of Luján Cathedral.;;;;;;;;;;;;;x
+EVTOPTA_SoA_5050;The Basilica looks majestic...;;;;;;;;;;;;;x
+EVTNAME_SoA_5051;Aparecida;;;;;;;;;;;;;x
+EVTDESC_SoA_5051;You have finally arrived at Aparecida! Passing over the Paraiba do Sul River where the image of Our Lady was first found by a group of fishermen, you enter through the temple gate and is immediately overcome by a feeling of having made a truly epic journey. The Basilica is huge in size and is filled with people from all over Brazil. You make your way through the enormous basilica complex entagled in a sea of people slowly but surely making your way inside, excited by the knowledge that you are now just a few steps close to the original statue of the Virgin...;;;;;;;;;;;;;x
+EVTOPTA_SoA_5051;Our Lady of Aparecida, pray for us!;;;;;;;;;;;;;x
+EVTNAME_SoA_5052;Lima;;;;;;;;;;;;;x
+EVTDESC_SoA_5052;You have finally arrived at Lima! The mighty city is famous across the Catholic world for being the place where the first native South American, Santa Rosa of Lima was canonized. The city itself has many different temples honoring Santa Rosa amongst other Saints, with the biggest one being the Basilica of Saint John in the center of the city.;;;;;;;;;;;;;x
+EVTOPTA_SoA_5052;I will pray at the Saint Rose of Lima Sanctuary!;;;;;;;;;;;;;x
+EVTNAME_SoA_5053;Rio de Janeiro;;;;;;;;;;;;;x
+EVTDESC_SoA_5053;You have finally arrived at Rio de Janeiro! As you enter the Wonderful City, you are struck by the many ancient buildings and monuments that you pass by. Though large areas seem to be depopulated, the city still boasts an impressive population concentrated along its coast. The holy sites you want to visit are primarily the Basilica of Penha and the Christ the Redeemer that towers over the city and features a small chapel inside it. You start making your way to the center of the city, hoping that you won't get lost in traffic as the crowds start to get more dense.;;;;;;;;;;;;;x
+EVTOPTA_SoA_5053;Truly, this is the New Rome of the South!;;;;;;;;;;;;;x
+EVTNAME_SoA_5054;Santiago;;;;;;;;;;;;;x
+EVTDESC_SoA_5054;You have finally arrived in Santiago de Chile! As you enter the City of Island Hills, you are struck by the many rebuilt buildings and ancient monuments that you pass by. The city boasts a large population concentrated in the center of the capital. The holy sites you want to visit include the Basilica of Lourdes and its grotto, home of the Patriarchate of the Particularist Catholic Church, the Santiago Metropolitan Cathedral in the main square, and San Cristobal Hill, which towers over the city and features a park and the Sanctuary of the Immaculate Conception at its summit. The sanctuary features a statue of the Immaculate Conception, and at the foot of the statue, there is an amphitheater for holding masses and other religious ceremonies. Near the statue, there is also a small chapel for praying. You start making your way to the center of the city, hoping that you won't get lost in traffic as the crowds become denser.;;;;;;;;;;;;;x
+EVTOPTA_SoA_5054;Truly, a unique city!;;;;;;;;;;;;;x
+
+
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x

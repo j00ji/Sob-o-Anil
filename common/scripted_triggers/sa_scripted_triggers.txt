@@ -43,6 +43,7 @@ is_hispanoamerican_trigger = {
 	culture_group = ecuatoriano
 	culture_group = gran_colombian
 }
+
 is_catholic_trigger = {
 	OR = {
 		religion = catholic
@@ -59,6 +60,7 @@ is_catholic_trigger = {
 		religion = mysticalist
 	}
 }
+
 active_holy_order_by_religion = {
 	OR = {
 		#AND = {
