@@ -7,8 +7,14 @@
 	holder = 40006 #Fátima I "the Great"
 	capital = 471 #Salvador
 	law = true_cognatic_succession
+	law = crown_authority_2
+	law = centralization_1
+	law = king_peace_1
+	law = ze_revokation_1
+	law = inheritance_1
 	law = succ_brazilian_elective
 	law = religion_toleration_1
+	law = administration_2
 	government = roman_imperial_government_tolerant
 	effect = {
 		set_title_flag = is_pretender_empire
