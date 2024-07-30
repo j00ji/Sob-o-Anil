@@ -19875,11 +19875,8 @@ letter_event = {
 									NOT = { has_law = succ_hre_elective }
 									NOT = { has_law = succ_feudal_elective }
 									has_law = law_voting_power_1
-									has_law = banish_voting_power_1
-									has_law = execution_voting_power_1
-									has_law = revoke_title_voting_power_1
-									has_law = grant_title_voting_power_1
-									has_law = imprison_voting_power_1
+									has_law = titles_voting_power_1
+									has_law = justice_voting_power_1
 									has_law = war_voting_power_1						
 								}
 								add_law_w_cooldown = succ_hre_elective
@@ -19890,11 +19887,8 @@ letter_event = {
 									NOT = { has_law = succ_hre_elective }
 									NOT = { has_law = succ_feudal_elective }
 									has_law = law_voting_power_1
-									has_law = banish_voting_power_1
-									has_law = execution_voting_power_1
-									has_law = revoke_title_voting_power_1
-									has_law = grant_title_voting_power_1
-									has_law = imprison_voting_power_1
+									has_law = titles_voting_power_1
+									has_law = justice_voting_power_1
 									has_law = war_voting_power_1						
 								}
 								add_law_w_cooldown = succ_feudal_elective
@@ -19907,11 +19901,8 @@ letter_event = {
 									NAND = {
 										has_law = succ_feudal_elective
 										has_law = law_voting_power_1
-										has_law = banish_voting_power_1
-										has_law = execution_voting_power_1
-										has_law = revoke_title_voting_power_1
-										has_law = grant_title_voting_power_1
-										has_law = imprison_voting_power_1
+										has_law = titles_voting_power_1
+										has_law = justice_voting_power_1
 										has_law = war_voting_power_1						
 									}
 								}
