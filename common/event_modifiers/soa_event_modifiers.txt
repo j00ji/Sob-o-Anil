@@ -87,3 +87,9 @@ helping_conqueror = {
 	supply_limit = -2
 	castle_tax_modifier = -0.20
 }
+
+neglecting_province = {
+	levy_size = -0.1
+	garrison_size = -0.1
+	castle_tax_modifier = -0.20
+}

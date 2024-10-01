@@ -356,7 +356,18 @@ EVTNAME_SoA_5054;Santiago;;;;;;;;;;;;;x
 EVTDESC_SoA_5054;You have finally arrived in Santiago de Chile! As you enter the City of Island Hills, you are struck by the many rebuilt buildings and ancient monuments that you pass by. The city boasts a large population concentrated in the center of the capital. The holy sites you want to visit include the Basilica of Lourdes and its grotto, home of the Patriarchate of the Particularist Catholic Church, the Santiago Metropolitan Cathedral in the main square, and San Cristobal Hill, which towers over the city and features a park and the Sanctuary of the Immaculate Conception at its summit. The sanctuary features a statue of the Immaculate Conception, and at the foot of the statue, there is an amphitheater for holding masses and other religious ceremonies. Near the statue, there is also a small chapel for praying. You start making your way to the center of the city, hoping that you won't get lost in traffic as the crowds become denser.;;;;;;;;;;;;;x
 EVTOPTA_SoA_5054;Truly, a unique city!;;;;;;;;;;;;;x
 
+### CHARISMATIC EVENTS ###
 
+# Joining Pastoral of Youth upon coming of age #
+charismatic.1.d;As is tradition amongst Charismatic nobles, upon reaching 16 it is expected that one shall start partaking in Pastoral life by joining the Pastoral of the Youth, aimed at instructing its members and faith and readying them to later join one of the more specific pastorals. Pastoral of Youth activities often involve theological study and event organisation, but truthfully many just use the pastorals as excuses to socialize and meet potential brides.
+charismatic.1.a;I will join it, as tradition demands.;;;;;;;;;;;;;;x
+charismatic.1.b;I don't think that's for me...;;;;;;;;;;;;;;x
+
+# Pastoral of Youth events #
+charismatic.12.n;A lending hand;;;;;;;;;;;;;;x
+charismatic.12.d;Whilist undergoing preparations for the feast day of the parish's Saint, ...
+charismatic.12.a;
+charismatic.12.b;No thank you, I can do it myself.
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x

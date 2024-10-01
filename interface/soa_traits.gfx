@@ -69,6 +69,7 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
 	spriteType = {
 		name = "GFX_trait_aculturado"
 		texturefile = "gfx/traits/aculturado.tga"
@@ -84,10 +85,38 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	
 	spriteType = {
 		name = "GFX_trait_romeiro"
 		texturefile = "gfx/traits/romeiro.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_charismatic_youth"
+		texturefile = "gfx/traits/apostolic_bonfim.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_charismatic_tithe"
+		texturefile = "gfx/traits/apostolic_bonfim.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_charismatic_cathechesis"
+		texturefile = "gfx/traits/apostolic_bonfim.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_charismatic_family"
+		texturefile = "gfx/traits/apostolic_bonfim.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

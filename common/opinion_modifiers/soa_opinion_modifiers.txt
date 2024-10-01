@@ -1,3 +1,15 @@
 prophesied_my_death = {
 	opinion = -15
 }
+
+opinion_allowed_marriage = {
+	opinion = 15
+}
+
+opinion_good_pastoralist = {
+	opinion = 25
+}
+
+opinion_bad_pastoralist = {
+	opinion = -25
+}

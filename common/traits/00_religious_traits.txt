@@ -567,3 +567,107 @@ apostolic_bonfim = {
 	female_insult_adj = INSULT_UNPRINCIPLED
 	child_insult_adj = INSULT_STUPID
 }
+
+# CHARISMATIC PASTORAL TRAITS #
+
+charismatic_youth = {
+	opposites = {
+		charismatic_tithe
+		charismatic_cathechesis
+		charismatic_family
+		charismatic_martial
+	}
+	
+	fertility = 0.05
+	
+	potential = {
+		religion = charismatic
+		age < 30
+	}
+	
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_insult = INSULT_CHILD
+	female_insult = INSULT_CHILD
+	male_insult_adj = INSULT_LITTLE
+	female_insult_adj = INSULT_LITTLE
+	male_compliment_adj = COMPL_PLEASANT
+	female_compliment_adj = COMPL_PLEASANT
+}
+
+charismatic_tithe = {
+	opposites = {
+		charismatic_youth
+		charismatic_cathechesis
+		charismatic_family
+		charismatic_martial
+	}
+	
+	potential = { religion = charismatic }
+	
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_insult = INSULT_JUNGLE_SNAKE
+	female_insult = INSULT_JUNGLE_SNAKE
+	male_insult_adj = INSULT_CORRUPT
+	female_insult_adj = INSULT_CORRUPT
+	male_compliment_adj = COMPL_THRIFTY
+	female_compliment_adj = COMPL_THRIFTY
+}
+
+charismatic_cathechesis = {
+	opposites = {
+		charismatic_youth
+		charismatic_tithe
+		charismatic_family
+		charismatic_martial
+	}
+	
+	potential = { religion = charismatic }
+	
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_compliment_adj = COMPL_WISE
+	female_compliment_adj = COMPL_WISE
+}
+
+charismatic_family = {
+	opposites = {
+		charismatic_youth
+		charismatic_tithe
+		charismatic_cathechesis
+		charismatic_martial
+	}
+	
+	potential = { religion = charismatic }
+	
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+
+charismatic_martial = {
+	
+	opposites = {
+		charismatic_youth
+		charismatic_tithe
+		charismatic_family
+		charismatic_cathechesis
+	}
+	
+	potential = { religion = charismatic }
+	
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+	
+	male_compliment_adj = COMPL_VIRTUOUS
+	female_compliment_adj = COMPL_VIRTUOUS
+	
+}

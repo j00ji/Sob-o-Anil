@@ -275,3 +275,20 @@ camino_wealth_prophecy = {
 camino_failed_reading = {
 	icon = 80
 }
+
+##### PASTORAL MODIFIERS
+
+left_pastoral = {
+	icon = 35
+}
+
+pastoral_improved_stewardship = {
+	stewardship = 2
+	icon = 4
+}
+
+pastoral_banished = {
+	monthly_character_piety = -0.5
+	charismatic_opinion = -5
+	icon = 26
+}

@@ -6,8 +6,8 @@ title = c_sorocaba
 # Settlements
 max_settlements = 6
 
-b_nova_manchester = castle
-b_eden = city
+b_nova_manchester = city
+b_eden = castle
 b_sao_bento_2 = temple
 b_votorantim = castle
 #b_nova_esperanca = city

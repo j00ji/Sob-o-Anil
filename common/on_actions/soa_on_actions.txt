@@ -5,20 +5,38 @@ on_startup = {
 		camino.5
 		SOAREALM.7
 		bolivia.0
+		charismatic.1
 	}
 }
+
+on_yearly_pulse = {
+	
+	random_events = {
+		pastoral_events = {
+			delay = 62
+			
+			30 = charismatic.10 #Pastoral of Youth Friendship
+			30 = charismatic.15	#Pastoral of Youth Lover/Spouse
+			30 = charismatic.20	#Pastoral of the Tithe getting better at handling money
+			30 = charismatic.24 #Pastoral work neglects your realm
+			
+		}
+	}
+}
+
 on_adulthood  = {
 	events = {
 		evangelical.1
+		charismatic.1 #Pastoral of Youth enrollment
 	}
 }
 
 on_character_convert_religion = {
 	events = {
 		evangelical.3
+		charismatic.1
 	}
 }
-
 on_new_holder = {
 	events = {
 		mercenarysoa.1

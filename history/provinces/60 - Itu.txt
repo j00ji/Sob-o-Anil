@@ -6,8 +6,8 @@ title = c_itu
 # Settlements
 max_settlements = 5
 
-b_itu = castle
-b_indaiatuba = city
+b_itu = city
+b_indaiatuba = castle
 b_sao_joao_batista_2 = temple
 #b_salto = castle
 #b_porto_feliz = city

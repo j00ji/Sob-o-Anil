@@ -39,3 +39,13 @@ on_romaria;On Romaria;;;;;;;;;;;;;x
 on_romaria_desc;This character went on a romaria to pay homage to Father Cicero.;;;;;;;;;;;;;x
 legendary;Legendary;;;;;;;;;;;;;x
 legendary_desc;This figure is only known through oral tradition, fragmentary Old World documentation or is simply surrounded by so much myth that no one can separate fact from fiction anymore.;;;;;;;;;;;;;x
+
+charismatic_youth;Pastoral of Youth;;;;;;;;;;;;;x
+charismatic_youth_desc;This character is a part of the Pastoral of Youth, aimed at preparing young adults for later pastoral life.;;;;;;;;;;;;;x
+charismatic_tithe;Pastoral of the Tithe;;;;;;;;;;;;;x
+charismatic_tithe_desc;This character is a part of the Pastoral of the Tithe, aiding the church in the handling of its money as well as encouraging the tithe.;;;;;;;;;;;;;x
+charismatic_cathechesis;Pastoral of Cathechesis;;;;;;;;;;;;;x
+charismatic_cathechesis_desc;This character is a part of the Pastoral of the Cathechesis, preparing his fellow brothers in faith for the receiving of the sacraments as well as studying the bible.;;;;;;;;;;;;;x
+charismatic_family;Pastoral of the Family;;;;;;;;;;;;;x
+charismatic_family_desc;This character is a part of the Pastoral of the Family, focused on improving inner family relations and managing household affairs.;;;;;;;;;;;;;x
+charismatic_martial;Military Pastoral;;;;;;;;;;;;;x

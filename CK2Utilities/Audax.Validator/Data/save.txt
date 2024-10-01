@@ -50,13 +50,13 @@ Save = {
 		Disable = Bloodlines
 		Disable = Buildings
 		Disable = CbTypes
+		Disable = CharacterFile
 		Disable = CombatTactics
 		Disable = JobActions
 		Disable = Cultures
 		Disable = Death
 		Disable = Decisions
 		Disable = Dynasties
-		Disable = Events
 		Disable = Government
 		Disable = Interface
 		Disable = Laws
@@ -79,7 +79,7 @@ Save = {
 		Disable = Wars
 		Disable = Localization
 	}
-	WindowPlacementInfo = "LAAAAAIAAAADAAAA/////////////////////zoBAACQAAAA+gQAAGADAAA="
+	WindowPlacementInfo = "LAAAAAIAAAACAAAAAIP//wCD/////////////zoBAACQAAAA+gQAAGADAAA="
 	ModName = "Sob o Anil"
 	GamePath = "C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings II"
 	ErrorShowLevel = Vanilla

@@ -63,4 +63,32 @@ decisions = {
 			always = no
 		}
 	}
+	change_charismatic_pastoral = {
+		ai = no
+		
+		potential = {
+			religion = charismatic
+			age = 20
+			is_playable = yes
+			
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			} 
+		}
+		
+		allow = {
+			NOT = { has_character_flag = changed_charismatic_branch }
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				character_event = { charismatic.x }
+			}
+			set_character_flag = changed_charismatic_branch
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+	}
 }
