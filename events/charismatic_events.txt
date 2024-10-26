@@ -535,7 +535,9 @@ character_event = {	#seek approval from liege seeker event
 	}
 }
 
-#pastoral of the Tithe
+#################################
+##### PASTORAL OF THE TITHE #####
+#################################
 character_event = { #Becomes better at handling money
 	id = charismatic.20
 	desc = charismatic.20.d
@@ -587,7 +589,7 @@ character_event = { #Becomes better at handling money
 	
 	option = { #acknowledge you're becoming better 
 		name = charismatic.20.o.a
-		if {
+		if = {
 			limit = {
 				has_education_stewardship_trigger = yes
 				NOT = {
@@ -595,7 +597,8 @@ character_event = { #Becomes better at handling money
 				}
 			}
 			upgrade_education_effect = yes
-		} else {
+		} 
+		else = {
 			add_character_modifier = {
 				modifier = pastoral_improved_stewardship
 				duration = -1
@@ -668,7 +671,8 @@ character_event = { #opportunity to embezzle money
 		if = {
 			limit = {	trait = greedy }
 			remove_trait = greedy
-		} else_if {
+		} 
+		else_if = {
 			limit = {	NOT = { trait = charitable }	}
 			random = {
 				chance = 50
@@ -775,7 +779,7 @@ character_event = { #Pastoral work leads to you neglecting your realm
 	name = charismatic.24.o.b
 		remove_trait = charismatic_tithe
 		add_character_modifier = {
-			left_pastoral
+			name = left_pastoral
 			years = 3
 		}
 		capital_scope = {
@@ -911,3 +915,32 @@ character_event = { #court chaplain chastises you for your poor work
 		}
 	}
 }
+
+
+###################################
+##### PASTORAL OF CATHECHESIS #####
+###################################
+
+#character_event = { #Bible study - tries to make sense of a passage
+#	id = charismatic.28
+#	desc = charismatic.28.d
+#	
+#	picture = GFX_evt_monk
+#	
+#	only_playable = yes
+#	only_capable = yes
+#	prisoner = no
+#	min_age = 20
+#	religion = charismatic
+#	trigger = {
+#		charismatic_cathechesis
+#	}
+#	
+#	#weight_multiplier = {
+#	#	days = 1
+#	#	modifier = {
+#	#		factor = 5
+#	#		trait = 
+#	#	}
+#	#}
+#}

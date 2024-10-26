@@ -151,6 +151,8 @@ b_aguada_nova;Aguada Nova;Aguada Nova;Aguada Nova;;Aguada Nova;;;;;;;;;x
 b_aguada_nova_adj;Aguada Novan;;Aguada Nover;;;;;;;;;;;x
 b_aguai;Aguaí;Aguaí;Aguaí;;Aguaí;;;;;;;;;x
 b_aguai_adj;Aguaíian;;aguaíer;;;;;;;;;;;x
+b_aguanil;Aguanil;;;;;;;;;;;;;x
+b_aguanil_adj;Aguanil;;;;;;;;;;;x
 b_aguara_cai;Aguara Cai;Aguara Cai;Aguara Cai;;Aguara Cai;;;;;;;;;x
 b_aguara_cai_adj;Aguara Cian;;Aguara Cer;;;;;;;;;;;x
 b_aguaray;Aguaray;Aguaray;Aguaray;;Aguaray;;;;;;;;;x
@@ -7395,6 +7397,8 @@ b_moctezuma;Moctezuma;Moctezuma;Moctezuma;;Moctezuma;;;;;;;;;x
 b_moctezuma_adj;Moctezuman;;moctezumer;;;;;;;;;;;x
 b_modestino_goncalves;Modestino Gonçalves;Modestino Gonçalves;Modestino Gonçalves;;Modestino Gonçalves;;;;;;;;;x
 b_modestino_goncalves_adj;Modestino Gonçalvesian;;Modestino Gonçalveser;;;;;;;;;;;x
+b_moema;Moeda;Moeda;Moeda;;Moeda;;;;;;;;;x
+b_moema_adj;Moedan;;moeder;;;;;;;;;;;x
 b_moema;Moema;Moema;Moema;;Moema;;;;;;;;;x
 b_moema_adj;Moeman;;moemer;;;;;;;;;;;x
 b_mogi_mirim;Mogi Mirim;Mogi Mirim;Mogi Mirim;;Mogi Mirim;;;;;;;;;x
@@ -8876,6 +8880,8 @@ b_pillaro;Píllaro;Píllaro;Píllaro;;Píllaro;;;;;;;;;x
 b_pillaro_adj;Píllarian;;píllarer;;;;;;;;;;;x
 b_pimampiro;Pimampiro;Pimampiro;Pimampiro;;Pimampiro;;;;;;;;;x
 b_pimampiro_adj;Pimampirian;;pimampirer;;;;;;;;;;;x
+b_pimenta;Pimenta;;;;;;;;;;;;;x
+b_pimenta_adj;Pimentan;;;;;;;;;;;;;x
 b_pimenta_bueno;Pimenta Bueno;Pimenta Bueno;Pimenta Bueno;;Pimenta Bueno;;;;;;;;;x
 b_pimenta_bueno_adj;Pimenta Buenian;;Pimenta Buener;;;;;;;;;;;x
 b_pimenteiras_do_oeste;Pimenteiras do Oeste;Pimenteiras do Oeste;Pimenteiras do Oeste;;Pimenteiras do Oeste;;;;;;;;;x
@@ -13207,3 +13213,64 @@ b_pequi_2_adj;Pequiense;;;;;;;;;;;;;;;;x
 
 b_leandro_ferreira_2;Leandro Ferreira;;;;;;;;;;;;;;;;x
 b_leandro_ferreira_2_adj;Leandro-ferreirense;;;;;;;;;;;;;;;;x
+
+b_carmopolis_de_minas;Carmopólis de Minas
+b_carmopolis_de_minas_adj;Carmopolitano;;;;;;;;;;;;;;;;x
+
+b_bom_sucesso;Bom Sucesso
+b_bom_sucesso_adj;Bom-sucedense;;;;;;;;;;;;;;;;x
+
+b_ibituruna;Ibiporã de Minas
+b_ibituruna_adj;Ibiporano;;;;;;;;;;;;;;;;x
+
+b_passa_tempo;Passa Tempo
+b_passa_tempo_adj;Passatempenense;;;;;;;;;;;;;;;;x
+
+b_carmo_da_mata;Carmo da Mata
+b_carmo_da_mata_adj;Carmense;;;;;;;;;;;;;;;;x
+
+b_piracema;Piracema
+b_piracema_adj;Piracemense;;;;;;;;;;;;;;;;x
+
+b_alfenas;Alfenas
+b_alfenas_adj;Alfenense;;;;;;;;;;;;;;;;x
+
+b_machado;Machado
+b_machado_adj;Machadense;;;;;;;;;;;;;;;;x
+
+b_fama;Fama
+b_fama_adj;Famense;;;;;;;;;;;;;;;;x
+
+b_aeroporto;Aeroporto
+b_aeroporto_adj;Aeroportense;;;;;;;;;;;;;;;;x
+
+b_caiana;Caiana
+b_caiana_adj;Caianense;;;;;;;;;;;;;;;;x
+
+b_serrania;Serrania
+b_serrania_adj;Serraniense;;;;;;;;;;;;;;;;x
+
+b_traituba;Traituba
+b_traituba_adj;Traitubense;;;;;;;;;;;;;;;;x
+
+b_itajuba;Itajubá
+b_itajuba_adj;Itajubanense;;;;;;;;;;;;;;;;x
+
+b_paraisopolis;Paraisópolis
+b_paraisopolis_adj;Paraisopolense;;;;;;;;;;;;;;;;x
+
+b_brazopolis;Braziropolis
+b_brazopolis_adj;Brazopolense;;;;;;;;;;;;;;;;x
+
+b_maria_da_fe;Maria da Fé
+b_maria_da_fe_adj;Mariense;;;;;;;;;;;;;;;;x
+
+b_cristina;Cristina
+b_cristina_adj;Cristinense;;;;;;;;;;;;;;;;x
+
+b_piranguinho;Piranguinho
+b_piranguinho_adj;Piranguinhense;;;;;;;;;;;;;;;;x
+
+b_delfim_moreira;Delfim Moreira
+b_delfim_moreira_adj;Delfinense;;;;;;;;;;;;;;;;x
+

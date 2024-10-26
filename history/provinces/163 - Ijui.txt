@@ -15,7 +15,7 @@ b_ijui = castle
 #b_ajuricaba = castle
 
 # Misc
-culture = gaucho
+culture = gaucho_rg
 religion = celeste
 
 #History

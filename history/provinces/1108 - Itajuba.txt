@@ -1,0 +1,21 @@
+# c_itajuba
+
+# County Title
+title = c_itajuba
+
+# Settlements
+max_settlements = 3
+
+b_itajuba = castle
+b_paraisopolis = temple
+b_brazopolis = city
+# b_maria_da_fe = castle
+# b_cristina = temple
+# b_piranguinho = city
+# b_delfim_moreira = castle
+
+# Misc
+culture = mantiqueiro
+religion = terra_benta
+
+#History

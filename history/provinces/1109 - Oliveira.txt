@@ -1,0 +1,21 @@
+# c_oliveira
+
+# County Title
+title = c_oliveira
+
+# Settlements
+max_settlements = 3
+
+b_oliveira_4 = castle
+#b_carmopolis_de_minas = temple
+#b_bom_sucesso = city
+#b_ibituruna = castle
+#b_passa_tempo = castle
+#b_carmo_da_mata = castle
+#b_piracema = castle
+
+# Misc
+culture = canastro
+religion = terra_benta
+
+#History

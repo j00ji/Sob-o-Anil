@@ -16,6 +16,6 @@ b_jacarezinho = city
 
 # Misc
 culture = paranapanense
-religion = anchietan
+religion = charismatic
 
 #History

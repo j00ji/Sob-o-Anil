@@ -1,0 +1,21 @@
+# c_lavras
+
+# County Title
+title = c_lavras
+
+# Settlements
+max_settlements = 3
+
+b_lavras = castle
+b_nepomuceno = temple
+b_itumirim = city
+#b_luminarias = castle
+#b_carrancas = castle
+#b_ribeirao_vermelho = castle
+#b_itutinga = castle
+
+# Misc
+culture = canastro
+religion = terra_benta
+
+#History

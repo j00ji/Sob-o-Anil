@@ -977,7 +977,7 @@ e_vera_cruz = {
 			color={ 122 164 192 }
 			color2={ 255 255 255 }
 
-			capital = 872 # c_tres_lagoas_2
+			capital = 872 # c_tres_marias
 			
 			c_bom_despacho = { # 881
 				color={ 145 81 74 }
@@ -1003,7 +1003,7 @@ e_vera_cruz = {
 				b_cedro_3 = {}
 				b_sao_joao_3 = {}
 			}
-			c_tres_lagoas_2 = { # 872
+			c_tres_marias = { # 872
 				color={ 0 86 8 }
 				color2={ 255 255 255 }
 				
@@ -1044,7 +1044,7 @@ e_vera_cruz = {
 				b_sapecado = {}
 				b_passa_tempo = {}
 				b_crucilandia = {}
-				b_piracema = {}
+				b_moeda = {}
 			}
 			c_ouro_preto = { # 888
 				color={ 153 77 188 }
@@ -1102,19 +1102,31 @@ e_vera_cruz = {
 				b_jose_valerio = {}
 				b_arcos = {}
 				b_pains = {}
-				b_cristais = {}
+				b_pimenta = {}
 			}
 			c_campo_belo = { # 1100
 				color={ 253 118 226 }
 				color2={ 255 255 255 }
 				
 				b_campo_belo = {}
-				b_oliveira_4 = {}
+				b_aguanil = {}
 				b_cana_verde = {}
 				b_candeias = {}
 				b_perdoes = {}
 				b_santana_do_jacare = {}
+				b_cristais = {}
+			}
+			c_oliveira = { #1109
+				color={ 215 100 192 }
+				color2={ 255 255 255 }
+				
+				b_oliveira_4 = {}
+				b_carmopolis_de_minas = {}
+				b_bom_sucesso = {}
+				b_ibituruna = {}
 				b_passa_tempo = {}
+				b_carmo_da_mata = {}
+				b_piracema = {}
 			}
 		}
 		d_serra_do_cipo = {
@@ -1565,6 +1577,18 @@ e_vera_cruz = {
 				b_antonio_carlos = {}
 				b_alfredo_vasconcelos = {}
 			}
+			c_lavras = { # 1100
+				color = { 111 80 40 }
+				color2={ 255 255 255 }
+				
+				b_lavras = {}
+				b_nepomuceno = {}
+				b_itumirim = {}
+				b_luminarias = {}
+				b_carrancas = {}
+				b_ribeirao_vermelho = {}
+				b_itutinga = {}
+			}
 		}
 		d_aguas_virt = {
 			color={ 93 93 255 }
@@ -1584,6 +1608,18 @@ e_vera_cruz = {
 				b_itanhandu = {}
 				b_serra_do_papagaio = {}
 			}
+			c_alfenas = { #1107
+				color={ 122 114 199 }
+				color2={ 255 255 255 }
+				
+				b_alfenas = {}	
+				b_machado = {}	
+				b_fama = {}	
+				b_aeroporto = {}	
+				b_caiana = {}	
+				b_serrania = {}	
+				b_traituba = {}	
+			}
 			c_pocos_de_caldas = { # 864
 				color={ 45 45 75 }
 				color2={ 255 255 255 }
@@ -1596,6 +1632,19 @@ e_vera_cruz = {
 				b_palmeiral_2 = {}
 				b_serra_dos_lemes = {}
 			}
+			c_itajuba = { # 1108
+				color = { 191 168 40 }
+				color2={ 255 255 255 }
+				
+				b_itajuba = {}
+				b_paraisopolis = {}
+				b_brazopolis = {}
+				b_maria_da_fe = {}
+				b_cristina = {}
+				b_piranguinho = {}
+				b_delfim_moreira = {}
+			}
+			
 			c_pouso_alegre = { # 1091
 				color={ 79 74 129 }
 				color2={ 255 255 255 }

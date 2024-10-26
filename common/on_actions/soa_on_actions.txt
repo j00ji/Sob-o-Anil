@@ -19,6 +19,7 @@ on_yearly_pulse = {
 			30 = charismatic.15	#Pastoral of Youth Lover/Spouse
 			30 = charismatic.20	#Pastoral of the Tithe getting better at handling money
 			30 = charismatic.24 #Pastoral work neglects your realm
+			30 = charismatic.25 #Court Chaplain either congratulates you or chasties you due to your passtoral work
 			
 		}
 	}

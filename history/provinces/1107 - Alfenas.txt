@@ -1,0 +1,21 @@
+# c_alfenas
+
+# County Title
+title = c_alfenas
+
+# Settlements
+max_settlements = 3
+
+b_alfenas = castle
+b_machado = temple	
+#b_fama = castle
+#b_aeroporto = city
+#b_caiana = temple	
+#b_serrania = castle
+#b_traituba = temple
+
+# Misc
+culture = canastro
+religion = terra_benta
+
+#History

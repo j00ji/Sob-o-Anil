@@ -15,7 +15,7 @@ b_santana_da_vargem = temple
 #b_cachos = castle
 
 # Misc
-culture = mantiqueiro
+culture = canastro
 religion = terra_benta
 
 #History

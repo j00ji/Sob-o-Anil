@@ -23,6 +23,8 @@ c_alem_paraiba;Além Paraíba;Além Paraíba;Além Paraíba;;Além Paraíba;;;;;;;;;x
 c_alem_paraiba_adj;Além Paraíban;;Além Paraíber;;;;;;;;;;;x
 c_alenquer;Alenquer;Alenquer;Alenquer;;Alenquer;;;;;;;;;x
 c_alenquer_adj;Alenquerian;;alenquerer;;;;;;;;;;;x
+c_alfenas;Alfenas;;;;;;;;;;;;;x
+c_alfenas_adj;Alfenense;;;;;;;;;;;;;x
 c_almenara;Almenara;Almenara;Almenara;;Almenara;;;;;;;;;x
 c_almenara_adj;Almenaran;;almenarer;;;;;;;;;;;x
 c_almerim;Almerim;Almerim;Almerim;;Almerim;;;;;;;;;x
@@ -835,6 +837,8 @@ c_itaguara;Itaguara;Itaguara;Itaguara;;Itaguara;;;;;;;;;x
 c_itaguara_adj;Itaguaran;;itaguarer;;;;;;;;;;;x
 c_itajai;Itajaí;Itajaí;Itajaí;;Itajaí;;;;;;;;;x
 c_itajai_adj;Itajaíian;;itajaíer;;;;;;;;;;;x
+c_itajuba;Itajubá;;;;;;;;;;;x
+c_itajuba_adj;Itajuban;;;;;;;;;;;x
 c_itamaraca;Itamaracá;Itamaracá;Itamaracá;;Itamaracá;;;;;;;;;x
 c_itamaraca_adj;Itamaracáian;;itamaracáer;;;;;;;;;;;x
 c_itaquara;Itaquara;;;;;;;;;;;;x
@@ -981,6 +985,7 @@ c_las_flores;Las Flores;Las Flores;Las Flores;;Las Flores;;;;;;;;;x
 c_las_flores_adj;Las Floresian;;Las Floreser;;;;;;;;;;;x
 c_las_perlas;Las Perlas;Las Perlas;Las Perlas;;Las Perlas;;;;;;;;;x
 c_las_perlas_adj;Las Perlasian;;Las Perlaser;;;;;;;;;;;x
+c_lavras;Lavras;;;;;;;;;;;;;x
 c_leoncio_prado;Leoncio Prado;Leoncio Prado;Leoncio Prado;;Leoncio Prado;;;;;;;;;x
 c_leoncio_prado_adj;Leoncio Pradian;;Leoncio Prader;;;;;;;;;;;x
 c_leopoldina;Leopoldina;Leopoldina;Leopoldina;;Leopoldina;;;;;;;;;x
@@ -1173,6 +1178,8 @@ c_obligado;Obligado;Obligado;Obligado;;Obligado;;;;;;;;;x
 c_obligado_adj;Obligadian;;obligader;;;;;;;;;;;x
 c_oiapoque;Oiapoque;Oiapoque;Oiapoque;;Oiapoque;;;;;;;;;x
 c_oiapoque_adj;Oiapoquean;;oiapoqer;;;;;;;;;;;x
+c_oliveira;Oliveira;;;;;;;;;;;;;x
+c_oliveira_adj;Oliveiran;;;;;;;;;;;;;x
 c_olivia;Olivia;Olivia;Olivia;;Olivia;;;;;;;;;x
 c_olivia_adj;Olivian;;oliver;;;;;;;;;;;x
 c_orellana;Orellana;Orellana;Orellana;;Orellana;;;;;;;;;x
@@ -1725,8 +1732,8 @@ c_tres_cerros;Tres Cerros;Tres Cerros;Tres Cerros;;Tres Cerros;;;;;;;;;x
 c_tres_cerros_adj;Tres Cerrosian;;Tres Cerroser;;;;;;;;;;;x
 c_tres_lagoas;Três Lagoas;Três Lagoas;Três Lagoas;;Três Lagoas;;;;;;;;;x
 c_tres_lagoas_adj;Três Lagoasian;;Três Lagoaser;;;;;;;;;;;x
-c_tres_lagoas_2;Três Lagoas;Três Lagoas;Três Lagoas;;Três Lagoas;;;;;;;;;x
-c_tres_lagoas_2_adj;Três Lagoasian;;Três Lagoaser;;;;;;;;;;;x
+c_tres_marias;Três Marias;Três Marias;Três Marias;;Três Marias;;;;;;;;;x
+c_tres_marias_adj;Trê-mariense;;Trê-mariense;;;;;;;;;;;x
 c_tres_rios;Três Rios;Três Rios;Três Rios;;Três Rios;;;;;;;;;x
 c_tres_rios_adj;Três Riosian;;Três Rioser;;;;;;;;;;;x
 c_trujillo;Trujillo;Trujillo;Trujillo;;Trujillo;;;;;;;;;x

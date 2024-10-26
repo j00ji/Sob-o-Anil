@@ -6,13 +6,13 @@ title = c_congonhas_do_norte
 # Settlements
 max_settlements = 2
 
-b_baragem_da_fumaca = castle
-#b_tombadouro = city
-#b_fechados = temple
-#b_costa_sena = castle
-#b_santa_cruz_dos_alves = city
-#b_valo_fundo = temple
-#b_nossa_senhora_do_rosario = castle
+b_sete_lagoas = castle
+#b_paraopeba_3 = {}
+#b_curvelo = {}
+#b_capim_branco = {}
+#b_matozinhos = {}
+#b_funilandia = {}
+#b_prudente_de_morais = {}
 
 # Misc
 culture = auriferro
