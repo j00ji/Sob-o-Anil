@@ -4,59 +4,59 @@
 
 b_lombardi_stucchi = {
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_de_andrade = {
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_cubas = {
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_stucchi = { 
 	culture = paulistano 
-	religion = apostolic
+	religion = charismatic
 }
 b_stucchi_vicentine = {
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_lombardi = {
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_lombardi_vicentine = {
 	culture = paulistano 
-	religion = apostolic
+	religion = charismatic
 }
 b_silva_prado = { 
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_de_abreu = {
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_de_abreu_bertiogan = { 
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_graeff = { 
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_schertz = { 
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_de_camargo = { 
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 b_schimidt = {
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 
 ## Florianopolis
@@ -142,30 +142,30 @@ b_ferreira = {
 
 ## São Paulo
 
-# b_matarazzo = {
-	# culture = paulistano
-	# religion = charismatic
-# }
+b_matarazzo = {
+	culture = paulistano
+	religion = charismatic
+}
 
-# b_watanabe = {
-	# culture = paulistano
-	# religion = charismatic
-# }
+b_watanabe = {
+	culture = paulistano
+	religion = charismatic
+}
 
-# b_crespi = {
-	# culture = paulistano
-	# religion = charismatic
-# }
+b_crespi = {
+	culture = paulistano
+	religion = charismatic
+}
 
-# b_jafet = {
-	# culture = paulistano
-	# religion = charismatic
-# }
+b_jafet = {
+	culture = paulistano
+	religion = charismatic
+}
 
-# b_anhanguera = {
-	# culture = paulistano
-	# religion = charismatic
-# }
+b_anhanguera = {
+	culture = paulistano
+	religion = charismatic
+}
 
 ## Uapo Açu (São Luís)
 

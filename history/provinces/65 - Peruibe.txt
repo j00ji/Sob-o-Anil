@@ -1,13 +1,13 @@
-# c_peruibe
+# c_cananeia
 
 # County Title
-title = c_peruibe
+title = c_cananeia
 
 # Settlements
 max_settlements = 3
 
 b_piacaguera = castle
-b_abarebebe_2 = temple
+b_ilha_do_cardoso = temple
 #b_pedro_de_toledo = temple
 #b_ana_dias = castle
 #b_vila_romar = city

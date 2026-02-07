@@ -5,14 +5,14 @@
 160001 = {
 	name="Virtahevot"
 	culture=suomi
-	religion=apostolic
+	religion=charismatic
 	can_appear=no
 	used_for_random=no
 }
 160002 = {
 	name="Sukupuoliverkko"
 	culture=suomi
-	religion=apostolic
+	religion=charismatic
 	can_appear=no
 	used_for_random=no
 }

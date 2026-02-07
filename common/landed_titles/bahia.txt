@@ -23,7 +23,7 @@ e_bahia = {
 				color={ 131 255 127 }
 				color2={ 255 255 255 }
 				
-				holy_site = apostolic
+				holy_site = charismatic
 				holy_site = charismatic
 				holy_site = camdomble
 				

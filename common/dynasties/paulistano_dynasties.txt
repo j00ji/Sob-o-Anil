@@ -4,7 +4,7 @@
 55001 = {
 	name = "Cantarini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -23,7 +23,7 @@
 55101 = {
 	name = "Cantarini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -42,7 +42,7 @@
 55003 = {
 	name = "Matarazzo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -61,7 +61,7 @@
 55004 = { #Geremia Lunardelli, 5th Coffee King Ref
 	name = "Lunardelli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -80,7 +80,7 @@
 55005 = { #Francisco Schmidt, 4th Coffee King Ref
 	name = "Schmidt"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -99,7 +99,7 @@
 55006 = { 
 	name = "Lombardi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -118,7 +118,7 @@
 55007 = {
 	name = "Jafet"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -137,7 +137,7 @@
 55008 = {
 	name = "Dumont"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -156,7 +156,7 @@
 55009 = {
 	name = "Stucchi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -175,7 +175,7 @@
 55010 = { #Quatrocentão
 	name = "Ramalho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -194,7 +194,7 @@
 55011 = { #Quatrocentão
 	name = "Raposo Tavares"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -213,7 +213,7 @@
 55012 = { #Quatrocentão
 	name = "Anhanguera"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -232,7 +232,7 @@
 55013 = { #Quatrocentão
 	name = "Cubas"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -251,7 +251,7 @@
 55014 = { #Quatrocentão
 	name = "Preto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -259,7 +259,7 @@
 55015 = { #Quatrocentão
 	name = "de Andrade"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -267,7 +267,7 @@
 55016 = { #Quatrocentão 
 	name = "de Barros"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -275,7 +275,7 @@
 55017 = { #Quatrocentão
 	name = "Jorge Velho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -294,7 +294,7 @@
 55018 = { #Quatrocentão
 	name = "de Camargo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -302,7 +302,7 @@
 55019 = { #Quatrocentão
 	name = "Pires Pimentel"
 	culture = paulistano 
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -310,7 +310,7 @@
 55020 = { #Quatrocentão
 	name = "Silva Prado"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -318,7 +318,7 @@
 55021 = { #Quatrocentão
 	name = "de Abreu"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -337,7 +337,7 @@
 55022 = {
 	name = "Chedid"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -356,7 +356,7 @@
 55023 = { 
 	name = "Schertz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -364,7 +364,7 @@
 55025 = { #Quatrocentão
 	name = "Leme"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -383,7 +383,7 @@
 55026 = {
 	name = "Watanabe"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -402,7 +402,7 @@
 55027 = {
 	name = "Yamashita"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -410,7 +410,7 @@
 55028 = { #Quatrocentão
 	name = "de Campos Sales"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -418,7 +418,7 @@
 55029 = { 
 	name = "Alvarenga"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -426,7 +426,7 @@
 55030 = {
 	name = "Siqueira Bruno"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -434,7 +434,7 @@
 55031 = {
 	name = "Crespi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -453,7 +453,7 @@
 55032 = {
 	name = "Teles"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -461,7 +461,7 @@
 55033 = { #Quatrocentão
 	name = "de Oliveira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -469,7 +469,7 @@
 55034 = {
 	name = "Brunholi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -477,7 +477,7 @@
 55035 = { #Quatrocentão
 	name = "Pires Pimentel"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -485,7 +485,7 @@
 55036 = {
 	name = "Chedid"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -757,7 +757,7 @@
 55052 = { 
 	name = "Arantes"
 	culture = caicara
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -776,7 +776,7 @@
 55053 = { 
 	name = "Magno"
 	culture = caicara
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -795,7 +795,7 @@
 55054 = { 
 	name = "de Melo"
 	culture = mantiqueiro
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -814,7 +814,7 @@
 55055 = {
 	name = "Jalles"
 	culture = caipira
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -833,7 +833,7 @@
 55056 = {
 	name = "Lara"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	#add COA later
@@ -848,352 +848,352 @@
 55500 = {
 	name = "Abe"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55501 = {
 	name = "Albuquerque"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55502 = {
 	name = "Alckmin"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55503 = {
 	name = "Aldrovandi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55504 = {
 	name = "Alessi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55505 = {
 	name = "Alexis"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55506 = {
 	name = "Allegretti"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55507 = {
 	name = "Almeida"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55508 = {
 	name = "Álvares"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55509 = {
 	name = "Alves"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55510 = {
 	name = "Alves Pinto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55511 = {
 	name = "Alvim"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55512 = {
 	name = "Amaral"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55513 = {
 	name = "Amarante"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55514 = {
 	name = "Amary"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55515 = {
 	name = "Amazonas"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55516 = {
 	name = "Andaló"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55517 = {
 	name = "Andrade"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55518 = {
 	name = "Ansaldo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55519 = {
 	name = "Antonela"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55520 = {
 	name = "Antunes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55521 = {
 	name = "Aparecido"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55522 = {
 	name = "Apolinário"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55523 = {
 	name = "Araújo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55524 = {
 	name = "Arruda"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55525 = {
 	name = "Artacho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55526 = {
 	name = "Artigas"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55527 = {
 	name = "Artures"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55528 = {
 	name = "Ascar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55529 = {
 	name = "Ashcar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55530 = {
 	name = "Assuf"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55531 = {
 	name = "Auada"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55532 = {
 	name = "Augustim"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55533 = {
 	name = "Avallone"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55534 = {
 	name = "Ayala"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55535 = {
 	name = "Azevedo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55536 = {
 	name = "Baccarin"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55537 = {
 	name = "Baldochi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55538 = {
 	name = "Barbiere"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55539 = {
 	name = "Barbieri"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55540 = {
 	name = "Barbosa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55541 = {
 	name = "Barnabé"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55542 = {
 	name = "Barreto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55543 = {
 	name = "Baruselli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55544 = {
 	name = "Bassitt"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55545 = {
 	name = "Bastos"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55546 = {
 	name = "Batista"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55547 = {
 	name = "Benassi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55548 = {
 	name = "Beni"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55549 = {
 	name = "Benito"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55550 = {
 	name = "Beraldo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55551 = {
 	name = "Bérgamo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55552 = {
 	name = "Bernardes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55553 = {
 	name = "Bernardi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55554 = {
 	name = "Bertola"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55555 = {
 	name = "Bettio"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55556 = {
 	name = "Bezerra"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55557 = {
 	name = "Bicudo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55558 = {
 	name = "Bierrenbach"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55559 = {
 	name = "Bittencourt"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55560 = {
 	name = "Bognar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55561 = {
 	name = "Bom"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55562 = {
 	name = "Borges"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55563 = {
 	name = "Borghi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55564 = {
 	name = "Bosco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55565 = {
 	name = "Botelho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55566 = {
 	name = "Botta"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55567 = {
 	name = "Braga"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55568 = {
 	name = "Bragato"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56072 = {
 	name = "Bragança"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -1211,1947 +1211,1947 @@
 55569 = {
 	name = "Braido"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55570 = {
 	name = "Branco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55571 = {
 	name = "Brandão"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55572 = {
 	name = "Bravo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55573 = {
 	name = "Breda"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55574 = {
 	name = "Broca"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55575 = {
 	name = "Buarque"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55576 = {
 	name = "Bueno"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55577 = {
 	name = "Bustamante"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55578 = {
 	name = "Buzato"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55579 = {
 	name = "Cabral"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55580 = {
 	name = "Cadorniga"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55581 = {
 	name = "Caires"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55582 = {
 	name = "Calazans"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55583 = {
 	name = "Caldeira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55584 = {
 	name = "Caldini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55585 = {
 	name = "Calil"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55586 = {
 	name = "Calixto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55587 = {
 	name = "Callegari"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55588 = {
 	name = "Calvo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55589 = {
 	name = "Camargo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55590 = {
 	name = "Camarinha"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55591 = {
 	name = "Campanari"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55592 = {
 	name = "Campanella"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55593 = {
 	name = "Caramez"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55594 = {
 	name = "Cardoso"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55595 = {
 	name = "Carlucci"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55596 = {
 	name = "Carneiro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55597 = {
 	name = "Carolo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55598 = {
 	name = "Cartola"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55599 = {
 	name = "Carvalhães"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55600 = {
 	name = "Carvalho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55601 = {
 	name = "Casanova"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55602 = {
 	name = "Castanho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55603 = {
 	name = "Castellano"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55604 = {
 	name = "Castelo Branco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55605 = {
 	name = "Castillon"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55606 = {
 	name = "Cembranelli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55607 = {
 	name = "Ceravolo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55608 = {
 	name = "Cerchiari"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55609 = {
 	name = "Cerqueira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55610 = {
 	name = "Cervalo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55611 = {
 	name = "Cesare"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55612 = {
 	name = "Chaib"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55613 = {
 	name = "Chaves"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55614 = {
 	name = "Chedid"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55615 = {
 	name = "Chicarino"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55616 = {
 	name = "Chinaglia"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55617 = {
 	name = "Chubaci"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55618 = {
 	name = "Ciampolini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55619 = {
 	name = "Cicote"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55620 = {
 	name = "Cinti"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55621 = {
 	name = "Cintra"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55622 = {
 	name = "Codo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55623 = {
 	name = "Coelho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55624 = {
 	name = "Coimbra"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55625 = {
 	name = "Condeixa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55626 = {
 	name = "Cordeiro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55627 = {
 	name = "Corrêa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55628 = {
 	name = "Correia"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55629 = {
 	name = "Corte"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55630 = {
 	name = "Cortes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55631 = {
 	name = "Costa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55632 = {
 	name = "Coury"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55633 = {
 	name = "Coutinho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55634 = {
 	name = "Crespo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55635 = {
 	name = "Cruz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55636 = {
 	name = "Cunha"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55637 = {
 	name = "Cunha Lima"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55638 = {
 	name = "Curiati"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55639 = {
 	name = "Cury"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55640 = {
 	name = "da Costa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55641 = {
 	name = "da Costa e Silva"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55642 = {
 	name = "da Cruz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55643 = {
 	name = "da Cunha"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55644 = {
 	name = "da Mota"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55645 = {
 	name = "da Paulina"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55646 = {
 	name = "da Paz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55647 = {
 	name = "da Rocha"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55648 = {
 	name = "da Silva"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55649 = {
 	name = "Dabus"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55650 = {
 	name = "Daige"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55651 = {
 	name = "Dalla Pria"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55652 = {
 	name = "Dallari"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55653 = {
 	name = "de Abreu"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55654 = {
 	name = "de Almeida"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55655 = {
 	name = "de Araújo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55656 = {
 	name = "de Assis"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55657 = {
 	name = "de Ávila"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55658 = {
 	name = "de Barros"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55659 = {
 	name = "de Brito"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55660 = {
 	name = "de Camargo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55661 = {
 	name = "de Campos"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55662 = {
 	name = "de Carvalho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55663 = {
 	name = "de Castro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55664 = {
 	name = "de Faria"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55665 = {
 	name = "de Faria Lima"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55666 = {
 	name = "de Filippi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55667 = {
 	name = "de Freitas"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55668 = {
 	name = "de Lima"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 #55669 = {
 #	name = "de Macedo"
 #	culture = paulistano
-#	religion = apostolic
+#	religion = charismatic
 #}
 55670 = {
 	name = "de Matos"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 #55671 = {
 #	name = "de Melo"
 #	culture = paulistano
-#	religion = apostolic
+#	religion = charismatic
 #}
 55672 = {
 	name = "de Moraes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55673 = {
 	name = "de Moura"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55674 = {
 	name = "de Nóbrega"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55675 = {
 	name = "de Oliveira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55676 = {
 	name = "de Paula"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55677 = {
 	name = "de Queiroz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55678 = {
 	name = "de Souza"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55679 = {
 	name = "de Toledo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55680 = {
 	name = "de Velasco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55681 = {
 	name = "Dejtiar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55682 = {
 	name = "Delmont"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55683 = {
 	name = "Delta"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55684 = {
 	name = "Demarchi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55685 = {
 	name = "Di Ciero"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55686 = {
 	name = "Dias"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55687 = {
 	name = "Diniz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55688 = {
 	name = "Dirceu"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55689 = {
 	name = "do Amaral"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55690 = {
 	name = "do Pulo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55691 = {
 	name = "doenha"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55692 = {
 	name = "Domingues"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55693 = {
 	name = "Donato"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55694 = {
 	name = "dos Reis"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55695 = {
 	name = "dos Santos"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55696 = {
 	name = "Duarte"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55697 = {
 	name = "Eduardo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55698 = {
 	name = "Egreja"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55699 = {
 	name = "Engler"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55700 = {
 	name = "Erundina"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55701 = {
 	name = "Escobar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55702 = {
 	name = "Espíndola"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55703 = {
 	name = "Eumene"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55704 = {
 	name = "Euritisses"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55705 = {
 	name = "Fabiano"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55706 = {
 	name = "Falcão"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55707 = {
 	name = "Falconi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55708 = {
 	name = "Falseti"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55709 = {
 	name = "Fanganielo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55710 = {
 	name = "Faraco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55711 = {
 	name = "Farhat"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55712 = {
 	name = "Feijó"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55713 = {
 	name = "Feldman"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55714 = {
 	name = "Feliciano"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55715 = {
 	name = "Fernandes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55716 = {
 	name = "Ferrarini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55717 = {
 	name = "Ferraz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55718 = {
 	name = "Ferreira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55719 = {
 	name = "Figueira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55720 = {
 	name = "Filho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55721 = {
 	name = "Flaquer"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55722 = {
 	name = "Flaviano"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55723 = {
 	name = "Florence"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55724 = {
 	name = "Fonseca"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55725 = {
 	name = "Formiga"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55726 = {
 	name = "Fossen"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55727 = {
 	name = "Fraga"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55728 = {
 	name = "Francisco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55729 = {
 	name = "Franco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55730 = {
 	name = "Frateschi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55731 = {
 	name = "Freire"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55732 = {
 	name = "Freua"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55733 = {
 	name = "Furlan"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55734 = {
 	name = "Gadia"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55735 = {
 	name = "Galante"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55736 = {
 	name = "Gale"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55737 = {
 	name = "Galvão"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55738 = {
 	name = "Garcia"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55739 = {
 	name = "Garib"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55740 = {
 	name = "Gasparini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55741 = {
 	name = "Gebara"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55742 = {
 	name = "Gentil"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55743 = {
 	name = "Geraldo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55744 = {
 	name = "Gesuen"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55745 = {
 	name = "Giachini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55746 = {
 	name = "Gianetti"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55747 = {
 	name = "Giglio"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55748 = {
 	name = "Gimenez"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55749 = {
 	name = "Giuli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55750 = {
 	name = "Godinho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55751 = {
 	name = "Goldman"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55752 = {
 	name = "Gomes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55753 = {
 	name = "Gonçalves"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55754 = {
 	name = "Gondim"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55755 = {
 	name = "Gonzaga"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55756 = {
 	name = "Gonzalez"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55757 = {
 	name = "Gosuen"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55758 = {
 	name = "Gouvêa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55759 = {
 	name = "Gouveia"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55760 = {
 	name = "Granja"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55761 = {
 	name = "Gregori"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55762 = {
 	name = "Grillo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55763 = {
 	name = "Guerra"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55764 = {
 	name = "Guglielmi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55765 = {
 	name = "Guimarães"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55766 = {
 	name = "Gurgel"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55767 = {
 	name = "Hadade"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55768 = {
 	name = "Haddad"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55769 = {
 	name = "Hama"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55770 = {
 	name = "Hamam"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55771 = {
 	name = "Hanashiro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55772 = {
 	name = "Helu"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55773 = {
 	name = "Hiar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55774 = {
 	name = "Hirata"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55775 = {
 	name = "Hornos"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55776 = {
 	name = "Hourneaux"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55777 = {
 	name = "Iazetti"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55778 = {
 	name = "Iervolino"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55779 = {
 	name = "Iha"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55780 = {
 	name = "Izar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55781 = {
 	name = "Jácome"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55782 = {
 	name = "Jardim"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55783 = {
 	name = "Jazadji"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55784 = {
 	name = "Jordi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55785 = {
 	name = "Julianelli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55786 = {
 	name = "Julião"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55787 = {
 	name = "Júlio"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55788 = {
 	name = "Júnior"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55789 = {
 	name = "Junqueira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55790 = {
 	name = "Jurca"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55791 = {
 	name = "Justo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55792 = {
 	name = "Kara"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55793 = {
 	name = "Kassab"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55794 = {
 	name = "Kefer"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55795 = {
 	name = "Keffer"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55796 = {
 	name = "Kenan"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55797 = {
 	name = "Kerlakian"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55798 = {
 	name = "Keutenedjian"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55799 = {
 	name = "Khuriyeh"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55800 = {
 	name = "Kiono"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55801 = {
 	name = "Kobayashi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55802 = {
 	name = "Kuriki"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55803 = {
 	name = "Kyono"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55804 = {
 	name = "Lammoglia"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55805 = {
 	name = "Lapa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 # 55806 = {
 	# name = "Lara"
 	# culture = paulistano
-	# religion = apostolic
+	# religion = charismatic
 # }
 55807 = {
 	name = "Lazareno"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55808 = {
 	name = "Leandrini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55809 = {
 	name = "Leão"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55810 = {
 	name = "Leça"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55811 = {
 	name = "Leite"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55812 = {
 	name = "Leiva"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55813 = {
 	name = "Leme"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55814 = {
 	name = "Lepera"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55815 = {
 	name = "Liarte"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55816 = {
 	name = "Lima"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55817 = {
 	name = "Lino"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55818 = {
 	name = "Lins"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55819 = {
 	name = "Lipnik"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55820 = {
 	name = "Lobo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55821 = {
 	name = "Lopes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55822 = {
 	name = "Lopes Ferraz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55823 = {
 	name = "Lot"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55824 = {
 	name = "Lucchesi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55825 = {
 	name = "Luciano"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55826 = {
 	name = "Luis"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55827 = {
 	name = "Luiz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55828 = {
 	name = "Luizinho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55829 = {
 	name = "Lune"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55830 = {
 	name = "Lurtz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 #55831 = {
 #	name = "Macedo"
 #	culture = paulistano
-#	religion = apostolic
+#	religion = charismatic
 #}
 55832 = {
 	name = "Machado"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55833 = {
 	name = "Macris"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55834 = {
 	name = "Maida"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55835 = {
 	name = "Maltoni"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55836 = {
 	name = "Mantelli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55837 = {
 	name = "Marcelinni"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55838 = {
 	name = "Marcondes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55839 = {
 	name = "Margato"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55840 = {
 	name = "Maria"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55841 = {
 	name = "Marin"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55842 = {
 	name = "Marinho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55843 = {
 	name = "Marins"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55844 = {
 	name = "Martin"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55845 = {
 	name = "Martini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55846 = {
 	name = "Martins"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55847 = {
 	name = "Massei"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55848 = {
 	name = "Massih"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55849 = {
 	name = "Mastrocola"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55850 = {
 	name = "Matarazzo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55851 = {
 	name = "Matina"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55852 = {
 	name = "Matos"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55853 = {
 	name = "Mattos"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55854 = {
 	name = "Maurício"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55855 = {
 	name = "Mauro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55856 = {
 	name = "Máximo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55857 = {
 	name = "Mayer"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55858 = {
 	name = "Mazzo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55859 = {
 	name = "Mendes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55860 = {
 	name = "Mendonça"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55861 = {
 	name = "Meneghini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55862 = {
 	name = "Menezes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55863 = {
 	name = "Menk"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55864 = {
 	name = "Mesquita"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55865 = {
 	name = "Messias"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55866 = {
 	name = "Meves"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55867 = {
 	name = "Miglori"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55868 = {
 	name = "Milliet"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55869 = {
 	name = "Miraglia"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55870 = {
 	name = "Monteiro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55871 = {
 	name = "Monti"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55872 = {
 	name = "Montoro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55873 = {
 	name = "Morais"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55874 = {
 	name = "Moreira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55875 = {
 	name = "Mori"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55876 = {
 	name = "Morimoto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55877 = {
 	name = "Morinaga"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55878 = {
 	name = "Mota"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55879 = {
 	name = "Mudalen"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55880 = {
 	name = "Munhoz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55881 = {
 	name = "Murad"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55882 = {
 	name = "Muraro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55883 = {
 	name = "Najar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55884 = {
 	name = "Nakandakare"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55885 = {
 	name = "Namo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55886 = {
 	name = "Nascimento"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55887 = {
 	name = "Nasser"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55888 = {
 	name = "Negrini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55889 = {
 	name = "Neto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55890 = {
 	name = "Neves"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55891 = {
 	name = "Nicoleli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55892 = {
 	name = "Noda"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55893 = {
 	name = "Nogueira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55894 = {
 	name = "Nomura"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55895 = {
 	name = "Novaes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55896 = {
 	name = "Novais"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55897 = {
 	name = "Nunes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55898 = {
 	name = "Oliveira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55899 = {
 	name = "Ornellas"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55900 = {
 	name = "Ortiz"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55901 = {
 	name = "Osório"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55902 = {
 	name = "Ozi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55903 = {
 	name = "Pacheco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55904 = {
 	name = "Paes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55905 = {
 	name = "Paixão"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55906 = {
 	name = "Palácios"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55907 = {
 	name = "Palocci"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55908 = {
 	name = "Pannunzio"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55909 = {
 	name = "Pardi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55910 = {
 	name = "Pascoal"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55911 = {
 	name = "Passarelli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55912 = {
 	name = "Passoni"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55913 = {
 	name = "Pazzianotto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55914 = {
 	name = "Pedroso"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55915 = {
 	name = "Pena"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55916 = {
 	name = "Pereira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55917 = {
 	name = "Peres"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55918 = {
 	name = "Perri"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55919 = {
 	name = "Perrone"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55920 = {
 	name = "Pescarini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55921 = {
 	name = "Petrilli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55922 = {
 	name = "Pieroni"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55923 = {
 	name = "Pietá"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55924 = {
 	name = "Pinheiro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55925 = {
 	name = "Pinto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55926 = {
 	name = "Pires"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55927 = {
 	name = "Piteri"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55928 = {
 	name = "Piunti"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55929 = {
 	name = "Pivatto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55930 = {
 	name = "Piza"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55931 = {
 	name = "Planet"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55932 = {
 	name = "Poli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55933 = {
 	name = "Pompeu"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55934 = {
 	name = "Porchat"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55935 = {
 	name = "Port"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55936 = {
 	name = "Porto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55937 = {
 	name = "Pozzi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55938 = {
 	name = "Praça"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55939 = {
 	name = "Prado"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55940 = {
 	name = "Prandi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55941 = {
 	name = "Pria"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55942 = {
 	name = "Purini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55943 = {
 	name = "Quadros"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55944 = {
 	name = "Quércia"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55945 = {
 	name = "Rahal"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55946 = {
 	name = "Ramalho"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55947 = {
 	name = "Ramos"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55948 = {
 	name = "Ranieri"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55949 = {
 	name = "Razuk"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55950 = {
 	name = "Real"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55951 = {
 	name = "Reis"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55952 = {
 	name = "Resegue"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55953 = {
 	name = "Rezeck"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55954 = {
 	name = "Rezende"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55955 = {
 	name = "Rezk"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55956 = {
 	name = "Ribas"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55957 = {
 	name = "Ribeiro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -3170,287 +3170,287 @@
 55958 = {
 	name = "Ricchetti"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55959 = {
 	name = "Rocha"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55960 = {
 	name = "Rodrigues"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55961 = {
 	name = "Rolim"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55962 = {
 	name = "Rollemberg"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55963 = {
 	name = "Romano"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55964 = {
 	name = "Romeiro"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55965 = {
 	name = "Romeu"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55966 = {
 	name = "Rosa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55967 = {
 	name = "Rosalindo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55968 = {
 	name = "Rosário"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55969 = {
 	name = "Rosas"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55970 = {
 	name = "Roscitti"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55971 = {
 	name = "Rossi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55972 = {
 	name = "Rubez"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55973 = {
 	name = "Sabiá"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55974 = {
 	name = "Sabino"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55975 = {
 	name = "Saion"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55976 = {
 	name = "Sala"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55977 = {
 	name = "Sales"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55978 = {
 	name = "Salgado"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55979 = {
 	name = "Salim"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55980 = {
 	name = "Salomé"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55981 = {
 	name = "Salvagni"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55982 = {
 	name = "Sampaio"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55983 = {
 	name = "Sanches"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55984 = {
 	name = "Sandoval"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55985 = {
 	name = "Santana"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55986 = {
 	name = "Santos"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55987 = {
 	name = "Sapienza"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55988 = {
 	name = "Sayon"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55989 = {
 	name = "Sbeghen"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55990 = {
 	name = "Scalamandre"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55991 = {
 	name = "Schwinden"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55992 = {
 	name = "Scopel"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55993 = {
 	name = "Secco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55994 = {
 	name = "Seco"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55995 = {
 	name = "Sedeh"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55996 = {
 	name = "Segura"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55997 = {
 	name = "Serpa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55998 = {
 	name = "Serrano"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 55999 = {
 	name = "Severo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56000 = {
 	name = "Shimomoto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56001 = {
 	name = "Sidney"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56002 = {
 	name = "Signorelli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56003 = {
 	name = "Silva"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56004 = {
 	name = "Silveira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56005 = {
 	name = "Simão"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56006 = {
 	name = "Simionatto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56007 = {
 	name = "Simões"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56008 = {
 	name = "Siqueira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56009 = {
 	name = "Siraque"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56010 = {
 	name = "Soares"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56011 = {
 	name = "Sodré"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56012 = {
 	name = "Sogayar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56013 = {
 	name = "Soltur"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56014 = { #Mauricio de Sousa
 	name = "de Sousa"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -3468,285 +3468,285 @@
 56015 = {
 	name = "Stangarlini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56016 = {
 	name = "Storópoli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56017 = {
 	name = "Suplicy"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56018 = {
 	name = "Taibo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56019 = {
 	name = "Taler"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56020 = {
 	name = "Tamura"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56021 = {
 	name = "Tanauí"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56022 = {
 	name = "Tank"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56023 = {
 	name = "Tarabay"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56024 = {
 	name = "Tardelli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56025 = {
 	name = "Tarquínio"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56026 = {
 	name = "Tasso"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56027 = {
 	name = "Tatto"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56028 = {
 	name = "Tavares"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56029 = {
 	name = "Teixeira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56030 = {
 	name = "Teles"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56031 = {
 	name = "Thomé"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56032 = {
 	name = "Thomeu"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56033 = {
 	name = "Tibiriçá"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56034 = {
 	name = "Tomazzi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56035 = {
 	name = "Tommasini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56036 = {
 	name = "Toni"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56037 = {
 	name = "Tonin"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56038 = {
 	name = "Torloni"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56039 = {
 	name = "Tortorello"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56040 = {
 	name = "Toscano"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56041 = {
 	name = "Trevisan"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56042 = {
 	name = "Trigais"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56043 = {
 	name = "Trigo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56044 = {
 	name = "Trindade"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56045 = {
 	name = "Tripoli"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56046 = {
 	name = "Utiyama"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56047 = {
 	name = "Valadão"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56048 = {
 	name = "Valente"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56049 = {
 	name = "Varginha"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56050 = {
 	name = "Vetorazzo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56051 = {
 	name = "Viana"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56052 = {
 	name = "Vidal"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56053 = {
 	name = "Vidigal"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56054 = {
 	name = "Vieira"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56055 = {
 	name = "Vilar"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56056 = {
 	name = "Vinholi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56057 = {
 	name = "Vitor"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56058 = {
 	name = "Volpi"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56059 = {
 	name = "Yazbek"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56060 = {
 	name = "Yunes"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56061 = {
 	name = "Zampol"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56062 = {
 	name = "Zancaner"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56063 = {
 	name = "Zanini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56064 = {
 	name = "Zarattini"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56065 = {
 	name = "Zekcer"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56066 = {
 	name = "Zico"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56067 = {
 	name = "Zollner"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56068 = {
 	name = "Zomignani"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56069 = {
 	name = "Zumbano"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56070 = {
 	name = "Zuppo"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }
 56071 = {
 	name = "Zveibil"
 	culture = paulistano
-	religion = apostolic
+	religion = charismatic
 }

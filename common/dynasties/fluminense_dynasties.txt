@@ -484,7 +484,7 @@
 40042 = {
 	name = "Sabugosa"
 	culture = mantiqueiro
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -502,7 +502,7 @@
 40043 = {
 	name = "Stickel"
 	culture = mantiqueiro
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {

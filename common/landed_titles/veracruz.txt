@@ -2263,7 +2263,7 @@ e_vera_cruz = {
 				
 				b_ponta_da_praia = {}
 				b_guaruja = {}
-				b_sao_bento = {}
+				b_sao_vicente = {}
 				b_enguaguacu = {}
 				b_cubatao = {}
 				b_forte_augusto = {}
@@ -2305,7 +2305,7 @@ e_vera_cruz = {
 				b_namoa = {}
 				b_pollastrini = {}
 			}
-			c_sao_vicente = { # 48
+			c_sao_sebastiao = { # 48
 				color={ 196 143 127 }
 				color2={ 255 255 255 }
 				
@@ -2365,19 +2365,19 @@ e_vera_cruz = {
 				color2={ 255 255 255 }
 				
 				b_ilha_comprida_2 = {}
-				b_cananeia = {}
+				b_iguape = {}
 				b_valo_grande = {}
 				b_silvi = {}
 				b_durvalino_vieira = {}
 				b_meu_recanto = {}
 				b_bal_kennedy = {}
 			}
-			c_peruibe = { # 65
+			c_cananeia = { # 65
 				color={ 255 68 127 }
 				color2={ 255 255 255 }
 				
-				b_piacaguera = {}
-				b_abarebebe_2 = {}
+				b_cananeia = {}
+				b_ilha_do_cardoso = {}
 				b_pedro_de_toledo = {}
 				b_ana_dias = {}
 				b_vila_romar = {}

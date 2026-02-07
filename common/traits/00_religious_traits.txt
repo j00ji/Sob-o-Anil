@@ -512,8 +512,8 @@ apostolic_pedro = {
 	
 	stewardship = 1
 
-	potential = { religion = apostolic }
-	religious_branch = apostolic
+	potential = { religion = charismatic }
+	religious_branch = charismatic
 	random = no
 	religious = yes
 	ruler_designer_cost = 0
@@ -534,8 +534,8 @@ apostolic_aparecida = {
 	monthly_character_piety = 0.25
 	monthly_character_prestige = 0.25
 
-	potential = { religion = apostolic }
-	religious_branch = apostolic
+	potential = { religion = charismatic }
+	religious_branch = charismatic
 	random = no
 	religious = yes
 	ruler_designer_cost = 0
@@ -555,8 +555,8 @@ apostolic_bonfim = {
 	combat_rating = 5 #new value!
 	health = 1
 
-	potential = { religion = apostolic }
-	religious_branch = apostolic
+	potential = { religion = charismatic }
+	religious_branch = charismatic
 	random = no
 	religious = yes
 	ruler_designer_cost = 0

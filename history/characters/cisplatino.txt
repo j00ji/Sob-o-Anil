@@ -494,7 +494,7 @@
 	dynasty=85004 #Leinig
 	culture=paranaense
 	religion=orthodoxist
-	secret_religion=apostolic
+	secret_religion=charismatic
 	trait=martial_cleric
 	trait=gardener
 	trait=cynical
@@ -519,7 +519,7 @@
 	culture=german
 	father=260006
 	religion=orthodoxist
-	secret_religion=apostolic
+	secret_religion=charismatic
 	trait=amateurish_plotter
 	trait=cynical
 	trait=fair
@@ -693,7 +693,7 @@
 	name="Robson"
 	dynasty=75001 #Marcomini
 	culture=paranapanense
-	religion=apostolic
+	religion=charismatic
 	trait=scholarly_theologian
 	trait=sympathy_old_world
 	trait=scholar
@@ -716,7 +716,7 @@
 	dynasty=75001 #Marcomini
 	father=260017
 	culture=paranapanense
-	religion=apostolic
+	religion=charismatic
 	trait=martial_cleric
 	trait=stutter
 	trait=feeble
@@ -734,7 +734,7 @@
 	father=260018
 	female=yes
 	culture=paranapanense
-	religion=apostolic
+	religion=charismatic
 	trait=scholarly_theologian
 	trait=sympathy_old_world
 	trait=erudite
@@ -754,7 +754,7 @@
 	dynasty=75001 #Marcomini
 	father=260018
 	culture=paranapanense
-	religion=apostolic
+	religion=charismatic
 	trait=tough_soldier
 	trait=ambitious
 	trait=just
@@ -891,7 +891,7 @@
 	female=yes
 	culture=paranaense
 	religion=charismatic
-	secret_religion=apostolic #amongst the last Apostolics of paranapanema
+	secret_religion=charismatic #amongst the last Apostolics of paranapanema
 	trait=brilliant_strategist
 	trait=robust
 	trait=duelist

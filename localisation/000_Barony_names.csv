@@ -19,7 +19,7 @@ b_abare;Abaré;Abaré;Abaré;;Abaré;;;;;;;;;x
 b_abare_adj;Abaréian;;abaréer;;;;;;;;;;;x
 b_abarebebe;Abarebebê;Abarebebê;Abarebebê;;Abarebebê;;;;;;;;;x
 b_abarebebe_adj;Abarebebêian;;abarebebêer;;;;;;;;;;;x
-b_abarebebe_2;Abarebebê;Abarebebê;Abarebebê;;Abarebebê;;;;;;;;;x
+b_ilha_do_cardoso;Abarebebê;Abarebebê;Abarebebê;;Abarebebê;;;;;;;;;x
 b_abarebebe_2_adj;Abarebebêian;;abarebebêer;;;;;;;;;;;x
 b_abasto;Abasto;Abasto;Abasto;;Abasto;;;;;;;;;x
 b_abasto_adj;Abastian;;abaster;;;;;;;;;;;x
@@ -2121,6 +2121,8 @@ b_canadon_seco;Cañadon Seco;Cañadon Seco;Cañadon Seco;;Cañadon Seco;;;;;;;;;x
 b_canadon_seco_adj;Cañadon Secian;;Cañadon Secer;;;;;;;;;;;x
 b_canama;Canamã;Canamã;Canamã;;Canamã;;;;;;;;;x
 b_canama_adj;Canamãian;;canamãer;;;;;;;;;;;x
+b_iguape;Iguape;Iguape;Iguape;;Iguape;;;;;;;;;x
+b_iguape_adj;Iguapean;;Iguapeer;;;;;;;;;;;x
 b_cananeia;Cananéia;Cananéia;Cananéia;;Cananéia;;;;;;;;;x
 b_cananeia_adj;Cananéian;;cananéer;;;;;;;;;;;x
 b_canapolis;Canápolis;Canápolis;Canápolis;;Canápolis;;;;;;;;;x
@@ -5547,8 +5549,8 @@ b_itaqui;Itaqui;Itaqui;Itaqui;;Itaqui;;;;;;;;;x
 b_itaqui_adj;Itaqian;;itaqer;;;;;;;;;;;x
 b_itarana;Itarana;Itarana;Itarana;;Itarana;;;;;;;;;x
 b_itarana_adj;Itaranan;;itaraner;;;;;;;;;;;x
-b_itarare;Itararé;Itararé;Itararé;;Itararé;;;;;;;;;x
-b_itarare_adj;Itararéian;;itararéer;;;;;;;;;;;x
+b_itarare;São Sebastião;São Sebastião;São Sebastião;;São Sebastião;;;;;;;;;x
+b_itarare_adj;São Sebastian;;São Sebaster;;;;;;;;;;;x
 b_itarare_2;Itararé;Itararé;Itararé;;Itararé;;;;;;;;;x
 b_itarare_2_adj;Itararéian;;itararéer;;;;;;;;;;;x
 b_itati;Itati;Itati;Itati;;Itati;;;;;;;;;x
@@ -10344,8 +10346,8 @@ b_samambaia;Samambaia;Samambaia;Samambaia;;Samambaia;;;;;;;;;x
 b_samambaia_adj;Samambaian;;samamber;;;;;;;;;;;x
 b_samanco;Samanco;Samanco;Samanco;;Samanco;;;;;;;;;x
 b_samanco_adj;Samancian;;samancer;;;;;;;;;;;x
-b_samarita;Samaritá;Samaritá;Samaritá;;Samaritá;;;;;;;;;x
-b_samarita_adj;Samaritáian;;samaritáer;;;;;;;;;;;x
+b_samarita;Caraguatatuba;Caraguatatuba;Caraguatatuba;;Caraguatatuba;;;;;;;;;x
+b_samarita_adj;Caraguatatubaian;;Caraguatatubaer;;;;;;;;;;;x
 b_samauma;Samaúma;Samaúma;Samaúma;;Samaúma;;;;;;;;;x
 b_samauma_adj;Samaúman;;samaúmer;;;;;;;;;;;x
 b_sambaia;Sambaía;Sambaía;Sambaía;;Sambaía;;;;;;;;;x
@@ -10934,8 +10936,8 @@ b_sao_benedito;São Benedito;São Benedito;São Benedito;;São Benedito;;;;;;;;;x
 b_sao_benedito_adj;São Beneditian;;São Benediter;;;;;;;;;;;x
 b_sao_benedito_2;São Benedito;São Benedito;São Benedito;;São Benedito;;;;;;;;;x
 b_sao_benedito_2_adj;São Beneditian;;São Benediter;;;;;;;;;;;x
-b_sao_bento;São Bento;São Bento;São Bento;;São Bento;;;;;;;;;x
-b_sao_bento_adj;São Bentian;;São Benter;;;;;;;;;;;x
+b_sao_vicente;São Vicente;São Vicente;São Vicente;;São Vicente;;;;;;;;;x
+b_sao_bento_adj;São Vicentian;;São Vicenter;;;;;;;;;;;x
 b_sao_bento_2;São Bento;São Bento;São Bento;;São Bento;;;;;;;;;x
 b_sao_bento_2_adj;São Bentian;;São Benter;;;;;;;;;;;x
 b_sao_bento_3;São Bento;São Bento;São Bento;;São Bento;;;;;;;;;x
@@ -12900,8 +12902,8 @@ b_votorantim;Votorantim;Votorantim;Votorantim;;Votorantim;;;;;;;;;x
 b_votorantim_adj;Votorantimian;;votorantimer;;;;;;;;;;;x
 b_votuporanga;Votuporanga;Votuporanga;Votuporanga;;Votuporanga;;;;;;;;;x
 b_votuporanga_adj;Votuporangan;;votuporanger;;;;;;;;;;;x
-b_voturua;Voturuá;Voturuá;Voturuá;;Voturuá;;;;;;;;;x
-b_voturua_adj;Voturuáian;;voturuáer;;;;;;;;;;;x
+b_voturua;Maresias;Maresias;Maresias;;Maresias;;;;;;;;;x
+b_voturua_adj;Maresian;;Maresiaser;;;;;;;;;;;x
 b_vuhuata;Vuhuatã;Vuhuatã;Vuhuatã;;Vuhuatã;;;;;;;;;x
 b_vuhuata_adj;Vuhuatãian;;vuhuatãer;;;;;;;;;;;x
 b_waimir;Waimir;Waimir;Waimir;;Waimir;;;;;;;;;x

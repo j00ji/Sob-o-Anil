@@ -76,7 +76,7 @@ narrative_event = {
 			parent = ROOT
 		}
 		set_parent_religion ={
-			religion = apostolic
+			religion = charismatic
 			parent = ROOT
 		}
 		set_parent_religion ={

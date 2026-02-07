@@ -4,7 +4,7 @@
 55002 = { #Ruler of Santos, Start Date
 	name = "Lombardi-Stucchi"
 	culture = caicara
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -23,7 +23,7 @@
 55024 = {
 	name = "Graeff"
 	culture = caicara
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }
@@ -31,7 +31,7 @@
 77501 = {
 	name = "Cardoso"
 	culture = caicara
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -50,7 +50,7 @@
 77502 = {
 	name = "Ottoboni"
 	culture = caicara
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 }

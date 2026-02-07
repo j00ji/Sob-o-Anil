@@ -9945,12 +9945,12 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 					NOT = {
 						has_character_was_religion_flag_trigger = yes
 					}
-					religion = apostolic
+					religion = charismatic
 				}
 				has_character_flag = character_was_apostolic
 			}
 		}
-		set_secret_religion = apostolic
+		set_secret_religion = charismatic
 		clr_character_flag = character_was_apostolic
 		break = yes
 	}
@@ -10934,7 +10934,7 @@ add_religion_char_flag_effect = {
 		set_character_flag = character_was_nonconformist
 	}
 	if = {
-		limit = { religion = apostolic }
+		limit = { religion = charismatic }
 		set_character_flag = character_was_apostolic
 	}
 	if = {
@@ -11442,7 +11442,7 @@ event_target_old_religion_from_flag_effect = {
 	if = {
 		limit = { has_character_flag = character_was_apostolic }
 		random_character = {
-			limit = { religion = apostolic }
+			limit = { religion = charismatic }
 			save_event_target_as = old_religion
 		}
 	}
@@ -11945,7 +11945,7 @@ increase_visibility_minor_effect = {
 						religion = americanist
 						religion = libertarian
 						religion = anabaptist
-						religion = apostolic
+						religion = charismatic
 					}
 				}
 				add_trait = excommunicated
@@ -13607,7 +13607,7 @@ flip_secret_religious_community_provinces = {
 					limit = {
 						has_province_modifier = secret_apostolic_community
 					}
-					religion = apostolic
+					religion = charismatic
 					remove_province_modifier = secret_apostolic_community
 				}
 			}
@@ -18307,7 +18307,7 @@ root_secret_religion_provinces_convert_effect = {
 						limit = {
 							has_province_modifier = secret_apostolic_community
 						}
-						religion = apostolic
+						religion = charismatic
 						remove_province_modifier = secret_apostolic_community
 					}
 				}

@@ -4,7 +4,7 @@
 	name=Kantaisä
 	dynasty=160001
 	culture=suomi
-	religion=apostolic
+	religion=charismatic
 	trait=grey_eminence
 	trait=kind
 	trait=robust
@@ -24,7 +24,7 @@
 	name=Nuuskamuikkunen
 	dynasty=160001
 	culture=suomi
-	religion=apostolic
+	religion=charismatic
 	trait=indulgent_wastrel
 	trait=content
 	trait=temperate
@@ -46,7 +46,7 @@
 	name=Mymmeli
 	dynasty=160002
 	culture=suomi
-	religion=apostolic
+	religion=charismatic
 	trait=tough_soldier
 	trait=arbitrary
 	trait=ambitious

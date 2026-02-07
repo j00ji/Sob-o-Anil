@@ -15,6 +15,7 @@ republic_governments = {
 		}
 		accepts_liege_governments = { # Accepts other republics
 			republic_government
+			oligarchic_republic
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
@@ -120,6 +121,7 @@ republic_governments = {
 			}
 			NOR = { 
 				is_government_potential = merchant_republic_government 
+				is_government_potential = oligarchic_republic 
 				is_government_potential = bureaucratic_government
 				is_government_potential = bureaucratic_government_tolerant
 			}
@@ -188,5 +190,109 @@ republic_governments = {
 
 		## Modifiers
 		court_size_modifier = 10
+	}
+	
+	oligarchic_republic = {
+		preferred_holdings = { CITY }
+		allowed_holdings = {
+			TRADE_POST
+			CITY
+			CASTLE
+			FAMILY_PALACE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			merchant_republic_government
+			republic_government
+			oligarchic_republic
+		}
+		free_revoke_on_tiers = {
+			baron
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		forced_contract = {
+			oligarchic_republic
+			republic_government
+		}
+		frame_suffix = "_republic"
+		title_prefix = "oligarchic_republic_"
+
+		potential = {		
+			OR = {
+				controls_religion = no
+				religion_group = muslim
+				has_religion_feature = religion_temporal_head
+				AND = {
+					religion = norse_pagan_reformed
+					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
+				}
+			}
+			#is_female = no
+			OR = {
+				AND = {
+					is_patrician = yes
+					OR = {
+						liege_before_war = {
+							NOT = { character = PREV }
+							is_merchant_republic = yes
+							NOT = {
+								liege_before_war = {
+									NOT = { character = PREV }
+									is_merchant_republic = yes
+								}
+							}
+						}
+						has_game_started = no
+					}
+				}
+				AND = {
+					OR = {
+						AND = {
+							has_game_started = yes
+							is_merchant_republic = yes
+						}
+						capital_scope = { port = no }
+					}
+					higher_real_tier_than = count
+					any_demesne_province = {
+						always = yes
+					}
+					NOT = {
+						liege_before_war = {
+							NOT = { character = PREV }
+							is_merchant_republic = yes
+						}
+					}
+				}
+			}
+		}
+		
+		color = { 245 105 66 }
+		
+		merchant_republic = yes
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+		uses_bride_price = yes
+
+		can_build_tribal = no
+		
+		landed_inheritance = no
+		
+		capital_move_delay = 600
+
+		## Modifiers
+		court_size_modifier = 5
+		court_size_maintenance_cost_modifier = -0.05
 	}
 }

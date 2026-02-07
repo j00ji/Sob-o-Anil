@@ -25,7 +25,7 @@ d_bandeirantes_northeast = {
 	
 	short_name = yes
 	
-	religion = apostolic
+	religion = charismatic
 	culture = paulistano
 	
 	title = "CAPTAIN"
@@ -58,7 +58,7 @@ d_bandeirantes_south = {
 	
 	short_name = yes
 	
-	religion = apostolic
+	religion = charismatic
 	culture = paulistano
 	
 	title = "CAPTAIN"
@@ -229,7 +229,7 @@ d_sao_paulo_fc = {
 	
 	short_name = yes
 	
-	religion = apostolic
+	religion = charismatic
 	culture = paulistano
 	
 	title = "COACH"
@@ -258,7 +258,7 @@ d_corinthians_fc = {
 	
 	short_name = yes
 	
-	religion = apostolic
+	religion = charismatic
 	culture = paulistano
 	
 	title = "COACH"
@@ -295,7 +295,7 @@ d_santos_fc = {
 	
 	short_name = yes
 	
-	religion = apostolic
+	religion = charismatic
 	culture = paulistano
 	
 	title = "COACH"
@@ -331,7 +331,7 @@ d_palmeiras_fc = {
 	
 	short_name = yes
 	
-	religion = apostolic
+	religion = charismatic
 	culture = paulistano
 	
 	title = "COACH"
@@ -372,7 +372,7 @@ d_boiadeiros_de_barretos = {
 	
 	short_name = yes
 	
-	religion = apostolic
+	religion = charismatic
 	culture = caipira
 	
 	title = "CAPTAIN"
@@ -406,7 +406,7 @@ d_caaso = {
 	
 	short_name = yes
 	
-	religion = apostolic
+	religion = charismatic
 	culture = camponeto
 	
 	title = "GRANDMASTER"

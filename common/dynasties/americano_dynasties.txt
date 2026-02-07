@@ -4,7 +4,7 @@
 60001 = {
 	name = "Norton"
 	culture = americano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -23,7 +23,7 @@
 60002 = {
 	name = "Jones"
 	culture = americano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -42,7 +42,7 @@
 60003 = {
 	name = "MacKnight"
 	culture = americano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -61,7 +61,7 @@
 60004 = {
 	name = "Carter"
 	culture = americano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -80,7 +80,7 @@
 60005 = {
 	name = "Povos Unidos"
 	culture = americano
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {

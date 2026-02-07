@@ -1,8 +1,8 @@
-namespace = apostolic
+namespace = charismatic
 
 # Choose patron deity
 character_event = {
-	id = apostolic.1
+	id = charismatic.1
 	desc = EVTDESC_apostolic_1
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
@@ -82,7 +82,7 @@ character_event = {
 
 # Follower of Bonfim may gain Sympathy for Afro-Syncretic
 character_event = {
-	id = apostolic.2
+	id = charismatic.2
 	desc = EVTDESC_apostolic_2
 	picture = GFX_evt_capoeira
 	border = GFX_event_normal_frame_religion
@@ -111,7 +111,7 @@ character_event = {
 
 # Follower of Aparecida may become Zealous
 character_event = {
-	id = apostolic.3
+	id = charismatic.3
 	desc = EVTDESC_apostolic_3
 	picture = GFX_evt_lady_aparecida
 	border = GFX_event_normal_frame_religion
@@ -139,7 +139,7 @@ character_event = {
 
 # Follower of Pedro strives to be more like him
 character_event = {
-	id = apostolic.4
+	id = charismatic.4
 	desc = EVTDESC_apostolic_4
 	picture = GFX_evt_lady_aparecida
 	border = GFX_event_normal_frame_religion

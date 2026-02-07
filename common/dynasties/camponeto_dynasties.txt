@@ -65,742 +65,742 @@
 65500 = {
 	name = "Abe"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65501 = {
 	name = "Albuquerque"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65502 = {
 	name = "Alckmin"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65503 = {
 	name = "Aldrovandi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65504 = {
 	name = "Alessi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65505 = {
 	name = "Alexis"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65506 = {
 	name = "Allegretti"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65507 = {
 	name = "Almeida"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65508 = {
 	name = "Álvares"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65509 = {
 	name = "Alves"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65510 = {
 	name = "Alves Pinto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65511 = {
 	name = "Alvim"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65512 = {
 	name = "Amaral"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65513 = {
 	name = "Amarante"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65514 = {
 	name = "Amary"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65515 = {
 	name = "Amazonas"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65516 = {
 	name = "Andaló"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65517 = {
 	name = "Andrade"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65518 = {
 	name = "Ansaldo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65519 = {
 	name = "Antonela"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65520 = {
 	name = "Antunes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65521 = {
 	name = "Aparecido"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65522 = {
 	name = "Apolinário"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65523 = {
 	name = "Araújo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65524 = {
 	name = "Arruda"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65525 = {
 	name = "Artacho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65526 = {
 	name = "Artigas"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65527 = {
 	name = "Artures"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65528 = {
 	name = "Ascar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65529 = {
 	name = "Ashcar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65530 = {
 	name = "Assuf"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65531 = {
 	name = "Auada"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65532 = {
 	name = "Augustim"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65533 = {
 	name = "Avallone"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65534 = {
 	name = "Ayala"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65535 = {
 	name = "Azevedo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65536 = {
 	name = "Baccarin"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65537 = {
 	name = "Baldochi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65538 = {
 	name = "Barbiere"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65539 = {
 	name = "Barbieri"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65540 = {
 	name = "Barbosa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65541 = {
 	name = "Barnabé"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65542 = {
 	name = "Barreto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65543 = {
 	name = "Baruselli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65544 = {
 	name = "Bassitt"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65545 = {
 	name = "Bastos"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65546 = {
 	name = "Batista"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65547 = {
 	name = "Benassi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65548 = {
 	name = "Beni"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65549 = {
 	name = "Benito"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65550 = {
 	name = "Beraldo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65551 = {
 	name = "Bérgamo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65552 = {
 	name = "Bernardes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65553 = {
 	name = "Bernardi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65554 = {
 	name = "Bertola"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65555 = {
 	name = "Bettio"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65556 = {
 	name = "Bezerra"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65557 = {
 	name = "Bicudo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65558 = {
 	name = "Bierrenbach"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65559 = {
 	name = "Bittencourt"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65560 = {
 	name = "Bognar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65561 = {
 	name = "Bom"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65562 = {
 	name = "Borges"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65563 = {
 	name = "Borghi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65564 = {
 	name = "Bosco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65565 = {
 	name = "Botelho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65566 = {
 	name = "Botta"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65567 = {
 	name = "Braga"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65568 = {
 	name = "Bragato"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65569 = {
 	name = "Braido"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65570 = {
 	name = "Branco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65571 = {
 	name = "Brandão"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65572 = {
 	name = "Bravo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65573 = {
 	name = "Breda"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65574 = {
 	name = "Broca"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65575 = {
 	name = "Buarque"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65576 = {
 	name = "Bueno"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65577 = {
 	name = "Bustamante"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65578 = {
 	name = "Buzato"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65579 = {
 	name = "Cabral"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65580 = {
 	name = "Cadorniga"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65581 = {
 	name = "Caires"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65582 = {
 	name = "Calazans"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65583 = {
 	name = "Caldeira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65584 = {
 	name = "Caldini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65585 = {
 	name = "Calil"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65586 = {
 	name = "Calixto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65587 = {
 	name = "Callegari"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65588 = {
 	name = "Calvo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65589 = {
 	name = "Camargo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65590 = {
 	name = "Camarinha"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65591 = {
 	name = "Campanari"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65592 = {
 	name = "Campanella"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65593 = {
 	name = "Caramez"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65594 = {
 	name = "Cardoso"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65595 = {
 	name = "Carlucci"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65596 = {
 	name = "Carneiro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65597 = {
 	name = "Carolo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65598 = {
 	name = "Cartola"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65599 = {
 	name = "Carvalhães"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65600 = {
 	name = "Carvalho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65601 = {
 	name = "Casanova"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65602 = {
 	name = "Castanho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65603 = {
 	name = "Castellano"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65604 = {
 	name = "Castelo Branco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65605 = {
 	name = "Castillon"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65606 = {
 	name = "Cembranelli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65607 = {
 	name = "Ceravolo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65608 = {
 	name = "Cerchiari"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65609 = {
 	name = "Cerqueira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65610 = {
 	name = "Cervalo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65611 = {
 	name = "Cesare"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65612 = {
 	name = "Chaib"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65613 = {
 	name = "Chaves"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65614 = {
 	name = "Chedid"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65615 = {
 	name = "Chicarino"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65616 = {
 	name = "Chinaglia"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65617 = {
 	name = "Chubaci"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65618 = {
 	name = "Ciampolini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65619 = {
 	name = "Cicote"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65620 = {
 	name = "Cinti"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65621 = {
 	name = "Cintra"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65622 = {
 	name = "Codo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65623 = {
 	name = "Coelho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65624 = {
 	name = "Coimbra"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65625 = {
 	name = "Condeixa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65626 = {
 	name = "Cordeiro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65627 = {
 	name = "Corrêa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65628 = {
 	name = "Correia"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65629 = {
 	name = "Corte"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65630 = {
 	name = "Cortes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65631 = {
 	name = "Costa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65632 = {
 	name = "Coury"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65633 = {
 	name = "Coutinho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65634 = {
 	name = "Crespo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65635 = {
 	name = "Cruz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65636 = {
 	name = "Cunha"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65637 = {
 	name = "Cunha Lima"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65638 = {
 	name = "Curiati"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65639 = {
 	name = "Cury"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65640 = {
 	name = "da Costa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65641 = {
 	name = "da Costa e Silva"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65642 = {
 	name = "da Cruz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65643 = {
 	name = "da Cunha"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65644 = {
 	name = "da Mota"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65645 = {
 	name = "da Paulina"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65646 = {
 	name = "da Paz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65647 = {
 	name = "de Aguiar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -818,1969 +818,1969 @@
 65648 = {
 	name = "da Silva"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65649 = {
 	name = "Dabus"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65650 = {
 	name = "Daige"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65651 = {
 	name = "Dalla Pria"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65652 = {
 	name = "Dallari"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65653 = {
 	name = "de Abreu"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65654 = {
 	name = "de Almeida"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65655 = {
 	name = "de Araújo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65656 = {
 	name = "de Assis"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65657 = {
 	name = "de Ávila"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65658 = {
 	name = "de Barros"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65659 = {
 	name = "de Brito"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65660 = {
 	name = "de Camargo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65661 = {
 	name = "de Campos"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65662 = {
 	name = "de Carvalho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65663 = {
 	name = "de Castro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65664 = {
 	name = "de Faria"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65665 = {
 	name = "de Faria Lima"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65666 = {
 	name = "de Filippi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65667 = {
 	name = "de Freitas"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65668 = {
 	name = "de Lima"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65669 = {
 	name = "de Macedo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65670 = {
 	name = "de Matos"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65671 = {
 	name = "de Melo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65672 = {
 	name = "de Moraes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65673 = {
 	name = "de Moura"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65674 = {
 	name = "de Nóbrega"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65675 = {
 	name = "de Oliveira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65676 = {
 	name = "de Paula"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65677 = {
 	name = "de Queiroz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65678 = {
 	name = "de Souza"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65679 = {
 	name = "de Toledo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65680 = {
 	name = "de Velasco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65681 = {
 	name = "Dejtiar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65682 = {
 	name = "Delmont"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65683 = {
 	name = "Delta"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65684 = {
 	name = "Demarchi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65685 = {
 	name = "Di Ciero"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65686 = {
 	name = "Dias"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65687 = {
 	name = "Diniz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65688 = {
 	name = "Dirceu"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65689 = {
 	name = "do Amaral"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65690 = {
 	name = "do Pulo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65691 = {
 	name = "doenha"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65692 = {
 	name = "Domingues"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65693 = {
 	name = "Donato"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65694 = {
 	name = "dos Reis"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65695 = {
 	name = "dos Santos"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65696 = {
 	name = "Duarte"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65697 = {
 	name = "Eduardo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65698 = {
 	name = "Egreja"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65699 = {
 	name = "Engler"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65700 = {
 	name = "Erundina"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65701 = {
 	name = "Escobar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65702 = {
 	name = "Espíndola"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65703 = {
 	name = "Eumene"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65704 = {
 	name = "Euritisses"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65705 = {
 	name = "Fabiano"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65706 = {
 	name = "Falcão"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65707 = {
 	name = "Falconi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65708 = {
 	name = "Falseti"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65709 = {
 	name = "Fanganielo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65710 = {
 	name = "Faraco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65711 = {
 	name = "Farhat"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65712 = {
 	name = "Feijó"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65713 = {
 	name = "Feldman"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65714 = {
 	name = "Feliciano"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65715 = {
 	name = "Fernandes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65716 = {
 	name = "Ferrarini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65717 = {
 	name = "Ferraz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65718 = {
 	name = "Ferreira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65719 = {
 	name = "Figueira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65720 = {
 	name = "Filho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65721 = {
 	name = "Flaquer"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65722 = {
 	name = "Flaviano"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65723 = {
 	name = "Florence"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65724 = {
 	name = "Fonseca"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65725 = {
 	name = "Formiga"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65726 = {
 	name = "Fossen"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65727 = {
 	name = "Fraga"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65728 = {
 	name = "Francisco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65729 = {
 	name = "Franco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65730 = {
 	name = "Frateschi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65731 = {
 	name = "Freire"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65732 = {
 	name = "Freua"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65733 = {
 	name = "Furlan"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65734 = {
 	name = "Gadia"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65735 = {
 	name = "Galante"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65736 = {
 	name = "Gale"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65737 = {
 	name = "Galvão"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65738 = {
 	name = "Garcia"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65739 = {
 	name = "Garib"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65740 = {
 	name = "Gasparini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65741 = {
 	name = "Gebara"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65742 = {
 	name = "Gentil"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65743 = {
 	name = "Geraldo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65744 = {
 	name = "Gesuen"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65745 = {
 	name = "Giachini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65746 = {
 	name = "Gianetti"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65747 = {
 	name = "Giglio"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65748 = {
 	name = "Gimenez"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65749 = {
 	name = "Giuli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65750 = {
 	name = "Godinho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65751 = {
 	name = "Goldman"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65752 = {
 	name = "Gomes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65753 = {
 	name = "Gonçalves"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65754 = {
 	name = "Gondim"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65755 = {
 	name = "Gonzaga"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65756 = {
 	name = "Gonzalez"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65757 = {
 	name = "Gosuen"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65758 = {
 	name = "Gouvêa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65759 = {
 	name = "Gouveia"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65760 = {
 	name = "Granja"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65761 = {
 	name = "Gregori"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65762 = {
 	name = "Grillo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65763 = {
 	name = "Guerra"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65764 = {
 	name = "Guglielmi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65765 = {
 	name = "Guimarães"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65766 = {
 	name = "Gurgel"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65767 = {
 	name = "Hadade"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65768 = {
 	name = "Haddad"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65769 = {
 	name = "Hama"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65770 = {
 	name = "Hamam"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65771 = {
 	name = "Hanashiro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65772 = {
 	name = "Helu"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65773 = {
 	name = "Hiar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65774 = {
 	name = "Hirata"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65775 = {
 	name = "Hornos"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65776 = {
 	name = "Hourneaux"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65777 = {
 	name = "Iazetti"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65778 = {
 	name = "Iervolino"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65779 = {
 	name = "Iha"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65780 = {
 	name = "Izar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65781 = {
 	name = "Jácome"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65782 = {
 	name = "Jardim"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65783 = {
 	name = "Jazadji"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65784 = {
 	name = "Jordi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65785 = {
 	name = "Julianelli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65786 = {
 	name = "Julião"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65787 = {
 	name = "Júlio"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65788 = {
 	name = "Júnior"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65789 = {
 	name = "Junqueira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65790 = {
 	name = "Jurca"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65791 = {
 	name = "Justo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65792 = {
 	name = "Kara"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65793 = {
 	name = "Kassab"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65794 = {
 	name = "Kefer"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65795 = {
 	name = "Keffer"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65796 = {
 	name = "Kenan"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65797 = {
 	name = "Kerlakian"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65798 = {
 	name = "Keutenedjian"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65799 = {
 	name = "Khuriyeh"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65800 = {
 	name = "Kiono"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65801 = {
 	name = "Kobayashi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65802 = {
 	name = "Kuriki"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65803 = {
 	name = "Kyono"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65804 = {
 	name = "Lammoglia"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65805 = {
 	name = "Lapa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65806 = {
 	name = "Lara"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65807 = {
 	name = "Lazareno"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65808 = {
 	name = "Leandrini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65809 = {
 	name = "Leão"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65810 = {
 	name = "Leça"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65811 = {
 	name = "Leite"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65812 = {
 	name = "Leiva"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65813 = {
 	name = "Leme"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65814 = {
 	name = "Lepera"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65815 = {
 	name = "Liarte"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65816 = {
 	name = "Lima"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65817 = {
 	name = "Lino"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65818 = {
 	name = "Lins"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65819 = {
 	name = "Lipnik"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65820 = {
 	name = "Lobo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65821 = {
 	name = "Lopes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65822 = {
 	name = "Lopes Ferraz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65823 = {
 	name = "Lot"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65824 = {
 	name = "Lucchesi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65825 = {
 	name = "Luciano"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65826 = {
 	name = "Luis"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65827 = {
 	name = "Luiz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65828 = {
 	name = "Luizinho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65829 = {
 	name = "Lune"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65830 = {
 	name = "Lurtz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65831 = {
 	name = "Macedo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65832 = {
 	name = "Machado"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65833 = {
 	name = "Macris"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65834 = {
 	name = "Maida"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65835 = {
 	name = "Maltoni"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65836 = {
 	name = "Mantelli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65837 = {
 	name = "Marcelinni"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65838 = {
 	name = "Marcondes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65839 = {
 	name = "Margato"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65840 = {
 	name = "Maria"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65841 = {
 	name = "Marin"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65842 = {
 	name = "Marinho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65843 = {
 	name = "Marins"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65844 = {
 	name = "Martin"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65845 = {
 	name = "Martini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65846 = {
 	name = "Martins"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65847 = {
 	name = "Massei"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65848 = {
 	name = "Massih"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65849 = {
 	name = "Mastrocola"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65850 = {
 	name = "Matarazzo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65851 = {
 	name = "Matina"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65852 = {
 	name = "Matos"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65853 = {
 	name = "Mattos"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65854 = {
 	name = "Maurício"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65855 = {
 	name = "Mauro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65856 = {
 	name = "Máximo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65857 = {
 	name = "Mayer"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65858 = {
 	name = "Mazzo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65859 = {
 	name = "Mendes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65860 = {
 	name = "Mendonça"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65861 = {
 	name = "Meneghini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65862 = {
 	name = "Menezes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65863 = {
 	name = "Menk"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65864 = {
 	name = "Mesquita"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65865 = {
 	name = "Messias"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65866 = {
 	name = "Meves"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65867 = {
 	name = "Miglori"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65868 = {
 	name = "Milliet"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65869 = {
 	name = "Miraglia"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65870 = {
 	name = "Monteiro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65871 = {
 	name = "Monti"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65872 = {
 	name = "Montoro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65873 = {
 	name = "Morais"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65874 = {
 	name = "Moreira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65875 = {
 	name = "Mori"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65876 = {
 	name = "Morimoto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65877 = {
 	name = "Morinaga"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65878 = {
 	name = "Mota"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65879 = {
 	name = "Mudalen"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65880 = {
 	name = "Munhoz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65881 = {
 	name = "Murad"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65882 = {
 	name = "Muraro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65883 = {
 	name = "Najar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65884 = {
 	name = "Nakandakare"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65885 = {
 	name = "Namo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65886 = {
 	name = "Nascimento"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65887 = {
 	name = "Nasser"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65888 = {
 	name = "Negrini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65889 = {
 	name = "Neto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65890 = {
 	name = "Neves"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65891 = {
 	name = "Nicoleli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65892 = {
 	name = "Noda"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65893 = {
 	name = "Nogueira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65894 = {
 	name = "Nomura"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65895 = {
 	name = "Novaes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65896 = {
 	name = "Novais"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65897 = {
 	name = "Nunes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65898 = {
 	name = "Oliveira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65899 = {
 	name = "Ornellas"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65900 = {
 	name = "Ortiz"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65901 = {
 	name = "Osório"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65902 = {
 	name = "Ozi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65903 = {
 	name = "Pacheco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65904 = {
 	name = "Paes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65905 = {
 	name = "Paixão"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65906 = {
 	name = "Palácios"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65907 = {
 	name = "Palocci"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65908 = {
 	name = "Pannunzio"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65909 = {
 	name = "Pardi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65910 = {
 	name = "Pascoal"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65911 = {
 	name = "Passarelli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65912 = {
 	name = "Passoni"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65913 = {
 	name = "Pazzianotto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65914 = {
 	name = "Pedroso"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65915 = {
 	name = "Pena"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65916 = {
 	name = "Pereira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65917 = {
 	name = "Peres"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65918 = {
 	name = "Perri"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65919 = {
 	name = "Perrone"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65920 = {
 	name = "Pescarini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65921 = {
 	name = "Petrilli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65922 = {
 	name = "Pieroni"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65923 = {
 	name = "Pietá"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65924 = {
 	name = "Pinheiro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65925 = {
 	name = "Pinto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65926 = {
 	name = "Pires"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65927 = {
 	name = "Piteri"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65928 = {
 	name = "Piunti"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65929 = {
 	name = "Pivatto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65930 = {
 	name = "Piza"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65931 = {
 	name = "Planet"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65932 = {
 	name = "Poli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65933 = {
 	name = "Pompeu"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65934 = {
 	name = "Porchat"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65935 = {
 	name = "Port"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65936 = {
 	name = "Porto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65937 = {
 	name = "Pozzi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65938 = {
 	name = "Praça"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65939 = {
 	name = "Prado"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65940 = {
 	name = "Prandi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65941 = {
 	name = "Pria"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65942 = {
 	name = "Purini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65943 = {
 	name = "Quadros"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65944 = {
 	name = "Quércia"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65945 = {
 	name = "Rahal"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65946 = {
 	name = "Ramalho"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65947 = {
 	name = "Ramos"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65948 = {
 	name = "Ranieri"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65949 = {
 	name = "Razuk"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65950 = {
 	name = "Real"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65951 = {
 	name = "Reis"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65952 = {
 	name = "Resegue"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65953 = {
 	name = "Rezeck"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65954 = {
 	name = "Rezende"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65955 = {
 	name = "Rezk"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65956 = {
 	name = "Ribas"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65957 = {
 	name = "Ribeiro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65958 = {
 	name = "Ricchetti"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65959 = {
 	name = "Rodrigues"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 	used_for_random = no
 	can_appear = no
 }
 65960 = {
 	name = "Rocha"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65961 = {
 	name = "Rolim"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65962 = {
 	name = "Rollemberg"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65963 = {
 	name = "Romano"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65964 = {
 	name = "Romeiro"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65965 = {
 	name = "Romeu"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65966 = {
 	name = "Rosa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65967 = {
 	name = "Rosalindo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65968 = {
 	name = "Rosário"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65969 = {
 	name = "Rosas"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65970 = {
 	name = "Roscitti"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65971 = {
 	name = "Rossi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65972 = {
 	name = "Rubez"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65973 = {
 	name = "Sabiá"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65974 = {
 	name = "Sabino"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65975 = {
 	name = "Saion"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65976 = {
 	name = "Sala"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65977 = {
 	name = "Sales"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65978 = {
 	name = "Salgado"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65979 = {
 	name = "Salim"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65980 = {
 	name = "Salomé"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65981 = {
 	name = "Salvagni"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65982 = {
 	name = "Sampaio"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65983 = {
 	name = "Sanches"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65984 = {
 	name = "Sandoval"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65985 = {
 	name = "Santana"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65986 = {
 	name = "Santos"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65987 = {
 	name = "Sapienza"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65988 = {
 	name = "Sayon"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65989 = {
 	name = "Sbeghen"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65990 = {
 	name = "Scalamandre"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65991 = {
 	name = "Schwinden"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65992 = {
 	name = "Scopel"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65993 = {
 	name = "Secco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65994 = {
 	name = "Seco"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65995 = {
 	name = "Sedeh"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65996 = {
 	name = "Segura"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65997 = {
 	name = "Serpa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65998 = {
 	name = "Serrano"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 65999 = {
 	name = "Severo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66000 = {
 	name = "Shimomoto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66001 = {
 	name = "Sidney"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66002 = {
 	name = "Signorelli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66003 = {
 	name = "Silva"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66004 = {
 	name = "Silveira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66005 = {
 	name = "Simão"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66006 = {
 	name = "Simionatto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66007 = {
 	name = "Simões"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66008 = {
 	name = "Siqueira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66009 = {
 	name = "Siraque"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66010 = {
 	name = "Soares"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66011 = {
 	name = "Sodré"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66012 = {
 	name = "Sogayar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66013 = {
 	name = "Soltur"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66014 = {
 	name = "Sousa"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66015 = {
 	name = "Stangarlini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66016 = {
 	name = "Storópoli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66017 = {
 	name = "Suplicy"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66018 = {
 	name = "Taibo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66019 = {
 	name = "Taler"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66020 = {
 	name = "Tamura"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66021 = {
 	name = "Tanauí"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66022 = {
 	name = "Tank"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66023 = {
 	name = "Tarabay"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66024 = {
 	name = "Tardelli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66025 = {
 	name = "Tarquínio"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66026 = {
 	name = "Tasso"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66027 = {
 	name = "Tatto"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66028 = {
 	name = "Tavares"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66029 = {
 	name = "Teixeira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66030 = {
 	name = "Teles"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66031 = {
 	name = "Thomé"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66032 = {
 	name = "Thomeu"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66033 = {
 	name = "Tibiriçá"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66034 = {
 	name = "Tomazzi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66035 = {
 	name = "Tommasini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66036 = {
 	name = "Toni"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66037 = {
 	name = "Tonin"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66038 = {
 	name = "Torloni"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66039 = {
 	name = "Tortorello"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66040 = {
 	name = "Toscano"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66041 = {
 	name = "Trevisan"
@@ -2792,157 +2792,157 @@
 66042 = {
 	name = "Trigais"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66043 = {
 	name = "Trigo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66044 = {
 	name = "Trindade"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66045 = {
 	name = "Tripoli"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66046 = {
 	name = "Utiyama"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66047 = {
 	name = "Valadão"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66048 = {
 	name = "Valente"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66049 = {
 	name = "Varginha"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66050 = {
 	name = "Vetorazzo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66051 = {
 	name = "Viana"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66052 = {
 	name = "Vidal"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66053 = {
 	name = "Vidigal"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66054 = {
 	name = "Vieira"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66055 = {
 	name = "Vilar"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66056 = {
 	name = "Vinholi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66057 = {
 	name = "Vitor"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66058 = {
 	name = "Volpi"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66059 = {
 	name = "Yazbek"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66060 = {
 	name = "Yunes"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66061 = {
 	name = "Zampol"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66062 = {
 	name = "Zancaner"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66063 = {
 	name = "Zanini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66064 = {
 	name = "Zarattini"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66065 = {
 	name = "Zekcer"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66066 = {
 	name = "Zico"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66067 = {
 	name = "Zollner"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66068 = {
 	name = "Zomignani"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66069 = {
 	name = "Zumbano"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66070 = {
 	name = "Zuppo"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66071 = {
 	name = "Zveibil"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 }
 66100 = {
 	name = "de Itu"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {
@@ -2961,7 +2961,7 @@
 66101 = {
 	name = "Cabanas"
 	culture = camponeto
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {

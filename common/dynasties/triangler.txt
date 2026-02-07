@@ -30,7 +30,7 @@
 255003 = { #Pena Branca
 	name = "Pena Branca"
 	culture = triangler
-	religion = apostolic
+	religion = charismatic
 	can_appear = no
 	used_for_random = no
 	coat_of_arms = {

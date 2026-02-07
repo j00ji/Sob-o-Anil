@@ -7,7 +7,7 @@ title = c_iguape
 max_settlements = 3
 
 b_ilha_comprida_2 = castle
-b_cananeia = temple
+b_iguape = temple
 #b_valo_grande = temple
 #b_silvi = castle
 #b_durvalino_vieira = city

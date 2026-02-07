@@ -1,7 +1,7 @@
-# c_sao_vicente
+# c_sao_sebastiao
 
 # County Title
-title = c_sao_vicente
+title = c_sao_sebastiao
 
 # Settlements
 max_settlements = 6

@@ -4073,9 +4073,9 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { apostolic = { OR = { has_religion_feature = religion_cosmopolitan has_religion_feature = religion_feature_espiritista } } }
+			limit = { charismatic = { OR = { has_religion_feature = religion_cosmopolitan has_religion_feature = religion_feature_espiritista } } }
 			random_playable_ruler = {
-				limit = { religion = apostolic }
+				limit = { religion = charismatic }
 				apply_cosmopolian_on_start_effect = yes
 			}
 		}
@@ -4598,9 +4598,9 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { apostolic = { has_religion_feature = religion_dogmatic } }
+			limit = { charismatic = { has_religion_feature = religion_dogmatic } }
 			random_playable_ruler = {
-				limit = { religion = apostolic }
+				limit = { religion = charismatic }
 				apply_dogmatic_on_start_effect = yes
 			}
 		}

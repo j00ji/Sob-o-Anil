@@ -36,7 +36,7 @@ decisions = {
 		ai = no
 		
 		potential = {
-			religion = anchietican
+			religion = charismatic
 			age = 16
 			is_playable = yes
 			NOT = {
@@ -46,45 +46,17 @@ decisions = {
 		}
 		
 		allow = {
-			religion = anchietican
+			religion = charismatic
 			is_playable = yes
 			NOT = { has_character_flag = changedapostolicbranch }
 		}
 		
 		effect = {
 			hidden_tooltip = {
-				character_event = { id = apostolic.1 }
+				character_event = { id = charismatic.1 }
 			}
 			#custom_tooltip = { text = TXT_change_apostolic_branch }
 			set_character_flag = changedapostolicbranch
-		}
-		
-		revoke_allowed = {
-			always = no
-		}
-	}
-	change_charismatic_pastoral = {
-		ai = no
-		
-		potential = {
-			religion = charismatic
-			age = 20
-			is_playable = yes
-			
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			} 
-		}
-		
-		allow = {
-			NOT = { has_character_flag = changed_charismatic_branch }
-		}
-		
-		effect = {
-			hidden_tooltip = {
-				character_event = { charismatic.x }
-			}
-			set_character_flag = changed_charismatic_branch
 		}
 		
 		revoke_allowed = {

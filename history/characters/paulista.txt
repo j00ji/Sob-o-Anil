@@ -2486,7 +2486,7 @@
 	add_claim = k_santos
 	add_claim = d_santos
 	add_claim = c_santos
-	add_claim = c_sao_vicente
+	add_claim = c_sao_sebastiao
 	add_claim = b_de_andrade
 	
 	2345.8.24 = {birth = yes}
