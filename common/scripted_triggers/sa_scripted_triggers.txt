@@ -61,6 +61,13 @@ is_catholic_trigger = {
 	}
 }
 
+is_protestant_trigger = { #somewhat irrelevant, but might be in the future
+	OR = {
+		religion = evangelical
+		religion = pentecostal
+	}
+}
+
 active_holy_order_by_religion = {
 	OR = {
 		#AND = {
@@ -314,5 +321,19 @@ isnt_forced_to_theocracy = {
 				has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
 			}
 		}
+	}
+}
+can_holy_war_same_group = {
+	OR = {
+		religion_group = muslim
+		religion = universal
+		religion = tridentine
+	}
+}
+
+new_crusade_trigger = {
+	OR = {
+		religion = catholic
+		religion = tridentine
 	}
 }

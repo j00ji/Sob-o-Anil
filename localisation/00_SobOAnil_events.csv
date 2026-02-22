@@ -357,21 +357,38 @@ EVTDESC_SoA_5054;You have finally arrived in Santiago de Chile! As you enter the
 EVTOPTA_SoA_5054;Truly, a unique city!;;;;;;;;;;;;;x
 
 ### CHARISMATIC EVENTS ###
+charismatic.1000.t;Speaking in Tongues;;;;;;;;;;;;;x
+charismatic.1000.d;During a fervent prayer, you feel a sudden rush of speech in strange tongues. Some see this as a divine sign — others as mere frenzy.;;;;;;;;;;;;;x
+charismatic.1000.a;I surrender to the Spirit.;;;;;;;;;;;;;x
+charismatic.1000.b;I interpret the words.;;;;;;;;;;;;;x
+charismatic.1000.c;This is dangerous. I restrain myself.;;;;;;;;;;;;;x
+charismatic.1005.a;The people murmur: some call it a miracle, some madness.;;;;;;;;;;;;;x
+charismatic.1100.t;Journey of the Spirit;;;;;;;;;;;;;x
+charismatic.1100.d;Moved by the recent events, you withdraw from court to fast, sing and pray. You seek clarity in solitude and song.;;;;;;;;;;;;;x
+charismatic.1100.a;I must go deeper.;;;;;;;;;;;;;x
+charismatic.1100.b;This will have to wait.;;;;;;;;;;;;;x
+charismatic.1101.a;Wilderness Vision;;;;;;;;;;;;;x
+charismatic.1101.b;Street Sermon;;;;;;;;;;;;;x
+charismatic.1101.c;All-night Vigil;;;;;;;;;;;;;x
+charismatic.1200.t;Inspired Hymn;;;;;;;;;;;;;x
+charismatic.1200.d;During a long night of worship you find the words to a new hymn — a line that moves the faithful and lingers in the mind.;;;;;;;;;;;;;x
+charismatic.1200.a;I will set it down and sing it.;;;;;;;;;;;;;x
+charismatic.1200.b;It will remain with me.;;;;;;;;;;;;;x
+charismatic_inspired_hymn;Inspired Hymn;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
 
-# Joining Pastoral of Youth upon coming of age #
-charismatic.1.d;As is tradition amongst Charismatic nobles, upon reaching 16 it is expected that one shall start partaking in Pastoral life by joining the Pastoral of the Youth, aimed at instructing its members and faith and readying them to later join one of the more specific pastorals. Pastoral of Youth activities often involve theological study and event organisation, but truthfully many just use the pastorals as excuses to socialize and meet potential brides.
-charismatic.1.a;I will join it, as tradition demands.;;;;;;;;;;;;;;x
-charismatic.1.b;I don't think that's for me...;;;;;;;;;;;;;;x
+### TRIDENTINE EVENTS ###
+CTT_TRIDENTINE_CRUSADES_UNLOCKED;The Tridentine Crusading Era has Begun\n;;;;;;;;;;;;;;;;x
 
-# Pastoral of Youth events #
-charismatic.12.n;A lending hand;;;;;;;;;;;;;;x
-charismatic.12.d;Whilist undergoing preparations for the feast day of the parish's Saint, ...
-charismatic.12.a;
-charismatic.12.b;No thank you, I can do it myself.
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
+tridentine.1.title;Reges Crucesignati;;;;;;;;;;;;;x
+tridentine.1.desc;Quito, ancient stronghold of the True Church in the Andes, lies beyond Tridentine hands. The loss of so sacred a city has shaken the faithful and emboldened the enemies of orthodoxy across the mountains.\n\nIn the absence of Rome and with no word from the Apostolic See, [Root.GetFOA], [Root.GetTitledName], has declared that necessity demands action. Acting in defense of the Apostolic Chamber and the faithful entrusted to it, he has sanctioned a formal invasion by united Tridentine princes. This decision signals the beginning of a new era of large scale Tridentine holy wars, the Crusades.;;;;;;;;;;;;;x
+tridentine.1.optA;Deus Vult!;;;;;;;;;;;;;x
+tridentine.1.optB;This threatens the peace of Christendom.;;;;;;;;;;;;;x
+tridentine.2.desc;Teresina, once counted among the faithful cities, now stands in error. Its rulers have strayed from the ancient rites, and the Sacrifice of the Mass is profaned or silenced.\n\n[Root.GetFOA], [Root.GetTitledName], has declared that in this time of Great Tribulation no deviation may be tolerated. Acting as guardian of the Apostolic Chamber until the return of His Holiness, he has called upon the princes of the True Church to take up the Cross. Thus begins a new era of great and righteous Tridentine holy wars, the Crusades.;;;;;;;;;;;;;x
+tridentine.3.desc;Across the continent, those who call themselves Christian have abandoned the ancient rites and the authority of the true Apostolic tradition. They erect new hierarchies, invent new doctrines, and claim legitimacy where none exists.\n\nIn this age without a Vicar of Christ, [Root.GetFOA], [Root.GetTitledName], has proclaimed that error must not be permitted to harden into permanence. He has sanctioned a united campaign to correct the wayward and cleanse the lands of false shepherds. Thus begins a new era of large scale Tridentine holy wars, the Crusades.;;;;;;;;;;;;;x
+tridentine.4.desc;The faithful have long endured the silence of Rome and the confusion of the nations. The world drifts further from the ancient path, and even those who bear the Cross stray into compromise and innovation.\n\nDeclaring that the Tribulation has entered a new and decisive phase, [Root.GetFOA], [Root.GetTitledName], has called upon all Tridentine rulers to take up arms in defense of the unaltered faith. The Apostolic Chamber authorizes a great and purifying war. Thus begins a new era of large scale Tridentine holy wars, the Crusades.;;;;;;;;;;;;;x

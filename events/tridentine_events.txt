@@ -1,0 +1,217 @@
+namespace = tridentine
+
+# THE START OF THE TRIDENTINE CRUSADES - 2670 AND QUITO NOT TRIDENTINE
+narrative_event = {
+	id = tridentine.1
+	title = tridentine.1.title
+	desc = tridentine.1.desc
+	picture = GFX_evt_ursuline_crusade
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+	
+	show_ROOT = yes
+	hide_new = yes
+	religion = tridentine
+	only_playable = yes
+	min_age = 16
+	
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		controls_religion = yes
+		year = 2670
+		
+		410 = { # Pichincha / Quito
+			NOT = { owner = { religion = tridentine } }
+		}
+		
+		NOT = { has_global_flag = tridentine_crusade_unlocked }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	immediate = {
+		set_global_flag = tridentine_crusade_unlocked
+	}
+	
+	option = {
+		name = tridentine.1.optA
+		trigger = { religion = tridentine }
+	}
+	option = {
+		name = tridentine.1.optB
+		trigger = {
+			religion_group = christian
+			NOT = { religion = tridentine }
+		}
+	}
+	option = {
+		name = EVTOPTB39660
+		trigger = { NOT = { religion_group = christian } }
+	}
+}
+
+# THE START OF THE TRIDENTINE CRUSADES - TERESINA FALLEN
+narrative_event = {
+	id = tridentine.2
+	title = tridentine.1.title
+	desc = tridentine.2.desc
+	picture = GFX_evt_ursuline_crusade
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+	
+	show_ROOT = yes
+	hide_new = yes
+	religion = tridentine
+	only_playable = yes
+	min_age = 16
+	
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		controls_religion = yes
+		year = 2670
+		NOT = { has_global_flag = tridentine_crusade_unlocked }
+		
+		578 = { # Teresina
+			NOT = { owner = { religion = tridentine } }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	immediate = {
+		set_global_flag = tridentine_crusade_unlocked
+	}
+	
+	option = {
+		name = tridentine.1.optA
+		trigger = { religion = tridentine }
+	}
+	option = {
+		name = tridentine.1.optB
+		trigger = {
+			religion_group = christian
+			NOT = { religion = tridentine }
+		}
+	}
+	option = {
+		name = EVTOPTB39660
+		trigger = { NOT = { religion_group = christian } }
+	}
+}
+
+# THE START OF THE TRIDENTINE CRUSADES - CHRISTIAN ERROR CONSOLIDATES (LATER)
+narrative_event = {
+	id = tridentine.3
+	title = tridentine.1.title
+	desc = tridentine.3.desc
+	picture = GFX_evt_ursuline_crusade
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+	
+	show_ROOT = yes
+	hide_new = yes
+	religion = tridentine
+	only_playable = yes
+	min_age = 16
+	
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		controls_religion = yes
+		year = 2700
+		NOT = { has_global_flag = tridentine_crusade_unlocked }
+		
+		any_realm_province = {
+			owner = {
+				religion_group = christian
+				NOT = { religion = tridentine }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	immediate = {
+		set_global_flag = tridentine_crusade_unlocked
+	}
+	
+	option = {
+		name = tridentine.1.optA
+		trigger = { religion = tridentine }
+	}
+	option = {
+		name = tridentine.1.optB
+		trigger = {
+			religion_group = christian
+			NOT = { religion = tridentine }
+		}
+	}
+	option = {
+		name = EVTOPTB39660
+		trigger = { NOT = { religion_group = christian } }
+	}
+}
+
+# THE START OF THE TRIDENTINE CRUSADES - TRIBULATION ESCALATES (LATEST)
+narrative_event = {
+	id = tridentine.4
+	title = tridentine.1.title
+	desc = tridentine.4.desc
+	picture = GFX_evt_ursuline_crusade
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+	
+	show_ROOT = yes
+	hide_new = yes
+	religion = tridentine
+	only_playable = yes
+	min_age = 16
+	
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		controls_religion = yes
+		year = 2725
+		NOT = { has_global_flag = tridentine_crusade_unlocked }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	immediate = {
+		set_global_flag = tridentine_crusade_unlocked
+	}
+	
+	option = {
+		name = tridentine.1.optA
+		trigger = { religion = tridentine }
+	}
+	option = {
+		name = tridentine.1.optB
+		trigger = {
+			religion_group = christian
+			NOT = { religion = tridentine }
+		}
+	}
+	option = {
+		name = EVTOPTB39660
+		trigger = { NOT = { religion_group = christian } }
+	}
+}

@@ -815,7 +815,7 @@ character_event = {
     is_triggered_only = yes
     trigger = {
         FROM = {
-            title = k_papacy
+            title = k_mysticalist
         }
     }
 
@@ -827,8 +827,8 @@ character_event = {
                 }
             }
             grant_title_no_opinion = k_romagna
-            destroy_landed_title = k_papacy
-            k_papacy = {
+            destroy_landed_title = k_mysticalist
+            k_mysticalist = {
                 any_direct_de_jure_vassal_title = {
                     de_jure_liege = k_romagna
                 }
@@ -863,8 +863,8 @@ character_event = {
     }
 
     immediate = {
-        destroy_landed_title = k_papacy
-        k_papacy = {
+        destroy_landed_title = k_mysticalist
+        k_mysticalist = {
             any_direct_de_jure_vassal_title = {
                 de_jure_liege = k_romagna
             }

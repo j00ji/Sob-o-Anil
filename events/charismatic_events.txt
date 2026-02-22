@@ -1,0 +1,380 @@
+namespace = charismatic
+
+# Choose patron deity
+character_event = {
+	id = charismatic.1
+	desc = EVTDESC_apostolic_1
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	religion = anchietican
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_apostolic_1
+		hidden_tooltip = {
+			remove_trait = apostolic_bonfim
+			remove_trait = apostolic_aparecida
+		}
+		add_trait = apostolic_pedro
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = apostolic_pedro }
+			modifier = { factor = 2 trait = strong }
+			modifier = { factor = 5 trait = brilliant_strategist }
+			modifier = { factor = 4 trait = skilled_tactician }
+			modifier = { factor = 3 trait = tough_soldier }
+			modifier = { factor = 2 trait = misguided_warrior }
+			modifier = { factor = 1.5 trait = brave }
+			modifier = { factor = 1.5 trait = diligent }
+			modifier = { factor = 1.5 trait = humble }
+			modifier = { factor = 2	martial = 10 }
+			modifier = { factor = 0.3 trait = craven }
+		}
+	}
+
+	option = {
+		name = EVTOPTB_apostolic_1
+		hidden_tooltip = {
+			remove_trait = apostolic_pedro
+			remove_trait = apostolic_aparecida
+		}
+		add_trait = apostolic_bonfim
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = apostolic_bonfim }
+			modifier = { factor = 5	trait = elusive_shadow }
+			modifier = { factor = 4	trait = intricate_webweaver }
+			modifier = { factor = 3	trait = flamboyant_schemer }
+			modifier = { factor = 2	trait = amateurish_plotter }
+			modifier = { factor = 2	intrigue = 10 }
+			modifier = { factor = 2 trait = deceitful }
+			modifier = { factor = 3 trait = sympathy_afro_syncretic }
+			modifier = { factor = 0.3 trait = zealous }
+		}
+	}
+	
+	option = {
+		name = EVTOPTC_apostolic_1
+		hidden_tooltip = {
+			remove_trait = apostolic_pedro
+			remove_trait = apostolic_bonfim
+		}
+		add_trait = apostolic_aparecida
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = apostolic_aparecida }
+			modifier = { factor = 1.5 trait = zealous }
+			modifier = { factor = 1.5 trait = charitable }
+			modifier = { factor = 1.5 trait = kind }
+			modifier = { factor = 1.5 learning = 10 }
+			modifier = { factor = 1.5 diplomacy = 10 }
+			modifier = { factor = 0.3 trait = cynical }
+			modifier = { factor = 0.3 trait = sympathy_afro_syncretic }
+		}
+	}
+}
+
+# Follower of Bonfim may gain Sympathy for Afro-Syncretic
+character_event = {
+	id = charismatic.2
+	desc = EVTDESC_apostolic_2
+	picture = GFX_evt_capoeira
+	border = GFX_event_normal_frame_religion
+	religion = anchietican
+	
+	trigger = {
+		trait = apostolic_bonfim
+		NOT = { trait = sympathy_afro_syncretic }
+	}
+	
+	mean_time_to_happen = {
+		months = 40
+	}
+	
+	option = {
+		name = EVTOPTA_apostolic_2
+		remove_trait = zealous
+		add_trait = sympathy_afro_syncretic
+	}
+	
+	option = {
+		name = EVTOPTB_apostolic_2
+		piety = 25
+	}
+}
+
+# Follower of Aparecida may become Zealous
+character_event = {
+	id = charismatic.3
+	desc = EVTDESC_apostolic_3
+	picture = GFX_evt_lady_aparecida
+	border = GFX_event_normal_frame_religion
+	religion = anchietican
+	
+	trigger = {
+		trait = apostolic_aparecida
+		NOT = { trait = zealous }
+	}
+	
+	mean_time_to_happen = {
+		months = 40
+	}
+	
+	option = {
+		name = EVTOPTA_apostolic_3
+		add_trait = zealous
+	}
+	
+	option = {
+		name = EVTOPTB_apostolic_3
+		piety = -15
+	}
+}
+
+# Follower of Pedro strives to be more like him
+character_event = {
+	id = charismatic.4
+	desc = EVTDESC_apostolic_4
+	picture = GFX_evt_lady_aparecida
+	border = GFX_event_normal_frame_religion
+	religion = anchietican
+	
+	trigger = {
+		trait = apostolic_pedro
+		NOT = {
+			trait = cynical
+		}
+		NOT = {
+			AND = {
+				trait = diligent
+				trait = humble
+				trait = brave
+			}
+		}
+		NOT = {
+			has_character_flag = like_pedro
+		}
+	}
+	
+	immediate = {
+		set_character_flag = like_pedro
+	}
+	
+	mean_time_to_happen = {
+		months = 40
+	}
+	
+	option = {
+		name = EVTOPTA_apostolic_4
+		trigger = {
+			NOT = {
+				trait = diligent
+			}
+		}
+		add_trait = diligent
+	}
+	
+	option = {
+		name = EVTOPTB_apostolic_4
+		trigger = {
+			NOT = {
+				trait = humble
+			}
+		}
+		add_trait = humble
+	}
+	
+	option = {
+		name = EVTOPTC_apostolic_4
+		trigger = {
+			NOT = {
+				trait = brave
+			}
+		}
+		add_trait = brave
+	}
+	
+	option = {
+		name = EVTOPTD_apostolic_3
+	}
+}
+
+############################################################
+# Charismatic event chain ? Pillar 1: Speaking in Tongues
+############################################################
+
+character_event = {
+	id = charismatic.1000
+	title = charismatic.1000.t
+	desc = charismatic.1000.d
+	picture = GFX_evt_mystical_experience
+
+	trigger = {
+		religion = charismatic
+		piety = 20
+	}
+
+	mean_time_to_happen = { months = 120 }
+
+	option = {
+		name = charismatic.1000.a
+		ai_chance = { factor = 70 }
+		add_piety = 25
+		set_character_flag = charismatic_tongues_experience
+		# schedule immediate followup roll for trait gains / risk
+		trigger_event = { id = charismatic.1005 days = 1 }
+	}
+
+	option = {
+		name = charismatic.1000.b
+		ai_chance = { factor = 20 }
+		# interpretation requires study
+		condition = { learning = 12 }
+		add_piety = 15
+		set_character_flag = charismatic_tongues_interpreter
+		trigger_event = { id = charismatic.1001 days = 1 }
+	}
+
+	option = {
+		name = charismatic.1000.c
+		ai_chance = { factor = 10 }
+		add_piety = -5
+		add_opinion = { target = ROOT value = 5 }
+		add_prestige = -15
+		set_character_flag = charismatic_tongues_restrained
+	}
+}
+
+character_event = {
+	# Followup: roll for gifts/risks after a tongues experience
+	id = charismatic.1005
+	hidden = yes
+	trigger = { has_character_flag = charismatic_tongues_experience }
+	mean_time_to_happen = { days = 1 }
+	immediate = yes
+
+	option = {
+		name = charismatic.1005.a
+		ai_chance = { factor = 100 }
+		# Weighted outcomes: mystic most likely, poet occasional, possessed rare
+		random_list = {
+			70 = { gain_trait = mystic }
+			20 = { gain_trait = poet }
+			10 = { gain_trait = possessed }
+		}
+		# small additional piety for being visibly spirit-filled
+		add_piety = 10
+	}
+}
+
+############################################################
+# Pillar 2: Mystical Journey / Vision Quest
+############################################################
+
+character_event = {
+	id = charismatic.1100
+	title = charismatic.1100.t
+	desc = charismatic.1100.d
+	picture = GFX_evt_pilgrimage
+
+	trigger = {
+		OR = {
+			has_character_flag = charismatic_tongues_experience
+			has_trait = mystic
+		}
+		piety = 50
+	}
+
+	mean_time_to_happen = { months = 240 }
+
+	option = {
+		name = charismatic.1100.a
+		ai_chance = { factor = 60 }
+		set_character_flag = charismatic_journey_selected
+		trigger_event = { id = charismatic.1101 days = 1 }
+	}
+
+	option = {
+		name = charismatic.1100.b
+		ai_chance = { factor = 40 }
+		add_piety = 10
+	}
+}
+
+character_event = {
+	id = charismatic.1101
+	hidden = yes
+	trigger = { has_character_flag = charismatic_journey_selected }
+	mean_time_to_happen = { days = 1 }
+	immediate = yes
+
+	option = {
+		name = charismatic.1101.a
+		ai_chance = { factor = 40 }
+		# Wilderness isolation outcome
+		gain_trait = mystic
+		gain_trait = poet
+		add_piety = 30
+	}
+
+	option = {
+		name = charismatic.1101.b
+		ai_chance = { factor = 40 }
+		# Urban street trance
+		gain_trait = poet
+		add_piety = 20
+		# small chance of lunatic
+		random_list = { 95 = { } 5 = { gain_trait = lunatic } }
+	}
+
+	option = {
+		name = charismatic.1101.c
+		ai_chance = { factor = 20 }
+		# Night-long vigil, possible claim/vision
+		gain_trait = mystic
+		set_character_flag = charismatic_received_vision
+		add_piety = 40
+	}
+}
+
+############################################################
+# Pillar 3: Poets & Sacred Art
+############################################################
+
+character_event = {
+	id = charismatic.1200
+	title = charismatic.1200.t
+	desc = charismatic.1200.d
+	picture = GFX_evt_poetry
+
+	trigger = {
+		OR = { has_character_flag = charismatic_tongues_experience has_character_flag = charismatic_received_vision }
+		religion = charismatic
+	}
+
+	mean_time_to_happen = { months = 60 }
+
+	option = {
+		name = charismatic.1200.a
+		ai_chance = { factor = 70 }
+		gain_trait = poet
+		add_piety = 15
+		# create a small local cultural/religious spread effect: grant a temporary modifier
+		add_character_modifier = {
+			name = charismatic_inspired_hymn
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = charismatic.1200.b
+		ai_chance = { factor = 30 }
+		add_piety = 5
+	}
+}

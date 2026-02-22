@@ -1,0 +1,4 @@
+2364.1.8 = {
+	holder=70025 # Orlando Montfort
+	liege=k_tridentine
+}

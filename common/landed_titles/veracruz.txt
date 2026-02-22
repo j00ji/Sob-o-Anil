@@ -8,6 +8,8 @@ e_vera_cruz = {
 	k_fluminense = {
 		color={ 201 238 103 }
 		color2={ 255 255 255 }
+
+		tridentine = 100 # Crusade target weight
 		
 		capital = 1 # c_rio_de_janeiro
 		culture = carioca
@@ -176,6 +178,8 @@ e_vera_cruz = {
 			c_campos = { # 15
 				color={ 194 150 0 }
 				color2={ 255 255 255 }
+				holy_site = tridentine
+				holy_site = mysticalist
 				
 				b_campos = {}
 				b_santo_amaro = {}
@@ -248,8 +252,6 @@ e_vera_cruz = {
 			c_sao_joao_da_barra = { # 17
 				color={ 125 150 0 }
 				color2={ 255 255 255 }
-				holy_site = tridentine
-				holy_site = mysticalist
 				
 				b_sao_joao_da_barra = {}
 				b_gargau = {}

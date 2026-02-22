@@ -8,5 +8,5 @@
 }
 2365.1.1={
 	holder = 860036
-	liege = k_papacy
+	liege = k_mysticalist
 }

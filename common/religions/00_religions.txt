@@ -748,13 +748,20 @@ christian = {
 		crusade_cb = new_crusade
 		scripture_name = THE_BIBLE
 		priest_title = PRIEST
+		
 		investiture = yes
+		# can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
+	
 		allow_rivermovement = yes
 		rel_head_defense = yes 
 		aggression = 2.0
-		can_demand_religious_conversion = yes
 		raised_vassal_opinion_loss = no
 
 		religious_clothing_head = 0

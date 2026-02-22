@@ -1,6 +1,5 @@
 ###FORM OF ADDRESS;;;;;;;;;;;;;;
 PATRIARCH;Patriarch;;;;;;;;;;;;;x
-PATRIARCH_FEMALE;Patriarchess;;;;;;;;;;;;;x
 ARCHBISHOP;Bishop-President;;;;;;;;;;;;;x
 PATRIARCHY_FOA;Patriarch of South America;;;;;;;;;;;;;x
 ARCHBISHOP_FOA;Bishop-President of Brazil;;;;;;;;;;;;;x
@@ -8,6 +7,8 @@ LORD_COMMANDER;Lord-Commander;;;;;;;;;;;;;x
 LADY_COMMANDER;Lady-Commander;;;;;;;;;;;;;x
 GENERALSHIP;Generalship of;;;;;;;;;;;;;x
 ARCHDIOCESE;Archdiocese of;;;;;;;;;;;;;x
+CAMERLENGO;Camerlengo;;;;;;;;;;;;;x
+CAMERLENGO_FOA;Your Eminence;;;;;;;;;;;;;x
 
 #
 PATRIARCHATE_TITLE;Archbishophric of $TITLE$;Patriarcat de $TITLE$;Patriarchat von $TITLE$;;Patriarcado de $TITLE$;;;;;;;;;x

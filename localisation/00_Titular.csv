@@ -57,8 +57,8 @@ d_fire_wasps;The Fire Wasps;;;;;;;;;;;;;x
 d_fire_wasps_adj;Fire Wasp;;;;;;;;;;;;;x
 d_army_commoners;The Army of the Commoners;;;;;;;;;;;;;x
 d_army_commoners_adj;Commoner;;;;;;;;;;;;;x
-k_papacy;Mysticalist Papacy;États pontificaux;Kirchenstaat;;Estados Pontificios;;;;;x
-k_papacy_adj;Papal;;;;;;;;;;;;;x
+k_mysticalist;Mysticalist Papacy;États pontificaux;Kirchenstaat;;Estados Pontificios;;;;;x
+k_mysticalist_adj;Papal;;;;;;;;;;;;;x
 e_israelite;The Israelite Mission of the New Universal Covenant;;;;;;;;;;;;;x
 e_israelite_adj;Israelite;;;;;;;;;;;;;x
 d_kraholand;Kraholand;;;;;;;;;;;;;x
@@ -76,3 +76,5 @@ k_new_galicia;New Galicia;New Galicia;New Galicia;;New Galicia;;;;;;;;;x
 k_new_galicia_adj;New Galician;New Galician;New Galician;;New Galician;;;;;;;;;x
 k_nova_rutenia;Nova Rutenia;Nova Rutenia;Nova Rutenia;;Nova Rutenia;;;;;;;;;x
 k_nova_rutenia_adj;Nova Rutenian;Nova Rutenian;Nova Rutenian;;Nova Rutenian;;;;;;;;;x
+k_tridentine;Apostolic Camera;Cámara Apostólica;Apostolische Kammer;;Câmara Apostólica;;;;;;;;;x
+k_tridentine_adj;Cameral;;Apostolische Kammeral;;;Câmara Apostólica;;;;;;;;;x

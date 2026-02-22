@@ -306,11 +306,11 @@ character_event = {
                     }
 	    		}
 			}
-			fraticelli = {
+			tridentine = {
 				official_crusade_recipient = {
                     character = ROOT
                     NOT = {
-                        religion = fraticelli
+                        religion = tridentine
                     }
 				}
 			}
@@ -324,7 +324,7 @@ character_event = {
     	trigger_switch = {
     		on_trigger = religion
     		catholic = { k_papal_state = { owner = { character_event = { id = HFP.41000 days = 1 } } } }
-    		fraticelli = { d_fraticelli = { owner = { character_event = { id = HFP.41000 days = 1 } } } }
+    		tridentine = { k_tridentine = { owner = { character_event = { id = HFP.41000 days = 1 } } } }
     	}
     }
 }
@@ -341,7 +341,7 @@ character_event = {
                     character = ROOT
 	    		}
 			}
-			fraticelli = {
+			tridentine = {
 				official_crusade_recipient = {
                     character = ROOT
 				}
@@ -358,7 +358,7 @@ character_event = {
             catholic = {
                 set_official_crusade_recipient = NONE
             }
-            fraticelli = {
+            tridentine = {
                 set_official_crusade_recipient = NONE
             }
         }
@@ -366,7 +366,7 @@ character_event = {
     	trigger_switch = {
     		on_trigger = religion
     		catholic = { k_papal_state = { owner = { character_event = { id = HFP.41000 } } } }
-    		fraticelli = { d_fraticelli = { owner = { character_event = { id = HFP.41000 } } } }
+    		tridentine = { k_tridentine = { owner = { character_event = { id = HFP.41000 } } } }
     	}
     }
 }
@@ -381,7 +381,7 @@ character_event = {
 		uses_new_crusade = yes
     	OR = {
     		religion = catholic
-    		religion = fraticelli
+    		religion = tridentine
     	}
     }
 
@@ -5367,7 +5367,7 @@ character_event = {
         }
         OR = {
             religion = catholic
-            religion = fraticelli
+            religion = tridentine
         }
     }
 
@@ -5843,7 +5843,7 @@ character_event = {
             limit = {
                 religion = catholic
             }
-            religion = fraticelli
+            religion = tridentine
         }
     }
 }
@@ -6347,7 +6347,7 @@ province_event = {
         }
         if = {
             limit = {
-                d_fraticelli = {
+                k_tridentine = {
                     owner = {
                         any_war = {
                             using_cb = new_crusade
@@ -6355,7 +6355,7 @@ province_event = {
                     }
                 }
             }
-            d_fraticelli = {
+            k_tridentine = {
                 owner = {
                     character_event = { id = HFP.41143 }
                 }
@@ -6518,7 +6518,7 @@ province_event = {
         }
         if = {
             limit = {
-                d_fraticelli = {
+                k_tridentine = {
                     owner = {
                         any_war = {
                             using_cb = new_crusade
@@ -6526,7 +6526,7 @@ province_event = {
                     }
                 }
             }
-            d_fraticelli = {
+            k_tridentine = {
                 owner = {
                     character_event = { id = HFP.41146 }
                 }

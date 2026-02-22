@@ -11,10 +11,14 @@ e_peru = {
 		
 		capital = 410 # c_pichincha
 		culture = serrano
+
+		tridentine = 10000
 		
 		d_quito = {
 			color={ 89 227 135 }
 			color2={ 255 255 255 }
+
+			tridentine = 750 # Crusade target weight
 			
 			allow = {
 				OR = {
@@ -27,6 +31,10 @@ e_peru = {
 			c_pichincha = { # 410
 				color={ 99 217 140 }
 				color2={ 255 255 255 }
+
+				tridentine = 5000 # Crusade target weight
+				mysticalist = 5000
+
 				holy_site = darwinist
 				holy_site = lamarckian
 				holy_site = tridentine
@@ -443,6 +451,8 @@ e_peru = {
 	k_omagua = {
 		color={ 219 226 240 }
 		color2={ 255 255 255 }
+
+		tridentine = 5000 # Crusade target weight
 		
 		capital = 939 # c_maynas
 		culture = carioca
@@ -663,6 +673,8 @@ e_peru = {
 	k_pachacamac = {
 		color={ 126 29 138 }
 		color2={ 255 255 255 }
+
+		tridentine = 500 # Crusade target weight
 		
 		capital = 906 # c_lima
 		culture = carioca
@@ -690,6 +702,8 @@ e_peru = {
 				holy_site = liberationist
 				holy_site = pachamama
 				holy_site = patria_grande
+				holy_site = tridentine
+				holy_site = mysticalist
 				
 				b_lima_3 = {}
 				b_callao = {}
@@ -930,6 +944,8 @@ e_peru = {
 	k_sipan = {
 		color={ 225 174 115 }
 		color2={ 255 255 255 }
+		
+		tridentine = 250 # Crusade target weight
 		
 		capital = 952 # c_trujillo
 		culture = carioca
@@ -1197,6 +1213,8 @@ e_peru = {
 	k_vilcabamba = {
 		color={ 173 29 120 }
 		color2={ 255 255 255 }
+		
+		tridentine = 250 # Crusade target weight
 		
 		capital = 922 # c_cuzco
 		culture = carioca

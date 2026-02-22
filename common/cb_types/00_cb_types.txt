@@ -4027,6 +4027,7 @@ new_crusade = {
 				}
 				custom_tooltip = {
 					text = ALT_GHW_STARTED
+					has_global_flag = tridentine_crusade_unlocked
 					has_global_flag = pagan_ghws_unlocked
 					has_global_flag = christian_crusade_unlocked
 				}
@@ -4043,10 +4044,17 @@ new_crusade = {
 				OR = {
 					AND = {
 						religion_group = christian
-						NOT = { religion = ursuline }
+						NOT = { religion = tridentine}
 						custom_tooltip = {
 							text = CTT_CHRISTIAN_CRUSADES_UNLOCKED
 							has_global_flag = christian_crusade_unlocked
+						}
+					}
+					AND = {
+						religion = tridentine
+						custom_tooltip = {
+							text = CTT_TRIDENTINE_CRUSADES_UNLOCKED
+							has_global_flag = tridentine_crusade_unlocked
 						}
 					}
 				}
@@ -4067,6 +4075,9 @@ new_crusade = {
 		FROM = {
 			NOT = { religion = ROOT}
 			OR = {
+				# Allow Tridentine to holy war even within the same religion group
+				ROOT = { can_holy_war_same_group = yes }
+				
 				NOT = { religion_group = ROOT }
 				AND = {
 					has_character_flag = fourth_crusade_target
@@ -4122,6 +4133,7 @@ new_crusade = {
 		FROM = {
 			NOT = { religion = ROOT}
 			OR = {
+				ROOT = { can_holy_war_same_group = yes }
 				NOT = { religion = ROOT }
 				is_heresy_of = ROOT
 				is_parent_religion = ROOT
@@ -4257,6 +4269,7 @@ new_crusade = {
 						mercenary = no
 						NOR = {
 							has_landed_title = k_papal_state
+							has_landed_title = k_tridentine
 							has_landed_title = k_ursuline
 						}
 						OR = {
@@ -5609,6 +5622,20 @@ religious = {
 							any_current_enemy = {
 								NOT = {
 									religion_group = muslim
+								}
+							}
+						}
+					}
+				}
+				
+				AND = {
+					religion = tridentine
+					NOT = { religion = FROM }
+					FROM = {
+						NOT = { 
+							any_current_enemy = {
+								NOT = {
+									is_catholic_trigger = yes
 								}
 							}
 						}

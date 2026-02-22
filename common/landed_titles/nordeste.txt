@@ -383,6 +383,8 @@ e_nordeste = {
 		
 		capital = 592 # c_sao_luis
 		culture = west_parnaibas
+
+		tridentine = 250
 		
 		d_uapon_acu = {
 			color={ 0 120 160 }
@@ -1003,6 +1005,8 @@ e_nordeste = {
 	k_piaui = {
 		color={ 225 116 80 }
 		color2={ 255 255 255 }
+
+		tridentine = 1000 # Crusade target weight
 		
 		capital = 578 # c_teresina
 		culture = parnaibas
@@ -1140,8 +1144,6 @@ e_nordeste = {
 			c_luzilandia = { # 583
 				color={ 211 78 89 }
 				color2={ 255 255 255 }
-				holy_site = tridentine
-				holy_site = mysticalist
 
 				b_madeiro = {}
 				b_esperantina = {}
@@ -1173,8 +1175,6 @@ e_nordeste = {
 			c_caninde = { # 586
 				color={ 255 168 191 }
 				color2={ 255 255 255 }
-				holy_site = tridentine
-				holy_site = mysticalist
 
 				b_picos = {}
 				b_senhora_dos_remedios = {}

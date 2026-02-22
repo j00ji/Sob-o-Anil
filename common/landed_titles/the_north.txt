@@ -9,6 +9,8 @@ e_the_north = {
 	k_amazonas = {
 		color={ 80 21 47 }
 		color2={ 255 255 255 }
+
+		tridentine = 100
 		
 		capital = 740 # c_manaus
 		culture = amazonense
@@ -899,6 +901,8 @@ e_the_north = {
 		
 		capital = 785 # c_belem
 		culture = paraense
+
+		tridentine = 100
 		
 		d_belem = {
 			color={ 124 174 199 }
